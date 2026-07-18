@@ -262,61 +262,143 @@
     "flashcards": [
       {
         "question": "What are the two critical grip positions required before executing an effective snap down to front headlock?",
-        "answer": "The two critical grips are: (1) Primary head/neck control with hand positioned behind opponent's skull or neck with firm pressure, and (2) Secondary control point on opponent's tricep, lat, or overhook on near arm. This two-point control system prevents opponent from posting or creating defensive frames while providing the leverage to direct their descent and maintain control throughout the transition."
+        "answer": "The two critical grips are: (1) Primary head/neck control with hand positioned behind opponent's skull or neck with firm pressure, and (2) Secondary control point on opponent's tricep, lat, or overhook on near arm. This two-point control system prevents opponent from posting or creating defensive frames while providing the leverage to direct their descent and maintain control throughout the transition.",
+        "answer_line": "Head control + tricep/overhook",
+        "distractors": {
+          "plausible": [
+            "Two hands on head, no arm",
+            "Head grip + wrist control"
+          ],
+          "trap": [
+            "Underhook only, ignore head"
+          ]
+        }
       },
       {
         "question": "Why is it essential to drive your hips forward during the snap down rather than simply pulling with your arms?",
-        "answer": "Hip drive is essential because arm strength alone generates insufficient force to overcome an opponent's structural base and postural resistance. By driving hips forward while pulling downward, you engage larger muscle groups including lats, core, and hips, creating significantly more power. Forward hip drive also positions your body weight over the opponent as they descend, establishing the dominant angle necessary for front headlock control and preventing posture recovery."
+        "answer": "Hip drive is essential because arm strength alone generates insufficient force to overcome an opponent's structural base and postural resistance. By driving hips forward while pulling downward, you engage larger muscle groups including lats, core, and hips, creating significantly more power. Forward hip drive also positions your body weight over the opponent as they descend, establishing the dominant angle necessary for front headlock control and preventing posture recovery.",
+        "answer_line": "Drive hips forward, not just arms",
+        "distractors": {
+          "plausible": [
+            "Pull down with both arms hard",
+            "Push chest into their head"
+          ],
+          "trap": [
+            "Yank straight down, no hip drive"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls and drives forward as you initiate the snap down - what is the correct response?",
-        "answer": "When opponent sprawls and drives forward, redirect to alternative techniques rather than forcing the snap. Use their forward drive to change levels and attack their legs with single or double leg takedowns since they have committed their weight forward. Alternatively, execute an arm drag to access their back, or redirect to guillotine if their head is exposed during the sprawl. The key is recognizing the failed snap early and immediately transitioning rather than continuing against their momentum."
+        "answer": "When opponent sprawls and drives forward, redirect to alternative techniques rather than forcing the snap. Use their forward drive to change levels and attack their legs with single or double leg takedowns since they have committed their weight forward. Alternatively, execute an arm drag to access their back, or redirect to guillotine if their head is exposed during the sprawl. The key is recognizing the failed snap early and immediately transitioning rather than continuing against their momentum.",
+        "answer_line": "Chain to leg attack takedown",
+        "distractors": {
+          "plausible": [
+            "Force the snap harder",
+            "Switch to underhook and clinch"
+          ],
+          "trap": [
+            "Keep pulling for the snap"
+          ]
+        }
       },
       {
         "question": "How should the direction of force during the snap differ from a straight downward pull, and why is this critical?",
-        "answer": "The snap should be executed downward AND across your centerline rather than straight down. Pulling straight down allows opponent to maintain structural integrity by posting hands directly beneath their shoulders. By directing force down and across your body, you break their structural alignment, making it impossible to post effectively while creating the angle necessary for front headlock control. This diagonal force vector collapses their base and prevents defensive posturing."
+        "answer": "The snap should be executed downward AND across your centerline rather than straight down. Pulling straight down allows opponent to maintain structural integrity by posting hands directly beneath their shoulders. By directing force down and across your body, you break their structural alignment, making it impossible to post effectively while creating the angle necessary for front headlock control. This diagonal force vector collapses their base and prevents defensive posturing.",
+        "answer_line": "Snap down and across centerline",
+        "distractors": {
+          "plausible": [
+            "Pull straight down with power",
+            "Snap down and away from you"
+          ],
+          "trap": [
+            "Snap up and back on their neck"
+          ]
+        }
       },
       {
         "question": "What immediate submission opportunities become available upon successfully establishing front headlock control?",
         "answer": "Front headlock control immediately opens the guillotine, anaconda, and darce chokes, plus various neck cranks, depending on the opponent's reactions. The guillotine uses your existing head control to secure the choking grip, the anaconda transitions your grip to trap their arm against their neck, and the darce threads under the far arm with the opposite-side grip configuration. The specific submission selected depends on the opponent's defensive reactions, their body positioning, and which grips were established during the snap down.",
         "distractors": {
           "plausible": [
-            "Front headlock control primarily sets up the rear naked choke once you spin behind to take the back.",
-            "The main immediate attacks are the armbar and triangle, entered by pulling guard while holding the head."
+            "Rear naked choke setup",
+            "Kimura from front headlock"
           ],
           "trap": [
-            "Crank the opponent's neck straight down with both hands right away, before securing any arm or choking grip."
+            "Let go and reset your grips"
+          ]
+        },
+        "answer_line": "Guillotine, anaconda, or darce"
+      },
+      {
+        "question": "Your opponent posts their hand to the mat after the snap - how do you adjust your attack?",
+        "answer": "When opponent posts to the mat, their posted arm becomes vulnerable. Attack the posted arm with a kimura grip by controlling their wrist and threading behind the elbow. Alternatively, circle toward the posted side while maintaining head control to collapse the structural frame by driving your shoulder into their tricep. You can also use the post as a cue to transition to anaconda or darce choke, as the posted arm creates the arm-in configuration these submissions require.",
+        "answer_line": "Attack posted arm with kimura",
+        "distractors": {
+          "plausible": [
+            "Switch to leg takedown",
+            "Circle away from posted arm"
+          ],
+          "trap": [
+            "Release grip to re-angle"
           ]
         }
       },
       {
-        "question": "Your opponent posts their hand to the mat after the snap - how do you adjust your attack?",
-        "answer": "When opponent posts to the mat, their posted arm becomes vulnerable. Attack the posted arm with a kimura grip by controlling their wrist and threading behind the elbow. Alternatively, circle toward the posted side while maintaining head control to collapse the structural frame by driving your shoulder into their tricep. You can also use the post as a cue to transition to anaconda or darce choke, as the posted arm creates the arm-in configuration these submissions require."
-      },
-      {
         "question": "What is the most common timing error when attempting snap downs, and how should it be corrected?",
-        "answer": "The most common timing error is attempting the snap when opponent has already created distance or pulled their head back defensively. The correction involves proper setup timing: establish grips when opponent is within range, create a loading phase by pulling them slightly forward causing them to either resist or commit weight, then execute the snap during this reaction window. The snap must occur when opponent's weight is forward or they are resisting backward, never when they have successfully created distance."
+        "answer": "The most common timing error is attempting the snap when opponent has already created distance or pulled their head back defensively. The correction involves proper setup timing: establish grips when opponent is within range, create a loading phase by pulling them slightly forward causing them to either resist or commit weight, then execute the snap during this reaction window. The snap must occur when opponent's weight is forward or they are resisting backward, never when they have successfully created distance.",
+        "answer_line": "Snap during the loading window",
+        "distractors": {
+          "plausible": [
+            "Snap the instant grips connect",
+            "Snap with maximum arm speed"
+          ],
+          "trap": [
+            "Snap after they back away"
+          ]
+        }
       },
       {
         "question": "How does the snap down create offensive dilemmas when combined with leg attack entries in a chain wrestling system?",
-        "answer": "The snap down attacks the opponent's posture at the head level, forcing them to defend upward by maintaining upright position and resisting downward force. This defense requires them to keep their weight high and their head position strong. However, this defensive posture directly exposes them to level-change takedowns such as double legs and single legs that attack below the waist. Conversely, if they crouch low to defend leg attacks, their bent posture becomes ideal for the snap down. This high-low dilemma is the foundation of effective chain wrestling."
+        "answer": "The snap down attacks the opponent's posture at the head level, forcing them to defend upward by maintaining upright position and resisting downward force. This defense requires them to keep their weight high and their head position strong. However, this defensive posture directly exposes them to level-change takedowns such as double legs and single legs that attack below the waist. Conversely, if they crouch low to defend leg attacks, their bent posture becomes ideal for the snap down. This high-low dilemma is the foundation of effective chain wrestling.",
+        "answer_line": "Posture defense opens leg attacks",
+        "distractors": {
+          "plausible": [
+            "Snap down always beats sprawling",
+            "Head control stops leg attacks"
+          ],
+          "trap": [
+            "Abandon snaps, only shoot legs"
+          ]
+        }
       },
       {
         "question": "What are the key differences in grip strategy between gi and no-gi snap down execution?",
         "answer": "No-gi snap downs rely on transient grips like cupping the skull or a collar tie, while gi collar and lapel grips give far more lasting security. In no-gi, the primary grip is a cupping hand behind the skull or a collar tie with fingers interlocked behind the neck, relying on friction and hand positioning for security. In gi, a deep cross-collar or lapel grip behind the neck resists being stripped and allows sustained control with repeated snap attempts, whereas no-gi grips demand faster execution since sweat and head movement let the opponent shed them more easily.",
         "distractors": {
           "plausible": [
-            "Gi and no-gi snap downs use identical grips, since the cupping hand behind the skull works equally well in both.",
-            "In gi you should avoid collar grips and keep the no-gi skull cup, because gripping cloth telegraphs the snap."
+            "Both use identical collar ties",
+            "No-gi grips last longer than gi"
           ],
           "trap": [
-            "Since gi grips are so strong, hang your full weight from the collar and lean your chest into the opponent."
+            "Grab the gi pants for control"
           ]
-        }
+        },
+        "answer_line": "Gi: lapel grip; no-gi: skull cup"
       },
       {
         "question": "You successfully snap your opponent down but they immediately begin to stand back up before you consolidate front headlock - what went wrong and how do you fix it?",
-        "answer": "The failure occurred in the follow-through phase. After the initial snap, you must immediately chase the opponent's descent with your chest and hips, establishing heavy downward pressure on their upper back before they can rebuild their base. The correction is to drive your body weight forward and down as the snap occurs, getting your chest over their shoulders within the same beat as the pull. If there is a gap between the snap and the chest pressure, the opponent has a window to recover. Think of it as one continuous motion: pull, drive, settle."
+        "answer": "The failure occurred in the follow-through phase. After the initial snap, you must immediately chase the opponent's descent with your chest and hips, establishing heavy downward pressure on their upper back before they can rebuild their base. The correction is to drive your body weight forward and down as the snap occurs, getting your chest over their shoulders within the same beat as the pull. If there is a gap between the snap and the chest pressure, the opponent has a window to recover. Think of it as one continuous motion: pull, drive, settle.",
+        "answer_line": "Chase descent with chest and hips",
+        "distractors": {
+          "plausible": [
+            "Reset grips and snap again",
+            "Wait for them to settle first"
+          ],
+          "trap": [
+            "Step back to create space"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing snap downs, both partners must maintain awareness of the training surface and surrounding space to prevent head or neck contact with the mat or other obstacles. The executing partner should control the speed and force of the snap, particularly during initial learning phases, to prevent neck strain or injury to training partners. Never release control abruptly - maintain connection throughout the descent to ensure partner can safely post or protect themselves. Partners should communicate about resistance levels, especially when learning, and tap immediately if experiencing neck discomfort or inability to support their weight. In competition contexts, be aware that overly aggressive snap downs can be penalized in some rule sets if they endanger opponent's neck or spine. Beginners should practice on padded surfaces and build neck strength through progressive resistance before training this technique at full intensity.",
@@ -440,23 +522,73 @@
     "flashcards": [
       {
         "question": "What is the earliest and most effective point to defend against a snap down attempt?",
-        "answer": "The earliest and most effective defense point is during grip establishment, before the attacker secures their hand behind your head. Active hand fighting that denies the initial head control grip eliminates the snap down threat entirely. Once the attacker has both a head grip and secondary control point, defending becomes significantly harder. The principle is that preventing the setup is always easier than defending the execution."
+        "answer": "The earliest and most effective defense point is during grip establishment, before the attacker secures their hand behind your head. Active hand fighting that denies the initial head control grip eliminates the snap down threat entirely. Once the attacker has both a head grip and secondary control point, defending becomes significantly harder. The principle is that preventing the setup is always easier than defending the execution.",
+        "answer_line": "Deny the grip with hand fighting",
+        "distractors": {
+          "plausible": [
+            "Sprawl hard once they pull",
+            "Keep head low to avoid grips"
+          ],
+          "trap": [
+            "Let them grip, then power out"
+          ]
+        }
       },
       {
         "question": "You feel your opponent loading your weight forward with a slight pull before the explosive snap - what should you do?",
-        "answer": "The loading phase is your critical reaction window. Immediately recover posture by driving your hips underneath you and pulling your head back while simultaneously stripping their grip with a two-on-one break. Alternatively, use their forward pull as timing for a level change and shoot a takedown, since their weight commitment forward compromises their ability to sprawl. The worst response is to simply resist the pull with muscular tension, as this gives them the resistance they need to time the explosive snap."
+        "answer": "The loading phase is your critical reaction window. Immediately recover posture by driving your hips underneath you and pulling your head back while simultaneously stripping their grip with a two-on-one break. Alternatively, use their forward pull as timing for a level change and shoot a takedown, since their weight commitment forward compromises their ability to sprawl. The worst response is to simply resist the pull with muscular tension, as this gives them the resistance they need to time the explosive snap.",
+        "answer_line": "Recover posture, strip the grip",
+        "distractors": {
+          "plausible": [
+            "Brace hard and resist the pull",
+            "Pull your head straight back"
+          ],
+          "trap": [
+            "Resist the pull with pure strength"
+          ]
+        }
       },
       {
         "question": "After being successfully snapped down, why is it dangerous to immediately try to stand up without controlling the attacker's choking arm?",
-        "answer": "Standing up without controlling the choking arm is dangerous because the upward extension of your body tightens any neck control the attacker has, particularly guillotine-style grips. As you drive upward, your neck extends against their forearm, essentially finishing the choke for them. You must first secure the choking arm at the wrist or elbow, pulling it away from your neck to create space, before attempting to stand. Controlling the arm neutralizes the submission threat during your posture recovery."
+        "answer": "Standing up without controlling the choking arm is dangerous because the upward extension of your body tightens any neck control the attacker has, particularly guillotine-style grips. As you drive upward, your neck extends against their forearm, essentially finishing the choke for them. You must first secure the choking arm at the wrist or elbow, pulling it away from your neck to create space, before attempting to stand. Controlling the arm neutralizes the submission threat during your posture recovery.",
+        "answer_line": "Control the arm before standing",
+        "distractors": {
+          "plausible": [
+            "Bridge and roll immediately",
+            "Post your hands and push up"
+          ],
+          "trap": [
+            "Stand straight up right away"
+          ]
+        }
       },
       {
         "question": "Which direction should you circle when escaping a partially successful snap down, and why?",
-        "answer": "Circle away from the attacker's choking arm side. If their right arm is around your head, circle to your left. This direction creates the maximum angle displacement from their submission grips, makes it harder for them to maintain head control, and positions you to recover guard or re-establish the clinch. Circling toward the choking arm side compresses your neck into their grip and makes guillotine, anaconda, and darce submissions significantly easier to finish."
+        "answer": "Circle away from the attacker's choking arm side. If their right arm is around your head, circle to your left. This direction creates the maximum angle displacement from their submission grips, makes it harder for them to maintain head control, and positions you to recover guard or re-establish the clinch. Circling toward the choking arm side compresses your neck into their grip and makes guillotine, anaconda, and darce submissions significantly easier to finish.",
+        "answer_line": "Circle away from the choking arm",
+        "distractors": {
+          "plausible": [
+            "Circle toward your strong side",
+            "Circle whichever way is open"
+          ],
+          "trap": [
+            "Circle toward the choking arm"
+          ]
+        }
       },
       {
         "question": "How can you use the attacker's commitment to the snap down as a counter-wrestling opportunity?",
-        "answer": "When the attacker commits to the snap, their weight shifts forward and their hips drive toward you. This forward commitment creates an opening for counter-takedowns because their base is temporarily compromised. As you feel the snap initiate, change levels and shoot for a single or double leg takedown. Their forward momentum makes it difficult for them to sprawl, and the level change removes your head from their grip trajectory. This transforms a defensive situation into an offensive one, but requires confident timing and willingness to shoot during the pressure of being attacked."
+        "answer": "When the attacker commits to the snap, their weight shifts forward and their hips drive toward you. This forward commitment creates an opening for counter-takedowns because their base is temporarily compromised. As you feel the snap initiate, change levels and shoot for a single or double leg takedown. Their forward momentum makes it difficult for them to sprawl, and the level change removes your head from their grip trajectory. This transforms a defensive situation into an offensive one, but requires confident timing and willingness to shoot during the pressure of being attacked.",
+        "answer_line": "Shoot a takedown as they commit",
+        "distractors": {
+          "plausible": [
+            "Brace and wait them out",
+            "Pull guard to reset position"
+          ],
+          "trap": [
+            "Stand tall and resist the snap"
+          ]
+        }
       }
     ],
     "training_progressions": [

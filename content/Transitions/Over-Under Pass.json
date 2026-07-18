@@ -263,85 +263,140 @@
         "answer": "The stacking angle elevates the opponent's hips and loads their weight onto their shoulders, eliminating their hip mobility and leg power. With their weight stacked onto their shoulders, they cannot hip escape or recover guard, and their defensive frames are compromised. The stack also creates a psychological pressure that can force defensive errors.",
         "distractors": {
           "plausible": [
-            "The stacking angle pins the opponent's shoulders flat to the mat so their upper body cannot rotate away from you.",
-            "The stacking angle drives the opponent's knees down to the mat so you can step directly over their legs."
+            "Wears down their cardio",
+            "Sets up a shoulder crank"
           ],
           "trap": [
-            "The stacking angle lifts your own hips high off the opponent, creating the space you need to hop past their legs quickly."
+            "Ease off to reset your grips"
           ]
-        }
+        },
+        "answer_line": "Loads their weight onto shoulders"
       },
       {
         "question": "Why is it critical to maintain chest-to-chest connection throughout the entire passing sequence?",
-        "answer": "Chest-to-chest connection ensures continuous pressure on the opponent and prevents them from creating the space needed to re-guard or escape. This connection allows you to feel their movements and reactions while maintaining control. If you break chest-to-chest contact during hip circulation, the opponent can immediately hip escape, turn away, or recover their guard structure. The connection also allows you to distribute your weight effectively through their torso."
+        "answer": "Chest-to-chest connection ensures continuous pressure on the opponent and prevents them from creating the space needed to re-guard or escape. This connection allows you to feel their movements and reactions while maintaining control. If you break chest-to-chest contact during hip circulation, the opponent can immediately hip escape, turn away, or recover their guard structure. The connection also allows you to distribute your weight effectively through their torso.",
+        "answer_line": "Denies space to escape or re-guard",
+        "distractors": {
+          "plausible": [
+            "Keeps your grips tight only",
+            "Controls their breathing rate"
+          ],
+          "trap": [
+            "Break contact to circle faster"
+          ]
+        }
       },
       {
         "question": "How does the under-hook control prevent the opponent's most common escape?",
         "answer": "A deep under-hook that reaches and controls the far hip blocks the hip escape toward that side, the opponent's primary escape from the stack. Controlling the far hip removes their ability to create the angle an effective hip escape requires. Depth is critical: a shallow under-hook can be defeated by a determined hip escape, while a deep under-hook reaching the far hip creates an insurmountable barrier.",
         "distractors": {
           "plausible": [
-            "The under-hook pins the opponent's near hip to the mat so they cannot bridge into you and off-balance the pass.",
-            "An under-hook seated under the armpit blocks the shoulder line, which is enough to shut down the hip escape."
+            "Shallow hook is enough control",
+            "Controls near hip, not far"
           ],
           "trap": [
-            "Keep the under-hook shallow and loose so you can pull it free for a fast crossface the moment the opponent starts escaping."
+            "Release hook to re-grip deeper"
           ]
-        }
+        },
+        "answer_line": "Deep hook blocks far-hip escape"
       },
       {
         "question": "Your opponent successfully frames against your neck during the stack - how do you adjust?",
         "answer": "Drive through the neck frame with increased shoulder pressure and a tight head, adjusting your attack angle instead of backing away. Maintain your under-hook depth while doing so, and keep your head tight to their body on the over-hook side to make framing difficult. You can also switch to a crossface variation by threading your over-hook arm across their face, or transition to an alternative pass like the knee slice if the frame is too strong.",
         "distractors": {
           "plausible": [
-            "Post up onto both hands to create height, pulling your neck up and away until the frame loses its contact point.",
-            "Release the under-hook to grab the framing wrist two-on-one and strip the frame before resuming the pass."
+            "Pry the frame off with free hand",
+            "Push their head down first"
           ],
           "trap": [
-            "Back your hips out to relieve the pressure and reset, then re-enter the stack once the frame is gone."
+            "Back off to create new angle"
           ]
-        }
+        },
+        "answer_line": "Drive through frame, tighten head"
       },
       {
         "question": "Why is lateral hip movement preferred over backward movement during the pass completion?",
-        "answer": "Lateral (sideways) hip movement allows you to maintain chest-to-chest connection and forward pressure while simultaneously clearing the opponent's legs. Moving backward would create space between you and the opponent, giving them the opportunity to re-guard, follow you, or escape. The lateral movement keeps you heavy on top while your hips circle around their defensive structure. This concept is fundamental to all pressure-based passing - maintain connection while changing angles."
+        "answer": "Lateral (sideways) hip movement allows you to maintain chest-to-chest connection and forward pressure while simultaneously clearing the opponent's legs. Moving backward would create space between you and the opponent, giving them the opportunity to re-guard, follow you, or escape. The lateral movement keeps you heavy on top while your hips circle around their defensive structure. This concept is fundamental to all pressure-based passing - maintain connection while changing angles.",
+        "answer_line": "Circle hips, keep chest connection",
+        "distractors": {
+          "plausible": [
+            "Pull hips back to gain space",
+            "Push straight forward only"
+          ],
+          "trap": [
+            "Retreat to create passing lane"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the Over-Under Pass from half guard top?",
         "answer": "The window opens once you have won the upper body battle - crossface or head control established and the opponent's frames broken or weakened. Initiating the pass before establishing upper body dominance leads to premature attempts that fail against active frames. A secondary window occurs when the opponent is recovering from a failed sweep or submission attempt, as their grips and frames are momentarily disrupted and their hips are not set for defense.",
         "distractors": {
           "plausible": [
-            "The window opens as soon as you free your trapped knee, since the leg entanglement is the main barrier to passing.",
-            "Wait until the opponent is fully flat with both frames set, then rely on steady pressure to grind through them."
+            "Right when half guard starts",
+            "During their grip-fighting phase"
           ],
           "trap": [
-            "Launch the pass early while the opponent is still framing, using speed to beat their grips before they can settle."
+            "Rush in before frames are broken"
           ]
-        }
+        },
+        "answer_line": "After winning upper-body control"
       },
       {
         "question": "Your opponent begins recovering butterfly hooks during your hip circulation - what is your immediate response?",
-        "answer": "Stop the hip circulation immediately and re-establish your stacking pressure by walking your feet back toward their head. Use your over-hook arm to actively trap and suppress the recovering leg against your torso. Increase chest-to-chest pressure to eliminate the space they need to insert hooks. If the butterfly hook is already partially established, transition to a knee slice pass by releasing the over-hook and driving your knee across their thigh, or switch to a body lock pass by adjusting your grip configuration."
+        "answer": "Stop the hip circulation immediately and re-establish your stacking pressure by walking your feet back toward their head. Use your over-hook arm to actively trap and suppress the recovering leg against your torso. Increase chest-to-chest pressure to eliminate the space they need to insert hooks. If the butterfly hook is already partially established, transition to a knee slice pass by releasing the over-hook and driving your knee across their thigh, or switch to a body lock pass by adjusting your grip configuration.",
+        "answer_line": "Stop, restack, trap the leg",
+        "distractors": {
+          "plausible": [
+            "Speed up hip circulation",
+            "Ignore it, keep same pace"
+          ],
+          "trap": [
+            "Let go and reset from scratch"
+          ]
+        }
       },
       {
         "question": "What grip adjustments are required when executing the Over-Under Pass in no-gi versus gi?",
         "answer": "In no-gi the under-hook must reach deeper to cup the far hip bone directly or underhook the thigh, replacing the gi's belt and pants grips. In gi, the under-hook hand can grip the belt or pants at the far hip for strong mechanical control, and the over-hook can grab the pants leg at the knee or ankle. In no-gi, the over-hook instead controls the leg by wrapping the forearm around the shin or calf and clamping with a gable grip or wrist control. No-gi requires tighter body-to-body connection since fabric grips are unavailable, making chest pressure even more critical.",
         "distractors": {
           "plausible": [
-            "In no-gi you keep the same shallow under-hook as in gi but swap pant grips for a monkey grip behind the ankle.",
-            "In no-gi, control the far leg by cupping behind the knee with both hands, since the sweaty hip cannot be held directly."
+            "Same grips work in both",
+            "No-gi uses a belt substitute"
           ],
           "trap": [
-            "In no-gi, keep your chest off the opponent and rely on fast hand fighting, since connection matters less without fabric grips."
+            "Loosen grips for no-gi speed"
+          ]
+        },
+        "answer_line": "No-gi: cup hip, wrap shin/calf"
+      },
+      {
+        "question": "What direction of force should your shoulder drive during the stacking phase?",
+        "answer": "Your shoulder should drive diagonally forward and downward into the opponent's chest, angled toward the over-hook side. This direction accomplishes two objectives simultaneously: it loads the opponent's weight onto their shoulders by driving their hips upward, and it turns their spine slightly toward the over-hook side, which further compromises their ability to hip escape toward the under-hook. The force vector is not straight down (which allows lateral escape) or straight forward (which can be redirected), but a diagonal that pins and rotates.",
+        "answer_line": "Diagonal, toward over-hook side",
+        "distractors": {
+          "plausible": [
+            "Straight down onto their chest",
+            "Straight forward, driving in"
+          ],
+          "trap": [
+            "Angle away from over-hook side"
           ]
         }
       },
       {
-        "question": "What direction of force should your shoulder drive during the stacking phase?",
-        "answer": "Your shoulder should drive diagonally forward and downward into the opponent's chest, angled toward the over-hook side. This direction accomplishes two objectives simultaneously: it loads the opponent's weight onto their shoulders by driving their hips upward, and it turns their spine slightly toward the over-hook side, which further compromises their ability to hip escape toward the under-hook. The force vector is not straight down (which allows lateral escape) or straight forward (which can be redirected), but a diagonal that pins and rotates."
-      },
-      {
         "question": "If the opponent defends the Over-Under Pass by turning to turtle, what chain attack should you pursue?",
-        "answer": "When the opponent turns to turtle, maintain your under-hook grip as it naturally transitions into a seat belt or waist control position. Follow their rotation closely without allowing space between your chest and their back. Your primary chain attack is a back take by inserting hooks as they complete their turn to turtle. Alternatively, if they turtle tightly with elbows in, transition to a front headlock by circling to their head side, which opens Darce choke, Anaconda choke, or guillotine entries. The turtle response is often a better outcome than completing the pass since back control scores 4 points versus 3 for the pass."
+        "answer": "When the opponent turns to turtle, maintain your under-hook grip as it naturally transitions into a seat belt or waist control position. Follow their rotation closely without allowing space between your chest and their back. Your primary chain attack is a back take by inserting hooks as they complete their turn to turtle. Alternatively, if they turtle tightly with elbows in, transition to a front headlock by circling to their head side, which opens Darce choke, Anaconda choke, or guillotine entries. The turtle response is often a better outcome than completing the pass since back control scores 4 points versus 3 for the pass.",
+        "answer_line": "Keep hook, take the back",
+        "distractors": {
+          "plausible": [
+            "Switch to a knee slice pass",
+            "Reset to neutral and restart"
+          ],
+          "trap": [
+            "Release grips to reposition"
+          ]
+        }
       }
     ],
     "safety_considerations": "Practice the Over-Under Pass with controlled application, especially regarding stacking pressure on your partner's neck and spine. Excessive stacking can cause neck strain or cervical spine issues, so build intensity gradually and communicate with your training partner. Ensure adequate mat space for the technique as the stacking and circulation movements require room. When applying pressure, be mindful of your partner's flexibility limitations - some individuals cannot safely be stacked to extreme angles. If your partner taps or shows discomfort, release pressure immediately. For the person being passed, learn to recognize when the pass is inevitable and accept the position transition rather than forcing defensive movements that could cause injury. As the passer, keep your weight distributed properly to avoid dropping all your weight onto their chest or face. The technique should feel like heavy, controlled pressure, not explosive force.",
@@ -464,23 +519,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that an Over-Under Pass is being initiated?",
-        "answer": "The earliest cue is feeling the opponent thread one arm deep under your near thigh while their opposite hand reaches toward your far knee or ankle. This two-handed grip configuration is the signature setup of the Over-Under Pass. Recognizing this grip pattern before the stack loads is the most important defensive timing point, because every second of delay after grip establishment makes defense exponentially harder. Train yourself to react to the under-hook threading as the primary trigger for defensive action."
+        "answer": "The earliest cue is feeling the opponent thread one arm deep under your near thigh while their opposite hand reaches toward your far knee or ankle. This two-handed grip configuration is the signature setup of the Over-Under Pass. Recognizing this grip pattern before the stack loads is the most important defensive timing point, because every second of delay after grip establishment makes defense exponentially harder. Train yourself to react to the under-hook threading as the primary trigger for defensive action.",
+        "answer_line": "Arm threads under near thigh",
+        "distractors": {
+          "plausible": [
+            "Feeling weight settle on chest",
+            "Hand grips your collar first"
+          ],
+          "trap": [
+            "Wait until stack is fully loaded"
+          ]
+        }
       },
       {
         "question": "Why should you hip escape toward the over-hook side rather than the under-hook side when defending?",
-        "answer": "Hip escaping toward the over-hook side works against the passer's intended circulation path. The passer plans to circle their hips away from your free leg (the over-hook side), so moving your hips in that same direction disrupts their angle and creates the space needed to free your far leg. Escaping toward the under-hook side actually assists their passing motion because it moves your body in the direction they are already driving their pressure, making it easier for them to complete the lateral hip circulation."
+        "answer": "Hip escaping toward the over-hook side works against the passer's intended circulation path. The passer plans to circle their hips away from your free leg (the over-hook side), so moving your hips in that same direction disrupts their angle and creates the space needed to free your far leg. Escaping toward the under-hook side actually assists their passing motion because it moves your body in the direction they are already driving their pressure, making it easier for them to complete the lateral hip circulation.",
+        "answer_line": "Disrupts their circulation path",
+        "distractors": {
+          "plausible": [
+            "Escape straight backward instead",
+            "Push into their chest first"
+          ],
+          "trap": [
+            "Escape toward the under-hook side"
+          ]
+        }
       },
       {
         "question": "At what point should you abandon guard recovery and transition to turtle defense?",
-        "answer": "You should transition to turtle when the opponent's hips have cleared past your legs and their lateral circulation is more than halfway complete. At this point, the mechanical advantage has shifted decisively in the passer's favor, and attempting to recover guard requires more space and time than is available. Turning to turtle before side control is fully established gives you defensive options including sit-outs, granby rolls, and guard pulls from turtle that are far more viable than trying to re-guard from under an established side control pin."
+        "answer": "You should transition to turtle when the opponent's hips have cleared past your legs and their lateral circulation is more than halfway complete. At this point, the mechanical advantage has shifted decisively in the passer's favor, and attempting to recover guard requires more space and time than is available. Turning to turtle before side control is fully established gives you defensive options including sit-outs, granby rolls, and guard pulls from turtle that are far more viable than trying to re-guard from under an established side control pin.",
+        "answer_line": "Once hips clear past your legs",
+        "distractors": {
+          "plausible": [
+            "As soon as the pass attempt starts",
+            "Only after side control locks in"
+          ],
+          "trap": [
+            "Keep fighting to re-guard late"
+          ]
+        }
       },
       {
         "question": "What is the most critical frame to maintain when the opponent begins loading the stack?",
-        "answer": "The frame against the opponent's shoulder on the over-hook side is the most critical because it serves dual purpose: it prevents chest-to-chest connection that enables full weight transfer, and it creates a lever point for hip escape movement. This frame should be established with your forearm across their shoulder or collar bone area, with your elbow connected to your knee for structural support. Losing this frame allows the opponent to collapse their weight onto your chest, which loads the stack fully and eliminates the space needed for any defensive hip movement."
+        "answer": "The frame against the opponent's shoulder on the over-hook side is the most critical because it serves dual purpose: it prevents chest-to-chest connection that enables full weight transfer, and it creates a lever point for hip escape movement. This frame should be established with your forearm across their shoulder or collar bone area, with your elbow connected to your knee for structural support. Losing this frame allows the opponent to collapse their weight onto your chest, which loads the stack fully and eliminates the space needed for any defensive hip movement.",
+        "answer_line": "Forearm frame on over-hook shoulder",
+        "distractors": {
+          "plausible": [
+            "Frame against their far hip",
+            "Push on their far knee"
+          ],
+          "trap": [
+            "Drop the frame to hip escape"
+          ]
+        }
       },
       {
         "question": "Your opponent has the under-hook established but has not yet secured your far leg - what is your highest-percentage defensive action?",
-        "answer": "Your highest-percentage action is to immediately establish or reinforce a strong knee shield with your far leg while simultaneously framing against the opponent's shoulder on the over-hook side. The knee shield prevents the over-hook from being established, and without both grips the Over-Under Pass cannot proceed. From this recovered knee shield position, you can begin working sweeps and back takes from half guard. This is far more effective than trying to strip the existing under-hook, which is mechanically difficult once it is deep."
+        "answer": "Your highest-percentage action is to immediately establish or reinforce a strong knee shield with your far leg while simultaneously framing against the opponent's shoulder on the over-hook side. The knee shield prevents the over-hook from being established, and without both grips the Over-Under Pass cannot proceed. From this recovered knee shield position, you can begin working sweeps and back takes from half guard. This is far more effective than trying to strip the existing under-hook, which is mechanically difficult once it is deep.",
+        "answer_line": "Knee shield plus shoulder frame",
+        "distractors": {
+          "plausible": [
+            "Strip the existing under-hook",
+            "Push their head away"
+          ],
+          "trap": [
+            "Flatten out to relax defense"
+          ]
+        }
       }
     ],
     "training_progressions": [

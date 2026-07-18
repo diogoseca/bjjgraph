@@ -244,73 +244,98 @@
         "answer": "The figure-four grip forms a lever that lets your whole arm strength control the opponent's shoulder and disrupt their base. Because their limb is trapped in this lever system, your hip drive translates directly into the rotational force needed for the sweep, turning their own arm into the handle that tips them over.",
         "distractors": {
           "plausible": [
-            "The grip works mainly by causing shoulder pain, forcing the opponent to roll themselves over to relieve the pressure.",
-            "The advantage comes from pinning their wrist flat to the mat so they cannot post, while your legs alone generate the sweep."
+            "Raw hip strength drives sweep",
+            "Wrist grip breaks their posture"
           ],
           "trap": [
-            "Extending the trapped arm straight out away from your chest maximizes leverage and makes the sweep nearly effortless."
+            "Push straight through their base"
           ]
-        }
+        },
+        "answer_line": "Trapped arm becomes a lever"
       },
       {
         "question": "Why must you hip escape before attempting the sweep motion?",
-        "answer": "The hip escape creates the angular leverage necessary to load your weight onto one hip, which generates the rotational force to roll the opponent. Without the angle, you're pushing directly into their base rather than around it."
+        "answer": "The hip escape creates the angular leverage necessary to load your weight onto one hip, which generates the rotational force to roll the opponent. Without the angle, you're pushing directly into their base rather than around it.",
+        "answer_line": "Angle first, then roll",
+        "distractors": {
+          "plausible": [
+            "Muscle through without angle",
+            "Secure grip before angling"
+          ],
+          "trap": [
+            "Push straight, no angle"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their trapped arm when you secure the Kimura grip. How do you adjust?",
         "answer": "Attack a straight armlock on the extended arm, or switch to a hip bump sweep while their attention is on defending the arm. The straightened arm hands you a new submission threat, and their focus on grip-fighting means their base maintenance is neglected — exactly the moment a sweep succeeds.",
         "distractors": {
           "plausible": [
-            "Fight to re-bend the arm back into the figure-four before doing anything else, since the Kimura grip is your top priority.",
-            "Immediately break your own grip and re-secure it higher on their wrist to regain the bent-arm angle."
+            "Re-secure Kimura grip harder",
+            "Switch to different submission"
           ],
           "trap": [
-            "Keep the figure-four and crank against the straight arm with pure strength until it bends back into position."
+            "Let go and reset guard"
           ]
-        }
+        },
+        "answer_line": "Armbar or hip bump sweep"
       },
       {
         "question": "What distinguishes when to finish the Kimura submission versus executing the sweep?",
-        "answer": "Finish the submission when opponent's weight drops and they flatten to defend. Execute the sweep when opponent maintains posture or shifts weight backward to create base, as this weight distribution makes them vulnerable to being rolled."
+        "answer": "Finish the submission when opponent's weight drops and they flatten to defend. Execute the sweep when opponent maintains posture or shifts weight backward to create base, as this weight distribution makes them vulnerable to being rolled.",
+        "answer_line": "Finish if flat, sweep if based",
+        "distractors": {
+          "plausible": [
+            "Sweep whenever grip is set",
+            "Finish sub as soon as secured"
+          ],
+          "trap": [
+            "Try submission while they're based"
+          ]
+        }
       },
       {
         "question": "Why is it critical to keep the trapped arm pinned to your chest throughout the sweep?",
         "answer": "Pinning the arm to your chest stops them straightening to break the grip and keeps the lever intact so hip drive becomes rotation. This preserves your mechanical advantage for the whole movement, ensuring the force you generate transfers directly into turning their body rather than leaking out through a loose connection.",
         "distractors": {
           "plausible": [
-            "Pinning the arm mostly hides your sweep intentions, so the opponent cannot read which direction you plan to go.",
-            "Keeping the arm close matters because finishing the shoulder lock quickly is the real purpose of the movement."
+            "Pin arm to hip instead",
+            "Only pin arm at the start"
           ],
           "trap": [
-            "Letting the arm drift away from your chest is fine if your grip is strong; the extra space adds swing momentum to the sweep."
+            "Let arm extend for space"
           ]
-        }
+        },
+        "answer_line": "Pin arm to chest always"
       },
       {
         "question": "Your opponent posts their free hand wide to resist the sweep. How do you capitalize on this?",
         "answer": "The wide post exposes that extended arm to an armbar, or you can drive your hips harder through their now wider, weaker base. A hand posted far from their center spreads their weight across a less stable platform, so either attack the offered arm or add explosive hip drive to power through the compromised structure.",
         "distractors": {
           "plausible": [
-            "Pause and wait for them to bring the posted hand back in, since sweeping into a posted arm just wastes your energy.",
-            "Slow the sweep down and shift it toward the posted side, where their planted hand shows their weight is committed."
+            "Grab the posted hand tighter",
+            "Wait for them to re-base"
           ],
           "trap": [
-            "Release the Kimura grip and grab the posted wrist with both hands, since removing that post is the first priority."
+            "Release Kimura to attack post"
           ]
-        }
+        },
+        "answer_line": "Attack posted arm or drive hips"
       },
       {
         "question": "What leg positioning optimizes the sweep power during execution?",
         "answer": "Post the foot on the side you are hip escaping toward, and keep the opposite leg as an active hook on the opponent's hip. The posted foot gives you driving power off the mat, while the hook pulls them into the rotation and prevents them from stepping around to recover their base.",
         "distractors": {
           "plausible": [
-            "Keep both legs locked in closed guard throughout the sweep so your guard pressure carries them over with you.",
-            "Post the foot on the far side, away from your hip escape, so your body has room to slide underneath them."
+            "Hook both legs on hips",
+            "Post foot opposite escape side"
           ],
           "trap": [
-            "Plant both feet flat on the mat and bridge straight up, since maximum vertical lift is what topples the opponent."
+            "Cross your feet for base"
           ]
-        }
+        },
+        "answer_line": "Post near foot, hook far hip"
       },
       {
         "question": "How does the Kimura Sweep integrate with the hip bump sweep as a combination attack?",
@@ -318,11 +343,31 @@
       },
       {
         "question": "What is the optimal timing window for initiating the sweep once the Kimura grip is secured?",
-        "answer": "The optimal window is immediately after breaking posture and completing the hip escape to angle, before the opponent has time to establish a defensive base. Hesitation allows them to widen their knees, post a hand, or begin stripping your grip."
+        "answer": "The optimal window is immediately after breaking posture and completing the hip escape to angle, before the opponent has time to establish a defensive base. Hesitation allows them to widen their knees, post a hand, or begin stripping your grip.",
+        "answer_line": "Sweep right after angling",
+        "distractors": {
+          "plausible": [
+            "Wait for the perfect grip",
+            "Sweep before hip escaping"
+          ],
+          "trap": [
+            "Pause to reset your base"
+          ]
+        }
       },
       {
         "question": "Your opponent stacks forward aggressively to nullify your hip escape angle. What chain attack do you pursue?",
-        "answer": "Use their forward momentum against them by switching to a pendulum sweep or elevator sweep. Their committed forward weight shift eliminates their ability to post backward, making them highly vulnerable to sweeps that redirect their momentum over your head or to the side."
+        "answer": "Use their forward momentum against them by switching to a pendulum sweep or elevator sweep. Their committed forward weight shift eliminates their ability to post backward, making them highly vulnerable to sweeps that redirect their momentum over your head or to the side.",
+        "answer_line": "Pendulum or elevator sweep",
+        "distractors": {
+          "plausible": [
+            "Push back against the stack",
+            "Force the original angle harder"
+          ],
+          "trap": [
+            "Sit back and reset guard"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Kimura Sweep is relatively low-risk compared to submission techniques, but attention to shoulder safety remains important. During drilling, avoid cranking the Kimura grip aggressively as the sweep completes, as landing momentum can add unexpected force to the shoulder joint. Partners should tap immediately if shoulder pressure becomes uncomfortable during sweep practice. When learning, focus on smooth technique rather than explosive power to prevent accidental joint strain. Avoid this sweep if you have existing wrist or elbow injuries, as the gripping demands can aggravate these conditions.",
@@ -430,23 +475,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is setting up the Kimura Sweep?",
-        "answer": "The earliest cue is feeling your opponent grab your wrist with their same-side hand. This is the entry point for the figure-four grip. Immediately pull your elbow back to your hip and circle your wrist free before they can thread their opposite arm under your tricep to complete the lock."
+        "answer": "The earliest cue is feeling your opponent grab your wrist with their same-side hand. This is the entry point for the figure-four grip. Immediately pull your elbow back to your hip and circle your wrist free before they can thread their opposite arm under your tricep to complete the lock.",
+        "answer_line": "Feel same-side wrist grab",
+        "distractors": {
+          "plausible": [
+            "Feel underhook threading",
+            "Notice weight shift back"
+          ],
+          "trap": [
+            "Let them finish the grip first"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured the Kimura grip and begins hip escaping. What is your immediate priority?",
-        "answer": "Drive your weight forward and down onto their chest while simultaneously widening your knees for base. This denies the hip escape angle that creates the rotational leverage for the sweep. Do not try to posture up, as this lifts your weight and makes the sweep easier."
+        "answer": "Drive your weight forward and down onto their chest while simultaneously widening your knees for base. This denies the hip escape angle that creates the rotational leverage for the sweep. Do not try to posture up, as this lifts your weight and makes the sweep easier.",
+        "answer_line": "Smash weight, widen knees",
+        "distractors": {
+          "plausible": [
+            "Posture up to create space",
+            "Pull your trapped arm free"
+          ],
+          "trap": [
+            "Posture up out of the grip"
+          ]
+        }
       },
       {
         "question": "Why is extending your trapped arm to escape the grip a dangerous mistake?",
-        "answer": "Extending the arm straightens it into a position where your opponent can transition directly to an armbar attack. The figure-four grip controls a straight arm effectively, so extension does not break the grip but instead opens a more dangerous submission threat while weakening your base."
+        "answer": "Extending the arm straightens it into a position where your opponent can transition directly to an armbar attack. The figure-four grip controls a straight arm effectively, so extension does not break the grip but instead opens a more dangerous submission threat while weakening your base.",
+        "answer_line": "Extending arm invites armbar",
+        "distractors": {
+          "plausible": [
+            "Extending arm breaks the grip",
+            "Bending arm invites armbar"
+          ],
+          "trap": [
+            "Straighten arm to escape"
+          ]
+        }
       },
       {
         "question": "How can you turn a defended Kimura Sweep into a guard passing opportunity?",
-        "answer": "When your opponent commits both arms to the Kimura grip and opens their guard to create sweep angle, their legs are no longer fully controlling your hips. After neutralizing the sweep by flattening your weight or stripping the grip, immediately drive your hips through the open guard space and work to pass before they can re-close their guard."
+        "answer": "When your opponent commits both arms to the Kimura grip and opens their guard to create sweep angle, their legs are no longer fully controlling your hips. After neutralizing the sweep by flattening your weight or stripping the grip, immediately drive your hips through the open guard space and work to pass before they can re-close their guard.",
+        "answer_line": "Pass through their open guard",
+        "distractors": {
+          "plausible": [
+            "Retreat to reset distance",
+            "Attack the far leg instead"
+          ],
+          "trap": [
+            "Chase the Kimura submission"
+          ]
+        }
       },
       {
         "question": "Your opponent opens their guard and posts a foot to begin the sweep drive. What defensive adjustment do you make?",
-        "answer": "Post your free hand on the mat on the side they are sweeping you toward while dropping your hip on the opposite side. The posted hand creates a tripod base absorbing the sweep momentum. Simultaneously, attempt to trap their posted foot with your leg to eliminate their driving platform and collapse the sweep mechanics."
+        "answer": "Post your free hand on the mat on the side they are sweeping you toward while dropping your hip on the opposite side. The posted hand creates a tripod base absorbing the sweep momentum. Simultaneously, attempt to trap their posted foot with your leg to eliminate their driving platform and collapse the sweep mechanics.",
+        "answer_line": "Post hand, trap their foot",
+        "distractors": {
+          "plausible": [
+            "Grab their far collar",
+            "Sit up into their chest"
+          ],
+          "trap": [
+            "Post hand on sweep side"
+          ]
+        }
       }
     ],
     "training_progressions": [

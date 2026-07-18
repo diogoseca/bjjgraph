@@ -243,76 +243,140 @@
         "answer": "Attack when the opponent commits weight onto their lead foot — stepping forward, reaching for your legs, or starting a pass. This weight commitment prevents them from quickly retracting the targeted foot and gives you the critical extra time needed to complete the entry sequence. Attacking a retreating or evenly balanced opponent dramatically reduces success rates.",
         "distractors": {
           "plausible": [
-            "Attack the moment the opponent steps backward, since the retreating foot trails behind them and is easiest to catch.",
-            "Wait for the opponent to stand square and evenly balanced, so neither foot is braced to resist the entry."
+            "The instant guard is established",
+            "When their weight is balanced"
           ],
           "trap": [
-            "Initiate while the opponent is stacking your hips forward, since their downward pressure feeds the foot straight into your grip."
+            "As they retreat away from you"
           ]
-        }
+        },
+        "answer_line": "Weight commits to lead foot"
       },
       {
         "question": "What conditions must exist in your grasshopper guard before you can attempt the ankle lock entry?",
         "answer": "You need hips elevated to chest height, at least one leg contacting the opponent's lower body, and clear sight of their weighted foot. Active core engagement keeps the elevated position stable, and the leg contact prevents disengagement. Without hip elevation you lack the lateral reach for leg framing, without leg contact the opponent can simply walk away, and without target identification you risk attacking the wrong foot.",
         "distractors": {
           "plausible": [
-            "You need chest-height hips, one leg in contact, and to target whichever foot is lighter and easier to lift off the mat.",
-            "You need elevated hips, both legs hooked behind the opponent's knees, and grips already secured on the target ankle."
+            "Hips elevated, grip established",
+            "Leg contact only, no elevation"
           ],
           "trap": [
-            "Drop your hips flat to the mat first for a solid base, then reach up for whichever ankle is closest to your hands."
+            "Elevate hips, ignore foot target"
+          ]
+        },
+        "answer_line": "Hips high, leg contact, sight"
+      },
+      {
+        "question": "Why must the outside leg cross the opponent's hip line before the inside leg threads behind the knee?",
+        "answer": "The outside leg serves as a barrier that prevents the opponent from stepping backward or circling away from the entry. If you thread the inside leg first without blocking their retreat path, the opponent can simply step their lead foot back and your inside leg threads into empty space. The outside leg pins their base in place, creating the frame that allows the inside leg to complete the entanglement against a trapped opponent.",
+        "answer_line": "Outside leg blocks retreat first",
+        "distractors": {
+          "plausible": [
+            "Inside leg threads first",
+            "Both legs move simultaneously"
+          ],
+          "trap": [
+            "Skip outside leg, grab ankle"
           ]
         }
       },
       {
-        "question": "Why must the outside leg cross the opponent's hip line before the inside leg threads behind the knee?",
-        "answer": "The outside leg serves as a barrier that prevents the opponent from stepping backward or circling away from the entry. If you thread the inside leg first without blocking their retreat path, the opponent can simply step their lead foot back and your inside leg threads into empty space. The outside leg pins their base in place, creating the frame that allows the inside leg to complete the entanglement against a trapped opponent."
-      },
-      {
         "question": "Your opponent strips your ankle grip while your figure-four is only partially closed - how do you adjust?",
-        "answer": "Immediately transition to a kneebar attack on the same leg. Since your legs are already partially entangled around their lower body, thread deeper by pushing your inside leg higher behind their knee while your outside leg crosses over their thigh. The opponent's hand-fighting to strip your ankle grip commits their upper body forward and away from their knee, creating the opening for the kneebar. Do not attempt to re-grip the ankle from a compromised position."
+        "answer": "Immediately transition to a kneebar attack on the same leg. Since your legs are already partially entangled around their lower body, thread deeper by pushing your inside leg higher behind their knee while your outside leg crosses over their thigh. The opponent's hand-fighting to strip your ankle grip commits their upper body forward and away from their knee, creating the opening for the kneebar. Do not attempt to re-grip the ankle from a compromised position.",
+        "answer_line": "Switch to kneebar, thread higher",
+        "distractors": {
+          "plausible": [
+            "Re-grip the ankle immediately",
+            "Abandon entry, reset guard"
+          ],
+          "trap": [
+            "Force the ankle lock through"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control on the captured ankle?",
         "answer": "The near hand cups under the heel while the far hand wraps over the top of the foot near the toes to control dorsiflexion. Both hands pull the ankle tight against your chest with the forearm blade of your bottom arm aligned across the Achilles tendon. This two-on-one configuration controls all planes of foot movement and creates the proper lever for finishing pressure.",
         "distractors": {
           "plausible": [
-            "The near hand grips over the toes while the far hand cups the heel, pinning the foot flat against your hip.",
-            "Both hands stack on top of the ankle above the heel, pressing the foot downward to flatten out the opponent's leg."
+            "Both hands cup the heel",
+            "Grip forearm across shin"
           ],
           "trap": [
-            "Grip the toes alone with both hands and twist them, since small-joint pressure makes the foot easiest to control."
+            "Grip over the toes with both hands"
           ]
-        }
+        },
+        "answer_line": "Heel cupped, toes wrapped, chest"
       },
       {
         "question": "Your opponent begins driving forward into a stack pass as you initiate the entry - what is your best response?",
         "answer": "Abort the entry and use their forward pressure to Granby roll back to guard, or redirect their momentum into an X-Guard entry. For the X-Guard option, hook both feet into their hips as they drive. The stack pass negates your inverted base by folding your body, eliminating the hip elevation necessary for the entry, and trying to fight through a committed stack from grasshopper typically results in being flattened and passed.",
         "distractors": {
           "plausible": [
-            "Extend your legs into their hips to stall the stack, then resume the same ankle lock entry once the pressure eases.",
-            "Post both hands on their shoulders and press them away to recreate the space needed for hip elevation."
+            "Fight through the stack pressure",
+            "Hold hip elevation, resist stack"
           ],
           "trap": [
-            "Keep the ankle and race to finish the lock under the stack, because a deep grip breaks the foot before you get flattened."
+            "Force the entry through the stack"
+          ]
+        },
+        "answer_line": "Granby roll or redirect to X-Guard"
+      },
+      {
+        "question": "What is the critical hip adjustment after establishing the figure-four and ankle grip?",
+        "answer": "You must hip escape away from the captured leg to angle your body perpendicular to their trapped limb. This angular adjustment aligns your forearm blade properly across the Achilles tendon for maximum submission pressure. Staying flat on your back with hips square provides no finishing angle and allows the opponent to rotate their knee inward to relieve pressure. Your belly button should point toward the opponent's trapped knee in the final control position.",
+        "answer_line": "Hip escape perpendicular to leg",
+        "distractors": {
+          "plausible": [
+            "Stay flat, square to opponent",
+            "Pull knee tighter to chest"
+          ],
+          "trap": [
+            "Arch back, ignore hip angle"
           ]
         }
       },
       {
-        "question": "What is the critical hip adjustment after establishing the figure-four and ankle grip?",
-        "answer": "You must hip escape away from the captured leg to angle your body perpendicular to their trapped limb. This angular adjustment aligns your forearm blade properly across the Achilles tendon for maximum submission pressure. Staying flat on your back with hips square provides no finishing angle and allows the opponent to rotate their knee inward to relieve pressure. Your belly button should point toward the opponent's trapped knee in the final control position."
-      },
-      {
         "question": "The opponent sits down to their knees when they feel your legs beginning to frame - how do you capitalize?",
-        "answer": "Their level change directly opens the path to Inside Ashi-Garami. As they kneel, their legs become accessible at a lower height where your inverted legs can thread deeper around their thigh. Abandon the straight ankle lock entry and transition to a standard seated leg entanglement, using the grasshopper hip elevation to shoot your legs into an Inside Ashi-Garami configuration with superior hip control over their trapped leg."
+        "answer": "Their level change directly opens the path to Inside Ashi-Garami. As they kneel, their legs become accessible at a lower height where your inverted legs can thread deeper around their thigh. Abandon the straight ankle lock entry and transition to a standard seated leg entanglement, using the grasshopper hip elevation to shoot your legs into an Inside Ashi-Garami configuration with superior hip control over their trapped leg.",
+        "answer_line": "Shoot legs to Inside Ashi-Garami",
+        "distractors": {
+          "plausible": [
+            "Continue original ankle entry",
+            "Chase the foot standing up"
+          ],
+          "trap": [
+            "Release legs, stand to pass"
+          ]
+        }
       },
       {
         "question": "Why is targeting the lead foot more effective than the rear foot against a staggered stance?",
-        "answer": "The lead foot bears significantly more weight in a staggered stance and cannot be retracted without the opponent losing balance and compromising their base. The rear foot carries less weight and can be pulled back quickly with minimal positional consequence. Attacking the weighted lead foot exploits biomechanical reality - the opponent must either abandon their stance entirely or accept the entanglement, giving you a decisive timing advantage in completing the entry."
+        "answer": "The lead foot bears significantly more weight in a staggered stance and cannot be retracted without the opponent losing balance and compromising their base. The rear foot carries less weight and can be pulled back quickly with minimal positional consequence. Attacking the weighted lead foot exploits biomechanical reality - the opponent must either abandon their stance entirely or accept the entanglement, giving you a decisive timing advantage in completing the entry.",
+        "answer_line": "Lead foot carries most weight",
+        "distractors": {
+          "plausible": [
+            "Rear foot is easier to trap",
+            "Both feet equally vulnerable"
+          ],
+          "trap": [
+            "Target the rear foot instead"
+          ]
+        }
       },
       {
         "question": "How do you chain the Straight Ankle Lock Entry with the Kneebar from Grasshopper when the ankle attack is defended?",
-        "answer": "Both attacks use the same initial leg framing mechanics from grasshopper. When the opponent defends the ankle by curling their toes, flexing their foot, or stripping your grip, your legs are already positioned around their lower body. Continue threading your inside leg higher behind their knee while your outside leg crosses over the thigh rather than the shin. This upward migration converts the ankle attack frame into a kneebar frame, catching them mid-defense when their focus is on protecting the ankle."
+        "answer": "Both attacks use the same initial leg framing mechanics from grasshopper. When the opponent defends the ankle by curling their toes, flexing their foot, or stripping your grip, your legs are already positioned around their lower body. Continue threading your inside leg higher behind their knee while your outside leg crosses over the thigh rather than the shin. This upward migration converts the ankle attack frame into a kneebar frame, catching them mid-defense when their focus is on protecting the ankle.",
+        "answer_line": "Thread leg higher, cross thigh",
+        "distractors": {
+          "plausible": [
+            "Reset and re-grip the ankle",
+            "Switch legs to the far side"
+          ],
+          "trap": [
+            "Force ankle lock through defense"
+          ]
+        }
       }
     ],
     "safety_considerations": "The straight ankle lock targets the Achilles tendon and ankle joint, which are vulnerable to acute injury if excessive force is applied or if the technique is executed with poor alignment. Always apply finishing pressure gradually during training, allowing your partner time to tap before the joint reaches its end range. Avoid explosive cranking motions that can cause ligament damage faster than your partner can signal submission. Partners with pre-existing ankle, foot, or Achilles tendon injuries should communicate these before drilling. The inverted grasshopper position also carries neck and cervical spine risk if you are stacked while inverted - tap immediately if your neck is compressed during a failed entry rather than fighting through the stack. Release all pressure instantly when your partner taps and reset cleanly before the next repetition.",
@@ -429,23 +493,73 @@
     "flashcards": [
       {
         "question": "What is the earliest point at which you can recognize and defend the Straight Ankle Lock Entry from grasshopper guard?",
-        "answer": "The earliest recognition point is when the attacker's hips elevate higher than their normal grasshopper position and their outside leg begins shooting across your hip line. This outside leg crossing is the first physical action of the entry sequence and provides the widest defensive window. A back step at this moment denies the entire entry before any grip or leg frame is established, making it the highest-percentage defensive response."
+        "answer": "The earliest recognition point is when the attacker's hips elevate higher than their normal grasshopper position and their outside leg begins shooting across your hip line. This outside leg crossing is the first physical action of the entry sequence and provides the widest defensive window. A back step at this moment denies the entire entry before any grip or leg frame is established, making it the highest-percentage defensive response.",
+        "answer_line": "Outside leg crosses your hip line",
+        "distractors": {
+          "plausible": [
+            "When ankle grip is secured",
+            "When figure-four closes"
+          ],
+          "trap": [
+            "Wait until hips fully elevate"
+          ]
+        }
       },
       {
         "question": "Why is a stack pass particularly effective against the ankle lock entry, and when should you avoid using it?",
-        "answer": "The stack pass works because it directly attacks the fundamental requirement of the entry - hip elevation. Driving your weight forward collapses the attacker's inverted base, eliminating the elevated hip position they need to frame your legs and capture your ankle. However, you should avoid the stack pass if the attacker has already secured a partial grip on your ankle, because your forward drive can tighten their existing control and accelerate the submission rather than preventing it."
+        "answer": "The stack pass works because it directly attacks the fundamental requirement of the entry - hip elevation. Driving your weight forward collapses the attacker's inverted base, eliminating the elevated hip position they need to frame your legs and capture your ankle. However, you should avoid the stack pass if the attacker has already secured a partial grip on your ankle, because your forward drive can tighten their existing control and accelerate the submission rather than preventing it.",
+        "answer_line": "Kills hip elevation; not if gripped",
+        "distractors": {
+          "plausible": [
+            "Always safe once ankle threatened",
+            "Works only against high guard"
+          ],
+          "trap": [
+            "Stack hard even with ankle gripped"
+          ]
+        }
       },
       {
         "question": "Your ankle grip has been captured but the figure-four is not yet closed - what is your defensive priority and why?",
-        "answer": "Your priority is simultaneously stripping the ankle grip and preventing the figure-four from closing, using a two-on-one grip break on their near hand while your free leg pushes down on their bottom leg. The grip alone cannot hold you if the figure-four fails to close, and the figure-four alone cannot hold you if the grip is stripped. But both together create complete control. You must address both threats at once because the attacker is working to close the figure-four in the same moment you are stripping the grip."
+        "answer": "Your priority is simultaneously stripping the ankle grip and preventing the figure-four from closing, using a two-on-one grip break on their near hand while your free leg pushes down on their bottom leg. The grip alone cannot hold you if the figure-four fails to close, and the figure-four alone cannot hold you if the grip is stripped. But both together create complete control. You must address both threats at once because the attacker is working to close the figure-four in the same moment you are stripping the grip.",
+        "answer_line": "Strip grip, block figure-four both",
+        "distractors": {
+          "plausible": [
+            "Focus only on stripping the grip",
+            "Focus only on blocking figure-four"
+          ],
+          "trap": [
+            "Pull knee to chest and wait"
+          ]
+        }
       },
       {
         "question": "How does the kneebar chain attack affect your defensive strategy against the ankle lock entry?",
-        "answer": "The kneebar chain means that pulling your knee to your chest to defend the ankle can expose your knee to a kneebar attack if the attacker's legs migrate upward from ankle to knee level. This creates a dilemma where ankle defense opens knee vulnerability. Your best response is to defend early enough that the attacker's legs never establish the initial frame, or to strip the grip and extract entirely before the attacker can redirect to the kneebar. If you are mid-defense and feel their legs climbing higher, prioritize straightening your leg momentarily to deny the kneebar angle, then resume ankle extraction."
+        "answer": "The kneebar chain means that pulling your knee to your chest to defend the ankle can expose your knee to a kneebar attack if the attacker's legs migrate upward from ankle to knee level. This creates a dilemma where ankle defense opens knee vulnerability. Your best response is to defend early enough that the attacker's legs never establish the initial frame, or to strip the grip and extract entirely before the attacker can redirect to the kneebar. If you are mid-defense and feel their legs climbing higher, prioritize straightening your leg momentarily to deny the kneebar angle, then resume ankle extraction.",
+        "answer_line": "Straighten leg, deny kneebar angle",
+        "distractors": {
+          "plausible": [
+            "Pull knee to chest to defend ankle",
+            "Ignore knee, focus on ankle only"
+          ],
+          "trap": [
+            "Curl toes and hold position"
+          ]
+        }
       },
       {
         "question": "What base width and weight distribution should you maintain when facing a grasshopper guard player who favors ankle lock entries?",
-        "answer": "Maintain a medium-width staggered stance with approximately 60% of your weight on your rear foot rather than your lead foot. This distribution allows you to retract your lead foot rapidly when the entry begins without losing balance. Too wide a stance makes you slow to adjust, while too narrow makes you vulnerable to elevation sweeps. The slight rear-weighting ensures your lead foot is never so committed that it becomes a stationary target for the ankle capture."
+        "answer": "Maintain a medium-width staggered stance with approximately 60% of your weight on your rear foot rather than your lead foot. This distribution allows you to retract your lead foot rapidly when the entry begins without losing balance. Too wide a stance makes you slow to adjust, while too narrow makes you vulnerable to elevation sweeps. The slight rear-weighting ensures your lead foot is never so committed that it becomes a stationary target for the ankle capture.",
+        "answer_line": "Staggered stance, 60% rear weight",
+        "distractors": {
+          "plausible": [
+            "Wide stance, weight forward",
+            "Narrow stance, even weight"
+          ],
+          "trap": [
+            "Load weight onto lead foot"
+          ]
+        }
       }
     ],
     "training_progressions": [

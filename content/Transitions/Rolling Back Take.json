@@ -235,79 +235,143 @@
     "flashcards": [
       {
         "question": "What is the most critical element to maintain throughout the rolling back take?",
-        "answer": "The most critical element is maintaining constant upper body connection with the opponent throughout the entire rotation. If you release your grips or allow separation during the roll, the opponent can easily escape and the technique fails. Your arms should remain locked around their shoulder/head throughout the 180-degree rotation."
+        "answer": "The most critical element is maintaining constant upper body connection with the opponent throughout the entire rotation. If you release your grips or allow separation during the roll, the opponent can easily escape and the technique fails. Your arms should remain locked around their shoulder/head throughout the 180-degree rotation.",
+        "answer_line": "Never break upper body connection",
+        "distractors": {
+          "plausible": [
+            "Keep chest pressure heavy throughout",
+            "Control both wrists the whole time"
+          ],
+          "trap": [
+            "Release grips to roll faster"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing to initiate the rolling back take?",
         "answer": "The optimal moment is when the opponent is static in turtle with weight neutral or slightly back, or pushing back into your pressure. Attempting the roll when their weight is too far forward will result in them posting and defending successfully. Wait for them to settle or create the proper weight distribution with chest pressure.",
         "distractors": {
           "plausible": [
-            "The optimal moment is when the opponent's weight drifts forward, since their forward momentum helps carry the rotation.",
-            "Roll the instant the opponent reaches turtle, before they have any time to settle into a defensive base."
+            "As soon as they turtle up",
+            "When they start to stand"
           ],
           "trap": [
-            "If they base heavily forward, yank them over your shoulder anyway — full commitment beats waiting for timing."
+            "When their weight is far forward"
           ]
-        }
+        },
+        "answer_line": "Weight neutral or slightly back"
       },
       {
         "question": "How should you respond if the opponent posts their far arm wide to prevent the roll?",
-        "answer": "If the opponent posts their far arm, you should abandon the rolling back take and switch to alternative attacks. Options include transitioning to a traditional back take by removing their posted arm and inserting your near hook, attacking the extended arm with an armbar, or transitioning to a crucifix position by controlling their posted arm while maintaining back pressure."
+        "answer": "If the opponent posts their far arm, you should abandon the rolling back take and switch to alternative attacks. Options include transitioning to a traditional back take by removing their posted arm and inserting your near hook, attacking the extended arm with an armbar, or transitioning to a crucifix position by controlling their posted arm while maintaining back pressure.",
+        "answer_line": "Switch to armbar or crucifix",
+        "distractors": {
+          "plausible": [
+            "Keep pressuring for the roll",
+            "Reset and re-grip patiently"
+          ],
+          "trap": [
+            "Force through, ignore the post"
+          ]
+        }
       },
       {
         "question": "What is the purpose of loading your weight onto the opponent before initiating the roll?",
         "answer": "Loading your weight drives the opponent slightly backward and creates the momentum and connection needed for a smooth roll. It also prevents the opponent from standing up and establishes the heavy chest pressure needed to maintain connection during the roll.",
         "distractors": {
           "plausible": [
-            "Loading your weight is mainly to flatten the turtle to the mat so the opponent cannot move while you roll.",
-            "You load weight to make the opponent carry you, tiring their arms until their base collapses."
+            "Tire them out before rolling",
+            "Set up a guillotine choke"
           ],
           "trap": [
-            "Stay light on the opponent so you can spin freely — heavy weight only slows your rotation down."
+            "Let up pressure to bait a stand"
           ]
-        }
+        },
+        "answer_line": "Drive them back, build momentum"
       },
       {
         "question": "Why is it important to begin hooking during the landing phase rather than after you've fully landed?",
         "answer": "Hooking during the landing phase denies the opponent any window to turn back into you or escape to turtle. If you land first and then attempt to hook, the opponent can use that 1-2 second gap to defend, turn, or scramble. Threading the hook during landing ensures immediate control and prevents defensive reactions.",
         "distractors": {
           "plausible": [
-            "It is safer to land and fully stabilize your seatbelt grip first, then insert the hooks one at a time.",
-            "Hooking during the landing phase mainly cushions your fall so you do not land flat on your back."
+            "Makes the roll land more softly",
+            "Secures a stronger seatbelt grip"
           ],
           "trap": [
-            "Cross your ankles in front of their hips mid-roll so the hooks can never be stripped afterward."
+            "Land first, then insert hooks"
+          ]
+        },
+        "answer_line": "Denies window to turn or escape"
+      },
+      {
+        "question": "What adjustment should you make when attempting the rolling back take in no-gi situations?",
+        "answer": "In no-gi situations, you must adapt your grips to use a seat belt or harness control instead of collar and shoulder grips. Your forearms and biceps create connection rather than hands gripping fabric. The core mechanics remain the same, but you need tighter body connection and may need to execute the roll more explosively due to reduced grip security.",
+        "answer_line": "Use seatbelt grip, not collar",
+        "distractors": {
+          "plausible": [
+            "Grip the wrists for control",
+            "Slow the roll for more control"
+          ],
+          "trap": [
+            "Rely on friction, loosen grips"
           ]
         }
       },
       {
-        "question": "What adjustment should you make when attempting the rolling back take in no-gi situations?",
-        "answer": "In no-gi situations, you must adapt your grips to use a seat belt or harness control instead of collar and shoulder grips. Your forearms and biceps create connection rather than hands gripping fabric. The core mechanics remain the same, but you need tighter body connection and may need to execute the roll more explosively due to reduced grip security."
-      },
-      {
         "question": "Your opponent begins shifting laterally as you set up the roll - how do you adjust your angle of attack?",
-        "answer": "When the opponent shifts laterally, you must realign your chest pressure to stay centered on their upper back before attempting the roll. Follow their lateral movement by adjusting your base, then re-load your weight. If they continue moving, use their lateral momentum to your advantage by timing the roll to coincide with their weight shift toward your intended rolling direction, converting their defensive movement into your offensive momentum."
+        "answer": "When the opponent shifts laterally, you must realign your chest pressure to stay centered on their upper back before attempting the roll. Follow their lateral movement by adjusting your base, then re-load your weight. If they continue moving, use their lateral momentum to your advantage by timing the roll to coincide with their weight shift toward your intended rolling direction, converting their defensive movement into your offensive momentum.",
+        "answer_line": "Follow, re-center, time the roll",
+        "distractors": {
+          "plausible": [
+            "Force the roll immediately",
+            "Switch to the opposite direction"
+          ],
+          "trap": [
+            "Chase them across the mat"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest connection during the rolling motion?",
         "answer": "The strongest connection is an over-under grip: one arm under the far armpit gripping the far shoulder, the other over the near shoulder or head. This creates a clamp that locks your chest to their upper back. In gi, gripping the far collar with the under arm and controlling the near shoulder with the over arm provides maximum security. The key is that both arms create opposing pressure that prevents separation during rotation.",
         "distractors": {
           "plausible": [
-            "The strongest connection is a double-underhook body lock around the opponent's waist, chest glued to their lower back.",
-            "Clamping both arms over the top of the opponent's shoulders and neck gives the tightest lock for the roll."
+            "Both arms over the shoulders",
+            "Underhook both armpits tightly"
           ],
           "trap": [
-            "Grip both of the opponent's wrists as you roll so they cannot post or frame during the rotation."
+            "Grip both wrists, no shoulder"
+          ]
+        },
+        "answer_line": "Over-under: clamp far shoulder"
+      },
+      {
+        "question": "The roll stalls halfway through and you end up on your side with your opponent still turtled - what is your immediate recovery plan?",
+        "answer": "If the roll stalls midway, do not try to complete it from a compromised position. Instead, immediately use your top arm to maintain shoulder control and pull yourself back to top turtle position. Re-establish chest pressure and reset your grips. From there, you can either reattempt the roll with better momentum or switch to an alternative attack like a traditional hook insertion or front headlock transition. Forcing a stalled roll typically results in losing top position entirely.",
+        "answer_line": "Pull back to top turtle",
+        "distractors": {
+          "plausible": [
+            "Force through to complete it",
+            "Release and reset from bottom"
+          ],
+          "trap": [
+            "Keep driving the stalled roll"
           ]
         }
       },
       {
-        "question": "The roll stalls halfway through and you end up on your side with your opponent still turtled - what is your immediate recovery plan?",
-        "answer": "If the roll stalls midway, do not try to complete it from a compromised position. Instead, immediately use your top arm to maintain shoulder control and pull yourself back to top turtle position. Re-establish chest pressure and reset your grips. From there, you can either reattempt the roll with better momentum or switch to an alternative attack like a traditional hook insertion or front headlock transition. Forcing a stalled roll typically results in losing top position entirely."
-      },
-      {
         "question": "How does the direction of your chin and head positioning affect the success of the roll?",
-        "answer": "Your chin must be tucked tight against the opponent's shoulder blade throughout the roll, with your head positioned on the side you intend to roll toward. If your head is too high or extended, you lose the tight connection needed for a smooth rotation and risk your head catching on the mat. The tucked chin also protects your own neck during the roll. Your head essentially leads the rotation, guiding your body through the arc while maintaining the chest-to-back seal that prevents separation."
+        "answer": "Your chin must be tucked tight against the opponent's shoulder blade throughout the roll, with your head positioned on the side you intend to roll toward. If your head is too high or extended, you lose the tight connection needed for a smooth rotation and risk your head catching on the mat. The tucked chin also protects your own neck during the roll. Your head essentially leads the rotation, guiding your body through the arc while maintaining the chest-to-back seal that prevents separation.",
+        "answer_line": "Chin tucked, head leads the roll",
+        "distractors": {
+          "plausible": [
+            "Head up to see the rotation",
+            "Chin tucked against your own chest"
+          ],
+          "trap": [
+            "Head planted flat on the mat"
+          ]
+        }
       }
     ],
     "safety_considerations": "The rolling back take requires controlled execution to ensure safety for both practitioners. Apply smooth, progressive momentum rather than explosive jerking motions that could injure the neck or spine. Ensure adequate mat space exists on the side you intend to roll to prevent injury from hitting obstacles or mat edges. When practicing, gradually build up to full-speed execution, starting with slow-motion repetitions to develop proper mechanics. Partners should tap if they feel uncomfortable during the rotation or if neck pressure becomes excessive. The practitioner executing the roll should be aware of their landing and avoid driving their weight into the opponent's neck or head. Both practitioners should maintain awareness of other training partners to avoid collisions during the dynamic rolling motion.",
@@ -430,23 +494,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a rolling back take is being set up?",
-        "answer": "The earliest cue is a shift in chest pressure from centered on your back to loading heavily onto one shoulder. This weight shift indicates the attacker is preparing to roll in that direction. You may also feel their arm threading under your far armpit, which is the grip they need to maintain connection during the roll. Recognizing this weight shift gives you the critical 1-2 second window to deploy your primary defense before momentum becomes irrecoverable."
+        "answer": "The earliest cue is a shift in chest pressure from centered on your back to loading heavily onto one shoulder. This weight shift indicates the attacker is preparing to roll in that direction. You may also feel their arm threading under your far armpit, which is the grip they need to maintain connection during the roll. Recognizing this weight shift gives you the critical 1-2 second window to deploy your primary defense before momentum becomes irrecoverable.",
+        "answer_line": "Chest pressure loads one shoulder",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in overall weight",
+            "Grip tightens on your collar"
+          ],
+          "trap": [
+            "Wait for the roll to start"
+          ]
+        }
       },
       {
         "question": "Why is posting the far arm the most effective primary defense against the rolling back take?",
-        "answer": "Posting the far arm creates a structural barrier in the path of the roll. The attacker needs a clear arc over your shoulder to complete the rotation, and a posted arm blocks this path entirely. The post also widens your base, making it much harder for the attacker to generate enough momentum to roll you. However, you must be aware that the posted arm can be targeted for armbar or crucifix transitions, so this defense should be paired with active grip fighting on your near side."
+        "answer": "Posting the far arm creates a structural barrier in the path of the roll. The attacker needs a clear arc over your shoulder to complete the rotation, and a posted arm blocks this path entirely. The post also widens your base, making it much harder for the attacker to generate enough momentum to roll you. However, you must be aware that the posted arm can be targeted for armbar or crucifix transitions, so this defense should be paired with active grip fighting on your near side.",
+        "answer_line": "Blocks the arc, widens base",
+        "distractors": {
+          "plausible": [
+            "Pushes their weight off you",
+            "Frees your hips to shrimp out"
+          ],
+          "trap": [
+            "Post flat with a straight arm"
+          ]
+        }
       },
       {
         "question": "Your attacker commits to the roll and you feel yourself being pulled over - what is the best mid-roll defensive action?",
-        "answer": "Once the roll is committed and you are being pulled over, your best action is to aggressively turn your hips and shoulders toward the attacker during the rotation. Use their rolling momentum to help you face them rather than ending up with your back to them. This is essentially converting their back take attempt into a scramble where you recover guard. The key is turning toward the attacker, never away, and keeping your arms tight to prevent them from maintaining the connection needed to establish hooks upon landing."
+        "answer": "Once the roll is committed and you are being pulled over, your best action is to aggressively turn your hips and shoulders toward the attacker during the rotation. Use their rolling momentum to help you face them rather than ending up with your back to them. This is essentially converting their back take attempt into a scramble where you recover guard. The key is turning toward the attacker, never away, and keeping your arms tight to prevent them from maintaining the connection needed to establish hooks upon landing.",
+        "answer_line": "Turn into them, face and scramble",
+        "distractors": {
+          "plausible": [
+            "Turn away to protect your back",
+            "Go limp and absorb the roll"
+          ],
+          "trap": [
+            "Turn away, tuck your back down"
+          ]
+        }
       },
       {
         "question": "How does lateral movement in turtle help prevent the rolling back take setup?",
-        "answer": "Lateral movement disrupts the attacker's ability to center their weight on your upper back, which is the prerequisite for loading the roll. By constantly shifting laterally, you prevent the attacker from establishing the stable platform they need to generate forward rolling momentum. Lateral movement also forces them to continuously readjust their grips and alignment, creating opportunities for you to strip grips or transition to escape sequences. The attacker needs you to be relatively stationary for the technique to work."
+        "answer": "Lateral movement disrupts the attacker's ability to center their weight on your upper back, which is the prerequisite for loading the roll. By constantly shifting laterally, you prevent the attacker from establishing the stable platform they need to generate forward rolling momentum. Lateral movement also forces them to continuously readjust their grips and alignment, creating opportunities for you to strip grips or transition to escape sequences. The attacker needs you to be relatively stationary for the technique to work.",
+        "answer_line": "Denies stable centered pressure",
+        "distractors": {
+          "plausible": [
+            "Tires the attacker out quickly",
+            "Speeds up your own escape roll"
+          ],
+          "trap": [
+            "Stay still to control the pace"
+          ]
+        }
       },
       {
         "question": "What is the risk of attempting to stand up when you feel the rolling back take being initiated?",
-        "answer": "Attempting to stand during the roll initiation is extremely dangerous because your upward momentum gets redirected by the attacker's forward force, creating a compounding effect that pulls you backward with even greater momentum. The attacker essentially uses your standup energy to accelerate their roll. Additionally, standing raises your center of gravity, making you less stable and easier to rotate. The standup defense must be deployed before the attacker loads weight, not during or after the roll begins."
+        "answer": "Attempting to stand during the roll initiation is extremely dangerous because your upward momentum gets redirected by the attacker's forward force, creating a compounding effect that pulls you backward with even greater momentum. The attacker essentially uses your standup energy to accelerate their roll. Additionally, standing raises your center of gravity, making you less stable and easier to rotate. The standup defense must be deployed before the attacker loads weight, not during or after the roll begins.",
+        "answer_line": "Adds momentum to their roll",
+        "distractors": {
+          "plausible": [
+            "Raises base for better balance",
+            "Buys time to escape sideways"
+          ],
+          "trap": [
+            "Stand up as roll begins"
+          ]
+        }
       }
     ],
     "training_progressions": [

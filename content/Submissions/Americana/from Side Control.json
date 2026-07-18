@@ -331,12 +331,32 @@
       {
         "question": "What is the minimum application time for the Americana in training, and why is this safety protocol critical?",
         "answer": "The minimum application time is 3-5 seconds of progressive, controlled pressure from initial engagement to maximum safe training pressure. This is critical because the shoulder joint, particularly the rotator cuff, is extremely vulnerable to injury from sudden force. Slow application gives your partner adequate time to recognize the danger, assess their defensive options, and tap safely before injury occurs. Jerking or spiking the submission can cause rotator cuff tears, labral damage, or shoulder dislocation - all serious injuries requiring months of recovery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 sec of progressive pressure",
+        "distractors": {
+          "plausible": [
+            "1-2 sec quick application",
+            "10+ sec very slow build"
+          ],
+          "trap": [
+            "Snap it on fast and hard"
+          ]
+        }
       },
       {
         "question": "What are the three key structural components that must be in place before attempting the Americana from side control?",
         "answer": "First, you must have dominant side control with heavy chest pressure across the opponent's sternum to prevent escape. Second, you need strong cross-face control with your shoulder driving into their jaw to control their upper body rotation. Third, you must control their hips with your lower body positioning to prevent bridging or shrimping movements. Without all three components secured, the opponent can easily escape or reverse position during your submission attempt.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chest, cross-face, hip control",
+        "distractors": {
+          "plausible": [
+            "Cross-face, underhook, headlock",
+            "Chest pressure and knee ride only"
+          ],
+          "trap": [
+            "Let hips free, control head only"
+          ]
+        }
       },
       {
         "question": "Why must the opponent's elbow stay in front of their shoulder line during the Americana, and what happens if it moves behind?",
@@ -344,13 +364,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The elbow stays in front of the shoulder line mainly to keep the opponent's forearm locked at exactly 90 degrees.",
-            "Keeping the elbow in front of the shoulder line matters because it lets you slide the wrist higher above their head."
+            "Elbow level with shoulder line",
+            "Elbow slightly behind shoulder"
           ],
           "trap": [
-            "Dragging the elbow behind the shoulder line is ideal because the extra leverage there forces a faster tap."
+            "Pull elbow behind their back"
           ]
-        }
+        },
+        "answer_line": "Elbow stays in front of shoulder"
       },
       {
         "question": "What is the proper immediate response when your training partner taps to your Americana, and what are the consequences of failing to respond correctly?",
@@ -358,13 +379,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "When your partner taps, freeze and hold the position still until they verbally confirm the tap, then release.",
-            "When your partner taps, let go of everything at once and quickly pull their arm straight back to neutral."
+            "Ease pressure, keep the grip",
+            "Slowly count to three, release"
           ],
           "trap": [
-            "A light tap can be reflexive, so add a touch more pressure first to confirm they genuinely mean to submit."
+            "Hold to feel confirmation"
           ]
-        }
+        },
+        "answer_line": "Stop, release grips, go neutral"
       },
       {
         "question": "Describe the optimal 90-degree configuration for the Americana and explain how this angle maximizes submission effectiveness?",
@@ -372,13 +394,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The best configuration bends the elbow slightly past 90 degrees toward their head, since a tighter angle adds torque.",
-            "The 90-degree bend works best with the wrist pushed up above the opponent's head rather than down toward the hip."
+            "45° elbow bend near ribs",
+            "Wrist pinned near the head"
           ],
           "trap": [
-            "Fold the forearm as far toward their head as possible; closing the angle well past 90 degrees forces the quickest tap."
+            "Straighten arm, pull wrist out"
           ]
-        }
+        },
+        "answer_line": "90° elbow, wrist pinned at hip"
       },
       {
         "question": "What are the three most common defenses to the Americana from side control, and how should you adjust your technique to counter each one?",
@@ -386,23 +409,44 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The three main defenses are bridging, shrimping away, and neck framing, each countered by heavier cross-face pressure.",
-            "When they straighten the arm completely, release it and restart the isolation instead of switching to a straight armbar."
+            "Release grip and reset position",
+            "Muscle through with more force"
           ],
           "trap": [
-            "If they grab their own belt, sit up off their torso and yank the arm free with both hands for maximum pulling power."
+            "Abandon attack, reset side control"
           ]
-        }
+        },
+        "answer_line": "Counter grip, arm, and roll"
       },
       {
         "question": "Why is it dangerous to pull the wrist away from the opponent's body during the Americana rotation, and what is the correct mechanical application?",
         "answer": "Pulling the wrist away from the body is dangerous because it changes the angle of attack from the shoulder joint to potentially the elbow or AC joint, creating unpredictable leverage that can cause injury in areas you're not controlling. It also reduces the effectiveness of the submission by removing pressure from the shoulder. The correct mechanical application keeps the wrist pinned near the ribs or moving toward the hip while the elbow is driven downward toward the mat. This creates pure external rotation at the shoulder joint, which is controllable, predictable, and allows for safe tapping before injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Keep wrist pinned, elbow down",
+        "distractors": {
+          "plausible": [
+            "Pull wrist up toward head",
+            "Push wrist out to the side"
+          ],
+          "trap": [
+            "Yank wrist away from body"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to posture up and push their elbow toward the ceiling during your Americana attempt - what adjustment prevents the escape?",
         "answer": "When the opponent tries to elevate their elbow, immediately drop your body weight lower and drive your chest into their trapped arm to pin it back down. Simultaneously, use your figure-four grip to pull their elbow toward your hip rather than allowing it to lift. If they continue fighting the position, briefly release rotational pressure to re-establish the proper 90-degree configuration before resuming the finish. The key is maintaining the elbow position - if they can lift it above shoulder level, the submission mechanics fail entirely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drop weight, pin elbow down",
+        "distractors": {
+          "plausible": [
+            "Pull harder on the wrist",
+            "Switch to armbar immediately"
+          ],
+          "trap": [
+            "Let elbow rise, reset grip"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the Americana primarily attack, and what sensation indicates the submission is reaching the breaking point?",
@@ -410,28 +454,59 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "The Americana primarily attacks the elbow joint, and a deep ache spreading through the biceps signals the breaking point.",
-            "It attacks the shoulder through internal rotation, and a gradual muscle-fatigue burn marks the approaching breaking point."
+            "Elbow joint, sharp bend pain",
+            "Wrist joint, tendon strain"
           ],
           "trap": [
-            "Breaking-point pain builds gradually, so you can safely ride out deep shoulder pressure for a while before tapping."
+            "AC joint, ignore mild ache"
           ]
-        }
+        },
+        "answer_line": "Shoulder/rotator cuff, deep twist"
       },
       {
         "question": "What is the point of no escape for your opponent in the Americana, and how do you recognize when you've reached it?",
         "answer": "The point of no escape occurs when the opponent's wrist is pinned near their hip, their elbow is locked in front of their shoulder line, and your figure-four grip has driven their elbow toward the mat. At this stage, their shoulder is fully externally rotated and any further movement will cause the tap. You recognize this point by the mechanical endpoint - their arm cannot move further toward their hip without the shoulder dislocating. The opponent's body will often involuntarily tense or arch, and their free arm may desperately reach for your grip. At this point, hold position and wait for the tap rather than applying additional force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Wrist at hip, elbow locked front",
+        "distractors": {
+          "plausible": [
+            "Wrist at ribs, elbow floating",
+            "Grip locked, hips still free"
+          ],
+          "trap": [
+            "Add force once they stop moving"
+          ]
+        }
       },
       {
         "question": "In competition, your opponent is defending aggressively and you feel the Americana is stalling at 80% completion - what finishing adjustments can secure the tap?",
         "answer": "First, verify your weight distribution - shift more weight forward onto their chest to eliminate any space they're using to relieve pressure. Second, micro-adjust your elbow position by driving your elbows tighter to your own ribs, which increases the leverage on their shoulder. Third, try a slight hip switch where you drive your hip into their ribs while maintaining the grip - this added pressure often breaks defensive stalemates. Finally, consider the step-over variation where you bring your near leg over their head, eliminating their ability to roll and significantly increasing finishing pressure through the changed angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Weight forward, tight elbows",
+        "distractors": {
+          "plausible": [
+            "Yank wrist harder for finish",
+            "Switch grips to armbar"
+          ],
+          "trap": [
+            "Release pressure to reset"
+          ]
+        }
       },
       {
         "question": "How does the grip configuration differ between training and competition applications of the Americana, and why?",
         "answer": "In training, the figure-four grip should be relaxed enough to allow immediate release upon tap, with your grip hand loosely holding your own wrist. The priority is control and safety over maximum pressure. In competition, the grip becomes significantly tighter - your bottom hand grips their wrist firmly with all fingers, and your top hand death-grips your own wrist with your thumb wrapped over. Your elbows squeeze together creating a locked structure. This tighter competition grip makes the finish more secure but also makes release slower, which is why it's inappropriate for training where partner safety requires instant release capability.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Training loose, comp grip tight",
+        "distractors": {
+          "plausible": [
+            "Both equally tight for control",
+            "Training tighter, comp relaxed"
+          ],
+          "trap": [
+            "Death-grip always, no exceptions"
+          ]
+        }
       }
     ],
     "clips": [
@@ -558,27 +633,77 @@
       {
         "question": "What is the most critical early recognition cue that an Americana is being set up from side control, and what should your immediate response be?",
         "answer": "The most critical early cue is feeling the opponent's near-side hand slide underneath your elbow or grip your wrist while they maintain side control. Your immediate response should be to clamp your elbow tight to your ribs and grip your own collar, belt, or opposite bicep with the threatened hand. This grip-on-grip defense must happen before the opponent can establish the figure-four, because once both their arms are locked around yours, the defense becomes exponentially more difficult. React to the hand searching for your wrist, not to the completed grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hand slides under your elbow",
+        "distractors": {
+          "plausible": [
+            "They grip your collar first",
+            "They pin your hip down"
+          ],
+          "trap": [
+            "Wait for figure-four to react"
+          ]
+        }
       },
       {
         "question": "Why is bridging away from the opponent during an Americana defense counterproductive, and what direction should you move instead?",
         "answer": "Bridging away from the opponent is counterproductive because it increases the available angle for external rotation of your shoulder. When you bridge away, you create space between your elbow and your body, which allows the opponent to drive your hand further toward your hip and complete the submission more easily. Instead, you should bridge toward the opponent and turn your body to face them. This closes the rotation angle, reduces the mechanical advantage of the figure-four, and creates opportunities to thread your arm free or recover guard. The direction of your bridge determines whether you help or hinder the submission.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Bridge toward them, turn in",
+        "distractors": {
+          "plausible": [
+            "Turn face-down to hide arm",
+            "Push off with free hand"
+          ],
+          "trap": [
+            "Bridge away to create space"
+          ]
+        }
       },
       {
         "question": "At what point during the Americana sequence should you tap rather than continue to fight the submission, and why is this decision critical for training longevity?",
         "answer": "You should tap when the figure-four is fully locked and you feel rotational pressure beginning at the shoulder joint that you cannot relieve through body movement. If your wrist has been driven past the midline of your body toward your hip and your elbow is pinned near your shoulder, the submission is past the point of safe resistance. Continuing to fight at this stage risks rotator cuff tears, labral damage, or shoulder dislocation - injuries requiring 3-12 months of recovery. Tapping early preserves your training longevity. A single training session is never worth months of rehabilitation and potential chronic shoulder instability.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap when rotation locks shoulder",
+        "distractors": {
+          "plausible": [
+            "Tap only if sharp pain hits",
+            "Wait for coach to call it"
+          ],
+          "trap": [
+            "Fight it, tap only if it moves"
+          ]
+        }
       },
       {
         "question": "Your opponent has captured your wrist but has not yet completed the figure-four - what specific actions give you the best chance of preventing the submission?",
         "answer": "With only wrist control established, you have a critical window before the figure-four locks. First, immediately grip your own opposite bicep or collar with the captured hand, creating a two-on-one defensive structure they must break. Second, use your free arm to frame against their hip and begin a hip escape to create distance. Third, bridge toward them to prevent them from sliding their far arm over yours to complete the figure-four. The combination of defensive grip, hip movement, and closing the distance makes it extremely difficult for them to complete the grip configuration needed for the submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip bicep, frame, hip escape",
+        "distractors": {
+          "plausible": [
+            "Pull wrist back immediately",
+            "Turtle up to protect arm"
+          ],
+          "trap": [
+            "Wait and see if they lock it"
+          ]
+        }
       },
       {
         "question": "How does defending the Americana from side control differ from defending it from mount, and why does this matter for your escape strategy?",
         "answer": "From side control, you have more hip mobility and can bridge effectively in multiple directions, which provides escape opportunities that don't exist from mount. The key difference is that from side control bottom, you can turn your body toward the opponent to reduce the rotation angle and simultaneously work guard recovery through hip escapes. From mount, you are pinned symmetrically and turning is much more restricted. This matters because your side control Americana defense should emphasize whole-body turning and guard recovery rather than purely fighting the grip. Use the positional advantages of being on your side - hip mobility and the ability to face your opponent - that mount bottom doesn't offer.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn in, bridge, recover guard",
+        "distractors": {
+          "plausible": [
+            "Stay flat, absorb pressure",
+            "Bridge straight up like mount"
+          ],
+          "trap": [
+            "Turn away to hide the arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

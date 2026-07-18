@@ -898,59 +898,112 @@
       "answer": "Half Guard's defining structure is asymmetry: exactly one of the top player's legs is trapped between both of the bottom player's legs. This one-leg-in, one-leg-out configuration contrasts with the both-legs-in or both-legs-out structure of closed or open guards. The single trapped leg becomes the shared anchor and fulcrum around which every variant operates, whether Deep Half, Knee Shield, Lockdown, or Z-Guard. Because control is concentrated on one limb rather than distributed across a symmetric frame, both players retain legitimate offense and defense simultaneously, which is why the position sits precisely at the boundary between guard retention and being passed. The asymmetry is what generates the unique leverage for sweeps and the unique passing vulnerabilities that no symmetric guard shares.",
       "distractors": {
         "plausible": [
-          "Every Half Guard variant is defined by a knee shield frame across the torso that manages distance from the top player.",
-          "Every Half Guard variant is defined by trapping the opponent's leg and same-side arm to immobilize one side of their body."
+          "Both legs wrap the waist",
+          "Both legs hook the thighs"
         ],
         "trap": [
-          "Every Half Guard variant works by squeezing the trapped leg as hard as possible while lying flat to stall the pass."
+          "Both legs free, no contact"
         ]
-      }
+      },
+      "answer_line": "Only one leg trapped inside"
     },
     {
       "question": "Why does the battle for the underhook determine positional hierarchy across all Half Guard variants?",
-      "answer": "In every Half Guard variation the underhook on the trapped-leg side is the single most decisive upper-body grip because it dictates who controls posture and who can turn the corner. When the bottom player wins the underhook, they can elevate the top player's weight, come to their side, and access sweeps, back takes, and guard recoveries; when the top player wins it, they can flatten the bottom player, drive chest-to-chest, and begin freeing the trapped leg. This makes the underhook exchange the pivotal contest regardless of which sub-variation is being played, since the winner dictates pace and direction. The crossface and head position reinforce whoever holds the underhook, compounding its importance in setting the control hierarchy."
+      "answer": "In every Half Guard variation the underhook on the trapped-leg side is the single most decisive upper-body grip because it dictates who controls posture and who can turn the corner. When the bottom player wins the underhook, they can elevate the top player's weight, come to their side, and access sweeps, back takes, and guard recoveries; when the top player wins it, they can flatten the bottom player, drive chest-to-chest, and begin freeing the trapped leg. This makes the underhook exchange the pivotal contest regardless of which sub-variation is being played, since the winner dictates pace and direction. The crossface and head position reinforce whoever holds the underhook, compounding its importance in setting the control hierarchy.",
+      "answer_line": "Win the trapped-side underhook",
+      "distractors": {
+        "plausible": [
+          "Win the far-side underhook",
+          "Win the crossface first"
+        ],
+        "trap": [
+          "Give up underhook for pants grip"
+        ]
+      }
     },
     {
       "question": "How does the trapped leg function as a mechanical fulcrum for the bottom player in any Half Guard?",
       "answer": "The trapped leg anchors the top player's base to the bottom player, turning hip and torso movement into leverage that acts directly on the opponent's structure. By pinching, hooking, or entangling that leg, the bottom player can compromise the top player's ability to post and base, so that any elevation or rotation of the hips translates into off-balancing force rather than being absorbed. This fulcrum principle holds whether the entanglement is a simple knee pinch, a Lockdown figure-four, or the deep leg control of Deep Half. Without securing the trapped leg as a stable anchor, sweeps lose their leverage and become pushes that a based-out opponent easily resists.",
       "distractors": {
         "plausible": [
-          "The trapped leg functions mainly as a barrier that slows the pass, buying time rather than generating sweeping leverage.",
-          "The trapped leg lets the bottom player push the top player away, working chiefly as a distance-creating frame."
+          "Free leg anchors leverage",
+          "Hips alone create leverage"
         ],
         "trap": [
-          "The bottom player should release the trapped leg early in a sweep so the hips can swing freely into the finish."
+          "Release the leg entanglement"
         ]
-      }
+      },
+      "answer_line": "Trapped leg anchors leverage"
     },
     {
       "question": "Why is staying on the side rather than flat on the back a universal priority for the Half Guard bottom player?",
       "answer": "Staying on the side preserves the hip mobility that every Half Guard offensive sequence depends on. From the side the bottom player can shrimp, create angles, and enter sweeps or back takes. When flattened onto the back, the hips lose their capacity to rotate and the trapped leg's fulcrum is neutralized, letting the top player establish chest-to-chest pressure and crossface that lead directly toward the pass. Being on the side also keeps the shoulders angled toward the opponent, which is the prerequisite for winning the underhook battle. This is why flattening is the top player's core objective and staying on the side is the bottom player's core defensive imperative across all variants.",
       "distractors": {
         "plausible": [
-          "Staying on the side matters chiefly because it hides the near arm and neck from crossface and choking attacks.",
-          "The side position matters mostly because it lets the bottom player extend both arms to push and create distance."
+          "Stay flat, brace with arms",
+          "Turn shoulders away from foe"
         ],
         "trap": [
-          "Lying flat is safer because it lets you frame with both arms and squeeze the trapped leg with maximum strength."
+          "Flatten out onto your back"
+        ]
+      },
+      "answer_line": "Stay on side, hips mobile"
+    },
+    {
+      "question": "Why is Half Guard top considered an incomplete pass rather than a settled controlling position?",
+      "answer": "From the top, Half Guard means one leg is still trapped, so the guard has not actually been cleared and the bottom player retains active offense. Unlike side control or mount, no dominant control is finalized until the trapped leg is extracted and the pass is completed to a pinning position. This is why the top player must work methodically through stabilization, leg isolation, extraction, and completion rather than treating the position as a resting point. Pausing or posturing up without progressing hands the bottom player the space and time to recover full guard, initiate sweeps, or take the back.",
+      "answer_line": "Leg still trapped, not done",
+      "distractors": {
+        "plausible": [
+          "Posture up and pause there",
+          "Crossface alone completes it"
+        ],
+        "trap": [
+          "Stop working, hold position"
         ]
       }
     },
     {
-      "question": "Why is Half Guard top considered an incomplete pass rather than a settled controlling position?",
-      "answer": "From the top, Half Guard means one leg is still trapped, so the guard has not actually been cleared and the bottom player retains active offense. Unlike side control or mount, no dominant control is finalized until the trapped leg is extracted and the pass is completed to a pinning position. This is why the top player must work methodically through stabilization, leg isolation, extraction, and completion rather than treating the position as a resting point. Pausing or posturing up without progressing hands the bottom player the space and time to recover full guard, initiate sweeps, or take the back."
-    },
-    {
       "question": "What is the strategic role of creating simultaneous threats from the Half Guard bottom regardless of variation?",
-      "answer": "The bottom player's power comes from an interconnected attack system in which threatening a sweep, a back take, and a guard recovery at once forces the top player into defensive reactions rather than methodical passing. When the top player defends one threat, they necessarily open another, producing cascading dilemmas that a single-technique defense cannot solve. This principle holds across every sub-variation because each one is a different vehicle for presenting the same layered dilemmas. A bottom player who only defends allows the top player to work the pass unhindered, so constant offensive pressure is what transforms Half Guard from a survival state into an attacking platform."
+      "answer": "The bottom player's power comes from an interconnected attack system in which threatening a sweep, a back take, and a guard recovery at once forces the top player into defensive reactions rather than methodical passing. When the top player defends one threat, they necessarily open another, producing cascading dilemmas that a single-technique defense cannot solve. This principle holds across every sub-variation because each one is a different vehicle for presenting the same layered dilemmas. A bottom player who only defends allows the top player to work the pass unhindered, so constant offensive pressure is what transforms Half Guard from a survival state into an attacking platform.",
+      "answer_line": "Threaten sweep, back, and guard",
+      "distractors": {
+        "plausible": [
+          "Commit fully to one sweep",
+          "Defend only, wait for gaps"
+        ],
+        "trap": [
+          "Abandon offense, stall out"
+        ]
+      }
     },
     {
       "question": "How does distance management through frames shape the exchange for both players in any Half Guard?",
-      "answer": "Frames such as a knee shield, forearm, or butterfly hook regulate the gap between the two chests, and whoever controls that gap controls the position's character. The bottom player uses frames to prevent the chest-to-chest connection and crossface that lead to flattening, preserving the space needed for hip movement and offense. The top player's entire passing project is about collapsing those frames to close the distance and consolidate weight. Because this distance battle recurs in every variant, from the long-range Knee Shield to the close-range underhook game, managing the gap is a universal determinant of who is advancing and who is being contained."
+      "answer": "Frames such as a knee shield, forearm, or butterfly hook regulate the gap between the two chests, and whoever controls that gap controls the position's character. The bottom player uses frames to prevent the chest-to-chest connection and crossface that lead to flattening, preserving the space needed for hip movement and offense. The top player's entire passing project is about collapsing those frames to close the distance and consolidate weight. Because this distance battle recurs in every variant, from the long-range Knee Shield to the close-range underhook game, managing the gap is a universal determinant of who is advancing and who is being contained.",
+      "answer_line": "Frames control the gap",
+      "distractors": {
+        "plausible": [
+          "Grips alone control the gap",
+          "Leg pressure controls the gap"
+        ],
+        "trap": [
+          "Let chests connect early"
+        ]
+      }
     },
     {
       "question": "Why must a competent Half Guard player flow between sub-variations rather than hold a single static structure?",
-      "answer": "Each Half Guard sub-variation answers a specific pressure or posture from the opponent, so a static structure lets the opponent adapt to one pattern and eventually solve it. Flowing from Knee Shield to Deep Half to Lockdown to Z-Guard based on the opponent's reactions keeps them perpetually reacting to new mechanical problems rather than methodically dismantling one. The transitions themselves also create off-balancing moments and openings that a fixed position cannot generate. This adaptability applies to both roles, since the top player must likewise recognize the current variation and immediately shift to the passing strategy that specific configuration demands."
+      "answer": "Each Half Guard sub-variation answers a specific pressure or posture from the opponent, so a static structure lets the opponent adapt to one pattern and eventually solve it. Flowing from Knee Shield to Deep Half to Lockdown to Z-Guard based on the opponent's reactions keeps them perpetually reacting to new mechanical problems rather than methodically dismantling one. The transitions themselves also create off-balancing moments and openings that a fixed position cannot generate. This adaptability applies to both roles, since the top player must likewise recognize the current variation and immediately shift to the passing strategy that specific configuration demands.",
+      "answer_line": "Flow between variations",
+      "distractors": {
+        "plausible": [
+          "Master one structure only",
+          "Switch based on your mood"
+        ],
+        "trap": [
+          "Hold one static frame always"
+        ]
+      }
     }
   ],
   "flashcards_position": [
@@ -959,41 +1012,112 @@
       "answer": "Half Guard is defined by asymmetry: the bottom player traps a single one of the top player's legs between both of their own legs. The trap typically sits at or below the knee, creating a one-leg-in, one-leg-out configuration that contrasts with symmetric guards like closed or butterfly guard where both legs relate to the opponent identically. The trapped leg becomes a shared fulcrum and anchor point that both players fight to leverage, while the top player's free leg posts for base and mobility. This single-leg entanglement is what creates the position's distinctive mixture of offensive and defensive options for both sides.",
       "distractors": {
         "plausible": [
-          "Half Guard is defined by hooking one foot inside the opponent's near thigh while the other leg frames across the hip.",
-          "Half Guard is defined by trapping the top player's leg between the bottom player's knee and same-side elbow."
+          "Both legs hook inside thighs",
+          "Both ankles locked behind back"
         ],
         "trap": [
-          "Half Guard is defined by lying flat and clamping both knees around the opponent's waist to lock them in place."
+          "Post the trapped leg free"
+        ]
+      },
+      "answer_line": "One leg trapped below the knee"
+    },
+    {
+      "question": "Why is the upper body control battle so decisive in determining Half Guard hierarchy?",
+      "answer": "Although the trapped leg defines the position, control of the upper body dictates who is actually winning it. The underhook, crossface, and head position form a control hierarchy: whoever secures the underhook on the trapped-leg side gains the primary offensive pathway toward sweeps and back exposure, while the crossface allows the opposing player to flatten and drive toward the pass. Because both players are competing for the same limited real estate around the head and shoulders, the outcome of this hand-fighting exchange typically decides the direction of the entire sequence. The leg entanglement only sets the stage; the upper body battle resolves it.",
+      "answer_line": "Underhook decides the exchange",
+      "distractors": {
+        "plausible": [
+          "Crossface wins it for bottom",
+          "Head position alone decides"
+        ],
+        "trap": [
+          "Ignore upper body, chase legs"
         ]
       }
     },
     {
-      "question": "Why is the upper body control battle so decisive in determining Half Guard hierarchy?",
-      "answer": "Although the trapped leg defines the position, control of the upper body dictates who is actually winning it. The underhook, crossface, and head position form a control hierarchy: whoever secures the underhook on the trapped-leg side gains the primary offensive pathway toward sweeps and back exposure, while the crossface allows the opposing player to flatten and drive toward the pass. Because both players are competing for the same limited real estate around the head and shoulders, the outcome of this hand-fighting exchange typically decides the direction of the entire sequence. The leg entanglement only sets the stage; the upper body battle resolves it."
-    },
-    {
       "question": "What role does the trapped leg play as a mechanical fulcrum for both players?",
-      "answer": "The trapped leg functions as a shared anchor that transmits leverage in both directions. For the bottom player it is a connection point that lets them off-balance the top player, elevate them, or manipulate their base and posture through lockdown, knee pinch, or ankle control. For the top player it is the obstacle that must be freed, but while trapped it also gives them a reference point to pressure the bottom player's hips. Because both players are attached through this single limb, small changes in the leg's angle or depth shift the leverage advantage, making control of the trapped leg a constant contested variable."
+      "answer": "The trapped leg functions as a shared anchor that transmits leverage in both directions. For the bottom player it is a connection point that lets them off-balance the top player, elevate them, or manipulate their base and posture through lockdown, knee pinch, or ankle control. For the top player it is the obstacle that must be freed, but while trapped it also gives them a reference point to pressure the bottom player's hips. Because both players are attached through this single limb, small changes in the leg's angle or depth shift the leverage advantage, making control of the trapped leg a constant contested variable.",
+      "answer_line": "Leg links leverage both ways",
+      "distractors": {
+        "plausible": [
+          "Only bottom uses the leg",
+          "Only top uses the leg"
+        ],
+        "trap": [
+          "Disconnect from the trapped leg"
+        ]
+      }
     },
     {
       "question": "How does hip and shoulder angle govern the dynamics of Half Guard for both players?",
-      "answer": "Half Guard is fundamentally an angle battle rather than a static clinch. The bottom player must stay on their side with hips mobile and shoulders angled toward the top player to preserve the space needed for sweeps, guard recovery, and back exposure. The top player works to flatten those hips and square the shoulders to the mat, because a flattened opponent loses their offensive angles and becomes vulnerable to the pass. This is why the position is dynamic and unstable: whoever controls the angle of the bottom player's hips and torso controls whether the position trends toward a sweep or a pass."
+      "answer": "Half Guard is fundamentally an angle battle rather than a static clinch. The bottom player must stay on their side with hips mobile and shoulders angled toward the top player to preserve the space needed for sweeps, guard recovery, and back exposure. The top player works to flatten those hips and square the shoulders to the mat, because a flattened opponent loses their offensive angles and becomes vulnerable to the pass. This is why the position is dynamic and unstable: whoever controls the angle of the bottom player's hips and torso controls whether the position trends toward a sweep or a pass.",
+      "answer_line": "Keep hips angled, not flat",
+      "distractors": {
+        "plausible": [
+          "Square shoulders to the mat",
+          "Angle away from the opponent"
+        ],
+        "trap": [
+          "Let hips flatten out square"
+        ]
+      }
     },
     {
       "question": "Why does the fight to establish or deny chest-to-chest connection matter in Half Guard?",
-      "answer": "Chest-to-chest connection is the pivotal distance variable in the position. When the top player achieves it, their weight pins the bottom player flat and shuts down the hip mobility required for offense, accelerating toward the pass. The bottom player prevents this connection by inserting frames such as a knee shield, forearm frame, or butterfly hook, keeping the top player's chest at bay and preserving the space for movement. The entire position can be read as a contest over this gap: the top player collapsing it and the bottom player maintaining it, with each frame and each pressure adjustment shifting the balance."
+      "answer": "Chest-to-chest connection is the pivotal distance variable in the position. When the top player achieves it, their weight pins the bottom player flat and shuts down the hip mobility required for offense, accelerating toward the pass. The bottom player prevents this connection by inserting frames such as a knee shield, forearm frame, or butterfly hook, keeping the top player's chest at bay and preserving the space for movement. The entire position can be read as a contest over this gap: the top player collapsing it and the bottom player maintaining it, with each frame and each pressure adjustment shifting the balance.",
+      "answer_line": "Frames deny chest connection",
+      "distractors": {
+        "plausible": [
+          "Grips alone deny connection",
+          "Legs alone deny connection"
+        ],
+        "trap": [
+          "Allow the chest connection"
+        ]
+      }
     },
     {
       "question": "What defines the sub-variations of Half Guard such as Deep Half, Knee Shield, and Lockdown?",
-      "answer": "The sub-variations are distinguished by how the legs, hips, and framing are configured relative to the trapped leg and the top player's base. Knee Shield places a shin across the top player's torso to manage distance, Deep Half positions the bottom player's head and shoulders underneath the top player for superior off-balancing angles, and Lockdown uses a figure-four entanglement on the trapped leg to control posture and stretch the opponent. Each configuration changes which leverage points are active and therefore which techniques are available and which threats must be answered. Recognizing the specific variation is essential because it dictates the mechanical relationship both players are operating within."
+      "answer": "The sub-variations are distinguished by how the legs, hips, and framing are configured relative to the trapped leg and the top player's base. Knee Shield places a shin across the top player's torso to manage distance, Deep Half positions the bottom player's head and shoulders underneath the top player for superior off-balancing angles, and Lockdown uses a figure-four entanglement on the trapped leg to control posture and stretch the opponent. Each configuration changes which leverage points are active and therefore which techniques are available and which threats must be answered. Recognizing the specific variation is essential because it dictates the mechanical relationship both players are operating within.",
+      "answer_line": "Leg and hip framing config",
+      "distractors": {
+        "plausible": [
+          "Only grip choice differs",
+          "Only submission choice differs"
+        ],
+        "trap": [
+          "Ignore the leg configuration"
+        ]
+      }
     },
     {
       "question": "How does Half Guard function as a transitional crossroads between guard retention and being passed?",
-      "answer": "Half Guard occupies the exact threshold between a retained guard and a completed pass, which is why it is so strategically loaded. From the bottom player's perspective it is the last structured layer of defense before losing the guard entirely, yet it simultaneously offers direct pathways to closed guard recovery, deep half, X-guard, and back exposure. From the top player's perspective it is an incomplete pass that still requires systematic work to advance to side control or mount. Because both an improvement and a collapse are one exchange away for either side, the position is inherently unstable and rewards constant, proactive movement over static holding."
+      "answer": "Half Guard occupies the exact threshold between a retained guard and a completed pass, which is why it is so strategically loaded. From the bottom player's perspective it is the last structured layer of defense before losing the guard entirely, yet it simultaneously offers direct pathways to closed guard recovery, deep half, X-guard, and back exposure. From the top player's perspective it is an incomplete pass that still requires systematic work to advance to side control or mount. Because both an improvement and a collapse are one exchange away for either side, the position is inherently unstable and rewards constant, proactive movement over static holding.",
+      "answer_line": "Threshold: guard or passed",
+      "distractors": {
+        "plausible": [
+          "Always favors the bottom",
+          "Always favors the top"
+        ],
+        "trap": [
+          "Treat it as a resting spot"
+        ]
+      }
     },
     {
       "question": "How does Half Guard differ mechanically from adjacent positions like Closed Guard, Butterfly Guard, and Quarter Guard?",
-      "answer": "The distinction lies in how many legs are engaged and how deeply. In Closed Guard both of the bottom player's legs wrap the opponent's torso with the ankles locked, giving symmetric control of posture, whereas Half Guard engages only a single trapped leg. Butterfly Guard uses hooks on the insides of both thighs from a seated, more upright posture rather than trapping a leg between the knees. Quarter Guard is a further-degraded version of Half Guard where only the ankle remains trapped, marking the last sliver of entanglement before a full pass. Half Guard therefore sits mid-spectrum: more committed than an ankle trap, but less enclosing and symmetric than closed or butterfly guard."
+      "answer": "The distinction lies in how many legs are engaged and how deeply. In Closed Guard both of the bottom player's legs wrap the opponent's torso with the ankles locked, giving symmetric control of posture, whereas Half Guard engages only a single trapped leg. Butterfly Guard uses hooks on the insides of both thighs from a seated, more upright posture rather than trapping a leg between the knees. Quarter Guard is a further-degraded version of Half Guard where only the ankle remains trapped, marking the last sliver of entanglement before a full pass. Half Guard therefore sits mid-spectrum: more committed than an ankle trap, but less enclosing and symmetric than closed or butterfly guard.",
+      "answer_line": "One leg trapped, not two",
+      "distractors": {
+        "plausible": [
+          "Ankles locked like closed guard",
+          "Hooks both thighs like butterfly"
+        ],
+        "trap": [
+          "Only ankle trapped, quarter style"
+        ]
+      }
     }
   ],
   "clips": [

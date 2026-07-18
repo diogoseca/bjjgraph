@@ -275,52 +275,152 @@
       {
         "question": "What anatomical structures does the Rear Naked Choke from Gift Wrap compress to produce unconsciousness?",
         "answer": "The choke compresses both carotid arteries simultaneously, restricting blood flow to the brain. The radial bone of the forearm presses against one carotid artery while the bicep muscle compresses the opposite carotid. The crook of the elbow aligns with the center of the throat to avoid tracheal pressure. This bilateral compression can produce unconsciousness within 6-10 seconds of a properly applied choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Both carotids, elbow centers throat",
+        "distractors": {
+          "plausible": [
+            "Trachea and windpipe",
+            "One-sided artery only"
+          ],
+          "trap": [
+            "Crush the windpipe directly"
+          ]
+        }
       },
       {
         "question": "Why is the Gift Wrap arm trap critical to the success rate of this RNC variation compared to a standard back mount RNC?",
         "answer": "The Gift Wrap removes one of the defender's hands from the neck defense equation. Standard RNC defense relies on two-handed grip fighting to prevent the choking arm from seating under the chin. With one arm trapped across the body, the defender can only use a single hand for chin defense, which is fundamentally insufficient against a patient attacker. This reduction from two-handed to one-handed defense is what elevates the success rate from roughly 40% to 65%.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "One-handed defense only",
+        "distractors": {
+          "plausible": [
+            "Traps both defending arms",
+            "Only tightens the choke angle"
+          ],
+          "trap": [
+            "Let go of gift wrap early"
+          ]
+        }
       },
       {
         "question": "Your opponent starts using their free hand to push your choking arm away from their chin - what grip adjustment do you make?",
         "answer": "When the defender pushes your choking arm outward, swim your hand inside their defending wrist and re-angle your approach from the opposite side of the chin. Alternatively, use your non-choking hand to peel their defending grip by controlling their wrist, then immediately return to threading the choking arm under the chin. The key insight is that they only have one hand to defend with, so any time they commit it to blocking one angle, the opposite angle opens.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Swim inside, re-angle opposite side",
+        "distractors": {
+          "plausible": [
+            "Force through their block",
+            "Abandon and reset position"
+          ],
+          "trap": [
+            "Release the trapped arm"
+          ]
+        }
       },
       {
         "question": "What are the key safety considerations when applying the Rear Naked Choke from Gift Wrap in training?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum—never snap or jerk the choke. Ensure the forearm is positioned across the carotid arteries, not the trachea, by aligning the elbow crook with the throat center. Monitor your partner continuously for tap signals including verbal taps, hand taps, foot taps, or going limp. Release immediately on any tap signal and guide them to a side-lying recovery position. Never hold past the tap for any reason.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply slow pressure, watch taps",
+        "distractors": {
+          "plausible": [
+            "Snap tight for fast finish",
+            "Target trachea for speed"
+          ],
+          "trap": [
+            "Hold past the tap briefly"
+          ]
+        }
       },
       {
         "question": "How should you release the Rear Naked Choke from Gift Wrap after your partner taps?",
         "answer": "Immediately open the choking arm and remove it from the neck. Release the figure-four grip completely. Remove your hooks or body triangle. Gently guide your partner to a side-lying position. Monitor their consciousness and breathing for at least 30 seconds. If they lost consciousness, keep them lying down and do not allow them to stand until they are fully alert and oriented. Never re-engage or transition to another position after a tap.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip, side-lying, monitor",
+        "distractors": {
+          "plausible": [
+            "Release grip, stand them up",
+            "Loosen grip, keep hooks in"
+          ],
+          "trap": [
+            "Re-engage to confirm consciousness"
+          ]
+        }
       },
       {
         "question": "What is the point of no return in this submission where the defender can no longer effectively escape?",
         "answer": "The point of no return occurs when the figure-four configuration is fully locked—choking hand gripping the opposite bicep, support hand behind the head, and chest expansion begins. At this stage, single-hand defense cannot break the grip structure and the defender's trapped arm has been released too late to contribute meaningfully. Before this point, any disruption during the grip transition can prevent the finish. After the lock, the only defense is tapping.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four locked, chest expands",
+        "distractors": {
+          "plausible": [
+            "Choking arm crosses the chin",
+            "Both hooks are in deep"
+          ],
+          "trap": [
+            "Once defender stops moving"
+          ]
+        }
       },
       {
         "question": "Your opponent begins recovering the trapped arm just as you release the Gift Wrap to establish the choke - what determines your next action?",
         "answer": "The decision depends on where your choking arm is. If the forearm has already cleared the chin and is seated across the neck, proceed with the choke—the arm recovery is irrelevant because the choke will finish before two-handed defense can be established. If the choking arm has not yet cleared the chin, immediately re-establish the Gift Wrap by re-threading under the armpit before the opponent gets both hands to the neck. The worst outcome is a half-committed choke with a fully recovered defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Check if forearm cleared chin",
+        "distractors": {
+          "plausible": [
+            "Always finish the choke now",
+            "Always abandon and reset"
+          ],
+          "trap": [
+            "Push through a half-locked choke"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that allow the defender to survive a locked RNC from Gift Wrap?",
         "answer": "The three most common finishing errors are: squeezing with bicep strength instead of chest expansion and lat engagement, which causes rapid arm fatigue before sufficient pressure builds; failing to drive the support hand forward behind the head, which leaves the choke loose on one side; and allowing space between your chest and the opponent's back, which gives them room to turn their chin into the crook of your elbow and relieve arterial pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Expand chest, not bicep squeeze",
+        "distractors": {
+          "plausible": [
+            "Grip tighter with choking hand",
+            "Drive hips instead of chest"
+          ],
+          "trap": [
+            "Give space to breathe easier"
+          ]
+        }
       },
       {
         "question": "How does hook management change during the transition from Gift Wrap to locked RNC?",
         "answer": "During the grip transition, both hands are occupied with upper body mechanics, making hook maintenance entirely dependent on leg strength and positioning. Drive your heels actively into the opponent's inner thighs to prevent hip escape. If using a body triangle, the leg control is more passive and stable during the transition. If using hooks, maintain constant inward pressure and avoid crossing your feet. Losing hooks during the transition is the primary way opponents escape to guard.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive heels into inner thighs",
+        "distractors": {
+          "plausible": [
+            "Cross feet for a tighter lock",
+            "Relax hooks during the swap"
+          ],
+          "trap": [
+            "Release hooks to free hands"
+          ]
+        }
       },
       {
         "question": "In competition, how do you adjust the finishing strategy when your opponent is defending the chin aggressively with their one free hand?",
         "answer": "In competition, use time pressure as a weapon. Maintain the Gift Wrap position to accumulate advantage points while patiently attacking chin access. Alternate between over-the-chin attempts and under-the-chin threading to keep the defender guessing. If chin defense is impenetrable, switch to the jaw-line choke where the forearm rides over the jaw—this is painful but effective and does not require clearing the chin. The single-hand defense cannot cover both the under-chin and over-chin angles simultaneously.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Switch angles, try jaw-line choke",
+        "distractors": {
+          "plausible": [
+            "Wait out the clock passively",
+            "Force the same angle repeatedly"
+          ],
+          "trap": [
+            "Abandon Gift Wrap for points"
+          ]
+        }
       }
     ],
     "clips": [
@@ -427,22 +527,62 @@
       {
         "question": "How do you recognize that the attacker is transitioning from Gift Wrap control to the RNC attempt?",
         "answer": "The primary cue is the attacker's free hand (non-trapping hand) moving from your body toward your neck or jaw line. You may feel their fingers probing under your chin or along your collar bone. Additionally, the attacker often adjusts their chest pressure and hook positioning immediately before releasing the arm trap, creating a subtle weight shift that signals the transition is imminent.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Free hand moves toward your neck",
+        "distractors": {
+          "plausible": [
+            "Both hands leave your body",
+            "Attacker suddenly relaxes"
+          ],
+          "trap": [
+            "Attacker releases the hooks"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap to the Rear Naked Choke from Gift Wrap?",
         "answer": "Tap immediately when you feel the figure-four configuration lock with pressure building on both sides of your neck. Use any available signal: verbal tap by saying 'tap' clearly, physical tap on the attacker's arm or body with your free hand, or foot tap on the mat. Because one arm is trapped, ensure you practice tapping with your free hand and verbally. Never rely on a single tap method—in scrambles your hand may be unavailable, making verbal taps essential.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap verbally and with free hand",
+        "distractors": {
+          "plausible": [
+            "Wait for it to hurt more",
+            "Tap with the trapped arm"
+          ],
+          "trap": [
+            "Try to fight through the lock"
+          ]
+        }
       },
       {
         "question": "What defensive options are available when the choking arm has already cleared your chin but the figure-four is not yet locked?",
         "answer": "This is a narrow but critical window. Use your free hand to grip the choking forearm and pull it toward the crook-of-elbow side to prevent full seating. Simultaneously turn your chin aggressively toward the elbow crook to relieve carotid pressure. Attempt to strip one hook with your legs while turning your hips to face the attacker. If you can prevent the support hand from locking behind your head, the choke cannot achieve full bilateral compression.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn chin into elbow crook",
+        "distractors": {
+          "plausible": [
+            "Pull forearm away from neck",
+            "Strip both hooks immediately"
+          ],
+          "trap": [
+            "Relax and wait for full lock"
+          ]
+        }
       },
       {
         "question": "Why is staying on your side essential to surviving the Gift Wrap RNC rather than lying flat?",
         "answer": "Side positioning preserves hip mobility for shrimping and escape angles. When you flatten to your back, the attacker's hooks gain maximum leverage, your hips become pinned, and the attacker can settle their weight more effectively. Side positioning also reduces the effectiveness of certain choke angles by changing the geometry of the forearm against the neck. Every back escape fundamentally requires hip movement that flat positioning eliminates.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Stay on side, preserve hip mobility",
+        "distractors": {
+          "plausible": [
+            "Flatten out to bridge harder",
+            "Turn face-down for leverage"
+          ],
+          "trap": [
+            "Go flat and turtle up tighter"
+          ]
+        }
       }
     ],
     "training_progressions": [

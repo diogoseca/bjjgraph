@@ -262,35 +262,115 @@
     "flashcards": [
       {
         "question": "What is the primary frame placement for initiating the elbow escape and why is this position chosen over framing on the chest?",
-        "answer": "The forearm or elbow frames against the opponent's hip or inner thigh on the escape side. This placement prevents the top player from following your lateral hip movement and creates a structural lever for generating horizontal space. Framing on the chest pushes the opponent upward but does not prevent them from sliding laterally to follow your hips, and extended arms on the chest create immediate armbar and Americana vulnerability."
+        "answer": "The forearm or elbow frames against the opponent's hip or inner thigh on the escape side. This placement prevents the top player from following your lateral hip movement and creates a structural lever for generating horizontal space. Framing on the chest pushes the opponent upward but does not prevent them from sliding laterally to follow your hips, and extended arms on the chest create immediate armbar and Americana vulnerability.",
+        "answer_line": "Forearm frames hip/inner thigh",
+        "distractors": {
+          "plausible": [
+            "Push chest to create space",
+            "Frame against their same knee"
+          ],
+          "trap": [
+            "Extend arm flat across chest"
+          ]
+        }
       },
       {
         "question": "Why are chained hip escapes more effective than a single explosive movement for this escape?",
-        "answer": "Each individual hip escape creates incremental space that is preserved by frame adjustment before the next movement. A single explosive hip escape rarely generates sufficient distance for reliable knee insertion and depletes energy rapidly. Chaining two to three smaller movements creates cumulative space while maintaining frame integrity, and each successive shrimp builds on the space preserved from the previous one rather than starting from zero."
+        "answer": "Each individual hip escape creates incremental space that is preserved by frame adjustment before the next movement. A single explosive hip escape rarely generates sufficient distance for reliable knee insertion and depletes energy rapidly. Chaining two to three smaller movements creates cumulative space while maintaining frame integrity, and each successive shrimp builds on the space preserved from the previous one rather than starting from zero.",
+        "answer_line": "Chain small shrimps, preserve frame",
+        "distractors": {
+          "plausible": [
+            "One explosive shrimp escape",
+            "Shrimp twice, no frame reset"
+          ],
+          "trap": [
+            "Burn all energy in one bridge"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for attempting the elbow escape from mount?",
-        "answer": "The best timing is when the top player shifts weight forward to initiate submissions, reaches upward for collar grips, or adjusts their knee position. These moments temporarily reduce their base stability on the escape side. A preliminary small bridge forces a posting reaction from the top player, and the immediate hip escape during their recovery creates the optimal window when their weight is momentarily displaced."
+        "answer": "The best timing is when the top player shifts weight forward to initiate submissions, reaches upward for collar grips, or adjusts their knee position. These moments temporarily reduce their base stability on the escape side. A preliminary small bridge forces a posting reaction from the top player, and the immediate hip escape during their recovery creates the optimal window when their weight is momentarily displaced.",
+        "answer_line": "When they shift weight forward",
+        "distractors": {
+          "plausible": [
+            "Right after they settle in",
+            "Only during their submission grip"
+          ],
+          "trap": [
+            "Wait for them to flatten hips"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks your knee insertion by driving their hip into your frame and re-centering - how do you adjust?",
-        "answer": "Immediately chain a second hip escape in the same direction to create additional cumulative space, or switch to the opposite side if they have overcommitted their weight following the first direction. A small bridge before the second hip escape can disrupt their re-centering momentum. The frame must stay active throughout, and if neither direction works, combine with an upa attempt to force them to post their hands, then hip escape during their recovery."
+        "answer": "Immediately chain a second hip escape in the same direction to create additional cumulative space, or switch to the opposite side if they have overcommitted their weight following the first direction. A small bridge before the second hip escape can disrupt their re-centering momentum. The frame must stay active throughout, and if neither direction works, combine with an upa attempt to force them to post their hands, then hip escape during their recovery.",
+        "answer_line": "Chain second shrimp, same side",
+        "distractors": {
+          "plausible": [
+            "Reset the frame from scratch",
+            "Push knee straight through block"
+          ],
+          "trap": [
+            "Drop frame, muscle knee through"
+          ]
+        }
       },
       {
         "question": "What grip or frame must be established before the hip escape movement begins?",
-        "answer": "A forearm frame against the opponent's hip on the escape side with your elbow tight to your own body is the minimum prerequisite. Your other hand should control their opposite knee or pants to prevent them from posting during your escape. Without this frame established first, the hip escape creates space that the opponent immediately closes by sliding their hips to follow your movement, rendering the escape ineffective."
+        "answer": "A forearm frame against the opponent's hip on the escape side with your elbow tight to your own body is the minimum prerequisite. Your other hand should control their opposite knee or pants to prevent them from posting during your escape. Without this frame established first, the hip escape creates space that the opponent immediately closes by sliding their hips to follow your movement, rendering the escape ineffective.",
+        "answer_line": "Frame hip, control far knee",
+        "distractors": {
+          "plausible": [
+            "Underhook first, then frame",
+            "Frame chest, control near knee"
+          ],
+          "trap": [
+            "Hip escape before framing"
+          ]
+        }
       },
       {
         "question": "How does the elbow escape create an unsolvable dilemma when combined with the upa escape?",
-        "answer": "The upa requires the top player to post their hands wide to maintain base against the bridge, which shifts their weight upward and forward. This forward weight shift creates the exact conditions favorable for the elbow escape. Conversely, defending the elbow escape requires the top player to drive hips low and stay tight to follow hip movement, making them vulnerable to the upa when they lack posting ability. Alternating between the two forces the top player into a constant lose-lose defensive cycle."
+        "answer": "The upa requires the top player to post their hands wide to maintain base against the bridge, which shifts their weight upward and forward. This forward weight shift creates the exact conditions favorable for the elbow escape. Conversely, defending the elbow escape requires the top player to drive hips low and stay tight to follow hip movement, making them vulnerable to the upa when they lack posting ability. Alternating between the two forces the top player into a constant lose-lose defensive cycle.",
+        "answer_line": "Alternate upa and elbow escape",
+        "distractors": {
+          "plausible": [
+            "Upa first, then abandon frame",
+            "Only use upa to set escape"
+          ],
+          "trap": [
+            "Attempt both moves at once"
+          ]
+        }
       },
       {
         "question": "What body positioning prevents back exposure during the turning phase of the escape?",
-        "answer": "Keep your top elbow connected to your top knee throughout the turning movement, creating a closed frame that physically blocks hook insertion behind your hip. Face the opponent rather than turning away, and maintain frame contact with their hip throughout the escape. Your chin stays tucked and your shoulders never rotate past 90 degrees away from the opponent until your knee is fully inserted and half guard is secured with leg triangle."
+        "answer": "Keep your top elbow connected to your top knee throughout the turning movement, creating a closed frame that physically blocks hook insertion behind your hip. Face the opponent rather than turning away, and maintain frame contact with their hip throughout the escape. Your chin stays tucked and your shoulders never rotate past 90 degrees away from the opponent until your knee is fully inserted and half guard is secured with leg triangle.",
+        "answer_line": "Elbow-to-knee, face opponent",
+        "distractors": {
+          "plausible": [
+            "Turn fully away, then frame",
+            "Chin up, track their hips"
+          ],
+          "trap": [
+            "Turn shoulders past 90 degrees"
+          ]
+        }
       },
       {
         "question": "If the top player advances to high mount with knees near your armpits during your escape attempt, what adjustment is required?",
-        "answer": "From high mount, standard hip frames on the thigh become less effective because the opponent's knees have bypassed your framing range. Shift your frames higher to push on their chest or shoulders while working to inch your hips downward toward their knees through small scooting movements. Bridges combined with downward hip scooting create the distance needed to re-establish standard escape frames at their hip level. The priority becomes escaping high mount back to standard mount positioning before resuming the elbow escape."
+        "answer": "From high mount, standard hip frames on the thigh become less effective because the opponent's knees have bypassed your framing range. Shift your frames higher to push on their chest or shoulders while working to inch your hips downward toward their knees through small scooting movements. Bridges combined with downward hip scooting create the distance needed to re-establish standard escape frames at their hip level. The priority becomes escaping high mount back to standard mount positioning before resuming the elbow escape.",
+        "answer_line": "Frame chest, scoot hips down",
+        "distractors": {
+          "plausible": [
+            "Frame their knees directly",
+            "Bridge hard, skip scooting"
+          ],
+          "trap": [
+            "Attempt knee shield immediately"
+          ]
+        }
       }
     ],
     "safety_considerations": "The elbow escape is one of the safest techniques in BJJ as it is a defensive positional escape rather than a joint lock or choke. Primary safety concern is neck strain from being flattened under heavy pressure for extended periods. Practitioners should tap immediately if a submission is locked in rather than attempting to escape through the submission. Avoid bridging directly onto the neck or cervical spine. Communicate with training partners about appropriate pressure levels during drilling, especially when working with significant weight differences. Be cautious of knee strain when inserting the knee shield against aggressive top player resistance.",
@@ -399,23 +479,73 @@
     "flashcards": [
       {
         "question": "What is the first physical cue that signals your opponent is about to attempt an elbow escape?",
-        "answer": "The primary cue is the opponent placing their forearm or elbow against your hip or inner thigh while simultaneously turning their body slightly to one side. This frame establishment is the prerequisite for the hip escape movement. Secondary cues include planting a foot flat on the mat with a bent knee and shifting hands from neck defense to hip-pushing position. Recognizing the frame placement gives you approximately one second to respond before the hip escape begins."
+        "answer": "The primary cue is the opponent placing their forearm or elbow against your hip or inner thigh while simultaneously turning their body slightly to one side. This frame establishment is the prerequisite for the hip escape movement. Secondary cues include planting a foot flat on the mat with a bent knee and shifting hands from neck defense to hip-pushing position. Recognizing the frame placement gives you approximately one second to respond before the hip escape begins.",
+        "answer_line": "Elbow frames hip, slight turn",
+        "distractors": {
+          "plausible": [
+            "Foot plants flat on mat",
+            "Hands leave your neck first"
+          ],
+          "trap": [
+            "They relax their base weight"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel the opponent begin a hip escape?",
-        "answer": "Drive your hips forward and down while sliding your knees to follow their hip movement direction, closing the gap before they can insert their knee. Your weight should shift toward the direction they are escaping, maintaining chest connection and sprawling your legs back to prevent them from generating power off their planted foot. The sprawl motion flattens your hips against theirs, directly countering their lateral movement with downward pressure."
+        "answer": "Drive your hips forward and down while sliding your knees to follow their hip movement direction, closing the gap before they can insert their knee. Your weight should shift toward the direction they are escaping, maintaining chest connection and sprawling your legs back to prevent them from generating power off their planted foot. The sprawl motion flattens your hips against theirs, directly countering their lateral movement with downward pressure.",
+        "answer_line": "Drive hips down, follow knees",
+        "distractors": {
+          "plausible": [
+            "Sit back and widen base",
+            "Post hands, lean away"
+          ],
+          "trap": [
+            "Lift hips to avoid pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully inserts their knee shield - what is your immediate tactical response?",
-        "answer": "Immediately drive your hip into their inserted knee using strong crossface pressure to flatten them and prevent underhook establishment. If you can push their knee back below your hip line before they triangle their legs, you can re-establish full mount. If the half guard is secured, transition to half guard top passing with crossface and underhook rather than forcing a remount, as attempting to jump back to mount typically creates more scramble opportunities for the bottom player."
+        "answer": "Immediately drive your hip into their inserted knee using strong crossface pressure to flatten them and prevent underhook establishment. If you can push their knee back below your hip line before they triangle their legs, you can re-establish full mount. If the half guard is secured, transition to half guard top passing with crossface and underhook rather than forcing a remount, as attempting to jump back to mount typically creates more scramble opportunities for the bottom player.",
+        "answer_line": "Crossface, drive hip into knee",
+        "distractors": {
+          "plausible": [
+            "Force remount immediately",
+            "Abandon crossface, seek underhook"
+          ],
+          "trap": [
+            "Back away to reset position"
+          ]
+        }
       },
       {
         "question": "When is it appropriate to allow a partial escape attempt to set up a submission counter?",
-        "answer": "When you recognize the escape attempt early and can control the framing arm, you can allow partial hip escape while isolating their extended arm for an Americana or transitioning toward an armbar. The key is maintaining absolute control of the arm throughout the sequence and never releasing the limb to re-mount. This bait-and-attack strategy is most effective after you have already threatened other submissions, when the opponent is focused entirely on escaping rather than protecting their arms."
+        "answer": "When you recognize the escape attempt early and can control the framing arm, you can allow partial hip escape while isolating their extended arm for an Americana or transitioning toward an armbar. The key is maintaining absolute control of the arm throughout the sequence and never releasing the limb to re-mount. This bait-and-attack strategy is most effective after you have already threatened other submissions, when the opponent is focused entirely on escaping rather than protecting their arms.",
+        "answer_line": "Trap the framing arm, attack",
+        "distractors": {
+          "plausible": [
+            "Let both hands go free first",
+            "Wait until full guard recovered"
+          ],
+          "trap": [
+            "Release arm to force remount"
+          ]
+        }
       },
       {
         "question": "How does grapevining the legs affect the opponent's ability to execute the elbow escape?",
-        "answer": "Grapevines hook your insteps inside the opponent's inner thighs, preventing them from planting their feet flat on the mat. Without a planted foot providing a drive point, the bottom player cannot generate the lateral hip thrust needed for an effective hip escape. This dramatically reduces the power and range of their shrimping movement, making it much easier to follow and re-center. However, grapevines slightly reduce your own ability to post and adjust, so release them when transitioning to submissions that require hip mobility."
+        "answer": "Grapevines hook your insteps inside the opponent's inner thighs, preventing them from planting their feet flat on the mat. Without a planted foot providing a drive point, the bottom player cannot generate the lateral hip thrust needed for an effective hip escape. This dramatically reduces the power and range of their shrimping movement, making it much easier to follow and re-center. However, grapevines slightly reduce your own ability to post and adjust, so release them when transitioning to submissions that require hip mobility.",
+        "answer_line": "Blocks foot plant, kills thrust",
+        "distractors": {
+          "plausible": [
+            "Hooks outside their thighs",
+            "Keep grapevines through submissions"
+          ],
+          "trap": [
+            "Release grapevines during escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

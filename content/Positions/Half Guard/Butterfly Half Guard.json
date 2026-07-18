@@ -302,44 +302,115 @@
     "flashcards": [
       {
         "question": "What is the most critical weight distribution adjustment when your opponent starts to elevate with their butterfly hook?",
-        "answer": "Immediately drop your hips lower and shift weight toward the butterfly hook side while driving your shoulder into their chest or face. This removes the space underneath your body that allows their hook to generate elevation power. Simultaneously widen your base with your free leg and post your hand on the mat to create a tripod-like structure that resists upward momentum."
+        "answer": "Immediately drop your hips lower and shift weight toward the butterfly hook side while driving your shoulder into their chest or face. This removes the space underneath your body that allows their hook to generate elevation power. Simultaneously widen your base with your free leg and post your hand on the mat to create a tripod-like structure that resists upward momentum.",
+        "answer_line": "Drop hips, shift weight to hook",
+        "distractors": {
+          "plausible": [
+            "Widen base but keep weight even",
+            "Drive shoulder, keep hips high"
+          ],
+          "trap": [
+            "Sit back away from the hook"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and controls for maintaining top position against an active butterfly half guard player?",
         "answer": "The primary controls are a crossface driving your shoulder into their jaw plus an underhook or overhook on the butterfly side. The crossface turns their head away to kill their ability to face you, while the overhook or underhook limits their upper body movement on the hook side. Secondary controls include controlling their far hip with your hand to prevent them from creating angles, and keeping your trapped leg's knee pinned to the mat to prevent easy elevation.",
         "distractors": {
           "plausible": [
-            "The primary control is a tight double-underhook body lock around their waist to flatten them before addressing the head.",
-            "Focus first on stripping their grips with two-on-one wrist control; shoulder pressure only matters once their hands are neutralized."
+            "Overhook only, skip crossface",
+            "Control hip, ignore crossface"
           ],
           "trap": [
-            "Stay upright and post both hands on their chest, driving straight down to pin their hips flat to the mat."
+            "Underhook on the far side"
+          ]
+        },
+        "answer_line": "Crossface + underhook/overhook"
+      },
+      {
+        "question": "Your opponent attempts the old school sweep by securing an underhook and driving into you - what immediate adjustment prevents being swept?",
+        "answer": "Post your far hand on the mat immediately to create a base point that prevents being rolled. Simultaneously whizzer their underhook arm by threading your arm over their bicep and clamping down while driving your weight onto their shoulder. This neutralizes their underhook power and forces them flat. Then work to strip their underhook before they can re-attack.",
+        "answer_line": "Post far hand, whizzer the arm",
+        "distractors": {
+          "plausible": [
+            "Post far hand, push their head",
+            "Whizzer arm, no base hand"
+          ],
+          "trap": [
+            "Pull away to create space"
           ]
         }
       },
       {
-        "question": "Your opponent attempts the old school sweep by securing an underhook and driving into you - what immediate adjustment prevents being swept?",
-        "answer": "Post your far hand on the mat immediately to create a base point that prevents being rolled. Simultaneously whizzer their underhook arm by threading your arm over their bicep and clamping down while driving your weight onto their shoulder. This neutralizes their underhook power and forces them flat. Then work to strip their underhook before they can re-attack."
-      },
-      {
         "question": "What grip priorities should you establish before attempting to extract your trapped leg?",
-        "answer": "Establish crossface control first to turn their head and limit their ability to follow your movement. Then secure control of their far hip or pants to prevent them from bridging or creating angles as you extract. Only attempt leg extraction when you have both upper body control (crossface) and hip control (far side grip) secured. Attempting extraction without these controls allows them to sweep using your movement."
+        "answer": "Establish crossface control first to turn their head and limit their ability to follow your movement. Then secure control of their far hip or pants to prevent them from bridging or creating angles as you extract. Only attempt leg extraction when you have both upper body control (crossface) and hip control (far side grip) secured. Attempting extraction without these controls allows them to sweep using your movement.",
+        "answer_line": "Crossface then far hip control",
+        "distractors": {
+          "plausible": [
+            "Far hip control before crossface",
+            "Extract leg first, grip after"
+          ],
+          "trap": [
+            "Extract leg with no upper grips"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure when the bottom player is fighting for an upright seated posture?",
-        "answer": "Drive forward pressure through your shoulder directly into their chest and face, not down toward the mat. Your goal is to break their posture backward, not pin them flat initially. Keep your chest connected to their chest at all times. If they achieve seated posture, immediately change angles by circling toward the non-butterfly side while maintaining shoulder pressure to collapse their structure."
+        "answer": "Drive forward pressure through your shoulder directly into their chest and face, not down toward the mat. Your goal is to break their posture backward, not pin them flat initially. Keep your chest connected to their chest at all times. If they achieve seated posture, immediately change angles by circling toward the non-butterfly side while maintaining shoulder pressure to collapse their structure.",
+        "answer_line": "Shoulder pressure forward, not down",
+        "distractors": {
+          "plausible": [
+            "Push straight down to flatten",
+            "Circle toward butterfly side"
+          ],
+          "trap": [
+            "Back off to reset your base"
+          ]
+        }
       },
       {
         "question": "Your opponent bridges hard and attempts to roll you over - what base adjustment do you make?",
-        "answer": "Immediately post your far hand wide on the mat and extend your free leg out perpendicular to their body to create a wide tripod base. Drop your hips low and heavy while slightly sprawling your weight back to counteract their bridge momentum. If they commit strongly to one direction, be ready to flow with their movement and transition to a different passing angle rather than fighting directly against their bridge."
+        "answer": "Immediately post your far hand wide on the mat and extend your free leg out perpendicular to their body to create a wide tripod base. Drop your hips low and heavy while slightly sprawling your weight back to counteract their bridge momentum. If they commit strongly to one direction, be ready to flow with their movement and transition to a different passing angle rather than fighting directly against their bridge.",
+        "answer_line": "Wide post, low hips, sprawl back",
+        "distractors": {
+          "plausible": [
+            "Post hand, keep hips high",
+            "Fight the bridge head-on"
+          ],
+          "trap": [
+            "Post your near hand instead"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when maintaining top butterfly half guard?",
-        "answer": "Use bone-on-bone pressure rather than muscular effort wherever possible - your shoulder bone into their face, your knee pinned to the mat. Keep movements minimal and precise rather than constantly shifting. Wait for the bottom player to expend energy attempting sweeps, then capitalize on their recovery moments to advance position. The top player should be making the bottom player work harder by maintaining uncomfortable pressure."
+        "answer": "Use bone-on-bone pressure rather than muscular effort wherever possible - your shoulder bone into their face, your knee pinned to the mat. Keep movements minimal and precise rather than constantly shifting. Wait for the bottom player to expend energy attempting sweeps, then capitalize on their recovery moments to advance position. The top player should be making the bottom player work harder by maintaining uncomfortable pressure.",
+        "answer_line": "Bone-on-bone pressure, stay still",
+        "distractors": {
+          "plausible": [
+            "Constant shifting to stay busy",
+            "Muscle through with grip strength"
+          ],
+          "trap": [
+            "Attack early and often"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes and recovers a knee shield - what immediate recovery prevents full guard retention?",
-        "answer": "Immediately control their knee shield knee with your hand and push it down toward the mat while driving your hip forward and low. Do not allow space for them to fully extend the knee shield. If they get the knee shield established, transition to a knee slice angle by stepping your outside leg wide and preparing to slice through. The critical moment is preventing the frame from locking into place - act within the first second of their recovery attempt."
+        "answer": "Immediately control their knee shield knee with your hand and push it down toward the mat while driving your hip forward and low. Do not allow space for them to fully extend the knee shield. If they get the knee shield established, transition to a knee slice angle by stepping your outside leg wide and preparing to slice through. The critical moment is preventing the frame from locking into place - act within the first second of their recovery attempt.",
+        "answer_line": "Pin the knee shield knee down",
+        "distractors": {
+          "plausible": [
+            "Wait for shield to fully set",
+            "Push hip back to create space"
+          ],
+          "trap": [
+            "Back away to reset the pass"
+          ]
+        }
       }
     ],
     "clips": [
@@ -715,27 +786,87 @@
     "flashcards": [
       {
         "question": "What is the optimal body posture for maintaining butterfly half guard and why does lying flat compromise the position?",
-        "answer": "The optimal posture is seated or semi-reclined with shoulders elevated 30-45 degrees off the mat. This posture creates the mechanical foundation for sweep leverage by allowing your hips to move freely and generate power through the butterfly hook. Lying flat eliminates the geometric advantage because your hook can only push upward rather than drive at an angle, your core cannot engage effectively to coordinate the sweep, and your opponent can apply crushing shoulder pressure without you having leverage to counter."
+        "answer": "The optimal posture is seated or semi-reclined with shoulders elevated 30-45 degrees off the mat. This posture creates the mechanical foundation for sweep leverage by allowing your hips to move freely and generate power through the butterfly hook. Lying flat eliminates the geometric advantage because your hook can only push upward rather than drive at an angle, your core cannot engage effectively to coordinate the sweep, and your opponent can apply crushing shoulder pressure without you having leverage to counter.",
+        "answer_line": "Seated, shoulders up 30-45 degrees",
+        "distractors": {
+          "plausible": [
+            "Flat back for max hook drive",
+            "Fully upright, chest vertical"
+          ],
+          "trap": [
+            "Lie flat to load the hook"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining offensive pressure from butterfly half guard bottom?",
-        "answer": "The primary grip is an underhook on the butterfly hook side, threading your arm under their armpit to control their lat or back. This prevents them from driving forward pressure and gives you pulling power for sweeps. Secondary grips include collar tie on the same side for posture control, or far side collar grip in gi to prevent them from posturing up. The underhook is non-negotiable - without it, your sweeping power is severely diminished and they can flatten you at will."
+        "answer": "The primary grip is an underhook on the butterfly hook side, threading your arm under their armpit to control their lat or back. This prevents them from driving forward pressure and gives you pulling power for sweeps. Secondary grips include collar tie on the same side for posture control, or far side collar grip in gi to prevent them from posturing up. The underhook is non-negotiable - without it, your sweeping power is severely diminished and they can flatten you at will.",
+        "answer_line": "Underhook on the hook side",
+        "distractors": {
+          "plausible": [
+            "Overhook on the hook side",
+            "Collar tie without underhook"
+          ],
+          "trap": [
+            "Underhook on the far side"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a strong crossface and begins flattening you out - what immediate adjustment do you make?",
-        "answer": "Immediately transition to deep half guard or lockdown to preserve guard retention. For deep half, release the butterfly hook temporarily and dive underneath their hips, sliding your head toward their far hip. For lockdown, figure-four your legs around their trapped leg and use the whip-up motion to off-balance them. The key is recognizing that your butterfly half structure is compromised and flowing to a related position rather than fighting a losing battle against the crossface pressure."
+        "answer": "Immediately transition to deep half guard or lockdown to preserve guard retention. For deep half, release the butterfly hook temporarily and dive underneath their hips, sliding your head toward their far hip. For lockdown, figure-four your legs around their trapped leg and use the whip-up motion to off-balance them. The key is recognizing that your butterfly half structure is compromised and flowing to a related position rather than fighting a losing battle against the crossface pressure.",
+        "answer_line": "Flow to deep half or lockdown",
+        "distractors": {
+          "plausible": [
+            "Fight the crossface with neck",
+            "Hold butterfly, power through"
+          ],
+          "trap": [
+            "Release all leg control"
+          ]
+        }
       },
       {
         "question": "How do you maintain the butterfly hook under pressure when your opponent is trying to flatten and kill it?",
-        "answer": "Keep the hook active by constantly driving your foot upward under their thigh, pointing toes outward. Your knee should stay bent at approximately 90 degrees with hip flexors engaged. If they pressure down, briefly extend your leg to create space then immediately re-insert the hook. Never let the hook become passive - treat it as a continuous threat even between sweep attempts. If they successfully kill the hook, immediately transition to knee shield or deep half rather than trying to re-establish butterfly half without the hook."
+        "answer": "Keep the hook active by constantly driving your foot upward under their thigh, pointing toes outward. Your knee should stay bent at approximately 90 degrees with hip flexors engaged. If they pressure down, briefly extend your leg to create space then immediately re-insert the hook. Never let the hook become passive - treat it as a continuous threat even between sweep attempts. If they successfully kill the hook, immediately transition to knee shield or deep half rather than trying to re-establish butterfly half without the hook.",
+        "answer_line": "Keep hook active, foot driving up",
+        "distractors": {
+          "plausible": [
+            "Extend leg fully, then relax",
+            "Point toes inward, hook flat"
+          ],
+          "trap": [
+            "Let the hook go passive"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat to prevent your butterfly sweep elevation - what opportunity does this create?",
-        "answer": "A hand post creates the perfect setup for the old school sweep. When they post, their weight shifts to that side and their far hip becomes vulnerable. Secure a deep underhook, come up onto your elbow on the non-butterfly side, and drive into them while hooking their far leg. Their posted hand prevents them from basing in that direction, making the sweep high percentage. This is the fundamental action-reaction chain of butterfly half - threaten butterfly sweep to force a hand post, then attack old school."
+        "answer": "A hand post creates the perfect setup for the old school sweep. When they post, their weight shifts to that side and their far hip becomes vulnerable. Secure a deep underhook, come up onto your elbow on the non-butterfly side, and drive into them while hooking their far leg. Their posted hand prevents them from basing in that direction, making the sweep high percentage. This is the fundamental action-reaction chain of butterfly half - threaten butterfly sweep to force a hand post, then attack old school.",
+        "answer_line": "Old school sweep off their post",
+        "distractors": {
+          "plausible": [
+            "Butterfly sweep, push harder",
+            "Attack the posted arm directly"
+          ],
+          "trap": [
+            "Release the underhook to adjust"
+          ]
+        }
       },
       {
         "question": "How should you anticipate and react when your opponent begins standing up to defend your butterfly hook?",
-        "answer": "Standing creates space underneath them, which is the entry to X-guard or single leg X. As they begin to stand, immediately insert your free foot on their hip while maintaining the butterfly hook. This creates X-guard structure. Alternatively, if they stand quickly, release the half guard trap and transition to full butterfly or single leg X for technical standup opportunities. The key insight is that standing to defend butterfly hook trades one vulnerability for another - use their height to attack their base from underneath."
+        "answer": "Standing creates space underneath them, which is the entry to X-guard or single leg X. As they begin to stand, immediately insert your free foot on their hip while maintaining the butterfly hook. This creates X-guard structure. Alternatively, if they stand quickly, release the half guard trap and transition to full butterfly or single leg X for technical standup opportunities. The key insight is that standing to defend butterfly hook trades one vulnerability for another - use their height to attack their base from underneath.",
+        "answer_line": "Insert foot on hip for X-guard",
+        "distractors": {
+          "plausible": [
+            "Pull them back down immediately",
+            "Hold hook tight, don't move feet"
+          ],
+          "trap": [
+            "Chase their hips as they stand"
+          ]
+        }
       },
       {
         "question": "What is the proper timing and coordination between your butterfly hook drive and upper body pull during sweep execution?",
@@ -743,7 +874,17 @@
       },
       {
         "question": "How do you manage energy when your opponent is defending your sweeps effectively and the position becomes a stalemate?",
-        "answer": "Avoid repeatedly forcing the same sweep that's being defended - this burns energy without results. Instead, maintain your core structure with minimal effort (slight shoulder elevation, active but not maximal hook pressure) and wait for them to initiate movement. Their passing attempts create the opportunities for your counters. If truly stalled, flow to a related position (deep half, lockdown, full butterfly) to reset the dynamic. Energy management means making them work to defend while you stay ready to capitalize on their movements."
+        "answer": "Avoid repeatedly forcing the same sweep that's being defended - this burns energy without results. Instead, maintain your core structure with minimal effort (slight shoulder elevation, active but not maximal hook pressure) and wait for them to initiate movement. Their passing attempts create the opportunities for your counters. If truly stalled, flow to a related position (deep half, lockdown, full butterfly) to reset the dynamic. Energy management means making them work to defend while you stay ready to capitalize on their movements.",
+        "answer_line": "Hold structure, wait, don't repeat",
+        "distractors": {
+          "plausible": [
+            "Repeat the sweep with more force",
+            "Add more grips to force it"
+          ],
+          "trap": [
+            "Rush a new sweep immediately"
+          ]
+        }
       }
     ],
     "clips": [
@@ -782,29 +923,70 @@
       "answer": "One of the top player's legs is trapped in a half guard lock while a butterfly hook is inserted under their free leg. The half guard trap prevents the top player from disengaging or creating passing distance, while the butterfly hook adds an elevation vector absent from ordinary half guard. This produces an asymmetric entanglement where one leg is controlled through the flat squeeze of half guard and the other through the lifting mechanic of a butterfly hook. The combination of a stationary anchor and an active lifting leg is what makes the position a distinct hybrid rather than either parent guard alone.",
       "distractors": {
         "plausible": [
-          "The butterfly hook is inserted under the same leg that is trapped in the half guard lock, doubling the control on one side.",
-          "Both of the top player's legs are held by butterfly hooks, with the half guard element coming from angling the knees to one side."
+          "Both legs trapped in half guard",
+          "Both legs as butterfly hooks"
         ],
         "trap": [
-          "The bottom player crosses their ankles high around the trapped leg and lies flat on their back to anchor the top player in place."
+          "Trap both legs flat, no hook"
+        ]
+      },
+      "answer_line": "One leg trapped, one hooked"
+    },
+    {
+      "question": "Why does the asymmetric leg entanglement in Butterfly Half Guard create a base dilemma for the top player?",
+      "answer": "Because one leg is trapped flat and the other is being loaded by an upward-driving butterfly hook, the top player cannot optimize their base for both threats at once. Widening and dropping weight to kill the hook sacrifices the mobility needed to extract the trapped leg, while working to free the trapped leg lightens the load on the hook and invites elevation. This split-attention problem means any base adjustment that neutralizes one side tends to expose the other. The perpetual tension between defending the lift and freeing the leg is the core dynamic that both players are constantly negotiating.",
+      "answer_line": "Can't defend both legs at once",
+      "distractors": {
+        "plausible": [
+          "Base is stable against both legs",
+          "Only the hook needs defending"
+        ],
+        "trap": [
+          "Ignore the hook, chase the leg"
         ]
       }
     },
     {
-      "question": "Why does the asymmetric leg entanglement in Butterfly Half Guard create a base dilemma for the top player?",
-      "answer": "Because one leg is trapped flat and the other is being loaded by an upward-driving butterfly hook, the top player cannot optimize their base for both threats at once. Widening and dropping weight to kill the hook sacrifices the mobility needed to extract the trapped leg, while working to free the trapped leg lightens the load on the hook and invites elevation. This split-attention problem means any base adjustment that neutralizes one side tends to expose the other. The perpetual tension between defending the lift and freeing the leg is the core dynamic that both players are constantly negotiating."
-    },
-    {
       "question": "How does the seated or semi-reclined posture govern the mechanics of Butterfly Half Guard for both players?",
-      "answer": "The bottom player's shoulders must stay elevated roughly 30 to 45 degrees off the mat so the hips remain mobile and the butterfly hook can drive at an angle rather than straight up. This posture is the mechanical prerequisite for generating sweep leverage, because a flat back reduces the hook to a weak vertical push and lets the top player crush with shoulder pressure. For the top player, the entire passing game revolves around breaking that posture backward and flattening the bottom player. Whether the bottom player keeps their posture or the top player collapses it is the pivotal contest that decides which way the position flows."
+      "answer": "The bottom player's shoulders must stay elevated roughly 30 to 45 degrees off the mat so the hips remain mobile and the butterfly hook can drive at an angle rather than straight up. This posture is the mechanical prerequisite for generating sweep leverage, because a flat back reduces the hook to a weak vertical push and lets the top player crush with shoulder pressure. For the top player, the entire passing game revolves around breaking that posture backward and flattening the bottom player. Whether the bottom player keeps their posture or the top player collapses it is the pivotal contest that decides which way the position flows.",
+      "answer_line": "Posture battle: upright vs flat",
+      "distractors": {
+        "plausible": [
+          "Lying flat boosts hook power",
+          "Posture only matters for top player"
+        ],
+        "trap": [
+          "Let shoulders drop to the mat"
+        ]
+      }
     },
     {
       "question": "What role does upper-body connection play in stabilizing Butterfly Half Guard independent of who is attacking?",
-      "answer": "The leg entanglement alone cannot control the exchange; whoever wins the upper-body tie controls the position's posture and direction. The bottom player seeks an underhook on the butterfly-hook side or a collar tie to prevent the top player from posturing up and crushing forward. The top player counters with a crossface or overhook to turn the head, deny the underhook, and limit the bottom player's ability to sit up into their sweeps. This upper-body battle, coupled to the leg control, is what links elevation power to directional control, so a butterfly hook without a matching upper-body connection produces little useful off-balancing."
+      "answer": "The leg entanglement alone cannot control the exchange; whoever wins the upper-body tie controls the position's posture and direction. The bottom player seeks an underhook on the butterfly-hook side or a collar tie to prevent the top player from posturing up and crushing forward. The top player counters with a crossface or overhook to turn the head, deny the underhook, and limit the bottom player's ability to sit up into their sweeps. This upper-body battle, coupled to the leg control, is what links elevation power to directional control, so a butterfly hook without a matching upper-body connection produces little useful off-balancing.",
+      "answer_line": "Upper body grip decides direction",
+      "distractors": {
+        "plausible": [
+          "Leg control alone is enough",
+          "Grips matter only for bottom player"
+        ],
+        "trap": [
+          "Skip upper body, focus on legs"
+        ]
+      }
     },
     {
       "question": "Why is Butterfly Half Guard considered a transitional platform rather than a position to hold statically?",
-      "answer": "The entanglement sits at the crossroads of several related systems, so pressure in any direction naturally converts it into an adjacent position rather than a stalemate. Forward pressure and a crossface push the exchange toward deep half guard, a standing or tall posture opens X-guard and single-leg X entries, and freeing or stepping over the trapped leg spills into dogfight scrambles or knee-shield half guard. Because the butterfly hook and half guard trap can each be traded for a new control, the position rewards flowing to whichever system the opponent's reaction opens. Treating it as a fixed hold wastes its defining advantage, which is the density of high-value exits available from a single configuration."
+      "answer": "The entanglement sits at the crossroads of several related systems, so pressure in any direction naturally converts it into an adjacent position rather than a stalemate. Forward pressure and a crossface push the exchange toward deep half guard, a standing or tall posture opens X-guard and single-leg X entries, and freeing or stepping over the trapped leg spills into dogfight scrambles or knee-shield half guard. Because the butterfly hook and half guard trap can each be traded for a new control, the position rewards flowing to whichever system the opponent's reaction opens. Treating it as a fixed hold wastes its defining advantage, which is the density of high-value exits available from a single configuration.",
+      "answer_line": "It flows into adjacent systems",
+      "distractors": {
+        "plausible": [
+          "It's meant to be held statically",
+          "Only one exit path exists"
+        ],
+        "trap": [
+          "Force a stalemate, don't transition"
+        ]
+      }
     },
     {
       "question": "How do the two control points in Butterfly Half Guard divide the labor of restraint and off-balancing?",
@@ -812,11 +994,31 @@
     },
     {
       "question": "What distinguishes Butterfly Half Guard from its parent butterfly guard and half guard in terms of vulnerability and power?",
-      "answer": "Pure butterfly guard offers strong elevation but is vulnerable to pressure passing and requires careful space management, because the opponent can flatten the hooks and drive through. Pure half guard offers solid defensive structure and prevents disengagement but lacks explosive lifting power against a skilled passer. Butterfly Half Guard splices the two so the half guard trap supplies the retention that butterfly lacks while the butterfly hook supplies the elevation that half guard lacks. The result is a configuration that is harder to disengage from than butterfly guard and more offensively dangerous than half guard, at the cost of the asymmetry both players must actively manage."
+      "answer": "Pure butterfly guard offers strong elevation but is vulnerable to pressure passing and requires careful space management, because the opponent can flatten the hooks and drive through. Pure half guard offers solid defensive structure and prevents disengagement but lacks explosive lifting power against a skilled passer. Butterfly Half Guard splices the two so the half guard trap supplies the retention that butterfly lacks while the butterfly hook supplies the elevation that half guard lacks. The result is a configuration that is harder to disengage from than butterfly guard and more offensively dangerous than half guard, at the cost of the asymmetry both players must actively manage.",
+      "answer_line": "Splices half guard retention + lift",
+      "distractors": {
+        "plausible": [
+          "Pure butterfly is harder to pass",
+          "Pure half guard has more power"
+        ],
+        "trap": [
+          "Drop the hook for pure retention"
+        ]
+      }
     },
     {
       "question": "Why does Butterfly Half Guard collapse into a different position the moment either the butterfly hook is killed or the trapped leg is freed?",
-      "answer": "The position is defined by the coexistence of both control points, so losing either one immediately degrades it into one of its parent guards. If the hook is pressured flat, the exchange reduces to pinned half guard or a knee-shield frame and the elevation threat disappears. If the trapped leg is extracted, what remains is pure butterfly guard and the retention that the half guard trap supplied is gone. Because each control point props up the value of the other, the integrity of the whole configuration hinges on maintaining both simultaneously, which is why the destruction of either is the decisive event in the exchange."
+      "answer": "The position is defined by the coexistence of both control points, so losing either one immediately degrades it into one of its parent guards. If the hook is pressured flat, the exchange reduces to pinned half guard or a knee-shield frame and the elevation threat disappears. If the trapped leg is extracted, what remains is pure butterfly guard and the retention that the half guard trap supplied is gone. Because each control point props up the value of the other, the integrity of the whole configuration hinges on maintaining both simultaneously, which is why the destruction of either is the decisive event in the exchange.",
+      "answer_line": "Losing either control changes it",
+      "distractors": {
+        "plausible": [
+          "Losing the hook has no effect",
+          "Freeing the leg has no effect"
+        ],
+        "trap": [
+          "Release the trap to save the hook"
+        ]
+      }
     }
   ],
   "clips": [

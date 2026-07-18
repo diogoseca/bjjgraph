@@ -331,12 +331,32 @@
       {
         "question": "What anatomical structures does the Darce choke target, and how does the arm-triangle configuration produce the submission?",
         "answer": "The Darce choke targets the bilateral carotid arteries on both sides of the neck. The arm-triangle configuration uses the attacker's arms on one side and the opponent's own trapped shoulder and arm on the other side to create compression from both directions simultaneously. This bilateral carotid compression restricts blood flow to the brain, producing unconsciousness within 4-8 seconds when properly applied. The opponent's trapped arm is essential—it fills the space on one side of the neck and provides the counter-pressure that makes the choke effective.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trapped arm seals both carotids",
+        "distractors": {
+          "plausible": [
+            "Windpipe compression, not blood",
+            "Attacker's arms alone compress"
+          ],
+          "trap": [
+            "Vagus nerve strike knockout"
+          ]
+        }
       },
       {
         "question": "What are the indicators that the Darce choke is reaching the breaking point where the opponent must tap or lose consciousness?",
         "answer": "Key indicators include the opponent's defensive movements becoming weaker or more frantic, their face changing color, their grip strength on your arms weakening noticeably, and any gurgling or unusual breathing sounds. The opponent may also stop actively defending and become still. At this point, maintain awareness for a tap signal but also be prepared for unconsciousness without a tap. The transition from active defense to passive acceptance happens rapidly with blood chokes, so constant vigilance is essential.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Weak grip, color change, sounds",
+        "distractors": {
+          "plausible": [
+            "Wait for a verbal tap only",
+            "Frantic struggling means safe"
+          ],
+          "trap": [
+            "Add pressure once they go still"
+          ]
+        }
       },
       {
         "question": "What control must be established before you can safely commit to the Darce entry from leg drag?",
@@ -344,13 +364,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "You mainly need double underhooks and chest-to-chest pressure before threading the choking arm through.",
-            "The key prerequisite is the opponent posting their near arm on the mat so you can thread underneath it."
+            "Just trap the near arm first",
+            "Crossface alone is enough"
           ],
           "trap": [
-            "Dive for the neck the instant their head dips; leg control can wait because speed matters more than position on the Darce."
+            "Let arm post on the mat"
           ]
-        }
+        },
+        "answer_line": "Hips pin, crossface turns, arm in"
       },
       {
         "question": "At what point during the Darce sequence does the submission become inescapable, and what defines this threshold?",
@@ -358,18 +379,29 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The choke is inescapable as soon as the threading arm slides deep past the neck, even before the hands connect.",
-            "The point of no return is when you sit through to your hip, regardless of whether the grip is fully clasped."
+            "Once the arm starts threading",
+            "As soon as chin tucks down"
           ],
           "trap": [
-            "Once your arm is around the neck you can release hip pressure and finish with arm strength alone."
+            "Before the grip fully clasps"
           ]
-        }
+        },
+        "answer_line": "Figure-four locks, hips sprawl"
       },
       {
         "question": "Your opponent begins to posture up as you thread your arm—what adjustment prevents the escape?",
         "answer": "When the opponent postures during threading, immediately drive your hips forward to close the distance they are creating. Use your free hand to push their head down or control their far shoulder to prevent them from lifting their torso. Simultaneously, drive your threading arm deeper using the forward momentum from your hips. If they achieve significant posture, you may need to temporarily abort the Darce, re-establish crossface pressure from leg drag control, and wait for the next turning reaction before attempting again.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive hips forward, control head",
+        "distractors": {
+          "plausible": [
+            "Pull harder on trapped arm only",
+            "Force the choke despite posture"
+          ],
+          "trap": [
+            "Lean back to create space"
+          ]
+        }
       },
       {
         "question": "What are the most common grip errors during the Darce finish, and how do they reduce effectiveness?",
@@ -377,13 +409,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The main grip error is clasping the bicep too tightly, which burns out your grip before the choke takes effect.",
-            "Placing the threading hand behind the head instead of on top is the most common mistake, since it pushes the opponent away."
+            "Threading hand under the chin",
+            "Grip too far from the shoulder"
           ],
           "trap": [
-            "If the choke feels loose, open your elbows wide and crank the head sideways to force the tap."
+            "Squeeze elbows too tight"
           ]
-        }
+        },
+        "answer_line": "Loose grip, hand atop, elbows flared"
       },
       {
         "question": "How should you respond if your opponent loses consciousness during the Darce choke?",
@@ -391,28 +424,59 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Sit them upright and gently shake their shoulders so blood returns to the head faster after the choke.",
-            "Lay them flat on their back and elevate their legs until they wake, which usually takes about a minute."
+            "Shake them awake gently",
+            "Hold position, ease pressure slowly"
           ],
           "trap": [
-            "Keep light pressure on for a few seconds after they go limp so they don't wake mid-release and resume escaping."
+            "Add pressure to confirm the tap"
           ]
-        }
+        },
+        "answer_line": "Release, recovery position, monitor"
       },
       {
         "question": "How do you adjust the finishing angle when the initial perpendicular position fails to produce a tap?",
         "answer": "If the initial angle is not producing carotid compression, first check that the opponent's arm is still trapped inside the triangle. Then adjust by walking your hips further toward the opponent's head, which changes the compression vector. You can also try dropping your far shoulder lower toward the mat while maintaining the grip, which increases the downward pressure component. If neither adjustment works, the threading depth may be insufficient—rather than burning energy forcing an ineffective choke, consider briefly loosening to re-thread deeper, or transition to side control and look for the next opportunity.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk hips toward the head",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped arm outward",
+            "Squeeze harder from same angle"
+          ],
+          "trap": [
+            "Abandon grip for a wristlock"
+          ]
+        }
       },
       {
         "question": "What distinguishes a competition-effective Darce finish from a training-appropriate application?",
         "answer": "In competition, the Darce can be applied with maximum speed and pressure from the moment the grip locks, as the stakes justify aggressive finishing. The attacker sprawls explosively and drives maximum hip pressure immediately. In training, the application must be progressive—lock the grip, then gradually increase pressure to give the partner time to recognize the position and tap before unconsciousness occurs. The finishing mechanics are identical, but the speed of pressure application differs significantly. Training partners should also establish clear tap signals before drilling, especially in no-gi where hands may be trapped.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Same mechanics, slower in training",
+        "distractors": {
+          "plausible": [
+            "Lighter grip used in training",
+            "Weaker hip sprawl in training"
+          ],
+          "trap": [
+            "Full speed finish in training too"
+          ]
+        }
       },
       {
         "question": "Your figure-four grip keeps slipping during the finish due to sweat—what technical adjustment maintains control?",
         "answer": "In sweaty no-gi conditions, the palm-to-bicep grip can slip. Adjust by using a deeper gable grip variation where you clasp your hands together rather than palm-to-bicep, though this reduces some choking efficiency. Alternatively, dry your arms on your shorts or the mat before locking. The most reliable adjustment is ensuring your threading arm is deep enough that the lock is structural rather than grip-dependent—when the arm is fully through the armpit, the opponent's own body creates a shelf that prevents slipping. You can also use your chin pressed against the back of your threading hand to reinforce the lock.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thread deeper for structural lock",
+        "distractors": {
+          "plausible": [
+            "Switch to gi grip mid-roll",
+            "Squeeze harder to fight the slip"
+          ],
+          "trap": [
+            "Chase a fresh grip, losing position"
+          ]
+        }
       }
     ],
     "clips": [
@@ -531,22 +595,62 @@
       {
         "question": "What is the earliest recognition cue that a Darce is being attempted from leg drag, and what should your immediate response be?",
         "answer": "The earliest cue is the opponent releasing their crossface or shoulder control and beginning to shoot their near arm under your neck. Your immediate response should be a sharp chin tuck combined with a shoulder shrug on the near side to close the neck-armpit channel, plus framing against their threading shoulder with your hands. This must happen within the first half-second of recognizing the attempt—every moment of delay allows the arm to advance deeper and makes defense exponentially harder.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chin tuck, shrug, frame instantly",
+        "distractors": {
+          "plausible": [
+            "Wait to see how deep it gets",
+            "Turn away to create space"
+          ],
+          "trap": [
+            "Post hands flat on the mat"
+          ]
+        }
       },
       {
         "question": "Why is turning away from the opponent the wrong defensive reaction when you feel a Darce being set up?",
         "answer": "Turning away opens the neck-armpit channel wider by separating your chin from your shoulder on the near side, giving the opponent more space to thread their arm through. It also exposes your back, which can lead to an even worse position if the Darce fails. The correct response is to turn INTO the opponent, which closes the channel by driving your chin toward the near shoulder and creating structural resistance against the threading arm. This is counterintuitive because the natural reaction to choking pressure is to turn away, which is why drilling the correct response is essential.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn into opponent, close channel",
+        "distractors": {
+          "plausible": [
+            "Turn away to protect the neck",
+            "Post on far arm to create space"
+          ],
+          "trap": [
+            "Expose the back to escape choke"
+          ]
+        }
       },
       {
         "question": "At what point should you prioritize tapping rather than continuing to defend the Darce?",
         "answer": "You should tap immediately when you feel bilateral carotid compression that you cannot relieve through any available technical escape. Signs that the choke is fully locked include tunnel vision, face pressure building, and the inability to move your trapped arm. Blood chokes produce unconsciousness within 4-8 seconds of full compression—there is no safe window to tough it out. Tapping early preserves your consciousness and prevents potential injury. In training, tap when you recognize the choke is locked rather than testing your tolerance, as unconsciousness can occur suddenly without warning.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap once compression won't release",
+        "distractors": {
+          "plausible": [
+            "Wait for tunnel vision to fade",
+            "Test tolerance before tapping"
+          ],
+          "trap": [
+            "Hold out for the 8-second mark"
+          ]
+        }
       },
       {
         "question": "Your opponent has the Darce partially locked but has not yet sprawled their hips—what escape option is still available?",
         "answer": "Before the hip sprawl, you still have space to work. Your best option is to explosively posture upward while simultaneously pulling your trapped arm toward your hip to extract it from inside the choke. The opponent's grip is at its weakest before they add hip pressure. You can also try driving forward into the opponent to stack your weight on them, which compresses their arms and reduces their ability to squeeze. The key is acting immediately—once the hips sprawl, the mechanical advantage shifts decisively to the attacker and these escapes become nearly impossible.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture up, rip arm to hip",
+        "distractors": {
+          "plausible": [
+            "Wait for hips to sprawl first",
+            "Push away to create framing space"
+          ],
+          "trap": [
+            "Relax the arm to save energy"
+          ]
+        }
       }
     ],
     "training_progressions": [

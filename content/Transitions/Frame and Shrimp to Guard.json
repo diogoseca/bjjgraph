@@ -236,84 +236,168 @@
         "answer": "The primary goal is to create space with frames and hip escapes to free your trapped leg from leg drag control and re-establish open guard. This resets the passing exchange to neutral, forcing your opponent to restart their passing sequence.",
         "distractors": {
           "plausible": [
-            "The primary goal is to bridge into the opponent and reverse the leg drag into top position before they settle.",
-            "The primary goal is to sweep the opponent by off-balancing them as they drive into the leg drag."
+            "Sweep opponent to top position",
+            "Survive by staying still"
           ],
           "trap": [
-            "The primary goal is to turn away from the opponent and belly-down so you can crawl your hips out of the leg drag."
+            "Turn away exposing your back"
           ]
-        }
+        },
+        "answer_line": "Free trapped leg, regain guard"
       },
       {
         "question": "What position do you start Frame and Shrimp to Guard from?",
         "answer": "It starts from Leg Drag Control Bottom, before the opponent has consolidated side control or taken your back. At this point the opponent has pulled your leg across your body and is controlling your hip, but the pass is not yet complete.",
         "distractors": {
           "plausible": [
-            "It starts from bottom side control, once the opponent has completed the leg drag pass and settled their chest.",
-            "It starts from half guard bottom, at the moment the opponent begins dragging your top leg across your body."
+            "After side control established",
+            "From mount, bottom position"
           ],
           "trap": [
-            "It starts only after the opponent has fully flattened you out, since frames work best once their full weight commits."
+            "After back is taken"
           ]
-        }
+        },
+        "answer_line": "Leg Drag Control, bottom"
       },
       {
         "question": "What are the key frames needed for Frame and Shrimp to Guard?",
         "answer": "You need two connected frames: a near-side forearm on the opponent's shoulder or bicep, and a far-side hand on their hip or posted on the mat. Keep the framing elbow tight to your ribs for skeletal connection; both frames work as a connected system rather than isolated pushes.",
         "distractors": {
           "plausible": [
-            "You need one strong frame: both hands stacked on the opponent's near shoulder to bench-press their upper body away.",
-            "You frame with your near-side hand on their hip and your far-side forearm across their neck to hold them off."
+            "Two hands on their far hip",
+            "One frame on their head"
           ],
           "trap": [
-            "Extend both arms straight into the opponent's chest and push with maximum force to shove them off your legs."
+            "Push off with straight arms"
+          ]
+        },
+        "answer_line": "Near shoulder frame, far hip frame"
+      },
+      {
+        "question": "Your opponent drives forward and collapses your frames as you attempt to shrimp—what adjustment do you make?",
+        "answer": "When frames collapse, do not continue the shrimp escape attempt. Instead, immediately turn into your opponent and fight aggressively for an underhook on the side they're driving. Accept transitioning to half guard rather than losing the position entirely. The frame collapse indicates the escape window has closed.",
+        "answer_line": "Turn in, fight for underhook",
+        "distractors": {
+          "plausible": [
+            "Keep shrimping harder",
+            "Push away and reset frames"
+          ],
+          "trap": [
+            "Turn away and give up back"
           ]
         }
       },
       {
-        "question": "Your opponent drives forward and collapses your frames as you attempt to shrimp—what adjustment do you make?",
-        "answer": "When frames collapse, do not continue the shrimp escape attempt. Instead, immediately turn into your opponent and fight aggressively for an underhook on the side they're driving. Accept transitioning to half guard rather than losing the position entirely. The frame collapse indicates the escape window has closed."
-      },
-      {
         "question": "When is the best time to attempt Frame and Shrimp to Guard?",
-        "answer": "The optimal timing is when your opponent shifts their weight to adjust grips, advances toward your head, or transitions between control points. These moments create brief windows where their pressure is reduced and their ability to follow your movement is compromised. Never attempt when opponent is fully settled with maximum pressure."
+        "answer": "The optimal timing is when your opponent shifts their weight to adjust grips, advances toward your head, or transitions between control points. These moments create brief windows where their pressure is reduced and their ability to follow your movement is compromised. Never attempt when opponent is fully settled with maximum pressure.",
+        "answer_line": "When opponent shifts weight",
+        "distractors": {
+          "plausible": [
+            "Right after they secure grips",
+            "When fully pinned and settled"
+          ],
+          "trap": [
+            "After they've secured side control"
+          ]
+        }
       },
       {
         "question": "Why must you keep your shoulders flat rather than turning away during the shrimp?",
-        "answer": "Turning your shoulders away exposes your back for an easy back take—opponent simply follows your rotation and inserts hooks. The shrimp should move your hips laterally while your chest stays facing the ceiling. This maintains your frame integrity and prevents the more dangerous back control position."
+        "answer": "Turning your shoulders away exposes your back for an easy back take—opponent simply follows your rotation and inserts hooks. The shrimp should move your hips laterally while your chest stays facing the ceiling. This maintains your frame integrity and prevents the more dangerous back control position.",
+        "answer_line": "Prevents back exposure",
+        "distractors": {
+          "plausible": [
+            "Keeps hips heavier on mat",
+            "Improves push-off power"
+          ],
+          "trap": [
+            "Turn shoulders to create space"
+          ]
+        }
       },
       {
         "question": "Your initial shrimp creates space but opponent follows and maintains leg control—what is your response?",
-        "answer": "Chain multiple shrimps in the same direction, each building more separation. Alternatively, suddenly switch shrimping direction to catch opponent off-balance as they commit to following one direction. Re-establish frames after each shrimp and continue until sufficient space exists for leg extraction."
+        "answer": "Chain multiple shrimps in the same direction, each building more separation. Alternatively, suddenly switch shrimping direction to catch opponent off-balance as they commit to following one direction. Re-establish frames after each shrimp and continue until sufficient space exists for leg extraction.",
+        "answer_line": "Chain shrimps, or switch direction",
+        "distractors": {
+          "plausible": [
+            "Shrimp once, then rest",
+            "Push harder in one direction"
+          ],
+          "trap": [
+            "Stop moving and hold frames"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force when extracting your trapped leg?",
-        "answer": "Pull your knee in a circular path toward your chest, not straight back. The knee travels through the space created by your hip escape, following a curved trajectory. Attempting to pull straight back works against opponent's grip and body weight, making extraction impossible."
+        "answer": "Pull your knee in a circular path toward your chest, not straight back. The knee travels through the space created by your hip escape, following a curved trajectory. Attempting to pull straight back works against opponent's grip and body weight, making extraction impossible.",
+        "answer_line": "Circular path toward chest",
+        "distractors": {
+          "plausible": [
+            "Straight back and away",
+            "Push knee outward"
+          ],
+          "trap": [
+            "Yank leg straight back hard"
+          ]
+        }
       },
       {
         "question": "How do you maintain frame efficiency without exhausting yourself?",
-        "answer": "Connect frames to your skeletal structure rather than relying on muscular effort. Keep elbows tight to your body, align your forearm with your shoulder joint, and let your body structure absorb pressure. Stay relaxed between escape attempts, only exploding with effort during the actual shrimp movement."
+        "answer": "Connect frames to your skeletal structure rather than relying on muscular effort. Keep elbows tight to your body, align your forearm with your shoulder joint, and let your body structure absorb pressure. Stay relaxed between escape attempts, only exploding with effort during the actual shrimp movement.",
+        "answer_line": "Skeletal frames, relax between",
+        "distractors": {
+          "plausible": [
+            "Constant muscular tension",
+            "Push continuously with arms"
+          ],
+          "trap": [
+            "Flare elbows for more power"
+          ]
+        }
       },
       {
         "question": "Your opponent releases your leg and advances toward side control during your escape—is this a success or failure?",
-        "answer": "This is a success—the leg drag threat is removed. Immediately capitalize by inserting a knee shield or continuing your hip escape to establish guard before they consolidate side control. Your escape forced them to abandon the leg drag, achieving your primary objective of removing that specific control."
+        "answer": "This is a success—the leg drag threat is removed. Immediately capitalize by inserting a knee shield or continuing your hip escape to establish guard before they consolidate side control. Your escape forced them to abandon the leg drag, achieving your primary objective of removing that specific control.",
+        "answer_line": "Success — leg drag removed",
+        "distractors": {
+          "plausible": [
+            "Failure — they advanced",
+            "Neutral — no change happened"
+          ],
+          "trap": [
+            "Stop and reset position"
+          ]
+        }
       },
       {
         "question": "What grip on your trapped leg should you prioritize breaking before attempting the shrimp?",
-        "answer": "Prioritize breaking or reducing opponent's control on your near-side hip and pants grip, as this is the anchor that keeps your leg pinned across your body. Use your far-side hand to push their grip hand toward their centerline while simultaneously framing their shoulder with your near-side arm. You do not need to fully break the grip—reducing its effectiveness enough to allow your shrimp to generate separation is sufficient."
+        "answer": "Prioritize breaking or reducing opponent's control on your near-side hip and pants grip, as this is the anchor that keeps your leg pinned across your body. Use your far-side hand to push their grip hand toward their centerline while simultaneously framing their shoulder with your near-side arm. You do not need to fully break the grip—reducing its effectiveness enough to allow your shrimp to generate separation is sufficient.",
+        "answer_line": "Near-side hip and pants grip",
+        "distractors": {
+          "plausible": [
+            "Far-side collar grip",
+            "Their far-side ankle grip"
+          ],
+          "trap": [
+            "Grip their far-side sleeve"
+          ]
+        }
       },
       {
         "question": "How does the direction of your shrimp differ from a standard side control hip escape?",
         "answer": "You shrimp at roughly 45 degrees away and slightly toward your trapped-leg side, rather than directly away as in side control. This angled shrimp accounts for the crossed-leg configuration of the leg drag, creating space specifically along the line where your leg is pinned and along the path your knee needs to travel for extraction.",
         "distractors": {
           "plausible": [
-            "You shrimp directly away from the opponent at 90 degrees, exactly as in a standard side control hip escape.",
-            "You shrimp toward your free-leg side to change the angle before pulling the dragged knee across."
+            "Directly away, like side control",
+            "45° away from trapped leg"
           ],
           "trap": [
-            "You shrimp in toward the opponent to close the distance so you can hook their leg before freeing your own."
+            "Straight toward opponent's hips"
           ]
-        }
+        },
+        "answer_line": "45° toward trapped-leg side"
       }
     ],
     "safety_considerations": "Frame and Shrimp to Guard is a relatively low-risk defensive technique, but proper execution is important to prevent injury. Avoid explosive movements when cold—always warm up hip flexors, lower back, and shoulders before drilling. When practicing with partners, communicate about frame pressure intensity to prevent shoulder or rib injuries from overly aggressive framing. The shrimping motion should not strain your lower back if performed correctly; if you feel back pain, check that you're using leg drive rather than back extension. During drilling, tap or verbally indicate if partner's leg drag control creates uncomfortable knee or hip pressure before attempting escape.",
@@ -427,23 +511,73 @@
     "flashcards": [
       {
         "question": "What are the two mechanisms you must address to prevent Frame and Shrimp to Guard?",
-        "answer": "You must address both the framing structure and the hip escape motion. The frames (shoulder frame and hip frame) prevent you from following their movement, while the shrimp creates the lateral space needed for leg extraction. Eliminating either mechanism defeats the escape—collapsing frames means the shrimp cannot generate separation, while eliminating hip space means frames alone accomplish nothing."
+        "answer": "You must address both the framing structure and the hip escape motion. The frames (shoulder frame and hip frame) prevent you from following their movement, while the shrimp creates the lateral space needed for leg extraction. Eliminating either mechanism defeats the escape—collapsing frames means the shrimp cannot generate separation, while eliminating hip space means frames alone accomplish nothing.",
+        "answer_line": "Collapse frames or kill hip space",
+        "distractors": {
+          "plausible": [
+            "Only control the far arm",
+            "Only flatten their shoulders"
+          ],
+          "trap": [
+            "Push down on their chest only"
+          ]
+        }
       },
       {
         "question": "You feel your opponent's forearm pressing against your shoulder—what is your immediate response?",
-        "answer": "Drive your shoulder weight forward and slightly past their forearm before they can align the frame with their skeleton. Simultaneously increase your crossface pressure to limit their ability to establish the secondary hip frame. You have approximately one to two seconds before the frame becomes structural and much harder to collapse. Acting on the first frame prevents the escape structure from completing."
+        "answer": "Drive your shoulder weight forward and slightly past their forearm before they can align the frame with their skeleton. Simultaneously increase your crossface pressure to limit their ability to establish the secondary hip frame. You have approximately one to two seconds before the frame becomes structural and much harder to collapse. Acting on the first frame prevents the escape structure from completing.",
+        "answer_line": "Drive shoulder past their frame",
+        "distractors": {
+          "plausible": [
+            "Wait for frame to fully set",
+            "Pull head back away from arm"
+          ],
+          "trap": [
+            "Release crossface pressure"
+          ]
+        }
       },
       {
         "question": "Your opponent fires an explosive shrimp and creates significant hip separation—should you chase or transition?",
-        "answer": "Transition rather than chase. If a single explosive shrimp creates meaningful separation, trying to re-establish leg drag control from the new distance is a losing proposition—they will chain additional shrimps while you chase. Instead, immediately release the leg and drive into side control consolidation before they can insert a knee or establish guard. Converting to side control preserves your dominant position."
+        "answer": "Transition rather than chase. If a single explosive shrimp creates meaningful separation, trying to re-establish leg drag control from the new distance is a losing proposition—they will chain additional shrimps while you chase. Instead, immediately release the leg and drive into side control consolidation before they can insert a knee or establish guard. Converting to side control preserves your dominant position.",
+        "answer_line": "Release leg, take side control",
+        "distractors": {
+          "plausible": [
+            "Chase and re-grip the leg",
+            "Dive for a leg lock"
+          ],
+          "trap": [
+            "Follow them into their guard"
+          ]
+        }
       },
       {
         "question": "Why is maintaining hip-level pressure more important than upper body pressure against this escape?",
-        "answer": "The shrimp motion generates space at the hip line, not at the chest. Upper body pressure that is positioned too high leaves the hip area unweighted, which is exactly where the bottom player needs freedom of movement. By keeping your chest driving into their near hip with low weight distribution, you directly oppose the shrimping force at its point of origin and make leg extraction mechanically impossible."
+        "answer": "The shrimp motion generates space at the hip line, not at the chest. Upper body pressure that is positioned too high leaves the hip area unweighted, which is exactly where the bottom player needs freedom of movement. By keeping your chest driving into their near hip with low weight distribution, you directly oppose the shrimping force at its point of origin and make leg extraction mechanically impossible.",
+        "answer_line": "Shrimp starts at the hip line",
+        "distractors": {
+          "plausible": [
+            "Upper body pressure is stronger",
+            "Chest pressure controls posture"
+          ],
+          "trap": [
+            "Lighten hips to chase the arms"
+          ]
+        }
       },
       {
         "question": "How long should you maintain leg drag control before transitioning to a consolidated position?",
-        "answer": "Leg drag control should be treated as a 3-5 second transitional window, not a holding position. Within that time, you should be actively advancing to side control, mount, or back take. Staying longer invites the frame and shrimp escape as the bottom player reads your position and establishes their defensive structure. The longer you hold without advancing, the higher the probability of a successful escape."
+        "answer": "Leg drag control should be treated as a 3-5 second transitional window, not a holding position. Within that time, you should be actively advancing to side control, mount, or back take. Staying longer invites the frame and shrimp escape as the bottom player reads your position and establishes their defensive structure. The longer you hold without advancing, the higher the probability of a successful escape.",
+        "answer_line": "3-5 seconds, then advance",
+        "distractors": {
+          "plausible": [
+            "10-15 seconds to secure it",
+            "Until opponent stops moving"
+          ],
+          "trap": [
+            "Hold it as long as possible"
+          ]
+        }
       }
     ],
     "training_progressions": [

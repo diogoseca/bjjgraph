@@ -263,63 +263,126 @@
         "answer": "The optimal window is the opponent's forward weight shift, when they drive pressure in or try to clear the lockdown. Extending their trapped leg to escape the lockdown counts too: either way their base is temporarily compromised and their weight commits forward, exactly the direction the sweep needs to send them. Initiating during a backward weight shift or against a neutral base makes the sweep significantly harder to complete.",
         "distractors": {
           "plausible": [
-            "The optimal window is when the opponent shifts their weight backward, since that unweights the trapped leg for the sweep.",
-            "The best moment is when the opponent settles into a still, neutral base, because a static target is easier to sweep."
+            "Opponent shifts weight back",
+            "Opponent has neutral base"
           ],
           "trap": [
-            "Wait until the opponent has fully cleared their leg from the lockdown, then sweep as they step over to pass."
+            "As soon as lockdown locks on"
           ]
-        }
+        },
+        "answer_line": "Opponent shifts weight forward"
       },
       {
         "question": "What three controls must be simultaneously established before attempting the Old School Sweep?",
         "answer": "The three simultaneous controls are the lockdown on the trapped leg, a deep underhook, and head control pulling posture down. Specifically: a lockdown figure-four with active extension, an underhook with the elbow tight to your ribs and the hand gripping high on the opponent's back, and the opposite arm wrapping behind the opponent's neck to pull their posture down. All three must work in concert — losing any single control point dramatically reduces sweep success probability because the opponent can either base, posture, or post to defend.",
         "distractors": {
           "plausible": [
-            "The three controls are the lockdown, a deep underhook, and a strong collar grip to break the opponent's posture.",
-            "The three controls are the lockdown, an overhook on the near arm, and head control to stop the opponent posturing up."
+            "Underhook, head control, base",
+            "Lockdown, crossface, whizzer"
           ],
           "trap": [
-            "Release the lockdown once you have the underhook and head control, freeing your legs to generate sweeping momentum."
+            "Two overhooks, no lockdown"
+          ]
+        },
+        "answer_line": "Lockdown, underhook, head control"
+      },
+      {
+        "question": "Why must the sweep execute in a circular arc rather than pushing the opponent straight over?",
+        "answer": "A circular arc uses rotational mechanics that the opponent cannot resist by simply posting or widening their base. Linear pushing gives the opponent a clear axis to post against with their free hand. The circular sweep spirals from your side position around to mount, using your shoulder as a fulcrum and the underhook as a lever arm. This rotational path also maintains chest-to-chest contact throughout, preventing the opponent from creating defensive space during the transition.",
+        "answer_line": "Circular arc around the shoulder",
+        "distractors": {
+          "plausible": [
+            "Push straight up off your hips",
+            "Bridge them straight backward"
+          ],
+          "trap": [
+            "Shove them straight over you"
           ]
         }
       },
       {
-        "question": "Why must the sweep execute in a circular arc rather than pushing the opponent straight over?",
-        "answer": "A circular arc uses rotational mechanics that the opponent cannot resist by simply posting or widening their base. Linear pushing gives the opponent a clear axis to post against with their free hand. The circular sweep spirals from your side position around to mount, using your shoulder as a fulcrum and the underhook as a lever arm. This rotational path also maintains chest-to-chest contact throughout, preventing the opponent from creating defensive space during the transition."
-      },
-      {
         "question": "What happens if you attempt the Old School Sweep while flat on your back instead of positioned on your side?",
-        "answer": "Being flat on your back eliminates the geometric advantage needed for the sweep. Without the side angle, your shoulder cannot position under the opponent's center of gravity to create a fulcrum, your underhook loses its rotational leverage because the pulling angle becomes suboptimal, and your hip drive cannot generate upward force effectively. The flat position also makes you vulnerable to smash passing because the opponent can drive crossface pressure to maintain the flattened posture."
+        "answer": "Being flat on your back eliminates the geometric advantage needed for the sweep. Without the side angle, your shoulder cannot position under the opponent's center of gravity to create a fulcrum, your underhook loses its rotational leverage because the pulling angle becomes suboptimal, and your hip drive cannot generate upward force effectively. The flat position also makes you vulnerable to smash passing because the opponent can drive crossface pressure to maintain the flattened posture.",
+        "answer_line": "No fulcrum, get smash-passed",
+        "distractors": {
+          "plausible": [
+            "Sweep just needs more strength",
+            "Underhook becomes stronger"
+          ],
+          "trap": [
+            "Actually easier, more leverage"
+          ]
+        }
       },
       {
         "question": "How deep should the underhook be and where should your hand grip for maximum sweep leverage?",
         "answer": "Thread the underhook deep enough that your hand grips the shoulder blade or over the far shoulder, elbow pinned to your ribs. A shallow underhook where the hand only reaches the opponent's side provides insufficient lever arm length. The depth creates the long lever needed for rotation, and keeping the elbow tight prevents the opponent from stripping the underhook or converting it into a defensive whizzer.",
         "distractors": {
           "plausible": [
-            "Grip at the opponent's mid-back or lat, since reaching higher overextends your arm and weakens the underhook frame.",
-            "Flare the underhook elbow away from your ribs so your hand can reach higher on the opponent's back."
+            "Hand reaches mid-back only",
+            "Grip the belt, not shoulder"
           ],
           "trap": [
-            "Swim the arm over the opponent's shoulder into an overhook instead, since it gives stronger control for the sweep."
+            "Underhook loose, arm relaxed"
+          ]
+        },
+        "answer_line": "Hand grips the shoulder blade"
+      },
+      {
+        "question": "In which direction should your hips drive during the sweep and why is this critical?",
+        "answer": "Your hips should drive forward and upward simultaneously during the sweep execution. Forward drive pushes your body into the opponent to maintain tight connection, while upward drive lifts their weight off the mat and feeds into the rotational momentum. Driving only forward without upward component keeps the opponent's weight grounded, making rotation extremely difficult. Driving only upward creates space between bodies that the opponent can exploit to recover base. The combined vector creates the spiral motion that makes the sweep mechanically efficient.",
+        "answer_line": "Forward and upward together",
+        "distractors": {
+          "plausible": [
+            "Forward only, stay grounded",
+            "Upward only, create space"
+          ],
+          "trap": [
+            "Straight up, then push back"
           ]
         }
       },
       {
-        "question": "In which direction should your hips drive during the sweep and why is this critical?",
-        "answer": "Your hips should drive forward and upward simultaneously during the sweep execution. Forward drive pushes your body into the opponent to maintain tight connection, while upward drive lifts their weight off the mat and feeds into the rotational momentum. Driving only forward without upward component keeps the opponent's weight grounded, making rotation extremely difficult. Driving only upward creates space between bodies that the opponent can exploit to recover base. The combined vector creates the spiral motion that makes the sweep mechanically efficient."
-      },
-      {
         "question": "Your opponent posts their free hand on the mat when you initiate the sweep - how do you adjust?",
-        "answer": "First, pull your head control tighter to try to remove their ability to maintain the post by collapsing their posture further. If the post is already established, consider two options: redirect the sweep angle slightly to go around the posting arm rather than directly into it, or attack the posting arm itself with a kimura grip from the underhook position. The post creates a single point of balance that is actually a vulnerability—if you can remove or redirect around it, the sweep becomes higher percentage than before."
+        "answer": "First, pull your head control tighter to try to remove their ability to maintain the post by collapsing their posture further. If the post is already established, consider two options: redirect the sweep angle slightly to go around the posting arm rather than directly into it, or attack the posting arm itself with a kimura grip from the underhook position. The post creates a single point of balance that is actually a vulnerability—if you can remove or redirect around it, the sweep becomes higher percentage than before.",
+        "answer_line": "Redirect sweep or kimura the post",
+        "distractors": {
+          "plausible": [
+            "Power through the post directly",
+            "Release lockdown, reset guard"
+          ],
+          "trap": [
+            "Push harder into the post"
+          ]
+        }
       },
       {
         "question": "If the opponent establishes a strong whizzer to block the Old School Sweep, what alternative attack becomes available?",
-        "answer": "The whizzer defense against the Old School Sweep directly opens the Electric Chair transition. When the opponent whizzers hard to block your underhook's rotation, they are simultaneously preventing you from sweeping but also committing their weight and structural integrity to fighting your upper body. This creates an opening to dive under their hips and attack the leg separation through the Electric Chair, using the lockdown to split their legs. The whizzer actually assists the Electric Chair entry because the opponent's downward pressure helps drive you underneath them."
+        "answer": "The whizzer defense against the Old School Sweep directly opens the Electric Chair transition. When the opponent whizzers hard to block your underhook's rotation, they are simultaneously preventing you from sweeping but also committing their weight and structural integrity to fighting your upper body. This creates an opening to dive under their hips and attack the leg separation through the Electric Chair, using the lockdown to split their legs. The whizzer actually assists the Electric Chair entry because the opponent's downward pressure helps drive you underneath them.",
+        "answer_line": "Dive under hips to Electric Chair",
+        "distractors": {
+          "plausible": [
+            "Switch to kimura from underhook",
+            "Abandon attack, reset guard"
+          ],
+          "trap": [
+            "Fight the whizzer for underhook"
+          ]
+        }
       },
       {
         "question": "Your opponent begins driving heavy crossface pressure while you have lockdown and underhook established but not yet head control. What is the optimal response?",
-        "answer": "Immediately pump the lockdown to create space and prevent being flattened onto your back. Use your free arm to frame against their crossface shoulder rather than fighting for head control under heavy pressure. If the crossface is too strong and you begin going flat, abandon the Old School setup and transition to deep half guard by diving under their hips. Maintaining your angle on the side is more important than forcing head control against an established crossface."
+        "answer": "Immediately pump the lockdown to create space and prevent being flattened onto your back. Use your free arm to frame against their crossface shoulder rather than fighting for head control under heavy pressure. If the crossface is too strong and you begin going flat, abandon the Old School setup and transition to deep half guard by diving under their hips. Maintaining your angle on the side is more important than forcing head control against an established crossface.",
+        "answer_line": "Pump lockdown, frame the crossface",
+        "distractors": {
+          "plausible": [
+            "Fight hard for head control",
+            "Push away and reset guard"
+          ],
+          "trap": [
+            "Stay flat and bridge up"
+          ]
+        }
       },
       {
         "question": "What three controls must be established before attempting the Old School Sweep, and why does the sequence matter?",
@@ -336,49 +399,101 @@
       },
       {
         "question": "What specific hip and shoulder positioning creates maximum sweeping leverage during the Old School Sweep?",
-        "answer": "Your underhook-side shoulder must be positioned directly under the opponent's center of gravity, creating a fulcrum point. Your hips should be angled toward the underhook side at approximately 45 degrees, not flat on your back. This positioning converts your upward bridge force into rotational force around the shoulder fulcrum. If your shoulder is too far from their center line, the rotation lacks power. If your hips are flat, you lose the geometric angle needed to generate lateral force."
+        "answer": "Your underhook-side shoulder must be positioned directly under the opponent's center of gravity, creating a fulcrum point. Your hips should be angled toward the underhook side at approximately 45 degrees, not flat on your back. This positioning converts your upward bridge force into rotational force around the shoulder fulcrum. If your shoulder is too far from their center line, the rotation lacks power. If your hips are flat, you lose the geometric angle needed to generate lateral force.",
+        "answer_line": "Shoulder under center, hips angled",
+        "distractors": {
+          "plausible": [
+            "Hips flat, shoulder squared up",
+            "Shoulder wide, hips low and flat"
+          ],
+          "trap": [
+            "Hips flat, drive straight up"
+          ]
+        }
       },
       {
         "question": "You attempt the sweep but your opponent posts their free hand firmly on the mat. How do you adjust mid-technique?",
-        "answer": "You have two immediate options. First, redirect the sweep angle away from the posted hand by adjusting your bridge direction, sweeping them diagonally rather than directly over the post. Second, if their post is strong, abandon the direct sweep and transition to Electric Chair by using the lockdown to pull their trapped leg through while diving under their hips. The posted hand actually helps this transition because their weight is committed to one side. Never force the sweep directly into an established post."
+        "answer": "You have two immediate options. First, redirect the sweep angle away from the posted hand by adjusting your bridge direction, sweeping them diagonally rather than directly over the post. Second, if their post is strong, abandon the direct sweep and transition to Electric Chair by using the lockdown to pull their trapped leg through while diving under their hips. The posted hand actually helps this transition because their weight is committed to one side. Never force the sweep directly into an established post.",
+        "answer_line": "Redirect angle or Electric Chair",
+        "distractors": {
+          "plausible": [
+            "Force the bridge into the post",
+            "Stop and reset the lockdown"
+          ],
+          "trap": [
+            "Sweep straight into the post"
+          ]
+        }
       },
       {
         "question": "How deep should the underhook be, and what are the consequences of a shallow underhook?",
         "answer": "The underhook must reach the far shoulder blade or over the top of the shoulder; a shallow underhook lacks leverage and gets stripped. Thread it with your elbow clamped tight against your own ribs. A shallow underhook where the hand only reaches mid-back or the lat provides insufficient leverage for the rotational sweep — the opponent can easily strip it with their whizzer, and even if the sweep is initiated, the reduced lever arm means the rotation stalls before completion.",
         "distractors": {
           "plausible": [
-            "An underhook to the mid-back or lat is deep enough, as long as your elbow stays clamped tight against your own ribs.",
-            "A shallow underhook is fine if you compensate by extending the lockdown harder during the rotation."
+            "Grip mid-back or the lat",
+            "Hand on hip, arm relaxed"
           ],
           "trap": [
-            "If the underhook is shallow, release it and push on the opponent's chest to generate the sweeping momentum instead."
+            "Loose grip, elbow flared out"
+          ]
+        },
+        "answer_line": "Grip far shoulder, elbow tight"
+      },
+      {
+        "question": "Your opponent establishes a strong whizzer as you fight for the underhook. What chain attack becomes available and how do you transition?",
+        "answer": "A committed whizzer defense opens the Electric Chair transition. When the whizzer prevents your underhook from driving the sweep, use your lockdown extension to create space under the opponent's hips, then dive your body underneath them toward the far leg. The whizzer actually assists this transition because the opponent has committed their arm to controlling yours rather than posting for base. Maintain the lockdown throughout the transition and use it to pull their trapped leg into the Electric Chair position.",
+        "answer_line": "Dive under hips into Electric Chair",
+        "distractors": {
+          "plausible": [
+            "Fight to strip the whizzer",
+            "Release lockdown, regain guard"
+          ],
+          "trap": [
+            "Force the underhook rotation"
           ]
         }
       },
       {
-        "question": "Your opponent establishes a strong whizzer as you fight for the underhook. What chain attack becomes available and how do you transition?",
-        "answer": "A committed whizzer defense opens the Electric Chair transition. When the whizzer prevents your underhook from driving the sweep, use your lockdown extension to create space under the opponent's hips, then dive your body underneath them toward the far leg. The whizzer actually assists this transition because the opponent has committed their arm to controlling yours rather than posting for base. Maintain the lockdown throughout the transition and use it to pull their trapped leg into the Electric Chair position."
-      },
-      {
         "question": "In what direction should you drive during the sweep execution, and why is a circular motion critical rather than a linear push?",
-        "answer": "Drive in a circular arc around your underhook-side shoulder, rolling the opponent sideways rather than pushing them straight up or backward. Circular motion is critical because it creates rotational force that cannot be countered with a simple hand post or base widening. A linear upward push allows the opponent to step over, post, or simply drive their weight back down. The circular sweep uses the opponent's own weight against them as they rotate around the fulcrum point of your shoulder."
+        "answer": "Drive in a circular arc around your underhook-side shoulder, rolling the opponent sideways rather than pushing them straight up or backward. Circular motion is critical because it creates rotational force that cannot be countered with a simple hand post or base widening. A linear upward push allows the opponent to step over, post, or simply drive their weight back down. The circular sweep uses the opponent's own weight against them as they rotate around the fulcrum point of your shoulder.",
+        "answer_line": "Roll them around your shoulder",
+        "distractors": {
+          "plausible": [
+            "Push straight up off your hips",
+            "Bridge them straight backward"
+          ],
+          "trap": [
+            "Shove linearly toward their head"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to initiate the Old School Sweep rather than continuing to hold the position?",
         "answer": "Initiate the instant the top player commits weight forward, tries to extract their trapped leg, or shifts grips. Any of these momentarily compromises their base. Sweeping against a settled, posted base wastes energy and telegraphs the attempt, allowing them to widen their base in response. Waiting for the forward weight shift means their own momentum carries them over the fulcrum your shoulder provides, so the rotation requires far less force and finishes before they can re-base.",
         "distractors": {
           "plausible": [
-            "Hold the position until the opponent tires, then initiate once they have settled into a heavy, static base.",
-            "Initiate as the opponent shifts their weight back onto their heels, since the lightened trapped leg is easier to elevate."
+            "Once lockdown is fully set",
+            "When they settle into base"
           ],
           "trap": [
-            "Telegraph the sweep with a few hard pumping attempts first, so the opponent's defensive reactions wear them out."
+            "Against a solid, posted base"
           ]
-        }
+        },
+        "answer_line": "Weight shifts or leg extends"
       },
       {
         "question": "Your opponent sprawls their hips back and away to starve the sweep of weight. What attack does this defensive reaction open?",
-        "answer": "The backward sprawl pulls their hips off your sweeping arc but feeds directly into the Electric Chair. As their hips travel away, use the lockdown to drag their trapped leg through and rotate underneath into the Electric Chair, attacking the knee and spine while their weight is committed backward. If instead they choose to turtle or roll through the rotation rather than sprawl, abandon the mount finish and convert your underhook into a seat belt grip to chase the back take, following their momentum rather than fighting it."
+        "answer": "The backward sprawl pulls their hips off your sweeping arc but feeds directly into the Electric Chair. As their hips travel away, use the lockdown to drag their trapped leg through and rotate underneath into the Electric Chair, attacking the knee and spine while their weight is committed backward. If instead they choose to turtle or roll through the rotation rather than sprawl, abandon the mount finish and convert your underhook into a seat belt grip to chase the back take, following their momentum rather than fighting it.",
+        "answer_line": "Drag leg through to Electric Chair",
+        "distractors": {
+          "plausible": [
+            "Convert underhook to back take",
+            "Release lockdown, regain guard"
+          ],
+          "trap": [
+            "Force the sweep straight through"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Old School Sweep is a positional technique with relatively low injury risk when executed properly. The primary safety concern involves the lockdown itself, which can stress the knee and ankle of the trapped leg if applied with excessive force or sudden torque. Partners should communicate clearly about lockdown pressure intensity during drilling. Avoid explosive cranking of the lockdown extension, as this can cause MCL or LCL strain in the trapped knee. When being swept, tuck your chin and avoid posting on an extended arm to prevent wrist or shoulder injuries during the landing rotation. During training, drill the sweep at controlled speed before adding resistance to ensure both partners understand the rotation path.",
@@ -494,43 +609,143 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that the Old School Sweep is being initiated?",
-        "answer": "The earliest cues are the opponent turning to their side toward the underhook rather than staying flat, increased lockdown tension with rhythmic pumping extensions, and their head control arm pulling your head down while the underhook tightens. The side angle is the most critical indicator—once they have their shoulder positioned under your center of gravity with tight connection, the sweep is imminent. Recognizing and responding to the side angle before the sweep develops is far more effective than trying to stop a sweep already in motion."
+        "answer": "The earliest cues are the opponent turning to their side toward the underhook rather than staying flat, increased lockdown tension with rhythmic pumping extensions, and their head control arm pulling your head down while the underhook tightens. The side angle is the most critical indicator—once they have their shoulder positioned under your center of gravity with tight connection, the sweep is imminent. Recognizing and responding to the side angle before the sweep develops is far more effective than trying to stop a sweep already in motion.",
+        "answer_line": "They turn to their side, angle in",
+        "distractors": {
+          "plausible": [
+            "They increase crossface pressure",
+            "They flatten out and posture tall"
+          ],
+          "trap": [
+            "They relax and go passive"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight to maximize sweep resistance from Old School top?",
-        "answer": "Drive your weight forward and downward through your chest into the opponent's sternum, keeping hips low and heavy against their hips. Your crossface shoulder should create uncomfortable pressure across their face and neck. The free leg posts wide with knee out at 45 degrees for base. Weight should come from body positioning and gravity rather than muscular effort—this creates sustainable pressure that exhausts the bottom player while conserving your own energy for defensive adjustments."
+        "answer": "Drive your weight forward and downward through your chest into the opponent's sternum, keeping hips low and heavy against their hips. Your crossface shoulder should create uncomfortable pressure across their face and neck. The free leg posts wide with knee out at 45 degrees for base. Weight should come from body positioning and gravity rather than muscular effort—this creates sustainable pressure that exhausts the bottom player while conserving your own energy for defensive adjustments.",
+        "answer_line": "Chest down, hips heavy and low",
+        "distractors": {
+          "plausible": [
+            "Weight on your hands, hips high",
+            "Base narrow, knees together"
+          ],
+          "trap": [
+            "Hips light, floating for speed"
+          ]
+        }
       },
       {
         "question": "Your opponent has deep underhook and head control with tight lockdown - what is your highest-priority defensive action?",
-        "answer": "Your highest priority is driving the whizzer deep and clamping your elbow tight to your body to control their underhooking arm's rotation. Simultaneously increase crossface pressure dramatically to turn their head away and prevent them from maintaining the side angle. The whizzer is priority because it directly addresses the rotational lever that powers the sweep. Without controlling the underhook, crossface and base alone will eventually fail against a committed sweep attempt."
+        "answer": "Your highest priority is driving the whizzer deep and clamping your elbow tight to your body to control their underhooking arm's rotation. Simultaneously increase crossface pressure dramatically to turn their head away and prevent them from maintaining the side angle. The whizzer is priority because it directly addresses the rotational lever that powers the sweep. Without controlling the underhook, crossface and base alone will eventually fail against a committed sweep attempt.",
+        "answer_line": "Drive whizzer deep, crank crossface",
+        "distractors": {
+          "plausible": [
+            "Sprawl hips back immediately",
+            "Push away and stand up"
+          ],
+          "trap": [
+            "Try to strip the lockdown first"
+          ]
+        }
       },
       {
         "question": "When is the critical moment to sprawl your hips during sweep defense?",
-        "answer": "The critical moment to sprawl is when you feel the lockdown pump—the extension of their legs that precedes the sweep initiation. This pump is the bottom player generating the off-balance that makes the sweep possible. By sprawling your hips back at the moment of the pump, you remove the leverage they need and prevent the weight shift they are trying to create. Sprawling too early wastes energy, while sprawling too late means the sweep momentum may already be unstoppable."
+        "answer": "The critical moment to sprawl is when you feel the lockdown pump—the extension of their legs that precedes the sweep initiation. This pump is the bottom player generating the off-balance that makes the sweep possible. By sprawling your hips back at the moment of the pump, you remove the leverage they need and prevent the weight shift they are trying to create. Sprawling too early wastes energy, while sprawling too late means the sweep momentum may already be unstoppable.",
+        "answer_line": "The instant the lockdown pumps",
+        "distractors": {
+          "plausible": [
+            "Right when underhook is set",
+            "As soon as they grip your head"
+          ],
+          "trap": [
+            "Only after you feel yourself falling"
+          ]
+        }
       },
       {
         "question": "If you successfully defend the Old School Sweep, what offensive opportunity opens up?",
-        "answer": "Successfully defending the sweep often creates passing opportunities because the bottom player has committed energy and position to an attack that failed. Their lockdown may loosen as they fatigue, their underhook may become shallow, or they may transition to deep half guard which creates different passing angles. The most direct opportunity is advancing to side control through a knee slice or smash pass while the bottom player recovers from the failed sweep attempt and resets their controls."
+        "answer": "Successfully defending the sweep often creates passing opportunities because the bottom player has committed energy and position to an attack that failed. Their lockdown may loosen as they fatigue, their underhook may become shallow, or they may transition to deep half guard which creates different passing angles. The most direct opportunity is advancing to side control through a knee slice or smash pass while the bottom player recovers from the failed sweep attempt and resets their controls.",
+        "answer_line": "Pass while they reset controls",
+        "distractors": {
+          "plausible": [
+            "Retreat and stand up to reset",
+            "Wait for them to attack again"
+          ],
+          "trap": [
+            "Abandon top position for a leglock"
+          ]
+        }
       },
       {
         "question": "What are the first three warning signs that indicate your opponent is setting up the Old School Sweep from bottom?",
-        "answer": "First, you feel the lockdown tighten on your trapped leg with active extension tension. Second, the opponent begins fighting aggressively for an underhook on one side while turning onto their side. Third, their free arm reaches for your head, attempting to wrap around and pull your posture down. Recognizing this sequence early allows you to intervene at the underhook stage before all three controls are established, which is far easier than defending a fully loaded sweep."
+        "answer": "First, you feel the lockdown tighten on your trapped leg with active extension tension. Second, the opponent begins fighting aggressively for an underhook on one side while turning onto their side. Third, their free arm reaches for your head, attempting to wrap around and pull your posture down. Recognizing this sequence early allows you to intervene at the underhook stage before all three controls are established, which is far easier than defending a fully loaded sweep.",
+        "answer_line": "Lockdown tightens, then underhook",
+        "distractors": {
+          "plausible": [
+            "Crossface first, then lockdown",
+            "Head control first, then hook"
+          ],
+          "trap": [
+            "They post their free hand"
+          ]
+        }
       },
       {
         "question": "Your opponent has lockdown and underhook established but not yet head control. What is the highest-priority defensive action?",
-        "answer": "Immediately establish heavy crossface pressure with your shoulder driving into their jaw to turn their head away from the underhook side. This prevents head control establishment and simultaneously breaks the angle they need for the sweep. Secondary priority is deepening your whizzer to control their underhook arm. With strong crossface pressure, the opponent cannot complete the third control point, and the sweep remains structurally incomplete."
+        "answer": "Immediately establish heavy crossface pressure with your shoulder driving into their jaw to turn their head away from the underhook side. This prevents head control establishment and simultaneously breaks the angle they need for the sweep. Secondary priority is deepening your whizzer to control their underhook arm. With strong crossface pressure, the opponent cannot complete the third control point, and the sweep remains structurally incomplete.",
+        "answer_line": "Crossface hard, turn their head away",
+        "distractors": {
+          "plausible": [
+            "Deepen your whizzer immediately",
+            "Sprawl your hips back first"
+          ],
+          "trap": [
+            "Fight for head control yourself"
+          ]
+        }
       },
       {
         "question": "How should you position your base when defending against the lockdown-based Old School Sweep?",
-        "answer": "Post your free leg wide with the knee angled outward at approximately 45 degrees, creating maximum distance from your trapped leg. Your weight should be distributed through your chest onto the opponent's torso, not through your hands. Keep hips low and heavy against the opponent. This tripod structure with wide base resists rotational force from any direction. Never narrow your base or elevate your hips, as both create the vulnerability the sweep exploits."
+        "answer": "Post your free leg wide with the knee angled outward at approximately 45 degrees, creating maximum distance from your trapped leg. Your weight should be distributed through your chest onto the opponent's torso, not through your hands. Keep hips low and heavy against the opponent. This tripod structure with wide base resists rotational force from any direction. Never narrow your base or elevate your hips, as both create the vulnerability the sweep exploits.",
+        "answer_line": "Wide base, knee out, chest heavy",
+        "distractors": {
+          "plausible": [
+            "Narrow base, weight on hands",
+            "High hips, knees together"
+          ],
+          "trap": [
+            "Post hands wide, hips elevated"
+          ]
+        }
       },
       {
         "question": "Your crossface is being bypassed as the opponent secures head control. What recovery sequence maintains your top position?",
-        "answer": "Increase whizzer pressure immediately to control the underhook arm and prevent sweep initiation. Simultaneously sprawl your hips back slightly to remove your weight from the sweeping fulcrum point. If head control is fully established, focus on maintaining the whizzer and wide base rather than fighting for crossface recovery. You can survive without crossface if your whizzer and base are strong. Only re-establish crossface when the opponent relaxes head control to pump the lockdown."
+        "answer": "Increase whizzer pressure immediately to control the underhook arm and prevent sweep initiation. Simultaneously sprawl your hips back slightly to remove your weight from the sweeping fulcrum point. If head control is fully established, focus on maintaining the whizzer and wide base rather than fighting for crossface recovery. You can survive without crossface if your whizzer and base are strong. Only re-establish crossface when the opponent relaxes head control to pump the lockdown.",
+        "answer_line": "Increase whizzer, sprawl hips back",
+        "distractors": {
+          "plausible": [
+            "Fight hard to recover crossface",
+            "Release whizzer, reset base"
+          ],
+          "trap": [
+            "Abandon whizzer, chase crossface"
+          ]
+        }
       },
       {
         "question": "When is the safest time to attempt breaking the lockdown without feeding into the sweep mechanics?",
-        "answer": "The safest time is when the opponent's underhook is shallow or not yet established, as they cannot punish your lockdown breaking attempt with a sweep. Work to break the lockdown by pushing their hooking foot off your ankle with your free hand while maintaining whizzer and crossface. Avoid breaking lockdown when all three controls are established, as the movement required often shifts your weight forward and creates the exact timing window the sweep exploits."
+        "answer": "The safest time is when the opponent's underhook is shallow or not yet established, as they cannot punish your lockdown breaking attempt with a sweep. Work to break the lockdown by pushing their hooking foot off your ankle with your free hand while maintaining whizzer and crossface. Avoid breaking lockdown when all three controls are established, as the movement required often shifts your weight forward and creates the exact timing window the sweep exploits.",
+        "answer_line": "When their underhook is shallow",
+        "distractors": {
+          "plausible": [
+            "When head control is established",
+            "Anytime, lockdown doesn't matter"
+          ],
+          "trap": [
+            "When all three controls are set"
+          ]
+        }
       }
     ],
     "training_progressions": [

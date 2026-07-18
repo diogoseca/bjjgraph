@@ -252,51 +252,171 @@
     "flashcards": [
       {
         "question": "What grip must you maintain throughout the entire DLR-to-triangle transition, and why is it non-negotiable?",
-        "answer": "The cross sleeve grip on the opponent's far arm at wrist level must be maintained throughout the entire transition. This grip guarantees that one arm remains trapped inside the triangle configuration. Without it, both arms end up outside when you shoot the triangle leg, making the choke impossible and giving the opponent a trivial escape by simply pulling their head free from the loose leg configuration."
+        "answer": "The cross sleeve grip on the opponent's far arm at wrist level must be maintained throughout the entire transition. This grip guarantees that one arm remains trapped inside the triangle configuration. Without it, both arms end up outside when you shoot the triangle leg, making the choke impossible and giving the opponent a trivial escape by simply pulling their head free from the loose leg configuration.",
+        "answer_line": "Cross sleeve grip, far arm",
+        "distractors": {
+          "plausible": [
+            "Collar grip for posture control",
+            "Underhook to control shoulder"
+          ],
+          "trap": [
+            "Release grip to shoot leg faster"
+          ]
+        }
       },
       {
         "question": "Why should you maintain DLR hook tension until your shooting leg is already in motion across the neck?",
-        "answer": "The DLR hook prevents the opponent from stepping back and creating distance during the critical transition moment. If you release the hook before your shooting leg is moving, the opponent can simply retreat out of range, denying you the triangle entry entirely. The hook acts as an anchor that holds them within your leg's reach during the brief vulnerability window between guard structures."
+        "answer": "The DLR hook prevents the opponent from stepping back and creating distance during the critical transition moment. If you release the hook before your shooting leg is moving, the opponent can simply retreat out of range, denying you the triangle entry entirely. The hook acts as an anchor that holds them within your leg's reach during the brief vulnerability window between guard structures.",
+        "answer_line": "Hold hook to block retreat",
+        "distractors": {
+          "plausible": [
+            "Release hook before shooting",
+            "Switch hook to opposite leg"
+          ],
+          "trap": [
+            "Let go of hook to shoot faster"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on the mat as you attempt the triangle from DLR - how do you adjust?",
-        "answer": "A posted hand indicates the opponent is resisting the posture break with their free arm. Use this to your advantage by pulling harder on the sleeve grip to isolate their other arm further, then shoot the triangle over the posting arm's side. Alternatively, switch to a DLR sweep targeting the posted hand side since their base is now compromised in that direction, then redirect to the triangle when they recover."
+        "answer": "A posted hand indicates the opponent is resisting the posture break with their free arm. Use this to your advantage by pulling harder on the sleeve grip to isolate their other arm further, then shoot the triangle over the posting arm's side. Alternatively, switch to a DLR sweep targeting the posted hand side since their base is now compromised in that direction, then redirect to the triangle when they recover.",
+        "answer_line": "Pull sleeve, shoot over posted arm",
+        "distractors": {
+          "plausible": [
+            "Grab the posted hand directly",
+            "Switch to closed guard immediately"
+          ],
+          "trap": [
+            "Release sleeve grip and re-grip"
+          ]
+        }
       },
       {
         "question": "What is the optimal body angle after locking the triangle, and what happens if you remain straight?",
-        "answer": "You must hip escape to create a 30-45 degree angle relative to the opponent's centerline, with your choking leg's knee pointing toward the trapped shoulder. Remaining straight provides minimal arterial compression because the triangle squeezes the front and back of the neck rather than the lateral sides where the carotid arteries run. The angled position directs pressure specifically into the carotid arteries for an effective blood choke."
+        "answer": "You must hip escape to create a 30-45 degree angle relative to the opponent's centerline, with your choking leg's knee pointing toward the trapped shoulder. Remaining straight provides minimal arterial compression because the triangle squeezes the front and back of the neck rather than the lateral sides where the carotid arteries run. The angled position directs pressure specifically into the carotid arteries for an effective blood choke.",
+        "answer_line": "Angle 30-45°, knee to shoulder",
+        "distractors": {
+          "plausible": [
+            "Stay square for max compression",
+            "Angle knee away from shoulder"
+          ],
+          "trap": [
+            "Straighten out flat under them"
+          ]
+        }
       },
       {
         "question": "When is the ideal timing window to initiate the triangle setup from DLR?",
-        "answer": "The ideal timing window is when the opponent's posture breaks forward, either from your active DLR pulling or as they recover from defending a sweep attempt. Their head should be below their hips with their weight committed forward. Attempting the triangle against a fully postured opponent is futile because your leg cannot reach the back of their neck from DLR distance, and the failed attempt exposes you to passing."
+        "answer": "The ideal timing window is when the opponent's posture breaks forward, either from your active DLR pulling or as they recover from defending a sweep attempt. Their head should be below their hips with their weight committed forward. Attempting the triangle against a fully postured opponent is futile because your leg cannot reach the back of their neck from DLR distance, and the failed attempt exposes you to passing.",
+        "answer_line": "When posture breaks forward",
+        "distractors": {
+          "plausible": [
+            "When they're fully postured up",
+            "Right after establishing DLR hook"
+          ],
+          "trap": [
+            "Shoot leg regardless of posture"
+          ]
+        }
       },
       {
         "question": "What are the two primary chain attacks if the triangle lock is defended after you have already shot your leg?",
-        "answer": "If the opponent defends by stacking forward, transition to an omoplata by releasing the triangle lock and rotating your hips to capture their trapped arm with your legs. If they attempt to posture up and pull their head out, switch to an armbar on the trapped arm by uncrossing your legs, placing your foot on their hip, and extending their arm between your legs. Both transitions exploit the specific defensive reaction without requiring full disengagement."
+        "answer": "If the opponent defends by stacking forward, transition to an omoplata by releasing the triangle lock and rotating your hips to capture their trapped arm with your legs. If they attempt to posture up and pull their head out, switch to an armbar on the trapped arm by uncrossing your legs, placing your foot on their hip, and extending their arm between your legs. Both transitions exploit the specific defensive reaction without requiring full disengagement.",
+        "answer_line": "Stack: omoplata; posture: armbar",
+        "distractors": {
+          "plausible": [
+            "Always finish choke regardless",
+            "Release everything and reset guard"
+          ],
+          "trap": [
+            "Fight the stack from your back"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement during the DLR-to-triangle transition that determines whether the leg reaches the neck?",
-        "answer": "As you release the DLR hook and shoot the triangle leg, you must simultaneously elevate your hips off the mat and angle them toward the side you are shooting. This hip elevation shortens the distance your leg needs to travel and raises the arc of your shin to clear the opponent's shoulder and land on the back of their neck. Flat hips leave your leg short of the target every time."
+        "answer": "As you release the DLR hook and shoot the triangle leg, you must simultaneously elevate your hips off the mat and angle them toward the side you are shooting. This hip elevation shortens the distance your leg needs to travel and raises the arc of your shin to clear the opponent's shoulder and land on the back of their neck. Flat hips leave your leg short of the target every time.",
+        "answer_line": "Hip up, angle toward shot side",
+        "distractors": {
+          "plausible": [
+            "Keep hips flat, drive leg only",
+            "Angle hips away from target side"
+          ],
+          "trap": [
+            "Push hips down for base"
+          ]
+        }
       },
       {
         "question": "How does threatening the triangle from DLR enhance your overall guard game even when the triangle itself is not completed?",
-        "answer": "The triangle threat forces opponents to keep their elbows tight and maintain high posture to prevent arm isolation and posture breaks. This defensive posture paradoxically makes them more vulnerable to DLR sweeps because tight elbows reduce posting ability, and high posture enables berimbolo entries. The triangle thus functions as a force multiplier for the entire DLR system by creating a third threat axis that punishes the defensive responses used against sweeps and back takes."
+        "answer": "The triangle threat forces opponents to keep their elbows tight and maintain high posture to prevent arm isolation and posture breaks. This defensive posture paradoxically makes them more vulnerable to DLR sweeps because tight elbows reduce posting ability, and high posture enables berimbolo entries. The triangle thus functions as a force multiplier for the entire DLR system by creating a third threat axis that punishes the defensive responses used against sweeps and back takes.",
+        "answer_line": "Forces reactions that open sweeps",
+        "distractors": {
+          "plausible": [
+            "Only matters if it finishes",
+            "Tires opponent out physically"
+          ],
+          "trap": [
+            "Distracts you from DLR sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent starts circling their body away from your shooting leg side during the triangle setup - how do you maintain the attack?",
-        "answer": "Follow their circular movement with your hips while maintaining the cross sleeve grip as your anchor point. Use the DLR hook to prevent full disengagement by pulling their trapped leg back toward you. If they create too much lateral distance for the triangle leg to reach, redirect the attack into a Single Leg X entry by threading under their retreating leg, or use the sleeve grip to pull them back into range for a DLR sweep that exploits their compromised lateral base."
+        "answer": "Follow their circular movement with your hips while maintaining the cross sleeve grip as your anchor point. Use the DLR hook to prevent full disengagement by pulling their trapped leg back toward you. If they create too much lateral distance for the triangle leg to reach, redirect the attack into a Single Leg X entry by threading under their retreating leg, or use the sleeve grip to pull them back into range for a DLR sweep that exploits their compromised lateral base.",
+        "answer_line": "Follow with hips, keep sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Release grip and reset to neutral",
+            "Chase with upper body only"
+          ],
+          "trap": [
+            "Let them fully disengage"
+          ]
+        }
       },
       {
         "question": "You have shot the triangle leg but it lands across the opponent's upper back and shoulders instead of the neck - what is your immediate correction?",
-        "answer": "Do not attempt to lock the triangle in this position as it will produce no choking pressure. Immediately use your hands to grab the back of the opponent's head and pull it down toward your chest while hiking your hips upward to walk your shin from their shoulders up to the base of their skull. If the opponent is already posturing against your misplaced leg, abandon the triangle and transition to closed guard or capture their arm between your legs for an armbar attempt."
+        "answer": "Do not attempt to lock the triangle in this position as it will produce no choking pressure. Immediately use your hands to grab the back of the opponent's head and pull it down toward your chest while hiking your hips upward to walk your shin from their shoulders up to the base of their skull. If the opponent is already posturing against your misplaced leg, abandon the triangle and transition to closed guard or capture their arm between your legs for an armbar attempt.",
+        "answer_line": "Pull head down, walk shin to neck",
+        "distractors": {
+          "plausible": [
+            "Lock triangle anyway, squeeze hard",
+            "Push their shoulder to reset"
+          ],
+          "trap": [
+            "Force the lock and lean back"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stacking you by driving forward as you close the triangle lock - what is your immediate response?",
-        "answer": "Use the stacking momentum to transition to an omoplata by uncrossing your triangle legs and rotating your hips to capture their trapped arm in the omoplata configuration. Alternatively, if the triangle is solidly locked, roll over your shoulder in the direction of the stacking pressure to end up in a mounted triangle position on top. The critical error is fighting the stack from your back, which tightens their pressure and reduces your offensive options progressively."
+        "answer": "Use the stacking momentum to transition to an omoplata by uncrossing your triangle legs and rotating your hips to capture their trapped arm in the omoplata configuration. Alternatively, if the triangle is solidly locked, roll over your shoulder in the direction of the stacking pressure to end up in a mounted triangle position on top. The critical error is fighting the stack from your back, which tightens their pressure and reduces your offensive options progressively.",
+        "answer_line": "Roll with stack to omoplata/mount",
+        "distractors": {
+          "plausible": [
+            "Push against the stack directly",
+            "Release legs and turtle up"
+          ],
+          "trap": [
+            "Fight stack flat on your back"
+          ]
+        }
       },
       {
         "question": "You feel your cross sleeve grip weakening mid-transition as the opponent shakes their wrist - how do you salvage the triangle attempt?",
-        "answer": "If the grip is slipping but not yet lost, squeeze your fingers deeper into the fabric and pull the arm aggressively across your centerline to accelerate the triangle entry before the grip fails completely. If the grip breaks entirely during the leg shoot, immediately close your legs into closed guard rather than attempting a triangle without arm isolation. From closed guard, re-establish grips and either reattempt the triangle or redirect to a different attack. Never continue a triangle entry without confirming one arm is isolated inside the leg configuration."
+        "answer": "If the grip is slipping but not yet lost, squeeze your fingers deeper into the fabric and pull the arm aggressively across your centerline to accelerate the triangle entry before the grip fails completely. If the grip breaks entirely during the leg shoot, immediately close your legs into closed guard rather than attempting a triangle without arm isolation. From closed guard, re-establish grips and either reattempt the triangle or redirect to a different attack. Never continue a triangle entry without confirming one arm is isolated inside the leg configuration.",
+        "answer_line": "Deepen grip, accelerate entry",
+        "distractors": {
+          "plausible": [
+            "Switch to a fresh overhook grip",
+            "Push through without the grip"
+          ],
+          "trap": [
+            "Shoot leg without arm isolation"
+          ]
+        }
       }
     ],
     "safety_considerations": "The triangle choke compresses carotid arteries and can cause unconsciousness within seconds when properly locked. During drilling, apply pressure gradually and release immediately when your partner taps. Pay attention to partners who stop moving or go limp, as they may have lost consciousness before tapping. When practicing the DLR-to-triangle transition, be mindful of your partner's neck during the leg shoot and avoid slamming your shin into the back of their head or neck with excessive force. In competition, maintain controlled pressure rather than cranking explosively.",
@@ -405,23 +525,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a triangle setup from DLR is being initiated?",
-        "answer": "The earliest cue is increased pulling tension on your far sleeve combined with the opponent's non-hooking leg disengaging from your hip or bicep. This paired action indicates they are simultaneously working to break your posture and free the leg needed to shoot across your neck. Recognizing this combination gives you the maximum defensive window before the triangle entry begins in earnest."
+        "answer": "The earliest cue is increased pulling tension on your far sleeve combined with the opponent's non-hooking leg disengaging from your hip or bicep. This paired action indicates they are simultaneously working to break your posture and free the leg needed to shoot across your neck. Recognizing this combination gives you the maximum defensive window before the triangle entry begins in earnest.",
+        "answer_line": "Sleeve pull tightens, leg frees",
+        "distractors": {
+          "plausible": [
+            "Opponent grips your collar tighter",
+            "Opponent's hips lift off mat"
+          ],
+          "trap": [
+            "Ignore it, it's just base shift"
+          ]
+        }
       },
       {
         "question": "Why is stripping the cross sleeve grip the highest-priority defensive action against this triangle setup?",
-        "answer": "The cross sleeve grip is the foundation of the entire triangle setup because it guarantees arm isolation inside the triangle configuration. Without it, even if the opponent successfully shoots their leg across your neck, both your arms end up outside the triangle, making the choke impossible and escape trivial. Removing this single grip eliminates the setup entirely and forces a complete restart."
+        "answer": "The cross sleeve grip is the foundation of the entire triangle setup because it guarantees arm isolation inside the triangle configuration. Without it, even if the opponent successfully shoots their leg across your neck, both your arms end up outside the triangle, making the choke impossible and escape trivial. Removing this single grip eliminates the setup entirely and forces a complete restart.",
+        "answer_line": "Strip the cross sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Posture up immediately first",
+            "Control their far hip first"
+          ],
+          "trap": [
+            "Push their head down to defend"
+          ]
+        }
       },
       {
         "question": "What defensive opportunity does the opponent's DLR hook release create for you as the top player?",
-        "answer": "When the opponent releases the DLR hook to shoot the triangle, there is a brief window where they have neither DLR control nor a locked triangle established. This is the ideal moment to drive a knee through and initiate a guard pass, because the primary mechanism that prevented your forward movement is temporarily gone. Timing a pass attempt to this release window can convert their attack into your dominant position advancement."
+        "answer": "When the opponent releases the DLR hook to shoot the triangle, there is a brief window where they have neither DLR control nor a locked triangle established. This is the ideal moment to drive a knee through and initiate a guard pass, because the primary mechanism that prevented your forward movement is temporarily gone. Timing a pass attempt to this release window can convert their attack into your dominant position advancement.",
+        "answer_line": "Drive knee through, pass guard",
+        "distractors": {
+          "plausible": [
+            "Wait for the triangle to lock",
+            "Pull away to create distance"
+          ],
+          "trap": [
+            "Retreat to create space instead"
+          ]
+        }
       },
       {
         "question": "What is the correct response if the triangle has already locked but the opponent has not yet adjusted the finishing angle?",
-        "answer": "Immediately tuck your chin to reduce choking pressure, posture up as much as possible, and work to square your body to the opponent's hips. Preventing them from achieving the 30-45 degree angle significantly reduces the choke's effectiveness and buys time for escape. Use your free hand to push on their hip to prevent angle adjustment while working your trapped arm across their body to relieve arterial compression."
+        "answer": "Immediately tuck your chin to reduce choking pressure, posture up as much as possible, and work to square your body to the opponent's hips. Preventing them from achieving the 30-45 degree angle significantly reduces the choke's effectiveness and buys time for escape. Use your free hand to push on their hip to prevent angle adjustment while working your trapped arm across their body to relieve arterial compression.",
+        "answer_line": "Tuck chin, posture, square hips",
+        "distractors": {
+          "plausible": [
+            "Pull your trapped arm out first",
+            "Grab their leg to unlock triangle"
+          ],
+          "trap": [
+            "Lean back into the choke"
+          ]
+        }
       },
       {
         "question": "How should you manage your elbows while playing inside DLR guard to prevent triangle setups proactively?",
-        "answer": "Keep both elbows pinched tightly to your ribcage throughout your time in the opponent's DLR guard. Never extend your arms forward or reach with straight arms, as this creates the arm separation the guard player needs for triangle entry. When grip fighting, break grips close to your body using hip rotation and wrist circles rather than arm extension. Your elbows should function as a unified frame connected to your torso at all times."
+        "answer": "Keep both elbows pinched tightly to your ribcage throughout your time in the opponent's DLR guard. Never extend your arms forward or reach with straight arms, as this creates the arm separation the guard player needs for triangle entry. When grip fighting, break grips close to your body using hip rotation and wrist circles rather than arm extension. Your elbows should function as a unified frame connected to your torso at all times.",
+        "answer_line": "Pin elbows tight to ribs",
+        "distractors": {
+          "plausible": [
+            "Post hands wide for base",
+            "Extend arms to control hips"
+          ],
+          "trap": [
+            "Reach forward to grip collar"
+          ]
+        }
       }
     ],
     "training_progressions": [

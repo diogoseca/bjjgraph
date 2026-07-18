@@ -246,88 +246,143 @@
     "flashcards": [
       {
         "question": "What is the primary purpose of the crossface in this passing technique?",
-        "answer": "The crossface serves to control the opponent's head and upper body, preventing them from turning into you or creating effective defensive frames. It creates a wedge that keeps them flattened to their back, restricts their mobility, and establishes the control necessary to safely extract your trapped leg without them following with their hips or recovering guard. The diagonal downward force vector simultaneously flattens and turns the head."
+        "answer": "The crossface serves to control the opponent's head and upper body, preventing them from turning into you or creating effective defensive frames. It creates a wedge that keeps them flattened to their back, restricts their mobility, and establishes the control necessary to safely extract your trapped leg without them following with their hips or recovering guard. The diagonal downward force vector simultaneously flattens and turns the head.",
+        "answer_line": "Control head, stop turning",
+        "distractors": {
+          "plausible": [
+            "Set up an immediate choke",
+            "Pin shoulders, ignore head"
+          ],
+          "trap": [
+            "Release grip to create space"
+          ]
+        }
       },
       {
         "question": "Why must you control the opponent's far arm during the crossface pass?",
-        "answer": "Controlling the far arm prevents the opponent from creating frames against your head or establishing underhook position. Without this control, they can push your head away, create distance, recover full guard, or execute sweeps. The far arm control eliminates their last remaining defensive tool and ensures they cannot generate the distance needed for guard recovery or frame insertion."
+        "answer": "Controlling the far arm prevents the opponent from creating frames against your head or establishing underhook position. Without this control, they can push your head away, create distance, recover full guard, or execute sweeps. The far arm control eliminates their last remaining defensive tool and ensures they cannot generate the distance needed for guard recovery or frame insertion.",
+        "answer_line": "Deny frames and underhook",
+        "distractors": {
+          "plausible": [
+            "Control it to set up armbar",
+            "Trap arm for a gi choke"
+          ],
+          "trap": [
+            "Let it go, control legs instead"
+          ]
+        }
       },
       {
         "question": "Your opponent secures a deep underhook before you can establish the crossface - how do you adjust?",
         "answer": "Abandon the crossface pass and switch to a knee slice or backstep pass, which work with or around the deep underhook. A deep underhook gives the opponent the rotational power to turn into you and threaten sweeps or back takes, making the crossface pass significantly harder to complete. Alternatively, apply a strong whizzer to limit the underhook's effectiveness while switching your passing angle.",
         "distractors": {
           "plausible": [
-            "Fight to re-pummel your own underhook back in first, then resume the crossface pass once you win the arm battle.",
-            "Drive the crossface even harder to flatten them; enough shoulder pressure neutralizes any underhook."
+            "Force crossface anyway",
+            "Attack armbar off underhook"
           ],
           "trap": [
-            "Post your crossface hand on the mat and turn away from them to relieve the underhook pressure."
+            "Release grips, reset stance"
           ]
-        }
+        },
+        "answer_line": "Switch to knee slice/backstep"
       },
       {
         "question": "What is the correct leg extraction motion and why does a straight pull fail?",
-        "answer": "Extract your leg using a circular arc: knee up and back, then down and out, rather than pulling straight backward. Pulling straight back aligns your force directly against the strongest axis of their leg lock, effectively tightening their grip. The circular path exploits the anatomical weakness in the defender's leg lock by changing the angle of extraction to one their legs cannot effectively resist. The arc also helps maintain your balance and forward pressure throughout the movement."
+        "answer": "Extract your leg using a circular arc: knee up and back, then down and out, rather than pulling straight backward. Pulling straight back aligns your force directly against the strongest axis of their leg lock, effectively tightening their grip. The circular path exploits the anatomical weakness in the defender's leg lock by changing the angle of extraction to one their legs cannot effectively resist. The arc also helps maintain your balance and forward pressure throughout the movement.",
+        "answer_line": "Arc knee up-back, then down-out",
+        "distractors": {
+          "plausible": [
+            "Push knee down, then arc out",
+            "Twist hips away, pull leg free"
+          ],
+          "trap": [
+            "Pull leg straight back hard"
+          ]
+        }
       },
       {
         "question": "You feel your opponent beginning to insert their knee for a knee shield while you have crossface - what is your immediate response?",
         "answer": "Drive your weight forward and downward aggressively the instant you feel the knee shield starting, closing the space before their knee fully enters. Use your crossface-side hip to pin the inserting knee back down while increasing shoulder pressure. If the knee gets partially in, immediately transition to a smash pass or knee cut approach rather than fighting an established knee shield — prevention through forward pressure is always easier than passing the shield once it is set.",
         "distractors": {
           "plausible": [
-            "Release the crossface and grab their inserting shin with both hands to wrestle the knee back down to the mat.",
-            "Switch your hips to a low backstep first, then deal with the knee shield from the new angle."
+            "Wait, then fight the knee shield",
+            "Grab the knee, pull it out"
           ],
           "trap": [
-            "Lean back and pull your hips away so the knee shield has no chest to connect to."
+            "Back off to create space"
           ]
-        }
+        },
+        "answer_line": "Drive weight down before it sets"
       },
       {
         "question": "What grip configuration do you need before beginning leg extraction?",
         "answer": "Leg extraction requires three control points: the crossface with shoulder pressure, far-arm control, and your head opposite the trapped leg. The crossface forearm drives across the opponent's jaw to flatten them, the far arm is controlled via underhook or wrist pin to prevent framing, and your head positioned on the side opposite the trapped leg creates a structural wedge. Without all three, the opponent retains enough defensive capability to follow your hips during extraction or build frames that prevent the pass.",
         "distractors": {
           "plausible": [
-            "You need the crossface plus an ankle grip freeing your trapped foot; far-arm control can wait until after extraction.",
-            "A crossface and a strong pant or knee grip on their top leg is enough to begin extracting."
+            "Crossface and far arm only",
+            "Head control and hip pressure"
           ],
           "trap": [
-            "Reach back with your crossface arm to pry their legs open, keeping only head position for upper-body control."
+            "Skip far arm, grab the leg"
           ]
-        }
+        },
+        "answer_line": "Crossface, far arm, head wedge"
       },
       {
         "question": "What is the critical direction of force during the shoulder pressure phase?",
-        "answer": "The shoulder pressure must drive downward and diagonally across the opponent's face, not simply laterally across or straight down. This diagonal vector simultaneously achieves two objectives: it flattens the opponent to their back by driving weight through their shoulder line, and it turns their head away from you which eliminates their rotational power. A purely lateral crossface allows them to bridge into the pressure, while a purely downward force lacks the head-turning component needed to prevent them from facing you."
+        "answer": "The shoulder pressure must drive downward and diagonally across the opponent's face, not simply laterally across or straight down. This diagonal vector simultaneously achieves two objectives: it flattens the opponent to their back by driving weight through their shoulder line, and it turns their head away from you which eliminates their rotational power. A purely lateral crossface allows them to bridge into the pressure, while a purely downward force lacks the head-turning component needed to prevent them from facing you.",
+        "answer_line": "Diagonal down across the face",
+        "distractors": {
+          "plausible": [
+            "Straight down, no head turn",
+            "Angle up toward the chin"
+          ],
+          "trap": [
+            "Push straight across, no angle"
+          ]
+        }
       },
       {
         "question": "Your opponent locks down your trapped leg with a lockdown grip during your crossface pass attempt - how do you proceed?",
         "answer": "Never force the circular extraction against a lockdown; posture up to kill the stretch reflex, then kick your foot free or switch to a smash pass. The figure-four grip eliminates the knee mobility your extraction arc needs, so the normal arc is impossible. After posturing up slightly to remove their stretch advantage, either vigorously pummel your trapped foot free by kicking it toward their hips while maintaining crossface pressure, or drive their locked legs to the mat and work around them with a smash pass.",
         "distractors": {
           "plausible": [
-            "Increase crossface pressure and slowly pull the trapped knee straight back until the figure-four grip loosens.",
-            "Flatten your hips to the mat and wait them out; holding a lockdown exhausts the bottom player faster than the top."
+            "Force circular arc harder",
+            "Pull straight, ignore lockdown"
           ],
           "trap": [
-            "Extend your trapped leg long and straight behind you to break the figure-four with pure leg strength."
+            "Kick leg wildly, lose base"
           ]
-        }
+        },
+        "answer_line": "Posture up, kick foot free"
       },
       {
         "question": "What distinguishes the crossface pass from the knee slice pass when both start from half guard top?",
         "answer": "The crossface pass flattens the opponent with heavy shoulder pressure, while the knee slice creates an angular path by cutting across the thigh line. The crossface pass uses shoulder pressure and head control to flatten the opponent before extracting the trapped leg, keeping the passer's weight forward and linear throughout. The knee slice emphasizes hip mobility over upper-body pressure, cutting the knee across the opponent's thigh line to change the passing plane. Crossface is typically higher percentage when the opponent lacks a deep underhook, while the knee slice can succeed even against partial underhook control because the angular movement changes the passing plane.",
         "distractors": {
           "plausible": [
-            "The crossface pass relies on hip mobility and cutting angles, while the knee slice wins by flattening them with shoulder pressure.",
-            "The two passes differ only in grips; their weight distribution and passing path are identical."
+            "Both rely on shoulder pressure",
+            "Knee slice needs deep underhook"
           ],
           "trap": [
-            "The crossface pass works best when the opponent already has a deep underhook, since shoulder pressure shuts it down."
+            "Crossface is best vs underhook"
           ]
-        }
+        },
+        "answer_line": "Crossface flattens; slice angles"
       },
       {
         "question": "During live rolling, your crossface is established but your opponent is actively hand fighting your free arm and preventing far arm control - what do you do?",
-        "answer": "When the opponent successfully hand fights your far arm control attempts, you have several options. First, try the arm trap variation: use your free hand to grab their near wrist and pin it across their chest, which eliminates their framing ability from a different angle. Second, switch to the over-under variation by threading your free arm under their far leg instead of fighting for the arm, which creates different leverage for the extraction. Third, if neither works, use the no-gi head post variation where you post your free hand on the mat beside their far shoulder to generate maximum pressure, then rely purely on the crossface weight to control them while extracting."
+        "answer": "When the opponent successfully hand fights your far arm control attempts, you have several options. First, try the arm trap variation: use your free hand to grab their near wrist and pin it across their chest, which eliminates their framing ability from a different angle. Second, switch to the over-under variation by threading your free arm under their far leg instead of fighting for the arm, which creates different leverage for the extraction. Third, if neither works, use the no-gi head post variation where you post your free hand on the mat beside their far shoulder to generate maximum pressure, then rely purely on the crossface weight to control them while extracting.",
+        "answer_line": "Arm trap: pin wrist to chest",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for the far arm",
+            "Switch to full mount attempt"
+          ],
+          "trap": [
+            "Release crossface to regrip"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the crossface pass, apply shoulder and forearm pressure progressively to allow your partner to adjust to the sensation and tap if uncomfortable. The crossface creates significant pressure on the neck and jaw, so avoid sudden jerking movements that could cause cervical spine injury. Partners should communicate clearly if the pressure becomes excessive or causes pain beyond normal discomfort. When drilling, the bottom person should tap if they experience sharp neck pain, difficulty breathing, or jaw discomfort. The top person must release pressure immediately upon feeling a tap. Ensure adequate mat space during practice as the technique involves significant movement and weight shifting. Build up to full pressure gradually over multiple training sessions rather than applying maximum force from the beginning. Partners with pre-existing neck injuries, TMJ issues, or jaw problems should inform their training partner and instructor before practicing this technique.",
@@ -441,19 +496,59 @@
     "flashcards": [
       {
         "question": "What is the most effective timing window for defending the crossface pass?",
-        "answer": "The most effective timing window is before the crossface is established, during the passer's initial attempt to drive their forearm across your face. At this phase, you can still fight for the underhook, insert knee shield, or create frames that prevent the crossface from settling. Once the crossface is locked in with shoulder pressure and the far arm is controlled, defensive success rates drop dramatically. Early recognition and immediate action are critical."
+        "answer": "The most effective timing window is before the crossface is established, during the passer's initial attempt to drive their forearm across your face. At this phase, you can still fight for the underhook, insert knee shield, or create frames that prevent the crossface from settling. Once the crossface is locked in with shoulder pressure and the far arm is controlled, defensive success rates drop dramatically. Early recognition and immediate action are critical.",
+        "answer_line": "Before crossface locks in",
+        "distractors": {
+          "plausible": [
+            "After shoulder pressure sets",
+            "Once flat, use explosive bridge"
+          ],
+          "trap": [
+            "Wait, defend once flattened"
+          ]
+        }
       },
       {
         "question": "Why is the underhook on the trapped leg side the single most important defensive grip?",
-        "answer": "The underhook on the trapped leg side prevents the passer from driving you flat because it allows you to maintain angle and turn into them. It provides the primary pathway to sweeps, back takes, and guard recovery by giving you control of the passer's posture and body angle. Without the underhook, the passer can freely apply crossface pressure and flatten you, which eliminates virtually all high-percentage defensive options from half guard bottom."
+        "answer": "The underhook on the trapped leg side prevents the passer from driving you flat because it allows you to maintain angle and turn into them. It provides the primary pathway to sweeps, back takes, and guard recovery by giving you control of the passer's posture and body angle. Without the underhook, the passer can freely apply crossface pressure and flatten you, which eliminates virtually all high-percentage defensive options from half guard bottom.",
+        "answer_line": "Underhook trapped-leg side",
+        "distractors": {
+          "plausible": [
+            "Overhook on the far side",
+            "Grip opponent's collar"
+          ],
+          "trap": [
+            "Abandon underhook, frame arms"
+          ]
+        }
       },
       {
         "question": "Your opponent has fully established crossface with shoulder pressure and you are nearly flat - what is your priority sequence?",
-        "answer": "When fully flattened under crossface pressure, your priority sequence is: first protect your far arm from being controlled by keeping it tight to your body or actively framing against the passer's hip, second fight to get back on your side through small hip escapes rather than explosive movements, third attempt to insert knee shield or butterfly hook to create distance, and fourth if those fail transition to lockdown on the trapped leg to prevent extraction and create sweep threats. Do not waste energy on explosive bridge attempts against an established crossface."
+        "answer": "When fully flattened under crossface pressure, your priority sequence is: first protect your far arm from being controlled by keeping it tight to your body or actively framing against the passer's hip, second fight to get back on your side through small hip escapes rather than explosive movements, third attempt to insert knee shield or butterfly hook to create distance, and fourth if those fail transition to lockdown on the trapped leg to prevent extraction and create sweep threats. Do not waste energy on explosive bridge attempts against an established crossface.",
+        "answer_line": "Protect arm, escape, hook, lockdown",
+        "distractors": {
+          "plausible": [
+            "Go straight to lockdown first",
+            "Frame with legs, ignore arm"
+          ],
+          "trap": [
+            "Bridge explosively right away"
+          ]
+        }
       },
       {
         "question": "How does transitioning to lockdown help defend against the crossface pass?",
-        "answer": "The lockdown captures the passer's trapped leg in a figure-four grip that completely prevents the circular extraction motion required to complete the crossface pass. This forces the passer to abandon the pass attempt and address the lockdown, changing the positional dynamic. Additionally, the lockdown creates electric chair sweep threats that put the passer on defense. However, the lockdown commits you to a specific leg configuration and can limit your own hip mobility, so it works best as a secondary defense when underhook and knee shield options have been denied."
+        "answer": "The lockdown captures the passer's trapped leg in a figure-four grip that completely prevents the circular extraction motion required to complete the crossface pass. This forces the passer to abandon the pass attempt and address the lockdown, changing the positional dynamic. Additionally, the lockdown creates electric chair sweep threats that put the passer on defense. However, the lockdown commits you to a specific leg configuration and can limit your own hip mobility, so it works best as a secondary defense when underhook and knee shield options have been denied.",
+        "answer_line": "Blocks leg extraction, sweep threat",
+        "distractors": {
+          "plausible": [
+            "Frees hip mobility for escapes",
+            "Stops crossface, not extraction"
+          ],
+          "trap": [
+            "Use it first, skip underhook"
+          ]
+        }
       }
     ],
     "training_progressions": [

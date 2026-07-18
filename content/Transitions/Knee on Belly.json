@@ -220,43 +220,143 @@
     "flashcards": [
       {
         "question": "What is the primary goal of establishing Knee on Belly from Side Control?",
-        "answer": "The primary goal is to create concentrated pressure through the knee that forces defensive reactions from the opponent. This accomplishes two objectives: scoring points in competition (2-3 points depending on ruleset) and creating submission opportunities when the opponent reacts predictably to escape the discomfort. The position transforms static control into dynamic attacking."
+        "answer": "The primary goal is to create concentrated pressure through the knee that forces defensive reactions from the opponent. This accomplishes two objectives: scoring points in competition (2-3 points depending on ruleset) and creating submission opportunities when the opponent reacts predictably to escape the discomfort. The position transforms static control into dynamic attacking.",
+        "answer_line": "Force reactions, create openings",
+        "distractors": {
+          "plausible": [
+            "Score points, then stall out",
+            "Smother them into stillness"
+          ],
+          "trap": [
+            "Abandon knee for flat chest pressure"
+          ]
+        }
       },
       {
         "question": "Where exactly should you place your knee for maximum effectiveness?",
-        "answer": "The knee should be placed in the solar plexus or lower rib area, just below where the ribs meet at the sternum. This location creates maximum breathing restriction and pain compliance. Placing the knee on the stomach or hip dramatically reduces effectiveness because these areas lack the bone structure that amplifies pressure."
+        "answer": "The knee should be placed in the solar plexus or lower rib area, just below where the ribs meet at the sternum. This location creates maximum breathing restriction and pain compliance. Placing the knee on the stomach or hip dramatically reduces effectiveness because these areas lack the bone structure that amplifies pressure.",
+        "answer_line": "Solar plexus / lower ribs",
+        "distractors": {
+          "plausible": [
+            "Center of the stomach",
+            "On the hip bone"
+          ],
+          "trap": [
+            "Directly on the sternum"
+          ]
+        }
       },
       {
         "question": "Your opponent pushes against your knee with both hands - what submission opportunity does this create?",
-        "answer": "When the opponent pushes your knee with both hands, their arms extend and become vulnerable. This creates an immediate armbar opportunity on the near arm. You can also attack with a Kimura by circling to the exposed arm. The key recognition is that hands occupied pushing the knee cannot defend submissions, making this defense self-defeating."
+        "answer": "When the opponent pushes your knee with both hands, their arms extend and become vulnerable. This creates an immediate armbar opportunity on the near arm. You can also attack with a Kimura by circling to the exposed arm. The key recognition is that hands occupied pushing the knee cannot defend submissions, making this defense self-defeating.",
+        "answer_line": "Armbar or Kimura the near arm",
+        "distractors": {
+          "plausible": [
+            "Switch to mount immediately",
+            "Drop more weight into knee"
+          ],
+          "trap": [
+            "Release knee, fight the grips"
+          ]
+        }
       },
       {
         "question": "How should your weight distribution differ between leaning forward and sitting down through the knee?",
-        "answer": "Weight should be distributed vertically downward through the knee, not horizontally forward by leaning. Keep shoulders stacked directly above hips and drive pressure down like drilling into the mat. Leaning forward feels heavy but creates an unstable position easily disrupted by bridges and actually reduces effective pressure on the opponent's torso."
+        "answer": "Weight should be distributed vertically downward through the knee, not horizontally forward by leaning. Keep shoulders stacked directly above hips and drive pressure down like drilling into the mat. Leaning forward feels heavy but creates an unstable position easily disrupted by bridges and actually reduces effective pressure on the opponent's torso.",
+        "answer_line": "Drive weight vertically down",
+        "distractors": {
+          "plausible": [
+            "Lean forward, chest heavy",
+            "Balance weight through hands"
+          ],
+          "trap": [
+            "Rock back off the base foot"
+          ]
+        }
       },
       {
         "question": "Your opponent explosively bridges while you're in Knee on Belly - what is the correct response?",
-        "answer": "Post firmly with your far foot while maintaining knee connection to ride the bridge. Do not fight the upward momentum directly. As the opponent returns to the mat, immediately increase pressure or transition to mount while they're recovering from the exertion. Their bridge creates space that facilitates your mount transition."
+        "answer": "Post firmly with your far foot while maintaining knee connection to ride the bridge. Do not fight the upward momentum directly. As the opponent returns to the mat, immediately increase pressure or transition to mount while they're recovering from the exertion. Their bridge creates space that facilitates your mount transition.",
+        "answer_line": "Post foot, ride bridge to mount",
+        "distractors": {
+          "plausible": [
+            "Drop full weight to stop it",
+            "Step off and reset position"
+          ],
+          "trap": [
+            "Fight the bridge, dig knee in"
+          ]
+        }
       },
       {
         "question": "Why is it critical to clear frames before transitioning from Side Control to Knee on Belly?",
-        "answer": "The transition requires lifting your chest off the opponent, creating a momentary reduction in pressure. If frames exist, the opponent will immediately use this window to insert a knee shield or recover guard. Clearing frames while in Side Control ensures the opponent cannot capitalize on the brief pressure reduction during your transition."
+        "answer": "The transition requires lifting your chest off the opponent, creating a momentary reduction in pressure. If frames exist, the opponent will immediately use this window to insert a knee shield or recover guard. Clearing frames while in Side Control ensures the opponent cannot capitalize on the brief pressure reduction during your transition.",
+        "answer_line": "Clear frames before lifting chest",
+        "distractors": {
+          "plausible": [
+            "Switch grips as you lift",
+            "Transition fast, fix frames after"
+          ],
+          "trap": [
+            "Lift chest first, clear frames after"
+          ]
+        }
       },
       {
         "question": "What angle should your posting foot be positioned at, and why does this matter?",
-        "answer": "The posting foot should be planted wide with toes pointing outward at approximately 45 degrees from the opponent's body. This creates a triangular base that provides stability against bridges, shrimps, and turning motions from multiple directions. A narrow base or straight foot alignment makes you vulnerable to being swept when the opponent moves laterally."
+        "answer": "The posting foot should be planted wide with toes pointing outward at approximately 45 degrees from the opponent's body. This creates a triangular base that provides stability against bridges, shrimps, and turning motions from multiple directions. A narrow base or straight foot alignment makes you vulnerable to being swept when the opponent moves laterally.",
+        "answer_line": "Wide base, foot at 45 degrees",
+        "distractors": {
+          "plausible": [
+            "Foot pointed straight ahead",
+            "Narrow base, feet close together"
+          ],
+          "trap": [
+            "Weight on toes, heel lifted"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to transition from Side Control to Knee on Belly?",
-        "answer": "The optimal timing is immediately after neutralizing the opponent's last escape attempt when they are recovering energy and mentally resetting. Also effective is during their exhale when breathing is compromised by your chest pressure. Avoid transitioning when they are actively framing, have just gained an underhook, or are gathering energy for an escape attempt."
+        "answer": "The optimal timing is immediately after neutralizing the opponent's last escape attempt when they are recovering energy and mentally resetting. Also effective is during their exhale when breathing is compromised by your chest pressure. Avoid transitioning when they are actively framing, have just gained an underhook, or are gathering energy for an escape attempt.",
+        "answer_line": "After neutralizing their escape",
+        "distractors": {
+          "plausible": [
+            "As soon as side control lands",
+            "While they gather for a scramble"
+          ],
+          "trap": [
+            "Right after they get an underhook"
+          ]
+        }
       },
       {
         "question": "Your opponent turns away from you in Knee on Belly - what chain attacks become available?",
-        "answer": "When the opponent turns away, their back becomes exposed for back takes by following their rotation. Additionally, baseball bat choke becomes available as their collar is exposed, and far-side armbar opportunities open as they extend to turn. The turning motion also creates space to transition to mount by stepping over their hip as they rotate."
+        "answer": "When the opponent turns away, their back becomes exposed for back takes by following their rotation. Additionally, baseball bat choke becomes available as their collar is exposed, and far-side armbar opportunities open as they extend to turn. The turning motion also creates space to transition to mount by stepping over their hip as they rotate.",
+        "answer_line": "Take the back as they turn",
+        "distractors": {
+          "plausible": [
+            "Switch to armbar immediately",
+            "Follow into Kesa Gatame instead"
+          ],
+          "trap": [
+            "Release grips, dive for the legs"
+          ]
+        }
       },
       {
         "question": "How does the Floating Knee on Belly variant differ in application from the standard position?",
-        "answer": "Floating Knee on Belly uses lighter knee pressure with greater mobility, treating the position as a transition platform rather than a holding position. The knee hovers rather than driving, allowing rapid transitions to mount, back takes, or submissions. This variant is effective against opponents who time escapes well because the mobility allows you to follow their movement continuously."
+        "answer": "Floating Knee on Belly uses lighter knee pressure with greater mobility, treating the position as a transition platform rather than a holding position. The knee hovers rather than driving, allowing rapid transitions to mount, back takes, or submissions. This variant is effective against opponents who time escapes well because the mobility allows you to follow their movement continuously.",
+        "answer_line": "Light pressure, mobile platform",
+        "distractors": {
+          "plausible": [
+            "Heavier pressure, static hold",
+            "Same as standard, just faster"
+          ],
+          "trap": [
+            "Drop full weight, commit fully"
+          ]
+        }
       },
       {
         "question": "What grip combination provides the best control for initiating the Knee on Belly transition?",
@@ -264,7 +364,17 @@
       },
       {
         "question": "Your opponent stays completely still under your Knee on Belly - how do you escalate the position?",
-        "answer": "A static opponent is absorbing pressure but not creating escape opportunities you can exploit. Escalate by increasing knee pressure to force a reaction, adjusting grips to threaten a collar choke, or switching to cross collar grip to set up a baseball bat choke. You can also transition to mount since their passivity means no active defense against positional advancement. The goal is always to force a reaction that opens an attack."
+        "answer": "A static opponent is absorbing pressure but not creating escape opportunities you can exploit. Escalate by increasing knee pressure to force a reaction, adjusting grips to threaten a collar choke, or switching to cross collar grip to set up a baseball bat choke. You can also transition to mount since their passivity means no active defense against positional advancement. The goal is always to force a reaction that opens an attack.",
+        "answer_line": "Increase pressure, force reaction",
+        "distractors": {
+          "plausible": [
+            "Wait for them to move first",
+            "Hold position, save energy"
+          ],
+          "trap": [
+            "Relax pressure and reset grips"
+          ]
+        }
       }
     ],
     "safety_considerations": "Knee on Belly creates significant pressure on the rib cage and solar plexus that can cause injury if applied recklessly. When training, build pressure gradually rather than dropping full weight immediately, especially with newer training partners who may not know how to tap or signal discomfort appropriately. Be aware that direct pressure to the solar plexus can cause temporary breathing difficulty and nausea. Partners with rib injuries, recent abdominal surgery, or respiratory conditions should communicate these issues before drilling. During competition, the position is legal and expected, but training should emphasize controlled application to prevent rib fractures or cartilage damage that can occur from sudden, full-force knee placement.",
@@ -386,27 +496,87 @@
     "flashcards": [
       {
         "question": "What is the first thing you should do when your opponent establishes Knee on Belly?",
-        "answer": "Immediately create frames using your near elbow against the opponent's knee and your far hand on their hip. Do not push with extended arms. Simultaneously begin turning to your side facing away from the knee to reduce pressure surface area and enable hip escape mechanics. Speed of initial response is critical because the opponent is waiting for panicked reactions to exploit."
+        "answer": "Immediately create frames using your near elbow against the opponent's knee and your far hand on their hip. Do not push with extended arms. Simultaneously begin turning to your side facing away from the knee to reduce pressure surface area and enable hip escape mechanics. Speed of initial response is critical because the opponent is waiting for panicked reactions to exploit.",
+        "answer_line": "Frame with elbow, turn to side",
+        "distractors": {
+          "plausible": [
+            "Grab the knee and pull it off",
+            "Bridge explosively right away"
+          ],
+          "trap": [
+            "Push the knee with straight arms"
+          ]
+        }
       },
       {
         "question": "Why is pushing the opponent's knee with extended arms the most dangerous defensive reaction?",
-        "answer": "Extended arms are the primary submission entry point the attacker is waiting for. When you push with straight arms, you expose both limbs to armbars and Kimuras while your hands are occupied and unable to defend. The pushing motion also fails to create lateral escape angles, making it ineffective mechanically. The correct approach uses tight elbow frames that create angles without exposing limbs."
+        "answer": "Extended arms are the primary submission entry point the attacker is waiting for. When you push with straight arms, you expose both limbs to armbars and Kimuras while your hands are occupied and unable to defend. The pushing motion also fails to create lateral escape angles, making it ineffective mechanically. The correct approach uses tight elbow frames that create angles without exposing limbs.",
+        "answer_line": "Exposes arm to armbar or Kimura",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, no space gained",
+            "Fails to create any angle"
+          ],
+          "trap": [
+            "Best way to create space fast"
+          ]
+        }
       },
       {
         "question": "Your opponent is transitioning from Side Control to Knee on Belly - what is the optimal defensive timing?",
-        "answer": "The best moment to defend is during the transition itself, when the opponent lifts their chest to place the knee. This is the brief window where their weight is reduced and their control is weakest. Use this moment to shrimp your hips away and insert a knee shield before they can settle. Once the knee is established with full weight, escape becomes significantly harder."
+        "answer": "The best moment to defend is during the transition itself, when the opponent lifts their chest to place the knee. This is the brief window where their weight is reduced and their control is weakest. Use this moment to shrimp your hips away and insert a knee shield before they can settle. Once the knee is established with full weight, escape becomes significantly harder.",
+        "answer_line": "Shrimp away as knee lifts",
+        "distractors": {
+          "plausible": [
+            "Wait until the knee fully settles",
+            "Bridge hard right as they move"
+          ],
+          "trap": [
+            "Turn to turtle immediately"
+          ]
+        }
       },
       {
         "question": "How should you manage your breathing under Knee on Belly pressure?",
-        "answer": "Take short, controlled breaths through your nose using your diaphragm rather than attempting full chest breaths. Turning to your side shifts the pressure point off the diaphragm, creating slightly more breathing room. Do not hold your breath as this depletes energy rapidly and increases panic. Mental composure through controlled breathing preserves the energy and clarity needed for systematic escape execution."
+        "answer": "Take short, controlled breaths through your nose using your diaphragm rather than attempting full chest breaths. Turning to your side shifts the pressure point off the diaphragm, creating slightly more breathing room. Do not hold your breath as this depletes energy rapidly and increases panic. Mental composure through controlled breathing preserves the energy and clarity needed for systematic escape execution.",
+        "answer_line": "Short nose breaths, turn to side",
+        "distractors": {
+          "plausible": [
+            "Take one deep chest breath",
+            "Breathe fast through the mouth"
+          ],
+          "trap": [
+            "Hold your breath and brace"
+          ]
+        }
       },
       {
         "question": "Your initial hip escape is blocked and you remain under Knee on Belly - what do you do next?",
-        "answer": "Immediately chain into a secondary escape without pausing. If shrimping away was blocked, bridge toward the opponent's posting foot to disrupt their base, then reattempt the hip escape during their rebalancing. If both fail, try the opposite-side shrimp or look for a deep half entry. Each attempt creates incremental space improvement, and pausing allows the opponent to resettle their weight and punish your inactivity."
+        "answer": "Immediately chain into a secondary escape without pausing. If shrimping away was blocked, bridge toward the opponent's posting foot to disrupt their base, then reattempt the hip escape during their rebalancing. If both fail, try the opposite-side shrimp or look for a deep half entry. Each attempt creates incremental space improvement, and pausing allows the opponent to resettle their weight and punish your inactivity.",
+        "answer_line": "Bridge their post, then re-shrimp",
+        "distractors": {
+          "plausible": [
+            "Pause and reset your grips",
+            "Repeat the same shrimp harder"
+          ],
+          "trap": [
+            "Stop moving, wait them out"
+          ]
+        }
       },
       {
         "question": "When is turning to turtle position an acceptable escape from Knee on Belly?",
-        "answer": "Turtle is a last-resort escape when lateral hip escapes are completely blocked and the opponent is threatening imminent submissions. It provides immediate pressure relief but exposes your back to back takes and collar choke threats. If you turn to turtle, you must immediately work to face the opponent, stand up, or pull guard - never settle in turtle under a skilled top player who will transition to back control."
+        "answer": "Turtle is a last-resort escape when lateral hip escapes are completely blocked and the opponent is threatening imminent submissions. It provides immediate pressure relief but exposes your back to back takes and collar choke threats. If you turn to turtle, you must immediately work to face the opponent, stand up, or pull guard - never settle in turtle under a skilled top player who will transition to back control.",
+        "answer_line": "Last resort, escape immediately",
+        "distractors": {
+          "plausible": [
+            "Preferred first response",
+            "Safe position to rest in"
+          ],
+          "trap": [
+            "Settle in turtle, catch your breath"
+          ]
+        }
       }
     ],
     "training_progressions": [

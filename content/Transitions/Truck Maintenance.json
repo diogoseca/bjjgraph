@@ -260,15 +260,45 @@
     "flashcards": [
       {
         "question": "What is the single most critical control point for truck maintenance and why?",
-        "answer": "Boot pressure against the opponent's hip is the most critical control point. It creates the lateral torque that prevents hip rotation, enables leg entanglement to function effectively, and serves as the foundation for all upper body control. Without boot pressure, the entire truck position unravels regardless of how tight your leg entanglement or upper body grips are, because the opponent regains the hip mobility needed to initiate any escape."
+        "answer": "Boot pressure against the opponent's hip is the most critical control point. It creates the lateral torque that prevents hip rotation, enables leg entanglement to function effectively, and serves as the foundation for all upper body control. Without boot pressure, the entire truck position unravels regardless of how tight your leg entanglement or upper body grips are, because the opponent regains the hip mobility needed to initiate any escape.",
+        "answer_line": "Boot pressure on the hip",
+        "distractors": {
+          "plausible": [
+            "Chest pressure on upper back",
+            "Figure-four leg lock tightness"
+          ],
+          "trap": [
+            "Cross-face grip on far shoulder"
+          ]
+        }
       },
       {
         "question": "Your opponent begins hand-fighting your boot with both hands—how do you respond?",
-        "answer": "When the opponent commits both hands to boot clearing, immediately threaten a twister grip or neck attack since their neck is now completely undefended. This forces at least one hand back to neck protection. Simultaneously, angle your foot deeper into their hip crease and increase lateral pressure. The opponent cannot effectively fight your boot with both hands while also defending submission threats, creating the core maintenance dilemma."
+        "answer": "When the opponent commits both hands to boot clearing, immediately threaten a twister grip or neck attack since their neck is now completely undefended. This forces at least one hand back to neck protection. Simultaneously, angle your foot deeper into their hip crease and increase lateral pressure. The opponent cannot effectively fight your boot with both hands while also defending submission threats, creating the core maintenance dilemma.",
+        "answer_line": "Threaten neck to pull a hand back",
+        "distractors": {
+          "plausible": [
+            "Re-seat boot deeper immediately",
+            "Switch to underhook control"
+          ],
+          "trap": [
+            "Release boot, chase far-side sub"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during extended truck maintenance?",
-        "answer": "Use skeletal alignment and body weight rather than muscular effort for sustained control. Position your chest directly on their upper back so gravity creates pressing force. Lock your legs in a configuration where bone structure maintains the entanglement without constant squeezing. Rest in maintenance posture between attack attempts rather than constantly hunting submissions. Work in deliberate cycles of controlled pressure followed by brief attack sequences."
+        "answer": "Use skeletal alignment and body weight rather than muscular effort for sustained control. Position your chest directly on their upper back so gravity creates pressing force. Lock your legs in a configuration where bone structure maintains the entanglement without constant squeezing. Rest in maintenance posture between attack attempts rather than constantly hunting submissions. Work in deliberate cycles of controlled pressure followed by brief attack sequences.",
+        "answer_line": "Skeletal alignment, not muscle",
+        "distractors": {
+          "plausible": [
+            "Constant squeeze on entanglement",
+            "Hunt submissions continuously"
+          ],
+          "trap": [
+            "Grip and pull with arms nonstop"
+          ]
+        }
       },
       {
         "question": "What indicators tell you truck maintenance is failing and you should transition to back control?",
@@ -276,27 +306,87 @@
       },
       {
         "question": "Your opponent attempts a granby roll while you maintain truck—what is your response?",
-        "answer": "Follow the direction of their roll rather than resisting it, using their momentum to transition to back control by inserting hooks as they rotate. Attempting to stop a committed granby by holding position typically fails and wastes energy. The granby actually exposes the back further during the rotation phase, creating an optimal window for back take. Alternatively, if you read the roll early, catch the far arm during rotation for a crucifix transition."
+        "answer": "Follow the direction of their roll rather than resisting it, using their momentum to transition to back control by inserting hooks as they rotate. Attempting to stop a committed granby by holding position typically fails and wastes energy. The granby actually exposes the back further during the rotation phase, creating an optimal window for back take. Alternatively, if you read the roll early, catch the far arm during rotation for a crucifix transition.",
+        "answer_line": "Follow roll, insert hooks to back",
+        "distractors": {
+          "plausible": [
+            "Brace hard and stop the rotation",
+            "Release and reset to neutral"
+          ],
+          "trap": [
+            "Chase the trapped leg for slicer"
+          ]
+        }
       },
       {
         "question": "How do submission threats function as maintenance tools in the truck position?",
-        "answer": "Submission threats force the opponent into defensive mode rather than escape mode. When you threaten a twister grip, they must use at least one hand for neck defense instead of fighting your boot. When you pressure the calf slicer, they must address their trapped leg defensively. This constant defensive burden prevents them from committing fully to any multi-step escape sequence, effectively maintaining position through offensive pressure rather than purely defensive holding."
+        "answer": "Submission threats force the opponent into defensive mode rather than escape mode. When you threaten a twister grip, they must use at least one hand for neck defense instead of fighting your boot. When you pressure the calf slicer, they must address their trapped leg defensively. This constant defensive burden prevents them from committing fully to any multi-step escape sequence, effectively maintaining position through offensive pressure rather than purely defensive holding.",
+        "answer_line": "Force defense, block escape steps",
+        "distractors": {
+          "plausible": [
+            "Tire the opponent out physically",
+            "Score points during scrambles"
+          ],
+          "trap": [
+            "Ignore position, hunt tap only"
+          ]
+        }
       },
       {
         "question": "What is the correct sequence for re-establishing control when your leg entanglement loosens?",
-        "answer": "Immediately re-tighten by pulling your hooking leg deeper behind their knee and squeezing your knees together. If significant loosening has occurred, momentarily increase boot pressure to restrict their hip movement while you re-lock the figure-four configuration. Address loosening within one to two seconds because gradual loosening compounds rapidly—once the leg is half-extracted, full extraction follows within seconds and the position becomes unsalvageable."
+        "answer": "Immediately re-tighten by pulling your hooking leg deeper behind their knee and squeezing your knees together. If significant loosening has occurred, momentarily increase boot pressure to restrict their hip movement while you re-lock the figure-four configuration. Address loosening within one to two seconds because gradual loosening compounds rapidly—once the leg is half-extracted, full extraction follows within seconds and the position becomes unsalvageable.",
+        "answer_line": "Re-hook knee, squeeze within seconds",
+        "distractors": {
+          "plausible": [
+            "Reset boot pressure first",
+            "Wait for opponent to settle"
+          ],
+          "trap": [
+            "Let it slide, focus on choke"
+          ]
+        }
       },
       {
         "question": "When should you choose tight boot maintenance versus dynamic re-entry maintenance?",
-        "answer": "Choose tight boot maintenance against smaller, more flexible opponents who can exploit any space you create, or when you want to conserve energy through maximum grinding pressure. Choose dynamic re-entry maintenance against larger or stronger opponents whose explosive escape attempts are difficult to block directly. Dynamic style follows their movement and re-establishes control from new angles rather than fighting strength against strength, which is more sustainable against powerful opponents."
+        "answer": "Choose tight boot maintenance against smaller, more flexible opponents who can exploit any space you create, or when you want to conserve energy through maximum grinding pressure. Choose dynamic re-entry maintenance against larger or stronger opponents whose explosive escape attempts are difficult to block directly. Dynamic style follows their movement and re-establishes control from new angles rather than fighting strength against strength, which is more sustainable against powerful opponents.",
+        "answer_line": "Tight vs small, dynamic vs strong",
+        "distractors": {
+          "plausible": [
+            "Always use tight boot style",
+            "Dynamic style saves more energy"
+          ],
+          "trap": [
+            "Match strength against bigger foe"
+          ]
+        }
       },
       {
         "question": "What is the optimal direction of force for boot pressure and how does changing the angle affect control?",
-        "answer": "Boot pressure should be directed laterally into the hip crease at approximately a 45-degree angle toward the mat, with toes angled slightly inward. This creates a corkscrew torque effect that simultaneously prevents the opponent from squaring their hips and from rolling forward. If the angle is too perpendicular (straight into the hip), the opponent can rotate around the pressure point. If angled too far downward, the boot slides off during movement. The inward toe angle increases surface area contact and prevents the foot from being stripped by hand fighting."
+        "answer": "Boot pressure should be directed laterally into the hip crease at approximately a 45-degree angle toward the mat, with toes angled slightly inward. This creates a corkscrew torque effect that simultaneously prevents the opponent from squaring their hips and from rolling forward. If the angle is too perpendicular (straight into the hip), the opponent can rotate around the pressure point. If angled too far downward, the boot slides off during movement. The inward toe angle increases surface area contact and prevents the foot from being stripped by hand fighting.",
+        "answer_line": "45° into hip, toes angled in",
+        "distractors": {
+          "plausible": [
+            "Straight perpendicular into hip",
+            "Steep downward toward mat"
+          ],
+          "trap": [
+            "Toes pointed outward for grip"
+          ]
+        }
       },
       {
         "question": "Your upper body connection is stripped while boot and leg control remain intact—how do you re-establish full maintenance?",
-        "answer": "Immediately increase boot pressure and squeeze your leg entanglement tighter to compensate for the lost upper body control. Then re-establish chest contact by walking your upper body back toward their shoulders using short incremental movements rather than one large reach that could destabilize your lower body controls. Prioritize re-establishing the underhook or crossface before attempting any submission, because without upper body connection the opponent can begin forward rolling sequences that leg control alone cannot prevent. If they begin escaping during re-establishment, threaten a calf slicer to freeze their movement."
+        "answer": "Immediately increase boot pressure and squeeze your leg entanglement tighter to compensate for the lost upper body control. Then re-establish chest contact by walking your upper body back toward their shoulders using short incremental movements rather than one large reach that could destabilize your lower body controls. Prioritize re-establishing the underhook or crossface before attempting any submission, because without upper body connection the opponent can begin forward rolling sequences that leg control alone cannot prevent. If they begin escaping during re-establishment, threaten a calf slicer to freeze their movement.",
+        "answer_line": "Boost lower control, walk chest back",
+        "distractors": {
+          "plausible": [
+            "Reach far for one big grip",
+            "Attack sub before upper body"
+          ],
+          "trap": [
+            "Abandon leg control to chase grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "The truck position creates significant torque on the opponent's spine and knee joints. When practicing maintenance, avoid sudden explosive adjustments that could hyperextend the trapped leg or compress the knee. Partners should establish clear tap signals before drilling. Be especially cautious with boot pressure angles that drive the opponent's hip into extreme rotation. Never crank leg entanglement against a tapping opponent and release immediately upon any tap signal. Spinal submission threats from this position can cause permanent injury if not respected during training.",
@@ -405,23 +495,73 @@
     "flashcards": [
       {
         "question": "What is your first defensive priority when the opponent re-establishes boot pressure after you partially clear it?",
-        "answer": "Immediately re-engage boot fighting with your near hand while keeping the far hand defending your neck. The boot is the torque engine of the truck position, and allowing it to re-seat without resistance means all subsequent escape attempts become exponentially harder. Fight the boot every time it is re-applied, because each successful re-seating resets your escape progress to zero."
+        "answer": "Immediately re-engage boot fighting with your near hand while keeping the far hand defending your neck. The boot is the torque engine of the truck position, and allowing it to re-seat without resistance means all subsequent escape attempts become exponentially harder. Fight the boot every time it is re-applied, because each successful re-seating resets your escape progress to zero.",
+        "answer_line": "Re-fight boot, other hand on neck",
+        "distractors": {
+          "plausible": [
+            "Focus fully on neck defense",
+            "Rest and reassess next exchange"
+          ],
+          "trap": [
+            "Let boot reseat, save energy"
+          ]
+        }
       },
       {
         "question": "How do you time your major escape attempt against a skilled truck maintenance player?",
-        "answer": "Time your escape for the moment the attacker shifts weight to attempt a submission. When they reach for a twister grip, their chest pressure momentarily decreases. When they adjust for a calf slicer, their upper body connection loosens. These transition moments between maintenance posture and attack posture create the brief gaps needed for successful escape attempts. Patience is essential because forcing escape against full maintenance rarely succeeds."
+        "answer": "Time your escape for the moment the attacker shifts weight to attempt a submission. When they reach for a twister grip, their chest pressure momentarily decreases. When they adjust for a calf slicer, their upper body connection loosens. These transition moments between maintenance posture and attack posture create the brief gaps needed for successful escape attempts. Patience is essential because forcing escape against full maintenance rarely succeeds.",
+        "answer_line": "Escape as attacker shifts to submit",
+        "distractors": {
+          "plausible": [
+            "Escape early before they settle",
+            "Force it against full pressure"
+          ],
+          "trap": [
+            "Explode the moment boot lands"
+          ]
+        }
       },
       {
         "question": "Your trapped leg is being extended and you feel calf slicer pressure building—what do you do?",
-        "answer": "Immediately bend your knee as sharply as possible to reduce compression on the joint while simultaneously rotating your hip toward the trapped leg to reduce the extension angle. If you can create enough slack, attempt extraction. If compression pressure becomes significant and escape is not viable, tap immediately. The calf slicer can cause serious knee ligament damage with very little warning before the injury threshold is crossed."
+        "answer": "Immediately bend your knee as sharply as possible to reduce compression on the joint while simultaneously rotating your hip toward the trapped leg to reduce the extension angle. If you can create enough slack, attempt extraction. If compression pressure becomes significant and escape is not viable, tap immediately. The calf slicer can cause serious knee ligament damage with very little warning before the injury threshold is crossed.",
+        "answer_line": "Bend knee, rotate hip, tap if needed",
+        "distractors": {
+          "plausible": [
+            "Push through and extract leg",
+            "Wait it out, pressure will ease"
+          ],
+          "trap": [
+            "Straighten leg to reduce angle"
+          ]
+        }
       },
       {
         "question": "What determines whether you should attempt a granby roll or a hip escape from truck bottom?",
-        "answer": "Choose granby roll when the attacker's weight is committed forward over your upper body, as the roll uses their forward pressure as momentum to generate rotation. Choose hip escape when the attacker has loose upper body control but maintains strong boot and leg entanglement, because shrimping creates the angles needed to work the trapped leg free. Granby requires space and momentum to initiate effectively, while hip escape works in tighter configurations where rolling is not feasible."
+        "answer": "Choose granby roll when the attacker's weight is committed forward over your upper body, as the roll uses their forward pressure as momentum to generate rotation. Choose hip escape when the attacker has loose upper body control but maintains strong boot and leg entanglement, because shrimping creates the angles needed to work the trapped leg free. Granby requires space and momentum to initiate effectively, while hip escape works in tighter configurations where rolling is not feasible.",
+        "answer_line": "Granby vs forward weight, else hip",
+        "distractors": {
+          "plausible": [
+            "Always granby for more space",
+            "Hip escape whenever weight forward"
+          ],
+          "trap": [
+            "Roll into their forward pressure"
+          ]
+        }
       },
       {
         "question": "Why is it critical to address boot pressure before attempting leg extraction?",
-        "answer": "Boot pressure creates lateral torque through your hips that prevents the rotation needed for leg extraction. Attempting to extract your trapped leg while the boot is firmly placed is like trying to open a door while someone is pushing it shut from the other side. Clearing or reducing the boot first removes the mechanical restriction on your hip rotation, making subsequent leg extraction dramatically more likely to succeed with less energy expenditure."
+        "answer": "Boot pressure creates lateral torque through your hips that prevents the rotation needed for leg extraction. Attempting to extract your trapped leg while the boot is firmly placed is like trying to open a door while someone is pushing it shut from the other side. Clearing or reducing the boot first removes the mechanical restriction on your hip rotation, making subsequent leg extraction dramatically more likely to succeed with less energy expenditure.",
+        "answer_line": "Boot torque blocks hip rotation",
+        "distractors": {
+          "plausible": [
+            "Boot pressure tires the leg out",
+            "Extraction needs upper body first"
+          ],
+          "trap": [
+            "Rip leg free against the boot"
+          ]
+        }
       }
     ],
     "training_progressions": [

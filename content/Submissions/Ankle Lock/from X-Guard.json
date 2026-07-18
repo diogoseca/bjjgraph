@@ -309,17 +309,47 @@
       {
         "question": "What anatomical structures does the ankle lock from X-Guard primarily attack?",
         "answer": "The straight ankle lock primarily attacks the Achilles tendon and the ankle joint (talocrural joint). The blade of the forearm presses against the Achilles tendon while the figure-four grip creates a fulcrum behind the heel. Hip extension then hyperextends the ankle joint beyond its natural range of dorsiflexion, creating intense pressure on the tendon and the anterior ankle ligaments, particularly the anterior talofibular ligament. Secondary stress affects the midfoot joints if the grip drifts toward the foot.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Achilles tendon and ankle joint",
+        "distractors": {
+          "plausible": [
+            "Knee ligaments, like heel hook",
+            "Toes and metatarsal bones"
+          ],
+          "trap": [
+            "Calf muscle belly"
+          ]
+        }
       },
       {
         "question": "You feel your opponent's foot starting to flex involuntarily as you apply pressure — what does this indicate about your finishing position?",
         "answer": "Involuntary foot flexion indicates you are approaching the mechanical limit of the ankle joint. The opponent's body is reflexively attempting to relieve pressure on the Achilles tendon through dorsiflexion resistance. At this point, maintain steady pressure without increasing speed or force. Your grip alignment and hip extension are generating effective submission pressure. Continue progressive application and listen carefully for tap signals, as many practitioners tap verbally rather than physically when their foot is being controlled by a figure-four grip.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Near ankle's mechanical limit",
+        "distractors": {
+          "plausible": [
+            "Grip is slipping loose",
+            "Opponent about to escape"
+          ],
+          "trap": [
+            "Increase speed and force"
+          ]
+        }
       },
       {
         "question": "What three control elements must be established before committing to the ankle lock finish from X-Guard?",
         "answer": "First, the ankle must be isolated with a secure figure-four grip placing the radial bone directly against the Achilles tendon with the heel pinned to the chest. Second, your legs must control the opponent's hip through Ashi Garami configuration with inside leg across their near hip and outside leg hooking behind their knee. Third, your body must achieve perpendicular alignment to the trapped leg with hips elevated off the mat. Without all three elements established, the opponent retains viable escape routes and the submission lacks sufficient mechanical advantage to produce a reliable finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip, hip control, perpendicular",
+        "distractors": {
+          "plausible": [
+            "Just a tight figure-four grip",
+            "Speed over positional control"
+          ],
+          "trap": [
+            "Crank immediately for surprise"
+          ]
+        }
       },
       {
         "question": "Your opponent begins standing up while you hold the ankle lock — at what point is their escape no longer viable?",
@@ -327,18 +357,29 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Standing becomes unviable the moment you catch their foot under your armpit, even before the figure-four grip is fully locked.",
-            "Their escape fails once your legs cross over their hip, regardless of how deep the grip sits behind the Achilles."
+            "As soon as they start standing",
+            "When their foot leaves the mat"
           ],
           "trap": [
-            "Once they stand you should release the ankle and pull guard again, since a standing opponent can always kick free of the lock."
+            "Standing always escapes ankle locks"
           ]
-        }
+        },
+        "answer_line": "Grip locked, hips elevated"
       },
       {
         "question": "What is the most common finishing error when applying the ankle lock from X-Guard and how does it reduce effectiveness?",
         "answer": "The most common error is relying on arm strength to crank the ankle rather than using hip extension for the breaking force. When practitioners squeeze exclusively with their arms, they fatigue rapidly, the pressure becomes inconsistent, and the mechanical advantage is reduced dramatically compared to proper hip extension. The correction is to pin the ankle against the chest with the figure-four grip locked and generate all breaking force by driving the hips away from the opponent. Arms maintain grip position while hip extension provides the force vector that finishes the submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Cranking with arms not hips",
+        "distractors": {
+          "plausible": [
+            "Rushing the finish speed",
+            "Weak figure-four grip"
+          ],
+          "trap": [
+            "Yanking sharply for a fast tap"
+          ]
+        }
       },
       {
         "question": "Your opponent curls their toes and points their foot to relieve Achilles pressure — how do you adjust your grip to overcome this defense?",
@@ -346,13 +387,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Slide your wrist lower toward the heel so the blade catches the foot itself rather than the protected Achilles tendon.",
-            "Keep the blade exactly where it is and simply squeeze harder until pressure builds through their pointed-toe defense."
+            "Squeeze harder at same spot",
+            "Switch straight to a kneebar"
           ],
           "trap": [
-            "Sit up and use both hands to peel their toes back into flexion, abandoning the figure-four grip to break the defense first."
+            "Let go and reset position"
           ]
-        }
+        },
+        "answer_line": "Slide grip deeper, angle to toes"
       },
       {
         "question": "Why is the straight ankle lock considered relatively safer than heel hooks, and what specific injury risks still require caution?",
@@ -360,28 +402,59 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "It is safer because the ankle joint is too small and flexible for dorsiflexion pressure to cause any lasting structural damage.",
-            "It is safer mainly because ankle lock injuries heal within days, whereas heel hook injuries almost always require surgery."
+            "Ankle locks never cause injury",
+            "Less mechanical advantage overall"
           ],
           "trap": [
-            "Because the ankle lock is low-risk, you can crank the finish fast in competition to beat opponents who tap late."
+            "Safe to crank hard and fast"
           ]
-        }
+        },
+        "answer_line": "Pain builds gradually, warns first"
       },
       {
         "question": "In a competition with three minutes remaining and your opponent stalling in your X-Guard — how do you create the opening to finish the ankle lock?",
         "answer": "Create urgency by threatening strong sweep attacks that force the opponent to commit their weight forward for base. When they post to resist a specific sweep, their trapped ankle becomes momentarily available as their defensive attention shifts to base maintenance. Transition immediately to the ankle grip during this defensive reaction. In competition, apply the lock with controlled but deliberate pressure. If the first attempt is defended, transition immediately to Ashi Garami and chain into heel hooks or toe holds rather than returning to X-Guard and resetting the exchange.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fake sweep, grab ankle on base",
+        "distractors": {
+          "plausible": [
+            "Wait passively for opening",
+            "Grip fight without sweep threat"
+          ],
+          "trap": [
+            "Reset to X-Guard after defense"
+          ]
+        }
       },
       {
         "question": "Your training partner signals distress but has not verbally or physically tapped — what is the correct response?",
         "answer": "Release the submission immediately. Any distress signal — facial expression, unusual vocalization, body stiffening, or panicked movement — must be treated as a definitive tap. The ankle lock position can always be re-established, but an injury from holding a submission through ambiguous signaling cannot be undone. After releasing, verbally confirm with your partner whether they were in distress and wanted to tap. This safety-first approach builds trust between training partners and enables both practitioners to train aggressively without fear of injury from miscommunication.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release immediately, always",
+        "distractors": {
+          "plausible": [
+            "Ease pressure, keep grip",
+            "Ask if they want to tap"
+          ],
+          "trap": [
+            "Continue until verbal tap"
+          ]
+        }
       },
       {
         "question": "What grip transition sequence should you follow when moving from X-Guard control to the ankle lock finish?",
         "answer": "Begin with X-Guard grips controlling the opponent's ankle with one hand and sleeve or belt with the other for sweep control. When transitioning, first release the upper body grip while maintaining ankle contact with your primary hand. Thread your attacking arm under the Achilles tendon with wrist blade positioned against the tendon. Then release the remaining guard grip to complete the figure-four by clasping over your own wrist. This sequential release ensures you never lose all contact with the ankle during transition, preventing the opponent from retracting their foot during the brief grip change window.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Maintain ankle contact throughout",
+        "distractors": {
+          "plausible": [
+            "Release ankle grip first",
+            "Switch grips all at once"
+          ],
+          "trap": [
+            "Let go fully, then re-grip"
+          ]
+        }
       }
     ],
     "clips": [
@@ -503,22 +576,62 @@
       {
         "question": "What are the earliest recognition cues that your opponent is transitioning from X-Guard sweeps to an ankle lock attempt?",
         "answer": "The earliest cues are the attacker releasing their upper body grips to reach for your ankle with both hands, their hips rotating to face your trapped leg rather than staying angled for sweeps, increased isolation of your foot as hook configuration shifts from elevation-based mechanics to clamping Ashi Garami control, and their chest driving toward your ankle rather than maintaining upward sweep pressure. Recognizing these cues provides a two-to-three second window to extract your foot before the figure-four grip is secured.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hands release, hips face your leg",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in sweep pressure",
+            "Grip changes on your collar"
+          ],
+          "trap": [
+            "Ignore it, sweeps are the threat"
+          ]
+        }
       },
       {
         "question": "The attacker has already secured a figure-four grip on your ankle — what is your best defensive sequence?",
         "answer": "Begin boot defense by pointing your toes and flexing your foot to create space between the Achilles tendon and the attacker's wrist blade. Simultaneously rotate your knee inward toward the attacker to reduce ankle extension leverage. With your free leg, post on the attacker's hip or bicep to create a frame preventing them from achieving full hip extension. If these defenses stall the submission, work to strip the figure-four grip by inserting your free hand between their clasped hands and peeling the top hand away. Throughout this sequence remain ready to tap immediately if pressure becomes dangerous to your ankle or Achilles tendon.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Point toes, frame, strip grip",
+        "distractors": {
+          "plausible": [
+            "Pull knee away and kick free",
+            "Grab their far leg to counter"
+          ],
+          "trap": [
+            "Yank foot back hard to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent is attempting the ankle lock but has not yet achieved perpendicular body alignment — how do you exploit this positioning error?",
         "answer": "When the attacker lacks perpendicular alignment, their hip extension produces significantly less mechanical advantage for the finish. Immediately step your free leg over their body toward the side they should be angling to, which both disrupts their angle creation and initiates a guard pass. Simultaneously drive your trapped knee toward them to reduce distance and collapse their submission structure. This counter-offensive approach is more effective than passive grip fighting because it forces the attacker to abandon the submission to defend against the pass rather than simply adjusting their angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Step over, drive knee in to pass",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fix angle",
+            "Pull knee back to create space"
+          ],
+          "trap": [
+            "Grip fight the figure-four"
+          ]
+        }
       },
       {
         "question": "Why is it critical to address the ankle lock attempt immediately rather than waiting to assess the threat level?",
         "answer": "The ankle lock from X-Guard is a gateway submission — even if the initial lock lacks sufficient tightness to finish, the attacker's grip and leg configuration naturally transition into Ashi Garami positions where heel hooks, toe holds, and kneebars become available. Passive waiting allows the attacker to incrementally improve position quality. Additionally, the straight ankle lock can finish suddenly when the attacker adjusts their angle or hip extension, and Achilles tendon injuries can occur with surprisingly little additional force once the joint is loaded. Immediate defensive action while the submission is still developing provides the highest probability of complete escape.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Gateway to heel hooks, toe holds",
+        "distractors": {
+          "plausible": [
+            "Only dangerous once fully locked",
+            "Low injury risk, so no rush"
+          ],
+          "trap": [
+            "Wait and assess before reacting"
+          ]
+        }
       }
     ],
     "training_progressions": [

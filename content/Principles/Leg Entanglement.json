@@ -376,43 +376,143 @@
   "flashcards": [
     {
       "question": "What distinguishes a leg entanglement from an individual leg lock technique?",
-      "answer": "A leg entanglement is the positional framework—the configuration of legs, hips, and connection points that controls a limb—whereas a leg lock is the finishing submission applied from within that established position."
+      "answer": "A leg entanglement is the positional framework—the configuration of legs, hips, and connection points that controls a limb—whereas a leg lock is the finishing submission applied from within that established position.",
+      "answer_line": "Framework vs the finishing move",
+      "distractors": {
+        "plausible": [
+          "Same thing, different names",
+          "Entanglement is the submission"
+        ],
+        "trap": [
+          "Only leg locks need entanglement"
+        ]
+      }
     },
     {
       "question": "Why is inside position so valuable within the leg entanglement hierarchy?",
-      "answer": "Inside position places your legs closer to the opponent's centerline than theirs, granting superior mechanical control, harder-to-defend angles, and direct access to high-percentage configurations like inside sankaku and the saddle."
+      "answer": "Inside position places your legs closer to the opponent's centerline than theirs, granting superior mechanical control, harder-to-defend angles, and direct access to high-percentage configurations like inside sankaku and the saddle.",
+      "answer_line": "Closer to opponent's centerline",
+      "distractors": {
+        "plausible": [
+          "Frees your hands for grips",
+          "Gives you an outside angle"
+        ],
+        "trap": [
+          "Lets you ignore heel exposure"
+        ]
+      }
     },
     {
       "question": "What does 'heel exposure' mean and why does it matter?",
-      "answer": "Heel exposure is controlling and surfacing the opponent's heel rather than letting them hide it behind their hip or knee line; without exposure even a dominant entanglement produces no finishing threat for heel hooks."
+      "answer": "Heel exposure is controlling and surfacing the opponent's heel rather than letting them hide it behind their hip or knee line; without exposure even a dominant entanglement produces no finishing threat for heel hooks.",
+      "answer_line": "Surface the heel, don't hide it",
+      "distractors": {
+        "plausible": [
+          "Trapping the foot flat",
+          "Controlling the ankle line"
+        ],
+        "trap": [
+          "Let them hide heel, still safe"
+        ]
+      }
     },
     {
       "question": "How should you respond when an opponent begins defending your entanglement?",
-      "answer": "Read their specific escape—leg extraction, rotation, or framing—and transition to a configuration that counters it, using their defensive energy to advance the hierarchy rather than fighting to hold an inferior position."
+      "answer": "Read their specific escape—leg extraction, rotation, or framing—and transition to a configuration that counters it, using their defensive energy to advance the hierarchy rather than fighting to hold an inferior position.",
+      "answer_line": "Flow to the counter position",
+      "distractors": {
+        "plausible": [
+          "Squeeze harder to hold it",
+          "Reset to neutral and restart"
+        ],
+        "trap": [
+          "Chase the submission immediately"
+        ]
+      }
     },
     {
       "question": "What common error lets opponents escape despite having their leg controlled?",
-      "answer": "Neglecting upper-body integration; without grips, frames, or pins addressing the upper body, opponents use their hands and posture to free themselves even while a leg remains entangled."
+      "answer": "Neglecting upper-body integration; without grips, frames, or pins addressing the upper body, opponents use their hands and posture to free themselves even while a leg remains entangled.",
+      "answer_line": "Ignoring upper-body control",
+      "distractors": {
+        "plausible": [
+          "Losing grip on the foot",
+          "Wrong angle on the hips"
+        ],
+        "trap": [
+          "Releasing the leg to reset grips"
+        ]
+      }
     },
     {
       "question": "Why is relying on strength rather than structure a problem in leg entanglements?",
-      "answer": "Muscular control fatigues quickly and creates openings for explosive escapes; effective entanglement uses hip alignment, leg positioning, and connection points so control persists with minimal effort against skilled opponents."
+      "answer": "Muscular control fatigues quickly and creates openings for explosive escapes; effective entanglement uses hip alignment, leg positioning, and connection points so control persists with minimal effort against skilled opponents.",
+      "answer_line": "Strength fatigues, structure lasts",
+      "distractors": {
+        "plausible": [
+          "Structure is slower to set up",
+          "Strength works better at speed"
+        ],
+        "trap": [
+          "Muscle through every defense"
+        ]
+      }
     },
     {
       "question": "What is a counter-entanglement threat and how do you avoid it?",
-      "answer": "It is when your attacking leg becomes entangled in return, creating symmetrical or losing positions like 50-50; avoid it through distance management, careful leg positioning, and awareness of your own exposure while attacking."
+      "answer": "It is when your attacking leg becomes entangled in return, creating symmetrical or losing positions like 50-50; avoid it through distance management, careful leg positioning, and awareness of your own exposure while attacking.",
+      "answer_line": "Getting caught back, like 50-50",
+      "distractors": {
+        "plausible": [
+          "Only a risk for beginners",
+          "Happens only in outside ashi"
+        ],
+        "trap": [
+          "Jam legs deeper to avoid it"
+        ]
+      }
     },
     {
       "question": "Which positions commonly serve as entry points into the leg entanglement system?",
-      "answer": "Outside ashi-garami is the foundational entry, while guards such as K-guard, single-leg X, and de la riva—plus passing situations and scrambles—all feed into deeper entanglements like the saddle and 50-50."
+      "answer": "Outside ashi-garami is the foundational entry, while guards such as K-guard, single-leg X, and de la riva—plus passing situations and scrambles—all feed into deeper entanglements like the saddle and 50-50.",
+      "answer_line": "Outside ashi-garami is the base",
+      "distractors": {
+        "plausible": [
+          "Only takedowns create entries",
+          "Straight from mount or back"
+        ],
+        "trap": [
+          "Standing leg kicks set it up"
+        ]
+      }
     },
     {
       "question": "Why should positional control precede submission attempts in leg entanglements?",
-      "answer": "Chasing the finish before securing position lets opponents escape entirely, surrendering the position and often the resulting scramble; building control first lets you layer submission threats from a stable base."
+      "answer": "Chasing the finish before securing position lets opponents escape entirely, surrendering the position and often the resulting scramble; building control first lets you layer submission threats from a stable base.",
+      "answer_line": "Secure position before attacking",
+      "distractors": {
+        "plausible": [
+          "Speed matters more than control",
+          "Submit fast before they adjust"
+        ],
+        "trap": [
+          "Abandon position to force the tap"
+        ]
+      }
     },
     {
       "question": "What recognition skill is essential from the defensive side of a leg entanglement?",
-      "answer": "Identifying which entanglement you are caught in and its threat level early—before full control and heel exposure are established—so you can execute the appropriate escape while time and space still exist."
+      "answer": "Identifying which entanglement you are caught in and its threat level early—before full control and heel exposure are established—so you can execute the appropriate escape while time and space still exist.",
+      "answer_line": "ID the entanglement early",
+      "distractors": {
+        "plausible": [
+          "Wait for the heel hook to lock",
+          "Focus only on hand fighting"
+        ],
+        "trap": [
+          "Stay still to avoid deeper trouble"
+        ]
+      }
     }
   ],
   "clips": [

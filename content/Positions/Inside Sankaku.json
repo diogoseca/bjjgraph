@@ -100,15 +100,45 @@
     "flashcards": [
       {
         "question": "Your opponent starts pumping their hips backward to create space - what adjustment do you make to maintain control?",
-        "answer": "Follow their hip movement by driving your own hips forward while maintaining the figure-four leg configuration. Use your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing them from extracting the trapped leg. The key is anticipating the movement and matching their hip escape with your own forward pressure."
+        "answer": "Follow their hip movement by driving your own hips forward while maintaining the figure-four leg configuration. Use your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing them from extracting the trapped leg. The key is anticipating the movement and matching their hip escape with your own forward pressure.",
+        "answer_line": "Drive hips forward, follow escape",
+        "distractors": {
+          "plausible": [
+            "Pull the trapped knee straight in",
+            "Match hips but loosen leg config"
+          ],
+          "trap": [
+            "Release legs to re-angle entry"
+          ]
+        }
       },
       {
         "question": "What are the three essential control points that must be established before attempting the inside heel hook?",
-        "answer": "The three essential control points are: (1) Hip-to-hip connection - your hips must be tight against opponent's hips to prevent escape distance, (2) Knee line control - your legs must block their ability to rotate their knee past the barrier created by your leg configuration, and (3) Proper heel exposure - the heel must be facing toward your centerline with your grip positioning established. Only when all three are secured should you commit to the submission."
+        "answer": "The three essential control points are: (1) Hip-to-hip connection - your hips must be tight against opponent's hips to prevent escape distance, (2) Knee line control - your legs must block their ability to rotate their knee past the barrier created by your leg configuration, and (3) Proper heel exposure - the heel must be facing toward your centerline with your grip positioning established. Only when all three are secured should you commit to the submission.",
+        "answer_line": "Hip connection, knee line, heel",
+        "distractors": {
+          "plausible": [
+            "Grip fight first, then hips",
+            "Knee line then submission grip"
+          ],
+          "trap": [
+            "Heel grip before hip control"
+          ]
+        }
       },
       {
         "question": "How do you shut down the primary escape when your opponent attempts to clear the knee line by rotating away?",
-        "answer": "When they rotate away attempting to clear the knee line, immediately adjust your outside leg to follow their movement and maintain the barrier. Drive your hips forward and angle slightly to cut off their rotation path. If they continue the rotation, be ready to transition to Outside Ashi-Garami where you can attack the outside heel hook instead. The rotation that clears one heel hook often exposes the other."
+        "answer": "When they rotate away attempting to clear the knee line, immediately adjust your outside leg to follow their movement and maintain the barrier. Drive your hips forward and angle slightly to cut off their rotation path. If they continue the rotation, be ready to transition to Outside Ashi-Garami where you can attack the outside heel hook instead. The rotation that clears one heel hook often exposes the other.",
+        "answer_line": "Follow rotation, drive hips forward",
+        "distractors": {
+          "plausible": [
+            "Release outside leg to re-hook",
+            "Chase heel instead of knee line"
+          ],
+          "trap": [
+            "Let rotation clear, chase submission"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control for the inside heel hook finish?",
@@ -116,19 +146,59 @@
       },
       {
         "question": "Your opponent hides their heel by pressing it against their own hip - what pressure application forces the exposure?",
-        "answer": "Apply consistent hip pressure forward while using your inside leg to elevate their knee slightly. This creates tension on their hip flexor and makes maintaining the hidden heel position exhausting. Alternatively, transition to toe hold attack which targets the foot regardless of heel hiding. The pressure forces them to choose between exhaustion defending heel exposure or accepting a different submission threat."
+        "answer": "Apply consistent hip pressure forward while using your inside leg to elevate their knee slightly. This creates tension on their hip flexor and makes maintaining the hidden heel position exhausting. Alternatively, transition to toe hold attack which targets the foot regardless of heel hiding. The pressure forces them to choose between exhaustion defending heel exposure or accepting a different submission threat.",
+        "answer_line": "Hip pressure, elevate knee, toe hold",
+        "distractors": {
+          "plausible": [
+            "Pry heel off hip with hands",
+            "Wait for them to move it"
+          ],
+          "trap": [
+            "Abandon position, chase kneebar"
+          ]
+        }
       },
       {
         "question": "What movement indicates your opponent is about to attempt a rolling escape, and how do you counter it?",
-        "answer": "The tell-tale signs are: shoulder dipping toward the mat, head turning toward their trapped leg, and hip loading to initiate the roll. Counter by immediately driving your weight down into the entanglement, pulling their trapped knee tighter to your body, and using your outside hand to post or grab their far hip to prevent the rotation. If they commit fully, follow the roll and transition to Saddle for even tighter control."
+        "answer": "The tell-tale signs are: shoulder dipping toward the mat, head turning toward their trapped leg, and hip loading to initiate the roll. Counter by immediately driving your weight down into the entanglement, pulling their trapped knee tighter to your body, and using your outside hand to post or grab their far hip to prevent the rotation. If they commit fully, follow the roll and transition to Saddle for even tighter control.",
+        "answer_line": "Weight down, follow roll to Saddle",
+        "distractors": {
+          "plausible": [
+            "Release leg, sprawl to disengage",
+            "Stop roll but don't chase saddle"
+          ],
+          "trap": [
+            "Let them roll free, reset guard"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining Inside Sankaku against an opponent who is actively defending?",
-        "answer": "Distribute weight through your hips rather than using arm strength for control. Maintain steady, consistent pressure rather than explosive movements that drain energy quickly. Let the position do the work - the mechanical advantage of the entanglement means small adjustments maintain control against larger escape efforts. Be patient and wait for them to tire from defensive efforts before committing to submission attempts."
+        "answer": "Distribute weight through your hips rather than using arm strength for control. Maintain steady, consistent pressure rather than explosive movements that drain energy quickly. Let the position do the work - the mechanical advantage of the entanglement means small adjustments maintain control against larger escape efforts. Be patient and wait for them to tire from defensive efforts before committing to submission attempts.",
+        "answer_line": "Hip pressure, patient, not arms",
+        "distractors": {
+          "plausible": [
+            "Explosive bursts to force tap",
+            "Grip strength through the hands"
+          ],
+          "trap": [
+            "Rush finish before they tire"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially extracted their leg but hasn't fully escaped - how do you recover full control?",
-        "answer": "Immediately re-engage your inside leg hook under their thigh while driving your hips forward to close the gap. Use your outside leg to recapture knee line control by pressing down on their leg above the knee. Grab their ankle with your hands to prevent further extraction while your legs reestablish the full figure-four configuration. The key is quick reaction - once they fully extract, recovery becomes exponentially harder."
+        "answer": "Immediately re-engage your inside leg hook under their thigh while driving your hips forward to close the gap. Use your outside leg to recapture knee line control by pressing down on their leg above the knee. Grab their ankle with your hands to prevent further extraction while your legs reestablish the full figure-four configuration. The key is quick reaction - once they fully extract, recovery becomes exponentially harder.",
+        "answer_line": "Re-hook leg, recapture knee line",
+        "distractors": {
+          "plausible": [
+            "Wait for full escape then reset",
+            "Grab ankle only, ignore knee line"
+          ],
+          "trap": [
+            "Chase heel grip, ignore leg recovery"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -499,35 +569,115 @@
     "flashcards": [
       {
         "question": "Your opponent has established Inside Sankaku and is reaching for your heel - what is your immediate defensive priority?",
-        "answer": "Immediately hide your heel by pressing it tightly against your own hip, turning your toes inward and your knee outward to create maximum protection. Your hand closest to the trapped leg should reach down to grab your own foot or ankle to assist in keeping the heel hidden. This buys time to address the positional aspects of the escape and prevents the submission from being locked before you can create space."
+        "answer": "Immediately hide your heel by pressing it tightly against your own hip, turning your toes inward and your knee outward to create maximum protection. Your hand closest to the trapped leg should reach down to grab your own foot or ankle to assist in keeping the heel hidden. This buys time to address the positional aspects of the escape and prevents the submission from being locked before you can create space.",
+        "answer_line": "Hide heel against your own hip",
+        "distractors": {
+          "plausible": [
+            "Point toes out to twist free",
+            "Grab their wrist to block grip"
+          ],
+          "trap": [
+            "Expose heel to kick free"
+          ]
+        }
       },
       {
         "question": "What body positioning mistake most commonly leads to transitioning from Inside Sankaku into an even worse position like Saddle?",
-        "answer": "The most common mistake is turning into the opponent attempting to pass the knee line. When you rotate toward them, you actually assist their entry into the Saddle by bringing your second leg into the entanglement. The correct escape direction is always away from the opponent - create distance by moving your hips backward and away, not through them. This fundamental directional error accounts for most Saddle transitions from Inside Sankaku."
+        "answer": "The most common mistake is turning into the opponent attempting to pass the knee line. When you rotate toward them, you actually assist their entry into the Saddle by bringing your second leg into the entanglement. The correct escape direction is always away from the opponent - create distance by moving your hips backward and away, not through them. This fundamental directional error accounts for most Saddle transitions from Inside Sankaku.",
+        "answer_line": "Turning in feeds the Saddle entry",
+        "distractors": {
+          "plausible": [
+            "Pulling knee up aids their control",
+            "Posting hands instead of hips"
+          ],
+          "trap": [
+            "Turn in to clear the knee line"
+          ]
+        }
       },
       {
         "question": "How do you know when to tap versus when escape is still possible in Inside Sankaku?",
-        "answer": "Tap immediately when: (1) opponent has secured a firm two-on-one grip on your heel with their wrist blade positioned against the Achilles, (2) you feel rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. If your heel is still hidden, they don't have grip control, or you can still rotate your foot, escape is possible. The inside heel hook can cause career-ending injury in milliseconds once locked - there is no time to assess mid-submission."
+        "answer": "Tap immediately when: (1) opponent has secured a firm two-on-one grip on your heel with their wrist blade positioned against the Achilles, (2) you feel rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. If your heel is still hidden, they don't have grip control, or you can still rotate your foot, escape is possible. The inside heel hook can cause career-ending injury in milliseconds once locked - there is no time to assess mid-submission.",
+        "answer_line": "Tap: blade grip + rotation begins",
+        "distractors": {
+          "plausible": [
+            "Tap the moment they touch your foot",
+            "Wait for pain before tapping"
+          ],
+          "trap": [
+            "Keep fighting once rotation starts"
+          ]
+        }
       },
       {
         "question": "Your opponent momentarily loses hip connection while adjusting their grip - what escape opportunity does this create?",
-        "answer": "The loss of hip connection is your primary escape window. Immediately pump your hips backward to extend the distance, using your free leg to push off their hip or the mat. As you create space, begin extracting your trapped leg by pulling your knee toward your chest while your hips move away. Your goal is to create enough distance that their leg configuration can no longer maintain the figure-four around your leg. Speed is critical - this window closes quickly."
+        "answer": "The loss of hip connection is your primary escape window. Immediately pump your hips backward to extend the distance, using your free leg to push off their hip or the mat. As you create space, begin extracting your trapped leg by pulling your knee toward your chest while your hips move away. Your goal is to create enough distance that their leg configuration can no longer maintain the figure-four around your leg. Speed is critical - this window closes quickly.",
+        "answer_line": "Pump hips back, extract knee",
+        "distractors": {
+          "plausible": [
+            "Push forward to reset base",
+            "Grab their hip to stay close"
+          ],
+          "trap": [
+            "Turn into them to create space"
+          ]
+        }
       },
       {
         "question": "What are the essential grips or frames you need to establish for a successful hip escape from Inside Sankaku?",
-        "answer": "Establish frames using: (1) your near-side hand controlling their knee or leg to prevent them from following your hip movement, (2) your far-side hand either posting on the mat for hip mobility or reaching down to assist heel protection, and (3) your free leg positioned to push off their hip, the mat, or to hook their leg for counter-leverage. The frames create the structural support needed to generate hip escape power while maintaining heel protection."
+        "answer": "Establish frames using: (1) your near-side hand controlling their knee or leg to prevent them from following your hip movement, (2) your far-side hand either posting on the mat for hip mobility or reaching down to assist heel protection, and (3) your free leg positioned to push off their hip, the mat, or to hook their leg for counter-leverage. The frames create the structural support needed to generate hip escape power while maintaining heel protection.",
+        "answer_line": "Near hand knee, far hand post/heel",
+        "distractors": {
+          "plausible": [
+            "Both hands protect heel only",
+            "Push with free leg, ignore hands"
+          ],
+          "trap": [
+            "Grip their far leg, abandon frames"
+          ]
+        }
       },
       {
         "question": "If a Granby roll escape attempt fails and you end up in Turtle, what position are you likely transitioning to?",
-        "answer": "A failed Granby roll from Inside Sankaku typically transitions you to Turtle position with your opponent in a seated or kneeling position behind you, still potentially controlling your trapped leg. From here, you've escaped the immediate heel hook danger but face back exposure threats. The opponent may pursue back control or attempt to re-enter leg entanglements. Protect your neck and establish defensive grips to prevent seatbelt control while you work to recompose to guard."
+        "answer": "A failed Granby roll from Inside Sankaku typically transitions you to Turtle position with your opponent in a seated or kneeling position behind you, still potentially controlling your trapped leg. From here, you've escaped the immediate heel hook danger but face back exposure threats. The opponent may pursue back control or attempt to re-enter leg entanglements. Protect your neck and establish defensive grips to prevent seatbelt control while you work to recompose to guard.",
+        "answer_line": "Turtle, opponent behind you",
+        "distractors": {
+          "plausible": [
+            "Back to guard, leg still trapped",
+            "Scramble to top position"
+          ],
+          "trap": [
+            "Turn to face them immediately"
+          ]
+        }
       },
       {
         "question": "When is attempting a counter leg attack a viable strategy from Inside Sankaku bottom?",
-        "answer": "Counter leg attacks are viable when: (1) the opponent is focused on submission grips rather than positional control, creating upper body openings, (2) you can reach their free leg or expose their heel without worsening your heel exposure, or (3) you can transition to 50-50 guard where the entanglement becomes symmetrical. This is generally a last-resort strategy for experienced practitioners - prioritize escape over counter-attack unless escape has failed repeatedly and you have clear access to their leg."
+        "answer": "Counter leg attacks are viable when: (1) the opponent is focused on submission grips rather than positional control, creating upper body openings, (2) you can reach their free leg or expose their heel without worsening your heel exposure, or (3) you can transition to 50-50 guard where the entanglement becomes symmetrical. This is generally a last-resort strategy for experienced practitioners - prioritize escape over counter-attack unless escape has failed repeatedly and you have clear access to their leg.",
+        "answer_line": "Their grip focus opens your leg",
+        "distractors": {
+          "plausible": [
+            "Anytime escape feels difficult",
+            "Only after escaping heel danger"
+          ],
+          "trap": [
+            "Attack instead of defending heel"
+          ]
+        }
       },
       {
         "question": "How do you manage defensive energy expenditure when trapped in Inside Sankaku against a patient opponent?",
-        "answer": "Avoid constant explosive escape attempts that drain energy quickly. Instead, protect your heel using positional defense (hiding heel against hip) which requires minimal energy. Wait for the opponent to create escape windows through their own movements rather than forcing opportunities. When they adjust grips or position, use that moment for controlled technical escapes. Frantic struggling accelerates exhaustion and increases injury risk - systematic defense with patient timing is more sustainable."
+        "answer": "Avoid constant explosive escape attempts that drain energy quickly. Instead, protect your heel using positional defense (hiding heel against hip) which requires minimal energy. Wait for the opponent to create escape windows through their own movements rather than forcing opportunities. When they adjust grips or position, use that moment for controlled technical escapes. Frantic struggling accelerates exhaustion and increases injury risk - systematic defense with patient timing is more sustainable.",
+        "answer_line": "Hide heel, wait for their openings",
+        "distractors": {
+          "plausible": [
+            "Constant explosive escape attempts",
+            "Match their patience with grips"
+          ],
+          "trap": [
+            "Frantic struggle to force escape"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -790,35 +940,115 @@
   "flashcards_position": [
     {
       "question": "What leg configuration defines the Inside Sankaku entanglement and distinguishes it from other ashi-garami variations?",
-      "answer": "Inside Sankaku is a figure-four of the entangling legs wrapping the opponent's trapped leg, with the outside leg crossed over the inside leg to lock the triangle at the knee joint. The trapped leg is isolated at the knee while the inside leg hooks under the thigh to hold the structure. The defining feature is that the entanglement rotates the opponent's leg so the heel points inward toward the centerline, which is what makes it an inside heel hook position rather than an outside one. That inward heel orientation is the single most important structural difference from Outside Ashi-Garami, which exposes the outside of the heel instead."
+      "answer": "Inside Sankaku is a figure-four of the entangling legs wrapping the opponent's trapped leg, with the outside leg crossed over the inside leg to lock the triangle at the knee joint. The trapped leg is isolated at the knee while the inside leg hooks under the thigh to hold the structure. The defining feature is that the entanglement rotates the opponent's leg so the heel points inward toward the centerline, which is what makes it an inside heel hook position rather than an outside one. That inward heel orientation is the single most important structural difference from Outside Ashi-Garami, which exposes the outside of the heel instead.",
+      "answer_line": "Figure-four, heel points inward",
+      "distractors": {
+        "plausible": [
+          "Figure-four, heel points outward",
+          "Single hook, no crossed legs"
+        ],
+        "trap": [
+          "Outside leg exposes far heel"
+        ]
+      }
     },
     {
       "question": "Why is control of the knee line considered the pivotal battleground for both players in Inside Sankaku?",
-      "answer": "The knee line is the boundary that determines whether the entangling player retains rotational control or the trapped player can spin free. As long as the crossed legs stay above and across the opponent's knee, the trapped leg cannot rotate to clear the inside heel exposure. If the trapped leg's knee gets past that barrier, the heel hook angle is neutralized and escape or counter paths open. Both players therefore orient their entire effort around this line: one fights to hold it, the other fights to cross it, which makes it the true fulcrum of the position rather than the heel itself."
+      "answer": "The knee line is the boundary that determines whether the entangling player retains rotational control or the trapped player can spin free. As long as the crossed legs stay above and across the opponent's knee, the trapped leg cannot rotate to clear the inside heel exposure. If the trapped leg's knee gets past that barrier, the heel hook angle is neutralized and escape or counter paths open. Both players therefore orient their entire effort around this line: one fights to hold it, the other fights to cross it, which makes it the true fulcrum of the position rather than the heel itself.",
+      "answer_line": "Line between rotation and escape",
+      "distractors": {
+        "plausible": [
+          "Hip connection is the real fulcrum",
+          "Heel grip is the true battleground"
+        ],
+        "trap": [
+          "Knee line barely matters here"
+        ]
+      }
     },
     {
       "question": "How does hip-to-hip connection function as the primary control mechanism shared across this entanglement?",
-      "answer": "Tight hip-to-hip connection eliminates the distance the trapped leg needs to be extracted, so the closer the two sets of hips stay, the more locked the figure-four remains. When space opens between the hips, the leg can slide out and the entanglement collapses regardless of how the feet are configured. This is why control here is driven through the hips rather than through grip strength or the hands. The dynamic is mutual and directional: the entangling player constantly closes distance forward while the trapped player's only escape currency is generating hip space backward and away."
+      "answer": "Tight hip-to-hip connection eliminates the distance the trapped leg needs to be extracted, so the closer the two sets of hips stay, the more locked the figure-four remains. When space opens between the hips, the leg can slide out and the entanglement collapses regardless of how the feet are configured. This is why control here is driven through the hips rather than through grip strength or the hands. The dynamic is mutual and directional: the entangling player constantly closes distance forward while the trapped player's only escape currency is generating hip space backward and away.",
+      "answer_line": "Closes distance, locks figure-four",
+      "distractors": {
+        "plausible": [
+          "Only matters for the top player",
+          "Grip strength substitutes for hips"
+        ],
+        "trap": [
+          "Space hips apart for base"
+        ]
+      }
     },
     {
       "question": "What makes Inside Sankaku a mutually engaged position rather than a one-sided control like mount or side control?",
-      "answer": "Both players have their legs committed into the entanglement, so neither is purely dominant the way a pin frees the top player's limbs. One player owns the superior mechanical angle on the inside heel, but their own legs are simultaneously occupied and potentially exposed to counter-entanglement. This shared commitment means the position is defined by relative control quality rather than absolute dominance, and small positional shifts can swing the advantage. That mutual exposure is precisely why leg-lock exchanges from here often become races to establish a finishing angle before the opponent counters."
+      "answer": "Both players have their legs committed into the entanglement, so neither is purely dominant the way a pin frees the top player's limbs. One player owns the superior mechanical angle on the inside heel, but their own legs are simultaneously occupied and potentially exposed to counter-entanglement. This shared commitment means the position is defined by relative control quality rather than absolute dominance, and small positional shifts can swing the advantage. That mutual exposure is precisely why leg-lock exchanges from here often become races to establish a finishing angle before the opponent counters.",
+      "answer_line": "Both legs committed, no pure pin",
+      "distractors": {
+        "plausible": [
+          "Top player is fully dominant",
+          "Only bottom player is exposed"
+        ],
+        "trap": [
+          "Free your hands, ignore legs"
+        ]
+      }
     },
     {
       "question": "How does Inside Sankaku differ from the Saddle despite both being inside-heel-hook entanglements?",
-      "answer": "In the Saddle the entangling player sits between the opponent's legs with both legs effectively managed, giving a lower, more stable base and heavier hip control. Inside Sankaku instead isolates a single leg in the figure-four with a more elevated posture that relies on the knee-line pinch to hold rotation. The Saddle generally offers greater positional security while Inside Sankaku offers a sharper, more immediate finishing angle on the exposed inside heel. The two are close neighbors, which is why a small shift in how many legs are trapped can convert one into the other."
+      "answer": "In the Saddle the entangling player sits between the opponent's legs with both legs effectively managed, giving a lower, more stable base and heavier hip control. Inside Sankaku instead isolates a single leg in the figure-four with a more elevated posture that relies on the knee-line pinch to hold rotation. The Saddle generally offers greater positional security while Inside Sankaku offers a sharper, more immediate finishing angle on the exposed inside heel. The two are close neighbors, which is why a small shift in how many legs are trapped can convert one into the other.",
+      "answer_line": "Saddle stabler, Sankaku sharper",
+      "distractors": {
+        "plausible": [
+          "Saddle and Sankaku are identical",
+          "Sankaku traps both legs like Saddle"
+        ],
+        "trap": [
+          "Sankaku is always more secure"
+        ]
+      }
     },
     {
       "question": "Why does turning toward the entangling player to clear the knee line geometrically worsen the trapped player's situation?",
-      "answer": "Rotating inward brings the second leg toward the entanglement and shortens the distance needed to consolidate control, effectively feeding the figure-four rather than breaking it. That rotational direction assists an entry into the Saddle or deepens the inside heel exposure instead of relieving it. The mechanically correct escape vector is away from the opponent, opening hip space rather than closing it. This role-agnostic geometry is what makes the position so punishing: the intuitive panic movement of turning in is the same movement that tightens the trap."
+      "answer": "Rotating inward brings the second leg toward the entanglement and shortens the distance needed to consolidate control, effectively feeding the figure-four rather than breaking it. That rotational direction assists an entry into the Saddle or deepens the inside heel exposure instead of relieving it. The mechanically correct escape vector is away from the opponent, opening hip space rather than closing it. This role-agnostic geometry is what makes the position so punishing: the intuitive panic movement of turning in is the same movement that tightens the trap.",
+      "answer_line": "Turning in feeds second leg in",
+      "distractors": {
+        "plausible": [
+          "Turning in creates hip space",
+          "Direction doesn't matter, escape"
+        ],
+        "trap": [
+          "Rotate toward them to clear knee"
+        ]
+      }
     },
     {
       "question": "What role does the inward heel orientation play in dictating which submissions live in this position?",
-      "answer": "Because the figure-four rotates the trapped leg so the heel faces the centerline, the inside heel hook becomes the highest-percentage finish, since the heel can be rotated laterally against the knee's natural range. That same orientation keeps the toe and foot accessible for a toe hold when the heel is hidden, and the isolated knee makes the kneebar a secondary threat. The position's entire submission menu is therefore a consequence of how the entanglement orients the lower leg. Recognizing that the heel points inward is what tells either player which attacks are live and which defenses matter."
+      "answer": "Because the figure-four rotates the trapped leg so the heel faces the centerline, the inside heel hook becomes the highest-percentage finish, since the heel can be rotated laterally against the knee's natural range. That same orientation keeps the toe and foot accessible for a toe hold when the heel is hidden, and the isolated knee makes the kneebar a secondary threat. The position's entire submission menu is therefore a consequence of how the entanglement orients the lower leg. Recognizing that the heel points inward is what tells either player which attacks are live and which defenses matter.",
+      "answer_line": "Inside heel hook is primary threat",
+      "distractors": {
+        "plausible": [
+          "Outside heel hook is primary threat",
+          "Armbar becomes the main threat"
+        ],
+        "trap": [
+          "Heel direction is irrelevant here"
+        ]
+      }
     },
     {
       "question": "Why is weight distributed through the hips rather than the hands the sustainable way to hold Inside Sankaku?",
-      "answer": "Posting or gripping with the hands to maintain the entanglement burns forearm and arm endurance quickly and leaves the position vulnerable the moment those muscles fatigue. Driving control through the hips lets the skeletal structure and the mechanical advantage of the figure-four do the work, so small hip adjustments defeat larger escape efforts. This also keeps the hands free to fight for submission grips or defend counters rather than being spent on positional maintenance. The principle cuts both ways: whoever relies on strength rather than structure and hip pressure is the one who tires first and loses the exchange."
+      "answer": "Posting or gripping with the hands to maintain the entanglement burns forearm and arm endurance quickly and leaves the position vulnerable the moment those muscles fatigue. Driving control through the hips lets the skeletal structure and the mechanical advantage of the figure-four do the work, so small hip adjustments defeat larger escape efforts. This also keeps the hands free to fight for submission grips or defend counters rather than being spent on positional maintenance. The principle cuts both ways: whoever relies on strength rather than structure and hip pressure is the one who tires first and loses the exchange.",
+      "answer_line": "Weight through hips, not hands",
+      "distractors": {
+        "plausible": [
+          "Grip strength holds the position",
+          "Posting hands frees the hips"
+        ],
+        "trap": [
+          "Grind with forearms for control"
+        ]
+      }
     }
   ],
   "clips": [

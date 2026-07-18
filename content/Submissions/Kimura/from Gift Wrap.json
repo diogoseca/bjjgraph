@@ -281,13 +281,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "The Kimura primarily attacks the elbow joint, hyperextending it like an armbar as the arm is levered behind the back.",
-            "The Kimura mainly targets the wrist and forearm, twisting them past their range until the pain forces the tap."
+            "Elbow, hyperextension force",
+            "Wrist, torsion pressure"
           ],
           "trap": [
-            "The Kimura attacks the neck and shoulder together, so crank the arm up toward the opponent's head for the fastest tap."
+            "Neck, cervical compression"
           ]
-        }
+        },
+        "answer_line": "Shoulder, forced internal rotation"
       },
       {
         "question": "What is the critical vulnerability window during the Gift Wrap to Kimura transition?",
@@ -297,12 +298,32 @@
       {
         "question": "Why must you shift your hips to the Kimura side before applying the finish?",
         "answer": "Hip positioning creates the rotational leverage angle necessary for an effective shoulder lock. From directly behind the opponent, the Kimura rotation arc is too flat to generate sufficient torque on the shoulder joint. Shifting to the Kimura side creates a perpendicular angle between your body and their arm, allowing proper paint-brush rotation that loads the rotator cuff effectively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shift hips to the Kimura side",
+        "distractors": {
+          "plausible": [
+            "Stay square behind the opponent",
+            "Shift hips away from the arm"
+          ],
+          "trap": [
+            "Release hooks to shift hips"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own shorts to anchor against the Kimura rotation - how do you break this defense?",
         "answer": "Drive their elbow upward first to change the angle and reduce their grip strength, then resume rotational pressure. You can also use your legs and body weight to create additional hip pressure that overwhelms the grip anchor. If the grip holds, transition to an alternative attack like the rear naked choke while their hand is occupied with anchoring rather than defending the neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Drive elbow up, break the angle",
+        "distractors": {
+          "plausible": [
+            "Pull straight back harder",
+            "Switch to armbar immediately"
+          ],
+          "trap": [
+            "Release grip and re-shoot Kimura"
+          ]
+        }
       },
       {
         "question": "What indicators show you have reached the point of no escape for the defender?",
@@ -310,28 +331,59 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "The point of no escape is reached as soon as the figure-four grip is secured, before any rotational pressure is applied.",
-            "You have passed the point of no escape once the wrist is controlled, even if the elbow drifts away from the body."
+            "Opponent simply stops struggling",
+            "Arm rotated past 90 degrees"
           ],
           "trap": [
-            "Once the defender grabs their own belt or thigh, crank hard through the defensive grip to force the point of no escape."
+            "Hooks in, back control secured"
           ]
-        }
+        },
+        "answer_line": "Figure-four locked, elbow pinned"
       },
       {
         "question": "How should you adjust your grip if the opponent's arm is slippery from sweat in no-gi?",
         "answer": "Grip the wrist bone rather than the forearm to maximize purchase on the narrowest point. Squeeze your figure-four elbows together to create a tighter cage around their arm that relies less on friction. Use your chest pressure against their back to compress their arm into your grip, and wipe your hands on your shorts between attempts if necessary to restore grip reliability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip wrist bone, squeeze elbows",
+        "distractors": {
+          "plausible": [
+            "Grip higher up on the bicep",
+            "Grip forearm, widen the elbows"
+          ],
+          "trap": [
+            "Switch to a gi-style grip"
+          ]
+        }
       },
       {
         "question": "What is the correct application speed for the Kimura in training and why does it matter?",
         "answer": "In training, the Kimura should be applied over 3-5 seconds of smooth progressive rotation. This slow application gives your partner adequate time to recognize the submission danger and tap before injury occurs. The shoulder joint can sustain permanent damage from sudden rotational force, including rotator cuff tears and labral damage that may require months of recovery and potential surgery.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Smooth rotation over 3-5 seconds",
+        "distractors": {
+          "plausible": [
+            "Fast but controlled, one second",
+            "Hold static, wait for the tap"
+          ],
+          "trap": [
+            "Explosive snap for a fast tap"
+          ]
+        }
       },
       {
         "question": "How do you use the Kimura threat to set up the rear naked choke from Gift Wrap?",
         "answer": "When you begin attacking the Kimura, the opponent instinctively uses their free arm to defend the trapped arm by reaching across to block the rotation. This defensive movement pulls their free arm away from neck protection, creating an opening for the rear naked choke. Recognizing this pattern allows you to use the Kimura as a setup: threaten the shoulder lock, wait for the defensive hand to commit, then abandon the Kimura and attack the exposed neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten Kimura, bait hand off neck",
+        "distractors": {
+          "plausible": [
+            "Finish Kimura fast, then choke",
+            "Switch grips, attack the armbar"
+          ],
+          "trap": [
+            "Release back hooks to grab neck"
+          ]
+        }
       },
       {
         "question": "What are the most common finishing errors that reduce Kimura effectiveness from Gift Wrap?",
@@ -339,18 +391,29 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The main finishing error is rotating too slowly; explosive torque finishes before the defender can recognize the crank.",
-            "The key error is angling off to the Kimura side, since staying square behind the opponent gives the strongest leverage."
+            "Rotating too slowly for effect",
+            "Squeezing too hard, too fast"
           ],
           "trap": [
-            "For maximum torque, release your back control hooks and post both legs wide on the mat before rotating the arm."
+            "Releasing hooks to rotate faster"
           ]
-        }
+        },
+        "answer_line": "Rotating without pinning the elbow"
       },
       {
         "question": "In competition, what is the risk-reward profile of the Kimura from Gift Wrap compared to other finishes?",
         "answer": "The Kimura from Gift Wrap carries the advantage of accumulated back control points before the submission attempt. If the Kimura fails and you maintain Gift Wrap, you retain those points and can re-attack immediately. The worst common outcome is returning to Gift Wrap control rather than losing position entirely. This favorable risk-reward makes it a strong competition option where controlled rotation is preferred over explosive application to maintain positional advantage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep back points if the finish fails",
+        "distractors": {
+          "plausible": [
+            "High risk, points lost on failure",
+            "Only worth it near time expiry"
+          ],
+          "trap": [
+            "Abandon back control to force it"
+          ]
+        }
       }
     ],
     "clips": [
@@ -463,27 +526,77 @@
       {
         "question": "What are the earliest recognition cues that a Kimura is being set up from Gift Wrap?",
         "answer": "The earliest cues are the attacker shifting their hips to one side rather than staying centered behind you, and their free hand reaching to establish secondary control on your trapped wrist. These preparatory movements occur before the threading arm withdraws, giving you a critical early warning window to begin defensive actions.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips shift, free hand seeks wrist",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive elbow pressure",
+            "Opponent releases the back hooks"
+          ],
+          "trap": [
+            "Wait for the figure-four to react"
+          ]
+        }
       },
       {
         "question": "When should you tap to the Kimura from Gift Wrap to prevent injury?",
         "answer": "Tap as soon as you feel rotational pressure on your shoulder that exceeds your comfortable range of motion and your defensive anchors are failing. The shoulder joint transitions rapidly from discomfort to injury under Kimura rotation, with very little warning before damage occurs. Never wait to see if you can escape once significant rotation has begun. Use any available tap signal.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Tap once rotation exceeds range",
+        "distractors": {
+          "plausible": [
+            "Tap only once it truly hurts",
+            "Wait to test an escape first"
+          ],
+          "trap": [
+            "Fight through, look for a reversal"
+          ]
+        }
       },
       {
         "question": "Why is the grip transition window the most important moment for defense?",
         "answer": "During the grip transition from Gift Wrap threading to figure-four, the attacker must release their primary control mechanism momentarily. This creates a brief window where the trapped arm has less restriction than at any other point in the sequence. Defensive actions taken during this window have the highest success rate because the attacker cannot simultaneously control the arm and complete the grip change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Attacker's control briefly relaxes",
+        "distractors": {
+          "plausible": [
+            "Attacker's grip is tightest there",
+            "Opponent's balance is compromised"
+          ],
+          "trap": [
+            "Best moment to attack their neck"
+          ]
+        }
       },
       {
         "question": "What defensive options remain after the figure-four is fully locked?",
         "answer": "Once the figure-four is locked, primary options narrow to grip anchoring by grabbing your own belt or shorts to resist rotation, rolling toward the Kimura side to disrupt the finishing angle, and bridging explosively to escape back control entirely. Straightening the arm is no longer viable and makes the submission worse. If none of these defenses work, tap before the rotation reaches dangerous levels.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Anchor grip, roll to Kimura side",
+        "distractors": {
+          "plausible": [
+            "Bridge explosively to escape",
+            "Wait for the rotation to slow"
+          ],
+          "trap": [
+            "Straighten the arm to fight grip"
+          ]
+        }
       },
       {
         "question": "How do you defend the Kimura without exposing your neck to choke attacks?",
         "answer": "Maintain awareness of neck protection even during Kimura defense. If you must commit your free arm to fighting the Kimura grip, compensate with passive neck defense by tucking your chin hard toward your chest and turning your jaw toward the shoulder on the choking side. Monitor whether the attacker is genuinely pursuing the Kimura or using it as a feint to set up the rear naked choke on your exposed neck.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Tuck chin, turn jaw to shoulder",
+        "distractors": {
+          "plausible": [
+            "Commit fully, ignore neck risk",
+            "Turn head away from choking side"
+          ],
+          "trap": [
+            "Release chin to reach the grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

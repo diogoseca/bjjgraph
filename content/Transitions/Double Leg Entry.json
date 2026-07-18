@@ -246,102 +246,168 @@
         "answer": "The sequence is setup, explosive level change, penetration step, head position, securing both legs, then continuous forward drive. In detail: 1) Create the setup opportunity through grip fighting or feints, 2) Execute an explosive level change by dropping the hips with a straight back, 3) Drive forward with a deep penetration step between the opponent's legs, 4) Establish head position on the centerline or outside while driving into the opponent's midsection, 5) Secure both legs with arms wrapped behind the knees/thighs and hands connected, 6) Maintain continuous forward drive to complete the entry position. This sequence must flow as one continuous motion with each element triggering the next.",
         "distractors": {
           "plausible": [
-            "The sequence is level change, wrap both legs, then establish head position last as you finish the drive.",
-            "Begin with the penetration step to close distance, then change levels mid-shot once you are inside their stance."
+            "Secure legs, then read the setup",
+            "Head position before level change"
           ],
           "trap": [
-            "Reach for the legs first with your head down; the arm connection pulls you into range to complete the shot."
+            "Reach for legs before dropping level"
           ]
-        }
+        },
+        "answer_line": "Drop level, penetrate, secure, drive"
       },
       {
         "question": "Why is proper head position critical during double leg entry?",
         "answer": "Proper head position prevents guillotine chokes, provides structural drive and leverage, and creates angles that weaken the sprawl. First, keeping the head up with the forehead driving into the opponent's midsection prevents guillotine choke opportunities, which occur when the head drops below the opponent's hips. Second, proper head position provides structural drive and leverage to control the opponent's upper body and maintain forward pressure. Third, positioning the head on the centerline or outside creates angles that make defensive sprawling less effective. Head position is often the difference between a successful entry and a defensive submission.",
         "distractors": {
           "plausible": [
-            "Head position mainly protects against crossface pressure; guillotine defense comes from hand fighting instead.",
-            "Head position matters mostly for balance, keeping your posture upright so you can bail out of a failed shot."
+            "Head down to power the shot",
+            "Head buried for extra leverage"
           ],
           "trap": [
-            "Tucking your head down and inside keeps your neck safe by hiding it against the opponent's body during entry."
+            "Drop head to shoot deeper"
           ]
-        }
+        },
+        "answer_line": "Forehead in belly, head up"
       },
       {
         "question": "How should you respond if opponent successfully sprawls during your double leg entry?",
         "answer": "Match your response to the control you still have: keep driving and circle, take front headlock, convert to single leg, or abandon and reset. Specifically: 1) If you still have leg control, continue driving forward and circle to the opponent's side to recover position, 2) If head position is good but the legs are withdrawn, transition to front headlock control and look for a snap down or go-behind, 3) If one leg is still available, convert to a single leg finish, 4) If the opponent has superior position, abandon the attack and work back to neutral standing or establish defensive guard. The key is recognizing early when the entry has failed and transitioning rather than committing to a lost position.",
         "distractors": {
           "plausible": [
-            "Always convert straight to a single leg, since holding one leg is easier than fighting a full sprawl for two.",
-            "Pull your head free first and back out to distance, then re-shoot the double once you reset to neutral."
+            "Pull guard immediately",
+            "Reset to standing every time"
           ],
           "trap": [
-            "Commit fully and keep driving into the sprawl until it breaks; abandoning the shot only rewards the defender."
+            "Force the double no matter what"
           ]
-        }
+        },
+        "answer_line": "Circle, headlock, single, or reset"
       },
       {
         "question": "What setup or timing creates the highest percentage double leg entry opportunity?",
         "answer": "The highest percentage entry comes when the opponent pressures or commits their weight forward, compromising their ability to sprawl. This forward commitment — usually in response to upper body attacks, grip breaks, or feints — means their weight is already moving in the direction of your attack. Other high-percentage moments include: immediately after the opponent releases a grip and their hands are out of position, when the opponent is circling toward your penetration side, after a collar tie snap that draws them forward, or when the opponent is fatigued and maintaining less defensive vigilance. The common thread is attacking when the opponent's defensive structure is temporarily compromised.",
         "distractors": {
           "plausible": [
-            "The best moment is when the opponent retreats, since their backward movement carries them away from the sprawl.",
-            "The ideal entry comes when both of you are static with grips set, so nothing can disturb your shot mechanics."
+            "Opponent squares up and loads",
+            "After a strong double grip"
           ],
           "trap": [
-            "Shoot from maximum distance with no setup, so the opponent has no grips or reads before you arrive on the legs."
+            "When opponent sits back on heels"
           ]
-        }
+        },
+        "answer_line": "Opponent commits weight forward"
       },
       {
         "question": "What is the most common error that leads to guillotine exposure during double leg entries?",
         "answer": "The most common error is dropping the head below the opponent's hips while reaching for the legs before establishing position. This creates a bent-over posture with the neck extended and exposed, allowing the opponent to easily secure a front headlock grip and lock in the guillotine. The correction is to keep the head up with eyes on the opponent's chest/hips, drive the forehead into their midsection, and ensure the level change and penetration occur before the arms reach for leg control. The head should be the first point of contact and should remain above or at the height of the opponent's hips throughout the entry.",
         "distractors": {
           "plausible": [
-            "The most common error is shooting from too far away, giving the opponent time to lock the choke as you close.",
-            "The main error is gripping the legs too low at the ankles, which lets the opponent's arms reach your neck."
+            "Penetration step too shallow",
+            "Gripping too high on thighs"
           ],
           "trap": [
-            "Drive your head low and past their hip; a deep, low head hides the neck and makes the guillotine impossible."
+            "Looking down to find the legs"
+          ]
+        },
+        "answer_line": "Dropping head below hips first"
+      },
+      {
+        "question": "How does penetration step depth affect the success of a double leg entry?",
+        "answer": "Penetration step depth is critical because it determines how much you compromise opponent's base and structure. A deep penetration step that places your lead knee between or beyond opponent's feet accomplishes several things: 1) Removes space for them to sprawl their hips backward, 2) Forces their weight onto their heels where they have poor balance, 3) Positions your hips close to theirs for maximum drive, 4) Makes it mechanically difficult for them to withdraw legs from your grip. Shallow penetration leaves space for effective sprawl defense, allows opponent to maintain balance and base, and requires you to reach for legs rather than securing them from proper position. The penetration step must be long, low, and committed - half-measures result in defensive positions.",
+        "answer_line": "Deep step kills their base",
+        "distractors": {
+          "plausible": [
+            "Step wide to flare their hips",
+            "Step short, stay upright"
+          ],
+          "trap": [
+            "Shallow step, reach with arms"
           ]
         }
       },
       {
-        "question": "How does penetration step depth affect the success of a double leg entry?",
-        "answer": "Penetration step depth is critical because it determines how much you compromise opponent's base and structure. A deep penetration step that places your lead knee between or beyond opponent's feet accomplishes several things: 1) Removes space for them to sprawl their hips backward, 2) Forces their weight onto their heels where they have poor balance, 3) Positions your hips close to theirs for maximum drive, 4) Makes it mechanically difficult for them to withdraw legs from your grip. Shallow penetration leaves space for effective sprawl defense, allows opponent to maintain balance and base, and requires you to reach for legs rather than securing them from proper position. The penetration step must be long, low, and committed - half-measures result in defensive positions."
-      },
-      {
         "question": "Your opponent posts their hand on your shoulder as you shoot - how do you adjust?",
-        "answer": "When opponent posts a hand on your shoulder during the shot, you must drive through the post rather than stopping. Lower your level further if needed and continue driving forward with maximum hip pressure. Your forehead should be making solid contact with their midsection, providing counter-pressure to their post. You can also swim your near arm inside their posting arm to clear it, or use the angle created by their post to step around to their back side. The critical error is stopping your forward momentum when you feel the post - this allows them to establish the frame and either sprawl or threaten guillotine. Maintain aggressive forward drive and the post typically collapses."
+        "answer": "When opponent posts a hand on your shoulder during the shot, you must drive through the post rather than stopping. Lower your level further if needed and continue driving forward with maximum hip pressure. Your forehead should be making solid contact with their midsection, providing counter-pressure to their post. You can also swim your near arm inside their posting arm to clear it, or use the angle created by their post to step around to their back side. The critical error is stopping your forward momentum when you feel the post - this allows them to establish the frame and either sprawl or threaten guillotine. Maintain aggressive forward drive and the post typically collapses.",
+        "answer_line": "Drive through the post",
+        "distractors": {
+          "plausible": [
+            "Stop and reset your grip",
+            "Pull back and circle away"
+          ],
+          "trap": [
+            "Stop momentum, wait for opening"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides optimal control when securing the legs during double leg entry?",
-        "answer": "The optimal grip is a gable grip (palm-to-palm, fingers interlocked or cupped) behind opponent's knees or lower thighs. This grip provides maximum pulling power while keeping your arms tight against their legs, preventing them from stepping out. Your arms should wrap completely around both legs with elbows pinched tight to your body. Avoid gripping too high on the thighs where their legs have more leverage to escape, and avoid gripping too low near ankles where you lose upper body control. The grip should pull their legs toward your chest while your head and chest maintain forward pressure. Alternative grips include S-grip or butterfly grip, but gable grip generally provides the most secure connection."
+        "answer": "The optimal grip is a gable grip (palm-to-palm, fingers interlocked or cupped) behind opponent's knees or lower thighs. This grip provides maximum pulling power while keeping your arms tight against their legs, preventing them from stepping out. Your arms should wrap completely around both legs with elbows pinched tight to your body. Avoid gripping too high on the thighs where their legs have more leverage to escape, and avoid gripping too low near ankles where you lose upper body control. The grip should pull their legs toward your chest while your head and chest maintain forward pressure. Alternative grips include S-grip or butterfly grip, but gable grip generally provides the most secure connection.",
+        "answer_line": "Gable grip behind the knees",
+        "distractors": {
+          "plausible": [
+            "Gable grip high on the thighs",
+            "S-grip low near the ankles"
+          ],
+          "trap": [
+            "Grip loose to allow repositioning"
+          ]
+        }
       },
       {
         "question": "How do you chain from a blocked double leg entry to a single leg attack?",
-        "answer": "When the double leg is blocked and you can only secure one leg, immediately commit to single leg mechanics rather than forcing the double. Release the leg you cannot control and redirect that arm to secure the captured leg more tightly. Your head position shifts to the outside of the captured leg (same side as the leg you're holding). Step your far leg up and behind you to create an angle. From here, you can finish with a variety of single leg finishes: run the pipe by circling toward opponent's back, lift and trip, or drive through to a mat return. The key is recognizing the moment when the double leg becomes a single leg and transitioning immediately rather than continuing to fight for the second leg."
+        "answer": "When the double leg is blocked and you can only secure one leg, immediately commit to single leg mechanics rather than forcing the double. Release the leg you cannot control and redirect that arm to secure the captured leg more tightly. Your head position shifts to the outside of the captured leg (same side as the leg you're holding). Step your far leg up and behind you to create an angle. From here, you can finish with a variety of single leg finishes: run the pipe by circling toward opponent's back, lift and trip, or drive through to a mat return. The key is recognizing the moment when the double leg becomes a single leg and transitioning immediately rather than continuing to fight for the second leg.",
+        "answer_line": "Release, commit to single leg",
+        "distractors": {
+          "plausible": [
+            "Keep fighting for second leg",
+            "Switch head to inside position"
+          ],
+          "trap": [
+            "Force the double leg finish"
+          ]
+        }
       },
       {
         "question": "What is the primary direction of force application during the double leg entry?",
-        "answer": "The primary direction of force is forward and slightly upward through your chest and head into opponent's center mass. Your hips drive forward and down during the penetration step, but the resultant force vector points diagonally forward-up through their midsection. This force direction lifts their weight off their heels and prevents effective sprawling. Common errors include driving only forward (allows them to base out) or driving only up (allows them to maintain their base and push down on you). The forward-upward pressure compromises their balance while your leg grip removes their ability to post or step out. Secondary forces include the pulling action of your arms drawing their legs toward your chest, which combines with the forward drive to complete the destabilization."
+        "answer": "The primary direction of force is forward and slightly upward through your chest and head into opponent's center mass. Your hips drive forward and down during the penetration step, but the resultant force vector points diagonally forward-up through their midsection. This force direction lifts their weight off their heels and prevents effective sprawling. Common errors include driving only forward (allows them to base out) or driving only up (allows them to maintain their base and push down on you). The forward-upward pressure compromises their balance while your leg grip removes their ability to post or step out. Secondary forces include the pulling action of your arms drawing their legs toward your chest, which combines with the forward drive to complete the destabilization.",
+        "answer_line": "Forward and slightly upward",
+        "distractors": {
+          "plausible": [
+            "Straight forward only",
+            "Straight up, lift with back"
+          ],
+          "trap": [
+            "Drive down into their base"
+          ]
+        }
       },
       {
         "question": "Your opponent begins circling away as you initiate the entry - how do you adapt?",
-        "answer": "When opponent circles away during your entry, you must angle your penetration step to cut off their movement rather than shooting straight forward. Adjust your lead foot placement to intercept their path of retreat, essentially shooting toward where they're moving rather than where they were. Your head position should go to the inside (toward their center) as you chase their movement. If they circle to your penetration side, this actually improves your angle - continue driving and your head naturally ends up outside their hip. If they circle away from your penetration side, you may need to switch your penetration leg mid-entry or convert to a single leg on the near leg. The key principle is that your penetration step must account for their movement vector, not just their current position."
+        "answer": "When opponent circles away during your entry, you must angle your penetration step to cut off their movement rather than shooting straight forward. Adjust your lead foot placement to intercept their path of retreat, essentially shooting toward where they're moving rather than where they were. Your head position should go to the inside (toward their center) as you chase their movement. If they circle to your penetration side, this actually improves your angle - continue driving and your head naturally ends up outside their hip. If they circle away from your penetration side, you may need to switch your penetration leg mid-entry or convert to a single leg on the near leg. The key principle is that your penetration step must account for their movement vector, not just their current position.",
+        "answer_line": "Angle step to cut off retreat",
+        "distractors": {
+          "plausible": [
+            "Shoot straight, chase angle",
+            "Switch legs after you land"
+          ],
+          "trap": [
+            "Chase straight, ignore angle"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before attempting a double leg?",
         "answer": "You need proper range, opponent's weight neutral or forward, their hands out of position, a clear penetration lane, and your own balance. In full: 1) You must be within proper range — close enough that one explosive step reaches between their feet, but not so close you telegraph the attack, 2) The opponent's weight should be neutral or forward, not sitting back on their heels ready to sprawl, 3) Their hands should be occupied or out of position, not actively framing your shoulders or head, 4) You need a clear path for your penetration step without their knee blocking the lane, 5) Your own balance and stance must allow an explosive level change without telegraphing, 6) Ideally, you've created some reaction or movement that momentarily disrupts their defensive posture. When multiple conditions align, the entry percentage increases dramatically; attempting the entry when conditions are poor leads to sprawls and guillotines.",
         "distractors": {
           "plausible": [
-            "The key condition is the opponent sitting back on their heels, since that weight placement stops them stepping into you.",
-            "Range matters most: get chest-to-chest close first so your penetration step cannot miss when you change levels."
+            "Opponent square, hands framing",
+            "Any range, just explode in"
           ],
           "trap": [
-            "Shoot the moment their hands touch your head; speed through their frames rather than clearing them first."
+            "Shoot when their knee blocks lane"
           ]
-        }
+        },
+        "answer_line": "Weight forward, hands clear, range"
       }
     ],
     "safety_considerations": "Double leg entries carry inherent risks that must be managed through proper technique and training progression. The primary safety concern is guillotine choke exposure - improper head position or premature reaching for legs creates immediate submission vulnerability. Always maintain head position awareness and drill defensive guillotine responses. During training, partners should apply guillotine pressure slowly to allow recognition and escape rather than sudden application. For the person being taken down, learning to breakfall properly is essential - landing with arms extended can cause wrist, elbow, or shoulder injuries. Practice taking the fall by turning to the side, distributing impact across back/shoulder, and keeping chin tucked. When drilling entries, the defending partner should allow controlled completion rather than explosive counter-resistance that can lead to knee injuries, muscle strains, or collision injuries. Progress resistance gradually over weeks rather than immediately applying full defensive intensity. For both practitioners, ensuring adequate mat space and awareness of walls, other students, or obstacles prevents collision injuries during dynamic takedown practice. Knee health is paramount - penetration steps place significant stress on the lead knee, so proper warm-up, gradual intensity progression, and attention to any knee pain is critical.",
@@ -465,23 +531,73 @@
     "flashcards": [
       {
         "question": "What are the earliest visual cues that indicate your opponent is about to shoot a double leg?",
-        "answer": "The earliest cues include: the opponent's eyes dropping to your hips or legs as they identify their target, a subtle shortening of their posture as the shoulders dip forward before the explosive level change, a change in grip fighting rhythm where they disengage their hands to clear a path for the shot, repositioning of their lead foot toward the centerline between your feet, and a shift of weight to their back foot as they load for the explosive forward drive. Recognizing these pre-shot indicators gives you critical fractions of a second to initiate your sprawl before their penetration step even lands."
+        "answer": "The earliest cues include: the opponent's eyes dropping to your hips or legs as they identify their target, a subtle shortening of their posture as the shoulders dip forward before the explosive level change, a change in grip fighting rhythm where they disengage their hands to clear a path for the shot, repositioning of their lead foot toward the centerline between your feet, and a shift of weight to their back foot as they load for the explosive forward drive. Recognizing these pre-shot indicators gives you critical fractions of a second to initiate your sprawl before their penetration step even lands.",
+        "answer_line": "Eyes drop, shoulders dip, feet load",
+        "distractors": {
+          "plausible": [
+            "Hands come up to frame",
+            "Stance widens defensively"
+          ],
+          "trap": [
+            "Wait for the level change to start"
+          ]
+        }
       },
       {
         "question": "Why is the sprawl more effective than stepping backward against a double leg entry?",
-        "answer": "The sprawl is more effective because it removes your legs from the attacker's reach by driving them behind you while simultaneously placing your weight on the attacker's head and upper back, killing their forward momentum. Stepping backward maintains the same relative distance between you and the attacker - every step you take back, they match with a step forward, and eventually you run out of space or lose balance. The sprawl changes the geometric relationship entirely by dropping your hips below their grasp level while your upper body weight creates downward pressure that prevents them from continuing their drive. It converts their horizontal force into a vertical problem they cannot solve."
+        "answer": "The sprawl is more effective because it removes your legs from the attacker's reach by driving them behind you while simultaneously placing your weight on the attacker's head and upper back, killing their forward momentum. Stepping backward maintains the same relative distance between you and the attacker - every step you take back, they match with a step forward, and eventually you run out of space or lose balance. The sprawl changes the geometric relationship entirely by dropping your hips below their grasp level while your upper body weight creates downward pressure that prevents them from continuing their drive. It converts their horizontal force into a vertical problem they cannot solve.",
+        "answer_line": "Removes legs, weights their head",
+        "distractors": {
+          "plausible": [
+            "Creates more distance to react",
+            "Matches their forward pressure"
+          ],
+          "trap": [
+            "Step back to reset the distance"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured both your legs despite your sprawl attempt - what is your immediate defensive priority?",
-        "answer": "Your immediate priority is to prevent them from completing the takedown to a dominant position like side control. If their grip is on your legs, use your hands to control their head by pushing it down and to the side to deny their drive. Simultaneously, work to free one leg by limp-legging (relaxing and extracting it from their grip) while maintaining the other in a defensive position. If you cannot free your legs, transition proactively to pulling closed guard by wrapping your legs around their waist before they can dump you to the mat on your back. This converts a defensive crisis into a familiar guard position where you can work offensively. Never allow yourself to be taken down flat without establishing some form of guard retention."
+        "answer": "Your immediate priority is to prevent them from completing the takedown to a dominant position like side control. If their grip is on your legs, use your hands to control their head by pushing it down and to the side to deny their drive. Simultaneously, work to free one leg by limp-legging (relaxing and extracting it from their grip) while maintaining the other in a defensive position. If you cannot free your legs, transition proactively to pulling closed guard by wrapping your legs around their waist before they can dump you to the mat on your back. This converts a defensive crisis into a familiar guard position where you can work offensively. Never allow yourself to be taken down flat without establishing some form of guard retention.",
+        "answer_line": "Control head, free a leg, guard",
+        "distractors": {
+          "plausible": [
+            "Push their hips away first",
+            "Sit through to reverse position"
+          ],
+          "trap": [
+            "Go flat and accept the takedown"
+          ]
+        }
       },
       {
         "question": "When is the guillotine counter appropriate versus when should you stick to the sprawl?",
-        "answer": "The guillotine is appropriate when the attacker's head drops below your hips or positions inside your body line, exposing their neck. This typically happens when they have poor head position, reach for legs before completing the level change, or enter too upright and then collapse forward. Stick to the sprawl when the attacker has proper head position on the centerline or outside your hip, when their penetration is deep and committed (no time for grip setup), or when you are off-balance and need the sprawl to regain structural stability first. The decision must be instantaneous based on head position reading - attempting a guillotine against proper head position wastes critical defensive time and often results in a completed takedown."
+        "answer": "The guillotine is appropriate when the attacker's head drops below your hips or positions inside your body line, exposing their neck. This typically happens when they have poor head position, reach for legs before completing the level change, or enter too upright and then collapse forward. Stick to the sprawl when the attacker has proper head position on the centerline or outside your hip, when their penetration is deep and committed (no time for grip setup), or when you are off-balance and need the sprawl to regain structural stability first. The decision must be instantaneous based on head position reading - attempting a guillotine against proper head position wastes critical defensive time and often results in a completed takedown.",
+        "answer_line": "Guillotine only if head drops low",
+        "distractors": {
+          "plausible": [
+            "Guillotine on any deep shot",
+            "Sprawl only if off-balance"
+          ],
+          "trap": [
+            "Guillotine vs good head position"
+          ]
+        }
       },
       {
         "question": "How does your pre-shot stance and posture affect your ability to defend the double leg?",
-        "answer": "Your pre-shot stance directly determines your defensive capability. A stance with weight distributed over the balls of your feet with slight knee bend allows explosive sprawl initiation. Weight on the heels delays reaction time because you must first shift forward before driving back. An overly upright posture provides poor base against the forward drive. A posture that is too bent forward compromises your own ability to sprawl because your hips are already low. The ideal defensive stance has feet staggered at shoulder width, knees bent 15-20 degrees, weight centered slightly forward, and active hands at chest height ready to frame. This position minimizes the time between recognizing the shot and executing the defensive response."
+        "answer": "Your pre-shot stance directly determines your defensive capability. A stance with weight distributed over the balls of your feet with slight knee bend allows explosive sprawl initiation. Weight on the heels delays reaction time because you must first shift forward before driving back. An overly upright posture provides poor base against the forward drive. A posture that is too bent forward compromises your own ability to sprawl because your hips are already low. The ideal defensive stance has feet staggered at shoulder width, knees bent 15-20 degrees, weight centered slightly forward, and active hands at chest height ready to frame. This position minimizes the time between recognizing the shot and executing the defensive response.",
+        "answer_line": "Weight forward, knees bent, hands up",
+        "distractors": {
+          "plausible": [
+            "Weight on heels for power",
+            "Upright stance for reach"
+          ],
+          "trap": [
+            "Bend forward, hips already low"
+          ]
+        }
       }
     ],
     "training_progressions": [

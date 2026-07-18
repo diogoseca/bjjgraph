@@ -424,7 +424,7 @@
                 "type": "array",
                 "items": {
                   "type": "string",
-                  "minLength": 15,
+                  "minLength": 3,
                   "maxLength": 200
                 }
               },
@@ -432,7 +432,7 @@
                 "type": "array",
                 "items": {
                   "type": "string",
-                  "minLength": 15,
+                  "minLength": 3,
                   "maxLength": 200
                 }
               }

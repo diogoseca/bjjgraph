@@ -117,7 +117,10 @@ def card_viable(card: dict, deck_key: str, decks: dict, neighbors: dict) -> bool
 
 
 def micro_answer(card: dict) -> bool:
-    s = mc_clip(card.get("a", ""))
+    # a broken STUB = the FULL answer clips under 15 chars. A terse one-line `a` (answer_line,
+    # with the full answer carried in `d`) is intentional and must NOT be flagged.
+    full = card.get("d") or card.get("a", "")
+    s = mc_clip(full)
     return s is not None and len(s) < 15
 
 

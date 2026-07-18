@@ -339,35 +339,115 @@
     "flashcards": [
       {
         "question": "What is the optimal knee placement for maximum pressure and control in Knee on Belly?",
-        "answer": "The knee should be positioned directly on the opponent's solar plexus or lower ribs, with the shin perpendicular to their centerline. This placement creates direct downward pressure on the diaphragm, disrupting breathing and limiting their ability to generate power for escapes. Placing the knee too high on the chest reduces pressure effectiveness and makes it easier for the opponent to frame."
+        "answer": "The knee should be positioned directly on the opponent's solar plexus or lower ribs, with the shin perpendicular to their centerline. This placement creates direct downward pressure on the diaphragm, disrupting breathing and limiting their ability to generate power for escapes. Placing the knee too high on the chest reduces pressure effectiveness and makes it easier for the opponent to frame.",
+        "answer_line": "Solar plexus, shin perpendicular",
+        "distractors": {
+          "plausible": [
+            "Center of the chest",
+            "Knee angled along the body"
+          ],
+          "trap": [
+            "Knee on the hip bone"
+          ]
+        }
       },
       {
         "question": "How should weight be distributed to maintain both pressure and mobility from Knee on Belly Top?",
-        "answer": "Weight should be distributed forward through the knee contact point while keeping the feet light and mobile. The hips stay high and mobile, allowing quick weight shifts. The opposite leg extends wide with the foot planted firmly, creating a stable tripod structure. Avoid committing full weight to the knee as this sacrifices mobility and makes you vulnerable to sweeps. Think of pressing down through the knee like a piston while your body remains ready to spring in any direction."
+        "answer": "Weight should be distributed forward through the knee contact point while keeping the feet light and mobile. The hips stay high and mobile, allowing quick weight shifts. The opposite leg extends wide with the foot planted firmly, creating a stable tripod structure. Avoid committing full weight to the knee as this sacrifices mobility and makes you vulnerable to sweeps. Think of pressing down through the knee like a piston while your body remains ready to spring in any direction.",
+        "answer_line": "Piston knee, light mobile feet",
+        "distractors": {
+          "plausible": [
+            "Weight even on both legs",
+            "Weight back on the hips"
+          ],
+          "trap": [
+            "Full weight committed to knee"
+          ]
+        }
       },
       {
         "question": "Your opponent starts creating frames by placing their hands on your knee - what adjustment do you make?",
-        "answer": "When the opponent extends their arms to frame, this creates an immediate submission opportunity. Their extended arms become vulnerable to armbars and kimuras. Capitalize by attacking the extended arm with a far side armbar or trapping the far arm for a kimura. Alternatively, use their pushing reaction to slide your knee through and transition to mount. Never allow them to frame for free — punish every arm extension."
+        "answer": "When the opponent extends their arms to frame, this creates an immediate submission opportunity. Their extended arms become vulnerable to armbars and kimuras. Capitalize by attacking the extended arm with a far side armbar or trapping the far arm for a kimura. Alternatively, use their pushing reaction to slide your knee through and transition to mount. Never allow them to frame for free — punish every arm extension.",
+        "answer_line": "Attack the extended arm",
+        "distractors": {
+          "plausible": [
+            "Push through and mount now",
+            "Retract knee to reset"
+          ],
+          "trap": [
+            "Let go and reset to side control"
+          ]
+        }
       },
       {
         "question": "What are the essential grips for maintaining Knee on Belly control?",
-        "answer": "The primary grips are near-side collar control and far-side pants or belt grip. The collar grip controls the opponent's upper body and prevents them from sitting up or turning toward you. The far-side pants/belt grip prevents them from turning away and creates control of their hip movement. Together these grips establish the control framework that enables pressure application and submission setups. In no-gi, replace collar with head/neck control and belt with hip cupping."
+        "answer": "The primary grips are near-side collar control and far-side pants or belt grip. The collar grip controls the opponent's upper body and prevents them from sitting up or turning toward you. The far-side pants/belt grip prevents them from turning away and creates control of their hip movement. Together these grips establish the control framework that enables pressure application and submission setups. In no-gi, replace collar with head/neck control and belt with hip cupping.",
+        "answer_line": "Near collar, far pants/belt",
+        "distractors": {
+          "plausible": [
+            "Both sleeves for control",
+            "Far collar, near belt"
+          ],
+          "trap": [
+            "Underhook the far arm"
+          ]
+        }
       },
       {
         "question": "Why is Knee on Belly considered a transitional rather than settling position?",
-        "answer": "Knee on Belly's value comes from its mobility and attack versatility rather than static control. The position creates multiple dilemmas — defend submissions, prevent mount transition, or escape pressure — but prolonged stillness allows the opponent to solve these problems sequentially. Maintaining offensive momentum through constant threats keeps the opponent reactive and prevents them from executing coordinated defense. The position degrades quickly when you stop attacking."
+        "answer": "Knee on Belly's value comes from its mobility and attack versatility rather than static control. The position creates multiple dilemmas — defend submissions, prevent mount transition, or escape pressure — but prolonged stillness allows the opponent to solve these problems sequentially. Maintaining offensive momentum through constant threats keeps the opponent reactive and prevents them from executing coordinated defense. The position degrades quickly when you stop attacking.",
+        "answer_line": "Multi-threat beats stillness",
+        "distractors": {
+          "plausible": [
+            "Its low base is unstable",
+            "It's illegal to hold long"
+          ],
+          "trap": [
+            "Settle in and grind it out"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to bridge and turn away from you - how do you respond?",
-        "answer": "When the opponent turns away, follow their movement and look for back control. Their turning motion exposes their back, creating an opportunity to transition to back control by inserting hooks or taking the seat belt grip. Alternatively, use their turning motion to slide into north-south position if back control isn't available. Never fight their turning momentum directly — redirect it into a positional advancement that benefits you."
+        "answer": "When the opponent turns away, follow their movement and look for back control. Their turning motion exposes their back, creating an opportunity to transition to back control by inserting hooks or taking the seat belt grip. Alternatively, use their turning motion to slide into north-south position if back control isn't available. Never fight their turning momentum directly — redirect it into a positional advancement that benefits you.",
+        "answer_line": "Follow and take the back",
+        "distractors": {
+          "plausible": [
+            "Sit back to guard pull",
+            "Chase mount immediately"
+          ],
+          "trap": [
+            "Fight the turn, stay chest up"
+          ]
+        }
       },
       {
         "question": "How do you recover position when an opponent partially escapes by creating space with hip movement?",
-        "answer": "When the opponent creates space through shrimping, immediately transition back to side control rather than fighting to maintain Knee on Belly. Use your grips to follow their movement and re-establish chest-to-chest pressure. From solid side control, you can re-establish Knee on Belly once they're flattened again. Chasing a compromised Knee on Belly often leads to guard recovery by the opponent."
+        "answer": "When the opponent creates space through shrimping, immediately transition back to side control rather than fighting to maintain Knee on Belly. Use your grips to follow their movement and re-establish chest-to-chest pressure. From solid side control, you can re-establish Knee on Belly once they're flattened again. Chasing a compromised Knee on Belly often leads to guard recovery by the opponent.",
+        "answer_line": "Reset to side control first",
+        "distractors": {
+          "plausible": [
+            "Chase and re-flatten the hips",
+            "Drop to mount right away"
+          ],
+          "trap": [
+            "Force the knee back on belly"
+          ]
+        }
       },
       {
         "question": "What role does the base leg play in effective Knee on Belly control?",
-        "answer": "The base leg provides the stable platform that enables both pressure application and rapid transitions. It should be extended wide with toes pointing away from the opponent, creating a tripod structure with your knee and posting hand. This wide base prevents sweeps, enables quick directional changes, and allows you to post and recover if the opponent disrupts your balance. A narrow base makes the position unstable and easily countered by even basic escape attempts."
+        "answer": "The base leg provides the stable platform that enables both pressure application and rapid transitions. It should be extended wide with toes pointing away from the opponent, creating a tripod structure with your knee and posting hand. This wide base prevents sweeps, enables quick directional changes, and allows you to post and recover if the opponent disrupts your balance. A narrow base makes the position unstable and easily countered by even basic escape attempts.",
+        "answer_line": "Wide tripod base for stability",
+        "distractors": {
+          "plausible": [
+            "Base leg tucked in tight",
+            "Base leg bent under hips"
+          ],
+          "trap": [
+            "Narrow base for extra speed"
+          ]
+        }
       }
     ],
     "clips": [
@@ -702,35 +782,115 @@
     "flashcards": [
       {
         "question": "What is the first defensive priority when your opponent establishes Knee on Belly?",
-        "answer": "The first priority is creating immediate defensive frames using forearms and elbows against the opponent's hips and knee. These frames prevent full weight settlement and create the structural foundation for all subsequent escapes. Without frames, the pressure becomes overwhelming and no escape is possible. Frame on their hip with your near elbow tight to your body, and use your far hand to control their knee or collar."
+        "answer": "The first priority is creating immediate defensive frames using forearms and elbows against the opponent's hips and knee. These frames prevent full weight settlement and create the structural foundation for all subsequent escapes. Without frames, the pressure becomes overwhelming and no escape is possible. Frame on their hip with your near elbow tight to your body, and use your far hand to control their knee or collar.",
+        "answer_line": "Frame forearms on hip and knee",
+        "distractors": {
+          "plausible": [
+            "Bridge hard immediately",
+            "Grab the far collar first"
+          ],
+          "trap": [
+            "Push the knee with straight arms"
+          ]
+        }
       },
       {
         "question": "Why is turning to your side essential for escaping Knee on Belly?",
-        "answer": "Turning to your side reduces the surface area exposed to the opponent's pressure and creates the hip angles necessary for shrimping. When flat on your back, the opponent's full pressure drives into your diaphragm and your hips cannot generate escape movement. By turning to face away from the knee pressure, you enable the hip escape mechanics that create space for re-guard entry."
+        "answer": "Turning to your side reduces the surface area exposed to the opponent's pressure and creates the hip angles necessary for shrimping. When flat on your back, the opponent's full pressure drives into your diaphragm and your hips cannot generate escape movement. By turning to face away from the knee pressure, you enable the hip escape mechanics that create space for re-guard entry.",
+        "answer_line": "Shrinks target, enables shrimp",
+        "distractors": {
+          "plausible": [
+            "Frees the far-side underhook",
+            "Lets you sit up to grip"
+          ],
+          "trap": [
+            "Stay flat and bridge harder"
+          ]
+        }
       },
       {
         "question": "Your opponent lifts their knee to transition to mount - what opportunity does this create?",
-        "answer": "When the opponent lifts their knee to advance, they momentarily reduce the pinning pressure and create space. This is the optimal window to insert a knee shield or recover to open guard. React immediately by driving your knee between your bodies or shrimping your hips away to establish guard before they can complete the mount transition. The moment of transition is your best escape opportunity."
+        "answer": "When the opponent lifts their knee to advance, they momentarily reduce the pinning pressure and create space. This is the optimal window to insert a knee shield or recover to open guard. React immediately by driving your knee between your bodies or shrimping your hips away to establish guard before they can complete the mount transition. The moment of transition is your best escape opportunity.",
+        "answer_line": "Insert knee shield or shrimp out",
+        "distractors": {
+          "plausible": [
+            "Grab the belt and stall",
+            "Wait for full mount, then escape"
+          ],
+          "trap": [
+            "Push their hips away with arms"
+          ]
+        }
       },
       {
         "question": "What makes extending your arms to push against the opponent's knee a critical error?",
-        "answer": "Extended arms become immediately vulnerable to armbars and Americanas — the opponent can simply capture your extended arm and attack the submission. Additionally, pushing creates no effective escape angles because you're fighting their weight vertically rather than creating lateral space. The correct approach is keeping elbows tight and using structural frames that create angles for hip movement rather than vertical push."
+        "answer": "Extended arms become immediately vulnerable to armbars and Americanas — the opponent can simply capture your extended arm and attack the submission. Additionally, pushing creates no effective escape angles because you're fighting their weight vertically rather than creating lateral space. The correct approach is keeping elbows tight and using structural frames that create angles for hip movement rather than vertical push.",
+        "answer_line": "Exposes arm to armbar/Americana",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, no real risk",
+            "Slows your breathing recovery"
+          ],
+          "trap": [
+            "It's fine if elbows stay in"
+          ]
+        }
       },
       {
         "question": "How should you chain escape attempts when your first escape fails?",
-        "answer": "Continue moving immediately without pausing. If the elbow escape to half guard is blocked, transition directly into a shrimp toward open guard. If that's blocked, look for deep half entry. Each escape attempt creates incremental space improvement even if the full escape doesn't succeed. Stopping allows the opponent to re-settle their weight and consolidate control, making subsequent escapes exponentially harder."
+        "answer": "Continue moving immediately without pausing. If the elbow escape to half guard is blocked, transition directly into a shrimp toward open guard. If that's blocked, look for deep half entry. Each escape attempt creates incremental space improvement even if the full escape doesn't succeed. Stopping allows the opponent to re-settle their weight and consolidate control, making subsequent escapes exponentially harder.",
+        "answer_line": "Keep moving, chain attempts",
+        "distractors": {
+          "plausible": [
+            "Pause to reset your grips",
+            "Commit fully to one escape"
+          ],
+          "trap": [
+            "Stop and wait for their move"
+          ]
+        }
       },
       {
         "question": "Your opponent reaches for your collar while maintaining Knee on Belly - how do you respond?",
-        "answer": "When the opponent reaches for submissions, they must compromise their base and redistribute weight. Use this moment of instability to accelerate your escape. Their reaching hand means less control over your movement. Execute your hip escape while simultaneously defending the collar grip with your near hand. The submission attempt creates the opening for escape if you're ready to capitalize on their weight shift."
+        "answer": "When the opponent reaches for submissions, they must compromise their base and redistribute weight. Use this moment of instability to accelerate your escape. Their reaching hand means less control over your movement. Execute your hip escape while simultaneously defending the collar grip with your near hand. The submission attempt creates the opening for escape if you're ready to capitalize on their weight shift.",
+        "answer_line": "Escape hips as base wobbles",
+        "distractors": {
+          "plausible": [
+            "Grab their wrist and freeze",
+            "Wait for the choke to finish"
+          ],
+          "trap": [
+            "Bridge straight up into them"
+          ]
+        }
       },
       {
         "question": "What breathing strategy helps manage the intense pressure from Knee on Belly?",
-        "answer": "Take short, controlled breaths using your diaphragm rather than chest breathing. Turning to your side shifts the pressure point and creates more breathing room. Don't panic or hold your breath — this depletes energy rapidly. Stay calm and breathe between escape attempts. The pressure is uncomfortable but manageable with proper technique and breathing. Mental composure is essential for executing technical escapes under duress."
+        "answer": "Take short, controlled breaths using your diaphragm rather than chest breathing. Turning to your side shifts the pressure point and creates more breathing room. Don't panic or hold your breath — this depletes energy rapidly. Stay calm and breathe between escape attempts. The pressure is uncomfortable but manageable with proper technique and breathing. Mental composure is essential for executing technical escapes under duress.",
+        "answer_line": "Short diaphragm breaths, turn side",
+        "distractors": {
+          "plausible": [
+            "Hold breath through each attempt",
+            "Deep chest breaths only"
+          ],
+          "trap": [
+            "Panic-bridge to catch air"
+          ]
+        }
       },
       {
         "question": "When is Deep Half Guard entry a better option than standard guard recovery from Knee on Belly?",
-        "answer": "Deep Half Guard entry becomes optimal when the opponent shifts their weight forward or moves their knee position toward your hips. This creates space under their base that you can penetrate with your underhook and head. If they're maintaining pressure high on your chest with good posture, standard hip escapes to half or closed guard are better. Deep half requires getting underneath them, which is only possible when space exists under their hips."
+        "answer": "Deep Half Guard entry becomes optimal when the opponent shifts their weight forward or moves their knee position toward your hips. This creates space under their base that you can penetrate with your underhook and head. If they're maintaining pressure high on your chest with good posture, standard hip escapes to half or closed guard are better. Deep half requires getting underneath them, which is only possible when space exists under their hips.",
+        "answer_line": "When space opens under their hips",
+        "distractors": {
+          "plausible": [
+            "Anytime pressure feels heavy",
+            "Only from strong top posture"
+          ],
+          "trap": [
+            "Pull guard the moment they settle"
+          ]
+        }
       }
     ],
     "clips": [
@@ -766,35 +926,115 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines Knee on Belly and distinguishes it from other top pins?",
-      "answer": "Knee on Belly is defined by the top player driving one knee across the bottom player's torso onto the solar plexus or lower ribs while posting the other leg wide with the foot flat on the mat, keeping the bottom player flat on their back. Unlike side control or mount, the top player's bodyweight funnels through a single narrow contact point rather than spreading across a chest-to-chest or hip-to-hip connection. This concentrated pressure trades the broad stability of those pins for mobility and a sharper, more painful pressure vector. The wide base leg and elevated hips are integral to the position, not incidental, because they enable the constant weight adjustments that keep the position alive."
+      "answer": "Knee on Belly is defined by the top player driving one knee across the bottom player's torso onto the solar plexus or lower ribs while posting the other leg wide with the foot flat on the mat, keeping the bottom player flat on their back. Unlike side control or mount, the top player's bodyweight funnels through a single narrow contact point rather than spreading across a chest-to-chest or hip-to-hip connection. This concentrated pressure trades the broad stability of those pins for mobility and a sharper, more painful pressure vector. The wide base leg and elevated hips are integral to the position, not incidental, because they enable the constant weight adjustments that keep the position alive.",
+      "answer_line": "Knee on torso, base leg wide",
+      "distractors": {
+        "plausible": [
+          "Chest-to-chest, hips square",
+          "Both knees driving into torso"
+        ],
+        "trap": [
+          "Full body weight flat on top"
+        ]
+      }
     },
     {
       "question": "Why does the knee positioned on the solar plexus create such a decisive pressure point for both players?",
-      "answer": "The knee acts as a fulcrum that channels the top player's bodyweight into a small area over the diaphragm and solar plexus, compressing the region that governs breathing and core power generation. Because the force is concentrated rather than distributed, even a moderate amount of weight produces disproportionate respiratory distress and pain for the bottom player. This drives panicked reactions such as pushing with extended arms or bridging, which in turn open predictable attacking and escaping windows. For both players the solar-plexus contact point is the pivot around which the entire exchange revolves, so control of that point effectively controls the position."
+      "answer": "The knee acts as a fulcrum that channels the top player's bodyweight into a small area over the diaphragm and solar plexus, compressing the region that governs breathing and core power generation. Because the force is concentrated rather than distributed, even a moderate amount of weight produces disproportionate respiratory distress and pain for the bottom player. This drives panicked reactions such as pushing with extended arms or bridging, which in turn open predictable attacking and escaping windows. For both players the solar-plexus contact point is the pivot around which the entire exchange revolves, so control of that point effectively controls the position.",
+      "answer_line": "Concentrated force stops breathing",
+      "distractors": {
+        "plausible": [
+          "It targets the floating ribs only",
+          "It pins the shoulder line"
+        ],
+        "trap": [
+          "It's just a resting spot"
+        ]
+      }
     },
     {
       "question": "How does weight distribution in Knee on Belly differ from a settled pin, and why does this define the position?",
-      "answer": "In a settled pin like mount or side control, the top player commits weight fully into broad contact to eliminate movement, whereas Knee on Belly keeps the hips high and the feet light so weight can shift instantly. The pressure is applied through the knee like a loaded piston that can spring in any direction rather than a dead weight pressing down. Committing full static weight to the knee actually degrades the position because it sacrifices the mobility that makes it work and exposes the top player to sweeps. This dynamic, adjustable weight distribution is the shared reality both players are managing at every moment."
+      "answer": "In a settled pin like mount or side control, the top player commits weight fully into broad contact to eliminate movement, whereas Knee on Belly keeps the hips high and the feet light so weight can shift instantly. The pressure is applied through the knee like a loaded piston that can spring in any direction rather than a dead weight pressing down. Committing full static weight to the knee actually degrades the position because it sacrifices the mobility that makes it work and exposes the top player to sweeps. This dynamic, adjustable weight distribution is the shared reality both players are managing at every moment.",
+      "answer_line": "High hips, light adjustable weight",
+      "distractors": {
+        "plausible": [
+          "Same as mount, fully committed",
+          "Weight sinks into the mat"
+        ],
+        "trap": [
+          "Drop full weight to end the fight"
+        ]
+      }
     },
     {
       "question": "What makes Knee on Belly a transitional launching platform rather than a position to hold statically?",
-      "answer": "The position simultaneously threatens submissions, advancement to mount or back control, and point-scoring, forcing the bottom player to solve several problems at once under respiratory duress. Its value comes from that unresolved multi-threat state, which collapses the moment either player wins the pace battle. If the top player stalls, the bottom player gets time to address each threat sequentially and rebuild frames; if the bottom player stalls, the pressure compounds and control consolidates. Both players therefore treat the position as a fast-moving junction where the tempo of transition, not static holding, decides the outcome."
+      "answer": "The position simultaneously threatens submissions, advancement to mount or back control, and point-scoring, forcing the bottom player to solve several problems at once under respiratory duress. Its value comes from that unresolved multi-threat state, which collapses the moment either player wins the pace battle. If the top player stalls, the bottom player gets time to address each threat sequentially and rebuild frames; if the bottom player stalls, the pressure compounds and control consolidates. Both players therefore treat the position as a fast-moving junction where the tempo of transition, not static holding, decides the outcome.",
+      "answer_line": "Multi-threat tempo, not holding",
+      "distractors": {
+        "plausible": [
+          "Best used as a resting position",
+          "Purely a scoring pin"
+        ],
+        "trap": [
+          "Stall here to run the clock"
+        ]
+      }
     },
     {
       "question": "What role do the base leg and posting structure play in stabilizing the concentrated pressure of Knee on Belly?",
-      "answer": "The extended base leg, planted wide with toes pointing away from the bottom player, forms a tripod with the driving knee and the top player's posting hand that keeps the single narrow contact point from becoming a liability. Because so much weight funnels through the knee, the position would topple to sweeps without this wide outrigger to catch balance and enable directional changes. The width of the base directly governs how much pressure can be safely applied and how quickly the top player can transition. A narrow base makes the whole configuration unstable, which is why disrupting or exploiting the base is central to the exchange from both sides."
+      "answer": "The extended base leg, planted wide with toes pointing away from the bottom player, forms a tripod with the driving knee and the top player's posting hand that keeps the single narrow contact point from becoming a liability. Because so much weight funnels through the knee, the position would topple to sweeps without this wide outrigger to catch balance and enable directional changes. The width of the base directly governs how much pressure can be safely applied and how quickly the top player can transition. A narrow base makes the whole configuration unstable, which is why disrupting or exploiting the base is central to the exchange from both sides.",
+      "answer_line": "Wide outrigger prevents sweeps",
+      "distractors": {
+        "plausible": [
+          "Base leg bent for quick hops",
+          "Posting hand replaces the base leg"
+        ],
+        "trap": [
+          "Cross the base leg over"
+        ]
+      }
     },
     {
       "question": "How does the framing battle at the knee shape the dynamics of Knee on Belly for both players?",
-      "answer": "The bottom player's survival depends on inserting forearm and elbow frames against the driving knee and the top player's hips to prevent full weight settlement and create hip-escape angles. The top player's control depends on preventing or punishing those frames, since an extended arm reaching to push the knee becomes exposed to attacks while a well-placed tight frame relieves pressure and opens escape space. This continuous contest over whether frames can be established and kept tight is the shared mechanical struggle at the heart of the position. Whoever wins the framing exchange controls whether the position holds or dissolves."
+      "answer": "The bottom player's survival depends on inserting forearm and elbow frames against the driving knee and the top player's hips to prevent full weight settlement and create hip-escape angles. The top player's control depends on preventing or punishing those frames, since an extended arm reaching to push the knee becomes exposed to attacks while a well-placed tight frame relieves pressure and opens escape space. This continuous contest over whether frames can be established and kept tight is the shared mechanical struggle at the heart of the position. Whoever wins the framing exchange controls whether the position holds or dissolves.",
+      "answer_line": "Frames block settlement, open escape",
+      "distractors": {
+        "plausible": [
+          "Framing only matters for the top",
+          "Grip fighting decides it, not frames"
+        ],
+        "trap": [
+          "Push the knee with a straight arm"
+        ]
+      }
     },
     {
       "question": "How does Knee on Belly relate to the surrounding positions in the top-control hierarchy?",
-      "answer": "Knee on Belly sits between side control and mount as an aggressive intermediate node, typically entered from side control after a pass and used as a springboard to mount, back control, or north-south. Its mobility lets it flow into these neighbors far more readily than a settled pin would, which is precisely why it is prized as a launching point rather than an endpoint. From the bottom, failure to escape commonly feeds into deterioration toward mount, while a successful escape recovers half guard, open guard, or turtle. Understanding these adjacencies clarifies why the position is inherently unstable and transitional for both players."
+      "answer": "Knee on Belly sits between side control and mount as an aggressive intermediate node, typically entered from side control after a pass and used as a springboard to mount, back control, or north-south. Its mobility lets it flow into these neighbors far more readily than a settled pin would, which is precisely why it is prized as a launching point rather than an endpoint. From the bottom, failure to escape commonly feeds into deterioration toward mount, while a successful escape recovers half guard, open guard, or turtle. Understanding these adjacencies clarifies why the position is inherently unstable and transitional for both players.",
+      "answer_line": "Springboard to mount or back",
+      "distractors": {
+        "plausible": [
+          "A dead-end finishing position",
+          "Equivalent to back control"
+        ],
+        "trap": [
+          "A downgrade from side control"
+        ]
+      }
     },
     {
       "question": "How does maintaining high, mobile hips affect the pressure and control shared across Knee on Belly?",
-      "answer": "Keeping the hips high and stacked over the driving knee steepens the downward pressure angle so weight drives cleanly through the contact point into the diaphragm rather than leaking sideways. Elevated hips also preserve the freedom to shift weight and step the base, which is what allows the top player to answer escape attempts without collapsing the position. If the hips drop or the top player leans back, the pressure vector flattens and the bottom player gains the space needed to turn and frame. For both players, the height and mobility of the top player's hips are a direct readout of how much pressure and control the position is currently generating."
+      "answer": "Keeping the hips high and stacked over the driving knee steepens the downward pressure angle so weight drives cleanly through the contact point into the diaphragm rather than leaking sideways. Elevated hips also preserve the freedom to shift weight and step the base, which is what allows the top player to answer escape attempts without collapsing the position. If the hips drop or the top player leans back, the pressure vector flattens and the bottom player gains the space needed to turn and frame. For both players, the height and mobility of the top player's hips are a direct readout of how much pressure and control the position is currently generating.",
+      "answer_line": "Steep angle drives pressure down",
+      "distractors": {
+        "plausible": [
+          "Hip height doesn't affect pressure",
+          "Low hips maximize the pressure"
+        ],
+        "trap": [
+          "Lean back to add more weight"
+        ]
+      }
     }
   ],
   "clips": [

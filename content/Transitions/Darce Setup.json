@@ -243,62 +243,115 @@
     "flashcards": [
       {
         "question": "What is the most critical requirement for a successful Darce setup?",
-        "answer": "Trapping the opponent's far arm against their body to create the arm-in configuration. Without this trap, the opponent can use their free arm to frame and defend, making the choke ineffective. The trapped arm creates the necessary anatomical positioning for the choke to work properly by compressing both carotid arteries simultaneously."
+        "answer": "Trapping the opponent's far arm against their body to create the arm-in configuration. Without this trap, the opponent can use their free arm to frame and defend, making the choke ineffective. The trapped arm creates the necessary anatomical positioning for the choke to work properly by compressing both carotid arteries simultaneously.",
+        "answer_line": "Trap the far arm first",
+        "distractors": {
+          "plausible": [
+            "Get maximum arm depth",
+            "Control the head before trapping"
+          ],
+          "trap": [
+            "Skip the trap, thread fast"
+          ]
+        }
       },
       {
         "question": "What angle should your body create relative to your opponent's spine during the Darce setup?",
-        "answer": "Your body should be approximately perpendicular (90 degrees) to your opponent's spine. This angle maximizes leverage, prevents escape pathways, and creates the optimal position for threading your arm deep around their neck. Too shallow allows turning away; too deep loses control and allows them to roll through."
+        "answer": "Your body should be approximately perpendicular (90 degrees) to your opponent's spine. This angle maximizes leverage, prevents escape pathways, and creates the optimal position for threading your arm deep around their neck. Too shallow allows turning away; too deep loses control and allows them to roll through.",
+        "answer_line": "Perpendicular, 90 degrees",
+        "distractors": {
+          "plausible": [
+            "Shallow angle, stay square",
+            "Deep angle, nearly parallel"
+          ],
+          "trap": [
+            "Align parallel to their spine"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your threading arm and prevents deep penetration — how do you adjust?",
         "answer": "Don't fight the grip — flow to an alternative attack like the Anaconda, crucifix, or back take that exploits their defensive commitment. Switching to an Anaconda means adjusting your grip configuration, the crucifix comes from controlling their defending arm, and their grip on your threading arm can itself open the transition to back control. The key is never to fight their grip directly but to punish their commitment to defending the Darce.",
         "distractors": {
           "plausible": [
-            "Re-grip with two-on-one force and drive the threading arm deeper until their defensive grip breaks.",
-            "Switch sides and immediately attempt the Darce on the opposite arm before they can re-establish the grip."
+            "Force the arm deeper anyway",
+            "Reset and re-thread same arm"
           ],
           "trap": [
-            "Let go of the head to strip their grip with both hands, then re-thread the choking arm from scratch."
+            "Muscle through their grip"
           ]
-        }
+        },
+        "answer_line": "Flow to Anaconda or back take"
       },
       {
         "question": "Why is shoulder pressure important during the Darce setup sequence?",
         "answer": "Constant shoulder pressure keeps the opponent's posture broken and denies them the space to rebuild defensive structure. It maintains control of their head and upper body while keeping their weight distributed poorly, making movement difficult and limiting escape pathways. Without consistent pressure, opponents can create space and recover posture to stand or turn away.",
         "distractors": {
           "plausible": [
-            "Shoulder pressure mainly tires the opponent's neck muscles so the choke finishes faster once it is locked in.",
-            "Shoulder pressure is applied only at the finish to tighten the squeeze; during the setup you stay light to move quickly."
+            "Controls head, not weight",
+            "Sets up leg entanglement"
           ],
           "trap": [
-            "Lift off the head while threading so you can see the gap — visibility matters more than pressure during the setup."
+            "Ease off to save energy"
+          ]
+        },
+        "answer_line": "Break posture, deny space"
+      },
+      {
+        "question": "What is the optimal timing window to begin threading the choking arm?",
+        "answer": "The optimal moment is immediately after securing the arm trap with your chest and establishing the perpendicular angle. If you wait too long, the opponent adapts and begins defensive sequences. If you thread too early before the arm is trapped, they frame out. The window opens when you feel their far arm pinned against their ribs by your chest weight and your angle is set — typically a one-to-two second window before they begin adjusting.",
+        "answer_line": "Right after arm trap and angle set",
+        "distractors": {
+          "plausible": [
+            "Immediately on first contact",
+            "Wait for full mount control"
+          ],
+          "trap": [
+            "Thread before trapping the arm"
           ]
         }
       },
       {
-        "question": "What is the optimal timing window to begin threading the choking arm?",
-        "answer": "The optimal moment is immediately after securing the arm trap with your chest and establishing the perpendicular angle. If you wait too long, the opponent adapts and begins defensive sequences. If you thread too early before the arm is trapped, they frame out. The window opens when you feel their far arm pinned against their ribs by your chest weight and your angle is set — typically a one-to-two second window before they begin adjusting."
-      },
-      {
         "question": "What grip configuration do you use to lock the Darce, and what direction should force be applied?",
-        "answer": "The primary grip is a figure-four where your threading arm grabs your own bicep, and your free hand cups the back of the opponent's head. Force direction is critical — your threading arm pulls inward toward your own chest while the head-control hand drives the opponent's head forward and down. These opposing forces create the compression that makes the choke effective. The squeeze is inward and forward, not downward."
+        "answer": "The primary grip is a figure-four where your threading arm grabs your own bicep, and your free hand cups the back of the opponent's head. Force direction is critical — your threading arm pulls inward toward your own chest while the head-control hand drives the opponent's head forward and down. These opposing forces create the compression that makes the choke effective. The squeeze is inward and forward, not downward.",
+        "answer_line": "Figure-four, squeeze in and forward",
+        "distractors": {
+          "plausible": [
+            "Pull straight down on head",
+            "Cross-face grip, pull back"
+          ],
+          "trap": [
+            "Crank straight downward"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their near arm hard and starts creating distance — what do you do?",
-        "answer": "Circle toward their posted arm while keeping your head-control arm tight around their head. Their posted arm is weight-bearing, meaning they cannot retract it without collapsing. Use this to your advantage by circling into the post, which collapses their base. Alternatively, attack the posted arm with a kimura grip to break the post and restore your control. Never allow the distance to grow — react immediately to the first sign of posting."
+        "answer": "Circle toward their posted arm while keeping your head-control arm tight around their head. Their posted arm is weight-bearing, meaning they cannot retract it without collapsing. Use this to your advantage by circling into the post, which collapses their base. Alternatively, attack the posted arm with a kimura grip to break the post and restore your control. Never allow the distance to grow — react immediately to the first sign of posting.",
+        "answer_line": "Circle into the post, collapse it",
+        "distractors": {
+          "plausible": [
+            "Pull back to reset the angle",
+            "Chase distance, re-close space"
+          ],
+          "trap": [
+            "Let them retract and reset"
+          ]
+        }
       },
       {
         "question": "If the Darce setup is fully blocked and you cannot thread, what chain attacks are available?",
         "answer": "Treat the front headlock as a hub — flow to the Anaconda, guillotine, back take, or Japanese necktie rather than forcing the blocked Darce. Reverse your arm threading direction for the Anaconda, adjust your grip under the chin for the guillotine, circle behind as they defend the choke threat to take the back, or adjust your leg position to attack the Japanese necktie. All are high-percentage chains, and a blocked Darce should flow directly into the next attack rather than being forced.",
         "distractors": {
           "plausible": [
-            "Re-thread the same arm harder and deeper first; only chain to the Anaconda or guillotine if the position fully collapses.",
-            "Abandon head control and circle straight to the back, since front-headlock chokes are dead once the thread is blocked."
+            "Force the blocked Darce longer",
+            "Abandon front headlock entirely"
           ],
           "trap": [
-            "Release your chin strap and use both hands to pry their blocking grip open, then re-thread the Darce."
+            "Keep cranking the stuck grip"
           ]
-        }
+        },
+        "answer_line": "Flow to Anaconda, guillotine, back"
       }
     ],
     "safety_considerations": "Practice Darce setups with controlled pressure and clear communication with training partners. When drilling the setup phase, focus on positional control rather than applying choking pressure until both partners understand the mechanics. The threading motion should be deliberate and smooth to avoid injury to shoulders or neck. Partners should maintain open communication about pressure levels, especially when adding resistance during training progressions. When transitioning from setup to finish, always release immediately when partner taps. Beginners should work under supervision of experienced practitioners or instructors who can correct technical errors before they become dangerous habits. The neck and cervical spine are vulnerable during front headlock positions, so avoid excessive cranking or twisting motions. Always ensure training partner understands how to tap from various positions before applying any submission setup.",
@@ -408,23 +461,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive priority when you recognize a Darce setup beginning?",
-        "answer": "Preventing or reversing the arm trap is the single most important priority. The Darce choke requires your arm trapped against your neck to create the compression needed for the choke to function. If you can keep your elbows pinched tight or extract a trapped arm before the figure-four grip locks, the entire Darce mechanism fails regardless of how deep the threading arm penetrates."
+        "answer": "Preventing or reversing the arm trap is the single most important priority. The Darce choke requires your arm trapped against your neck to create the compression needed for the choke to function. If you can keep your elbows pinched tight or extract a trapped arm before the figure-four grip locks, the entire Darce mechanism fails regardless of how deep the threading arm penetrates.",
+        "answer_line": "Prevent or reverse the arm trap",
+        "distractors": {
+          "plausible": [
+            "Defend the head control first",
+            "Posture up immediately"
+          ],
+          "trap": [
+            "Yank the trapped arm free hard"
+          ]
+        }
       },
       {
         "question": "Why should you move toward the choking arm rather than away when defending the Darce setup?",
-        "answer": "Moving toward the choking arm reduces the angle the attacker needs to complete the choke. The Darce requires the attacker's body to be perpendicular to your spine — by turning into them you flatten that angle and make it geometrically harder for the choke to close on your carotid arteries. Moving away actually opens the angle and creates space for deeper arm penetration making the choke tighter."
+        "answer": "Moving toward the choking arm reduces the angle the attacker needs to complete the choke. The Darce requires the attacker's body to be perpendicular to your spine — by turning into them you flatten that angle and make it geometrically harder for the choke to close on your carotid arteries. Moving away actually opens the angle and creates space for deeper arm penetration making the choke tighter.",
+        "answer_line": "Flattens the angle needed",
+        "distractors": {
+          "plausible": [
+            "Creates space to stand up",
+            "Relieves neck pressure faster"
+          ],
+          "trap": [
+            "Turn away to create distance"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun threading their arm but has not locked the grip — what is your best defensive option?",
-        "answer": "Circle toward the choking arm side and sit through to recover guard. At this stage the threading arm has some depth but no locked grip meaning you can still move your body freely enough to change the positional dynamic. By turning into the attacker and pulling your hips through you transition from front headlock bottom to guard which eliminates the Darce threat entirely. You must act before the grip locks because once the figure-four is secured this escape becomes dramatically harder."
+        "answer": "Circle toward the choking arm side and sit through to recover guard. At this stage the threading arm has some depth but no locked grip meaning you can still move your body freely enough to change the positional dynamic. By turning into the attacker and pulling your hips through you transition from front headlock bottom to guard which eliminates the Darce threat entirely. You must act before the grip locks because once the figure-four is secured this escape becomes dramatically harder.",
+        "answer_line": "Circle in, sit through to guard",
+        "distractors": {
+          "plausible": [
+            "Wait for grip then defend",
+            "Post hands, try to stand up"
+          ],
+          "trap": [
+            "Pull head back to create space"
+          ]
+        }
       },
       {
         "question": "How do you recognize that a Darce setup is being attempted versus a standard front headlock hold?",
-        "answer": "The key recognition cues are your far arm being actively pinned by increased chest pressure rather than just head control, the opponent releasing their far hand from your shoulder to begin threading under your armpit, and the opponent stepping their near leg forward across your centerline to create a perpendicular angle. Standard front headlock maintains bilateral control on head and shoulder — the Darce setup requires releasing one hand to thread creating a distinctive shift in pressure and hand positioning you can feel."
+        "answer": "The key recognition cues are your far arm being actively pinned by increased chest pressure rather than just head control, the opponent releasing their far hand from your shoulder to begin threading under your armpit, and the opponent stepping their near leg forward across your centerline to create a perpendicular angle. Standard front headlock maintains bilateral control on head and shoulder — the Darce setup requires releasing one hand to thread creating a distinctive shift in pressure and hand positioning you can feel.",
+        "answer_line": "Far-arm pin, released hand, angle",
+        "distractors": {
+          "plausible": [
+            "Increased downward head pressure",
+            "Both hands still on shoulders"
+          ],
+          "trap": [
+            "Ignore it, treat as headlock"
+          ]
+        }
       },
       {
         "question": "What should you do if the Darce grip is already locked and the opponent has secured the figure-four?",
-        "answer": "Once the grip is locked your options narrow significantly but escape is still possible. Immediately tuck your chin to your chest to block deeper penetration. Use your free hand to grip your trapped arm's wrist and pull it toward your body while turning your shoulders into the attacker. If extraction fails attempt a granby roll or forward roll toward the choking arm side to create a scramble and potentially land in guard. The critical point is acting immediately — every second with a locked Darce grip allows the attacker to tighten further."
+        "answer": "Once the grip is locked your options narrow significantly but escape is still possible. Immediately tuck your chin to your chest to block deeper penetration. Use your free hand to grip your trapped arm's wrist and pull it toward your body while turning your shoulders into the attacker. If extraction fails attempt a granby roll or forward roll toward the choking arm side to create a scramble and potentially land in guard. The critical point is acting immediately — every second with a locked Darce grip allows the attacker to tighten further.",
+        "answer_line": "Tuck chin, extract arm, roll",
+        "distractors": {
+          "plausible": [
+            "Push straight up to stand",
+            "Wait it out, conserve energy"
+          ],
+          "trap": [
+            "Turn away from the choke arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -227,67 +227,140 @@
         "answer": "The primary goal is to reconfigure your leg entanglement from Ushiro Ashi-Garami to Cross Ashi-Garami when Ushiro attacks become suboptimal. The switch is triggered when the opponent's hip orientation or defensive positioning undercuts Ushiro attacks, and it provides better mechanical leverage for heel hook finishes while creating pathways to the Saddle position.",
         "distractors": {
           "plausible": [
-            "The primary goal is to switch from Cross Ashi-Garami back to Ushiro Ashi-Garami when the opponent turns their hip away from you.",
-            "The primary goal is to finish the heel hook from Ushiro before the opponent can adjust their hip orientation against you."
+            "Stay in Ushiro for control",
+            "Switch to attack the far leg"
           ],
           "trap": [
-            "The primary goal is to release your leg entanglement entirely mid-switch so you can spin freely to the opposite side."
+            "Release grip to reposition legs"
+          ]
+        },
+        "answer_line": "Switch Ushiro to Cross for leverage"
+      },
+      {
+        "question": "Which leg serves as the anchor during the transition and why?",
+        "answer": "The inside leg (same side as opponent's trapped leg) serves as the anchor throughout the transition. This inside hook maintains constant backward tension behind the opponent's hip, preventing them from sitting up, turning into the position, or extracting their leg while your outside leg reconfigures to the crossed position.",
+        "answer_line": "Inside hook, backward hip tension",
+        "distractors": {
+          "plausible": [
+            "Outside leg, blocks their hip",
+            "Inside leg, controls their arm"
+          ],
+          "trap": [
+            "Release inside hook to reposition"
           ]
         }
       },
       {
-        "question": "Which leg serves as the anchor during the transition and why?",
-        "answer": "The inside leg (same side as opponent's trapped leg) serves as the anchor throughout the transition. This inside hook maintains constant backward tension behind the opponent's hip, preventing them from sitting up, turning into the position, or extracting their leg while your outside leg reconfigures to the crossed position."
-      },
-      {
         "question": "Your opponent begins retracting their leg as you initiate the transition - how do you respond?",
-        "answer": "Immediately accelerate heel grip tension while returning to stable Ushiro configuration. Do not continue the transition with compromised control. Once you've stabilized, assess whether the escape attempt was due to timing issues or if opponent has developed effective counter. Reset and reattempt with better timing or choose alternative attack."
+        "answer": "Immediately accelerate heel grip tension while returning to stable Ushiro configuration. Do not continue the transition with compromised control. Once you've stabilized, assess whether the escape attempt was due to timing issues or if opponent has developed effective counter. Reset and reattempt with better timing or choose alternative attack.",
+        "answer_line": "Tighten grip, revert to Ushiro",
+        "distractors": {
+          "plausible": [
+            "Push through to complete Cross Ashi",
+            "Release and re-shoot the entry"
+          ],
+          "trap": [
+            "Let go, chase a different leg"
+          ]
+        }
       },
       {
         "question": "What grip configuration must be maintained throughout the entire transition?",
-        "answer": "At minimum, one hand must maintain control on opponent's heel or ankle throughout the entire transition. Ideally, a two-hand cup grip on the heel is maintained. Never release both hands to use for balance or repositioning - this creates immediate escape opportunity and eliminates submission threat."
+        "answer": "At minimum, one hand must maintain control on opponent's heel or ankle throughout the entire transition. Ideally, a two-hand cup grip on the heel is maintained. Never release both hands to use for balance or repositioning - this creates immediate escape opportunity and eliminates submission threat.",
+        "answer_line": "One hand on heel at all times",
+        "distractors": {
+          "plausible": [
+            "Two hands always, no exceptions",
+            "Grip pant leg, not the heel"
+          ],
+          "trap": [
+            "Release both hands to balance"
+          ]
+        }
       },
       {
         "question": "How do you recognize when Cross Ashi offers better finishing angles than staying in Ushiro?",
         "answer": "Cross Ashi is better when the opponent's hip rotates toward you, their inversion stalls, or their heel is best accessed from a perpendicular angle. Hip rotation toward you reduces Ushiro heel hook leverage, and a stalled inversion means they are attempting to recover rather than continue rotating. Ushiro remains better when the opponent is actively inverting or when the reversed angle provides direct heel access.",
         "distractors": {
           "plausible": [
-            "Cross Ashi becomes preferable the moment the opponent begins actively inverting and rotating away from your control.",
-            "Switch to Cross Ashi whenever the reversed angle gives you direct access to the opponent's exposed heel."
+            "Opponent actively inverting away",
+            "Opponent flattens on their back"
           ],
           "trap": [
-            "If the Ushiro finish stalls, open your knees and let go of the entanglement so you can chase the far heel with your hands."
+            "Switch whenever grip feels tired"
+          ]
+        },
+        "answer_line": "Hip turns in, inversion stalls"
+      },
+      {
+        "question": "What hip movement is essential during the transition and why?",
+        "answer": "You must actively rotate your hips to face more directly toward opponent's trapped leg during the transition. This hip repositioning creates the perpendicular alignment that defines proper Cross Ashi configuration and provides optimal finishing leverage for heel hooks. Without this hip rotation, you achieve the leg cross but with suboptimal body positioning.",
+        "answer_line": "Rotate hips toward trapped leg",
+        "distractors": {
+          "plausible": [
+            "Keep hips square to opponent",
+            "Rotate hips away for space"
+          ],
+          "trap": [
+            "Sit back and flatten your hips"
           ]
         }
       },
       {
-        "question": "What hip movement is essential during the transition and why?",
-        "answer": "You must actively rotate your hips to face more directly toward opponent's trapped leg during the transition. This hip repositioning creates the perpendicular alignment that defines proper Cross Ashi configuration and provides optimal finishing leverage for heel hooks. Without this hip rotation, you achieve the leg cross but with suboptimal body positioning."
-      },
-      {
         "question": "Your opponent turns into the transition to counter-attack your legs - what is your immediate response?",
-        "answer": "Use your inside hook to block their hip rotation and prevent them from squaring up to your body. If they achieve significant angle toward your legs, address their counter-entanglement threat before continuing the transition. This may mean entering 50-50 to neutralize, completing a fast switch to Cross Ashi to attack first, or returning to Ushiro and choosing a different attack path."
+        "answer": "Use your inside hook to block their hip rotation and prevent them from squaring up to your body. If they achieve significant angle toward your legs, address their counter-entanglement threat before continuing the transition. This may mean entering 50-50 to neutralize, completing a fast switch to Cross Ashi to attack first, or returning to Ushiro and choosing a different attack path.",
+        "answer_line": "Inside hook blocks their hips",
+        "distractors": {
+          "plausible": [
+            "Speed up to finish cross first",
+            "Switch grips to outside leg"
+          ],
+          "trap": [
+            "Release hook, sprawl backward"
+          ]
+        }
       },
       {
         "question": "When combining this transition with immediate Saddle entry, what changes in the execution?",
         "answer": "You cross your feet during the outside leg switch to land directly in the Saddle (Honey Hole) instead of standard uncrossed Cross Ashi. The inside leg threads deeper and your feet lock together, creating the triangle leg formation characteristic of Saddle. This provides higher control but requires more commitment and mobility.",
         "distractors": {
           "plausible": [
-            "You keep your feet uncrossed during the switch and only lock the Saddle triangle after fully settling into Cross Ashi.",
-            "The outside leg threads deeper while the inside leg stays shallow, forming the Saddle's triangle lock."
+            "Uncross feet for standard cross",
+            "Switch grip hand before crossing"
           ],
           "trap": [
-            "Cross your ankles in front of the opponent's hip before switching legs so the lock is secured as early as possible."
+            "Release inside leg to thread deep"
+          ]
+        },
+        "answer_line": "Cross feet to lock into Saddle"
+      },
+      {
+        "question": "What is the correct position for the outside leg cross and why?",
+        "answer": "The outside leg should cross at mid-shin to ankle level on opponent's trapped leg, not higher on the thigh. This lower crossing position provides maximum leverage over the foot and heel while making it harder for opponent to clear the cross. Crossing too high reduces control over the lower leg and creates easier escape paths.",
+        "answer_line": "Cross at mid-shin to ankle",
+        "distractors": {
+          "plausible": [
+            "Cross high on the thigh",
+            "Cross at the knee joint"
+          ],
+          "trap": [
+            "Cross above the hip for control"
           ]
         }
       },
       {
-        "question": "What is the correct position for the outside leg cross and why?",
-        "answer": "The outside leg should cross at mid-shin to ankle level on opponent's trapped leg, not higher on the thigh. This lower crossing position provides maximum leverage over the foot and heel while making it harder for opponent to clear the cross. Crossing too high reduces control over the lower leg and creates easier escape paths."
-      },
-      {
         "question": "How do you maintain offensive pressure during the transition to prevent opponent from mounting coordinated defense?",
-        "answer": "Maintain heel grip tension throughout to keep submission threat active even during leg reconfiguration. Execute the transition with deliberate speed that doesn't create defensive windows. The heel grip creates constant danger that forces opponent to prioritize heel protection over escape attempts, limiting their defensive options during the switch."
+        "answer": "Maintain heel grip tension throughout to keep submission threat active even during leg reconfiguration. Execute the transition with deliberate speed that doesn't create defensive windows. The heel grip creates constant danger that forces opponent to prioritize heel protection over escape attempts, limiting their defensive options during the switch.",
+        "answer_line": "Keep heel tension, move decisively",
+        "distractors": {
+          "plausible": [
+            "Pause to reset grip mid-switch",
+            "Slow down to ensure precision"
+          ],
+          "trap": [
+            "Release grip to move faster"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Cross Ashi Transition involves movement through leg entanglement positions where heel hook submissions are available. Both training partners must understand heel hook danger and the importance of immediate tapping when rotation begins. During drilling, perform transitions at controlled speed to prevent accidentally catching training partners in finishing positions. Never maintain heel hook grips during transition practice at full speed. If partner indicates any knee discomfort during the switch, stop immediately and reset. Partners with prior knee injuries should drill this transition with extra caution and reduced intensity.",
@@ -410,23 +483,73 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to attempt your escape during the Cross Ashi Transition?",
-        "answer": "The optimal escape window occurs during the 1-2 seconds when the attacker's outside leg disengages from the Ushiro configuration and before it crosses into the Cross Ashi position. During this phase, the attacker has only their inside hook and grip controlling you. This is when their leg control is at its absolute weakest, making leg extraction most likely to succeed."
+        "answer": "The optimal escape window occurs during the 1-2 seconds when the attacker's outside leg disengages from the Ushiro configuration and before it crosses into the Cross Ashi position. During this phase, the attacker has only their inside hook and grip controlling you. This is when their leg control is at its absolute weakest, making leg extraction most likely to succeed.",
+        "answer_line": "As outside leg disengages",
+        "distractors": {
+          "plausible": [
+            "Right when transition begins",
+            "After Cross Ashi is locked in"
+          ],
+          "trap": [
+            "Wait for the heel hook attempt"
+          ]
+        }
       },
       {
         "question": "What foot position must you maintain throughout your defense against this transition?",
-        "answer": "Maintain dorsiflexion (foot flexed with toes pulled toward shin) on your trapped leg throughout the entire defensive sequence. This position pulls the heel closer to your calf, making it significantly harder for the attacker to establish the grip needed for heel hook finishing mechanics. Never point your toes or relax your foot, as even momentary relaxation creates heel exposure."
+        "answer": "Maintain dorsiflexion (foot flexed with toes pulled toward shin) on your trapped leg throughout the entire defensive sequence. This position pulls the heel closer to your calf, making it significantly harder for the attacker to establish the grip needed for heel hook finishing mechanics. Never point your toes or relax your foot, as even momentary relaxation creates heel exposure.",
+        "answer_line": "Dorsiflex foot, toes to shin",
+        "distractors": {
+          "plausible": [
+            "Point toes to slip the grip",
+            "Relax foot between exchanges"
+          ],
+          "trap": [
+            "Point toes to create space"
+          ]
+        }
       },
       {
         "question": "Your attacker begins tightening their heel grip before initiating the leg switch - what does this signal and how should you respond?",
-        "answer": "The grip tightening signals the attacker is about to begin the transition and is securing their submission control as insurance before loosening leg position. Respond by immediately engaging aggressive hand fighting to strip or weaken their heel grip before the leg switch begins. If you can compromise their grip before the transition starts, the escape window becomes significantly larger when their legs reconfigure."
+        "answer": "The grip tightening signals the attacker is about to begin the transition and is securing their submission control as insurance before loosening leg position. Respond by immediately engaging aggressive hand fighting to strip or weaken their heel grip before the leg switch begins. If you can compromise their grip before the transition starts, the escape window becomes significantly larger when their legs reconfigure.",
+        "answer_line": "Signals switch; strip the grip",
+        "distractors": {
+          "plausible": [
+            "Signals a submission attempt now",
+            "Signals they are losing control"
+          ],
+          "trap": [
+            "Signals to stay still and wait"
+          ]
+        }
       },
       {
         "question": "Why is rotating your hips away from the attacker an effective defense, and what risk does it carry?",
-        "answer": "Hip rotation away from the attacker denies them the perpendicular alignment they need for Cross Ashi-Garami. Without this angle, they cannot achieve optimal finishing leverage even if they complete the leg cross. The risk is that your rotation may expose a different heel angle that the attacker can exploit from an intermediate position between Ushiro and Cross Ashi, potentially creating a submission opportunity that did not exist before."
+        "answer": "Hip rotation away from the attacker denies them the perpendicular alignment they need for Cross Ashi-Garami. Without this angle, they cannot achieve optimal finishing leverage even if they complete the leg cross. The risk is that your rotation may expose a different heel angle that the attacker can exploit from an intermediate position between Ushiro and Cross Ashi, potentially creating a submission opportunity that did not exist before.",
+        "answer_line": "Denies angle, risks new exposure",
+        "distractors": {
+          "plausible": [
+            "Removes all submission risk",
+            "Only works from bottom position"
+          ],
+          "trap": [
+            "Rotate hips into the attacker"
+          ]
+        }
       },
       {
         "question": "Your escape attempt fails and the attacker completes the Cross Ashi configuration - what is your immediate priority?",
-        "answer": "Immediately shift to Cross Ashi-Garami defensive positioning: keep your trapped knee bent with heel toward your hip, sit up to create frames on the attacker's body, and begin aggressive hand fighting to prevent them from locking a heel hook grip. Do not continue attempting the same escape that just failed. Instead, settle into proper defensive structure and look for the next escape opportunity when the attacker adjusts their position or attempts a submission."
+        "answer": "Immediately shift to Cross Ashi-Garami defensive positioning: keep your trapped knee bent with heel toward your hip, sit up to create frames on the attacker's body, and begin aggressive hand fighting to prevent them from locking a heel hook grip. Do not continue attempting the same escape that just failed. Instead, settle into proper defensive structure and look for the next escape opportunity when the attacker adjusts their position or attempts a submission.",
+        "answer_line": "Bend knee, sit up, hand fight",
+        "distractors": {
+          "plausible": [
+            "Repeat the same escape attempt",
+            "Go limp and wait for opening"
+          ],
+          "trap": [
+            "Straighten leg to create space"
+          ]
+        }
       }
     ],
     "training_progressions": [

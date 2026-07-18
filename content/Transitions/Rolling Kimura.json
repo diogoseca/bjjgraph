@@ -290,43 +290,143 @@
     "flashcards": [
       {
         "question": "When is the optimal moment to initiate the Rolling Kimura from Kimura Trap bottom?",
-        "answer": "Roll when the opponent brings their weight toward you, as they posture up and drive forward to flatten you, or as they fight to extract the trapped arm. That incoming pressure is the momentum you redirect. Initiating against a settled, wide base gives you nothing to roll on, so bait the drive or wait for it rather than forcing the rotation into a heavy, balanced opponent."
+        "answer": "Roll when the opponent brings their weight toward you, as they posture up and drive forward to flatten you, or as they fight to extract the trapped arm. That incoming pressure is the momentum you redirect. Initiating against a settled, wide base gives you nothing to roll on, so bait the drive or wait for it rather than forcing the rotation into a heavy, balanced opponent.",
+        "answer_line": "As they drive forward to flatten",
+        "distractors": {
+          "plausible": [
+            "As soon as the grip locks",
+            "When you feel fatigued"
+          ],
+          "trap": [
+            "Force it against a settled base"
+          ]
+        }
       },
       {
         "question": "What grip detail most determines whether the roll succeeds, and where should it sit?",
-        "answer": "The figure-four must sit deep at the opponent's elbow, not their wrist, with their trapped wrist pinned toward their own back. A shallow wrist grip lets the arm straighten and slip during rotation, killing both the sweep and the submission. The elbow-deep lock controls the shoulder joint itself, so the loaded shoulder leads the roll and drags the opponent's upper body over the top with you."
+        "answer": "The figure-four must sit deep at the opponent's elbow, not their wrist, with their trapped wrist pinned toward their own back. A shallow wrist grip lets the arm straighten and slip during rotation, killing both the sweep and the submission. The elbow-deep lock controls the shoulder joint itself, so the loaded shoulder leads the roll and drags the opponent's upper body over the top with you.",
+        "answer_line": "Figure-four deep at the elbow",
+        "distractors": {
+          "plausible": [
+            "Figure-four at the wrist",
+            "Grip just above the elbow"
+          ],
+          "trap": [
+            "Loose grip to save energy"
+          ]
+        }
       },
       {
         "question": "Which direction do you roll, and why does the diagonal angle matter?",
-        "answer": "Tuck your trapped-side shoulder and roll diagonally across it at roughly a 45-degree angle rather than straight backward. The diagonal axis loads the shoulder joint progressively through the arc and keeps your body wrapped tight to the opponent, preserving the chest and hip connection that sweeps them over you. A flat backward roll produces weak, slow leverage and hands the opponent time to strip the grip or base out."
+        "answer": "Tuck your trapped-side shoulder and roll diagonally across it at roughly a 45-degree angle rather than straight backward. The diagonal axis loads the shoulder joint progressively through the arc and keeps your body wrapped tight to the opponent, preserving the chest and hip connection that sweeps them over you. A flat backward roll produces weak, slow leverage and hands the opponent time to strip the grip or base out.",
+        "answer_line": "Diagonal ~45° across the shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight back, no angle",
+            "Diagonal away from shoulder"
+          ],
+          "trap": [
+            "Spin away from their hips"
+          ]
+        }
       },
       {
         "question": "What is the single most common reason a Rolling Kimura dumps the attacker onto the bottom?",
-        "answer": "Rolling away from the opponent instead of rolling them over you. If your hips and chest separate from their body during the rotation, you spin out underneath them and surface on the bottom, often in their guard. Keep your chest and hips wrapped around the opponent the entire time so you roll around and over them, taking them with you rather than vacating the space they fall into."
+        "answer": "Rolling away from the opponent instead of rolling them over you. If your hips and chest separate from their body during the rotation, you spin out underneath them and surface on the bottom, often in their guard. Keep your chest and hips wrapped around the opponent the entire time so you roll around and over them, taking them with you rather than vacating the space they fall into.",
+        "answer_line": "Chest and hips separate",
+        "distractors": {
+          "plausible": [
+            "Grip too loose to hold",
+            "Rolling too slowly"
+          ],
+          "trap": [
+            "Committing shoulder too late"
+          ]
+        }
       },
       {
         "question": "Your opponent widens their base and posts a heavy far leg to refuse the roll. What do you do?",
-        "answer": "Do not fight a strong base with the rotation. Their wide base exposes the far ankle, so hook it and convert the kimura grip into an Old School sweep up to the top, or shift your hips to chase the back take instead. The Rolling Kimura is one branch of the Kimura Trap system, so when the roll is walled off, the same grip feeds the sweep and back-take branches: flow to whichever the opponent's reaction opens."
+        "answer": "Do not fight a strong base with the rotation. Their wide base exposes the far ankle, so hook it and convert the kimura grip into an Old School sweep up to the top, or shift your hips to chase the back take instead. The Rolling Kimura is one branch of the Kimura Trap system, so when the roll is walled off, the same grip feeds the sweep and back-take branches: flow to whichever the opponent's reaction opens.",
+        "answer_line": "Hook far ankle, Old School sweep",
+        "distractors": {
+          "plausible": [
+            "Force the roll harder",
+            "Switch to armbar attack"
+          ],
+          "trap": [
+            "Release grip, reset position"
+          ]
+        }
       },
       {
         "question": "The opponent counter-rolls with your momentum and threatens to come up on top. How do you respond?",
-        "answer": "Never let go of the figure-four. Ride their counter-roll and finish the kimura from wherever you land, since you frequently surface in a top kimura trap anyway. If they overcommit and roll past neutral, release the figure-four and extend the arm into an armbar as they pass. The grip keeps you dangerous regardless of which way the roll resolves, so the cardinal rule is to keep it locked."
+        "answer": "Never let go of the figure-four. Ride their counter-roll and finish the kimura from wherever you land, since you frequently surface in a top kimura trap anyway. If they overcommit and roll past neutral, release the figure-four and extend the arm into an armbar as they pass. The grip keeps you dangerous regardless of which way the roll resolves, so the cardinal rule is to keep it locked.",
+        "answer_line": "Keep the figure-four locked",
+        "distractors": {
+          "plausible": [
+            "Release grip, reset base",
+            "Fight to stop the counter-roll"
+          ],
+          "trap": [
+            "Let go and scramble free"
+          ]
+        }
       },
       {
         "question": "What must be true about your hips before you can launch the roll?",
-        "answer": "Your hips must be live and off the mat, not flattened. The Rolling Kimura needs you to turn onto your trapped-side shoulder and compact your knees toward your chest to set the diagonal axis, which is impossible if the opponent has pancaked your hips to the floor. If you are being flattened, first re-insert a knee shield or recover hip mobility, because the roll is launched from an active, turned hip, not a flat back."
+        "answer": "Your hips must be live and off the mat, not flattened. The Rolling Kimura needs you to turn onto your trapped-side shoulder and compact your knees toward your chest to set the diagonal axis, which is impossible if the opponent has pancaked your hips to the floor. If you are being flattened, first re-insert a knee shield or recover hip mobility, because the roll is launched from an active, turned hip, not a flat back.",
+        "answer_line": "Hips live, off the mat",
+        "distractors": {
+          "plausible": [
+            "Hips flat but relaxed",
+            "Knees extended for base"
+          ],
+          "trap": [
+            "Flatten hips to load power"
+          ]
+        }
       },
       {
         "question": "You complete the roll and come up on top. How do you decide between back control, crucifix, and the top kimura?",
-        "answer": "Read what the opponent gave you on the way up. An exposed back with their arm out of the picture means drive to back control and insert hooks for the highest-value finish. A reachable free arm means trap it between your legs for the crucifix and both-arm control. A still-dominant grip with their arm pinned behind their back means settle into top kimura trap and finish the shoulder. The opening dictates the choice, so decide before you roll and confirm on the way up."
+        "answer": "Read what the opponent gave you on the way up. An exposed back with their arm out of the picture means drive to back control and insert hooks for the highest-value finish. A reachable free arm means trap it between your legs for the crucifix and both-arm control. A still-dominant grip with their arm pinned behind their back means settle into top kimura trap and finish the shoulder. The opening dictates the choice, so decide before you roll and confirm on the way up.",
+        "answer_line": "Read what the opponent gave",
+        "distractors": {
+          "plausible": [
+            "Always default to back control",
+            "Always finish the kimura first"
+          ],
+          "trap": [
+            "Release grip to hunt the back"
+          ]
+        }
       },
       {
         "question": "Why must the figure-four tighten rather than loosen during the rotation?",
-        "answer": "The roll works because the loaded shoulder forces the opponent to rotate with you or accept joint damage, and that pressure is the steering wheel. If the grip loosens mid-roll, the threat evaporates, the opponent frees the arm, and they ride out the rotation to land on top. Pull the figure-four tight to your sternum so it actually tightens as you roll, because the squeeze and the sweep are the same action."
+        "answer": "The roll works because the loaded shoulder forces the opponent to rotate with you or accept joint damage, and that pressure is the steering wheel. If the grip loosens mid-roll, the threat evaporates, the opponent frees the arm, and they ride out the rotation to land on top. Pull the figure-four tight to your sternum so it actually tightens as you roll, because the squeeze and the sweep are the same action.",
+        "answer_line": "Tight grip forces them to rotate",
+        "distractors": {
+          "plausible": [
+            "Tight grip speeds the roll",
+            "Loosen slightly to conserve"
+          ],
+          "trap": [
+            "Loosen it mid-roll to reset"
+          ]
+        }
       },
       {
         "question": "The opponent jams their free forearm into your hip to block the rotation. What are your options?",
-        "answer": "Either collapse the frame before you commit by driving your chest and free hand into it to flatten the arm, or use the frame against them by trapping that framing arm with your leg and rolling into the crucifix. Taking the free arm with you on the roll converts their defensive frame into a both-arms-trapped finish, so a stubborn frame becomes the entry to your most controlling outcome."
+        "answer": "Either collapse the frame before you commit by driving your chest and free hand into it to flatten the arm, or use the frame against them by trapping that framing arm with your leg and rolling into the crucifix. Taking the free arm with you on the roll converts their defensive frame into a both-arms-trapped finish, so a stubborn frame becomes the entry to your most controlling outcome.",
+        "answer_line": "Collapse frame or trap it",
+        "distractors": {
+          "plausible": [
+            "Push through the frame harder",
+            "Switch sides to avoid it"
+          ],
+          "trap": [
+            "Abandon roll, reset guard"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Rolling Kimura loads the shoulder joint under rotational momentum, so it must be drilled with strict progression: start with zero resistance and add speed only over weeks. The attacker must keep the rotation controlled and never jerk or spike the roll, since the combination of body momentum and a locked figure-four can injure the shoulder even without a deliberate finish. Communicate clearly with your partner, drill on soft mats while learning the roll, and have both players confirm tap protocols beforehand. Defenders should tap early to shoulder pressure rather than riding it out, because torn shoulder ligaments and labrum injuries carry long recoveries. In hard rolling and competition, respect that the dynamic nature of the roll can create unexpected joint loading mid-rotation, so maintain awareness and protect your partner at all times.",
@@ -446,23 +546,73 @@
     "flashcards": [
       {
         "question": "What is the highest-percentage window to defend the Rolling Kimura?",
-        "answer": "Before the figure-four locks deep. The moment you feel the bottom player thread under your arm and clamp your wrist, you have a brief window to strip the grip and tuck your elbow tight to your ribs. Once the grip slides to your elbow and your weight commits forward, the loaded shoulder lets them roll you at will, and your defensive success rate drops sharply, so win the grip fight early rather than trying to out-muscle a locked roll."
+        "answer": "Before the figure-four locks deep. The moment you feel the bottom player thread under your arm and clamp your wrist, you have a brief window to strip the grip and tuck your elbow tight to your ribs. Once the grip slides to your elbow and your weight commits forward, the loaded shoulder lets them roll you at will, and your defensive success rate drops sharply, so win the grip fight early rather than trying to out-muscle a locked roll.",
+        "answer_line": "Before the figure-four locks",
+        "distractors": {
+          "plausible": [
+            "Mid-roll, fight the rotation",
+            "After the shoulder loads"
+          ],
+          "trap": [
+            "Wait and out-muscle the lock"
+          ]
+        }
       },
       {
         "question": "Your opponent has locked the kimura grip from the bottom but has not rolled yet. What is your best defense?",
-        "answer": "Widen your base and post your far hand and far leg to deny the rotational axis, while keeping your weight off the trapped-arm side so you do not feed the roll. Keep the threatened elbow tight and avoid driving forward. Without a diagonal axis to roll across, the attacker cannot generate the sweep, but stay alert to the far ankle, because a wide base invites the Old School sweep as the next branch."
+        "answer": "Widen your base and post your far hand and far leg to deny the rotational axis, while keeping your weight off the trapped-arm side so you do not feed the roll. Keep the threatened elbow tight and avoid driving forward. Without a diagonal axis to roll across, the attacker cannot generate the sweep, but stay alert to the far ankle, because a wide base invites the Old School sweep as the next branch.",
+        "answer_line": "Widen base, post far limbs",
+        "distractors": {
+          "plausible": [
+            "Drive forward to flatten them",
+            "Pull the trapped arm free"
+          ],
+          "trap": [
+            "Load weight onto trapped side"
+          ]
+        }
       },
       {
         "question": "Why is driving your weight forward into a Kimura Trap bottom player so dangerous?",
-        "answer": "Your forward pressure is the engine of the Rolling Kimura. The bottom player times the roll to your incoming weight, redirecting it so you roll over the top while your shoulder stays loaded. Lunging forward into a player who already controls your arm essentially powers your own sweep and back take. Keep a wide, controlled base and post to the side instead of committing your weight over them."
+        "answer": "Your forward pressure is the engine of the Rolling Kimura. The bottom player times the roll to your incoming weight, redirecting it so you roll over the top while your shoulder stays loaded. Lunging forward into a player who already controls your arm essentially powers your own sweep and back take. Keep a wide, controlled base and post to the side instead of committing your weight over them.",
+        "answer_line": "It powers their roll",
+        "distractors": {
+          "plausible": [
+            "It only risks a stack pass",
+            "It just wastes energy"
+          ],
+          "trap": [
+            "Drive harder to flatten them"
+          ]
+        }
       },
       {
         "question": "The roll has already started and you cannot stop it. What do you do?",
-        "answer": "Stop fighting to stay put and commit to riding the roll. Post your free hand, follow their rotation, and drive your weight through so you land on top with the attacker dumped onto the bottom in turtle. Counter-rolling at the peak of their momentum weakens the grip's angle and is far better than being slowly dragged over into a surrendered back. Throughout, keep the shoulder safe and tap to real joint pressure."
+        "answer": "Stop fighting to stay put and commit to riding the roll. Post your free hand, follow their rotation, and drive your weight through so you land on top with the attacker dumped onto the bottom in turtle. Counter-rolling at the peak of their momentum weakens the grip's angle and is far better than being slowly dragged over into a surrendered back. Throughout, keep the shoulder safe and tap to real joint pressure.",
+        "answer_line": "Commit and ride it through",
+        "distractors": {
+          "plausible": [
+            "Brace and resist the rotation",
+            "Try to reverse it immediately"
+          ],
+          "trap": [
+            "Fight to stay flat on back"
+          ]
+        }
       },
       {
         "question": "Why should shoulder safety take priority over keeping the position when defending the Rolling Kimura?",
-        "answer": "Because the technique loads the shoulder under rotational momentum, riding out heavy kimura pressure to save a position risks a torn labrum or ligaments with a long recovery. A lost position is recoverable in seconds, but a blown-out shoulder costs months. If you feel genuine joint pressure and your counter is not there, tap, because protecting the arm keeps you training, which matters more than any single exchange."
+        "answer": "Because the technique loads the shoulder under rotational momentum, riding out heavy kimura pressure to save a position risks a torn labrum or ligaments with a long recovery. A lost position is recoverable in seconds, but a blown-out shoulder costs months. If you feel genuine joint pressure and your counter is not there, tap, because protecting the arm keeps you training, which matters more than any single exchange.",
+        "answer_line": "Injury costs far more than position",
+        "distractors": {
+          "plausible": [
+            "Position loss ends the match",
+            "Tapping shows weakness"
+          ],
+          "trap": [
+            "Fight through real joint pain"
+          ]
+        }
       }
     ],
     "training_progressions": [

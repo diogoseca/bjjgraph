@@ -254,87 +254,171 @@
     "flashcards": [
       {
         "question": "What is the key difference between threading your arm for an anaconda choke versus a Darce choke from the front headlock position?",
-        "answer": "The anaconda choke threads from the near side under the opponent's neck, wrapping around to trap their near arm against their own neck. The Darce choke threads from the far side, going over the opponent's trapped arm before diving under their neck. The arm threading direction is essentially opposite between the two techniques, though both end in similar grip configurations."
+        "answer": "The anaconda choke threads from the near side under the opponent's neck, wrapping around to trap their near arm against their own neck. The Darce choke threads from the far side, going over the opponent's trapped arm before diving under their neck. The arm threading direction is essentially opposite between the two techniques, though both end in similar grip configurations.",
+        "answer_line": "Near side for anaconda, not far",
+        "distractors": {
+          "plausible": [
+            "Far side for anaconda choke",
+            "Same arm direction both ways"
+          ],
+          "trap": [
+            "Thread over their trapped arm"
+          ]
+        }
       },
       {
         "question": "Why is it critical to break the opponent's near-side posting arm before attempting to thread your choking arm?",
-        "answer": "Breaking the posting arm eliminates the opponent's ability to base out and creates a moment of instability where their weight shifts to their far arm. This brief window prevents them from sitting back to guard or turning into you during the vulnerable arm-threading phase. Without breaking this base first, the opponent maintains enough stability to defend the setup easily."
+        "answer": "Breaking the posting arm eliminates the opponent's ability to base out and creates a moment of instability where their weight shifts to their far arm. This brief window prevents them from sitting back to guard or turning into you during the vulnerable arm-threading phase. Without breaking this base first, the opponent maintains enough stability to defend the setup easily.",
+        "answer_line": "Break base before threading arm",
+        "distractors": {
+          "plausible": [
+            "Thread arm before breaking base",
+            "Break far-side post instead"
+          ],
+          "trap": [
+            "Skip the post, dive for neck"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent begins rolling through toward your choking arm side during the setup?",
-        "answer": "You should follow the roll while maintaining your anaconda grip, allowing your body to move with them. As they roll, you can either take their back as they expose it, or end up in a mounted position with the anaconda still locked. The key is not to resist the roll but to flow with it while keeping your grip configuration intact. Many successful anaconda finishes come from mounted position after the opponent rolls through."
+        "answer": "You should follow the roll while maintaining your anaconda grip, allowing your body to move with them. As they roll, you can either take their back as they expose it, or end up in a mounted position with the anaconda still locked. The key is not to resist the roll but to flow with it while keeping your grip configuration intact. Many successful anaconda finishes come from mounted position after the opponent rolls through.",
+        "answer_line": "Follow the roll, keep grip",
+        "distractors": {
+          "plausible": [
+            "Resist roll, reset position",
+            "Release grip, follow roll"
+          ],
+          "trap": [
+            "Stop roll, force flat position"
+          ]
+        }
       },
       {
         "question": "What specific anatomical landmark should you aim for when threading your choking arm to ensure proper depth?",
-        "answer": "You should aim to reach their far shoulder blade with your fingertips, or at minimum, drive your hand past their far shoulder. This ensures your arm is threaded deeply enough to trap their arm effectively against their own neck and create the necessary compression for a successful choke. Shallow threading is one of the most common errors that leads to failed setups."
+        "answer": "You should aim to reach their far shoulder blade with your fingertips, or at minimum, drive your hand past their far shoulder. This ensures your arm is threaded deeply enough to trap their arm effectively against their own neck and create the necessary compression for a successful choke. Shallow threading is one of the most common errors that leads to failed setups.",
+        "answer_line": "Reach past their far shoulder",
+        "distractors": {
+          "plausible": [
+            "Reach their near shoulder",
+            "Grab opposite hip instead"
+          ],
+          "trap": [
+            "Stop at their spine, lock up"
+          ]
+        }
       },
       {
         "question": "Explain the relationship between hip height and control during the anaconda setup, and why this matters for preventing common escapes?",
         "answer": "Keeping your hips lower than your opponent's throughout the setup maintains top pressure and prevents rolls and leg attacks. High hips elevate your center of gravity, making you top-heavy and easier to roll or sweep. Low hips create downward pressure that pins the opponent and makes it very difficult for them to generate the momentum needed for escape attempts. The low hip position also protects against single leg attacks since your legs are positioned defensively rather than extended and vulnerable.",
         "distractors": {
           "plausible": [
-            "Raising your hips above the opponent's back maximizes pressure by letting you drive your full body weight down through the chest.",
-            "Hip height only matters during the finishing squeeze; during the setup itself the hips should stay high for mobility."
+            "Keep hips level with theirs",
+            "Raise hips for more torque"
           ],
           "trap": [
-            "Drive your hips up and over their back to load all your weight onto them, since greater height means greater pressure."
+            "Post hips high, drive forward"
           ]
-        }
+        },
+        "answer_line": "Keep hips lower than theirs"
       },
       {
         "question": "When should you consider switching from an anaconda setup to a Darce setup, and what is the primary indicator that triggers this decision?",
         "answer": "Switch to the Darce when the opponent tucks their near arm tight to their body, making it impossible to trap for the anaconda. The primary indicator is that when you attempt to thread your arm from the near side, you cannot get deep enough because their arm is glued to their ribs. In this scenario, switching to the Darce (threading from the far side to trap their far arm instead) becomes the higher percentage option. Advanced practitioners flow between both setups based on which arm the opponent exposes.",
         "distractors": {
           "plausible": [
-            "Switch to the Darce when the opponent tucks their far arm tight to their body, since the anaconda depends on trapping the far arm.",
-            "Switch to the Darce whenever the opponent begins to sit through, because the anaconda only works against a flat, static turtle."
+            "Far arm tucked to ribs",
+            "Opponent postures up strongly"
           ],
           "trap": [
-            "Keep forcing the anaconda thread even when the near arm is glued to their ribs, because persistent digging always pries the arm free."
+            "Force the anaconda regardless"
           ]
-        }
+        },
+        "answer_line": "Near arm tucked tight to ribs"
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin threading - what adjustment should you make to complete the setup?",
         "answer": "Drive more shoulder pressure into their head to collapse their posture while accelerating your arm thread to beat their reaction. Forcing them to carry your weight prevents them from posting effectively. If the post is strong, use your free hand to control their posting wrist while continuing to thread, or walk your hips toward their head to increase the angle of pressure and make their post ineffective.",
         "distractors": {
           "plausible": [
-            "Pause your threading and fully reset the front headlock grip first, then restart the setup once their post disappears.",
-            "Walk your hips back toward their legs to lower your base and widen your sprawl before continuing to thread the arm."
+            "Release grip, reset angle",
+            "Wait for post to tire out"
           ],
           "trap": [
-            "Release the head control and grab their posting wrist with both hands to strip the post before re-entering the headlock."
+            "Let go and circle around"
+          ]
+        },
+        "answer_line": "Collapse posture, thread faster"
+      },
+      {
+        "question": "What is the most critical hip movement during the transition from front headlock to secured anaconda grip?",
+        "answer": "The most critical hip movement is walking your hips away from the opponent and toward an angle perpendicular to their spine while keeping them low. This creates the leverage necessary to maintain top pressure and prevents the opponent from turning into you. Moving your hips away also lengthens your body relative to theirs, which tightens the anaconda configuration and makes it harder for them to extract their trapped arm.",
+        "answer_line": "Walk hips perpendicular, low",
+        "distractors": {
+          "plausible": [
+            "Walk hips toward opponent",
+            "Square hips, stay parallel"
+          ],
+          "trap": [
+            "Raise hips, spin around fast"
           ]
         }
       },
       {
-        "question": "What is the most critical hip movement during the transition from front headlock to secured anaconda grip?",
-        "answer": "The most critical hip movement is walking your hips away from the opponent and toward an angle perpendicular to their spine while keeping them low. This creates the leverage necessary to maintain top pressure and prevents the opponent from turning into you. Moving your hips away also lengthens your body relative to theirs, which tightens the anaconda configuration and makes it harder for them to extract their trapped arm."
-      },
-      {
         "question": "What grip configuration provides the strongest anaconda control, and why is grip placement relative to your body important?",
-        "answer": "The gable grip (palm-to-palm) provides the strongest structural integrity. The grip must be secured tight to your own chest/sternum, not extended away from your body. When the grip is close to your body, your elbows naturally pull inward, creating maximum compression. Extended grips create space the opponent can exploit to turn into you or extract their arm. Think of your forearms and chest as a triangle that must collapse completely around their neck and arm."
+        "answer": "The gable grip (palm-to-palm) provides the strongest structural integrity. The grip must be secured tight to your own chest/sternum, not extended away from your body. When the grip is close to your body, your elbows naturally pull inward, creating maximum compression. Extended grips create space the opponent can exploit to turn into you or extract their arm. Think of your forearms and chest as a triangle that must collapse completely around their neck and arm.",
+        "answer_line": "Gable grip tight to chest",
+        "distractors": {
+          "plausible": [
+            "Gable grip extended out",
+            "S-grip tight to chest"
+          ],
+          "trap": [
+            "Loose grip, extend for reach"
+          ]
+        }
       },
       {
         "question": "Your opponent begins a granby roll escape as you're establishing the anaconda grip - should you follow or disengage?",
-        "answer": "You should absolutely follow the roll while maintaining your grip. The granby roll actually helps you if you stay connected - their momentum assists the transition to mounted anaconda position. Keep your chest glued to their back throughout the rotation and use their movement to tighten your grip. Disengaging would waste the positional advantage you've established and give them a free escape to guard recovery."
+        "answer": "You should absolutely follow the roll while maintaining your grip. The granby roll actually helps you if you stay connected - their momentum assists the transition to mounted anaconda position. Keep your chest glued to their back throughout the rotation and use their movement to tighten your grip. Disengaging would waste the positional advantage you've established and give them a free escape to guard recovery.",
+        "answer_line": "Follow roll, keep chest glued",
+        "distractors": {
+          "plausible": [
+            "Disengage, reset position",
+            "Release grip, chase legs"
+          ],
+          "trap": [
+            "Stop roll, sprawl backward"
+          ]
+        }
       },
       {
         "question": "What are the entry requirements that must exist before you can successfully attempt the anaconda setup from turtle?",
         "answer": "You need front headlock control, an accessible near arm, angled chest pressure on their upper back, and hips lower than theirs. Specifically: 1) At least one hand must be securing their head in front headlock, 2) Their near-side arm must not be completely tucked to their body, 3) Your body must be perpendicular or angled to their spine with chest pressure on their upper back, and 4) Your hips must stay lower than theirs to maintain downward pressure. Missing any of these requirements significantly reduces success probability.",
         "distractors": {
           "plausible": [
-            "You need front headlock control, an exposed far arm, chest pressure on their upper back, and hips lower than theirs.",
-            "You need front headlock control, an accessible near arm, chest pressure, and hips higher than theirs to drive weight down."
+            "Far arm exposed, high hips",
+            "Back control, near arm free"
           ],
           "trap": [
-            "The only true requirement is a deep chin-strap grip; arm access and hip position sort themselves out once you start threading."
+            "Any grip on head is enough"
           ]
-        }
+        },
+        "answer_line": "Headlock, near arm, low hips"
       },
       {
         "question": "If your anaconda setup is blocked and the opponent successfully tucks their arm, what chain attack should you transition to?",
-        "answer": "The primary chain attack when the near arm is tucked is the Darce choke setup, which threads from the opposite direction to trap their far arm instead. Secondary options include transitioning to a guillotine if they lift their head to create space, or circling to their back if they over-commit to defending the front headlock. The key is recognizing which arm becomes available based on their defensive reaction and flowing to the appropriate attack rather than forcing the anaconda."
+        "answer": "The primary chain attack when the near arm is tucked is the Darce choke setup, which threads from the opposite direction to trap their far arm instead. Secondary options include transitioning to a guillotine if they lift their head to create space, or circling to their back if they over-commit to defending the front headlock. The key is recognizing which arm becomes available based on their defensive reaction and flowing to the appropriate attack rather than forcing the anaconda.",
+        "answer_line": "Switch to Darce setup",
+        "distractors": {
+          "plausible": [
+            "Switch to guillotine first",
+            "Abandon attack, reset guard"
+          ],
+          "trap": [
+            "Force deeper anaconda thread"
+          ]
+        }
       }
     ],
     "safety_considerations": "The anaconda setup itself is relatively safe compared to the finishing mechanics of the choke. However, practitioners should be aware of several safety considerations. When drilling, ensure your partner can tap easily with their free hand - never trap both arms during training. Be mindful of neck cranking pressure when securing the position; the goal is a blood choke, not a neck crank. Partners with neck injuries should communicate this before drilling front headlock positions. When your opponent rolls through during the setup, control the speed of the roll to prevent neck strain or whiplash-type movements. In live training, if you feel excessive pressure on your neck rather than the carotid arteries, tap immediately and communicate this to your partner. The setup phase allows more time for communication than the finish, so use this time to ensure proper technique that targets the blood flow rather than the cervical spine. Beginners should focus on control and positioning rather than speed and power when learning this setup to develop safe habits that carry over to advanced training.",
@@ -456,27 +540,87 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action when you feel your opponent beginning to thread their arm for an anaconda setup?",
-        "answer": "Immediately tuck your near-side arm tight to your ribs with your elbow glued to your body and your hand near your chin. The anaconda requires trapping your arm against your neck, so removing your arm from the available space denies the fundamental mechanical requirement of the choke. This should be your first reflex before any escape attempt, because if the arm-in configuration is denied, the anaconda cannot be completed regardless of how deep the attacker threads."
+        "answer": "Immediately tuck your near-side arm tight to your ribs with your elbow glued to your body and your hand near your chin. The anaconda requires trapping your arm against your neck, so removing your arm from the available space denies the fundamental mechanical requirement of the choke. This should be your first reflex before any escape attempt, because if the arm-in configuration is denied, the anaconda cannot be completed regardless of how deep the attacker threads.",
+        "answer_line": "Tuck near arm to ribs",
+        "distractors": {
+          "plausible": [
+            "Post hands, stand up first",
+            "Grab their wrist immediately"
+          ],
+          "trap": [
+            "Extend arm to block thread"
+          ]
+        }
       },
       {
         "question": "Your opponent has begun threading their arm under your neck but hasn't locked the grip yet - should you sit back to guard or circle away?",
-        "answer": "The decision depends on how deep the threading is and your arm position. If the threading is shallow and your near arm is still free, sitting back to guard is highest percentage because it completely removes you from the front headlock position. If the threading is moderate and your arm is partially trapped, circling away from the choking arm side while fighting their wrist is safer because sitting back with a partially locked grip can result in the attacker following you down and finishing mounted. The key indicator is whether your near arm is free - if yes, sit back; if partially trapped, circle and fight the arm."
+        "answer": "The decision depends on how deep the threading is and your arm position. If the threading is shallow and your near arm is still free, sitting back to guard is highest percentage because it completely removes you from the front headlock position. If the threading is moderate and your arm is partially trapped, circling away from the choking arm side while fighting their wrist is safer because sitting back with a partially locked grip can result in the attacker following you down and finishing mounted. The key indicator is whether your near arm is free - if yes, sit back; if partially trapped, circle and fight the arm.",
+        "answer_line": "Free arm: sit back to guard",
+        "distractors": {
+          "plausible": [
+            "Always circle away first",
+            "Trapped arm: sit back guard"
+          ],
+          "trap": [
+            "Sit back with arm half-trapped"
+          ]
+        }
       },
       {
         "question": "Why is lifting your head during anaconda defense considered one of the worst defensive errors?",
-        "answer": "Lifting your head extends your neck, which creates more surface area for the choke and makes it easier for the attacker to thread their arm deeply under your chin and around your neck. The extended neck also opens the carotid arteries to compression and can transition the attack directly into a guillotine if the attacker adjusts. Keeping your chin tucked creates a structural barrier that the attacker must work around, buying time for your defensive actions and reducing the effectiveness of any choking pressure they can generate."
+        "answer": "Lifting your head extends your neck, which creates more surface area for the choke and makes it easier for the attacker to thread their arm deeply under your chin and around your neck. The extended neck also opens the carotid arteries to compression and can transition the attack directly into a guillotine if the attacker adjusts. Keeping your chin tucked creates a structural barrier that the attacker must work around, buying time for your defensive actions and reducing the effectiveness of any choking pressure they can generate.",
+        "answer_line": "Extending neck aids the choke",
+        "distractors": {
+          "plausible": [
+            "Lifting head speeds escape",
+            "Tucking chin weakens defense"
+          ],
+          "trap": [
+            "Lift head, look for space"
+          ]
+        }
       },
       {
         "question": "How do you time a technical standup escape against the anaconda setup, and what conditions must exist?",
-        "answer": "The standup must be timed when the attacker's weight is high on your back and their hips are elevated, which creates space underneath you to drive upward. The conditions required are: the grip is not yet locked, your chin is tucked, and you have at least one hand free to post on the mat for the standup. Explode upward by posting your hands, extending your legs, and turning to face the opponent in one explosive sequence. If the attacker's weight is low and their chest is heavy on your back, the standup will stall and leave you in a worse position."
+        "answer": "The standup must be timed when the attacker's weight is high on your back and their hips are elevated, which creates space underneath you to drive upward. The conditions required are: the grip is not yet locked, your chin is tucked, and you have at least one hand free to post on the mat for the standup. Explode upward by posting your hands, extending your legs, and turning to face the opponent in one explosive sequence. If the attacker's weight is low and their chest is heavy on your back, the standup will stall and leave you in a worse position.",
+        "answer_line": "Standup when weight is high",
+        "distractors": {
+          "plausible": [
+            "Standup when weight is low",
+            "Standup once grip is locked"
+          ],
+          "trap": [
+            "Stand up with chin lifted"
+          ]
+        }
       },
       {
         "question": "Your opponent switches from anaconda threading to Darce threading because you tucked your near arm - what does this tell you and how should you adjust?",
-        "answer": "This tells you that your arm-tucking defense was successful in denying the anaconda, but now the attacker is targeting your far arm instead by threading from the opposite side. You need to adjust by now protecting the far arm while maintaining your near-arm tuck. The Darce requires them to underhook your far arm and thread under your neck from that side. Create distance by circling toward the Darce side (opposite direction from anaconda defense), fight their threading arm, and look for opportunities to sit back to guard or stand up while they are transitioning between attacks."
+        "answer": "This tells you that your arm-tucking defense was successful in denying the anaconda, but now the attacker is targeting your far arm instead by threading from the opposite side. You need to adjust by now protecting the far arm while maintaining your near-arm tuck. The Darce requires them to underhook your far arm and thread under your neck from that side. Create distance by circling toward the Darce side (opposite direction from anaconda defense), fight their threading arm, and look for opportunities to sit back to guard or stand up while they are transitioning between attacks.",
+        "answer_line": "Defense worked, now guard far arm",
+        "distractors": {
+          "plausible": [
+            "Switch attacks failed, relax",
+            "Tuck far arm, forget near arm"
+          ],
+          "trap": [
+            "Drop near-arm tuck to counter"
+          ]
+        }
       },
       {
         "question": "What is the optimal direction to circle when defending the anaconda setup, and why does direction matter?",
-        "answer": "Circle away from the choking arm side - meaning if they are threading their right arm under your neck, circle to your left. This direction matters because circling away from the choking arm increases the distance their arm must travel to complete the loop, making it progressively harder to secure the grip. Circling toward the choking arm compresses the space and actually assists the threading by shortening the distance. Additionally, circling away tends to open space for guard recovery or standup attempts as the attacker must chase your movement."
+        "answer": "Circle away from the choking arm side - meaning if they are threading their right arm under your neck, circle to your left. This direction matters because circling away from the choking arm increases the distance their arm must travel to complete the loop, making it progressively harder to secure the grip. Circling toward the choking arm compresses the space and actually assists the threading by shortening the distance. Additionally, circling away tends to open space for guard recovery or standup attempts as the attacker must chase your movement.",
+        "answer_line": "Circle away from choking arm",
+        "distractors": {
+          "plausible": [
+            "Circle toward choking arm",
+            "Circle direction doesn't matter"
+          ],
+          "trap": [
+            "Circle into the threading arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

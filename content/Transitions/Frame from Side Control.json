@@ -249,35 +249,115 @@
     "flashcards": [
       {
         "question": "What is the optimal forearm contact surface for creating sustainable frames under heavy side control pressure?",
-        "answer": "The ulna bone edge of the forearm creates the strongest structural frame. Rotate your forearm so the bony edge contacts the opponent's hip bone or shoulder joint directly. This bone-on-bone contact creates a load-bearing structure that sustains under heavy pressure without muscular fatigue, unlike palm or finger contact which relies on grip strength and collapses rapidly. The key is skeletal alignment where force transfers through bone rather than through muscle contraction."
+        "answer": "The ulna bone edge of the forearm creates the strongest structural frame. Rotate your forearm so the bony edge contacts the opponent's hip bone or shoulder joint directly. This bone-on-bone contact creates a load-bearing structure that sustains under heavy pressure without muscular fatigue, unlike palm or finger contact which relies on grip strength and collapses rapidly. The key is skeletal alignment where force transfers through bone rather than through muscle contraction.",
+        "answer_line": "Ulna edge into hip/shoulder bone",
+        "distractors": {
+          "plausible": [
+            "Palm flat against their hip",
+            "Fingertips pressing into ribs"
+          ],
+          "trap": [
+            "Grip their far arm sleeve"
+          ]
+        }
       },
       {
         "question": "Your opponent has fully settled their chest weight and you cannot insert a frame against their hip. How do you create the initial opening?",
-        "answer": "Use a small, controlled bridge to momentarily lighten their chest pressure. The bridge does not need to be explosive or high; even lifting your hips one inch off the mat shifts their weight distribution enough to create a frame insertion window. Time the bridge with their exhalation for maximum effect. As their weight shifts during the bridge apex, immediately insert your forearm frame against their hip before they re-settle. The bridge is a frame-enabling tool, not an escape attempt itself."
+        "answer": "Use a small, controlled bridge to momentarily lighten their chest pressure. The bridge does not need to be explosive or high; even lifting your hips one inch off the mat shifts their weight distribution enough to create a frame insertion window. Time the bridge with their exhalation for maximum effect. As their weight shifts during the bridge apex, immediately insert your forearm frame against their hip before they re-settle. The bridge is a frame-enabling tool, not an escape attempt itself.",
+        "answer_line": "Small bridge, then insert frame",
+        "distractors": {
+          "plausible": [
+            "Explosive bridge to buck them off",
+            "Wait for them to shift on own"
+          ],
+          "trap": [
+            "Big explosive bridge and roll"
+          ]
+        }
       },
       {
         "question": "Why should your elbow remain bent at approximately 90 degrees during framing rather than using a straight arm push?",
-        "answer": "A bent elbow frame creates a structural triangle between your forearm, upper arm, and torso that distributes force through skeletal alignment. A straight arm push relies on shoulder and tricep muscle strength which fatigues rapidly and, critically, creates an extended arm that the opponent can easily isolate for kimura or americana submissions. The 90-degree bend also keeps your elbow connected to your ribs, preventing the opponent from wedging between your arm and body to collapse the frame."
+        "answer": "A bent elbow frame creates a structural triangle between your forearm, upper arm, and torso that distributes force through skeletal alignment. A straight arm push relies on shoulder and tricep muscle strength which fatigues rapidly and, critically, creates an extended arm that the opponent can easily isolate for kimura or americana submissions. The 90-degree bend also keeps your elbow connected to your ribs, preventing the opponent from wedging between your arm and body to collapse the frame.",
+        "answer_line": "Bend elbow, tuck to ribs",
+        "distractors": {
+          "plausible": [
+            "Straight arm push for reach",
+            "Bent elbow away from body"
+          ],
+          "trap": [
+            "Fully extend arm to push off"
+          ]
+        }
       },
       {
         "question": "Your opponent begins walking their hips toward your head while you have a hip frame established. What adjustment do you make?",
-        "answer": "Their hip walk indicates a mount transition attempt. Immediately redirect your hip frame from their hip bone to blocking their near-side knee from stepping over your body. Drive your own near-side knee toward their advancing leg to create a knee shield barrier. The hip frame must transform into a mount prevention frame instantly because accepting mount is a worse outcome than losing the frame position. Use the space your existing frame created to execute a hip escape that gets your knee between the bodies."
+        "answer": "Their hip walk indicates a mount transition attempt. Immediately redirect your hip frame from their hip bone to blocking their near-side knee from stepping over your body. Drive your own near-side knee toward their advancing leg to create a knee shield barrier. The hip frame must transform into a mount prevention frame instantly because accepting mount is a worse outcome than losing the frame position. Use the space your existing frame created to execute a hip escape that gets your knee between the bodies.",
+        "answer_line": "Block knee, shield vs mount",
+        "distractors": {
+          "plausible": [
+            "Keep hip frame, ignore knee",
+            "Push their head back down"
+          ],
+          "trap": [
+            "Let them mount, escape later"
+          ]
+        }
       },
       {
         "question": "What is the two-point frame dilemma and why does it make the top player's consolidation more difficult?",
-        "answer": "The two-point frame dilemma uses simultaneous hip frame and shoulder frame to create a defensive structure the opponent cannot collapse with a single pressure adjustment. To collapse the hip frame, they must shift weight toward your hips, which lightens pressure on the shoulder frame and allows it to expand. To collapse the shoulder frame, they must drive chest weight forward, which lifts their hips and allows the hip frame to create space. This forces the opponent into a sequential frame-by-frame collapse rather than a single adjustment, buying time and creating multiple windows for hip escape."
+        "answer": "The two-point frame dilemma uses simultaneous hip frame and shoulder frame to create a defensive structure the opponent cannot collapse with a single pressure adjustment. To collapse the hip frame, they must shift weight toward your hips, which lightens pressure on the shoulder frame and allows it to expand. To collapse the shoulder frame, they must drive chest weight forward, which lifts their hips and allows the hip frame to create space. This forces the opponent into a sequential frame-by-frame collapse rather than a single adjustment, buying time and creating multiple windows for hip escape.",
+        "answer_line": "Hip + shoulder frame together",
+        "distractors": {
+          "plausible": [
+            "Strongest single elbow frame",
+            "Alternate frames one at a time"
+          ],
+          "trap": [
+            "Avoid two frames, wastes energy"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your framing wrist and begins pinning it to the mat. How do you respond without losing the frame?",
-        "answer": "Immediately pull your elbow tight to your ribs and rotate your forearm inward, making the wrist grab mechanically weaker by changing the angle. If they persist, use their grip commitment as an escape window: their hands are now controlling your arm rather than maintaining crossface and underhook, which reduces their overall positional control. Execute a hip escape toward the side opposite their grip while they are occupied with your arm. If escape is not possible, maintain elbow-to-rib connection and grip your own belt or pants to prevent full arm isolation and kimura setup."
+        "answer": "Immediately pull your elbow tight to your ribs and rotate your forearm inward, making the wrist grab mechanically weaker by changing the angle. If they persist, use their grip commitment as an escape window: their hands are now controlling your arm rather than maintaining crossface and underhook, which reduces their overall positional control. Execute a hip escape toward the side opposite their grip while they are occupied with your arm. If escape is not possible, maintain elbow-to-rib connection and grip your own belt or pants to prevent full arm isolation and kimura setup.",
+        "answer_line": "Rotate wrist, pull elbow in",
+        "distractors": {
+          "plausible": [
+            "Yank arm free with strength",
+            "Grip fight for wrist control"
+          ],
+          "trap": [
+            "Post palm flat, extend arm"
+          ]
+        }
       },
       {
         "question": "When during the opponent's breathing cycle should you attempt to insert a new frame, and why?",
-        "answer": "Insert frames during the opponent's exhalation phase. During exhalation, their chest cavity contracts and their muscular tension temporarily decreases, creating a measurable lightening of chest pressure. This window typically lasts 1-2 seconds but provides enough pressure relief to slide a forearm frame into position. Attempting frame insertion during their inhalation phase fights against expanding chest pressure and maximum muscular engagement, making success significantly less likely and energy expenditure much higher."
+        "answer": "Insert frames during the opponent's exhalation phase. During exhalation, their chest cavity contracts and their muscular tension temporarily decreases, creating a measurable lightening of chest pressure. This window typically lasts 1-2 seconds but provides enough pressure relief to slide a forearm frame into position. Attempting frame insertion during their inhalation phase fights against expanding chest pressure and maximum muscular engagement, making success significantly less likely and energy expenditure much higher.",
+        "answer_line": "Insert frame on their exhale",
+        "distractors": {
+          "plausible": [
+            "Insert frame on their inhale",
+            "Time it with your own breath"
+          ],
+          "trap": [
+            "Push hardest during their inhale"
+          ]
+        }
       },
       {
         "question": "What is the difference between this technique and the full Escape Side Control, and why is framing a prerequisite?",
-        "answer": "Frame from Side Control targets an incremental improvement: disrupting consolidation and returning to standard side control bottom with active frames. Escape Side Control targets full guard recovery through elbow escape, hip escape, or ghost escape sequences. Framing is the prerequisite because without structural barriers preventing the opponent from following your movement, hip escapes and guard recovery attempts fail. The opponent simply follows your shrimp and re-pins you. Frames create the space that makes escape mechanics functional."
+        "answer": "Frame from Side Control targets an incremental improvement: disrupting consolidation and returning to standard side control bottom with active frames. Escape Side Control targets full guard recovery through elbow escape, hip escape, or ghost escape sequences. Framing is the prerequisite because without structural barriers preventing the opponent from following your movement, hip escapes and guard recovery attempts fail. The opponent simply follows your shrimp and re-pins you. Frames create the space that makes escape mechanics functional.",
+        "answer_line": "Frame enables the full escape",
+        "distractors": {
+          "plausible": [
+            "Frame replaces need to escape",
+            "Escape first, then add frames"
+          ],
+          "trap": [
+            "Skip frames, shrimp immediately"
+          ]
+        }
       }
     ],
     "safety_considerations": "This is a defensive technique with minimal injury risk to either practitioner when performed correctly. The primary safety concern is arm isolation leading to shoulder submissions (kimura, americana) if the framing arm becomes extended and trapped. Always maintain bent elbows during framing and immediately prioritize arm recovery over frame maintenance if the opponent secures wrist control. Training partners should apply consolidation pressure progressively, starting at low intensity to allow the bottom player to develop frame timing before increasing to competition-level pressure. Tap immediately if any shoulder lock develops during frame training.",
@@ -385,15 +465,45 @@
     "flashcards": [
       {
         "question": "What is the most effective timing to collapse a bottom player's frame attempt?",
-        "answer": "The most effective moment is immediately upon insertion, within 1-2 seconds, before the bottom player reinforces the frame with a hip angle change. At the point of insertion, the frame relies primarily on muscular effort to hold position. Once the bottom player executes even a small hip escape that aligns the frame with their skeletal structure, the frame becomes load-bearing through bone rather than muscle and becomes dramatically harder to collapse. Early recognition through feeling the forearm bone contact against your body is the key skill."
+        "answer": "The most effective moment is immediately upon insertion, within 1-2 seconds, before the bottom player reinforces the frame with a hip angle change. At the point of insertion, the frame relies primarily on muscular effort to hold position. Once the bottom player executes even a small hip escape that aligns the frame with their skeletal structure, the frame becomes load-bearing through bone rather than muscle and becomes dramatically harder to collapse. Early recognition through feeling the forearm bone contact against your body is the key skill.",
+        "answer_line": "Collapse frame right on insertion",
+        "distractors": {
+          "plausible": [
+            "Wait for hip escape, then collapse",
+            "Collapse after they settle in"
+          ],
+          "trap": [
+            "Wait several seconds to react"
+          ]
+        }
       },
       {
         "question": "Your opponent establishes a solid hip frame that you cannot collapse with direct pressure. What is your best alternative response?",
-        "answer": "Rather than fighting a structurally sound frame directly, swim your underhook arm past the frame and re-establish chest contact from a new angle that the frame does not address. Alternatively, use the space the frame creates to advance to mount by stepping your near leg over their hip line. A structurally locked frame with proper skeletal alignment will outlast muscular collapse attempts, so changing the engagement angle or advancing position is more energy-efficient than direct confrontation."
+        "answer": "Rather than fighting a structurally sound frame directly, swim your underhook arm past the frame and re-establish chest contact from a new angle that the frame does not address. Alternatively, use the space the frame creates to advance to mount by stepping your near leg over their hip line. A structurally locked frame with proper skeletal alignment will outlast muscular collapse attempts, so changing the engagement angle or advancing position is more energy-efficient than direct confrontation.",
+        "answer_line": "Swim underhook, change angle",
+        "distractors": {
+          "plausible": [
+            "Push straight through frame",
+            "Grab wrist and rip it off"
+          ],
+          "trap": [
+            "Force pressure straight into frame"
+          ]
+        }
       },
       {
         "question": "How do you preemptively prevent the bottom player from constructing frames during consolidation?",
-        "answer": "Control both key framing tools before they can be deployed. Establish your underhook deep enough to pin or redirect their far arm, preventing it from reaching your hip for frame placement. Drive crossface pressure deep enough that their near-side arm is occupied defending their face rather than constructing elbow wedges. Maintain heavy chest-to-chest contact that eliminates the space needed for forearm insertion between bodies. The best frame defense is making frame construction physically impossible through proactive arm control and pressure maintenance."
+        "answer": "Control both key framing tools before they can be deployed. Establish your underhook deep enough to pin or redirect their far arm, preventing it from reaching your hip for frame placement. Drive crossface pressure deep enough that their near-side arm is occupied defending their face rather than constructing elbow wedges. Maintain heavy chest-to-chest contact that eliminates the space needed for forearm insertion between bodies. The best frame defense is making frame construction physically impossible through proactive arm control and pressure maintenance.",
+        "answer_line": "Control both arms, seal space",
+        "distractors": {
+          "plausible": [
+            "Just add more chest weight",
+            "Trap only their near arm"
+          ],
+          "trap": [
+            "Chase their far-side frame hand"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -420,50 +420,112 @@
         "answer": "Stable leg entanglement requires your hips glued to the target joint while your legs form a triangle or figure-four around the opponent's leg. Your inside leg hooks behind their knee or thigh while your outside leg controls their hip or free leg. The key is eliminating space between your body and their leg so they cannot rotate or extract. Your knees should pinch inward to create a clamp effect, and your feet should stay active, hooking or crossing to reinforce the entanglement structure.",
         "distractors": {
           "plausible": [
-            "Keep your hips a forearm's length from the joint so you have room to extend, with your legs loosely framing their leg.",
-            "Point your knees outward to widen the entanglement and rely on strong hand grips on the ankle to stop rotation."
+            "Grip foot, relax the hips",
+            "Squeeze thighs, hips back"
           ],
           "trap": [
-            "Sit upright away from their leg and control it with both hands, keeping your legs free so you can stand up if needed."
+            "Extend legs, trap with feet only"
           ]
-        }
+        },
+        "answer_line": "Hips tight, knees pinch in"
       },
       {
         "question": "Your opponent begins boot scooting backward to create distance while you hold inside ashi garami - what adjustments do you make to retain the position?",
         "answer": "Scoot your hips forward in sync with their retreat, maintaining zero distance between your hips and the captured leg. Simultaneously reinforce your inside hook behind their knee to prevent them from straightening the leg, and use your hands to grip their foot or ankle to anchor against the retreat. If they gain significant distance, immediately transition to a tighter entanglement like saddle by stepping over with your far leg, or switch to an outside ashi configuration that gives better distance management through cross-body control.",
         "distractors": {
           "plausible": [
-            "Plant your hips where they are and squeeze your knees harder, trusting the clamp alone to stop their backward retreat.",
-            "Reach forward and grip their collar or wrist first, since upper-body control is what stops a boot-scooting opponent."
+            "Grip foot, let hips lag",
+            "Switch to outside ashi immediately"
           ],
           "trap": [
-            "Lean back and crank the heel hook immediately, since finishing speed matters more than reconnecting your hips."
+            "Release hook, chase with hands"
+          ]
+        },
+        "answer_line": "Scoot hips forward, keep hook"
+      },
+      {
+        "question": "What are the primary grip priorities when controlling an opponent inside a leg entanglement?",
+        "answer": "The highest priority grip is on the opponent's foot and ankle of the captured leg, which controls their ability to rotate, spin, or hide their heel. Second priority is controlling their knee line with your legs to prevent them from clearing the entanglement. Third priority is managing their free leg, either by hooking it with your leg or controlling it with your hand to prevent push-off escapes. Fourth is upper body control through sleeve, collar, or wrist grips that prevent them from sitting up to address your leg control. These priorities shift depending on whether you are setting up a finish or simply maintaining position.",
+        "answer_line": "Foot and ankle grip first",
+        "distractors": {
+          "plausible": [
+            "Knee line control first",
+            "Upper body grips first"
+          ],
+          "trap": [
+            "Free leg hook, release foot"
           ]
         }
       },
       {
-        "question": "What are the primary grip priorities when controlling an opponent inside a leg entanglement?",
-        "answer": "The highest priority grip is on the opponent's foot and ankle of the captured leg, which controls their ability to rotate, spin, or hide their heel. Second priority is controlling their knee line with your legs to prevent them from clearing the entanglement. Third priority is managing their free leg, either by hooking it with your leg or controlling it with your hand to prevent push-off escapes. Fourth is upper body control through sleeve, collar, or wrist grips that prevent them from sitting up to address your leg control. These priorities shift depending on whether you are setting up a finish or simply maintaining position."
-      },
-      {
         "question": "Your opponent posts on their far hand and begins turning into you to clear the knee line - how do you respond?",
-        "answer": "When your opponent turns into you to clear the knee line, immediately re-pummel your inside hook deeper behind their knee to re-establish the entanglement. Simultaneously, use your outside leg to block their hip rotation by placing your foot on their far hip or threading it across their belly. If they successfully begin turning, transition to outside ashi garami where their turning motion actually improves your position by exposing the outside heel hook angle. The critical mistake is remaining passive - you must actively counter-rotate or transition the moment you feel them beginning to clear, rather than waiting until they have fully escaped the knee line."
+        "answer": "When your opponent turns into you to clear the knee line, immediately re-pummel your inside hook deeper behind their knee to re-establish the entanglement. Simultaneously, use your outside leg to block their hip rotation by placing your foot on their far hip or threading it across their belly. If they successfully begin turning, transition to outside ashi garami where their turning motion actually improves your position by exposing the outside heel hook angle. The critical mistake is remaining passive - you must actively counter-rotate or transition the moment you feel them beginning to clear, rather than waiting until they have fully escaped the knee line.",
+        "answer_line": "Re-pummel hook, block hip",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully turn",
+            "Grab far hand, stay still"
+          ],
+          "trap": [
+            "Release hook to re-angle"
+          ]
+        }
       },
       {
         "question": "What is the knee line and why is it the most critical concept for maintaining any leg entanglement position?",
-        "answer": "The knee line is the imaginary line running through your opponent's knee joint that separates dominant control from neutral or lost position. When your body is positioned below the knee line (between their knee and foot), you have access to all major leg submissions and strong control. When your opponent clears the knee line by pushing your body above their knee toward their hip, you lose submission access and they gain escape pathways. Every retention technique in leg entanglements ultimately serves to keep your body below the knee line. This is why hip proximity to the target joint matters so much - the closer your hips are to their foot, the further below the knee line you remain."
+        "answer": "The knee line is the imaginary line running through your opponent's knee joint that separates dominant control from neutral or lost position. When your body is positioned below the knee line (between their knee and foot), you have access to all major leg submissions and strong control. When your opponent clears the knee line by pushing your body above their knee toward their hip, you lose submission access and they gain escape pathways. Every retention technique in leg entanglements ultimately serves to keep your body below the knee line. This is why hip proximity to the target joint matters so much - the closer your hips are to their foot, the further below the knee line you remain.",
+        "answer_line": "Stay below the knee line",
+        "distractors": {
+          "plausible": [
+            "Stay above the knee line",
+            "Keep hips near their hip"
+          ],
+          "trap": [
+            "Push toward their hip"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your ankle and begins a counter leg entanglement from inside your ashi garami - what is your response?",
-        "answer": "When your opponent initiates a counter entanglement, you have two strategic options depending on your positional advantage. If you have a superior entanglement (inside ashi or saddle), accelerate your attack by immediately securing the heel grip and finishing before their counter develops. If you are in a neutral entanglement, disengage the endangered leg by pulling your knee to your chest and circling it free before they can establish control, then re-enter with a dominant angle. The worst response is to accept a bilateral 50-50 exchange from a previously superior position. Recognize the counter early and either finish fast or disengage and re-enter rather than trading down in positional hierarchy."
+        "answer": "When your opponent initiates a counter entanglement, you have two strategic options depending on your positional advantage. If you have a superior entanglement (inside ashi or saddle), accelerate your attack by immediately securing the heel grip and finishing before their counter develops. If you are in a neutral entanglement, disengage the endangered leg by pulling your knee to your chest and circling it free before they can establish control, then re-enter with a dominant angle. The worst response is to accept a bilateral 50-50 exchange from a previously superior position. Recognize the counter early and either finish fast or disengage and re-enter rather than trading down in positional hierarchy.",
+        "answer_line": "Finish fast or disengage",
+        "distractors": {
+          "plausible": [
+            "Hold ground and wait it out",
+            "Grab their ankle harder"
+          ],
+          "trap": [
+            "Accept a 50-50 exchange"
+          ]
+        }
       },
       {
         "question": "How should you manage energy expenditure when maintaining a leg entanglement over an extended period against a defensive opponent?",
-        "answer": "Energy management in leg entanglements depends on using skeletal structure rather than muscular effort for control. Lock your legs in figure-four or triangle configurations that hold position through bone-on-bone pressure rather than constant squeezing. Keep your upper body relaxed and use grip switching to prevent forearm fatigue - alternate between controlling the foot, the ankle, and the knee rather than death-gripping one point. Use your opponent's escape attempts as transition opportunities rather than fighting to maintain a single configuration. The attacking player should expend less energy than the defending player because the entanglement structure does the holding work while the defender must generate explosive movement to escape."
+        "answer": "Energy management in leg entanglements depends on using skeletal structure rather than muscular effort for control. Lock your legs in figure-four or triangle configurations that hold position through bone-on-bone pressure rather than constant squeezing. Keep your upper body relaxed and use grip switching to prevent forearm fatigue - alternate between controlling the foot, the ankle, and the knee rather than death-gripping one point. Use your opponent's escape attempts as transition opportunities rather than fighting to maintain a single configuration. The attacking player should expend less energy than the defending player because the entanglement structure does the holding work while the defender must generate explosive movement to escape.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze constantly, stay tight",
+            "Grip harder as they escape"
+          ],
+          "trap": [
+            "Release grips to save energy"
+          ]
+        }
       },
       {
         "question": "After your opponent partially escapes by straightening their leg and clearing one of your hooks, how do you recover the entanglement?",
-        "answer": "After a partial escape where one hook is cleared, immediately prioritize re-establishing the remaining hook's depth behind their knee to prevent full escape. Use your freed leg to either re-pummel inside for the original entanglement or transition to an alternative configuration - if your inside hook was cleared, switch to outside ashi by placing that leg across their hip instead. Simultaneously, pull their foot toward your chest using your grips to re-bend their knee, which recreates the entanglement structure. If they have straightened fully, transition to a straight ankle lock or kneebar attack that capitalizes on the extended leg position rather than fighting to re-bend it. Never release your remaining control point while attempting to recover the lost hook."
+        "answer": "After a partial escape where one hook is cleared, immediately prioritize re-establishing the remaining hook's depth behind their knee to prevent full escape. Use your freed leg to either re-pummel inside for the original entanglement or transition to an alternative configuration - if your inside hook was cleared, switch to outside ashi by placing that leg across their hip instead. Simultaneously, pull their foot toward your chest using your grips to re-bend their knee, which recreates the entanglement structure. If they have straightened fully, transition to a straight ankle lock or kneebar attack that capitalizes on the extended leg position rather than fighting to re-bend it. Never release your remaining control point while attempting to recover the lost hook.",
+        "answer_line": "Deepen remaining hook first",
+        "distractors": {
+          "plausible": [
+            "Chase the cleared leg first",
+            "Reset both hooks together"
+          ],
+          "trap": [
+            "Release remaining hook to reset"
+          ]
+        }
       }
     ],
     "clips": [
@@ -826,35 +888,115 @@
     "flashcards": [
       {
         "question": "What are the essential hip and leg configurations required to maintain a stable leg entanglement position?",
-        "answer": "Maintaining stable leg entanglement requires keeping your hips as close as possible to the target joint (ankle or knee), with your legs creating a triangle or figure-four configuration around the opponent's leg. Your inside leg hooks behind their knee or thigh while your outside leg controls their hip or free leg. The key is eliminating space between your body and their leg so they cannot rotate or extract. Your knees should pinch inward to create a clamp effect, and your feet should be active, hooking or crossing to reinforce the entanglement structure."
+        "answer": "Maintaining stable leg entanglement requires keeping your hips as close as possible to the target joint (ankle or knee), with your legs creating a triangle or figure-four configuration around the opponent's leg. Your inside leg hooks behind their knee or thigh while your outside leg controls their hip or free leg. The key is eliminating space between your body and their leg so they cannot rotate or extract. Your knees should pinch inward to create a clamp effect, and your feet should be active, hooking or crossing to reinforce the entanglement structure.",
+        "answer_line": "Hips tight, knees pinch in",
+        "distractors": {
+          "plausible": [
+            "Grip foot, relax the hips",
+            "Squeeze thighs, hips back"
+          ],
+          "trap": [
+            "Extend legs, trap with feet only"
+          ]
+        }
       },
       {
         "question": "Your opponent begins boot scooting backward to create distance while you hold inside ashi garami - what adjustments do you make to retain the position?",
-        "answer": "When your opponent boot scoots backward, you must follow their hip movement by scooting your own hips forward in sync, maintaining zero distance between your hips and their captured leg. Simultaneously, reinforce your inside hook behind their knee to prevent them from straightening the leg. Use your hands to grip their foot or ankle to anchor against their retreat. If they gain significant distance, immediately transition to a tighter entanglement like saddle by stepping over with your far leg, or switch to an outside ashi configuration that gives you better distance management through cross-body control."
+        "answer": "When your opponent boot scoots backward, you must follow their hip movement by scooting your own hips forward in sync, maintaining zero distance between your hips and their captured leg. Simultaneously, reinforce your inside hook behind their knee to prevent them from straightening the leg. Use your hands to grip their foot or ankle to anchor against their retreat. If they gain significant distance, immediately transition to a tighter entanglement like saddle by stepping over with your far leg, or switch to an outside ashi configuration that gives you better distance management through cross-body control.",
+        "answer_line": "Scoot hips forward, keep hook",
+        "distractors": {
+          "plausible": [
+            "Grip foot, let hips lag",
+            "Switch to outside ashi immediately"
+          ],
+          "trap": [
+            "Release hook, chase with hands"
+          ]
+        }
       },
       {
         "question": "What are the primary grip priorities when controlling an opponent inside a leg entanglement?",
-        "answer": "The highest priority grip is on the opponent's foot and ankle of the captured leg, which controls their ability to rotate, spin, or hide their heel. Second priority is controlling their knee line with your legs to prevent them from clearing the entanglement. Third priority is managing their free leg, either by hooking it with your leg or controlling it with your hand to prevent push-off escapes. Fourth is upper body control through sleeve, collar, or wrist grips that prevent them from sitting up to address your leg control. These priorities shift depending on whether you are setting up a finish or simply maintaining position."
+        "answer": "The highest priority grip is on the opponent's foot and ankle of the captured leg, which controls their ability to rotate, spin, or hide their heel. Second priority is controlling their knee line with your legs to prevent them from clearing the entanglement. Third priority is managing their free leg, either by hooking it with your leg or controlling it with your hand to prevent push-off escapes. Fourth is upper body control through sleeve, collar, or wrist grips that prevent them from sitting up to address your leg control. These priorities shift depending on whether you are setting up a finish or simply maintaining position.",
+        "answer_line": "Foot and ankle grip first",
+        "distractors": {
+          "plausible": [
+            "Knee line control first",
+            "Upper body grips first"
+          ],
+          "trap": [
+            "Free leg hook, release foot"
+          ]
+        }
       },
       {
         "question": "Your opponent posts on their far hand and begins turning into you to clear the knee line - how do you respond?",
-        "answer": "When your opponent turns into you to clear the knee line, immediately re-pummel your inside hook deeper behind their knee to re-establish the entanglement. Simultaneously, use your outside leg to block their hip rotation by placing your foot on their far hip or threading it across their belly. If they successfully begin turning, transition to outside ashi garami where their turning motion actually improves your position by exposing the outside heel hook angle. The critical mistake is remaining passive - you must actively counter-rotate or transition the moment you feel them beginning to clear, rather than waiting until they have fully escaped the knee line."
+        "answer": "When your opponent turns into you to clear the knee line, immediately re-pummel your inside hook deeper behind their knee to re-establish the entanglement. Simultaneously, use your outside leg to block their hip rotation by placing your foot on their far hip or threading it across their belly. If they successfully begin turning, transition to outside ashi garami where their turning motion actually improves your position by exposing the outside heel hook angle. The critical mistake is remaining passive - you must actively counter-rotate or transition the moment you feel them beginning to clear, rather than waiting until they have fully escaped the knee line.",
+        "answer_line": "Re-pummel hook, block hip",
+        "distractors": {
+          "plausible": [
+            "Wait for them to fully turn",
+            "Grab far hand, stay still"
+          ],
+          "trap": [
+            "Release hook to re-angle"
+          ]
+        }
       },
       {
         "question": "What is the knee line and why is it the most critical concept for maintaining any leg entanglement position?",
-        "answer": "The knee line is the imaginary line running through your opponent's knee joint that separates dominant control from neutral or lost position. When your body is positioned below the knee line (between their knee and foot), you have access to all major leg submissions and strong control. When your opponent clears the knee line by pushing your body above their knee toward their hip, you lose submission access and they gain escape pathways. Every retention technique in leg entanglements ultimately serves to keep your body below the knee line. This is why hip proximity to the target joint matters so much - the closer your hips are to their foot, the further below the knee line you remain."
+        "answer": "The knee line is the imaginary line running through your opponent's knee joint that separates dominant control from neutral or lost position. When your body is positioned below the knee line (between their knee and foot), you have access to all major leg submissions and strong control. When your opponent clears the knee line by pushing your body above their knee toward their hip, you lose submission access and they gain escape pathways. Every retention technique in leg entanglements ultimately serves to keep your body below the knee line. This is why hip proximity to the target joint matters so much - the closer your hips are to their foot, the further below the knee line you remain.",
+        "answer_line": "Stay below the knee line",
+        "distractors": {
+          "plausible": [
+            "Stay above the knee line",
+            "Keep hips near their hip"
+          ],
+          "trap": [
+            "Push toward their hip"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs your ankle and begins a counter leg entanglement from inside your ashi garami - what is your response?",
-        "answer": "When your opponent initiates a counter entanglement, you have two strategic options depending on your positional advantage. If you have a superior entanglement (inside ashi or saddle), accelerate your attack by immediately securing the heel grip and finishing before their counter develops. If you are in a neutral entanglement, disengage the endangered leg by pulling your knee to your chest and circling it free before they can establish control, then re-enter with a dominant angle. The worst response is to accept a bilateral 50-50 exchange from a previously superior position. Recognize the counter early and either finish fast or disengage and re-enter rather than trading down in positional hierarchy."
+        "answer": "When your opponent initiates a counter entanglement, you have two strategic options depending on your positional advantage. If you have a superior entanglement (inside ashi or saddle), accelerate your attack by immediately securing the heel grip and finishing before their counter develops. If you are in a neutral entanglement, disengage the endangered leg by pulling your knee to your chest and circling it free before they can establish control, then re-enter with a dominant angle. The worst response is to accept a bilateral 50-50 exchange from a previously superior position. Recognize the counter early and either finish fast or disengage and re-enter rather than trading down in positional hierarchy.",
+        "answer_line": "Finish fast or disengage",
+        "distractors": {
+          "plausible": [
+            "Hold ground and wait it out",
+            "Grab their ankle harder"
+          ],
+          "trap": [
+            "Accept a 50-50 exchange"
+          ]
+        }
       },
       {
         "question": "How should you manage energy expenditure when maintaining a leg entanglement over an extended period against a defensive opponent?",
-        "answer": "Energy management in leg entanglements depends on using skeletal structure rather than muscular effort for control. Lock your legs in figure-four or triangle configurations that hold position through bone-on-bone pressure rather than constant squeezing. Keep your upper body relaxed and use grip switching to prevent forearm fatigue - alternate between controlling the foot, the ankle, and the knee rather than death-gripping one point. Use your opponent's escape attempts as transition opportunities rather than fighting to maintain a single configuration. The attacking player should expend less energy than the defending player because the entanglement structure does the holding work while the defender must generate explosive movement to escape."
+        "answer": "Energy management in leg entanglements depends on using skeletal structure rather than muscular effort for control. Lock your legs in figure-four or triangle configurations that hold position through bone-on-bone pressure rather than constant squeezing. Keep your upper body relaxed and use grip switching to prevent forearm fatigue - alternate between controlling the foot, the ankle, and the knee rather than death-gripping one point. Use your opponent's escape attempts as transition opportunities rather than fighting to maintain a single configuration. The attacking player should expend less energy than the defending player because the entanglement structure does the holding work while the defender must generate explosive movement to escape.",
+        "answer_line": "Use structure, not muscle",
+        "distractors": {
+          "plausible": [
+            "Squeeze constantly, stay tight",
+            "Grip harder as they escape"
+          ],
+          "trap": [
+            "Release grips to save energy"
+          ]
+        }
       },
       {
         "question": "After your opponent partially escapes by straightening their leg and clearing one of your hooks, how do you recover the entanglement?",
-        "answer": "After a partial escape where one hook is cleared, immediately prioritize re-establishing the remaining hook's depth behind their knee to prevent full escape. Use your freed leg to either re-pummel inside for the original entanglement or transition to an alternative configuration - if your inside hook was cleared, switch to outside ashi by placing that leg across their hip instead. Simultaneously, pull their foot toward your chest using your grips to re-bend their knee, which recreates the entanglement structure. If they have straightened fully, transition to a straight ankle lock or kneebar attack that capitalizes on the extended leg position rather than fighting to re-bend it. Never release your remaining control point while attempting to recover the lost hook."
+        "answer": "After a partial escape where one hook is cleared, immediately prioritize re-establishing the remaining hook's depth behind their knee to prevent full escape. Use your freed leg to either re-pummel inside for the original entanglement or transition to an alternative configuration - if your inside hook was cleared, switch to outside ashi by placing that leg across their hip instead. Simultaneously, pull their foot toward your chest using your grips to re-bend their knee, which recreates the entanglement structure. If they have straightened fully, transition to a straight ankle lock or kneebar attack that capitalizes on the extended leg position rather than fighting to re-bend it. Never release your remaining control point while attempting to recover the lost hook.",
+        "answer_line": "Deepen remaining hook first",
+        "distractors": {
+          "plausible": [
+            "Chase the cleared leg first",
+            "Reset both hooks together"
+          ],
+          "trap": [
+            "Release remaining hook to reset"
+          ]
+        }
       }
     ],
     "clips": [
@@ -893,50 +1035,112 @@
       "answer": "At least one player's legs must wrap, hook, or triangle an opponent's leg in a closed structure that mechanically isolates the ankle, knee, or hip. The isolating legs form a figure-four, a triangle (sankaku), or crossed ankles that traps the captured limb rather than merely touching it. Both players' lower bodies are committed and intertwined, which distinguishes it from open guard where the legs frame but do not capture. This intertwining creates the bilateral submission threat that defines the family, because a captured leg is simultaneously a leg the capturer has surrendered access to.",
       "distractors": {
         "plausible": [
-          "Any exchange where both players' legs are touching and tangled qualifies, even without a closed structure capturing a limb.",
-          "It qualifies only once a submission grip on the foot or ankle is secured, regardless of what the legs are doing."
+          "Legs frame but don't grip",
+          "One touches opponent's shin"
         ],
         "trap": [
-          "A single loose hook with one leg is enough, since your hands will provide the real control over the captured limb."
+          "Hands control the ankle only"
         ]
-      }
+      },
+      "answer_line": "Legs trap the joint closed"
     },
     {
       "question": "Why is the leg entanglement family classified as a neutral position with a point value of zero rather than a dominant control?",
       "answer": "It is neutral because trapping the opponent's leg commits your own legs into a structure the opponent can often attack in return. Neither player automatically holds positional superiority the way a top player does in mount or side control, and configurations like 50-50 grant both athletes identical access to each other's legs. Superiority within the family comes from sub-configuration and angle rather than from the family itself, which is why saddle and inside ashi are dominant while 50-50 is a coin-flip exchange. The zero point value reflects that scoring systems generally do not award position here until a sweep, pass, or submission resolves the exchange.",
       "distractors": {
         "plausible": [
-          "It is neutral because leg attacks score fewer points than upper-body attacks under most competition rulesets.",
-          "It is neutral because entanglements are too brief and transitional for referees to score them reliably."
+          "Attacker always dominates",
+          "Points award on entry"
         ],
         "trap": [
-          "Treat any entanglement as dominant control and settle in, since your own trapped leg is safe while you hold theirs."
+          "Treat all entanglements as dominant"
+        ]
+      },
+      "answer_line": "Both legs are equally at risk"
+    },
+    {
+      "question": "What role does the isolation of a single joint play in making leg entanglements mechanically distinct from upper-body control positions?",
+      "answer": "Leg entanglements work by isolating one joint, the ankle, knee, or hip, from the opponent's ability to defend it with their whole body, so that the entangler's entire structure is levered against that single vulnerable point. Unlike upper-body control where large muscle groups and the torso can resist, an isolated joint has a fixed rotational limit and little muscular protection, meaning small angular changes translate directly into submission pressure. This is why hip proximity to the captured joint matters so much: the closer the attacking hips sit to the target, the shorter the lever the defender has to fight back with. The configuration essentially converts a limb into a lever with a fixed fulcrum, which is the biomechanical signature of the entire family.",
+      "answer_line": "Isolates joint, short lever",
+      "distractors": {
+        "plausible": [
+          "Uses whole body to defend",
+          "Relies on muscle fatigue"
+        ],
+        "trap": [
+          "Keep hips far from the joint"
         ]
       }
     },
     {
-      "question": "What role does the isolation of a single joint play in making leg entanglements mechanically distinct from upper-body control positions?",
-      "answer": "Leg entanglements work by isolating one joint, the ankle, knee, or hip, from the opponent's ability to defend it with their whole body, so that the entangler's entire structure is levered against that single vulnerable point. Unlike upper-body control where large muscle groups and the torso can resist, an isolated joint has a fixed rotational limit and little muscular protection, meaning small angular changes translate directly into submission pressure. This is why hip proximity to the captured joint matters so much: the closer the attacking hips sit to the target, the shorter the lever the defender has to fight back with. The configuration essentially converts a limb into a lever with a fixed fulcrum, which is the biomechanical signature of the entire family."
-    },
-    {
       "question": "How does the position of the captured leg's heel relative to the entangler's centerline determine which submissions become mechanically available?",
-      "answer": "The heel's orientation is the primary readout for what the entanglement can produce, because heel hooks, toe holds, and ankle locks each require the foot to be trapped and rotated in a specific plane. When the heel is exposed and turned inward across the entangler's body, inside heel hook mechanics open; when it faces outward, outside heel hook and kneebar angles appear instead. If the defender keeps the heel hidden by pointing the foot and hiding it behind their own hip or the entangler's leg, submission access collapses even though the positional control may remain intact. This is why control of the foot and ankle is the highest grip priority in the family, since it governs both the finish and the defender's ability to deny it."
+      "answer": "The heel's orientation is the primary readout for what the entanglement can produce, because heel hooks, toe holds, and ankle locks each require the foot to be trapped and rotated in a specific plane. When the heel is exposed and turned inward across the entangler's body, inside heel hook mechanics open; when it faces outward, outside heel hook and kneebar angles appear instead. If the defender keeps the heel hidden by pointing the foot and hiding it behind their own hip or the entangler's leg, submission access collapses even though the positional control may remain intact. This is why control of the foot and ankle is the highest grip priority in the family, since it governs both the finish and the defender's ability to deny it.",
+      "answer_line": "Heel angle picks the finish",
+      "distractors": {
+        "plausible": [
+          "Knee angle picks the finish",
+          "Hip position picks the finish"
+        ],
+        "trap": [
+          "Expose heel to invite a trade"
+        ]
+      }
     },
     {
       "question": "What distinguishes a dominant entanglement configuration such as saddle from a symmetric one such as 50-50?",
-      "answer": "A dominant configuration positions the entangler below and inside the opponent's knee line with the captured leg's knee bent and pinned, giving one-directional access to submissions while denying the opponent a mirror-image counter. In saddle, sometimes called honey hole, the attacker's legs triangle the near leg while their hips sit under the thigh, so the opponent cannot reciprocate the same control. In 50-50 both athletes cross their inside leg over the other's in an identical mirrored structure, meaning any submission one can threaten the other can threaten back symmetrically. The difference is therefore about symmetry: dominant configurations break the mirror in the attacker's favor, while neutral ones preserve it and reduce the exchange to who moves first and best."
+      "answer": "A dominant configuration positions the entangler below and inside the opponent's knee line with the captured leg's knee bent and pinned, giving one-directional access to submissions while denying the opponent a mirror-image counter. In saddle, sometimes called honey hole, the attacker's legs triangle the near leg while their hips sit under the thigh, so the opponent cannot reciprocate the same control. In 50-50 both athletes cross their inside leg over the other's in an identical mirrored structure, meaning any submission one can threaten the other can threaten back symmetrically. The difference is therefore about symmetry: dominant configurations break the mirror in the attacker's favor, while neutral ones preserve it and reduce the exchange to who moves first and best.",
+      "answer_line": "Saddle breaks the mirror",
+      "distractors": {
+        "plausible": [
+          "50-50 favors the attacker",
+          "Saddle is symmetric too"
+        ],
+        "trap": [
+          "Enter 50-50 for control"
+        ]
+      }
     },
     {
       "question": "How does a leg entanglement differ from an open guard entry such as headquarters position that commonly precedes it?",
-      "answer": "Headquarters and similar entries are commitment-free staging positions where the passer floats over the opponent's legs without capturing a joint, retaining the freedom to disengage or pass at will. A leg entanglement is entered the moment one player commits their legs into a closing structure around a specific limb, trading that freedom for control and submission access. This trade is the defining threshold: from headquarters both players can still reset cheaply, whereas inside an entanglement disengaging usually costs position or exposes a counter-attack. Recognizing this line matters because the entangler gains threat but loses mobility, and the defender who was merely being controlled now has a leg to hunt in return."
+      "answer": "Headquarters and similar entries are commitment-free staging positions where the passer floats over the opponent's legs without capturing a joint, retaining the freedom to disengage or pass at will. A leg entanglement is entered the moment one player commits their legs into a closing structure around a specific limb, trading that freedom for control and submission access. This trade is the defining threshold: from headquarters both players can still reset cheaply, whereas inside an entanglement disengaging usually costs position or exposes a counter-attack. Recognizing this line matters because the entangler gains threat but loses mobility, and the defender who was merely being controlled now has a leg to hunt in return.",
+      "answer_line": "Capturing a joint locks you in",
+      "distractors": {
+        "plausible": [
+          "Headquarters already traps a leg",
+          "Both give equal escape freedom"
+        ],
+        "trap": [
+          "Disengage anytime for free"
+        ]
+      }
     },
     {
       "question": "Why does breaking hip connection to the captured leg tend to collapse a leg entanglement for whichever player loses it?",
-      "answer": "The entanglement holds because the controlling player's hips act as an anchor that keeps the captured joint pinned within the lever's effective range, so any space that opens between the hips and the target lengthens the defender's lever and lets them rotate the joint out of danger. When hip connection is lost, the isolated joint is no longer fixed against a fulcrum and the trapped limb regains the freedom to straighten, rotate, or extract. This principle applies symmetrically to both players, since each is simultaneously anchoring a leg they have captured and defending a leg that has been captured. The exchange is therefore often decided by which player first re-establishes or first loses tight hip-to-target contact during the scramble."
+      "answer": "The entanglement holds because the controlling player's hips act as an anchor that keeps the captured joint pinned within the lever's effective range, so any space that opens between the hips and the target lengthens the defender's lever and lets them rotate the joint out of danger. When hip connection is lost, the isolated joint is no longer fixed against a fulcrum and the trapped limb regains the freedom to straighten, rotate, or extract. This principle applies symmetrically to both players, since each is simultaneously anchoring a leg they have captured and defending a leg that has been captured. The exchange is therefore often decided by which player first re-establishes or first loses tight hip-to-target contact during the scramble.",
+      "answer_line": "Hip gap lets the leg escape",
+      "distractors": {
+        "plausible": [
+          "Grip strength matters most",
+          "Foot grip alone holds it"
+        ],
+        "trap": [
+          "Scoot hips away for space"
+        ]
+      }
     },
     {
       "question": "What makes the leg entanglement family carry a medium-to-high risk rating for both practitioners simultaneously?",
-      "answer": "The risk is bilateral because the same intertwined structure that lets one player attack a joint also feeds the other player access to a joint, so both athletes are inside submission range at once rather than only the defender. Heel hooks in particular damage the knee's ligaments with little warning and minimal pain before injury, meaning a mistimed rotation or a defender spinning the wrong way can cause harm to either party. The neutral configurations amplify this, since in a symmetric entanglement whoever finishes their rotation first wins, incentivizing speed that raises injury risk for both. This shared danger is why the family demands understanding the knee's safe rotational limits regardless of which side of the exchange a practitioner occupies."
+      "answer": "The risk is bilateral because the same intertwined structure that lets one player attack a joint also feeds the other player access to a joint, so both athletes are inside submission range at once rather than only the defender. Heel hooks in particular damage the knee's ligaments with little warning and minimal pain before injury, meaning a mistimed rotation or a defender spinning the wrong way can cause harm to either party. The neutral configurations amplify this, since in a symmetric entanglement whoever finishes their rotation first wins, incentivizing speed that raises injury risk for both. This shared danger is why the family demands understanding the knee's safe rotational limits regardless of which side of the exchange a practitioner occupies.",
+      "answer_line": "Both sides risk injury too",
+      "distractors": {
+        "plausible": [
+          "Only the defender is at risk",
+          "Heel hooks warn early with pain"
+        ],
+        "trap": [
+          "Rush the finish for safety"
+        ]
+      }
     }
   ],
   "clips": [

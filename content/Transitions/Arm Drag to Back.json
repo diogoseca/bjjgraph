@@ -254,61 +254,143 @@
     "flashcards": [
       {
         "question": "Why is it critical to coordinate the arm drag with hip movement rather than just pulling the arm?",
-        "answer": "The hip movement away from the dragged arm creates the angle necessary to move perpendicular to the opponent's body. Without this angle creation, you remain directly in front of the opponent where they can easily recover or counter. The hip escape generates the momentum needed to circle behind them and also prevents you from being pulled into their guard if they counter by sitting back. The arm pull alone cannot create the angular displacement required for back access."
+        "answer": "The hip movement away from the dragged arm creates the angle necessary to move perpendicular to the opponent's body. Without this angle creation, you remain directly in front of the opponent where they can easily recover or counter. The hip escape generates the momentum needed to circle behind them and also prevents you from being pulled into their guard if they counter by sitting back. The arm pull alone cannot create the angular displacement required for back access.",
+        "answer_line": "Hip escape creates the angle",
+        "distractors": {
+          "plausible": [
+            "Pull the arm harder instead",
+            "Circle first, pull arm after"
+          ],
+          "trap": [
+            "Pull straight back, no angle"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin the drag - how do you adjust?",
-        "answer": "The far hand post means they are defending the angle but committing weight to one side. Continue your rotation and use your butterfly hook on the posting side to elevate that hip, disrupting their base. Alternatively, switch your circling direction and attack the space behind their posting arm. Their post creates a fixed point you can use as a pivot rather than an obstacle. If they post very strongly, transition to a front headlock or snap-down to break their post before resuming the back take."
+        "answer": "The far hand post means they are defending the angle but committing weight to one side. Continue your rotation and use your butterfly hook on the posting side to elevate that hip, disrupting their base. Alternatively, switch your circling direction and attack the space behind their posting arm. Their post creates a fixed point you can use as a pivot rather than an obstacle. If they post very strongly, transition to a front headlock or snap-down to break their post before resuming the back take.",
+        "answer_line": "Hook the post side, elevate hip",
+        "distractors": {
+          "plausible": [
+            "Force through, ignore the post",
+            "Abandon drag, reset guard"
+          ],
+          "trap": [
+            "Push straight into the post"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating the arm drag from butterfly guard?",
         "answer": "The optimal window is when the opponent's weight shifts forward, whether pressuring into your guard, reaching for grips, or setting up a pass. Forward weight commitment means their arms are extended and available for gripping, and their base is vulnerable to being pulled off-center. The moment just after they establish a grip on your collar or sleeve is particularly effective because their hand is occupied and they cannot retract quickly enough to defend the drag.",
         "distractors": {
           "plausible": [
-            "The best window is when the opponent leans back to posture up, since their arms are lighter and easier to pull across.",
-            "Attempt the drag before the opponent makes any grips, because a hand already gripping your collar is too anchored to drag."
+            "Only when they sit back",
+            "Wait for a scramble opening"
           ],
           "trap": [
-            "Wait until the opponent settles into a heavy static base, then lie back flat and out-pull them with pure arm strength."
+            "Attack when they're squared up"
           ]
-        }
+        },
+        "answer_line": "When they commit weight forward"
       },
       {
         "question": "What grip configuration must exist before you can execute the arm drag?",
         "answer": "You need a two-point grip: a same-side wrist grip in a C-grip or monkey grip, plus a cross-side grip on their triceps, lat, or upper arm. The wrist grip provides directional control to pull the arm across their centerline, while the triceps grip provides the pushing force that accelerates the arm across their body. Without both grip points, the drag lacks the mechanical advantage to turn their shoulders and create the angle. In gi, the collar can substitute for the triceps grip.",
         "distractors": {
           "plausible": [
-            "You need a cross-side wrist grip and a same-side triceps grip so both of your pulls converge on the near shoulder.",
-            "A single deep cross grip on the triceps is enough, since the drag's power comes from turning the shoulders, not the wrist."
+            "Both hands on the same wrist",
+            "Collar grip alone is enough"
           ],
           "trap": [
-            "Reach deep across their body for the far lat first, since your own arm crossing their centerline is what starts the drag."
+            "Grab both wrists, no tricep"
+          ]
+        },
+        "answer_line": "Wrist grip plus tricep grip"
+      },
+      {
+        "question": "How should you respond if the opponent whizzers your dragging arm immediately?",
+        "answer": "The whizzer actually creates new opportunities rather than shutting down the attack. Switch to a duck under by diving under their whizzer arm to access the opposite side back take. Their whizzer commits their weight forward and creates a fixed contact point you can rotate around. Alternatively, if they whizzer high, use your butterfly hooks to elevate them off their base since their whizzer arm is occupied and cannot post. The key is never fighting the whizzer directly but using it as leverage for alternative attacks.",
+        "answer_line": "Duck under to the far side",
+        "distractors": {
+          "plausible": [
+            "Fight the whizzer arm free",
+            "Pull harder against the grip"
+          ],
+          "trap": [
+            "Rip your arm out, retreat"
           ]
         }
       },
       {
-        "question": "How should you respond if the opponent whizzers your dragging arm immediately?",
-        "answer": "The whizzer actually creates new opportunities rather than shutting down the attack. Switch to a duck under by diving under their whizzer arm to access the opposite side back take. Their whizzer commits their weight forward and creates a fixed contact point you can rotate around. Alternatively, if they whizzer high, use your butterfly hooks to elevate them off their base since their whizzer arm is occupied and cannot post. The key is never fighting the whizzer directly but using it as leverage for alternative attacks."
-      },
-      {
         "question": "What is the critical mechanical detail that differentiates a successful diagonal drag from a failed straight-back pull?",
-        "answer": "The diagonal drag pulls the opponent's arm toward your opposite hip, crossing their centerline and turning their shoulders. This shoulder rotation is the critical mechanical detail because it eliminates their ability to post on the dragged side and structurally prevents them from facing you. A straight-back pull does not cross the centerline and becomes a pure strength contest where the opponent can resist by simply pulling back. The diagonal vector uses their own skeletal alignment against them, making the technique effective regardless of size difference."
+        "answer": "The diagonal drag pulls the opponent's arm toward your opposite hip, crossing their centerline and turning their shoulders. This shoulder rotation is the critical mechanical detail because it eliminates their ability to post on the dragged side and structurally prevents them from facing you. A straight-back pull does not cross the centerline and becomes a pure strength contest where the opponent can resist by simply pulling back. The diagonal vector uses their own skeletal alignment against them, making the technique effective regardless of size difference.",
+        "answer_line": "Crosses centerline, turns shoulder",
+        "distractors": {
+          "plausible": [
+            "Pull straight back, no angle",
+            "Pull toward your own chest"
+          ],
+          "trap": [
+            "Re-grip repeatedly, burn grips"
+          ]
+        }
       },
       {
         "question": "Your opponent defends the arm drag by immediately sitting back to create distance - what is your chain attack?",
-        "answer": "When they sit back, they pull away from your butterfly hooks and create distance, but their retreat exposes several opportunities. If you maintain wrist control, follow their retreat by extending your hooks into a single leg X or X-guard entry since their backward weight shift loads perfectly onto your hooks. If they clear your hooks entirely, use the maintained wrist grip to pull yourself to a front headlock position as they sit, threatening guillotine or snap-down. Their seated retreat also opens up collar drag or ankle pick variations from the seated position."
+        "answer": "When they sit back, they pull away from your butterfly hooks and create distance, but their retreat exposes several opportunities. If you maintain wrist control, follow their retreat by extending your hooks into a single leg X or X-guard entry since their backward weight shift loads perfectly onto your hooks. If they clear your hooks entirely, use the maintained wrist grip to pull yourself to a front headlock position as they sit, threatening guillotine or snap-down. Their seated retreat also opens up collar drag or ankle pick variations from the seated position.",
+        "answer_line": "Follow retreat into X-guard",
+        "distractors": {
+          "plausible": [
+            "Release grips, reset position",
+            "Chase with a double leg"
+          ],
+          "trap": [
+            "Let go and stand up to pass"
+          ]
+        }
       },
       {
         "question": "Why must you keep your head tight to the opponent's ribs during the rotation phase?",
-        "answer": "Your head serves as both a blocking mechanism and a pressure point against their torso during the rotation. It physically prevents the opponent from turning their shoulders back toward you, which would eliminate your hard-won angle advantage and potentially return you to front-facing guard position. The head contact also provides tactile feedback about the opponent's movement so you can track and follow any turning attempts. Without head pressure, even a slow defensive turn by the opponent can nullify the entire arm drag sequence before you reach back position."
+        "answer": "Your head serves as both a blocking mechanism and a pressure point against their torso during the rotation. It physically prevents the opponent from turning their shoulders back toward you, which would eliminate your hard-won angle advantage and potentially return you to front-facing guard position. The head contact also provides tactile feedback about the opponent's movement so you can track and follow any turning attempts. Without head pressure, even a slow defensive turn by the opponent can nullify the entire arm drag sequence before you reach back position.",
+        "answer_line": "Head blocks their shoulder turn",
+        "distractors": {
+          "plausible": [
+            "Head up for better vision",
+            "Head on their far shoulder"
+          ],
+          "trap": [
+            "Head down, chase their hips"
+          ]
+        }
       },
       {
         "question": "How do butterfly hooks specifically assist the arm drag compared to executing from a seated guard without hooks?",
-        "answer": "The butterfly hooks provide elevation capability that momentarily unweights the opponent during the drag, reducing the force needed to turn their shoulders and compromising their ability to post. This elevation creates a brief window where the opponent is partially airborne and has no ground contact to resist your rotational pull. From seated guard without hooks, you rely entirely on upper body pulling force and hip escape, which requires more energy and gives the opponent the ability to resist through ground-based posting. The hooks also assist propulsion during the circling phase by walking behind the opponent's body."
+        "answer": "The butterfly hooks provide elevation capability that momentarily unweights the opponent during the drag, reducing the force needed to turn their shoulders and compromising their ability to post. This elevation creates a brief window where the opponent is partially airborne and has no ground contact to resist your rotational pull. From seated guard without hooks, you rely entirely on upper body pulling force and hip escape, which requires more energy and gives the opponent the ability to resist through ground-based posting. The hooks also assist propulsion during the circling phase by walking behind the opponent's body.",
+        "answer_line": "Hooks elevate, unweight opponent",
+        "distractors": {
+          "plausible": [
+            "Hooks only help with sweeps",
+            "Hooks replace the wrist grip"
+          ],
+          "trap": [
+            "Flatten hooks, push with arms"
+          ]
+        }
       },
       {
         "question": "What are the most reliable indicators that an arm drag opportunity exists from butterfly guard?",
-        "answer": "Look for forward weight commitment with arms extended within dragging range, which indicates the opponent is pressuring or reaching. Moments when they grip or reach for your collar, lapel, or sleeve are optimal because their hand is occupied and retraction is delayed. Watch for asymmetric weight distribution where one side is loaded more than the other, making the loaded side vulnerable to being pulled off balance. The best opportunities arise when the opponent is focused on their own offensive action such as initiating a pass, which diverts their attention from arm position defense."
+        "answer": "Look for forward weight commitment with arms extended within dragging range, which indicates the opponent is pressuring or reaching. Moments when they grip or reach for your collar, lapel, or sleeve are optimal because their hand is occupied and retraction is delayed. Watch for asymmetric weight distribution where one side is loaded more than the other, making the loaded side vulnerable to being pulled off balance. The best opportunities arise when the opponent is focused on their own offensive action such as initiating a pass, which diverts their attention from arm position defense.",
+        "answer_line": "Forward weight, arms extended",
+        "distractors": {
+          "plausible": [
+            "Opponent sitting back passively",
+            "Symmetric, balanced posture"
+          ],
+          "trap": [
+            "Wait for them to attack legs"
+          ]
+        }
       }
     ],
     "safety_considerations": "The arm drag to back is generally a low-risk technique with minimal injury potential when practiced correctly. However, several safety considerations should be observed. When drilling, ensure controlled speed initially to prevent neck injuries since rapid rotation combined with resistance can cause the partner's neck to torque unexpectedly. Start slow and gradually increase speed as both partners develop comfort with the movement. Be cautious with grip strength on wrist and triceps, particularly with smaller or beginner partners, as overly aggressive gripping can cause hand and forearm injuries. When your partner is learning to counter the arm drag, communicate clearly about resistance levels to prevent sudden explosive counters that might cause injury. During the rotation phase, be aware of your training partner's knee and ankle position since awkward angles during the circular movement can stress these joints if they cannot adjust properly. In competition or live sparring, be prepared for opponent to sit back suddenly to prevent back take, which can create collision risks. Always maintain awareness of training area boundaries to avoid rotating off the mat.",
@@ -426,19 +508,59 @@
     "flashcards": [
       {
         "question": "What is the earliest point in the arm drag sequence where defensive intervention is most effective?",
-        "answer": "The earliest and most effective intervention point is at the grip establishment phase, before the attacker has secured both the wrist grip and the triceps grip. By denying the two-point grip control through elbow retraction and active hand fighting, you prevent the attacker from generating the diagonal pulling force needed to cross your arm past your centerline. Once both grips are secured and the pull begins, your defensive options narrow significantly and require more energy to execute."
+        "answer": "The earliest and most effective intervention point is at the grip establishment phase, before the attacker has secured both the wrist grip and the triceps grip. By denying the two-point grip control through elbow retraction and active hand fighting, you prevent the attacker from generating the diagonal pulling force needed to cross your arm past your centerline. Once both grips are secured and the pull begins, your defensive options narrow significantly and require more energy to execute.",
+        "answer_line": "Deny grips before they're set",
+        "distractors": {
+          "plausible": [
+            "Wait until the pull begins",
+            "Block only the wrist grip"
+          ],
+          "trap": [
+            "Extend arms to hand-fight"
+          ]
+        }
       },
       {
         "question": "Why should you turn into the attacker rather than away from them when defending a partially completed arm drag?",
-        "answer": "Turning away from the attacker exposes more of your back and accelerates their circular path to back control, essentially completing their rotation for them. Turning into the attacker forces them back to a front-facing position where their angular advantage is neutralized. Your crossface and forward drive can collapse their guard structure and create a scramble that favors you since their hooks are disengaged during the rotation attempt. Additionally, turning in keeps you facing the attacker so you can see and defend any subsequent attacks."
+        "answer": "Turning away from the attacker exposes more of your back and accelerates their circular path to back control, essentially completing their rotation for them. Turning into the attacker forces them back to a front-facing position where their angular advantage is neutralized. Your crossface and forward drive can collapse their guard structure and create a scramble that favors you since their hooks are disengaged during the rotation attempt. Additionally, turning in keeps you facing the attacker so you can see and defend any subsequent attacks.",
+        "answer_line": "Turn into them, face them",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Turtle up, cover your neck"
+          ],
+          "trap": [
+            "Turn away, expose your back"
+          ]
+        }
       },
       {
         "question": "How does the whizzer counter work against the arm drag, and what is its primary risk?",
-        "answer": "The whizzer establishes an overhook connection on the dragged arm that physically blocks the attacker's rotational path around your body. By driving your hip into theirs and clamping down with the overhook, you create a fixed point that prevents them from circling to your back. The primary risk is that a high or lazy whizzer without accompanying hip pressure can be exploited through a duck under, where the attacker dives beneath your whizzer arm to access back control from the opposite side. The whizzer must be accompanied by aggressive hip-to-hip contact and shoulder pressure to be effective."
+        "answer": "The whizzer establishes an overhook connection on the dragged arm that physically blocks the attacker's rotational path around your body. By driving your hip into theirs and clamping down with the overhook, you create a fixed point that prevents them from circling to your back. The primary risk is that a high or lazy whizzer without accompanying hip pressure can be exploited through a duck under, where the attacker dives beneath your whizzer arm to access back control from the opposite side. The whizzer must be accompanied by aggressive hip-to-hip contact and shoulder pressure to be effective.",
+        "answer_line": "Overhook plus hip-to-hip pressure",
+        "distractors": {
+          "plausible": [
+            "Just overhook, skip the hips",
+            "Whizzer while backing away"
+          ],
+          "trap": [
+            "Lazy high whizzer, no hip pressure"
+          ]
+        }
       },
       {
         "question": "What weight distribution error makes you most vulnerable to the arm drag from butterfly guard top?",
-        "answer": "Excessive forward weight commitment is the primary weight distribution error. When you lean forward into the opponent's butterfly hooks and extend your arms for grips, your center of mass shifts anterior to your base of support. This forward loading provides the exact momentum vector the attacker needs to pull you off balance with the diagonal arm drag. A balanced or slightly rear-weighted distribution allows you to retract your arms quickly and square your shoulders before the attacker can cross your arm past your centerline."
+        "answer": "Excessive forward weight commitment is the primary weight distribution error. When you lean forward into the opponent's butterfly hooks and extend your arms for grips, your center of mass shifts anterior to your base of support. This forward loading provides the exact momentum vector the attacker needs to pull you off balance with the diagonal arm drag. A balanced or slightly rear-weighted distribution allows you to retract your arms quickly and square your shoulders before the attacker can cross your arm past your centerline.",
+        "answer_line": "Leaning forward, arms extended",
+        "distractors": {
+          "plausible": [
+            "Sitting back too passively",
+            "Squaring shoulders too early"
+          ],
+          "trap": [
+            "Post both hands forward, grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

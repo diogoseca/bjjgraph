@@ -220,87 +220,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Elbow Escape to Guard?",
-        "answer": "The primary goal is to recover open guard position from the defensive buggy choke bottom situation. By using your elbow as a structural wedge against the choking arm while hip escaping, you create the space necessary to insert your legs and establish a playable guard position where you can threaten sweeps and submissions rather than defending submissions."
+        "answer": "The primary goal is to recover open guard position from the defensive buggy choke bottom situation. By using your elbow as a structural wedge against the choking arm while hip escaping, you create the space necessary to insert your legs and establish a playable guard position where you can threaten sweeps and submissions rather than defending submissions.",
+        "answer_line": "Recover open guard position",
+        "distractors": {
+          "plausible": [
+            "Escape to turtle top",
+            "Reverse into top position"
+          ],
+          "trap": [
+            "Fight grips for the tap"
+          ]
+        }
       },
       {
         "question": "What position do you start Elbow Escape to Guard from?",
         "answer": "Elbow Escape to Guard starts from the bottom of a Buggy Choke, as the opponent threads an arm under your armpit from turtle top. Specifically, the opponent is establishing or has established the choking grip configuration. The escape must be initiated before the choke fully consolidates for the highest success probability.",
         "distractors": {
           "plausible": [
-            "It starts from bottom side control, once the opponent has flattened you out and secured a strong crossface.",
-            "You begin from bottom mount, after the opponent has isolated your arm and begun climbing toward high mount."
+            "Turtle bottom, no threat yet",
+            "Bottom of rear naked choke"
           ],
           "trap": [
-            "Wait until the choke is fully locked before starting, since full commitment shows you exactly which side to escape toward."
+            "Top of turtle position"
           ]
-        }
+        },
+        "answer_line": "Bottom of buggy choke"
       },
       {
         "question": "What is the critical structural element that makes the elbow wedge effective?",
         "answer": "The elbow wedge works because your skeletal structure—the point of your elbow—forms a mechanical barrier the choking forearm cannot compress through. You are relying on bone alignment rather than muscular strength, placing a hard obstacle between your neck and the opponent's forearm. Reinforcing by grabbing your own collar or reaching to your far shoulder creates an even stronger structural frame.",
         "distractors": {
           "plausible": [
-            "The wedge works because your forearm muscles actively push the choking arm away from your neck.",
-            "It works because the point of your elbow pins the opponent's wrist to the mat, trapping their arm in place."
+            "Shoulder frame blocks choke",
+            "Muscle strength holds wedge"
           ],
           "trap": [
-            "Grip the opponent's choking wrist with both hands and pull down hard to peel the arm off your neck."
+            "Release wedge to grip fight"
           ]
-        }
+        },
+        "answer_line": "Elbow bone blocks the choke"
       },
       {
         "question": "Your opponent increases downward chest pressure as you begin the escape—how do you adjust?",
-        "answer": "When opponent increases pressure, prioritize maintaining the elbow wedge structure to prevent choke completion while waiting for them to adjust their position. Their increased pressure often means reduced mobility. Use smaller hip escape movements rather than large ones, and consider transitioning to back control acceptance if the choke threat becomes too severe. The elbow wedge buys time even if immediate guard recovery isn't possible."
+        "answer": "When opponent increases pressure, prioritize maintaining the elbow wedge structure to prevent choke completion while waiting for them to adjust their position. Their increased pressure often means reduced mobility. Use smaller hip escape movements rather than large ones, and consider transitioning to back control acceptance if the choke threat becomes too severe. The elbow wedge buys time even if immediate guard recovery isn't possible.",
+        "answer_line": "Hold wedge, small hip escapes",
+        "distractors": {
+          "plausible": [
+            "Big hip escape to create space",
+            "Push opponent off with arms"
+          ],
+          "trap": [
+            "Drop wedge and bridge hard"
+          ]
+        }
       },
       {
         "question": "Why must the hip escape move diagonally rather than straight backward?",
         "answer": "Escaping the hips diagonally creates significantly more space because it moves you off the opponent's centerline, where they cannot simply follow you. A straight backward escape lets the opponent maintain the same angle and connection. The diagonal angle also naturally positions your knee for insertion and sets up proper open guard structure facing the opponent.",
         "distractors": {
           "plausible": [
-            "Diagonal movement is simply faster than moving straight backward, letting you beat the opponent's grip adjustment.",
-            "You move diagonally mainly to turn your neck away from the choking arm and relieve the strangle pressure."
+            "Creates one big single shrimp",
+            "Keeps hips squared to opponent"
           ],
           "trap": [
-            "Escape straight backward with explosive speed so the opponent cannot keep up with your retreating hips."
+            "Escape straight back for room"
           ]
-        }
+        },
+        "answer_line": "Moves off their centerline"
       },
       {
         "question": "How do you counter when opponent releases the choke to take your back during the escape?",
         "answer": "If the opponent abandons the choke to take your back, immediately lower your near-side hip to the mat and turn into them rather than continuing to turtle. The elbow that was wedging can now frame on their hip or thigh to address the hook insertion. The key is recognizing this transition early and not continuing the guard recovery motion when the back take is imminent.",
         "distractors": {
           "plausible": [
-            "Lower your far-side hip to the mat and turn away from the opponent to create distance from the incoming hook.",
-            "Grab the incoming hook with both hands and strip it first, before addressing your hip position."
+            "Keep turtling to protect neck",
+            "Sprawl forward to block hooks"
           ],
           "trap": [
-            "Stay tight in turtle and speed up the guard recovery motion, racing to insert your knee before the hooks arrive."
+            "Continue the guard recovery"
+          ]
+        },
+        "answer_line": "Lower hip, turn in, frame elbow"
+      },
+      {
+        "question": "What timing window offers the highest probability of successful escape?",
+        "answer": "The highest-percentage timing window is during the opponent's grip adjustment phase—after they've threaded the arm but before they've secured the second grip and applied full body pressure. Once both grips are locked with consolidated pressure, escape difficulty increases significantly. Recognizing the threading attempt through proprioception and initiating escape immediately offers the best success probability.",
+        "answer_line": "During grip adjustment phase",
+        "distractors": {
+          "plausible": [
+            "Before arm is even threaded",
+            "After both grips are locked"
+          ],
+          "trap": [
+            "Wait until pressure fully sets"
           ]
         }
       },
       {
-        "question": "What timing window offers the highest probability of successful escape?",
-        "answer": "The highest-percentage timing window is during the opponent's grip adjustment phase—after they've threaded the arm but before they've secured the second grip and applied full body pressure. Once both grips are locked with consolidated pressure, escape difficulty increases significantly. Recognizing the threading attempt through proprioception and initiating escape immediately offers the best success probability."
-      },
-      {
         "question": "How does this escape chain with other buggy choke defense options?",
-        "answer": "The elbow escape serves as the technical first option when opponent's control is still developing. If the elbow wedge cannot be established or opponent's pressure is too consolidated, transition to accepting back control which is more survivable than the fully locked choke. If the escape succeeds, immediately threaten from open guard with sweeps or collar grips to prevent opponent from re-attacking. The escape should flow naturally into offensive guard play."
+        "answer": "The elbow escape serves as the technical first option when opponent's control is still developing. If the elbow wedge cannot be established or opponent's pressure is too consolidated, transition to accepting back control which is more survivable than the fully locked choke. If the escape succeeds, immediately threaten from open guard with sweeps or collar grips to prevent opponent from re-attacking. The escape should flow naturally into offensive guard play.",
+        "answer_line": "First option before back-take",
+        "distractors": {
+          "plausible": [
+            "Only used after guard passes",
+            "Backup after submission escape"
+          ],
+          "trap": [
+            "Skip straight to back control"
+          ]
+        }
       },
       {
         "question": "What error most commonly leads to the choke tightening during escape attempts?",
-        "answer": "The most common critical error is attempting the hip escape before properly establishing the elbow wedge and chin tuck. Without the protective structure in place, the hip escape motion can actually accelerate the choke by driving your neck deeper into the choking arm. Always secure defensive structure first, then create space. The sequence must be: chin tuck, elbow wedge, then hip escape."
+        "answer": "The most common critical error is attempting the hip escape before properly establishing the elbow wedge and chin tuck. Without the protective structure in place, the hip escape motion can actually accelerate the choke by driving your neck deeper into the choking arm. Always secure defensive structure first, then create space. The sequence must be: chin tuck, elbow wedge, then hip escape.",
+        "answer_line": "Hip escape before wedge is set",
+        "distractors": {
+          "plausible": [
+            "Chin tuck alone, no elbow wedge",
+            "Grip fight instead of escaping"
+          ],
+          "trap": [
+            "Explode hips first, wedge later"
+          ]
+        }
       },
       {
         "question": "How do you adapt this technique for no-gi application?",
-        "answer": "In no-gi, you cannot reinforce the elbow wedge with collar grip, so focus on driving the elbow point directly into the opponent's inner forearm soft tissue to create discomfort that loosens their grip. The mechanical principles remain the same, but execution relies more on precise elbow placement and faster execution since you cannot create as strong a static barrier. Consider combining with immediate guard leg insertion rather than holding the wedge."
+        "answer": "In no-gi, you cannot reinforce the elbow wedge with collar grip, so focus on driving the elbow point directly into the opponent's inner forearm soft tissue to create discomfort that loosens their grip. The mechanical principles remain the same, but execution relies more on precise elbow placement and faster execution since you cannot create as strong a static barrier. Consider combining with immediate guard leg insertion rather than holding the wedge.",
+        "answer_line": "Drive elbow into forearm nerve",
+        "distractors": {
+          "plausible": [
+            "Grab own collar for leverage",
+            "Push off opponent's chest"
+          ],
+          "trap": [
+            "Hold static wedge, no urgency"
+          ]
+        }
       },
       {
         "question": "What grip must you establish on your own body to reinforce the elbow wedge in the gi?",
-        "answer": "Grab your own far-side collar with the wedging hand after inserting the elbow. This converts your arm from a muscular frame into a reinforced skeletal structure anchored by the gi material. The collar grip prevents the opponent from stripping your elbow out of position and allows you to maintain the wedge with minimal energy expenditure while you execute the hip escape and leg insertion sequence."
+        "answer": "Grab your own far-side collar with the wedging hand after inserting the elbow. This converts your arm from a muscular frame into a reinforced skeletal structure anchored by the gi material. The collar grip prevents the opponent from stripping your elbow out of position and allows you to maintain the wedge with minimal energy expenditure while you execute the hip escape and leg insertion sequence.",
+        "answer_line": "Grab your own far collar",
+        "distractors": {
+          "plausible": [
+            "Grab your own near collar",
+            "Grab opponent's sleeve"
+          ],
+          "trap": [
+            "Let go to hip escape faster"
+          ]
+        }
       },
       {
         "question": "Your first hip escape only creates partial space and opponent begins following—what is your immediate response?",
-        "answer": "Execute a second hip escape in the same diagonal direction before the opponent can fully close the distance. Chain multiple smaller shrimps rather than relying on a single large one. Each successive hip escape compounds the space created. If the knee is partially inserted, use it as a frame to prevent the opponent from collapsing back in while you complete the second shrimp and finish establishing guard."
+        "answer": "Execute a second hip escape in the same diagonal direction before the opponent can fully close the distance. Chain multiple smaller shrimps rather than relying on a single large one. Each successive hip escape compounds the space created. If the knee is partially inserted, use it as a frame to prevent the opponent from collapsing back in while you complete the second shrimp and finish establishing guard.",
+        "answer_line": "Chain a second hip escape",
+        "distractors": {
+          "plausible": [
+            "One large explosive shrimp",
+            "Push opponent away with hands"
+          ],
+          "trap": [
+            "Stop and reset your base"
+          ]
+        }
       }
     ],
     "safety_considerations": "This escape technique is relatively low-risk when executed properly, but practitioners should be aware of several safety considerations. First, never continue attempting the escape if the choke is fully locked and you feel significant pressure on your carotid arteries—tap and reset rather than risk loss of consciousness. The elbow wedge should relieve pressure; if it doesn't, the choke may be too deep for this escape. Second, be cautious not to hyperextend your own neck while tucking your chin, especially if opponent is applying strong downward pressure. Third, when training this technique, partners applying the buggy choke should apply pressure gradually and release immediately on tap signals. The choke can come on fast once grips are secured. Finally, practitioners with neck injuries should approach this escape cautiously and may need to prioritize other defensive options that put less stress on cervical structures.",
@@ -408,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is initiating the Elbow Escape to Guard?",
-        "answer": "The earliest cue is the bottom player's aggressive chin tuck combined with their near-side elbow beginning to move inward toward their own neck. This elbow movement is the tell—standard turtle posture keeps elbows wide for base, so any inward elbow migration signals the wedge attempt. Responding at this initial phase before the wedge establishes gives you the highest probability of maintaining the buggy choke."
+        "answer": "The earliest cue is the bottom player's aggressive chin tuck combined with their near-side elbow beginning to move inward toward their own neck. This elbow movement is the tell—standard turtle posture keeps elbows wide for base, so any inward elbow migration signals the wedge attempt. Responding at this initial phase before the wedge establishes gives you the highest probability of maintaining the buggy choke.",
+        "answer_line": "Elbow migrating toward neck",
+        "distractors": {
+          "plausible": [
+            "Sudden burst of hip movement",
+            "Opponent's grip loosening"
+          ],
+          "trap": [
+            "Wait for full guard insertion"
+          ]
+        }
       },
       {
         "question": "Your choking pressure is being reduced by the elbow wedge but the bottom player has not yet hip escaped—what is your best response?",
-        "answer": "Attempt to strip the wedge by driving your choking forearm deeper and rotating your wrist to slide past the elbow point. Simultaneously increase perpendicular chest pressure to pin them before they can begin the hip escape. If stripping fails within 2-3 seconds, immediately transition your strategy—either follow their anticipated hip escape direction or begin converting to back control before they create significant space."
+        "answer": "Attempt to strip the wedge by driving your choking forearm deeper and rotating your wrist to slide past the elbow point. Simultaneously increase perpendicular chest pressure to pin them before they can begin the hip escape. If stripping fails within 2-3 seconds, immediately transition your strategy—either follow their anticipated hip escape direction or begin converting to back control before they create significant space.",
+        "answer_line": "Strip wedge, then convert fast",
+        "distractors": {
+          "plausible": [
+            "Hold same pressure and wait",
+            "Grip fight indefinitely"
+          ],
+          "trap": [
+            "Release choke to reset grips"
+          ]
+        }
       },
       {
         "question": "When should you abandon the choke and transition to back control instead?",
-        "answer": "Transition when the elbow wedge is fully established with collar reinforcement and the bottom player has begun creating space through hip escape. At this point, choke completion probability drops significantly and continued grip fighting wastes energy against a structural barrier. The hip escape movement actually facilitates back take because the bottom player is creating the separation you need to insert hooks. Follow their hip movement and hook the near leg immediately."
+        "answer": "Transition when the elbow wedge is fully established with collar reinforcement and the bottom player has begun creating space through hip escape. At this point, choke completion probability drops significantly and continued grip fighting wastes energy against a structural barrier. The hip escape movement actually facilitates back take because the bottom player is creating the separation you need to insert hooks. Follow their hip movement and hook the near leg immediately.",
+        "answer_line": "Wedge holds, hips escaping",
+        "distractors": {
+          "plausible": [
+            "Immediately at first wedge sign",
+            "Only after collar grip removed"
+          ],
+          "trap": [
+            "Keep grinding for the choke"
+          ]
+        }
       },
       {
         "question": "How do you prevent the bottom player from chaining multiple hip escapes to progressively create space?",
-        "answer": "Follow each hip escape by walking your hips and chest with them, maintaining chest-to-back connection throughout. Keep your head glued to their far shoulder as an anchor point—if your head stays connected, your body follows. Use short lateral steps rather than jumping to follow, which could create momentary airspace. The goal is to deny any cumulative space creation by matching their movement step for step."
+        "answer": "Follow each hip escape by walking your hips and chest with them, maintaining chest-to-back connection throughout. Keep your head glued to their far shoulder as an anchor point—if your head stays connected, your body follows. Use short lateral steps rather than jumping to follow, which could create momentary airspace. The goal is to deny any cumulative space creation by matching their movement step for step.",
+        "answer_line": "Walk hips, keep head anchored",
+        "distractors": {
+          "plausible": [
+            "Jump to follow their hips",
+            "Push down harder on chest"
+          ],
+          "trap": [
+            "Back off to reset your base"
+          ]
+        }
       },
       {
         "question": "What adjustment prevents the gi-reinforced elbow wedge variant where the bottom player grabs their own collar?",
-        "answer": "You must prevent the collar grip by controlling their wedging hand before it reaches the collar. If you feel the elbow wedge insert, immediately grab their wrist or hand with your free hand and pull it away from their collar before they can establish the reinforcing grip. Once the collar grip locks in, the wedge becomes extremely difficult to strip because it's no longer dependent on arm strength alone—the gi material provides structural reinforcement."
+        "answer": "You must prevent the collar grip by controlling their wedging hand before it reaches the collar. If you feel the elbow wedge insert, immediately grab their wrist or hand with your free hand and pull it away from their collar before they can establish the reinforcing grip. Once the collar grip locks in, the wedge becomes extremely difficult to strip because it's no longer dependent on arm strength alone—the gi material provides structural reinforcement.",
+        "answer_line": "Grab their wrist before collar",
+        "distractors": {
+          "plausible": [
+            "Strip elbow after collar locks",
+            "Push their arm away broadly"
+          ],
+          "trap": [
+            "Let collar grip lock, then fight"
+          ]
+        }
       }
     ],
     "training_progressions": [

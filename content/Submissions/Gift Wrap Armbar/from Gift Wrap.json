@@ -302,13 +302,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The armbar attacks the shoulder joint, and the gift wrap raises the finish rate mainly by fatiguing the trapped arm over time.",
-            "It attacks the wrist joint, and the gift wrap helps chiefly by keeping the opponent flat so they cannot turn into you."
+            "Shoulder joint, not the elbow",
+            "Wrist lock via grip fatigue"
           ],
           "trap": [
-            "Release the gift wrap as you transition so both of your hands are free to catch the arm mid-swing."
+            "Push opponent's free arm away"
           ]
-        }
+        },
+        "answer_line": "Traps 2nd arm, elbow hyperextends"
       },
       {
         "question": "What are the visible indicators that the opponent's elbow is approaching the breaking point during the armbar extension?",
@@ -316,13 +317,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "The clearest sign is the opponent's arm going limp and relaxed, which shows the ligaments have released their tension.",
-            "The breaking point is signaled by the elbow beginning to bend slightly as the joint capsule stretches under load."
+            "Wait only for verbal tap",
+            "Arm goes limp and relaxed"
           ],
           "trap": [
-            "There are no reliable visual signs, so extend explosively to full range and rely on the tap to tell you when to stop."
+            "Keep cranking through a pop"
           ]
-        }
+        },
+        "answer_line": "Arm straight, tensed, distress"
       },
       {
         "question": "What must be established before committing to the armbar transition from gift wrap control?",
@@ -330,13 +332,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The priority is to flatten the opponent completely first; wrist control can be established after you swing the leg over.",
-            "Secure the gift wrap and base first, then release the wrist so your hand is free to post during the leg swing."
+            "Just secure the gift wrap",
+            "Underhook and hip pressure"
           ],
           "trap": [
-            "Abandon your hooks early and post both hands on the mat so you can spin into the armbar faster."
+            "Release wrist to grab collar"
           ]
-        }
+        },
+        "answer_line": "Gift wrap, base, wrist control"
       },
       {
         "question": "At what point during the Gift Wrap Armbar sequence does the submission become inescapable for the defender?",
@@ -344,18 +347,29 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The armbar is inescapable as soon as the arm is fully extended, even before the knees are squeezed together.",
-            "The escape window closes the moment you swing your leg over the head, regardless of where your hips sit under the elbow."
+            "Legs clamp but wrist stays loose",
+            "Hips high, knees open wide"
           ],
           "trap": [
-            "Once your legs are over the head you can open your knees and let the arm float, since no escapes remain to worry about."
+            "Loosen knees to adjust angle"
           ]
-        }
+        },
+        "answer_line": "Knees clamp head, hips under elbow"
       },
       {
         "question": "What is the most common finishing error that allows opponents to survive the Gift Wrap Armbar even from a locked position?",
         "answer": "The most common finishing error is attempting to extend the arm by pulling with the hands and arms rather than elevating the hips. Hand pulling lacks sufficient force to overcome a resisting opponent, fatigues quickly, and can inadvertently lift the attacker's hips away from the fulcrum position beneath the elbow. The correction is to pin the wrist to the chest and generate all finishing pressure through a hip bridge, which engages the glutes, hamstrings, and core—muscles vastly more powerful than the arms.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pulling with arms, not hips",
+        "distractors": {
+          "plausible": [
+            "Squeezing knees too tightly",
+            "Bridging hips too slowly"
+          ],
+          "trap": [
+            "Yanking the wrist upward"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grip if the opponent begins rotating their wrist during the finishing extension?",
@@ -363,41 +377,73 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Slide your grip down to the fingers instead, since finger control gives the strongest anti-rotation leverage.",
-            "Angle your hips toward the opponent's pinky-side to chase the rotation and restore the hyperextension vector."
+            "Grab hand tighter, ignore knees",
+            "Switch grip to fingers only"
           ],
           "trap": [
-            "Open your knees to let the arm re-rotate on its own, then re-clamp once the elbow points upward again."
+            "Let go and re-grip the wrist"
           ]
-        }
+        },
+        "answer_line": "Grip forearm, squeeze knees tighter"
       },
       {
         "question": "What is the appropriate speed for applying the finishing extension, and what should you do if you feel a pop or crack before the opponent taps?",
         "answer": "The finishing extension should be applied progressively over 2-4 seconds with smooth hip elevation. Never jerk, bounce, or spike the extension. If you feel or hear a pop, crack, or sudden loss of resistance before the opponent taps, release immediately regardless of whether a formal tap occurred. These sensations indicate potential ligament or joint damage. Stop the roll, check on your partner, and seek medical evaluation. Continuing after structural failure can cause permanent injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow extension, release on pop",
+        "distractors": {
+          "plausible": [
+            "Fast bridge to beat the tap",
+            "Wait for a loud verbal tap only"
+          ],
+          "trap": [
+            "Keep extending after a pop"
+          ]
+        }
       },
       {
         "question": "How does the Gift Wrap Armbar create a strategic dilemma with choke attacks, and how should you exploit this in competition?",
         "answer": "The gift wrap forces the opponent's free arm to choose between defending the neck against chokes and staying retracted from the armbar. When they extend that arm to fight your choking hand, it becomes vulnerable to the armbar; when they retract it, the neck opens for the rear naked choke. In competition, alternate genuine choke threats with armbar entries, read which defense the opponent prioritizes, and attack the opposite target—establishing this pattern forces reactive defense that you control.",
         "distractors": {
           "plausible": [
-            "The dilemma works because the trapped arm defends the choke while the free arm defends the armbar, splitting their attention.",
-            "In competition, commit fully to the choke first and only switch to the armbar after the choke has clearly failed."
+            "Only attack the choke repeatedly",
+            "Only attack the trapped arm"
           ],
           "trap": [
-            "Release the gift wrap to threaten the choke with both hands, since the double attack outweighs keeping the arm trapped."
+            "Release gift wrap to reset grips"
           ]
-        }
+        },
+        "answer_line": "Alternate choke and armbar threats"
       },
       {
         "question": "During the finishing extension, your opponent manages to sit up partially despite your leg across their face - what immediate adjustment prevents the escape?",
         "answer": "When the opponent begins sitting up, your leg across the face is either too light or positioned too high on the forehead. Drop your hamstring lower to seat it on the jawline rather than the forehead, creating a stronger mechanical barrier against their posturing force. Simultaneously, angle your body slightly away from them by scooting your hips back, which increases the distance they need to cover to complete the sit-up. If they continue rising, hook your heel behind their far shoulder to create a more secure anchor point. The combination of heavy leg pressure on the jaw and angular retreat creates a wall that is far more effective than simply pushing with the leg.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Seat leg on jaw, angle hips back",
+        "distractors": {
+          "plausible": [
+            "Push harder with the same leg",
+            "Grab a deeper gift wrap grip"
+          ],
+          "trap": [
+            "Let go of leg to re-hook heel"
+          ]
+        }
       },
       {
         "question": "You have the armbar locked with hips elevated but the opponent maintains a slight bend in the arm and resists extension through bicep strength - what finishing detail breaks through this resistance?",
         "answer": "Against bent-arm resistance, pure hip elevation alone may be insufficient because the opponent's bicep is strongest in a partially flexed position. Apply the breaking-the-line adjustment by angling the captured wrist slightly toward your centerline rather than holding it directly over your sternum. This subtle wrist redirection changes the force vector so the extension pressure attacks the elbow at a less mechanically advantageous angle for the bicep, reducing their resistance capacity. Additionally, pulse your hip elevation in small increments rather than attempting one sustained bridge, as each incremental pulse advances the extension past the opponent's ability to reset their resistance. Maintain constant adductor squeeze throughout to prevent any elbow rotation that would relieve the pressure angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Angle wrist in, pulse hip bridges",
+        "distractors": {
+          "plausible": [
+            "Pull wrist straight over sternum",
+            "One big explosive hip bridge"
+          ],
+          "trap": [
+            "Loosen knee squeeze to reset"
+          ]
+        }
       },
       {
         "question": "What anatomical structure does the Gift Wrap Armbar attack, and how does it fail structurally?",
@@ -405,13 +451,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "It attacks the shoulder capsule, which fails by rotating past its range when the hips elevate under the arm.",
-            "It attacks the elbow by compressing the joint, crushing the cartilage between the bones until it gives way."
+            "Muscle strain from overuse",
+            "Nerve compression in forearm"
           ],
           "trap": [
-            "The elbow only fails under fast, explosive extension, so slow pressure can safely be held at full range indefinitely."
+            "Ignore tap, keep extending"
           ]
-        }
+        },
+        "answer_line": "Ligaments/capsule tear past ROM"
       },
       {
         "question": "Before you ever lift your hips, what two control points must be locked for the finish to work?",
@@ -419,13 +466,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Lock two-on-one wrist control with the thumb turned down and pinch the elbow between your knees before elevating.",
-            "Secure the wrist and cross your ankles above the head, so the leg lock rather than the elbow seat anchors the lever."
+            "Both hands clasped together",
+            "Underhook and body triangle"
           ],
           "trap": [
-            "Lift your hips first to create the pressure, then hunt for the wrist once the opponent starts defending."
+            "Let elbow float off the hip"
           ]
-        }
+        },
+        "answer_line": "Thumb-up wrist, elbow on fulcrum"
       },
       {
         "question": "What tells you the elbow is at the breaking point during the finish?",
@@ -433,13 +481,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "You know the break is near when the arm suddenly goes loose, since the joint releases its tension just before failing.",
-            "The key indicator is the wrist bending backward, showing the extension has traveled through the whole arm."
+            "Opponent taps verbally first",
+            "Arm feels loose, no resistance"
           ],
           "trap": [
-            "Once the arm is straight, pop your hips explosively to guarantee the finish before the opponent can adjust."
+            "Crank harder to test the limit"
           ]
-        }
+        },
+        "answer_line": "Arm straight, rotation stops, firm"
       },
       {
         "question": "Your opponent rotates their thumb down so their pinky points to the ceiling — what grip adjustment restores the finish?",
@@ -447,13 +496,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Leave the wrist pinky-up and simply bridge your hips higher, since extra elevation compensates for the rotated joint.",
-            "Angle your hips toward the pinky side to chase the rotation instead of re-rotating the wrist itself."
+            "Grip tighter without rotating",
+            "Switch to a wrist lock instead"
           ],
           "trap": [
-            "Release the wrist and grab the fingers to crank the rotation back, since finger control steers the arm most strongly."
+            "Release the wrist to re-angle"
           ]
-        }
+        },
+        "answer_line": "Re-rotate wrist thumb-up"
       },
       {
         "question": "At what moment is the opponent's escape window effectively closed?",
@@ -461,18 +511,29 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The escape window closes the moment your leg swings over the head, even before the knees pinch or the wrist is pinned.",
-            "It closes once the arm is fully extended, so the knee pinch and head pressure are optional refinements after that."
+            "Knees pinched but wrist is loose",
+            "Leg on face, knees still open"
           ],
           "trap": [
-            "Once the wrist is pinned you can lift the leg off the face and sit up to get a better view of the finish."
+            "Loosen knees to reposition leg"
           ]
-        }
+        },
+        "answer_line": "Knees pinched, leg on face, pinned"
       },
       {
         "question": "You are cranking hard but the opponent isn't tapping and the arm won't straighten — what is the likely error?",
         "answer": "There is space between your thigh and their elbow, or your knees have opened. Re-pinch the knees, slide the elbow to your hip crease, and finish on the fulcrum rather than trying to muscle the extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow slipped off thigh fulcrum",
+        "distractors": {
+          "plausible": [
+            "Not pulling hard enough",
+            "Wrist grip needs more strength"
+          ],
+          "trap": [
+            "Open knees to re-angle elbow"
+          ]
+        }
       },
       {
         "question": "If the opponent bends the elbow and grabs their own lapel or belt to stall, what is your highest-percentage adjustment?",
@@ -480,13 +541,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Wait patiently with the position locked until the grip fatigues, since any grip-break attempt risks losing your control.",
-            "Abandon the armbar and switch immediately to a triangle, since a defended lapel grip cannot realistically be broken."
+            "Just bridge harder through it",
+            "Wait for them to release grip"
           ],
           "trap": [
-            "Pull straight back against the grip with both hands in a tug of war, jerking explosively until the lapel tears free."
+            "Release the gift wrap to re-attack"
           ]
-        }
+        },
+        "answer_line": "Strip grip or switch to kimura"
       },
       {
         "question": "Why must the finishing extension be applied slowly rather than explosively?",
@@ -494,13 +556,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Slow extension matters mainly because fast movement gives the opponent momentum to spin out of the finish.",
-            "You extend slowly to conserve your own energy in case the first attempt fails and you need a second attack."
+            "Slow extension wastes energy",
+            "Fast extension is more secure"
           ],
           "trap": [
-            "In competition, explode into the extension anyway — a fast finish secures the tap before the opponent can defend."
+            "Snap the arm for a faster finish"
           ]
-        }
+        },
+        "answer_line": "Force tears ligaments before tap"
       },
       {
         "question": "In competition, how do you use the trapped arm to make the armbar nearly unstoppable?",
@@ -508,13 +571,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Use the gift wrap mainly to flatten the opponent, then release it so both of your hands are free for the armbar finish.",
-            "The gift wrap makes the armbar unstoppable because you attack the very arm the gift wrap is already controlling."
+            "Trapped arm speeds up the pin",
+            "Trapped arm improves your base"
           ],
           "trap": [
-            "Let go of the gift wrap during the leg swing so both hands can catch the free arm before it retracts."
+            "Release gift wrap between attacks"
           ]
-        }
+        },
+        "answer_line": "Trapped arm blocks frames, add choke"
       }
     ],
     "clips": [
@@ -628,47 +692,137 @@
       {
         "question": "What is the most critical timing window for defending the Gift Wrap Armbar, and what should you do during it?",
         "answer": "The most critical window is during the attacker's hip shift phase before their far leg swings over your head. At this point, the attacker has committed to abandoning pure back control but has not yet locked the armbar position. Turn your hips and shoulders toward the attacker to collapse the armbar angle, and retract your free arm tight to your body with hands clasped. Once the leg crosses your face and the hips are in position, defensive options decrease dramatically.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn hips before leg crosses face",
+        "distractors": {
+          "plausible": [
+            "Wait until armbar is locked",
+            "Defend after the leg crosses"
+          ],
+          "trap": [
+            "Extend arm to push attacker off"
+          ]
+        }
       },
       {
         "question": "Why is extending your free arm to push the attacker away a dangerous mistake when defending the Gift Wrap Armbar?",
         "answer": "Extending the free arm provides the attacker with exactly the arm isolation they need to complete the armbar setup. The push creates wrist exposure that allows two-on-one grip, the extension removes the arm from the protected position near your ribs, and the straight arm is already partially in the finishing position. Instead, keep the elbow glued to the ribs and use hip movement and body turning for defensive actions rather than arm-based responses.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Gives attacker the arm isolation",
+        "distractors": {
+          "plausible": [
+            "Wastes energy, tires you out",
+            "Opens your guard unnecessarily"
+          ],
+          "trap": [
+            "Push their hips to create space"
+          ]
+        }
       },
       {
         "question": "At what point should you tap to the Gift Wrap Armbar rather than continuing to resist?",
         "answer": "Tap immediately when you feel the arm reaching full extension with the attacker's hips elevated beneath your elbow and your wrist secured at their chest. At this point, the mechanical advantage makes escape nearly impossible and continued resistance risks ligament damage. Also tap if you feel any sharp pain, popping, or instability in the elbow joint regardless of the submission stage. The gift wrap makes recovery after a failed armbar defense extremely difficult since you return to an already-compromised position with a potentially injured arm.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Full extension, hips under elbow",
+        "distractors": {
+          "plausible": [
+            "Only when you hear a pop",
+            "Wait until pain becomes sharp"
+          ],
+          "trap": [
+            "Keep fighting the wrist grip"
+          ]
+        }
       },
       {
         "question": "How does the gift wrap arm trap change your standard armbar defense strategy compared to a normal armbar?",
         "answer": "The gift wrap fundamentally changes armbar defense because your primary defensive tool—clasping both hands together—is unavailable. With one arm trapped, you cannot create the two-on-one grip that normally prevents arm isolation. You must rely entirely on arm retraction, body rotation, and hip movement for defense rather than grip-based resistance. This means defense must happen earlier during the setup phase rather than during the finishing phase, because late-stage armbar defense requires both arms.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Can't clasp hands, defend earlier",
+        "distractors": {
+          "plausible": [
+            "Defend later during the finish",
+            "Rely on grip strength instead"
+          ],
+          "trap": [
+            "Extend the free arm to frame"
+          ]
+        }
       },
       {
         "question": "What is the best recovery strategy if the attacker fails the Gift Wrap Armbar but still maintains the gift wrap arm trap?",
         "answer": "If the armbar fails and you return to gift wrap control, immediately address the two persistent problems in priority order. First, protect your neck with the free hand since the attacker will likely switch back to choke attacks. Second, begin working the trapped arm recovery using hip and shoulder rotation rather than arm strength. Use the attacker's positional readjustment after the failed armbar as a window for escape attempts, as their base may be temporarily compromised from the transition back to standard gift wrap control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Protect neck first, then recover arm",
+        "distractors": {
+          "plausible": [
+            "Recover arm before neck",
+            "Attack immediately, ignore neck"
+          ],
+          "trap": [
+            "Extend free arm to push away"
+          ]
+        }
       },
       {
         "question": "Why is the free arm the most dangerous limb to misuse when defending the Gift Wrap Armbar?",
         "answer": "Because it is the attacker's target; extending it to push or frame hands them the straight-arm lever for the armbar, so it must stay bent and tight to your ribs while still protecting your neck.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "It's the armbar's target limb",
+        "distractors": {
+          "plausible": [
+            "It's needed to grip fight",
+            "It's your main framing tool"
+          ],
+          "trap": [
+            "Extend it to create distance"
+          ]
+        }
       },
       {
         "question": "What is the correct moment to attempt the roll-through escape?",
         "answer": "As soon as the arm is isolated and the attacker begins rotating to finish but before their knees pinch and the leg crosses your face; spin toward the trapped elbow to roll into their guard before full extension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Before knees pinch, leg crosses face",
+        "distractors": {
+          "plausible": [
+            "After the armbar is fully locked",
+            "As soon as arm feels trapped"
+          ],
+          "trap": [
+            "Pull the arm back straight"
+          ]
+        }
       },
       {
         "question": "How do you reduce hyperextension pressure if your arm is already caught and straightening?",
         "answer": "Rotate your thumb down and turn your body toward the trapped elbow, following the arm to relieve the joint and chase the roll-through rather than pulling straight back against the lever.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Thumb down, rotate toward elbow",
+        "distractors": {
+          "plausible": [
+            "Pull straight back against it",
+            "Push off with the free arm"
+          ],
+          "trap": [
+            "Yank the arm free forcefully"
+          ]
+        }
       },
       {
         "question": "Why must you recover the trapped arm to truly neutralize the gift wrap dilemma?",
         "answer": "The trapped arm is what reduces your defense to a single-arm problem; restoring it gives you two hands to fight the choke and frame, removing the asymmetry that makes both the armbar and the choke high-percentage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Restores two-hand defense options",
+        "distractors": {
+          "plausible": [
+            "Speeds up the choke defense only",
+            "Improves your base and posture"
+          ],
+          "trap": [
+            "Extend the free arm to fight grips"
+          ]
+        }
       }
     ],
     "training_progressions": [

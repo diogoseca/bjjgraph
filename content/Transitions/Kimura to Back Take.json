@@ -248,84 +248,168 @@
         "answer": "The Kimura grip keeps a constant connection that threatens the finish, steers the opponent's roll, and stops them turning back into you. It provides a secure connection point that prevents separation during movement, and the submission threat is what forces their defensive roll in the first place. As they rotate, the grip acts as a steering mechanism to control their direction, and once you begin taking the back it prevents them from turning back into you. Releasing the grip prematurely eliminates all of these control elements and typically results in losing position entirely.",
         "distractors": {
           "plausible": [
-            "The grip is kept mainly to finish the Kimura the instant the roll completes, since the back take is only a backup plan.",
-            "The grip mainly pins their shoulder flat to stop any rolling, so you can climb to the back while they stay still."
+            "Just to finish the submission",
+            "Switch grips once rolling starts"
           ],
           "trap": [
-            "Release the Kimura grip as soon as their roll begins so both hands are free to chase the seatbelt and hooks."
+            "Release grip to move faster"
+          ]
+        },
+        "answer_line": "Threatens finish, steers the roll"
+      },
+      {
+        "question": "What is the primary defensive reaction you are seeking to elicit from the opponent when applying Kimura pressure?",
+        "answer": "You want the opponent to roll toward their trapped arm to relieve the shoulder pressure of the Kimura lock. This defensive rolling motion naturally exposes their back and creates the pathway for establishing back control. The submission threat creates a predictable defensive response that becomes the entry point for positional advancement. Understanding this action-reaction relationship is fundamental to using submissions as position-advancing tools rather than merely finish attempts.",
+        "answer_line": "Roll toward trapped arm",
+        "distractors": {
+          "plausible": [
+            "Roll away from trapped arm",
+            "Post and stand to escape"
+          ],
+          "trap": [
+            "Tap immediately to reset"
           ]
         }
       },
       {
-        "question": "What is the primary defensive reaction you are seeking to elicit from the opponent when applying Kimura pressure?",
-        "answer": "You want the opponent to roll toward their trapped arm to relieve the shoulder pressure of the Kimura lock. This defensive rolling motion naturally exposes their back and creates the pathway for establishing back control. The submission threat creates a predictable defensive response that becomes the entry point for positional advancement. Understanding this action-reaction relationship is fundamental to using submissions as position-advancing tools rather than merely finish attempts."
-      },
-      {
         "question": "In what sequence should hooks be established during the Kimura to back take transition, and why does this order matter?",
-        "answer": "The bottom hook must always be established first, followed by the top hook. The bottom hook provides foundational control that prevents the opponent from escaping toward that side and creates a secure base from which to work. It also prevents them from turning back into you. Only after the bottom hook is deep and secure should you insert the top hook. Attempting to establish the top hook first leaves a major escape route open and makes it much easier for the opponent to defend or escape the position."
+        "answer": "The bottom hook must always be established first, followed by the top hook. The bottom hook provides foundational control that prevents the opponent from escaping toward that side and creates a secure base from which to work. It also prevents them from turning back into you. Only after the bottom hook is deep and secure should you insert the top hook. Attempting to establish the top hook first leaves a major escape route open and makes it much easier for the opponent to defend or escape the position.",
+        "answer_line": "Bottom hook first, then top",
+        "distractors": {
+          "plausible": [
+            "Top hook first for control",
+            "Both hooks in simultaneously"
+          ],
+          "trap": [
+            "Skip hooks, go for the choke"
+          ]
+        }
       },
       {
         "question": "How do you prevent losing control during the grip transition from Kimura configuration to seat belt harness?",
-        "answer": "The key is never releasing the Kimura grip until the replacement control is already partially established. Both hooks must be fully secured first, providing lower body control. Then, slide your top arm across for the seat belt while your bottom Kimura arm remains locked. Only when the seat belt arm is in position and applying pressure do you release the Kimura configuration completely. Think of it as overlapping control systems where you always have at least one form of strong control active."
+        "answer": "The key is never releasing the Kimura grip until the replacement control is already partially established. Both hooks must be fully secured first, providing lower body control. Then, slide your top arm across for the seat belt while your bottom Kimura arm remains locked. Only when the seat belt arm is in position and applying pressure do you release the Kimura configuration completely. Think of it as overlapping control systems where you always have at least one form of strong control active.",
+        "answer_line": "Overlap grips, release last",
+        "distractors": {
+          "plausible": [
+            "Release Kimura before seatbelt",
+            "Insert seatbelt before hooks"
+          ],
+          "trap": [
+            "Let go of Kimura to hurry"
+          ]
+        }
       },
       {
         "question": "What adjustment should you make if your opponent posts aggressively and prevents the rolling motion necessary for the back take?",
         "answer": "Attack the Kimura finish harder to break their base, or switch attacks — arm triangle, north-south Kimura, or a direct turtle back take. Threatening the finish more aggressively uses submission pressure to compromise the structural base they are posting on. If that fails, transition to alternative attacks such as the arm triangle or north-south Kimura for different angles, and if they remain turtled, attack the turtle directly with traditional back takes. The principle is that their commitment to one defense creates vulnerability to other attacks.",
         "distractors": {
           "plausible": [
-            "Keep driving the roll harder in the same direction, since a strong enough push will eventually collapse their post.",
-            "Hold the grip and wait patiently for them to tire, because posting burns far more energy than maintaining the lock."
+            "Abandon position, reset guard",
+            "Force the roll with strength"
           ],
           "trap": [
-            "Release the Kimura and pull guard so you can reset to a familiar position and restart the attack cleanly."
+            "Release grip and stand up"
           ]
-        }
+        },
+        "answer_line": "Attack harder or switch subs"
       },
       {
         "question": "Why is following the opponent's defensive motion superior to forcing them to roll?",
         "answer": "Following their defensive motion works with their momentum, saving energy and giving them nothing to brace against or counter. It conserves your energy, maintains better control throughout the transition, and creates less opportunity for scrambles or reversals. When you force movement, the opponent feels the direction you are pushing and can brace or counter. When you instead apply pressure and follow their chosen defensive path, they move themselves into the position you want while believing they are defending.",
         "distractors": {
           "plausible": [
-            "Following works mainly because it lulls the opponent into relaxing, so you can explode into the back take when they least expect it.",
-            "Following is superior chiefly because their roll is faster than any push you could generate, so you arrive at the back sooner."
+            "Force the roll quickly",
+            "Push hard in one direction"
           ],
           "trap": [
-            "Forcing the roll is better whenever you are stronger, since driving them over quickly beats waiting for them to move."
+            "Yank the arm to speed rotation"
+          ]
+        },
+        "answer_line": "Follow momentum, don't force"
+      },
+      {
+        "question": "What is the optimal timing window for initiating the back take during the opponent's defensive roll?",
+        "answer": "The optimal timing is when the opponent commits to their roll but before they complete the rotation. This window is approximately when their shoulders reach 45-90 degrees of rotation. At this point, their momentum is committed and they cannot easily reverse direction, but their back is not yet protected by completing the turtle. Initiating too early means they can abort the roll and reset. Initiating too late means they may complete the roll to a defensive turtle with elbows tight.",
+        "answer_line": "Commit at 45-90 degree rotation",
+        "distractors": {
+          "plausible": [
+            "Wait until roll fully completes",
+            "Take back at first movement"
+          ],
+          "trap": [
+            "Rush in before they commit"
           ]
         }
       },
       {
-        "question": "What is the optimal timing window for initiating the back take during the opponent's defensive roll?",
-        "answer": "The optimal timing is when the opponent commits to their roll but before they complete the rotation. This window is approximately when their shoulders reach 45-90 degrees of rotation. At this point, their momentum is committed and they cannot easily reverse direction, but their back is not yet protected by completing the turtle. Initiating too early means they can abort the roll and reset. Initiating too late means they may complete the roll to a defensive turtle with elbows tight."
-      },
-      {
         "question": "Your opponent defends by grabbing their own gi pants with their trapped hand - how do you break this grip?",
-        "answer": "Do not waste energy trying to rip through the grip with pure force. Instead, use circular motion and angle adjustments: walk your body in an arc toward their head while maintaining the Kimura grip, creating different leverage angles on their defensive grip. Use your free hand or knee to pry their gripping fingers loose. Apply intermittent submission pressure pulses rather than constant pressure, as the grip-relax-grip pattern often causes defensive grips to fatigue. If the grip remains, transition to mount or north-south where their grip defense creates different vulnerabilities."
+        "answer": "Do not waste energy trying to rip through the grip with pure force. Instead, use circular motion and angle adjustments: walk your body in an arc toward their head while maintaining the Kimura grip, creating different leverage angles on their defensive grip. Use your free hand or knee to pry their gripping fingers loose. Apply intermittent submission pressure pulses rather than constant pressure, as the grip-relax-grip pattern often causes defensive grips to fatigue. If the grip remains, transition to mount or north-south where their grip defense creates different vulnerabilities.",
+        "answer_line": "Angle change, pry, pulse pressure",
+        "distractors": {
+          "plausible": [
+            "Wait passively for fatigue",
+            "Release Kimura, retry grip"
+          ],
+          "trap": [
+            "Rip through with brute force"
+          ]
+        }
       },
       {
         "question": "What hip positioning is critical when following the opponent's roll to maintain control?",
-        "answer": "Your hips should stay low and tight to the opponent's hips throughout the transition. As they roll, your inside hip drives into their lower back, functioning as a pivot point that keeps you connected during the rotation. Avoid letting your hips rise up or separate from their body, as this creates space they can exploit. Your hip-to-hip connection provides the base for inserting hooks - without it, you will be floating above them rather than controlling them. Think of your hips as the anchor that stays attached while your upper body follows via the Kimura grip."
+        "answer": "Your hips should stay low and tight to the opponent's hips throughout the transition. As they roll, your inside hip drives into their lower back, functioning as a pivot point that keeps you connected during the rotation. Avoid letting your hips rise up or separate from their body, as this creates space they can exploit. Your hip-to-hip connection provides the base for inserting hooks - without it, you will be floating above them rather than controlling them. Think of your hips as the anchor that stays attached while your upper body follows via the Kimura grip.",
+        "answer_line": "Hips low, tight to their hips",
+        "distractors": {
+          "plausible": [
+            "Hips high for better view",
+            "Hips wide for stability"
+          ],
+          "trap": [
+            "Separate hips for angle"
+          ]
+        }
       },
       {
         "question": "If the opponent attempts to counter-roll away from the Kimura instead of into it, what chain attacks become available?",
-        "answer": "When opponent rolls away, several opportunities open: their rotation often extends the trapped arm, creating a direct Kimura finish opportunity. Their movement can facilitate a mount transition as they turn. An armbar becomes available if they extend their arm during the counter-roll. If they turtle facing away, you can still take the back by circling to their exposed side. The key is maintaining your grip anchor and recognizing which opportunity their specific rotation direction creates."
+        "answer": "When opponent rolls away, several opportunities open: their rotation often extends the trapped arm, creating a direct Kimura finish opportunity. Their movement can facilitate a mount transition as they turn. An armbar becomes available if they extend their arm during the counter-roll. If they turtle facing away, you can still take the back by circling to their exposed side. The key is maintaining your grip anchor and recognizing which opportunity their specific rotation direction creates.",
+        "answer_line": "Kimura finish, mount, or armbar",
+        "distractors": {
+          "plausible": [
+            "Release grip, reset to guard",
+            "Chase the roll on top only"
+          ],
+          "trap": [
+            "Let go and stand to reset"
+          ]
+        }
       },
       {
         "question": "What are the critical mechanical requirements for maintaining the Kimura grip during dynamic movement?",
         "answer": "Wrap your thumb fully around your wrist, thread your forearm deep near their elbow, and keep your elbows tight to your body. The full thumb wrap — not just finger-gripping — prevents the grip from slipping under load. Threading as close to their elbow as possible matters because a shallow grip near the wrist allows them to extend and escape. Tight elbows create a closed mechanical system rather than a leaky one, and constant inward pressure toward your centerline keeps the figure-four locked during rotation.",
         "distractors": {
           "plausible": [
-            "Grip near their wrist rather than their elbow, since the longer lever gives you more rotational power on the shoulder.",
-            "Keep the thumb alongside your fingers in a monkey grip, because a thumbless grip is harder for them to peel open."
+            "Finger grip near the wrist",
+            "Loose elbows for mobility"
           ],
           "trap": [
-            "Extend your arms away from your body and flare the elbows during the roll to steer them with a longer, stronger lever."
+            "Grip loose to save energy"
           ]
-        }
+        },
+        "answer_line": "Full thumb wrap, deep near elbow"
       },
       {
         "question": "How do you differentiate between an opponent who is genuinely defending versus setting up an escape when they turtle during the transition?",
-        "answer": "Watch their far arm and head position. A genuine defensive turtle will have both elbows tight to the mat, chin tucked, and limited mobility. An escape setup often shows: far arm reaching to grip your leg or posting to create an angle, head turning to look for openings, hips shifting to create space, or one arm starting to thread for guard recovery. Their breathing and muscle tension also differ - genuine defense is controlled and patient, while escape setup shows increased tension in the far side as they prepare explosive movement."
+        "answer": "Watch their far arm and head position. A genuine defensive turtle will have both elbows tight to the mat, chin tucked, and limited mobility. An escape setup often shows: far arm reaching to grip your leg or posting to create an angle, head turning to look for openings, hips shifting to create space, or one arm starting to thread for guard recovery. Their breathing and muscle tension also differ - genuine defense is controlled and patient, while escape setup shows increased tension in the far side as they prepare explosive movement.",
+        "answer_line": "Watch far arm and head cues",
+        "distractors": {
+          "plausible": [
+            "Judge by how fast they turtle",
+            "Assume turtle always genuine"
+          ],
+          "trap": [
+            "Ignore far arm, attack blindly"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Kimura to Back Take transition is relatively safe compared to submission finishes, but practitioners must exercise appropriate control during execution. When applying initial Kimura pressure to create the defensive reaction, avoid explosive or excessive force that could injure the shoulder joint - the goal is to create movement, not injury. During the rolling phase, be aware of your weight distribution to avoid driving your shoulder or elbow into opponent's head or neck. When establishing hooks, control your leg movements to avoid accidental strikes to the opponent's lower back or kidneys. During training, communicate clearly with partners about resistance levels and pause immediately if either person loses control of the movement. The transition can be practiced safely at all skill levels with appropriate progressive resistance.",
@@ -449,23 +533,73 @@
     "flashcards": [
       {
         "question": "What is the single most important early defensive action when you feel a Kimura grip being established?",
-        "answer": "The most important early action is to immediately begin two-on-one grip fighting to prevent the figure-four from being locked or to strip a shallow grip before the attacker can deepen their control near your elbow. Early grip prevention is exponentially more effective than fighting a fully established Kimura because the mechanical advantage of the figure-four increases dramatically with depth. Use both hands to peel the attacker's grip hand off your wrist while keeping your elbow tight to your body."
+        "answer": "The most important early action is to immediately begin two-on-one grip fighting to prevent the figure-four from being locked or to strip a shallow grip before the attacker can deepen their control near your elbow. Early grip prevention is exponentially more effective than fighting a fully established Kimura because the mechanical advantage of the figure-four increases dramatically with depth. Use both hands to peel the attacker's grip hand off your wrist while keeping your elbow tight to your body.",
+        "answer_line": "Grip fight immediately",
+        "distractors": {
+          "plausible": [
+            "Wait to see how deep it gets",
+            "Turtle up right away"
+          ],
+          "trap": [
+            "Try to power out with strength"
+          ]
+        }
       },
       {
         "question": "Why is turning into the attacker a superior defensive strategy compared to turning away during the rolling phase?",
-        "answer": "Turning into the attacker eliminates the back take angle entirely because you end up facing them rather than presenting your back. When you turn toward the attacker, you can establish frames on their shoulder and hip, recover guard position, and the Kimura grip becomes significantly less dangerous from inside your guard. Turning away is the natural panic response but it presents your back at maximum exposure, which is exactly what the attacker wants. The direction of your rotation is the single most important defensive decision during the transition."
+        "answer": "Turning into the attacker eliminates the back take angle entirely because you end up facing them rather than presenting your back. When you turn toward the attacker, you can establish frames on their shoulder and hip, recover guard position, and the Kimura grip becomes significantly less dangerous from inside your guard. Turning away is the natural panic response but it presents your back at maximum exposure, which is exactly what the attacker wants. The direction of your rotation is the single most important defensive decision during the transition.",
+        "answer_line": "Turn into the attacker",
+        "distractors": {
+          "plausible": [
+            "Turn away to create space",
+            "Turtle up facing away"
+          ],
+          "trap": [
+            "Turn away and expose back"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured a deep Kimura grip and begins applying pressure - you cannot strip the grip. What is your next defensive priority?",
-        "answer": "If the grip cannot be stripped, your priority shifts to controlling how you move under the pressure rather than remaining static. Grab your own belt or wrist with the trapped hand to reduce pressure and buy time, then prepare to direct your inevitable movement toward the attacker rather than away. If you must turtle, keep elbows pinched tight, knees together, and hips low to deny hook insertion. The key is accepting that movement will happen while ensuring that movement does not give the attacker free back access."
+        "answer": "If the grip cannot be stripped, your priority shifts to controlling how you move under the pressure rather than remaining static. Grab your own belt or wrist with the trapped hand to reduce pressure and buy time, then prepare to direct your inevitable movement toward the attacker rather than away. If you must turtle, keep elbows pinched tight, knees together, and hips low to deny hook insertion. The key is accepting that movement will happen while ensuring that movement does not give the attacker free back access.",
+        "answer_line": "Grab belt, move toward attacker",
+        "distractors": {
+          "plausible": [
+            "Stay static and absorb pressure",
+            "Turn away to create distance"
+          ],
+          "trap": [
+            "Turn away and roll out"
+          ]
+        }
       },
       {
         "question": "What body positioning prevents hook insertion after you have been forced to turtle during this transition?",
-        "answer": "To prevent hook insertion from turtle, keep your elbows pinched tight against your ribcage so there is no space between your arms and body. Press your knees together and keep your hips as low to the mat as possible, eliminating the gap between your thighs and torso where hooks would be inserted. Tuck your chin and keep your forehead near the mat. This compact defensive posture makes hook insertion extremely difficult and buys time to work grip strips or sit-out escapes. Any space between your limbs and torso becomes an entry point for the attacker's feet."
+        "answer": "To prevent hook insertion from turtle, keep your elbows pinched tight against your ribcage so there is no space between your arms and body. Press your knees together and keep your hips as low to the mat as possible, eliminating the gap between your thighs and torso where hooks would be inserted. Tuck your chin and keep your forehead near the mat. This compact defensive posture makes hook insertion extremely difficult and buys time to work grip strips or sit-out escapes. Any space between your limbs and torso becomes an entry point for the attacker's feet.",
+        "answer_line": "Elbows in, knees together, hips low",
+        "distractors": {
+          "plausible": [
+            "Arms wide to block hooks",
+            "Hips high to deny angle"
+          ],
+          "trap": [
+            "Extend legs to push away"
+          ]
+        }
       },
       {
         "question": "How do you recognize whether the attacker is using the Kimura as a genuine submission attempt versus a positional advancement tool?",
-        "answer": "A genuine submission attempt typically shows constant escalating pressure in one direction with the attacker's weight committed to finishing the shoulder lock. A positional tool shows intermittent pressure pulses, the attacker's weight shifting to a more mobile position that can follow your movement, and their chest lifting slightly rather than driving down for the finish. When the attacker is using it positionally, they want you to move, so they apply enough pressure to motivate rolling but not enough to commit fully to the finish. This distinction informs your defense: against genuine finish attempts, fight the grip; against positional setups, control your movement direction."
+        "answer": "A genuine submission attempt typically shows constant escalating pressure in one direction with the attacker's weight committed to finishing the shoulder lock. A positional tool shows intermittent pressure pulses, the attacker's weight shifting to a more mobile position that can follow your movement, and their chest lifting slightly rather than driving down for the finish. When the attacker is using it positionally, they want you to move, so they apply enough pressure to motivate rolling but not enough to commit fully to the finish. This distinction informs your defense: against genuine finish attempts, fight the grip; against positional setups, control your movement direction.",
+        "answer_line": "Constant pressure means finish",
+        "distractors": {
+          "plausible": [
+            "Any pressure means finish",
+            "Chest driving down means position"
+          ],
+          "trap": [
+            "Ignore pressure, defend the same"
+          ]
+        }
       }
     ],
     "training_progressions": [

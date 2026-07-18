@@ -233,51 +233,171 @@
     "flashcards": [
       {
         "question": "What is the primary goal of hand fighting from back control?",
-        "answer": "The primary goal is to prevent the opponent from establishing a choking grip while creating opportunities for escape. Hand fighting neutralizes the immediate submission threat, transforming back control from a terminal position into a survivable situation where systematic escape becomes possible."
+        "answer": "The primary goal is to prevent the opponent from establishing a choking grip while creating opportunities for escape. Hand fighting neutralizes the immediate submission threat, transforming back control from a terminal position into a survivable situation where systematic escape becomes possible.",
+        "answer_line": "Deny the choke, enable escape",
+        "distractors": {
+          "plausible": [
+            "Tire out the opponent's grips",
+            "Regain full guard immediately"
+          ],
+          "trap": [
+            "Push the choking hand overhead"
+          ]
+        }
       },
       {
         "question": "Why is two-on-one control essential rather than single-arm defense?",
-        "answer": "Two-on-one control creates mechanical advantage against the opponent's stronger two-arm position (choking arm plus body control). Single-arm defense is easily defeated because opponent can overpower one arm with their full attacking structure. Both hands on one arm equalizes the leverage equation."
+        "answer": "Two-on-one control creates mechanical advantage against the opponent's stronger two-arm position (choking arm plus body control). Single-arm defense is easily defeated because opponent can overpower one arm with their full attacking structure. Both hands on one arm equalizes the leverage equation.",
+        "answer_line": "Both hands equalize the leverage",
+        "distractors": {
+          "plausible": [
+            "One hand frees the other to frame",
+            "Single grip saves energy longer"
+          ],
+          "trap": [
+            "Let go and re-grip repeatedly"
+          ]
+        }
       },
       {
         "question": "What is the correct chin position during hand fighting and why?",
-        "answer": "Chin should be tucked down toward chest, not lifted or turned away. Tucking creates a physical barrier that closes the neck space, making it harder for opponent to sink the choke underneath. Lifting the chin actually exposes more neck surface area and creates cleaner choking angles."
+        "answer": "Chin should be tucked down toward chest, not lifted or turned away. Tucking creates a physical barrier that closes the neck space, making it harder for opponent to sink the choke underneath. Lifting the chin actually exposes more neck surface area and creates cleaner choking angles.",
+        "answer_line": "Chin tucked down to close space",
+        "distractors": {
+          "plausible": [
+            "Chin turned toward the choking arm",
+            "Chin lifted to see the grip"
+          ],
+          "trap": [
+            "Chin up and neck extended"
+          ]
+        }
       },
       {
         "question": "Your opponent switches their choking arm when you establish two-on-one - what is your response?",
-        "answer": "Immediately redirect both hands to the new choking arm using the same two-on-one methodology. Keep chin tucked centrally and maintain awareness of both arms throughout. The switch itself creates a brief window where neither arm threatens, which can be used for escape initiation."
+        "answer": "Immediately redirect both hands to the new choking arm using the same two-on-one methodology. Keep chin tucked centrally and maintain awareness of both arms throughout. The switch itself creates a brief window where neither arm threatens, which can be used for escape initiation.",
+        "answer_line": "Redirect both hands to new arm",
+        "distractors": {
+          "plausible": [
+            "Keep fighting the original arm",
+            "Release grips and reset hooks"
+          ],
+          "trap": [
+            "Turn chin away to track the switch"
+          ]
+        }
       },
       {
         "question": "When should you transition from hand fighting to escape movement?",
-        "answer": "Transition when you've cleared the opponent's choking arm across your body, stacking both their arms on one side. This creates an escape angle on the cleared side. Maintain hand control during the transition to prevent opponent from re-establishing choking position as you move."
+        "answer": "Transition when you've cleared the opponent's choking arm across your body, stacking both their arms on one side. This creates an escape angle on the cleared side. Maintain hand control during the transition to prevent opponent from re-establishing choking position as you move.",
+        "answer_line": "Once arm is cleared and stacked",
+        "distractors": {
+          "plausible": [
+            "As soon as you get one grip",
+            "Right when hooks are removed"
+          ],
+          "trap": [
+            "Let go of the arm to move faster"
+          ]
+        }
       },
       {
         "question": "How does body triangle change your hand fighting approach?",
-        "answer": "Body triangle creates sustained squeezing pressure that can fatigue your grip strength over time, making hand fighting less sustainable. You may need to address body triangle escape first by positioning your trapped leg correctly to relieve squeeze pressure before continuing effective hand fighting."
+        "answer": "Body triangle creates sustained squeezing pressure that can fatigue your grip strength over time, making hand fighting less sustainable. You may need to address body triangle escape first by positioning your trapped leg correctly to relieve squeeze pressure before continuing effective hand fighting.",
+        "answer_line": "Free trapped leg before hand fight",
+        "distractors": {
+          "plausible": [
+            "Ignore it, focus only on the arm",
+            "Squeeze back to tire their legs"
+          ],
+          "trap": [
+            "Pull the choking arm across first"
+          ]
+        }
       },
       {
         "question": "What opportunity does opponent's grip fighting with their control arm create?",
-        "answer": "When opponent commits their control arm to stripping your defensive grips, they compromise their harness control and upper body connection. This creates a window for hip escape since their seatbelt position is weakened. Their grip fighting focus means less control over your movement."
+        "answer": "When opponent commits their control arm to stripping your defensive grips, they compromise their harness control and upper body connection. This creates a window for hip escape since their seatbelt position is weakened. Their grip fighting focus means less control over your movement.",
+        "answer_line": "Harness weakens, hip escape opens",
+        "distractors": {
+          "plausible": [
+            "Their hooks loosen automatically",
+            "Their base becomes unstable"
+          ],
+          "trap": [
+            "Attack the choking arm harder"
+          ]
+        }
       },
       {
         "question": "What is the grip stripping direction and why?",
-        "answer": "Strip toward the opponent's elbow crease by pulling their wrist away from your neck while simultaneously pushing their elbow away. This creates opposing forces that break their arm structure. Pulling toward their elbow rather than randomly creates mechanical advantage following the natural joint bend direction."
+        "answer": "Strip toward the opponent's elbow crease by pulling their wrist away from your neck while simultaneously pushing their elbow away. This creates opposing forces that break their arm structure. Pulling toward their elbow rather than randomly creates mechanical advantage following the natural joint bend direction.",
+        "answer_line": "Pull wrist, push elbow, opposing",
+        "distractors": {
+          "plausible": [
+            "Pull straight down off the neck",
+            "Twist the wrist outward sharply"
+          ],
+          "trap": [
+            "Push wrist toward your own chin"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration should your hands take on the opponent's choking arm?",
-        "answer": "Your bottom hand grips opponent's wrist with a C-grip or monkey grip, controlling the hand that threatens your neck. Your top hand controls their forearm near the elbow, creating a lever system. The distance between your two grip points provides maximum mechanical advantage for stripping their arm away from your throat."
+        "answer": "Your bottom hand grips opponent's wrist with a C-grip or monkey grip, controlling the hand that threatens your neck. Your top hand controls their forearm near the elbow, creating a lever system. The distance between your two grip points provides maximum mechanical advantage for stripping their arm away from your throat.",
+        "answer_line": "Bottom hand wrist, top hand elbow",
+        "distractors": {
+          "plausible": [
+            "Both hands stacked on the wrist",
+            "Top hand wrist, bottom hand bicep"
+          ],
+          "trap": [
+            "One hand on their far shoulder"
+          ]
+        }
       },
       {
         "question": "Your opponent has sunk their choking arm deep past your chin but has not locked the choke - what is your immediate response?",
-        "answer": "Grip the choking wrist with both hands and pull it down toward your chest rather than trying to push it over your head. Tuck your chin tighter against their forearm to prevent the blade of their wrist from reaching your carotid arteries. Simultaneously shrug your shoulders upward to reduce neck space while working the elbow push defense to create separation."
+        "answer": "Grip the choking wrist with both hands and pull it down toward your chest rather than trying to push it over your head. Tuck your chin tighter against their forearm to prevent the blade of their wrist from reaching your carotid arteries. Simultaneously shrug your shoulders upward to reduce neck space while working the elbow push defense to create separation.",
+        "answer_line": "Pull wrist down, tuck, shrug up",
+        "distractors": {
+          "plausible": [
+            "Push the wrist over your head",
+            "Turn head into the choking arm"
+          ],
+          "trap": [
+            "Grab their far leg to escape"
+          ]
+        }
       },
       {
         "question": "How do you integrate hand fighting with hip movement to create a combined escape rather than sequential phases?",
-        "answer": "Begin hip escape movement simultaneously with the arm clearing motion rather than waiting for hands to fully clear the arm first. As you push their choking arm across your body with both hands, your hips escape in the opposite direction. This dual action forces the opponent to choose between re-establishing choking position or maintaining hip and hook control, creating a decision gap."
+        "answer": "Begin hip escape movement simultaneously with the arm clearing motion rather than waiting for hands to fully clear the arm first. As you push their choking arm across your body with both hands, your hips escape in the opposite direction. This dual action forces the opponent to choose between re-establishing choking position or maintaining hip and hook control, creating a decision gap.",
+        "answer_line": "Clear arm and hip escape together",
+        "distractors": {
+          "plausible": [
+            "Clear the arm fully, then move hips",
+            "Hip escape first, then strip grip"
+          ],
+          "trap": [
+            "Stay still to secure the grip first"
+          ]
+        }
       },
       {
         "question": "Your hand fighting successfully neutralizes the choke but opponent maintains tight hooks and seatbelt - what chain attacks should you pursue?",
-        "answer": "With the choke neutralized, shift focus to hook removal by trapping their bottom hook with your legs while maintaining one hand on their choking wrist. Use your free hand to frame on their top knee and begin hip escaping toward turtle. Alternatively, if their seatbelt loosens during the grip exchange, immediately turn into them for half guard recovery by threading your near leg between theirs during the rotation."
+        "answer": "With the choke neutralized, shift focus to hook removal by trapping their bottom hook with your legs while maintaining one hand on their choking wrist. Use your free hand to frame on their top knee and begin hip escaping toward turtle. Alternatively, if their seatbelt loosens during the grip exchange, immediately turn into them for half guard recovery by threading your near leg between theirs during the rotation.",
+        "answer_line": "Trap hook, frame knee, turn in",
+        "distractors": {
+          "plausible": [
+            "Attack the far choking wrist again",
+            "Sit up straight to break hooks"
+          ],
+          "trap": [
+            "Release the wrist to grab a hook"
+          ]
+        }
       }
     ],
     "safety_considerations": "Hand fighting from back control is generally safe during training but requires awareness of neck positioning. Avoid explosive head movements while under choke threat as this can strain neck muscles. Partners should apply submission attempts gradually, allowing time for defensive response. When practicing, tap early if a choke locks in despite your hand fighting to prevent unconsciousness. If you experience tingling in extremities or vision changes, tap immediately. Practitioners with prior neck injuries should inform partners and may need modified training protocols. During intense drilling, monitor grip fatigue that can lead to forearm cramping.",
@@ -384,7 +504,17 @@
     "flashcards": [
       {
         "question": "Why is switching your choking arm more effective than fighting the opponent's two-on-one grip directly?",
-        "answer": "The opponent's two-on-one grip provides inherent mechanical advantage with both hands controlling one arm. Fighting directly into this structure is a losing strength proposition. Switching arms forces them to release established grips and redirect both hands to a completely new threat, creating a transition window where your fresh arm can advance past their scrambling defense before new grips stabilize."
+        "answer": "The opponent's two-on-one grip provides inherent mechanical advantage with both hands controlling one arm. Fighting directly into this structure is a losing strength proposition. Switching arms forces them to release established grips and redirect both hands to a completely new threat, creating a transition window where your fresh arm can advance past their scrambling defense before new grips stabilize.",
+        "answer_line": "Forces regrip, opens fresh window",
+        "distractors": {
+          "plausible": [
+            "Matches strength against strength",
+            "Tires their grip strength faster"
+          ],
+          "trap": [
+            "Muscle the arm out by force"
+          ]
+        }
       },
       {
         "question": "What positional adjustments should you make when you recognize your opponent has initiated systematic hand fighting?",
@@ -392,15 +522,45 @@
       },
       {
         "question": "How does your opponent's hand fighting commitment create vulnerabilities you can exploit?",
-        "answer": "When both of opponent's hands are committed to your choking arm, they cannot frame against your chest pressure, address your hooks, or initiate hip escape simultaneously. This creates opportunities for gift wrap entries with your control arm, tighter body compression through hooks, and positional adjustments that worsen their escape angle. Their narrow defensive focus trades overall positional defense for localized arm control."
+        "answer": "When both of opponent's hands are committed to your choking arm, they cannot frame against your chest pressure, address your hooks, or initiate hip escape simultaneously. This creates opportunities for gift wrap entries with your control arm, tighter body compression through hooks, and positional adjustments that worsen their escape angle. Their narrow defensive focus trades overall positional defense for localized arm control.",
+        "answer_line": "Two hands busy, can't defend rest",
+        "distractors": {
+          "plausible": [
+            "They lose hook control entirely",
+            "Their base weakens immediately"
+          ],
+          "trap": [
+            "They can still frame freely"
+          ]
+        }
       },
       {
         "question": "Your choking arm has been stripped to a shallow position but opponent has not fully cleared it - what is your response?",
-        "answer": "Drive your elbow tight against their ribcage and re-pummel underneath their gripping hands to regain deeper neck access. Use a swimming motion with your forearm to slide under their wrist control rather than pulling directly against their grip. Simultaneously tighten your control arm harness to limit their ability to adjust body position during the re-pummel sequence. This approach recovers attacking position without the risks of a full arm switch."
+        "answer": "Drive your elbow tight against their ribcage and re-pummel underneath their gripping hands to regain deeper neck access. Use a swimming motion with your forearm to slide under their wrist control rather than pulling directly against their grip. Simultaneously tighten your control arm harness to limit their ability to adjust body position during the re-pummel sequence. This approach recovers attacking position without the risks of a full arm switch.",
+        "answer_line": "Elbow tight, re-pummel under grips",
+        "distractors": {
+          "plausible": [
+            "Pull hard against their grip",
+            "Switch to the other arm instead"
+          ],
+          "trap": [
+            "Extend the arm to create space"
+          ]
+        }
       },
       {
         "question": "When should you transition from choke hunting to positional maintenance against strong hand fighters?",
-        "answer": "Transition to positional maintenance when repeated choke attempts are being consistently defeated and your arms are fatiguing. Focus on maintaining hooks, chest pressure, and basic harness control while using body compression to drain opponent's grip endurance over time. A patient approach preserves your energy advantage and allows you to re-attack when their defensive grips weaken from sustained isometric effort against your body weight and squeeze pressure."
+        "answer": "Transition to positional maintenance when repeated choke attempts are being consistently defeated and your arms are fatiguing. Focus on maintaining hooks, chest pressure, and basic harness control while using body compression to drain opponent's grip endurance over time. A patient approach preserves your energy advantage and allows you to re-attack when their defensive grips weaken from sustained isometric effort against your body weight and squeeze pressure.",
+        "answer_line": "When attempts fail and arms fatigue",
+        "distractors": {
+          "plausible": [
+            "After every single failed attempt",
+            "Only once hooks are fully lost"
+          ],
+          "trap": [
+            "Keep forcing the same choke"
+          ]
+        }
       }
     ],
     "training_progressions": [

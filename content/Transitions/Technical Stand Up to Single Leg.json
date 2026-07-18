@@ -265,79 +265,143 @@
     "flashcards": [
       {
         "question": "Why must your head be positioned on the outside of the opponent's body during the single leg entry?",
-        "answer": "Outside head position prevents guillotine, darce, and front headlock submissions by keeping your neck away from their near arm. When your head is inside, your neck is immediately accessible and opponent can wrap your head to create choking threats. Outside position also allows you to drive through their hips more effectively using your shoulder as a wedge against their thigh, and it makes crossface pressure against you mechanically difficult."
+        "answer": "Outside head position prevents guillotine, darce, and front headlock submissions by keeping your neck away from their near arm. When your head is inside, your neck is immediately accessible and opponent can wrap your head to create choking threats. Outside position also allows you to drive through their hips more effectively using your shoulder as a wedge against their thigh, and it makes crossface pressure against you mechanically difficult.",
+        "answer_line": "Outside head blocks neck chokes",
+        "distractors": {
+          "plausible": [
+            "Inside head, closer to hips",
+            "Head position doesn't matter"
+          ],
+          "trap": [
+            "Inside head for tighter grip"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for transitioning from technical standup to single leg entry?",
-        "answer": "The optimal window is the moment the opponent steps forward to re-engage after you have established a standing position. This forward step loads their weight onto the lead leg, reducing their ability to sprawl or circle away. If you attack too early while still rising, you lack the base and explosiveness for proper penetration. If you wait too long, the opponent establishes their own grips, stance, and defensive posture, making the entry significantly harder to execute."
+        "answer": "The optimal window is the moment the opponent steps forward to re-engage after you have established a standing position. This forward step loads their weight onto the lead leg, reducing their ability to sprawl or circle away. If you attack too early while still rising, you lack the base and explosiveness for proper penetration. If you wait too long, the opponent establishes their own grips, stance, and defensive posture, making the entry significantly harder to execute.",
+        "answer_line": "Attack as they step forward",
+        "distractors": {
+          "plausible": [
+            "Attack the instant you rise",
+            "Wait for them to set stance"
+          ],
+          "trap": [
+            "Wait for them to grip up first"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls hard and you cannot complete the single leg - what are your immediate chain options?",
-        "answer": "Chain immediately rather than stalling in a sprawled position. Primary options: switch to ankle pick by releasing upper grip and securing the ankle while driving shoulder into their knee; thread your legs into Single Leg X-Guard by dropping hips underneath their sprawled leg; convert to double leg if second leg is accessible; or pull butterfly guard to reset with offensive initiative. The key is maintaining forward pressure and attacking initiative rather than allowing them to consolidate the sprawl into a front headlock."
+        "answer": "Chain immediately rather than stalling in a sprawled position. Primary options: switch to ankle pick by releasing upper grip and securing the ankle while driving shoulder into their knee; thread your legs into Single Leg X-Guard by dropping hips underneath their sprawled leg; convert to double leg if second leg is accessible; or pull butterfly guard to reset with offensive initiative. The key is maintaining forward pressure and attacking initiative rather than allowing them to consolidate the sprawl into a front headlock.",
+        "answer_line": "Chain to ankle pick or X-guard",
+        "distractors": {
+          "plausible": [
+            "Stall and reset your grips",
+            "Retreat and rebuild the shot"
+          ],
+          "trap": [
+            "Bury head, drive through sprawl"
+          ]
+        }
       },
       {
         "question": "What structural elements make the technical standup safe against forward driving pressure from the top player?",
         "answer": "A locked-elbow posted hand, a vertical-shin lead leg, and an active frame redirect forward pressure into the ground through your skeleton. The posted hand's locked elbow creates a structural brace that absorbs the drive through skeletal alignment rather than muscular effort, while the extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head to create separation distance. Keeping the back straight and head up maintains spinal integrity, so the combined structure can absorb the opponent's pressure without collapsing.",
         "distractors": {
           "plausible": [
-            "A slightly bent posted elbow absorbs the drive like a spring while your free hand grips the opponent's sleeve or wrist for control.",
-            "Posting both hands on the mat behind you shares the load of the opponent's drive evenly across both arms."
+            "Bent elbow post, low base",
+            "Straight back, no active frame"
           ],
           "trap": [
-            "Lean your head and chest forward into the opponent so your body weight meets their drive before you try to stand."
+            "Relax post, absorb with muscle"
           ]
-        }
+        },
+        "answer_line": "Locked post, vertical shin, frame"
       },
       {
         "question": "Why is gripping behind the knee more effective than gripping above the knee in the single leg?",
         "answer": "Gripping behind the knee controls the joint directly and shortens the lever arm, so the opponent cannot easily hop, post, or kick the leg free. The knee has restricted range of motion when compressed from behind, making extraction difficult, and the shorter lever makes it easier for you to lift and manipulate the leg. Pinching your elbows together with a behind-the-knee grip creates a tight cradle that is extremely difficult to break compared to a loose grip above the knee.",
         "distractors": {
           "plausible": [
-            "Gripping above the knee on the thick of the thigh is stronger because there is more muscle for your arms to squeeze against.",
-            "A higher grip near the hip is better because it puts your hands closer to the opponent's center of gravity for the finish."
+            "Grip above knee for reach",
+            "Grip the ankle for control"
           ],
           "trap": [
-            "Grip at the ankle with straight arms so the opponent's knee stays far away from your head and body while you finish."
+            "Loose grip lets leg breathe"
           ]
-        }
+        },
+        "answer_line": "Grip behind the knee, not above"
       },
       {
         "question": "When should you abandon the technical standup attempt entirely and choose a different escape strategy?",
         "answer": "Abandon standing when the opponent has back hooks and harness control, crossface repeatedly breaks your post, or a locked choke demands immediate defense. Also abandon when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control.",
         "distractors": {
           "plausible": [
-            "Abandon the standup only once the opponent has fully mounted you, since back control can still be stood out of safely.",
-            "Switch strategies the moment the opponent touches your posting arm, because the structure is already compromised."
+            "Always finish the standup",
+            "Standup first, defend after"
           ],
           "trap": [
-            "Stand up explosively even against a locked rear naked choke, since elevation is the fastest way to shake the grip loose."
+            "Post hard and force the stand"
+          ]
+        },
+        "answer_line": "Hooks in or choke on, stay down"
+      },
+      {
+        "question": "Your opponent reads your single leg entry and starts to whizzer your arm - how do you use this against them?",
+        "answer": "The whizzer commits their weight and balance to one side, creating predictable force you can exploit. Circle toward their whizzer side, using their overhook commitment to gain angle behind them for a back take. Alternatively, release your inside grip and convert to an outside trip on their far leg while they are focused on driving the whizzer. A third option is to drop your hips and thread into Single Leg X-Guard underneath their whizzer pressure, as their forward lean makes it difficult to retract and defend the guard entry.",
+        "answer_line": "Circle to whizzer side, take back",
+        "distractors": {
+          "plausible": [
+            "Fight the whizzer off directly",
+            "Retreat and reset the shot"
+          ],
+          "trap": [
+            "Pull straight back against it"
           ]
         }
       },
       {
-        "question": "Your opponent reads your single leg entry and starts to whizzer your arm - how do you use this against them?",
-        "answer": "The whizzer commits their weight and balance to one side, creating predictable force you can exploit. Circle toward their whizzer side, using their overhook commitment to gain angle behind them for a back take. Alternatively, release your inside grip and convert to an outside trip on their far leg while they are focused on driving the whizzer. A third option is to drop your hips and thread into Single Leg X-Guard underneath their whizzer pressure, as their forward lean makes it difficult to retract and defend the guard entry."
-      },
-      {
         "question": "How does your penetration step depth affect the success rate of the single leg entry?",
-        "answer": "Penetration depth is the single most important factor in single leg success. A deep penetration step places your lead foot between or past the opponent's feet, putting your shoulder against their thigh with your chest glued to their leg. This depth makes sprawling ineffective because you are already underneath their center of gravity. A shallow step leaves you exposed with your head forward and hips back, making sprawls devastating and guillotines easily accessible. The trailing knee should touch or nearly touch the mat to confirm sufficient depth."
+        "answer": "Penetration depth is the single most important factor in single leg success. A deep penetration step places your lead foot between or past the opponent's feet, putting your shoulder against their thigh with your chest glued to their leg. This depth makes sprawling ineffective because you are already underneath their center of gravity. A shallow step leaves you exposed with your head forward and hips back, making sprawls devastating and guillotines easily accessible. The trailing knee should touch or nearly touch the mat to confirm sufficient depth.",
+        "answer_line": "Deep step, trailing knee near mat",
+        "distractors": {
+          "plausible": [
+            "Shallow step, stay upright",
+            "Wide step, weight on heels"
+          ],
+          "trap": [
+            "Reach with arms, skip the step"
+          ]
+        }
       },
       {
         "question": "What specific body cues from your opponent signal that now is the moment to initiate the single leg entry?",
-        "answer": "Watch for the opponent stepping their lead foot forward to close distance, which loads weight onto that leg and reduces their sprawl ability. A reach with their arms toward your head or collar creates upper body commitment that delays hip defense. Flat-footed stance rather than being on the balls of their feet indicates slower reaction time. Any moment where their weight shifts forward over their toes rather than sitting back in their hips creates an optimal entry window because they cannot retreat fast enough to sprawl."
+        "answer": "Watch for the opponent stepping their lead foot forward to close distance, which loads weight onto that leg and reduces their sprawl ability. A reach with their arms toward your head or collar creates upper body commitment that delays hip defense. Flat-footed stance rather than being on the balls of their feet indicates slower reaction time. Any moment where their weight shifts forward over their toes rather than sitting back in their hips creates an optimal entry window because they cannot retreat fast enough to sprawl.",
+        "answer_line": "Weight forward, lead foot steps",
+        "distractors": {
+          "plausible": [
+            "Opponent circling on toes",
+            "Opponent sitting back in hips"
+          ],
+          "trap": [
+            "Opponent squaring up their base"
+          ]
+        }
       },
       {
         "question": "If your single leg attempt transitions into a scramble where neither player has clear position, what should your priorities be?",
         "answer": "Protect your neck and head position first, then fight for an underhook, then work your hips underneath the opponent to retain some form of guard. Front headlock and guillotine are the most common scramble submissions, which is why the neck comes first, and an underhook on at least one side controls the pummeling exchange. If you still have any leg control, convert it into a guard position like Single Leg X-Guard or butterfly rather than releasing everything. Maintaining offensive initiative through the scramble prevents the opponent from settling into a dominant top position.",
         "distractors": {
           "plausible": [
-            "Fight for the underhook first, since winning the pummeling exchange automatically protects your neck from chokes.",
-            "Release the captured leg immediately so both hands are free to pummel for double underhooks in the scramble."
+            "Underhook first, then neck",
+            "Leg control first, ignore neck"
           ],
           "trap": [
-            "Dive deeper onto the leg with your head hanging low in front, since finishing the takedown outranks defending your neck."
+            "Chase a submission immediately"
           ]
-        }
+        },
+        "answer_line": "Neck first, then underhook, guard"
       }
     ],
     "safety_considerations": "When practicing the technical standup to single leg, always maintain awareness of head position during the level change to prevent neck injuries from guillotine or front headlock pressure. Partners should release any neck submissions immediately when training partner taps or shows distress. When completing takedowns in drilling, control the descent to prevent the opponent from landing awkwardly on hard surfaces or impacting with their head. In live training, tap early to chokes and cranks rather than fighting through dangerous positions. Beginners should practice the standup phase extensively before adding explosive takedown entries to develop proper structural habits. Always warm up hips, knees, and ankles thoroughly before practicing this sequence, as the level change and driving mechanics place significant stress on these joints. Be particularly careful with knee health during penetration steps on hard mats.",
@@ -456,23 +520,73 @@
     "flashcards": [
       {
         "question": "What is the most effective moment to shut down the technical standup before it gains momentum?",
-        "answer": "The most effective moment is when the opponent first posts their hand and begins extending their lead leg, before they generate any upward drive. At this point, their weight is split between multiple contact points and they are structurally weakest. Driving heavy crossface pressure and collapsing their posting arm at this stage requires minimal energy and has the highest success rate. Once they have risen even halfway, the force required to drive them back down increases dramatically."
+        "answer": "The most effective moment is when the opponent first posts their hand and begins extending their lead leg, before they generate any upward drive. At this point, their weight is split between multiple contact points and they are structurally weakest. Driving heavy crossface pressure and collapsing their posting arm at this stage requires minimal energy and has the highest success rate. Once they have risen even halfway, the force required to drive them back down increases dramatically.",
+        "answer_line": "Crash it as they first post hand",
+        "distractors": {
+          "plausible": [
+            "Wait until they're halfway up",
+            "Let them stand, then crossface"
+          ],
+          "trap": [
+            "Attack after they're fully up"
+          ]
+        }
       },
       {
         "question": "How should you position your hips when you feel the opponent initiating a single leg penetration step?",
-        "answer": "Drop your hips explosively backward and downward in a sprawl motion, driving your pelvis toward the mat while keeping your chest up. Your hips should move away from the opponent's penetrating shoulder, creating an angle that makes their forward drive ineffective. Simultaneously widen your base by stepping your free leg out to the side. The sprawl must be reactive and immediate: even a half-second delay allows them to get underneath your center of gravity where the sprawl becomes ineffective."
+        "answer": "Drop your hips explosively backward and downward in a sprawl motion, driving your pelvis toward the mat while keeping your chest up. Your hips should move away from the opponent's penetrating shoulder, creating an angle that makes their forward drive ineffective. Simultaneously widen your base by stepping your free leg out to the side. The sprawl must be reactive and immediate: even a half-second delay allows them to get underneath your center of gravity where the sprawl becomes ineffective.",
+        "answer_line": "Sprawl hips back, chest up",
+        "distractors": {
+          "plausible": [
+            "Sprawl forward into the shot",
+            "Sit hips down, chest down"
+          ],
+          "trap": [
+            "Stand tall and back away"
+          ]
+        }
       },
       {
         "question": "Your opponent has secured a single leg grip and is driving forward - what is your priority sequence for defense?",
-        "answer": "First priority is to whizzer the attacking arm by threading your arm over their shoulder and clamping your overhook tight against your ribs, which stops forward progress. Second, circle your hips away from them toward the whizzer side to create an angle that breaks their driving line. Third, use your free hand to crossface or push their head down to break their posture. Fourth, either disengage completely by kicking your trapped leg free, or counter-attack with a go-behind to take their back while they are committed to the single leg grip."
+        "answer": "First priority is to whizzer the attacking arm by threading your arm over their shoulder and clamping your overhook tight against your ribs, which stops forward progress. Second, circle your hips away from them toward the whizzer side to create an angle that breaks their driving line. Third, use your free hand to crossface or push their head down to break their posture. Fourth, either disengage completely by kicking your trapped leg free, or counter-attack with a go-behind to take their back while they are committed to the single leg grip.",
+        "answer_line": "Whizzer, circle hips, crossface",
+        "distractors": {
+          "plausible": [
+            "Crossface first, then whizzer",
+            "Sprawl back, then whizzer"
+          ],
+          "trap": [
+            "Pull guard to reset position"
+          ]
+        }
       },
       {
         "question": "Why is staying connected during the opponent's standup more effective than creating distance?",
-        "answer": "Staying connected keeps your weight and pressure on the opponent throughout their standup attempt, making it energetically costly and mechanically difficult for them to rise. Distance gives them a free standup with time to set their stance, read your position, and build momentum for a penetration step. When you stay chest-to-back, you can feel their weight shifts and react immediately to disrupt their base. If they do manage to stand, you are already in clinch range where you can pummel for underhooks and deny the space needed for a level change."
+        "answer": "Staying connected keeps your weight and pressure on the opponent throughout their standup attempt, making it energetically costly and mechanically difficult for them to rise. Distance gives them a free standup with time to set their stance, read your position, and build momentum for a penetration step. When you stay chest-to-back, you can feel their weight shifts and react immediately to disrupt their base. If they do manage to stand, you are already in clinch range where you can pummel for underhooks and deny the space needed for a level change.",
+        "answer_line": "Stay chest-to-back, deny space",
+        "distractors": {
+          "plausible": [
+            "Create distance, reset stance",
+            "Release grips, circle away"
+          ],
+          "trap": [
+            "Back off to avoid the level change"
+          ]
+        }
       },
       {
         "question": "What defensive adjustment do you make if the opponent switches from single leg to ankle pick mid-attack?",
-        "answer": "When you feel them release the high grip and reach for your ankle, immediately pull your targeted foot backward while driving your hips forward and down to make the ankle inaccessible. Simultaneously snap their head down with both hands to break their posture and prevent them from following through on the ankle pick. If they get a grip on the ankle, kick it free explosively while posting your hands on their shoulders to create separation. The ankle pick is most dangerous when you are retreating, so maintaining forward pressure makes it significantly harder to execute."
+        "answer": "When you feel them release the high grip and reach for your ankle, immediately pull your targeted foot backward while driving your hips forward and down to make the ankle inaccessible. Simultaneously snap their head down with both hands to break their posture and prevent them from following through on the ankle pick. If they get a grip on the ankle, kick it free explosively while posting your hands on their shoulders to create separation. The ankle pick is most dangerous when you are retreating, so maintaining forward pressure makes it significantly harder to execute.",
+        "answer_line": "Pull foot back, snap head down",
+        "distractors": {
+          "plausible": [
+            "Kick free and retreat fully",
+            "Post hands, step back safely"
+          ],
+          "trap": [
+            "Chase the grip with your hand"
+          ]
+        }
       }
     ],
     "training_progressions": [

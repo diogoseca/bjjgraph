@@ -318,19 +318,59 @@
     "flashcards": [
       {
         "question": "Your opponent starts driving their bottom hook upward to initiate a sweep - what immediate adjustment do you make?",
-        "answer": "Immediately widen your base by stepping your free leg diagonally away from the sweep direction, bend your knees to lower your center of gravity, and align your trapped knee toward the opponent to reduce the leverage they can generate. Simultaneously post your near hand on the mat if needed for stability while maintaining upper body control."
+        "answer": "Immediately widen your base by stepping your free leg diagonally away from the sweep direction, bend your knees to lower your center of gravity, and align your trapped knee toward the opponent to reduce the leverage they can generate. Simultaneously post your near hand on the mat if needed for stability while maintaining upper body control.",
+        "answer_line": "Widen base, bend knees, angle knee",
+        "distractors": {
+          "plausible": [
+            "Post hand, lean back for balance",
+            "Straighten trapped leg to resist"
+          ],
+          "trap": [
+            "Yank trapped leg free instantly"
+          ]
+        }
       },
       {
         "question": "What are the essential base fundamentals for maintaining stability in SLX Top?",
-        "answer": "The essential base fundamentals include: maintaining a wide stance with the free leg positioned diagonally behind you, keeping knees bent to lower your center of gravity, distributing weight evenly rather than loading entirely on the trapped leg, keeping your trapped knee pointed toward the opponent to prevent full extension, and maintaining hip mobility to follow the opponent's movements."
+        "answer": "The essential base fundamentals include: maintaining a wide stance with the free leg positioned diagonally behind you, keeping knees bent to lower your center of gravity, distributing weight evenly rather than loading entirely on the trapped leg, keeping your trapped knee pointed toward the opponent to prevent full extension, and maintaining hip mobility to follow the opponent's movements.",
+        "answer_line": "Wide base, bent knees, even weight",
+        "distractors": {
+          "plausible": [
+            "Narrow stance, weight on toes",
+            "Straight legs for max reach"
+          ],
+          "trap": [
+            "Load all weight on trapped knee"
+          ]
+        }
       },
       {
         "question": "Which hook should you prioritize addressing first when attempting to escape SLX, and why?",
-        "answer": "Address the bottom hook first because it represents the primary sweeping threat and controls your base. The bottom hook positioned behind your knee creates the elevation that enables sweeps in any direction. Clearing this hook first removes their primary leverage point and significantly reduces sweep danger, making it safer to then address the top hook and extract your leg."
+        "answer": "Address the bottom hook first because it represents the primary sweeping threat and controls your base. The bottom hook positioned behind your knee creates the elevation that enables sweeps in any direction. Clearing this hook first removes their primary leverage point and significantly reduces sweep danger, making it safer to then address the top hook and extract your leg.",
+        "answer_line": "Clear bottom hook first",
+        "distractors": {
+          "plausible": [
+            "Clear top hook first",
+            "Address both hooks together"
+          ],
+          "trap": [
+            "Try to extract leg immediately"
+          ]
+        }
       },
       {
         "question": "What grip priorities should you maintain to prevent the bottom player from enhancing their sweep attempts?",
-        "answer": "Prioritize controlling the opponent's hands and wrists to prevent them from securing sleeve grips that enhance pulling power. Use collar ties, wrist control, or cross-face pressure to limit their ability to sit up and create angles. Actively strip any grips they establish before attempting to advance your position, as strong upper body grips dramatically increase their sweeping effectiveness."
+        "answer": "Prioritize controlling the opponent's hands and wrists to prevent them from securing sleeve grips that enhance pulling power. Use collar ties, wrist control, or cross-face pressure to limit their ability to sit up and create angles. Actively strip any grips they establish before attempting to advance your position, as strong upper body grips dramatically increase their sweeping effectiveness.",
+        "answer_line": "Control opponent's hands and wrists",
+        "distractors": {
+          "plausible": [
+            "Grip their collar only",
+            "Focus on trapped leg only"
+          ],
+          "trap": [
+            "Let them grip your sleeve freely"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure without enabling the opponent's technical standup or guard recovery?",
@@ -338,7 +378,17 @@
       },
       {
         "question": "Your opponent suddenly releases their bottom hook and begins transitioning - what should you anticipate and how do you respond?",
-        "answer": "Anticipate they are either attempting to transition to a different leg entanglement (X-Guard, Ashi Garami) or creating space to recover guard. When they release the bottom hook, immediately recognize this as your window to pass - step to headquarters position or initiate a knee slice pass before they can re-establish hooks. Follow their hip movement with your own base adjustments to prevent them from completing any transition."
+        "answer": "Anticipate they are either attempting to transition to a different leg entanglement (X-Guard, Ashi Garami) or creating space to recover guard. When they release the bottom hook, immediately recognize this as your window to pass - step to headquarters position or initiate a knee slice pass before they can re-establish hooks. Follow their hip movement with your own base adjustments to prevent them from completing any transition.",
+        "answer_line": "Pass immediately, seize the window",
+        "distractors": {
+          "plausible": [
+            "Wait and reset your base",
+            "Chase the leg to re-trap it"
+          ],
+          "trap": [
+            "Release your grips to reset position"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure while maintaining position against an active SLX player?",
@@ -346,7 +396,17 @@
       },
       {
         "question": "After your opponent partially disrupts your base but you manage to recover - what immediate steps do you take to prevent another attempt?",
-        "answer": "Immediately re-establish wide base with free leg positioned further from sweep direction, lower your hips by bending knees more deeply, and re-engage upper body control to prevent them from building momentum for another attempt. Strip any grips they may have established during the disruption. Consider changing your angle relative to their hooks to prevent them from re-creating the same sweep setup that nearly worked."
+        "answer": "Immediately re-establish wide base with free leg positioned further from sweep direction, lower your hips by bending knees more deeply, and re-engage upper body control to prevent them from building momentum for another attempt. Strip any grips they may have established during the disruption. Consider changing your angle relative to their hooks to prevent them from re-creating the same sweep setup that nearly worked.",
+        "answer_line": "Rebuild wide base, strip grips",
+        "distractors": {
+          "plausible": [
+            "Return to same exact position",
+            "Focus only on upper body control"
+          ],
+          "trap": [
+            "Rush to pass immediately"
+          ]
+        }
       }
     ],
     "clips": [
@@ -714,44 +774,115 @@
     "flashcards": [
       {
         "question": "Your opponent starts lowering their base and driving forward - what adjustment do you make to maintain control?",
-        "answer": "When the opponent drives forward, immediately angle your hips to the side rather than accepting direct pressure. Extend your top hook aggressively into their hip to create distance while maintaining the bottom hook wrapped around their ankle. If pressure continues, this is your cue to transition to Ashi Garami by following their forward momentum - their weight commitment forward makes their leg more vulnerable to entanglement attacks."
+        "answer": "When the opponent drives forward, immediately angle your hips to the side rather than accepting direct pressure. Extend your top hook aggressively into their hip to create distance while maintaining the bottom hook wrapped around their ankle. If pressure continues, this is your cue to transition to Ashi Garami by following their forward momentum - their weight commitment forward makes their leg more vulnerable to entanglement attacks.",
+        "answer_line": "Angle hips, extend top hook, go Ashi",
+        "distractors": {
+          "plausible": [
+            "Meet pressure head-on directly",
+            "Release bottom hook to create space"
+          ],
+          "trap": [
+            "Sit back and disengage hooks"
+          ]
+        }
       },
       {
         "question": "What are the essential hooks and grips for maintaining Single Leg X-Guard?",
         "answer": "Maintain SLX with the inside leg wrapped around the opponent's ankle, the outside foot hooking their hip, and upper-body grips. The inside leg wraps tightly around the ankle or lower calf to prevent extraction, while the outside foot actively hooks the hip or inner thigh to create elevation and off-balancing pressure. Upper body control comes through sleeve grips, collar ties, or overhooks to prevent them from posturing up and controlling distance. Both legs must work in coordination — the bottom hook controls, the top hook elevates.",
         "distractors": {
           "plausible": [
-            "Wrap the inside leg around the opponent's knee and place the outside foot behind their far ankle to block their base.",
-            "The outside foot wraps their ankle while the inside leg hooks the hip; grips are optional once the legs are set."
+            "Both hooks on same leg part",
+            "Grips only, no leg control"
           ],
           "trap": [
-            "Cross your feet behind their knee and squeeze hard; a locked figure-four makes upper-body grips unnecessary."
+            "Loosen ankle wrap for mobility"
+          ]
+        },
+        "answer_line": "Ankle wrap, hip hook, upper grips"
+      },
+      {
+        "question": "How do you shut down the opponent's primary escape of simply pulling their leg free?",
+        "answer": "Prevent leg extraction by maintaining constant tension in your inside leg wrap around their ankle and calf - never let this grip loosen. Keep their leg elevated by extending your hips upward, which stretches their leg out and makes extraction mechanically difficult. Position your hips directly underneath their center of gravity so they cannot generate the power needed to pull free. If they begin pulling, follow their movement by scooting your hips forward to maintain connection.",
+        "answer_line": "Constant ankle tension, hips under",
+        "distractors": {
+          "plausible": [
+            "Grip tighter only when they pull",
+            "Extend legs straight to block"
+          ],
+          "trap": [
+            "Loosen grip to reposition hips"
           ]
         }
       },
       {
-        "question": "How do you shut down the opponent's primary escape of simply pulling their leg free?",
-        "answer": "Prevent leg extraction by maintaining constant tension in your inside leg wrap around their ankle and calf - never let this grip loosen. Keep their leg elevated by extending your hips upward, which stretches their leg out and makes extraction mechanically difficult. Position your hips directly underneath their center of gravity so they cannot generate the power needed to pull free. If they begin pulling, follow their movement by scooting your hips forward to maintain connection."
-      },
-      {
         "question": "What grip priorities allow you to maximize sweeping power from SLX?",
-        "answer": "For maximum sweep power, prioritize controlling their same-side sleeve or wrist to prevent posting, which is their primary sweep defense. Secondary grip should control their collar, far shoulder, or establish an overhook to break their posture forward. These upper body grips work synergistically with your leg hooks - when you extend your hooks to sweep, the upper body grips prevent them from stepping out or posting their hands to recover balance."
+        "answer": "For maximum sweep power, prioritize controlling their same-side sleeve or wrist to prevent posting, which is their primary sweep defense. Secondary grip should control their collar, far shoulder, or establish an overhook to break their posture forward. These upper body grips work synergistically with your leg hooks - when you extend your hooks to sweep, the upper body grips prevent them from stepping out or posting their hands to recover balance.",
+        "answer_line": "Control sleeve/wrist, then collar",
+        "distractors": {
+          "plausible": [
+            "Grip both ankles tightly",
+            "Focus only on far shoulder"
+          ],
+          "trap": [
+            "Release sleeve grip to attack legs"
+          ]
+        }
       },
       {
         "question": "How should you apply elevation pressure through your hooks without over-extending?",
-        "answer": "Apply elevation through hip extension rather than straightening your legs completely. Keep your knees bent slightly while driving your hips upward - this maintains hook tension while creating lift. Your top hook pushes into their hip with the ball of your foot, creating upward and outward pressure. Avoid fully extending your legs, which actually reduces control and makes it easier for them to step over or clear your hooks. Think of elevating their weight onto your hooks rather than pushing them away."
+        "answer": "Apply elevation through hip extension rather than straightening your legs completely. Keep your knees bent slightly while driving your hips upward - this maintains hook tension while creating lift. Your top hook pushes into their hip with the ball of your foot, creating upward and outward pressure. Avoid fully extending your legs, which actually reduces control and makes it easier for them to step over or clear your hooks. Think of elevating their weight onto your hooks rather than pushing them away.",
+        "answer_line": "Extend hips, knees stay bent",
+        "distractors": {
+          "plausible": [
+            "Fully straighten legs for lift",
+            "Push hard with both feet flat"
+          ],
+          "trap": [
+            "Lock legs straight, drive up"
+          ]
+        }
       },
       {
         "question": "Your opponent partially clears your top hook but you still have the ankle wrap - how do you recover position?",
-        "answer": "Immediately use your retained ankle control as an anchor point and re-insert your top hook before they can fully pass. Hip escape slightly to create the angle needed for hook reinsertion. If they continue advancing, transition to a backup position - you can go to seated guard, butterfly guard, or even use the ankle control to stand up for a single leg attempt. Never release the ankle wrap until you have transitioned to another controlling position."
+        "answer": "Immediately use your retained ankle control as an anchor point and re-insert your top hook before they can fully pass. Hip escape slightly to create the angle needed for hook reinsertion. If they continue advancing, transition to a backup position - you can go to seated guard, butterfly guard, or even use the ankle control to stand up for a single leg attempt. Never release the ankle wrap until you have transitioned to another controlling position.",
+        "answer_line": "Anchor on ankle, reinsert top hook",
+        "distractors": {
+          "plausible": [
+            "Release ankle to reset position",
+            "Push them away and stand up"
+          ],
+          "trap": [
+            "Let go of ankle, chase hook"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when an opponent is methodically working to pass your SLX?",
-        "answer": "Conserve energy by letting your structural positioning do the work rather than constantly muscling for control. Keep your hips underneath their center of gravity and maintain frame through your hooks - this requires less energy than constantly readjusting. Attack when opportunities present rather than forcing sweeps against a well-based opponent. Use their movements against them - when they shift weight or adjust position, that's when you attack with minimal energy expenditure."
+        "answer": "Conserve energy by letting your structural positioning do the work rather than constantly muscling for control. Keep your hips underneath their center of gravity and maintain frame through your hooks - this requires less energy than constantly readjusting. Attack when opportunities present rather than forcing sweeps against a well-based opponent. Use their movements against them - when they shift weight or adjust position, that's when you attack with minimal energy expenditure.",
+        "answer_line": "Let structure work, attack openings",
+        "distractors": {
+          "plausible": [
+            "Constantly muscle for control",
+            "Rest and wait for their mistake"
+          ],
+          "trap": [
+            "Force a sweep every exchange"
+          ]
+        }
       },
       {
         "question": "After your opponent nearly passes but you recover to SLX - what steps do you take to prevent them from immediately trying the same pass?",
-        "answer": "Immediately re-establish tight ankle control and aggressive elevation to remind them of the sweeping threat. Change your angle slightly from your previous position so they cannot simply repeat the same passing sequence. Consider attacking immediately with a sweep or leg lock entry while they are still adjusting - their near-success often means they over-committed in a way that creates vulnerability. Re-grip their sleeve or establish different upper body control to disrupt their grip pattern and prevent them from re-initiating the same passing chain."
+        "answer": "Immediately re-establish tight ankle control and aggressive elevation to remind them of the sweeping threat. Change your angle slightly from your previous position so they cannot simply repeat the same passing sequence. Consider attacking immediately with a sweep or leg lock entry while they are still adjusting - their near-success often means they over-committed in a way that creates vulnerability. Re-grip their sleeve or establish different upper body control to disrupt their grip pattern and prevent them from re-initiating the same passing chain.",
+        "answer_line": "Re-angle, re-grip, attack now",
+        "distractors": {
+          "plausible": [
+            "Return to identical position",
+            "Wait passively to reset"
+          ],
+          "trap": [
+            "Release ankle to regroup"
+          ]
+        }
       }
     ],
     "clips": [
@@ -790,13 +921,14 @@
       "answer": "SLX traps ONE leg: an inside-leg wrap on the ankle while the outside foot hooks the hip or inner thigh, forming an X on that leg. The two controls have distinct jobs: the inside wrap locks the ankle or lower calf against extraction, and the outside hook (hip, inner thigh, or beltline) manages the knee/hip line and elevation. The single-leg isolation is the defining trait, separating it from full X-Guard, which wraps both legs. Because only one leg is trapped, the standing player keeps a free posting leg, so the position is an ongoing balance contest rather than a settled trap.",
       "distractors": {
         "plausible": [
-          "SLX is defined by forming an X-frame with both feet behind the knees of both of the opponent's legs.",
-          "SLX means the outside foot wraps their ankle while the inside leg hooks the hip, isolating one leg."
+          "Both legs wrapped like X-Guard",
+          "Only ankle control, no hip hook"
         ],
         "trap": [
-          "The leg configuration barely matters; release the ankle wrap and control their collar, since grips alone hold SLX."
+          "Knee alone traps, ankle stays free"
         ]
-      }
+      },
+      "answer_line": "Only one leg trapped, not both"
     },
     {
       "question": "What are the two control points on the trapped leg, and what job does each perform?",
@@ -808,23 +940,73 @@
     },
     {
       "question": "Why is elevation of the trapped leg the central mechanic that keeps the position alive and threatening?",
-      "answer": "Elevation is generated by extending the hips upward and driving the outside hook into the hip, lifting the trapped leg away from the standing player's body. This removes their ability to load weight down onto that leg and establish a stable, pressuring base. Without a base to press into, the standing player is perpetually off-balanced and vulnerable to sweeps in multiple directions. If elevation is lost, they flatten their hips, settle weight down, and neutralize both the sweep and leg-lock threats, so the whole position hinges on maintaining lift."
+      "answer": "Elevation is generated by extending the hips upward and driving the outside hook into the hip, lifting the trapped leg away from the standing player's body. This removes their ability to load weight down onto that leg and establish a stable, pressuring base. Without a base to press into, the standing player is perpetually off-balanced and vulnerable to sweeps in multiple directions. If elevation is lost, they flatten their hips, settle weight down, and neutralize both the sweep and leg-lock threats, so the whole position hinges on maintaining lift.",
+      "answer_line": "Elevation strips their base",
+      "distractors": {
+        "plausible": [
+          "Elevation is just for show",
+          "Elevation only helps leg locks"
+        ],
+        "trap": [
+          "Drop leg to settle their weight"
+        ]
+      }
     },
     {
       "question": "Where must the entangling player's hips sit relative to the standing player, and why does this placement matter?",
-      "answer": "The hips must sit directly underneath the standing player's center of gravity with active upward elevation. This places the entangling structure under the opponent's weight, maximizing leverage to off-balance them in any direction. If the hips drift too far from the center of mass, sweeping leverage collapses and the standing player can disengage or re-base. Hip position is therefore the fulcrum of the position: it converts hook pressure into balance disruption rather than just pushing the opponent away."
+      "answer": "The hips must sit directly underneath the standing player's center of gravity with active upward elevation. This places the entangling structure under the opponent's weight, maximizing leverage to off-balance them in any direction. If the hips drift too far from the center of mass, sweeping leverage collapses and the standing player can disengage or re-base. Hip position is therefore the fulcrum of the position: it converts hook pressure into balance disruption rather than just pushing the opponent away.",
+      "answer_line": "Hips directly under their center",
+      "distractors": {
+        "plausible": [
+          "Hips far back for safety",
+          "Hips to the side of their base"
+        ],
+        "trap": [
+          "Hips pushed away from their weight"
+        ]
+      }
     },
     {
       "question": "What does the standing player's free (untrapped) leg contribute, and how does it shape the balance contest?",
-      "answer": "Because SLX isolates only one leg, the standing player retains a free leg that serves as a posting point and base against sweeps. Widening this free leg diagonally and lowering the hips lets them resist directional off-balancing and buy time to clear hooks. This is precisely why SLX is a live balance battle rather than a settled trap: the entangling player fights to keep the trapped leg elevated and the hips under center, while the standing player uses the free leg to re-establish base. Neither the sweep nor the escape is guaranteed until one side wins the base-versus-elevation exchange."
+      "answer": "Because SLX isolates only one leg, the standing player retains a free leg that serves as a posting point and base against sweeps. Widening this free leg diagonally and lowering the hips lets them resist directional off-balancing and buy time to clear hooks. This is precisely why SLX is a live balance battle rather than a settled trap: the entangling player fights to keep the trapped leg elevated and the hips under center, while the standing player uses the free leg to re-establish base. Neither the sweep nor the escape is guaranteed until one side wins the base-versus-elevation exchange.",
+      "answer_line": "Free leg posts wide to resist sweeps",
+      "distractors": {
+        "plausible": [
+          "Free leg stays passive and still",
+          "Free leg immediately kicks free"
+        ],
+        "trap": [
+          "Free leg crosses over to trap"
+        ]
+      }
     },
     {
       "question": "Why is Single Leg X-Guard described as a dual sweep-and-leg-lock platform rather than a single-purpose guard?",
-      "answer": "The single-leg isolation that defines SLX simultaneously sets up two attack families from the same configuration. The elevated, off-balanced trapped leg creates high-percentage sweeping angles, while that same isolated and extended limb is exposed for entries into ashi garami, inside sankaku, and the saddle. Because both threats share the identical control points, the exchange can flow between upper-body sweeps and lower-body leg attacks without rebuilding grips. This dual-threat nature is the position's defining strategic value and why it bridges traditional guard play with the modern leg-entanglement game."
+      "answer": "The single-leg isolation that defines SLX simultaneously sets up two attack families from the same configuration. The elevated, off-balanced trapped leg creates high-percentage sweeping angles, while that same isolated and extended limb is exposed for entries into ashi garami, inside sankaku, and the saddle. Because both threats share the identical control points, the exchange can flow between upper-body sweeps and lower-body leg attacks without rebuilding grips. This dual-threat nature is the position's defining strategic value and why it bridges traditional guard play with the modern leg-entanglement game.",
+      "answer_line": "Same controls feed sweeps and locks",
+      "distractors": {
+        "plausible": [
+          "Only sweeps, no leg attacks possible",
+          "Only leg locks, no sweep threat"
+        ],
+        "trap": [
+          "Must release grips to switch attacks"
+        ]
+      }
     },
     {
       "question": "What causes the position to break down, and how does that failure transfer control to the standing player?",
-      "answer": "The position breaks down when the leg wrap loosens or elevation is lost, allowing the trapped leg to rotate free or the standing player to settle weight downward. A loose ankle wrap lets the limb extract; a dropped hip lets the opponent flatten and establish a heavy pressing base. The standing player exploits exactly these failures by clearing the outside (bottom) hook first to kill the sweep leverage, then extracting the leg once elevation is gone. Maintaining constant ankle tension and continuous hip elevation is therefore the shared fulcrum: lose either and control transfers to the standing player."
+      "answer": "The position breaks down when the leg wrap loosens or elevation is lost, allowing the trapped leg to rotate free or the standing player to settle weight downward. A loose ankle wrap lets the limb extract; a dropped hip lets the opponent flatten and establish a heavy pressing base. The standing player exploits exactly these failures by clearing the outside (bottom) hook first to kill the sweep leverage, then extracting the leg once elevation is gone. Maintaining constant ankle tension and continuous hip elevation is therefore the shared fulcrum: lose either and control transfers to the standing player.",
+      "answer_line": "Lost ankle tension or elevation",
+      "distractors": {
+        "plausible": [
+          "Too much upper body grip fighting",
+          "Standing player's free leg posting"
+        ],
+        "trap": [
+          "Attacker extracts leg too soon"
+        ]
+      }
     }
   ],
   "clips": [

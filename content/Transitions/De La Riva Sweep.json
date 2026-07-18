@@ -246,79 +246,143 @@
     "flashcards": [
       {
         "question": "What is the primary mechanical lever that generates sweeping force in the De La Riva Sweep?",
-        "answer": "The De La Riva hook (leg wrapped behind opponent's knee from outside) acts as the primary lever. When extended forcefully while maintaining the hook position, it elevates the opponent's leg and disrupts their base, creating the sweeping motion when combined with strategic grip pulls."
+        "answer": "The De La Riva hook (leg wrapped behind opponent's knee from outside) acts as the primary lever. When extended forcefully while maintaining the hook position, it elevates the opponent's leg and disrupts their base, creating the sweeping motion when combined with strategic grip pulls.",
+        "answer_line": "DLR hook behind the knee",
+        "distractors": {
+          "plausible": [
+            "Underhook on far arm",
+            "Bicep grip pulls them down"
+          ],
+          "trap": [
+            "Kick straight out with hook"
+          ]
+        }
       },
       {
         "question": "Why is controlling the opponent's sleeve on the same side as the De La Riva hook essential for sweep success?",
-        "answer": "Controlling the sleeve prevents the opponent from posting their hand on that side to block the sweep. Without sleeve control, the opponent can easily base out with their arm, stopping the sweeping motion and maintaining their position. The sleeve grip also provides directional control to pull opponent off-balance."
+        "answer": "Controlling the sleeve prevents the opponent from posting their hand on that side to block the sweep. Without sleeve control, the opponent can easily base out with their arm, stopping the sweeping motion and maintaining their position. The sleeve grip also provides directional control to pull opponent off-balance.",
+        "answer_line": "Same-side sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Cross collar grip",
+            "Opposite sleeve grip"
+          ],
+          "trap": [
+            "Overhook their same arm"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent steps back with their hooked leg to defend the De La Riva Sweep?",
         "answer": "Follow their backward step by extending your body forward and switching to X-Guard, Single Leg X-Guard, or the Kiss of the Dragon back take. Forcing the original sweep against this counter is ineffective and wastes energy; the step back actually feeds their leg into these follow-up entries, so attacking pressure is maintained by flowing rather than resisting.",
         "distractors": {
           "plausible": [
-            "Keep the same grips and pull harder on the collar to drag their weight back over your hook and finish the original sweep.",
-            "Release the De La Riva hook and re-insert it higher on their thigh before attempting the exact same sweep again."
+            "Re-hook and force the sweep",
+            "Switch to closed guard"
           ],
           "trap": [
-            "Let go of your grips and turn to your knees to chase a single leg before they can settle their base."
+            "Release hook, stand up"
           ]
-        }
+        },
+        "answer_line": "Flow to X-Guard or back take"
       },
       {
         "question": "What role does the opposite leg (non-hook leg) play in executing an effective De La Riva Sweep?",
-        "answer": "The opposite leg creates crucial framing pressure on the opponent's far hip or knee, preventing them from posting wide with that leg to maintain base. It also controls their rotational movement and can push to enhance the off-balancing effect, working in coordination with the hook and grips to complete the sweep."
+        "answer": "The opposite leg creates crucial framing pressure on the opponent's far hip or knee, preventing them from posting wide with that leg to maintain base. It also controls their rotational movement and can push to enhance the off-balancing effect, working in coordination with the hook and grips to complete the sweep.",
+        "answer_line": "Frames far hip/knee",
+        "distractors": {
+          "plausible": [
+            "Hooks their far leg too",
+            "Pushes off the mat for base"
+          ],
+          "trap": [
+            "Kicks their near ankle away"
+          ]
+        }
       },
       {
         "question": "Explain the optimal timing window for initiating the De La Riva Sweep?",
         "answer": "Initiate the sweep the moment your opponent commits weight forward to pass, or steps with their far leg and momentarily compromises their base. Attempting it while their weight is back or they hold heavy static pressure results in low success rates, so the key skill is reading weight distribution and capitalizing on movement transitions.",
         "distractors": {
           "plausible": [
-            "The best moment is when the opponent settles into a low static stance, since a stationary target is easier to off-balance.",
-            "Wait until the opponent shifts their weight back onto their heels, because their forward passing pressure has disappeared."
+            "Right after they grip collar",
+            "When they sit back to pass"
           ],
           "trap": [
-            "Sweep the instant they grip your collar, pulling them down on top of you regardless of where their weight is loaded."
+            "Whenever hook is locked in"
           ]
-        }
+        },
+        "answer_line": "When they commit weight forward"
       },
       {
         "question": "What are three common transitions if the De La Riva Sweep attempt is countered or fails?",
         "answer": "The three key follow-ups are the Kiss of the Dragon back take, the omoplata, and X-Guard or Single Leg X-Guard. Each answers a specific defense: Kiss of the Dragon when the opponent steps back, omoplata when they post an arm to defend, and X-Guard or Single Leg X when they create distance. Maintaining attacking pressure through these transitions prevents the opponent from consolidating a passing position.",
         "distractors": {
           "plausible": [
-            "The three options are the omoplata when they step back, the back take when they post an arm, and closed guard when they make distance.",
-            "The best follow-ups are the triangle when they posture up, half guard when they step back, and lasso guard when they create distance."
+            "Triangle, armbar, guillotine",
+            "Scissor, hook, flower sweep"
           ],
           "trap": [
-            "If the sweep fails, release both hooks and scramble up to your feet to reset the exchange from a neutral standing position."
+            "Release guard, reset neutral"
+          ]
+        },
+        "answer_line": "Back take, omoplata, X-Guard"
+      },
+      {
+        "question": "Your opponent strips your collar grip mid-sweep but you still have the sleeve and the DLR hook - how do you adjust?",
+        "answer": "Without the collar grip, redirect your free hand to grab their far knee or pants at the ankle to prevent them from posting with their far leg. You can also reach behind their near ankle with your free hand to create a two-on-one leg control that makes the sweep even more powerful, essentially trapping their base leg while the hook and sleeve control handle the near side.",
+        "answer_line": "Grab far knee or ankle",
+        "distractors": {
+          "plausible": [
+            "Re-grip the same collar",
+            "Grab their belt instead"
+          ],
+          "trap": [
+            "Let go of sleeve to re-grip"
           ]
         }
       },
       {
-        "question": "Your opponent strips your collar grip mid-sweep but you still have the sleeve and the DLR hook - how do you adjust?",
-        "answer": "Without the collar grip, redirect your free hand to grab their far knee or pants at the ankle to prevent them from posting with their far leg. You can also reach behind their near ankle with your free hand to create a two-on-one leg control that makes the sweep even more powerful, essentially trapping their base leg while the hook and sleeve control handle the near side."
-      },
-      {
         "question": "In what direction should the primary sweeping force be applied relative to your opponent's body?",
-        "answer": "The sweeping force should be applied diagonally across the opponent's body, toward the side of the hooked leg and slightly backward. The hook extends to elevate their near leg while the grips pull them laterally and downward in the opposite direction, creating a rotational torque that rolls them over their compromised base. The force vector is not straight sideways but angled to exploit the weakest line of their stance."
+        "answer": "The sweeping force should be applied diagonally across the opponent's body, toward the side of the hooked leg and slightly backward. The hook extends to elevate their near leg while the grips pull them laterally and downward in the opposite direction, creating a rotational torque that rolls them over their compromised base. The force vector is not straight sideways but angled to exploit the weakest line of their stance.",
+        "answer_line": "Diagonal, toward hook side",
+        "distractors": {
+          "plausible": [
+            "Straight sideways sweep",
+            "Straight backward push"
+          ],
+          "trap": [
+            "Pull them forward on top"
+          ]
+        }
       },
       {
         "question": "Your opponent bases wide with both legs and lowers their hips to resist the sweep - what grip adjustment creates a new attacking angle?",
-        "answer": "Switch your collar grip to a belt grip or reach behind to grab their far pants at the knee. This deeper grip allows you to pull them forward over your body rather than sweeping laterally. Combined with elevating your hips and extending both legs, you can convert to a balloon sweep or waiter sweep that attacks their base from underneath rather than from the side, exploiting the forward direction where their wide base is most vulnerable."
+        "answer": "Switch your collar grip to a belt grip or reach behind to grab their far pants at the knee. This deeper grip allows you to pull them forward over your body rather than sweeping laterally. Combined with elevating your hips and extending both legs, you can convert to a balloon sweep or waiter sweep that attacks their base from underneath rather than from the side, exploiting the forward direction where their wide base is most vulnerable.",
+        "answer_line": "Belt grip, pull forward",
+        "distractors": {
+          "plausible": [
+            "Tighter cross collar grip",
+            "Double sleeve control"
+          ],
+          "trap": [
+            "Push their hips down harder"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration gives the highest percentage De La Riva Sweep in gi competition?",
         "answer": "The highest-percentage setup pairs a same-side sleeve grip on the arm of the leg you are hooking with a cross collar grip in the other hand. The sleeve grip eliminates their strongest posting defense while the collar grip controls posture and provides pulling power. This two-grip system creates maximum control because it addresses the upper and lower body simultaneously, giving you leverage at two distant points on their frame.",
         "distractors": {
           "plausible": [
-            "Use a cross sleeve grip with a same-side collar grip, since crossing the sleeve generates stronger pulling power across their body.",
-            "Control both sleeves with a double sleeve grip, since taking away both arms removes every posting option they have."
+            "Double sleeve grip",
+            "Collar and belt grip"
           ],
           "trap": [
-            "Take a deep two-handed collar grip to smash their posture, since posture control alone is enough to finish the sweep."
+            "Both collar grips, 2-on-1"
           ]
-        }
+        },
+        "answer_line": "Same-side sleeve + collar"
       }
     ],
     "safety_considerations": "The De La Riva Sweep should be executed with controlled force to protect both practitioners from injury. When sweeping, be mindful of the rotational torque placed on the opponent's knee from the hook position—avoid jerking or explosive movements that could stress knee ligaments. Ensure training partners understand proper falling technique (breakfalls) before practicing at full speed. The bottom player should maintain awareness of their own knee and ankle positioning in the De La Riva hook to prevent hyperextension injuries. When practicing, start slowly and gradually increase speed as both partners develop familiarity with the technique. Communication is essential, particularly when partner is airborne during sweep completion. Practice on appropriate mat surfaces with adequate padding. If you experience knee or ankle discomfort while in De La Riva Guard, release the position immediately and assess before continuing.",
@@ -426,19 +490,59 @@
     "flashcards": [
       {
         "question": "What is the single most important grip to strip when defending the De La Riva Sweep?",
-        "answer": "The sleeve grip on the same side as the DLR hook is the most critical grip to strip. This grip prevents you from posting your hand to block the sweep, which is your primary emergency defense. Without the sleeve grip, even a perfectly timed sweep can be stopped by simply posting your hand on the mat. Stripping this grip should be your first defensive priority before attempting to remove the hook."
+        "answer": "The sleeve grip on the same side as the DLR hook is the most critical grip to strip. This grip prevents you from posting your hand to block the sweep, which is your primary emergency defense. Without the sleeve grip, even a perfectly timed sweep can be stopped by simply posting your hand on the mat. Stripping this grip should be your first defensive priority before attempting to remove the hook.",
+        "answer_line": "Strip the same-side sleeve",
+        "distractors": {
+          "plausible": [
+            "Strip the collar grip first",
+            "Remove the DLR hook first"
+          ],
+          "trap": [
+            "Grab their far sleeve instead"
+          ]
+        }
       },
       {
         "question": "Why does leaning forward make the De La Riva Sweep more dangerous rather than helping you resist it?",
-        "answer": "The DLR sweep converts forward momentum into lateral sweeping force through the hook and grip system. When you lean forward, you place your center of gravity directly over the lever (the DLR hook), which gives the bottom player maximum mechanical advantage to redirect your weight sideways. The bottom player is essentially waiting for you to commit weight forward so they can redirect it. Keeping weight back removes the energy source the sweep depends on."
+        "answer": "The DLR sweep converts forward momentum into lateral sweeping force through the hook and grip system. When you lean forward, you place your center of gravity directly over the lever (the DLR hook), which gives the bottom player maximum mechanical advantage to redirect your weight sideways. The bottom player is essentially waiting for you to commit weight forward so they can redirect it. Keeping weight back removes the energy source the sweep depends on.",
+        "answer_line": "Feeds weight onto the lever",
+        "distractors": {
+          "plausible": [
+            "Improves your base, posture",
+            "Lets you posture to defend"
+          ],
+          "trap": [
+            "Drive forward to smash pass"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep DLR hook and strong sleeve grip - you feel them beginning to extend the hook. What is your immediate emergency response?",
-        "answer": "Post your free hand on the mat toward the direction you are being swept to create an emergency base point. Simultaneously drive your hooked knee toward the mat to flatten their hips and reduce the hook's leverage. This buys you time to then strip the sleeve grip and extract your leg. The posting hand is your emergency brake while the knee drive addresses the root cause of the sweeping force."
+        "answer": "Post your free hand on the mat toward the direction you are being swept to create an emergency base point. Simultaneously drive your hooked knee toward the mat to flatten their hips and reduce the hook's leverage. This buys you time to then strip the sleeve grip and extract your leg. The posting hand is your emergency brake while the knee drive addresses the root cause of the sweeping force.",
+        "answer_line": "Post hand, drive knee down",
+        "distractors": {
+          "plausible": [
+            "Yank leg out immediately",
+            "Grip fight sleeve first"
+          ],
+          "trap": [
+            "Lean back to create space"
+          ]
+        }
       },
       {
         "question": "How can you convert a successful sweep defense directly into a guard passing opportunity?",
-        "answer": "When you successfully step back to extract from the DLR hook, immediately use the momentum of your backward step to circle to the opposite side and initiate a toreando or leg drag pass before the bottom player can re-establish their guard. If you flatten their hips by driving your knee down, you can flow directly into a knee slice pass through the compromised guard structure. The key principle is that every defensive action should transition into an offensive one without resetting to neutral."
+        "answer": "When you successfully step back to extract from the DLR hook, immediately use the momentum of your backward step to circle to the opposite side and initiate a toreando or leg drag pass before the bottom player can re-establish their guard. If you flatten their hips by driving your knee down, you can flow directly into a knee slice pass through the compromised guard structure. The key principle is that every defensive action should transition into an offensive one without resetting to neutral.",
+        "answer_line": "Circle into toreando pass",
+        "distractors": {
+          "plausible": [
+            "Reset to neutral, re-engage",
+            "Dive for a leg lock"
+          ],
+          "trap": [
+            "Step back, disengage fully"
+          ]
+        }
       }
     ],
     "training_progressions": [

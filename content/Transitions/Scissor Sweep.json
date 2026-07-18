@@ -232,51 +232,171 @@
     "flashcards": [
       {
         "question": "What is the optimal angle to create with your body relative to your opponent when setting up the Scissor Sweep?",
-        "answer": "Your body should be positioned approximately 45-90 degrees perpendicular to your opponent. This angle is critical because it creates the leverage necessary for the scissoring leg motion to be effective. Being too square to the opponent reduces leverage and makes the sweep much weaker."
+        "answer": "Your body should be positioned approximately 45-90 degrees perpendicular to your opponent. This angle is critical because it creates the leverage necessary for the scissoring leg motion to be effective. Being too square to the opponent reduces leverage and makes the sweep much weaker.",
+        "answer_line": "45-90 degrees, not square",
+        "distractors": {
+          "plausible": [
+            "Full 90+ degrees behind them",
+            "Square first, angle after"
+          ],
+          "trap": [
+            "Stay flat and squared up"
+          ]
+        }
       },
       {
         "question": "Why is breaking your opponent's posture essential before attempting the Scissor Sweep?",
-        "answer": "Breaking posture accomplishes several critical objectives: it brings the opponent's weight forward over their knees, disrupting their base; it prevents them from posting effectively with their hands; it positions their center of gravity where the sweep can be most effective; and it makes it difficult for them to generate counter-pressure or maintain their balance during the sweep."
+        "answer": "Breaking posture accomplishes several critical objectives: it brings the opponent's weight forward over their knees, disrupting their base; it prevents them from posting effectively with their hands; it positions their center of gravity where the sweep can be most effective; and it makes it difficult for them to generate counter-pressure or maintain their balance during the sweep.",
+        "answer_line": "Breaks base, blocks posting",
+        "distractors": {
+          "plausible": [
+            "Mainly to tire them out",
+            "Only to set the collar grip"
+          ],
+          "trap": [
+            "Let them posture back up"
+          ]
+        }
       },
       {
         "question": "What should you do if your opponent posts their free hand when you attempt the Scissor Sweep?",
-        "answer": "Rather than forcing the original sweep, you should capitalize on their reaction by attacking the posted arm. Options include switching to a kimura on the posted arm, attempting an armbar, or recognizing that their weight has shifted and transitioning to an alternative sweep like the Hip Bump Sweep that exploits their new positioning."
+        "answer": "Rather than forcing the original sweep, you should capitalize on their reaction by attacking the posted arm. Options include switching to a kimura on the posted arm, attempting an armbar, or recognizing that their weight has shifted and transitioning to an alternative sweep like the Hip Bump Sweep that exploits their new positioning.",
+        "answer_line": "Attack the posted arm",
+        "distractors": {
+          "plausible": [
+            "Force the sweep through it",
+            "Reset and rebuild grips"
+          ],
+          "trap": [
+            "Release guard and stand up"
+          ]
+        }
       },
       {
         "question": "Where should your bottom leg (the pushing leg) be positioned for maximum effectiveness in the Scissor Sweep?",
-        "answer": "The bottom leg should be positioned across the opponent's lower abdomen or belt line, with your shin making firm contact. This placement provides optimal leverage - too high (near the chest) loses sweeping power and allows the opponent to step over easily, while too low (near the hips) reduces the mechanical advantage of the scissor motion."
+        "answer": "The bottom leg should be positioned across the opponent's lower abdomen or belt line, with your shin making firm contact. This placement provides optimal leverage - too high (near the chest) loses sweeping power and allows the opponent to step over easily, while too low (near the hips) reduces the mechanical advantage of the scissor motion.",
+        "answer_line": "Shin across the belt line",
+        "distractors": {
+          "plausible": [
+            "Shin high near the chest",
+            "Shin low near the hips"
+          ],
+          "trap": [
+            "Hook leg deep behind knee"
+          ]
+        }
       },
       {
         "question": "How does the Scissor Sweep integrate into a systematic closed guard attack strategy?",
-        "answer": "The Scissor Sweep works as part of a complementary system with other closed guard attacks. When opponents defend the Scissor Sweep by pulling their weight back, you can transition to the Hip Bump Sweep. If they defend by posting on one side, you can attack that arm or switch to a Pendulum Sweep on the opposite side. This creates a dilemma-based system where defending one attack opens opportunities for others, forcing the opponent to make difficult choices."
+        "answer": "The Scissor Sweep works as part of a complementary system with other closed guard attacks. When opponents defend the Scissor Sweep by pulling their weight back, you can transition to the Hip Bump Sweep. If they defend by posting on one side, you can attack that arm or switch to a Pendulum Sweep on the opposite side. This creates a dilemma-based system where defending one attack opens opportunities for others, forcing the opponent to make difficult choices.",
+        "answer_line": "Chain into Hip Bump or arm attack",
+        "distractors": {
+          "plausible": [
+            "Repeat Scissor Sweep harder",
+            "Always finish with Triangle"
+          ],
+          "trap": [
+            "Abandon guard, stand to pass"
+          ]
+        }
       },
       {
         "question": "What is the most common timing error when executing the Scissor Sweep?",
-        "answer": "The most common timing error is failing to coordinate the upper body pull with the lower body scissor motion. Many practitioners either pull with their grips too early or execute the leg scissor before pulling the opponent forward. The movements must be synchronized - you pull the opponent's upper body forward with your grips at the exact moment you execute the scissor motion with your legs. This coordination creates maximum off-balancing force."
+        "answer": "The most common timing error is failing to coordinate the upper body pull with the lower body scissor motion. Many practitioners either pull with their grips too early or execute the leg scissor before pulling the opponent forward. The movements must be synchronized - you pull the opponent's upper body forward with your grips at the exact moment you execute the scissor motion with your legs. This coordination creates maximum off-balancing force.",
+        "answer_line": "Sync the pull with the scissor",
+        "distractors": {
+          "plausible": [
+            "Pull grips well before scissor",
+            "Scissor legs, then pull grips"
+          ],
+          "trap": [
+            "Release grips during scissor"
+          ]
+        }
       },
       {
         "question": "Your opponent begins standing up from inside your closed guard while you have collar and sleeve grips - can you still execute the Scissor Sweep?",
-        "answer": "The Scissor Sweep becomes significantly harder once the opponent is fully standing because your bottom leg loses its leverage against their abdomen. However, during the transition to standing when they are partially up on one knee, there is a brief window where you can use your grips to pull them back down and execute the sweep. If they achieve full standing posture, transition to Pendulum Sweep or lumberjack sweep variations that work better against a standing opponent."
+        "answer": "The Scissor Sweep becomes significantly harder once the opponent is fully standing because your bottom leg loses its leverage against their abdomen. However, during the transition to standing when they are partially up on one knee, there is a brief window where you can use your grips to pull them back down and execute the sweep. If they achieve full standing posture, transition to Pendulum Sweep or lumberjack sweep variations that work better against a standing opponent.",
+        "answer_line": "Pull down mid-transition",
+        "distractors": {
+          "plausible": [
+            "Sweep once fully standing",
+            "Push their hips to sit down"
+          ],
+          "trap": [
+            "Chase them up to standing"
+          ]
+        }
       },
       {
         "question": "What specific grip adjustments are required for the Scissor Sweep in no-gi compared to gi?",
-        "answer": "In no-gi, replace the collar grip with a collar tie behind the opponent's neck or an overhook on the far arm. Replace the sleeve grip with a wrist grip, two-on-one arm control, or underhook on the near side. The mechanics of the scissor motion remain identical, but the grip changes mean you must generate more forward pull through the collar tie and maintain tighter body connection since no-gi grips are inherently less secure than gi fabric grips."
+        "answer": "In no-gi, replace the collar grip with a collar tie behind the opponent's neck or an overhook on the far arm. Replace the sleeve grip with a wrist grip, two-on-one arm control, or underhook on the near side. The mechanics of the scissor motion remain identical, but the grip changes mean you must generate more forward pull through the collar tie and maintain tighter body connection since no-gi grips are inherently less secure than gi fabric grips.",
+        "answer_line": "Collar tie, near-side underhook",
+        "distractors": {
+          "plausible": [
+            "Overhook the near-side arm",
+            "Same grips as gi, just tighter"
+          ],
+          "trap": [
+            "Give up grips, clinch tight"
+          ]
+        }
       },
       {
         "question": "What direction of force should each leg generate during the scissoring motion?",
-        "answer": "The bottom leg (shin across the abdomen) drives horizontally away from you into the opponent's midsection, pushing their hips backward and away. The top leg (behind the shoulder) pulls sharply toward your own chest, dragging the opponent's upper body forward and down. These opposing forces create a rotational torque around the opponent's center of mass that tips them laterally. The forces must be simultaneous and in opposite directions to maximize the off-balancing effect."
+        "answer": "The bottom leg (shin across the abdomen) drives horizontally away from you into the opponent's midsection, pushing their hips backward and away. The top leg (behind the shoulder) pulls sharply toward your own chest, dragging the opponent's upper body forward and down. These opposing forces create a rotational torque around the opponent's center of mass that tips them laterally. The forces must be simultaneous and in opposite directions to maximize the off-balancing effect.",
+        "answer_line": "Bottom leg pushes, top pulls",
+        "distractors": {
+          "plausible": [
+            "Both legs push away equally",
+            "Both legs pull toward you"
+          ],
+          "trap": [
+            "Bottom leg pulls hips in close"
+          ]
+        }
       },
       {
         "question": "Your opponent defends by widening their knees and dropping their hips low - how do you adjust your Scissor Sweep attempt?",
-        "answer": "A wide-base low-hipped posture is the strongest defensive structure against the Scissor Sweep. Rather than forcing the sweep against this base, use your grips to pull them laterally to collapse one side of their base. Alternatively, transition to a Hip Bump Sweep which exploits their low weight distribution, or attack with a triangle or armbar since their wide base often means their arms are extended and vulnerable. The key recognition is that forcing a Scissor Sweep against a properly set base wastes energy and opens you to counter-passes."
+        "answer": "A wide-base low-hipped posture is the strongest defensive structure against the Scissor Sweep. Rather than forcing the sweep against this base, use your grips to pull them laterally to collapse one side of their base. Alternatively, transition to a Hip Bump Sweep which exploits their low weight distribution, or attack with a triangle or armbar since their wide base often means their arms are extended and vulnerable. The key recognition is that forcing a Scissor Sweep against a properly set base wastes energy and opens you to counter-passes.",
+        "answer_line": "Pull laterally, collapse base",
+        "distractors": {
+          "plausible": [
+            "Force the scissor motion harder",
+            "Reset grips and guard fully"
+          ],
+          "trap": [
+            "Push their hips forward hard"
+          ]
+        }
       },
       {
         "question": "What is the critical hip movement that generates power in the Scissor Sweep?",
-        "answer": "As you execute the scissor motion, your hips must elevate slightly off the mat and drive laterally toward the sweeping direction. This hip elevation is essential because it converts the scissor from a static leg motion into a full-body sweep powered by your core and hip flexors. Without this hip lift, the sweep relies solely on leg strength and loses the kinetic chain that connects your grip pull through your core to your leg drive. Think of your hips as the fulcrum point of the lever system."
+        "answer": "As you execute the scissor motion, your hips must elevate slightly off the mat and drive laterally toward the sweeping direction. This hip elevation is essential because it converts the scissor from a static leg motion into a full-body sweep powered by your core and hip flexors. Without this hip lift, the sweep relies solely on leg strength and loses the kinetic chain that connects your grip pull through your core to your leg drive. Think of your hips as the fulcrum point of the lever system.",
+        "answer_line": "Hips lift and drive laterally",
+        "distractors": {
+          "plausible": [
+            "Hips stay flat on the mat",
+            "Hips drive straight up only"
+          ],
+          "trap": [
+            "Hips push into their base"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks the sweep by grabbing your top leg with their free hand - what are your chain attack options?",
-        "answer": "When the opponent reaches down to grab your top leg, they commit their arm away from their defensive frame, creating several opportunities. Their collar is exposed for a cross collar choke attempt if you still have a deep collar grip. Their grabbing arm is extended and vulnerable to a kimura by releasing your sleeve grip and capturing their wrist. You can also use the momentary weight shift caused by their reaching to convert to a Flower Sweep or Pendulum Sweep on the opposite side, since their base is now asymmetric and compromised."
+        "answer": "When the opponent reaches down to grab your top leg, they commit their arm away from their defensive frame, creating several opportunities. Their collar is exposed for a cross collar choke attempt if you still have a deep collar grip. Their grabbing arm is extended and vulnerable to a kimura by releasing your sleeve grip and capturing their wrist. You can also use the momentary weight shift caused by their reaching to convert to a Flower Sweep or Pendulum Sweep on the opposite side, since their base is now asymmetric and compromised.",
+        "answer_line": "Attack the exposed collar/arm",
+        "distractors": {
+          "plausible": [
+            "Kick free and reset guard",
+            "Force the same sweep through"
+          ],
+          "trap": [
+            "Pull leg back and re-grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Scissor Sweep is generally one of the safer techniques in BJJ when practiced properly, but several precautions should be observed. Execute the sweep with controlled power, especially when training with beginners or lighter partners - the goal is technical proficiency, not sending your partner flying across the mat. Ensure adequate mat space behind your opponent before initiating the sweep to prevent them from landing awkwardly on hard floor or wall. When being swept, tap if you feel yourself falling in an uncontrolled manner or if your arm becomes trapped. Partners should practice breakfalls and know how to safely receive the sweep. Start slowly and progressively build speed and power as both practitioners become comfortable with the mechanics. Be mindful of your top leg placement to avoid accidentally striking your partner's face or head during the scissor motion.",
@@ -397,23 +517,73 @@
     "flashcards": [
       {
         "question": "What is your first defensive priority when you recognize a Scissor Sweep setup beginning from inside closed guard?",
-        "answer": "Your first priority is maintaining or recovering upright posture with your head over your hips. The Scissor Sweep requires your weight to be committed forward, so strong posture is the single most important defensive element. Simultaneously, you should strip the collar grip that is being used to break your posture. Without broken posture, the mechanical advantage of the scissor motion is dramatically reduced and you can defend with base alone."
+        "answer": "Your first priority is maintaining or recovering upright posture with your head over your hips. The Scissor Sweep requires your weight to be committed forward, so strong posture is the single most important defensive element. Simultaneously, you should strip the collar grip that is being used to break your posture. Without broken posture, the mechanical advantage of the scissor motion is dramatically reduced and you can defend with base alone.",
+        "answer_line": "Recover posture, strip collar",
+        "distractors": {
+          "plausible": [
+            "Grab their legs immediately",
+            "Push down on their shoulders"
+          ],
+          "trap": [
+            "Lean forward into the pull"
+          ]
+        }
       },
       {
         "question": "Why is the sleeve grip more critical to strip than the collar grip when defending the Scissor Sweep?",
-        "answer": "The sleeve grip prevents you from posting your hand on the mat when the sweep is executed, which is your primary emergency defense. Even with good posture, if you cannot post, a well-timed scissor motion will sweep you because you have no way to create a tripod base to absorb the lateral force. The collar grip breaks posture (which is important), but you can survive a sweep with broken posture if you can post. You cannot survive it with perfect posture if your posting arm is controlled."
+        "answer": "The sleeve grip prevents you from posting your hand on the mat when the sweep is executed, which is your primary emergency defense. Even with good posture, if you cannot post, a well-timed scissor motion will sweep you because you have no way to create a tripod base to absorb the lateral force. The collar grip breaks posture (which is important), but you can survive a sweep with broken posture if you can post. You cannot survive it with perfect posture if your posting arm is controlled.",
+        "answer_line": "Sleeve grip blocks your post",
+        "distractors": {
+          "plausible": [
+            "Collar grip matters more",
+            "Both grips equally critical"
+          ],
+          "trap": [
+            "Strip collar, ignore sleeve"
+          ]
+        }
       },
       {
         "question": "Your opponent has opened their guard and placed their shin across your abdomen - what specific base adjustment prevents the sweep?",
-        "answer": "Immediately widen your knees as far as possible to create maximum lateral resistance. Drop your hips low by sitting back slightly to lower your center of gravity. Angle your body slightly toward the sweep direction so your weight counterbalances the incoming force. If possible, step your knee on the sweep side outward and back to create a wider triangular base that the scissoring motion cannot collapse. This base adjustment must happen instantly upon recognizing the shin placement."
+        "answer": "Immediately widen your knees as far as possible to create maximum lateral resistance. Drop your hips low by sitting back slightly to lower your center of gravity. Angle your body slightly toward the sweep direction so your weight counterbalances the incoming force. If possible, step your knee on the sweep side outward and back to create a wider triangular base that the scissoring motion cannot collapse. This base adjustment must happen instantly upon recognizing the shin placement.",
+        "answer_line": "Widen knees, drop hips low",
+        "distractors": {
+          "plausible": [
+            "Narrow knees, sit up tall",
+            "Push hips forward and high"
+          ],
+          "trap": [
+            "Post hands on their hips"
+          ]
+        }
       },
       {
         "question": "When is it too late to prevent the Scissor Sweep and what should you do at that point?",
-        "answer": "The point of no return occurs when the opponent has both their angle established and their scissoring motion has begun with coordinated grip pull. At this stage, prevention has failed and you must manage the landing. Tuck your chin to protect your neck, keep your elbows tight to prevent arm isolation during the transition, and begin framing immediately as you land to prevent the opponent from consolidating mount. If you can control one of their legs as you go over, you may recover to half guard instead of conceding full mount."
+        "answer": "The point of no return occurs when the opponent has both their angle established and their scissoring motion has begun with coordinated grip pull. At this stage, prevention has failed and you must manage the landing. Tuck your chin to protect your neck, keep your elbows tight to prevent arm isolation during the transition, and begin framing immediately as you land to prevent the opponent from consolidating mount. If you can control one of their legs as you go over, you may recover to half guard instead of conceding full mount.",
+        "answer_line": "Tuck chin, frame, land safe",
+        "distractors": {
+          "plausible": [
+            "Fight the sweep with strength",
+            "Grab both legs and freeze up"
+          ],
+          "trap": [
+            "Turn away and give up back"
+          ]
+        }
       },
       {
         "question": "How does your defensive response differ when the opponent attempts a Scissor Sweep versus a Hip Bump Sweep from the same position?",
-        "answer": "Against the Scissor Sweep, your defense is primarily lateral - you resist sideways displacement through wide base and posting. Against the Hip Bump Sweep, your defense is primarily rearward - the opponent sits up into you and you must resist being pushed backward by driving your weight forward or posting behind you. The critical tactical awareness is that these two sweeps create a dilemma: defending the Scissor by pulling your weight back makes you vulnerable to the Hip Bump, while leaning forward to prevent the Hip Bump makes you vulnerable to the Scissor. Maintaining centered posture with a wide base addresses both threats simultaneously."
+        "answer": "Against the Scissor Sweep, your defense is primarily lateral - you resist sideways displacement through wide base and posting. Against the Hip Bump Sweep, your defense is primarily rearward - the opponent sits up into you and you must resist being pushed backward by driving your weight forward or posting behind you. The critical tactical awareness is that these two sweeps create a dilemma: defending the Scissor by pulling your weight back makes you vulnerable to the Hip Bump, while leaning forward to prevent the Hip Bump makes you vulnerable to the Scissor. Maintaining centered posture with a wide base addresses both threats simultaneously.",
+        "answer_line": "Centered posture, wide base",
+        "distractors": {
+          "plausible": [
+            "Lean forward against both",
+            "Lean back against both"
+          ],
+          "trap": [
+            "Commit weight fully forward"
+          ]
+        }
       }
     ],
     "training_progressions": [

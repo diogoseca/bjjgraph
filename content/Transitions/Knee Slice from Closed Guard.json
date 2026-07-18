@@ -253,43 +253,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the knee slice after opening the closed guard?",
-        "answer": "The knee slice should be initiated immediately upon ankle separation, within the first one to two seconds of the guard opening. Any delay allows the bottom player to establish alternative guard positions like butterfly guard, spider guard, or De La Riva guard. The transition from guard break to knee insertion should be pre-planned and seamless, functioning as a single continuous movement rather than two separate actions with a pause between them."
+        "answer": "The knee slice should be initiated immediately upon ankle separation, within the first one to two seconds of the guard opening. Any delay allows the bottom player to establish alternative guard positions like butterfly guard, spider guard, or De La Riva guard. The transition from guard break to knee insertion should be pre-planned and seamless, functioning as a single continuous movement rather than two separate actions with a pause between them.",
+        "answer_line": "Instant, within 1-2 seconds",
+        "distractors": {
+          "plausible": [
+            "Wait until fully postured up",
+            "Pause to secure grips first"
+          ],
+          "trap": [
+            "Let them reset before attacking"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you can attempt the knee slice from closed guard?",
-        "answer": "Four conditions must be met: established posture with spine straight and head over hips, the guard opened or actively opening with ankles separated, a dominant hand positioned to control the opponent's far hip or establish crossface on the jaw, and base established with the posting foot ready to drive body weight forward through the knee slice. Missing any condition significantly reduces success probability."
+        "answer": "Four conditions must be met: established posture with spine straight and head over hips, the guard opened or actively opening with ankles separated, a dominant hand positioned to control the opponent's far hip or establish crossface on the jaw, and base established with the posting foot ready to drive body weight forward through the knee slice. Missing any condition significantly reduces success probability.",
+        "answer_line": "Posture, guard open, hip grip, base",
+        "distractors": {
+          "plausible": [
+            "Posture and open guard only",
+            "Just hip grip and base"
+          ],
+          "trap": [
+            "Rush the slice, skip posture"
+          ]
+        }
       },
       {
         "question": "What is the critical hip position during the knee slice execution?",
-        "answer": "Your hips must stay low and heavy during the knee slice, driving forward at a diagonal angle across the opponent's thigh. If hips rise too high, the bottom player can insert a knee shield or butterfly hook underneath, completely blocking the pass. The hips drive forward and down simultaneously, maintaining constant shin-to-thigh pressure that denies the bottom player any space to establish defensive structures."
+        "answer": "Your hips must stay low and heavy during the knee slice, driving forward at a diagonal angle across the opponent's thigh. If hips rise too high, the bottom player can insert a knee shield or butterfly hook underneath, completely blocking the pass. The hips drive forward and down simultaneously, maintaining constant shin-to-thigh pressure that denies the bottom player any space to establish defensive structures.",
+        "answer_line": "Low, heavy, diagonal drive",
+        "distractors": {
+          "plausible": [
+            "High hips for extra reach",
+            "Square hips, drive straight"
+          ],
+          "trap": [
+            "Rise hips to clear the leg"
+          ]
+        }
       },
       {
         "question": "Why is crossface control essential before completing the knee slice?",
-        "answer": "The crossface turns the opponent's head away and prevents them from facing into the pass. Without crossface control, the bottom player can turn their body toward you, establish an underhook on the near side, and either recover full guard or initiate a sweep from half guard bottom. The crossface shoulder pressure also flattens the bottom player onto their back, eliminating their hip mobility needed for sweeps and guard recovery."
+        "answer": "The crossface turns the opponent's head away and prevents them from facing into the pass. Without crossface control, the bottom player can turn their body toward you, establish an underhook on the near side, and either recover full guard or initiate a sweep from half guard bottom. The crossface shoulder pressure also flattens the bottom player onto their back, eliminating their hip mobility needed for sweeps and guard recovery.",
+        "answer_line": "Blocks turn-in, flattens back",
+        "distractors": {
+          "plausible": [
+            "Only controls the far hip",
+            "Needed just for finishing"
+          ],
+          "trap": [
+            "Skip it, chase the underhook"
+          ]
+        }
       },
       {
         "question": "What grip should your lead hand maintain during the knee slice transition?",
-        "answer": "Your lead hand should control the opponent's far hip, pinning it to the mat or blocking hip escape. This grip prevents shrimping away to create distance, turning into you for underhook battles, or recovering to a better guard position. In gi, the belt or pants grip at the hip provides excellent control. In no-gi, cupping the far hip bone or hooking the far thigh with an underhook achieves similar positional control."
+        "answer": "Your lead hand should control the opponent's far hip, pinning it to the mat or blocking hip escape. This grip prevents shrimping away to create distance, turning into you for underhook battles, or recovering to a better guard position. In gi, the belt or pants grip at the hip provides excellent control. In no-gi, cupping the far hip bone or hooking the far thigh with an underhook achieves similar positional control.",
+        "answer_line": "Pin the far hip, block escape",
+        "distractors": {
+          "plausible": [
+            "Grip the near hip instead",
+            "Underhook the near arm"
+          ],
+          "trap": [
+            "Grab the collar for control"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks the knee slice by inserting a knee shield. How do you adjust?",
-        "answer": "Do not force the knee through a strong knee shield. Switch to a smash pass approach by driving your chest weight into their knee shield while circling your hips to flatten the shield leg against their body. Alternatively, backstep to the opposite side for a reverse half guard pass, or disengage slightly and reset from headquarters position with a different angle such as a long step or toreando pass."
+        "answer": "Do not force the knee through a strong knee shield. Switch to a smash pass approach by driving your chest weight into their knee shield while circling your hips to flatten the shield leg against their body. Alternatively, backstep to the opposite side for a reverse half guard pass, or disengage slightly and reset from headquarters position with a different angle such as a long step or toreando pass.",
+        "answer_line": "Switch to smash pass or backstep",
+        "distractors": {
+          "plausible": [
+            "Force the knee through it",
+            "Keep pushing same angle"
+          ],
+          "trap": [
+            "Let go and reset to guard"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force during the knee slide across the thigh?",
-        "answer": "The force direction is diagonal, driving from the near hip toward the far shoulder at approximately forty-five degrees. This angle is critical because a straight-forward drive allows the bottom player to frame directly against your momentum and stall the pass. The diagonal angle slides past their defensive structures and creates the clearing path needed for the knee to cross the centerline and complete the pass to half guard top."
+        "answer": "The force direction is diagonal, driving from the near hip toward the far shoulder at approximately forty-five degrees. This angle is critical because a straight-forward drive allows the bottom player to frame directly against your momentum and stall the pass. The diagonal angle slides past their defensive structures and creates the clearing path needed for the knee to cross the centerline and complete the pass to half guard top.",
+        "answer_line": "Diagonal, toward far shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight forward, full power",
+            "Toward the near shoulder"
+          ],
+          "trap": [
+            "Drive straight into their frame"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip as you begin the knee slice. How do you respond?",
-        "answer": "Address the frame immediately rather than trying to power through it. Swim your arm inside their frame to collapse it at the elbow, or shift your angle to make their frame structurally weak by moving off their centerline. Alternatively, pin their framing elbow to their body using your chest weight and then continue the knee slice once the frame is neutralized. Forcing through a strong frame wastes energy and gives them leverage to shrimp."
+        "answer": "Address the frame immediately rather than trying to power through it. Swim your arm inside their frame to collapse it at the elbow, or shift your angle to make their frame structurally weak by moving off their centerline. Alternatively, pin their framing elbow to their body using your chest weight and then continue the knee slice once the frame is neutralized. Forcing through a strong frame wastes energy and gives them leverage to shrimp.",
+        "answer_line": "Collapse frame, swim inside",
+        "distractors": {
+          "plausible": [
+            "Power through the frame",
+            "Pull the hand off directly"
+          ],
+          "trap": [
+            "Muscle past, ignore the frame"
+          ]
+        }
       },
       {
         "question": "What chain attacks are available if the initial knee slice stalls in half guard?",
-        "answer": "From half guard top after a stalled knee slice, chain into crossface pressure pass, underhook pass, backstep pass, or switch to a darce choke if the opponent turns into you. You can also retreat to headquarters position and re-enter with a different pass like toreando or long step. The key principle is using the opponent's defensive reaction to select your next attack rather than forcing a single technique repeatedly."
+        "answer": "From half guard top after a stalled knee slice, chain into crossface pressure pass, underhook pass, backstep pass, or switch to a darce choke if the opponent turns into you. You can also retreat to headquarters position and re-enter with a different pass like toreando or long step. The key principle is using the opponent's defensive reaction to select your next attack rather than forcing a single technique repeatedly.",
+        "answer_line": "Crossface, underhook, or darce",
+        "distractors": {
+          "plausible": [
+            "Repeat the same knee slice",
+            "Retreat to closed guard"
+          ],
+          "trap": [
+            "Force the pass, ignore reaction"
+          ]
+        }
       },
       {
         "question": "What is the most common reason the knee slice fails from closed guard?",
-        "answer": "The most common failure point is attempting the knee slice before the guard is fully opened. When ankles are still partially locked or the bottom player's legs maintain any connection, the knee lacks the space to penetrate the thigh line. This premature attempt breaks posture and exposes the top player to triangle and armbar setups as they lean forward without proper base. Ensure complete ankle separation and active leg control before committing to the slice."
+        "answer": "The most common failure point is attempting the knee slice before the guard is fully opened. When ankles are still partially locked or the bottom player's legs maintain any connection, the knee lacks the space to penetrate the thigh line. This premature attempt breaks posture and exposes the top player to triangle and armbar setups as they lean forward without proper base. Ensure complete ankle separation and active leg control before committing to the slice.",
+        "answer_line": "Attempting before guard is open",
+        "distractors": {
+          "plausible": [
+            "Wrong hand grip on the hip",
+            "Hips too low during drive"
+          ],
+          "trap": [
+            "Posting foot in wrong spot"
+          ]
+        }
       }
     ],
     "safety_considerations": "The knee slice from closed guard carries moderate injury risk primarily to the bottom player's knee and hip structures. The top player should avoid driving excessive lateral force through the bottom player's trapped leg, which can stress the medial collateral ligament. Both practitioners should communicate about knee discomfort during drilling. The bottom player should tap immediately if their knee is twisted or compressed abnormally during the pass. In training, apply the knee slice with controlled pressure rather than explosive force to allow the partner time to adjust their leg position safely. Be especially careful when the bottom player's foot is caught between your legs during the transition.",
@@ -407,27 +507,87 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is attempting a knee slice from closed guard?",
-        "answer": "The earliest cues include the opponent posturing up strongly with hands driving on your hips, their weight shifting to one side as they angle the lead knee toward your thigh line, and their shoulder beginning to drive toward your jaw for crossface establishment. You may also feel them pinning your near-side knee downward after breaking your ankle lock and their posting foot repositioning behind them to generate forward driving force."
+        "answer": "The earliest cues include the opponent posturing up strongly with hands driving on your hips, their weight shifting to one side as they angle the lead knee toward your thigh line, and their shoulder beginning to drive toward your jaw for crossface establishment. You may also feel them pinning your near-side knee downward after breaking your ankle lock and their posting foot repositioning behind them to generate forward driving force.",
+        "answer_line": "Posturing up with hip pressure",
+        "distractors": {
+          "plausible": [
+            "Opponent breaks grips only",
+            "They shift weight backward"
+          ],
+          "trap": [
+            "They relax and sit back"
+          ]
+        }
       },
       {
         "question": "When is the best timing to re-close your guard during a knee slice attempt?",
-        "answer": "Re-close your guard before the knee crosses your thigh centerline. Once the knee passes the midpoint of your thigh, re-closing becomes nearly impossible due to the structural block of their shin. The optimal window is during the guard break itself when the opponent's attention is split between opening the guard and preparing the knee insertion. Use active legs to fight ankle separation and re-lock immediately when their grip weakens."
+        "answer": "Re-close your guard before the knee crosses your thigh centerline. Once the knee passes the midpoint of your thigh, re-closing becomes nearly impossible due to the structural block of their shin. The optimal window is during the guard break itself when the opponent's attention is split between opening the guard and preparing the knee insertion. Use active legs to fight ankle separation and re-lock immediately when their grip weakens.",
+        "answer_line": "Before knee crosses your thigh",
+        "distractors": {
+          "plausible": [
+            "Anytime before pass finishes",
+            "After crossface is secured"
+          ],
+          "trap": [
+            "Wait until knee fully crosses"
+          ]
+        }
       },
       {
         "question": "What is the primary risk of attempting an underhook sweep during the knee slice transition?",
-        "answer": "The primary risk is that a failed underhook sweep turns your body toward the opponent and surrenders your frame, making it significantly easier for them to establish crossface control and flatten you. A failed sweep attempt essentially accelerates the pass because you have removed your own defensive barriers and turned into the pressure rather than away from it. Only commit to the sweep when timing is clearly favorable."
+        "answer": "The primary risk is that a failed underhook sweep turns your body toward the opponent and surrenders your frame, making it significantly easier for them to establish crossface control and flatten you. A failed sweep attempt essentially accelerates the pass because you have removed your own defensive barriers and turned into the pressure rather than away from it. Only commit to the sweep when timing is clearly favorable.",
+        "answer_line": "Turns you in, kills your frame",
+        "distractors": {
+          "plausible": [
+            "Loses grip on their sleeve",
+            "Slows down your hip escape"
+          ],
+          "trap": [
+            "Commit fully, force the sweep"
+          ]
+        }
       },
       {
         "question": "How should you position your inside knee to defend against the knee slice?",
-        "answer": "Insert your inside knee as a shield by driving it across the opponent's hip line, creating a structural frame between your shin and their torso. This knee shield must be established before their knee crosses your thigh, and should angle slightly outward to redirect their driving pressure away from your centerline. The knee shield creates a barrier their knee cannot pass without first dealing with your frame through smashing or stepping around."
+        "answer": "Insert your inside knee as a shield by driving it across the opponent's hip line, creating a structural frame between your shin and their torso. This knee shield must be established before their knee crosses your thigh, and should angle slightly outward to redirect their driving pressure away from your centerline. The knee shield creates a barrier their knee cannot pass without first dealing with your frame through smashing or stepping around.",
+        "answer_line": "Shield knee across their hip",
+        "distractors": {
+          "plausible": [
+            "Knee pointed straight up",
+            "Knee tucked under your hip"
+          ],
+          "trap": [
+            "Flatten your knee to the mat"
+          ]
+        }
       },
       {
         "question": "What defensive option should you prioritize if the crossface is already established?",
-        "answer": "If the crossface is already established, prioritize hip escape and guard recovery over fighting the underhook. Frame against their crossface shoulder with both hands, execute a strong hip escape away from them, and work to insert your knee shield or recover guard through leg pummeling. Trying to fight for the underhook when already crossfaced typically worsens your position because the crossface controls your head and torso rotation."
+        "answer": "If the crossface is already established, prioritize hip escape and guard recovery over fighting the underhook. Frame against their crossface shoulder with both hands, execute a strong hip escape away from them, and work to insert your knee shield or recover guard through leg pummeling. Trying to fight for the underhook when already crossfaced typically worsens your position because the crossface controls your head and torso rotation.",
+        "answer_line": "Hip escape over underhook fight",
+        "distractors": {
+          "plausible": [
+            "Fight for the underhook hard",
+            "Bridge and roll immediately"
+          ],
+          "trap": [
+            "Push into their crossface"
+          ]
+        }
       },
       {
         "question": "Why is it dangerous to remain flat on your back when defending the knee slice?",
-        "answer": "Remaining flat eliminates hip mobility, which is your primary defensive tool for creating angles and executing hip escapes. Without the ability to shrimp or create angles, you become a stationary target the passer can methodically work around. Flat positioning weakens your frames because effective shoulder-based resistance requires rotation, and it gives the top player maximum chest pressure surface area to pin you while completing the pass."
+        "answer": "Remaining flat eliminates hip mobility, which is your primary defensive tool for creating angles and executing hip escapes. Without the ability to shrimp or create angles, you become a stationary target the passer can methodically work around. Flat positioning weakens your frames because effective shoulder-based resistance requires rotation, and it gives the top player maximum chest pressure surface area to pin you while completing the pass.",
+        "answer_line": "Kills hip mobility, no escape",
+        "distractors": {
+          "plausible": [
+            "Only affects your grips",
+            "Slows your posture recovery"
+          ],
+          "trap": [
+            "Flat is fine, just frame hard"
+          ]
+        }
       }
     ],
     "training_progressions": [

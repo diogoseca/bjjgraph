@@ -319,7 +319,17 @@
       {
         "question": "What is the minimum time you should take to apply finishing pressure on an americana in training, and why?",
         "answer": "You should take a minimum of 3-5 seconds to apply finishing pressure on an americana in training. This slow, controlled application allows your training partner time to recognize the danger, assess whether to defend or tap, and signal submission before injury occurs. The shoulder joint is particularly vulnerable to rotator cuff tears, and sudden or jerking movements can cause serious injuries that require months of recovery or even surgery. Training is about learning and improvement, not injuring partners.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 seconds, lets partner tap",
+        "distractors": {
+          "plausible": [
+            "1-2 seconds, still safe enough",
+            "As fast as possible to finish"
+          ],
+          "trap": [
+            "Jerk it quick before they escape"
+          ]
+        }
       },
       {
         "question": "What are the primary anatomical targets of the americana submission, and what type of pressure creates the finishing mechanism?",
@@ -327,28 +337,59 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The americana finishes by internal rotation of the shoulder, driving the trapped wrist up toward the opponent's head.",
-            "The americana primarily targets the elbow joint, finishing by hyperextending the arm straight against the mat."
+            "Elbow joint, hyperextension",
+            "Bicep tendon, compression"
           ],
           "trap": [
-            "The finish comes from cranking the wrist joint itself, so torque the hand hard rather than moving the shoulder."
+            "Wrist joint, forced flexion"
           ]
-        }
+        },
+        "answer_line": "Shoulder, forced external rotation"
       },
       {
         "question": "Why is it critical to pin the opponent's shoulder to the mat before applying rotational pressure, and what happens if you don't?",
         "answer": "Pinning the opponent's shoulder to the mat is critical because it creates a fixed point around which the rotational leverage can work. When the shoulder is properly pinned, the opponent cannot follow their arm as you rotate it, which creates the actual submission pressure on the joint. If you fail to pin the shoulder adequately, the opponent can simply roll their shoulder forward or follow their arm, completely relieving the pressure and escaping the submission. The pin also prevents them from using their body rotation to counter your leverage.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Pin shoulder or they roll free",
+        "distractors": {
+          "plausible": [
+            "Pin shoulder to add more weight",
+            "Pin shoulder to control the hips"
+          ],
+          "trap": [
+            "Skip the pin, rotate faster instead"
+          ]
+        }
       },
       {
         "question": "If your opponent straightens their arm completely to defend the americana, what is the highest-percentage follow-up attack?",
         "answer": "If the opponent straightens their arm completely to defend the americana, the highest-percentage follow-up attack is the mounted armbar. You should maintain your grip on their wrist throughout the transition, swing your leg over their face, and fall back for the armbar while keeping control of the arm. The straight arm defense actually places them in perfect position for this transition. This demonstrates the principle of submission chains - one defensive movement against a submission should expose them to a different attack.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Swing leg over, mounted armbar",
+        "distractors": {
+          "plausible": [
+            "Switch to kimura grip instead",
+            "Transition straight to back control"
+          ],
+          "trap": [
+            "Muscle the arm back into americana"
+          ]
+        }
       },
       {
         "question": "What is the proper elbow position relative to the shoulder plane during an americana, and why does this matter?",
         "answer": "The opponent's elbow should be at or below the plane of their shoulder during an americana - never above it. This positioning is crucial because it creates the proper angle for external rotation pressure on the shoulder joint and prevents the opponent from escaping by extending their arm straight. If the elbow rises above shoulder level, the mechanical advantage is lost, and the opponent can more easily defend or escape. Maintaining this relationship requires proper body positioning and weight distribution from the top player.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbow at or below shoulder line",
+        "distractors": {
+          "plausible": [
+            "Elbow slightly above shoulder line",
+            "Elbow pinned tight to their ribs"
+          ],
+          "trap": [
+            "Let elbow rise for more torque"
+          ]
+        }
       },
       {
         "question": "What are all the acceptable ways a training partner can signal a tap when caught in an americana, and why must you know all of them?",
@@ -356,18 +397,29 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "The only valid signals are a hand tap on your body or the mat, so foot taps and head movements can be safely ignored.",
-            "Wait until you feel two clear, deliberate hand taps before releasing, since a single tap or a vocal sound may be accidental."
+            "Only a clear verbal tap counts",
+            "Only tapping the mat twice counts"
           ],
           "trap": [
-            "Hold full pressure until a referee or coach confirms the tap, because releasing on your own read forfeits the submission."
+            "Wait for them to go fully limp"
           ]
-        }
+        },
+        "answer_line": "Verbal, hand, foot, or head signal"
       },
       {
         "question": "Your opponent starts to bridge explosively as you begin applying finishing pressure - what adjustment do you make to maintain the submission?",
         "answer": "When the opponent bridges during finishing pressure, immediately widen your base by posting your free leg out wide on the same side as the trapped arm. Simultaneously drive your weight forward and down through your chest into their shoulder, flattening them back to the mat. Keep your figure-four grip tight and your elbows pulled toward your centerline. If the bridge is particularly explosive and committed, you may need to release the americana grip momentarily, follow them over, establish side control, and then reapply the submission from the new position. Never fight the bridge rigidly from a narrow base.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, drive chest weight down",
+        "distractors": {
+          "plausible": [
+            "Grip tighter, stay on narrow base",
+            "Sit back to absorb the bridge"
+          ],
+          "trap": [
+            "Rotate harder to beat the bridge"
+          ]
+        }
       },
       {
         "question": "What specific grip adjustments should you make if your opponent begins to rotate their wrist or pull their arm toward their body during the finish?",
@@ -389,18 +441,29 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "When they tense up and stop escaping, ease off the pressure slightly so they have a comfortable moment to tap.",
-            "Intensifying grunts mean the finish is stalling, so add small increments of pressure until the tap finally comes."
+            "Grunting means push harder now",
+            "Tensing means they're escaping"
           ],
           "trap": [
-            "Rigid tensing means their defense is working, so ramp the rotation hard and fast before they consolidate it."
+            "Increase pressure to force the tap"
           ]
-        }
+        },
+        "answer_line": "Grunting, tensing - hold, don't add"
       },
       {
         "question": "How do you adjust your americana finish when the opponent has significantly stronger arms or larger frame than you?",
         "answer": "Against stronger or larger opponents, you must maximize your mechanical advantage rather than trying to match their strength. First, ensure your chest weight is completely pinning their shoulder - use gravity as your primary weapon. Second, keep their elbow as close to shoulder level as possible (not below) to maximize rotational leverage. Third, position your figure-four grip so your forearm is across the back of their tricep rather than their forearm, creating a longer lever. Fourth, use your entire upper body rotating as a unit rather than just arm strength. Finally, consider transitioning to high mount before attempting the submission to reduce their ability to generate escape power. Patience is essential - maintain position and apply slow, steady pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Use chest weight, not arm strength",
+        "distractors": {
+          "plausible": [
+            "Grip harder to overpower the arm",
+            "Speed up before they recover"
+          ],
+          "trap": [
+            "Yank the arm with a fast jerk"
+          ]
+        }
       },
       {
         "question": "What is the point of no escape for the americana, and how do you recognize when you've achieved it?",
@@ -422,13 +485,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "In competition you can rush the setup since speed matters most, while keeping the same slow 3-5 second pressure as training.",
-            "In competition, pause briefly after locking in to let the referee register control before applying finishing pressure."
+            "Full speed since it's a match",
+            "Same 3-5 second pace as training"
           ],
           "trap": [
-            "In competition, snap the rotation explosively before your opponent can react - the referee will step in to protect them."
+            "Spike it hard for a fast finish"
           ]
-        }
+        },
+        "answer_line": "Smooth 1-2s pressure, no jerking"
       }
     ],
     "clips": [
@@ -562,17 +626,47 @@
       {
         "question": "Why should you bridge toward the trapped arm side rather than away from it when defending the americana?",
         "answer": "Bridging toward the trapped arm side is more effective because the attacker has committed their weight forward and to that side to pin your shoulder, creating a narrow base in that direction. Their posting arm is occupied controlling your wrist rather than maintaining base. Bridging into this compromised base has the highest chance of disrupting their position. Bridging the opposite direction drives into their strong side where they have a wider base and better ability to absorb the movement, wasting your energy without meaningful position change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bridge into their narrow, weak base",
+        "distractors": {
+          "plausible": [
+            "Bridge away to create arm space",
+            "Bridge toward their strong post side"
+          ],
+          "trap": [
+            "Bridge straight up with both legs"
+          ]
+        }
       },
       {
         "question": "If the americana figure-four grip is fully locked and finishing pressure is beginning, what is your emergency defense sequence?",
         "answer": "When caught in a locked americana with pressure being applied, execute the following sequence: First, attempt to straighten your trapped arm fully to remove the 90-degree angle required for the submission - this buys immediate time. Second, if you cannot straighten the arm, clasp your hands together or grab your own lapel to create a connection point that resists the rotation. Third, simultaneously bridge explosively toward the trapped arm side to disrupt the attacker's base. Fourth, use any momentary space created by the bridge to begin hip escaping. You must accept that this is an emergency situation and prioritize immediate action over energy conservation.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Straighten arm, clasp hands, bridge",
+        "distractors": {
+          "plausible": [
+            "Tap early to avoid any risk",
+            "Push their hips off with free hand"
+          ],
+          "trap": [
+            "Yank the trapped arm straight out"
+          ]
+        }
       },
       {
         "question": "When you straighten your arm to defend the americana, what follow-up threat must you immediately prepare for?",
         "answer": "Straightening your arm to defend the americana directly exposes you to the mounted armbar. A skilled attacker will maintain wrist control, swing their leg over your face, and transition to the armbar finish. You must be prepared to immediately bend your arm again and pull it across your chest if you feel them beginning the armbar transition, or follow their rotation and use the positional change to escape mount. The straight arm defense should be viewed as a temporary measure that buys time for a bridge or hip escape, not as a final defensive position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Mounted armbar follow-up",
+        "distractors": {
+          "plausible": [
+            "Kimura from the same grip",
+            "Back take off the frame"
+          ],
+          "trap": [
+            "Relax the arm, defense is complete"
+          ]
+        }
       },
       {
         "question": "What arm positioning should you maintain throughout mount bottom to prevent the americana from being attempted in the first place?",

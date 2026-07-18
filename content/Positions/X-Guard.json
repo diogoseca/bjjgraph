@@ -675,71 +675,212 @@
       "answer": "X-Guard variants control by wrapping the opponent's leg with the bottom player's own legs, so retention comes from bone-and-hip structure, not grips. Because there is no sleeve, collar, or pant grip to strip, the family is uniquely resistant to grip-breaking strategies and functions identically in gi and no-gi. The legs are structurally stronger than any arm-based retention, letting a lighter player control a heavier standing opponent. The hands are then freed to manage the trapped ankle or the opponent's free leg rather than being spent on primary retention.",
       "distractors": {
         "plausible": [
-          "X-Guard control comes primarily from strong pant and ankle grips, with the legs adding secondary off-balancing support.",
-          "The legs mainly create distance in X-Guard, while sleeve and collar grips provide the core retention that keeps the opponent trapped."
+          "Hand grips are the primary control",
+          "Only functions with gi grips"
         ],
         "trap": [
-          "Death-grip the opponent's pant or ankle with both hands, since hand grips will hold the guard even if the leg structure slips."
+          "Grip the sleeve for retention"
+        ]
+      },
+      "answer_line": "Bone structure, not grip strength"
+    },
+    {
+      "question": "What is the universal balance-breaking mechanism shared by all X-Guard variations?",
+      "answer": "Every variant removes one of the opponent's two posting bases, cutting their support structure roughly in half and destabilizing their standing platform. One of the bottom player's legs then acts as an elevating fulcrum placed beneath the opponent's center of gravity, lifting their weight off the compromised base. Because a person cannot post on a leg that has been isolated and elevated, they are forced to hop, step, or fall in the direction the bottom player dictates. This shared loss-of-base dynamic is what converts the guard's leg configuration into high-percentage off-balancing regardless of the specific hook arrangement.",
+      "answer_line": "Remove a base, elevate it",
+      "distractors": {
+        "plausible": [
+          "Push the opponent straight back",
+          "Grip break to off-balance them"
+        ],
+        "trap": [
+          "Muscle the leg off the mat"
         ]
       }
     },
     {
-      "question": "What is the universal balance-breaking mechanism shared by all X-Guard variations?",
-      "answer": "Every variant removes one of the opponent's two posting bases, cutting their support structure roughly in half and destabilizing their standing platform. One of the bottom player's legs then acts as an elevating fulcrum placed beneath the opponent's center of gravity, lifting their weight off the compromised base. Because a person cannot post on a leg that has been isolated and elevated, they are forced to hop, step, or fall in the direction the bottom player dictates. This shared loss-of-base dynamic is what converts the guard's leg configuration into high-percentage off-balancing regardless of the specific hook arrangement."
-    },
-    {
       "question": "Why must the bottom player keep their hips elevated off the mat in any X-Guard variant?",
-      "answer": "Elevated hips are what load tension into the leg configuration and transmit lifting force into the opponent's isolated leg. When the hips drop flat, the structure goes slack, the elevating fulcrum loses its upward drive, and the opponent can settle their weight down to smash and pass. Bridging the hips up keeps constant pressure on the opponent's compromised base and preserves the off-balancing threat. This active hip engagement is a shared prerequisite for both sweeps and clean transitions across all variations of the family."
+      "answer": "Elevated hips are what load tension into the leg configuration and transmit lifting force into the opponent's isolated leg. When the hips drop flat, the structure goes slack, the elevating fulcrum loses its upward drive, and the opponent can settle their weight down to smash and pass. Bridging the hips up keeps constant pressure on the opponent's compromised base and preserves the off-balancing threat. This active hip engagement is a shared prerequisite for both sweeps and clean transitions across all variations of the family.",
+      "answer_line": "Elevated hips load the lift",
+      "distractors": {
+        "plausible": [
+          "Flat hips save energy for later",
+          "Elevate hips only during sweeps"
+        ],
+        "trap": [
+          "Flatten hips to control weight"
+        ]
+      }
     },
     {
       "question": "What makes every X-Guard variant a dual threat rather than only a sweeping position?",
-      "answer": "Because the family already isolates and controls one of the opponent's legs, it sits directly at the mouth of the leg-entanglement game. When the opponent stands and defends the sweep, elevation off-balancing stays available; when they sit back or try to strip the leg free, that same isolated leg funnels naturally into ashi garami, single leg X, and related entries. This forces the opponent into a dilemma where addressing the sweep exposes the legs and defending the legs exposes their base. The shared threat of both sweeping to the top and entering lower-body attacks is what gives the whole family its strategic value."
+      "answer": "Because the family already isolates and controls one of the opponent's legs, it sits directly at the mouth of the leg-entanglement game. When the opponent stands and defends the sweep, elevation off-balancing stays available; when they sit back or try to strip the leg free, that same isolated leg funnels naturally into ashi garami, single leg X, and related entries. This forces the opponent into a dilemma where addressing the sweep exposes the legs and defending the legs exposes their base. The shared threat of both sweeping to the top and entering lower-body attacks is what gives the whole family its strategic value.",
+      "answer_line": "Threatens sweep and leg lock",
+      "distractors": {
+        "plausible": [
+          "It only ever sets up a sweep",
+          "It only leads to back takes"
+        ],
+        "trap": [
+          "Fixate only on the leg lock"
+        ]
+      }
     },
     {
       "question": "Why can an X-Guard player attack multiple off-balancing directions at once instead of a single sweep line?",
-      "answer": "Because the opponent's base is already compromised by the isolated leg, extending one leg while retracting the other lets the bottom player redirect force toward whichever side the opponent leaves unsupported. When the opponent commits weight to defend one direction, that commitment opens the opposite angle for the sweep. This is a distinct dilemma from the sweep-versus-leglock threat: here the opponent cannot solve every sweeping vector simultaneously, so each defensive weight shift creates the next opening. Stacking directional threats this way holds across every variant of the family."
+      "answer": "Because the opponent's base is already compromised by the isolated leg, extending one leg while retracting the other lets the bottom player redirect force toward whichever side the opponent leaves unsupported. When the opponent commits weight to defend one direction, that commitment opens the opposite angle for the sweep. This is a distinct dilemma from the sweep-versus-leglock threat: here the opponent cannot solve every sweeping vector simultaneously, so each defensive weight shift creates the next opening. Stacking directional threats this way holds across every variant of the family.",
+      "answer_line": "Extend one leg, retract other",
+      "distractors": {
+        "plausible": [
+          "Push straight in one direction",
+          "Pull hard to force the fall"
+        ],
+        "trap": [
+          "Commit all weight one direction"
+        ]
+      }
     },
     {
       "question": "Why is transitioning between guard variations a core survival skill for the X-Guard family?",
-      "answer": "The variants are not separate positions but an interconnected system where the opponent's escape from one exposes them to the next. When an opponent extracts the trapped leg and collapses the standard X, the bottom player flows to single leg X; when they circle to the far side, reverse X becomes available; when they smash forward, deep half or butterfly offers recovery. Treating the configuration as fixed lets the opponent pass during the collapse, whereas proactive transitioning preserves leg control through the change. This positional flow, rather than any single locked structure, is what makes the family so difficult to pass."
+      "answer": "The variants are not separate positions but an interconnected system where the opponent's escape from one exposes them to the next. When an opponent extracts the trapped leg and collapses the standard X, the bottom player flows to single leg X; when they circle to the far side, reverse X becomes available; when they smash forward, deep half or butterfly offers recovery. Treating the configuration as fixed lets the opponent pass during the collapse, whereas proactive transitioning preserves leg control through the change. This positional flow, rather than any single locked structure, is what makes the family so difficult to pass.",
+      "answer_line": "Flow as the opponent escapes",
+      "distractors": {
+        "plausible": [
+          "Hold the original X rigidly",
+          "Reset back to closed guard"
+        ],
+        "trap": [
+          "Release the leg to reset guard"
+        ]
+      }
     },
     {
       "question": "Why is muscular effort a mistake when finishing sweeps in the X-Guard family?",
-      "answer": "Sweeping power comes from directing the opponent's already-compromised balance downhill with hip elevation and angular leg pressure, not from muscling their body over. Once a posting base has been removed and the center of gravity lifted, only a small directional nudge is needed to topple them toward the unsupported side. Relying on strength instead of leverage burns energy, telegraphs the direction, and lets a heavier opponent simply base out against the force. The efficient approach in every variant is to break structure first with the legs and hips, then guide the falling weight rather than lift it."
+      "answer": "Sweeping power comes from directing the opponent's already-compromised balance downhill with hip elevation and angular leg pressure, not from muscling their body over. Once a posting base has been removed and the center of gravity lifted, only a small directional nudge is needed to topple them toward the unsupported side. Relying on strength instead of leverage burns energy, telegraphs the direction, and lets a heavier opponent simply base out against the force. The efficient approach in every variant is to break structure first with the legs and hips, then guide the falling weight rather than lift it.",
+      "answer_line": "Guide the fall, don't lift it",
+      "distractors": {
+        "plausible": [
+          "Muscle the sweep through fast",
+          "Grip strength powers the sweep"
+        ],
+        "trap": [
+          "Pull with the arms to finish"
+        ]
+      }
     }
   ],
   "flashcards_position": [
     {
       "question": "What leg configuration defines X-Guard and gives the position its name?",
-      "answer": "X-Guard is defined by the bottom player trapping one of a standing opponent's legs between both of their own legs in a crossing pattern. The inside leg hooks deeply behind the opponent's near knee to create elevation, while the outside leg extends across the opponent's hip or beltline to control distance. These two legs cross underneath and around the trapped leg, forming the characteristic 'X' shape from which the position takes its name. This dual-leg structure isolates one of the opponent's two posting bases, which is the mechanical foundation of everything the position does."
+      "answer": "X-Guard is defined by the bottom player trapping one of a standing opponent's legs between both of their own legs in a crossing pattern. The inside leg hooks deeply behind the opponent's near knee to create elevation, while the outside leg extends across the opponent's hip or beltline to control distance. These two legs cross underneath and around the trapped leg, forming the characteristic 'X' shape from which the position takes its name. This dual-leg structure isolates one of the opponent's two posting bases, which is the mechanical foundation of everything the position does.",
+      "answer_line": "Both legs cross one trapped leg",
+      "distractors": {
+        "plausible": [
+          "Both legs hook both thighs",
+          "One hook with no outside frame"
+        ],
+        "trap": [
+          "Grab the ankle with both hands"
+        ]
+      }
     },
     {
       "question": "Why is X-Guard considered a leg-based rather than a grip-based guard?",
-      "answer": "Unlike closed, spider, or De La Riva guard which lean heavily on sleeve, collar, or pant grips for retention, X-Guard derives nearly all of its control from structural leg placement and hip positioning. The inside hook and outside frame create off-balancing force through skeletal leverage rather than grip tension, so the position does not collapse when grips are stripped. Hand control on the trapped ankle or free leg reinforces the structure but is secondary to the legs. This makes X-Guard uniquely resistant to grip-breaking strategies and equally effective in gi and no-gi."
+      "answer": "Unlike closed, spider, or De La Riva guard which lean heavily on sleeve, collar, or pant grips for retention, X-Guard derives nearly all of its control from structural leg placement and hip positioning. The inside hook and outside frame create off-balancing force through skeletal leverage rather than grip tension, so the position does not collapse when grips are stripped. Hand control on the trapped ankle or free leg reinforces the structure but is secondary to the legs. This makes X-Guard uniquely resistant to grip-breaking strategies and equally effective in gi and no-gi.",
+      "answer_line": "Legs, not grips, give control",
+      "distractors": {
+        "plausible": [
+          "Sleeve and collar grips retain it",
+          "It fails without gi grips"
+        ],
+        "trap": [
+          "Depend on lapel grips to hold"
+        ]
+      }
     },
     {
       "question": "What three simultaneous mechanical forces make X-Guard function?",
-      "answer": "The position works by combining three forces that the standing player cannot address all at once. The inside hook behind the near knee generates upward elevation that lifts the opponent's base off the ground. The outside leg framing across the hip maintains distance and blocks forward or smashing pressure. The combined angular pressure of both legs working in opposition creates rotational control over the trapped leg. Because these forces act on different vectors at the same time, the standing player faces a dilemma where defending one threat exposes another."
+      "answer": "The position works by combining three forces that the standing player cannot address all at once. The inside hook behind the near knee generates upward elevation that lifts the opponent's base off the ground. The outside leg framing across the hip maintains distance and blocks forward or smashing pressure. The combined angular pressure of both legs working in opposition creates rotational control over the trapped leg. Because these forces act on different vectors at the same time, the standing player faces a dilemma where defending one threat exposes another.",
+      "answer_line": "Lift, frame, and rotate",
+      "distractors": {
+        "plausible": [
+          "Two hooks plus one grip",
+          "Push, pull, and squeeze"
+        ],
+        "trap": [
+          "Flatten hips and push forward"
+        ]
+      }
     },
     {
       "question": "Why is hip elevation off the mat essential to the X-Guard structure?",
-      "answer": "Keeping the hips lifted off the mat is what loads tension into the crossed-leg configuration and drives the elevating force through the inside hook. When the hips stay flat, the X collapses into a passive tangle of legs with no upward pressure, letting the standing player settle their weight and begin passing. Active hip elevation also keeps the bottom player's upper body oriented perpendicular to the trapped leg, which is the strongest sweeping angle. The position is therefore dynamic rather than static, requiring constant bridging to maintain the loaded spring underneath the opponent's center of gravity."
+      "answer": "Keeping the hips lifted off the mat is what loads tension into the crossed-leg configuration and drives the elevating force through the inside hook. When the hips stay flat, the X collapses into a passive tangle of legs with no upward pressure, letting the standing player settle their weight and begin passing. Active hip elevation also keeps the bottom player's upper body oriented perpendicular to the trapped leg, which is the strongest sweeping angle. The position is therefore dynamic rather than static, requiring constant bridging to maintain the loaded spring underneath the opponent's center of gravity.",
+      "answer_line": "Elevation loads the spring",
+      "distractors": {
+        "plausible": [
+          "Flat hips conserve energy",
+          "Hips only matter for sweeps"
+        ],
+        "trap": [
+          "Lay hips flat to smash down"
+        ]
+      }
     },
     {
       "question": "How does the depth of the inside hook behind the knee determine whether X-Guard holds?",
-      "answer": "The inside hook is the load-bearing element of the position, and its depth dictates security. The foot must drive past the opponent's knee joint until it clears the back of the knee, wrapping the thigh so the leg cannot simply be pulled straight out backward. A shallow hook that only catches the calf or shin lets the standing player step back and extract the leg, instantly breaking the X and its elevating leverage. A deep hook, by contrast, keeps that elevating leverage engaged and forces the opponent to deal with the structure rather than escaping it, which is why the depth of this hook is the single most important variable in whether the position survives."
+      "answer": "The inside hook is the load-bearing element of the position, and its depth dictates security. The foot must drive past the opponent's knee joint until it clears the back of the knee, wrapping the thigh so the leg cannot simply be pulled straight out backward. A shallow hook that only catches the calf or shin lets the standing player step back and extract the leg, instantly breaking the X and its elevating leverage. A deep hook, by contrast, keeps that elevating leverage engaged and forces the opponent to deal with the structure rather than escaping it, which is why the depth of this hook is the single most important variable in whether the position survives.",
+      "answer_line": "Hook must clear behind the knee",
+      "distractors": {
+        "plausible": [
+          "Shallow hook on the calf works",
+          "Hook depth doesn't matter much"
+        ],
+        "trap": [
+          "Hook the shin and pull back"
+        ]
+      }
     },
     {
       "question": "How does X-Guard differ from Single Leg X and Butterfly Guard, its closest neighbors?",
-      "answer": "All three are leg-based guards against a standing or posting opponent, but they differ in how the leg is trapped. Butterfly Guard uses hooks on the insides of both the opponent's thighs without isolating one leg, serving as a common entry into X-Guard. Single Leg X captures one leg with a lower configuration where both of the bottom player's legs wrap a single limb closer to the ankle, which is the natural follow-up when the X-Guard hook becomes shallow. Full X-Guard sits between them, using the deep behind-the-knee hook plus the crossing hip frame to isolate one leg high while keeping the opponent elevated."
+      "answer": "All three are leg-based guards against a standing or posting opponent, but they differ in how the leg is trapped. Butterfly Guard uses hooks on the insides of both the opponent's thighs without isolating one leg, serving as a common entry into X-Guard. Single Leg X captures one leg with a lower configuration where both of the bottom player's legs wrap a single limb closer to the ankle, which is the natural follow-up when the X-Guard hook becomes shallow. Full X-Guard sits between them, using the deep behind-the-knee hook plus the crossing hip frame to isolate one leg high while keeping the opponent elevated.",
+      "answer_line": "Deep knee hook plus hip frame",
+      "distractors": {
+        "plausible": [
+          "Same low hook as single leg X",
+          "Both hooks inside the thighs"
+        ],
+        "trap": [
+          "Release the hook to switch"
+        ]
+      }
     },
     {
       "question": "Why is X-Guard described as a dual-threat hub for both sweeps and leg entanglements?",
-      "answer": "The position simultaneously threatens two very different outcomes depending on how the standing player reacts. When the opponent keeps upright posture, the loaded elevation of the inside hook powers high-percentage sweeps that lift and topple them. When the opponent instead sits back or steps away to disengage from the sweep, their committed leg becomes exposed to entanglement entries such as ashi garami and the saddle, leading toward heel hooks and kneebars. Because escaping the sweep tends to feed the leg lock and defending the leg lock tends to feed the sweep, X-Guard functions as a branching hub rather than a single-purpose position."
+      "answer": "The position simultaneously threatens two very different outcomes depending on how the standing player reacts. When the opponent keeps upright posture, the loaded elevation of the inside hook powers high-percentage sweeps that lift and topple them. When the opponent instead sits back or steps away to disengage from the sweep, their committed leg becomes exposed to entanglement entries such as ashi garami and the saddle, leading toward heel hooks and kneebars. Because escaping the sweep tends to feed the leg lock and defending the leg lock tends to feed the sweep, X-Guard functions as a branching hub rather than a single-purpose position.",
+      "answer_line": "Sweep escape feeds leg entry",
+      "distractors": {
+        "plausible": [
+          "Sweeps only, no leg attacks",
+          "Leg locks only, no sweeping"
+        ],
+        "trap": [
+          "Let go of the leg to pass"
+        ]
+      }
     },
     {
       "question": "What role does controlling the opponent's trapped ankle or free leg play in the position?",
-      "answer": "Hand control on the trapped ankle or the opponent's free leg is the connective tissue that keeps the leg-based structure intact. Gripping the trapped ankle prevents the standing player from simply stepping backward to slide their leg out of the deep inside hook, sealing the primary escape. Reaching or controlling the free leg limits the opponent's ability to reestablish a second posting base and widens the off-balancing angles available. While the legs supply the elevating and framing power, these grips remove the opponent's easiest exits and let the bottom player dictate which sweep or entanglement direction opens up."
+      "answer": "Hand control on the trapped ankle or the opponent's free leg is the connective tissue that keeps the leg-based structure intact. Gripping the trapped ankle prevents the standing player from simply stepping backward to slide their leg out of the deep inside hook, sealing the primary escape. Reaching or controlling the free leg limits the opponent's ability to reestablish a second posting base and widens the off-balancing angles available. While the legs supply the elevating and framing power, these grips remove the opponent's easiest exits and let the bottom player dictate which sweep or entanglement direction opens up.",
+      "answer_line": "Grips seal off the escape route",
+      "distractors": {
+        "plausible": [
+          "Grips are the primary control",
+          "Only grip the far collar"
+        ],
+        "trap": [
+          "Release the ankle to attack arm"
+        ]
+      }
     }
   ],
   "clips": [

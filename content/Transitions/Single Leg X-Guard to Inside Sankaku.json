@@ -223,23 +223,73 @@
     "flashcards": [
       {
         "question": "Why must you break the opponent's base before spinning underneath to enter Inside Sankaku?",
-        "answer": "Breaking the base by elevating with your X-guard hook loads the opponent's weight onto the entangled leg and lightens their free foot, removing their ability to step out or stack you while you rotate. If you spin against a strong, settled base, the opponent simply bases out or flattens you and you lose both the entanglement and your single leg X-guard control. The off-balance is what creates the time window to reorganize your legs into the figure-four."
+        "answer": "Breaking the base by elevating with your X-guard hook loads the opponent's weight onto the entangled leg and lightens their free foot, removing their ability to step out or stack you while you rotate. If you spin against a strong, settled base, the opponent simply bases out or flattens you and you lose both the entanglement and your single leg X-guard control. The off-balance is what creates the time window to reorganize your legs into the figure-four.",
+        "answer_line": "Load weight off their free foot",
+        "distractors": {
+          "plausible": [
+            "Spin fast before they react",
+            "Control the far leg first"
+          ],
+          "trap": [
+            "Release grips to spin faster"
+          ]
+        }
       },
       {
         "question": "What two actions must happen simultaneously to convert single leg X-guard into the Inside Sankaku figure-four?",
-        "answer": "You must spin your hips underneath the captured leg and fold your outside leg up and over the opponent's thigh at the same time. Spinning without folding loses the leg because nothing traps the thigh, and folding without spinning leaves the heel safely outside your centerline so no inside heel hook is available. Coordinating both as one motion is the mechanical key to the entry, finished by crossing the outside leg under the inside leg to lock the figure-four."
+        "answer": "You must spin your hips underneath the captured leg and fold your outside leg up and over the opponent's thigh at the same time. Spinning without folding loses the leg because nothing traps the thigh, and folding without spinning leaves the heel safely outside your centerline so no inside heel hook is available. Coordinating both as one motion is the mechanical key to the entry, finished by crossing the outside leg under the inside leg to lock the figure-four.",
+        "answer_line": "Spin hips and fold leg together",
+        "distractors": {
+          "plausible": [
+            "Spin first, then fold leg over",
+            "Fold leg first, then spin hips"
+          ],
+          "trap": [
+            "Release ankle to fold faster"
+          ]
+        }
       },
       {
         "question": "Why should you keep a hand on the captured ankle throughout the spin?",
-        "answer": "During the spin you are changing your angle relative to the opponent's leg, which is exactly when their foot can rotate free if it is not controlled. Keeping at least one hand on the ankle ensures the foot travels with your body and stays inside the forming entanglement. If you release the ankle to free your hands, the opponent frequently rotates the foot out and the leg slips from the entanglement before you can lock the figure-four."
+        "answer": "During the spin you are changing your angle relative to the opponent's leg, which is exactly when their foot can rotate free if it is not controlled. Keeping at least one hand on the ankle ensures the foot travels with your body and stays inside the forming entanglement. If you release the ankle to free your hands, the opponent frequently rotates the foot out and the leg slips from the entanglement before you can lock the figure-four.",
+        "answer_line": "Keep hand on ankle the whole spin",
+        "distractors": {
+          "plausible": [
+            "Grip ankle only at the start",
+            "Switch grip to the knee mid-spin"
+          ],
+          "trap": [
+            "Let go of ankle to speed up spin"
+          ]
+        }
       },
       {
         "question": "The opponent rotates their knee outward to clear the knee line as you fold your leg over - what is the best branch?",
-        "answer": "Follow their rotation rather than fighting it. As they turn the knee out to clear the inside heel, they expose the outside heel, so switch your entanglement to Outside Ashi-Garami and attack the outside heel hook instead. If they keep turning past that, chain into Saddle. The principle is that the rotation defending one heel hook opens the other, so you redirect rather than force the original entry."
+        "answer": "Follow their rotation rather than fighting it. As they turn the knee out to clear the inside heel, they expose the outside heel, so switch your entanglement to Outside Ashi-Garami and attack the outside heel hook instead. If they keep turning past that, chain into Saddle. The principle is that the rotation defending one heel hook opens the other, so you redirect rather than force the original entry.",
+        "answer_line": "Switch to outside ashi, outside heel",
+        "distractors": {
+          "plausible": [
+            "Force the inside heel hook anyway",
+            "Abandon the leg and reset guard"
+          ],
+          "trap": [
+            "Chase the knee and lose grips"
+          ]
+        }
       },
       {
         "question": "What three control points confirm you have actually arrived in Inside Sankaku before you consider a finish?",
-        "answer": "First, hip-to-hip connection so the opponent cannot create extraction distance. Second, knee-line control with the figure-four crossed and your knees pinched so they cannot rotate out. Third, inside heel exposure with the opponent's heel rotated toward your centerline. Only when all three are present have you completed the entry; attacking the heel hook before they are established sacrifices position and creates an uncontrolled, dangerous submission attempt."
+        "answer": "First, hip-to-hip connection so the opponent cannot create extraction distance. Second, knee-line control with the figure-four crossed and your knees pinched so they cannot rotate out. Third, inside heel exposure with the opponent's heel rotated toward your centerline. Only when all three are present have you completed the entry; attacking the heel hook before they are established sacrifices position and creates an uncontrolled, dangerous submission attempt.",
+        "answer_line": "Hip-to-hip, knee-line, heel exposed",
+        "distractors": {
+          "plausible": [
+            "Heel exposed is enough to finish",
+            "Figure-four locked, hips can be far"
+          ],
+          "trap": [
+            "Attack heel before hips connect"
+          ]
+        }
       }
     ],
     "safety_considerations": "This entry leads directly into an inside heel hook position, one of the most dangerous submissions in grappling because it loads rotational force on the knee and ankle ligaments and offers almost no warning before catastrophic injury. Treat reaching Inside Sankaku as the goal of the transition and apply any heel hook only slowly, with full positional control, and to an immediate tap. Beginners should drill the positional entry without finishing. Confirm the ruleset permits inside heel hooks before training them, and communicate clearly with your partner about slow, controlled finishing throughout the entry.",
@@ -356,11 +406,31 @@
       },
       {
         "question": "What should you do when you feel the bottom player swinging their outside leg over your thigh?",
-        "answer": "Pull your captured knee toward your own center to deny the over-the-thigh fold, and rotate your heel away from their centerline so the inside heel hook angle never develops. The fold is what converts single leg X-guard into the locked figure-four, so denying it stalls the entry short of completion. Avoid turning toward the bottom player, which only feeds the entanglement and can deliver you into a tighter position like Saddle."
+        "answer": "Pull your captured knee toward your own center to deny the over-the-thigh fold, and rotate your heel away from their centerline so the inside heel hook angle never develops. The fold is what converts single leg X-guard into the locked figure-four, so denying it stalls the entry short of completion. Avoid turning toward the bottom player, which only feeds the entanglement and can deliver you into a tighter position like Saddle.",
+        "answer_line": "Pull knee in, turn heel away",
+        "distractors": {
+          "plausible": [
+            "Push away and try to stand up",
+            "Post the free foot and wait it out"
+          ],
+          "trap": [
+            "Turn toward them to face the fold"
+          ]
+        }
       },
       {
         "question": "Once the Inside Sankaku figure-four is fully locked and the bottom player grips your heel, what is the correct response?",
-        "answer": "Shift from escape to damage control: hide your heel tightly against your own hip and tap early. The inside heel hook applies rotational force to the knee and ankle ligaments and injures almost instantly with no warning, so there is no time to assess whether an escape is still possible mid-submission. Recognizing that the position is lost and tapping early is the correct, safe decision once a firm heel grip is established."
+        "answer": "Shift from escape to damage control: hide your heel tightly against your own hip and tap early. The inside heel hook applies rotational force to the knee and ankle ligaments and injures almost instantly with no warning, so there is no time to assess whether an escape is still possible mid-submission. Recognizing that the position is lost and tapping early is the correct, safe decision once a firm heel grip is established.",
+        "answer_line": "Hide heel, tap early",
+        "distractors": {
+          "plausible": [
+            "Try to spin out before it tightens",
+            "Push their hips away and posture"
+          ],
+          "trap": [
+            "Fight the grip and try to stand"
+          ]
+        }
       }
     ],
     "training_progressions": [

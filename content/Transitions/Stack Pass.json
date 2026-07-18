@@ -265,67 +265,140 @@
         "answer": "The stack pass folds the opponent's knees into their chest, lifting their hips off the mat and inverting their spine onto their shoulders. With their weight resting on their upper back, they lose the hip mobility needed to shrimp, frame, or generate the leg power required for guard retention. The vertical compression also restricts their breathing and core engagement, making sustained defense progressively more difficult.",
         "distractors": {
           "plausible": [
-            "The stack pass works by pinning the opponent's hips flat to the mat so they cannot shrimp or angle away from you.",
-            "The stack pass isolates one leg at a time and folds it across their body to clear a lane around the guard."
+            "Compress their chest and lungs",
+            "Flatten them out to control hips"
           ],
           "trap": [
-            "Create the stack by leaning back and lifting their legs skyward, using height instead of forward pressure to fold them."
+            "Push straight forward into guard"
+          ]
+        },
+        "answer_line": "Invert spine, kill hip mobility"
+      },
+      {
+        "question": "How should you adjust your passing direction based on the opponent's defensive reactions?",
+        "answer": "Always pass opposite to the direction the opponent turns their knees. If they turn their knees to their right (your left), you should pass to your right (their left). This uses their defensive momentum against them, as their turning action carries their legs away from your passing path rather than into it. Attempting to pass in the same direction they are turning forces you to fight against their momentum, making the pass significantly harder and lower percentage.",
+        "answer_line": "Pass opposite their knee turn",
+        "distractors": {
+          "plausible": [
+            "Pass same way they turn knees",
+            "Pass toward their strongest leg"
+          ],
+          "trap": [
+            "Force through their turning legs"
           ]
         }
       },
       {
-        "question": "How should you adjust your passing direction based on the opponent's defensive reactions?",
-        "answer": "Always pass opposite to the direction the opponent turns their knees. If they turn their knees to their right (your left), you should pass to your right (their left). This uses their defensive momentum against them, as their turning action carries their legs away from your passing path rather than into it. Attempting to pass in the same direction they are turning forces you to fight against their momentum, making the pass significantly harder and lower percentage."
-      },
-      {
         "question": "Your opponent secures a collar grip and starts pulling your head down as you initiate the stack - how do you respond?",
-        "answer": "First, do not continue driving forward with a compromised head position, as this feeds directly into a guillotine. Strip the collar grip immediately using a two-on-one grip break by grabbing their wrist with both hands and pushing toward their thumb while rotating away. Once freed, re-establish your passing grips and tuck your chin to the side before resuming forward pressure. If the grip is too deep, posture up fully to break their pulling angle before stripping, then re-initiate the stack with proper head placement on the passing side."
+        "answer": "First, do not continue driving forward with a compromised head position, as this feeds directly into a guillotine. Strip the collar grip immediately using a two-on-one grip break by grabbing their wrist with both hands and pushing toward their thumb while rotating away. Once freed, re-establish your passing grips and tuck your chin to the side before resuming forward pressure. If the grip is too deep, posture up fully to break their pulling angle before stripping, then re-initiate the stack with proper head placement on the passing side.",
+        "answer_line": "Strip grip, then resume stack",
+        "distractors": {
+          "plausible": [
+            "Power through, ignore the grip",
+            "Pull head up and drop level"
+          ],
+          "trap": [
+            "Drive forward despite collar pull"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window to initiate the stack pass?",
-        "answer": "The best timing window occurs immediately after you successfully break the guard open, before the opponent can transition to an active open guard system. At this moment, their legs have just separated and they are momentarily adjusting their defensive structure. Secondary timing windows include when the opponent reaches for a new grip (momentarily weakening their leg control), when they shift their hips to create an angle (creating a brief structural imbalance), or immediately after defending a sweep attempt when their legs are displaced from their optimal defensive position."
+        "answer": "The best timing window occurs immediately after you successfully break the guard open, before the opponent can transition to an active open guard system. At this moment, their legs have just separated and they are momentarily adjusting their defensive structure. Secondary timing windows include when the opponent reaches for a new grip (momentarily weakening their leg control), when they shift their hips to create an angle (creating a brief structural imbalance), or immediately after defending a sweep attempt when their legs are displaced from their optimal defensive position.",
+        "answer_line": "Right after guard breaks open",
+        "distractors": {
+          "plausible": [
+            "After opponent fully resets guard",
+            "Once they gain full grip control"
+          ],
+          "trap": [
+            "Wait for opponent to attack first"
+          ]
+        }
       },
       {
         "question": "What grip requirements are essential for a successful stack pass?",
         "answer": "A successful stack pass requires bilateral leg control — pants grips at the knee line or lower shins in gi, or cups behind the knees in no-gi. These grips must be maintained from the initial guard break through the stacking phase and leg clearing. Only after your hips have cleared past the opponent's legs can the passing-side grip transition to a collar or crossface grip. Releasing grips prematurely is the single most common reason the pass fails, as even momentary loss of leg control allows guard recomposition.",
         "distractors": {
           "plausible": [
-            "Grip both ankles firmly, since controlling the feet is what prevents the opponent from re-guarding during the stack.",
-            "One strong grip on the near pant leg is enough, leaving your other hand free to post on the mat for base."
+            "Single knee grip, switch mid-pass",
+            "Collar grip before legs cleared"
           ],
           "trap": [
-            "Release the leg grips as soon as your forward drive begins so both hands can hunt for the collar and crossface early."
+            "Release grips to speed up pass"
+          ]
+        },
+        "answer_line": "Bilateral leg control, hold tight"
+      },
+      {
+        "question": "What is the critical direction of force during the stacking phase?",
+        "answer": "The primary force vector must be vertical and downward through the opponent's center line toward their shoulders, not horizontally forward into their guard. Think of driving their knees toward the mat behind their head rather than pushing into their chest. This vertical compression inverts their spine and places their weight on their upper back, which is the mechanical position that eliminates their hip mobility. Horizontal pushing merely drives into their strongest defensive structure without creating the positional disadvantage needed for the pass.",
+        "answer_line": "Vertical, down toward shoulders",
+        "distractors": {
+          "plausible": [
+            "Horizontal drive into their chest",
+            "Diagonal push toward far hip"
+          ],
+          "trap": [
+            "Push straight forward through hips"
           ]
         }
       },
       {
-        "question": "What is the critical direction of force during the stacking phase?",
-        "answer": "The primary force vector must be vertical and downward through the opponent's center line toward their shoulders, not horizontally forward into their guard. Think of driving their knees toward the mat behind their head rather than pushing into their chest. This vertical compression inverts their spine and places their weight on their upper back, which is the mechanical position that eliminates their hip mobility. Horizontal pushing merely drives into their strongest defensive structure without creating the positional disadvantage needed for the pass."
-      },
-      {
         "question": "Your opponent begins a Granby roll as you reach full stack depth - what is your response?",
-        "answer": "Do not release your grips or fight against their rolling momentum. Instead, follow their inversion while maintaining tight control of their legs. As they roll, use their momentum to advance past their legs since their roll actually carries their defensive structure away from you. If they roll toward your passing side, immediately secure side control as their legs clear. If they roll away, follow to the opposite side or transition to back control as their turtle position becomes exposed. The key is staying connected and advancing rather than resetting."
+        "answer": "Do not release your grips or fight against their rolling momentum. Instead, follow their inversion while maintaining tight control of their legs. As they roll, use their momentum to advance past their legs since their roll actually carries their defensive structure away from you. If they roll toward your passing side, immediately secure side control as their legs clear. If they roll away, follow to the opposite side or transition to back control as their turtle position becomes exposed. The key is staying connected and advancing rather than resetting.",
+        "answer_line": "Follow roll, keep leg control",
+        "distractors": {
+          "plausible": [
+            "Release grips, reset position",
+            "Stop and repost to rebuild base"
+          ],
+          "trap": [
+            "Fight the roll, hold ground"
+          ]
+        }
       },
       {
         "question": "How does the stack pass create chain passing opportunities when the initial attempt is defended?",
-        "answer": "The stacking pressure forces specific defensive reactions that each open different passing lanes. When the opponent widens their knees to prevent being stacked, it creates space for knee slice or leg drag entries. When they turn to one side to escape the stack, it sets up toreando passes on the opposite side. If they frame aggressively on your hips, their arms are occupied and cannot defend against collar or wrist control that enables other passes. Even a failed stack attempt that generates forward pressure keeps the opponent reactive, which maintains your initiative for the next passing attempt in the chain."
+        "answer": "The stacking pressure forces specific defensive reactions that each open different passing lanes. When the opponent widens their knees to prevent being stacked, it creates space for knee slice or leg drag entries. When they turn to one side to escape the stack, it sets up toreando passes on the opposite side. If they frame aggressively on your hips, their arms are occupied and cannot defend against collar or wrist control that enables other passes. Even a failed stack attempt that generates forward pressure keeps the opponent reactive, which maintains your initiative for the next passing attempt in the chain.",
+        "answer_line": "Reactions open knee slice, drag",
+        "distractors": {
+          "plausible": [
+            "Always finish with same pass",
+            "Wait for guard to fully reset"
+          ],
+          "trap": [
+            "Abandon pressure after first fail"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you can realistically attempt the stack pass?",
-        "answer": "The guard must be open or in the process of being broken, you must have bilateral control of the opponent's legs through pants grips or behind-the-knee cups, your posture must be upright with a stable base, and your head must be positioned to the passing side with chin tucked before initiating the forward drive. Attempting the stack with the guard still fully closed results in the opponent simply re-closing and controlling your posture. Attempting without proper grips means you cannot direct the leg position needed for the stack. Attempting with compromised posture invites immediate guillotine or sweep counters."
+        "answer": "The guard must be open or in the process of being broken, you must have bilateral control of the opponent's legs through pants grips or behind-the-knee cups, your posture must be upright with a stable base, and your head must be positioned to the passing side with chin tucked before initiating the forward drive. Attempting the stack with the guard still fully closed results in the opponent simply re-closing and controlling your posture. Attempting without proper grips means you cannot direct the leg position needed for the stack. Attempting with compromised posture invites immediate guillotine or sweep counters.",
+        "answer_line": "Open guard, grips, posture, head",
+        "distractors": {
+          "plausible": [
+            "Closed guard with strong grips",
+            "Any grip with upright posture"
+          ],
+          "trap": [
+            "Drive forward with no grips set"
+          ]
+        }
       },
       {
         "question": "Your opponent attempts a triangle from the stacked position by controlling your arm - how do you prevent and counter this?",
         "answer": "Prevent the triangle by keeping both arms inside the opponent's legs or posted wide with elbows flared — never one arm in and one out. If they begin closing the triangle angle, immediately stack even harder, driving your weight forward and down to compress their locking mechanism so the triangle cannot close tightly, and use your free hand to push on their locking ankle to break the closure. Maintained stacking pressure during the triangle defense can actually accelerate the pass if you keep your composure and continue working the stack while defending.",
         "distractors": {
           "plausible": [
-            "If the triangle starts closing, pull back and posture up immediately to yank your trapped arm free of their legs.",
-            "Push on their top knee rather than the ankle to open the lock, since the knee is the stronger lever to attack."
+            "One arm in, post the other wide",
+            "Pull the locked leg away fast"
           ],
           "trap": [
-            "Abandon the stack and sit back to pull your head out, creating the space you need to slip free of the triangle."
+            "Leave an arm outside their legs"
           ]
-        }
+        },
+        "answer_line": "Both arms in, stack harder"
       }
     ],
     "safety_considerations": "The stack pass places significant pressure on the opponent's neck, cervical spine, and lower back due to the spinal inversion created by the stacking action. Always apply pressure gradually and be aware of your partner's flexibility limitations, particularly in their hamstrings and lower back. Beginners should avoid excessive stacking that drives the opponent's knees too far toward their face, as this can cause neck compression injuries or aggravate existing spinal conditions. When practicing, communicate with your partner about pressure levels and stop immediately if they tap or show signs of discomfort. Be especially cautious with partners who have neck, back, or shoulder injuries. The passer should also be aware that poor head position during the forward drive can result in neck strain from guillotine pressure, and should never jerk their head violently to escape a guillotine grip.",
@@ -440,23 +513,73 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a stack pass is being initiated?",
-        "answer": "The earliest cue is when the top player secures bilateral grips on your pants at the knees or behind your calves while maintaining upright posture. This grip establishment is the prerequisite for the stack, and defending at this stage by stripping grips and re-establishing your own control is far more effective than defending once forward pressure has begun. Secondary cues include the passer standing up in base or shifting their weight onto the balls of their feet."
+        "answer": "The earliest cue is when the top player secures bilateral grips on your pants at the knees or behind your calves while maintaining upright posture. This grip establishment is the prerequisite for the stack, and defending at this stage by stripping grips and re-establishing your own control is far more effective than defending once forward pressure has begun. Secondary cues include the passer standing up in base or shifting their weight onto the balls of their feet.",
+        "answer_line": "Bilateral knee grips, upright",
+        "distractors": {
+          "plausible": [
+            "Forward pressure on the hips",
+            "Passer switches to cross grip"
+          ],
+          "trap": [
+            "Wait until stack fully lifts"
+          ]
+        }
       },
       {
         "question": "Why is early hip movement more effective than late hip movement when defending the stack?",
-        "answer": "Early hip movement works because your hips are still on the mat with full range of motion and your spine is in a neutral position that allows powerful shrimping. Once the stack elevates your hips and inverts your spine, the same shrimping motion becomes mechanically impossible because your weight is on your shoulders, your core is compressed, and your legs cannot generate the lateral force needed to move your hips. The defensive window closes progressively as the stack deepens, making each second of delay exponentially more costly."
+        "answer": "Early hip movement works because your hips are still on the mat with full range of motion and your spine is in a neutral position that allows powerful shrimping. Once the stack elevates your hips and inverts your spine, the same shrimping motion becomes mechanically impossible because your weight is on your shoulders, your core is compressed, and your legs cannot generate the lateral force needed to move your hips. The defensive window closes progressively as the stack deepens, making each second of delay exponentially more costly.",
+        "answer_line": "Hips free early, locked once stacked",
+        "distractors": {
+          "plausible": [
+            "Shrimp harder once fully stacked",
+            "Wait for stack to peak, then move"
+          ],
+          "trap": [
+            "Save energy, move hips late"
+          ]
+        }
       },
       {
         "question": "Your opponent has you fully stacked with your knees near your ears - what is your best remaining defensive option?",
-        "answer": "At full stack depth, your best option is a dynamic escape through Granby roll or inversion rather than fighting the pressure statically. Turn to one side and use the momentum of your elevated hips to roll through, aiming to recover guard on the opposite side or transition to turtle. You can also attempt to walk your shoulders backward on the mat to gradually reduce the stack angle. Threatening a guillotine or triangle during the roll can slow the passer's follow-through and create the space needed to complete the inversion."
+        "answer": "At full stack depth, your best option is a dynamic escape through Granby roll or inversion rather than fighting the pressure statically. Turn to one side and use the momentum of your elevated hips to roll through, aiming to recover guard on the opposite side or transition to turtle. You can also attempt to walk your shoulders backward on the mat to gradually reduce the stack angle. Threatening a guillotine or triangle during the roll can slow the passer's follow-through and create the space needed to complete the inversion.",
+        "answer_line": "Granby roll through, don't fight",
+        "distractors": {
+          "plausible": [
+            "Brace and push straight back",
+            "Wait for pressure to ease off"
+          ],
+          "trap": [
+            "Fight pressure statically, hold"
+          ]
+        }
       },
       {
         "question": "How should you use the guillotine threat defensively without overcommitting?",
-        "answer": "The guillotine should be used primarily as a deterrent that forces the passer to address their head position before continuing the stack. Reach for the neck with your lead hand as they drive forward, making them redirect their head to the side and slow their advance. If you get a shallow grip, use it to stall their forward progress while your other hand frames on their hip and your hips create an angle. Only fully commit both hands to the guillotine if you achieve a deep grip with the blade of your forearm across their throat and can close your guard around their body to complete the submission."
+        "answer": "The guillotine should be used primarily as a deterrent that forces the passer to address their head position before continuing the stack. Reach for the neck with your lead hand as they drive forward, making them redirect their head to the side and slow their advance. If you get a shallow grip, use it to stall their forward progress while your other hand frames on their hip and your hips create an angle. Only fully commit both hands to the guillotine if you achieve a deep grip with the blade of your forearm across their throat and can close your guard around their body to complete the submission.",
+        "answer_line": "Shallow grip to stall, don't commit",
+        "distractors": {
+          "plausible": [
+            "Commit both hands immediately",
+            "Ignore neck, focus on hips only"
+          ],
+          "trap": [
+            "Release guard to sink guillotine"
+          ]
+        }
       },
       {
         "question": "What defensive frame structure is most effective against the initial stacking pressure?",
-        "answer": "The most effective frame uses both forearms positioned against the passer's hip bones and lower abdomen, with elbows kept tight to your own ribs. This creates a structural bridge that redirects their forward drive upward and off your center line rather than absorbing it through your torso. Your forearms should be angled slightly outward so the pressure is distributed across the bone rather than collapsing inward. Combined with lateral hip movement, this frame creates enough space and angular disruption to prevent the stack from reaching full depth."
+        "answer": "The most effective frame uses both forearms positioned against the passer's hip bones and lower abdomen, with elbows kept tight to your own ribs. This creates a structural bridge that redirects their forward drive upward and off your center line rather than absorbing it through your torso. Your forearms should be angled slightly outward so the pressure is distributed across the bone rather than collapsing inward. Combined with lateral hip movement, this frame creates enough space and angular disruption to prevent the stack from reaching full depth.",
+        "answer_line": "Forearms on hips, elbows tight",
+        "distractors": {
+          "plausible": [
+            "Palms flat on chest, arms wide",
+            "Forearms on shoulders, push up"
+          ],
+          "trap": [
+            "Arms wide open, no frame contact"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -258,79 +258,143 @@
     "flashcards": [
       {
         "question": "Why must you establish strong posture before attempting to open closed guard?",
-        "answer": "Strong posture with a straight spine and elevated head is essential because it prevents the opponent from breaking you down to sweep or submit you. Without proper posture, you cannot generate the leverage needed to open the guard, and you become vulnerable to triangles, omoplatas, and sweeps. Posture creates the structural foundation that allows your hips and legs to generate opening pressure safely rather than fighting from a compromised position."
+        "answer": "Strong posture with a straight spine and elevated head is essential because it prevents the opponent from breaking you down to sweep or submit you. Without proper posture, you cannot generate the leverage needed to open the guard, and you become vulnerable to triangles, omoplatas, and sweeps. Posture creates the structural foundation that allows your hips and legs to generate opening pressure safely rather than fighting from a compromised position.",
+        "answer_line": "Posture first, then open",
+        "distractors": {
+          "plausible": [
+            "Grip fight before posture",
+            "Rush the opening"
+          ],
+          "trap": [
+            "Lean forward to open guard"
+          ]
+        }
       },
       {
         "question": "Your opponent has a deep cross-collar grip and is starting to pull your head down - what do you do before attempting any guard opening?",
-        "answer": "Address the collar grip immediately before any opening attempt. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away from the grip. Once freed, immediately control their sleeve to prevent re-gripping. Then re-establish your posture by driving your chest forward and hips back before resuming the opening sequence. Never attempt to open the guard while an opponent has a deep collar grip."
+        "answer": "Address the collar grip immediately before any opening attempt. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away from the grip. Once freed, immediately control their sleeve to prevent re-gripping. Then re-establish your posture by driving your chest forward and hips back before resuming the opening sequence. Never attempt to open the guard while an opponent has a deep collar grip.",
+        "answer_line": "Break grip, then re-posture",
+        "distractors": {
+          "plausible": [
+            "Push posture through grip",
+            "Grab pants and stand up"
+          ],
+          "trap": [
+            "Stand up while still gripped"
+          ]
+        }
       },
       {
         "question": "What are the three main grip strategies for opening closed guard and when should each be used?",
         "answer": "The three main grips are both hands on the pants near the knees, one hand on belt with one on knee, and cross-collar with knee control. Double pants grips at the knees are the most common, providing the best control for standing breaks and direct leg manipulation. The belt-and-knee grip suits the combat base opening, offering superior hip control and wedge pressure. The cross-collar with knee control is gi-specific and works well against grip-dependent opponents, since the collar controls their posture as you stand. Choose based on your preferred opening method and the opponent's guard style.",
         "distractors": {
           "plausible": [
-            "The three main grips are double sleeve grips, one hand on belt with one on the ankle, and cross-collar with sleeve control for the gi.",
-            "The three main grips are both hands on the ankles at the lock, two-on-one sleeve control, and a single lapel grip for combat base."
+            "Belt-knee for standing break",
+            "Collar grip for combat base"
           ],
           "trap": [
-            "Reach both hands back behind you to pry the crossed ankles apart at the lock before you stand up."
+            "Single wrist grip only"
           ]
-        }
+        },
+        "answer_line": "Double pants grip most common"
       },
       {
         "question": "You feel your opponent's ankles start to unlock during your standing break - what is the critical next action?",
         "answer": "The instant the ankles separate, immediately redirect one of their legs across their body with your grip while stepping your hips back. Maintain the other leg's position and do not pause to celebrate or reassess. Your grips should already be positioned on their pants at the knees so this redirection is instantaneous — push their top knee across their centerline as your hips move back. Any hesitation allows re-closing. Flow directly into your passing grip configuration and begin your chosen pass in one continuous motion.",
         "distractors": {
           "plausible": [
-            "The instant the ankles separate, step back to create space and reassess the position before choosing your pass.",
-            "The instant the ankles separate, push both of their knees flat to the mat and settle your weight before passing."
+            "Pause to reset your grips",
+            "Step back and re-grip pants"
           ],
           "trap": [
-            "The instant the ankles separate, dive your chest forward between their open legs to smother them before they react."
+            "Wait for both ankles to open"
+          ]
+        },
+        "answer_line": "Redirect leg, hips back now"
+      },
+      {
+        "question": "How do you defend against an elevator sweep attempt during standing guard break?",
+        "answer": "If opponent hooks your leg during standing guard break, immediately shift your weight toward the hooked leg side and base out with your hands if needed. Do not try to stand on the hooked leg or fight the hook with the hooked leg. Step your free leg out wide for better base, use your grip to strip their hooking leg by pushing their ankle off, then continue the opening sequence from a wider stance. The key is recognizing the sweep early through the sensation of their foot hooking your inner thigh and adjusting your base before they can generate lifting force.",
+        "answer_line": "Shift weight to hooked leg",
+        "distractors": {
+          "plausible": [
+            "Stand harder on hooked leg",
+            "Pull hooked leg straight up"
+          ],
+          "trap": [
+            "Fight the hook with that leg"
           ]
         }
       },
       {
-        "question": "How do you defend against an elevator sweep attempt during standing guard break?",
-        "answer": "If opponent hooks your leg during standing guard break, immediately shift your weight toward the hooked leg side and base out with your hands if needed. Do not try to stand on the hooked leg or fight the hook with the hooked leg. Step your free leg out wide for better base, use your grip to strip their hooking leg by pushing their ankle off, then continue the opening sequence from a wider stance. The key is recognizing the sweep early through the sensation of their foot hooking your inner thigh and adjusting your base before they can generate lifting force."
-      },
-      {
         "question": "Your opponent is significantly stronger than you and you cannot muscle their guard open - what mechanical adjustments increase your leverage?",
-        "answer": "Switch from arm-based pulling to hip-based opening mechanics. In the standing break, ensure your hips drive forward as the primary force while your arms merely hold position on their knees - your hip extensors generate far more force than your arm flexors. In combat base, use your posted knee as a wedge driven by your entire body weight sitting back, not arm pulling. Additionally, consider the log splitter variation where you isolate one knee with a two-on-one grip and turn your hips to apply rotational force. Leverage always defeats strength when mechanics are correct."
+        "answer": "Switch from arm-based pulling to hip-based opening mechanics. In the standing break, ensure your hips drive forward as the primary force while your arms merely hold position on their knees - your hip extensors generate far more force than your arm flexors. In combat base, use your posted knee as a wedge driven by your entire body weight sitting back, not arm pulling. Additionally, consider the log splitter variation where you isolate one knee with a two-on-one grip and turn your hips to apply rotational force. Leverage always defeats strength when mechanics are correct.",
+        "answer_line": "Drive with hips, not arms",
+        "distractors": {
+          "plausible": [
+            "Pull harder with your arms",
+            "Use back strength to yank"
+          ],
+          "trap": [
+            "Grip and yank pants upward"
+          ]
+        }
       },
       {
         "question": "What is the most critical difference between the standing guard break and the combat base opening in terms of risk and reward?",
-        "answer": "The standing guard break offers higher success rate and maximum leverage because full hip extension creates the most distance and opening force, but it carries higher sweep risk because your base is elevated and narrow during the stand-up transition. The combat base opening is lower risk because one knee remains grounded providing constant stability against sweeps, but it generates less opening pressure and gives the opponent more time to adjust. Choose standing when you have good grip control and the opponent is not sweep-oriented. Choose combat base when facing aggressive sweepers or when you need to conserve energy."
+        "answer": "The standing guard break offers higher success rate and maximum leverage because full hip extension creates the most distance and opening force, but it carries higher sweep risk because your base is elevated and narrow during the stand-up transition. The combat base opening is lower risk because one knee remains grounded providing constant stability against sweeps, but it generates less opening pressure and gives the opponent more time to adjust. Choose standing when you have good grip control and the opponent is not sweep-oriented. Choose combat base when facing aggressive sweepers or when you need to conserve energy.",
+        "answer_line": "Standing: strong but risky",
+        "distractors": {
+          "plausible": [
+            "Combat base has more power",
+            "Standing is always safer"
+          ],
+          "trap": [
+            "Combat base risks more sweeps"
+          ]
+        }
       },
       {
         "question": "Explain why the opening and passing should be one continuous movement rather than separate techniques?",
         "answer": "Opening and passing must be one continuous motion because any pause after the open lets the opponent re-close guard or build open guard retention. Given time, they establish frames, hooks, and grips. The moment the ankles unlock, you must already be transitioning to knee slice, toreando, or your chosen pass, which requires having your passing strategy planned before you even open the guard. The transition should feel like one flowing movement where the opening mechanics naturally feed into passing mechanics without a reset point.",
         "distractors": {
           "plausible": [
-            "Open the guard first, then take a brief pause to read the opponent's reaction before committing to a specific pass.",
-            "They stay connected mainly to conserve energy; a short reset between opening and passing is fine if your grips are strong."
+            "Speed impresses the ref",
+            "Separate steps save energy"
           ],
           "trap": [
-            "Once the ankles unlock the hard part is done, so release your grips and reset your posture before starting the pass."
+            "Stop to check your grips first"
           ]
-        }
+        },
+        "answer_line": "Pause lets guard re-close"
       },
       {
         "question": "Your opponent opens their guard voluntarily as you begin standing - what trap should you be aware of?",
         "answer": "A voluntary opening usually means the opponent wants their preferred open guard or a sweep setup, so control their legs immediately. They are typically transitioning to spider guard, lasso guard, or de la riva, or preparing a sweep like the sickle sweep or tripod sweep that requires open legs. Do not assume a voluntary opening means success — control both of their legs at the knees or ankles before they can establish hooks or grips. Close distance quickly with heavy passing pressure or establish your own grip dominance. Treat a voluntary opening with the same urgency as a forced one.",
         "distractors": {
           "plausible": [
-            "A voluntary opening usually signals fatigue, so keep your current pace and pass toward the side they opened.",
-            "Treat a voluntary opening as a stall and back away to reset at distance before you engage the pass."
+            "Assume guard pass is won",
+            "Relax grip pressure now"
           ],
           "trap": [
-            "A voluntary opening means your posture broke their guard, so drop your chest between their legs to celebrate the win with pressure."
+            "Let go and pass slowly"
           ]
-        }
+        },
+        "answer_line": "Control legs, they want open guard"
       },
       {
         "question": "How should you use your hips and legs rather than arm strength to generate guard opening force?",
-        "answer": "Opening the guard should be driven by hip and leg movement, not arm pulling. In the standing break, your hips drive forward while your legs provide the platform and stability - your arms merely hold position on the pants. The opening force comes from hip extension, the strongest movement your body produces. In the combat base opening, your posted leg drives forward like a wedge while your hips sit back for leverage, creating opposing forces through your skeleton. Your arms control position and prevent re-closing, but the actual opening force comes from the much stronger hip and leg muscles moving in opposition to create mechanical advantage."
+        "answer": "Opening the guard should be driven by hip and leg movement, not arm pulling. In the standing break, your hips drive forward while your legs provide the platform and stability - your arms merely hold position on the pants. The opening force comes from hip extension, the strongest movement your body produces. In the combat base opening, your posted leg drives forward like a wedge while your hips sit back for leverage, creating opposing forces through your skeleton. Your arms control position and prevent re-closing, but the actual opening force comes from the much stronger hip and leg muscles moving in opposition to create mechanical advantage.",
+        "answer_line": "Hip extension drives the open",
+        "distractors": {
+          "plausible": [
+            "Arms pull, legs just stand",
+            "Shoulders provide the force"
+          ],
+          "trap": [
+            "Yank pants with arm strength"
+          ]
+        }
       }
     ],
     "safety_considerations": "Guard opening requires careful attention to safety for both practitioners. The person opening must avoid explosive or jerking movements that could injure the opponent's knees, hips, or ankles - apply opening pressure gradually and release immediately if partner taps or signals discomfort. Never twist the opponent's legs laterally during opening as this stresses the knee joint. The person in guard must unlock ankles when proper opening pressure is applied to prevent knee or ankle injuries from resisting mechanically sound opening techniques. Both practitioners should communicate clearly during learning phases. Avoid cranking or forcing the opening with pure strength, which increases injury risk for both parties. When standing, be aware of your partner's hips leaving the mat to prevent dropping them dangerously. Practice on appropriate mat surfaces to prevent injury if balance is lost during standing breaks. Start with cooperative drilling at slow speed before progressing to resistance.",
@@ -453,23 +517,73 @@
     "flashcards": [
       {
         "question": "What is your primary defensive priority when you feel the opponent beginning to establish upright posture inside your closed guard?",
-        "answer": "Your primary priority is breaking their posture immediately before they can complete the postural setup. Establish a deep cross-collar grip and combine it with aggressive heel pressure pulling their lower back toward you. Simultaneously pull their head and shoulders forward with your grip. The goal is to curl them back down before they achieve the upright spine alignment that enables opening mechanics. Acting within the first two seconds of their posture attempt is critical because once established, strong posture becomes progressively harder to break."
+        "answer": "Your primary priority is breaking their posture immediately before they can complete the postural setup. Establish a deep cross-collar grip and combine it with aggressive heel pressure pulling their lower back toward you. Simultaneously pull their head and shoulders forward with your grip. The goal is to curl them back down before they achieve the upright spine alignment that enables opening mechanics. Acting within the first two seconds of their posture attempt is critical because once established, strong posture becomes progressively harder to break.",
+        "answer_line": "Break posture immediately",
+        "distractors": {
+          "plausible": [
+            "Wait for full posture first",
+            "Push their hips away"
+          ],
+          "trap": [
+            "Let them posture, then sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent has established strong posture and is reaching for your pants - what sweep opportunity does this create?",
-        "answer": "When the opponent reaches both hands toward your legs, their upper body weight shifts backward and their posting ability is eliminated because their hands are committed low. This creates the perfect timing for a hip bump sweep. Sit up explosively toward their chest while controlling one of their wrists, driving your hip into their centerline. They cannot post because their hands are reaching for your legs. Even if the sweep does not complete, it forces them to abandon the grip attempt and reset their base, buying you time to re-break their posture."
+        "answer": "When the opponent reaches both hands toward your legs, their upper body weight shifts backward and their posting ability is eliminated because their hands are committed low. This creates the perfect timing for a hip bump sweep. Sit up explosively toward their chest while controlling one of their wrists, driving your hip into their centerline. They cannot post because their hands are reaching for your legs. Even if the sweep does not complete, it forces them to abandon the grip attempt and reset their base, buying you time to re-break their posture.",
+        "answer_line": "Hip bump sweep now",
+        "distractors": {
+          "plausible": [
+            "Triangle the trapped arm",
+            "Push their hands away"
+          ],
+          "trap": [
+            "Release guard and scramble"
+          ]
+        }
       },
       {
         "question": "How should you adjust your defense when the opponent transitions from combat base to a full standing guard break?",
-        "answer": "As they stand, your defensive strategy must shift from posture breaking to sweep threats and grip control. Grab both of their sleeves or wrists immediately to control their arms. Uncross your ankles and place your feet on their hips to maintain connection while they are elevated. From here, threaten elevator sweeps by hooking one leg, lumberjack sweeps by pulling both sleeves and kicking their legs, or transition to collar-sleeve open guard. The standing position gives them more opening leverage but also makes them more vulnerable to sweeps because their base is elevated."
+        "answer": "As they stand, your defensive strategy must shift from posture breaking to sweep threats and grip control. Grab both of their sleeves or wrists immediately to control their arms. Uncross your ankles and place your feet on their hips to maintain connection while they are elevated. From here, threaten elevator sweeps by hooking one leg, lumberjack sweeps by pulling both sleeves and kicking their legs, or transition to collar-sleeve open guard. The standing position gives them more opening leverage but also makes them more vulnerable to sweeps because their base is elevated.",
+        "answer_line": "Shift to sweeps and grips",
+        "distractors": {
+          "plausible": [
+            "Keep attacking their posture",
+            "Cross your ankles tighter"
+          ],
+          "trap": [
+            "Let go of all grips now"
+          ]
+        }
       },
       {
         "question": "When is it correct to voluntarily open your guard rather than fighting to maintain closure?",
-        "answer": "Voluntarily open your guard when the opponent has established dominant opening grips, strong posture, and mechanical advantage that makes continued closure energy-wasteful and inevitable to fail. Also open voluntarily when you want to transition to a specific open guard system that offers better offensive opportunities against their passing style - for example, transitioning to de la riva against a standing opponent or spider guard against a kneeling opponent. The key is that the transition must be on your terms with grips already planned, not a desperate last moment scramble when your ankles are forced apart."
+        "answer": "Voluntarily open your guard when the opponent has established dominant opening grips, strong posture, and mechanical advantage that makes continued closure energy-wasteful and inevitable to fail. Also open voluntarily when you want to transition to a specific open guard system that offers better offensive opportunities against their passing style - for example, transitioning to de la riva against a standing opponent or spider guard against a kneeling opponent. The key is that the transition must be on your terms with grips already planned, not a desperate last moment scramble when your ankles are forced apart.",
+        "answer_line": "When outmatched, on your terms",
+        "distractors": {
+          "plausible": [
+            "Never open voluntarily",
+            "Open whenever tired"
+          ],
+          "trap": [
+            "Open in a last-second scramble"
+          ]
+        }
       },
       {
         "question": "What grip combination gives you the best chance of preventing a standing guard break?",
-        "answer": "A deep cross-collar grip combined with a same-side sleeve grip on their far arm provides the strongest prevention against standing breaks. The collar grip controls their posture and prevents them from fully extending upright. The sleeve grip denies them the pant grip they need on that side for the standing break. This combination allows you to break their posture, threaten triangles if they isolate the gripped arm, and set up hip bump sweeps when they attempt to create distance. Without both grips, they can work around single-grip defense."
+        "answer": "A deep cross-collar grip combined with a same-side sleeve grip on their far arm provides the strongest prevention against standing breaks. The collar grip controls their posture and prevents them from fully extending upright. The sleeve grip denies them the pant grip they need on that side for the standing break. This combination allows you to break their posture, threaten triangles if they isolate the gripped arm, and set up hip bump sweeps when they attempt to create distance. Without both grips, they can work around single-grip defense.",
+        "answer_line": "Collar grip plus sleeve grip",
+        "distractors": {
+          "plausible": [
+            "Both hands on both sleeves",
+            "Collar grip plus belt grip"
+          ],
+          "trap": [
+            "Grip only their far pant leg"
+          ]
+        }
       }
     ],
     "training_progressions": [

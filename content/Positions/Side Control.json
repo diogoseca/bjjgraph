@@ -856,46 +856,98 @@
       "answer": "All side control variants share a perpendicular chest-to-chest alignment past the legs, taking the opponent's guard entirely out of play. This perpendicular relationship maximizes control surface area while denying the bottom player the hip and leg leverage they would have in any guard. Because the legs are neutralized, the bottom player cannot use their strongest defensive tools and must rely on framing and hip movement alone. This shared geometry is why side control scores three IBJJF points and sits above guard in the positional hierarchy across all its scarf-hold and cross-side expressions.",
       "distractors": {
         "plausible": [
-          "Every variant is dominant because the grips immobilize the opponent's arms, and arm control is what makes the position score.",
-          "Every variant is dominant because the top player controls the head, and head control alone outranks being past the legs."
+          "Parallel alignment like mount",
+          "Stacked shoulders, hips free"
         ],
         "trap": [
-          "Every variant stays dominant even if space opens at the hips, as long as the top player keeps the head firmly trapped."
+          "Stay inside opponent's guard"
         ]
-      }
+      },
+      "answer_line": "Perpendicular, guard neutralized"
     },
     {
       "question": "Why is weight distribution through the hips rather than the arms a universal control principle across all side control variants?",
-      "answer": "In any side control variant, driving weight through the arms creates space beneath the chest that the bottom player can exploit with frames and hip escapes. Distributing weight low through the hips and torso instead keeps the connection heavy and eliminates the gaps needed for recovery. This lets the top player keep their hands light and mobile for grip fighting and submission entries rather than bearing load. The principle holds whether you are in a classic cross-side, a kesa-gatame scarf hold, or a reverse variant, because in all of them dead weight applied low is harder to move than propped-up weight applied high."
+      "answer": "In any side control variant, driving weight through the arms creates space beneath the chest that the bottom player can exploit with frames and hip escapes. Distributing weight low through the hips and torso instead keeps the connection heavy and eliminates the gaps needed for recovery. This lets the top player keep their hands light and mobile for grip fighting and submission entries rather than bearing load. The principle holds whether you are in a classic cross-side, a kesa-gatame scarf hold, or a reverse variant, because in all of them dead weight applied low is harder to move than propped-up weight applied high.",
+      "answer_line": "Weight low through hips, not arms",
+      "distractors": {
+        "plausible": [
+          "Heavy weight through the chest",
+          "Press down with the arms"
+        ],
+        "trap": [
+          "Post on hands, stay mobile"
+        ]
+      }
     },
     {
       "question": "What is the universal escape mechanism the bottom player must combine to recover from any side control variant?",
       "answer": "Escaping any side control variant requires combining hip movement that creates space with a frame that stops the top player from following it. Shrimping the hips away without a frame simply lets the opponent re-settle and follow, while framing without hip movement produces no room to recover guard or turn in. The frame typically braces against the opponent's hip and shoulder or neck, buying the moment needed to insert a knee or shrimp underneath. This frame-plus-motion pairing is the shared foundation of every escape, from elbow escapes to bridge-and-roll reversals.",
       "distractors": {
         "plausible": [
-          "Escaping starts by shrimping the hips away first, then building frames only after the space has already appeared.",
-          "Strong frames on the hip and shoulder are enough on their own, since holding them long enough forces the top player off."
+          "Shrimp hips without framing",
+          "Frame first, then hips later"
         ],
         "trap": [
-          "Extend both arms and press straight up on the opponent's chest to bench-press them off before moving the hips."
+          "Push opponent's head away"
+        ]
+      },
+      "answer_line": "Frame plus hip movement together"
+    },
+    {
+      "question": "Why does controlling the opponent's head and far-side arm remain a shared priority across every side control variant?",
+      "answer": "Head and far-arm control cuts off the two structures the bottom player relies on to generate escape movement. Pinning the head with a crossface or headlock prevents them from turning toward you and creating the angle needed to shrimp or come to their knees. Trapping the far arm removes their ability to frame across your body or underhook to reverse the position. Whether the variant emphasizes a crossface, a scarf-hold head clamp, or an underhook, neutralizing these two points is what converts a loose pin into inescapable control.",
+      "answer_line": "Control head and far arm",
+      "distractors": {
+        "plausible": [
+          "Control near arm and hip",
+          "Control legs and far hip"
+        ],
+        "trap": [
+          "Free the head to attack legs"
         ]
       }
     },
     {
-      "question": "Why does controlling the opponent's head and far-side arm remain a shared priority across every side control variant?",
-      "answer": "Head and far-arm control cuts off the two structures the bottom player relies on to generate escape movement. Pinning the head with a crossface or headlock prevents them from turning toward you and creating the angle needed to shrimp or come to their knees. Trapping the far arm removes their ability to frame across your body or underhook to reverse the position. Whether the variant emphasizes a crossface, a scarf-hold head clamp, or an underhook, neutralizing these two points is what converts a loose pin into inescapable control."
-    },
-    {
       "question": "Why is timing rather than raw strength the decisive factor in whether a side control escape succeeds?",
-      "answer": "Attempting to move against a settled, based-out opponent fails regardless of technique quality because their weight and structure are optimized to resist static pressure. Escapes succeed in the brief windows when the top player lifts weight to attack a submission, transitions toward mount or north-south, or otherwise compromises their base. In those moments the pin momentarily loosens and hip movement can generate real space. This is why patient survival and reading the opponent's transitions matter more than explosive effort, a truth that holds across all variants of the position."
+      "answer": "Attempting to move against a settled, based-out opponent fails regardless of technique quality because their weight and structure are optimized to resist static pressure. Escapes succeed in the brief windows when the top player lifts weight to attack a submission, transitions toward mount or north-south, or otherwise compromises their base. In those moments the pin momentarily loosens and hip movement can generate real space. This is why patient survival and reading the opponent's transitions matter more than explosive effort, a truth that holds across all variants of the position.",
+      "answer_line": "Escape when opponent transitions",
+      "distractors": {
+        "plausible": [
+          "Escape with explosive strength",
+          "Escape right after they settle"
+        ],
+        "trap": [
+          "Wait motionless until tired"
+        ]
+      }
     },
     {
       "question": "What universal danger does the bottom player invite by turning to face the top player during a side control escape?",
-      "answer": "Turning in to face the opponent from underneath any side control variant exposes the back and neck, converting a bad position into a worse one. As the bottom player rotates toward the top player, they present their spine and open the neck to chokes and back-take entries. The safe principle is to turn away from the opponent when rotation is necessary, keeping the back protected, or to work the escape without turning at all. This defensive rule is constant whether the pin is a scarf hold, a reverse variant, or standard cross-side, because the top player's advantage always increases the moment the back is offered."
+      "answer": "Turning in to face the opponent from underneath any side control variant exposes the back and neck, converting a bad position into a worse one. As the bottom player rotates toward the top player, they present their spine and open the neck to chokes and back-take entries. The safe principle is to turn away from the opponent when rotation is necessary, keeping the back protected, or to work the escape without turning at all. This defensive rule is constant whether the pin is a scarf hold, a reverse variant, or standard cross-side, because the top player's advantage always increases the moment the back is offered.",
+      "answer_line": "Turning in exposes the back",
+      "distractors": {
+        "plausible": [
+          "Turning in speeds up escape",
+          "Facing opponent regains guard"
+        ],
+        "trap": [
+          "Turn fully in and grab collar"
+        ]
+      }
     },
     {
       "question": "Why must the top player constantly threaten submissions or advances instead of holding side control statically?",
-      "answer": "A static pin gives the bottom player uninterrupted time to build frames, recover energy, and construct a systematic escape, gradually eroding the top player's advantage. Continuously threatening submissions or advances to mount, knee-on-belly, or north-south forces the bottom player into reactive defense, keeping them a step behind. Each threat also opens the next as the opponent defends one attack and exposes another. This offensive pressure principle applies to every variant, since the mechanical control is only as valuable as the activity that prevents the opponent from solving it."
+      "answer": "A static pin gives the bottom player uninterrupted time to build frames, recover energy, and construct a systematic escape, gradually eroding the top player's advantage. Continuously threatening submissions or advances to mount, knee-on-belly, or north-south forces the bottom player into reactive defense, keeping them a step behind. Each threat also opens the next as the opponent defends one attack and exposes another. This offensive pressure principle applies to every variant, since the mechanical control is only as valuable as the activity that prevents the opponent from solving it.",
+      "answer_line": "Constantly threaten submissions",
+      "distractors": {
+        "plausible": [
+          "Hold the pin, wait it out",
+          "Only advance after full control"
+        ],
+        "trap": [
+          "Relax grip to save energy"
+        ]
+      }
     }
   ],
   "flashcards_position": [
@@ -904,50 +956,112 @@
       "answer": "Side Control is defined by the top player lying chest-to-chest, perpendicular across the opponent's torso, past and clear of the legs. This transverse alignment is the essential feature: the two bodies form a rough cross rather than the parallel stacking seen in mount or the head-to-head reversal of north-south. Because the top player is past the legs, the bottom player cannot use guard or a knee shield to manage distance, which is precisely why guard recovery is the central escape objective. The perpendicular geometry maximizes the top player's control surface while minimizing the leverage the bottom player can generate with hips and knees.",
       "distractors": {
         "plausible": [
-          "Side Control is defined by the top player lying parallel alongside the opponent, chest-to-chest, with the hips stacked in line.",
-          "Side Control is defined by the top player controlling the opponent head-to-head from above the shoulders, facing the legs."
+          "Straddling the hips like mount",
+          "Facing opposite direction, inline"
         ],
         "trap": [
-          "Side Control is defined by pinning the torso while keeping one leg hooked inside the opponent's legs for extra control."
+          "Stay inside guard, chest to chest"
         ]
-      }
+      },
+      "answer_line": "Chest-to-chest, past the legs"
     },
     {
       "question": "Why does the perpendicular alignment of Side Control produce so much control relative to the effort required to hold it?",
-      "answer": "The perpendicular alignment spreads the top player's body weight across the widest possible section of the opponent's torso, turning skeletal structure and gravity into the primary control mechanism rather than muscular tension. Because the load is distributed over the chest and hips simultaneously, the top player can remain relatively relaxed while the bottom player must work against the full weight to create any space. Being past the legs also removes the opponent's strongest levers, the hips and knees, from the equation. This combination is why Side Control is rated low energy cost and long time-sustainability for the top while being exhausting to defend from underneath."
+      "answer": "The perpendicular alignment spreads the top player's body weight across the widest possible section of the opponent's torso, turning skeletal structure and gravity into the primary control mechanism rather than muscular tension. Because the load is distributed over the chest and hips simultaneously, the top player can remain relatively relaxed while the bottom player must work against the full weight to create any space. Being past the legs also removes the opponent's strongest levers, the hips and knees, from the equation. This combination is why Side Control is rated low energy cost and long time-sustainability for the top while being exhausting to defend from underneath.",
+      "answer_line": "Weight spread, low effort to hold",
+      "distractors": {
+        "plausible": [
+          "High effort to control the hips",
+          "Constant muscling required"
+        ],
+        "trap": [
+          "Sit up to add pressure"
+        ]
+      }
     },
     {
       "question": "What are the primary control points that hold both players in the Side Control configuration?",
       "answer": "Side Control is anchored by three interlocking points: the crossface on the head, the near-hip block, and the perpendicular chest-to-chest connection. The crossface pins the head and prevents the bottom player from turning in to face the top player, which is the prerequisite for most escapes. The near-hip block, with the top player's near arm framing the far hip, denies the knee insertion needed to recover half guard. The heavy chest-to-chest connection eliminates the gap that framing and bridging depend on, so whoever controls these three points controls the exchange.",
       "distractors": {
         "plausible": [
-          "It is anchored by the crossface, a far-side underhook, and the knees pinched tightly against the opponent's near ribs.",
-          "It is anchored by pinning both of the opponent's wrists to the mat while keeping heavy hips over their chest."
+          "Underhook and leg control only",
+          "Far-arm control and knee ride"
         ],
         "trap": [
-          "It is anchored by gripping the opponent's near leg with both hands, since stopping the shrimp matters more than head or chest control."
+          "Release crossface for guillotine"
+        ]
+      },
+      "answer_line": "Crossface, hip block, chest pressure"
+    },
+    {
+      "question": "Why is the creation or denial of space the governing dynamic of Side Control for both players?",
+      "answer": "Side Control is fundamentally a contest over the space between the two torsos and hips, because every meaningful action for either player depends on that gap. The top player wins by eliminating space, keeping hips low and chest heavy so the bottom player cannot insert a frame, a knee, or a bridge. The bottom player wins by manufacturing even a small amount of space, since a frame plus a shrimp is what reopens the room needed to recover guard or turn to turtle. Neither submissions from the top nor escapes from the bottom become available until this space question is resolved, which is why framing and pressure are the shared language of the position.",
+      "answer_line": "Contest over space between hips",
+      "distractors": {
+        "plausible": [
+          "Contest over grip strength",
+          "Contest over head position only"
+        ],
+        "trap": [
+          "Top player opens space to attack"
         ]
       }
     },
     {
-      "question": "Why is the creation or denial of space the governing dynamic of Side Control for both players?",
-      "answer": "Side Control is fundamentally a contest over the space between the two torsos and hips, because every meaningful action for either player depends on that gap. The top player wins by eliminating space, keeping hips low and chest heavy so the bottom player cannot insert a frame, a knee, or a bridge. The bottom player wins by manufacturing even a small amount of space, since a frame plus a shrimp is what reopens the room needed to recover guard or turn to turtle. Neither submissions from the top nor escapes from the bottom become available until this space question is resolved, which is why framing and pressure are the shared language of the position."
-    },
-    {
       "question": "How does the connection between the players' hips shape what is possible from Side Control?",
-      "answer": "Hip-to-hip contact is the linchpin that separates true, stable Side Control from a loose, escapable pin. When the top player keeps their hips low and pressed against the opponent's hips, the bottom player cannot generate the bridging elevation or knee insertion that fuels escapes. If the top player floats their weight high onto the chest and loses hip contact, the bottom player immediately gains room to shrimp, frame, and reintroduce a leg. This is why weight distribution errors from the top and space-generation strategies from the bottom both center on the hip line rather than the upper body alone."
+      "answer": "Hip-to-hip contact is the linchpin that separates true, stable Side Control from a loose, escapable pin. When the top player keeps their hips low and pressed against the opponent's hips, the bottom player cannot generate the bridging elevation or knee insertion that fuels escapes. If the top player floats their weight high onto the chest and loses hip contact, the bottom player immediately gains room to shrimp, frame, and reintroduce a leg. This is why weight distribution errors from the top and space-generation strategies from the bottom both center on the hip line rather than the upper body alone.",
+      "answer_line": "Hips low, pressed together",
+      "distractors": {
+        "plausible": [
+          "Chest heavy, hips floated high",
+          "Weight on shoulders, hips free"
+        ],
+        "trap": [
+          "Lift hips to load a submission"
+        ]
+      }
     },
     {
       "question": "How does Side Control differ mechanically from mount and north-south despite all three being dominant top pins?",
-      "answer": "All three are dominant pins, but the body angle relative to the opponent is what distinguishes them. In Side Control the top player lies perpendicular across the torso, in mount the top player straddles parallel and on top of the hips, and in north-south the top player faces the opposite direction over the head with the bodies inline. The perpendicular Side Control angle offers a broad, stable base clear of the legs but leaves the near hip as a recovery avenue, whereas mount sits astride the hips for higher control and points, and north-south trades hip control for dominant head and shoulder control. Movement between the three is a matter of pivoting weight around the opponent's torso while never surrendering the space that ties the bodies together."
+      "answer": "All three are dominant pins, but the body angle relative to the opponent is what distinguishes them. In Side Control the top player lies perpendicular across the torso, in mount the top player straddles parallel and on top of the hips, and in north-south the top player faces the opposite direction over the head with the bodies inline. The perpendicular Side Control angle offers a broad, stable base clear of the legs but leaves the near hip as a recovery avenue, whereas mount sits astride the hips for higher control and points, and north-south trades hip control for dominant head and shoulder control. Movement between the three is a matter of pivoting weight around the opponent's torso while never surrendering the space that ties the bodies together.",
+      "answer_line": "Angle: perpendicular vs parallel",
+      "distractors": {
+        "plausible": [
+          "Same angle, different grips",
+          "Distinguished by point value only"
+        ],
+        "trap": [
+          "Face same direction as opponent"
+        ]
+      }
     },
     {
       "question": "Why does Side Control function as a central hub in the positional hierarchy rather than an endpoint?",
-      "answer": "Side Control sits at the crossroads between guard passing and the more dominant positions, which is why it behaves as a transitional hub rather than a terminal pin. It is the natural result of completing a guard pass, and from it the top player can advance to mount, knee-on-belly, north-south, or the back, or settle in to attack submissions. For the bottom player it is equally a hub in reverse, the position from which half guard, turtle, or a full guard recovery are all live targets. This gateway role, combined with its stability and low energy cost, is why it is considered a home base for top-position work and a critical survival checkpoint from the bottom."
+      "answer": "Side Control sits at the crossroads between guard passing and the more dominant positions, which is why it behaves as a transitional hub rather than a terminal pin. It is the natural result of completing a guard pass, and from it the top player can advance to mount, knee-on-belly, north-south, or the back, or settle in to attack submissions. For the bottom player it is equally a hub in reverse, the position from which half guard, turtle, or a full guard recovery are all live targets. This gateway role, combined with its stability and low energy cost, is why it is considered a home base for top-position work and a critical survival checkpoint from the bottom.",
+      "answer_line": "Hub between pass and advances",
+      "distractors": {
+        "plausible": [
+          "Final position, no further gains",
+          "Only reached from mount"
+        ],
+        "trap": [
+          "Retreat to guard once there"
+        ]
+      }
     },
     {
       "question": "Why is control of the head and far-side arm a defining structural layer of Side Control rather than just an attacking option?",
-      "answer": "Head and far-arm control is what elevates a bare perpendicular pin into stable Side Control, because those two limbs are the bottom player's primary tools for regaining orientation and space. Head control through the crossface locks the spine's alignment and prevents the turn-in that would otherwise let the bottom player face up and rebuild guard or stand. Controlling the far arm, via an underhook or by trapping it across the body, removes a key framing limb, so the bottom player loses the structure needed to bridge the space open. These control layers are structural because they hold the configuration together, which is also why the same grips are what make the position feel safe from the top and precarious from the bottom."
+      "answer": "Head and far-arm control is what elevates a bare perpendicular pin into stable Side Control, because those two limbs are the bottom player's primary tools for regaining orientation and space. Head control through the crossface locks the spine's alignment and prevents the turn-in that would otherwise let the bottom player face up and rebuild guard or stand. Controlling the far arm, via an underhook or by trapping it across the body, removes a key framing limb, so the bottom player loses the structure needed to bridge the space open. These control layers are structural because they hold the configuration together, which is also why the same grips are what make the position feel safe from the top and precarious from the bottom.",
+      "answer_line": "Crossface plus far-arm control",
+      "distractors": {
+        "plausible": [
+          "Near-arm control plus legs",
+          "Head control alone suffices"
+        ],
+        "trap": [
+          "Release far arm to free hands"
+        ]
+      }
     }
   ],
   "clips": [

@@ -261,59 +261,112 @@
         "answer": "The best window is when the opponent shifts weight backward, tries to extract their trapped leg, or posts their free leg behind them for base. These backward-directed movements create slack in the leg entanglement that facilitates smooth reconfiguration. Attempting the transition against a forward-driving opponent risks getting smashed during the vulnerable reconfiguration phase. Reading the opponent's weight distribution is the single most important skill for successful execution.",
         "distractors": {
           "plausible": [
-            "Initiate the transition the instant you establish X-Guard, before the opponent has time to settle into their base.",
-            "The best window is when the opponent squats down and settles their hips low, since their weight becomes easier to track."
+            "Neutral, evenly matched grips",
+            "Right after guard is locked in"
           ],
           "trap": [
-            "Wait until the opponent drives forward with heavy pressure, since their momentum carries them over the leg swap."
+            "Attack during forward drive"
           ]
-        }
+        },
+        "answer_line": "Backward weight shift or leg pull"
       },
       {
         "question": "What entry requirements must be established before attempting the transition?",
         "answer": "You need a deep inside hook behind the knee, an outside leg crossing their hip, and a firm hand grip on the trapped ankle as the constant anchor. Without the ankle grip, any gap in leg hooks during reconfiguration allows the opponent to extract their leg. The opponent's weight should be neutral or shifting backward, not driving forward with pressure.",
         "distractors": {
           "plausible": [
-            "A deep inside hook and the hip cross are sufficient; the ankle grip can be secured after the legs finish reconfiguring.",
-            "You need two-on-one grips on the opponent's sleeve or wrist to kill their posts before switching your legs."
+            "Two leg hooks, no hand grip",
+            "Ankle grip, opponent driving forward"
           ],
           "trap": [
-            "Release the ankle and use both hands to frame on their knee, freeing your legs to swing into the SLX configuration."
+            "Skip ankle grip for collar tie"
+          ]
+        },
+        "answer_line": "Knee hook, hip cross, ankle grip"
+      },
+      {
+        "question": "What is the most critical mechanical detail that determines success or failure of this transition?",
+        "answer": "The staggered overlap of leg controls is the most critical mechanical detail. The inside leg must establish the SLX ankle wrap around the opponent's Achilles area before the outside leg releases from the hip-crossing X-Guard position. This overlapping control ensures there is never a moment where neither leg is actively controlling the opponent's trapped leg. Releasing both controls simultaneously is the single most common cause of failure in this transition.",
+        "answer_line": "New hook in before old hook out",
+        "distractors": {
+          "plausible": [
+            "Release hip cross first",
+            "Speed matters more than overlap"
+          ],
+          "trap": [
+            "Release both hooks at once"
           ]
         }
       },
       {
-        "question": "What is the most critical mechanical detail that determines success or failure of this transition?",
-        "answer": "The staggered overlap of leg controls is the most critical mechanical detail. The inside leg must establish the SLX ankle wrap around the opponent's Achilles area before the outside leg releases from the hip-crossing X-Guard position. This overlapping control ensures there is never a moment where neither leg is actively controlling the opponent's trapped leg. Releasing both controls simultaneously is the single most common cause of failure in this transition."
-      },
-      {
         "question": "Your opponent posts their free hand on your chest and drives forward pressure during the transition—how do you adjust?",
-        "answer": "Abort the SLX transition and use their forward drive to your advantage. Re-establish the X-Guard knee hook if still possible, or redirect their forward momentum into a sweep by extending both legs powerfully. If the forward pressure is too strong to maintain X-Guard, thread underneath them into deep half guard using their momentum. Never continue the reconfiguration against strong forward pressure, as the momentary loosening of hooks will be exploited."
+        "answer": "Abort the SLX transition and use their forward drive to your advantage. Re-establish the X-Guard knee hook if still possible, or redirect their forward momentum into a sweep by extending both legs powerfully. If the forward pressure is too strong to maintain X-Guard, thread underneath them into deep half guard using their momentum. Never continue the reconfiguration against strong forward pressure, as the momentary loosening of hooks will be exploited.",
+        "answer_line": "Abort SLX, ride their drive",
+        "distractors": {
+          "plausible": [
+            "Push back to regain space",
+            "Retreat to neutral guard"
+          ],
+          "trap": [
+            "Force the SLX wrap anyway"
+          ]
+        }
       },
       {
         "question": "What grip configuration is essential throughout the entire transition?",
-        "answer": "The near hand must maintain an unbroken grip on the opponent's trapped ankle or lower pants throughout the entire transition. This is the one constant that bridges the gap between X-Guard and SLX configurations. The free hand should control the opponent's far sleeve, collar, or far leg to prevent them from generating countering movement. After SLX is established, the free hand transitions to controlling their same-side sleeve to set up sweep defense prevention."
+        "answer": "The near hand must maintain an unbroken grip on the opponent's trapped ankle or lower pants throughout the entire transition. This is the one constant that bridges the gap between X-Guard and SLX configurations. The free hand should control the opponent's far sleeve, collar, or far leg to prevent them from generating countering movement. After SLX is established, the free hand transitions to controlling their same-side sleeve to set up sweep defense prevention.",
+        "answer_line": "Never release the ankle grip",
+        "distractors": {
+          "plausible": [
+            "Switch grips mid-transition",
+            "Prioritize collar grip instead"
+          ],
+          "trap": [
+            "Let go of ankle for sleeve grip"
+          ]
+        }
       },
       {
         "question": "In which direction should you apply force through the SLX configuration once established?",
-        "answer": "The outside foot on the hip pushes upward and outward, elevating the opponent's weight and preventing them from settling base downward. Simultaneously, the inside ankle wrap pulls their trapped foot inward and upward, further compromising their single-leg balance. The combined effect directs force perpendicular to the opponent's remaining base leg, creating maximum off-balancing in the direction where they have no support. Your hip elevation amplifies this directional force."
+        "answer": "The outside foot on the hip pushes upward and outward, elevating the opponent's weight and preventing them from settling base downward. Simultaneously, the inside ankle wrap pulls their trapped foot inward and upward, further compromising their single-leg balance. The combined effect directs force perpendicular to the opponent's remaining base leg, creating maximum off-balancing in the direction where they have no support. Your hip elevation amplifies this directional force.",
+        "answer_line": "Push hip up, pull ankle in",
+        "distractors": {
+          "plausible": [
+            "Push hip down to flatten them",
+            "Pull ankle straight backward"
+          ],
+          "trap": [
+            "Let them settle their base"
+          ]
+        }
       },
       {
         "question": "The opponent begins pulling their trapped leg backward to escape your X-Guard—what is your response?",
-        "answer": "This is actually the ideal scenario for initiating the transition. As they pull backward, their retreating leg movement assists your ankle wrap by feeding the leg deeper into your SLX control. Follow their backward pull by immediately threading your inside leg around their ankle as it slides back, converting their extraction attempt into your SLX entry. Their backward weight shift also reduces forward pressure, making the reconfiguration safer. Use their momentum to accelerate the transition rather than fighting their extraction."
+        "answer": "This is actually the ideal scenario for initiating the transition. As they pull backward, their retreating leg movement assists your ankle wrap by feeding the leg deeper into your SLX control. Follow their backward pull by immediately threading your inside leg around their ankle as it slides back, converting their extraction attempt into your SLX entry. Their backward weight shift also reduces forward pressure, making the reconfiguration safer. Use their momentum to accelerate the transition rather than fighting their extraction.",
+        "answer_line": "Follow the pull into SLX",
+        "distractors": {
+          "plausible": [
+            "Reset the X-Guard knee hook",
+            "Wait until they stop pulling"
+          ],
+          "trap": [
+            "Fight to keep the leg in place"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully defends the SLX establishment, what chain attacks remain available?",
         "answer": "You can revert to full X-Guard, switch to butterfly guard, enter deep half guard if they drive forward, or stand up into a single leg takedown. Reverting to X-Guard means re-inserting the knee hook and hip cross for elevation sweeps; butterfly guard requires extracting both legs and establishing butterfly hooks; deep half comes from threading underneath a forward-driving opponent; and the technical stand-up to single leg works if you maintain ankle control while rising. The key is having predetermined fallback positions rather than forcing a failed transition repeatedly.",
         "distractors": {
           "plausible": [
-            "Keep re-attempting the SLX entry from slightly different angles until the opponent's defensive grips fatigue.",
-            "Pull straight into closed guard, since it is the safest position from which to restart your attacking cycle."
+            "Keep forcing the same entry",
+            "Give up the guard entirely"
           ],
           "trap": [
-            "Turn away and turtle to disengage from the entanglement, conceding the leg so you can escape and reset safely."
+            "Repeat the failed SLX attempt"
           ]
-        }
+        },
+        "answer_line": "X-Guard, butterfly, or deep half"
       }
     ],
     "safety_considerations": "This transition involves dynamic leg repositioning and carries minimal direct injury risk compared to submission techniques. However, practitioners should ensure controlled movement when reconfiguring legs to avoid knee strain from awkward angles during the wrap. If transitioning into leg entanglement attacks from SLX, follow proper leg lock safety protocols: tap early when caught in submissions, communicate clearly with training partners, and apply submissions with gradual controlled pressure. Avoid explosive jerking movements during the reconfiguration that could cause ligament stress to either practitioner's knees. When drilling, begin at slow speeds to establish proper mechanics before increasing pace.",
@@ -431,19 +484,59 @@
     "flashcards": [
       {
         "question": "What is the most critical timing window for countering the X-Guard to SLX transition?",
-        "answer": "The most critical window occurs during the approximately one-second gap when the opponent releases their X-Guard inside knee hook to begin threading the ankle wrap. At this moment, their leg entanglement is at its weakest because neither the X-Guard hooks nor the SLX wrap are fully engaged. Driving forward pressure or extracting your leg during this gap has the highest success rate because you are exploiting a structural vulnerability in their guard rather than fighting against an established control system."
+        "answer": "The most critical window occurs during the approximately one-second gap when the opponent releases their X-Guard inside knee hook to begin threading the ankle wrap. At this moment, their leg entanglement is at its weakest because neither the X-Guard hooks nor the SLX wrap are fully engaged. Driving forward pressure or extracting your leg during this gap has the highest success rate because you are exploiting a structural vulnerability in their guard rather than fighting against an established control system.",
+        "answer_line": "Gap between hook release and wrap",
+        "distractors": {
+          "plausible": [
+            "Right as guard is first locked in",
+            "After SLX is fully secured"
+          ],
+          "trap": [
+            "Wait until SLX is complete"
+          ]
+        }
       },
       {
         "question": "Why is pulling your trapped leg straight backward a counterproductive defensive response?",
-        "answer": "Pulling straight backward feeds your leg into the opponent's SLX wrap because their inside foot is threading around the back of your ankle. Your backward pull actually provides the momentum and angle they need to complete the wrap. Instead, you should angle your knee laterally outward and step to the side, which defeats the threading path of their wrap by changing the extraction angle to one that their foot cannot follow."
+        "answer": "Pulling straight backward feeds your leg into the opponent's SLX wrap because their inside foot is threading around the back of your ankle. Your backward pull actually provides the momentum and angle they need to complete the wrap. Instead, you should angle your knee laterally outward and step to the side, which defeats the threading path of their wrap by changing the extraction angle to one that their foot cannot follow.",
+        "answer_line": "Angle knee out, step laterally",
+        "distractors": {
+          "plausible": [
+            "Pull the knee straight up",
+            "Kick the free leg to escape"
+          ],
+          "trap": [
+            "Yank the leg straight back"
+          ]
+        }
       },
       {
         "question": "What should your base position look like when you recognize the transition is being initiated?",
-        "answer": "Your base should immediately widen with your free leg stepping diagonally away from the opponent to create stability against sweep threats. Lower your hips by bending both knees to bring your center of gravity closer to the ground. Keep your trapped knee angled forward and outward rather than allowing it to be pulled backward. Your upper body should maintain forward lean with hands ready to post for balance or strip grips. This low, wide base makes it extremely difficult for the opponent to sweep you during the transition."
+        "answer": "Your base should immediately widen with your free leg stepping diagonally away from the opponent to create stability against sweep threats. Lower your hips by bending both knees to bring your center of gravity closer to the ground. Keep your trapped knee angled forward and outward rather than allowing it to be pulled backward. Your upper body should maintain forward lean with hands ready to post for balance or strip grips. This low, wide base makes it extremely difficult for the opponent to sweep you during the transition.",
+        "answer_line": "Widen base, lower hips",
+        "distractors": {
+          "plausible": [
+            "Narrow stance, hips high",
+            "Lean back for balance"
+          ],
+          "trap": [
+            "Let trapped knee drift backward"
+          ]
+        }
       },
       {
         "question": "If you fail to prevent the SLX establishment, what is your immediate defensive priority?",
-        "answer": "Once SLX is established, your immediate priority shifts to preventing the opponent from elevating your trapped leg and creating off-balancing pressure. Drive your trapped knee downward and toward the opponent to reduce their elevation leverage. Establish upper body grips to prevent them from creating sweep angles. Begin the systematic hook clearing process: address the bottom hook (ankle wrap) first through knee extraction, then clear the hip hook. Do not attempt to rip your leg free explosively, as this wastes energy and often makes the position worse."
+        "answer": "Once SLX is established, your immediate priority shifts to preventing the opponent from elevating your trapped leg and creating off-balancing pressure. Drive your trapped knee downward and toward the opponent to reduce their elevation leverage. Establish upper body grips to prevent them from creating sweep angles. Begin the systematic hook clearing process: address the bottom hook (ankle wrap) first through knee extraction, then clear the hip hook. Do not attempt to rip your leg free explosively, as this wastes energy and often makes the position worse.",
+        "answer_line": "Drive knee down, clear hooks",
+        "distractors": {
+          "plausible": [
+            "Rip the leg free explosively",
+            "Clear hip hook before ankle"
+          ],
+          "trap": [
+            "Yank the leg out with force"
+          ]
+        }
       }
     ],
     "training_progressions": [

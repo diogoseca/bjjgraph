@@ -310,12 +310,32 @@
       {
         "question": "What is the minimum application time for an armbar in training and why is this critical?",
         "answer": "The minimum application time in training should be 3-5 seconds of progressive, smooth pressure. This is critical because the elbow joint can be seriously injured with sudden force, potentially causing ligament tears or dislocation that require months of recovery or surgery. Training at slower speeds allows partners to recognize the danger and tap safely while still learning proper mechanics. Competition speed should only be used in actual competition where both participants accept the injury risk.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "3-5 sec progressive pressure",
+        "distractors": {
+          "plausible": [
+            "1-2 seconds, quick tap",
+            "10+ seconds, slow build"
+          ],
+          "trap": [
+            "Full competition speed"
+          ]
+        }
       },
       {
         "question": "Why must opponent's thumb be pointing upward during the armbar finish?",
         "answer": "The thumb-up (supinated) position aligns the elbow joint in the weakest anatomical configuration for resisting hyperextension. When the thumb points up, the forearm bones (radius and ulna) are rotated so the elbow's natural hinge movement is perpendicular to your hip extension force. If the thumb points down (pronated), the forearm bones can rotate partially, distributing force across multiple planes and significantly reducing submission effectiveness. The supinated position also stretches the bicep tendon, adding additional control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Thumb up weakens the joint",
+        "distractors": {
+          "plausible": [
+            "Thumb down for extra torque",
+            "Thumb sideways to grip wrist"
+          ],
+          "trap": [
+            "Any thumb position works fine"
+          ]
+        }
       },
       {
         "question": "What are the three most important control points during the armbar transition from mount?",
@@ -323,23 +343,44 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The three key control points are two-handed wrist control, knee squeeze on the head, and posting your free hand on the mat for balance.",
-            "The three key control points are one-handed wrist control, hip pressure on their shoulder, and hooking their far leg with your foot."
+            "Chest pressure, hip pin, headlock",
+            "Knee-on-belly, cross-face grip"
           ],
           "trap": [
-            "Lean back and yank the arm straight immediately; speed of extension matters more than chest pressure or knee control."
+            "Let go of wrist to switch base"
           ]
-        }
+        },
+        "answer_line": "Wrist, tricep pinned, knees clamped"
       },
       {
         "question": "How should you respond if opponent begins to successfully stack you during the armbar transition?",
         "answer": "If opponent achieves a successful stack during the transition, you should NOT try to force the armbar against their forward pressure. Instead, maintain wrist control and use their momentum to your advantage by pivoting underneath them, often resulting in a sweep to mounted armbar from the bottom. Alternatively, release your bottom leg and use an underhook to transition to back control as they drive forward. Fighting against a successful stack typically results in losing the position and potentially giving up top position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ride stack into a sweep",
+        "distractors": {
+          "plausible": [
+            "Push away and reset guard",
+            "Switch to an ankle lock"
+          ],
+          "trap": [
+            "Force the arm against stack"
+          ]
+        }
       },
       {
         "question": "What is the correct hip position during the armbar finish and why?",
         "answer": "Your hips should be elevated off the mat with your lower back arched, while only your shoulder blades touch the mat. This elevated hip position is crucial because the submission force comes from hip extension, not arm pulling. When hips are flat on the mat, you have minimal extension range and significantly reduced leverage. The elevated position allows you to thrust your hips upward into opponent's elbow joint while pulling their wrist toward your chest, creating maximum hyperextension force through proper biomechanical alignment.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hips up, only shoulders on mat",
+        "distractors": {
+          "plausible": [
+            "Hips flat, pull with arms",
+            "Hips up, weight on head"
+          ],
+          "trap": [
+            "Sit back and yank the arm"
+          ]
+        }
       },
       {
         "question": "What should you do immediately when your partner taps to an armbar?",
@@ -347,18 +388,29 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Hold the finishing position gently after the tap so your partner can feel the correct mechanics before you release.",
-            "Release your grips first, then slowly lower your hips once you are sure the tap was intentional and not a grip adjustment."
+            "Ease off slowly over a few sec",
+            "Hold briefly to confirm tap"
           ],
           "trap": [
-            "Extend slightly further after the tap to confirm the arm was truly trapped before letting go."
+            "Add a final squeeze then release"
           ]
-        }
+        },
+        "answer_line": "Release instantly, lower hips"
       },
       {
         "question": "What anatomical structure does the armbar attack and what is the breaking mechanism?",
         "answer": "The armbar attacks the elbow joint by hyperextending it beyond its natural range of motion. The elbow is a hinge joint that normally bends from approximately 0 degrees (straight) to about 150 degrees of flexion. By positioning the elbow directly over your hips with the thumb pointing up and extending your hips while pulling the wrist toward your chest, you force the joint past 0 degrees into hyperextension. This stretches and damages the ulnar collateral ligament (UCL), medial collateral ligament (MCL), and can ultimately dislocate the joint if pressure continues.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hyperextends elbow past straight",
+        "distractors": {
+          "plausible": [
+            "Rotates shoulder capsule",
+            "Compresses the bicep tendon"
+          ],
+          "trap": [
+            "Twists wrist into shoulder lock"
+          ]
+        }
       },
       {
         "question": "What are the indicators that an armbar is reaching the breaking point and requires immediate release or tap?",
@@ -366,18 +418,29 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "The breaking point is signaled mainly by the opponent's grip weakening; until their hands separate the joint still has protective slack.",
-            "The only reliable breaking-point indicator is the tap itself; before a tap the arm always retains a safe margin of bend."
+            "Opponent stops struggling",
+            "Arm turns slightly red"
           ],
           "trap": [
-            "Small pops in the elbow are just normal slack releasing, so keep extending steadily until you feel a firm tap."
+            "Wait for a verbal tap only"
           ]
-        }
+        },
+        "answer_line": "Full extension, no give, pops"
       },
       {
         "question": "Your opponent starts to posture up and turn toward you during the finish - what grip adjustment maintains control?",
         "answer": "When opponent attempts to posture and turn, immediately squeeze your knees tighter together to control their head and prevent rotation. Simultaneously, pull their wrist tighter to your chest while scooting your hips closer to their shoulder to eliminate space. If they continue turning, switch your grip so your bottom hand controls their wrist while your top hand reaches around to grip their far shoulder or control their turning direction. This grip adjustment maintains the arm angle while preventing the escape. You can also hook their near leg with your bottom foot to prevent them from completing the rotation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Squeeze knees, pull wrist to chest",
+        "distractors": {
+          "plausible": [
+            "Release knees, chase the turn",
+            "Switch to a triangle instead"
+          ],
+          "trap": [
+            "Let go and re-secure mount"
+          ]
+        }
       },
       {
         "question": "What determines the point of no escape in an armbar finish?",
@@ -385,13 +448,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The point of no escape is reached as soon as both your legs are over their body, even before the arm is extended.",
-            "The arm becomes inescapable once you control the wrist with both hands, regardless of hip position or knee squeeze."
+            "Just full arm extension alone",
+            "Only the knee clamp matters"
           ],
           "trap": [
-            "Once you fall back for the finish, arch and extend immediately — hip and knee details can be corrected after the arm is straight."
+            "Opponent stops moving entirely"
           ]
-        }
+        },
+        "answer_line": "All three controls locked together"
       },
       {
         "question": "What common finishing error results in the hitchhiker escape and how do you prevent it?",
@@ -399,13 +463,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The hitchhiker escape comes from gripping too high on the arm, so slide both grips down past the wrist onto their hand.",
-            "The hitchhiker is prevented mainly by squeezing the wrist harder, since grip strength alone stops the thumb from rotating."
+            "Keep wrist grip only, arm loose",
+            "Squeeze knees, chest can gap"
           ],
           "trap": [
-            "To stop the hitchhiker, open your knees and sit up over the arm so you can chase their rotation with your body weight."
+            "Let the arm drift for angle"
           ]
-        }
+        },
+        "answer_line": "Glue tricep to your chest"
       },
       {
         "question": "In competition, what finishing strategies maximize armbar success rate while maintaining safety awareness?",
@@ -413,13 +478,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "In competition, extend as soon as you fall back, since pausing to walk your hips in gives the opponent time to stack you.",
-            "In competition, abandon the armbar the moment they defend, since transitions like the triangle rarely work at match speed."
+            "Extend fast for a quick tap",
+            "Rush past control for speed"
           ],
           "trap": [
-            "In competition, jerk the arm explosively on extension so the fight is finished before the opponent can begin tap-fighting."
+            "Jerk hard for a fast finish"
           ]
-        }
+        },
+        "answer_line": "Secure control before extending"
       }
     ],
     "clips": [
@@ -549,27 +615,77 @@
       {
         "question": "At what stage of the armbar sequence is defense most effective and why?",
         "answer": "Defense is most effective during the arm isolation phase in mount, before the attacker commits to the leg swing. At this stage, you can simply retract your arm to your body, clasp your hands, or turn your elbow back toward your ribs with relatively low energy expenditure. Once the leg swings over your head, the attacker has committed their weight and your defensive options narrow dramatically. Each subsequent stage - leg over head, knees clamped, hips tight - reduces your escape probability by roughly half. This is why early recognition cues are the foundation of armbar defense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Before the leg swings over",
+        "distractors": {
+          "plausible": [
+            "Once knees are clamped",
+            "After hips go tight"
+          ],
+          "trap": [
+            "Wait until fully extended"
+          ]
+        }
       },
       {
         "question": "Why should you turn toward the trapped arm rather than away from it when escaping the armbar?",
         "answer": "Turning toward the trapped arm creates two critical defensive advantages: first, it generates stacking pressure that collapses the attacker's hip extension leverage, reducing the hyperextension force on your elbow; second, it initiates the hitchhiker escape by rotating your elbow across the attacker's centerline, which is the primary extraction path. Turning away from the trapped arm exposes your back to the attacker, who can easily transition to back control with hooks - a position that is arguably worse than defending the armbar. The directional rule is absolute: always escape toward the thumb of the trapped hand.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Turn toward the trapped arm",
+        "distractors": {
+          "plausible": [
+            "Pull the arm straight back",
+            "Stay flat and brace elbow"
+          ],
+          "trap": [
+            "Turn away, exposing the back"
+          ]
+        }
       },
       {
         "question": "When should you tap to an armbar from mount rather than continuing to defend?",
         "answer": "You should tap immediately when you feel your arm reaching full extension with the attacker's hips tight to your shoulder and knees clamped around your head. Additional indicators requiring immediate tap include: any popping or cracking sensation in the elbow, sharp pain in the joint, inability to bend the arm despite effort, and the feeling of the joint being mechanically locked with no remaining defensive space. Attempting to resist a fully locked armbar risks ligament tears (UCL/MCL) requiring 3-6 months recovery, elbow dislocation requiring 6-12 weeks, or in extreme cases surgical repair. No training round is worth a permanent elbow injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Full extension, no space left",
+        "distractors": {
+          "plausible": [
+            "Only after hearing a pop",
+            "Wait until it truly hurts"
+          ],
+          "trap": [
+            "Try to power through it"
+          ]
+        }
       },
       {
         "question": "Your attacker has both legs over you but your hands are still clasped - what is your escape sequence?",
         "answer": "With hands clasped and both legs over, execute this sequence: (1) Keep your arms bent and hands locked together - this is your primary defense preventing extension; (2) Begin turning your entire body toward the trapped arm side, driving your shoulder toward the mat; (3) As you turn, start walking your feet toward the attacker's head to create stacking pressure; (4) Drive forward aggressively to collapse their hip extension by stacking your weight onto them; (5) As their hips flatten, extract your elbow by continuing the turn and pulling your arm to your chest; (6) Immediately recover to closed guard or establish top position. The entire sequence requires maintaining the hand clasp until your arm is free.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Lock hands, turn and stack them",
+        "distractors": {
+          "plausible": [
+            "Unclasp and pull the arm free",
+            "Turn away and bridge hard"
+          ],
+          "trap": [
+            "Let go of hands to create space"
+          ]
+        }
       },
       {
         "question": "How do you prevent the initial arm isolation that starts the armbar from mount?",
         "answer": "Prevention starts with your overall mount defense posture: keep elbows glued to your ribs with forearms creating a protective frame across your chest and neck. When the attacker begins to isolate one arm by gripping your wrist, immediately bring that elbow back to your rib cage using your other hand to reinforce the connection. If they establish a two-on-one grip on your wrist, grip your own opposite lapel or bicep with your free hand to create a structural connection they must break before extending. Never leave arms loose or floating in mount - every moment your elbows are away from your body creates armbar opportunities.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep elbows glued to your ribs",
+        "distractors": {
+          "plausible": [
+            "Post hands wide for balance",
+            "Push their hips away first"
+          ],
+          "trap": [
+            "Extend arm to block the grip"
+          ]
+        }
       }
     ],
     "training_progressions": [

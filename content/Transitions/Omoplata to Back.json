@@ -242,43 +242,143 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that tells you to abandon the omoplata finish and commit to the back take?",
-        "answer": "The primary trigger is when your opponent commits to a forward roll over their trapped shoulder. You will feel them shift weight forward, tuck their chin, and drive over the shoulder. Once this rolling motion initiates, the back take becomes significantly higher percentage than insisting on the shoulder lock. Recognizing this weight shift early gives you maximum time to prepare for the transition."
+        "answer": "The primary trigger is when your opponent commits to a forward roll over their trapped shoulder. You will feel them shift weight forward, tuck their chin, and drive over the shoulder. Once this rolling motion initiates, the back take becomes significantly higher percentage than insisting on the shoulder lock. Recognizing this weight shift early gives you maximum time to prepare for the transition.",
+        "answer_line": "Forward roll over trapped shoulder",
+        "distractors": {
+          "plausible": [
+            "They tap before finishing",
+            "They grab your far leg"
+          ],
+          "trap": [
+            "Wait for the tap first"
+          ]
+        }
       },
       {
         "question": "Your opponent begins the forward roll but does it explosively to create separation - how do you adjust?",
-        "answer": "Pre-emptively tighten your outside leg's connection to their shoulder girdle the moment you feel them loading weight forward. If separation still occurs, do not chase the lost back take. Instead, immediately pursue to turtle top position where you can attack with front headlock, darce choke, anaconda choke, or crucifix entries. The key is recognizing the separation early and transitioning to an appropriate follow-up rather than chasing a lost position."
+        "answer": "Pre-emptively tighten your outside leg's connection to their shoulder girdle the moment you feel them loading weight forward. If separation still occurs, do not chase the lost back take. Instead, immediately pursue to turtle top position where you can attack with front headlock, darce choke, anaconda choke, or crucifix entries. The key is recognizing the separation early and transitioning to an appropriate follow-up rather than chasing a lost position.",
+        "answer_line": "Pursue turtle, attack headlock",
+        "distractors": {
+          "plausible": [
+            "Reset back into omoplata grip",
+            "Switch straight to guard pass"
+          ],
+          "trap": [
+            "Chase the lost back take"
+          ]
+        }
       },
       {
         "question": "Which leg becomes your first hook and what is the precise timing window for inserting it?",
-        "answer": "Your inside leg, the one that was controlling the opponent's hip during the omoplata, becomes the first hook. The timing window is when the opponent's hips pass the midpoint of the forward roll. Insert the hook proactively as their hips rotate through rather than waiting until the roll completes. Too early impedes the roll and may break your shoulder connection. Too late allows them to turn and face you before you establish control."
+        "answer": "Your inside leg, the one that was controlling the opponent's hip during the omoplata, becomes the first hook. The timing window is when the opponent's hips pass the midpoint of the forward roll. Insert the hook proactively as their hips rotate through rather than waiting until the roll completes. Too early impedes the roll and may break your shoulder connection. Too late allows them to turn and face you before you establish control.",
+        "answer_line": "Inside leg, hips pass midpoint",
+        "distractors": {
+          "plausible": [
+            "Outside leg at the midpoint",
+            "Inside leg after roll completes"
+          ],
+          "trap": [
+            "Insert hook before they roll"
+          ]
+        }
       },
       {
         "question": "What is the most critical connection to maintain throughout the entire rolling phase and why?",
-        "answer": "The outside leg maintaining tight pressure against the opponent's shoulder girdle throughout the roll is the most critical connection. Your hip must stay glued to the back of their shoulder as a single unit. This connection is what allows you to follow their momentum and arrive in position for hooks and seatbelt. If this connection breaks at any point during the roll, you lose the ability to follow them and the entire transition fails."
+        "answer": "The outside leg maintaining tight pressure against the opponent's shoulder girdle throughout the roll is the most critical connection. Your hip must stay glued to the back of their shoulder as a single unit. This connection is what allows you to follow their momentum and arrive in position for hooks and seatbelt. If this connection breaks at any point during the roll, you lose the ability to follow them and the entire transition fails.",
+        "answer_line": "Outside leg glued to shoulder",
+        "distractors": {
+          "plausible": [
+            "Inside leg glued to their hip",
+            "Overhook on their far arm"
+          ],
+          "trap": [
+            "Release leg to chase grips"
+          ]
+        }
       },
       {
         "question": "Should you prioritize hooks or seatbelt grip first when completing the transition, and why?",
-        "answer": "The seatbelt grip should be your first or simultaneous priority along with the first hook. Without the seatbelt, even with hooks in, the opponent has full upper body freedom to turn into you, hand fight, and escape before back control is consolidated. The seatbelt prevents the most dangerous counter, which is the opponent turning to face you. Hooks can be adjusted afterward, but the window for seatbelt establishment is narrow."
+        "answer": "The seatbelt grip should be your first or simultaneous priority along with the first hook. Without the seatbelt, even with hooks in, the opponent has full upper body freedom to turn into you, hand fight, and escape before back control is consolidated. The seatbelt prevents the most dangerous counter, which is the opponent turning to face you. Hooks can be adjusted afterward, but the window for seatbelt establishment is narrow.",
+        "answer_line": "Seatbelt with first hook",
+        "distractors": {
+          "plausible": [
+            "Both hooks before the seatbelt",
+            "Second hook, then seatbelt"
+          ],
+          "trap": [
+            "Go for choke before control"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully turns into you after the roll instead of giving up their back - what are your options?",
-        "answer": "If the opponent successfully faces you after the roll, you have several recovery options depending on how much control you retained. If you have an overhook on their formerly trapped arm, pull closed guard with the overhook and immediately threaten triangle or re-enter the omoplata. If you have no grips, establish closed guard and work standard guard attacks. The key is accepting the position change and immediately transitioning to your guard game rather than trying to force the back take."
+        "answer": "If the opponent successfully faces you after the roll, you have several recovery options depending on how much control you retained. If you have an overhook on their formerly trapped arm, pull closed guard with the overhook and immediately threaten triangle or re-enter the omoplata. If you have no grips, establish closed guard and work standard guard attacks. The key is accepting the position change and immediately transitioning to your guard game rather than trying to force the back take.",
+        "answer_line": "Accept it, work guard attacks",
+        "distractors": {
+          "plausible": [
+            "Force the back take anyway",
+            "Scramble back to omoplata"
+          ],
+          "trap": [
+            "Release all grips and reset"
+          ]
+        }
       },
       {
         "question": "What grip should you use on the opponent's body during the omoplata phase to facilitate the back take transition?",
-        "answer": "Control their belt, pants at the hip, or waist in no-gi with your near hand before and during the roll. This grip serves a dual purpose: it prevents them from rolling away too fast during the omoplata phase, and it gives you a control anchor to follow them through the roll. As the roll completes and you transition to the seatbelt, this grip transitions naturally into the underhook arm of the seatbelt configuration."
+        "answer": "Control their belt, pants at the hip, or waist in no-gi with your near hand before and during the roll. This grip serves a dual purpose: it prevents them from rolling away too fast during the omoplata phase, and it gives you a control anchor to follow them through the roll. As the roll completes and you transition to the seatbelt, this grip transitions naturally into the underhook arm of the seatbelt configuration.",
+        "answer_line": "Near-hand grip on belt or hip",
+        "distractors": {
+          "plausible": [
+            "Far-hand grip on their collar",
+            "Grip their far wrist"
+          ],
+          "trap": [
+            "Let go to free up base"
+          ]
+        }
       },
       {
         "question": "How does the direction of force change between the omoplata control phase and the back take phase?",
-        "answer": "During the omoplata control phase, your force is directed downward and laterally across the opponent's shoulder, creating rotational pressure on the shoulder joint through your shin and hip weight. During the back take phase, your force direction shifts to forward pressure through your chest against their back, combined with inward pulling pressure through your hooks on their hips. The transition between these force directions must be smooth and continuous, not abrupt."
+        "answer": "During the omoplata control phase, your force is directed downward and laterally across the opponent's shoulder, creating rotational pressure on the shoulder joint through your shin and hip weight. During the back take phase, your force direction shifts to forward pressure through your chest against their back, combined with inward pulling pressure through your hooks on their hips. The transition between these force directions must be smooth and continuous, not abrupt.",
+        "answer_line": "Lateral shoulder to forward chest",
+        "distractors": {
+          "plausible": [
+            "Downward pressure the whole time",
+            "Pull straight up on their arm"
+          ],
+          "trap": [
+            "Push away to create space"
+          ]
+        }
       },
       {
         "question": "If the back take fails and you lose all connection during the roll, what chain attacks remain available?",
-        "answer": "If you lose all connection, immediately pursue to turtle top using a scramble. From turtle top you can attack front headlock leading to darce or anaconda, re-take the back via seat belt from turtle, or enter crucifix. If the opponent stands after the roll, work a single or double leg takedown. If they pull guard, pass. The critical principle is never pausing after a failed transition. Immediately flow to the next highest-percentage attack available from whatever position you find yourself in."
+        "answer": "If you lose all connection, immediately pursue to turtle top using a scramble. From turtle top you can attack front headlock leading to darce or anaconda, re-take the back via seat belt from turtle, or enter crucifix. If the opponent stands after the roll, work a single or double leg takedown. If they pull guard, pass. The critical principle is never pausing after a failed transition. Immediately flow to the next highest-percentage attack available from whatever position you find yourself in.",
+        "answer_line": "Scramble to turtle, chain attack",
+        "distractors": {
+          "plausible": [
+            "Reset and re-attempt omoplata",
+            "Stand up and reset distance"
+          ],
+          "trap": [
+            "Pause and reassess position"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you should attempt any submission from the resulting back control?",
-        "answer": "All three control layers must be established before attacking: both hooks deep with heels pulling inward controlling the hips, seatbelt tight with the choking arm high across the collarbone, and chest-to-back connection with zero space. Only after confirming all three layers are solid should you begin hand fighting to clear neck defenses for the rear naked choke. Attempting submissions before full consolidation is the most common reason practitioners lose back control after successfully executing this transition."
+        "answer": "All three control layers must be established before attacking: both hooks deep with heels pulling inward controlling the hips, seatbelt tight with the choking arm high across the collarbone, and chest-to-back connection with zero space. Only after confirming all three layers are solid should you begin hand fighting to clear neck defenses for the rear naked choke. Attempting submissions before full consolidation is the most common reason practitioners lose back control after successfully executing this transition.",
+        "answer_line": "Hooks, seatbelt, chest all locked",
+        "distractors": {
+          "plausible": [
+            "Seatbelt tight, hooks optional",
+            "One deep hook, then attack"
+          ],
+          "trap": [
+            "Choke as soon as hooks land"
+          ]
+        }
       }
     ],
     "safety_considerations": "The omoplata to back transition is generally safe to practice but requires specific precautions. The person rolling forward should control their speed during drilling to prevent neck strain from uncontrolled forward rolls. Ensure adequate mat space ahead of the rolling direction to avoid collisions with walls or other practitioners. When establishing hooks during live training, avoid slamming heels into the opponent's inner thighs with excessive force. If practicing the body triangle variation, apply pressure gradually to avoid rib injuries. The person caught in the omoplata should tap immediately if they feel shoulder discomfort rather than forcing the roll, as the roll under load can worsen shoulder joint stress. Communicate with your training partner about intensity levels and establish clear tap signals before drilling. During positional sparring, reset if either partner lands in an awkward position after the roll rather than continuing from a compromised angle.",
@@ -392,23 +492,73 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action immediately after completing the forward roll?",
-        "answer": "Immediately turning to face the attacker. The moment the roll completes, you must explosively drive your inside shoulder down and rotate your hips to face them. Every fraction of a second spent flat on your stomach with your back exposed gives the attacker time to insert hooks and establish the seatbelt. The turn must be explosive and committed. Even with partial hooks in, facing the attacker dramatically reduces their control and submission options."
+        "answer": "Immediately turning to face the attacker. The moment the roll completes, you must explosively drive your inside shoulder down and rotate your hips to face them. Every fraction of a second spent flat on your stomach with your back exposed gives the attacker time to insert hooks and establish the seatbelt. The turn must be explosive and committed. Even with partial hooks in, facing the attacker dramatically reduces their control and submission options.",
+        "answer_line": "Explosively turn to face them",
+        "distractors": {
+          "plausible": [
+            "Post hands and try to stand",
+            "Sit back and frame the legs"
+          ],
+          "trap": [
+            "Stay flat and protect neck"
+          ]
+        }
       },
       {
         "question": "Why is rolling at a diagonal angle more effective than rolling straight forward when defending this transition?",
-        "answer": "Rolling straight forward follows the exact trajectory the attacker has drilled to follow. Their outside leg rides your shoulder perfectly when you roll in the direction they expect. Rolling at a diagonal angle forces the attacker's hip to disconnect from your shoulder because the angle change pulls their leg off your shoulder line. This creates the separation needed to turn and face before they can re-establish connection and insert hooks."
+        "answer": "Rolling straight forward follows the exact trajectory the attacker has drilled to follow. Their outside leg rides your shoulder perfectly when you roll in the direction they expect. Rolling at a diagonal angle forces the attacker's hip to disconnect from your shoulder because the angle change pulls their leg off your shoulder line. This creates the separation needed to turn and face before they can re-establish connection and insert hooks.",
+        "answer_line": "Diagonal breaks shoulder contact",
+        "distractors": {
+          "plausible": [
+            "Straight roll escapes faster",
+            "Diagonal protects trapped arm"
+          ],
+          "trap": [
+            "Roll straight, their drilled path"
+          ]
+        }
       },
       {
         "question": "If the attacker has already established one hook and the seatbelt after your roll, what is your defensive priority sequence?",
-        "answer": "First, protect your neck immediately using chin tuck and two-on-one grip control on the choking arm. Second, strip the seatbelt by fighting the choking arm away from your neck. Third, turn toward the hook side to begin facing the attacker, which naturally disrupts their hook. Do not skip straight to fighting hooks because the seatbelt is what prevents your rotation, and an undefended neck means submission before escape. Address threats from most to least immediate."
+        "answer": "First, protect your neck immediately using chin tuck and two-on-one grip control on the choking arm. Second, strip the seatbelt by fighting the choking arm away from your neck. Third, turn toward the hook side to begin facing the attacker, which naturally disrupts their hook. Do not skip straight to fighting hooks because the seatbelt is what prevents your rotation, and an undefended neck means submission before escape. Address threats from most to least immediate.",
+        "answer_line": "Protect neck, strip belt, turn",
+        "distractors": {
+          "plausible": [
+            "Strip the seatbelt grip first",
+            "Fight the hook before the neck"
+          ],
+          "trap": [
+            "Ignore neck, attack the hook"
+          ]
+        }
       },
       {
         "question": "What recognition cue tells you the attacker plans to follow your roll rather than finish the omoplata?",
-        "answer": "The attacker's hip staying glued to your shoulder rather than shifting away to finish the shoulder lock. When they plan to follow, their outside leg remains heavy on your shoulder and their weight shifts forward onto you. When they plan to finish the omoplata, they sit back, create distance from your shoulder, and apply rotational pressure. Recognizing this distinction before committing to the roll allows you to choose between explosive angled rolling or posturing up to escape the omoplata directly."
+        "answer": "The attacker's hip staying glued to your shoulder rather than shifting away to finish the shoulder lock. When they plan to follow, their outside leg remains heavy on your shoulder and their weight shifts forward onto you. When they plan to finish the omoplata, they sit back, create distance from your shoulder, and apply rotational pressure. Recognizing this distinction before committing to the roll allows you to choose between explosive angled rolling or posturing up to escape the omoplata directly.",
+        "answer_line": "Hip stays glued to your shoulder",
+        "distractors": {
+          "plausible": [
+            "They shift their weight sideways",
+            "They grip your far-side pants"
+          ],
+          "trap": [
+            "They sit back to create distance"
+          ]
+        }
       },
       {
         "question": "How can you prevent the need for the forward roll entirely and eliminate the back take threat?",
-        "answer": "Posture up aggressively before you are forced to roll. Use your free arm to post on the mat, drive your hips forward, and work to stand or create enough posture to extract your trapped arm. If you can escape the omoplata without rolling, the back take opportunity never arises. This requires early recognition that you are in the omoplata and immediate postural recovery before the attacker's leg pressure breaks your base completely. The later you recognize the omoplata, the less viable this option becomes."
+        "answer": "Posture up aggressively before you are forced to roll. Use your free arm to post on the mat, drive your hips forward, and work to stand or create enough posture to extract your trapped arm. If you can escape the omoplata without rolling, the back take opportunity never arises. This requires early recognition that you are in the omoplata and immediate postural recovery before the attacker's leg pressure breaks your base completely. The later you recognize the omoplata, the less viable this option becomes.",
+        "answer_line": "Posture up before forced to roll",
+        "distractors": {
+          "plausible": [
+            "Roll early to beat the setup",
+            "Grab their far ankle to stall"
+          ],
+          "trap": [
+            "Relax and wait for their move"
+          ]
+        }
       }
     ],
     "training_progressions": [

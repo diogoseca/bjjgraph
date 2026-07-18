@@ -238,84 +238,168 @@
         "answer": "The primary goal is to extract your leg from a leg entanglement while creating a passing angle that advances you to side control. It works against both impending and established entanglements, and it converts a defensive necessity into an offensive passing opportunity in one motion.",
         "distractors": {
           "plausible": [
-            "The primary goal is to free your leg and reset to standing so you can restart your passing sequence from a safe distance.",
-            "The primary goal is to counter the leg entanglement by dropping into a leglock exchange of your own before they finish theirs."
+            "Just escape the entanglement",
+            "Drive straight through guard"
           ],
           "trap": [
-            "The primary goal is to sit into the entanglement and yank your knee straight back out by force before the hooks fully connect."
+            "Retreat to reset guard position"
           ]
-        }
+        },
+        "answer_line": "Clear leg, angle into side control"
       },
       {
         "question": "What position do you start Back Step Pass from?",
         "answer": "The Back Step Pass starts from Grasshopper Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs.",
         "distractors": {
           "plausible": [
-            "The Back Step Pass starts from Half Guard/Top, once the bottom player's knee shield begins threatening your trapped leg.",
-            "The Back Step Pass starts from De La Riva Guard/Top, as the bottom player's outside hook starts rotating underneath you."
+            "Half Guard, Top",
+            "Ashi Garami, Top"
           ],
           "trap": [
-            "The Back Step Pass starts from inside the opponent's Ashi Garami, after they have already locked both of their legs around your knee."
+            "Grasshopper Guard, Bottom"
+          ]
+        },
+        "answer_line": "Grasshopper Guard, Top"
+      },
+      {
+        "question": "Why should you step at a 45-degree angle rather than straight backward?",
+        "answer": "Stepping at an angle creates lateral distance that prevents the opponent's legs from tracking your movement. A straight backward step allows their entanglement to follow and potentially tighten, while the angled step breaks their control angle and opens a passing lane.",
+        "answer_line": "Breaks angle, opens passing lane",
+        "distractors": {
+          "plausible": [
+            "Faster than stepping straight",
+            "Keeps hips square to opponent"
+          ],
+          "trap": [
+            "Straight retreat is safer"
           ]
         }
       },
       {
-        "question": "Why should you step at a 45-degree angle rather than straight backward?",
-        "answer": "Stepping at an angle creates lateral distance that prevents the opponent's legs from tracking your movement. A straight backward step allows their entanglement to follow and potentially tighten, while the angled step breaks their control angle and opens a passing lane."
-      },
-      {
         "question": "What are the critical grips or controls needed during the Back Step Pass?",
-        "answer": "During execution, hands are used to strip, redirect, or pin opponent's legs as they clear. After the step, crossface control with forearm or bicep pressure across the neck is essential for completing the pass. Near hand blocks far hip to prevent guard recovery."
+        "answer": "During execution, hands are used to strip, redirect, or pin opponent's legs as they clear. After the step, crossface control with forearm or bicep pressure across the neck is essential for completing the pass. Near hand blocks far hip to prevent guard recovery.",
+        "answer_line": "Crossface plus far-hip block",
+        "distractors": {
+          "plausible": [
+            "Underhook the far arm",
+            "Grip both ankles tightly"
+          ],
+          "trap": [
+            "Grab collar, ignore hips"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rolling to follow your back step - how do you respond?",
-        "answer": "Accelerate your forward drive to beat their reinversion timing. Use their rolling momentum against them by driving your crossface as they rotate, flattening their inversion before they can reestablish the guard position. The key is not retreating further but committing forward."
+        "answer": "Accelerate your forward drive to beat their reinversion timing. Use their rolling momentum against them by driving your crossface as they rotate, flattening their inversion before they can reestablish the guard position. The key is not retreating further but committing forward.",
+        "answer_line": "Drive crossface, flatten the roll",
+        "distractors": {
+          "plausible": [
+            "Retreat further to reset",
+            "Wait for them to stop rolling"
+          ],
+          "trap": [
+            "Release grips and reset"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the back step?",
-        "answer": "The optimal window is during the opponent's leg reconfiguration phase—when they are transitioning between hook placements or threading attempts. Their legs are temporarily in flux and cannot fully commit to entanglement, making extraction significantly easier."
+        "answer": "The optimal window is during the opponent's leg reconfiguration phase—when they are transitioning between hook placements or threading attempts. Their legs are temporarily in flux and cannot fully commit to entanglement, making extraction significantly easier.",
+        "answer_line": "During their hook reconfiguration",
+        "distractors": {
+          "plausible": [
+            "Right after they secure hooks",
+            "As soon as they invert"
+          ],
+          "trap": [
+            "Wait until hooks are deep"
+          ]
+        }
       },
       {
         "question": "What hip position should you maintain during the back step movement?",
-        "answer": "Keep your hips low throughout the back step, almost in a sprawling position. High hips during the motion create elevation opportunities for the opponent and make you top-heavy and vulnerable to sweeping techniques. Low hips deny the leverage they need."
+        "answer": "Keep your hips low throughout the back step, almost in a sprawling position. High hips during the motion create elevation opportunities for the opponent and make you top-heavy and vulnerable to sweeping techniques. Low hips deny the leverage they need.",
+        "answer_line": "Low hips, almost sprawling",
+        "distractors": {
+          "plausible": [
+            "High hips for mobility",
+            "Square hips, feet planted"
+          ],
+          "trap": [
+            "Raise hips to clear legs faster"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from recovering half guard as you complete the pass?",
-        "answer": "Block their far hip with your near hand immediately as you drive forward, preventing them from inserting their knee between your bodies. The combination of hip blocking and crossface pressure eliminates the space needed for half guard recovery."
+        "answer": "Block their far hip with your near hand immediately as you drive forward, preventing them from inserting their knee between your bodies. The combination of hip blocking and crossface pressure eliminates the space needed for half guard recovery.",
+        "answer_line": "Block far hip with near hand",
+        "distractors": {
+          "plausible": [
+            "Crossface alone stops it",
+            "Control far wrist instead"
+          ],
+          "trap": [
+            "Let knee in, then flatten"
+          ]
+        }
       },
       {
         "question": "Your opponent threads one leg deeply behind your knee while you are still in combat base - what determines whether you should back step or address the hook directly?",
         "answer": "Hook depth and secondary control decide it: strip a shallow, unsupported hook by hand, but back step once the hook is deep or reinforced. If the hook is shallow and the opponent has not yet secured a second control point such as an ankle grip or hip clamp, you can strip the hook directly with your hand. If the hook is deep and the opponent is beginning to rotate or secure additional control, the back step is necessary because direct stripping will be too slow and risks tightening the entanglement.",
         "distractors": {
           "plausible": [
-            "Strip the hook by hand whenever the opponent is still flat on their back, and back step only once they have fully inverted.",
-            "Your grips decide it: with an underhook you strip the hook by hand, and without one you back step regardless of hook depth."
+            "Always strip by hand first",
+            "Always back step immediately"
           ],
           "trap": [
-            "Always try to strip the hook by hand first, since back stepping too early concedes your base and hands them the sweep."
+            "Ignore hook, drive forward"
           ]
-        }
+        },
+        "answer_line": "Strip shallow, step if deep"
       },
       {
         "question": "What is the direction of force during the forward drive phase of the Back Step Pass?",
-        "answer": "The force drives diagonally forward and downward toward the opponent's upper body, specifically targeting their chest and shoulder line. This direction collapses their inverted posture flat to the mat while simultaneously closing the distance needed to establish crossface and perpendicular alignment for side control."
+        "answer": "The force drives diagonally forward and downward toward the opponent's upper body, specifically targeting their chest and shoulder line. This direction collapses their inverted posture flat to the mat while simultaneously closing the distance needed to establish crossface and perpendicular alignment for side control.",
+        "answer_line": "Diagonal, into chest and shoulder",
+        "distractors": {
+          "plausible": [
+            "Straight down onto hips",
+            "Forward toward their head only"
+          ],
+          "trap": [
+            "Pull back to create space"
+          ]
+        }
       },
       {
         "question": "If your back step clears the entanglement but the opponent recovers butterfly hooks, what chain attack should you use?",
         "answer": "Chain immediately into a butterfly smash or over-under pass, driving your shoulder into their chest and pinning one butterfly hook flat with hip pressure. Alternatively, if they elevate with the hooks, back step again or switch to a leg drag by controlling the ankle of their near leg and dragging it across your body.",
         "distractors": {
           "plausible": [
-            "Chain into a knee cut pass by slicing your knee across their thighs before the butterfly hooks have time to elevate you.",
-            "Back away to standing and restart your pass from open guard so the butterfly hooks never get the chance to connect."
+            "Sit back and reset position",
+            "Switch to a toe hold immediately"
           ],
           "trap": [
-            "Post both hands on the mat and hop your hips over the hooks, keeping your chest upright so you stay mobile above them."
+            "Stand up and disengage"
           ]
-        }
+        },
+        "answer_line": "Smash pass or leg drag ankle"
       },
       {
         "question": "What grip on the opponent's legs is most effective during the clearing phase of the back step?",
-        "answer": "Control the opponent's near-side ankle or shin with your same-side hand while your far hand pushes their far knee toward the mat or across their centerline. This two-point control prevents them from following with either leg and creates the window to drive forward into the pass completion."
+        "answer": "Control the opponent's near-side ankle or shin with your same-side hand while your far hand pushes their far knee toward the mat or across their centerline. This two-point control prevents them from following with either leg and creates the window to drive forward into the pass completion.",
+        "answer_line": "Control ankle, push far knee down",
+        "distractors": {
+          "plausible": [
+            "Grab both ankles equally",
+            "Push near knee across body"
+          ],
+          "trap": [
+            "Release legs, grab collar"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Back Step Pass is generally a low-risk technique when executed with proper timing. The primary safety concern is attempting the back step too late when the opponent has already established deep leg control, as explosive extraction against locked entanglements can strain knee ligaments. If your leg is deeply entangled, prioritize controlled disengagement over forcing the back step. During training, partners should allow the back step to complete rather than cranking on partially cleared leg positions. Communicate immediately if knee discomfort occurs during the extraction phase. The forward drive portion carries minimal injury risk but be mindful of your partner's neck position when establishing crossface.",
@@ -428,27 +512,87 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Back Step Pass is about to be initiated?",
-        "answer": "The earliest cue is the passer shifting their weight noticeably onto one leg while the other becomes lighter in your hooks. This weight transfer is a mechanical prerequisite for the back step and precedes the actual stepping motion by a fraction of a second, giving you the maximum reaction window."
+        "answer": "The earliest cue is the passer shifting their weight noticeably onto one leg while the other becomes lighter in your hooks. This weight transfer is a mechanical prerequisite for the back step and precedes the actual stepping motion by a fraction of a second, giving you the maximum reaction window.",
+        "answer_line": "Weight shifts onto one leg",
+        "distractors": {
+          "plausible": [
+            "Hooks tighten around your leg",
+            "They grip your far collar"
+          ],
+          "trap": [
+            "Wait for the step to land"
+          ]
+        }
       },
       {
         "question": "Why should you target the passer's base leg rather than chasing the retreating leg?",
-        "answer": "The base leg bears the passer's full body weight during the back step and cannot move until the stepping leg touches down. This makes it a stationary target ideal for ashi garami entries. The retreating leg, by contrast, is actively moving away with mechanical advantage, making it extremely difficult to control or recapture."
+        "answer": "The base leg bears the passer's full body weight during the back step and cannot move until the stepping leg touches down. This makes it a stationary target ideal for ashi garami entries. The retreating leg, by contrast, is actively moving away with mechanical advantage, making it extremely difficult to control or recapture.",
+        "answer_line": "Base leg is stationary, weighted",
+        "distractors": {
+          "plausible": [
+            "Retreating leg is easier to catch",
+            "Both legs equally vulnerable"
+          ],
+          "trap": [
+            "Chase the retreating leg"
+          ]
+        }
       },
       {
         "question": "Your reinversion fails and the passer's leg clears your hooks - what is your immediate priority?",
-        "answer": "Your immediate priority is preventing the crossface from establishing before the forward drive consolidates side control. Frame with your forearms against the passer's shoulders, turn to your side to avoid being flattened, and insert a knee or butterfly hook between your bodies. Preventing the crossface preserves your ability to recover guard."
+        "answer": "Your immediate priority is preventing the crossface from establishing before the forward drive consolidates side control. Frame with your forearms against the passer's shoulders, turn to your side to avoid being flattened, and insert a knee or butterfly hook between your bodies. Preventing the crossface preserves your ability to recover guard.",
+        "answer_line": "Frame, turn in, block crossface",
+        "distractors": {
+          "plausible": [
+            "Flatten out and turtle up",
+            "Grab their far ankle again"
+          ],
+          "trap": [
+            "Let crossface land, then bridge"
+          ]
+        }
       },
       {
         "question": "What makes the Back Step Pass particularly dangerous compared to other passing techniques against grasshopper guard?",
-        "answer": "The back step specifically targets grasshopper guard's primary weakness: the reliance on maintaining continuous leg contact with the passer. By extracting backward at an angle rather than driving through the guard, the passer avoids feeding into your sweeping and entanglement mechanics while simultaneously opening a direct path to side control."
+        "answer": "The back step specifically targets grasshopper guard's primary weakness: the reliance on maintaining continuous leg contact with the passer. By extracting backward at an angle rather than driving through the guard, the passer avoids feeding into your sweeping and entanglement mechanics while simultaneously opening a direct path to side control.",
+        "answer_line": "Exploits reliance on leg contact",
+        "distractors": {
+          "plausible": [
+            "Overpowers their grip strength",
+            "Uses submissions to force pass"
+          ],
+          "trap": [
+            "Drives through their guard hard"
+          ]
+        }
       },
       {
         "question": "How should you adjust your grasshopper guard structure if you know your opponent frequently uses the back step?",
-        "answer": "Maintain deeper hooks with your legs wrapped further behind the passer's knees rather than shallow shin-on-shin contact. Keep your secondary leg ready to immediately redirect to the base leg if the primary hook is stripped. Accelerate your attack timeline from grasshopper—commit to sweeps or leg entries faster to force the passer to defend rather than initiate their back step."
+        "answer": "Maintain deeper hooks with your legs wrapped further behind the passer's knees rather than shallow shin-on-shin contact. Keep your secondary leg ready to immediately redirect to the base leg if the primary hook is stripped. Accelerate your attack timeline from grasshopper—commit to sweeps or leg entries faster to force the passer to defend rather than initiate their back step.",
+        "answer_line": "Deepen hooks, attack faster",
+        "distractors": {
+          "plausible": [
+            "Loosen hooks for mobility",
+            "Wait passively for their step"
+          ],
+          "trap": [
+            "Only defend, never attack first"
+          ]
+        }
       },
       {
         "question": "At what point during the Back Step Pass is the passer most vulnerable to a counter-attack?",
-        "answer": "The passer is most vulnerable during the weight transfer phase immediately before the stepping leg begins its arc. At this moment, their weight is concentrated on a single leg, their balance is transitional, and they cannot defend the base leg without aborting the pass. This is the optimal window for shooting into ashi garami on the weighted leg."
+        "answer": "The passer is most vulnerable during the weight transfer phase immediately before the stepping leg begins its arc. At this moment, their weight is concentrated on a single leg, their balance is transitional, and they cannot defend the base leg without aborting the pass. This is the optimal window for shooting into ashi garami on the weighted leg.",
+        "answer_line": "Weight transfer before the step",
+        "distractors": {
+          "plausible": [
+            "Right after the step lands",
+            "While crossface is applied"
+          ],
+          "trap": [
+            "After they achieve side control"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -269,88 +269,143 @@
     "flashcards": [
       {
         "question": "What is the optimal timing to initiate the truck to back control transition?",
-        "answer": "The optimal timing is when the opponent is actively defending a truck-specific submission such as the calf slicer or twister. Their defensive attention is focused on the immediate submission threat, reducing their awareness of positional changes and their readiness to counter the back take. Initiating during a defensive reaction creates the best window because the opponent's hands and hips are committed to submission defense rather than escape positioning."
+        "answer": "The optimal timing is when the opponent is actively defending a truck-specific submission such as the calf slicer or twister. Their defensive attention is focused on the immediate submission threat, reducing their awareness of positional changes and their readiness to counter the back take. Initiating during a defensive reaction creates the best window because the opponent's hands and hips are committed to submission defense rather than escape positioning.",
+        "answer_line": "While defending a submission",
+        "distractors": {
+          "plausible": [
+            "As soon as truck is secured",
+            "When opponent goes still"
+          ],
+          "trap": [
+            "During opponent's scramble"
+          ]
+        }
       },
       {
         "question": "What conditions must exist in the truck position before you should attempt this transition?",
         "answer": "Four conditions must be present: a secure seatbelt grip, stable boot pressure on the hip, an exposed back for hooks, and a defensive opponent. The seatbelt or harness grip must provide reliable upper body control, the boot pressure on the opponent's hip must maintain their orientation, the opponent's back must be sufficiently exposed for hook insertion pathways, and the opponent must be in a defensive posture rather than mid-escape. Attempting the transition without all four conditions significantly increases the risk of losing position entirely during the leg switch.",
         "distractors": {
           "plausible": [
-            "Only the seatbelt grip and boot pressure are truly required; back exposure develops naturally once the leg switch begins.",
-            "The best moment to attempt the transition is while the opponent is mid-escape, since their movement opens the hook pathways."
+            "Just seatbelt and boot pressure",
+            "Any two of the four conditions"
           ],
           "trap": [
-            "Release the boot pressure first to free your legs for the switch, since the seatbelt alone keeps the opponent controlled."
+            "Attempting with leg control only"
+          ]
+        },
+        "answer_line": "Grip, boots, exposure, defense"
+      },
+      {
+        "question": "What is the most critical mechanical detail during the hook insertion phase?",
+        "answer": "The most critical detail is threading the bottom hook first while maintaining partial leg entanglement with the top leg. The bottom hook provides foundational hip control that prevents the opponent from rotating away or executing a hip escape during the transition. Releasing all leg entanglement before any hook is established creates a complete control gap that skilled opponents will immediately exploit.",
+        "answer_line": "Bottom hook first, keep top leg",
+        "distractors": {
+          "plausible": [
+            "Top hook inserted first",
+            "Insert both hooks simultaneously"
+          ],
+          "trap": [
+            "Release all entanglement first"
           ]
         }
       },
       {
-        "question": "What is the most critical mechanical detail during the hook insertion phase?",
-        "answer": "The most critical detail is threading the bottom hook first while maintaining partial leg entanglement with the top leg. The bottom hook provides foundational hip control that prevents the opponent from rotating away or executing a hip escape during the transition. Releasing all leg entanglement before any hook is established creates a complete control gap that skilled opponents will immediately exploit."
-      },
-      {
         "question": "What is the most common reason this transition fails at the intermediate level?",
-        "answer": "The most common failure is releasing seatbelt grip or lifting chest off the opponent's back during the leg switch to facilitate hook threading. This creates upper body separation that allows the opponent to turn, frame, or execute a hip escape. The seatbelt must be maintained throughout the entire transition, and hooks must be threaded using leg movement alone without any upper body compromise."
+        "answer": "The most common failure is releasing seatbelt grip or lifting chest off the opponent's back during the leg switch to facilitate hook threading. This creates upper body separation that allows the opponent to turn, frame, or execute a hip escape. The seatbelt must be maintained throughout the entire transition, and hooks must be threaded using leg movement alone without any upper body compromise.",
+        "answer_line": "Releasing seatbelt during switch",
+        "distractors": {
+          "plausible": [
+            "Threading hooks too slowly",
+            "Losing boot pressure early"
+          ],
+          "trap": [
+            "Lifting chest for more leverage"
+          ]
+        }
       },
       {
         "question": "What grips must be maintained throughout the entire transition from truck to back control?",
         "answer": "The seatbelt grip — one arm over the shoulder, one under the armpit, hands clasped — must be maintained without interruption for the entire transition. This grip provides the only continuous control point during the leg switch phase. Additionally, chest-to-back connection must be constant, serving as both a weight distribution mechanism and a positional anchor that prevents the opponent from creating space.",
         "distractors": {
           "plausible": [
-            "Maintain double underhooks around the opponent's torso, converting to the seatbelt only after both hooks are secured.",
-            "Keep one hand in the collar and one on the wrist so you can threaten chokes while switching your legs."
+            "Just the seatbelt grip",
+            "Boot pressure and seatbelt"
           ],
           "trap": [
-            "Briefly release the seatbelt mid-switch to post a hand on the mat for balance, then re-clasp once your legs settle."
+            "Underhook and collar tie"
           ]
-        }
+        },
+        "answer_line": "Seatbelt grip and chest connection"
       },
       {
         "question": "In which direction should your weight shift during the transition from perpendicular to parallel alignment?",
         "answer": "Your weight should shift forward and slightly upward along the opponent's spine, sliding from the perpendicular truck angle to directly behind their back. The forward pressure is critical because it pins the opponent in place during the transition and prevents them from using the alignment change to create escape angles. Shifting backward or laterally creates space that the opponent can exploit for guard recovery.",
         "distractors": {
           "plausible": [
-            "Shift your weight backward to create the room your legs need to swing into hook position.",
-            "Shift laterally toward the opponent's hips so your bottom hook can reach its pathway sooner."
+            "Straight down onto the hips",
+            "Upward only, no forward push"
           ],
           "trap": [
-            "Sit back onto your hips and pull the opponent on top of you before inserting either hook."
+            "Backward or to the side"
+          ]
+        },
+        "answer_line": "Forward, along the spine"
+      },
+      {
+        "question": "Your opponent frames against your chest as you begin the alignment shift - how do you adjust?",
+        "answer": "When the opponent frames against your chest during the alignment shift, increase your forward pressure and drive your weight into the frames to collapse them. If the frames are strong enough to stall your transition, abandon the back take attempt temporarily and re-establish full truck control with boot pressure. Threaten a calf slicer or twister to force the opponent to remove their frames for submission defense, then reattempt the transition during their defensive reaction.",
+        "answer_line": "Drive forward, collapse frames",
+        "distractors": {
+          "plausible": [
+            "Immediately retreat to truck",
+            "Threaten a submission right away"
+          ],
+          "trap": [
+            "Yank the far wrist to break it"
           ]
         }
       },
       {
-        "question": "Your opponent frames against your chest as you begin the alignment shift - how do you adjust?",
-        "answer": "When the opponent frames against your chest during the alignment shift, increase your forward pressure and drive your weight into the frames to collapse them. If the frames are strong enough to stall your transition, abandon the back take attempt temporarily and re-establish full truck control with boot pressure. Threaten a calf slicer or twister to force the opponent to remove their frames for submission defense, then reattempt the transition during their defensive reaction."
-      },
-      {
         "question": "If the opponent successfully strips your first hook insertion, what options are available?",
-        "answer": "If the first hook is stripped, you have three options: immediately reattempt hook insertion using a circular threading motion while maintaining seatbelt control, return to truck entanglement and re-establish boot pressure to reset the position for another attempt, or use the leg fighting to set up a calf slicer on the opponent's leg that stripped your hook, converting their defensive action into a submission opportunity. The worst response is to chase the hook with both legs while abandoning upper body control."
+        "answer": "If the first hook is stripped, you have three options: immediately reattempt hook insertion using a circular threading motion while maintaining seatbelt control, return to truck entanglement and re-establish boot pressure to reset the position for another attempt, or use the leg fighting to set up a calf slicer on the opponent's leg that stripped your hook, converting their defensive action into a submission opportunity. The worst response is to chase the hook with both legs while abandoning upper body control.",
+        "answer_line": "Reattempt, reset truck, or slicer",
+        "distractors": {
+          "plausible": [
+            "Abandon position, reset to guard",
+            "Switch straight to an armbar"
+          ],
+          "trap": [
+            "Chase hook with both legs"
+          ]
+        }
       },
       {
         "question": "Why is the bottom hook inserted before the top hook during this transition?",
         "answer": "The bottom hook goes in first because it is geometrically closest to the insertion pathway and prevents the opponent from hip escaping away toward the mat. During the perpendicular-to-parallel shift it is the nearest available control point, and once established, your weight settles naturally behind the opponent, making the top hook insertion significantly easier. Reversing this order would require lifting your weight to insert the top hook first, creating instability.",
         "distractors": {
           "plausible": [
-            "The bottom hook is inserted first mainly because it preserves the calf slicer threat if the back take fails.",
-            "The bottom hook goes first because the top hook only becomes available once the opponent is flattened out."
+            "It's your stronger leg",
+            "Mirrors the truck leg position"
           ],
           "trap": [
-            "Insert the top hook first so your weight lifts over the opponent and gravity settles the bottom hook in afterward."
+            "Top hook first, then bottom"
           ]
-        }
+        },
+        "answer_line": "Closer path, blocks hip escape"
       },
       {
         "question": "How does threatening truck submissions create the opening for this back control transition?",
         "answer": "Threatening the calf slicer and twister forces defensive reactions that pull the opponent's hands and attention away from stopping the back take. Defending the calf slicer requires straightening the trapped leg and fighting the lockdown, while defending the twister requires hiding the far arm and protecting the neck — both postures redirect the opponent's hands away from preventing hook insertion and framing against the back take. The submission threat creates a dilemma where defending one threat opens vulnerability to the other.",
         "distractors": {
           "plausible": [
-            "The submission threats mainly fatigue the opponent's grips, so the back take succeeds once their arms tire out.",
-            "The threats force the opponent to turn and face you, squaring their shoulders so the seatbelt is easier to lock."
+            "Submissions weaken their grips",
+            "It tires out the opponent"
           ],
           "trap": [
-            "Fully commit to finishing the calf slicer first, since a locked submission guarantees the back stays exposed."
+            "Ignore subs, rush hooks instead"
           ]
-        }
+        },
+        "answer_line": "Defense pulls hands from hooks"
       }
     ],
     "safety_considerations": "The Truck to Back Control transition involves releasing leg entanglement under tension, which can create unexpected torque on the opponent's knee or ankle if their leg is caught at an awkward angle during the switch. Always execute the leg transition with controlled, deliberate movements rather than explosive jerking motions. If the opponent's leg is tightly entangled, work to gradually release the entanglement before threading hooks rather than forcing through. Be aware that the transition can create momentary compression on the opponent's spine during the alignment shift. In training, communicate with your partner during the leg exchange phase and release immediately if they indicate discomfort in the knee or lower back.",
@@ -468,23 +523,73 @@
     "flashcards": [
       {
         "question": "How do you recognize that your opponent is initiating the transition from truck to back control?",
-        "answer": "The primary indicators are a reduction or change in boot pressure on your hip, the opponent's chest sliding from a perpendicular angle toward directly behind your back, their leg entanglement beginning to loosen, and their arm control tightening into a more defined seatbelt configuration. These cues typically appear in sequence as the opponent shifts their alignment from truck to back control positioning."
+        "answer": "The primary indicators are a reduction or change in boot pressure on your hip, the opponent's chest sliding from a perpendicular angle toward directly behind your back, their leg entanglement beginning to loosen, and their arm control tightening into a more defined seatbelt configuration. These cues typically appear in sequence as the opponent shifts their alignment from truck to back control positioning.",
+        "answer_line": "Boot eases, chest slides behind",
+        "distractors": {
+          "plausible": [
+            "Sudden increase in boot pressure",
+            "They release the seatbelt grip"
+          ],
+          "trap": [
+            "Only watch for hook insertion"
+          ]
+        }
       },
       {
         "question": "What is the critical timing window for your best escape opportunity during this transition?",
-        "answer": "The critical window is the brief moment when the opponent has released their truck leg entanglement but has not yet established both back control hooks. During this phase, the opponent's lower body control is at its weakest point in the entire sequence, as they have neither the truck boot pressure nor the back control hooks providing hip restraint. This window typically lasts only one to two seconds, making immediate action essential."
+        "answer": "The critical window is the brief moment when the opponent has released their truck leg entanglement but has not yet established both back control hooks. During this phase, the opponent's lower body control is at its weakest point in the entire sequence, as they have neither the truck boot pressure nor the back control hooks providing hip restraint. This window typically lasts only one to two seconds, making immediate action essential.",
+        "answer_line": "After truck releases, before hooks",
+        "distractors": {
+          "plausible": [
+            "Right when boot pressure starts",
+            "During the seatbelt grip fight"
+          ],
+          "trap": [
+            "Wait until hooks are set"
+          ]
+        }
       },
       {
         "question": "Your opponent releases boot pressure and begins threading a hook inside your thigh - what is your immediate response?",
-        "answer": "Immediately straighten the targeted leg to make hook insertion difficult while simultaneously executing a hip escape away from the opponent. Use your near hand to push the opponent's foot away from your inner thigh while keeping your far hand defending your neck against choke attempts. If the first hook is successfully stripped, immediately create distance through continued hip escape before the opponent can reattempt, aiming to recover half guard or create a scramble."
+        "answer": "Immediately straighten the targeted leg to make hook insertion difficult while simultaneously executing a hip escape away from the opponent. Use your near hand to push the opponent's foot away from your inner thigh while keeping your far hand defending your neck against choke attempts. If the first hook is successfully stripped, immediately create distance through continued hip escape before the opponent can reattempt, aiming to recover half guard or create a scramble.",
+        "answer_line": "Straighten leg, hip escape away",
+        "distractors": {
+          "plausible": [
+            "Curl leg to block hook entry",
+            "Grab foot with both hands"
+          ],
+          "trap": [
+            "Stay flat and cover your face"
+          ]
+        }
       },
       {
         "question": "Why is preventing the alignment shift from perpendicular to parallel behind your back the most important early defensive action?",
-        "answer": "The perpendicular-to-parallel alignment shift is the prerequisite for hook insertion. From a perpendicular angle, the opponent cannot effectively thread hooks between your thighs because the geometry is wrong. By framing against their chest and preventing this shift, you force them to remain in truck position where their hook insertion pathways are blocked. This early defense is more energy-efficient than fighting individual hooks after the alignment shift has already occurred."
+        "answer": "The perpendicular-to-parallel alignment shift is the prerequisite for hook insertion. From a perpendicular angle, the opponent cannot effectively thread hooks between your thighs because the geometry is wrong. By framing against their chest and preventing this shift, you force them to remain in truck position where their hook insertion pathways are blocked. This early defense is more energy-efficient than fighting individual hooks after the alignment shift has already occurred.",
+        "answer_line": "Blocks the setup for hooks",
+        "distractors": {
+          "plausible": [
+            "It protects your neck first",
+            "Keeps boot pressure on them"
+          ],
+          "trap": [
+            "Wait and fight hooks directly"
+          ]
+        }
       },
       {
         "question": "What body positioning minimizes your vulnerability during the transition phase?",
-        "answer": "Maintain an active defensive posture with hips slightly elevated rather than flat on the mat, chin tucked with one hand defending your neck, the other hand available for framing or hook defense. Keep your legs active and ready to straighten or kick to prevent hook insertion. Stay on your side rather than allowing the opponent to flatten you onto your stomach, as the side position provides better hip mobility for escape movements during the control gap."
+        "answer": "Maintain an active defensive posture with hips slightly elevated rather than flat on the mat, chin tucked with one hand defending your neck, the other hand available for framing or hook defense. Keep your legs active and ready to straighten or kick to prevent hook insertion. Stay on your side rather than allowing the opponent to flatten you onto your stomach, as the side position provides better hip mobility for escape movements during the control gap.",
+        "answer_line": "Hips up, on your side, chin tucked",
+        "distractors": {
+          "plausible": [
+            "Flat on your stomach, arms in",
+            "Hips down, knees together"
+          ],
+          "trap": [
+            "Go fully flat to hide the neck"
+          ]
+        }
       }
     ],
     "training_progressions": [

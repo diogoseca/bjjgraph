@@ -341,32 +341,92 @@
       {
         "question": "Why must you apply kneebar pressure progressively over 5-7 seconds in training rather than explosively?",
         "answer": "Explosive application of the kneebar can cause immediate catastrophic knee injury including PCL tears, MCL ruptures, and meniscus damage before your training partner has time to recognize the danger and tap. The knee joint is extremely vulnerable to hyperextension, and unlike many other submissions, there is minimal safe zone between no pressure and injury threshold. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely, preventing serious injuries that require surgery and months of recovery. This is especially critical from leg entanglement where the control is already established and finishing pressure can be applied very quickly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply pressure over 5-7 seconds",
+        "distractors": {
+          "plausible": [
+            "Any pace is fine if controlled",
+            "Tap signals only, ignore pace"
+          ],
+          "trap": [
+            "Snap it on fast and hard"
+          ]
+        }
       },
       {
         "question": "What is the most critical positional element that determines kneebar success or failure from leg entanglement?",
         "answer": "The perpendicular hip positioning is the most critical element. Your body must form a T-shape with opponent's trapped leg, with your spine at a 90-degree angle to their femur and your fulcrum positioned directly above their kneecap. This perpendicular angle creates the proper lever geometry for hyperextension and prevents opponent from sitting up or turning to face you. From leg entanglement, achieving this angle requires a deliberate hip pivot during the transition from ashi garami hooks to kneebar positioning. Without this angle, the finishing pressure dissipates laterally instead of driving through the knee joint.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Perpendicular hips over knee",
+        "distractors": {
+          "plausible": [
+            "Parallel hips along the leg",
+            "Fulcrum below the kneecap"
+          ],
+          "trap": [
+            "Squeeze harder, angle optional"
+          ]
+        }
       },
       {
         "question": "Why must you maintain tight heel control throughout the kneebar, and what happens if the heel rotates during application?",
         "answer": "Tight heel control is essential because any space between the heel and your chest allows escape and eliminates the distal anchor point of the lever. More critically, if the heel rotates or turns during pressure application, it introduces dangerous rotational torque to the knee joint. This rotation attacks the ACL in addition to the PCL already under hyperextension stress, creating a compound loading mechanism that can cause simultaneous multi-ligament injury. The heel must be locked tightly to your chest with toes pointing straight away, controlled rigidly by both arms in a prayer grip. If rotation begins under load, release all pressure immediately.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Heel locked tight, no rotation",
+        "distractors": {
+          "plausible": [
+            "Some heel space is acceptable",
+            "Grip heel loosely, stay relaxed"
+          ],
+          "trap": [
+            "Twist the heel for more bite"
+          ]
+        }
       },
       {
         "question": "What is the proper power source for the kneebar finish, and why does back arching fail?",
         "answer": "The proper power source is hip extension through engaging the glutes and thrusting hips upward toward the ceiling, mechanically identical to a glute bridge. This creates efficient, controlled pressure against the knee joint while keeping your spine in a safe neutral position. Back arching fails because it generates minimal force against the knee, placing the effort through spinal erectors instead of through the hip-to-kneecap fulcrum line. Additionally, excessive back arching risks lumbar strain to the attacker. The motion should feel like driving your hip bones upward into the space just above their kneecap while pulling the heel downward toward your chest.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Hip extension, glute bridge",
+        "distractors": {
+          "plausible": [
+            "Blend hip drive with back arch",
+            "Pull the heel, arms do the work"
+          ],
+          "trap": [
+            "Arch the back hard to finish"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the kneebar primarily attack, and what is the mechanism of injury?",
         "answer": "The kneebar primarily attacks the posterior cruciate ligament through hyperextension of the knee joint beyond its natural range of motion. The mechanism involves positioning the fulcrum point (your hip or lower abdomen) just above the patella while controlling the heel as the distal anchor, then extending your hips to create a lever that forces the knee into hyperextension. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus stress respectively, and the menisci, which can tear under compressive or rotational forces. If the heel rotates during application, the ACL also becomes vulnerable to torsional damage.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "PCL hyperextension is primary",
+        "distractors": {
+          "plausible": [
+            "ACL is the main target",
+            "Only meniscus is at risk"
+          ],
+          "trap": [
+            "Rotate heel to add ACL damage"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their leg to defend your heel hook from ashi garami - how do you recognize and execute the transition to kneebar?",
         "answer": "The moment you feel opponent extending their leg against your entanglement hooks, recognize this as the kneebar window opening. Their defensive straightening creates exactly the leg extension the kneebar requires. Immediately release your heel hook grip configuration and transition to controlling their full lower leg by pulling the heel toward your chest. Simultaneously pivot your hips perpendicular to their now-extended leg. The key is maintaining your existing entanglement hooks during this grip transition to prevent them from retracting. Lock the figure-four leg triangle around their thigh before releasing the ashi garami hooks, ensuring continuous control throughout.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep hooks, pull heel, pivot",
+        "distractors": {
+          "plausible": [
+            "Release hooks first, then pivot",
+            "Switch straight to figure-four"
+          ],
+          "trap": [
+            "Let go of entanglement, reset"
+          ]
+        }
       },
       {
         "question": "At what point during the kneebar from leg entanglement is there no escape for your opponent?",
@@ -374,13 +434,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The point of no escape is reached as soon as the figure-four leg triangle locks, even before the heel is secured to the chest.",
-            "Escape becomes impossible the moment hip extension begins, regardless of your hip angle or how the heel is gripped."
+            "Figure-four locked is enough",
+            "Perpendicular angle alone seals it"
           ],
           "trap": [
-            "Once you control the heel you can finish from any angle, so extend your hips hard immediately before they can bend the knee."
+            "Start cranking before it's locked"
           ]
-        }
+        },
+        "answer_line": "Hips, figure-four, heel all locked"
       },
       {
         "question": "How should you adjust your grip if opponent attempts to rotate their heel during the kneebar finish?",
@@ -388,23 +449,44 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Counter heel rotation by extending your arms to chase the heel and re-establishing the prayer grip out at chest level.",
-            "Squeeze the prayer grip harder while letting their toes angle toward you so the heel stays trapped against your chest."
+            "Grip harder at chest level",
+            "Use one hand to block rotation"
           ],
           "trap": [
-            "If the heel starts rotating, accelerate your hip extension to finish the kneebar before they can complete the escape."
+            "Push through the rotation"
           ]
-        }
+        },
+        "answer_line": "Pin heel deep in armpit"
       },
       {
         "question": "Why is the transition from entanglement hooks to figure-four leg triangle critical, and what happens if you release hooks too early?",
         "answer": "The transition from ashi garami hooks to figure-four leg triangle must overlap to maintain continuous leg control. If you release entanglement hooks before the figure-four is locked, a brief control gap opens during which the opponent can retract their leg and escape both the kneebar attempt and potentially the entire entanglement. This is especially dangerous because the opponent is already actively trying to free their leg during your attack transition. The correct technique maintains ashi hooks until the inside leg threads across the thigh and the outside foot locks behind the ankle, only then releasing the original entanglement structure. Drilling this overlapping transition is essential for competition reliability.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Overlap hooks with figure-four",
+        "distractors": {
+          "plausible": [
+            "Release hooks, then lock triangle",
+            "Switch hands before threading leg"
+          ],
+          "trap": [
+            "Drop hooks early to save energy"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully sits up and begins stripping your heel control - what immediate adjustment preserves the attack?",
         "answer": "When opponent sits up, immediately increase pressure with your free leg frame against their chest or shoulder, pushing them back to create distance. If they continue closing distance despite the frame, tighten the figure-four squeeze on their thigh and pull the heel deeper into your armpit for maximum grip security. If they begin peeling your fingers, switch to a reinforced grip by clasping your hands together rather than relying on individual finger strength. If they successfully strip the heel despite these adjustments, immediately transition back to the leg entanglement and threaten heel hook or ankle lock rather than forcing a compromised kneebar. The offensive chain pressure prevents them from establishing a safe recovery position.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Frame off, tighten, re-attack legs",
+        "distractors": {
+          "plausible": [
+            "Chase the heel with one hand",
+            "Hold position, wait it out"
+          ],
+          "trap": [
+            "Force the kneebar regardless"
+          ]
+        }
       },
       {
         "question": "What are the primary tap signals you must recognize immediately when applying a kneebar from leg entanglement?",
@@ -412,13 +494,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Only count deliberate taps on your own body as valid; taps on the mat are often just repositioning and should be confirmed first.",
-            "Hand taps are the primary signal in leg locks; verbal submissions only count once the referee acknowledges them."
+            "Wait for a clear verbal tap only",
+            "Slow down, don't fully stop"
           ],
           "trap": [
-            "Frantic movement usually means they are escaping, so tighten and extend through it until you feel a clear, deliberate tap."
+            "Keep cranking until they yell"
           ]
-        }
+        },
+        "answer_line": "Any tap or pain, stop now"
       },
       {
         "question": "How do you assess whether your kneebar position quality is sufficient for a safe finish in competition?",
@@ -426,13 +509,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "The finish is safe once the figure-four is locked tight, even if your hip angle is still slightly acute to their leg.",
-            "Firm heel-to-chest contact alone confirms a safe finish; the hip angle can be corrected during the extension itself."
+            "Figure-four locked is sufficient",
+            "Any angle works if heel is tight"
           ],
           "trap": [
-            "If they grip their own leg or hook your head, extend harder anyway, since muscling through defenses beats abandoning the kneebar."
+            "Finish even with space at heel"
           ]
-        }
+        },
+        "answer_line": "Perpendicular, figure-4, tight heel"
       }
     ],
     "clips": [
@@ -542,27 +626,77 @@
       {
         "question": "Why is it critical to tap immediately when kneebar finishing pressure begins rather than attempting a late escape?",
         "answer": "The knee joint has minimal tolerance for hyperextension compared to other joints, and the transition from controlled pressure to catastrophic ligament damage can occur in less than one second. Unlike chokes where unconsciousness provides a gradual warning, knee hyperextension can cause immediate PCL tears, MCL ruptures, and meniscus damage before you have time to execute an escape. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound the injury risk into potential multi-ligament damage. From leg entanglement, the attacker already has strong positional control, making late escapes even less viable.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Injury happens in under a second",
+        "distractors": {
+          "plausible": [
+            "You'll feel pain before damage",
+            "Escape early pressure, then tap"
+          ],
+          "trap": [
+            "Explode out to escape late"
+          ]
+        }
       },
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from a heel hook or ankle lock to a kneebar within the leg entanglement?",
         "answer": "The earliest cue is feeling the attacker release their grip configuration on your foot or heel and begin pulling your entire lower leg toward their chest while their hips start pivoting perpendicular to your trapped leg. You will simultaneously feel their inside leg transitioning from the ashi garami hook behind your knee to threading across the front of your thigh. Your immediate response must be to aggressively bend your knee and grab your own shin with both hands before the figure-four leg triangle can be established. Acting in this 1-2 second transition window gives you the highest probability of preventing the kneebar from developing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grab shin before figure-four locks",
+        "distractors": {
+          "plausible": [
+            "Wait until hips go perpendicular",
+            "Point toes to relieve pressure"
+          ],
+          "trap": [
+            "Try to rip the leg free fast"
+          ]
+        }
       },
       {
         "question": "Why should you move toward the attacker rather than pulling away when defending a kneebar from leg entanglement?",
         "answer": "The kneebar's mechanical leverage requires distance between the attacker's hips (the fulcrum above your kneecap) and your heel (the distal lever arm). Pulling away increases this distance and actually strengthens the submission by driving your heel deeper into their control and creating a longer, more powerful lever arm for hyperextension. Moving toward the attacker collapses this distance, reducing or eliminating the lever geometry needed for the finish. Sitting up and driving forward also allows you to reach their hands for grip fighting to strip heel control, and a bent knee driven forward into their body is biomechanically resistant to hyperextension.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Move in, collapse the lever",
+        "distractors": {
+          "plausible": [
+            "Stay still, brace the leg",
+            "Straighten the leg to resist"
+          ],
+          "trap": [
+            "Pull away to create space"
+          ]
+        }
       },
       {
         "question": "Your opponent has pivoted perpendicular but has not locked the figure-four leg triangle - what specific defensive actions should you take?",
         "answer": "Immediately grab your own knee or shin with BOTH hands using a gable grip or interlocked fingers for maximum security. Pull your trapped leg tight to your chest to prevent the attacker from threading their inside leg across your thigh. Simultaneously begin sitting up toward the attacker by driving your hips forward and lifting your chest. Use your free leg to push against the attacker's hips or look for the opportunity to step over their head and establish a defensive hook. This combined defense attacks two elements the attacker needs: leg isolation through your grip and positional dominance through your posture recovery. Every second of delay in this window makes the figure-four lock more likely.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grab shin, sit up, drive in",
+        "distractors": {
+          "plausible": [
+            "Wait for figure-four to react",
+            "Push away with the free leg only"
+          ],
+          "trap": [
+            "Kick out to yank leg free"
+          ]
+        }
       },
       {
         "question": "Why is attempting an explosive rotational escape the most dangerous defensive error when kneebar finishing pressure is being applied?",
         "answer": "Explosive rotation while the knee is under hyperextension pressure introduces torsional force in a plane the knee joint is not designed to resist. The knee primarily functions in flexion and extension; adding rotational torque under hyperextension load attacks the anterior cruciate ligament in addition to the posterior cruciate ligament already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear. Multi-ligament knee injuries often require multiple surgeries, 12+ months of rehabilitation, and may result in permanent joint instability. A controlled tap preserves all ligaments intact and allows immediate return to training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Rotation compounds ACL injury",
+        "distractors": {
+          "plausible": [
+            "Rotation is safe if quick",
+            "Bend the knee to escape rotation"
+          ],
+          "trap": [
+            "Twist out explosively"
+          ]
+        }
       }
     ],
     "training_progressions": [
