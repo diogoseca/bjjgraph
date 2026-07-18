@@ -143,9 +143,7 @@ The triangle choke has evolved significantly since its popularization in competi
 
 - **[[Transitions/Closed Guard to Omoplata/Attacker|Closed Guard to Omoplata]]** (5% of attempts)
 
-- **[[Inverted Triangle from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (13% of attempts)
-
-- **[[Transitions/Inverted Triangle/Attacker|Inverted Triangle]]** (3% of attempts)
+- **[[Inverted Triangle from Triangle Control/Attacker|Inverted Triangle from Triangle Control]]** (16% of attempts)
 
 
 ### Common Mistakes

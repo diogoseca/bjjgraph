@@ -210,7 +210,7 @@ From the top attacking perspective, the position offers significant control adva
 ### Available Transitions
 
 
-- **[[Estima Lock from Estima Lock Control/Attacker|Estima Lock from Estima Lock Control]]** (39% of attempts)
+- **[[Estima Lock from Estima Lock Control/Attacker|Estima Lock from Estima Lock Control]]** (41% of attempts)
 
 - **[[Transitions/Estima Lock to Saddle/Attacker|Estima Lock to Saddle]]** (12% of attempts)
 
@@ -219,8 +219,6 @@ From the top attacking perspective, the position offers significant control adva
 - **[[Transitions/Kneebar from Estima Lock/Attacker|Kneebar from Estima Lock]]** (11% of attempts)
 
 - **[[Transitions/Toe Hold from Estima Lock/Attacker|Toe Hold from Estima Lock]]** (19% of attempts)
-
-- **[[Transitions/Estima Lock/Attacker|Estima Lock]]** (2% of attempts)
 
 
 ### Common Mistakes

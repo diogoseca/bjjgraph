@@ -33,7 +33,7 @@ description: "Master Ashi Garami from bottom with systematic leg control, hierar
     {
       "@type": "HowToStep",
       "name": "Execute Heel Hook from Ashi Garami",
-      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 2% of exchanges from this position.",
+      "text": "From this position, attempt Heel Hook from Ashi Garami. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {

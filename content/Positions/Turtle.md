@@ -234,11 +234,9 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 - **[[Belly Down Armbar from Turtle/Attacker|Belly Down Armbar from Turtle]]** (1% of attempts)
 
-- **[[Submissions/Boston Crab/Attacker|Boston Crab]]** (1% of attempts)
-
 - **[[Transitions/Clock Choke/Attacker|Clock Choke]]** (1% of attempts)
 
-- **[[Boston Crab from Turtle/Attacker|Boston Crab from Turtle]]** (1% of attempts)
+- **[[Boston Crab from Turtle/Attacker|Boston Crab from Turtle]]** (2% of attempts)
 
 - **[[Kimura from Turtle/Attacker|Kimura from Turtle]]** (1% of attempts)
 

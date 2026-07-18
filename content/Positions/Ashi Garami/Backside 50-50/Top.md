@@ -45,7 +45,7 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
     {
       "@type": "HowToStep",
       "name": "Execute Kneebar from Backside 50-50",
-      "text": "From this position, attempt Kneebar from Backside 50-50. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Kneebar from Backside 50-50. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {

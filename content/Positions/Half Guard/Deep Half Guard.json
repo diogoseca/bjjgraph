@@ -562,7 +562,7 @@
       },
       {
         "transition": "Electric Chair from Deep Half Guard",
-        "attempt_probability": 6
+        "attempt_probability": 9
       },
       {
         "transition": "Underhook Sweep from Half",
@@ -591,10 +591,6 @@
       {
         "transition": "Homer Simpson Sweep",
         "attempt_probability": 2
-      },
-      {
-        "transition": "Electric Chair",
-        "attempt_probability": 3
       }
     ]
   }

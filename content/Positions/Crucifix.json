@@ -297,12 +297,8 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Bicep Slicer",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Bicep Slicer from Crucifix",
-        "attempt_probability": 2
+        "attempt_probability": 4
       }
     ],
     "flashcards": [

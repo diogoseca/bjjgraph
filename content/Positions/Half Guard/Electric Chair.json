@@ -573,12 +573,8 @@
         "attempt_probability": 8
       },
       {
-        "transition": "Electric Chair",
-        "attempt_probability": 12
-      },
-      {
         "transition": "Electric Chair from Electric Chair",
-        "attempt_probability": 6
+        "attempt_probability": 18
       }
     ]
   }
