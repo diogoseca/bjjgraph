@@ -21,7 +21,7 @@ description: "Master mounted triangle attacks from top position. High-percentage
     {
       "@type": "HowToStep",
       "name": "Execute Triangle Choke from Mounted Triangle",
-      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {

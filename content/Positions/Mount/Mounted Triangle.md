@@ -222,7 +222,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 ### Available Transitions
 
 
-- **[[Triangle Choke from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (21% of attempts)
+- **[[Triangle Choke from Mounted Triangle/Attacker|Triangle Choke from Mounted Triangle]]** (23% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
@@ -245,8 +245,6 @@ Success in mounted triangle requires understanding the biomechanical principles 
 - **[[Transitions/Mounted Triangle Squeeze/Attacker|Mounted Triangle Squeeze]]** (3% of attempts)
 
 - **[[Transitions/Mounted Triangle to S Mount/Attacker|Mounted Triangle to S Mount]]** (2% of attempts)
-
-- **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** (2% of attempts)
 
 - **[[Belly Down Armbar from Mounted Triangle/Attacker|Belly Down Armbar from Mounted Triangle]]** (4% of attempts)
 

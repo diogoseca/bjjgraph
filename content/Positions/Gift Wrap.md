@@ -232,9 +232,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 - **[[Transitions/Gift Wrap Maintenance/Attacker|Gift Wrap Maintenance]]** (2% of attempts)
 
-- **[[Submissions/Gift Wrap Armbar/Attacker|Gift Wrap Armbar]]** (2% of attempts)
-
-- **[[Gift Wrap Armbar from Gift Wrap/Attacker|Gift Wrap Armbar from Gift Wrap]]** (2% of attempts)
+- **[[Gift Wrap Armbar from Gift Wrap/Attacker|Gift Wrap Armbar from Gift Wrap]]** (4% of attempts)
 
 - **[[Kimura from Gift Wrap/Attacker|Kimura from Gift Wrap]]** (7% of attempts)
 

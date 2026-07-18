@@ -343,14 +343,6 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Brabo Choke",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Chin Strap Guillotine",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Peruvian Necktie from Front Headlock",
         "attempt_probability": 2
       },
@@ -363,24 +355,20 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Japanese Necktie",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Ten Finger Guillotine from Front Headlock",
         "attempt_probability": 2
       },
       {
         "transition": "Brabo Choke from Front Headlock",
-        "attempt_probability": 2
+        "attempt_probability": 4
       },
       {
         "transition": "Chin Strap Guillotine from Front Headlock",
-        "attempt_probability": 2
+        "attempt_probability": 4
       },
       {
         "transition": "Japanese Necktie from Front Headlock",
-        "attempt_probability": 2
+        "attempt_probability": 4
       }
     ],
     "flashcards": [
