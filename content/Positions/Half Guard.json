@@ -1,6 +1,13 @@
 {
   "name": "Half Guard",
   "slug": "half-guard",
+  "aliases": [
+    "Meia Guarda"
+  ],
+  "bot_metadata": {
+    "last_improved": "2026-07-19",
+    "last_improved_by": "analytics-bot"
+  },
   "description": "Master Half Guard in BJJ with comprehensive bottom and top strategies. Learn sweeps, passes, and transitions with expert techniques for all skill levels.",
   "summary": "Half Guard is an asymmetric BJJ position where one player traps a single leg of their opponent between both of their own legs, creating a contested platform for sweeps, passes, submissions, and back takes from either top or bottom.",
   "variant_uniqueness": "Asymmetric leg trap for dynamic offense",
@@ -97,6 +104,14 @@
     {
       "name": "Quarter Guard",
       "relationship": "Transitional position between Half Guard and full pass where only the ankle remains trapped"
+    },
+    {
+      "name": "Dogfight Position",
+      "relationship": "Scramble position that erupts from the Half Guard underhook battle when both players win underhooks and race to come up on top"
+    },
+    {
+      "name": "Z-Guard",
+      "relationship": "Knee-shield-driven guard closely related to Half Guard bottom, using a shin frame across the hips to manage distance and prevent chest-to-chest flattening"
     }
   ],
   "top": {

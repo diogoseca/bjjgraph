@@ -7,6 +7,10 @@
     "DLR Guard",
     "DLR"
   ],
+  "bot_metadata": {
+    "last_improved": "2026-07-19",
+    "last_improved_by": "analytics-bot"
+  },
   "variant_uniqueness": "Dynamic hooks trade static frames for leverage",
   "summary": "De La Riva Guard is a hook-based open guard in which the bottom player wraps a foot around the opponent's lead leg to off-balance them, opening sweeps, berimbolo back-takes, and entries to X-Guard and leg locks.",
   "overview": "De La Riva Guard (DLR) is a sophisticated open guard variation where the bottom player hooks the opponent's lead leg with their outside foot while controlling the ankle or pant with their hand on the same side. The other hand typically controls the opponent's sleeve or collar, creating a structure that limits the opponent's mobility and generates powerful sweeping leverage. This guard has become fundamental in modern BJJ, particularly for setting up berimbolo sequences, back takes, and creating connections to other guard systems.\n\nDeveloped by Ricardo De La Riva in the 1980s as a counter to the traditional standing guard pass, this position revolutionized modern guard play by introducing a systematic approach to controlling the opponent's base from an off-angle relationship. The DLR hook creates a powerful mechanical advantage that disrupts the opponent's weight distribution and limits their passing options, forcing them into predictable responses that can be exploited through sweeps, back takes, or transitions to other guard systems. The position's effectiveness lies in its ability to create constant threats while maintaining defensive security, making it a cornerstone of contemporary competitive BJJ at all belt levels.\n\nThe De La Riva system offers exceptional versatility for practitioners of all levels. Beginners can learn fundamental off-balancing principles and basic sweeps that work at percentage rates around 35-40%. Intermediate practitioners develop sophisticated berimbolo entries and guard retention strategies that increase success rates to 50-60%. Advanced competitors master the full DLR ecosystem, including kiss of the dragon variations, seamless transitions to X-Guard and Single Leg X, and leg entanglement systems that achieve success rates of 65-75% in competition. The position's adaptability to both gi and no-gi contexts, combined with its direct pathways to dominant positions like back control and mount, makes it an essential component of any modern BJJ game plan.\n\nThe strategic genius of De La Riva Guard lies in its dilemma-based attack structure. Every defensive reaction by the top player opens a different offensive pathway for the guard player. Driving forward exposes the passer to berimbolo and inversion entries. Standing tall with weight back invites under-transitions to X-Guard and Single Leg X. Attempting to strip grips creates timing windows for basic sweeps. This layered threat matrix forces the top player into a reactive posture, constantly defending rather than initiating their own passing sequences. Understanding and exploiting this reaction-based framework is what separates competent DLR players from truly dangerous ones.",
@@ -56,6 +60,18 @@
     {
       "name": "K-Guard",
       "relationship": "Modern guard system accessible from DLR through inversion entries, sharing similar leg entanglement pathways"
+    },
+    {
+      "name": "Collar Sleeve Guard",
+      "relationship": "Compatible grip-based open guard frequently layered with the DLR hook to add a second control point and enable collar-drag and off-balancing sequences"
+    },
+    {
+      "name": "Grasshopper Guard",
+      "relationship": "Inverted control position reached directly from DLR via the De La Riva to Grasshopper Guard transition when the passer drives forward"
+    },
+    {
+      "name": "Lapel Guard",
+      "relationship": "Gi-specific control reachable from DLR through the De La Riva to Lapel Guard transition, trading the leg hook for lapel wraps that lock the passer's base"
     }
   ],
   "top": {
