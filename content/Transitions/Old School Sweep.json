@@ -389,13 +389,14 @@
         "answer": "The order is lockdown first, deep underhook second, head control third — each control protects the establishment of the next. The lockdown immobilizes the opponent's base and creates the foundation; the deep underhook provides sweeping leverage before the opponent can establish a whizzer; head control breaks posture and prevents defensive posting. The sequence matters because without lockdown the opponent can base freely, without the underhook you lack sweep power, and fighting for head control without the first two exposes you to passing.",
         "distractors": {
           "plausible": [
-            "Get the deep underhook first, then the lockdown, then head control, since the underhook is the main source of sweep power.",
-            "Head control comes first to break posture, then the underhook, and the lockdown last to trap the leg for the finish."
+            "Break posture before the leg lace",
+            "Fight the underarm grip first"
           ],
           "trap": [
-            "Skip the lockdown and rely on underhook plus head control alone, since fewer controls lets you sweep faster."
+            "Swim for a collar tie, drop leg"
           ]
-        }
+        },
+        "answer_line": "Lockdown, then underhook, then head"
       },
       {
         "question": "What specific hip and shoulder positioning creates maximum sweeping leverage during the Old School Sweep?",

@@ -403,7 +403,17 @@
       {
         "question": "Your opponent begins rotating their thumb downward into the hitchhiker position during your armbar attempt - what adjustment prevents escape and what anatomical concern does this create?",
         "answer": "When the opponent rotates their thumb downward (hitchhiker escape), immediately adjust by following their rotation with your grip and repositioning to attack the shoulder instead, or use your free leg to block their rotation by pressing against their trapped shoulder or head. The anatomical concern is significant: if you continue forcing the armbar with the thumb down, you attack the shoulder joint rather than the elbow, which creates a different submission with higher injury risk and faster damage potential. The shoulder has less structural tolerance than the elbow, so recognize this transition and either adjust your attack angle or switch to a shoulder lock with appropriate caution.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Block the rotation with free leg",
+        "distractors": {
+          "plausible": [
+            "Bridge hips higher to finish elbow",
+            "Pinch knees and lean back harder"
+          ],
+          "trap": [
+            "Release leg pressure to re-grip"
+          ]
+        }
       },
       {
         "question": "During competition, you have the crucifix armbar locked but your opponent refuses to tap despite their arm being fully extended - how do you approach this finishing scenario safely?",

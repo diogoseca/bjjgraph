@@ -375,7 +375,17 @@
       },
       {
         "question": "What direction of force does your underhook arm apply during the entry?",
-        "answer": "The underhook arm pulls the far leg toward your chest while simultaneously pulling your own body underneath the opponent's hips. The force direction is diagonal, inward toward your centerline and downward toward the mat. This creates a compression that locks the leg to your body and draws your shoulder into the wedge position against their inner thigh. Pulling straight backward would push the opponent away rather than loading them onto your leverage point."
+        "answer": "The underhook arm pulls the far leg toward your chest while simultaneously pulling your own body underneath the opponent's hips. The force direction is diagonal, inward toward your centerline and downward toward the mat. This creates a compression that locks the leg to your body and draws your shoulder into the wedge position against their inner thigh. Pulling straight backward would push the opponent away rather than loading them onto your leverage point.",
+        "answer_line": "Diagonal in and down",
+        "distractors": {
+          "plausible": [
+            "Straight down into the mat",
+            "Inward to your centerline"
+          ],
+          "trap": [
+            "Pull straight back and away"
+          ]
+        }
       },
       {
         "question": "If the entry fails and you find yourself stuck halfway with one arm threaded but your body still flat, what is the recovery sequence?",

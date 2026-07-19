@@ -297,7 +297,17 @@
       {
         "question": "What anatomical structure does the Kimura from Quarter Guard primarily attack?",
         "answer": "The Kimura primarily attacks the shoulder joint, specifically targeting the rotator cuff complex including the supraspinatus, infraspinatus, teres minor, and subscapularis muscles, the glenoid labrum, and the shoulder capsule through forced internal rotation that exceeds the joint's natural range of motion.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder joint (internal rotation)",
+        "distractors": {
+          "plausible": [
+            "Elbow joint (hyperextension)",
+            "Shoulder via external rotation"
+          ],
+          "trap": [
+            "Wrist joint (rotational lock)"
+          ]
+        }
       },
       {
         "question": "Your opponent straightens their arm as you attempt the figure-four grip—what adjustment do you make?",
@@ -347,7 +357,17 @@
       {
         "question": "Your opponent bridges toward the trapped arm during the finishing sequence—how do you maintain control?",
         "answer": "Widen your base by stepping your far leg out while keeping your near knee tight to their hip. Drop your weight heavily through your chest onto their upper body to flatten them back down. If the bridge continues despite weight adjustment, follow the roll direction and maintain the grip—you can finish the kimura from the resulting position or transition to side control with the grip intact.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Widen base, drop chest to flatten",
+        "distractors": {
+          "plausible": [
+            "Sit up tall to ride the bridge",
+            "Narrow knees and squeeze tighter"
+          ],
+          "trap": [
+            "Roll away from their bridge"
+          ]
+        }
       },
       {
         "question": "What grip adjustments should you make if your opponent's wrist becomes difficult to control during rotation?",
@@ -412,7 +432,17 @@
       {
         "question": "How do you manage the transition from crossface control to kimura grip without losing positional dominance?",
         "answer": "Maintain shoulder pressure through the crossface side even as your hands transition to the kimura grip. Your shoulder should stay heavy on their face or far cheek throughout the transition using body weight rather than hand control. Secure the wrist with your far hand first before moving your crossface arm, then thread the figure-four arm quickly while your shoulder maintains pressure through positioning.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder heavy throughout the switch",
+        "distractors": {
+          "plausible": [
+            "Thread figure-four before the wrist",
+            "Switch grips fast, then re-pressure"
+          ],
+          "trap": [
+            "Lift chest to muscle the grip"
+          ]
+        }
       }
     ],
     "clips": [
@@ -581,7 +611,17 @@
       {
         "question": "What common mistake causes defenders to get caught by the Kimura from Quarter Guard most frequently?",
         "answer": "The most common mistake is overcommitting to the underhook without protecting the wrist. Practitioners focus so intently on establishing the underhook for sweeps and back takes that they extend their arm carelessly, creating the exact wrist exposure the top player needs. The correction is to reach for the underhook with awareness of your wrist position, keeping your elbow bent and close to your body until the underhook is fully secured rather than reaching with an extended arm.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Chasing underhook, wrist exposed",
+        "distractors": {
+          "plausible": [
+            "Rushing the back take too early",
+            "Underhooking on the wrong side"
+          ],
+          "trap": [
+            "Turning away to hide the arm"
+          ]
+        }
       }
     ],
     "training_progressions": [

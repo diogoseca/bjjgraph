@@ -257,7 +257,17 @@
       },
       {
         "question": "Your opponent drives forward aggressively as you attempt guard recovery - how do you adapt?",
-        "answer": "Use their forward momentum to assist your hip rotation rather than fighting against it. Their drive actually helps you get under them if you time the guard closure correctly. As they commit weight forward, accelerate your hip rotation and close your ankles behind their back, using their pressure to pull you into proper guard position. Their aggression becomes your advantage."
+        "answer": "Use their forward momentum to assist your hip rotation rather than fighting against it. Their drive actually helps you get under them if you time the guard closure correctly. As they commit weight forward, accelerate your hip rotation and close your ankles behind their back, using their pressure to pull you into proper guard position. Their aggression becomes your advantage.",
+        "answer_line": "Use their momentum to close guard",
+        "distractors": {
+          "plausible": [
+            "Frame their hips and push away",
+            "Shrimp back to make space"
+          ],
+          "trap": [
+            "Turn to knees to stand up"
+          ]
+        }
       },
       {
         "question": "What is the correct direction for the initial hip escape and why does it matter?",
@@ -303,7 +313,17 @@
       },
       {
         "question": "How do you manage energy expenditure during repeated guard recovery attempts from turtle?",
-        "answer": "Use positional frames and body weight rather than muscular effort to create space. Time attempts for when the opponent's weight shifts forward rather than fighting against their settled pressure. Small, efficient hip escapes conserve more energy than explosive movements. If the initial attempt fails, reset your defensive posture calmly rather than frantically chaining multiple high-energy attempts that leave you gassed."
+        "answer": "Use positional frames and body weight rather than muscular effort to create space. Time attempts for when the opponent's weight shifts forward rather than fighting against their settled pressure. Small, efficient hip escapes conserve more energy than explosive movements. If the initial attempt fails, reset your defensive posture calmly rather than frantically chaining multiple high-energy attempts that leave you gassed.",
+        "answer_line": "Frames and weight, not muscle",
+        "distractors": {
+          "plausible": [
+            "Attack when their weight settles",
+            "Big explosive hip escapes"
+          ],
+          "trap": [
+            "Chain frantic explosive attempts"
+          ]
+        }
       },
       {
         "question": "When should you abandon the closed guard recovery and pursue half guard or butterfly guard instead?",

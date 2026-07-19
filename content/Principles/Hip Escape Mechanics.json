@@ -434,7 +434,17 @@
   "flashcards": [
     {
       "question": "What is the correct sequence of movements in a complete hip escape?",
-      "answer": "Bridge to unweight the hips and create initial space, frame against the opponent to preserve it, rotate the hips perpendicular to their centerline to generate distance, then recover the legs to rebuild guard."
+      "answer": "Bridge to unweight the hips and create initial space, frame against the opponent to preserve it, rotate the hips perpendicular to their centerline to generate distance, then recover the legs to rebuild guard.",
+      "answer_line": "Bridge, frame, shrimp, recover guard",
+      "distractors": {
+        "plausible": [
+          "Frame, then bridge, then shrimp",
+          "Shrimp hips, then bridge and frame"
+        ],
+        "trap": [
+          "Turn belly-down to crawl out"
+        ]
+      }
     },
     {
       "question": "Why must you bridge before rotating your hips during an escape?",

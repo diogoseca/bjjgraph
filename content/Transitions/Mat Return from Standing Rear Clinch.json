@@ -334,7 +334,17 @@
       },
       {
         "question": "What is the single most common reason mat returns fail against experienced opponents?",
-        "answer": "Insufficient posture breaking before attempting the descent. Experienced opponents maintain an upright posture with a strong wide base that makes it nearly impossible to pull them down with grip strength alone. The mat return requires first compromising their posture by driving them forward at the waist, loading your weight onto their back, or timing the attempt when their posture is momentarily broken during grip transitions. Without this setup, the opponent simply widens their base and the mat return stalls completely."
+        "answer": "Insufficient posture breaking before attempting the descent. Experienced opponents maintain an upright posture with a strong wide base that makes it nearly impossible to pull them down with grip strength alone. The mat return requires first compromising their posture by driving them forward at the waist, loading your weight onto their back, or timing the attempt when their posture is momentarily broken during grip transitions. Without this setup, the opponent simply widens their base and the mat return stalls completely.",
+        "answer_line": "Didn't break posture first",
+        "distractors": {
+          "plausible": [
+            "Loaded weight onto back too late",
+            "Attacked before the grip switch"
+          ],
+          "trap": [
+            "Sat back to pull them over"
+          ]
+        }
       },
       {
         "question": "After landing on the ground from a mat return, what is the priority sequence for establishing control?",

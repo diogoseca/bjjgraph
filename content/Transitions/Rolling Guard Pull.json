@@ -303,7 +303,17 @@
       },
       {
         "question": "What grip configurations are required before you can safely initiate the rolling guard pull?",
-        "answer": "At minimum, you need one strong grip that will survive rotational stress: a deep cross-collar grip, a firm sleeve grip at the wrist, or a belt grip. Two grips are ideal, with the primary grip being the anchor that maintains connection and the secondary grip assisting the pull direction. Collar-and-sleeve is the highest percentage combination because the collar grip pulls them forward while the sleeve grip controls their posting ability. Without at least one grip, the roll results in complete disconnection and a vulnerable ground position."
+        "answer": "At minimum, you need one strong grip that will survive rotational stress: a deep cross-collar grip, a firm sleeve grip at the wrist, or a belt grip. Two grips are ideal, with the primary grip being the anchor that maintains connection and the secondary grip assisting the pull direction. Collar-and-sleeve is the highest percentage combination because the collar grip pulls them forward while the sleeve grip controls their posting ability. Without at least one grip, the roll results in complete disconnection and a vulnerable ground position.",
+        "answer_line": "≥1 strong grip; collar-sleeve best",
+        "distractors": {
+          "plausible": [
+            "Two grips required, never just one",
+            "Double-sleeve grips, then roll"
+          ],
+          "trap": [
+            "Roll first, grip on the way down"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the roll completes smoothly or stalls?",
@@ -349,7 +359,17 @@
       },
       {
         "question": "How should the direction of force change throughout the three phases of the rolling guard pull?",
-        "answer": "In the first phase (forward step), force is directed forward and slightly downward toward the opponent to close distance and begin loading the rotation. In the second phase (hip drop and roll), force redirects sharply downward and backward as you sit through the rotation, while your grip maintains a pulling force toward your body that drags the opponent with you. In the third phase (guard establishment), force shifts to lateral and upward vectors as your legs engage the opponent's hips and your grips work to break their posture forward. The grip force remains constant throughout all three phases while body force changes direction."
+        "answer": "In the first phase (forward step), force is directed forward and slightly downward toward the opponent to close distance and begin loading the rotation. In the second phase (hip drop and roll), force redirects sharply downward and backward as you sit through the rotation, while your grip maintains a pulling force toward your body that drags the opponent with you. In the third phase (guard establishment), force shifts to lateral and upward vectors as your legs engage the opponent's hips and your grips work to break their posture forward. The grip force remains constant throughout all three phases while body force changes direction.",
+        "answer_line": "Forward, then down-back, then up",
+        "distractors": {
+          "plausible": [
+            "Grip force shifts each phase",
+            "Load the rotation last, not first"
+          ],
+          "trap": [
+            "Roll away from your grips"
+          ]
+        }
       },
       {
         "question": "Your opponent reads the rolling guard pull and begins stepping backward as you initiate - what is your chain attack?",

@@ -546,7 +546,17 @@
       {
         "question": "In competition, what finishing strategy maximizes Anaconda success rate against a skilled opponent?",
         "answer": "Against skilled opponents, the key is controlling the setup phase meticulously before committing to the finish. Ensure maximum arm threading depth before locking the figure-four - a deep arm position is much harder to defend. Trap their arm tightly against their neck before rolling. When you roll, commit fully and explosively so they cannot base out. Once in the finishing position, apply pressure immediately without pause - skilled opponents will escape any hesitation. Chain to Darce if they defend by straightening arm, or transition to back take if they roll away from pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Control setup before committing",
+        "distractors": {
+          "plausible": [
+            "Roll first, then thread the arm",
+            "Lock figure-four, then thread deep"
+          ],
+          "trap": [
+            "Pause to reset if they resist"
+          ]
+        }
       }
     ],
     "clips": [

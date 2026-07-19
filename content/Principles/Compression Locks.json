@@ -357,11 +357,31 @@
   "flashcards": [
     {
       "question": "How does a compression lock differ mechanically from a joint lock?",
-      "answer": "A joint lock stresses ligaments at a joint's end range of motion, while a compression lock crushes muscle or tendon against bone by folding a limb around an inserted bony wedge, producing pain through soft-tissue compression rather than joint hyperextension."
+      "answer": "A joint lock stresses ligaments at a joint's end range of motion, while a compression lock crushes muscle or tendon against bone by folding a limb around an inserted bony wedge, producing pain through soft-tissue compression rather than joint hyperextension.",
+      "answer_line": "Crushes muscle/tendon against bone",
+      "distractors": {
+        "plausible": [
+          "Hyperextends the joint's ligaments",
+          "Stresses the joint at end range"
+        ],
+        "trap": [
+          "Slow ache, safe to ride out"
+        ]
+      }
     },
     {
       "question": "What are the three classic examples of compression locks?",
-      "answer": "The calf slicer (shin driven into the calf against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest or rib compression using an interlocked body triangle as a crushing ring around the torso."
+      "answer": "The calf slicer (shin driven into the calf against the femur), the bicep slicer (forearm driven into the bicep against the humerus), and chest or rib compression using an interlocked body triangle as a crushing ring around the torso.",
+      "answer_line": "Calf & bicep slicer, rib crush",
+      "distractors": {
+        "plausible": [
+          "Kneebar, armbar, body triangle",
+          "Bicep slicer, wristlock, chest crush"
+        ],
+        "trap": [
+          "Turtle up for spine & calf crush"
+        ]
+      }
     },
     {
       "question": "Why is deep wedge insertion critical before applying compression?",
@@ -421,7 +441,17 @@
     },
     {
       "question": "Why must ruleset legality be checked before attempting a compression lock?",
-      "answer": "IBJJF restricts most compression attacks to brown and black belt divisions and many local tournaments ban them outright, so an illegal attempt risks disqualification; no-gi and submission-only formats are generally far more permissive."
+      "answer": "IBJJF restricts most compression attacks to brown and black belt divisions and many local tournaments ban them outright, so an illegal attempt risks disqualification; no-gi and submission-only formats are generally far more permissive.",
+      "answer_line": "Illegal attempt risks DQ",
+      "distractors": {
+        "plausible": [
+          "Costs 2 points if caught",
+          "Only banned below blue belt"
+        ],
+        "trap": [
+          "Crank first, check rules later"
+        ]
+      }
     },
     {
       "question": "Where do calf slicer opportunities most naturally arise during leg-lock exchanges?",

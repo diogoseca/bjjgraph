@@ -288,7 +288,17 @@
       {
         "question": "What anatomical structure does the Americana from Scarf Hold primarily attack?",
         "answer": "The Americana primarily attacks the glenohumeral joint (shoulder) by forcing external rotation beyond its safe range of motion. The rotational pressure stresses the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the labrum. Secondary stress occurs at the AC joint when the arm is driven toward the mat.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shoulder (glenohumeral joint)",
+        "distractors": {
+          "plausible": [
+            "Elbow joint hyperextension",
+            "AC joint at the shoulder"
+          ],
+          "trap": [
+            "Neck via cervical crank"
+          ]
+        }
       },
       {
         "question": "Your opponent begins straightening their arm as you transition from head control to wrist control - what adjustment prevents this defense?",

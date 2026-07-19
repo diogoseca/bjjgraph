@@ -535,7 +535,17 @@
       },
       {
         "question": "When is the optimal moment to attempt a shrimp escape during the Kimura setup sequence?",
-        "answer": "The optimal moment is when the attacker shifts their focus and weight from maintaining shoulder pressure to threading their arm for the Kimura grip. This transition creates a brief window where their hip pressure decreases and their shoulder pressure redirects. Feel for the weight shift toward your near arm side as the trigger for your shrimp. This window lasts approximately one to two seconds before the attacker either completes the grip or re-establishes pressure."
+        "answer": "The optimal moment is when the attacker shifts their focus and weight from maintaining shoulder pressure to threading their arm for the Kimura grip. This transition creates a brief window where their hip pressure decreases and their shoulder pressure redirects. Feel for the weight shift toward your near arm side as the trigger for your shrimp. This window lasts approximately one to two seconds before the attacker either completes the grip or re-establishes pressure.",
+        "answer_line": "When they shift weight to grip",
+        "distractors": {
+          "plausible": [
+            "The instant they grab your wrist",
+            "As soon as pressure feels heavy"
+          ],
+          "trap": [
+            "After the figure-four locks in"
+          ]
+        }
       },
       {
         "question": "Your near arm is partially threaded but the figure-four grip is not yet locked—what should you do?",

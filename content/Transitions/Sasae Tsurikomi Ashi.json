@@ -247,7 +247,17 @@
     "flashcards": [
       {
         "question": "What is the most critical timing element for Sasae Tsurikomi Ashi to be effective?",
-        "answer": "The blocking foot must be placed at the exact moment when the opponent is committed to their forward step and their weight is shifting beyond their base of support. Placing it too early allows them to adjust, while placing it too late means they have already established their new base."
+        "answer": "The blocking foot must be placed at the exact moment when the opponent is committed to their forward step and their weight is shifting beyond their base of support. Placing it too early allows them to adjust, while placing it too late means they have already established their new base.",
+        "answer_line": "Block foot as weight leaves base",
+        "distractors": {
+          "plausible": [
+            "Block early to stop the step",
+            "Block once new base is set"
+          ],
+          "trap": [
+            "Yank grips, dive at the leg"
+          ]
+        }
       },
       {
         "question": "Why is the circular movement pattern important in the setup for this technique?",

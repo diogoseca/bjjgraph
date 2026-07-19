@@ -288,7 +288,17 @@
       },
       {
         "question": "Your opponent drives heavy forward pressure as you begin releasing the lockdown - how do you adjust your rotation?",
-        "answer": "Use the opponent's forward pressure to your advantage by redirecting it into your rotation. Their forward momentum means their weight is committed away from their base, making them lighter on your hips. Accelerate the hip rotation and use the space created by their forward drive to complete the movement. If the pressure pins you completely flat before the rotation starts, abandon the attempt, re-engage the lockdown if possible, and wait for a better moment when their weight shifts."
+        "answer": "Use the opponent's forward pressure to your advantage by redirecting it into your rotation. Their forward momentum means their weight is committed away from their base, making them lighter on your hips. Accelerate the hip rotation and use the space created by their forward drive to complete the movement. If the pressure pins you completely flat before the rotation starts, abandon the attempt, re-engage the lockdown if possible, and wait for a better moment when their weight shifts.",
+        "answer_line": "Accelerate rotation with their drive",
+        "distractors": {
+          "plausible": [
+            "Rotate away from the pressure",
+            "Wait for their weight to shift"
+          ],
+          "trap": [
+            "Turn belly-down under the pressure"
+          ]
+        }
       },
       {
         "question": "What are the specific grip requirements throughout each phase of the hip rotation escape?",

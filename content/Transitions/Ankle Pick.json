@@ -603,7 +603,17 @@
       },
       {
         "question": "What is the critical difference between defending an ankle pick in the setup phase versus the execution phase?",
-        "answer": "In the setup phase, before the level change, your defense focuses on prevention: break the collar tie, deny the angle through circular footwork, and keep your lead foot light and mobile. These are low-energy, high-percentage defensive actions that stop the attack before it begins. In the execution phase, after the level change has started, your defense shifts to reaction: sprawl if the heel cup has not been secured, or pull guard if it has. The execution phase requires explosive movement and split-second decision-making about whether to sprawl or sit. Confusing these phases leads to the most common defensive errors like sprawling after the grip is locked or trying to grip-fight when you should be reacting explosively to a committed level change."
+        "answer": "In the setup phase, before the level change, your defense focuses on prevention: break the collar tie, deny the angle through circular footwork, and keep your lead foot light and mobile. These are low-energy, high-percentage defensive actions that stop the attack before it begins. In the execution phase, after the level change has started, your defense shifts to reaction: sprawl if the heel cup has not been secured, or pull guard if it has. The execution phase requires explosive movement and split-second decision-making about whether to sprawl or sit. Confusing these phases leads to the most common defensive errors like sprawling after the grip is locked or trying to grip-fight when you should be reacting explosively to a committed level change.",
+        "answer_line": "Setup: prevent; execution: react",
+        "distractors": {
+          "plausible": [
+            "React in setup, prevent in execution",
+            "Grip-fight during the level change"
+          ],
+          "trap": [
+            "Sprawl after the heel is cupped"
+          ]
+        }
       }
     ],
     "training_progressions": [

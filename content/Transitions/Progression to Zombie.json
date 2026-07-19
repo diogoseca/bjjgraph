@@ -310,7 +310,17 @@
       },
       {
         "question": "What distinguishes a failed Progression to Zombie from a successful position that simply needs minor adjustment?",
-        "answer": "A failed transition is defined by compromised overhook control or significant opponent posture recovery - either condition means the transition has failed and you must reset. A successful but imperfect Zombie still has deep overhook intact and opponent's posture remains broken, even if shin position is not optimal around the shoulder. From imperfect Zombie, small grip and hip adjustments can consolidate full position, while lost overhook or restored posture requires starting over from guard recovery."
+        "answer": "A failed transition is defined by compromised overhook control or significant opponent posture recovery - either condition means the transition has failed and you must reset. A successful but imperfect Zombie still has deep overhook intact and opponent's posture remains broken, even if shin position is not optimal around the shoulder. From imperfect Zombie, small grip and hip adjustments can consolidate full position, while lost overhook or restored posture requires starting over from guard recovery.",
+        "answer_line": "Lost overhook or posture restored",
+        "distractors": {
+          "plausible": [
+            "Suboptimal shin means start over",
+            "Loose grip forces a full reset"
+          ],
+          "trap": [
+            "Attack anyway once posture returns"
+          ]
+        }
       },
       {
         "question": "What entry conditions must exist before you attempt the Progression to Zombie?",

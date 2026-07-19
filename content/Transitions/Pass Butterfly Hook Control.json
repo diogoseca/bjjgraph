@@ -557,7 +557,17 @@
       },
       {
         "question": "What determines whether you should attempt a sweep or transition to alternative guard when the pass begins?",
-        "answer": "The timing of your recognition determines your options. If you recognize the pass within the first one to two seconds of initiation while both hooks are still active, you have time for a sweep attempt. If one hook is already partially compromised, sweeping becomes risky and transitioning to half guard or knee shield is safer. The quality of your remaining grips also factors in—strong grips with both hooks favor sweep attempts while compromised grips favor immediate guard transitions."
+        "answer": "The timing of your recognition determines your options. If you recognize the pass within the first one to two seconds of initiation while both hooks are still active, you have time for a sweep attempt. If one hook is already partially compromised, sweeping becomes risky and transitioning to half guard or knee shield is safer. The quality of your remaining grips also factors in—strong grips with both hooks favor sweep attempts while compromised grips favor immediate guard transitions.",
+        "answer_line": "How early you recognize the pass",
+        "distractors": {
+          "plausible": [
+            "The passer's grip strength",
+            "Which guard you prefer to play"
+          ],
+          "trap": [
+            "Always sweep to stay on attack"
+          ]
+        }
       },
       {
         "question": "Your opponent stands up during their pass attempt, removing your hook elevation angle—what do you do?",

@@ -626,7 +626,17 @@
       },
       {
         "question": "What is the grip priority hierarchy when fighting your opponent's hands?",
-        "answer": "First priority is always controlling the choking arm with two-on-one grip to prevent rear naked choke. Second priority is preventing the opponent from locking their hands together by fighting their underhook arm before it connects to the over-arm. Third priority is clearing hooks once hand control is established. Never abandon choking arm control to fight hooks - hooks without a tight grip are far less dangerous than a partially defended choke. Work hands first, then hooks, then escape."
+        "answer": "First priority is always controlling the choking arm with two-on-one grip to prevent rear naked choke. Second priority is preventing the opponent from locking their hands together by fighting their underhook arm before it connects to the over-arm. Third priority is clearing hooks once hand control is established. Never abandon choking arm control to fight hooks - hooks without a tight grip are far less dangerous than a partially defended choke. Work hands first, then hooks, then escape.",
+        "answer_line": "Choking arm first, two-on-one",
+        "distractors": {
+          "plausible": [
+            "Prevent hands locking first",
+            "Clear hooks before hand control"
+          ],
+          "trap": [
+            "Abandon arm to strip hooks"
+          ]
+        }
       },
       {
         "question": "How should you manage your breathing and energy when defending this position?",
@@ -1015,7 +1025,17 @@
     },
     {
       "question": "What role does the over-arm versus the under-arm play in the harness structure?",
-      "answer": "The over-arm crosses the near shoulder toward the throat and is the choking-side arm, so it carries the direct submission threat and is prioritized by both players. The under-arm threads beneath the opposite armpit and functions mainly as the anchor that locks the two arms into a closed loop and keeps the shoulders square. Together they form an asymmetric structure where offense and control are split between the two hands rather than shared equally. This asymmetry is why hand-fighting concentrates on the over-arm: for the top it is the finish, and for the bottom it is the first thing that must be neutralized with two-on-one control."
+      "answer": "The over-arm crosses the near shoulder toward the throat and is the choking-side arm, so it carries the direct submission threat and is prioritized by both players. The under-arm threads beneath the opposite armpit and functions mainly as the anchor that locks the two arms into a closed loop and keeps the shoulders square. Together they form an asymmetric structure where offense and control are split between the two hands rather than shared equally. This asymmetry is why hand-fighting concentrates on the over-arm: for the top it is the finish, and for the bottom it is the first thing that must be neutralized with two-on-one control.",
+      "answer_line": "Over-arm chokes, under-arm anchors",
+      "distractors": {
+        "plausible": [
+          "Under-arm is the choking side",
+          "Both arms share the choke evenly"
+        ],
+        "trap": [
+          "Fight the under-arm anchor first"
+        ]
+      }
     },
     {
       "question": "Why does the under-hook side determine the escape and control geometry of the harness?",

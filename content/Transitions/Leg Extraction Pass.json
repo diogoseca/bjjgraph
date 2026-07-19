@@ -332,7 +332,17 @@
       },
       {
         "question": "Why is establishing upper body control before extracting critical to the technique's success?",
-        "answer": "Upper body control (crossface, underhook, or collar tie) serves as an anchor that pins the opponent's torso in place while your lower body clears the entanglement. Without this anchor, the opponent follows your hip movement — as you extract, they sit up, re-engage grips, and re-enter the leg attack system from a new angle. The upper body control also prevents guard recovery by keeping their shoulders flat and their hips compressed, ensuring that when your leg clears, they cannot immediately close their guard or create distance. It transforms the extraction from a pure escape into a passing opportunity."
+        "answer": "Upper body control (crossface, underhook, or collar tie) serves as an anchor that pins the opponent's torso in place while your lower body clears the entanglement. Without this anchor, the opponent follows your hip movement — as you extract, they sit up, re-engage grips, and re-enter the leg attack system from a new angle. The upper body control also prevents guard recovery by keeping their shoulders flat and their hips compressed, ensuring that when your leg clears, they cannot immediately close their guard or create distance. It transforms the extraction from a pure escape into a passing opportunity.",
+        "answer_line": "Anchors torso so they can't follow",
+        "distractors": {
+          "plausible": [
+            "Clear the leg first, then pin",
+            "Free your foot before gripping"
+          ],
+          "trap": [
+            "Turn belly-down to rip leg free"
+          ]
+        }
       },
       {
         "question": "What grip and base must your free leg maintain throughout the extraction?",
@@ -350,15 +360,45 @@
       },
       {
         "question": "How does the extraction sequence differ when the opponent has a saddle (honey hole) configuration versus standard ashi garami?",
-        "answer": "In saddle/honey hole, the opponent has both legs triangled around your trapped leg with superior control on both sides of the knee line, making extraction significantly more urgent and mechanically complex. The inside heel hook threat from saddle is immediate, so heel grip neutralization must be addressed with extreme urgency. The extraction requires clearing a triangle configuration rather than individual hooks, which typically demands the hip switch variant rather than the direct knee-to-mat drive. You must also address the opponent's far leg that crosses over your hip, which is absent in standard ashi garami. The extraction from saddle often requires multiple attempts and may need to chain through intermediate positions like 50-50 before achieving full extraction."
+        "answer": "In saddle/honey hole, the opponent has both legs triangled around your trapped leg with superior control on both sides of the knee line, making extraction significantly more urgent and mechanically complex. The inside heel hook threat from saddle is immediate, so heel grip neutralization must be addressed with extreme urgency. The extraction requires clearing a triangle configuration rather than individual hooks, which typically demands the hip switch variant rather than the direct knee-to-mat drive. You must also address the opponent's far leg that crosses over your hip, which is absent in standard ashi garami. The extraction from saddle often requires multiple attempts and may need to chain through intermediate positions like 50-50 before achieving full extraction.",
+        "answer_line": "Kill inside heel grip first",
+        "distractors": {
+          "plausible": [
+            "Knee-to-mat drive to clear",
+            "Clear both hooks one at a time"
+          ],
+          "trap": [
+            "Straighten leg and rip it out"
+          ]
+        }
       },
       {
         "question": "After clearing the entanglement, your opponent is trying to recover closed guard — what do you do to prevent this?",
-        "answer": "Immediately drive your knee across their thigh line as the last hook clears, converting the extraction into a knee slide passing motion. The key is eliminating the gap between extraction completion and passing initiation — there should be zero pause where the opponent can close their legs around your waist. Pre-set your crossface grip during the extraction so it is already in place when you begin advancing. If you feel their legs starting to close, drive your hips forward and down to flatten their legs before they can lock ankles. The extraction and the pass must be one continuous motion, not two separate techniques."
+        "answer": "Immediately drive your knee across their thigh line as the last hook clears, converting the extraction into a knee slide passing motion. The key is eliminating the gap between extraction completion and passing initiation — there should be zero pause where the opponent can close their legs around your waist. Pre-set your crossface grip during the extraction so it is already in place when you begin advancing. If you feel their legs starting to close, drive your hips forward and down to flatten their legs before they can lock ankles. The extraction and the pass must be one continuous motion, not two separate techniques.",
+        "answer_line": "Knee across thigh line, pass now",
+        "distractors": {
+          "plausible": [
+            "Set crossface grip, then advance",
+            "Flatten their legs first, then pass"
+          ],
+          "trap": [
+            "Stand back to open their legs"
+          ]
+        }
       },
       {
         "question": "You are in 50-50 guard and need to extract — what makes this configuration uniquely challenging?",
-        "answer": "The 50-50 guard creates bilateral entanglement where both players have mirrored leg control, meaning your extraction attempt also exposes your free leg to being caught since the opponent has control structures on both sides. You must address two sets of hooks rather than one, and the opponent can transition between attacking your original trapped leg and your free leg as you attempt to clear. The extraction from 50-50 typically requires first achieving asymmetric advantage — either by getting your hips above the opponent's hips or by clearing one side of the entanglement to create an inside ashi configuration before attempting full extraction. Direct extraction from neutral 50-50 has a low success rate because the opponent can simply mirror your clearing motions."
+        "answer": "The 50-50 guard creates bilateral entanglement where both players have mirrored leg control, meaning your extraction attempt also exposes your free leg to being caught since the opponent has control structures on both sides. You must address two sets of hooks rather than one, and the opponent can transition between attacking your original trapped leg and your free leg as you attempt to clear. The extraction from 50-50 typically requires first achieving asymmetric advantage — either by getting your hips above the opponent's hips or by clearing one side of the entanglement to create an inside ashi configuration before attempting full extraction. Direct extraction from neutral 50-50 has a low success rate because the opponent can simply mirror your clearing motions.",
+        "answer_line": "Symmetric entanglement, both legs",
+        "distractors": {
+          "plausible": [
+            "Clear the trapped leg first",
+            "Drop hips below opponent's"
+          ],
+          "trap": [
+            "Yank your foot straight out"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Leg Extraction Pass involves movement within active leg entanglement positions where submissions such as heel hooks, kneebars, and ankle locks are live threats. Never attempt explosive ripping motions to free your leg, as this can cause injury to your own knee ligaments if the opponent maintains their grip during the jerky motion. Always neutralize heel grips before beginning extraction — attempting to extract while the opponent holds a heel hook grip can provide the rotational force that completes their submission and causes serious knee injury. Train extraction mechanics initially with cooperative partners who release submissions when you tap, and gradually increase resistance only as the mechanics become reliable. Be aware that your training partner's knees are also at risk during extraction drilling, as the straightening and rotational forces involved can stress their joints if they maintain grips too long against a resisting extraction.",

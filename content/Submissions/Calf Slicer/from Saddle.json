@@ -311,7 +311,17 @@
       {
         "question": "How should you release the calf slicer after your partner taps to prevent injury?",
         "answer": "Upon hearing or feeling the tap, immediately stop applying additional compression force. Release your hand grips on the foot first, allowing the leg to unfold naturally. Then slowly withdraw your shin from behind their knee without jerking. Allow your partner to fully extend their leg at their own pace before disengaging your saddle entanglement. Always check if your partner needs time before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop compression, unfold slowly",
+        "distractors": {
+          "plausible": [
+            "Free your saddle hooks first",
+            "Slide shin out before releasing feet"
+          ],
+          "trap": [
+            "Keep squeezing until they relax"
+          ]
+        }
       },
       {
         "question": "Your opponent starts straightening their trapped leg during the fold—what adjustment prevents escape?",

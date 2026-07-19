@@ -310,7 +310,17 @@
       },
       {
         "question": "What grip sequence ensures continuous control throughout the transition from kneebar to 50-50?",
-        "answer": "The sequence is: maintain both arms in kneebar configuration while legs begin threading; release the far arm first while keeping the near arm secured on the lower leg; thread legs deeper as the far arm repositions to 50-50 control on the heel or ankle; finally release the near arm and transition it to two-handed heel control only after legs have established the 50-50 entanglement. At no point should both arms release simultaneously."
+        "answer": "The sequence is: maintain both arms in kneebar configuration while legs begin threading; release the far arm first while keeping the near arm secured on the lower leg; thread legs deeper as the far arm repositions to 50-50 control on the heel or ankle; finally release the near arm and transition it to two-handed heel control only after legs have established the 50-50 entanglement. At no point should both arms release simultaneously.",
+        "answer_line": "Release far arm first, keep near arm",
+        "distractors": {
+          "plausible": [
+            "Release near arm first, far stays",
+            "Set 50-50, then thread legs deeper"
+          ],
+          "trap": [
+            "Release both arms, then re-grip heel"
+          ]
+        }
       },
       {
         "question": "In which direction should your hips move during the transition to establish 50-50 top position?",

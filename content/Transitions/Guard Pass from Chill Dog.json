@@ -261,7 +261,17 @@
     "flashcards": [
       {
         "question": "What is the most critical first step when initiating the Guard Pass from Chill Dog?",
-        "answer": "Establishing heavy chest pressure on the opponent's upper back between the shoulder blades before attempting to break the defensive frame. Without this initial pressure foundation, any attempt to break the elbow-knee connection will be easily defended as the opponent can simply reset their frame. The chest pressure pins their upper body and limits their ability to adjust or execute explosive escapes, creating the control platform from which all subsequent passing mechanics operate."
+        "answer": "Establishing heavy chest pressure on the opponent's upper back between the shoulder blades before attempting to break the defensive frame. Without this initial pressure foundation, any attempt to break the elbow-knee connection will be easily defended as the opponent can simply reset their frame. The chest pressure pins their upper body and limits their ability to adjust or execute explosive escapes, creating the control platform from which all subsequent passing mechanics operate.",
+        "answer_line": "Chest pressure on upper back",
+        "distractors": {
+          "plausible": [
+            "Break elbow-knee frame first",
+            "Underhook far side, then drive"
+          ],
+          "trap": [
+            "Spin to backstep before control"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains a tight elbow-knee connection on their near side - how do you break it?",
@@ -293,7 +303,17 @@
       },
       {
         "question": "What grip sequence should you follow for the highest percentage pass completion?",
-        "answer": "The optimal grip sequence is: first, near-side hip control with underhook or hand on hip to prevent hip escapes; second, crossface with the far-side arm to control head position and prevent turning; third, use the near-side knee to wedge across the hip line while sliding to perpendicular position; fourth, establish near-side underhook from the side control position for final consolidation. Skipping steps in this sequence, particularly attempting crossface before hip control, allows the opponent to use hip movement to escape."
+        "answer": "The optimal grip sequence is: first, near-side hip control with underhook or hand on hip to prevent hip escapes; second, crossface with the far-side arm to control head position and prevent turning; third, use the near-side knee to wedge across the hip line while sliding to perpendicular position; fourth, establish near-side underhook from the side control position for final consolidation. Skipping steps in this sequence, particularly attempting crossface before hip control, allows the opponent to use hip movement to escape.",
+        "answer_line": "Hip control first, then crossface",
+        "distractors": {
+          "plausible": [
+            "Wedge knee, then trap the head",
+            "Underhook first, then wedge knee"
+          ],
+          "trap": [
+            "Swim for the far underhook"
+          ]
+        }
       },
       {
         "question": "How does threatening a back take improve your guard pass percentage from Chill Dog?",

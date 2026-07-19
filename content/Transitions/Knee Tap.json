@@ -347,7 +347,17 @@
       },
       {
         "question": "When is the optimal timing window to initiate the knee tap attack during standing engagement?",
-        "answer": "The optimal window is when opponent shifts their weight forward onto their lead leg, either during a forward step, when reaching for a grip, or when pushing into you. This weight commitment makes the targeted leg load-bearing and difficult to quickly retract. Secondary timing windows include when opponent is recovering from a failed attack, when they're focused on upper body grip fighting, or immediately after you break their grip and they're momentarily off-balance. Attacking when weight is neutral or backward dramatically reduces success rate."
+        "answer": "The optimal window is when opponent shifts their weight forward onto their lead leg, either during a forward step, when reaching for a grip, or when pushing into you. This weight commitment makes the targeted leg load-bearing and difficult to quickly retract. Secondary timing windows include when opponent is recovering from a failed attack, when they're focused on upper body grip fighting, or immediately after you break their grip and they're momentarily off-balance. Attacking when weight is neutral or backward dramatically reduces success rate.",
+        "answer_line": "As weight loads their lead leg",
+        "distractors": {
+          "plausible": [
+            "The moment you secure your grips",
+            "Right as they step backward"
+          ],
+          "trap": [
+            "As they sprawl their weight back"
+          ]
+        }
       },
       {
         "question": "What direction of force should be applied to the knee versus the upper body for successful completion?",

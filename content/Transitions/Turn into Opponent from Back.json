@@ -494,7 +494,17 @@
       },
       {
         "question": "When the turn becomes inevitable and you cannot maintain back control, what is the optimal positional transition?",
-        "answer": "Follow the turn and transition to mount rather than fighting to maintain back control once hooks are lost. As they rotate toward you, swing your top leg over their body and establish mount position before they can close their guard. This requires releasing your hooks proactively and climbing to mount during the rotation rather than clinging to a back control position that is already compromised. Mount is still a dominant 4-point position and preserves your advantage."
+        "answer": "Follow the turn and transition to mount rather than fighting to maintain back control once hooks are lost. As they rotate toward you, swing your top leg over their body and establish mount position before they can close their guard. This requires releasing your hooks proactively and climbing to mount during the rotation rather than clinging to a back control position that is already compromised. Mount is still a dominant 4-point position and preserves your advantage.",
+        "answer_line": "Follow the turn, climb to mount",
+        "distractors": {
+          "plausible": [
+            "Fight to reinsert your hooks",
+            "Spin under to chase the back"
+          ],
+          "trap": [
+            "Grip the seatbelt and hold on"
+          ]
+        }
       },
       {
         "question": "How does your defensive approach change when you have body triangle locked versus standard hooks?",

@@ -259,7 +259,17 @@
       },
       {
         "question": "What are the key grips needed and how do they transition during the entry?",
-        "answer": "You begin with an underhook on the same side as your trapped leg, which serves as the steering mechanism during the dive. As you complete the entry, this transitions to wrapping their far leg with both arms, clasping hands behind their thigh or around their knee. The underhook must be maintained until the leg wrap is secure to prevent separation."
+        "answer": "You begin with an underhook on the same side as your trapped leg, which serves as the steering mechanism during the dive. As you complete the entry, this transitions to wrapping their far leg with both arms, clasping hands behind their thigh or around their knee. The underhook must be maintained until the leg wrap is secure to prevent separation.",
+        "answer_line": "Underhook steers into leg wrap",
+        "distractors": {
+          "plausible": [
+            "Underhook their free leg",
+            "Clasp the knee first, then hook"
+          ],
+          "trap": [
+            "Turn away and grab the ankle"
+          ]
+        }
       },
       {
         "question": "Where must your head end up for proper deep half positioning and why is this critical?",

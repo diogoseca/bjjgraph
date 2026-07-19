@@ -311,7 +311,17 @@
       },
       {
         "question": "What are the key differences between high shin shield and low shin shield variations?",
-        "answer": "High shin shield (shoulder/chest level) creates maximum vertical distance and is ideal for preventing forward pressure, setting up triangles, and defending against heavy pressure passers. Low shin shield (hip level) provides less distance but offers superior control for sweeps, prevents opponent from lowering their base, and facilitates transitions to lockdown or deep half guard. High shield prioritizes defense and submission setups; low shield prioritizes sweeping mechanics and positional transitions. Choice depends on opponent's passing style and your offensive goals."
+        "answer": "High shin shield (shoulder/chest level) creates maximum vertical distance and is ideal for preventing forward pressure, setting up triangles, and defending against heavy pressure passers. Low shin shield (hip level) provides less distance but offers superior control for sweeps, prevents opponent from lowering their base, and facilitates transitions to lockdown or deep half guard. High shield prioritizes defense and submission setups; low shield prioritizes sweeping mechanics and positional transitions. Choice depends on opponent's passing style and your offensive goals.",
+        "answer_line": "High: distance; low: sweep control",
+        "distractors": {
+          "plausible": [
+            "High for sweeps, low for defense",
+            "Same guard, only knee placement"
+          ],
+          "trap": [
+            "Flatten the shin to kill distance"
+          ]
+        }
       },
       {
         "question": "Why is active pressure through the shin shield more effective than passive framing?",

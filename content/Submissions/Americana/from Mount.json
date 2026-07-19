@@ -683,7 +683,17 @@
       {
         "question": "What arm positioning should you maintain throughout mount bottom to prevent the americana from being attempted in the first place?",
         "answer": "Maintain your elbows tight against your ribs with your hands positioned near your chin and collar area, creating a compact defensive shell. Never extend your arms to push on the opponent's chest, face, or hips - this is the most common way the americana setup begins. When you need to frame for escapes, use short forearm frames against the opponent's hips rather than extended arm pushes. If you must reach, keep your elbow bent and retract immediately after the frame is used. The goal is to never present a straight or isolated arm that the attacker can capture and control for the americana wrist isolation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Elbows tight, hands to chin",
+        "distractors": {
+          "plausible": [
+            "Cross both arms over your chest",
+            "Grip your own lapels to defend"
+          ],
+          "trap": [
+            "Straight-arm push on the chest"
+          ]
+        }
       }
     ],
     "training_progressions": [

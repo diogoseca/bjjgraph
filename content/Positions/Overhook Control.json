@@ -973,7 +973,17 @@
     },
     {
       "question": "How does the overhook differ mechanically from the underhook, and why do players fight to convert one into the other?",
-      "answer": "The underhook threads under the opponent's arm to lift and drive into their armpit, generating forward and upward pressure to advance or elevate, while the overhook wraps over the top of that same arm to trap and pin it as a control. Because both contest the same arm from opposite sides, whichever player wins the inside line dictates the direction of pressure, which is why half guard and clinch exchanges become underhook-versus-whizzer battles. The overhook is often the answer to an opponent's underhook attempt, killing their inside connection by climbing over the top of it. Converting between the two mid-scramble flips who controls the arm and who is on the defensive."
+      "answer": "The underhook threads under the opponent's arm to lift and drive into their armpit, generating forward and upward pressure to advance or elevate, while the overhook wraps over the top of that same arm to trap and pin it as a control. Because both contest the same arm from opposite sides, whichever player wins the inside line dictates the direction of pressure, which is why half guard and clinch exchanges become underhook-versus-whizzer battles. The overhook is often the answer to an opponent's underhook attempt, killing their inside connection by climbing over the top of it. Converting between the two mid-scramble flips who controls the arm and who is on the defensive.",
+      "answer_line": "Under drives, over traps the arm",
+      "distractors": {
+        "plausible": [
+          "Overhook lifts and drives forward",
+          "Both battle for the outside line"
+        ],
+        "trap": [
+          "Wrap over both arms to control"
+        ]
+      }
     },
     {
       "question": "Why is the overhook treated as a transitional control with a short lifespan rather than a position to hold?",

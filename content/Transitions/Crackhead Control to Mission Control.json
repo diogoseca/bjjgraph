@@ -252,7 +252,17 @@
       },
       {
         "question": "Your opponent begins recovering posture while you're in Crackhead Control - how do you time the transition?",
-        "answer": "Initiate transition during the opponent's posture recovery attempt, not after they've fully recovered. Their upward movement creates the timing window - as they commit weight backward, you elevate hips and reposition. The opponent's momentary relief when sensing the overhook loosening reduces their defensive tension, making Mission Control establishment easier."
+        "answer": "Initiate transition during the opponent's posture recovery attempt, not after they've fully recovered. Their upward movement creates the timing window - as they commit weight backward, you elevate hips and reposition. The opponent's momentary relief when sensing the overhook loosening reduces their defensive tension, making Mission Control establishment easier.",
+        "answer_line": "Move as they lift, not after",
+        "distractors": {
+          "plausible": [
+            "Wait until posture fully recovers",
+            "Break their posture back down first"
+          ],
+          "trap": [
+            "Release overhook to reset grips"
+          ]
+        }
       },
       {
         "question": "What should you do if opponent drives forward explosively during your overhook release?",
@@ -298,11 +308,31 @@
       },
       {
         "question": "Where must the leg be positioned during Mission Control establishment and why?",
-        "answer": "The leg must be positioned high across the opponent's upper back and shoulder blade area, with the shin creating downward pressure on the far shoulder. This height creates proper shoulder isolation - the defining mechanism of Mission Control. Positioning too low on the mid-back allows opponent to maintain shoulder mobility and establish defensive frames."
+        "answer": "The leg must be positioned high across the opponent's upper back and shoulder blade area, with the shin creating downward pressure on the far shoulder. This height creates proper shoulder isolation - the defining mechanism of Mission Control. Positioning too low on the mid-back allows opponent to maintain shoulder mobility and establish defensive frames.",
+        "answer_line": "High across the far shoulder",
+        "distractors": {
+          "plausible": [
+            "Low across the mid-back",
+            "Over the near-side shoulder"
+          ],
+          "trap": [
+            "Draped loosely over the neck"
+          ]
+        }
       },
       {
         "question": "What role does the free leg play during the transition and why is it critical?",
-        "answer": "The free leg must maintain active hip connection throughout the entire transition to prevent back exposure. If anything, free leg engagement should increase during transition when primary controls are changing. This leg is your primary safety mechanism - if it loses connection during the grip transition, opponent can begin passing to back control."
+        "answer": "The free leg must maintain active hip connection throughout the entire transition to prevent back exposure. If anything, free leg engagement should increase during transition when primary controls are changing. This leg is your primary safety mechanism - if it loses connection during the grip transition, opponent can begin passing to back control.",
+        "answer_line": "Keep active hip connection",
+        "distractors": {
+          "plausible": [
+            "Post for base, then re-grip",
+            "Ease off as grips change"
+          ],
+          "trap": [
+            "Kick free to make space"
+          ]
+        }
       },
       {
         "question": "When should you NOT initiate this transition from Crackhead Control?",
@@ -454,7 +484,17 @@
     "flashcards": [
       {
         "question": "What is the primary escape window during the Crackhead Control to Mission Control transition and why does it exist?",
-        "answer": "The primary escape window occurs during the grip transition when the bottom player releases the deep overhook but has not yet established head control for Mission Control. This window exists because the bottom player cannot simultaneously maintain Crackhead Control and establish Mission Control - they must temporarily sacrifice their primary control mechanism, creating a brief period where neither control is fully active."
+        "answer": "The primary escape window occurs during the grip transition when the bottom player releases the deep overhook but has not yet established head control for Mission Control. This window exists because the bottom player cannot simultaneously maintain Crackhead Control and establish Mission Control - they must temporarily sacrifice their primary control mechanism, creating a brief period where neither control is fully active.",
+        "answer_line": "Overhook off, head not yet set",
+        "distractors": {
+          "plausible": [
+            "After Mission Control head lock",
+            "During the deep overhook grip"
+          ],
+          "trap": [
+            "When both controls overlap"
+          ]
+        }
       },
       {
         "question": "Your opponent's overhook begins loosening while their hips drive upward - what does this tell you and how should you respond?",
@@ -486,7 +526,17 @@
       },
       {
         "question": "How do you distinguish between a genuine transition attempt and a feint designed to bait your escape reaction?",
-        "answer": "A genuine transition shows all mechanical indicators in sequence: hip elevation first, then leg repositioning toward the shoulder, then overhook loosening. A feint typically shows only one indicator - usually a momentary overhook loosening without the corresponding hip elevation or leg movement. If hips remain flat and the leg stays in position, the overhook change is likely a grip adjustment or bait rather than a genuine transition to Mission Control."
+        "answer": "A genuine transition shows all mechanical indicators in sequence: hip elevation first, then leg repositioning toward the shoulder, then overhook loosening. A feint typically shows only one indicator - usually a momentary overhook loosening without the corresponding hip elevation or leg movement. If hips remain flat and the leg stays in position, the overhook change is likely a grip adjustment or bait rather than a genuine transition to Mission Control.",
+        "answer_line": "Hips elevate first, then leg moves",
+        "distractors": {
+          "plausible": [
+            "Overhook loosens first, then hips",
+            "Leg repositions before hips lift"
+          ],
+          "trap": [
+            "React the moment overhook loosens"
+          ]
+        }
       },
       {
         "question": "What should you do if you miss the transition window and Mission Control has been fully established?",

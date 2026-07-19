@@ -342,7 +342,17 @@
       },
       {
         "question": "How does the direction of force application differ between the inside switch and the outside duck-under switch?",
-        "answer": "In the inside switch, the primary force direction is rotational toward the opponent's body, pivoting your hips through the space between your torso and theirs. Your reaching arm pulls you through the inside channel around the opponent's near side. In the outside duck-under switch, the force initially moves away from the opponent as you duck your head and shoulders under their arm toward the outside, then circles back behind them. The inside switch is more direct and faster but requires more space, while the outside switch takes a longer path but works when the inside channel is blocked."
+        "answer": "In the inside switch, the primary force direction is rotational toward the opponent's body, pivoting your hips through the space between your torso and theirs. Your reaching arm pulls you through the inside channel around the opponent's near side. In the outside duck-under switch, the force initially moves away from the opponent as you duck your head and shoulders under their arm toward the outside, then circles back behind them. The inside switch is more direct and faster but requires more space, while the outside switch takes a longer path but works when the inside channel is blocked.",
+        "answer_line": "Inside in, outside away then behind",
+        "distractors": {
+          "plausible": [
+            "Outside in, inside ducks under",
+            "Both push straight into the hips"
+          ],
+          "trap": [
+            "Turn your back to duck under"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their near-side leg wide the moment you begin pivoting—how do you adjust mid-technique?",

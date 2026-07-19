@@ -310,7 +310,17 @@
       },
       {
         "question": "You complete the rotation and clear the hooks but the bottom player immediately inserts their knee before you can establish crossface - what went wrong and how do you prevent it?",
-        "answer": "The gap between hook clearance and side control establishment was too long. The backstep rotation and the side control consolidation must be treated as one continuous movement, not two separate actions. Prevent this by dropping your weight and driving the crossface the instant your rotation clears the hooks. Your chest should land on their torso within one second of the hooks clearing. Practice connecting the landing directly to the crossface establishment as a single integrated motion."
+        "answer": "The gap between hook clearance and side control establishment was too long. The backstep rotation and the side control consolidation must be treated as one continuous movement, not two separate actions. Prevent this by dropping your weight and driving the crossface the instant your rotation clears the hooks. Your chest should land on their torso within one second of the hooks clearing. Practice connecting the landing directly to the crossface establishment as a single integrated motion.",
+        "answer_line": "Crossface the instant hooks clear",
+        "distractors": {
+          "plausible": [
+            "Fight the knee back out first",
+            "Set your grips before dropping"
+          ],
+          "trap": [
+            "Turn away to attack the legs"
+          ]
+        }
       },
       {
         "question": "What grip should your hands prioritize during the backstep rotation itself?",

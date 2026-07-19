@@ -256,7 +256,17 @@
     "flashcards": [
       {
         "question": "What is the fixed pivot point during the rotation, and why is this critical?",
-        "answer": "Your chest is the fixed pivot point, maintaining constant contact and pressure on the opponent's sternum throughout the entire rotation. This is critical because any lifting of chest pressure during the pivot creates space that allows the opponent to insert frames, shrimp, or initiate escapes. The hips orbit around the chest contact point, not the other way around. If the opponent feels pressure decrease at any moment during the transition, the technique is being executed incorrectly."
+        "answer": "Your chest is the fixed pivot point, maintaining constant contact and pressure on the opponent's sternum throughout the entire rotation. This is critical because any lifting of chest pressure during the pivot creates space that allows the opponent to insert frames, shrimp, or initiate escapes. The hips orbit around the chest contact point, not the other way around. If the opponent feels pressure decrease at any moment during the transition, the technique is being executed incorrectly.",
+        "answer_line": "Chest pinned to sternum",
+        "distractors": {
+          "plausible": [
+            "Hips anchor, chest orbits",
+            "Post on the head to pivot"
+          ],
+          "trap": [
+            "Lift chest to spin faster"
+          ]
+        }
       },
       {
         "question": "Your opponent has strong frames established against your face in standard Kesa Gatame. How does this create an opportunity for the transition?",
@@ -302,7 +312,17 @@
       },
       {
         "question": "Why is arm isolation during the rotation more effective than attempting it after settling into Reverse Kesa-Gatame?",
-        "answer": "During the rotation, the opponent's far arm is in a transitional state where their existing defensive grips are being disrupted by the directional change. Their frames were oriented for standard Kesa defense and have not yet adapted to the reverse orientation. If you wait until after settling, the opponent has time to retract their arm, clamp it to their body, or establish new defensive grips specifically designed for Reverse Kesa-Gatame. Capturing the arm during the rotation exploits the defensive gap created by the position change."
+        "answer": "During the rotation, the opponent's far arm is in a transitional state where their existing defensive grips are being disrupted by the directional change. Their frames were oriented for standard Kesa defense and have not yet adapted to the reverse orientation. If you wait until after settling, the opponent has time to retract their arm, clamp it to their body, or establish new defensive grips specifically designed for Reverse Kesa-Gatame. Capturing the arm during the rotation exploits the defensive gap created by the position change.",
+        "answer_line": "Defenses disrupted mid-rotation",
+        "distractors": {
+          "plausible": [
+            "Settle first for a firm base",
+            "Wait for the hips to pin down"
+          ],
+          "trap": [
+            "Drop head control to chase arm"
+          ]
+        }
       },
       {
         "question": "What grip or control must you prioritize immediately after completing the rotation?",
@@ -496,15 +516,45 @@
       },
       {
         "question": "Your opponent has begun rotating and is at the midpoint of the transition. What is your best defensive option?",
-        "answer": "At the midpoint, an explosive bridge is your highest-percentage response. The top player's base is most compromised during the middle of the rotation because they are between stable positions. Bridge toward the direction they came from (toward their original Kesa Gatame side) to maximize the disruption. If the bridge creates space, immediately begin shrimping to recover half guard. If the bridge does not create enough space, transition to protecting your far arm as your secondary priority."
+        "answer": "At the midpoint, an explosive bridge is your highest-percentage response. The top player's base is most compromised during the middle of the rotation because they are between stable positions. Bridge toward the direction they came from (toward their original Kesa Gatame side) to maximize the disruption. If the bridge creates space, immediately begin shrimping to recover half guard. If the bridge does not create enough space, transition to protecting your far arm as your secondary priority.",
+        "answer_line": "Explosive bridge into their base",
+        "distractors": {
+          "plausible": [
+            "Shrimp to half guard immediately",
+            "Protect your far arm first"
+          ],
+          "trap": [
+            "Turn belly-down to your knees"
+          ]
+        }
       },
       {
         "question": "Why should you protect your far arm even if you cannot prevent the transition from completing?",
-        "answer": "The far arm isolated under the top player's armpit is the primary offensive weapon of Reverse Kesa-Gatame. Without arm isolation, Reverse Kesa-Gatame loses its major submission threats (Kimura, Americana, arm triangle) and becomes a standard pin that is escapable through conventional hip escape mechanics. Protecting your far arm essentially downgrades Reverse Kesa-Gatame from a dangerous attacking position to a controllable pinning position, dramatically improving your subsequent escape chances."
+        "answer": "The far arm isolated under the top player's armpit is the primary offensive weapon of Reverse Kesa-Gatame. Without arm isolation, Reverse Kesa-Gatame loses its major submission threats (Kimura, Americana, arm triangle) and becomes a standard pin that is escapable through conventional hip escape mechanics. Protecting your far arm essentially downgrades Reverse Kesa-Gatame from a dangerous attacking position to a controllable pinning position, dramatically improving your subsequent escape chances.",
+        "answer_line": "Far arm is their submission weapon",
+        "distractors": {
+          "plausible": [
+            "Keeps your hips free to shrimp",
+            "Sets up the bridge-and-roll"
+          ],
+          "trap": [
+            "Post on that arm to push free"
+          ]
+        }
       },
       {
         "question": "How does the defensive strategy differ depending on whether you catch the transition early versus late?",
-        "answer": "Early detection (before midpoint rotation) allows aggressive counter-responses: explosive bridges to abort the transition, shrimps to recover guard, or turning in to pursue turtle. Late detection (after midpoint or complete) shifts your strategy to damage mitigation: protect your far arm, establish defensive frames against the new pressure direction, and begin systematic escape from Reverse Kesa-Gatame rather than trying to prevent it. The earlier you act, the more options you have and the less energy each defense requires."
+        "answer": "Early detection (before midpoint rotation) allows aggressive counter-responses: explosive bridges to abort the transition, shrimps to recover guard, or turning in to pursue turtle. Late detection (after midpoint or complete) shifts your strategy to damage mitigation: protect your far arm, establish defensive frames against the new pressure direction, and begin systematic escape from Reverse Kesa-Gatame rather than trying to prevent it. The earlier you act, the more options you have and the less energy each defense requires.",
+        "answer_line": "Early counter; late damage control",
+        "distractors": {
+          "plausible": [
+            "Escape when early, counter when late",
+            "Protect far arm from the start"
+          ],
+          "trap": [
+            "Turn belly-down after it's set"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully completes the transition and has your far arm trapped. What is your immediate priority?",

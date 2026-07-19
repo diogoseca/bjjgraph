@@ -269,7 +269,17 @@
     "flashcards": [
       {
         "question": "What must you establish before attempting to thread the underhook from flattened half guard?",
-        "answer": "You must first create a preliminary frame on the opponent's hip or shoulder and execute a measured hip escape to generate space. The frame maintains separation while the hip escape creates the clearance needed for the arm to thread through. Attempting to reach for the underhook without this space creation results in the arm being trapped between the bodies with no path to thread through, wasting energy and potentially exposing you to kimura attacks."
+        "answer": "You must first create a preliminary frame on the opponent's hip or shoulder and execute a measured hip escape to generate space. The frame maintains separation while the hip escape creates the clearance needed for the arm to thread through. Attempting to reach for the underhook without this space creation results in the arm being trapped between the bodies with no path to thread through, wasting energy and potentially exposing you to kimura attacks.",
+        "answer_line": "Frame on hip, then hip escape",
+        "distractors": {
+          "plausible": [
+            "Hip escape first, then frame",
+            "Frame on far shoulder for space"
+          ],
+          "trap": [
+            "Dive for the underhook right away"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure as you begin your hip escape - how do you adjust your timing?",

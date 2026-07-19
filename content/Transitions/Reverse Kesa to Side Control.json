@@ -261,7 +261,17 @@
       },
       {
         "question": "When is the optimal timing window to initiate the transition from reverse kesa to side control?",
-        "answer": "The safest window occurs when the bottom player is momentarily static — typically after a failed escape attempt when they are resetting, or when their near-side arm is deeply trapped and they lack the tools to disrupt the rotation. Never initiate the transition while the opponent is actively bridging, shrimping, or executing explosive escape movements, as their momentum compounds the instability of the rotation."
+        "answer": "The safest window occurs when the bottom player is momentarily static — typically after a failed escape attempt when they are resetting, or when their near-side arm is deeply trapped and they lack the tools to disrupt the rotation. Never initiate the transition while the opponent is actively bridging, shrimping, or executing explosive escape movements, as their momentum compounds the instability of the rotation.",
+        "answer_line": "When they're momentarily static",
+        "distractors": {
+          "plausible": [
+            "As soon as you feel secure on top",
+            "The instant your top grips lock in"
+          ],
+          "trap": [
+            "While they bridge hard into you"
+          ]
+        }
       },
       {
         "question": "Your opponent inserts their near knee during the midpoint of the rotation — what is your immediate response?",
@@ -321,7 +331,17 @@
       },
       {
         "question": "Why is the crawl transition variant preferred against experienced bottom players?",
-        "answer": "Experienced bottom players immediately exploit any pressure gap created during fast rotational movements. The crawl transition maintains maximum chest contact throughout by moving in small increments, consolidating each adjustment before proceeding to the next. This methodical approach minimizes the transition window where the bottom player can insert frames or recover guard, trading speed for positional security against opponents who capitalize on momentary openings."
+        "answer": "Experienced bottom players immediately exploit any pressure gap created during fast rotational movements. The crawl transition maintains maximum chest contact throughout by moving in small increments, consolidating each adjustment before proceeding to the next. This methodical approach minimizes the transition window where the bottom player can insert frames or recover guard, trading speed for positional security against opponents who capitalize on momentary openings.",
+        "answer_line": "Never surrenders chest pressure",
+        "distractors": {
+          "plausible": [
+            "Faster spin denies frame timing",
+            "Consolidate grips before moving"
+          ],
+          "trap": [
+            "Lift torso to rotate faster"
+          ]
+        }
       },
       {
         "question": "What should your near hand do immediately after releasing the reverse kesa arm trap?",
@@ -477,11 +497,31 @@
       },
       {
         "question": "Why is recovering half guard considered a favorable outcome when defending this transition?",
-        "answer": "Half guard provides offensive opportunities including sweeps, back takes, and submissions that are unavailable from under reverse kesa-gatame or side control. By inserting your knee during the transition, you transform a purely defensive survival situation into a position with legitimate attacking options. Half guard bottom is a significantly better position than either reverse kesa bottom or side control bottom."
+        "answer": "Half guard provides offensive opportunities including sweeps, back takes, and submissions that are unavailable from under reverse kesa-gatame or side control. By inserting your knee during the transition, you transform a purely defensive survival situation into a position with legitimate attacking options. Half guard bottom is a significantly better position than either reverse kesa bottom or side control bottom.",
+        "answer_line": "Enables sweeps and back takes",
+        "distractors": {
+          "plausible": [
+            "Escapes all the way to standing",
+            "Restores a fully neutral position"
+          ],
+          "trap": [
+            "Turtle up to scramble free"
+          ]
+        }
       },
       {
         "question": "How should you time a bridge attempt to maximally disrupt the rotation?",
-        "answer": "Bridge when you feel the top player's weight shift during the rotation — specifically when their legs are moving and their base is in transition. The bridge should coincide with the moment their hip pressure on your ribs lightens as they rotate. Bridging before the rotation starts fails against stable reverse kesa base, and bridging after it completes fails against established side control. The window is narrow, requiring attentiveness to tactile cues of weight shifting."
+        "answer": "Bridge when you feel the top player's weight shift during the rotation — specifically when their legs are moving and their base is in transition. The bridge should coincide with the moment their hip pressure on your ribs lightens as they rotate. Bridging before the rotation starts fails against stable reverse kesa base, and bridging after it completes fails against established side control. The window is narrow, requiring attentiveness to tactile cues of weight shifting.",
+        "answer_line": "When hip pressure lightens",
+        "distractors": {
+          "plausible": [
+            "Before the rotation starts",
+            "After side control locks in"
+          ],
+          "trap": [
+            "Turn belly-down to power up"
+          ]
+        }
       }
     ],
     "training_progressions": [

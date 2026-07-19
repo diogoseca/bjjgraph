@@ -263,7 +263,17 @@
       },
       {
         "question": "What is the correct grip sequence when establishing diamond guard, and why does the order matter?",
-        "answer": "Overhook must be established first, head control second. The overhook is the structural foundation of the diamond frame because it isolates the opponent's arm and creates the first anchor point for posture disruption. Establishing head control first requires releasing your same-side hand, and without a deep overhook already in place, the opponent's arm is free to post, frame, or strip your head control. A deep overhook can maintain itself without constant attention, freeing your other hand to add head control and complete the diamond."
+        "answer": "Overhook must be established first, head control second. The overhook is the structural foundation of the diamond frame because it isolates the opponent's arm and creates the first anchor point for posture disruption. Establishing head control first requires releasing your same-side hand, and without a deep overhook already in place, the opponent's arm is free to post, frame, or strip your head control. A deep overhook can maintain itself without constant attention, freeing your other hand to add head control and complete the diamond.",
+        "answer_line": "Overhook first, then head control",
+        "distractors": {
+          "plausible": [
+            "Clamp the neck before the arm",
+            "Underhook first, then the collar"
+          ],
+          "trap": [
+            "Release the arm to cinch the skull"
+          ]
+        }
       },
       {
         "question": "You have established the overhook but your opponent is actively fighting your head control attempt by keeping their head high — how do you complete the diamond?",

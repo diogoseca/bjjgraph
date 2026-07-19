@@ -367,7 +367,17 @@
       },
       {
         "question": "Your opponent has strong collar grips from leg drag bottom that are slowing your circling motion—how do you address this?",
-        "answer": "Do not stop to strip the collar grips, as this creates a static exchange that favors the defender. Instead, use your circling motion itself to break the grips—as you rotate past their shoulder line, the angle change naturally weakens their grip mechanics because their wrists must twist awkwardly to maintain the hold. If grips persist, pin their gripping elbow to their body with your armpit as you circle, which both neutralizes the grip and establishes the arm control you need for north-south consolidation."
+        "answer": "Do not stop to strip the collar grips, as this creates a static exchange that favors the defender. Instead, use your circling motion itself to break the grips—as you rotate past their shoulder line, the angle change naturally weakens their grip mechanics because their wrists must twist awkwardly to maintain the hold. If grips persist, pin their gripping elbow to their body with your armpit as you circle, which both neutralizes the grip and establishes the arm control you need for north-south consolidation.",
+        "answer_line": "Circle through to break the grips",
+        "distractors": {
+          "plausible": [
+            "Halt and peel the collar first",
+            "Pin the gripping elbow first"
+          ],
+          "trap": [
+            "Turn your back to spin free"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition is relatively low-risk from an injury standpoint as it involves controlled movement rather than dynamic techniques or joint manipulation. The primary safety consideration is maintaining smooth, continuous pressure during the transition rather than sudden jerking movements that could cause the opponent's neck or shoulder to twist unexpectedly. When drilling, ensure the bottom partner communicates if pressure becomes uncomfortable, particularly around the head and neck area as you circle. In competition, be aware that rapid transitions can catch opponents off-guard—give them a moment to recognize the new position before attacking submissions.",
@@ -508,7 +518,17 @@
       },
       {
         "question": "During positional sparring from leg drag bottom, what specific defensive drill prepares you for the north-south transition?",
-        "answer": "The most effective drill has the top partner alternate randomly between driving toward mount, circling to side control, and transitioning to north-south from leg drag. The bottom player must recognize which direction the pass is going and apply the correct defensive response within one second. This develops the pattern recognition and reflexive response needed to defend all three legs of the trilemma rather than committing prematurely to one defensive posture."
+        "answer": "The most effective drill has the top partner alternate randomly between driving toward mount, circling to side control, and transitioning to north-south from leg drag. The bottom player must recognize which direction the pass is going and apply the correct defensive response within one second. This develops the pattern recognition and reflexive response needed to defend all three legs of the trilemma rather than committing prematurely to one defensive posture.",
+        "answer_line": "React to random pass direction",
+        "distractors": {
+          "plausible": [
+            "Commit early to one defense",
+            "Drill north-south escape alone"
+          ],
+          "trap": [
+            "Turn belly-down to turtle"
+          ]
+        }
       },
       {
         "question": "How does your defensive response differ based on whether you are still in leg drag control versus the passer being mid-transition to north-south?",

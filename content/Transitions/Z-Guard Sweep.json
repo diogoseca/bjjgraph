@@ -336,7 +336,17 @@
       },
       {
         "question": "What is the correct sequence of body movements during the Z-Guard Sweep execution?",
-        "answer": "The correct sequence is: first establish the angled hip position and far-side grip, then coordinate the simultaneous knee shield extension and far-side pull as one unified action, then drive the hips laterally and upward to add the third force vector, and finally follow the opponent's falling body to establish side control. The push and pull must occur simultaneously rather than sequentially because isolated push without pull only creates distance while isolated pull without push only tightens the clinch."
+        "answer": "The correct sequence is: first establish the angled hip position and far-side grip, then coordinate the simultaneous knee shield extension and far-side pull as one unified action, then drive the hips laterally and upward to add the third force vector, and finally follow the opponent's falling body to establish side control. The push and pull must occur simultaneously rather than sequentially because isolated push without pull only creates distance while isolated pull without push only tightens the clinch.",
+        "answer_line": "Push knee and pull as one motion",
+        "distractors": {
+          "plausible": [
+            "Pull the arm first, extend after",
+            "Bump hips before setting the grip"
+          ],
+          "trap": [
+            "Turn belly-down to come up on top"
+          ]
+        }
       },
       {
         "question": "Your knee shield is partially collapsed but you still have the far-side collar grip - should you continue the sweep attempt?",

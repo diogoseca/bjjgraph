@@ -94,7 +94,17 @@
     "flashcards": [
       {
         "question": "Your opponent starts bridging explosively to clear your inside leg from their hip - what adjustment do you make?",
-        "answer": "Drop your weight into the inside leg, driving your shin deeper across their hip while simultaneously pulling their trapped leg tighter into your body. Use the bridging momentum against them by switching your angle toward their head slightly, which loads more weight onto the inside leg and makes it harder to clear. If they continue bridging, this often exposes their heel for immediate attack opportunities."
+        "answer": "Drop your weight into the inside leg, driving your shin deeper across their hip while simultaneously pulling their trapped leg tighter into your body. Use the bridging momentum against them by switching your angle toward their head slightly, which loads more weight onto the inside leg and makes it harder to clear. If they continue bridging, this often exposes their heel for immediate attack opportunities.",
+        "answer_line": "Drop weight, drive shin deeper",
+        "distractors": {
+          "plausible": [
+            "Angle toward their legs, not head",
+            "Ease grip and re-pummel inside"
+          ],
+          "trap": [
+            "Bail the leg, scramble to knees"
+          ]
+        }
       },
       {
         "question": "What are the essential grips and leg positions for maintaining Inside Ashi-Garami from top?",
@@ -112,7 +122,17 @@
       },
       {
         "question": "How do you shut down the primary escape where opponent tries to extract their heel by pulling their leg back?",
-        "answer": "Immediately clamp your legs tighter together and pull their heel toward your chest with increased grip pressure. Simultaneously drive your inside leg deeper across their hip to prevent them from creating space. If they continue pulling, follow their leg by scooting your hips forward to maintain connection. This defensive reaction often sets up a transition to Outside Ashi-Garami or Saddle as you follow their movement."
+        "answer": "Immediately clamp your legs tighter together and pull their heel toward your chest with increased grip pressure. Simultaneously drive your inside leg deeper across their hip to prevent them from creating space. If they continue pulling, follow their leg by scooting your hips forward to maintain connection. This defensive reaction often sets up a transition to Outside Ashi-Garami or Saddle as you follow their movement.",
+        "answer_line": "Pinch knees, drag heel to chest",
+        "distractors": {
+          "plausible": [
+            "Grab their foot with both hands",
+            "Cross ankles to trap the leg"
+          ],
+          "trap": [
+            "Open your legs and reset guard"
+          ]
+        }
       },
       {
         "question": "What grip should you prioritize first when establishing Inside Ashi-Garami from top?",
@@ -130,11 +150,31 @@
       },
       {
         "question": "How do you apply pressure in Inside Ashi-Garami without burning excessive energy?",
-        "answer": "Use structural pressure rather than muscular tension. Elevate your hips off the mat and let gravity create downward pressure on their trapped leg. Keep your legs clamped but rely on body positioning rather than constant squeezing. Maintain chest-to-leg connection to transfer your body weight into control. The perpendicular body angle naturally creates leverage without requiring continuous muscular effort - this allows you to sustain the position for extended periods while threatening submissions."
+        "answer": "Use structural pressure rather than muscular tension. Elevate your hips off the mat and let gravity create downward pressure on their trapped leg. Keep your legs clamped but rely on body positioning rather than constant squeezing. Maintain chest-to-leg connection to transfer your body weight into control. The perpendicular body angle naturally creates leverage without requiring continuous muscular effort - this allows you to sustain the position for extended periods while threatening submissions.",
+        "answer_line": "Elevate hips, let gravity press",
+        "distractors": {
+          "plausible": [
+            "Squeeze the knees constantly",
+            "Drop your base low and heavy"
+          ],
+          "trap": [
+            "Cross ankles to lock the leg"
+          ]
+        }
       },
       {
         "question": "Your opponent rotates their knee inward toward you to defend the ankle lock - how do you respond?",
-        "answer": "This is actually an opportunity rather than a problem. When they rotate their knee inward, their heel becomes exposed for inside heel hook attacks. Immediately transition your grip from C-grip to figure-four configuration around their heel, with your wrist behind their Achilles. Use this moment to advance to Honey Hole or Saddle by threading your outside leg deeper into the entanglement. Their defensive reaction has opened a more dominant position - don't chase the ankle lock, flow to the better position."
+        "answer": "This is actually an opportunity rather than a problem. When they rotate their knee inward, their heel becomes exposed for inside heel hook attacks. Immediately transition your grip from C-grip to figure-four configuration around their heel, with your wrist behind their Achilles. Use this moment to advance to Honey Hole or Saddle by threading your outside leg deeper into the entanglement. Their defensive reaction has opened a more dominant position - don't chase the ankle lock, flow to the better position.",
+        "answer_line": "Take the exposed inside heel hook",
+        "distractors": {
+          "plausible": [
+            "Keep C-grip, finish the ankle",
+            "Thread inside leg deeper to Saddle"
+          ],
+          "trap": [
+            "Let go and scramble to your feet"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when an opponent is actively fighting to escape for an extended period?",
@@ -152,7 +192,17 @@
       },
       {
         "question": "Your opponent partially extracts their leg and creates space - how do you recover control?",
-        "answer": "Immediately reconnect your chest to their leg and re-clamp your legs around their trapped limb. Drive your inside leg back across their hip while pulling their heel back toward your torso. If they've created significant space, consider transitioning rather than forcing the original position - Outside Ashi-Garami or Saddle may now be more accessible than re-establishing pure Inside Ashi. Follow their leg movement rather than fighting against it, converting their escape attempt into a position advancement for you."
+        "answer": "Immediately reconnect your chest to their leg and re-clamp your legs around their trapped limb. Drive your inside leg back across their hip while pulling their heel back toward your torso. If they've created significant space, consider transitioning rather than forcing the original position - Outside Ashi-Garami or Saddle may now be more accessible than re-establishing pure Inside Ashi. Follow their leg movement rather than fighting against it, converting their escape attempt into a position advancement for you.",
+        "answer_line": "Reconnect chest, re-clamp the leg",
+        "distractors": {
+          "plausible": [
+            "Drive inside leg across hip first",
+            "Pull their heel to torso first"
+          ],
+          "trap": [
+            "Kick legs open to chase the foot"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -577,11 +627,31 @@
       },
       {
         "question": "How do you manage energy and stay safe while defending a prolonged inside ashi-garami entanglement?",
-        "answer": "Stay calm and systematic rather than thrashing, because uncontrolled movement burns energy and can feed the finish. Use structural frames - free foot on the hip, bent knee, hidden heel - to hold a safe defensive shell with minimal muscular tension. Reset between the opponent's advances and pick one committed escape rather than attempting several half-measures. Conserve effort for the decisive extraction window when their control momentarily loosens during a transition."
+        "answer": "Stay calm and systematic rather than thrashing, because uncontrolled movement burns energy and can feed the finish. Use structural frames - free foot on the hip, bent knee, hidden heel - to hold a safe defensive shell with minimal muscular tension. Reset between the opponent's advances and pick one committed escape rather than attempting several half-measures. Conserve effort for the decisive extraction window when their control momentarily loosens during a transition.",
+        "answer_line": "Stay calm, frame, conserve energy",
+        "distractors": {
+          "plausible": [
+            "Attack several escapes at once",
+            "Escape immediately at first grip"
+          ],
+          "trap": [
+            "Spin hard to rip the heel out"
+          ]
+        }
       },
       {
         "question": "The opponent's grip momentarily loosens during their adjustment - what do you do?",
-        "answer": "Exploit the window immediately. Frame on their hip with your free leg, retract your trapped knee toward your chest, and pull your heel out along the path of least resistance while their control is weakest. If full extraction is not available, at minimum clear the knee line to a safer angle or counter-entangle into 50-50 to neutralize their offense. The brief loosening during any transition is your highest-percentage chance to escape, so commit fully when you feel it."
+        "answer": "Exploit the window immediately. Frame on their hip with your free leg, retract your trapped knee toward your chest, and pull your heel out along the path of least resistance while their control is weakest. If full extraction is not available, at minimum clear the knee line to a safer angle or counter-entangle into 50-50 to neutralize their offense. The brief loosening during any transition is your highest-percentage chance to escape, so commit fully when you feel it.",
+        "answer_line": "Rip the trapped heel out now",
+        "distractors": {
+          "plausible": [
+            "Frame the hip, then wait to reset",
+            "Free the knee slowly first"
+          ],
+          "trap": [
+            "Reach back and fight their hands"
+          ]
+        }
       }
     ],
     "decision_tree": [
@@ -902,7 +972,17 @@
     },
     {
       "question": "Why is grip on the heel the decisive control point that both players fight over?",
-      "answer": "A secured grip on the heel, whether a C-grip with fingers around the heel and thumb on the Achilles or a figure-four, is what allows rotational force to be transmitted into the trapped limb. Without that grip the entanglement is dramatically weaker: finishes cannot be generated and extraction becomes far higher percentage. As a result the heel grip is the pivotal contested connection, with one player working to establish and retain it and the other working to strip or prevent it. The state of this single grip is the best predictor of who controls the position at any moment."
+      "answer": "A secured grip on the heel, whether a C-grip with fingers around the heel and thumb on the Achilles or a figure-four, is what allows rotational force to be transmitted into the trapped limb. Without that grip the entanglement is dramatically weaker: finishes cannot be generated and extraction becomes far higher percentage. As a result the heel grip is the pivotal contested connection, with one player working to establish and retain it and the other working to strip or prevent it. The state of this single grip is the best predictor of who controls the position at any moment.",
+      "answer_line": "Grip transmits rotation to limb",
+      "distractors": {
+        "plausible": [
+          "It locks the ankle joint in place",
+          "It stops the leg from escaping"
+        ],
+        "trap": [
+          "Ditch the grip to chase the pass"
+        ]
+      }
     },
     {
       "question": "How does Inside Ashi-Garami serve as a transitional hub relative to adjacent positions?",
@@ -934,7 +1014,17 @@
     },
     {
       "question": "How does distance and hip elevation govern the stability of Inside Ashi-Garami for both players?",
-      "answer": "The controlling player keeps their hips elevated off the mat and manages the distance between the two bodies, using structural pressure rather than constant muscular squeezing to hold the trapped limb. Elevated hips load weight down through the captured leg and preserve the leverage needed for threats, while flat hips surrender both pressure and finishing angle. Distance is a two-way lever: too much space lets the trapped leg extract, while proper connection keeps the clamp intact. Because the position can be held with structure rather than strength, it is sustainable enough that the exchange is often decided by patience and angle rather than a scramble."
+      "answer": "The controlling player keeps their hips elevated off the mat and manages the distance between the two bodies, using structural pressure rather than constant muscular squeezing to hold the trapped limb. Elevated hips load weight down through the captured leg and preserve the leverage needed for threats, while flat hips surrender both pressure and finishing angle. Distance is a two-way lever: too much space lets the trapped leg extract, while proper connection keeps the clamp intact. Because the position can be held with structure rather than strength, it is sustainable enough that the exchange is often decided by patience and angle rather than a scramble.",
+      "answer_line": "Hips up, structure over squeeze",
+      "distractors": {
+        "plausible": [
+          "Muscle the clamp tight",
+          "Widen distance for leverage"
+        ],
+        "trap": [
+          "Drop hips flat to the mat"
+        ]
+      }
     }
   ],
   "clips": [

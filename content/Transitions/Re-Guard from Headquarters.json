@@ -279,7 +279,17 @@
       },
       {
         "question": "How should you modify your recovery strategy when your opponent is using heavy forward pressure versus when they're maintaining distance and control?",
-        "answer": "Against heavy forward pressure, use that pressure to facilitate larger hip escapes or granby rolls, essentially using their momentum to help create space. Don't fight force with force through frames; instead, redirect their pressure to create angles. Against opponent maintaining distance and control, focus on breaking their grips and frames that keep you at bay, then aggressively close distance to recover guard structure. The first scenario requires using their energy; the second requires generating your own movement to break their control structure."
+        "answer": "Against heavy forward pressure, use that pressure to facilitate larger hip escapes or granby rolls, essentially using their momentum to help create space. Don't fight force with force through frames; instead, redirect their pressure to create angles. Against opponent maintaining distance and control, focus on breaking their grips and frames that keep you at bay, then aggressively close distance to recover guard structure. The first scenario requires using their energy; the second requires generating your own movement to break their control structure.",
+        "answer_line": "Use their pressure to make space",
+        "distractors": {
+          "plausible": [
+            "Fight pressure with strong frames",
+            "Close distance, then break grips"
+          ],
+          "trap": [
+            "Turn belly-down to relieve pressure"
+          ]
+        }
       },
       {
         "question": "What are the primary indicators that you should abandon full guard recovery and transition to an alternative defensive position like turtle or technical standup?",
@@ -353,7 +363,17 @@
       },
       {
         "question": "If your initial knee recovery is blocked and opponent begins consolidating to side control, what is your emergency recovery sequence?",
-        "answer": "Immediately switch from knee recovery to hip escape in the opposite direction, turning to face them rather than continuing away. If side control consolidation is imminent, accept quarter guard or half guard by hooking their leg with your far-side leg while continuing to frame with your arms. This gives you a structured defensive position rather than being flattened in side control. From half guard, you can work proper escapes with more options than from fully passed position. The key is recognizing the transition moment and accepting the best available fallback rather than fighting for a lost position."
+        "answer": "Immediately switch from knee recovery to hip escape in the opposite direction, turning to face them rather than continuing away. If side control consolidation is imminent, accept quarter guard or half guard by hooking their leg with your far-side leg while continuing to frame with your arms. This gives you a structured defensive position rather than being flattened in side control. From half guard, you can work proper escapes with more options than from fully passed position. The key is recognizing the transition moment and accepting the best available fallback rather than fighting for a lost position.",
+        "answer_line": "Face them, hook leg to half guard",
+        "distractors": {
+          "plausible": [
+            "Keep driving knee to full guard",
+            "Frame and bridge to reset"
+          ],
+          "trap": [
+            "Turn belly-down, escape to knees"
+          ]
+        }
       },
       {
         "question": "What is the optimal timing window for initiating guard recovery from Headquarters position?",
@@ -541,7 +561,17 @@
       },
       {
         "question": "What is the critical timing window for the passer to consolidate from Headquarters before re-guard becomes likely?",
-        "answer": "The passer has approximately 1-3 seconds after clearing the legs to establish upper body control before the bottom player initiates effective recovery. This window begins when your legs clear their guard structure and ends when they establish their first structural frame on your hip or shoulder. Use this window to immediately drive crossface, secure underhook, and drop chest weight. If you spend this window adjusting grips, repositioning your base, or hesitating on which pass to attempt, the bottom player will establish frames that make consolidation significantly harder."
+        "answer": "The passer has approximately 1-3 seconds after clearing the legs to establish upper body control before the bottom player initiates effective recovery. This window begins when your legs clear their guard structure and ends when they establish their first structural frame on your hip or shoulder. Use this window to immediately drive crossface, secure underhook, and drop chest weight. If you spend this window adjusting grips, repositioning your base, or hesitating on which pass to attempt, the bottom player will establish frames that make consolidation significantly harder.",
+        "answer_line": "1-3 sec after clearing legs",
+        "distractors": {
+          "plausible": [
+            "After you settle base and grips",
+            "Once you choose which pass to run"
+          ],
+          "trap": [
+            "Wait for their frame, then crossface"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between a bottom player committing to a shrimp recovery versus setting up a granby roll?",

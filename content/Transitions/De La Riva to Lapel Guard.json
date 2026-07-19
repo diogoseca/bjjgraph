@@ -239,7 +239,17 @@
       },
       {
         "question": "Which direction should you route the lapel relative to your own leg, and why does it matter?",
-        "answer": "You route the lapel from inside to outside underneath your own De La Riva shin so the fabric threads behind the opponent's knee. This matters because routing the cloth over your leg produces only a cross-collar grip that does not trap the limb, whereas routing it under creates a true wrap that entangles the leg with the opponent's own gi, giving the persistent worm-guard control point."
+        "answer": "You route the lapel from inside to outside underneath your own De La Riva shin so the fabric threads behind the opponent's knee. This matters because routing the cloth over your leg produces only a cross-collar grip that does not trap the limb, whereas routing it under creates a true wrap that entangles the leg with the opponent's own gi, giving the persistent worm-guard control point.",
+        "answer_line": "Under your shin, inside-to-out",
+        "distractors": {
+          "plausible": [
+            "Over your shin, inside-to-out",
+            "Outside-to-inside beneath shin"
+          ],
+          "trap": [
+            "Across the hip, skip the shin"
+          ]
+        }
       },
       {
         "question": "What is the ideal timing window to extract the lapel during this entry?",

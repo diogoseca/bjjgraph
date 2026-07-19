@@ -361,7 +361,17 @@
       },
       {
         "question": "In what order should you establish grips when building diamond guard from standard closed guard?",
-        "answer": "Establish the overhook first by swimming your arm over the opponent's bicep when they reach inside your guard or attempt to post. Pull your elbow tight to your ribs to deepen it and drag their arm across your body. Only after the overhook is secure do you add head control by gripping behind the neck. The overhook must be established first because it is the foundation — head control without a deep overhook creates an incomplete frame the opponent can strip. Reversing this order is a common error leading to premature diamond collapse."
+        "answer": "Establish the overhook first by swimming your arm over the opponent's bicep when they reach inside your guard or attempt to post. Pull your elbow tight to your ribs to deepen it and drag their arm across your body. Only after the overhook is secure do you add head control by gripping behind the neck. The overhook must be established first because it is the foundation — head control without a deep overhook creates an incomplete frame the opponent can strip. Reversing this order is a common error leading to premature diamond collapse.",
+        "answer_line": "Establish the overhook first",
+        "distractors": {
+          "plausible": [
+            "Grip behind the neck first",
+            "Drag their arm across first"
+          ],
+          "trap": [
+            "Take an underhook first"
+          ]
+        }
       },
       {
         "question": "How does the diamond frame amplify posture-breaking force compared to standard collar or head grips?",
@@ -760,7 +770,17 @@
       },
       {
         "question": "In what order should you establish grips when building diamond guard from standard closed guard?",
-        "answer": "Establish the overhook first by swimming your arm over the opponent's bicep when they reach inside your guard or attempt to post. Pull your elbow tight to your ribs to deepen it and drag their arm across your body. Only after the overhook is secure do you add head control by gripping behind the neck. The overhook must be established first because it is the foundation — head control without a deep overhook creates an incomplete frame the opponent can strip. Reversing this order is a common error leading to premature diamond collapse."
+        "answer": "Establish the overhook first by swimming your arm over the opponent's bicep when they reach inside your guard or attempt to post. Pull your elbow tight to your ribs to deepen it and drag their arm across your body. Only after the overhook is secure do you add head control by gripping behind the neck. The overhook must be established first because it is the foundation — head control without a deep overhook creates an incomplete frame the opponent can strip. Reversing this order is a common error leading to premature diamond collapse.",
+        "answer_line": "Overhook first, then head control",
+        "distractors": {
+          "plausible": [
+            "Grip behind the neck first",
+            "Underhook first, then collar tie"
+          ],
+          "trap": [
+            "Post a straight arm on the neck"
+          ]
+        }
       },
       {
         "question": "How does the diamond frame amplify posture-breaking force compared to standard collar or head grips?",

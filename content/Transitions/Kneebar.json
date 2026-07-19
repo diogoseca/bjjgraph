@@ -264,7 +264,17 @@
       },
       {
         "question": "What conditions must exist before you commit to the kneebar entry?",
-        "answer": "Four conditions are required: established Backside 50-50 Top with chest pressure, the target leg extending or straightened, hip control on the target side preventing rotation, and a clear path to rotate perpendicular to their leg. If any condition is missing, the kneebar will likely fail - particularly if the leg is still bent or you lack hip control. Use heel hook threats to create the extension if it does not exist naturally."
+        "answer": "Four conditions are required: established Backside 50-50 Top with chest pressure, the target leg extending or straightened, hip control on the target side preventing rotation, and a clear path to rotate perpendicular to their leg. If any condition is missing, the kneebar will likely fail - particularly if the leg is still bent or you lack hip control. Use heel hook threats to create the extension if it does not exist naturally.",
+        "answer_line": "Leg straight + hip control locked",
+        "distractors": {
+          "plausible": [
+            "Backside 50-50 grip established",
+            "Chest pressure + clear rotation path"
+          ],
+          "trap": [
+            "Crank on the bent leg to force it"
+          ]
+        }
       },
       {
         "question": "Where exactly should the fulcrum point be positioned for maximum kneebar effectiveness?",
@@ -324,11 +334,31 @@
       },
       {
         "question": "Your opponent starts rolling toward you as you apply the kneebar. What are your two best responses?",
-        "answer": "First option: follow their roll and maintain your finishing position, transitioning to belly-down kneebar where gravity assists your control. Second option: recognize that their roll exposes their back and abandon the leg attack to secure back control instead. The choice depends on how committed they are to the roll and whether you have strong control of the leg. If your leg triangle is tight, follow the roll and finish. If control is loose, take the back."
+        "answer": "First option: follow their roll and maintain your finishing position, transitioning to belly-down kneebar where gravity assists your control. Second option: recognize that their roll exposes their back and abandon the leg attack to secure back control instead. The choice depends on how committed they are to the roll and whether you have strong control of the leg. If your leg triangle is tight, follow the roll and finish. If control is loose, take the back.",
+        "answer_line": "Follow the roll or take the back",
+        "distractors": {
+          "plausible": [
+            "Crank harder as they roll",
+            "Switch to a toe hold mid-roll"
+          ],
+          "trap": [
+            "Belly-up to keep the finish"
+          ]
+        }
       },
       {
         "question": "Your opponent bends their knee sharply and begins rotating their hip. What does this tell you about your next attack?",
-        "answer": "A bent knee with hip rotation means the kneebar is no longer viable, but the bend exposes their heel for a heel hook and their foot for a toe hold. Immediately assess which target is more accessible: if the heel is exposed, transition to inside heel hook by securing the heel and applying rotational pressure. If the foot is more available, switch to toe hold. This forced transition is why the kneebar works best as part of a leg lock system rather than an isolated attack."
+        "answer": "A bent knee with hip rotation means the kneebar is no longer viable, but the bend exposes their heel for a heel hook and their foot for a toe hold. Immediately assess which target is more accessible: if the heel is exposed, transition to inside heel hook by securing the heel and applying rotational pressure. If the foot is more available, switch to toe hold. This forced transition is why the kneebar works best as part of a leg lock system rather than an isolated attack.",
+        "answer_line": "Switch to heel hook or toe hold",
+        "distractors": {
+          "plausible": [
+            "Extend the leg back to kneebar",
+            "Switch to a straight ankle lock"
+          ],
+          "trap": [
+            "Chase the kneebar, ignore the spin"
+          ]
+        }
       },
       {
         "question": "What direction of force should you apply during the kneebar finish, and why?",
@@ -346,7 +376,17 @@
       },
       {
         "question": "When should you abandon a kneebar attempt and what are your chain attack options?",
-        "answer": "Abandon when the opponent successfully bends their knee past 90 degrees and maintains hip rotation despite your control efforts, or when they establish strong grip fighting that prevents proper ankle control. Chain attack options include: inside heel hook when the bent knee exposes the heel, toe hold when the foot becomes accessible during their defense, returning to Backside 50-50 chest pressure to reset and wait for a better opportunity, or transitioning to back control if they over-rotate during their escape."
+        "answer": "Abandon when the opponent successfully bends their knee past 90 degrees and maintains hip rotation despite your control efforts, or when they establish strong grip fighting that prevents proper ankle control. Chain attack options include: inside heel hook when the bent knee exposes the heel, toe hold when the foot becomes accessible during their defense, returning to Backside 50-50 chest pressure to reset and wait for a better opportunity, or transitioning to back control if they over-rotate during their escape.",
+        "answer_line": "Bail when knee bends past 90°",
+        "distractors": {
+          "plausible": [
+            "Toe hold before ankle control",
+            "Take back if he flattens out"
+          ],
+          "trap": [
+            "Keep cranking the bent knee"
+          ]
+        }
       }
     ],
     "safety_considerations": "The kneebar attacks the knee joint's structural integrity and can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied without control. Always apply pressure gradually, never explosively. Training partners must tap early when they feel the hyperextension beginning - there is no fighting through a properly applied kneebar. Practitioners with existing knee injuries should communicate limitations before drilling. When finishing, maintain control even after your partner taps - releasing suddenly while they are resisting can cause injury. In training, prioritize your partner's safety over finishing the submission. Stop immediately if your partner says stop rather than tapping, as verbal submission is equally valid. Avoid training kneebars with brand new partners until you understand their pain tolerance and tapping habits.",
@@ -468,7 +508,17 @@
     "flashcards": [
       {
         "question": "What is the single most important defensive action when you recognize a kneebar is being initiated?",
-        "answer": "Immediately bend your knee. Knee flexion is the most powerful universal defense because a bent knee cannot be hyperextended regardless of how strong the attacker's position is. This should be an automatic, reflexive response to any kneebar recognition cue. Once the knee is bent past 90 degrees, the attacker must either abandon the kneebar or work to re-straighten your leg, buying you time for further defensive actions."
+        "answer": "Immediately bend your knee. Knee flexion is the most powerful universal defense because a bent knee cannot be hyperextended regardless of how strong the attacker's position is. This should be an automatic, reflexive response to any kneebar recognition cue. Once the knee is bent past 90 degrees, the attacker must either abandon the kneebar or work to re-straighten your leg, buying you time for further defensive actions.",
+        "answer_line": "Bend your knee immediately",
+        "distractors": {
+          "plausible": [
+            "Grab the attacker's foot first",
+            "Slide your hips back to escape"
+          ],
+          "trap": [
+            "Yank the leg straight to pull out"
+          ]
+        }
       },
       {
         "question": "How do you distinguish between safe positional control pressure and dangerous finishing pressure during a kneebar?",

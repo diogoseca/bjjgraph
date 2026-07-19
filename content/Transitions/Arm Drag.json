@@ -243,7 +243,17 @@
       },
       {
         "question": "Why is it critical to move your feet simultaneously with the arm drag motion rather than pulling first and stepping second?",
-        "answer": "Moving your feet simultaneously ensures you capitalize on the brief window of structural disruption created by the arm drag. If you pull the arm first and then move your feet, the opponent has time to recover their base, turn into you, or re-establish defensive frames. The simultaneous movement compounds the positional advantage because the opponent cannot track two changes at once: their arm being redirected and your body appearing behind their shoulder line. This timing coordination is the single most common differentiator between successful and failed arm drag attempts."
+        "answer": "Moving your feet simultaneously ensures you capitalize on the brief window of structural disruption created by the arm drag. If you pull the arm first and then move your feet, the opponent has time to recover their base, turn into you, or re-establish defensive frames. The simultaneous movement compounds the positional advantage because the opponent cannot track two changes at once: their arm being redirected and your body appearing behind their shoulder line. This timing coordination is the single most common differentiator between successful and failed arm drag attempts.",
+        "answer_line": "Hit the window before base recovers",
+        "distractors": {
+          "plausible": [
+            "Pull the arm fully, then step",
+            "Step across before the arm drag"
+          ],
+          "trap": [
+            "Release the arm to grab the back"
+          ]
+        }
       },
       {
         "question": "What is the most dangerous counter to watch for when executing standing arm drags and how do you prevent it?",

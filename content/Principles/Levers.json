@@ -426,7 +426,17 @@
     },
     {
       "question": "How do you maximize mechanical advantage in a lever arm ratio?",
-      "answer": "Lengthen the distance from the fulcrum to your effort point while shortening the distance from the fulcrum to the opponent's resistance point, aiming for at least a 2:1 ratio in your favor."
+      "answer": "Lengthen the distance from the fulcrum to your effort point while shortening the distance from the fulcrum to the opponent's resistance point, aiming for at least a 2:1 ratio in your favor.",
+      "answer_line": "Longer effort arm, shorter load arm",
+      "distractors": {
+        "plausible": [
+          "Apply force near the fulcrum",
+          "Aim for an even 1:1 ratio"
+        ],
+        "trap": [
+          "Pull straight into their strength"
+        ]
+      }
     },
     {
       "question": "At what angle should force be applied to a lever arm for maximum effect?",

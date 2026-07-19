@@ -28,7 +28,12 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from audit_mc_viability import MC_LINE_BUDGET, mc_clip, viable_distractor  # noqa: E402
+from audit_mc_viability import (  # noqa: E402
+    MC_LINE_BUDGET,
+    mc_clip,
+    viable_distractor,
+    viable_distractor_reason,
+)
 from claude_infer import call_claude  # noqa: E402
 
 STATE_DIR = ROOT / "logs/mc_author"
@@ -111,22 +116,32 @@ def needs_authoring(card: dict) -> bool:
     return len(opts) < 3 or any(len(x) > MC_LINE_BUDGET for x in opts)
 
 
-def verify(answer_line: str, plausible: list, trap: list, full_answer: str) -> bool:
+def verify_reason(answer_line: str, plausible: list, trap: list, full_answer: str) -> tuple[bool, str]:
+    """(ok, reason) where reason ∈ cue_empty | cue_len | distractor_empty | distractor_len |
+    clip | ratio | sim_correct | sim_sibling | too_few | ok. Drives the salvage retry feedback
+    and the residual diagnosis. Reuses the shipped guards (distractor ≠ answer, length ratio,
+    not near-dup) vs the correct one-liner; clip is implicit (these are already one-line)."""
     al = (answer_line or "").strip()
-    if not al or len(al) > MC_LINE_BUDGET:
-        return False
+    if not al:
+        return False, "cue_empty"
+    if len(al) > MC_LINE_BUDGET:
+        return False, "cue_len"
     picked = []
     for t in list(plausible) + list(trap):
         t = (t or "").strip()
-        if not t or len(t) > MC_LINE_BUDGET:
-            return False
-        # reuse the shipped guards (distractor ≠ answer, length ratio, not near-dup) vs the
-        # correct one-liner; clip=False since these are already one-line
-        v = viable_distractor(t, al, picked)
+        if not t:
+            return False, "distractor_empty"
+        if len(t) > MC_LINE_BUDGET:
+            return False, "distractor_len"
+        v, why = viable_distractor_reason(t, al, picked)
         if not v:
-            return False
+            return False, why
         picked.append(v)
-    return len(picked) >= 3
+    return (True, "ok") if len(picked) >= 3 else (False, "too_few")
+
+
+def verify(answer_line: str, plausible: list, trap: list, full_answer: str) -> bool:
+    return verify_reason(answer_line, plausible, trap, full_answer)[0]
 
 
 def process_file(path: str, model: str, effort: str, dry: bool) -> tuple[int, int]:

@@ -303,7 +303,17 @@
       },
       {
         "question": "How can the muscle sweep be effectively integrated into a closed guard attack sequence?",
-        "answer": "The muscle sweep works best when chained with other closed guard attacks like Triangle, Kimura, or Hip Bump Sweep. Use the muscle sweep setup to break posture and create reactions - if they defend by posting, attack the arm; if they posture up strongly, switch to Triangle; if they base wide, transition to Hip Bump. The muscle sweep becomes more effective when it's one option in a systematic attack sequence rather than an isolated technique."
+        "answer": "The muscle sweep works best when chained with other closed guard attacks like Triangle, Kimura, or Hip Bump Sweep. Use the muscle sweep setup to break posture and create reactions - if they defend by posting, attack the arm; if they posture up strongly, switch to Triangle; if they base wide, transition to Hip Bump. The muscle sweep becomes more effective when it's one option in a systematic attack sequence rather than an isolated technique.",
+        "answer_line": "Chain off their defense",
+        "distractors": {
+          "plausible": [
+            "Post → Triangle, posture → arm",
+            "Drill it as a standalone sweep"
+          ],
+          "trap": [
+            "Open guard, bench-press them up"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration do you need before initiating the muscle sweep?",
@@ -349,7 +359,17 @@
       },
       {
         "question": "What are the conditions that must exist before you can realistically attempt the muscle sweep?",
-        "answer": "Four conditions must be present: closed guard with ankles locked, opponent's posture broken with head below shoulder line, controlling grips established on collar and sleeve, and your hips shifted to approximately 45 degrees creating the sweeping angle. Additionally, the opponent's weight must be distributed forward rather than sitting back on their heels. Attempting the sweep without all conditions met dramatically reduces success rate and may expose you to guard passes or submission counters from the opponent."
+        "answer": "Four conditions must be present: closed guard with ankles locked, opponent's posture broken with head below shoulder line, controlling grips established on collar and sleeve, and your hips shifted to approximately 45 degrees creating the sweeping angle. Additionally, the opponent's weight must be distributed forward rather than sitting back on their heels. Attempting the sweep without all conditions met dramatically reduces success rate and may expose you to guard passes or submission counters from the opponent.",
+        "answer_line": "Hips at 45°, opponent weight forward",
+        "distractors": {
+          "plausible": [
+            "Grips set, posture still upright",
+            "Hips square, weight on their heels"
+          ],
+          "trap": [
+            "Turn to knees for the angle"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing the Muscle Sweep, ensure controlled execution to protect both partners. The person being swept should be prepared for backward rolling motion and know how to breakfall safely. Avoid slamming the opponent by following through smoothly to mount rather than releasing them during the sweep. For the bottom person, be cautious with grip strength on the collar to avoid neck strain - pull the collar down and across rather than purely downward. During training, start with slow controlled repetitions before adding explosive power. Partners should communicate clearly about resistance levels, especially during the learning phases. Be particularly careful when training this technique with significant size mismatches, as the smaller person may struggle with the explosive elements while the larger person may inadvertently use too much force. Always practice on proper matted surfaces to cushion any impacts.",

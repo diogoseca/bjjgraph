@@ -595,7 +595,17 @@
       },
       {
         "question": "What body position should you maintain to make the transition as difficult as possible for your opponent?",
-        "answer": "Keep your weight driving forward with your head pressing into the opponent's chest or solar plexus. Your trapped arm's elbow should be pinned tightly to your ribs with your hand gripping your own collar or lapel. Your free hand should control the opponent's far hip or bicep to prevent their pivot. Your hips should stay heavy and square to the opponent rather than allowing them to angle off. This compressed forward position eliminates the space needed for the pivot and prevents the opponent from falling back into armbar position."
+        "answer": "Keep your weight driving forward with your head pressing into the opponent's chest or solar plexus. Your trapped arm's elbow should be pinned tightly to your ribs with your hand gripping your own collar or lapel. Your free hand should control the opponent's far hip or bicep to prevent their pivot. Your hips should stay heavy and square to the opponent rather than allowing them to angle off. This compressed forward position eliminates the space needed for the pivot and prevents the opponent from falling back into armbar position.",
+        "answer_line": "Drive forward, pin elbow to ribs",
+        "distractors": {
+          "plausible": [
+            "Sit up tall, keep your hips square",
+            "Frame across, make room to turn"
+          ],
+          "trap": [
+            "Straighten the arm and rip it out"
+          ]
+        }
       }
     ],
     "training_progressions": [

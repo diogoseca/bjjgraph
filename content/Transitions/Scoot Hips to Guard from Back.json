@@ -255,11 +255,31 @@
     "flashcards": [
       {
         "question": "What must be secured before initiating any hip scooting movement from back control?",
-        "answer": "Neck defense through chin tuck and two-on-one hand fighting on the opponent's choking arm must be completely established before any hip movement begins. Attempting to scoot without neck defense leaves you vulnerable to immediate rear naked choke submission during the escape attempt."
+        "answer": "Neck defense through chin tuck and two-on-one hand fighting on the opponent's choking arm must be completely established before any hip movement begins. Attempting to scoot without neck defense leaves you vulnerable to immediate rear naked choke submission during the escape attempt.",
+        "answer_line": "Chin tuck + two-on-one on arm",
+        "distractors": {
+          "plausible": [
+            "Two-on-one grip, then scoot",
+            "Frame the hips and turn away"
+          ],
+          "trap": [
+            "Bump hips out right away"
+          ]
+        }
       },
       {
         "question": "Why is incremental shoulder walking preferred over one explosive hip escape movement?",
-        "answer": "Incremental shoulder walking creates a ratcheting effect that is difficult for the opponent to track and counter, as each small movement is below the threshold that triggers a strong defensive reaction. One large explosive movement is easily followed by the opponent who adjusts their hooks and body position to maintain control, wasting energy without positional improvement."
+        "answer": "Incremental shoulder walking creates a ratcheting effect that is difficult for the opponent to track and counter, as each small movement is below the threshold that triggers a strong defensive reaction. One large explosive movement is easily followed by the opponent who adjusts their hooks and body position to maintain control, wasting energy without positional improvement.",
+        "answer_line": "Stays below reaction threshold",
+        "distractors": {
+          "plausible": [
+            "Covers more distance per move",
+            "Builds momentum to break grips"
+          ],
+          "trap": [
+            "Explode out in one big burst"
+          ]
+        }
       },
       {
         "question": "Which hook should you target first when clearing hooks during the hip scoot escape?",
@@ -277,7 +297,17 @@
       },
       {
         "question": "Your opponent begins tightening their hooks as you start scooting downward - what adjustment do you make?",
-        "answer": "Switch to alternating the scooting direction with small lateral hip movements to create angles the opponent cannot track with simple hook tightening. Combine the scoot with hand fighting on their seatbelt to create multiple problems simultaneously, forcing them to choose between maintaining hooks and defending grip strips."
+        "answer": "Switch to alternating the scooting direction with small lateral hip movements to create angles the opponent cannot track with simple hook tightening. Combine the scoot with hand fighting on their seatbelt to create multiple problems simultaneously, forcing them to choose between maintaining hooks and defending grip strips.",
+        "answer_line": "Alternate scoot, angle off hips",
+        "distractors": {
+          "plausible": [
+            "Scoot straight down faster",
+            "Bridge up to pop the hooks"
+          ],
+          "trap": [
+            "Reach back to peel the top hook"
+          ]
+        }
       },
       {
         "question": "What is the critical direction you must turn when completing the escape to recover guard?",
@@ -309,7 +339,17 @@
       },
       {
         "question": "What immediate actions must you take after completing the turn to prevent being passed to side control?",
-        "answer": "Insert your inside knee between the opponent's legs to establish half guard within the first one to two seconds of completing the turn. Simultaneously establish a forearm frame on their shoulder and position your body on your side rather than flat on your back. Failure to immediately establish defensive structure allows the opponent to pass directly to side control or mount."
+        "answer": "Insert your inside knee between the opponent's legs to establish half guard within the first one to two seconds of completing the turn. Simultaneously establish a forearm frame on their shoulder and position your body on your side rather than flat on your back. Failure to immediately establish defensive structure allows the opponent to pass directly to side control or mount.",
+        "answer_line": "Wedge inside knee to half guard",
+        "distractors": {
+          "plausible": [
+            "Post outside foot, then frame up",
+            "Frame shoulder before the knee"
+          ],
+          "trap": [
+            "Roll belly-down into turtle"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate the hip scoot during back control defense?",
@@ -469,11 +509,31 @@
       },
       {
         "question": "How does transitioning to body triangle prevent the hip scoot escape?",
-        "answer": "Body triangle eliminates the scooting escape because the locked triangle configuration around the opponent's waist cannot be cleared through downward hip movement the way individual hooks can. The interlocking legs create a continuous ring of control that travels with any hip movement, making the fundamental scooting mechanism ineffective. The opponent must address the body triangle through entirely different escape methods."
+        "answer": "Body triangle eliminates the scooting escape because the locked triangle configuration around the opponent's waist cannot be cleared through downward hip movement the way individual hooks can. The interlocking legs create a continuous ring of control that travels with any hip movement, making the fundamental scooting mechanism ineffective. The opponent must address the body triangle through entirely different escape methods.",
+        "answer_line": "Locked ring travels with the hips",
+        "distractors": {
+          "plausible": [
+            "Tighter hooks block the hip slide",
+            "Drive weight down to pin the hips"
+          ],
+          "trap": [
+            "Unlock legs to reposition hooks"
+          ]
+        }
       },
       {
         "question": "When should you prioritize attacking the neck versus maintaining hook position during a scoot attempt?",
-        "answer": "Attack the neck when your hooks are still secure and the opponent shifts their hands away from neck defense to initiate the scooting motion. This forces them to choose between continuing the escape with an undefended neck or aborting to re-establish neck defense. Never sacrifice hook position to chase the neck, as losing hooks during a choke attempt typically results in complete position loss."
+        "answer": "Attack the neck when your hooks are still secure and the opponent shifts their hands away from neck defense to initiate the scooting motion. This forces them to choose between continuing the escape with an undefended neck or aborting to re-establish neck defense. Never sacrifice hook position to chase the neck, as losing hooks during a choke attempt typically results in complete position loss.",
+        "answer_line": "Attack neck when hooks stay secure",
+        "distractors": {
+          "plausible": [
+            "Wait for them to defend the neck",
+            "Neck always beats hook position"
+          ],
+          "trap": [
+            "Sacrifice hooks to chase the choke"
+          ]
+        }
       }
     ],
     "training_progressions": [

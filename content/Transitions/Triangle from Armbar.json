@@ -334,7 +334,17 @@
       },
       {
         "question": "Which grip configuration should you use on the trapped arm, and how does it change between the armbar phase and the triangle phase?",
-        "answer": "During the armbar phase, use a two-handed grip controlling the wrist with thumbs on the inside of the forearm. As you initiate the triangle transition, transfer primary control to the lead hand (closest to the wrist) with a firm C-grip around the wrist. After the triangle locks, your grip priority shifts: use one hand to pull the trapped arm diagonally across the opponent's throat, and the other hand to grip behind their head and pull it down. The arm grip transitions from isolation-focused (armbar) to amplification-focused (using the arm as a choking bar inside the triangle)."
+        "answer": "During the armbar phase, use a two-handed grip controlling the wrist with thumbs on the inside of the forearm. As you initiate the triangle transition, transfer primary control to the lead hand (closest to the wrist) with a firm C-grip around the wrist. After the triangle locks, your grip priority shifts: use one hand to pull the trapped arm diagonally across the opponent's throat, and the other hand to grip behind their head and pull it down. The arm grip transitions from isolation-focused (armbar) to amplification-focused (using the arm as a choking bar inside the triangle).",
+        "answer_line": "Wrist control, then arm as choke bar",
+        "distractors": {
+          "plausible": [
+            "Keep two-hand wrist grip throughout",
+            "Palm-up wrist grip for both phases"
+          ],
+          "trap": [
+            "Free the arm, then lock the choke"
+          ]
+        }
       },
       {
         "question": "The opponent pulls their trapped arm partially free during your leg swing—what are your options?",
@@ -380,7 +390,17 @@
       },
       {
         "question": "What physical sensation confirms that your triangle is locked tightly enough to begin the finishing sequence?",
-        "answer": "You should feel bilateral compression against both sides of the opponent's neck through your legs, with the back of one knee seated firmly on the nape of the neck. The opponent's head should feel heavy and controlled, unable to lift or turn significantly. Your lock (ankle behind knee) should feel secure with no slippage when you begin squeezing. You should also feel the opponent's trapped arm pressing into the side of their own neck. If you can feel the opponent's pulse through your inner thigh, you have correct carotid alignment. The final confirmation is that squeezing your knees together produces visible distress or defensive urgency from the opponent."
+        "answer": "You should feel bilateral compression against both sides of the opponent's neck through your legs, with the back of one knee seated firmly on the nape of the neck. The opponent's head should feel heavy and controlled, unable to lift or turn significantly. Your lock (ankle behind knee) should feel secure with no slippage when you begin squeezing. You should also feel the opponent's trapped arm pressing into the side of their own neck. If you can feel the opponent's pulse through your inner thigh, you have correct carotid alignment. The final confirmation is that squeezing your knees together produces visible distress or defensive urgency from the opponent.",
+        "answer_line": "Both sides of neck compressed",
+        "distractors": {
+          "plausible": [
+            "Only the arm-side squeezes",
+            "Windpipe pressure, not blood"
+          ],
+          "trap": [
+            "Loosen legs to reset the shin"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves swinging your leg over the opponent's head and locking it behind their neck. Always control the speed of your leg swing during drilling to avoid accidentally striking your training partner's face with your knee or shin. When the triangle is locked, apply choking pressure gradually and progressively to give your partner adequate time to recognize the choke and tap before blood flow restriction becomes dangerous. Be aware that the transition from armbar to triangle can momentarily stress the opponent's trapped arm in an awkward angle—maintain awareness of arm position throughout the reconfiguration to prevent unintended hyperextension. In training, establish clear tap signals and release immediately when your partner taps. The carotid compression from a properly locked triangle can cause unconsciousness in seconds, so never hold the choke after a tap.",

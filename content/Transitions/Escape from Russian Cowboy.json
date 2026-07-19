@@ -331,7 +331,17 @@
       },
       {
         "question": "What body movements from the opponent indicate they are attempting to advance from Russian Cowboy to full truck position?",
-        "answer": "The primary indicator is the opponent threading their free leg under your far-side leg while simultaneously deepening their existing hook and pulling your near-side leg toward them. You will feel increased rotational pressure as they try to stretch your legs apart and their hips shift to create the triangle leg configuration. Their chest pressure may also decrease slightly as they redirect their lower body focus. Recognizing these cues early allows you to address the truck entry before it completes by immediately controlling their threading leg and preventing the rotation."
+        "answer": "The primary indicator is the opponent threading their free leg under your far-side leg while simultaneously deepening their existing hook and pulling your near-side leg toward them. You will feel increased rotational pressure as they try to stretch your legs apart and their hips shift to create the triangle leg configuration. Their chest pressure may also decrease slightly as they redirect their lower body focus. Recognizing these cues early allows you to address the truck entry before it completes by immediately controlling their threading leg and preventing the rotation.",
+        "answer_line": "Threading free leg under far leg",
+        "distractors": {
+          "plausible": [
+            "Chest pressure spikes to flatten you",
+            "Crossing ankles to lock the triangle"
+          ],
+          "trap": [
+            "Pressure fades—they're disengaging"
+          ]
+        }
       },
       {
         "question": "Your initial frame-and-turn escape fails and the opponent re-establishes chest pressure—what adjustment do you make for the next attempt?",

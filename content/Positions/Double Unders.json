@@ -172,11 +172,31 @@
       },
       {
         "question": "Your opponent creates a frame with their forearms against your face while you have double unders - how do you address this without releasing control?",
-        "answer": "Drive your forehead into their forearms while continuing forward pressure through your chest. The frame cannot generate enough force to overcome your full body weight if you keep advancing. Walk your knees forward progressively, which increases stacking pressure and makes their frame less effective as their spine compresses. You can also angle your head to one side to slip past the frame while maintaining continuous forward progression. Never back away or release pressure in response to frames."
+        "answer": "Drive your forehead into their forearms while continuing forward pressure through your chest. The frame cannot generate enough force to overcome your full body weight if you keep advancing. Walk your knees forward progressively, which increases stacking pressure and makes their frame less effective as their spine compresses. You can also angle your head to one side to slip past the frame while maintaining continuous forward progression. Never back away or release pressure in response to frames.",
+        "answer_line": "Drive forehead in, stack forward",
+        "distractors": {
+          "plausible": [
+            "Lift chin to clear the frame",
+            "Strip the wrists, then advance"
+          ],
+          "trap": [
+            "Release unders to peel frames"
+          ]
+        }
       },
       {
         "question": "What indicators tell you the optimal moment to begin completing the pass from double unders to side control?",
-        "answer": "Key indicators include: opponent's legs going limp or losing active resistance, their breathing becoming labored indicating fatigue, failed escape attempts leaving them momentarily static, or their hips flattening to the mat. When you feel their defensive energy drop, immediately walk your knees past their hips while keeping chest pressure, then release one underhook to establish crossface as you slide into side control. Timing this transition during their recovery pause is critical."
+        "answer": "Key indicators include: opponent's legs going limp or losing active resistance, their breathing becoming labored indicating fatigue, failed escape attempts leaving them momentarily static, or their hips flattening to the mat. When you feel their defensive energy drop, immediately walk your knees past their hips while keeping chest pressure, then release one underhook to establish crossface as you slide into side control. Timing this transition during their recovery pause is critical.",
+        "answer_line": "Legs limp, defensive energy drops",
+        "distractors": {
+          "plausible": [
+            "When they bridge and buck hard",
+            "As they frame to turn away"
+          ],
+          "trap": [
+            "Release chest pressure to speed up"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure to maintain double unders pressure over an extended period against a defensive opponent?",

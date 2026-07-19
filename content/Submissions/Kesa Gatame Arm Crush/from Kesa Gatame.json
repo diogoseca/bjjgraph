@@ -317,12 +317,32 @@
       {
         "question": "What control must be established before transitioning from kesa gatame hold to the arm crush finish?",
         "answer": "Before attempting the arm crush, you must have secure kesa gatame with hips low and heavy against the opponent's ribs, the near arm firmly trapped under your armpit with no space for the opponent to retract it, and sufficient base to prevent bridging escapes. The opponent should be flattened with minimal hip mobility. Only then should you release head control to secure two-on-one wrist grip, because your body weight and hip pressure must replace the head control during the transition.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trap near arm, hips low and heavy",
+        "distractors": {
+          "plausible": [
+            "Grab two-on-one wrist grip first",
+            "Cinch head control tighter first"
+          ],
+          "trap": [
+            "Lift hips high to torque the arm"
+          ]
+        }
       },
       {
         "question": "At what point during the arm crush setup does the opponent lose the ability to effectively defend?",
         "answer": "The point of no return occurs when the arm is fully straightened with the elbow seated against the hip bone and the wrist locked tight against the attacker's chest with two-on-one control. Once all slack is eliminated and the fulcrum is established with bone-on-bone contact, the opponent cannot bend their arm to escape because the attacker's entire body weight holds it straight, and they cannot rotate the forearm because the two-on-one grip prevents wrist rotation. At this stage, even minimal hip pressure creates significant submission force.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Arm straight, elbow locked to hip",
+        "distractors": {
+          "plausible": [
+            "Grip two-on-one, then straighten",
+            "Wrist to chest before seating elbow"
+          ],
+          "trap": [
+            "Drive hips before locking the wrist"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their wrist to slip the elbow off your hip during the crush - what grip adjustment prevents this escape?",
@@ -342,12 +362,32 @@
       {
         "question": "What is the most common finishing error that allows opponents to survive the arm crush despite apparently correct positioning?",
         "answer": "The most common error is leaving slack in the arm—a slight bend at the elbow or space between the arm and the attacker's torso absorbs all the crushing pressure without stressing the joint. Practitioners often feel they have the arm positioned correctly but fail to eliminate the final few degrees of bend before applying hip drive. The fix is to pull the wrist firmly into the chest while pressing the shoulder away with armpit pressure until the arm is completely rigid against your body, then confirm bone-on-bone contact at the elbow before driving the hips.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Slack left in the arm",
+        "distractors": {
+          "plausible": [
+            "Not driving hips hard enough",
+            "Wrist gripped too far up"
+          ],
+          "trap": [
+            "Kick legs open to drive harder"
+          ]
+        }
       },
       {
         "question": "Why must the arm crush be applied gradually rather than explosively, and what specific injuries can result from improper application speed?",
         "answer": "Explosive application of the arm crush can cause elbow hyperextension injuries, ligament tears (particularly the ulnar collateral ligament), or even elbow dislocation before the opponent has time to recognize the danger and tap. The elbow joint has limited structural tolerance once placed against a rigid fulcrum, and sudden force application can cause irreversible damage within fractions of a second. Gradual application over 2-3 seconds gives the opponent time to tap and allows both practitioners to feel the progressive resistance that indicates the joint is approaching its limit.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Apply gradually over 2-3 seconds",
+        "distractors": {
+          "plausible": [
+            "Crank steadily until they wince",
+            "Torque first, then ease off on tap"
+          ],
+          "trap": [
+            "Explode into it for a fast finish"
+          ]
+        }
       },
       {
         "question": "In competition, how do you set up the arm crush when your opponent is actively defending the americana from kesa gatame?",
@@ -471,7 +511,17 @@
       {
         "question": "What are the earliest recognition cues that indicate your opponent is transitioning from kesa gatame control to an arm crush attempt?",
         "answer": "The earliest cue is feeling the attacker release their head control arm and reach toward your trapped wrist with both hands. You will also feel them begin pulling your arm across their torso rather than simply clamping it stationary under their armpit. Their hip position may shift as they seek to align your elbow with their hip bone. Recognizing these early cues gives you the critical seconds needed to initiate defensive actions before the crush is established.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Head arm frees to grab your wrist",
+        "distractors": {
+          "plausible": [
+            "They clamp your arm to the ribs",
+            "Their free hand grips your collar"
+          ],
+          "trap": [
+            "Grip goes slack, the hold is fading"
+          ]
+        }
       },
       {
         "question": "Why is maintaining a bent arm position the single most important defensive priority against the arm crush?",
@@ -506,7 +556,17 @@
       {
         "question": "How does defending the arm crush differ from defending the americana from the same position?",
         "answer": "The americana requires a bent arm to attack the shoulder through rotation, so the defense involves straightening the arm and keeping it rigid. The arm crush is the exact opposite—it attacks a straight arm through elbow hyperextension, so the defense involves keeping the arm bent. This creates the core dilemma of kesa gatame submissions: the defensive position for one attack is the vulnerable position for the other. Understanding this relationship allows you to recognize which attack is coming based on how the attacker is manipulating your arm and adjust your defensive arm position accordingly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Keep the arm bent, not straight",
+        "distractors": {
+          "plausible": [
+            "Same defense for both attacks",
+            "Protect the shoulder joint"
+          ],
+          "trap": [
+            "Straighten arm and stay rigid"
+          ]
+        }
       },
       {
         "question": "What is the primary escape window during the arm crush setup and why does it exist?",

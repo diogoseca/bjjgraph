@@ -380,7 +380,17 @@
   "flashcards": [
     {
       "question": "What is the mechanical difference between bridging and shrimping?",
-      "answer": "Bridging drives the hips vertically off the mat to unload the opponent's weight, while shrimping (hip escape) displaces the hips laterally to create the angle needed to insert a knee and recover guard."
+      "answer": "Bridging drives the hips vertically off the mat to unload the opponent's weight, while shrimping (hip escape) displaces the hips laterally to create the angle needed to insert a knee and recover guard.",
+      "answer_line": "Bridge vertical, shrimp lateral",
+      "distractors": {
+        "plausible": [
+          "Both create angle for guard",
+          "Shrimp unloads their weight"
+        ],
+        "trap": [
+          "Turn belly-down to slip out"
+        ]
+      }
     },
     {
       "question": "Why should you bridge before you shrimp when escaping a pin?",

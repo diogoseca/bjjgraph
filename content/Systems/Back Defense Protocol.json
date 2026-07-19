@@ -395,7 +395,17 @@
     },
     {
       "question": "What frame prevents the opponent from flattening you out under back control?",
-      "answer": "A shoulder frame on the choking side, driving your inside elbow into the opponent's hip while keeping your weight on the shoulder rather than flat on your back, which preserves the space needed for hip escapes."
+      "answer": "A shoulder frame on the choking side, driving your inside elbow into the opponent's hip while keeping your weight on the shoulder rather than flat on your back, which preserves the space needed for hip escapes.",
+      "answer_line": "Shoulder frame on the choking side",
+      "distractors": {
+        "plausible": [
+          "Elbow frame on the free side",
+          "Bridge flat and bench the choke"
+        ],
+        "trap": [
+          "Turn belly-down to spin out"
+        ]
+      }
     },
     {
       "question": "In what order does the protocol sequence its defensive actions?",

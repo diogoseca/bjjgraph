@@ -323,7 +323,17 @@
       },
       {
         "question": "What is the proper sequence for inserting hooks and why does it matter?",
-        "answer": "Insert the near-side hook first, followed by the far-side hook, while maintaining seatbelt control and chest pressure throughout. The near-side hook is inserted first because your knee is already blocking that hip, making insertion easier and more stable. This sequential approach maintains your base and prevents giving opponent space to escape. Attempting both hooks simultaneously compromises your stability and often results in losing position entirely. The systematic near-then-far progression ensures positional security at each step of the transition."
+        "answer": "Insert the near-side hook first, followed by the far-side hook, while maintaining seatbelt control and chest pressure throughout. The near-side hook is inserted first because your knee is already blocking that hip, making insertion easier and more stable. This sequential approach maintains your base and prevents giving opponent space to escape. Attempting both hooks simultaneously compromises your stability and often results in losing position entirely. The systematic near-then-far progression ensures positional security at each step of the transition.",
+        "answer_line": "Near-side hook first, then far side",
+        "distractors": {
+          "plausible": [
+            "Lock seatbelt after hooks are set",
+            "Establish chest pressure last"
+          ],
+          "trap": [
+            "Jam both feet in simultaneously"
+          ]
+        }
       },
       {
         "question": "Your opponent executes a granby roll toward your grip during the transition. What is your optimal response?",

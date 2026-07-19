@@ -368,7 +368,17 @@
       },
       {
         "question": "What is the proper base configuration immediately after completing the transition to Kesa Gatame?",
-        "answer": "Your far leg should be posted wide at approximately 45 degrees with the foot flat on the mat, creating your primary base against bridge-and-roll attempts. Your near leg should be tucked against the opponent's far hip to prevent them from turning into you. Your hips should be seated heavy on the mat beside their torso with weight distributed through your sit bones and lower back. The head wrap pulls their head toward your near hip, and the trapped arm is clamped tight under your armpit. This tripod configuration of far leg, near leg, and seated hips provides stability from all bridge directions."
+        "answer": "Your far leg should be posted wide at approximately 45 degrees with the foot flat on the mat, creating your primary base against bridge-and-roll attempts. Your near leg should be tucked against the opponent's far hip to prevent them from turning into you. Your hips should be seated heavy on the mat beside their torso with weight distributed through your sit bones and lower back. The head wrap pulls their head toward your near hip, and the trapped arm is clamped tight under your armpit. This tripod configuration of far leg, near leg, and seated hips provides stability from all bridge directions.",
+        "answer_line": "Far leg posted wide, foot flat",
+        "distractors": {
+          "plausible": [
+            "Near leg posted, far leg tucked",
+            "Seat hips heavy, both legs relaxed"
+          ],
+          "trap": [
+            "Rise onto both knees over them"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves significant pressure changes on the bottom player's chest, neck, and head during the position shift. The head wrap must be applied around the back of the neck and head, never across the throat or trachea, as this could restrict the airway dangerously. During training, execute the transition at controlled speed to allow the bottom player to adjust their breathing and neck position. The arm trap must control the upper arm and shoulder, not hyperextend the elbow joint. Be aware that the combined head wrap and arm trap in the completed kesa gatame creates a configuration close to several submission holds, so maintain awareness of your training partner's comfort and tap signals throughout. In competition, the transition speed is appropriate at full pace, but in training, prioritize your partner's safety over transition speed.",

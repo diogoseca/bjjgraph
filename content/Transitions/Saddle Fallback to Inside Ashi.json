@@ -514,7 +514,17 @@
       },
       {
         "question": "What dual function does your free leg serve when defending against this transition?",
-        "answer": "Your free leg serves two critical functions simultaneously: framing on the attacker's hip to create distance during escape attempts, and pummeling to prevent their inside leg from crossing your hip to establish the ashi structure. The frame generates the space needed for your trapped leg to extract, while the pummel disrupts the foundation of their new position. Prioritize the frame first because distance creation is more immediately impactful than position denial, then add pummeling if the frame alone does not produce sufficient escape opportunity."
+        "answer": "Your free leg serves two critical functions simultaneously: framing on the attacker's hip to create distance during escape attempts, and pummeling to prevent their inside leg from crossing your hip to establish the ashi structure. The frame generates the space needed for your trapped leg to extract, while the pummel disrupts the foundation of their new position. Prioritize the frame first because distance creation is more immediately impactful than position denial, then add pummeling if the frame alone does not produce sufficient escape opportunity.",
+        "answer_line": "Frame on hip, pummel his leg",
+        "distractors": {
+          "plausible": [
+            "Pummel first, then frame hip",
+            "Post the foot flat on the mat"
+          ],
+          "trap": [
+            "Turn belly-down to slip free"
+          ]
+        }
       }
     ],
     "training_progressions": [

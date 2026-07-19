@@ -802,7 +802,17 @@
       },
       {
         "question": "What grip priorities must you maintain when defending against S Mount attacks?",
-        "answer": "First priority: trapped hand grips own collar to keep arm bent. Second priority: free hand controls opponent's near leg. Never abandon the collar grip to push with both hands - this extends your trapped arm into the submission. The collar grip is non-negotiable; the leg control prevents the finish. Both must be maintained simultaneously."
+        "answer": "First priority: trapped hand grips own collar to keep arm bent. Second priority: free hand controls opponent's near leg. Never abandon the collar grip to push with both hands - this extends your trapped arm into the submission. The collar grip is non-negotiable; the leg control prevents the finish. Both must be maintained simultaneously.",
+        "answer_line": "Trapped hand grips own collar",
+        "distractors": {
+          "plausible": [
+            "Free hand grips collar first",
+            "Free hand controls the far leg"
+          ],
+          "trap": [
+            "Push away with both hands"
+          ]
+        }
       },
       {
         "question": "How should you use hip movement when attempting to escape S Mount bottom?",

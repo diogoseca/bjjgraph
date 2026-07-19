@@ -311,7 +311,17 @@
       },
       {
         "question": "What is the correct sequence for establishing hooks during the transition?",
-        "answer": "First, maintain inside hook control on opponent's leg throughout the entire movement as your constant anchor. Second, establish butterfly hook behind their knee immediately as your outside leg clears the entanglement. Third, reposition your inside leg as the X-hook behind their heel with foot pressing on their hip or inner thigh. The butterfly hook is the priority because it prevents opponent from following into your new position and creates the first control point."
+        "answer": "First, maintain inside hook control on opponent's leg throughout the entire movement as your constant anchor. Second, establish butterfly hook behind their knee immediately as your outside leg clears the entanglement. Third, reposition your inside leg as the X-hook behind their heel with foot pressing on their hip or inner thigh. The butterfly hook is the priority because it prevents opponent from following into your new position and creates the first control point.",
+        "answer_line": "Butterfly hook behind knee first",
+        "distractors": {
+          "plausible": [
+            "Set the X-hook before butterfly",
+            "Release inside hook to reposition"
+          ],
+          "trap": [
+            "Turn belly-down to insert hooks"
+          ]
+        }
       },
       {
         "question": "How does the critical hip escape motion function biomechanically in this transition?",

@@ -518,7 +518,17 @@
       },
       {
         "question": "What positional adjustments should you make when you recognize your opponent has initiated systematic hand fighting?",
-        "answer": "Tighten chest-to-back connection to eliminate escape space, squeeze hooks or body triangle to increase compression and drain grip endurance, and ensure your control arm maintains strong harness position. Adjust your angle so your choking arm side is higher, making it harder for them to strip your arm downward. Consider transitioning to gift wrap if their hand fighting is consistently defeating your direct choke attempts."
+        "answer": "Tighten chest-to-back connection to eliminate escape space, squeeze hooks or body triangle to increase compression and drain grip endurance, and ensure your control arm maintains strong harness position. Adjust your angle so your choking arm side is higher, making it harder for them to strip your arm downward. Consider transitioning to gift wrap if their hand fighting is consistently defeating your direct choke attempts.",
+        "answer_line": "Tighten and compress to drain grips",
+        "distractors": {
+          "plausible": [
+            "Gift wrap before squeezing hooks",
+            "Lower your choking-arm side"
+          ],
+          "trap": [
+            "Release a hook to free your arm"
+          ]
+        }
       },
       {
         "question": "How does your opponent's hand fighting commitment create vulnerabilities you can exploit?",

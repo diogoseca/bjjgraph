@@ -416,7 +416,17 @@
       {
         "question": "What specific anatomical structures does the tarikoplata attack and why does this make it a high-injury-risk submission?",
         "answer": "The tarikoplata attacks multiple structures simultaneously: the rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), the glenohumeral ligaments, the shoulder labrum, and the wrist ligaments. This multi-structure attack is what makes it high-risk - the compound pressure from hip extension combined with wrist rotation creates stress on the shoulder joint from two different vectors simultaneously. The rotator cuff is particularly vulnerable because the wrist rotation pre-loads internal rotation stress while the hip drive creates external rotation force, creating a shearing effect on the tendons. This bilateral stress can cause rapid failure of the tissue before pain signals allow for safe tapping.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Multi-structure shoulder shear",
+        "distractors": {
+          "plausible": [
+            "Only the rotator cuff tendons",
+            "Wrist lock is the main finish"
+          ],
+          "trap": [
+            "Pain warns before any damage"
+          ]
+        }
       },
       {
         "question": "During competition, your opponent is defending by gripping their own hand to prevent wrist isolation - how do you break this grip to secure the finish?",

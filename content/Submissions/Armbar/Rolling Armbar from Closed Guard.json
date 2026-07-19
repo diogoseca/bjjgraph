@@ -371,12 +371,32 @@
       {
         "question": "What are the key differences in arm control between a rolling armbar and a traditional armbar from mount?",
         "answer": "The rolling armbar requires more dynamic and continuous arm control throughout a rotational sequence, whereas the mount armbar is applied from a stable, established position. In the rolling variation, you must maintain two-handed grip throughout the entire roll while your body rotates through space, requiring the arm to be pulled tight across your chest and centerline. The mount armbar allows you to establish position first, then apply control. The rolling armbar also requires anticipating the opponent's defensive reactions during the roll itself, making grip strength and arm connection absolutely critical from the initial setup through the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trap arm to chest through the roll",
+        "distractors": {
+          "plausible": [
+            "Establish position, then grip",
+            "Clamp the arm only at the finish"
+          ],
+          "trap": [
+            "Release the grip to base the roll"
+          ]
+        }
       },
       {
         "question": "How should you respond if your opponent stacks you during the rolling attempt, and what alternative submissions become available?",
         "answer": "If stacked during the roll, you have several options: First, use your free leg to push off their hip or shoulder to generate additional rotational momentum and complete the roll despite the stack. Second, if the stack is too heavy, abort the roll and immediately transition to triangle choke, as the stacked position often leaves their neck and arm perfectly positioned. Third, you can use their stacking pressure against them by pulling them over you and using their momentum to facilitate the roll. The key is never fighting directly against a heavy stack but rather redirecting energy or transitioning to attacks the stack position enables.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Push off their hip to finish roll",
+        "distractors": {
+          "plausible": [
+            "Force a triangle before rolling",
+            "Muscle the roll against the stack"
+          ],
+          "trap": [
+            "Turn belly-down to slip the stack"
+          ]
+        }
       },
       {
         "question": "Why is creating a 45-degree angle essential before initiating the roll, and what happens if you attempt the technique straight on?",
@@ -411,7 +431,17 @@
       {
         "question": "How does timing the roll with the opponent's forward pressure or posture increase success rate, and what happens if you force the roll against their resistance?",
         "answer": "Timing the roll with the opponent's forward momentum or posture attempt dramatically increases success because you're using their energy to facilitate your technique rather than fighting against it. When they push forward or posture up, their weight is already moving in the direction of your roll, making the rotation easier and faster. Forcing the roll against their resistance typically results in getting stuck mid-technique, losing arm control, or having them stack you effectively. Advanced practitioners wait for these moments of forward pressure, sometimes even baiting the opponent to posture by creating space, then explosively capitalizing on that split-second of commitment to complete the roll before they can react defensively.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Roll on their forward pressure",
+        "distractors": {
+          "plausible": [
+            "Roll when they pull away",
+            "Wait until they settle flat"
+          ],
+          "trap": [
+            "Force it against their base"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their thumb away (hitchhiking) as you complete the roll - what grip adjustment prevents them from escaping the finish?",

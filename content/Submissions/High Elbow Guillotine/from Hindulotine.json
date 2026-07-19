@@ -389,7 +389,17 @@
       {
         "question": "How do you manage energy conservation during an extended finishing attempt from this position?",
         "answer": "Rely on skeletal structure and body positioning rather than muscular tension for maintaining the position. Your grip maintains the lock while your hips and core generate the finishing force—this is sustainable because large muscle groups fatigue far slower than forearms. Make micro-adjustments rather than large movements. Use your legs for base and control, saving grip strength for maintaining the lock rather than active squeezing. If the finish has not come within 15-20 seconds, transition to an alternative attack rather than depleting your grip.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Rely on frame, not muscle tension",
+        "distractors": {
+          "plausible": [
+            "Squeeze the grip harder to finish",
+            "Crank continuously without pausing"
+          ],
+          "trap": [
+            "Drop your base to squeeze harder"
+          ]
+        }
       },
       {
         "question": "What competition finishing strategies maximize the success rate of this submission?",
@@ -569,12 +579,32 @@
       {
         "question": "What defensive options are available against the High Elbow Guillotine from Hindulotine at different stages?",
         "answer": "Early stage (elbow not yet elevated): posture recovery is highest percentage—drive your head up and post on your hands. Mid stage (elbow transitioning): near-side arm frame to break the seal while working head extraction. Late stage (elbow fully elevated): Von Flue shoulder drive or guard pass are your remaining options. Once full compression with hip rotation is locked in, your only safe option is to tap immediately. The defensive window narrows rapidly as the elbow rises.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Posture up early, before elbow rises",
+        "distractors": {
+          "plausible": [
+            "Frame the arm before posturing up",
+            "Von Flue drive from the start"
+          ],
+          "trap": [
+            "Turn your back to slip out"
+          ]
+        }
       },
       {
         "question": "Why is pulling your head straight back a mistake when defending this submission?",
         "answer": "Pulling straight back creates the exact space the attacker needs to elevate their elbow higher. It also drives your neck harder into the forearm blade because you are extending into the pressure rather than compressing around it. The correct approach is to push forward into the attacker first to collapse the space, then work your head extraction at an angle toward the choking arm side where there is more room to escape.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Push forward to collapse the space",
+        "distractors": {
+          "plausible": [
+            "Extract before killing the space",
+            "Angle toward the far arm side"
+          ],
+          "trap": [
+            "Yank straight back hard for room"
+          ]
+        }
       }
     ],
     "training_progressions": [

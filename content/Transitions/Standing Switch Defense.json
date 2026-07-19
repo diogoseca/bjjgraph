@@ -493,7 +493,17 @@
       },
       {
         "question": "Why is it strategically important to alternate between switching directions rather than always attempting to the same side?",
-        "answer": "Alternating switch directions prevents the controller from pre-positioning their defense. If you always switch to the right, the controller can permanently offset their hips to the right and pre-clamp their right elbow, effectively neutralizing your technique before it begins every time. By threatening switches to both sides, you force the controller to maintain a centered, neutral defense that cannot fully commit to blocking either direction. This bilateral threat creates the strategic uncertainty needed for any single switch attempt to succeed against a prepared and experienced defender."
+        "answer": "Alternating switch directions prevents the controller from pre-positioning their defense. If you always switch to the right, the controller can permanently offset their hips to the right and pre-clamp their right elbow, effectively neutralizing your technique before it begins every time. By threatening switches to both sides, you force the controller to maintain a centered, neutral defense that cannot fully commit to blocking either direction. This bilateral threat creates the strategic uncertainty needed for any single switch attempt to succeed against a prepared and experienced defender.",
+        "answer_line": "Prevents pre-set one-sided defense",
+        "distractors": {
+          "plausible": [
+            "Builds momentum for a faster switch",
+            "Confuses him into gripping harder"
+          ],
+          "trap": [
+            "Always commit to your strong side"
+          ]
+        }
       }
     ],
     "training_progressions": [

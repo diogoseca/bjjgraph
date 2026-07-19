@@ -826,7 +826,17 @@
     },
     {
       "question": "Why does Triangle Control behave as a branching submission platform rather than a single-outcome hold?",
-      "answer": "Because each defensive reaction to the choke opens a different attack, the position functions as a decision tree rather than a static hold. Posturing up exposes the trapped arm to the armbar; stacking forward or turning the shoulder in opens the omoplata; extracting the arm surrenders the back. This means the trapped player faces a perpetual dilemma in which relieving one threat manufactures another, while the controlling player treats the choke itself as a forcing mechanism that produces those reactions. Reading the position as a set of branching consequences, not a hold, is what both players must internalize to play it correctly."
+      "answer": "Because each defensive reaction to the choke opens a different attack, the position functions as a decision tree rather than a static hold. Posturing up exposes the trapped arm to the armbar; stacking forward or turning the shoulder in opens the omoplata; extracting the arm surrenders the back. This means the trapped player faces a perpetual dilemma in which relieving one threat manufactures another, while the controlling player treats the choke itself as a forcing mechanism that produces those reactions. Reading the position as a set of branching consequences, not a hold, is what both players must internalize to play it correctly.",
+      "answer_line": "Each escape opens a new attack",
+      "distractors": {
+        "plausible": [
+          "Posturing up opens the omoplata",
+          "Stack forward to hit the armbar"
+        ],
+        "trap": [
+          "Yank the trapped arm free"
+        ]
+      }
     },
     {
       "question": "Why is Triangle Control considered mechanically favorable to the guard player despite being a bottom position?",

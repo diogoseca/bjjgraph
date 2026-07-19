@@ -515,7 +515,17 @@
       },
       {
         "question": "Why is turning into the opponent to escape Inside Sankaku the most dangerous defensive movement?",
-        "answer": "Turning into the opponent directly assists their transition to Saddle by bringing your second leg into the entanglement. The rotation that you intend as an escape actually helps the attacker capture both legs in an even more controlled configuration. Additionally, the turning motion can expose your heel more completely by rotating it directly toward the attacker's centerline. The correct escape direction is always away from the opponent—pumping hips backward to create distance rather than rotating through their control."
+        "answer": "Turning into the opponent directly assists their transition to Saddle by bringing your second leg into the entanglement. The rotation that you intend as an escape actually helps the attacker capture both legs in an even more controlled configuration. Additionally, the turning motion can expose your heel more completely by rotating it directly toward the attacker's centerline. The correct escape direction is always away from the opponent—pumping hips backward to create distance rather than rotating through their control.",
+        "answer_line": "Feeds second leg into the tangle",
+        "distractors": {
+          "plausible": [
+            "Exposes your heel toward them",
+            "Turns your back to the attacker"
+          ],
+          "trap": [
+            "Safe if you turn in fast enough"
+          ]
+        }
       },
       {
         "question": "When is counter-entangling to 50-50 Guard a viable defensive strategy versus when should you focus on extraction?",
@@ -533,7 +543,17 @@
       },
       {
         "question": "How do you know when it is too late to escape and you must tap?",
-        "answer": "Tap immediately when all three conditions are present: (1) the opponent has a secure two-on-one grip with wrist blade against your Achilles tendon, (2) your foot is tucked into their armpit with elbows tight, and (3) you feel any rotational pressure beginning on your heel. The inside heel hook damages ligaments before pain fully registers, meaning that if you wait until it hurts to tap, the damage has already occurred. When in doubt, tap. No training session or competition result is worth a destroyed knee joint."
+        "answer": "Tap immediately when all three conditions are present: (1) the opponent has a secure two-on-one grip with wrist blade against your Achilles tendon, (2) your foot is tucked into their armpit with elbows tight, and (3) you feel any rotational pressure beginning on your heel. The inside heel hook damages ligaments before pain fully registers, meaning that if you wait until it hurts to tap, the damage has already occurred. When in doubt, tap. No training session or competition result is worth a destroyed knee joint.",
+        "answer_line": "Tap the instant the heel rotates",
+        "distractors": {
+          "plausible": [
+            "Tap once they lock two-on-one",
+            "Tap when foot's in the armpit"
+          ],
+          "trap": [
+            "Wait until it hurts, then tap"
+          ]
+        }
       }
     ],
     "training_progressions": [

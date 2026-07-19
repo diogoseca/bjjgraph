@@ -268,15 +268,45 @@
       },
       {
         "question": "Which leg do you release first during the escape and why is the sequence critical?",
-        "answer": "In most scenarios, release the butterfly hook (outside leg) first while maintaining the lockdown on the trapped leg. The lockdown provides the primary mechanical connection preventing the top player from immediately advancing. Releasing both simultaneously creates a window with zero leg control where the top player can pass freely. The lockdown holds them in place while you reposition your outside leg, then you release the lockdown only after your legs are ready to close into standard half guard entanglement."
+        "answer": "In most scenarios, release the butterfly hook (outside leg) first while maintaining the lockdown on the trapped leg. The lockdown provides the primary mechanical connection preventing the top player from immediately advancing. Releasing both simultaneously creates a window with zero leg control where the top player can pass freely. The lockdown holds them in place while you reposition your outside leg, then you release the lockdown only after your legs are ready to close into standard half guard entanglement.",
+        "answer_line": "Outside hook first, keep lockdown",
+        "distractors": {
+          "plausible": [
+            "Release lockdown leg first",
+            "Free the inside trapped leg"
+          ],
+          "trap": [
+            "Release both hooks at once"
+          ]
+        }
       },
       {
         "question": "Your opponent drives heavy crossface pressure the moment you begin releasing your butterfly hook—how do you adjust?",
-        "answer": "If crossface pressure intensifies during the escape, your inside forearm frame on their shoulder becomes critical. Drive the frame into their shoulder to create space while keeping your chin tucked to prevent the crossface from flattening you. If the pressure is overwhelming at the current level, abandon the standard half guard recovery and instead duck underneath them into deep half guard, using their forward driving pressure against them. The deep half bail variant converts their aggressive pressure into your advantage."
+        "answer": "If crossface pressure intensifies during the escape, your inside forearm frame on their shoulder becomes critical. Drive the frame into their shoulder to create space while keeping your chin tucked to prevent the crossface from flattening you. If the pressure is overwhelming at the current level, abandon the standard half guard recovery and instead duck underneath them into deep half guard, using their forward driving pressure against them. The deep half bail variant converts their aggressive pressure into your advantage.",
+        "answer_line": "Frame shoulder, tuck chin",
+        "distractors": {
+          "plausible": [
+            "Bridge hard into the pressure",
+            "Post hand on hip and push away"
+          ],
+          "trap": [
+            "Roll belly-down to escape out"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the hip escape portion of the transition?",
-        "answer": "The hip escape must move your hips at least six inches away from the top player's hips while maintaining your lockdown connection on their trapped leg. The direction should be toward your underhook side, creating an angle that positions you on your side rather than flat on your back. The common mistake is performing a small, ineffective hip escape that fails to create meaningful space or angle. Drive off your free foot and use explosive hip movement to generate the distance needed for proper standard half guard architecture."
+        "answer": "The hip escape must move your hips at least six inches away from the top player's hips while maintaining your lockdown connection on their trapped leg. The direction should be toward your underhook side, creating an angle that positions you on your side rather than flat on your back. The common mistake is performing a small, ineffective hip escape that fails to create meaningful space or angle. Drive off your free foot and use explosive hip movement to generate the distance needed for proper standard half guard architecture.",
+        "answer_line": "Hips 6+ inches out, keep lockdown",
+        "distractors": {
+          "plausible": [
+            "Escape toward your free-foot side",
+            "Small hip escape, stay flat"
+          ],
+          "trap": [
+            "Drop lockdown to gain distance"
+          ]
+        }
       },
       {
         "question": "What grips must you establish immediately upon reaching standard Half Guard to prevent the top player from capitalizing on the transition?",
@@ -441,11 +471,31 @@
     "flashcards": [
       {
         "question": "What is the earliest tactile cue that tells you the bottom player is beginning to escape their Z-Lock configuration?",
-        "answer": "The earliest cue is a decrease in butterfly hook elevation pressure on your free leg. The butterfly hook is typically the first control released during the escape because the bottom player needs that leg repositioned first. You may also feel a subtle shift in their hip angle as they prepare to shrimp, and increased forearm frame pressure on your shoulder as they establish defensive insurance. Recognizing these early cues gives you a one to two second window to react before the escape progresses to the point of no return."
+        "answer": "The earliest cue is a decrease in butterfly hook elevation pressure on your free leg. The butterfly hook is typically the first control released during the escape because the bottom player needs that leg repositioned first. You may also feel a subtle shift in their hip angle as they prepare to shrimp, and increased forearm frame pressure on your shoulder as they establish defensive insurance. Recognizing these early cues gives you a one to two second window to react before the escape progresses to the point of no return.",
+        "answer_line": "Butterfly hook pressure eases",
+        "distractors": {
+          "plausible": [
+            "Hip angle shifts to shrimp",
+            "Forearm frame loads your shoulder"
+          ],
+          "trap": [
+            "Free leg swings out to sweep"
+          ]
+        }
       },
       {
         "question": "The bottom player has successfully released their butterfly hook but still has lockdown on your leg—what is your optimal response?",
-        "answer": "This is the critical transition window. Drive your free knee forward immediately through the space where the butterfly hook was, aiming to slice across their hip before they can establish a knee shield or close standard half guard. Simultaneously increase crossface pressure to prevent them from shrimping away. The lockdown will slow but not stop your knee advancement. If you can get your knee past their hip line before they release the lockdown, you achieve a dominant passing position regardless of what they do with their lockdown leg afterward."
+        "answer": "This is the critical transition window. Drive your free knee forward immediately through the space where the butterfly hook was, aiming to slice across their hip before they can establish a knee shield or close standard half guard. Simultaneously increase crossface pressure to prevent them from shrimping away. The lockdown will slow but not stop your knee advancement. If you can get your knee past their hip line before they release the lockdown, you achieve a dominant passing position regardless of what they do with their lockdown leg afterward.",
+        "answer_line": "Drive free knee through the gap",
+        "distractors": {
+          "plausible": [
+            "Unlock your leg before passing",
+            "Crossface first, then advance"
+          ],
+          "trap": [
+            "Stand up to break the lockdown"
+          ]
+        }
       },
       {
         "question": "How should you adjust your strategy if the bottom player successfully recovers standard Half Guard with an underhook?",

@@ -330,11 +330,31 @@
       },
       {
         "question": "In which direction should the primary sweeping force be applied?",
-        "answer": "Apply the sweeping force perpendicular to the opponent's spine in the direction of their existing weight commitment. If they are loaded forward, sweep them over their head. If loaded laterally, sweep in that lateral direction. The force must cross their center of gravity beyond their support boundary to break their balance. Sweeping directly against their strongest base angle wastes energy and has low success probability. Reading their weight distribution before committing determines the sweep's success."
+        "answer": "Apply the sweeping force perpendicular to the opponent's spine in the direction of their existing weight commitment. If they are loaded forward, sweep them over their head. If loaded laterally, sweep in that lateral direction. The force must cross their center of gravity beyond their support boundary to break their balance. Sweeping directly against their strongest base angle wastes energy and has low success probability. Reading their weight distribution before committing determines the sweep's success.",
+        "answer_line": "Toward their committed weight",
+        "distractors": {
+          "plausible": [
+            "Against their strongest base",
+            "Parallel to their spine"
+          ],
+          "trap": [
+            "Drive straight into their post"
+          ]
+        }
       },
       {
         "question": "Your opponent begins counter-rotating as you initiate the sweep—what is your best response?",
-        "answer": "If they counter-rotate early enough to neutralize your momentum, abort the sweep and convert the contact to an alternative attack such as an arm drag if their counter-rotation extends an arm. If they counter-rotate late and your momentum is already established, accelerate through their resistance—their mistimed counter-rotation may actually help complete the sweep by adding angular momentum. The key is reading whether their counter has sufficient force and timing to stop your motion or whether you can power through it."
+        "answer": "If they counter-rotate early enough to neutralize your momentum, abort the sweep and convert the contact to an alternative attack such as an arm drag if their counter-rotation extends an arm. If they counter-rotate late and your momentum is already established, accelerate through their resistance—their mistimed counter-rotation may actually help complete the sweep by adding angular momentum. The key is reading whether their counter has sufficient force and timing to stop your motion or whether you can power through it.",
+        "answer_line": "Read timing: abort early, power late",
+        "distractors": {
+          "plausible": [
+            "Switch to arm drag immediately",
+            "Always commit and force it through"
+          ],
+          "trap": [
+            "Turn to knees to reset"
+          ]
+        }
       },
       {
         "question": "How do you chain attacks when the initial sweep is defended?",

@@ -288,7 +288,17 @@
       },
       {
         "question": "What weight and head position consolidates the leg weave once the knee is threaded?",
-        "answer": "Once the weave is set, drive your weight toward the opponent's far hip to staple both of their legs flat, while keeping your head past their far shoulder to control rotation. Your chest angles across their torso pinning the upper body, the cross-face stays heavy, and the underhook stays deep. This combination of forward-and-far weight plus head control eliminates the gaps the opponent needs for the frame-and-shrimp or deep half escapes."
+        "answer": "Once the weave is set, drive your weight toward the opponent's far hip to staple both of their legs flat, while keeping your head past their far shoulder to control rotation. Your chest angles across their torso pinning the upper body, the cross-face stays heavy, and the underhook stays deep. This combination of forward-and-far weight plus head control eliminates the gaps the opponent needs for the frame-and-shrimp or deep half escapes.",
+        "answer_line": "Far-hip weight, head past shoulder",
+        "distractors": {
+          "plausible": [
+            "Near-hip weight, head to the mat",
+            "Chest square, underhook shallow"
+          ],
+          "trap": [
+            "Posture up, drop the underhook"
+          ]
+        }
       },
       {
         "question": "What happens if you rise up onto your hips while driving the knee through, and how do you avoid it?",
@@ -419,11 +429,31 @@
       },
       {
         "question": "How can you use the passer's forward commitment against them during the entry?",
-        "answer": "When the passer rises onto their hips or drives forward and high to thread the knee, they expose a gap under their base. Dive your head and shoulders under their advancing leg to enter deep half guard, getting beneath their center of gravity. This turns their over-commitment into your sweep platform - the same forward drive that powers the weave is what lets you get underneath when you read it early enough."
+        "answer": "When the passer rises onto their hips or drives forward and high to thread the knee, they expose a gap under their base. Dive your head and shoulders under their advancing leg to enter deep half guard, getting beneath their center of gravity. This turns their over-commitment into your sweep platform - the same forward drive that powers the weave is what lets you get underneath when you read it early enough.",
+        "answer_line": "Dive under their leg to deep half",
+        "distractors": {
+          "plausible": [
+            "Post the knee and push them back",
+            "Frame and shrimp your hips out"
+          ],
+          "trap": [
+            "Turn away to knees as they drive"
+          ]
+        }
       },
       {
         "question": "Why is the underhook battle your first line of defense against the leg weave entry?",
-        "answer": "The leg weave entry depends on the passer first winning the underhook and cross-face to flatten your shoulders; only then can they safely commit the knee. If you win or neutralize the underhook and frame against the cross-face, the passer cannot flatten you, and any knee thread they attempt is vulnerable to your sit-up, deep half dive, or knee shield re-insertion. Stopping the upper body control is what makes the leg thread defendable rather than automatic."
+        "answer": "The leg weave entry depends on the passer first winning the underhook and cross-face to flatten your shoulders; only then can they safely commit the knee. If you win or neutralize the underhook and frame against the cross-face, the passer cannot flatten you, and any knee thread they attempt is vulnerable to your sit-up, deep half dive, or knee shield re-insertion. Stopping the upper body control is what makes the leg thread defendable rather than automatic.",
+        "answer_line": "Block the flatten, kill the thread",
+        "distractors": {
+          "plausible": [
+            "Frame cross-face, skip underhook",
+            "Fight the knee slice first"
+          ],
+          "trap": [
+            "Roll away from the underhook"
+          ]
+        }
       },
       {
         "question": "What is the risk of coming up on the underhook to defend the entry, and how do you manage it?",

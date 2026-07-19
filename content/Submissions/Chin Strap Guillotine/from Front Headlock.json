@@ -395,7 +395,17 @@
       {
         "question": "What is the primary difference between a chin strap guillotine and a traditional guillotine grip?",
         "answer": "In a traditional guillotine, you clasp your hands together in a guillotine grip (hands together, often with one wrist grabbed) with your arms wrapping around the opponent's neck. In the chin strap guillotine, you create a figure-four configuration where your choking hand grabs the bicep of your opposite arm, and that opposite hand presses on the back of their head. The chin strap also specifically threads the forearm under the chin with the palm facing up, creating a different angle of attack. The chin strap typically creates more direct pressure on the carotid arteries and is harder to defend against good posture, while the traditional guillotine relies more on pulling the head down and squeezing.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four grip vs clasped hands",
+        "distractors": {
+          "plausible": [
+            "Palm-down forearm under the chin",
+            "Free hand cups the far shoulder"
+          ],
+          "trap": [
+            "Turn away to crank the finish"
+          ]
+        }
       },
       {
         "question": "What should you do immediately if your training partner taps or shows any sign of distress during the chin strap guillotine?",
@@ -518,7 +528,17 @@
       },
       {
         "question": "Your opponent starts to posture up and lift their head above their hips during the finish - what adjustment prevents escape?",
-        "answer": "Re-establish chest pressure to snap the head back below the hip line and reflatten their posture before re-applying the squeeze; a posturing opponent unwinds the rotational angle and frees the carotid, so restoring broken posture is mandatory before finishing."
+        "answer": "Re-establish chest pressure to snap the head back below the hip line and reflatten their posture before re-applying the squeeze; a posturing opponent unwinds the rotational angle and frees the carotid, so restoring broken posture is mandatory before finishing.",
+        "answer_line": "Snap the head back below hips",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder as they rise",
+            "Re-grip the collar first"
+          ],
+          "trap": [
+            "Sit up and follow them out"
+          ]
+        }
       },
       {
         "question": "What tactile cue tells you the carotid choke is set and the finish is imminent?",

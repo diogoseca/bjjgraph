@@ -389,7 +389,17 @@
       {
         "question": "How should you release the belly down armbar safely after your training partner taps?",
         "answer": "Release extension pressure first by lowering the wrist toward the mat, removing the hyperextension force from the elbow immediately. Then release your knee squeeze around the upper arm. Finally, disengage your body completely by rolling off to the side. Do not maintain any arm control after the tap. Check your partner's elbow range of motion and ask about any pain before continuing training. Never hold the position to discuss technique while the arm remains trapped.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lower wrist first to ease elbow",
+        "distractors": {
+          "plausible": [
+            "Release knee squeeze first",
+            "Roll off before easing pressure"
+          ],
+          "trap": [
+            "Keep arm trapped to talk it out"
+          ]
+        }
       },
       {
         "question": "Your opponent starts bridging and turning into you as you begin stepping over their head—what adjustment prevents escape?",

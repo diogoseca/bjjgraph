@@ -402,7 +402,17 @@
       },
       {
         "question": "What entry conditions must exist before you should attempt Kosoto Gari?",
-        "answer": "Four conditions must be present: (1) you have established controlling grips on both collar and sleeve that allow pulling action; (2) opponent's weight has shifted predominantly to their rear leg, either through your pushing action or their defensive posture; (3) you have stepped to the correct angle (approximately 45 degrees) with your base foot stable; and (4) opponent's posture is broken forward or they are resisting backward pressure. Attempting Kosoto Gari without these conditions results in low-percentage execution and potential counter-throws."
+        "answer": "Four conditions must be present: (1) you have established controlling grips on both collar and sleeve that allow pulling action; (2) opponent's weight has shifted predominantly to their rear leg, either through your pushing action or their defensive posture; (3) you have stepped to the correct angle (approximately 45 degrees) with your base foot stable; and (4) opponent's posture is broken forward or they are resisting backward pressure. Attempting Kosoto Gari without these conditions results in low-percentage execution and potential counter-throws.",
+        "answer_line": "Weight loaded on the reaped leg",
+        "distractors": {
+          "plausible": [
+            "Grips set, weight can be anywhere",
+            "Step to 90-degree angle first"
+          ],
+          "trap": [
+            "Pull them forward, then reap the leg"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing Kosoto Gari, both partners must maintain control throughout the falling motion to prevent injury. The person being thrown should practice proper ukemi (breakfall) by slapping the mat with their arm to dissipate impact force and protect their head. Never release grips completely during static drilling as this can cause uncontrolled falls. When drilling at speed, use crash mats or soft surfaces until breakfall mechanics are reflexive. Avoid practicing on hard surfaces until both partners have developed proper falling technique. If you feel yourself being thrown and cannot escape, do not attempt to post with extended arm as this can cause elbow, wrist, or shoulder injuries. Instead, tuck chin to chest and execute proper breakfall. Beginners should practice falling mechanics separately before integrating live throws.",

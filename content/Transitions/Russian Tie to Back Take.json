@@ -312,7 +312,17 @@
       },
       {
         "question": "What grip fighting conditions must exist before you should commit to establishing the Russian Tie?",
-        "answer": "You need either a grip fighting advantage (such as having already cleared their initial grips) or at minimum a neutral hand position where you can isolate one of their arms without them controlling both of yours. Common setups include winning an inside collar tie battle, stripping their sleeve grip to expose their wrist, or catching their arm during a failed grip attempt. Committing both hands to one arm without first winning the hand fight risks having the 2-on-1 stripped immediately while leaving you in a worse grip position."
+        "answer": "You need either a grip fighting advantage (such as having already cleared their initial grips) or at minimum a neutral hand position where you can isolate one of their arms without them controlling both of yours. Common setups include winning an inside collar tie battle, stripping their sleeve grip to expose their wrist, or catching their arm during a failed grip attempt. Committing both hands to one arm without first winning the hand fight risks having the 2-on-1 stripped immediately while leaving you in a worse grip position.",
+        "answer_line": "Win hand fight, isolate one arm",
+        "distractors": {
+          "plausible": [
+            "Grip both their sleeves first",
+            "Post on head before gripping"
+          ],
+          "trap": [
+            "Dive both hands onto one arm"
+          ]
+        }
       },
       {
         "question": "Your opponent turns hard into you during the circling phase and tries to establish a body lock - what is the critical defensive response?",

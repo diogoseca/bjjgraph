@@ -253,7 +253,17 @@
     "flashcards": [
       {
         "question": "What is the correct order for breaking the control points of a Russian Leg Lasso?",
-        "answer": "The correct sequence is collar grip first, then sleeve grip, then create slack through hip distance, then extract the arm from the lasso using rotation. Each step weakens the subsequent control point. Breaking the collar grip reduces sweep threat and makes the sleeve grip less reinforced. Breaking the sleeve grip eliminates the rotational force that keeps the lasso tight. Creating slack through hip distance makes the physical extraction possible without excessive force."
+        "answer": "The correct sequence is collar grip first, then sleeve grip, then create slack through hip distance, then extract the arm from the lasso using rotation. Each step weakens the subsequent control point. Breaking the collar grip reduces sweep threat and makes the sleeve grip less reinforced. Breaking the sleeve grip eliminates the rotational force that keeps the lasso tight. Creating slack through hip distance makes the physical extraction possible without excessive force.",
+        "answer_line": "Collar grip first",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip, then collar",
+            "Create slack before grips"
+          ],
+          "trap": [
+            "Rip arm free of the lasso"
+          ]
+        }
       },
       {
         "question": "Why should you never pull your arm straight back when trying to extract it from the lasso?",

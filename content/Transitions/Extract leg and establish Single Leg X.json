@@ -225,7 +225,17 @@
       },
       {
         "question": "What entry requirements must exist before committing to the extraction?",
-        "answer": "Four conditions must be present: opponent's leg control must be transitional rather than locked in finishing position, your free leg must be available for framing and subsequent hook placement, your hip mobility must be sufficient to create rotation angles despite the entanglement, and you must have identified a specific transitional window. Attempting extraction when any of these conditions is absent dramatically reduces success rate and may worsen your position."
+        "answer": "Four conditions must be present: opponent's leg control must be transitional rather than locked in finishing position, your free leg must be available for framing and subsequent hook placement, your hip mobility must be sufficient to create rotation angles despite the entanglement, and you must have identified a specific transitional window. Attempting extraction when any of these conditions is absent dramatically reduces success rate and may worsen your position.",
+        "answer_line": "Their control must be transitional",
+        "distractors": {
+          "plausible": [
+            "Set your hook before framing",
+            "Flatten hips before rotating"
+          ],
+          "trap": [
+            "Attack once their lock finishes"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical detail that makes limp leg extraction effective?",
@@ -243,7 +253,17 @@
       },
       {
         "question": "What are the most common failure points during the extraction sequence?",
-        "answer": "The three primary failure points are: attempting extraction against tight control with no transition window, creating a gap between extraction and hook establishment that allows opponent to recover, and using explosive pulling that telegraphs the attempt. Each failure has a different consequence—the first wastes energy and tightens entanglement, the second negates the escape effort, and the third gives opponent time to counter-attack exposed angles."
+        "answer": "The three primary failure points are: attempting extraction against tight control with no transition window, creating a gap between extraction and hook establishment that allows opponent to recover, and using explosive pulling that telegraphs the attempt. Each failure has a different consequence—the first wastes energy and tightens entanglement, the second negates the escape effort, and the third gives opponent time to counter-attack exposed angles.",
+        "answer_line": "Forcing against tight control",
+        "distractors": {
+          "plausible": [
+            "Setting hooks before extracting",
+            "Extracting too slowly, no burst"
+          ],
+          "trap": [
+            "Rolling belly-down to rip free"
+          ]
+        }
       },
       {
         "question": "What grips must you establish as your leg clears the entanglement?",
@@ -303,7 +323,17 @@
       },
       {
         "question": "What indicates your extraction attempt is failing and you should abort?",
-        "answer": "Key indicators include: opponent tightening control as you begin moving rather than loosening, inability to create hip rotation angle despite effort, opponent sprawling forward to pin your hips flat, or feeling their grip strengthen. If you encounter increasing resistance within the first second of the attempt, stop immediately, return to defensive positioning protecting heel and knee line, and wait for a better window. Forcing a failing extraction risks worsening position significantly."
+        "answer": "Key indicators include: opponent tightening control as you begin moving rather than loosening, inability to create hip rotation angle despite effort, opponent sprawling forward to pin your hips flat, or feeling their grip strengthen. If you encounter increasing resistance within the first second of the attempt, stop immediately, return to defensive positioning protecting heel and knee line, and wait for a better window. Forcing a failing extraction risks worsening position significantly.",
+        "answer_line": "Control tightens as you move",
+        "distractors": {
+          "plausible": [
+            "Grip loosens as you rotate",
+            "Heel starts to slip free"
+          ],
+          "trap": [
+            "Spin toward the trapped heel"
+          ]
+        }
       },
       {
         "question": "After establishing Single Leg X-Guard, what are the primary chain attacks if opponent defends the initial sweep?",
@@ -432,19 +462,59 @@
       },
       {
         "question": "How should you adjust your leg entanglement control when you sense an extraction attempt beginning?",
-        "answer": "Immediately tighten your leg crossing by squeezing your knees together and increasing pressure on opponent's trapped thigh. Drive your hips forward to pin their hips flat and eliminate the rotation angle they need. Use your top leg to control their free leg, removing their primary framing tool. If you can, initiate a submission threat simultaneously to force them to abandon the extraction and return to defending the entanglement."
+        "answer": "Immediately tighten your leg crossing by squeezing your knees together and increasing pressure on opponent's trapped thigh. Drive your hips forward to pin their hips flat and eliminate the rotation angle they need. Use your top leg to control their free leg, removing their primary framing tool. If you can, initiate a submission threat simultaneously to force them to abandon the extraction and return to defending the entanglement.",
+        "answer_line": "Squeeze knees, drive hips forward",
+        "distractors": {
+          "plausible": [
+            "Control the free leg first",
+            "Go for the submission first"
+          ],
+          "trap": [
+            "Open the cross and reposition"
+          ]
+        }
       },
       {
         "question": "Your opponent's extraction is nearly complete and their leg is sliding free - what is your best tactical option?",
-        "answer": "When extraction is nearly complete, attempting to retain the original entanglement is usually futile and wastes energy. You have two viable options: capitalize on the angle change to advance to Saddle by crossing your leg over their now-exposed knee line during the transition, or disengage completely by pulling your own leg back and immediately sprawling to top position before they can establish Single Leg X hooks. The choice depends on whether their knee line is exposed (advance to Saddle) or protected (disengage and pass)."
+        "answer": "When extraction is nearly complete, attempting to retain the original entanglement is usually futile and wastes energy. You have two viable options: capitalize on the angle change to advance to Saddle by crossing your leg over their now-exposed knee line during the transition, or disengage completely by pulling your own leg back and immediately sprawling to top position before they can establish Single Leg X hooks. The choice depends on whether their knee line is exposed (advance to Saddle) or protected (disengage and pass).",
+        "answer_line": "Cross to Saddle or sprawl to top",
+        "distractors": {
+          "plausible": [
+            "Fight to retain the entanglement",
+            "Re-pummel your hook back in"
+          ],
+          "trap": [
+            "Roll away to free your leg"
+          ]
+        }
       },
       {
         "question": "Why is overlapping grip control essential when defending against extraction attempts?",
-        "answer": "Every time you release one grip to establish another, you create a transitional window where your overall control is reduced. Skilled opponents specifically wait for these moments to initiate extraction. Overlapping means establishing your new controlling grip or leg position before releasing the old one, so you always maintain at least two points of control. This eliminates the single-grip windows that enable extraction and forces opponent to break multiple controls simultaneously, which is far more difficult."
+        "answer": "Every time you release one grip to establish another, you create a transitional window where your overall control is reduced. Skilled opponents specifically wait for these moments to initiate extraction. Overlapping means establishing your new controlling grip or leg position before releasing the old one, so you always maintain at least two points of control. This eliminates the single-grip windows that enable extraction and forces opponent to break multiple controls simultaneously, which is far more difficult.",
+        "answer_line": "New grip before releasing old",
+        "distractors": {
+          "plausible": [
+            "Release old, then grab new fast",
+            "Grip harder on the single hold"
+          ],
+          "trap": [
+            "Free both hands to reframe"
+          ]
+        }
       },
       {
         "question": "How do you prevent your forward driving pressure from being used against you in a Granby roll counter?",
-        "answer": "Control your forward pressure by driving into opponent's hips rather than over their body. Keep a wide base with your free leg posted diagonally to maintain balance if they attempt to invert. Distribute your weight through your chest onto their thigh rather than leaning your center of gravity past their body. If you feel them begin to invert, immediately pull back your hips and redirect your pressure downward rather than forward, removing the momentum they need for the Granby roll."
+        "answer": "Control your forward pressure by driving into opponent's hips rather than over their body. Keep a wide base with your free leg posted diagonally to maintain balance if they attempt to invert. Distribute your weight through your chest onto their thigh rather than leaning your center of gravity past their body. If you feel them begin to invert, immediately pull back your hips and redirect your pressure downward rather than forward, removing the momentum they need for the Granby roll.",
+        "answer_line": "Drive into hips, not over body",
+        "distractors": {
+          "plausible": [
+            "Redirect pressure forward, not down",
+            "Square base, post leg straight ahead"
+          ],
+          "trap": [
+            "Follow them forward into the roll"
+          ]
+        }
       }
     ],
     "training_progressions": [

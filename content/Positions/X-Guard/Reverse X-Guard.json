@@ -406,7 +406,17 @@
       },
       {
         "question": "How do you manage energy expenditure while defending Reverse X-Guard?",
-        "answer": "Use efficient body positioning rather than muscular effort. Keep your skeletal structure aligned with hips over base and weight distributed forward through proper posture. Avoid death-gripping sleeves - use active but relaxed hand fighting. When defending sweeps, use angular movement and base adjustments rather than fighting straight back against their power. This conserves energy while maintaining effective defense."
+        "answer": "Use efficient body positioning rather than muscular effort. Keep your skeletal structure aligned with hips over base and weight distributed forward through proper posture. Avoid death-gripping sleeves - use active but relaxed hand fighting. When defending sweeps, use angular movement and base adjustments rather than fighting straight back against their power. This conserves energy while maintaining effective defense.",
+        "answer_line": "Structure over strength",
+        "distractors": {
+          "plausible": [
+            "Death-grip the sleeves",
+            "Fight straight into their power"
+          ],
+          "trap": [
+            "Turn your back to escape"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating to take your back during a sweep attempt - how do you recover?",

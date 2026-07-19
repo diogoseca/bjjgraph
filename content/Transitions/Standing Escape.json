@@ -267,7 +267,17 @@
       },
       {
         "question": "What is the correct sequence for removing the opponent's hooks after reaching your feet?",
-        "answer": "Remove the bottom hook first, then the top hook. The bottom hook bears the combined weight of both fighters when you are standing, making it the structural foundation of the opponent's back control. Once removed, the top hook loses its support and becomes easy to strip. Attempting to remove the top hook first leaves the bottom hook loaded with weight and nearly impossible to peel. Use your free hand to grab the instep and drive it downward toward the mat."
+        "answer": "Remove the bottom hook first, then the top hook. The bottom hook bears the combined weight of both fighters when you are standing, making it the structural foundation of the opponent's back control. Once removed, the top hook loses its support and becomes easy to strip. Attempting to remove the top hook first leaves the bottom hook loaded with weight and nearly impossible to peel. Use your free hand to grab the instep and drive it downward toward the mat.",
+        "answer_line": "Strip the bottom hook first",
+        "distractors": {
+          "plausible": [
+            "Peel the top hook first",
+            "Clear both hooks together"
+          ],
+          "trap": [
+            "Turn in with hooks still in"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the collar grip and shoots for a rear naked choke as you initiate the stand-up—what is your response window?",

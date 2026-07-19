@@ -488,7 +488,17 @@
       {
         "question": "In competition, what strategic considerations should guide when to attempt the toe hold versus transitioning to heel hook from 50-50?",
         "answer": "Strategic considerations include: (1) Rule set—if heel hooks are illegal (IBJJF gi and most white-purple belt no-gi), toe hold is your primary option. (2) Opponent's heel exposure—if their heel is hidden and protected but their foot is accessible, toe hold may be higher percentage than forcing a heel hook entry. (3) Time remaining—toe hold setups are often faster than heel hook entries, making them preferable in short time situations. (4) Opponent's defensive habits—if they heavily defend heel hooks by hiding heel and rotating knee, they often expose the foot for toe hold. (5) Dilemma creation—threaten toe hold to force reactions that expose the heel, then transition. The toe hold and heel hook work as a complementary system where defending one opens the other.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Ruleset legality dictates choice",
+        "distractors": {
+          "plausible": [
+            "Chase whichever heel is exposed",
+            "Pick the quicker submission setup"
+          ],
+          "trap": [
+            "Release inside pos to spin heel"
+          ]
+        }
       },
       {
         "question": "What anatomical structures does the toe hold from 50-50 guard primarily attack?",

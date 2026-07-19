@@ -355,7 +355,17 @@
       },
       {
         "question": "How does the direction of the initial pull differ between setting up the step-behind versus the duck-under variation?",
-        "answer": "For the step-behind, pull the controlled arm across and slightly downward toward your opposite hip, which rotates the opponent's shoulders and loads their weight onto their far foot, opening their near hip for you to step behind. For the duck-under, pull the controlled arm across and slightly upward toward your shoulder level, which elevates their elbow and creates space underneath their arm for your head and body to pass through. The upward pull tends to make the opponent post their weight more evenly or lean back, facilitating penetration under their arm structure."
+        "answer": "For the step-behind, pull the controlled arm across and slightly downward toward your opposite hip, which rotates the opponent's shoulders and loads their weight onto their far foot, opening their near hip for you to step behind. For the duck-under, pull the controlled arm across and slightly upward toward your shoulder level, which elevates their elbow and creates space underneath their arm for your head and body to pass through. The upward pull tends to make the opponent post their weight more evenly or lean back, facilitating penetration under their arm structure.",
+        "answer_line": "Down = step-behind, up = duck-under",
+        "distractors": {
+          "plausible": [
+            "Both pull toward the far hip",
+            "Toward shoulder for step-behind"
+          ],
+          "trap": [
+            "Yank straight back and turn away"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail during the moment you transition from two-on-one grips to seat belt?",

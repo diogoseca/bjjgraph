@@ -413,7 +413,17 @@
     },
     {
       "question": "How do you decide between an anaconda and a darce from the front headlock?",
-      "answer": "Both trap the opponent's near arm and feed the choking arm through to compress the neck and shoulder, but they differ by which arm is trapped: the anaconda traps the same-side arm and finishes by rolling, while the darce feeds across to trap the opposite-side arm and finishes with a shoulder-pressure squeeze."
+      "answer": "Both trap the opponent's near arm and feed the choking arm through to compress the neck and shoulder, but they differ by which arm is trapped: the anaconda traps the same-side arm and finishes by rolling, while the darce feeds across to trap the opposite-side arm and finishes with a shoulder-pressure squeeze.",
+      "answer_line": "Same-side arm → anaconda roll",
+      "distractors": {
+        "plausible": [
+          "Cross arm → anaconda roll",
+          "Same-side arm → darce squeeze"
+        ],
+        "trap": [
+          "Roll regardless of which arm"
+        ]
+      }
     },
     {
       "question": "Which control point is non-negotiable throughout every front headlock transition?",

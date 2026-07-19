@@ -549,7 +549,17 @@
       },
       {
         "question": "What is the optimal weight distribution during your opponent's descent to prevent them from achieving turtle?",
-        "answer": "Drive approximately 70-80% of your weight forward through your chest into their upper back and shoulders during the descent. This forward pressure vector flattens their landing angle, making it much harder for them to post on their hands and establish turtle. Keep your hips close to theirs and your hooks active to prevent their hip turn from creating separation. The combination of forward chest pressure and active hook control during descent typically results in a flat or near-flat landing rather than clean turtle."
+        "answer": "Drive approximately 70-80% of your weight forward through your chest into their upper back and shoulders during the descent. This forward pressure vector flattens their landing angle, making it much harder for them to post on their hands and establish turtle. Keep your hips close to theirs and your hooks active to prevent their hip turn from creating separation. The combination of forward chest pressure and active hook control during descent typically results in a flat or near-flat landing rather than clean turtle.",
+        "answer_line": "70-80% forward into upper back",
+        "distractors": {
+          "plausible": [
+            "Even pressure over their spine",
+            "Drive weight down through the hips"
+          ],
+          "trap": [
+            "Sit back to trap their legs"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully reaches turtle after their Controlled Descent - what are your immediate priorities?",

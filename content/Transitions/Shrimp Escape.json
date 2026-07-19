@@ -270,15 +270,45 @@
       },
       {
         "question": "Why is angular shrimping more effective than shrimping in a straight line directly away from your opponent?",
-        "answer": "Angular shrimping creates a vector that is harder for opponent to follow and generates more functional space for guard recovery. When you shrimp straight back, opponent can simply walk forward on their knees to maintain pressure. However, when you shrimp at an angle (typically 45 degrees), opponent must adjust their entire body position to follow, which takes more time and effort. Additionally, angular movement allows you to create space specifically where you need it—between your hip and opponent's chest—while potentially using the mat boundary to your advantage."
+        "answer": "Angular shrimping creates a vector that is harder for opponent to follow and generates more functional space for guard recovery. When you shrimp straight back, opponent can simply walk forward on their knees to maintain pressure. However, when you shrimp at an angle (typically 45 degrees), opponent must adjust their entire body position to follow, which takes more time and effort. Additionally, angular movement allows you to create space specifically where you need it—between your hip and opponent's chest—while potentially using the mat boundary to your advantage.",
+        "answer_line": "Angle makes space they can't chase",
+        "distractors": {
+          "plausible": [
+            "Shrimp straight back for max space",
+            "Bridge first, then post out"
+          ],
+          "trap": [
+            "Roll to turtle to escape pressure"
+          ]
+        }
       },
       {
         "question": "What should you do if one shrimp doesn't create enough space to recover guard?",
-        "answer": "Chain multiple shrimps together in rapid succession, maintaining your frames throughout the sequence. Most successful escapes from side control require 2-3 shrimps rather than just one. After each shrimp, quickly reset your frames, perform another micro-bridge, and execute another shrimp. You may also need to vary the angle of each shrimp to prevent opponent from anticipating and following your movement pattern. The key is continuous movement rather than isolated single attempts."
+        "answer": "Chain multiple shrimps together in rapid succession, maintaining your frames throughout the sequence. Most successful escapes from side control require 2-3 shrimps rather than just one. After each shrimp, quickly reset your frames, perform another micro-bridge, and execute another shrimp. You may also need to vary the angle of each shrimp to prevent opponent from anticipating and following your movement pattern. The key is continuous movement rather than isolated single attempts.",
+        "answer_line": "Chain 2-3 shrimps, keep frames",
+        "distractors": {
+          "plausible": [
+            "One hard shrimp, then bridge",
+            "Pause to reset, then reshrimp"
+          ],
+          "trap": [
+            "Turn belly-down and crawl out"
+          ]
+        }
       },
       {
         "question": "How should you time your shrimp escape for maximum effectiveness against a skilled opponent?",
-        "answer": "Time your escape for moments when opponent's pressure is transitioning or their weight is shifting. This includes: when they're moving from side control toward mount or north-south (weight is in motion), when they're adjusting their grips or attempting a submission (hands are occupied), when they exhale (brief reduction in pressure), or when they're responding to your frames or previous movement attempts. Advanced timing also involves baiting reactions—using frames to push as if attempting one escape, then capitalizing on their counter-pressure to execute the shrimp in the opposite direction."
+        "answer": "Time your escape for moments when opponent's pressure is transitioning or their weight is shifting. This includes: when they're moving from side control toward mount or north-south (weight is in motion), when they're adjusting their grips or attempting a submission (hands are occupied), when they exhale (brief reduction in pressure), or when they're responding to your frames or previous movement attempts. Advanced timing also involves baiting reactions—using frames to push as if attempting one escape, then capitalizing on their counter-pressure to execute the shrimp in the opposite direction.",
+        "answer_line": "Escape when their weight shifts",
+        "distractors": {
+          "plausible": [
+            "Shrimp when their pressure peaks",
+            "Wait until they fully settle in"
+          ],
+          "trap": [
+            "Turn belly-down and drive out"
+          ]
+        }
       },
       {
         "question": "Your opponent drives their shoulder into your face while maintaining heavy hip pressure—how do you adjust your frame positioning?",
@@ -324,7 +354,17 @@
       },
       {
         "question": "How does your shrimp direction change when opponent has secured an underhook on your near side?",
-        "answer": "When opponent has the underhook, shrimping toward them (the traditional direction) will actually help them advance position because the underhook gives them superior leverage on that angle. Instead, you must shrimp in the opposite direction—away from the underhook side—while simultaneously fighting to recover your underhook or at minimum establishing a strong frame on their shoulder. You may need to accept transitioning to turtle briefly before recovering guard if the underhook is too deep. The ghost escape variation becomes highly relevant here, turning away from the underhook to slip out."
+        "answer": "When opponent has the underhook, shrimping toward them (the traditional direction) will actually help them advance position because the underhook gives them superior leverage on that angle. Instead, you must shrimp in the opposite direction—away from the underhook side—while simultaneously fighting to recover your underhook or at minimum establishing a strong frame on their shoulder. You may need to accept transitioning to turtle briefly before recovering guard if the underhook is too deep. The ghost escape variation becomes highly relevant here, turning away from the underhook to slip out.",
+        "answer_line": "Shrimp away from the underhook",
+        "distractors": {
+          "plausible": [
+            "Recover underhook before shrimping",
+            "Turn to turtle, then rebuild guard"
+          ],
+          "trap": [
+            "Shrimp toward the underhook side"
+          ]
+        }
       },
       {
         "question": "What are the specific hip mechanics that generate maximum power during the shrimp movement?",
@@ -356,7 +396,17 @@
       },
       {
         "question": "How do you prevent opponent from taking mount when they time their transition with your bridge?",
-        "answer": "When opponent times mount transitions with your bridge, they're capitalizing on the moment your hips rise. Counter this by: making your bridges smaller and faster (2-3 inches rather than full bridges), immediately turning onto your hip as you bridge rather than bridging straight up, keeping your near elbow tight to your body to block their knee from crossing, and using your near knee to actively block their leg advancement. If you feel them beginning to step over, abandon the shrimp and focus entirely on blocking the mount with your elbow-to-knee connection, then reset for another escape attempt once mount is prevented."
+        "answer": "When opponent times mount transitions with your bridge, they're capitalizing on the moment your hips rise. Counter this by: making your bridges smaller and faster (2-3 inches rather than full bridges), immediately turning onto your hip as you bridge rather than bridging straight up, keeping your near elbow tight to your body to block their knee from crossing, and using your near knee to actively block their leg advancement. If you feel them beginning to step over, abandon the shrimp and focus entirely on blocking the mount with your elbow-to-knee connection, then reset for another escape attempt once mount is prevented.",
+        "answer_line": "Small quick bridges, turn to hip",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up, then shrimp out",
+            "Frame far elbow to block the knee"
+          ],
+          "trap": [
+            "Turn belly-down to scramble free"
+          ]
+        }
       }
     ],
     "safety_considerations": "When practicing shrimp escapes, controlled application is essential to develop proper mechanics safely. Begin with cooperative partners who allow the technique to complete, gradually building up resistance over weeks of training. Ensure adequate mat space as shrimping can move you across the mat quickly—be aware of mat boundaries and other training pairs to avoid collisions. When drilling, the top partner should allow the escape to complete and avoid sudden weight drops or aggressive pressure that could injure the bottom player's ribs or prevent proper breathing. Build up explosiveness gradually, starting with slow technical repetitions before adding speed and power. The bridging motion should be controlled to protect your neck and spine—avoid over-bridging or jerky movements. As bottom player, if you cannot breathe properly under pressure, tap immediately and reset. As top partner, check in regularly with your partner about pressure levels, especially during the learning phase. Practice on proper BJJ mats with adequate padding to protect hips and shoulders during the repetitive movements.",
@@ -493,7 +543,17 @@
       },
       {
         "question": "Your opponent has successfully shrimped and is attempting to insert their knee shield—what is your immediate defensive priority?",
-        "answer": "Your immediate priority is to drive your near-side hip into the space between your bodies to block the knee insertion before it crosses your centerline. Simultaneously, drive your shoulder forward and downward to collapse any remaining space. If the knee is partially inserted, use your hand to control their shin and push it back down while re-establishing hip-to-hip pressure. Speed is critical here—once the knee shield is fully established, re-passing becomes a separate and more difficult task than simply maintaining side control through prevention."
+        "answer": "Your immediate priority is to drive your near-side hip into the space between your bodies to block the knee insertion before it crosses your centerline. Simultaneously, drive your shoulder forward and downward to collapse any remaining space. If the knee is partially inserted, use your hand to control their shin and push it back down while re-establishing hip-to-hip pressure. Speed is critical here—once the knee shield is fully established, re-passing becomes a separate and more difficult task than simply maintaining side control through prevention.",
+        "answer_line": "Drive near hip in to block knee",
+        "distractors": {
+          "plausible": [
+            "Push their shin down first",
+            "Drop shoulder to kill space"
+          ],
+          "trap": [
+            "Back off and reset your base"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution when you feel your opponent beginning to establish frames for a shrimp escape?",
@@ -525,7 +585,17 @@
       },
       {
         "question": "Your opponent chains three rapid shrimps and you're struggling to maintain connection—what systemic adjustment prevents this situation?",
-        "answer": "The systemic adjustment is to address the root cause rather than chasing individual shrimps. First, improve your initial crossface to prevent the hip rotation that enables effective shrimping. Second, control their near-side elbow to deny frame re-establishment between shrimps. Third, rather than following multiple shrimps laterally, transition your pressure angle—switch to north-south or walk your body toward their head to change the dynamic entirely. The opponent is exploiting your pattern of lateral following; breaking that pattern with a positional transition forces them to abandon the shrimp chain and address your new angle."
+        "answer": "The systemic adjustment is to address the root cause rather than chasing individual shrimps. First, improve your initial crossface to prevent the hip rotation that enables effective shrimping. Second, control their near-side elbow to deny frame re-establishment between shrimps. Third, rather than following multiple shrimps laterally, transition your pressure angle—switch to north-south or walk your body toward their head to change the dynamic entirely. The opponent is exploiting your pattern of lateral following; breaking that pattern with a positional transition forces them to abandon the shrimp chain and address your new angle.",
+        "answer_line": "Switch angle instead of chasing",
+        "distractors": {
+          "plausible": [
+            "Follow each shrimp to stay tight",
+            "Reset crossface after each shrimp"
+          ],
+          "trap": [
+            "Post far hand to block the hips"
+          ]
+        }
       }
     ],
     "training_progressions": [

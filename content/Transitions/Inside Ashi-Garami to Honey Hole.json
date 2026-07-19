@@ -311,7 +311,17 @@
       },
       {
         "question": "How do you coordinate hip elevation with leg threading for maximum efficiency?",
-        "answer": "Bridge your hips upward at the exact moment you begin withdrawing your outside leg from behind opponent's knee. The hip elevation creates space beneath your body for the threading motion while simultaneously maintaining pressure on opponent through your inside leg. This should be one coordinated explosive motion - hips up, leg withdraws, threads through, hooks triangle - not four separate steps."
+        "answer": "Bridge your hips upward at the exact moment you begin withdrawing your outside leg from behind opponent's knee. The hip elevation creates space beneath your body for the threading motion while simultaneously maintaining pressure on opponent through your inside leg. This should be one coordinated explosive motion - hips up, leg withdraws, threads through, hooks triangle - not four separate steps.",
+        "answer_line": "Bridge and thread as one motion",
+        "distractors": {
+          "plausible": [
+            "Bridge fully first, then thread",
+            "Pull the inside leg out first"
+          ],
+          "trap": [
+            "Turn belly-down to free the leg"
+          ]
+        }
       },
       {
         "question": "What body alignment must you maintain during the transition and why is this critical?",

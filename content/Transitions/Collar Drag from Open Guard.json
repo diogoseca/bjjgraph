@@ -279,7 +279,17 @@
       },
       {
         "question": "What is the critical mechanical detail that differentiates an effective collar drag from an ineffective one?",
-        "answer": "The diagonal pulling angle is the critical mechanical differentiator. The grip must be pulled toward the mat beside your opposite hip, not straight toward your chest. This diagonal vector combines downward force with lateral redirection, preventing the opponent from posting effectively because they would need to resist in two directions simultaneously. The torso rotation amplifies this diagonal force by recruiting your entire core rather than relying on isolated arm strength."
+        "answer": "The diagonal pulling angle is the critical mechanical differentiator. The grip must be pulled toward the mat beside your opposite hip, not straight toward your chest. This diagonal vector combines downward force with lateral redirection, preventing the opponent from posting effectively because they would need to resist in two directions simultaneously. The torso rotation amplifies this diagonal force by recruiting your entire core rather than relying on isolated arm strength.",
+        "answer_line": "Pull diagonally to opposite hip",
+        "distractors": {
+          "plausible": [
+            "Pull straight toward your chest",
+            "Jerk the grip up to your shoulder"
+          ],
+          "trap": [
+            "Rotate away and expose the back"
+          ]
+        }
       },
       {
         "question": "What are the most common failure points that cause the collar drag to fail mid-execution?",
@@ -527,7 +537,17 @@
       },
       {
         "question": "When should you choose to drive forward through a collar drag attempt rather than defend passively?",
-        "answer": "Drive forward when the opponent sits up to execute the drag and simultaneously releases their foot frames from your hips. This is the moment when their guard structure is most compromised because they have sacrificed lower body control to power the upper body drag. Your forward drive exploits this opening by advancing past their legs before they can re-establish frames. However, this counter requires precise timing: drive too early and you feed into the drag, drive too late and the front headlock is already established."
+        "answer": "Drive forward when the opponent sits up to execute the drag and simultaneously releases their foot frames from your hips. This is the moment when their guard structure is most compromised because they have sacrificed lower body control to power the upper body drag. Your forward drive exploits this opening by advancing past their legs before they can re-establish frames. However, this counter requires precise timing: drive too early and you feed into the drag, drive too late and the front headlock is already established.",
+        "answer_line": "When they drop foot frames to sit up",
+        "distractors": {
+          "plausible": [
+            "As soon as they grip your collar",
+            "After the front headlock sets"
+          ],
+          "trap": [
+            "While their feet still frame hips"
+          ]
+        }
       },
       {
         "question": "Why is circling toward the drag direction more effective than pulling straight back when defending?",

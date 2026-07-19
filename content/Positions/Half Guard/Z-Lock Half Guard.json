@@ -918,11 +918,31 @@
     },
     {
       "question": "What roles do the two legs play in the opposing tension that holds the Z-Lock together?",
-      "answer": "The lockdown leg maintains constant pulling tension, hooking the opponent's ankle and stretching their trapped leg so they cannot post it or step free. The butterfly hook leg maintains lifting tension under the opposite thigh, threatening to elevate and unbalance the top player. These two forces oppose each other and create the leverage that off-balances the opponent's base. If either leg loses its tension the Z collapses into an ordinary trapped-leg half guard, so the coordinated push-pull between the two legs is what preserves the configuration's structural integrity."
+      "answer": "The lockdown leg maintains constant pulling tension, hooking the opponent's ankle and stretching their trapped leg so they cannot post it or step free. The butterfly hook leg maintains lifting tension under the opposite thigh, threatening to elevate and unbalance the top player. These two forces oppose each other and create the leverage that off-balances the opponent's base. If either leg loses its tension the Z collapses into an ordinary trapped-leg half guard, so the coordinated push-pull between the two legs is what preserves the configuration's structural integrity.",
+      "answer_line": "Lockdown pulls, hook lifts up",
+      "distractors": {
+        "plausible": [
+          "Lockdown lifts, hook pulls down",
+          "Both legs pull the trapped ankle"
+        ],
+        "trap": [
+          "Drop the hook, flatten to escape"
+        ]
+      }
     },
     {
       "question": "Why is upper-body control an essential component of the Z-Lock rather than purely a leg position?",
-      "answer": "The leg configuration alone cannot prevent the top player from establishing crossface and heavy shoulder pressure that flattens the bottom player and neutralizes the Z geometry. An underhook, overhook, or collar-and-posture control is required to keep the top player's chest off and preserve the hip angle that the leg system depends on. This coordination of upper-body frames with the lower-body Z mechanics is why the position is considered a full-body configuration, not just a leg lock entanglement. Losing the upper-body connection typically precedes losing the whole position for the bottom player and signals the passing opportunity for the top."
+      "answer": "The leg configuration alone cannot prevent the top player from establishing crossface and heavy shoulder pressure that flattens the bottom player and neutralizes the Z geometry. An underhook, overhook, or collar-and-posture control is required to keep the top player's chest off and preserve the hip angle that the leg system depends on. This coordination of upper-body frames with the lower-body Z mechanics is why the position is considered a full-body configuration, not just a leg lock entanglement. Losing the upper-body connection typically precedes losing the whole position for the bottom player and signals the passing opportunity for the top.",
+      "answer_line": "Frame stops crossface that flattens",
+      "distractors": {
+        "plausible": [
+          "Legs alone hold the Z geometry",
+          "Squeeze knees to keep the lock"
+        ],
+        "trap": [
+          "Drop the frame, hunt the footlock"
+        ]
+      }
     },
     {
       "question": "How does the Z-Lock Half Guard differ from butterfly half guard and deep half guard?",

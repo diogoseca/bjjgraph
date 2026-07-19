@@ -329,7 +329,17 @@
       {
         "question": "What control must you establish before attempting the Kimura finish from Butterfly Guard?",
         "answer": "Before finishing, you must have: secure wrist control on the target arm, a locked figure-four grip with your forearm pressing against the back of their forearm, at least one active hook preventing the opponent from creating distance, and your body angled so your chest faces the trapped shoulder. Without all four elements, the finish will be mechanically weak and the opponent will likely escape or counter.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Figure-four wrist control locked",
+        "distractors": {
+          "plausible": [
+            "Grip their wrist, skip the hook",
+            "Chest square before figure-four"
+          ],
+          "trap": [
+            "Release hooks, drive with both arms"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own shorts to defend the Kimura rotation - what adjustments do you make?",

@@ -354,7 +354,17 @@
       },
       {
         "question": "What are the two primary hooks you must address in sequence, and why does the order matter?",
-        "answer": "The primary hook behind your knee must be addressed first because it provides the main elevation point for sweeps. The secondary hook on your hip controls rotational movement and sweeping direction. Addressing the knee hook first removes the bottom player's primary leverage point, making the secondary hook much less effective on its own. Reversing this order leaves the stronger hook intact, and the bottom player can re-establish the secondary hook while retaining full sweep power through the primary hook."
+        "answer": "The primary hook behind your knee must be addressed first because it provides the main elevation point for sweeps. The secondary hook on your hip controls rotational movement and sweeping direction. Addressing the knee hook first removes the bottom player's primary leverage point, making the secondary hook much less effective on its own. Reversing this order leaves the stronger hook intact, and the bottom player can re-establish the secondary hook while retaining full sweep power through the primary hook.",
+        "answer_line": "Clear the knee hook first",
+        "distractors": {
+          "plausible": [
+            "Strip the hip hook first",
+            "Break both hooks at once"
+          ],
+          "trap": [
+            "Turn your back to slip free"
+          ]
+        }
       }
     ],
     "safety_considerations": "When extracting from Reverse X-Guard, avoid jerking movements that could strain knee ligaments in either practitioner. The entangled leg is vulnerable to hyperextension if hooks are cleared explosively while the opponent maintains grip control on the ankle or foot. Always address grips before forcefully extracting legs. If the opponent transitions to a leg lock entry during your escape, prioritize defending the submission over completing the escape. Communicate with training partners about knee sensitivity, especially when drilling hook removal sequences repeatedly.",

@@ -357,7 +357,17 @@
       {
         "question": "What is the correct release protocol if your opponent taps during the extension phase?",
         "answer": "Immediately stop hip extension and rotation, lower your hips away from their elbow joint to remove breaking pressure, release leg pressure on their head and shoulder, return their arm to a neutral position before releasing your grip, and allow them to extract their arm at their own pace without rushing. Never release grip before lowering hips, as this can cause the arm to snap back under tension. The release must be as controlled as the application.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Lower hips before releasing grip",
+        "distractors": {
+          "plausible": [
+            "Release the leg pressure first",
+            "Return their arm, then drop hips"
+          ],
+          "trap": [
+            "Let go of the grip on the tap"
+          ]
+        }
       },
       {
         "question": "Why is the reverse armbar considered more effective against experienced grapplers than beginners?",

@@ -267,7 +267,17 @@
       },
       {
         "question": "What is the critical difference in leg configuration between inside ashi-garami and the ushiro ashi position you are transitioning to?",
-        "answer": "In inside ashi-garami, your inside leg crosses the opponent's near hip as a frame while your outside leg hooks behind their knee. In ushiro ashi, the configuration reverses: your outside leg crosses over the opponent's knee line from the top while your inside leg slides underneath their trapped leg. This reversal occurs because the opponent's hip inversion changes which side of their leg each of your legs needs to control."
+        "answer": "In inside ashi-garami, your inside leg crosses the opponent's near hip as a frame while your outside leg hooks behind their knee. In ushiro ashi, the configuration reverses: your outside leg crosses over the opponent's knee line from the top while your inside leg slides underneath their trapped leg. This reversal occurs because the opponent's hip inversion changes which side of their leg each of your legs needs to control.",
+        "answer_line": "Outside over knee, inside under leg",
+        "distractors": {
+          "plausible": [
+            "Inside frames hip, outside hooks",
+            "Inside over knee, outside underneath"
+          ],
+          "trap": [
+            "Cross your ankles to lock legs"
+          ]
+        }
       },
       {
         "question": "Your opponent's rotation is very fast and they are about to reach turtle - should you continue pursuing ushiro ashi or change strategy?",
@@ -341,7 +351,17 @@
       },
       {
         "question": "What are the signs that you should redirect from ushiro ashi to a saddle entry instead of consolidating the reversed entanglement?",
-        "answer": "Redirect to saddle when your inside leg has deep control on the opponent's thigh but your outside leg has been partially cleared, when the opponent successfully prevents heel exposure from ushiro through persistent hand fighting, or when their continued rotation makes the ushiro angle progressively worse for finishing. The inside leg depth is the key indicator: if it is controlling above the knee with strong pressure, saddle entry becomes mechanically available and often higher-percentage than forcing the ushiro finish."
+        "answer": "Redirect to saddle when your inside leg has deep control on the opponent's thigh but your outside leg has been partially cleared, when the opponent successfully prevents heel exposure from ushiro through persistent hand fighting, or when their continued rotation makes the ushiro angle progressively worse for finishing. The inside leg depth is the key indicator: if it is controlling above the knee with strong pressure, saddle entry becomes mechanically available and often higher-percentage than forcing the ushiro finish.",
+        "answer_line": "Inside leg controls above the knee",
+        "distractors": {
+          "plausible": [
+            "Outside leg has deep thigh control",
+            "Heel exposed after hand fighting"
+          ],
+          "trap": [
+            "Finish through their rotation"
+          ]
+        }
       }
     ],
     "safety_considerations": "Ushiro Ashi-Garami involves heel hook positions that carry significant knee ligament injury risk, particularly to the MCL and ACL. Always apply rotational pressure slowly and progressively during training. The transitional phase between inside ashi and ushiro can create sudden angle changes on the knee joint that the trapped person may not anticipate. Communicate clearly with training partners throughout the transition. Never crank through resistance. If the opponent taps during any phase of the rotation, release immediately and check for injury. Train this transition under qualified instruction with experienced partners who understand leg lock mechanics and proper tap timing.",

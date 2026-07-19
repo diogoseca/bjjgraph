@@ -533,7 +533,17 @@
       },
       {
         "question": "You feel your opponent completely relax their trapped leg—what does this indicate and how do you respond?",
-        "answer": "This indicates they are employing the limp leg concept to reduce the lockdown's grip effectiveness. Respond by increasing your hip extension to compensate for the reduced rigidity. Pull your heel down harder and actively squeeze the foot triangle tighter. Immediately threaten the Old School sweep to force them to re-engage their leg muscles for base, which restores the lockdown's control."
+        "answer": "This indicates they are employing the limp leg concept to reduce the lockdown's grip effectiveness. Respond by increasing your hip extension to compensate for the reduced rigidity. Pull your heel down harder and actively squeeze the foot triangle tighter. Immediately threaten the Old School sweep to force them to re-engage their leg muscles for base, which restores the lockdown's control.",
+        "answer_line": "Extend hips, threaten Old School",
+        "distractors": {
+          "plausible": [
+            "Clamp the triangle and wait it out",
+            "Hunt the straight footlock instead"
+          ],
+          "trap": [
+            "Open lockdown and scramble up"
+          ]
+        }
       },
       {
         "question": "Your opponent reaches down with their free hand to separate your feet at the foot triangle—what is your counter?",

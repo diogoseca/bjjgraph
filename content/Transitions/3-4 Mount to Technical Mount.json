@@ -525,7 +525,17 @@
       },
       {
         "question": "When should you prioritize recovering half guard versus blocking the transition in place?",
-        "answer": "Block the transition in place when you detect arm isolation attempts early—clamping elbows tight before they secure two-on-one control is the highest-percentage defensive option. Prioritize half guard recovery when the attacker has already secured arm control and begun leg repositioning, because at that point blocking the transition is unlikely to succeed. The bridge-and-shrimp to half guard exploits the base vulnerability during their movement rather than trying to prevent an already-committed transition."
+        "answer": "Block the transition in place when you detect arm isolation attempts early—clamping elbows tight before they secure two-on-one control is the highest-percentage defensive option. Prioritize half guard recovery when the attacker has already secured arm control and begun leg repositioning, because at that point blocking the transition is unlikely to succeed. The bridge-and-shrimp to half guard exploits the base vulnerability during their movement rather than trying to prevent an already-committed transition.",
+        "answer_line": "Block early, recover if arm secured",
+        "distractors": {
+          "plausible": [
+            "Hold position, don't cede an inch",
+            "Bail to half guard right away"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "What body position error makes you most vulnerable to this transition?",

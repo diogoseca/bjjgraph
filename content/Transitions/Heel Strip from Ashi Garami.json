@@ -342,11 +342,31 @@
       },
       {
         "question": "In what Ashi Garami variation is the heel strip most urgent and why?",
-        "answer": "The heel strip is most urgent in Saddle and Cross Ashi-Garami because these positions offer maximum heel exposure with the strongest mechanical advantage for the attacker. In Outside Ashi, the heel is partially protected by the leg configuration itself, giving you more time to work. In Saddle, the attacker's legs create a powerful clamp that fully exposes the heel, meaning the window between grip establishment and finish is shortest."
+        "answer": "The heel strip is most urgent in Saddle and Cross Ashi-Garami because these positions offer maximum heel exposure with the strongest mechanical advantage for the attacker. In Outside Ashi, the heel is partially protected by the leg configuration itself, giving you more time to work. In Saddle, the attacker's legs create a powerful clamp that fully exposes the heel, meaning the window between grip establishment and finish is shortest.",
+        "answer_line": "Saddle/Cross Ashi: heel exposed",
+        "distractors": {
+          "plausible": [
+            "Outside Ashi: least protected",
+            "Straight Ashi: strongest clamp"
+          ],
+          "trap": [
+            "Wait it out, heel is safe"
+          ]
+        }
       },
       {
         "question": "How does the heel strip differ when your opponent uses an S-grip versus a Gable grip on your heel?",
-        "answer": "An S-grip with interlocking fingers is generally easier to strip because the grip has a natural weak point where the fingers interlock—target the wrist of the bottom hand and peel downward. A Gable grip with palm-to-palm contact is stronger and requires you to wedge between the hands at the wrist junction to break the connection. With either grip, the principle remains the same—two-on-one on the controlling wrist and strip below the ankle line—but the initial grip break requires different hand positioning."
+        "answer": "An S-grip with interlocking fingers is generally easier to strip because the grip has a natural weak point where the fingers interlock—target the wrist of the bottom hand and peel downward. A Gable grip with palm-to-palm contact is stronger and requires you to wedge between the hands at the wrist junction to break the connection. With either grip, the principle remains the same—two-on-one on the controlling wrist and strip below the ankle line—but the initial grip break requires different hand positioning.",
+        "answer_line": "Peel S-grip apart; wedge the Gable",
+        "distractors": {
+          "plausible": [
+            "Gable is weaker, break it first",
+            "Same peel works for either grip"
+          ],
+          "trap": [
+            "Roll out before breaking the grip"
+          ]
+        }
       }
     ],
     "safety_considerations": "The heel strip must NEVER be attempted once heel hook rotation has begun—tap immediately if you feel rotational pressure on your knee. Knee ligament injuries from heel hooks can be career-ending, with damage to the LCL, MCL, and meniscus occurring within fractions of a second once rotation is applied. In training, always communicate clearly with your partner about resistance levels and establish clear tap signals before drilling. If you cannot strip the grip within two controlled attempts, strongly consider tapping rather than fighting through increasing danger. Progressive training from zero resistance to full resistance is essential—never jump to live resistance before mastering the mechanical sequence. Partners applying heel hooks in drill scenarios must maintain controlled grip pressure and immediately release upon any tap signal.",

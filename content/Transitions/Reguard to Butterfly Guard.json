@@ -269,7 +269,17 @@
       },
       {
         "question": "What conditions must exist before you can successfully attempt the reguard?",
-        "answer": "At minimum, you need at least one hook still engaged inside the opponent's thigh and enough space between your hips and the opponent to perform a hip escape. If both hooks are completely cleared and the opponent has established chest-to-chest pressure, the reguard to butterfly is no longer viable—you should transition to half guard or closed guard recovery instead. The presence of even a shallow hook provides the connection point needed to rebuild the full guard structure."
+        "answer": "At minimum, you need at least one hook still engaged inside the opponent's thigh and enough space between your hips and the opponent to perform a hip escape. If both hooks are completely cleared and the opponent has established chest-to-chest pressure, the reguard to butterfly is no longer viable—you should transition to half guard or closed guard recovery instead. The presence of even a shallow hook provides the connection point needed to rebuild the full guard structure.",
+        "answer_line": "Hook in + room to hip escape",
+        "distractors": {
+          "plausible": [
+            "Get underhook before making space",
+            "Both hooks deep, then bridge out"
+          ],
+          "trap": [
+            "Clear both hooks, then reguard"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the reguard sequence?",

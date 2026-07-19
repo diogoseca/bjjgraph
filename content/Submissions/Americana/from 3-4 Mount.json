@@ -383,7 +383,17 @@
       {
         "question": "Your opponent straightens their arm as you attempt to secure the figure-four grip—what adjustment do you make?",
         "answer": "A straightened arm is a gift from the 3-4 Mount position. Immediately maintain your wrist control and transition to an armbar attack. The straight arm is perfectly positioned for the armbar from the asymmetric mount angle—your posted leg is already in position to swing over their face, and the arm extension provides the elbow hyperextension angle needed for the finish. Keep the wrist grip, shift your hips toward their head, swing the posted leg over their face, and sit back to complete the armbar. This Americana-to-armbar chain is one of the highest-percentage transitions in mount offense.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Abandon Americana, go to armbar",
+        "distractors": {
+          "plausible": [
+            "Swing leg over, then grip wrist",
+            "Switch to a kimura instead"
+          ],
+          "trap": [
+            "Give up mount, spin to the arm"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error that allows opponents to escape the Americana from 3-4 Mount?",
@@ -403,7 +413,17 @@
       {
         "question": "Why must you release the Americana immediately upon feeling a tap, and what specific injuries can result from delayed release?",
         "answer": "Immediate release is mandatory because the Americana attacks the shoulder joint through external rotation, and the transition from discomfort to structural damage is extremely rapid once the joint reaches end-range. Delayed release of even 1-2 seconds can cause rotator cuff tears requiring 3-6 months of rehabilitation and potential surgery, glenohumeral joint capsule damage causing chronic instability, and AC joint sprains that limit training for weeks. The shoulder joint lacks the gradual warning signs of other submissions like chokes—once the rotator cuff begins tearing, the damage is immediate and often irreversible. Release the figure-four grip completely at the first tap signal, every time.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release grip fully at first tap",
+        "distractors": {
+          "plausible": [
+            "Loosen pressure gradually",
+            "Keep figure-four, stop rotating"
+          ],
+          "trap": [
+            "Hold until they tap twice"
+          ]
+        }
       },
       {
         "question": "Your opponent grabs their own belt to anchor against the Americana rotation—how do you strip this grip and complete the finish?",
@@ -423,7 +443,17 @@
       {
         "question": "How does the 3-4 Mount configuration specifically enhance Americana finishing mechanics compared to standard symmetric mount?",
         "answer": "The 3-4 Mount enhances the Americana in three critical ways. First, the asymmetric weight distribution pins the near shoulder flat to the mat more effectively than standard mount—the mounted-side pressure concentrates force onto the shoulder, reducing defensive rotation. Second, the posted leg provides a stable base that absorbs bridging attempts without requiring you to adjust your upper body, meaning you can maintain grip pressure through the opponent's explosive escape movements. Third, the directional nature of the 3-4 configuration naturally angles your body toward the near arm, creating a more efficient line of force for the paint-the-mat motion without the awkward torso repositioning sometimes needed from standard mount.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Weight pins near shoulder flat",
+        "distractors": {
+          "plausible": [
+            "Posted leg absorbs the bridge",
+            "Angles body to the far arm"
+          ],
+          "trap": [
+            "Lighten hips to torque harder"
+          ]
+        }
       },
       {
         "question": "Your opponent begins bridging toward your attacking side as you apply the Americana rotation—how do you respond without losing the submission?",

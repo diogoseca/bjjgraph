@@ -609,7 +609,17 @@
       {
         "question": "What are the visual and tactile recognition cues that a Cross Collar Choke is being set up from Mount?",
         "answer": "Visual cues include the opponent reaching cross-body toward your far collar, dropping chest weight forward, and threading a second hand under the first arm. Tactile cues include feeling fingers inserting inside your collar behind your neck, wrist bone pressure against the side of your neck, and increasing cross-face pressure from the forearm of the gripping arm. Recognizing these early allows defense at the grip stage rather than the finish.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Fingers deep inside your collar",
+        "distractors": {
+          "plausible": [
+            "Grip on your near-side collar",
+            "Second hand grabbing your sleeve"
+          ],
+          "trap": [
+            "Single grip, no real danger yet"
+          ]
+        }
       }
     ],
     "training_progressions": [

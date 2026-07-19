@@ -244,7 +244,17 @@
       },
       {
         "question": "What is the proper sequential order for inserting your legs when establishing closed guard from the Granby roll?",
-        "answer": "The inside leg (closest to the opponent) must be threaded first to create an immediate frame and barrier, followed immediately by the outside leg hooking around the opponent's back. This sequential insertion maintains defensive frames throughout the movement and prevents the opponent from following you through the roll or passing your guard. Threading both legs simultaneously creates gaps that skilled opponents can exploit."
+        "answer": "The inside leg (closest to the opponent) must be threaded first to create an immediate frame and barrier, followed immediately by the outside leg hooking around the opponent's back. This sequential insertion maintains defensive frames throughout the movement and prevents the opponent from following you through the roll or passing your guard. Threading both legs simultaneously creates gaps that skilled opponents can exploit.",
+        "answer_line": "Inside leg first as a frame",
+        "distractors": {
+          "plausible": [
+            "Outside leg hooks in first",
+            "Hook the back, then frame inside"
+          ],
+          "trap": [
+            "Thread both legs at once"
+          ]
+        }
       },
       {
         "question": "How should you adapt your Granby to Closed Guard if the opponent sprawls backward as you begin the roll?",

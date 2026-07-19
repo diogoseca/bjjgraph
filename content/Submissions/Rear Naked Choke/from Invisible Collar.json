@@ -391,12 +391,32 @@
       {
         "question": "What safety precautions are essential when training the RNC from Invisible Collar?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum and never snap or jerk the choke. Ensure the forearm blade sits against the carotid arteries, not the trachea. Release immediately upon any tap signal including verbal, physical hand tap, foot tap, or going limp. After release, monitor your partner for 30 seconds minimum and keep them lying down if they lost consciousness. Never hold past the tap under any circumstances regardless of training context.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ramp pressure slow, tap = release",
+        "distractors": {
+          "plausible": [
+            "Only stop for a hand or foot tap",
+            "Let them stand right after release"
+          ],
+          "trap": [
+            "Loosen the choke to check for a tap"
+          ]
+        }
       },
       {
         "question": "What is the proper release protocol if your training partner loses consciousness during this choke?",
         "answer": "Immediately release all choking pressure and remove your hooks and body control. Guide your partner gently to a side-lying recovery position. Do not allow them to sit or stand until they are fully conscious and oriented. Monitor their breathing and responsiveness. If they do not regain consciousness within 20 seconds, call for medical assistance immediately. Keep them lying flat for at least 2-3 minutes after regaining consciousness before allowing them to resume activity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release instantly, control recovery",
+        "distractors": {
+          "plausible": [
+            "Release slowly and check for pulse",
+            "Release, then sit them upright"
+          ],
+          "trap": [
+            "Stand them up to restore blood flow"
+          ]
+        }
       },
       {
         "question": "How do you create the collar-to-RNC dilemma effectively against an experienced opponent who knows the switch?",
@@ -536,7 +556,17 @@
       {
         "question": "How do you recognize that the invisible collar grip is being used as bait for an RNC rather than a direct finishing threat?",
         "answer": "The attacker applies intermittent collar pressure rather than progressive finishing force, maintains patient positioning despite having grip depth, and appears to be monitoring your hand positioning rather than focusing on deepening their own grip. If the collar pressure feels like it is inviting your defensive reaction rather than building toward a finish, they are likely setting up the RNC switch.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Intermittent pressure, not finishing",
+        "distractors": {
+          "plausible": [
+            "Grip steadily deepening to tap",
+            "Focused on their own grip depth"
+          ],
+          "trap": [
+            "Turn toward to kill the choke"
+          ]
+        }
       },
       {
         "question": "What is the safest approach to tapping when caught in the RNC from Invisible Collar?",

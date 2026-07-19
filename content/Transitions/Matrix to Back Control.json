@@ -491,7 +491,17 @@
       },
       {
         "question": "Why is aborting the Matrix and accepting a reset position preferable to completing it against a following opponent?",
-        "answer": "Completing the Matrix against a following opponent almost guarantees they arrive at your back with hooks and seatbelt because your own rotation delivers them there. Aborting returns you to a neutral starting position where you can reattempt with better timing or switch to alternative attacks. The risk-reward calculation heavily favors the abort: reset costs you nothing but time and energy, while completing against a follower costs you a four-point position and immediate submission danger."
+        "answer": "Completing the Matrix against a following opponent almost guarantees they arrive at your back with hooks and seatbelt because your own rotation delivers them there. Aborting returns you to a neutral starting position where you can reattempt with better timing or switch to alternative attacks. The risk-reward calculation heavily favors the abort: reset costs you nothing but time and energy, while completing against a follower costs you a four-point position and immediate submission danger.",
+        "answer_line": "Finishing hands them your back",
+        "distractors": {
+          "plausible": [
+            "Reset conserves your energy",
+            "Abort dodges a messy scramble"
+          ],
+          "trap": [
+            "Complete it to score the sweep"
+          ]
+        }
       },
       {
         "question": "Your opponent follows your Matrix rotation and you feel them arriving at your back mid-roll - what is your immediate priority?",

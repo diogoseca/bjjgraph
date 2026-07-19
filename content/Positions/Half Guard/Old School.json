@@ -140,7 +140,17 @@
       },
       {
         "question": "What grip priorities should you establish when first recognizing opponent's lockdown?",
-        "answer": "First priority is the whizzer - thread it deep immediately before they can secure strong underhook position. Second priority is establishing crossface pressure with opposite shoulder. Third is controlling their far arm to prevent them securing head control. These must happen in rapid sequence within 2-3 seconds of recognizing the lockdown configuration."
+        "answer": "First priority is the whizzer - thread it deep immediately before they can secure strong underhook position. Second priority is establishing crossface pressure with opposite shoulder. Third is controlling their far arm to prevent them securing head control. These must happen in rapid sequence within 2-3 seconds of recognizing the lockdown configuration.",
+        "answer_line": "Whizzer deep first",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure first",
+            "Control far arm first"
+          ],
+          "trap": [
+            "Stand up to pass"
+          ]
+        }
       },
       {
         "question": "How should you apply pressure to flatten the bottom player without creating space they can exploit?",
@@ -542,7 +552,17 @@
       },
       {
         "question": "What grip priority sequence should you follow when establishing Old School from half guard?",
-        "answer": "First secure the lockdown on their trapped leg - this is your foundation. Second, fight for the underhook on one side before they can establish whizzer control. Third, use your free arm to control their head once underhook is secured. This sequence matters because without lockdown they can base, without underhook you lack sweep power, and without head control they can posture up and defend everything."
+        "answer": "First secure the lockdown on their trapped leg - this is your foundation. Second, fight for the underhook on one side before they can establish whizzer control. Third, use your free arm to control their head once underhook is secured. This sequence matters because without lockdown they can base, without underhook you lack sweep power, and without head control they can posture up and defend everything.",
+        "answer_line": "Secure the lockdown foundation first",
+        "distractors": {
+          "plausible": [
+            "Win the underhook before anything",
+            "Grab their head, then hunt hooks"
+          ],
+          "trap": [
+            "Turn belly-down for the sweep"
+          ]
+        }
       },
       {
         "question": "How should you apply pulling pressure to break opponent's posture without losing your angle?",

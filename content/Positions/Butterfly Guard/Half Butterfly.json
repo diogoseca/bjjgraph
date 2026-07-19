@@ -936,7 +936,17 @@
     },
     {
       "question": "What role does the trapped leg play relative to the butterfly hook in this position?",
-      "answer": "The trapped leg functions as the anchor and the hook functions as the engine. By clamping one of the opponent's legs, the bottom player fixes a reference point that prevents the opponent from squaring up, extracting the leg, or freely stepping to rebase. Against that fixed anchor the butterfly hook can then elevate and rotate the opponent's weight without them simply stepping out of the lift. Removing either component collapses the position: lose the trap and it becomes single-hook butterfly, lose the hook and it becomes ordinary half guard."
+      "answer": "The trapped leg functions as the anchor and the hook functions as the engine. By clamping one of the opponent's legs, the bottom player fixes a reference point that prevents the opponent from squaring up, extracting the leg, or freely stepping to rebase. Against that fixed anchor the butterfly hook can then elevate and rotate the opponent's weight without them simply stepping out of the lift. Removing either component collapses the position: lose the trap and it becomes single-hook butterfly, lose the hook and it becomes ordinary half guard.",
+      "answer_line": "Anchor; hook is the engine",
+      "distractors": {
+        "plausible": [
+          "Both legs elevate the opponent",
+          "Trapped leg drives the lift"
+        ],
+        "trap": [
+          "Free the trap to finish sweep"
+        ]
+      }
     },
     {
       "question": "Which upper-body connection is the shared pivotal control point that decides most Half Butterfly exchanges?",

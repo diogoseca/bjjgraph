@@ -892,7 +892,17 @@
       },
       {
         "question": "What grip priorities should you establish before attempting a butterfly sweep?",
-        "answer": "First establish collar grip on the side you plan to sweep toward - this pulls their weight onto your sweeping hook. Second, secure underhook or overhook on the opposite side to prevent them posting in that direction. These two grips create the directional control needed for the sweep. Only initiate the sweep once both controls are secure - attempting sweeps without proper grips results in opponent easily posting and passing."
+        "answer": "First establish collar grip on the side you plan to sweep toward - this pulls their weight onto your sweeping hook. Second, secure underhook or overhook on the opposite side to prevent them posting in that direction. These two grips create the directional control needed for the sweep. Only initiate the sweep once both controls are secure - attempting sweeps without proper grips results in opponent easily posting and passing.",
+        "answer_line": "Collar grip on sweep side first",
+        "distractors": {
+          "plausible": [
+            "Underhook first, then the collar",
+            "Secure the overhook before any grips"
+          ],
+          "trap": [
+            "Reach far underhook, expose the back"
+          ]
+        }
       },
       {
         "question": "How do you apply constant hook pressure without exhausting your hip flexors?",

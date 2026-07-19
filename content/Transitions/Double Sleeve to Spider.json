@@ -283,7 +283,17 @@
       },
       {
         "question": "Which foot should you transition first when your opponent's weight is shifted to their right side?",
-        "answer": "Transition your right foot to their left bicep first, as their weight commitment to their right side means their left arm is carrying less structural load and is easier to control with a bicep hook. The lighter arm offers less resistance to foot placement and the opponent cannot easily redirect weight to defend both sides simultaneously."
+        "answer": "Transition your right foot to their left bicep first, as their weight commitment to their right side means their left arm is carrying less structural load and is easier to control with a bicep hook. The lighter arm offers less resistance to foot placement and the opponent cannot easily redirect weight to defend both sides simultaneously.",
+        "answer_line": "Right foot to left bicep first",
+        "distractors": {
+          "plausible": [
+            "Hook their heavy right arm first",
+            "Post left foot on their hip first"
+          ],
+          "trap": [
+            "Drop feet, grab their collar"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand on your hip during the transition—how do you adjust?",

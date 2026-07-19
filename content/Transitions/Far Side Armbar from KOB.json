@@ -535,7 +535,17 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates a far side armbar attempt from knee on belly?",
-        "answer": "The earliest cue is the attacker releasing their collar grip with their near hand and reaching across your body. This grip transition happens before the leg swing and represents the point where prevention is easiest. If you see the attacker's hand leave your collar and cross your centerline toward your far arm, immediately tuck your far elbow and begin your defensive response before they can establish wrist control."
+        "answer": "The earliest cue is the attacker releasing their collar grip with their near hand and reaching across your body. This grip transition happens before the leg swing and represents the point where prevention is easiest. If you see the attacker's hand leave your collar and cross your centerline toward your far arm, immediately tuck your far elbow and begin your defensive response before they can establish wrist control.",
+        "answer_line": "Near hand off collar, crosses body",
+        "distractors": {
+          "plausible": [
+            "Attacker's leg swings over head",
+            "Free hand grabs your far wrist"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "Why does bridging toward the attacker work as a defense during the leg swing phase?",

@@ -527,7 +527,17 @@
       },
       {
         "question": "Your opponent's snap attempt partially breaks your posture and you are now on your hands with your head below shoulder level. What is your immediate priority?",
-        "answer": "Your immediate priority is tucking your chin tightly to your chest to prevent neck extension and deny the front headlock from consolidating into submission position. Do not attempt to stand up or escape until your chin is secured. Once chin is tucked, use your posting hands to create base and begin circling laterally away from the opponent's chest pressure. If they have not yet secured your far shoulder, this is your window to escape. If they have secured far shoulder control, you must hand-fight to remove that control before circling out. The worst action is attempting to lift your head straight up, as this extends your neck directly into their control."
+        "answer": "Your immediate priority is tucking your chin tightly to your chest to prevent neck extension and deny the front headlock from consolidating into submission position. Do not attempt to stand up or escape until your chin is secured. Once chin is tucked, use your posting hands to create base and begin circling laterally away from the opponent's chest pressure. If they have not yet secured your far shoulder, this is your window to escape. If they have secured far shoulder control, you must hand-fight to remove that control before circling out. The worst action is attempting to lift your head straight up, as this extends your neck directly into their control.",
+        "answer_line": "Tuck chin tight to chest",
+        "distractors": {
+          "plausible": [
+            "Post hands to build base",
+            "Circle laterally to escape"
+          ],
+          "trap": [
+            "Lift your head to stand up"
+          ]
+        }
       },
       {
         "question": "How should your knee base width change when you detect snap down threat in dogfight compared to sweep threat?",

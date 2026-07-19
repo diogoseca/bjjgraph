@@ -354,7 +354,17 @@
       },
       {
         "question": "What is the optimal timing window for initiating the transition relative to the opponent's Estima Lock defense?",
-        "answer": "The optimal window opens immediately after you recognize the Estima Lock finish is compromised but before the opponent transitions their defense from lock-specific responses to full positional escape. This window typically lasts 1-3 seconds. If you act too early, the Estima Lock might still be viable and you abandon a finishing opportunity. If you act too late, the opponent has already begun recovering guard or establishing strong defensive frames that make the ashi garami thread significantly harder."
+        "answer": "The optimal window opens immediately after you recognize the Estima Lock finish is compromised but before the opponent transitions their defense from lock-specific responses to full positional escape. This window typically lasts 1-3 seconds. If you act too early, the Estima Lock might still be viable and you abandon a finishing opportunity. If you act too late, the opponent has already begun recovering guard or establishing strong defensive frames that make the ashi garami thread significantly harder.",
+        "answer_line": "After lock fails, before full escape",
+        "distractors": {
+          "plausible": [
+            "Before the lock fails, stay on it",
+            "Once guard recovery is complete"
+          ],
+          "trap": [
+            "Crank the lock until it taps"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully defends the ashi garami entry by retracting their knee before you complete the leg triangle—what chain attack option remains?",

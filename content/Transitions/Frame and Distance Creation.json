@@ -243,7 +243,17 @@
       },
       {
         "question": "Your opponent clears your frames and closes distance - how do you respond?",
-        "answer": "Reset frames immediately on different contact points and combine the re-establishment with hip rotation to create a new angle they must address. If they consistently clear frames before you can create meaningful distance, consider transitioning to a standing escape sequence which changes the dynamic entirely."
+        "answer": "Reset frames immediately on different contact points and combine the re-establishment with hip rotation to create a new angle they must address. If they consistently clear frames before you can create meaningful distance, consider transitioning to a standing escape sequence which changes the dynamic entirely.",
+        "answer_line": "Reset frames, rotate for angle",
+        "distractors": {
+          "plausible": [
+            "Re-frame on the same points",
+            "Straight push to make space"
+          ],
+          "trap": [
+            "Turn belly-down to reset"
+          ]
+        }
       },
       {
         "question": "What are the key grip points for establishing structural frames?",

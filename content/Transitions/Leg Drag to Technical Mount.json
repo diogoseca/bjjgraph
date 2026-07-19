@@ -249,7 +249,17 @@
       },
       {
         "question": "What are the key grips needed for Leg Drag to Technical Mount?",
-        "answer": "The primary grip is the leg drag control on the opponent's hip or pants. Before transitioning, you need upper body control through either a crossface (forearm across jaw), underhook on the far side, or collar grip. The leg drag grip is only released after upper body control and knee insertion are secure."
+        "answer": "The primary grip is the leg drag control on the opponent's hip or pants. Before transitioning, you need upper body control through either a crossface (forearm across jaw), underhook on the far side, or collar grip. The leg drag grip is only released after upper body control and knee insertion are secure.",
+        "answer_line": "Leg drag grip + crossface/underhook",
+        "distractors": {
+          "plausible": [
+            "Knee insertion before upper body",
+            "Underhook near side, then knee"
+          ],
+          "trap": [
+            "Release grips, jump to mount"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their near arm against your hip as you begin transitioning—how do you adjust?",
@@ -323,7 +333,17 @@
       },
       {
         "question": "How do you maintain pressure throughout the transition without creating space?",
-        "answer": "The key is sequential movement rather than simultaneous. Establish upper body control first while increasing hip pressure. Insert knee while maintaining crossface. Only release leg drag after knee is deep. Post front leg immediately. Each phase maintains or increases pressure—never release one control point until the next is established."
+        "answer": "The key is sequential movement rather than simultaneous. Establish upper body control first while increasing hip pressure. Insert knee while maintaining crossface. Only release leg drag after knee is deep. Post front leg immediately. Each phase maintains or increases pressure—never release one control point until the next is established.",
+        "answer_line": "Upper body first, chain each step",
+        "distractors": {
+          "plausible": [
+            "Insert knee before crossface",
+            "Release leg drag, then insert knee"
+          ],
+          "trap": [
+            "Release all grips, move fast"
+          ]
+        }
       },
       {
         "question": "What immediate submissions should you threaten upon arriving in technical mount?",
@@ -515,7 +535,17 @@
       },
       {
         "question": "How do you recover half guard as a defensive response to this transition?",
-        "answer": "Frame against the attacker's shoulder with your near forearm while simultaneously hip escaping to create space between your bodies. Use the space to insert your near knee across their body as a shield, then wrap your bottom leg around their trapped leg to establish the half guard entanglement. The entire sequence must happen before the attacker posts their front leg—once the front leg is posted, the knee shield insertion becomes nearly impossible due to the blocking angle."
+        "answer": "Frame against the attacker's shoulder with your near forearm while simultaneously hip escaping to create space between your bodies. Use the space to insert your near knee across their body as a shield, then wrap your bottom leg around their trapped leg to establish the half guard entanglement. The entire sequence must happen before the attacker posts their front leg—once the front leg is posted, the knee shield insertion becomes nearly impossible due to the blocking angle.",
+        "answer_line": "Frame on shoulder, hip escape out",
+        "distractors": {
+          "plausible": [
+            "Knee shield first, then space",
+            "Wrap trapped leg before escaping"
+          ],
+          "trap": [
+            "Turn to turtle, build to knees"
+          ]
+        }
       },
       {
         "question": "What recognition cues indicate the Leg Drag to Technical Mount transition has begun?",

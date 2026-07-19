@@ -275,7 +275,17 @@
       },
       {
         "question": "Why must hip rotation lead shoulder movement during the turn-in rather than the reverse?",
-        "answer": "When the hips lead, the rotation generates structural change in the body's position relative to the opponent, moving the center of mass and creating genuine mechanical separation. When shoulders lead without hip involvement, the result is a twisted spine that actually worsens twister vulnerability by creating the exact rotation the opponent needs for the submission. Hip-first rotation maintains spinal alignment throughout the turn and generates the base change needed for leg extraction."
+        "answer": "When the hips lead, the rotation generates structural change in the body's position relative to the opponent, moving the center of mass and creating genuine mechanical separation. When shoulders lead without hip involvement, the result is a twisted spine that actually worsens twister vulnerability by creating the exact rotation the opponent needs for the submission. Hip-first rotation maintains spinal alignment throughout the turn and generates the base change needed for leg extraction.",
+        "answer_line": "Hips lead, spine stays aligned",
+        "distractors": {
+          "plausible": [
+            "Move hips and shoulders together",
+            "Extend legs before turning in"
+          ],
+          "trap": [
+            "Lead with shoulders, hips follow"
+          ]
+        }
       },
       {
         "question": "You have successfully turned to face your opponent but your near leg is still entangled - what is your immediate priority?",

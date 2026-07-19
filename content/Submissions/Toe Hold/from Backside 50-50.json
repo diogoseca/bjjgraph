@@ -331,7 +331,17 @@
       {
         "question": "How should you release the toe hold after your training partner taps?",
         "answer": "Stop all rotational pressure immediately upon the tap. Then release your figure-four grip completely before releasing any heel or ankle control. Allow the opponent's foot to return to its natural neutral position without forcing it in any direction. Maintain light contact until your partner signals they are comfortable. Do not release abruptly as this can cause secondary injury from sudden position change. Always check with your partner before resuming training.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rotation the moment they tap",
+        "distractors": {
+          "plausible": [
+            "Pop the heel loose, then the grip",
+            "Push the foot straight to neutral"
+          ],
+          "trap": [
+            "Give one last twist to be sure"
+          ]
+        }
       },
       {
         "question": "You have the figure-four grip locked but the opponent is actively straightening their trapped leg. What adjustment do you make?",

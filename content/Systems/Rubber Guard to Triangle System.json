@@ -366,7 +366,17 @@
   "flashcards": [
     {
       "question": "What are the three control checkpoints the Rubber Guard to Triangle System passes through before the finish?",
-      "answer": "The system advances from rubber guard, to Mission Control (a deep overhook isolating the trapped arm), to New York (the choking leg brought across the shoulder), and only then locks the triangle."
+      "answer": "The system advances from rubber guard, to Mission Control (a deep overhook isolating the trapped arm), to New York (the choking leg brought across the shoulder), and only then locks the triangle.",
+      "answer_line": "Mission Control, New York, triangle",
+      "distractors": {
+        "plausible": [
+          "Overhook, gogoplata, then choke",
+          "Underhook, invert, armbar finish"
+        ],
+        "trap": [
+          "Release overhook, throw leg up"
+        ]
+      }
     },
     {
       "question": "Why must you break the opponent's posture before establishing rubber guard?",

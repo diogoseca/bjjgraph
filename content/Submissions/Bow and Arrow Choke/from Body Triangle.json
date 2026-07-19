@@ -377,7 +377,17 @@
       {
         "question": "How should you release this choke after a tap to prevent injury?",
         "answer": "Upon receiving any tap signal, immediately release the collar grip first to stop arterial compression, then release the pants grip and body triangle simultaneously. Allow your opponent's head to return to a neutral position without forcing any movement. Check for consciousness and responsiveness. If your opponent lost consciousness before tapping, elevate their legs, ensure their airway is clear, and monitor them until they are fully responsive. Never leave an unconscious training partner unattended.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release collar grip first",
+        "distractors": {
+          "plausible": [
+            "Release body triangle first",
+            "Let go of all grips together"
+          ],
+          "trap": [
+            "Hold the choke a beat longer"
+          ]
+        }
       },
       {
         "question": "Your opponent begins fighting your collar grip with both hands, leaving their arms exposed - what transition should you consider?",

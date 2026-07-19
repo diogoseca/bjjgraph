@@ -355,7 +355,17 @@
       },
       {
         "question": "What is the critical difference in direction of force between the initial hip angle creation and the leg threading phase?",
-        "answer": "During hip angle creation, the force direction is lateral - you push your hips sideways toward the opponent's free leg using your free leg as a push-off point against their hip or the mat. During the threading phase, the force direction shifts to circular and inward - your free leg hooks around their leg in a scooping motion from inside to outside, curling behind their knee. Confusing these force vectors stalls the entry and wastes the angle you created."
+        "answer": "During hip angle creation, the force direction is lateral - you push your hips sideways toward the opponent's free leg using your free leg as a push-off point against their hip or the mat. During the threading phase, the force direction shifts to circular and inward - your free leg hooks around their leg in a scooping motion from inside to outside, curling behind their knee. Confusing these force vectors stalls the entry and wastes the angle you created.",
+        "answer_line": "Lateral hips, then circular hook",
+        "distractors": {
+          "plausible": [
+            "Hook the leg before angling hips",
+            "Same inward force in both phases"
+          ],
+          "trap": [
+            "Straighten both legs to push out"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Counter Leg Attack carries significant injury risk because it is executed while already trapped in a dangerous submission position. The inside heel hook can cause severe and permanent damage to the ACL, MCL, and meniscus within fractions of a second once locked. You must maintain heel protection throughout the entire counter-attack sequence - never sacrifice defensive posture for offensive opportunity. If opponent secures submission grips at any point during your counter-entry, tap immediately rather than trying to complete the movement. Training should progress slowly from static drilling to full resistance over multiple weeks. Always communicate with training partners about tap responsiveness. Never attempt this technique against an opponent you do not trust to release immediately upon tap. The transition to 50-50 creates mutual submission danger - be prepared to tap to their attack even after successful entry if they establish superior angle first.",

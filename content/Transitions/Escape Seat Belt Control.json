@@ -274,7 +274,17 @@
     "flashcards": [
       {
         "question": "Why must you address the over-shoulder arm before the under-arm when breaking the seat belt grip?",
-        "answer": "The over-shoulder arm provides the primary choking threat and serves as the structural keystone of the seat belt configuration. It creates the downward diagonal force vector that, combined with the under-arm's upward vector, locks the grip in place. Breaking the over-arm first eliminates the immediate choke danger and collapses the diagonal force structure, making the under-arm significantly easier to address. Attacking the under-arm first leaves the choking threat active and the diagonal structure intact."
+        "answer": "The over-shoulder arm provides the primary choking threat and serves as the structural keystone of the seat belt configuration. It creates the downward diagonal force vector that, combined with the under-arm's upward vector, locks the grip in place. Breaking the over-arm first eliminates the immediate choke danger and collapses the diagonal force structure, making the under-arm significantly easier to address. Attacking the under-arm first leaves the choking threat active and the diagonal structure intact.",
+        "answer_line": "It's the active choke threat",
+        "distractors": {
+          "plausible": [
+            "Under-arm locks the structure",
+            "Weaker grip, breaks easier"
+          ],
+          "trap": [
+            "Clear the under-arm first"
+          ]
+        }
       },
       {
         "question": "Your opponent feels your grip fighting and immediately tightens their seat belt while driving chest pressure harder - how do you adjust?",

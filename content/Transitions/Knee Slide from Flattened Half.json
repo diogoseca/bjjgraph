@@ -352,7 +352,17 @@
       },
       {
         "question": "Your opponent secures an underhook during your knee slide attempt - what are your options?",
-        "answer": "If the underhook is shallow, immediately apply a whizzer with your free arm and increase shoulder pressure to kill their leverage while continuing the slide. If the underhook is deep and they have significant leverage, abort the knee slide temporarily. Reset by driving your shoulder weight down on their chest, strip the underhook using your crossface-side arm, re-establish flattening control, and then re-attempt the pass. Forcing the slide against a deep underhook risks being swept during the weight transfer."
+        "answer": "If the underhook is shallow, immediately apply a whizzer with your free arm and increase shoulder pressure to kill their leverage while continuing the slide. If the underhook is deep and they have significant leverage, abort the knee slide temporarily. Reset by driving your shoulder weight down on their chest, strip the underhook using your crossface-side arm, re-establish flattening control, and then re-attempt the pass. Forcing the slide against a deep underhook risks being swept during the weight transfer.",
+        "answer_line": "Whizzer if shallow, abort if deep",
+        "distractors": {
+          "plausible": [
+            "Whizzer even on a deep underhook",
+            "Strip underhook, then drop weight"
+          ],
+          "trap": [
+            "Power through, ignore the underhook"
+          ]
+        }
       }
     ],
     "safety_considerations": "The knee slide from flattened half guard carries low injury risk compared to submission techniques but requires awareness of knee safety for both practitioners. The top player should avoid hyperextending the trapped knee by maintaining a controlled slide angle rather than forcing the knee through excessive resistance. The bottom player's knee can be stressed if the top player drives lateral pressure against the hook while the foot is trapped. Both players should communicate if knee pressure becomes uncomfortable. In training, use controlled speed during the slide phase to prevent unexpected torque on either player's knee joints.",

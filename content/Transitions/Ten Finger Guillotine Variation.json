@@ -235,11 +235,31 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for switching from a standard guillotine grip to the ten finger configuration?",
-        "answer": "The best window occurs when the opponent is momentarily focused on defending the existing choke rather than improving position. Transition during a squeeze attempt that draws their hand-fighting attention upward, or immediately after they exhaust energy on a failed posture attempt. The grip change should be completed in under one second to minimize vulnerability during the transition."
+        "answer": "The best window occurs when the opponent is momentarily focused on defending the existing choke rather than improving position. Transition during a squeeze attempt that draws their hand-fighting attention upward, or immediately after they exhaust energy on a failed posture attempt. The grip change should be completed in under one second to minimize vulnerability during the transition.",
+        "answer_line": "While they're defending the choke",
+        "distractors": {
+          "plausible": [
+            "Before applying any squeeze",
+            "Slowly, over several seconds"
+          ],
+          "trap": [
+            "As they stack you to pass"
+          ]
+        }
       },
       {
         "question": "What prerequisites must exist before attempting the ten finger grip switch from guillotine control?",
-        "answer": "You need stable top position with hip pressure preventing opponent movement, your choking arm must be deep enough that the forearm blade sits across the throat, the opponent's posture must be fully broken with head below hip level, and you need sufficient positional control that a momentary grip release will not allow them to posture up or extract their head."
+        "answer": "You need stable top position with hip pressure preventing opponent movement, your choking arm must be deep enough that the forearm blade sits across the throat, the opponent's posture must be fully broken with head below hip level, and you need sufficient positional control that a momentary grip release will not allow them to posture up or extract their head.",
+        "answer_line": "Posture broken, head below hip",
+        "distractors": {
+          "plausible": [
+            "Switch grips before posture break",
+            "Shallow arm, head above hip"
+          ],
+          "trap": [
+            "Release grip early to re-grip"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail of the ten finger interlace that determines finishing success?",
@@ -257,11 +277,31 @@
       },
       {
         "question": "What are the most common failure points when attempting this variation?",
-        "answer": "The three primary failure points are releasing the original grip before stabilizing position with hip pressure, allowing the opponent to posture during the grip transition window, and interlacing fingers too shallow so the grip slides apart under resistance. A fourth common failure is neglecting to re-seat the forearm blade against the throat after the grip change, resulting in pressure against the chin or jaw rather than the neck structures."
+        "answer": "The three primary failure points are releasing the original grip before stabilizing position with hip pressure, allowing the opponent to posture during the grip transition window, and interlacing fingers too shallow so the grip slides apart under resistance. A fourth common failure is neglecting to re-seat the forearm blade against the throat after the grip change, resulting in pressure against the chin or jaw rather than the neck structures.",
+        "answer_line": "Releasing grip before stabilizing",
+        "distractors": {
+          "plausible": [
+            "Interlacing fingers too deep",
+            "Re-seating blade too early"
+          ],
+          "trap": [
+            "Releasing hooks to secure grip"
+          ]
+        }
       },
       {
         "question": "What specific grip configuration should your fingers form during the ten finger guillotine?",
-        "answer": "Both hands come together on the far side of the opponent's neck with all fingers fully interlaced past the second knuckle, palms facing each other in a prayer-like configuration. The wrists should remain straight to maintain structural integrity, and the locked grip pulls tight against your own chest or sternum to eliminate any gap. Avoid bending wrists outward which reduces compression efficiency and creates openings."
+        "answer": "Both hands come together on the far side of the opponent's neck with all fingers fully interlaced past the second knuckle, palms facing each other in a prayer-like configuration. The wrists should remain straight to maintain structural integrity, and the locked grip pulls tight against your own chest or sternum to eliminate any gap. Avoid bending wrists outward which reduces compression efficiency and creates openings.",
+        "answer_line": "Fully interlace all ten fingers",
+        "distractors": {
+          "plausible": [
+            "Gable grip, palms clasped flat",
+            "S-grip, just hook fingertips"
+          ],
+          "trap": [
+            "Bend wrists out for leverage"
+          ]
+        }
       },
       {
         "question": "In which direction should the primary finishing force be applied?",
@@ -293,7 +333,17 @@
       },
       {
         "question": "If the ten finger guillotine is defended, what chain attacks should you pursue?",
-        "answer": "From maintained guillotine control, transition to the high elbow variation by driving your choking elbow toward the ceiling, which attacks behind the chin defense. If head-and-arm control remains, switch to anaconda or darce setups by threading your arm deeper around the neck. If all choke variations are defended, use the opponent's defensive focus on their neck to advance position to mount, side control, or north-south while they are preoccupied with hand fighting."
+        "answer": "From maintained guillotine control, transition to the high elbow variation by driving your choking elbow toward the ceiling, which attacks behind the chin defense. If head-and-arm control remains, switch to anaconda or darce setups by threading your arm deeper around the neck. If all choke variations are defended, use the opponent's defensive focus on their neck to advance position to mount, side control, or north-south while they are preoccupied with hand fighting.",
+        "answer_line": "Switch to high elbow guillotine",
+        "distractors": {
+          "plausible": [
+            "Go straight to darce or anaconda",
+            "Abandon choke, jump to mount"
+          ],
+          "trap": [
+            "Jump to guard and crank harder"
+          ]
+        }
       }
     ],
     "safety_considerations": "The ten finger guillotine applies intense compression to the trachea and carotid arteries. Training partners must tap immediately when choking pressure is felt on the neck. The interlaced grip creates rapid, powerful compression that can escalate quickly, making controlled application and immediate release upon tap essential. Never apply rotational or lateral force to the cervical spine—pressure should follow a straight compression axis along the throat. Allow adequate recovery time between repetitions during drilling to prevent cumulative neck strain.",
@@ -410,7 +460,17 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that indicate your opponent is switching to a ten finger guillotine grip?",
-        "answer": "The first cue is increased hip pressure from the top player as they stabilize position before the grip change. Next, you feel the original grip release—squeezing pressure briefly decreases as they reconfigure hands. Then both hands come together on the far side of your neck with individual finger pressure replacing the previous palm or wrist contact. This recognition window is your best opportunity to defend."
+        "answer": "The first cue is increased hip pressure from the top player as they stabilize position before the grip change. Next, you feel the original grip release—squeezing pressure briefly decreases as they reconfigure hands. Then both hands come together on the far side of your neck with individual finger pressure replacing the previous palm or wrist contact. This recognition window is your best opportunity to defend.",
+        "answer_line": "Rising hip pressure comes first",
+        "distractors": {
+          "plausible": [
+            "Grip releases before any pressure",
+            "Hands meet on far side first"
+          ],
+          "trap": [
+            "Wait for the squeeze to react"
+          ]
+        }
       },
       {
         "question": "When is the optimal moment to attempt your escape from the ten finger guillotine?",
@@ -428,7 +488,17 @@
       },
       {
         "question": "What happens if you fail to defend before the ten finger grip is fully locked?",
-        "answer": "Once the interlaced grip locks past the second knuckle, breaking the grip through hand fighting becomes extremely difficult because the structure strengthens under load. Your defense must shift from grip prevention to pressure mitigation—tuck your chin deeply, create frames against the opponent's hips, and work to close your guard to limit their ability to arch and apply finishing pressure. Survival becomes the priority while working for incremental improvements."
+        "answer": "Once the interlaced grip locks past the second knuckle, breaking the grip through hand fighting becomes extremely difficult because the structure strengthens under load. Your defense must shift from grip prevention to pressure mitigation—tuck your chin deeply, create frames against the opponent's hips, and work to close your guard to limit their ability to arch and apply finishing pressure. Survival becomes the priority while working for incremental improvements.",
+        "answer_line": "Survive—frame hips, close guard",
+        "distractors": {
+          "plausible": [
+            "Keep hand-fighting to break grip",
+            "Bridge and arch to escape out"
+          ],
+          "trap": [
+            "Raise chin, posture up tall"
+          ]
+        }
       },
       {
         "question": "How should you prioritize your defensive responses when caught in a ten finger guillotine?",
@@ -446,7 +516,17 @@
       },
       {
         "question": "Why is panicking particularly dangerous when caught in this choke variation?",
-        "answer": "Panicked movement increases oxygen consumption and heart rate, accelerating the effect of any blood flow restriction to the brain from carotid compression. Explosive undirected escape attempts also tend to tighten the opponent's interlaced grip rather than create escape opportunities, as sudden movement causes the meshed fingers to cinch tighter. Calm, technical responses preserve energy and allow you to identify genuine openings."
+        "answer": "Panicked movement increases oxygen consumption and heart rate, accelerating the effect of any blood flow restriction to the brain from carotid compression. Explosive undirected escape attempts also tend to tighten the opponent's interlaced grip rather than create escape opportunities, as sudden movement causes the meshed fingers to cinch tighter. Calm, technical responses preserve energy and allow you to identify genuine openings.",
+        "answer_line": "Burns oxygen, tightens the grip",
+        "distractors": {
+          "plausible": [
+            "Speeds heart rate to escape faster",
+            "Wastes energy for the ground game"
+          ],
+          "trap": [
+            "Thrash explosively to rip free"
+          ]
+        }
       }
     ],
     "training_progressions": [

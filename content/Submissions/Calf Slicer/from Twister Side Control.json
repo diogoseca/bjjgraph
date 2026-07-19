@@ -416,7 +416,17 @@
       {
         "question": "How should you release the calf slicer properly after receiving a tap signal?",
         "answer": "Upon receiving any tap signal, immediately cease all hip drive and pressure. Release your grip on the foot first, then slowly extract your shin from behind the knee without jerking. Allow your partner to extend their leg fully and naturally — do not assist by pulling the leg straight as this can cause additional strain. Wait for your partner to confirm they are okay and check for full range of motion in the knee and ankle before resuming any training activity.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop all pressure immediately",
+        "distractors": {
+          "plausible": [
+            "Extract shin before releasing grip",
+            "Pull their leg straight to help"
+          ],
+          "trap": [
+            "Crank once more then release"
+          ]
+        }
       },
       {
         "question": "In competition, what finishing adjustments maximize tap probability against a flexible opponent who is resisting the compression?",

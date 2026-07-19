@@ -251,11 +251,31 @@
       },
       {
         "question": "What defensive dilemma does this technique create for the opponent?",
-        "answer": "The opponent faces a no-win scenario: if they post wide to prevent the sweep, they create the space and broken posture needed for the guillotine finish. If they drive forward to flatten you and escape the choke, they provide the exact energy needed for the butterfly sweep. Retreating gives you closed guard recovery with the choke still active. Every defensive choice benefits the attacker."
+        "answer": "The opponent faces a no-win scenario: if they post wide to prevent the sweep, they create the space and broken posture needed for the guillotine finish. If they drive forward to flatten you and escape the choke, they provide the exact energy needed for the butterfly sweep. Retreating gives you closed guard recovery with the choke still active. Every defensive choice benefits the attacker.",
+        "answer_line": "Every defense feeds another attack",
+        "distractors": {
+          "plausible": [
+            "Only the guillotine truly threatens",
+            "Retreating fully neutralizes it"
+          ],
+          "trap": [
+            "Drive forward to smash and pass"
+          ]
+        }
       },
       {
         "question": "Why must the sweep trajectory be angled at 45 degrees toward the choking arm side?",
-        "answer": "The 45-degree angle toward your choking arm side maintains optimal guillotine grip mechanics throughout the sweep and ensures you land directly in mount rather than beside your opponent. This trajectory keeps your forearm blade properly positioned under their chin and prevents grip slippage during the rotational movement. Sweeping straight sideways loses the grip angle."
+        "answer": "The 45-degree angle toward your choking arm side maintains optimal guillotine grip mechanics throughout the sweep and ensures you land directly in mount rather than beside your opponent. This trajectory keeps your forearm blade properly positioned under their chin and prevents grip slippage during the rotational movement. Sweeping straight sideways loses the grip angle.",
+        "answer_line": "Keeps grip tight, lands you in mount",
+        "distractors": {
+          "plausible": [
+            "Rotates you toward their open guard",
+            "Frees your hips to bridge harder"
+          ],
+          "trap": [
+            "Release grip to post and turn"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand wide to stop the sweep - how do you capitalize?",

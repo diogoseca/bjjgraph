@@ -301,7 +301,17 @@
       },
       {
         "question": "Your opponent begins posturing up during your inverted triangle rotation—how do you respond?",
-        "answer": "Maintain constant downward pressure on their head throughout the rotation using your head control grip. If posture breaks free significantly, you have two options: accelerate through the rotation using your far hip grip to complete before they fully posture, or abort the inversion and return to standard triangle attacks."
+        "answer": "Maintain constant downward pressure on their head throughout the rotation using your head control grip. If posture breaks free significantly, you have two options: accelerate through the rotation using your far hip grip to complete before they fully posture, or abort the inversion and return to standard triangle attacks.",
+        "answer_line": "Keep downward pressure on the head",
+        "distractors": {
+          "plausible": [
+            "Rush the far-hip rotation now",
+            "Abort back to standard triangle"
+          ],
+          "trap": [
+            "Release head control to reinvert"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the inverted triangle will finish?",

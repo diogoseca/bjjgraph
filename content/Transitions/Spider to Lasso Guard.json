@@ -283,7 +283,17 @@
       },
       {
         "question": "What is the correct direction of force when completing the lasso threading?",
-        "answer": "Pull the sleeve grip toward your chest and slightly across your centerline while simultaneously extending your shin across the opponent's tricep in the opposite direction. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. The pulling direction on the sleeve should angle toward your hip on the lasso side, while your shin pushes outward and slightly upward against their tricep, maximizing the mechanical leverage of the completed lasso position."
+        "answer": "Pull the sleeve grip toward your chest and slightly across your centerline while simultaneously extending your shin across the opponent's tricep in the opposite direction. This creates opposing forces that form a fulcrum against the opponent's shoulder joint. The pulling direction on the sleeve should angle toward your hip on the lasso side, while your shin pushes outward and slightly upward against their tricep, maximizing the mechanical leverage of the completed lasso position.",
+        "answer_line": "Pull sleeve in, shin pushes out",
+        "distractors": {
+          "plausible": [
+            "Both sleeve and shin pull inward",
+            "Push sleeve away, pull shin back"
+          ],
+          "trap": [
+            "Drop sleeve grip to frame away"
+          ]
+        }
       },
       {
         "question": "Your opponent begins stripping your sleeve grip as you start threading your leg - how do you adjust?",

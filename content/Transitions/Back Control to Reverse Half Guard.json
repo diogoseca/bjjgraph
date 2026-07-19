@@ -301,7 +301,17 @@
       },
       {
         "question": "What is the most common mechanical error during the backstep and how does it manifest?",
-        "answer": "The most common error is rising up on the hips during the backstep rather than staying low and heavy. This manifests as the defender suddenly having space underneath to insert a knee shield, recover guard, or complete an explosive escape. The correction is to think of the backstep as a sliding movement around the defender rather than a lifting movement over them."
+        "answer": "The most common error is rising up on the hips during the backstep rather than staying low and heavy. This manifests as the defender suddenly having space underneath to insert a knee shield, recover guard, or complete an explosive escape. The correction is to think of the backstep as a sliding movement around the defender rather than a lifting movement over them.",
+        "answer_line": "Rising on hips, giving up space",
+        "distractors": {
+          "plausible": [
+            "Stepping too wide, losing base",
+            "Backstepping to the wrong side"
+          ],
+          "trap": [
+            "Rotating your back to opponent"
+          ]
+        }
       },
       {
         "question": "Once you establish reverse half guard top, what determines whether you pursue a back take or a guard pass?",

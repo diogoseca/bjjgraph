@@ -248,7 +248,17 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Crucifix to Mount transition?",
-        "answer": "The optimal window opens when the opponent has committed their defensive focus to protecting the neck against choke attempts. At this moment, their attention and physical resources are directed upward toward hand fighting and chin tuck, leaving them less prepared to counter a positional transition. Additionally, the transition is well-timed immediately after the opponent completes a failed escape attempt and is momentarily recovering energy, as they lack the explosive capacity to counter during this brief recovery period."
+        "answer": "The optimal window opens when the opponent has committed their defensive focus to protecting the neck against choke attempts. At this moment, their attention and physical resources are directed upward toward hand fighting and chin tuck, leaving them less prepared to counter a positional transition. Additionally, the transition is well-timed immediately after the opponent completes a failed escape attempt and is momentarily recovering energy, as they lack the explosive capacity to counter during this brief recovery period.",
+        "answer_line": "When they commit to neck defense",
+        "distractors": {
+          "plausible": [
+            "The moment you secure the crucifix",
+            "As soon as you free your legs"
+          ],
+          "trap": [
+            "Mid-bridge as they explode out"
+          ]
+        }
       },
       {
         "question": "What must be established before releasing the leg trap on the near arm?",

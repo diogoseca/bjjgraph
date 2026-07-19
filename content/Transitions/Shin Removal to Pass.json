@@ -235,11 +235,31 @@
       },
       {
         "question": "What are the key grips and hand positions needed for Shin Removal to Pass?",
-        "answer": "Use both hands to control opponent's hips initially, pressing downward to prevent hip elevation. One hand then addresses the foot behind your head while the other maintains hip control. Avoid grabbing the shin directly as it is ineffective against leg strength."
+        "answer": "Use both hands to control opponent's hips initially, pressing downward to prevent hip elevation. One hand then addresses the foot behind your head while the other maintains hip control. Avoid grabbing the shin directly as it is ineffective against leg strength.",
+        "answer_line": "Both hands pin hips, press down",
+        "distractors": {
+          "plausible": [
+            "Clear the head-foot first",
+            "Underhook and lift far leg"
+          ],
+          "trap": [
+            "Grab the shin and pull it off"
+          ]
+        }
       },
       {
         "question": "Your opponent's hips suddenly drop during gogoplata control - what opportunity does this create?",
-        "answer": "Dropped hips reduce the perpendicular shin angle across your throat, significantly decreasing compression effectiveness. This is your primary window for extraction - immediately begin lateral head movement while maintaining hip pressure to prevent re-elevation."
+        "answer": "Dropped hips reduce the perpendicular shin angle across your throat, significantly decreasing compression effectiveness. This is your primary window for extraction - immediately begin lateral head movement while maintaining hip pressure to prevent re-elevation.",
+        "answer_line": "Escape window: extract the head",
+        "distractors": {
+          "plausible": [
+            "Bridge straight up to escape",
+            "Peel the shin off your neck first"
+          ],
+          "trap": [
+            "Turn belly-down to spin out"
+          ]
+        }
       },
       {
         "question": "When is the best time to attempt Shin Removal to Pass?",
@@ -478,7 +498,17 @@
       },
       {
         "question": "Your opponent begins moving their head laterally - what triangle transition option becomes available?",
-        "answer": "As they move laterally to extract, swing your choking leg over their far shoulder while bringing your opposite leg up to lock behind the knee. Their lateral movement actually assists the triangle entry because their head is already at the angle needed for triangle lock. The key is releasing the gogoplata configuration and immediately transitioning the shin from across-throat to behind-neck position while your other leg secures the triangle closure. Their arm on the extraction side is typically inside the triangle frame."
+        "answer": "As they move laterally to extract, swing your choking leg over their far shoulder while bringing your opposite leg up to lock behind the knee. Their lateral movement actually assists the triangle entry because their head is already at the angle needed for triangle lock. The key is releasing the gogoplata configuration and immediately transitioning the shin from across-throat to behind-neck position while your other leg secures the triangle closure. Their arm on the extraction side is typically inside the triangle frame.",
+        "answer_line": "Swing choke leg over far shoulder",
+        "distractors": {
+          "plausible": [
+            "Swing leg over near shoulder",
+            "Pull their head down to finish"
+          ],
+          "trap": [
+            "Open guard and chase the head"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -295,7 +295,17 @@
       },
       {
         "question": "What is the most critical timing element when executing this sweep?",
-        "answer": "The butterfly hook drive and underhook pull must occur simultaneously as one unified explosive movement. Any sequencing between these two actions gives the opponent time to react and base out between force applications. The sweep succeeds through coordinated force application along a single diagonal vector, not through sequential steps. Practice until the drive and pull feel like a single action initiated at the same instant."
+        "answer": "The butterfly hook drive and underhook pull must occur simultaneously as one unified explosive movement. Any sequencing between these two actions gives the opponent time to react and base out between force applications. The sweep succeeds through coordinated force application along a single diagonal vector, not through sequential steps. Practice until the drive and pull feel like a single action initiated at the same instant.",
+        "answer_line": "Hook drive and pull, one motion",
+        "distractors": {
+          "plausible": [
+            "Drive hook first, then pull",
+            "Pull underhook, then drive hook"
+          ],
+          "trap": [
+            "Release grip and kick hook up"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back and applies heavy crossface pressure, shutting down your butterfly hook elevation - what is your best response?",

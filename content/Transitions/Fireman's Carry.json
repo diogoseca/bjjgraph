@@ -413,7 +413,17 @@
       },
       {
         "question": "What is the optimal timing window to initiate the Fireman's Carry during clinch exchanges?",
-        "answer": "The optimal timing window for the Fireman's Carry occurs when the opponent momentarily shifts their weight forward or rises to a more upright posture during grip fighting exchanges. Specific windows include: immediately after they establish a grip and before they can settle their base; when they pull back upward after resisting a snap down; when they step forward to close distance; or when they transition between grip configurations. The worst timing is against a settled, low-hipped opponent with established defensive posture. Disguise your level change within normal hand fighting movements to exploit these windows before the opponent can recognize and defend."
+        "answer": "The optimal timing window for the Fireman's Carry occurs when the opponent momentarily shifts their weight forward or rises to a more upright posture during grip fighting exchanges. Specific windows include: immediately after they establish a grip and before they can settle their base; when they pull back upward after resisting a snap down; when they step forward to close distance; or when they transition between grip configurations. The worst timing is against a settled, low-hipped opponent with established defensive posture. Disguise your level change within normal hand fighting movements to exploit these windows before the opponent can recognize and defend.",
+        "answer_line": "As they rise or step forward",
+        "distractors": {
+          "plausible": [
+            "After they settle into a low base",
+            "The moment you secure your grip"
+          ],
+          "trap": [
+            "While they snap your head down"
+          ]
+        }
       },
       {
         "question": "You attempt the Fireman's Carry but your opponent posts their free hand during the descent - how do you complete the takedown?",

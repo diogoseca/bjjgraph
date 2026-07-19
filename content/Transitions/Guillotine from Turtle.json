@@ -568,7 +568,17 @@
       },
       {
         "question": "After successfully defending the guillotine attempt and returning to turtle, what should your immediate positional priority be?",
-        "answer": "Your immediate priority after defending the guillotine is to begin an active escape from turtle, not to rest in the defensive shell. The attacker will immediately attempt a secondary attack such as back take, crucifix entry, or re-attempt the guillotine from a different angle. You should use the momentum from your successful defense to chain directly into a guard recovery technique such as granby roll to closed guard, sit-through to half guard, or technical standup. Remaining static in turtle after defending the guillotine gives the attacker time to reset and attack again."
+        "answer": "Your immediate priority after defending the guillotine is to begin an active escape from turtle, not to rest in the defensive shell. The attacker will immediately attempt a secondary attack such as back take, crucifix entry, or re-attempt the guillotine from a different angle. You should use the momentum from your successful defense to chain directly into a guard recovery technique such as granby roll to closed guard, sit-through to half guard, or technical standup. Remaining static in turtle after defending the guillotine gives the attacker time to reset and attack again.",
+        "answer_line": "Escape turtle immediately",
+        "distractors": {
+          "plausible": [
+            "Wait to counter their next attack",
+            "Rebuild grips before moving"
+          ],
+          "trap": [
+            "Stay coiled in the tight shell"
+          ]
+        }
       }
     ],
     "training_progressions": [

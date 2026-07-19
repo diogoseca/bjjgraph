@@ -302,7 +302,17 @@
       },
       {
         "question": "Your opponent bridges explosively as your leg is halfway over their head — what is your immediate response?",
-        "answer": "Post your free hand wide on the mat toward their head for base and drive your hips downward into their chest to counter the upward bridge force. If the bridge is powerful enough to compromise your balance, abort the S Mount entry entirely by returning your leg to the high mount position. Re-establish stable high mount control with both knees down before attempting the transition again. Never try to complete the swing while off-balance."
+        "answer": "Post your free hand wide on the mat toward their head for base and drive your hips downward into their chest to counter the upward bridge force. If the bridge is powerful enough to compromise your balance, abort the S Mount entry entirely by returning your leg to the high mount position. Re-establish stable high mount control with both knees down before attempting the transition again. Never try to complete the swing while off-balance.",
+        "answer_line": "Post hand wide, drive hips down",
+        "distractors": {
+          "plausible": [
+            "Post elbow tight, lift hips clear",
+            "Bail leg back to closed guard"
+          ],
+          "trap": [
+            "Force the swing while off-balance"
+          ]
+        }
       },
       {
         "question": "Why must the hip drive into the opponent's shoulder happen immediately upon landing in S Mount?",

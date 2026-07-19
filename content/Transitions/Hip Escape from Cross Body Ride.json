@@ -340,7 +340,17 @@
       },
       {
         "question": "How does the opponent's exact angle across your back determine which hip escape variation you use?",
-        "answer": "The opponent's angle determines the optimal shrimp direction. If they are positioned more toward your head in a diagonal-forward orientation, shrimp your hips toward your feet and slightly away from their body. If they are positioned more toward your hips in a diagonal-back orientation, shrimp toward your head. Always escape in the direction that takes your hips away from the concentration of their weight. Misreading the angle and shrimping into their pressure line wastes the attempt and the energy invested."
+        "answer": "The opponent's angle determines the optimal shrimp direction. If they are positioned more toward your head in a diagonal-forward orientation, shrimp your hips toward your feet and slightly away from their body. If they are positioned more toward your hips in a diagonal-back orientation, shrimp toward your head. Always escape in the direction that takes your hips away from the concentration of their weight. Misreading the angle and shrimping into their pressure line wastes the attempt and the energy invested.",
+        "answer_line": "Shrimp hips away from their weight",
+        "distractors": {
+          "plausible": [
+            "Head angle: shrimp toward head",
+            "Hip angle: shrimp toward feet"
+          ],
+          "trap": [
+            "Turn in toward their weight"
+          ]
+        }
       },
       {
         "question": "What is the critical mechanical difference between a hip escape from cross body ride and a standard side control hip escape?",

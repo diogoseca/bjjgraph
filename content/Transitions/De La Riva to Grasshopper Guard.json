@@ -242,7 +242,17 @@
       },
       {
         "question": "When is the correct moment to commit to the inversion rather than staying upright in De La Riva?",
-        "answer": "Commit the inversion only when you read the opponent disengaging - back-stepping, leg-dragging, or circling their weight away from your hook. That weight shift lifts their base and opens the window to roll under. If they remain square and heavy, do not invert; keep working upright De La Riva attacks and wait for the weight to move."
+        "answer": "Commit the inversion only when you read the opponent disengaging - back-stepping, leg-dragging, or circling their weight away from your hook. That weight shift lifts their base and opens the window to roll under. If they remain square and heavy, do not invert; keep working upright De La Riva attacks and wait for the weight to move.",
+        "answer_line": "When their weight shifts away",
+        "distractors": {
+          "plausible": [
+            "Right after you set the DLR hook",
+            "When they posture up and grip"
+          ],
+          "trap": [
+            "When they drive forward to pass"
+          ]
+        }
       },
       {
         "question": "How do you protect your back while rolling under the opponent during this inversion?",

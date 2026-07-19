@@ -438,7 +438,17 @@
       {
         "question": "How do you set up the outside heel hook when your opponent consistently defends the inside variation?",
         "answer": "Establish a pattern of threatening the inside heel hook across multiple exchanges to condition their defensive response. When they commit to inside defense by rotating their knee inward and hiding the heel, their foot naturally opens to the outside angle. Time your grip transition to coincide with their maximum defensive commitment to the inside direction, as this is when they are most vulnerable to the unexpected direction change.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Bait inside, switch outside",
+        "distractors": {
+          "plausible": [
+            "Crank inside harder to finish",
+            "Grab outside before conditioning"
+          ],
+          "trap": [
+            "Let the knee line go to reach heel"
+          ]
+        }
       },
       {
         "question": "You have secured the outside grip but the opponent is actively scooting away - how do you maintain finishing position?",

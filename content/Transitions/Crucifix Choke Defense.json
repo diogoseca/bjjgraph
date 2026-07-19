@@ -255,7 +255,17 @@
     "flashcards": [
       {
         "question": "What is the correct survival hierarchy when defending a choke from crucifix bottom?",
-        "answer": "The hierarchy is: (1) defend the choke through chin tuck and shoulder raise, (2) fight grips by securing two-on-one wrist control and stripping the choking hand, (3) escape the position through hip movement to turtle or back control. This order is critical because a locked choke finishes faster than any escape sequence completes. Reversing the hierarchy by prioritizing escape over choke defense leads to submission during the escape attempt."
+        "answer": "The hierarchy is: (1) defend the choke through chin tuck and shoulder raise, (2) fight grips by securing two-on-one wrist control and stripping the choking hand, (3) escape the position through hip movement to turtle or back control. This order is critical because a locked choke finishes faster than any escape sequence completes. Reversing the hierarchy by prioritizing escape over choke defense leads to submission during the escape attempt.",
+        "answer_line": "Defend choke first: chin tuck",
+        "distractors": {
+          "plausible": [
+            "Strip choking hand, then tuck",
+            "Raise shoulder, skip grip fight"
+          ],
+          "trap": [
+            "Explode to turtle immediately"
+          ]
+        }
       },
       {
         "question": "Where should you grip when fighting the opponent's choking hand, and why?",

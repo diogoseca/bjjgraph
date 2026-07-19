@@ -345,7 +345,17 @@
       },
       {
         "question": "How does the direction of force differ between the underhook pull and the crossface drive, and why is this opposition essential?",
-        "answer": "The underhook pulls the opponent's far shoulder toward you and upward, while the crossface drives their head and near shoulder away from you and into the mat. These opposing forces create a rotational compression that flattens the bottom player's torso between the two pressure points. Without this opposition, the bottom player can rotate freely in the direction of either single force. The combined opposing forces pin both shoulders to the mat simultaneously, eliminating the angular freedom needed for sweeps and guard recovery."
+        "answer": "The underhook pulls the opponent's far shoulder toward you and upward, while the crossface drives their head and near shoulder away from you and into the mat. These opposing forces create a rotational compression that flattens the bottom player's torso between the two pressure points. Without this opposition, the bottom player can rotate freely in the direction of either single force. The combined opposing forces pin both shoulders to the mat simultaneously, eliminating the angular freedom needed for sweeps and guard recovery.",
+        "answer_line": "Opposing forces pin both shoulders",
+        "distractors": {
+          "plausible": [
+            "Both press opponent into the mat",
+            "Pull the head, crossface far arm"
+          ],
+          "trap": [
+            "Shove both shoulders one way"
+          ]
+        }
       },
       {
         "question": "Your opponent successfully inserts a knee shield just as you begin establishing the underhook. Should you continue the transition or change strategy?",

@@ -323,7 +323,17 @@
       },
       {
         "question": "Your opponent secures double underhooks and begins stacking you hard. Your hips are already elevated. What is your immediate sequence of actions?",
-        "answer": "First, cup both hands over their shoulders and push to prevent them from driving deeper into the stack. Second, use your core to turn your hips 45 degrees to one side while pushing against their shoulder on that same side. Third, as the angle opens, insert your bottom knee as a shield between your bodies. Fourth, continue shrimping to recover full guard position or transition to half guard with the knee shield already in place. The double underhook stack requires addressing the shoulder pressure first before hip escaping because their underhooks prevent simple frame-on-hip defense."
+        "answer": "First, cup both hands over their shoulders and push to prevent them from driving deeper into the stack. Second, use your core to turn your hips 45 degrees to one side while pushing against their shoulder on that same side. Third, as the angle opens, insert your bottom knee as a shield between your bodies. Fourth, continue shrimping to recover full guard position or transition to half guard with the knee shield already in place. The double underhook stack requires addressing the shoulder pressure first before hip escaping because their underhooks prevent simple frame-on-hip defense.",
+        "answer_line": "Cup both shoulders, stop the drive",
+        "distractors": {
+          "plausible": [
+            "Frame on hips and shrimp first",
+            "Insert knee shield immediately"
+          ],
+          "trap": [
+            "Turn belly-down to escape stack"
+          ]
+        }
       },
       {
         "question": "What are the three primary frame positions against a stack pass and when would you use each?",

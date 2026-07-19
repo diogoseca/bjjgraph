@@ -281,7 +281,17 @@
       },
       {
         "question": "Your opponent pushes your knee with their foot-on-hip while you are in headquarters - how do you convert this into a leg drag?",
-        "answer": "The foot-on-hip push straightens their leg and exposes the ankle for grip. Capture the pushing foot at the ankle with your control hand, strip it off your hip by pulling laterally, and immediately execute the drag motion across their centerline. Their own pushing force creates momentum that assists the drag. The key timing detail is capturing the ankle before they retract the foot, which requires reading the push as it initiates rather than reacting after the fact."
+        "answer": "The foot-on-hip push straightens their leg and exposes the ankle for grip. Capture the pushing foot at the ankle with your control hand, strip it off your hip by pulling laterally, and immediately execute the drag motion across their centerline. Their own pushing force creates momentum that assists the drag. The key timing detail is capturing the ankle before they retract the foot, which requires reading the push as it initiates rather than reacting after the fact.",
+        "answer_line": "Grab the ankle before they retract",
+        "distractors": {
+          "plausible": [
+            "Strip the foot before gripping it",
+            "Drag toward their pushing side"
+          ],
+          "trap": [
+            "Drop your head between their legs"
+          ]
+        }
       },
       {
         "question": "What is the most common mechanical error that causes the leg drag to fail from headquarters?",
@@ -313,15 +323,45 @@
       },
       {
         "question": "Your opponent begins recovering half guard by hooking your trailing leg during your leg drag attempt - what adjustment do you make?",
-        "answer": "If the opponent catches a half guard hook during the drag, do not abandon the drag entirely. Continue driving your upper body control forward while using your free leg to backstep out of the half guard hook. The upper body control prevents the opponent from consolidating half guard even if they momentarily catch your leg. Alternatively, accept the half guard catch and immediately transition your weight to a knee slice or smash pass from the new half guard position, using the momentum from the failed drag to power the alternative pass."
+        "answer": "If the opponent catches a half guard hook during the drag, do not abandon the drag entirely. Continue driving your upper body control forward while using your free leg to backstep out of the half guard hook. The upper body control prevents the opponent from consolidating half guard even if they momentarily catch your leg. Alternatively, accept the half guard catch and immediately transition your weight to a knee slice or smash pass from the new half guard position, using the momentum from the failed drag to power the alternative pass.",
+        "answer_line": "Backstep out, keep chest forward",
+        "distractors": {
+          "plausible": [
+            "Yank trapped leg free, then repass",
+            "Sit back and reset the leg drag"
+          ],
+          "trap": [
+            "Turn belly-down to pull leg out"
+          ]
+        }
       },
       {
         "question": "What distinguishes the leg drag entry from headquarters compared to a leg drag from open guard?",
-        "answer": "From headquarters, the passer already has knee-line control, a triangulated base, and the opponent's hip mobility restricted. This eliminates the need for the initial grip fight and distance closing that open guard leg drags require. The headquarters leg drag is a shorter, more direct motion because the leg is already partially controlled. The trade-off is that the opponent knows a pass is imminent from headquarters, so their defensive reactions are more prepared. The headquarters version compensates through the systematic decision tree where defending the leg drag opens other passes."
+        "answer": "From headquarters, the passer already has knee-line control, a triangulated base, and the opponent's hip mobility restricted. This eliminates the need for the initial grip fight and distance closing that open guard leg drags require. The headquarters leg drag is a shorter, more direct motion because the leg is already partially controlled. The trade-off is that the opponent knows a pass is imminent from headquarters, so their defensive reactions are more prepared. The headquarters version compensates through the systematic decision tree where defending the leg drag opens other passes.",
+        "answer_line": "Knee-line already controlled",
+        "distractors": {
+          "plausible": [
+            "Must win grip fight first",
+            "Close distance before entry"
+          ],
+          "trap": [
+            "Opponent can't react in time"
+          ]
+        }
       },
       {
         "question": "Your opponent keeps both legs tightly together and bent, denying you an isolated leg to drag - what is your entry?",
-        "answer": "Against tightly stacked, bent legs, do not force a single-leg drag. Use the cross-grip variation: reach across with your opposite hand to grip the far ankle or pants leg at the knee, which lets you displace both legs as a unit across the centerline. Alternatively, apply a knee-cut feint or collar drag to provoke a frame or leg extension, then attack the leg that separates first. The principle is to manufacture the extension you need rather than fighting against the strongest bent-leg retraction structure."
+        "answer": "Against tightly stacked, bent legs, do not force a single-leg drag. Use the cross-grip variation: reach across with your opposite hand to grip the far ankle or pants leg at the knee, which lets you displace both legs as a unit across the centerline. Alternatively, apply a knee-cut feint or collar drag to provoke a frame or leg extension, then attack the leg that separates first. The principle is to manufacture the extension you need rather than fighting against the strongest bent-leg retraction structure.",
+        "answer_line": "Cross-grip far ankle to shift both",
+        "distractors": {
+          "plausible": [
+            "Grip near ankle with same hand",
+            "Muscle a single-leg drag through"
+          ],
+          "trap": [
+            "Dive head between the knees"
+          ]
+        }
       }
     ],
     "safety_considerations": "The leg drag involves lateral pressure on the opponent's knee and hip joints. Apply controlled force during the drag motion to avoid hyperextending the knee or straining the MCL through excessive lateral torque. Be particularly mindful of your training partner's hip flexibility when pinning the dragged leg, as forcing the leg past its natural range of motion can cause groin or hip flexor injuries. During drilling, allow partners to tap or verbally signal if they experience discomfort in the knee, hip, or groin during the drag motion, and release pressure immediately upon any signal.",
@@ -449,11 +489,31 @@
       },
       {
         "question": "Your opponent has gripped your ankle and begun the lateral drag motion - what is your most effective immediate counter?",
-        "answer": "Frame hard at the passer's near shoulder with your arm while simultaneously hip escaping in the opposite direction of the drag. This two-point response addresses both the upper body control threat and creates lateral separation that can free your leg. If the frame holds, retract your leg by pulling your knee to your chest using explosive hip flexion. The combination of frame, hip escape, and leg retraction must happen as a coordinated burst rather than sequential actions to be effective against a committed drag motion."
+        "answer": "Frame hard at the passer's near shoulder with your arm while simultaneously hip escaping in the opposite direction of the drag. This two-point response addresses both the upper body control threat and creates lateral separation that can free your leg. If the frame holds, retract your leg by pulling your knee to your chest using explosive hip flexion. The combination of frame, hip escape, and leg retraction must happen as a coordinated burst rather than sequential actions to be effective against a committed drag motion.",
+        "answer_line": "Frame shoulder, hip escape away",
+        "distractors": {
+          "plausible": [
+            "Retract knee to chest first",
+            "Grip-fight the ankle hand"
+          ],
+          "trap": [
+            "Roll belly-down to turtle"
+          ]
+        }
       },
       {
         "question": "When is it better to concede the leg drag and recover to half guard versus fighting the drag motion directly?",
-        "answer": "Concede the drag when the passer has already pinned your leg with their hip and is establishing upper body control. At this point, fighting the pinned leg wastes energy without result. Instead, focus on preventing back exposure by staying face-up, establishing an underhook on the passing side, and working to hook the passer's trailing leg with your free foot to recover half guard. The half guard recovery preserves your energy for a defensible position rather than spending it on an escape attempt with low probability of success."
+        "answer": "Concede the drag when the passer has already pinned your leg with their hip and is establishing upper body control. At this point, fighting the pinned leg wastes energy without result. Instead, focus on preventing back exposure by staying face-up, establishing an underhook on the passing side, and working to hook the passer's trailing leg with your free foot to recover half guard. The half guard recovery preserves your energy for a defensible position rather than spending it on an escape attempt with low probability of success.",
+        "answer_line": "Hip pins leg + upper body control",
+        "distractors": {
+          "plausible": [
+            "Fight the pinned leg free first",
+            "Underhook the far side to recover"
+          ],
+          "trap": [
+            "Turn belly-down and scramble out"
+          ]
+        }
       },
       {
         "question": "How should you position your hips to prevent the leg drag from being completed successfully?",
@@ -471,7 +531,17 @@
       },
       {
         "question": "Your opponent has successfully dragged your leg but has not yet established upper body control - what is your immediate priority?",
-        "answer": "Your immediate priority is preventing the crossface or shoulder control from landing. Use your near arm to frame at their shoulder or bicep, creating a barrier that prevents them from dropping their chest onto your hip. Simultaneously, use your free leg to post on the mat and begin hip escaping to create angle. Without upper body control, the leg drag alone is not consolidated and you can still recover guard by extracting your leg through frames and hip movement. The window is approximately one to two seconds before a competent passer secures the crossface."
+        "answer": "Your immediate priority is preventing the crossface or shoulder control from landing. Use your near arm to frame at their shoulder or bicep, creating a barrier that prevents them from dropping their chest onto your hip. Simultaneously, use your free leg to post on the mat and begin hip escaping to create angle. Without upper body control, the leg drag alone is not consolidated and you can still recover guard by extracting your leg through frames and hip movement. The window is approximately one to two seconds before a competent passer secures the crossface.",
+        "answer_line": "Frame to block the crossface",
+        "distractors": {
+          "plausible": [
+            "Hip escape to make angle first",
+            "Rip your trapped leg free now"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

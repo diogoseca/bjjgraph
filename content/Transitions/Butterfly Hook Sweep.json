@@ -268,7 +268,17 @@
       },
       {
         "question": "What conditions must exist before you can successfully execute the sweep?",
-        "answer": "You need an established butterfly hook deep inside the opponent's thigh, controlling grips on their upper body for directional pulling, and your hips must be angled laterally rather than square to the opponent. Additionally, their weight must be loaded forward onto your hooks. Missing any single condition reduces the sweep percentage substantially because each element serves a specific mechanical function that cannot be compensated by the others."
+        "answer": "You need an established butterfly hook deep inside the opponent's thigh, controlling grips on their upper body for directional pulling, and your hips must be angled laterally rather than square to the opponent. Additionally, their weight must be loaded forward onto your hooks. Missing any single condition reduces the sweep percentage substantially because each element serves a specific mechanical function that cannot be compensated by the others.",
+        "answer_line": "Deep hook loaded with their weight",
+        "distractors": {
+          "plausible": [
+            "Square hips flat, grip both sleeves",
+            "Their weight rocked back on heels"
+          ],
+          "trap": [
+            "Turn belly-down to build base"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during sweep execution and why?",

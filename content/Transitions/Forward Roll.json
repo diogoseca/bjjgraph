@@ -511,7 +511,17 @@
       },
       {
         "question": "Your opponent begins a forward roll and you have seatbelt control but no hooks. Should you follow the roll or release and circle to side control?",
-        "answer": "With seatbelt control and no hooks, following the roll is generally the higher percentage option because the seatbelt provides sufficient connection to ride through the rotation. As opponent rolls, maintain your grip and keep your chest connected to their back. You will arrive with them on their back and your seatbelt intact, often in a better position for hook insertion than the original turtle. However, if you feel your seatbelt grip weakening during the roll, immediately release and circle to side control rather than arriving in a scramble with no control."
+        "answer": "With seatbelt control and no hooks, following the roll is generally the higher percentage option because the seatbelt provides sufficient connection to ride through the rotation. As opponent rolls, maintain your grip and keep your chest connected to their back. You will arrive with them on their back and your seatbelt intact, often in a better position for hook insertion than the original turtle. However, if you feel your seatbelt grip weakening during the roll, immediately release and circle to side control rather than arriving in a scramble with no control.",
+        "answer_line": "Follow the roll, keep the seatbelt",
+        "distractors": {
+          "plausible": [
+            "Release early, take side control",
+            "Dig for a hook mid-roll"
+          ],
+          "trap": [
+            "Post out to stop the roll"
+          ]
+        }
       },
       {
         "question": "What is the most effective way to prevent a forward roll before it initiates?",

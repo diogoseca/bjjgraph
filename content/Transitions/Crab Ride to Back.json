@@ -304,7 +304,17 @@
       },
       {
         "question": "What are the key differences between the roll-to-back and slide-to-back variations of this technique?",
-        "answer": "The roll-to-back variation is used when the opponent is flattened in turtle with minimal space underneath. You execute a controlled roll to your side while pulling them with you, ending with them in front and you on their back. The slide-to-back variation is used when there is space underneath the opponent. You slide your hips through while pulling them back into you, transitioning to back mount without a full roll. Both require maintained seat belt control and deep hooks, but the choice depends on the opponent's posture and available space."
+        "answer": "The roll-to-back variation is used when the opponent is flattened in turtle with minimal space underneath. You execute a controlled roll to your side while pulling them with you, ending with them in front and you on their back. The slide-to-back variation is used when there is space underneath the opponent. You slide your hips through while pulling them back into you, transitioning to back mount without a full roll. Both require maintained seat belt control and deep hooks, but the choice depends on the opponent's posture and available space.",
+        "answer_line": "Roll if flat, slide if space",
+        "distractors": {
+          "plausible": [
+            "Slide when flat, roll with space",
+            "Roll needs deep hooks, slide none"
+          ],
+          "trap": [
+            "Drop seat belt to slide through"
+          ]
+        }
       },
       {
         "question": "Your opponent traps your bottom hook with their leg during the transition - what is the correct response?",

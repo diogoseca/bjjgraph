@@ -294,23 +294,73 @@
       },
       {
         "question": "When is the optimal timing window for attempting this adjustment?",
-        "answer": "The optimal window is immediately after the opponent's inversion when they're focused on completing their rotation rather than defending submissions. Their defensive attention is divided between escape completion and grip fighting. If you wait until they've stabilized, their full defensive resources engage."
+        "answer": "The optimal window is immediately after the opponent's inversion when they're focused on completing their rotation rather than defending submissions. Their defensive attention is divided between escape completion and grip fighting. If you wait until they've stabilized, their full defensive resources engage.",
+        "answer_line": "Mid-inversion, before they settle",
+        "distractors": {
+          "plausible": [
+            "After they complete the inversion",
+            "Right before they begin to invert"
+          ],
+          "trap": [
+            "While they finish the leg attack"
+          ]
+        }
       },
       {
         "question": "What should you do if the opponent achieves strong boot defense during your adjustment?",
-        "answer": "First, try using your forearm pressure behind their calf to pop the heel free. If boot remains strong after 2-3 seconds, transition to ankle lock by sliding your grip to the Achilles, or abandon the direct finish and transition to saddle position for improved control and new attack angles."
+        "answer": "First, try using your forearm pressure behind their calf to pop the heel free. If boot remains strong after 2-3 seconds, transition to ankle lock by sliding your grip to the Achilles, or abandon the direct finish and transition to saddle position for improved control and new attack angles.",
+        "answer_line": "Forearm on calf to pop heel free",
+        "distractors": {
+          "plausible": [
+            "Slide grip to Achilles first",
+            "Bail to saddle immediately"
+          ],
+          "trap": [
+            "Release and scramble to standing"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from counter-attacking your legs during the grip transition?",
-        "answer": "Maintain constant pressure with your outside leg on their free thigh throughout the adjustment. This prevents them from using the free leg to create counter-entanglement angles. If they begin reaching for your legs, address their entanglement attempt before continuing with your heel hook adjustment."
+        "answer": "Maintain constant pressure with your outside leg on their free thigh throughout the adjustment. This prevents them from using the free leg to create counter-entanglement angles. If they begin reaching for your legs, address their entanglement attempt before continuing with your heel hook adjustment.",
+        "answer_line": "Pin free thigh with outside leg",
+        "distractors": {
+          "plausible": [
+            "Pinch knees to trap their leg",
+            "Square your hips before switching"
+          ],
+          "trap": [
+            "Extend and finish before adjusting"
+          ]
+        }
       },
       {
         "question": "What indicates that you should transition to back control instead of finishing the heel hook?",
-        "answer": "Transition to back when: their rotation momentum is too strong to reverse with your entanglement, they've successfully cleared your outside leg and are committing to turtle, or their heel has remained inaccessible for 4-5 seconds despite adjustment attempts. The back take often becomes higher percentage than forcing a contested heel hook."
+        "answer": "Transition to back when: their rotation momentum is too strong to reverse with your entanglement, they've successfully cleared your outside leg and are committing to turtle, or their heel has remained inaccessible for 4-5 seconds despite adjustment attempts. The back take often becomes higher percentage than forcing a contested heel hook.",
+        "answer_line": "Heel out of reach, turning to turtle",
+        "distractors": {
+          "plausible": [
+            "Their outside leg is still trapped",
+            "Wait for the tap, then reset grips"
+          ],
+          "trap": [
+            "Follow their roll, crank harder"
+          ]
+        }
       },
       {
         "question": "What common entry points lead to the Outside Heel Hook Adjustment situation?",
-        "answer": "Common entries include: opponent inverting from standard outside ashi-garami to escape, failed inside heel hook attempts where opponent rotates away, transitions from 50-50 where opponent begins escape sequence, and scrambles from saddle where opponent partially clears your primary control leg."
+        "answer": "Common entries include: opponent inverting from standard outside ashi-garami to escape, failed inside heel hook attempts where opponent rotates away, transitions from 50-50 where opponent begins escape sequence, and scrambles from saddle where opponent partially clears your primary control leg.",
+        "answer_line": "Opponent inverts to escape ashi",
+        "distractors": {
+          "plausible": [
+            "You invert to finish the heel hook",
+            "50-50 where you start escaping"
+          ],
+          "trap": [
+            "Roll away from the heel to escape"
+          ]
+        }
       }
     ],
     "safety_considerations": "Heel hooks are among the most dangerous submissions in grappling due to their attack on the knee's rotational ligaments (ACL, MCL, meniscus) which provide minimal pain feedback before injury. Always apply finishing rotation slowly and controlled, ready to release immediately on tap. Training partners should tap early—by the time significant pain registers, structural damage may already be occurring. Never crank heel hooks during drilling or against resistant training partners who haven't tapped. Ensure both practitioners understand heel hook mechanics before live training. Avoid this technique entirely against partners who are new to leg locks or don't understand the tap-early requirement. If you feel any unusual popping or grinding during controlled practice, release immediately and assess for injury.",
@@ -437,19 +487,59 @@
       },
       {
         "question": "When is the best moment to attempt a counter-entanglement on the attacker's legs?",
-        "answer": "The optimal window is when the attacker releases their outside leg pressure on your free leg during the grip transition phase. They must reposition their hands to capture your heel, and many attackers temporarily reduce leg control to focus on upper body adjustments. Use your free leg to hook their near leg and establish inside ashi-garami before they complete their grip change."
+        "answer": "The optimal window is when the attacker releases their outside leg pressure on your free leg during the grip transition phase. They must reposition their hands to capture your heel, and many attackers temporarily reduce leg control to focus on upper body adjustments. Use your free leg to hook their near leg and establish inside ashi-garami before they complete their grip change.",
+        "answer_line": "When they release to grab your heel",
+        "distractors": {
+          "plausible": [
+            "Once they lock inside ashi-garami",
+            "The instant they secure both hooks"
+          ],
+          "trap": [
+            "After they start torquing your heel"
+          ]
+        }
       },
       {
         "question": "Why is pulling your knee toward your chest a dangerous defensive reaction during a heel hook attempt?",
-        "answer": "Pulling the knee toward your chest feeds the heel deeper into the attacker's grip hand and shortens the lever arm, which actually increases the rotational leverage available for the heel hook finish. Instead, rotate the knee outward away from the attacker's center line, which moves the heel away from their grip and reduces the angle available for rotational torque on the knee ligaments."
+        "answer": "Pulling the knee toward your chest feeds the heel deeper into the attacker's grip hand and shortens the lever arm, which actually increases the rotational leverage available for the heel hook finish. Instead, rotate the knee outward away from the attacker's center line, which moves the heel away from their grip and reduces the angle available for rotational torque on the knee ligaments.",
+        "answer_line": "Feeds heel in, shortens the lever",
+        "distractors": {
+          "plausible": [
+            "Lengthens the attacker's lever arm",
+            "Rolls your knee flat to the mat"
+          ],
+          "trap": [
+            "Opens space to kick the leg free"
+          ]
+        }
       },
       {
         "question": "Your attacker has established the figure-four grip on your heel but has not yet begun the finishing rotation—what are your options?",
-        "answer": "Attack the figure-four grip directly by wedging both hands between their wrists to break the lock. Simultaneously rotate your knee outward to reduce finishing angle. If you cannot break the grip within 2-3 seconds, strongly consider tapping—heel hooks damage knee ligaments before pain signals arrive, and the finishing rotation from an established figure-four is extremely difficult to survive."
+        "answer": "Attack the figure-four grip directly by wedging both hands between their wrists to break the lock. Simultaneously rotate your knee outward to reduce finishing angle. If you cannot break the grip within 2-3 seconds, strongly consider tapping—heel hooks damage knee ligaments before pain signals arrive, and the finishing rotation from an established figure-four is extremely difficult to survive.",
+        "answer_line": "Break the grip, tap if it holds",
+        "distractors": {
+          "plausible": [
+            "Rotate knee out first",
+            "Point toes to hide the heel"
+          ],
+          "trap": [
+            "Spin out to escape the hook"
+          ]
+        }
       },
       {
         "question": "How do you decide between accelerating inversion to turtle versus attempting counter-entanglement?",
-        "answer": "Choose turtle acceleration when the attacker's leg entanglement is shallow and your rotation momentum is strong—you can clear the legs by committing to the roll. Choose counter-entanglement when the attacker's outside leg pressure on your free leg has loosened during their grip transition, creating space to hook their leg. If entanglement is deep and their legs are tight, turtle is safer than risking a failed counter-attack."
+        "answer": "Choose turtle acceleration when the attacker's leg entanglement is shallow and your rotation momentum is strong—you can clear the legs by committing to the roll. Choose counter-entanglement when the attacker's outside leg pressure on your free leg has loosened during their grip transition, creating space to hook their leg. If entanglement is deep and their legs are tight, turtle is safer than risking a failed counter-attack.",
+        "answer_line": "Shallow legs, strong roll → turtle",
+        "distractors": {
+          "plausible": [
+            "Counter when their grips tighten",
+            "Invert first, decide depth later"
+          ],
+          "trap": [
+            "Hook the leg when it's deep tight"
+          ]
+        }
       }
     ],
     "training_progressions": [

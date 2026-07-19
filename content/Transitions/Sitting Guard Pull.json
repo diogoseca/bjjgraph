@@ -239,7 +239,17 @@
     "flashcards": [
       {
         "question": "What is the most critical element to establish before initiating the sitting guard pull?",
-        "answer": "At least one grip must be established before sitting. The grip provides connection, control, and prevents the opponent from immediately disengaging or circling away. Sitting without grips leaves you isolated and vulnerable, unable to establish guard structure effectively. The proper sequence is always grip first, then sit - the grip bridges your standing engagement into your seated guard game."
+        "answer": "At least one grip must be established before sitting. The grip provides connection, control, and prevents the opponent from immediately disengaging or circling away. Sitting without grips leaves you isolated and vulnerable, unable to establish guard structure effectively. The proper sequence is always grip first, then sit - the grip bridges your standing engagement into your seated guard game.",
+        "answer_line": "Grip first, then sit",
+        "distractors": {
+          "plausible": [
+            "Sit down, then establish grips",
+            "Break their posture before sitting"
+          ],
+          "trap": [
+            "Drop to a seat, chase feet after"
+          ]
+        }
       },
       {
         "question": "Why should you angle your body to the side rather than sitting straight backward during the guard pull?",

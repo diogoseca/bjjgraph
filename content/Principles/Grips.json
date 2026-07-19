@@ -418,7 +418,17 @@
     },
     {
       "question": "Why should grips be broken with leverage rather than strength?",
-      "answer": "Leverage-based breaking—two-hands-on-one, correct breaking angles, and timing the break to the opponent's movement—conserves energy and works against stronger opponents, whereas muscling grips fatigues you quickly and fails against good structure."
+      "answer": "Leverage-based breaking—two-hands-on-one, correct breaking angles, and timing the break to the opponent's movement—conserves energy and works against stronger opponents, whereas muscling grips fatigues you quickly and fails against good structure.",
+      "answer_line": "Conserves energy, beats strength",
+      "distractors": {
+        "plausible": [
+          "Break with one hand at the wrist",
+          "Rip both hands straight downward"
+        ],
+        "trap": [
+          "Strip grip by turning your back"
+        ]
+      }
     },
     {
       "question": "What is the difference between grip prevention and grip breaking?",
@@ -450,7 +460,17 @@
     },
     {
       "question": "How does grip fighting change in no-gi?",
-      "answer": "Without cloth, control shifts to wrists, elbows, head and neck, plus over- and underhooks, with frames and body positioning replacing fabric grips; timing must adapt to the increased slipperiness of skin and compression wear."
+      "answer": "Without cloth, control shifts to wrists, elbows, head and neck, plus over- and underhooks, with frames and body positioning replacing fabric grips; timing must adapt to the increased slipperiness of skin and compression wear.",
+      "answer_line": "Grip joints & hooks, not cloth",
+      "distractors": {
+        "plausible": [
+          "Keep gripping sleeves & collars",
+          "Grip fighting matters less no-gi"
+        ],
+        "trap": [
+          "Give up underhook, grab the head"
+        ]
+      }
     },
     {
       "question": "What is a common error in grip fighting and how do you correct it?",

@@ -313,7 +313,17 @@
       },
       {
         "question": "How do you prevent the opponent from inverting during the toreando phase?",
-        "answer": "Drive heavy shoulder pressure into their hips throughout the toreando movement. Keep your weight traveling forward and down rather than up and over. If they begin to invert despite this pressure, follow their rotation and transition to leg drag position rather than forcing the original passing angle."
+        "answer": "Drive heavy shoulder pressure into their hips throughout the toreando movement. Keep your weight traveling forward and down rather than up and over. If they begin to invert despite this pressure, follow their rotation and transition to leg drag position rather than forcing the original passing angle.",
+        "answer_line": "Shoulder pressure down into hips",
+        "distractors": {
+          "plausible": [
+            "Outrun their hips with speed",
+            "Flatten their knees to the mat"
+          ],
+          "trap": [
+            "Drive your weight up and over"
+          ]
+        }
       },
       {
         "question": "What chain attacks become available if the opponent defends by sitting up during the transition phase?",
@@ -500,7 +510,17 @@
       },
       {
         "question": "How does your defensive approach change when the opponent uses the standing clear variant versus the in-place clearing method?",
-        "answer": "Against the standing clear, your opponent creates more slack but also more distance, giving you additional time to transition to alternative guards. Use this distance to immediately establish feet-on-hips guard, collar-sleeve control, or begin sitting up for an arm drag or guard pull. Against in-place clearing, you have less time but more proximity, making aggressive re-gripping and closed guard recovery more viable since the opponent cannot create as much separation."
+        "answer": "Against the standing clear, your opponent creates more slack but also more distance, giving you additional time to transition to alternative guards. Use this distance to immediately establish feet-on-hips guard, collar-sleeve control, or begin sitting up for an arm drag or guard pull. Against in-place clearing, you have less time but more proximity, making aggressive re-gripping and closed guard recovery more viable since the opponent cannot create as much separation.",
+        "answer_line": "Standing clear: build a new guard",
+        "distractors": {
+          "plausible": [
+            "Standing clear: recover closed guard",
+            "In-place clear: sit up for arm drag"
+          ],
+          "trap": [
+            "Turn to knees, give up the back"
+          ]
+        }
       },
       {
         "question": "What backup guard systems should you have prepared when your lapel configuration is stripped, and how do you choose between them?",

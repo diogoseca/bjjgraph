@@ -426,7 +426,17 @@
       },
       {
         "question": "What determines whether you should use a leg weave versus a smash pass from Jailbreak Top?",
-        "answer": "The decision depends on the bottom player's leg configuration and hip activity. Use leg weave when their legs are extended and relatively static, as you can thread through and create the weaving control. Use smash pass when they're retracting legs or actively moving hips, as the smash pressure collapses their defensive structure before they can recover guard. If they're creating significant angles with hip movement, consider switching to headquarters passing or toreando instead."
+        "answer": "The decision depends on the bottom player's leg configuration and hip activity. Use leg weave when their legs are extended and relatively static, as you can thread through and create the weaving control. Use smash pass when they're retracting legs or actively moving hips, as the smash pressure collapses their defensive structure before they can recover guard. If they're creating significant angles with hip movement, consider switching to headquarters passing or toreando instead.",
+        "answer_line": "Their leg config & hip movement",
+        "distractors": {
+          "plausible": [
+            "Your grip on pants and ankles",
+            "Whichever pass feels stronger"
+          ],
+          "trap": [
+            "Smash through their active angles"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure when the bottom player is actively defending with leg frames?",

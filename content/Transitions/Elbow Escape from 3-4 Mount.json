@@ -314,7 +314,17 @@
       },
       {
         "question": "What grip must you establish before initiating the escape, and why is it critical?",
-        "answer": "You must grip the top player's near-side sleeve, wrist, or control their hip to prevent them from posting their hand on the mat during your bridge and hip escape. Without this grip, the top player can simply post their hand wide to maintain base against your bridge, completely neutralizing the escape attempt. The grip removes their primary base recovery tool, ensuring that your bridge actually disrupts their equilibrium rather than being absorbed by a posted hand."
+        "answer": "You must grip the top player's near-side sleeve, wrist, or control their hip to prevent them from posting their hand on the mat during your bridge and hip escape. Without this grip, the top player can simply post their hand wide to maintain base against your bridge, completely neutralizing the escape attempt. The grip removes their primary base recovery tool, ensuring that your bridge actually disrupts their equilibrium rather than being absorbed by a posted hand.",
+        "answer_line": "Trap the near-side arm/sleeve",
+        "distractors": {
+          "plausible": [
+            "Bridge first, then grab a grip",
+            "Control the far-side sleeve"
+          ],
+          "trap": [
+            "Turn belly-down to shrimp out"
+          ]
+        }
       },
       {
         "question": "You successfully create space and insert your knee, but the top player immediately begins to extract their leg. What is your response?",

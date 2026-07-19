@@ -340,7 +340,17 @@
       },
       {
         "question": "You attempt the toss pass but the opponent hooks your leg with a butterfly hook mid-toss - what is your immediate adjustment?",
-        "answer": "Do not fight the butterfly hook directly or try to restart the toss. Instead, immediately transition to a leg weave or half guard passing configuration using the momentum you already generated. Continue driving forward past the hook rather than pulling back. Your weight should pin their hooking leg while you work to clear it from a half guard top position. The toss momentum actually assists this transition if you redirect rather than resist."
+        "answer": "Do not fight the butterfly hook directly or try to restart the toss. Instead, immediately transition to a leg weave or half guard passing configuration using the momentum you already generated. Continue driving forward past the hook rather than pulling back. Your weight should pin their hooking leg while you work to clear it from a half guard top position. The toss momentum actually assists this transition if you redirect rather than resist.",
+        "answer_line": "Drive forward into half-guard pass",
+        "distractors": {
+          "plausible": [
+            "Strip the hook, then re-toss",
+            "Backstep to clear the hook"
+          ],
+          "trap": [
+            "Lean back to yank the leg free"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from diving to deep half guard during the toss attempt?",
@@ -505,7 +515,17 @@
       },
       {
         "question": "What is the most common defensive mistake when the toss pass is initiated, and how do you avoid it?",
-        "answer": "The most common mistake is attempting to hold onto the opponent's body during the toss, which results in being dragged along with the motion and ending up flat with no defensive structure. Instead of resisting the directional change, accept it and immediately work to establish new frames and hooks on the landing side. Fighting the toss direction wastes energy and delays the critical frame creation needed to prevent side control consolidation."
+        "answer": "The most common mistake is attempting to hold onto the opponent's body during the toss, which results in being dragged along with the motion and ending up flat with no defensive structure. Instead of resisting the directional change, accept it and immediately work to establish new frames and hooks on the landing side. Fighting the toss direction wastes energy and delays the critical frame creation needed to prevent side control consolidation.",
+        "answer_line": "Go with it, reframe on landing side",
+        "distractors": {
+          "plausible": [
+            "Rebuild hooks on the pushing side",
+            "Get hooks in before any frames"
+          ],
+          "trap": [
+            "Clamp his body, resist the toss"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -377,7 +377,17 @@
       {
         "question": "What is the correct release protocol after your training partner taps to the heel hook?",
         "answer": "Upon any tap signal, immediately stop all rotational pressure first. Then release your heel grip completely before unwrapping the leg entanglement. Allow your partner to extract their leg at their own pace without rushing the disentangle process. After release, verbally check with your partner about the status of their knee and ankle. Report any joint discomfort to the instructor immediately, even if it seems minor, since heel hook damage can present with delayed symptoms.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop rotational pressure first",
+        "distractors": {
+          "plausible": [
+            "Unwrap leg, then release grip",
+            "Check knee before releasing"
+          ],
+          "trap": [
+            "Yank leg free to reset fast"
+          ]
+        }
       },
       {
         "question": "What common finishing error most frequently leads to failed heel hook attempts from 50-50?",
@@ -412,7 +422,17 @@
       {
         "question": "What competition strategy maximizes heel hook finishing rate from 50-50 under ADCC rules?",
         "answer": "Under ADCC rules where heel hooks are legal, the optimal strategy is establishing inside position immediately upon entering 50-50, applying heavy hip pressure to prevent the opponent from sitting up, and attacking the heel within the first 10-15 seconds before the opponent establishes a strong defensive pattern. If the initial heel hook fails, chain rapidly to kneebar or transition to Saddle for better control. Avoid extended stalemates in 50-50 which allow the opponent to recover and may lead to referee restarts.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Get inside position, attack early",
+        "distractors": {
+          "plausible": [
+            "Chain to kneebar before the heel",
+            "Pressure hips before getting inside"
+          ],
+          "trap": [
+            "Turn away to escape the tangle"
+          ]
+        }
       },
       {
         "question": "Why is the heel hook considered more dangerous than other joint locks, and how does this affect training approach?",

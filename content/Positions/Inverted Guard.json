@@ -142,7 +142,17 @@
       },
       {
         "question": "How do you recognize the difference between a defensive inversion for guard retention versus an offensive inversion setting up a berimbolo?",
-        "answer": "A defensive inversion typically shows the opponent inverting away from you with focus on creating distance and recovering guard, often with less aggressive gripping. An offensive berimbolo setup shows the opponent inverting toward you with aggressive far hip or belt grip, foot placement on your hip line, and rotational intent pulling your weight forward. The offensive version maintains close distance while the defensive version creates separation."
+        "answer": "A defensive inversion typically shows the opponent inverting away from you with focus on creating distance and recovering guard, often with less aggressive gripping. An offensive berimbolo setup shows the opponent inverting toward you with aggressive far hip or belt grip, foot placement on your hip line, and rotational intent pulling your weight forward. The offensive version maintains close distance while the defensive version creates separation.",
+        "answer_line": "Toward=berimbolo, away=retention",
+        "distractors": {
+          "plausible": [
+            "Offensive one creates separation",
+            "Loose grips signal the attack"
+          ],
+          "trap": [
+            "Drive forward into their hips"
+          ]
+        }
       },
       {
         "question": "When should you choose a stack pass versus a smash pass against inverted guard, and what body positioning cues indicate each?",
@@ -1032,7 +1042,17 @@
     },
     {
       "question": "Why is Inverted Guard considered transitional rather than a position to hold, for both players?",
-      "answer": "The inverted structure depends on active hip elevation and free rotation; the moment mobility stalls, the elevated hips sink and the shoulders become a target for stack pressure. Holding statically drains energy quickly and exposes the bottom player to being flattened, while the top player likewise cannot pass a truly mobile inverted opponent by waiting. Both players therefore treat it as a brief window: the bottom player enters with a specific transition in mind and the top player attacks the moment rotation slows. This is why the position functions as a link between guards rather than a resting state."
+      "answer": "The inverted structure depends on active hip elevation and free rotation; the moment mobility stalls, the elevated hips sink and the shoulders become a target for stack pressure. Holding statically drains energy quickly and exposes the bottom player to being flattened, while the top player likewise cannot pass a truly mobile inverted opponent by waiting. Both players therefore treat it as a brief window: the bottom player enters with a specific transition in mind and the top player attacks the moment rotation slows. This is why the position functions as a link between guards rather than a resting state.",
+      "answer_line": "Only mobile; static gets stacked",
+      "distractors": {
+        "plausible": [
+          "Bottom can rest while inverted",
+          "Top passes by waiting it out"
+        ],
+        "trap": [
+          "Turtle up when rotation stalls"
+        ]
+      }
     },
     {
       "question": "How does rotation function as the defining mechanic of Inverted Guard compared to frame-based guards?",

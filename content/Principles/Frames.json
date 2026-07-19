@@ -448,7 +448,17 @@
     },
     {
       "question": "How do you build effective frames from bottom side control?",
-      "answer": "Frame the near arm into the opponent's neck or shoulder and the far hand on the hip, keeping your elbows connected to your own torso, to prevent chest-to-chest compression and open the channel for a hip escape."
+      "answer": "Frame the near arm into the opponent's neck or shoulder and the far hand on the hip, keeping your elbows connected to your own torso, to prevent chest-to-chest compression and open the channel for a hip escape.",
+      "answer_line": "Near elbow to neck, far hand to hip",
+      "distractors": {
+        "plausible": [
+          "Both hands push the far shoulder",
+          "Flare both elbows wide off ribs"
+        ],
+        "trap": [
+          "Turn to your knees to build a base"
+        ]
+      }
     },
     {
       "question": "What is the relationship between framing and escaping a bad position?",

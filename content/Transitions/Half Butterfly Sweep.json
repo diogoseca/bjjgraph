@@ -254,7 +254,17 @@
     "flashcards": [
       {
         "question": "What is the most critical mechanical detail that determines whether the Half Butterfly Sweep succeeds or fails?",
-        "answer": "The simultaneous coordination of the butterfly hook drive and underhook pull as a single unified movement. Any sequencing between these two forces gives the opponent time to react, post, or adjust weight between the separate applications. The sweep generates its off-balancing power from combined diagonal force vectors that must arrive simultaneously to overwhelm the opponent's base."
+        "answer": "The simultaneous coordination of the butterfly hook drive and underhook pull as a single unified movement. Any sequencing between these two forces gives the opponent time to react, post, or adjust weight between the separate applications. The sweep generates its off-balancing power from combined diagonal force vectors that must arrive simultaneously to overwhelm the opponent's base.",
+        "answer_line": "Hook drive + underhook pull as one",
+        "distractors": {
+          "plausible": [
+            "Pull underhook, then lift hook",
+            "Elevate hook before the pull"
+          ],
+          "trap": [
+            "Release underhook to frame away"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand on the mat when you begin to elevate with the butterfly hook - how do you adjust?",
@@ -286,11 +296,31 @@
       },
       {
         "question": "Why must you load the opponent's weight onto the butterfly hook before initiating the sweep drive?",
-        "answer": "Loading stacks the opponent's center of gravity directly over the hook's fulcrum point, meaning even a moderate elevation drive creates substantial off-balancing. Without loading, the opponent's weight is distributed across multiple base points, requiring far greater force to displace. Loading is achieved by pulling the opponent forward with the underhook until you feel their weight settle onto the butterfly hook leg."
+        "answer": "Loading stacks the opponent's center of gravity directly over the hook's fulcrum point, meaning even a moderate elevation drive creates substantial off-balancing. Without loading, the opponent's weight is distributed across multiple base points, requiring far greater force to displace. Loading is achieved by pulling the opponent forward with the underhook until you feel their weight settle onto the butterfly hook leg.",
+        "answer_line": "Centers weight over the fulcrum",
+        "distractors": {
+          "plausible": [
+            "Drive the hook up before loading",
+            "Push them back off the hook"
+          ],
+          "trap": [
+            "Ditch underhook and lie flat"
+          ]
+        }
       },
       {
         "question": "Your opponent sprawls their hips back and applies heavy crossface, shutting down your butterfly hook elevation - what is your best response?",
-        "answer": "Transition to deep half guard by diving underneath their hips, shooting your outside arm under their hip and inverting your angle. Their sprawl position actually facilitates this entry because their hips are back and their weight is committed forward through the crossface, creating space for you to swim underneath. Do not continue forcing the butterfly sweep against a sprawled opponent as this wastes energy on a near-zero percentage attempt."
+        "answer": "Transition to deep half guard by diving underneath their hips, shooting your outside arm under their hip and inverting your angle. Their sprawl position actually facilitates this entry because their hips are back and their weight is committed forward through the crossface, creating space for you to swim underneath. Do not continue forcing the butterfly sweep against a sprawled opponent as this wastes energy on a near-zero percentage attempt.",
+        "answer_line": "Dive under hips to deep half",
+        "distractors": {
+          "plausible": [
+            "Swim outside arm over their hip",
+            "Invert angle before diving under"
+          ],
+          "trap": [
+            "Roll to turtle to escape crossface"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest platform for this sweep?",

@@ -212,7 +212,17 @@
     "flashcards": [
       {
         "question": "What is the primary goal of Darce from Lockdown Counter?",
-        "answer": "The primary goal is to transform a defensive position (being trapped in Electric Chair) into an offensive submission threat. By attacking the Darce choke, you force the bottom player to abandon their lockdown controls to defend, either submitting them or creating an opportunity to escape and pass."
+        "answer": "The primary goal is to transform a defensive position (being trapped in Electric Chair) into an offensive submission threat. By attacking the Darce choke, you force the bottom player to abandon their lockdown controls to defend, either submitting them or creating an opportunity to escape and pass.",
+        "answer_line": "Turn defense into a Darce threat",
+        "distractors": {
+          "plausible": [
+            "Free the trapped leg first",
+            "Sweep to top before attacking"
+          ],
+          "trap": [
+            "Turn belly-down to slip free"
+          ]
+        }
       },
       {
         "question": "What position do you start Darce from Lockdown Counter from?",
@@ -455,11 +465,31 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting Darce from Lockdown Counter?",
-        "answer": "The earliest cue is the top player's nearside arm beginning to move across your neck instead of defending the lockdown or maintaining crossface control. You will feel bicep pressure against the side of your neck combined with their shoulder driving forward into your head. This threading motion is the initiation of the Darce and must be addressed immediately before the grip connects."
+        "answer": "The earliest cue is the top player's nearside arm beginning to move across your neck instead of defending the lockdown or maintaining crossface control. You will feel bicep pressure against the side of your neck combined with their shoulder driving forward into your head. This threading motion is the initiation of the Darce and must be addressed immediately before the grip connects.",
+        "answer_line": "Nearside arm threading across neck",
+        "distractors": {
+          "plausible": [
+            "Crossface pressure into your jaw",
+            "Their hips sliding toward your head"
+          ],
+          "trap": [
+            "Nothing until the grip locks"
+          ]
+        }
       },
       {
         "question": "Why is retracting the underhook the primary defensive response rather than continuing the Electric Chair attack?",
-        "answer": "The deep underhook is the exact arm configuration that enables the Darce choke. Keeping it extended provides the top player with the trapped arm they need to complete the figure-four around your neck. The Darce choke can be finished faster than most Electric Chair sweeps, so the risk-reward calculation strongly favors immediate arm retraction. You can always re-establish the underhook once the choke threat passes."
+        "answer": "The deep underhook is the exact arm configuration that enables the Darce choke. Keeping it extended provides the top player with the trapped arm they need to complete the figure-four around your neck. The Darce choke can be finished faster than most Electric Chair sweeps, so the risk-reward calculation strongly favors immediate arm retraction. You can always re-establish the underhook once the choke threat passes.",
+        "answer_line": "Extended arm feeds the Darce",
+        "distractors": {
+          "plausible": [
+            "Reset hips for a stronger sweep",
+            "Pull free to break their grip"
+          ],
+          "trap": [
+            "Drive the underhook deeper in"
+          ]
+        }
       },
       {
         "question": "Your opponent has started threading the Darce arm but the grip is not yet connected - which defense should you prioritize?",

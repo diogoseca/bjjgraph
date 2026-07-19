@@ -246,11 +246,31 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the seat belt to body triangle transition?",
-        "answer": "The optimal timing window occurs when the defender is in a passive moment — specifically after a failed escape attempt when they pause to breathe, while they are actively defending their neck with both hands (which means they are not fighting hooks), or during the brief reset period between defensive sequences. Initiating during active hip escaping or hook fighting dramatically increases failure probability because the defender's momentum compounds with your hook release to create positional instability."
+        "answer": "The optimal timing window occurs when the defender is in a passive moment — specifically after a failed escape attempt when they pause to breathe, while they are actively defending their neck with both hands (which means they are not fighting hooks), or during the brief reset period between defensive sequences. Initiating during active hip escaping or hook fighting dramatically increases failure probability because the defender's momentum compounds with your hook release to create positional instability.",
+        "answer_line": "When they pause, hands on neck",
+        "distractors": {
+          "plausible": [
+            "While they actively hip escape",
+            "Right after you lock the seat belt"
+          ],
+          "trap": [
+            "Mid hook-fight, rip your hook free"
+          ]
+        }
       },
       {
         "question": "Why must the seat belt grip remain connected throughout the entire threading process?",
-        "answer": "The seat belt grip is the structural foundation of back control. During the transition, you temporarily reduce leg control from two hooks to one hook while threading. If the seat belt is also released, you have neither adequate upper body nor lower body control, creating a catastrophic vulnerability window where the defender can turn, frame, and escape. The seat belt must compensate for reduced leg control during the threading phase — it is the only thing preventing the defender from converting your transition attempt into an escape."
+        "answer": "The seat belt grip is the structural foundation of back control. During the transition, you temporarily reduce leg control from two hooks to one hook while threading. If the seat belt is also released, you have neither adequate upper body nor lower body control, creating a catastrophic vulnerability window where the defender can turn, frame, and escape. The seat belt must compensate for reduced leg control during the threading phase — it is the only thing preventing the defender from converting your transition attempt into an escape.",
+        "answer_line": "Compensates for lost hook control",
+        "distractors": {
+          "plausible": [
+            "Keeps chest sealed to their back",
+            "Thread both hooks before regripping"
+          ],
+          "trap": [
+            "Let go to thread the hooks faster"
+          ]
+        }
       },
       {
         "question": "Your crossing leg is halfway across the defender's torso when they grab it with both hands — what do you do?",
@@ -324,11 +344,31 @@
       },
       {
         "question": "After establishing the body triangle, what attacks become more effective compared to standard hook control?",
-        "answer": "The body triangle amplifies all upper body attacks because the breathing restriction creates compounding urgency — the defender must address both the squeeze and the submission threat simultaneously. The rear naked choke becomes significantly more effective because the defender cannot fully expand their chest to create defensive space. The bow and arrow choke benefits from the immobilized hips preventing defensive rotation. Armbar setups improve because the defender's reduced oxygen makes sustained grip fighting more difficult. The body triangle squeeze itself can serve as a submission or force tap through sustained rib compression."
+        "answer": "The body triangle amplifies all upper body attacks because the breathing restriction creates compounding urgency — the defender must address both the squeeze and the submission threat simultaneously. The rear naked choke becomes significantly more effective because the defender cannot fully expand their chest to create defensive space. The bow and arrow choke benefits from the immobilized hips preventing defensive rotation. Armbar setups improve because the defender's reduced oxygen makes sustained grip fighting more difficult. The body triangle squeeze itself can serve as a submission or force tap through sustained rib compression.",
+        "answer_line": "Upper-body chokes amplified",
+        "distractors": {
+          "plausible": [
+            "Leg locks off the triangle",
+            "Sweeps get much easier"
+          ],
+          "trap": [
+            "Armbar, drop the seatbelt"
+          ]
+        }
       },
       {
         "question": "You notice the defender has both hands tucked under their chin defending a choke — is this the right moment to initiate the body triangle transition?",
-        "answer": "Yes, this is an excellent timing window. When both of the defender's hands are committed to neck defense, they cannot fight your hooks, grab your threading leg, or generate hip escapes effectively. Their defensive focus is entirely on the upper body threat, leaving the lower body transition largely uncontested. Increase seat belt pressure slightly to reinforce their commitment to neck defense, then begin threading smoothly. The defender faces a dilemma: abandon neck defense to fight your legs and risk being choked, or allow the body triangle to lock and face compounding pressure from both the squeeze and continued choke threats."
+        "answer": "Yes, this is an excellent timing window. When both of the defender's hands are committed to neck defense, they cannot fight your hooks, grab your threading leg, or generate hip escapes effectively. Their defensive focus is entirely on the upper body threat, leaving the lower body transition largely uncontested. Increase seat belt pressure slightly to reinforce their commitment to neck defense, then begin threading smoothly. The defender faces a dilemma: abandon neck defense to fight your legs and risk being choked, or allow the body triangle to lock and face compounding pressure from both the squeeze and continued choke threats.",
+        "answer_line": "Yes, thread legs while hands defend",
+        "distractors": {
+          "plausible": [
+            "No, finish the choke first",
+            "Wait for a hand to come free"
+          ],
+          "trap": [
+            "Loosen seat belt to thread faster"
+          ]
+        }
       },
       {
         "question": "After locking the body triangle, you realize the lock has slipped too low around the defender's hips rather than their lower ribs — how do you correct this without losing the lock?",
@@ -515,7 +555,17 @@
       },
       {
         "question": "How should you adjust your overall escape strategy when you realize the attacker is likely to attempt the body triangle transition?",
-        "answer": "Shift from methodical hook-clearing escapes to more urgent, timing-based defensive actions. Increase your hip activity to make the attacker's threading timing-dependent rather than available at will. Consider initiating your own escape attempt precisely when they begin the transition — their commitment to the threading reduces their ability to counter your escape, creating a race condition where their positional upgrade competes with your escape. If you cannot prevent the transition, begin working standard body triangle escapes immediately rather than wasting energy on hook-clearing sequences that no longer apply."
+        "answer": "Shift from methodical hook-clearing escapes to more urgent, timing-based defensive actions. Increase your hip activity to make the attacker's threading timing-dependent rather than available at will. Consider initiating your own escape attempt precisely when they begin the transition — their commitment to the threading reduces their ability to counter your escape, creating a race condition where their positional upgrade competes with your escape. If you cannot prevent the transition, begin working standard body triangle escapes immediately rather than wasting energy on hook-clearing sequences that no longer apply.",
+        "answer_line": "Race your escape as they transition",
+        "distractors": {
+          "plausible": [
+            "Keep clearing hooks methodically",
+            "Start body-triangle escapes now"
+          ],
+          "trap": [
+            "Roll belly-down to shake them"
+          ]
+        }
       }
     ],
     "training_progressions": [

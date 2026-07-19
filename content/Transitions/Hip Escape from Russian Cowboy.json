@@ -256,15 +256,45 @@
     "flashcards": [
       {
         "question": "Why must the hip escape be directed toward the opponent's free leg side rather than away from the hook?",
-        "answer": "Hip escaping away from the hook gives the opponent rotational momentum to thread their second leg into truck position, which is a significant positional deterioration. Moving toward the free leg side prevents this advancement because it moves your body in the opposite direction from where the second hook would need to enter. Additionally, this direction creates the correct angle for half guard recovery by positioning your hips to trap the opponent's previously hooking leg between your knees."
+        "answer": "Hip escaping away from the hook gives the opponent rotational momentum to thread their second leg into truck position, which is a significant positional deterioration. Moving toward the free leg side prevents this advancement because it moves your body in the opposite direction from where the second hook would need to enter. Additionally, this direction creates the correct angle for half guard recovery by positioning your hips to trap the opponent's previously hooking leg between your knees.",
+        "answer_line": "Denies second hook / truck entry",
+        "distractors": {
+          "plausible": [
+            "Recovers half guard first",
+            "Frees your hooked leg first"
+          ],
+          "trap": [
+            "Hip escape away from the hook"
+          ]
+        }
       },
       {
         "question": "What is the correct priority sequence before initiating the hip escape movement?",
-        "answer": "The priority sequence is neck defense first, frame establishment second, hook control third, and hip escape execution fourth. Neck defense must be absolute priority because attempting to escape while a choke is being set accelerates the finish. Frames must be in place before hip escaping because without them the opponent will simply follow your movement and maintain chest contact. Hook control ensures the escape creates actual separation rather than the hook riding with your movement."
+        "answer": "The priority sequence is neck defense first, frame establishment second, hook control third, and hip escape execution fourth. Neck defense must be absolute priority because attempting to escape while a choke is being set accelerates the finish. Frames must be in place before hip escaping because without them the opponent will simply follow your movement and maintain chest contact. Hook control ensures the escape creates actual separation rather than the hook riding with your movement.",
+        "answer_line": "Defend the neck first",
+        "distractors": {
+          "plausible": [
+            "Frame up before neck defense",
+            "Control hooks, then frame"
+          ],
+          "trap": [
+            "Hip escape right away"
+          ]
+        }
       },
       {
         "question": "Your opponent begins tightening their seatbelt grip as you start to frame - how do you adjust your escape timing?",
-        "answer": "Abandon the current escape timing and return to full survival defense. Maintain your frame passively without committing to the hip escape while the opponent is actively tightening control. Wait for their next grip adjustment or positional shift, which will create a momentary loosening of control. The escape window typically appears when the opponent transitions between grip configurations, adjusts their hook depth, or shifts weight to set up a submission attempt. Patience is essential as forcing the escape against a tightening grip wastes energy and risks worse position."
+        "answer": "Abandon the current escape timing and return to full survival defense. Maintain your frame passively without committing to the hip escape while the opponent is actively tightening control. Wait for their next grip adjustment or positional shift, which will create a momentary loosening of control. The escape window typically appears when the opponent transitions between grip configurations, adjusts their hook depth, or shifts weight to set up a submission attempt. Patience is essential as forcing the escape against a tightening grip wastes energy and risks worse position.",
+        "answer_line": "Pause; wait for grip to loosen",
+        "distractors": {
+          "plausible": [
+            "Escape faster before it locks",
+            "Bridge hard to break the grip"
+          ],
+          "trap": [
+            "Turn belly-down to bail out"
+          ]
+        }
       },
       {
         "question": "What is the most critical mechanical detail that determines whether the hook extraction succeeds or fails?",
@@ -310,11 +340,31 @@
       },
       {
         "question": "After successfully clearing the hook, what must happen immediately to prevent the opponent from re-establishing control?",
-        "answer": "The moment the hook clears, close your knees together to trap the opponent's leg in half guard and insert your inside knee as a shield across their hip. This transition must be seamless with zero delay because the opponent will immediately attempt to re-insert the hook or transition to a different control position. Simultaneously begin turning to face the opponent and fight for the underhook to establish an offensive half guard rather than remaining on your side where they can easily re-take the back."
+        "answer": "The moment the hook clears, close your knees together to trap the opponent's leg in half guard and insert your inside knee as a shield across their hip. This transition must be seamless with zero delay because the opponent will immediately attempt to re-insert the hook or transition to a different control position. Simultaneously begin turning to face the opponent and fight for the underhook to establish an offensive half guard rather than remaining on your side where they can easily re-take the back.",
+        "answer_line": "Close knees, trap leg in half guard",
+        "distractors": {
+          "plausible": [
+            "Frame the hips and push away",
+            "Grab underhook before trapping leg"
+          ],
+          "trap": [
+            "Turn away to flatten the opponent"
+          ]
+        }
       },
       {
         "question": "How does energy management differ between the quick shrimp variant and the gradual frame-and-escape variant?",
-        "answer": "The quick shrimp variant requires reserving energy for a single explosive burst during a brief window, making it high-energy per attempt but efficient if successful on the first try. The gradual frame-and-escape variant distributes energy across multiple micro-movements over a longer timeframe, each creating incremental distance. Choose the quick variant when you identify a clear window and have energy reserves. Choose the gradual variant when the opponent has tight control and you need to conserve energy while working systematically, as forcing explosive attempts against tight control wastes energy rapidly."
+        "answer": "The quick shrimp variant requires reserving energy for a single explosive burst during a brief window, making it high-energy per attempt but efficient if successful on the first try. The gradual frame-and-escape variant distributes energy across multiple micro-movements over a longer timeframe, each creating incremental distance. Choose the quick variant when you identify a clear window and have energy reserves. Choose the gradual variant when the opponent has tight control and you need to conserve energy while working systematically, as forcing explosive attempts against tight control wastes energy rapidly.",
+        "answer_line": "One explosive burst vs steady drip",
+        "distractors": {
+          "plausible": [
+            "Quick conserves, gradual explodes",
+            "Both rely on explosive bursts"
+          ],
+          "trap": [
+            "Explode hard against tight control"
+          ]
+        }
       }
     ],
     "safety_considerations": "Hip escape movements from Russian Cowboy involve significant spinal rotation and hip mobility demands. Avoid explosive twisting when the opponent has deep hook engagement, as this can strain knee ligaments or lower back musculature. During training, communicate clearly with your partner if the hook creates uncomfortable pressure on your inner thigh or groin area. Tap immediately to any neck attack that materializes during the escape attempt rather than fighting through potential cervical spine compression. When drilling at high intensity, ensure adequate warm-up of hip flexors and lower back before practicing escape sequences.",
@@ -437,11 +487,31 @@
       },
       {
         "question": "Why is following the hip escape with your own hip movement more effective than anchoring in place?",
-        "answer": "Static anchoring relies entirely on grip strength and hook tension to resist the escape, which is an energy-intensive approach that the bottom player can overcome through repeated shrimps creating cumulative distance. Following with your own hips maintains the same relative body position and chest contact without requiring excessive grip strength, using your body weight and structural alignment rather than muscular effort. This approach also keeps your hook depth constant regardless of how many shrimps the bottom player executes, making the escape mechanically impossible rather than merely difficult."
+        "answer": "Static anchoring relies entirely on grip strength and hook tension to resist the escape, which is an energy-intensive approach that the bottom player can overcome through repeated shrimps creating cumulative distance. Following with your own hips maintains the same relative body position and chest contact without requiring excessive grip strength, using your body weight and structural alignment rather than muscular effort. This approach also keeps your hook depth constant regardless of how many shrimps the bottom player executes, making the escape mechanically impossible rather than merely difficult.",
+        "answer_line": "Follow with hips to keep depth",
+        "distractors": {
+          "plausible": [
+            "Squeeze grips harder each shrimp",
+            "Tighten hooks to stop the shrimp"
+          ],
+          "trap": [
+            "Release hooks to reposition"
+          ]
+        }
       },
       {
         "question": "When should you attempt to advance to truck rather than simply maintaining Russian Cowboy control?",
-        "answer": "Advance to truck when the bottom player commits to a hip escape that separates their knees, creating the space needed to thread your second hook. The ideal moment is during the peak of their shrimping motion when their leg separation is greatest and their attention is focused on the escape movement rather than knee defense. However, only attempt this when you are confident in your truck entry timing, as a failed second hook insertion can result in losing your original hook depth and weakening your overall control position."
+        "answer": "Advance to truck when the bottom player commits to a hip escape that separates their knees, creating the space needed to thread your second hook. The ideal moment is during the peak of their shrimping motion when their leg separation is greatest and their attention is focused on the escape movement rather than knee defense. However, only attempt this when you are confident in your truck entry timing, as a failed second hook insertion can result in losing your original hook depth and weakening your overall control position.",
+        "answer_line": "When their shrimp splits the knees",
+        "distractors": {
+          "plausible": [
+            "As soon as you sink the first hook",
+            "When they flatten and stop moving"
+          ],
+          "trap": [
+            "When they drive forward to stand"
+          ]
+        }
       }
     ],
     "training_progressions": [

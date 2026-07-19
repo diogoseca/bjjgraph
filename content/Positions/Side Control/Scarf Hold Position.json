@@ -890,7 +890,17 @@
   "flashcards_position": [
     {
       "question": "What structural configuration defines Scarf Hold Position and distinguishes it from orthodox side control?",
-      "answer": "Scarf Hold is defined by a perpendicular, T-shaped orientation in which the top player sits alongside the opponent's head-and-shoulder line rather than lying square across the torso as in orthodox side control. The top player's hips settle low beside the opponent's near ribs while their torso angles over the chest and faces toward the opponent's head, wrapping it with one arm and trapping the near arm with the other. This lengthwise alignment rotates the primary force vector roughly ninety degrees relative to standard side control, which is precisely why parallel-pressure escapes fail here. The result is a pin whose mechanics resemble judo's kesa gatame far more than the crossface-and-underhook geometry of sport side control."
+      "answer": "Scarf Hold is defined by a perpendicular, T-shaped orientation in which the top player sits alongside the opponent's head-and-shoulder line rather than lying square across the torso as in orthodox side control. The top player's hips settle low beside the opponent's near ribs while their torso angles over the chest and faces toward the opponent's head, wrapping it with one arm and trapping the near arm with the other. This lengthwise alignment rotates the primary force vector roughly ninety degrees relative to standard side control, which is precisely why parallel-pressure escapes fail here. The result is a pin whose mechanics resemble judo's kesa gatame far more than the crossface-and-underhook geometry of sport side control.",
+      "answer_line": "Perpendicular, head-side T-shape",
+      "distractors": {
+        "plausible": [
+          "Square chest-to-chest crossface",
+          "Head wrap, trap far arm"
+        ],
+        "trap": [
+          "Float hips high, straddle chest"
+        ]
+      }
     },
     {
       "question": "Which three control points must simultaneously be present for the position to function as a genuine scarf hold?",

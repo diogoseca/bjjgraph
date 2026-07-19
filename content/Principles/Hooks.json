@@ -483,7 +483,17 @@
     },
     {
       "question": "Which parts of the foot create an effective hook, and why does it matter?",
-      "answer": "The instep (inside curve of the foot) for hooks that wrap behind legs, and the heel for hooks that dig into inner thighs. The top of the foot has no natural curve, so hooks built on it provide weak attachment that slides off under pressure."
+      "answer": "The instep (inside curve of the foot) for hooks that wrap behind legs, and the heel for hooks that dig into inner thighs. The top of the foot has no natural curve, so hooks built on it provide weak attachment that slides off under pressure.",
+      "answer_line": "Instep and heel — the curved parts",
+      "distractors": {
+        "plausible": [
+          "Ball of foot and the toes",
+          "Arch and outer edge of foot"
+        ],
+        "trap": [
+          "Top of foot pressed on shin"
+        ]
+      }
     },
     {
       "question": "Why is relying on a single hook risky?",

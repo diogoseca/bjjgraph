@@ -258,7 +258,17 @@
       },
       {
         "question": "Why do you create hip angle rather than pulling the leg straight back?",
-        "answer": "Pulling straight back fights against the opponent's leg configuration directly, exhausting energy and potentially tightening their control. Hip rotation toward their far leg creates a diagonal threading angle that allows your leg to slip through the entanglement along the path of least resistance."
+        "answer": "Pulling straight back fights against the opponent's leg configuration directly, exhausting energy and potentially tightening their control. Hip rotation toward their far leg creates a diagonal threading angle that allows your leg to slip through the entanglement along the path of least resistance.",
+        "answer_line": "Diagonal angle frees the leg",
+        "distractors": {
+          "plausible": [
+            "Angle adds more pulling power",
+            "Rotate hips to break their grips"
+          ],
+          "trap": [
+            "Turn away to yank leg free"
+          ]
+        }
       },
       {
         "question": "When is the optimal timing window to initiate Single Leg X Recovery?",

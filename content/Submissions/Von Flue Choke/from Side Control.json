@@ -319,7 +319,17 @@
       {
         "question": "What is the correct action to take the moment your opponent releases their guillotine grip during a Von Flue choke attempt?",
         "answer": "The moment your opponent releases their guillotine grip, you must immediately remove all shoulder pressure from their neck and consolidate your side control position. Continuing to apply pressure after they've released their grip is both unnecessary and dangerous—the submission is complete when they let go of their offensive grip. Your goal was to force them to release the guillotine, and once achieved, the technique is finished. Continuing to apply pressure would be applying a choke to a defenseless opponent, which violates safety principles and good training partnership.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Ease off neck, secure side control",
+        "distractors": {
+          "plausible": [
+            "Jump to mount right away",
+            "Base out and stand up"
+          ],
+          "trap": [
+            "Keep driving the shoulder in"
+          ]
+        }
       },
       {
         "question": "How does walking your hips toward the opponent's head improve the Von Flue choke's effectiveness, and what defensive option does it remove?",
@@ -354,7 +364,17 @@
       {
         "question": "What are at least three valid tap signals a partner might use when caught in a Von Flue choke, and why is recognizing these signals especially important for this submission?",
         "answer": "Valid tap signals include: 1) Verbal tap (calling out 'tap' or making verbal distress sounds), 2) Physical hand tap on your body or the mat, 3) Physical foot tap on the mat, 4) Releasing the guillotine grip immediately, and 5) Body going limp (indicating unconsciousness). Recognizing these signals is especially important for the Von Flue because the opponent's arms may be trapped in their own guillotine grip, limiting their ability to tap with their hands. Verbal taps become particularly important, as does watching for their grip to loosen (which often indicates impending unconsciousness). You must be hypersensitive to any indication they want to tap, including changes in their breathing or grip pressure.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Verbal tap; hands trapped in grip",
+        "distractors": {
+          "plausible": [
+            "Foot tap outranks a verbal tap",
+            "Any grunt means stop immediately"
+          ],
+          "trap": [
+            "Wait for a clear hand tap"
+          ]
+        }
       },
       {
         "question": "Your opponent is stubbornly holding their guillotine grip despite your shoulder pressure. What indicators suggest they are approaching unconsciousness, and what should you do?",
@@ -389,12 +409,32 @@
       {
         "question": "Why does the Von Flue work specifically against opponents holding a guillotine from bottom position but not against other defensive configurations?",
         "answer": "The Von Flue only works against opponents holding a guillotine because their own arm creates half of the choking mechanism. When they hold the guillotine grip from bottom, their forearm crosses their own neck, compressing one carotid artery from the inside. Your shoulder then compresses the opposite carotid from the outside. Without their guillotine grip in place, your shoulder pressure alone only compresses one side of the neck, which is insufficient to cause a blood choke. This is why the technique is specifically a counter to the guillotine—it weaponizes their offensive grip against them. Against other defensive positions, this same shoulder pressure would at best be uncomfortable but not create a submission.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Their grip supplies half the choke",
+        "distractors": {
+          "plausible": [
+            "Shoulder alone chokes both sides",
+            "Drive shoulder to the free side"
+          ],
+          "trap": [
+            "Yank your head out the front"
+          ]
+        }
       },
       {
         "question": "During competition, your opponent is caught in your Von Flue but neither taps nor releases their grip as time expires. What is the correct response?",
         "answer": "You must release the submission immediately when time expires, regardless of how close the finish seemed. In competition, the referee will stop the match and you cannot continue the submission after time. From a safety perspective, your opponent may have been about to go unconscious but time saved them. Never try to hold the submission hoping the referee doesn't notice time has expired. Additionally, this scenario demonstrates why competition finishing requires faster pressure application than training—in competition, you may need to apply firmer pressure within the rules to get the tap before time runs out, while always maintaining control to release instantly when required.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release the instant time expires",
+        "distractors": {
+          "plausible": [
+            "Hold until the referee stops you",
+            "Loosen only after they release grip"
+          ],
+          "trap": [
+            "Keep cranking past the buzzer"
+          ]
+        }
       },
       {
         "question": "What crossface grip configuration provides the best control during the Von Flue, and how does it enhance the finishing mechanics?",
@@ -414,7 +454,17 @@
       {
         "question": "Your training partner has been caught in two Von Flue chokes this session and now seems reluctant to attempt guillotines. How should you interpret this and what training adjustment should you make?",
         "answer": "This reluctance demonstrates the secondary strategic value of the Von Flue—it serves as a deterrent that changes opponent behavior. When training partners know you can counter their guillotine with the Von Flue, they become hesitant to hold the grip from bottom position, which actually makes your guard passing easier. However, for their development, you should now give them space to practice guillotines without immediately countering with the Von Flue. Consider alternating rounds where you allow the guillotine to develop so they can work their technique, versus rounds where you apply the counter. Good training partnership means developing both practitioners, not just demonstrating your counters repeatedly.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Alternate rounds, let them work it",
+        "distractors": {
+          "plausible": [
+            "Keep countering to prove dominance",
+            "Make Von Flue your go-to pass"
+          ],
+          "trap": [
+            "Posture up to escape the guillotine"
+          ]
+        }
       },
       {
         "question": "Which anatomical structures does the Von Flue Choke compress to force the tap?",
@@ -770,7 +820,17 @@
       {
         "question": "Your guillotine is deep but the top player drops their shoulder onto your neck — what is the highest-percentage defense?",
         "answer": "Release the guillotine immediately and turn in to recover guard or scramble before the carotid is sealed. A surrendered grip and a conceded pass are far better than going unconscious clinging to the choke.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Release grip, turn in to guard",
+        "distractors": {
+          "plausible": [
+            "Bridge hard to bump him off",
+            "Frame free arm and hip out"
+          ],
+          "trap": [
+            "Crank the choke before it fades"
+          ]
+        }
       },
       {
         "question": "Why is holding a guillotine to the death from bottom dangerous against a passing opponent?",

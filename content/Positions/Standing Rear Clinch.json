@@ -452,7 +452,17 @@
       },
       {
         "question": "How do you manage energy expenditure in Standing Rear Clinch during a long competition match?",
-        "answer": "Use structural pressure rather than muscular effort by letting your body weight do the work through chest-to-back connection and hip positioning. Avoid squeezing grips with maximum force continuously; instead, maintain moderate grip tension and pulse tighter only when the opponent initiates escapes. Keep your breathing controlled and use the position to rest relative to your opponent, who is carrying your weight and fighting to escape. Transition to ground control within 30-90 seconds rather than stalling in the standing clinch indefinitely, as prolonged standing grappling drains both players."
+        "answer": "Use structural pressure rather than muscular effort by letting your body weight do the work through chest-to-back connection and hip positioning. Avoid squeezing grips with maximum force continuously; instead, maintain moderate grip tension and pulse tighter only when the opponent initiates escapes. Keep your breathing controlled and use the position to rest relative to your opponent, who is carrying your weight and fighting to escape. Transition to ground control within 30-90 seconds rather than stalling in the standing clinch indefinitely, as prolonged standing grappling drains both players.",
+        "answer_line": "Structural pressure, not muscling",
+        "distractors": {
+          "plausible": [
+            "Max grip squeeze nonstop",
+            "Stall standing to burn clock"
+          ],
+          "trap": [
+            "Sit to guard to rest"
+          ]
+        }
       },
       {
         "question": "Your opponent partially escapes by creating 6 inches of space between your chest and their back but you still have one arm around their waist - how do you recover full control?",
@@ -958,7 +968,17 @@
     },
     {
       "question": "How does the standing nature of this position create a mutual race against time for both players?",
-      "answer": "Because neither player is anchored to the mat, the position is inherently unstable and cannot be held indefinitely by either side. Every second the rear player spends consolidating grip, weight, and hip angle shrinks the front player's escape window, so delay favors the attacker. Conversely, the front player's best odds come from immediate hand-fighting and level changes before that consolidation completes. This shared clock is why the position typically resolves within seconds into either a takedown, a back take, or an escape rather than a prolonged standing stalemate."
+      "answer": "Because neither player is anchored to the mat, the position is inherently unstable and cannot be held indefinitely by either side. Every second the rear player spends consolidating grip, weight, and hip angle shrinks the front player's escape window, so delay favors the attacker. Conversely, the front player's best odds come from immediate hand-fighting and level changes before that consolidation completes. This shared clock is why the position typically resolves within seconds into either a takedown, a back take, or an escape rather than a prolonged standing stalemate.",
+      "answer_line": "Unstable; delay favors the attacker",
+      "distractors": {
+        "plausible": [
+          "Front player wins by waiting",
+          "Both benefit from slowing down"
+        ],
+        "trap": [
+          "Sit to guard to stabilize"
+        ]
+      }
     },
     {
       "question": "What role does controlling the front player's posture play in the stability of Standing Rear Clinch?",

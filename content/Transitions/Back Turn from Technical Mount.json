@@ -285,7 +285,17 @@
       },
       {
         "question": "Why is a half-committed turn more dangerous than either staying in technical mount or completing the full turn?",
-        "answer": "A half-turn creates simultaneous vulnerability to both armbar and back attacks without the defensive benefits of either position. In technical mount, your arms are threatened but you can still frame and escape. With a completed back turn, your back is exposed but your arms are protected and tucked. A half-turn exposes your back while keeping your arm extended and available for armbar—the opponent can choose the higher-percentage attack from two options rather than being limited to one."
+        "answer": "A half-turn creates simultaneous vulnerability to both armbar and back attacks without the defensive benefits of either position. In technical mount, your arms are threatened but you can still frame and escape. With a completed back turn, your back is exposed but your arms are protected and tucked. A half-turn exposes your back while keeping your arm extended and available for armbar—the opponent can choose the higher-percentage attack from two options rather than being limited to one.",
+        "answer_line": "Exposed to armbar and back at once",
+        "distractors": {
+          "plausible": [
+            "Back briefly exposed during turn",
+            "Mostly the loss of framing arms"
+          ],
+          "trap": [
+            "Finish turning to hide the back"
+          ]
+        }
       },
       {
         "question": "Your opponent blocks your initial rotation attempt by driving their weight onto your far shoulder—how do you adjust?",

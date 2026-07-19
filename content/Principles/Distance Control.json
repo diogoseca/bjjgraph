@@ -417,7 +417,17 @@
     },
     {
       "question": "Why must a frame be established before initiating hip movement?",
-      "answer": "The frame creates a rigid pivot point and stops the opponent from simply following your hips; shrimping without one just slides you across the mat while they keep full compression."
+      "answer": "The frame creates a rigid pivot point and stops the opponent from simply following your hips; shrimping without one just slides you across the mat while they keep full compression.",
+      "answer_line": "Creates a pivot they can't follow",
+      "distractors": {
+        "plausible": [
+          "Shrimp first to open the space",
+          "Frames just ease the chest pressure"
+        ],
+        "trap": [
+          "Turn belly-down to slide free"
+        ]
+      }
     },
     {
       "question": "Why is space best created in increments rather than one explosive movement?",

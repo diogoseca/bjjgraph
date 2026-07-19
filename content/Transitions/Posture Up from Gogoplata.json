@@ -330,7 +330,17 @@
       },
       {
         "question": "You feel the shin sliding off your throat during posture recovery - what risk must you immediately manage?",
-        "answer": "As the shin displaces, the bottom player will likely attempt to transition to triangle choke by switching to a leg-over-shoulder configuration, or to omoplata if you have turned toward the attacking leg. Keep your elbows tight to your body, maintain forward-facing posture, and immediately control both of the opponent's legs to prevent them from establishing either alternative submission attack."
+        "answer": "As the shin displaces, the bottom player will likely attempt to transition to triangle choke by switching to a leg-over-shoulder configuration, or to omoplata if you have turned toward the attacking leg. Keep your elbows tight to your body, maintain forward-facing posture, and immediately control both of the opponent's legs to prevent them from establishing either alternative submission attack.",
+        "answer_line": "Control both legs, deny triangle",
+        "distractors": {
+          "plausible": [
+            "Widen elbows to rebuild frames",
+            "Sit up and posture before hands"
+          ],
+          "trap": [
+            "Turn in toward the attacking leg"
+          ]
+        }
       },
       {
         "question": "What physical indicator tells you the escape is succeeding and you should commit to full head extraction?",

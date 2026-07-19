@@ -312,12 +312,32 @@
       {
         "question": "What must be established before you begin applying hip extension pressure for the finish?",
         "answer": "Three elements must be secured before applying pressure: first, your shin must be positioned precisely behind the knee crease, not on the thigh or upper calf. Second, the opponent's foot must be controlled and pulled against your chest to lock the knee angle. Third, your legs must be figure-foured or triangled around the opponent's thigh to create a structural lock that prevents your shin from being displaced under pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Triangle legs around the thigh",
+        "distractors": {
+          "plausible": [
+            "Pin shin to the thigh, not crease",
+            "Pull foot to chest, then set shin"
+          ],
+          "trap": [
+            "Extend hips before locking legs"
+          ]
+        }
       },
       {
         "question": "At what point does the calf slicer become inescapable for the defender?",
         "answer": "The submission becomes extremely difficult to escape once the attacker has locked the leg triangle around the thigh, secured the foot against their chest, and begun hip extension. At that point, the opponent cannot straighten their leg due to the triangle lock, cannot push the shin out due to the structural frame, and cannot create slack because the foot is controlled. The only viable escape at this stage is to tap before the compression reaches injurious levels.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Leg triangle locked, hips extend",
+        "distractors": {
+          "plausible": [
+            "Once the knee is isolated",
+            "When foot pins to the chest"
+          ],
+          "trap": [
+            "Not until the pain sets in"
+          ]
+        }
       },
       {
         "question": "What is the most common finishing error with the calf slicer from Carni and how do you correct it?",
@@ -494,7 +514,17 @@
       {
         "question": "How do you recognize that a calf slicer is being set up from Carni rather than a heel hook?",
         "answer": "The key recognition cues are the attacker repositioning their lower leg to thread behind your knee crease rather than maintaining heel hook grips, and feeling a hard bony surface settling into the soft tissue behind your knee joint. The attacker's focus shifts from controlling your heel to controlling your foot and pulling your toes toward their chest. Their hips begin extending outward rather than rotating for heel hook torque.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Shin bone behind your knee crease",
+        "distractors": {
+          "plausible": [
+            "Twisting torque on your ankle",
+            "Grips heel, foot pulled tight"
+          ],
+          "trap": [
+            "Just harmless leg control"
+          ]
+        }
       },
       {
         "question": "What is the safest approach to tapping when caught in a calf slicer from Carni?",

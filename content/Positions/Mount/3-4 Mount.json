@@ -982,7 +982,17 @@
     },
     {
       "question": "How does the heavy-side/light-side gradient govern the shared bridge-and-escape logic of the position?",
-      "answer": "Because the mounted side is loaded and the posted side is offloaded, the position presents a fixed pressure gradient that dictates how both players fight over it. Force applied toward the heavy, mounted side meets a solid base and is largely absorbed, so a bridge directed there disrupts the top player's balance without opening a clean exit. The light, posted side is where the base is thin and escape angles actually live, so movement toward it meets less resistance. Both players read the same gradient in opposite directions: the top player keeps weight biased toward the heavy side to preserve control, while the bottom player disrupts the base then travels toward the light side."
+      "answer": "Because the mounted side is loaded and the posted side is offloaded, the position presents a fixed pressure gradient that dictates how both players fight over it. Force applied toward the heavy, mounted side meets a solid base and is largely absorbed, so a bridge directed there disrupts the top player's balance without opening a clean exit. The light, posted side is where the base is thin and escape angles actually live, so movement toward it meets less resistance. Both players read the same gradient in opposite directions: the top player keeps weight biased toward the heavy side to preserve control, while the bottom player disrupts the base then travels toward the light side.",
+      "answer_line": "Bridge heavy, escape to light side",
+      "distractors": {
+        "plausible": [
+          "Shrimp toward the loaded side",
+          "Post and turn before bridging"
+        ],
+        "trap": [
+          "Turn belly-down and posture up"
+        ]
+      }
     },
     {
       "question": "Why is the 3-4 Mount considered a transitional position rather than a static holding position?",

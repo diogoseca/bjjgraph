@@ -221,15 +221,45 @@
     "flashcards": [
       {
         "question": "What distinguishes the anaconda choke from the Darce choke in terms of arm threading?",
-        "answer": "The anaconda threads from the front, going under the opponent's near arm and then around their neck with hands connecting on the far side. The Darce threads from behind/under the armpit, going across the neck and connecting hands on the near side. Both are arm-in head-and-arm chokes but with opposite threading directions that require different finishing mechanics."
+        "answer": "The anaconda threads from the front, going under the opponent's near arm and then around their neck with hands connecting on the far side. The Darce threads from behind/under the armpit, going across the neck and connecting hands on the near side. Both are arm-in head-and-arm chokes but with opposite threading directions that require different finishing mechanics.",
+        "answer_line": "Anaconda far side, Darce near side",
+        "distractors": {
+          "plausible": [
+            "Both connect hands on the far side",
+            "Anaconda behind, Darce from front"
+          ],
+          "trap": [
+            "Feed both arms under, roll to back"
+          ]
+        }
       },
       {
         "question": "What is the optimal grip configuration for the anaconda choke and why?",
-        "answer": "The gable grip (palm-to-palm) provides optimal structural integrity because it distributes force across both arms equally and is extremely difficult for opponents to break through hand fighting. Keep wrists straight and forearms parallel while pulling elbows tight together. The S-grip is acceptable when hand position doesn't allow gable grip but provides slightly less strength."
+        "answer": "The gable grip (palm-to-palm) provides optimal structural integrity because it distributes force across both arms equally and is extremely difficult for opponents to break through hand fighting. Keep wrists straight and forearms parallel while pulling elbows tight together. The S-grip is acceptable when hand position doesn't allow gable grip but provides slightly less strength.",
+        "answer_line": "Gable grip, palms together",
+        "distractors": {
+          "plausible": [
+            "S-grip to lock it tight",
+            "Figure-four on your own biceps"
+          ],
+          "trap": [
+            "Interlace your fingers tight"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their hand to block your gator roll - how do you adjust?",
-        "answer": "You have two options: First, maintain grip and chest pressure while walking your hips further to the opposite side to change the roll angle and work around their post. Second, abandon the roll and finish standing by pulling up on the grip while driving your chest down and sprawling your hips back. The standing finish is higher percentage against strong posters."
+        "answer": "You have two options: First, maintain grip and chest pressure while walking your hips further to the opposite side to change the roll angle and work around their post. Second, abandon the roll and finish standing by pulling up on the grip while driving your chest down and sprawling your hips back. The standing finish is higher percentage against strong posters.",
+        "answer_line": "Abandon roll, finish standing",
+        "distractors": {
+          "plausible": [
+            "Walk hips to the same side",
+            "Force the roll through their arm"
+          ],
+          "trap": [
+            "Turn belly-down and post up"
+          ]
+        }
       },
       {
         "question": "What is the correct direction of force application when finishing the anaconda choke?",
@@ -247,19 +277,59 @@
       },
       {
         "question": "Your opponent pulls their trapped arm free during your anaconda setup - what immediate adjustment do you make?",
-        "answer": "Immediately transition to Darce choke by sliding your choking arm deeper across their neck and threading to the far shoulder. The arm escape actually opens the Darce angle that wasn't available with the arm trapped inside. Never try to re-trap the arm - flow to the submission that their defensive movement creates."
+        "answer": "Immediately transition to Darce choke by sliding your choking arm deeper across their neck and threading to the far shoulder. The arm escape actually opens the Darce angle that wasn't available with the arm trapped inside. Never try to re-trap the arm - flow to the submission that their defensive movement creates.",
+        "answer_line": "Flow to the Darce choke",
+        "distractors": {
+          "plausible": [
+            "Re-trap the arm, keep anaconda",
+            "Switch to a guillotine grip"
+          ],
+          "trap": [
+            "Chase the anaconda roll anyway"
+          ]
+        }
       },
       {
         "question": "What three conditions must be met before initiating the gator roll?",
-        "answer": "First, grip must be locked tight with no gaps between your forearms and their neck/shoulder. Second, chest pressure must have broken opponent's posture so their head is pulled down. Third, their base must be compromised (usually by walking your hips to one side). Committing to the roll without all three conditions allows posting, grip breaks, or position escapes."
+        "answer": "First, grip must be locked tight with no gaps between your forearms and their neck/shoulder. Second, chest pressure must have broken opponent's posture so their head is pulled down. Third, their base must be compromised (usually by walking your hips to one side). Committing to the roll without all three conditions allows posting, grip breaks, or position escapes.",
+        "answer_line": "Grip tight, posture broken, off base",
+        "distractors": {
+          "plausible": [
+            "Break posture, ignore the base",
+            "Loose grip ok if posture broken"
+          ],
+          "trap": [
+            "Commit to the roll right away"
+          ]
+        }
       },
       {
         "question": "Why does the arm-in configuration make the anaconda particularly difficult to defend once locked?",
-        "answer": "The trapped arm actually reinforces the choking mechanism rather than creating defensive space. When the opponent tries to pull their arm out, they often tighten the choke on themselves. Their trapped shoulder becomes part of the choking structure, pressing against one side of their neck while your bicep presses the other side. This leaves only one free hand to fight the grip versus two in a standard guillotine."
+        "answer": "The trapped arm actually reinforces the choking mechanism rather than creating defensive space. When the opponent tries to pull their arm out, they often tighten the choke on themselves. Their trapped shoulder becomes part of the choking structure, pressing against one side of their neck while your bicep presses the other side. This leaves only one free hand to fight the grip versus two in a standard guillotine.",
+        "answer_line": "Trapped arm tightens the choke",
+        "distractors": {
+          "plausible": [
+            "Blocks the airway more quickly",
+            "Compresses the windpipe harder"
+          ],
+          "trap": [
+            "Turn toward opponent to escape"
+          ]
+        }
       },
       {
         "question": "How do you manage energy expenditure during extended anaconda control exchanges?",
-        "answer": "Rely on skeletal structure and body weight rather than muscular squeezing. Keep grip locked but relatively relaxed between submission attempts - constant maximum squeezing exhausts forearms without benefit. Use chest pressure from body positioning rather than pushing with arms. The position energetically favors the attacker because the defender must actively fight both the choke and positional control simultaneously."
+        "answer": "Rely on skeletal structure and body weight rather than muscular squeezing. Keep grip locked but relatively relaxed between submission attempts - constant maximum squeezing exhausts forearms without benefit. Use chest pressure from body positioning rather than pushing with arms. The position energetically favors the attacker because the defender must actively fight both the choke and positional control simultaneously.",
+        "answer_line": "Relaxed lock, weight not squeeze",
+        "distractors": {
+          "plausible": [
+            "Max squeeze the whole time",
+            "Drive chest with arm push"
+          ],
+          "trap": [
+            "Open grip to rest forearms"
+          ]
+        }
       },
       {
         "question": "When should you transition from anaconda to back take instead of continuing the choke attempt?",
@@ -277,7 +347,17 @@
       },
       {
         "question": "What role does the gator roll play in the anaconda finishing mechanics beyond simply changing position?",
-        "answer": "The gator roll serves multiple critical functions: it prevents the defender from posturing up to relieve pressure, creates optimal finishing angle with bodies perpendicular, uses momentum to tighten the choke during rotation, and lands you in a position where your body weight reinforces the squeeze. The roll also disorients the defender and eliminates their ability to post or base during the crucial tightening phase."
+        "answer": "The gator roll serves multiple critical functions: it prevents the defender from posturing up to relieve pressure, creates optimal finishing angle with bodies perpendicular, uses momentum to tighten the choke during rotation, and lands you in a position where your body weight reinforces the squeeze. The roll also disorients the defender and eliminates their ability to post or base during the crucial tightening phase.",
+        "answer_line": "Roll denies posture, cinches choke",
+        "distractors": {
+          "plausible": [
+            "Square up chest-to-chest to finish",
+            "Reset your grip mid-roll"
+          ],
+          "trap": [
+            "Loosen grip through the rotation"
+          ]
+        }
       }
     ],
     "safety_considerations": "The anaconda choke is a blood choke that can cause unconsciousness rapidly once fully locked. Always tap early in training when you feel the choke getting tight - there is no benefit to going unconscious. Partners should release immediately upon feeling a tap and remain attentive for verbal or physical tap signals throughout. When applying the choke, release pressure gradually and be prepared to catch your partner if they go unconscious. Never crank or twist the neck during the choke - all pressure should be applied to the sides of the neck through squeezing mechanics. Beginners should practice with experienced partners who understand proper tap timing. Avoid this technique if you have neck injuries, cervical spine issues, or are training with partners who don't respect tap signals.",
@@ -456,7 +536,17 @@
       },
       {
         "question": "When defending the anaconda, what breathing strategy helps you survive longer under pressure?",
-        "answer": "Take short, controlled breaths through your nose rather than gasping through your mouth. Deep panicked breaths expand your chest and can actually tighten the choking loop. Stay calm and breathe shallowly while working your defense systematically. Muscle tension from panic increases oxygen consumption, so consciously relax muscles not actively needed for escape. If you feel tunnel vision or lightheadedness starting, tap immediately rather than gambling on a last-second escape."
+        "answer": "Take short, controlled breaths through your nose rather than gasping through your mouth. Deep panicked breaths expand your chest and can actually tighten the choking loop. Stay calm and breathe shallowly while working your defense systematically. Muscle tension from panic increases oxygen consumption, so consciously relax muscles not actively needed for escape. If you feel tunnel vision or lightheadedness starting, tap immediately rather than gambling on a last-second escape.",
+        "answer_line": "Short controlled nasal breaths",
+        "distractors": {
+          "plausible": [
+            "Deep breaths to bank oxygen",
+            "Hold breath until you escape"
+          ],
+          "trap": [
+            "Gasp hard through your mouth"
+          ]
+        }
       }
     ],
     "training_progressions": [

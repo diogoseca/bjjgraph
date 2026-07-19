@@ -345,7 +345,17 @@
       },
       {
         "question": "What is the correct hip elevation angle after establishing the gogoplata from Carni?",
-        "answer": "Your pelvis should be elevated higher than your shoulders to create a perpendicular shin angle across the trachea. This elevation is achieved through core engagement and posting on your upper back and shoulders. Without sufficient hip elevation, the shin sits parallel to the throat rather than across it, eliminating compression and making the position easily escaped by simple head movement."
+        "answer": "Your pelvis should be elevated higher than your shoulders to create a perpendicular shin angle across the trachea. This elevation is achieved through core engagement and posting on your upper back and shoulders. Without sufficient hip elevation, the shin sits parallel to the throat rather than across it, eliminating compression and making the position easily escaped by simple head movement.",
+        "answer_line": "Pelvis higher than shoulders",
+        "distractors": {
+          "plausible": [
+            "Keep shoulders and hips level",
+            "Post on your feet to bridge up"
+          ],
+          "trap": [
+            "Drop hips and stack forward"
+          ]
+        }
       },
       {
         "question": "If the gogoplata control fails to fully lock, what are your immediate chain attack options?",

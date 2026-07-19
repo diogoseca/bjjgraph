@@ -529,7 +529,17 @@
       },
       {
         "question": "How does understanding the Von Flue counter change your overall approach to guillotine attacks from bottom guard?",
-        "answer": "Understanding the Von Flue counter means you must always monitor your guard integrity simultaneously with your choke progress. The guillotine is only safe while your guard prevents the lateral pass. If you sense the guard weakening, you must either finish the choke immediately or release and recover guard rather than stubbornly holding a compromised grip that could be turned into a weapon against you."
+        "answer": "Understanding the Von Flue counter means you must always monitor your guard integrity simultaneously with your choke progress. The guillotine is only safe while your guard prevents the lateral pass. If you sense the guard weakening, you must either finish the choke immediately or release and recover guard rather than stubbornly holding a compromised grip that could be turned into a weapon against you.",
+        "answer_line": "Finish fast or bail and reguard",
+        "distractors": {
+          "plausible": [
+            "Stall in guard until they tire",
+            "Switch to an armbar attack"
+          ],
+          "trap": [
+            "Crank the choke as they pass"
+          ]
+        }
       },
       {
         "question": "What leg positioning best prevents the lateral guard pass that enables the Von Flue setup?",

@@ -305,7 +305,17 @@
       },
       {
         "question": "Why is the crossface critical during the knee slide, and what happens if you skip it?",
-        "answer": "The crossface controls the opponent's head position and prevents them from turning their body toward you, which would block the cutting knee's path and enable guard recovery. Without the crossface, the opponent can freely create defensive angles, insert frames against your chest, and hip escape away from the cutting knee. The crossface also creates a mechanical lever that pins the opponent's upper body to the mat, channeling all resistance against your hip pressure through a single point of contact."
+        "answer": "The crossface controls the opponent's head position and prevents them from turning their body toward you, which would block the cutting knee's path and enable guard recovery. Without the crossface, the opponent can freely create defensive angles, insert frames against your chest, and hip escape away from the cutting knee. The crossface also creates a mechanical lever that pins the opponent's upper body to the mat, channeling all resistance against your hip pressure through a single point of contact.",
+        "answer_line": "Stops turn-in and guard recovery",
+        "distractors": {
+          "plausible": [
+            "Controls near shoulder for the pass",
+            "Frees the knee to cut across"
+          ],
+          "trap": [
+            "Free the crossface to grab the leg"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the strongest control for completing the knee slide in the gi?",
@@ -337,7 +347,17 @@
       },
       {
         "question": "What are the most common points where the knee slide fails, and how do you recognize them developing?",
-        "answer": "The pass most often fails at three points: before the cut when you initiate without crossface control and the opponent turns in; during the cut when you drive the knee straight down instead of diagonally and stall against the thigh; and after the cut when you lift your hips during trailing-leg extraction and create space for recovery. Recognize these by feeling the opponent win the underhook, your knee meeting resistance rather than sliding, or sudden space opening between your hips and theirs."
+        "answer": "The pass most often fails at three points: before the cut when you initiate without crossface control and the opponent turns in; during the cut when you drive the knee straight down instead of diagonally and stall against the thigh; and after the cut when you lift your hips during trailing-leg extraction and create space for recovery. Recognize these by feeling the opponent win the underhook, your knee meeting resistance rather than sliding, or sudden space opening between your hips and theirs.",
+        "answer_line": "No crossface: they turn in early",
+        "distractors": {
+          "plausible": [
+            "Cut knee straight down, then post",
+            "Extract trailing leg first, then cut"
+          ],
+          "trap": [
+            "Lift hips high to free the leg"
+          ]
+        }
       },
       {
         "question": "How should you distribute your weight during each phase of the knee slide?",
@@ -479,7 +499,17 @@
     "flashcards": [
       {
         "question": "What are the earliest recognition cues that a knee slide is being initiated from combat base?",
-        "answer": "The earliest cues include the opponent shifting weight forward onto their posted knee, their lead hand reaching for crossface or collar grip, and a subtle hip angle change as they prepare to drive the knee diagonally. The most reliable cue is the opponent's trailing hand moving to control your far hip or pants, signaling they are establishing the anchor needed to complete the cut. Recognizing these setup movements gives you a one-to-two second window to deploy preventive defenses before the knee begins cutting."
+        "answer": "The earliest cues include the opponent shifting weight forward onto their posted knee, their lead hand reaching for crossface or collar grip, and a subtle hip angle change as they prepare to drive the knee diagonally. The most reliable cue is the opponent's trailing hand moving to control your far hip or pants, signaling they are establishing the anchor needed to complete the cut. Recognizing these setup movements gives you a one-to-two second window to deploy preventive defenses before the knee begins cutting.",
+        "answer_line": "Trailing hand grips your far hip",
+        "distractors": {
+          "plausible": [
+            "Lead hand dives for crossface grip",
+            "Weight loads onto their posted knee"
+          ],
+          "trap": [
+            "Knee already sliced across belly"
+          ]
+        }
       },
       {
         "question": "When is the latest possible moment to successfully defend a knee slide, and what defense works at that point?",
@@ -511,7 +541,17 @@
       },
       {
         "question": "Your crossface defense has failed and the passer has heavy shoulder pressure—what is your emergency recovery sequence?",
-        "answer": "When crossface defense fails, immediately protect your neck by tucking your chin and turning your face toward the passer. Get your near-side elbow to the mat as a wedge to prevent being completely flattened. Pummel your inside arm for an underhook while using your legs to clamp the cutting knee for half guard. From this compromised position, work to reinsert a knee shield by hip escaping and framing against the passer's hip. The priority shifts from preventing the pass to retaining half guard, which is significantly better than conceding full side control."
+        "answer": "When crossface defense fails, immediately protect your neck by tucking your chin and turning your face toward the passer. Get your near-side elbow to the mat as a wedge to prevent being completely flattened. Pummel your inside arm for an underhook while using your legs to clamp the cutting knee for half guard. From this compromised position, work to reinsert a knee shield by hip escaping and framing against the passer's hip. The priority shifts from preventing the pass to retaining half guard, which is significantly better than conceding full side control.",
+        "answer_line": "Tuck chin, clamp knee to half guard",
+        "distractors": {
+          "plausible": [
+            "Hip escape fully out to full guard",
+            "Underhook before saving the neck"
+          ],
+          "trap": [
+            "Roll away and turn to your knees"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -238,11 +238,31 @@
       },
       {
         "question": "Your opponent begins counter-rotating their ankle during your Estima Lock attempt—what specific signals tell you to initiate the backstep?",
-        "answer": "Key signals include: diminished pressure on the ankle despite maintaining your grip, the opponent's foot beginning to point away from the lock angle, their hips starting to create space, or their free leg establishing frames. These indicators show their defense is succeeding and continuing the Estima Lock yields diminishing returns while the leg entanglement structure remains exploitable through transition."
+        "answer": "Key signals include: diminished pressure on the ankle despite maintaining your grip, the opponent's foot beginning to point away from the lock angle, their hips starting to create space, or their free leg establishing frames. These indicators show their defense is succeeding and continuing the Estima Lock yields diminishing returns while the leg entanglement structure remains exploitable through transition.",
+        "answer_line": "Pressure fades though grip holds",
+        "distractors": {
+          "plausible": [
+            "Foot points into the lock angle",
+            "Wait till hips fully square up"
+          ],
+          "trap": [
+            "Crank through the counter-rotation"
+          ]
+        }
       },
       {
         "question": "What is the critical difference between stepping and rotating during the backstep motion?",
-        "answer": "The backstep should be executed as a hip rotation where your body pivots around the trapped leg, not as sequential stepping of individual legs. Stepping is slow and telegraphed, allowing the opponent time to react, post, and prevent Saddle establishment. Rotation is faster, maintains continuous pressure on the trapped leg, and generates momentum that carries you behind their knee line before they can establish effective defense."
+        "answer": "The backstep should be executed as a hip rotation where your body pivots around the trapped leg, not as sequential stepping of individual legs. Stepping is slow and telegraphed, allowing the opponent time to react, post, and prevent Saddle establishment. Rotation is faster, maintains continuous pressure on the trapped leg, and generates momentum that carries you behind their knee line before they can establish effective defense.",
+        "answer_line": "Rotate hips around trapped leg",
+        "distractors": {
+          "plausible": [
+            "Step one leg then the other",
+            "Pivot around your free leg"
+          ],
+          "trap": [
+            "Turn your back to spin through"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their free foot during your backstep—how do you adjust?",
@@ -260,7 +280,17 @@
       },
       {
         "question": "Why must you thread your inside leg past the opponent's far hip before locking the triangle?",
-        "answer": "Deep leg positioning creates a stronger entanglement structure that prevents the opponent from easily clearing your legs. A shallow triangle with your foot only reaching their near hip allows them to rotate their knee outward and slip free before you can establish proper Saddle control. The deeper your inside leg threads, the more difficult extraction becomes and the tighter your triangle squeeze will be."
+        "answer": "Deep leg positioning creates a stronger entanglement structure that prevents the opponent from easily clearing your legs. A shallow triangle with your foot only reaching their near hip allows them to rotate their knee outward and slip free before you can establish proper Saddle control. The deeper your inside leg threads, the more difficult extraction becomes and the tighter your triangle squeeze will be.",
+        "answer_line": "Depth stops them clearing the leg",
+        "distractors": {
+          "plausible": [
+            "Reach the near hip to lock faster",
+            "Mainly to tighten the squeeze"
+          ],
+          "trap": [
+            "Lock shallow, then adjust inside"
+          ]
+        }
       },
       {
         "question": "What grip configuration should you establish once the Saddle position is secured?",
@@ -292,7 +322,17 @@
       },
       {
         "question": "What finishing options become available from Saddle that were not possible from Estima Lock?",
-        "answer": "Saddle opens access to inside heel hooks (the highest-percentage leg lock finish in modern competition), outside heel hooks through leg configuration changes, kneebars by straightening their leg against your hip, and calf slicers by positioning your shin behind their knee. The Estima Lock only threatens the single footlock attack, while Saddle's versatility allows attacking multiple joints and adapting to defensive reactions."
+        "answer": "Saddle opens access to inside heel hooks (the highest-percentage leg lock finish in modern competition), outside heel hooks through leg configuration changes, kneebars by straightening their leg against your hip, and calf slicers by positioning your shin behind their knee. The Estima Lock only threatens the single footlock attack, while Saddle's versatility allows attacking multiple joints and adapting to defensive reactions.",
+        "answer_line": "Inside heel hook access",
+        "distractors": {
+          "plausible": [
+            "Kneebar is the top finish here",
+            "Calf slicer opens up first"
+          ],
+          "trap": [
+            "Cross your feet to lock it in"
+          ]
+        }
       },
       {
         "question": "When should you abort the Saddle transition entirely and pursue alternative positions?",
@@ -310,7 +350,17 @@
       },
       {
         "question": "How does the Rolling Backstep variant differ from standard execution and when is it appropriate?",
-        "answer": "The Rolling Backstep uses a shoulder roll while maintaining leg control to rotate into Saddle position, generating momentum through the rolling motion rather than hip rotation from a stable base. This variant is appropriate when you've been flattened by opponent's pressure and cannot execute a standing backstep, or when their downward drive creates an opportunity to use their energy against them through the roll."
+        "answer": "The Rolling Backstep uses a shoulder roll while maintaining leg control to rotate into Saddle position, generating momentum through the rolling motion rather than hip rotation from a stable base. This variant is appropriate when you've been flattened by opponent's pressure and cannot execute a standing backstep, or when their downward drive creates an opportunity to use their energy against them through the roll.",
+        "answer_line": "Shoulder roll into Saddle",
+        "distractors": {
+          "plausible": [
+            "Hip rotation from stable base",
+            "Stand up, then backstep"
+          ],
+          "trap": [
+            "Release legs to spin through"
+          ]
+        }
       }
     ],
     "safety_considerations": "The Estima Lock to Saddle transition involves rotational stress on both practitioners' knees and ankles during the backstep movement. Control your rotation speed during training to prevent sudden torque on your partner's joints. When completing the transition, establish the Saddle triangle gradually rather than explosively snapping your legs closed, which can hyperextend your partner's knee. Once in Saddle, heel hook attacks become available—these are among the most dangerous submissions in BJJ with potential for permanent knee ligament damage. Apply heel hook pressure slowly with clear communication, and tap immediately when caught. Never explosively rotate heel hooks or continue applying pressure after a tap. Partners should keep their knee aligned with their hip to prevent ACL injury during training; avoid allowing the knee to rotate inward under pressure. If either person feels sharp pain during the transition or subsequent attacks, immediately release and reset.",
@@ -441,7 +491,17 @@
       },
       {
         "question": "Why is preventing the Saddle a higher priority than defending the Estima Lock?",
-        "answer": "The Estima Lock threatens a single footlock submission with limited finishing mechanics, while the Saddle opens access to inside heel hooks, outside heel hooks, kneebars, and calf slicers—a multi-attack platform with far higher finishing rates. Additionally, Saddle defense is significantly more difficult than Estima Lock defense because the leg triangle restricts all hip movement. Allowing the Saddle transition converts a manageable defensive situation into a crisis-level one."
+        "answer": "The Estima Lock threatens a single footlock submission with limited finishing mechanics, while the Saddle opens access to inside heel hooks, outside heel hooks, kneebars, and calf slicers—a multi-attack platform with far higher finishing rates. Additionally, Saddle defense is significantly more difficult than Estima Lock defense because the leg triangle restricts all hip movement. Allowing the Saddle transition converts a manageable defensive situation into a crisis-level one.",
+        "answer_line": "Saddle = multi-attack platform",
+        "distractors": {
+          "plausible": [
+            "Estima Lock is harder to escape",
+            "Both are single footlock threats"
+          ],
+          "trap": [
+            "Defend the Estima Lock first"
+          ]
+        }
       },
       {
         "question": "Your attacker shifts their grip from your foot to your calf—what is your immediate defensive action?",
@@ -459,11 +519,31 @@
       },
       {
         "question": "The attacker has completed the backstep and their inside leg is between yours but the triangle is not yet locked—what can you still do?",
-        "answer": "Hook the attacker's far leg with your free foot to prevent them from closing the figure-four triangle, while simultaneously straightening your trapped leg to push their inside leg back out. Frame on their hips with both hands to create distance and prevent them from tightening the position. This narrow window between inside leg threading and triangle completion is your last opportunity to prevent full Saddle establishment before the position becomes significantly harder to escape."
+        "answer": "Hook the attacker's far leg with your free foot to prevent them from closing the figure-four triangle, while simultaneously straightening your trapped leg to push their inside leg back out. Frame on their hips with both hands to create distance and prevent them from tightening the position. This narrow window between inside leg threading and triangle completion is your last opportunity to prevent full Saddle establishment before the position becomes significantly harder to escape.",
+        "answer_line": "Hook far leg, block the triangle",
+        "distractors": {
+          "plausible": [
+            "Frame hips and shrimp back",
+            "Point toes, spin to your knees"
+          ],
+          "trap": [
+            "Turn belly-down and pull free"
+          ]
+        }
       },
       {
         "question": "How do you balance defending the Estima Lock footlock threat while also preventing the backstep?",
-        "answer": "Prioritize the backstep prevention over footlock defense because Saddle is a dramatically worse position than Estima Lock. Maintain basic ankle counter-rotation for footlock defense but keep your free leg active and ready to post against backstep attempts. When you detect the grip shift indicating transition, immediately abandon footlock-specific defense and commit fully to backstep prevention. Accept that perfect simultaneous defense of both threats is unrealistic and make the strategic choice to address the greater danger."
+        "answer": "Prioritize the backstep prevention over footlock defense because Saddle is a dramatically worse position than Estima Lock. Maintain basic ankle counter-rotation for footlock defense but keep your free leg active and ready to post against backstep attempts. When you detect the grip shift indicating transition, immediately abandon footlock-specific defense and commit fully to backstep prevention. Accept that perfect simultaneous defense of both threats is unrealistic and make the strategic choice to address the greater danger.",
+        "answer_line": "Stop the backstep first",
+        "distractors": {
+          "plausible": [
+            "Defend the footlock first",
+            "Split focus between both"
+          ],
+          "trap": [
+            "Kick free and turn away"
+          ]
+        }
       }
     ],
     "training_progressions": [

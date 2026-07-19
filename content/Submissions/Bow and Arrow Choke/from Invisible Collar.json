@@ -418,7 +418,17 @@
       {
         "question": "How should you release the Bow and Arrow Choke from Invisible Collar safely after your opponent taps?",
         "answer": "First, immediately release the collar grip and stop all pulling pressure. Second, release the pant grip and retract your legs from extension simultaneously. Allow your opponent's head and neck to return to a neutral position without forcing any movement. Check that your opponent is conscious and responsive. If they lost consciousness, place them on their back, elevate their legs, and monitor breathing until they recover fully. Never release the choke by suddenly dropping all control, as this can cause the opponent to fall awkwardly.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Release collar grip, stop pulling",
+        "distractors": {
+          "plausible": [
+            "Retract legs, then free collar",
+            "Free pant grip first"
+          ],
+          "trap": [
+            "Let go of everything at once"
+          ]
+        }
       }
     ],
     "clips": [
@@ -587,7 +597,17 @@
       {
         "question": "How should you manage your energy when defending a sustained Bow and Arrow attempt from Invisible Collar?",
         "answer": "Focus on efficient sustained defensive posture rather than explosive bursts that deplete quickly. The chin tuck and grip monitoring should be constant low-energy efforts. Reserve explosive movement for specific moments: when the attacker releases a hook for the transition, or when they commit the free hand to the pant reach. These are the windows where explosive defense is most effective. Avoid tensing your entire body against the choke since this accelerates fatigue without meaningfully reducing pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Conserve; burst at defensive windows",
+        "distractors": {
+          "plausible": [
+            "Explode early and often on grips",
+            "Tense everything to resist the choke"
+          ],
+          "trap": [
+            "Buck explosively into the choke"
+          ]
+        }
       }
     ],
     "training_progressions": [

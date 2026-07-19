@@ -693,7 +693,17 @@
       },
       {
         "question": "What are the essential grip priorities with your free hands when maintaining clamp guard, and in what order should you establish them?",
-        "answer": "First priority is wrist or sleeve control on the trapped arm to prevent the opponent from rotating their hand and creating the angle needed for extraction. Second priority is head or collar control on the opposite side to keep the opponent's posture broken and prevent them from generating upward leverage. Third priority is far shoulder or tricep control to limit their ability to circle their body around the clamp. In no-gi, the wrist grip uses a C-clamp on the trapped hand while the other hand cups behind the neck. Never sacrifice both hand controls simultaneously — always maintain at least one grip anchor while transitioning the other."
+        "answer": "First priority is wrist or sleeve control on the trapped arm to prevent the opponent from rotating their hand and creating the angle needed for extraction. Second priority is head or collar control on the opposite side to keep the opponent's posture broken and prevent them from generating upward leverage. Third priority is far shoulder or tricep control to limit their ability to circle their body around the clamp. In no-gi, the wrist grip uses a C-clamp on the trapped hand while the other hand cups behind the neck. Never sacrifice both hand controls simultaneously — always maintain at least one grip anchor while transitioning the other.",
+        "answer_line": "Wrist control on trapped arm first",
+        "distractors": {
+          "plausible": [
+            "Head or collar control first",
+            "Far shoulder grip before the wrist"
+          ],
+          "trap": [
+            "Release both grips to underhook"
+          ]
+        }
       },
       {
         "question": "Your opponent begins rotating their trapped arm in a circular motion to slip past the shin pressure — what adjustment maintains the trap?",

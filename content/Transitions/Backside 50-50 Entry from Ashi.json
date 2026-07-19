@@ -485,11 +485,31 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that the Backside 50-50 Entry is being attempted?",
-        "answer": "The earliest cue is the lightening or removal of the attacker's inside leg pressure from across your hip. This is the first mechanical action of the entry because the inside leg must be withdrawn to begin the rotation. You will feel the pressure on your hip suddenly decrease or disappear entirely. This is your signal to immediately begin defensive action, as the transition has been initiated and the attacker's control is at its weakest point."
+        "answer": "The earliest cue is the lightening or removal of the attacker's inside leg pressure from across your hip. This is the first mechanical action of the entry because the inside leg must be withdrawn to begin the rotation. You will feel the pressure on your hip suddenly decrease or disappear entirely. This is your signal to immediately begin defensive action, as the transition has been initiated and the attacker's control is at its weakest point.",
+        "answer_line": "Inside leg pressure leaves your hip",
+        "distractors": {
+          "plausible": [
+            "Attacker starts to rotate under you",
+            "Their feet cross behind your knee"
+          ],
+          "trap": [
+            "Outside grip tightens — sit still"
+          ]
+        }
       },
       {
         "question": "Why is leg extraction during the entry attempt more effective than after the attacker completes the transition?",
-        "answer": "During the entry, the attacker's control is reduced from three points (inside leg, outside leg hook, heel grip) to two points (outside leg hook, heel grip) because they must remove their inside leg to begin rotation. This creates the narrowest but most effective defensive window. After the transition completes, the attacker has re-established three points of control in the mirrored 50-50 configuration plus chest-to-back pressure, making extraction significantly more difficult."
+        "answer": "During the entry, the attacker's control is reduced from three points (inside leg, outside leg hook, heel grip) to two points (outside leg hook, heel grip) because they must remove their inside leg to begin rotation. This creates the narrowest but most effective defensive window. After the transition completes, the attacker has re-established three points of control in the mirrored 50-50 configuration plus chest-to-back pressure, making extraction significantly more difficult.",
+        "answer_line": "Control drops to two points",
+        "distractors": {
+          "plausible": [
+            "Heel grip isn't locked in yet",
+            "Their hips aren't square yet"
+          ],
+          "trap": [
+            "Stall until 50-50 completes"
+          ]
+        }
       },
       {
         "question": "Your heel is currently well-defended and the attacker initiates the entry - should you maintain heel defense or switch to anti-rotation defense?",

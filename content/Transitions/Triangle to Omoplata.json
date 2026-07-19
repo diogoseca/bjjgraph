@@ -546,7 +546,17 @@
       },
       {
         "question": "Your opponent has completed the leg swing and established their shin across your back—what are your remaining defensive priorities?",
-        "answer": "Once the omoplata is established, your priorities in order are: First, prevent the attacker from establishing belt or hip control with their free hand—this grip prevents your forward roll escape. Second, keep your trapped elbow as close to your body as possible to minimize shoulder rotation. Third, prepare for the forward roll escape by posting your free hand and tucking your chin. Fourth, if the roll is blocked, work to square your hips toward the attacker and walk your body backward to reduce the shoulder angle. At this stage you are defending a consolidated omoplata rather than exploiting the transition window."
+        "answer": "Once the omoplata is established, your priorities in order are: First, prevent the attacker from establishing belt or hip control with their free hand—this grip prevents your forward roll escape. Second, keep your trapped elbow as close to your body as possible to minimize shoulder rotation. Third, prepare for the forward roll escape by posting your free hand and tucking your chin. Fourth, if the roll is blocked, work to square your hips toward the attacker and walk your body backward to reduce the shoulder angle. At this stage you are defending a consolidated omoplata rather than exploiting the transition window.",
+        "answer_line": "Block their free-hand belt grip",
+        "distractors": {
+          "plausible": [
+            "Roll forward before anything else",
+            "Flare trapped elbow out wide"
+          ],
+          "trap": [
+            "Yank the trapped arm out straight"
+          ]
+        }
       },
       {
         "question": "How should you respond if your forward roll escape is anticipated and the attacker follows you to back control?",

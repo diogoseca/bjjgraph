@@ -996,7 +996,17 @@
     },
     {
       "question": "What makes the knee shield an offensive launching point and not merely a defensive barrier?",
-      "answer": "The same distance that blocks the pass also gives the bottom player room to create angles, elevate the top player, and load sweeps without the crushing weight that flat half guard imposes. From this space the frame threatens sweeps, back takes, and entries to deep half, X-guard, and single-leg X, which forces the top player to stay defensive rather than commit fully to passing. This dual nature is what defines the position: the shield is simultaneously the wall the passer must breach and the platform the guard player attacks from. The constant threat of these transitions is what keeps the exchange balanced rather than purely defensive."
+      "answer": "The same distance that blocks the pass also gives the bottom player room to create angles, elevate the top player, and load sweeps without the crushing weight that flat half guard imposes. From this space the frame threatens sweeps, back takes, and entries to deep half, X-guard, and single-leg X, which forces the top player to stay defensive rather than commit fully to passing. This dual nature is what defines the position: the shield is simultaneously the wall the passer must breach and the platform the guard player attacks from. The constant threat of these transitions is what keeps the exchange balanced rather than purely defensive.",
+      "answer_line": "Space to block also loads sweeps",
+      "distractors": {
+        "plausible": [
+          "Strong frame walls off the pass",
+          "Elevate first, angle comes later"
+        ],
+        "trap": [
+          "Flatten and turtle to reset"
+        ]
+      }
     },
     {
       "question": "How does the position relate to its adjacent positions, and when does it convert into them?",

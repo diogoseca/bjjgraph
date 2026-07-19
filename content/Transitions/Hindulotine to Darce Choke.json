@@ -246,7 +246,17 @@
       },
       {
         "question": "What position do you start the Hindulotine to Darce Choke from?",
-        "answer": "This technique starts from the Hindulotine position on the bottom. The key requirement is an established guillotine control with opponent's posture broken and their head controlled below your center of gravity, with your legs providing hip control through closed guard or butterfly hooks."
+        "answer": "This technique starts from the Hindulotine position on the bottom. The key requirement is an established guillotine control with opponent's posture broken and their head controlled below your center of gravity, with your legs providing hip control through closed guard or butterfly hooks.",
+        "answer_line": "Hindulotine bottom, neck controlled",
+        "distractors": {
+          "plausible": [
+            "Top of closed guard, posting",
+            "Standing front headlock clinch"
+          ],
+          "trap": [
+            "Turtle, diving for the neck"
+          ]
+        }
       },
       {
         "question": "What grip configuration do you need to establish for the Darce finish?",
@@ -292,7 +302,17 @@
       },
       {
         "question": "When is the optimal timing window to attempt the Hindulotine to Darce transition?",
-        "answer": "The optimal timing is immediately when you feel opponent create a defensive frame with their near-side arm. The window is small - initiate transition before they can stabilize their defensive posture but after they commit to the frame. Acting too early means no arm-in configuration exists; acting too late allows them to establish stronger defense."
+        "answer": "The optimal timing is immediately when you feel opponent create a defensive frame with their near-side arm. The window is small - initiate transition before they can stabilize their defensive posture but after they commit to the frame. Acting too early means no arm-in configuration exists; acting too late allows them to establish stronger defense.",
+        "answer_line": "The instant near arm frames",
+        "distractors": {
+          "plausible": [
+            "Once the frame is fully set",
+            "The moment you reach top"
+          ],
+          "trap": [
+            "As they drive forward to pass"
+          ]
+        }
       },
       {
         "question": "What hip position creates maximum finishing pressure after completing the Darce grip?",
@@ -324,7 +344,17 @@
       },
       {
         "question": "What common mistake allows opponents to escape during the grip transition phase?",
-        "answer": "Releasing head control during the grip transition allows opponent to posture up and extract their head. Your non-choking arm must maintain constant connection around opponent's head throughout the entire transition - never release this control even momentarily while rethreading your choking arm."
+        "answer": "Releasing head control during the grip transition allows opponent to posture up and extract their head. Your non-choking arm must maintain constant connection around opponent's head throughout the entire transition - never release this control even momentarily while rethreading your choking arm.",
+        "answer_line": "Releasing head control mid-switch",
+        "distractors": {
+          "plausible": [
+            "Squeezing before the grip is set",
+            "Rushing to lock the second hand"
+          ],
+          "trap": [
+            "Release both grips to re-clasp"
+          ]
+        }
       },
       {
         "question": "How do you prevent telegraphing the transition to your opponent?",
@@ -497,7 +527,17 @@
       },
       {
         "question": "Why is retracting your near-side arm the highest priority defensive action?",
-        "answer": "The Darce choke requires your near-side arm trapped against your own neck to create the compression mechanism. Without the arm-in configuration, the Darce is mechanically impossible regardless of how deep the opponent threads their arm. Retracting your arm eliminates the structural element that makes the choke work, converting a submission threat into a loose headlock."
+        "answer": "The Darce choke requires your near-side arm trapped against your own neck to create the compression mechanism. Without the arm-in configuration, the Darce is mechanically impossible regardless of how deep the opponent threads their arm. Retracting your arm eliminates the structural element that makes the choke work, converting a submission threat into a loose headlock.",
+        "answer_line": "No trapped arm = no choke",
+        "distractors": {
+          "plausible": [
+            "Blocks their arm threading deep",
+            "Frees your head from the choke"
+          ],
+          "trap": [
+            "Turn belly-down to escape it"
+          ]
+        }
       },
       {
         "question": "Your opponent has partially threaded the Darce arm but has not locked the grip - what is your best defensive action?",
@@ -515,7 +555,17 @@
       },
       {
         "question": "Why should you turn into the attacker rather than pulling away when defending the Darce transition?",
-        "answer": "Pulling away extends your neck and creates space for the threading arm to reach deeper, actually tightening the choke. Turning into the attacker compresses the space between your bodies, reducing the angle available for the Darce mechanics and creating opportunities to extract your trapped arm. The counter-intuitive movement toward the threat is the mechanically correct defensive response."
+        "answer": "Pulling away extends your neck and creates space for the threading arm to reach deeper, actually tightening the choke. Turning into the attacker compresses the space between your bodies, reducing the angle available for the Darce mechanics and creating opportunities to extract your trapped arm. The counter-intuitive movement toward the threat is the mechanically correct defensive response.",
+        "answer_line": "Turn in to crush the Darce space",
+        "distractors": {
+          "plausible": [
+            "Frame on the hips to hold distance",
+            "Extract the arm before closing space"
+          ],
+          "trap": [
+            "Pull head back to buy escape room"
+          ]
+        }
       },
       {
         "question": "How does the attacker's hip angle change telegraph the transition from Hindulotine to Darce?",

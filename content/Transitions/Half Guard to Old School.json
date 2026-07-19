@@ -297,7 +297,17 @@
       },
       {
         "question": "What are the three controls that define complete Old School position and in what order should they be established?",
-        "answer": "The three controls are: 1) Lockdown figure-four on the trapped leg for base disruption and anchoring, 2) Deep underhook on the near side with elbow tight to ribs and hand gripping high on opponent's back for sweep leverage, 3) Head control with far arm wrapping behind opponent's neck and pulling their posture down. The order is critical because lockdown enables underhook entry, and underhook must be secure before reaching for head control to avoid exposing the arm to attacks."
+        "answer": "The three controls are: 1) Lockdown figure-four on the trapped leg for base disruption and anchoring, 2) Deep underhook on the near side with elbow tight to ribs and hand gripping high on opponent's back for sweep leverage, 3) Head control with far arm wrapping behind opponent's neck and pulling their posture down. The order is critical because lockdown enables underhook entry, and underhook must be secure before reaching for head control to avoid exposing the arm to attacks.",
+        "answer_line": "Lockdown → underhook → head control",
+        "distractors": {
+          "plausible": [
+            "Knee shield first, then hip escape",
+            "Overhook the arm, then sit up"
+          ],
+          "trap": [
+            "Turn belly-down and bridge over"
+          ]
+        }
       },
       {
         "question": "How do you use lockdown pumps to create the window for the underhook entry?",

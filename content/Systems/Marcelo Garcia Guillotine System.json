@@ -390,7 +390,17 @@
     },
     {
       "question": "Why does combining the guillotine with sweeps from closed guard create a dilemma?",
-      "answer": "When the opponent postures to relieve the choke their base is exposed for a sweep, and when they lower their weight to defend the sweep the choke becomes available — defending one attack opens the other."
+      "answer": "When the opponent postures to relieve the choke their base is exposed for a sweep, and when they lower their weight to defend the sweep the choke becomes available — defending one attack opens the other.",
+      "answer_line": "Defending one opens the other",
+      "distractors": {
+        "plausible": [
+          "Both come off the same grip",
+          "Sweep sets up the choke after"
+        ],
+        "trap": [
+          "Crank the choke, drop the sweep"
+        ]
+      }
     },
     {
       "question": "What is the most common reason a guillotine fails even with a solid grip?",

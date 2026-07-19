@@ -589,61 +589,201 @@
     },
     {
       "question": "Why is controlling at least one of the opponent's legs the non-negotiable foundation across all Twister Control variants?",
-      "answer": "Trapping a leg is what anchors the lower half of the body so the spine can be torqued against it. Without leg control the opponent simply turns their hips to follow their shoulders, realigns the spine, and turns into you to recover guard. The leg acts as the fixed point around which rotation is generated, so the moment it comes free the entire rotational constraint collapses. This is why leg retention takes priority over any upper-body attack in every variant of the position."
+      "answer": "Trapping a leg is what anchors the lower half of the body so the spine can be torqued against it. Without leg control the opponent simply turns their hips to follow their shoulders, realigns the spine, and turns into you to recover guard. The leg acts as the fixed point around which rotation is generated, so the moment it comes free the entire rotational constraint collapses. This is why leg retention takes priority over any upper-body attack in every variant of the position.",
+      "answer_line": "Trapped leg anchors the spine twist",
+      "distractors": {
+        "plausible": [
+          "Neck crank sets up before legs",
+          "Trap the near arm first"
+        ],
+        "trap": [
+          "Free the legs to twist harder"
+        ]
+      }
     },
     {
       "question": "How does spinal rotation simultaneously compromise multiple defensive systems for the bottom player?",
-      "answer": "The twist creates systemic mechanical failure rather than defeating a single defense. The rotated core cannot generate the explosive bridge or the hip-escape movement in its normal direction, so the two primary escape engines are neutralized at once. The same rotation compresses the ribcage and restricts breathing, which accelerates fatigue and erodes composure over time. Because several systems fail together, the bottom player cannot solve the position by addressing any one problem in isolation."
+      "answer": "The twist creates systemic mechanical failure rather than defeating a single defense. The rotated core cannot generate the explosive bridge or the hip-escape movement in its normal direction, so the two primary escape engines are neutralized at once. The same rotation compresses the ribcage and restricts breathing, which accelerates fatigue and erodes composure over time. Because several systems fail together, the bottom player cannot solve the position by addressing any one problem in isolation.",
+      "answer_line": "Kills bridge + hip-escape at once",
+      "distractors": {
+        "plausible": [
+          "Beat one defense, then the next",
+          "Rib squeeze just tires you out"
+        ],
+        "trap": [
+          "Turn away to reset your hips"
+        ]
+      }
     },
     {
       "question": "Why is Twister Control best understood as a transitional hub rather than a position to hold indefinitely?",
-      "answer": "The spinal torque is moderately expensive to maintain and demands constant readjustment as the opponent works to realign, so holding it statically bleeds energy and eventually leaks control. Instead the position functions as a launch point for multiple attacks: the twister itself, guillotines and neck cranks, calf slicers and banana splits, and a clean back take. Elite play reads the opponent's defensive reaction and takes whatever attack that reaction opens rather than fixating on the namesake finish. The strategic rule is finish quickly or advance to more stable control before the position decays."
+      "answer": "The spinal torque is moderately expensive to maintain and demands constant readjustment as the opponent works to realign, so holding it statically bleeds energy and eventually leaks control. Instead the position functions as a launch point for multiple attacks: the twister itself, guillotines and neck cranks, calf slicers and banana splits, and a clean back take. Elite play reads the opponent's defensive reaction and takes whatever attack that reaction opens rather than fixating on the namesake finish. The strategic rule is finish quickly or advance to more stable control before the position decays.",
+      "answer_line": "Launch pad for multiple attacks",
+      "distractors": {
+        "plausible": [
+          "Grind for the twister finish",
+          "Hold the torque, stay patient"
+        ],
+        "trap": [
+          "Crank the neck, give up the back"
+        ]
+      }
     },
     {
       "question": "What signal indicates the bottom player's escape is imminent, and why is preventing it central to the position?",
-      "answer": "The decisive signal is the opponent beginning to realign their spine so shoulders and hips face the same direction again. Realignment restores the core's ability to bridge and shrimp, which immediately regenerates the escape mechanics the twist had shut down. Because the entire position depends on maintaining misalignment, allowing even partial realignment surrenders the control's core advantage. The top player must continuously counter this by adjusting leg and upper-body control to re-establish the offset before the opponent can settle their spine."
+      "answer": "The decisive signal is the opponent beginning to realign their spine so shoulders and hips face the same direction again. Realignment restores the core's ability to bridge and shrimp, which immediately regenerates the escape mechanics the twist had shut down. Because the entire position depends on maintaining misalignment, allowing even partial realignment surrenders the control's core advantage. The top player must continuously counter this by adjusting leg and upper-body control to re-establish the offset before the opponent can settle their spine.",
+      "answer_line": "Shoulders and hips realign",
+      "distractors": {
+        "plausible": [
+          "Opponent bridges into you",
+          "Bottom shrimps hips free"
+        ],
+        "trap": [
+          "Release the offset to reset grips"
+        ]
+      }
     },
     {
       "question": "Why does the twister finish demand earlier tap recognition than most other submissions?",
-      "answer": "The finish combines forced spinal rotation with posterior neck pressure, loading the cervical and thoracic spine rather than a single joint or the airway. Spinal loading can cause injury before the usual pain-and-fight window that submissions like arm locks or blood chokes allow, so there is little safe margin to wait out. This makes early recognition and a timely tap a safety requirement rather than a concession of pride. The corollary for the top player is that control must be fully established before applying finishing torque, because cranking without control risks injuring the training partner."
+      "answer": "The finish combines forced spinal rotation with posterior neck pressure, loading the cervical and thoracic spine rather than a single joint or the airway. Spinal loading can cause injury before the usual pain-and-fight window that submissions like arm locks or blood chokes allow, so there is little safe margin to wait out. This makes early recognition and a timely tap a safety requirement rather than a concession of pride. The corollary for the top player is that control must be fully established before applying finishing torque, because cranking without control risks injuring the training partner.",
+      "answer_line": "Spine loads before pain warns",
+      "distractors": {
+        "plausible": [
+          "It chokes the airway fast",
+          "Just a tighter shoulder lock"
+        ],
+        "trap": [
+          "Wait out pain like an armbar"
+        ]
+      }
     },
     {
       "question": "Why are calculated technical adjustments more effective than explosive power for escaping any Twister Control variant?",
-      "answer": "Explosive movements while the spine is rotated feed energy directly into the torque, increasing the crank and accelerating both submission and injury risk. Because the core is compromised, the athletic bridge-and-scramble that escapes many positions actually worsens this one. Escape instead requires reducing the rotation first through small precise adjustments, then extracting the trapped leg, then recovering alignment and finally position. Panic and power burn the restricted oxygen supply and dismantle composure, whereas methodical work systematically dissolves the control."
+      "answer": "Explosive movements while the spine is rotated feed energy directly into the torque, increasing the crank and accelerating both submission and injury risk. Because the core is compromised, the athletic bridge-and-scramble that escapes many positions actually worsens this one. Escape instead requires reducing the rotation first through small precise adjustments, then extracting the trapped leg, then recovering alignment and finally position. Panic and power burn the restricted oxygen supply and dismantle composure, whereas methodical work systematically dissolves the control.",
+      "answer_line": "Unwind the spinal rotation first",
+      "distractors": {
+        "plausible": [
+          "Kick the trapped leg free",
+          "Reset your hips and base"
+        ],
+        "trap": [
+          "Bridge and scramble explosively"
+        ]
+      }
     }
   ],
   "flashcards_position": [
     {
       "question": "What structural configuration defines Twister Control and separates it from ordinary back exposure?",
-      "answer": "Twister Control combines a truck-style upper-body attachment with control of one of the opponent's legs, forcing the shoulders and hips to face in opposing directions. This shoulder-hip misalignment loads the spine into rotation, which is the defining feature rather than the neck-and-arm focus of standard back control. The trapped leg anchors the lower body so the rotation cannot be neutralized simply by squaring the hips. Without simultaneous leg capture and upper-body attachment the position collapses into ordinary back exposure with no torque."
+      "answer": "Twister Control combines a truck-style upper-body attachment with control of one of the opponent's legs, forcing the shoulders and hips to face in opposing directions. This shoulder-hip misalignment loads the spine into rotation, which is the defining feature rather than the neck-and-arm focus of standard back control. The trapped leg anchors the lower body so the rotation cannot be neutralized simply by squaring the hips. Without simultaneous leg capture and upper-body attachment the position collapses into ordinary back exposure with no torque.",
+      "answer_line": "Truck + trapped leg torque spine",
+      "distractors": {
+        "plausible": [
+          "Neck-and-arm grip, no leg trap",
+          "Trap both legs, square the hips"
+        ],
+        "trap": [
+          "Crank the neck, forget the legs"
+        ]
+      }
     },
     {
       "question": "Why is control of one leg considered the foundational anchor of the entire Twister Control position?",
-      "answer": "The captured leg immobilizes the lower half of the body so that the hips cannot rotate back into alignment with the shoulders. Because spinal torque depends on the shoulders and hips pointing different directions, freeing that leg lets the bottom player square up and instantly relieve the twist. The leg control also prevents the bottom player from turning in toward the top player, which is the primary route out of the rotation. This is why the source treats leg retention as the load-bearing foundation from which every attack in the position flows."
+      "answer": "The captured leg immobilizes the lower half of the body so that the hips cannot rotate back into alignment with the shoulders. Because spinal torque depends on the shoulders and hips pointing different directions, freeing that leg lets the bottom player square up and instantly relieve the twist. The leg control also prevents the bottom player from turning in toward the top player, which is the primary route out of the rotation. This is why the source treats leg retention as the load-bearing foundation from which every attack in the position flows.",
+      "answer_line": "Stops hips squaring to shoulders",
+      "distractors": {
+        "plausible": [
+          "Sets up the finishing neck crank",
+          "Traps their arm to block defense"
+        ],
+        "trap": [
+          "Drop the leg to crank the neck"
+        ]
+      }
     },
     {
       "question": "How does the spinal rotation in Twister Control mechanically compromise the trapped player's defensive capacity?",
-      "answer": "Twisting the spine while it is under load places the core musculature in a lengthened, disadvantaged position, so it cannot generate the explosive bridging and hip-escape movements that normally power escapes. The same rotation combined with the top player's pressure restricts breathing, which accelerates fatigue over time. Because multiple defensive systems fail at once, the position produces systemic mechanical failure rather than a single isolated weakness. This coupling of immobilization, torque, and restricted breathing is what makes the configuration so difficult to survive independent of who holds it."
+      "answer": "Twisting the spine while it is under load places the core musculature in a lengthened, disadvantaged position, so it cannot generate the explosive bridging and hip-escape movements that normally power escapes. The same rotation combined with the top player's pressure restricts breathing, which accelerates fatigue over time. Because multiple defensive systems fail at once, the position produces systemic mechanical failure rather than a single isolated weakness. This coupling of immobilization, torque, and restricted breathing is what makes the configuration so difficult to survive independent of who holds it.",
+      "answer_line": "Spine torque disables core bridging",
+      "distractors": {
+        "plausible": [
+          "Restricts breathing to force tap",
+          "Traps near arm to block framing"
+        ],
+        "trap": [
+          "Turn into it to relieve the crank"
+        ]
+      }
     },
     {
       "question": "What role does the misalignment of shoulders and hips play in generating the position's characteristic torque?",
-      "answer": "The torque in Twister Control comes entirely from the shoulders and hips being driven to face different directions while both ends are controlled. The upper-body attachment pulls the shoulders one way while the trapped leg holds the hips the other way, so the spine becomes the axis absorbing the difference. The greater the angular separation between the two, the higher the rotational stress through the spinal column. Reducing that separation, by either player's action, is the single most direct way the position is weakened or strengthened."
+      "answer": "The torque in Twister Control comes entirely from the shoulders and hips being driven to face different directions while both ends are controlled. The upper-body attachment pulls the shoulders one way while the trapped leg holds the hips the other way, so the spine becomes the axis absorbing the difference. The greater the angular separation between the two, the higher the rotational stress through the spinal column. Reducing that separation, by either player's action, is the single most direct way the position is weakened or strengthened.",
+      "answer_line": "Opposing directions torque the spine",
+      "distractors": {
+        "plausible": [
+          "Aligning both ends builds the stress",
+          "Squeezing both ends crushes the ribs"
+        ],
+        "trap": [
+          "Turn shoulders away from your hips"
+        ]
+      }
     },
     {
       "question": "Why is Twister Control regarded as inherently transitional rather than a stable holding position?",
-      "answer": "Maintaining the shoulder-hip misalignment requires continuous coordination between the upper-body attachment and the leg control, so it demands constant active adjustment rather than settling into a resting hold. The moderate-to-high energy cost means neither player can dwell in it indefinitely, and small lapses in either control point let the configuration decay. It therefore functions as a launching point that must resolve quickly into a finish or a shift to more stable control such as traditional back control. This transient nature distinguishes it from settled positions that can be held with minimal effort."
+      "answer": "Maintaining the shoulder-hip misalignment requires continuous coordination between the upper-body attachment and the leg control, so it demands constant active adjustment rather than settling into a resting hold. The moderate-to-high energy cost means neither player can dwell in it indefinitely, and small lapses in either control point let the configuration decay. It therefore functions as a launching point that must resolve quickly into a finish or a shift to more stable control such as traditional back control. This transient nature distinguishes it from settled positions that can be held with minimal effort.",
+      "answer_line": "Demands constant active adjustment",
+      "distractors": {
+        "plausible": [
+          "Upper-body grip does all the work",
+          "Any control lapse still holds it"
+        ],
+        "trap": [
+          "Safe to hold and rest at leisure"
+        ]
+      }
     },
     {
       "question": "How does Twister Control differ from traditional back control despite both involving back exposure?",
-      "answer": "Traditional back control centers on chest-to-back connection with hooks or a body triangle, and its attacks flow toward the neck and arms. Twister Control instead trades some of that stable rear connection for lower-body immobilization and deliberate spinal rotation, replacing the seatbelt-and-hooks structure with a truck-style leg entanglement. The result is a position organized around torque and leg control rather than pure rear attachment. This is why the two can transition into one another yet reward entirely different mechanical priorities."
+      "answer": "Traditional back control centers on chest-to-back connection with hooks or a body triangle, and its attacks flow toward the neck and arms. Twister Control instead trades some of that stable rear connection for lower-body immobilization and deliberate spinal rotation, replacing the seatbelt-and-hooks structure with a truck-style leg entanglement. The result is a position organized around torque and leg control rather than pure rear attachment. This is why the two can transition into one another yet reward entirely different mechanical priorities.",
+      "answer_line": "Leg entanglement + spinal torque",
+      "distractors": {
+        "plausible": [
+          "Seatbelt and double hooks",
+          "Chest-to-back body triangle"
+        ],
+        "trap": [
+          "Drop legs, chase the choke"
+        ]
+      }
     },
     {
       "question": "What signals that the Twister Control configuration is breaking down for either participant?",
-      "answer": "The clearest signal is the bottom player beginning to realign their spine, bringing the shoulders and hips back toward facing the same direction, which bleeds off the rotational load. A loosening or extraction of the trapped leg is an equally reliable indicator, since it removes the anchor holding the hips out of alignment. Loss of the upper-body chest connection allowing the trapped player to create space and breathe also marks decay. Any of these restores the defensive systems that the torque had shut down, tipping the exchange toward scramble or escape."
+      "answer": "The clearest signal is the bottom player beginning to realign their spine, bringing the shoulders and hips back toward facing the same direction, which bleeds off the rotational load. A loosening or extraction of the trapped leg is an equally reliable indicator, since it removes the anchor holding the hips out of alignment. Loss of the upper-body chest connection allowing the trapped player to create space and breathe also marks decay. Any of these restores the defensive systems that the torque had shut down, tipping the exchange toward scramble or escape.",
+      "answer_line": "Bottom realigns spine to neutral",
+      "distractors": {
+        "plausible": [
+          "Attacker loosens the neck crank",
+          "Top player squares their hips"
+        ],
+        "trap": [
+          "Bottom turns in toward attacker"
+        ]
+      }
     },
     {
       "question": "How do the upper-body attachment and the leg control depend on each other to sustain Twister Control?",
-      "answer": "The two controls are interdependent because each alone leaves an open escape route: strong leg control with a weak upper body lets the opponent hand-fight and peel off the top, while a controlled upper body with a free leg lets them simply turn in and square up. Only when both are held simultaneously does the spine stay loaded in rotation. The upper-body attachment sets the shoulder line while the leg control fixes the hip line, and the torque lives in the gap between them. This coordination requirement is why the position rewards constant simultaneous adjustment of both anchors."
+      "answer": "The two controls are interdependent because each alone leaves an open escape route: strong leg control with a weak upper body lets the opponent hand-fight and peel off the top, while a controlled upper body with a free leg lets them simply turn in and square up. Only when both are held simultaneously does the spine stay loaded in rotation. The upper-body attachment sets the shoulder line while the leg control fixes the hip line, and the torque lives in the gap between them. This coordination requirement is why the position rewards constant simultaneous adjustment of both anchors.",
+      "answer_line": "Both anchors held simultaneously",
+      "distractors": {
+        "plausible": [
+          "Lock the leg, then the upper body",
+          "Upper-body control does the work"
+        ],
+        "trap": [
+          "Free the leg to crank harder"
+        ]
+      }
     }
   ],
   "clips": [

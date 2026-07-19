@@ -265,7 +265,17 @@
     "flashcards": [
       {
         "question": "What is the correct sequence for addressing the three X-Guard control points during the Standing Escape?",
-        "answer": "The correct sequence is: strip the ankle grip first to free the leg for eventual extraction, collapse the outside leg frame second to eliminate the distance management that protects the bottom player's elevation, then extract the inside hook last once the elevation has been smothered. Reversing this order — trying to extract the inside hook first — actually strengthens the bottom player's sweep power because the outside frame maintains the distance needed for effective elevation."
+        "answer": "The correct sequence is: strip the ankle grip first to free the leg for eventual extraction, collapse the outside leg frame second to eliminate the distance management that protects the bottom player's elevation, then extract the inside hook last once the elevation has been smothered. Reversing this order — trying to extract the inside hook first — actually strengthens the bottom player's sweep power because the outside frame maintains the distance needed for effective elevation.",
+        "answer_line": "Ankle grip, then frame, then hook",
+        "distractors": {
+          "plausible": [
+            "Strip ankle, then hook, then frame",
+            "Collapse outside frame first"
+          ],
+          "trap": [
+            "Extract inside hook first"
+          ]
+        }
       },
       {
         "question": "Why should you turn your knee outward during inside hook extraction rather than pulling straight back?",
@@ -500,7 +510,17 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for attempting a sweep against the Standing Escape?",
-        "answer": "The optimal sweep window is the moment the top player commits one hand to stripping your ankle grip or outside leg frame. At this instant, their base is temporarily compromised because they have reduced their posting and balance options. The sweep should target the direction of their committed hand — if they reach down with their right hand, sweep them to their right where they have no post available. Waiting until they have already stripped multiple control points and achieved a low base dramatically reduces sweep probability."
+        "answer": "The optimal sweep window is the moment the top player commits one hand to stripping your ankle grip or outside leg frame. At this instant, their base is temporarily compromised because they have reduced their posting and balance options. The sweep should target the direction of their committed hand — if they reach down with their right hand, sweep them to their right where they have no post available. Waiting until they have already stripped multiple control points and achieved a low base dramatically reduces sweep probability.",
+        "answer_line": "When they commit a hand to strip",
+        "distractors": {
+          "plausible": [
+            "Once both control points are set",
+            "Sweep toward their strong post"
+          ],
+          "trap": [
+            "Turn away and let them take back"
+          ]
+        }
       },
       {
         "question": "Your inside hook begins slipping from behind the opponent's knee — what should you do?",

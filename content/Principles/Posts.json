@@ -423,11 +423,31 @@
     },
     {
       "question": "Why does a straight-arm post resist collapse better than a bent-arm post?",
-      "answer": "A straight arm with shoulder stacked over elbow over wrist transfers force through the skeleton into the ground, while a bent joint acts as a hinge that folds and absorbs force in the muscles until the post buckles."
+      "answer": "A straight arm with shoulder stacked over elbow over wrist transfers force through the skeleton into the ground, while a bent joint acts as a hinge that folds and absorbs force in the muscles until the post buckles.",
+      "answer_line": "Aligned bones carry force to ground",
+      "distractors": {
+        "plausible": [
+          "Muscle tension holds it rigid",
+          "Longer reach adds more leverage"
+        ],
+        "trap": [
+          "Bend elbow to absorb the drive"
+        ]
+      }
     },
     {
       "question": "How does understanding posts improve your sweeps?",
-      "answer": "Any sweep can be defeated by the opponent simply posting a limb, so you must identify and neutralize the posting limb first — gripping the hand, blocking the space, or timing the sweep when that limb is occupied — before executing."
+      "answer": "Any sweep can be defeated by the opponent simply posting a limb, so you must identify and neutralize the posting limb first — gripping the hand, blocking the space, or timing the sweep when that limb is occupied — before executing.",
+      "answer_line": "Kill the posting limb first",
+      "distractors": {
+        "plausible": [
+          "Drive the sweep, then clear arms",
+          "Off-balance hard and hope they tip"
+        ],
+        "trap": [
+          "Roll belly-down to power through"
+        ]
+      }
     },
     {
       "question": "When should you use a head post instead of a hand post?",
@@ -459,15 +479,45 @@
     },
     {
       "question": "Why should a post be treated as temporary rather than a position to hold?",
-      "answer": "A post only buys time to catch displacement. Staying frozen on it leaves you unable to advance while the opponent re-attacks from a new angle, so you must immediately reposition hips and limbs to rebuild a full base."
+      "answer": "A post only buys time to catch displacement. Staying frozen on it leaves you unable to advance while the opponent re-attacks from a new angle, so you must immediately reposition hips and limbs to rebuild a full base.",
+      "answer_line": "Buys time, not lasting structure",
+      "distractors": {
+        "plausible": [
+          "Your most stable anchor to hold",
+          "Freeze on it until they settle"
+        ],
+        "trap": [
+          "Post and stall to kill their pass"
+        ]
+      }
     },
     {
       "question": "How does posting create a trade-off with offense?",
-      "answer": "Every limb committed to a post can no longer grip, frame, hook, or attack, so posting trades stability for offense. Skilled grapplers pick the posting limb that costs the least tactically, often a foot or head over a gripping hand."
+      "answer": "Every limb committed to a post can no longer grip, frame, hook, or attack, so posting trades stability for offense. Skilled grapplers pick the posting limb that costs the least tactically, often a foot or head over a gripping hand.",
+      "answer_line": "Posted limb can't grip or attack",
+      "distractors": {
+        "plausible": [
+          "Post with a gripping hand first",
+          "Trades offense for stability"
+        ],
+        "trap": [
+          "Post both arms for max stability"
+        ]
+      }
     },
     {
       "question": "How can you keep your posting reflexes sharp late in a match?",
-      "answer": "Train posting under fatigue by drilling sweep defense immediately after conditioning bursts like burpees or sprawls, because tired grapplers lose the reflexive post first — which is why many sweeps land in the final minutes of a round."
+      "answer": "Train posting under fatigue by drilling sweep defense immediately after conditioning bursts like burpees or sprawls, because tired grapplers lose the reflexive post first — which is why many sweeps land in the final minutes of a round.",
+      "answer_line": "Drill posting after cardio bursts",
+      "distractors": {
+        "plausible": [
+          "Train posting only when fresh",
+          "Rest fully, then drill sweeps"
+        ],
+        "trap": [
+          "Post straight-armed on the mat"
+        ]
+      }
     }
   ],
   "clips": [

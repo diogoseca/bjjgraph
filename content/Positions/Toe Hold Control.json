@@ -715,7 +715,17 @@
       },
       {
         "question": "What is the correct sequence for escaping - grip break first or leg extraction first?",
-        "answer": "Always prioritize grip breaking before leg extraction. Attempting to extract your leg while opponent maintains the toe hold grip is ineffective and dangerous - they simply re-establish control after failed escape attempts. Use two-on-one wrist control to break the figure-four configuration first, eliminating the submission threat, then systematically extract your leg through angular movement rather than straight pulling."
+        "answer": "Always prioritize grip breaking before leg extraction. Attempting to extract your leg while opponent maintains the toe hold grip is ineffective and dangerous - they simply re-establish control after failed escape attempts. Use two-on-one wrist control to break the figure-four configuration first, eliminating the submission threat, then systematically extract your leg through angular movement rather than straight pulling.",
+        "answer_line": "Break grip first, then extract",
+        "distractors": {
+          "plausible": [
+            "Yank leg free before breaking grip",
+            "Pull leg straight to slip out"
+          ],
+          "trap": [
+            "Force leg out against toe hold"
+          ]
+        }
       },
       {
         "question": "Your opponent loosens their grip momentarily to transition to heel hook - what opportunity does this create?",

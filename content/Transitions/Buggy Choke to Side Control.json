@@ -332,7 +332,17 @@
       },
       {
         "question": "What grip conversion sequence produces the highest success rate when transitioning from choke to pass?",
-        "answer": "Release the threading arm first and immediately establish the underhook on the far hip, as this is the critical control preventing guard recovery. Only then convert the collar grip hand to crossface. This sequencing ensures the most important control point is secured during the vulnerable grip transition window. Reversing the order leaves the hips uncontrolled and allows the opponent to turn in and recover guard before you establish positional dominance."
+        "answer": "Release the threading arm first and immediately establish the underhook on the far hip, as this is the critical control preventing guard recovery. Only then convert the collar grip hand to crossface. This sequencing ensures the most important control point is secured during the vulnerable grip transition window. Reversing the order leaves the hips uncontrolled and allows the opponent to turn in and recover guard before you establish positional dominance.",
+        "answer_line": "Underhook far hip before crossface",
+        "distractors": {
+          "plausible": [
+            "Crossface first, then far underhook",
+            "Keep threading arm, grab collar"
+          ],
+          "trap": [
+            "Abandon grips, jump to mount"
+          ]
+        }
       },
       {
         "question": "Your opponent maintains tight turtle posture but you sense the choke is no longer progressing—should you transition immediately or continue working the choke?",

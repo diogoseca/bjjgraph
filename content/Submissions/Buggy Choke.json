@@ -442,7 +442,17 @@
       {
         "question": "Why must the crossface arm stay pinned throughout the finish?",
         "answer": "The opponent's trapped crossface arm forms one wall of the choke and presses their own shoulder into one carotid; releasing it gives them the single highest-percentage escape by letting them extract the arm and posture out.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trapped arm forms the choke wall",
+        "distractors": {
+          "plausible": [
+            "Pins their hip to stop bridging",
+            "Frees your hand to sink the grip"
+          ],
+          "trap": [
+            "Release it to reinforce the grip"
+          ]
+        }
       }
     ],
     "clips": [
@@ -557,7 +567,17 @@
       {
         "question": "What are the earliest cues that your opponent is setting up a Buggy Choke on you?",
         "answer": "The bottom player chambers their knee up toward their own head, your crossface arm suddenly feels pinned and cannot straighten, and they reach a hand toward their own shin; recognizing these the instant they appear is your best defense.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Their knee chambers up to their head",
+        "distractors": {
+          "plausible": [
+            "Their knee drops toward the mat",
+            "They reach for your near wrist"
+          ],
+          "trap": [
+            "None yet — keep driving weight in"
+          ]
+        }
       },
       {
         "question": "What posture habit prevents most Buggy Chokes while passing half guard?",

@@ -126,7 +126,17 @@
       },
       {
         "question": "What are the three primary control points you must establish before attempting transitions?",
-        "answer": "First, establish chest-to-back connection with perpendicular pressure across their spine. Second, secure near-side control through an underhook, overhook, or seatbelt grip that prevents them from turning into you. Third, control their far hip with your near-side knee or hook to prevent guard recovery. These three points create a stable platform for any back attack transition."
+        "answer": "First, establish chest-to-back connection with perpendicular pressure across their spine. Second, secure near-side control through an underhook, overhook, or seatbelt grip that prevents them from turning into you. Third, control their far hip with your near-side knee or hook to prevent guard recovery. These three points create a stable platform for any back attack transition.",
+        "answer_line": "Chest-to-back pressure first",
+        "distractors": {
+          "plausible": [
+            "Secure far-side underhook first",
+            "Far-hip control before seatbelt"
+          ],
+          "trap": [
+            "Abandon hips to finish the choke"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from executing a successful granby roll escape?",

@@ -287,7 +287,17 @@
       },
       {
         "question": "When is the optimal timing window to initiate the explosive phase of the sweep?",
-        "answer": "The optimal window occurs when the opponent commits their weight forward, either to pressure the guard or to attempt clearing the shin connection. This forward commitment loads the shin fulcrum with their body weight, meaning your hip extension drives against a heavier lever — their own weight works against them. Attempting the sweep when the opponent's weight is withdrawn or neutral requires significantly more force and has a lower completion rate."
+        "answer": "The optimal window occurs when the opponent commits their weight forward, either to pressure the guard or to attempt clearing the shin connection. This forward commitment loads the shin fulcrum with their body weight, meaning your hip extension drives against a heavier lever — their own weight works against them. Attempting the sweep when the opponent's weight is withdrawn or neutral requires significantly more force and has a lower completion rate.",
+        "answer_line": "When they commit weight forward",
+        "distractors": {
+          "plausible": [
+            "When their weight is neutral",
+            "As they pull their base backward"
+          ],
+          "trap": [
+            "When they drive a knee through"
+          ]
+        }
       },
       {
         "question": "Your opponent posts their far hand when you attempt the sweep — how do you adjust?",
@@ -305,7 +315,17 @@
       },
       {
         "question": "What grip configuration provides maximum sweeping leverage in gi versus no-gi?",
-        "answer": "In gi, the same-side collar grip combined with opposite sleeve grip provides maximum leverage — the collar grip creates a deep pulling angle that breaks posture while the sleeve grip eliminates the posting hand. In no-gi, a collar tie (same side as shin connection) combined with opposite wrist control replicates the same mechanical advantages. The collar tie replaces the collar grip's posture-breaking function while wrist control replaces the sleeve grip's anti-posting function."
+        "answer": "In gi, the same-side collar grip combined with opposite sleeve grip provides maximum leverage — the collar grip creates a deep pulling angle that breaks posture while the sleeve grip eliminates the posting hand. In no-gi, a collar tie (same side as shin connection) combined with opposite wrist control replicates the same mechanical advantages. The collar tie replaces the collar grip's posture-breaking function while wrist control replaces the sleeve grip's anti-posting function.",
+        "answer_line": "Same-side collar, opposite sleeve",
+        "distractors": {
+          "plausible": [
+            "Same-side collar and sleeve",
+            "Opposite collar, same sleeve"
+          ],
+          "trap": [
+            "Double collar grip, free hands"
+          ]
+        }
       },
       {
         "question": "Why must you sit up and load your hips before initiating the sweep?",
@@ -337,7 +357,17 @@
       },
       {
         "question": "What is the most critical detail for consolidating mount immediately after the sweep lands?",
-        "answer": "Maintaining grip connection through the transition is the most critical detail. Releasing grips during the sweep-to-mount transition creates a window where the opponent can frame, bridge, or insert a knee to recover guard. Keep pulling grips active as you advance your hips over their torso, only releasing once your mount is established with heavy hip pressure and wide base. The first three seconds in mount determine whether you consolidate or lose the position."
+        "answer": "Maintaining grip connection through the transition is the most critical detail. Releasing grips during the sweep-to-mount transition creates a window where the opponent can frame, bridge, or insert a knee to recover guard. Keep pulling grips active as you advance your hips over their torso, only releasing once your mount is established with heavy hip pressure and wide base. The first three seconds in mount determine whether you consolidate or lose the position.",
+        "answer_line": "Keep grips active through transition",
+        "distractors": {
+          "plausible": [
+            "Advance hips over torso first",
+            "Sink heavy hip pressure first"
+          ],
+          "trap": [
+            "Release grips, post hands wide"
+          ]
+        }
       },
       {
         "question": "How does the direction of the sweep change based on the opponent's weight distribution?",
@@ -511,7 +541,17 @@
       },
       {
         "question": "When is it appropriate to use forward pressure as a sweep defense, and what is the risk?",
-        "answer": "Forward pressure is appropriate preemptively — when you see the opponent beginning to sit up but before they have established grips and loaded their hips. The goal is to flatten them before they achieve the power position. However, once the guard player is loaded with grips established, forward pressure is extremely dangerous because it drives your weight directly into the shin lever, amplifying the very forces you are trying to resist. The timing distinction is critical: early forward pressure prevents the setup, late forward pressure accelerates the sweep."
+        "answer": "Forward pressure is appropriate preemptively — when you see the opponent beginning to sit up but before they have established grips and loaded their hips. The goal is to flatten them before they achieve the power position. However, once the guard player is loaded with grips established, forward pressure is extremely dangerous because it drives your weight directly into the shin lever, amplifying the very forces you are trying to resist. The timing distinction is critical: early forward pressure prevents the setup, late forward pressure accelerates the sweep.",
+        "answer_line": "Early, before grips are loaded",
+        "distractors": {
+          "plausible": [
+            "Once they have fully sat up",
+            "Anytime you feel off-balance"
+          ],
+          "trap": [
+            "Drive in after hips are loaded"
+          ]
+        }
       }
     ],
     "training_progressions": [

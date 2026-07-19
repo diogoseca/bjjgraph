@@ -279,7 +279,17 @@
       },
       {
         "question": "What is the critical mechanical detail that makes the bridge-pull-pendulum work as a unified sweep?",
-        "answer": "All three components—hip bridge, upper body pull, and free leg pendulum—must fire simultaneously as a coordinated burst rather than sequentially. The bridge creates upward force, the pull creates lateral force against the opponent's upper body, and the pendulum generates rotational momentum through the free leg's arc. The entanglement connection transmits these combined forces directly into the opponent's center of gravity, making the whole greater than the sum of its parts."
+        "answer": "All three components—hip bridge, upper body pull, and free leg pendulum—must fire simultaneously as a coordinated burst rather than sequentially. The bridge creates upward force, the pull creates lateral force against the opponent's upper body, and the pendulum generates rotational momentum through the free leg's arc. The entanglement connection transmits these combined forces directly into the opponent's center of gravity, making the whole greater than the sum of its parts.",
+        "answer_line": "Fire all three as one burst",
+        "distractors": {
+          "plausible": [
+            "Bridge first, then pull and swing",
+            "Pull upper body before the leg arc"
+          ],
+          "trap": [
+            "Turn belly-down to drive them off"
+          ]
+        }
       },
       {
         "question": "Why do half-committed sweep attempts fail and what is the consequence?",

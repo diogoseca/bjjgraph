@@ -511,7 +511,17 @@
       },
       {
         "question": "Why is the grip exchange phase the best window for recovering half guard?",
-        "answer": "During the grip exchange, the top player must release their reverse kesa armpit clamp on your far arm to establish a north-south underhook. Even with overlapping grips, there is a brief moment where the control on your far arm weakens enough to create movement opportunity. Simultaneously, the top player's attention is divided between completing the rotation and securing new grips. This combination of loosened arm control and divided attention creates the widest window for inserting your near knee and closing half guard before north-south consolidates."
+        "answer": "During the grip exchange, the top player must release their reverse kesa armpit clamp on your far arm to establish a north-south underhook. Even with overlapping grips, there is a brief moment where the control on your far arm weakens enough to create movement opportunity. Simultaneously, the top player's attention is divided between completing the rotation and securing new grips. This combination of loosened arm control and divided attention creates the widest window for inserting your near knee and closing half guard before north-south consolidates.",
+        "answer_line": "Far-arm clamp releases briefly",
+        "distractors": {
+          "plausible": [
+            "Near-arm control weakens",
+            "All top grips fully release"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "Your bridge attempt during the rotation was absorbed and the top player is now past the midpoint - what should you do?",
@@ -557,7 +567,17 @@
       },
       {
         "question": "How do you decide between bridging early versus waiting for the grip exchange window to insert a knee?",
-        "answer": "Bridge early if the top player's initial weight shift is tentative or their base has not yet adjusted to the new direction, as a strong bridge can abort the transition entirely. Wait for the grip exchange if the top player initiates with strong committed momentum that would absorb your bridge. Read their commitment level in the first half-second of the rotation. A tentative start with light pressure shift favors the early bridge. An aggressive committed rotation with maintained pressure favors patience and targeting the grip exchange window for half guard recovery."
+        "answer": "Bridge early if the top player's initial weight shift is tentative or their base has not yet adjusted to the new direction, as a strong bridge can abort the transition entirely. Wait for the grip exchange if the top player initiates with strong committed momentum that would absorb your bridge. Read their commitment level in the first half-second of the rotation. A tentative start with light pressure shift favors the early bridge. An aggressive committed rotation with maintained pressure favors patience and targeting the grip exchange window for half guard recovery.",
+        "answer_line": "Bridge early if shift is tentative",
+        "distractors": {
+          "plausible": [
+            "Wait for their base to adjust first",
+            "Read grips, then pick the bridge"
+          ],
+          "trap": [
+            "Bridge into their committed drive"
+          ]
+        }
       },
       {
         "question": "What role does your far arm play in defending this transition?",

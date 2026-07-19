@@ -315,7 +315,17 @@
       {
         "question": "Your opponent keeps their far arm pinned tightly against their own body while you hold Reverse Kesa-Gatame — how do you create the arm triangle opportunity?",
         "answer": "Attack the tucked arm with Americana or Kimura threats to force the opponent to extend or reposition it. When they react to defend the shoulder lock by straightening or moving the arm, that movement creates the opening to clamp the arm under your armpit and drive it across their neck. The key is using the submission cycle — threatening one attack to create the opening for another — rather than trying to force the arm across through strength alone.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Threaten Kimura to free the arm",
+        "distractors": {
+          "plausible": [
+            "Force the arm across with strength",
+            "Wait for the arm to loosen"
+          ],
+          "trap": [
+            "Reach over to yank the far arm"
+          ]
+        }
       },
       {
         "question": "What grip configuration completes the head-and-arm lock in the arm triangle from Reverse Kesa-Gatame?",
@@ -335,7 +345,17 @@
       {
         "question": "The opponent bridges explosively during your grip transition from Reverse Kesa-Gatame pin to arm triangle — what is your immediate response?",
         "answer": "Post your far-side hand on the mat and widen your base to absorb the bridge force. Keep your chest heavy on their trapped arm to prevent arm extraction during the bridge. Do not abandon the submission attempt unless you are being swept. Once the bridge subsides and the opponent's hips return to the mat, immediately continue threading your arm behind their neck and lock the grip. The bridge window is temporary — if you maintain position through it, the opponent has wasted energy while you retain the setup.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Post far hand, widen base",
+        "distractors": {
+          "plausible": [
+            "Thread neck arm immediately",
+            "Post near hand for base"
+          ],
+          "trap": [
+            "Roll with bridge, follow over"
+          ]
+        }
       },
       {
         "question": "What body angle creates maximum finishing pressure once the arm triangle is locked from Reverse Kesa-Gatame?",
@@ -385,7 +405,17 @@
       {
         "question": "What safety precautions must you observe when applying the arm triangle from Reverse Kesa-Gatame?",
         "answer": "Apply pressure progressively over 3-5 seconds and never spike or jerk the submission. Monitor consciousness continuously by watching for facial color changes and feeling for diminishing resistance. Always ensure the opponent has at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand tap, foot tap, or any distress signal. If the opponent goes limp, release immediately, position them on their side in recovery position, elevate their legs, and monitor breathing. Never hold after the tap in training — blood chokes can cause unconsciousness in 6-8 seconds and brain damage if sustained.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Slow pressure, release on any tap",
+        "distractors": {
+          "plausible": [
+            "Pin both arms, then finish",
+            "Apply full force instantly"
+          ],
+          "trap": [
+            "Keep squeezing after the tap"
+          ]
+        }
       },
       {
         "question": "How does the arm triangle from Reverse Kesa-Gatame differ from the standard arm triangle entered from side control?",

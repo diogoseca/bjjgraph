@@ -339,12 +339,32 @@
       {
         "question": "How should you release the Americana immediately after your partner taps?",
         "answer": "Stop all rotational pressure instantly upon feeling or hearing the tap. Release the figure-four grip on the wrist and carefully lower the arm back to a neutral position beside the body without dropping it suddenly. Release your elbow control and allow your partner to move freely. Verbally confirm they are okay. Never maintain grip pressure even slightly after a tap, as the shoulder is in a compromised position and even minor additional force can cause injury.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Stop instantly, lower arm gently",
+        "distractors": {
+          "plausible": [
+            "Ease pressure off gradually",
+            "Let the arm drop, then step away"
+          ],
+          "trap": [
+            "Keep grip until they say okay"
+          ]
+        }
       },
       {
         "question": "Your chest pressure feels solid but you cannot reach the defender's wrist to complete the figure-four - what is wrong?",
         "answer": "Your body is likely positioned too far toward the defender's hips rather than forward over their shoulders. Adjust by walking your base forward so your chest covers their shoulder area more directly. This brings your arms within reach of their wrist while simultaneously increasing the pressure on their elbow. The grip should be accessible without reaching or stretching. If you need to reach, reposition your body rather than sacrificing pressure.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Walk base forward over shoulders",
+        "distractors": {
+          "plausible": [
+            "Pull harder to drag wrist in",
+            "Drop chest lower for pressure"
+          ],
+          "trap": [
+            "Post free hand to grab wrist"
+          ]
+        }
       },
       {
         "question": "The defender grabs their own shorts with the trapped hand to prevent the rotation - how do you break this grip?",
@@ -556,17 +576,47 @@
       {
         "question": "What defensive options are available against the Americana at different stages of the attack?",
         "answer": "In the early stage before the grip is secured, straighten your arm to deny the figure-four configuration or perform a hip escape to change your body angle. In the mid-stage after partial grip, connect your hands or grab your own clothing to resist the rotation. In the late stage with full rotation, your only option is tapping because fighting a locked Americana risks serious shoulder injury. The earlier you defend, the higher your success rate.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Straighten arm before grip locks",
+        "distractors": {
+          "plausible": [
+            "Hip escape once the grip is set",
+            "Connect hands once fully rotated"
+          ],
+          "trap": [
+            "Force arm free once fully locked"
+          ]
+        }
       },
       {
         "question": "Why is hip escaping particularly effective as a defense against the North-South Americana?",
         "answer": "The Americana from North-South depends on the perpendicular chest-over-elbow alignment for its mechanical advantage. Hip escaping changes your body angle relative to the attacker, disrupting this alignment and reducing the effectiveness of their elbow pin. The movement also creates space to insert your knee between your bodies, potentially recovering half guard. The attacker must choose between following your hip escape and abandoning the grip, or maintaining the grip while losing positional control.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Breaks chest-over-elbow alignment",
+        "distractors": {
+          "plausible": [
+            "Frame and bridge them upward",
+            "Grip-fight to strip the wrist"
+          ],
+          "trap": [
+            "Push off with the trapped arm"
+          ]
+        }
       },
       {
         "question": "What is the biggest mistake defenders make when the Americana grip is partially secured?",
         "answer": "The biggest mistake is panicking and using explosive full-body scrambles that actually tighten the attacker's grip and accelerate the submission. The scrambling movement often exposes additional angles for the attacker while rapidly depleting the defender's energy reserves. Instead, defenders should focus on targeted actions like fighting the specific wrist grip, connecting their own hands to create a defensive anchor, or performing a controlled hip escape to change the positional angle.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Panicked explosive scrambling",
+        "distractors": {
+          "plausible": [
+            "Failing to fight the wrist grip",
+            "Skipping the hip escape angle"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       }
     ],
     "training_progressions": [

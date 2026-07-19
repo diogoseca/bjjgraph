@@ -526,7 +526,17 @@
       },
       {
         "question": "When is it better to prevent the Roll to Turtle versus following it to take the back?",
-        "answer": "Prevent the roll when you have strong hip control and crossface established with your weight settled low - the energy cost of prevention is minimal and you maintain your dominant side control. Follow the roll when the opponent has already created enough frame and momentum that prevention would require overcommitting your weight, or when you are confident in your back take ability. Following is also preferable when you have pre-positioned your arms for seatbelt control and can guarantee chest-to-back contact throughout the rotation. If unsure, following is generally safer than fighting a committed roll since a failed prevention often creates scrambles."
+        "answer": "Prevent the roll when you have strong hip control and crossface established with your weight settled low - the energy cost of prevention is minimal and you maintain your dominant side control. Follow the roll when the opponent has already created enough frame and momentum that prevention would require overcommitting your weight, or when you are confident in your back take ability. Following is also preferable when you have pre-positioned your arms for seatbelt control and can guarantee chest-to-back contact throughout the rotation. If unsure, following is generally safer than fighting a committed roll since a failed prevention often creates scrambles.",
+        "answer_line": "Prevent early, follow if committed",
+        "distractors": {
+          "plausible": [
+            "Chase the back every time",
+            "Follow only with a seatbelt set"
+          ],
+          "trap": [
+            "Overcommit weight to block the roll"
+          ]
+        }
       }
     ],
     "training_progressions": [

@@ -401,7 +401,17 @@
       {
         "question": "In competition, what strategic advantages does attacking the Clock Choke from Rodeo Ride offer over taking the back?",
         "answer": "The Clock Choke from Rodeo Ride offers a direct submission path without needing to secure hooks for back control points, which can be time-consuming against a well-defended turtle. In points-based competition, the Clock Choke can finish the match immediately from a position where no points have been scored yet—you bypass the incremental point-scoring of back take and go straight to submission. Additionally, opponents who are highly skilled at defending back takes often leave the neck more vulnerable because their defensive priorities focus on hook prevention and hip defense. The Clock Choke exploits this defensive allocation.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Direct finish, no hooks needed",
+        "distractors": {
+          "plausible": [
+            "Secure hooks first, then choke",
+            "Score 4 points, then submit"
+          ],
+          "trap": [
+            "Abandon ride to jump the back"
+          ]
+        }
       }
     ],
     "clips": [

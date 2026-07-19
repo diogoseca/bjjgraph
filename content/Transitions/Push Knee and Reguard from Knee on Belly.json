@@ -300,7 +300,17 @@
       },
       {
         "question": "When is this escape most effective versus when should you choose a different KOB escape?",
-        "answer": "This escape works best when the opponent commits heavy, downward pressure through their knee — the committed weight provides a solid target to push against and displace. Against a light, mobile KOB where the opponent is actively transitioning and shifting weight, frame-and-shrimp escapes are more effective because there is less committed weight to push against and more movement-based space to exploit."
+        "answer": "This escape works best when the opponent commits heavy, downward pressure through their knee — the committed weight provides a solid target to push against and displace. Against a light, mobile KOB where the opponent is actively transitioning and shifting weight, frame-and-shrimp escapes are more effective because there is less committed weight to push against and more movement-based space to exploit.",
+        "answer_line": "Against heavy, committed knee weight",
+        "distractors": {
+          "plausible": [
+            "When KOB is light and mobile",
+            "When they're actively transitioning"
+          ],
+          "trap": [
+            "Any KOB — bridge and turn to knees"
+          ]
+        }
       },
       {
         "question": "What grip should your near-side hand use on the opponent's knee?",

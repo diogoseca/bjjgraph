@@ -336,7 +336,17 @@
       },
       {
         "question": "What specific grip adjustments maximize your control during the landing phase to ensure you establish side control?",
-        "answer": "During the landing phase, maintain your sleeve grip firmly to prevent the opponent from posting their arm or framing. As they impact the mat, use your free hand (the former lapel grip hand) to immediately establish a crossface by driving your forearm across their jaw and neck. Your chest should land perpendicular across their torso. The sleeve grip simultaneously prevents their near arm from creating frames while the crossface controls their head position. This two-point control system allows you to settle your weight and secure side control before they can begin any escape sequence."
+        "answer": "During the landing phase, maintain your sleeve grip firmly to prevent the opponent from posting their arm or framing. As they impact the mat, use your free hand (the former lapel grip hand) to immediately establish a crossface by driving your forearm across their jaw and neck. Your chest should land perpendicular across their torso. The sleeve grip simultaneously prevents their near arm from creating frames while the crossface controls their head position. This two-point control system allows you to settle your weight and secure side control before they can begin any escape sequence.",
+        "answer_line": "Hold sleeve, drive crossface",
+        "distractors": {
+          "plausible": [
+            "Underhook near arm first",
+            "Land chest flat, then square up"
+          ],
+          "trap": [
+            "Release sleeve to grab far arm"
+          ]
+        }
       },
       {
         "question": "How does the direction of your pulling arm differ between the kuzushi phase and the throwing phase?",

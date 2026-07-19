@@ -192,7 +192,17 @@
       },
       {
         "question": "How do you manage energy expenditure during an extended engagement in New York Top?",
-        "answer": "Work methodically rather than explosively - calm systematic movements are 60% more successful and conserve energy. Take brief micro-pauses between escape attempts to allow grip strength recovery but never remain static for more than 3-5 seconds. Prioritize efficiency over speed, using leverage and body positioning rather than muscular exertion. Accept that escape may take 30-60 seconds of methodical work rather than a single explosive movement, and pace yourself accordingly."
+        "answer": "Work methodically rather than explosively - calm systematic movements are 60% more successful and conserve energy. Take brief micro-pauses between escape attempts to allow grip strength recovery but never remain static for more than 3-5 seconds. Prioritize efficiency over speed, using leverage and body positioning rather than muscular exertion. Accept that escape may take 30-60 seconds of methodical work rather than a single explosive movement, and pace yourself accordingly.",
+        "answer_line": "Work methodically, not explosively",
+        "distractors": {
+          "plausible": [
+            "Prioritize speed over leverage",
+            "Rest fully still between tries"
+          ],
+          "trap": [
+            "Explode all-out in one burst"
+          ]
+        }
       }
     ],
     "decision_tree": [

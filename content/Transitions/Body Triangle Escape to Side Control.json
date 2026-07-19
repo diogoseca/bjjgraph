@@ -256,11 +256,31 @@
       },
       {
         "question": "Why must you turn toward the triangle leg side rather than away from it during the escape?",
-        "answer": "Turning toward the triangle leg reduces the effective squeezing angle and surface area of the lock against your ribcage, immediately reducing pressure. It also positions your near hand to attack the figure-four junction directly while maintaining neck defense with the far hand. Turning away increases squeeze effectiveness, exposes your neck, and moves you further from the lock's weak point."
+        "answer": "Turning toward the triangle leg reduces the effective squeezing angle and surface area of the lock against your ribcage, immediately reducing pressure. It also positions your near hand to attack the figure-four junction directly while maintaining neck defense with the far hand. Turning away increases squeeze effectiveness, exposes your neck, and moves you further from the lock's weak point.",
+        "answer_line": "Cuts the lock's squeeze angle",
+        "distractors": {
+          "plausible": [
+            "Far hand attacks the figure-four",
+            "Strip the top ankle downward first"
+          ],
+          "trap": [
+            "Turn away to make space"
+          ]
+        }
       },
       {
         "question": "Your opponent squeezes the body triangle tighter when you begin attacking the lock - how do you adjust?",
-        "answer": "Stop the direct clearing attempt and refocus on incremental hip positioning to reduce the squeeze angle. A tighter squeeze actually commits the opponent's legs more firmly to the lock position, making the foot behind the knee more predictable and accessible. Wait for them to relax slightly or redirect attention to neck attacks before resuming the clearing attempt with precise targeting."
+        "answer": "Stop the direct clearing attempt and refocus on incremental hip positioning to reduce the squeeze angle. A tighter squeeze actually commits the opponent's legs more firmly to the lock position, making the foot behind the knee more predictable and accessible. Wait for them to relax slightly or redirect attention to neck attacks before resuming the clearing attempt with precise targeting.",
+        "answer_line": "Ease off, reposition your hips",
+        "distractors": {
+          "plausible": [
+            "Rip the foot out while it's tight",
+            "Muscle through the lock now"
+          ],
+          "trap": [
+            "Turn belly-down to relieve it"
+          ]
+        }
       },
       {
         "question": "What grip configuration must you maintain during the escape and why is it critical?",
@@ -278,7 +298,17 @@
       },
       {
         "question": "When is the optimal timing window to initiate the body triangle clearing attempt?",
-        "answer": "The best window opens when the opponent transitions between upper body attack configurations, such as switching from seatbelt to collar grip or adjusting arm position for a different choke angle. During these grip transitions, their attention divides between maintaining upper body control and triangle positioning, and the momentary loosening of their overall system creates the space needed to attack the figure-four lock."
+        "answer": "The best window opens when the opponent transitions between upper body attack configurations, such as switching from seatbelt to collar grip or adjusting arm position for a different choke angle. During these grip transitions, their attention divides between maintaining upper body control and triangle positioning, and the momentary loosening of their overall system creates the space needed to attack the figure-four lock.",
+        "answer_line": "When they switch upper-body grips",
+        "distractors": {
+          "plausible": [
+            "Right as they cinch the seatbelt",
+            "Before they set any hand grips"
+          ],
+          "trap": [
+            "While the choke is being finished"
+          ]
+        }
       },
       {
         "question": "After clearing the triangle lock, what is the most critical immediate action?",
@@ -452,19 +482,59 @@
       },
       {
         "question": "Your opponent begins attacking the foot behind your knee - what is your immediate response?",
-        "answer": "Tighten the squeeze to recommit the lock while simultaneously attacking their now-exposed neck with aggressive choking arm insertion. When their hand leaves neck defense to attack your foot, exploit that opening immediately. This creates a defensive dilemma where they must choose between continuing the clearing attempt with an unprotected neck or abandoning the escape to re-establish defense."
+        "answer": "Tighten the squeeze to recommit the lock while simultaneously attacking their now-exposed neck with aggressive choking arm insertion. When their hand leaves neck defense to attack your foot, exploit that opening immediately. This creates a defensive dilemma where they must choose between continuing the clearing attempt with an unprotected neck or abandoning the escape to re-establish defense.",
+        "answer_line": "Re-squeeze and attack the neck",
+        "distractors": {
+          "plausible": [
+            "Save the foot, fight their grip",
+            "Recross the leg control first"
+          ],
+          "trap": [
+            "Open the legs to readjust"
+          ]
+        }
       },
       {
         "question": "When should you transition from body triangle to standard hooks during an opponent's escape attempt?",
-        "answer": "Transition when the figure-four lock begins to loosen and you cannot immediately re-establish the foot behind your knee. This is preferable to losing back control entirely while fighting for a compromised triangle. Insert hooks quickly before the opponent completes their turn, then work to re-establish the body triangle once stabilized with standard hook control."
+        "answer": "Transition when the figure-four lock begins to loosen and you cannot immediately re-establish the foot behind your knee. This is preferable to losing back control entirely while fighting for a compromised triangle. Insert hooks quickly before the opponent completes their turn, then work to re-establish the body triangle once stabilized with standard hook control.",
+        "answer_line": "When triangle loosens beyond re-lock",
+        "distractors": {
+          "plausible": [
+            "Wait until opponent finishes turning",
+            "Re-lock the foot, then swap hooks"
+          ],
+          "trap": [
+            "Hold the triangle at all costs"
+          ]
+        }
       },
       {
         "question": "How do you maintain body triangle control when your opponent turns toward the triangle side?",
-        "answer": "Follow their turning motion by adjusting your hip angle to stay directly behind them and increase momentary squeeze pressure to discourage further turning. Use your seatbelt or upper body control to pull them back toward a flatter position. If they persist in turning despite your resistance, prepare to transition to crucifix or armbar as their arm exposure increases during the turn."
+        "answer": "Follow their turning motion by adjusting your hip angle to stay directly behind them and increase momentary squeeze pressure to discourage further turning. Use your seatbelt or upper body control to pull them back toward a flatter position. If they persist in turning despite your resistance, prepare to transition to crucifix or armbar as their arm exposure increases during the turn.",
+        "answer_line": "Follow the turn, stay behind",
+        "distractors": {
+          "plausible": [
+            "Squeeze harder and hold position",
+            "Switch legs to re-triangle"
+          ],
+          "trap": [
+            "Open legs, spin to mount"
+          ]
+        }
       },
       {
         "question": "What adjustment prevents your opponent from creating the initial hip space needed for the escape?",
-        "answer": "Maintain constant chest-to-back connection and follow any hip movement immediately by mirroring it with your own hip adjustment. Keep your hips positioned close to theirs rather than elevated or distant. Apply periodic squeeze pulses to prevent them from settling into a stable position for systematic clearing work, and attack the neck aggressively whenever you feel them shift focus from defense to escape."
+        "answer": "Maintain constant chest-to-back connection and follow any hip movement immediately by mirroring it with your own hip adjustment. Keep your hips positioned close to theirs rather than elevated or distant. Apply periodic squeeze pulses to prevent them from settling into a stable position for systematic clearing work, and attack the neck aggressively whenever you feel them shift focus from defense to escape.",
+        "answer_line": "Follow their hips, stay glued",
+        "distractors": {
+          "plausible": [
+            "Clamp the squeeze, then hold still",
+            "Widen base for a stable platform"
+          ],
+          "trap": [
+            "Elevate hips and reset position"
+          ]
+        }
       }
     ],
     "training_progressions": [

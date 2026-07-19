@@ -258,7 +258,17 @@
       },
       {
         "question": "What makes Squid Guard recovery to closed guard more challenging than recovery from other open guard positions?",
-        "answer": "Squid Guard positions the legs asymmetrically—one threading through or around the opponent's posture and one framing on their hip or bicep. Both legs must be withdrawn from their specialized positions and repositioned symmetrically for closed guard closure. This double repositioning takes more time and coordination than recovering from symmetric guards like double sleeve or spider guard, where both legs are in similar positions and can retract together. The additional time creates a wider vulnerability window during the transition."
+        "answer": "Squid Guard positions the legs asymmetrically—one threading through or around the opponent's posture and one framing on their hip or bicep. Both legs must be withdrawn from their specialized positions and repositioned symmetrically for closed guard closure. This double repositioning takes more time and coordination than recovering from symmetric guards like double sleeve or spider guard, where both legs are in similar positions and can retract together. The additional time creates a wider vulnerability window during the transition.",
+        "answer_line": "Asymmetric legs need double reset",
+        "distractors": {
+          "plausible": [
+            "Legs too far from opponent's hips",
+            "Grips must break before legs move"
+          ],
+          "trap": [
+            "Straighten legs to push off hips"
+          ]
+        }
       },
       {
         "question": "How does the opponent's lapel grip strip affect the timing and urgency of guard recovery from Squid Guard?",
@@ -276,7 +286,17 @@
       },
       {
         "question": "When should you abandon closed guard recovery from Squid Guard and accept an alternative guard position instead?",
-        "answer": "Abandon closed guard recovery when the opponent has already advanced significantly—either standing up completely or driving past one of your legs into a half-passing position. If the opponent stands, transition to feet-on-hips open guard with grips rather than attempting closed guard from the ground. If they advance past one leg, accept half guard by trapping their near leg and establish knee shield defense. Forcing closed guard when the positioning does not support it wastes time and creates worse openings than accepting an alternative guard."
+        "answer": "Abandon closed guard recovery when the opponent has already advanced significantly—either standing up completely or driving past one of your legs into a half-passing position. If the opponent stands, transition to feet-on-hips open guard with grips rather than attempting closed guard from the ground. If they advance past one leg, accept half guard by trapping their near leg and establish knee shield defense. Forcing closed guard when the positioning does not support it wastes time and creates worse openings than accepting an alternative guard.",
+        "answer_line": "Once they stand or clear a leg",
+        "distractors": {
+          "plausible": [
+            "The instant your grips slip",
+            "Only after they reach side control"
+          ],
+          "trap": [
+            "Turn belly-down and rebuild guard"
+          ]
+        }
       },
       {
         "question": "What role does upper body grip retention play during the transition from Squid Guard to closed guard?",

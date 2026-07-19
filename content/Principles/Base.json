@@ -393,31 +393,101 @@
   "flashcards": [
     {
       "question": "What is base in Brazilian Jiu-Jitsu?",
-      "answer": "Base is the maintenance of a stable platform through optimal weight distribution, skeletal alignment, and connection points, letting a practitioner resist sweeps and off-balancing while generating control and pressure."
+      "answer": "Base is the maintenance of a stable platform through optimal weight distribution, skeletal alignment, and connection points, letting a practitioner resist sweeps and off-balancing while generating control and pressure.",
+      "answer_line": "Low, aligned, sweep-resistant base",
+      "distractors": {
+        "plausible": [
+          "Heavy pressure to pin them down",
+          "Tight grips to control opponent"
+        ],
+        "trap": [
+          "Rise up tall for more leverage"
+        ]
+      }
     },
     {
       "question": "How do you decide between a wide base and a narrow base?",
-      "answer": "Use a wide base when stability is the priority and you expect off-balancing attempts; switch to a narrower, more mobile base when you need to move, pass, or attack and can accept reduced stability for speed."
+      "answer": "Use a wide base when stability is the priority and you expect off-balancing attempts; switch to a narrower, more mobile base when you need to move, pass, or attack and can accept reduced stability for speed.",
+      "answer_line": "Wide to stabilize, narrow to move",
+      "distractors": {
+        "plausible": [
+          "Widen the base to pass faster",
+          "Same base for every situation"
+        ],
+        "trap": [
+          "Go narrow when off-balanced"
+        ]
+      }
     },
     {
       "question": "Why does keeping your center of gravity inside the stability zone matter?",
-      "answer": "When your center of gravity stays within the area formed by your support points you stay balanced, but once it travels outside that zone you tip over even if your base structure otherwise looked correct."
+      "answer": "When your center of gravity stays within the area formed by your support points you stay balanced, but once it travels outside that zone you tip over even if your base structure otherwise looked correct.",
+      "answer_line": "CoG in base keeps you balanced",
+      "distractors": {
+        "plausible": [
+          "A wide base can't be knocked over",
+          "Keeps your posture upright and tall"
+        ],
+        "trap": [
+          "Chase weight forward for pressure"
+        ]
+      }
     },
     {
       "question": "What is a common base error during offensive sequences?",
-      "answer": "Committing fully to an attack while neglecting the base lets the opponent exploit the compromised structure to reverse or escape. Keep dual awareness of the attack and your supporting base at all times."
+      "answer": "Committing fully to an attack while neglecting the base lets the opponent exploit the compromised structure to reverse or escape. Keep dual awareness of the attack and your supporting base at all times.",
+      "answer_line": "Neglecting base while attacking",
+      "distractors": {
+        "plausible": [
+          "Setting the base stance too wide",
+          "Posting on hands instead of feet"
+        ],
+        "trap": [
+          "Drive all your weight in to finish"
+        ]
+      }
     },
     {
       "question": "How does base quality affect the pressure you can apply?",
-      "answer": "Pressure is only as effective as the base supporting it; a stable platform transfers bodyweight and skeletal force into the opponent, while a shaky base leaks power and is easily relieved or escaped."
+      "answer": "Pressure is only as effective as the base supporting it; a stable platform transfers bodyweight and skeletal force into the opponent, while a shaky base leaks power and is easily relieved or escaped.",
+      "answer_line": "Stable base transfers full weight",
+      "distractors": {
+        "plausible": [
+          "More muscle drives more pressure",
+          "Wide stance alone maxes pressure"
+        ],
+        "trap": [
+          "Lift hips high to add pressure"
+        ]
+      }
     },
     {
       "question": "What early warning signs indicate your base is being compromised?",
-      "answer": "Weight shifting toward the edge of your support points, a hand, knee, or foot lifting or sliding, loss of mat connection, or being stretched off your hips. Reading these early allows recovery before a full reversal."
+      "answer": "Weight shifting toward the edge of your support points, a hand, knee, or foot lifting or sliding, loss of mat connection, or being stretched off your hips. Reading these early allows recovery before a full reversal.",
+      "answer_line": "Weight drifting off your base points",
+      "distractors": {
+        "plausible": [
+          "Your grips start slipping loose",
+          "Opponent's hips rising under you"
+        ],
+        "trap": [
+          "React only once you're being swept"
+        ]
+      }
     },
     {
       "question": "Why is skeletal alignment preferred over muscular tension for maintaining base?",
-      "answer": "Stacking joints so the skeleton bears the load conserves energy and builds a more durable structure, whereas relying on muscular tension fatigues quickly and collapses under sustained directional pressure."
+      "answer": "Stacking joints so the skeleton bears the load conserves energy and builds a more durable structure, whereas relying on muscular tension fatigues quickly and collapses under sustained directional pressure.",
+      "answer_line": "Bones bear load, muscles tire",
+      "distractors": {
+        "plausible": [
+          "Firm muscle grip holds base",
+          "Tense core to stay rigid"
+        ],
+        "trap": [
+          "Drive all weight onto opponent"
+        ]
+      }
     },
     {
       "question": "How should your base behave during a positional transition?",

@@ -296,7 +296,17 @@
       },
       {
         "question": "Your opponent starts following your shoulder walk by scooting their hips down with you. How do you adjust your movement pattern?",
-        "answer": "Switch from straight downward shoulder drives to diagonal angle changes, alternating between walking toward the underhook side and the overhook side. This forces the opponent to track your movement in two planes simultaneously rather than simply following a linear path. The angular displacement disrupts their hip alignment and makes it mechanically harder to maintain hook depth because their hips cannot efficiently follow diagonal movement while maintaining bilateral hook control."
+        "answer": "Switch from straight downward shoulder drives to diagonal angle changes, alternating between walking toward the underhook side and the overhook side. This forces the opponent to track your movement in two planes simultaneously rather than simply following a linear path. The angular displacement disrupts their hip alignment and makes it mechanically harder to maintain hook depth because their hips cannot efficiently follow diagonal movement while maintaining bilateral hook control.",
+        "answer_line": "Walk diagonal angles, not straight",
+        "distractors": {
+          "plausible": [
+            "Just walk faster in a straight line",
+            "Reverse straight down the other side"
+          ],
+          "trap": [
+            "Sit back into their hooks"
+          ]
+        }
       },
       {
         "question": "What grip must your bottom hand maintain during the shoulder walk and why is it essential?",
@@ -328,11 +338,31 @@
       },
       {
         "question": "What is the primary mechanical difference between shoulder walk escape and hip escape from back control?",
-        "answer": "The shoulder walk generates displacement through upper body shoulder blade drives against the mat, moving your torso downward while hooks remain relatively stationary. The hip escape generates displacement through hip movement creating lateral separation from the opponent. The shoulder walk is incremental and cumulative requiring many repetitions, while hip escapes are typically executed as single decisive movements. The shoulder walk is more effective when hooks are deep and hip escapes are difficult, while hip escapes are more effective once hooks have been made shallow through shoulder walking."
+        "answer": "The shoulder walk generates displacement through upper body shoulder blade drives against the mat, moving your torso downward while hooks remain relatively stationary. The hip escape generates displacement through hip movement creating lateral separation from the opponent. The shoulder walk is incremental and cumulative requiring many repetitions, while hip escapes are typically executed as single decisive movements. The shoulder walk is more effective when hooks are deep and hip escapes are difficult, while hip escapes are more effective once hooks have been made shallow through shoulder walking.",
+        "answer_line": "Shoulders drive vs hips separate",
+        "distractors": {
+          "plausible": [
+            "Hip escape first, then shoulders",
+            "Both move the torso downward"
+          ],
+          "trap": [
+            "Turn belly-down toward the hooks"
+          ]
+        }
       },
       {
         "question": "During the shoulder walk, your opponent attacks your neck with a choke attempt. What is the correct response sequence?",
-        "answer": "Immediately pause all escape movement and re-establish full two-on-one grip control on the opponent's choking arm. Tuck your chin deeply and strip the choking grip using your top hand while your bottom hand maintains seatbelt control. Only resume shoulder walking after the choke threat is completely neutralized and your defensive grips are secure. Never attempt to finish the escape through the choke threat, as the fifteen to twenty drives remaining provide ample opportunity for the opponent to complete the submission."
+        "answer": "Immediately pause all escape movement and re-establish full two-on-one grip control on the opponent's choking arm. Tuck your chin deeply and strip the choking grip using your top hand while your bottom hand maintains seatbelt control. Only resume shoulder walking after the choke threat is completely neutralized and your defensive grips are secure. Never attempt to finish the escape through the choke threat, as the fifteen to twenty drives remaining provide ample opportunity for the opponent to complete the submission.",
+        "answer_line": "Stop moving, defend choke first",
+        "distractors": {
+          "plausible": [
+            "Tuck chin, keep shoulder walking",
+            "Strip grip with bottom hand"
+          ],
+          "trap": [
+            "Push through and finish escaping"
+          ]
+        }
       },
       {
         "question": "Why is it a critical error to push off your legs during the shoulder walk, and where should the driving force originate?",
@@ -482,7 +512,17 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that indicates an opponent is attempting a shoulder walk escape?",
-        "answer": "The earliest cue is the alternating shoulder blade pressure against your chest, creating a rhythmic rocking sensation as the opponent drives off each shoulder in sequence. This distinctive oscillating pattern differs from the sudden explosive movement of a hip escape or the rotational torque of a turning escape. Recognizing this pattern within the first two to three shoulder drives allows you to begin counter-measures before any meaningful displacement accumulates."
+        "answer": "The earliest cue is the alternating shoulder blade pressure against your chest, creating a rhythmic rocking sensation as the opponent drives off each shoulder in sequence. This distinctive oscillating pattern differs from the sudden explosive movement of a hip escape or the rotational torque of a turning escape. Recognizing this pattern within the first two to three shoulder drives allows you to begin counter-measures before any meaningful displacement accumulates.",
+        "answer_line": "Alternating shoulder-blade rocking",
+        "distractors": {
+          "plausible": [
+            "Sudden explosive hip-escape shove",
+            "Rotational torque of a turn-in"
+          ],
+          "trap": [
+            "Wait until your hips are cleared"
+          ]
+        }
       },
       {
         "question": "Why is following with your hips a more effective counter to shoulder walk than squeezing harder with your arms?",

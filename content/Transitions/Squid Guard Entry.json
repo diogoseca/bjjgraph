@@ -237,15 +237,45 @@
     "flashcards": [
       {
         "question": "What is the primary trigger that indicates the optimal moment for squid guard entry?",
-        "answer": "The primary trigger is when the opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder. This forward commitment traps them in the path of the lapel wrap and prevents quick retraction. Attempting entry against a postured opponent with retracted arms will fail because the lapel cannot reach around the arm."
+        "answer": "The primary trigger is when the opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder. This forward commitment traps them in the path of the lapel wrap and prevents quick retraction. Attempting entry against a postured opponent with retracted arms will fail because the lapel cannot reach around the arm.",
+        "answer_line": "When passer drives in, arm extended",
+        "distractors": {
+          "plausible": [
+            "When passer stands to open guard",
+            "As they grip your lapel to pass"
+          ],
+          "trap": [
+            "When opponent postures up tall"
+          ]
+        }
       },
       {
         "question": "How does squid guard entry differ mechanically from worm guard entry?",
-        "answer": "Worm guard wraps the lapel around opponent's leg, typically threading behind the knee to control their base. Squid guard redirects the lapel around the opponent's posting arm, threading under the tricep. Worm guard neutralizes leg-based passing while squid guard neutralizes pressure passing. The choice depends on whether opponent is attacking with their legs or driving forward with upper body pressure."
+        "answer": "Worm guard wraps the lapel around opponent's leg, typically threading behind the knee to control their base. Squid guard redirects the lapel around the opponent's posting arm, threading under the tricep. Worm guard neutralizes leg-based passing while squid guard neutralizes pressure passing. The choice depends on whether opponent is attacking with their legs or driving forward with upper body pressure.",
+        "answer_line": "Wrap lapel around posting arm",
+        "distractors": {
+          "plausible": [
+            "Wrap lapel around opponent's leg",
+            "Thread lapel over the tricep"
+          ],
+          "trap": [
+            "Turn belly-down to feed the lapel"
+          ]
+        }
       },
       {
         "question": "Your opponent begins to retract their posting arm as you initiate the lapel feed—what adjustment maintains guard?",
-        "answer": "Maintain your collar grip to prevent them from creating distance, then immediately transition to spider guard or lasso guard using the same lapel fabric. Feed the lapel into a bicep wrap instead of completing the squid configuration. This converts their defensive retraction into a different guard configuration rather than losing all control."
+        "answer": "Maintain your collar grip to prevent them from creating distance, then immediately transition to spider guard or lasso guard using the same lapel fabric. Feed the lapel into a bicep wrap instead of completing the squid configuration. This converts their defensive retraction into a different guard configuration rather than losing all control.",
+        "answer_line": "Hold collar; convert to spider guard",
+        "distractors": {
+          "plausible": [
+            "Finish the squid configuration",
+            "Bicep wrap first, then grip collar"
+          ],
+          "trap": [
+            "Let go of collar to reset guard"
+          ]
+        }
       },
       {
         "question": "Why is hip angle critical during squid guard entry and what is the optimal position?",
@@ -263,7 +293,17 @@
       },
       {
         "question": "What secondary grip must be maintained throughout squid guard entry and why?",
-        "answer": "Collar grip (cross collar or same-side) must be maintained throughout the entry because it anchors the opponent in position while your lapel hand works. Without this grip, opponents can create distance and retract their arm before the wrap completes. The collar grip also prevents posture recovery after the arm wrap is established."
+        "answer": "Collar grip (cross collar or same-side) must be maintained throughout the entry because it anchors the opponent in position while your lapel hand works. Without this grip, opponents can create distance and retract their arm before the wrap completes. The collar grip also prevents posture recovery after the arm wrap is established.",
+        "answer_line": "Collar grip anchors opponent",
+        "distractors": {
+          "plausible": [
+            "Sleeve grip stops arm retraction",
+            "Wrist grip to trap the arm"
+          ],
+          "trap": [
+            "Grip the far knee, drop collar"
+          ]
+        }
       },
       {
         "question": "How do you prevent the opponent from completing a knee cut pass while establishing squid guard?",
@@ -309,7 +349,17 @@
       },
       {
         "question": "Your opponent drives a knee cut while you are mid-feed on the lapel—what is the correct response?",
-        "answer": "Abandon the squid guard entry and immediately address the passing threat. Use your inside leg to establish a knee shield blocking the knee cut, while maintaining your collar grip to prevent them from flattening you. Transition to knee shield half guard as a defensive fallback, then re-extract the lapel once you have stabilized the position."
+        "answer": "Abandon the squid guard entry and immediately address the passing threat. Use your inside leg to establish a knee shield blocking the knee cut, while maintaining your collar grip to prevent them from flattening you. Transition to knee shield half guard as a defensive fallback, then re-extract the lapel once you have stabilized the position.",
+        "answer_line": "Insert knee shield, block the cut",
+        "distractors": {
+          "plausible": [
+            "Use outside leg for the shield",
+            "Complete the lapel feed first"
+          ],
+          "trap": [
+            "Turn belly-down to turtle"
+          ]
+        }
       },
       {
         "question": "What direction of force should the lapel feed travel relative to the opponent's arm?",
@@ -465,15 +515,45 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting squid guard entry rather than worm guard?",
-        "answer": "The key distinction is the direction of the lapel feed. For worm guard, the lapel threads downward toward your lead leg and behind the knee. For squid guard, the lapel feeds upward toward your posting arm, threading under the tricep. Additionally, squid guard entry typically coincides with your forward pressure passing, while worm guard is established against standing or kneeling passers."
+        "answer": "The key distinction is the direction of the lapel feed. For worm guard, the lapel threads downward toward your lead leg and behind the knee. For squid guard, the lapel feeds upward toward your posting arm, threading under the tricep. Additionally, squid guard entry typically coincides with your forward pressure passing, while worm guard is established against standing or kneeling passers.",
+        "answer_line": "Lapel feeds up under your tricep",
+        "distractors": {
+          "plausible": [
+            "Lapel threads down behind knee",
+            "Lapel wraps toward your lead leg"
+          ],
+          "trap": [
+            "Drive forward to pressure pass"
+          ]
+        }
       },
       {
         "question": "Why is it critical to address the collar grip before attempting to strip the arm wrap?",
-        "answer": "The collar grip serves as an anchor that prevents you from creating the distance needed to escape the arm wrap. Without the collar grip, the bottom player cannot maintain the tension needed to keep the wrap effective—you can simply posture away and the fabric falls slack. Stripping the arm wrap while the collar grip remains means the bottom player can immediately re-feed the lapel."
+        "answer": "The collar grip serves as an anchor that prevents you from creating the distance needed to escape the arm wrap. Without the collar grip, the bottom player cannot maintain the tension needed to keep the wrap effective—you can simply posture away and the fabric falls slack. Stripping the arm wrap while the collar grip remains means the bottom player can immediately re-feed the lapel.",
+        "answer_line": "Collar grip anchors you close",
+        "distractors": {
+          "plausible": [
+            "Break the wrap first, then grip",
+            "Arm wrap controls your posture"
+          ],
+          "trap": [
+            "Turn belly-down to slip out"
+          ]
+        }
       },
       {
         "question": "Your arm is already wrapped but the bottom player has not yet angled their hips—what defensive window exists?",
-        "answer": "This is the critical intermediate window where the wrap is set but the configuration is not yet functional. Without angled hips, the bottom player cannot generate sweep leverage or load submissions effectively. Backstep immediately to change the geometry, or drive a quick knee cut pass while their legs are still flat. Once they angle their hips to 45 degrees, the configuration activates and escaping becomes much harder."
+        "answer": "This is the critical intermediate window where the wrap is set but the configuration is not yet functional. Without angled hips, the bottom player cannot generate sweep leverage or load submissions effectively. Backstep immediately to change the geometry, or drive a quick knee cut pass while their legs are still flat. Once they angle their hips to 45 degrees, the configuration activates and escaping becomes much harder.",
+        "answer_line": "Backstep before hips angle",
+        "distractors": {
+          "plausible": [
+            "Knee cut after hips angle",
+            "Free your arm, then pass"
+          ],
+          "trap": [
+            "Sit and wait for the angle"
+          ]
+        }
       },
       {
         "question": "When is driving a knee cut pass through squid guard entry the correct defensive choice?",

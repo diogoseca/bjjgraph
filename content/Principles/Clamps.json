@@ -431,7 +431,17 @@
     },
     {
       "question": "Why is clamping the ribcage more effective than clamping the waist?",
-      "answer": "The ribcage is a narrower, less compressible circumference, so the same squeeze force produces greater compression. Migrating the clamp to the narrowest viable circumference dramatically increases its effectiveness per unit of effort."
+      "answer": "The ribcage is a narrower, less compressible circumference, so the same squeeze force produces greater compression. Migrating the clamp to the narrowest viable circumference dramatically increases its effectiveness per unit of effort.",
+      "answer_line": "Narrower ribs = more compression",
+      "distractors": {
+        "plausible": [
+          "Bony ribs hurt more than waist",
+          "Higher clamp = better leverage"
+        ],
+        "trap": [
+          "Release and re-clamp higher up"
+        ]
+      }
     },
     {
       "question": "What role do skeletal locks play in maintaining a clamp?",

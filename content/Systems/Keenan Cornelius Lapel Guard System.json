@@ -494,7 +494,17 @@
     },
     {
       "question": "What primary attacks does the system threaten once control is consolidated?",
-      "answer": "High-percentage sweeps driven by lapel off-balancing, back takes from the entanglement, and submissions such as triangles and omoplatas, all chained so that a defended attack immediately sets up the next dilemma for the opponent."
+      "answer": "High-percentage sweeps driven by lapel off-balancing, back takes from the entanglement, and submissions such as triangles and omoplatas, all chained so that a defended attack immediately sets up the next dilemma for the opponent.",
+      "answer_line": "Chained sweeps, back takes, subs",
+      "distractors": {
+        "plausible": [
+          "Pin the lapel and stall out",
+          "Recover full closed guard"
+        ],
+        "trap": [
+          "Turn belly-down and bail"
+        ]
+      }
     }
   ]
 }

@@ -942,7 +942,17 @@
     },
     {
       "question": "How does Leg Knot differ from the Saddle and from 50-50 in terms of control symmetry?",
-      "answer": "The Saddle is an asymmetric, dominant entanglement where one player has cleanly trapped the opponent's leg across their centerline with a secured knee line, giving a decisive attacking advantage. 50-50 is symmetric but comparatively stable, with each player holding an identical mirrored configuration and matching, defined offense. Leg Knot sits between these as a symmetric yet unstable knot, where the control is mutual but unresolved and constantly contestable rather than settled. The practical implication is that Leg Knot is a fork in the road that typically collapses toward Saddle for one player or resolves into a cleaner guard for the other."
+      "answer": "The Saddle is an asymmetric, dominant entanglement where one player has cleanly trapped the opponent's leg across their centerline with a secured knee line, giving a decisive attacking advantage. 50-50 is symmetric but comparatively stable, with each player holding an identical mirrored configuration and matching, defined offense. Leg Knot sits between these as a symmetric yet unstable knot, where the control is mutual but unresolved and constantly contestable rather than settled. The practical implication is that Leg Knot is a fork in the road that typically collapses toward Saddle for one player or resolves into a cleaner guard for the other.",
+      "answer_line": "Symmetric but unstable",
+      "distractors": {
+        "plausible": [
+          "Asymmetric and dominant",
+          "Symmetric and stable"
+        ],
+        "trap": [
+          "Locked in — sit and finish"
+        ]
+      }
     },
     {
       "question": "Why does the free leg function as a decisive tool for whichever grappler can deploy it from Leg Knot?",

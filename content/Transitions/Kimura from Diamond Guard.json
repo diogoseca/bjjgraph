@@ -296,7 +296,17 @@
       },
       {
         "question": "Your opponent straightens their trapped arm to resist the figure-four lock — how do you adjust?",
-        "answer": "A straightened arm inside your overhook creates a long lever that can be exploited rather than fought. You have two high-percentage options: first, use the extended arm as a fulcrum for a straight armbar by shooting your hips up and throwing your leg over their head while controlling the wrist; second, bend the arm by driving your overhook elbow downward toward the mat while pulling their wrist upward with your gripping hand, using opposing forces to fold the arm back into the figure-four configuration. Never try to muscle a straight arm into a bent position against resistance."
+        "answer": "A straightened arm inside your overhook creates a long lever that can be exploited rather than fought. You have two high-percentage options: first, use the extended arm as a fulcrum for a straight armbar by shooting your hips up and throwing your leg over their head while controlling the wrist; second, bend the arm by driving your overhook elbow downward toward the mat while pulling their wrist upward with your gripping hand, using opposing forces to fold the arm back into the figure-four configuration. Never try to muscle a straight arm into a bent position against resistance.",
+        "answer_line": "Switch to a straight armbar",
+        "distractors": {
+          "plausible": [
+            "Push their wrist toward the mat",
+            "Twist the shoulder harder"
+          ],
+          "trap": [
+            "Force it bent against resistance"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides maximum control during the figure-four transition?",

@@ -490,11 +490,31 @@
     },
     {
       "question": "What is the relationship between base maintenance and pressure application?",
-      "answer": "They must be coordinated: pouring pressure into an opponent while neglecting your own base lets them use your committed weight against you for sweeps or reversals, so structural stability must be preserved even while applying significant control pressure."
+      "answer": "They must be coordinated: pouring pressure into an opponent while neglecting your own base lets them use your committed weight against you for sweeps or reversals, so structural stability must be preserved even while applying significant control pressure.",
+      "answer_line": "Keep your base while pressuring",
+      "distractors": {
+        "plausible": [
+          "Pressure matters more than base",
+          "Settle weight, then rebuild base"
+        ],
+        "trap": [
+          "Dump all your weight forward"
+        ]
+      }
     },
     {
       "question": "In side control, which connections and pressures define effective control maintenance?",
-      "answer": "Establishing crossface and underhook connections while driving shoulder pressure to block the hip escape, modulating chest pressure to kill bridge attempts, and transitioning between side control configurations as the opponent's defensive reactions change."
+      "answer": "Establishing crossface and underhook connections while driving shoulder pressure to block the hip escape, modulating chest pressure to kill bridge attempts, and transitioning between side control configurations as the opponent's defensive reactions change.",
+      "answer_line": "Crossface + underhook, block hips",
+      "distractors": {
+        "plausible": [
+          "Kill the bridge before the hips",
+          "Sprawl heavy, pin both arms flat"
+        ],
+        "trap": [
+          "Lie flat, reach for the far arm"
+        ]
+      }
     },
     {
       "question": "What observable behavior distinguishes an advanced control maintainer from an intermediate one?",

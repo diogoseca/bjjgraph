@@ -317,7 +317,17 @@
       },
       {
         "question": "Why must the leg release and first hook insertion happen as one continuous motion?",
-        "answer": "Releasing the leg too early creates a gap where the opponent has no control on them at all—they can simply step away, sprawl, or turn to face you. Releasing at the exact moment you insert the hook ensures continuous connection and pressure throughout the transition. The opponent never has a free moment to escape because one form of control replaces another without interruption."
+        "answer": "Releasing the leg too early creates a gap where the opponent has no control on them at all—they can simply step away, sprawl, or turn to face you. Releasing at the exact moment you insert the hook ensures continuous connection and pressure throughout the transition. The opponent never has a free moment to escape because one form of control replaces another without interruption.",
+        "answer_line": "Never leave a control-free moment",
+        "distractors": {
+          "plausible": [
+            "Release leg, then insert hook",
+            "Hook first, release leg after"
+          ],
+          "trap": [
+            "Pop the leg out early to reset"
+          ]
+        }
       },
       {
         "question": "What is the most critical error practitioners make when attempting this technique?",

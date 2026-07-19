@@ -282,11 +282,31 @@
       },
       {
         "question": "What is the critical difference in rolling direction between the granby roll escape and the anaconda finishing rotation?",
-        "answer": "The anaconda finish involves the top player rolling you toward your trapped arm side, which tightens the circular compression. The granby escape rolls you away from the trapped arm side, which opens the compression angle and disrupts the grip mechanics. Rolling in the wrong direction feeds your neck into the choke and can cause immediate submission. The correct direction always moves your body so that your neck separates from the choking arm rather than compressing further into it."
+        "answer": "The anaconda finish involves the top player rolling you toward your trapped arm side, which tightens the circular compression. The granby escape rolls you away from the trapped arm side, which opens the compression angle and disrupts the grip mechanics. Rolling in the wrong direction feeds your neck into the choke and can cause immediate submission. The correct direction always moves your body so that your neck separates from the choking arm rather than compressing further into it.",
+        "answer_line": "Granby rolls away from trapped arm",
+        "distractors": {
+          "plausible": [
+            "Only the tempo differs, not side",
+            "Roll over the near shoulder first"
+          ],
+          "trap": [
+            "Roll into the choking arm"
+          ]
+        }
       },
       {
         "question": "Your granby roll is partially stuffed and you end up on your side with the grip still partially engaged - what is your immediate response?",
-        "answer": "Do not attempt a second granby roll from this compromised position. Instead, immediately switch to the multi-shrimp chain taking advantage of the new angle the partial roll created. The partial roll has changed the compression angle even if it did not break the grip, and this new angle often provides better hip escape mechanics than the original flat position. Use whatever angular gain the partial roll achieved to fuel the shrimp chain, and focus on establishing leg frames from the side-lying position."
+        "answer": "Do not attempt a second granby roll from this compromised position. Instead, immediately switch to the multi-shrimp chain taking advantage of the new angle the partial roll created. The partial roll has changed the compression angle even if it did not break the grip, and this new angle often provides better hip escape mechanics than the original flat position. Use whatever angular gain the partial roll achieved to fuel the shrimp chain, and focus on establishing leg frames from the side-lying position.",
+        "answer_line": "Shrimp-chain off the new angle",
+        "distractors": {
+          "plausible": [
+            "Flatten out, then hip escape",
+            "Re-establish the grip first"
+          ],
+          "trap": [
+            "Roll again to finish the granby"
+          ]
+        }
       },
       {
         "question": "What must happen within two seconds of the dead orchard grip breaking during the aggressive escape?",
@@ -304,7 +324,17 @@
       },
       {
         "question": "How does the opponent's weight distribution determine which aggressive escape variant you should use?",
-        "answer": "Elevated hips favor the granby roll because the space under your shoulders allows loading weight for the inversion and the opponent's high center of gravity makes it harder for them to stuff the roll. Settled heavy weight favors the multi-shrimp chain because there is insufficient space for the granby loading phase, but the shrimp chain can generate distance even under heavy pressure through cumulative small movements. If the opponent's weight is transitioning between states, that transition moment is the optimal window for either variant."
+        "answer": "Elevated hips favor the granby roll because the space under your shoulders allows loading weight for the inversion and the opponent's high center of gravity makes it harder for them to stuff the roll. Settled heavy weight favors the multi-shrimp chain because there is insufficient space for the granby loading phase, but the shrimp chain can generate distance even under heavy pressure through cumulative small movements. If the opponent's weight is transitioning between states, that transition moment is the optimal window for either variant.",
+        "answer_line": "High hips granby, heavy shrimp chain",
+        "distractors": {
+          "plausible": [
+            "Roll when pinned, shrimp when light",
+            "Pick by grips, not weight"
+          ],
+          "trap": [
+            "Invert under settled weight"
+          ]
+        }
       },
       {
         "question": "Your opponent releases the dead orchard grip during your escape and starts driving toward side control - how do you adjust your objective?",

@@ -544,7 +544,17 @@
       },
       {
         "question": "What is the best counter-attack available when you successfully defend the Underhook Sweep?",
-        "answer": "The best counter-attack is to immediately drive forward with whizzer and crossface pressure to flatten the opponent back to half guard bottom. After a failed sweep attempt, the sweeper's weight is typically shifted forward and off-balance from the drive, creating a window where forward pressure can collapse their posture before they can reset to neutral dogfight. This counter converts a defensive success into an offensive opportunity by taking advantage of the opponent's post-sweep vulnerability."
+        "answer": "The best counter-attack is to immediately drive forward with whizzer and crossface pressure to flatten the opponent back to half guard bottom. After a failed sweep attempt, the sweeper's weight is typically shifted forward and off-balance from the drive, creating a window where forward pressure can collapse their posture before they can reset to neutral dogfight. This counter converts a defensive success into an offensive opportunity by taking advantage of the opponent's post-sweep vulnerability.",
+        "answer_line": "Whizzer + crossface, flatten to half",
+        "distractors": {
+          "plausible": [
+            "Reset to a neutral dogfight",
+            "Come up for your own sweep"
+          ],
+          "trap": [
+            "Roll to knees away from opponent"
+          ]
+        }
       }
     ],
     "training_progressions": [

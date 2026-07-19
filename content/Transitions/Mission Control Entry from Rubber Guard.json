@@ -368,7 +368,17 @@
       },
       {
         "question": "How does hip elevation during the entry differ from hip elevation during Mission Control maintenance?",
-        "answer": "During the entry, hip elevation is explosive and maximal, creating a sharp upward pop that generates clearance space for the arm threading. During maintenance, hip elevation is sustained and moderate, creating constant upward pressure that keeps the opponent's weight loaded on the trapped shoulder. The entry uses a burst of energy to create space, while maintenance uses structural positioning to sustain control with minimal energy expenditure."
+        "answer": "During the entry, hip elevation is explosive and maximal, creating a sharp upward pop that generates clearance space for the arm threading. During maintenance, hip elevation is sustained and moderate, creating constant upward pressure that keeps the opponent's weight loaded on the trapped shoulder. The entry uses a burst of energy to create space, while maintenance uses structural positioning to sustain control with minimal energy expenditure.",
+        "answer_line": "Explosive pop vs sustained pressure",
+        "distractors": {
+          "plausible": [
+            "Sustained lift vs explosive squeeze",
+            "Both moderate and constant"
+          ],
+          "trap": [
+            "Full bridge to bump him off"
+          ]
+        }
       },
       {
         "question": "Your opponent is significantly larger and their forward pressure makes hip elevation difficult - what adaptation do you use?",

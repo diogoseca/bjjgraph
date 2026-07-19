@@ -357,11 +357,31 @@
     },
     {
       "question": "How does breath control influence decision-making under stress?",
-      "answer": "Structured breathing—4-7-8 to calm, rhythmic to manage energy, box breathing to recover—regulates sympathetic nervous system activation, maintaining oxygen delivery and cognitive clarity while preventing panic responses."
+      "answer": "Structured breathing—4-7-8 to calm, rhythmic to manage energy, box breathing to recover—regulates sympathetic nervous system activation, maintaining oxygen delivery and cognitive clarity while preventing panic responses.",
+      "answer_line": "Calms nervous system, keeps clarity",
+      "distractors": {
+        "plausible": [
+          "Slows heart rate to relax fully",
+          "Distracts mind from the pressure"
+        ],
+        "trap": [
+          "Hold your breath and power through"
+        ]
+      }
     },
     {
       "question": "What is pressure inoculation training and why does it matter?",
-      "answer": "Progressive exposure to competitive stressors—time limits, scoring, unfamiliar opponents, fatigue—during practice, building tolerance so performance does not degrade when those same stressors appear in real competition."
+      "answer": "Progressive exposure to competitive stressors—time limits, scoring, unfamiliar opponents, fatigue—during practice, building tolerance so performance does not degrade when those same stressors appear in real competition.",
+      "answer_line": "Simulate comp stress in practice",
+      "distractors": {
+        "plausible": [
+          "Drill moves until fully automatic",
+          "Only feel pressure at tournaments"
+        ],
+        "trap": [
+          "Go full-intensity from day one"
+        ]
+      }
     },
     {
       "question": "Why should post-competition analysis focus on decision quality rather than outcome?",
@@ -379,7 +399,17 @@
     },
     {
       "question": "What is a common mistake when practicing visualization for competition?",
-      "answer": "Rehearsing only positive, successful scenarios while never preparing mental responses to adversity—being scored on or stuck in bad positions—leaves you unready for the situations that actually test composure."
+      "answer": "Rehearsing only positive, successful scenarios while never preparing mental responses to adversity—being scored on or stuck in bad positions—leaves you unready for the situations that actually test composure.",
+      "answer_line": "Rehearsing only wins, not adversity",
+      "distractors": {
+        "plausible": [
+          "Imagining medals, not opponents",
+          "Visualizing but never drilling"
+        ],
+        "trap": [
+          "Only picturing losses to toughen up"
+        ]
+      }
     },
     {
       "question": "How do you reset composure immediately after being scored on or making a mistake?",

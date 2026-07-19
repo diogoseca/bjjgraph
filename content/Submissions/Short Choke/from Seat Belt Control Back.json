@@ -316,7 +316,17 @@
       {
         "question": "What positional control elements must be established before committing to the collar grip transition?",
         "answer": "Before releasing the over-arm for the collar grip, you must have both hooks deep inside the opponent's thighs with active inward pressure, strong chest-to-back connection with zero space, a secure under-arm grip capable of maintaining control alone during the transition, and your body weight distributed through your core and legs rather than relying on the seat belt grip. If any of these elements are compromised, re-establish full seat belt control before attempting the collar entry.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Under-arm holds solo before release",
+        "distractors": {
+          "plausible": [
+            "Collar grip first, hooks after",
+            "Chest gap fine if grip is tight"
+          ],
+          "trap": [
+            "Release seat belt to reach collar"
+          ]
+        }
       },
       {
         "question": "At what point during the Short Choke sequence does the opponent reach the point of no escape?",
@@ -396,7 +406,17 @@
       {
         "question": "In competition, your opponent is stalling by keeping their chin buried and hands locked on your wrist - how do you create the opening for the Short Choke?",
         "answer": "Apply progressive body pressure by driving your hips forward and squeezing your hooks to make the position increasingly uncomfortable. Use micro-adjustments to walk your over-arm hand toward the collar line while keeping wrist-on-wrist contact to disguise the intent. Shake or bump your opponent with your legs to disrupt their grip rhythm, creating brief moments where their hands shift. Time the collar grip entry during one of these disruptions. You can also threaten an armbar by beginning to isolate their wrist, forcing them to release the locked grip to defend.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Build pressure, enter on grip shift",
+        "distractors": {
+          "plausible": [
+            "Lead with the armbar threat first",
+            "Muscle both hands off the wrist"
+          ],
+          "trap": [
+            "Release hooks to free your arm"
+          ]
+        }
       },
       {
         "question": "How should you release the Short Choke safely after your training partner taps?",

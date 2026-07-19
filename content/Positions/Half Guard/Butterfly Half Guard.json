@@ -870,7 +870,17 @@
       },
       {
         "question": "What is the proper timing and coordination between your butterfly hook drive and upper body pull during sweep execution?",
-        "answer": "The butterfly hook drive and upper body pull must be simultaneous and coordinated. Start with a slight hip adjustment to create the perpendicular angle (about 45 degrees to their base). Then explode through the hook while pulling your underhook toward your opposite hip in one unified motion. The hook provides elevation and off-balancing while the pull controls their trajectory over the sweep. Common mistake is driving the hook first then pulling - this gives them time to base out. The movements must be unified."
+        "answer": "The butterfly hook drive and upper body pull must be simultaneous and coordinated. Start with a slight hip adjustment to create the perpendicular angle (about 45 degrees to their base). Then explode through the hook while pulling your underhook toward your opposite hip in one unified motion. The hook provides elevation and off-balancing while the pull controls their trajectory over the sweep. Common mistake is driving the hook first then pulling - this gives them time to base out. The movements must be unified.",
+        "answer_line": "Drive hook and pull as one motion",
+        "distractors": {
+          "plausible": [
+            "Drive the hook first, then pull",
+            "Square hips to 90 before sweeping"
+          ],
+          "trap": [
+            "Release underhook, push them away"
+          ]
+        }
       },
       {
         "question": "How do you manage energy when your opponent is defending your sweeps effectively and the position becomes a stalemate?",
@@ -990,7 +1000,17 @@
     },
     {
       "question": "How do the two control points in Butterfly Half Guard divide the labor of restraint and off-balancing?",
-      "answer": "The half guard trap functions as the anchor: its constant inward squeeze pins one leg, denies passing distance, and keeps the top player tethered so they cannot simply stand clear. The butterfly hook functions as the engine: its active upward drive under the free leg supplies the elevation and off-balancing force. Neither element works well alone, since the anchor without the engine is passive half guard and the engine without the anchor is butterfly guard from which the opponent can back out. The position's leverage comes precisely from pairing a restraining point with a lifting point on opposite legs of the same opponent."
+      "answer": "The half guard trap functions as the anchor: its constant inward squeeze pins one leg, denies passing distance, and keeps the top player tethered so they cannot simply stand clear. The butterfly hook functions as the engine: its active upward drive under the free leg supplies the elevation and off-balancing force. Neither element works well alone, since the anchor without the engine is passive half guard and the engine without the anchor is butterfly guard from which the opponent can back out. The position's leverage comes precisely from pairing a restraining point with a lifting point on opposite legs of the same opponent.",
+      "answer_line": "Trap anchors, hook lifts",
+      "distractors": {
+        "plausible": [
+          "Hook pins leg, trap elevates",
+          "Both points supply the lift"
+        ],
+        "trap": [
+          "Free the trap to hook deeper"
+        ]
+      }
     },
     {
       "question": "What distinguishes Butterfly Half Guard from its parent butterfly guard and half guard in terms of vulnerability and power?",

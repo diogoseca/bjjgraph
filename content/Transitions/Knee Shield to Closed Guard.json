@@ -236,19 +236,59 @@
     "flashcards": [
       {
         "question": "What is the optimal timing window for attempting the leg extraction from knee shield?",
-        "answer": "The best timing window occurs when your opponent reaches for grips or shifts their weight to set up a pass. During these moments, their forward pressure temporarily reduces, creating the space needed for the hip escape. After successfully defending a pass attempt—when your opponent resets their position—there is also a brief window where their weight is transitioning and cannot immediately resist your extraction movement."
+        "answer": "The best timing window occurs when your opponent reaches for grips or shifts their weight to set up a pass. During these moments, their forward pressure temporarily reduces, creating the space needed for the hip escape. After successfully defending a pass attempt—when your opponent resets their position—there is also a brief window where their weight is transitioning and cannot immediately resist your extraction movement.",
+        "answer_line": "When their weight shifts to pass",
+        "distractors": {
+          "plausible": [
+            "Once they lock a strong grip",
+            "Right after they clear the knee"
+          ],
+          "trap": [
+            "While they stack and drive in"
+          ]
+        }
       },
       {
         "question": "What conditions must exist before you attempt to close guard from knee shield?",
-        "answer": "You need four conditions in place: a strong knee shield frame creating distance from the opponent's chest, at least one controlling grip on their upper body preventing forward pressure, your hips must be mobile and not flattened to the mat, and the opponent's crossface must be neutralized. Attempting without these conditions results in getting flattened rather than recovering guard."
+        "answer": "You need four conditions in place: a strong knee shield frame creating distance from the opponent's chest, at least one controlling grip on their upper body preventing forward pressure, your hips must be mobile and not flattened to the mat, and the opponent's crossface must be neutralized. Attempting without these conditions results in getting flattened rather than recovering guard.",
+        "answer_line": "Frame, grip, free hips, no crossface",
+        "distractors": {
+          "plausible": [
+            "Underhook first, then square up",
+            "Pull their head down, then bridge"
+          ],
+          "trap": [
+            "Flatten out and kick leg over"
+          ]
+        }
       },
       {
         "question": "What is the most critical hip movement during the leg extraction?",
-        "answer": "The shrimping motion must angle your hips away from the opponent at approximately 45 degrees rather than directly backward. This diagonal hip escape creates a channel along the inside of the opponent's thigh for your trapped leg to travel through. If you shrimp straight back, your leg remains trapped because you have not created the angular clearance needed for extraction."
+        "answer": "The shrimping motion must angle your hips away from the opponent at approximately 45 degrees rather than directly backward. This diagonal hip escape creates a channel along the inside of the opponent's thigh for your trapped leg to travel through. If you shrimp straight back, your leg remains trapped because you have not created the angular clearance needed for extraction.",
+        "answer_line": "Shrimp hips out at 45°",
+        "distractors": {
+          "plausible": [
+            "Shrimp straight backward",
+            "Pull knee to chest first"
+          ],
+          "trap": [
+            "Turn belly-down to escape"
+          ]
+        }
       },
       {
         "question": "What is the most common reason this transition fails at the intermediate level?",
-        "answer": "The most common failure is releasing the knee shield frame too early during the extraction attempt. Practitioners retract the knee shield before their bottom leg is fully free, which allows the opponent to drive forward and flatten the position into an inferior half guard. The knee shield must remain active as a barrier until the extraction is complete and both legs can immediately close around the opponent."
+        "answer": "The most common failure is releasing the knee shield frame too early during the extraction attempt. Practitioners retract the knee shield before their bottom leg is fully free, which allows the opponent to drive forward and flatten the position into an inferior half guard. The knee shield must remain active as a barrier until the extraction is complete and both legs can immediately close around the opponent.",
+        "answer_line": "Dropping knee shield too early",
+        "distractors": {
+          "plausible": [
+            "Pulling bottom leg out too slowly",
+            "Hips not elevated to free the leg"
+          ],
+          "trap": [
+            "Turning belly-down to yank leg free"
+          ]
+        }
       },
       {
         "question": "What grip configuration provides the best control during the guard closure sequence?",
@@ -280,7 +320,17 @@
       },
       {
         "question": "Your opponent posts their hand on the mat as you begin extracting your leg—how do you adjust?",
-        "answer": "Their posted hand creates a base that resists your extraction but removes that hand from controlling you. Immediately secure a grip on their posting arm's sleeve or wrist, which both prevents effective posting and gives you an additional control point. Then complete the extraction using their compromised base—with one hand posted, they cannot drive forward effectively to prevent your guard closure."
+        "answer": "Their posted hand creates a base that resists your extraction but removes that hand from controlling you. Immediately secure a grip on their posting arm's sleeve or wrist, which both prevents effective posting and gives you an additional control point. Then complete the extraction using their compromised base—with one hand posted, they cannot drive forward effectively to prevent your guard closure.",
+        "answer_line": "Grip the posting arm's sleeve",
+        "distractors": {
+          "plausible": [
+            "Yank the leg free right away",
+            "Wait for them to unpost"
+          ],
+          "trap": [
+            "Turn away to slip the leg out"
+          ]
+        }
       },
       {
         "question": "If the opponent successfully prevents your guard closure and you end up with one leg free but guard open, what is your immediate follow-up?",
@@ -391,11 +441,31 @@
     "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to close guard from knee shield?",
-        "answer": "The earliest cue is a change in their knee shield pressure from offensive pushing with sweep threats to purely distance-creating pushing, combined with a diagonal hip escape motion away from you. When the bottom player shifts from threatening sweeps to creating maximum distance with their frame while their hips begin angling away, they are setting up the leg extraction. Recognizing this shift before the hip escape completes gives you the reaction time to shut down the attempt."
+        "answer": "The earliest cue is a change in their knee shield pressure from offensive pushing with sweep threats to purely distance-creating pushing, combined with a diagonal hip escape motion away from you. When the bottom player shifts from threatening sweeps to creating maximum distance with their frame while their hips begin angling away, they are setting up the leg extraction. Recognizing this shift before the hip escape completes gives you the reaction time to shut down the attempt.",
+        "answer_line": "Shield shifts to distance + hip out",
+        "distractors": {
+          "plausible": [
+            "Sweep-threat pressure ramps up",
+            "Hip escape finishes, then react"
+          ],
+          "trap": [
+            "Shield slackens, drive to pass"
+          ]
+        }
       },
       {
         "question": "How should you adjust your weight distribution to prevent the guard closure?",
-        "answer": "Shift your weight low and forward into their knee shield area, driving your hips toward the mat and your shoulder into their upper chest or crossface position. Your weight should be concentrated through your chest and shoulder rather than distributed evenly on your knees, which creates the crushing forward pressure that eliminates the space they need for the hip escape and subsequent leg extraction sequence."
+        "answer": "Shift your weight low and forward into their knee shield area, driving your hips toward the mat and your shoulder into their upper chest or crossface position. Your weight should be concentrated through your chest and shoulder rather than distributed evenly on your knees, which creates the crushing forward pressure that eliminates the space they need for the hip escape and subsequent leg extraction sequence.",
+        "answer_line": "Weight low and forward, chest down",
+        "distractors": {
+          "plausible": [
+            "Spread weight evenly across knees",
+            "Sit hips back to make space"
+          ],
+          "trap": [
+            "Posture up tall onto your knees"
+          ]
+        }
       },
       {
         "question": "What is your best recovery option if you recognize the extraction attempt too late and their leg is already partially freed?",
@@ -413,7 +483,17 @@
       },
       {
         "question": "Your opponent successfully closes guard on you after the recovery—what immediate actions minimize the positional damage?",
-        "answer": "Immediately establish strong posture by sitting upright with your spine straight and head positioned directly over your hips. Place both hands on their hips to create distance and prevent them from breaking your posture for attacks. Begin the standard closed guard top survival sequence: posture first, then grip fight, then guard opening. The faster you establish posture after guard closure, the fewer offensive options they can develop against you."
+        "answer": "Immediately establish strong posture by sitting upright with your spine straight and head positioned directly over your hips. Place both hands on their hips to create distance and prevent them from breaking your posture for attacks. Begin the standard closed guard top survival sequence: posture first, then grip fight, then guard opening. The faster you establish posture after guard closure, the fewer offensive options they can develop against you.",
+        "answer_line": "Posture up, hands on their hips",
+        "distractors": {
+          "plausible": [
+            "Grip fight before posturing up",
+            "Open the guard before posturing"
+          ],
+          "trap": [
+            "Lean chest forward to flatten them"
+          ]
+        }
       }
     ],
     "training_progressions": [

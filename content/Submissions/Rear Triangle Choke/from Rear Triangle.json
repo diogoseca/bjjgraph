@@ -302,7 +302,17 @@
       {
         "question": "Why must you squeeze the knees together before extending the hips, and what happens if you reverse this sequence?",
         "answer": "Squeezing knees first eliminates dead space within the triangle structure, creating a sealed compression chamber around the neck and trapped arm. If you extend hips first without knee compression, the gaps in the triangle allow the opponent to relieve pressure, potentially extract their arm, or shift their neck to a position where the carotids are no longer compressed. The correct sequence—compress then extend—ensures the choke tightens progressively without creating defensive windows.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Knees first kills the dead space",
+        "distractors": {
+          "plausible": [
+            "Extend hips, then squeeze knees",
+            "Hip extension seals the choke"
+          ],
+          "trap": [
+            "Loosen knees to adjust the neck"
+          ]
+        }
       },
       {
         "question": "Your opponent begins pulling their trapped arm free during your finishing attempt—what is your immediate adjustment?",

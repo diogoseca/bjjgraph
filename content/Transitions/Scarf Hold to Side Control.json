@@ -286,7 +286,17 @@
       },
       {
         "question": "What is the optimal timing window for initiating this transition?",
-        "answer": "The best window is when the bottom player has just finished an unsuccessful escape attempt and is resettling, or when they are passively defending without actively threatening bridges or turns. Avoid initiating during active escape sequences, immediately after they establish new frames, or when their hips are loaded for a bridge. The bottom player should be in a relatively static defensive posture for the transition to succeed at highest probability."
+        "answer": "The best window is when the bottom player has just finished an unsuccessful escape attempt and is resettling, or when they are passively defending without actively threatening bridges or turns. Avoid initiating during active escape sequences, immediately after they establish new frames, or when their hips are loaded for a bridge. The bottom player should be in a relatively static defensive posture for the transition to succeed at highest probability.",
+        "answer_line": "Just after a failed escape attempt",
+        "distractors": {
+          "plausible": [
+            "Right when they establish frames",
+            "The instant they start scrambling"
+          ],
+          "trap": [
+            "When their hips load for a bridge"
+          ]
+        }
       },
       {
         "question": "What must your near hand do immediately after releasing the arm trap?",
@@ -332,7 +342,17 @@
       },
       {
         "question": "What is the difference between the crossface-first and quick-switch variants, and when do you choose each?",
-        "answer": "The crossface-first variant prioritizes continuous head control by establishing the crossface before releasing the head wrap, making it ideal against active opponents who immediately exploit any gap in head control. The quick-switch variant simultaneously releases old grips and establishes new ones in a faster but riskier movement, suitable against passive opponents who are unlikely to exploit the brief control gap. Choose crossface-first against experienced or aggressive defenders, and quick-switch when speed of transition is more important than control continuity."
+        "answer": "The crossface-first variant prioritizes continuous head control by establishing the crossface before releasing the head wrap, making it ideal against active opponents who immediately exploit any gap in head control. The quick-switch variant simultaneously releases old grips and establishes new ones in a faster but riskier movement, suitable against passive opponents who are unlikely to exploit the brief control gap. Choose crossface-first against experienced or aggressive defenders, and quick-switch when speed of transition is more important than control continuity.",
+        "answer_line": "Crossface-first for active foes",
+        "distractors": {
+          "plausible": [
+            "Quick-switch for active foes",
+            "Release head wrap, then crossface"
+          ],
+          "trap": [
+            "Free the head first to move fast"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition is low-risk from an injury standpoint as it involves positional adjustment rather than joint manipulation or choking mechanics. The primary safety concern is maintaining controlled pressure during the rotation to avoid accidentally driving excessive weight into the bottom player's ribs or sternum during the hip rotation phase. Practitioners should communicate during drilling if chest compression becomes uncomfortable, and the top player should avoid slamming their weight down after completing the rotation. During live training, be aware that the bottom player may attempt explosive escapes during the grip change window, which can create collision risks if both players commit to rapid movement simultaneously.",
@@ -430,7 +450,17 @@
     "flashcards": [
       {
         "question": "What is the single most important tactile cue that the Scarf Hold to Side Control transition is beginning?",
-        "answer": "The most reliable cue is the loosening or repositioning of the far arm around your head. When the top player begins sliding their arm from behind your head toward your face to establish crossface, this is the definitive signal that the transition is initiating. This grip change is the first action in the sequence and provides the earliest warning, giving you maximum time to prepare and execute your defensive response."
+        "answer": "The most reliable cue is the loosening or repositioning of the far arm around your head. When the top player begins sliding their arm from behind your head toward your face to establish crossface, this is the definitive signal that the transition is initiating. This grip change is the first action in the sequence and provides the earliest warning, giving you maximum time to prepare and execute your defensive response.",
+        "answer_line": "Far arm slides toward crossface",
+        "distractors": {
+          "plausible": [
+            "Top's chest rotates square to you",
+            "Hips drive up toward your head"
+          ],
+          "trap": [
+            "Weight lifts — turn to your knees"
+          ]
+        }
       },
       {
         "question": "Why is the transition window more valuable for escape than either the established scarf hold or established side control?",

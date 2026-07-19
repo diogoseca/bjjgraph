@@ -58,19 +58,27 @@ def similar(a: str, b: str) -> bool:
     return (inter / uni > 0.8) if uni else True
 
 
-def viable_distractor(text: str, correct: str, picked: list[str]) -> str | None:
+def viable_distractor_reason(text: str, correct: str, picked: list[str]) -> tuple[str | None, str]:
+    """Like viable_distractor, but also returns WHY it failed:
+    clip | ratio | sim_correct | sim_sibling | ok. Powers the salvage loop's reason-aware
+    retries and the residual diagnosis. Keep in lockstep with viable_distractor below."""
     t = mc_clip(text)
     if not t:
-        return None
+        return None, "clip"
     ratio = len(t) / len(correct)
     if ratio < 0.4 or ratio > 2.5:
-        return None
+        return None, "ratio"
     if similar(t, correct):
-        return None
+        return None, "sim_correct"
     for p in picked:
         if similar(t, p):
-            return None
-    return t
+            return None, "sim_sibling"
+    return t, "ok"
+
+
+def viable_distractor(text: str, correct: str, picked: list[str]) -> str | None:
+    # thin bool-ish wrapper — byte-stable return so card_viable + the golden anchors don't drift
+    return viable_distractor_reason(text, correct, picked)[0]
 
 
 def card_viable(card: dict, deck_key: str, decks: dict, neighbors: dict) -> bool:

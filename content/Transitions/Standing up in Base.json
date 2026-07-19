@@ -607,7 +607,17 @@
       },
       {
         "question": "What distinguishes an effective turtle top pressure that prevents standup from one that merely slows it down?",
-        "answer": "Effective prevention requires three simultaneous elements: chest weight driving at a 45-degree angle into opponent's upper back and shoulders, at least one hand controlling their near hip to prevent elevation, and your own hips staying low and connected rather than floating above their body. Pressure that merely slows the standup typically has only one or two of these elements. Most commonly, top players apply chest pressure but neglect hip control, allowing the bottom player to elevate despite the weight. Or they control hips with hands but keep their own body weight too high to create meaningful compression. All three elements must be present simultaneously to truly prevent the standup rather than just delaying it."
+        "answer": "Effective prevention requires three simultaneous elements: chest weight driving at a 45-degree angle into opponent's upper back and shoulders, at least one hand controlling their near hip to prevent elevation, and your own hips staying low and connected rather than floating above their body. Pressure that merely slows the standup typically has only one or two of these elements. Most commonly, top players apply chest pressure but neglect hip control, allowing the bottom player to elevate despite the weight. Or they control hips with hands but keep their own body weight too high to create meaningful compression. All three elements must be present simultaneously to truly prevent the standup rather than just delaying it.",
+        "answer_line": "All three present simultaneously",
+        "distractors": {
+          "plausible": [
+            "Chest weight only, skip hip grip",
+            "Grip near hip but stay weight-high"
+          ],
+          "trap": [
+            "Ride high on their back on toes"
+          ]
+        }
       },
       {
         "question": "When is it strategically better to allow the standup and convert to back control rather than fighting to prevent it?",

@@ -275,7 +275,17 @@
       },
       {
         "question": "What is the exact figure-four leg configuration for completing the Lockdown?",
-        "answer": "Your bottom leg (closest to the mat on the posted leg side) threads between your body and their posted leg, hooking your instep behind their ankle. Your top leg crosses over their trapped leg and triangles with your bottom leg - typically your top foot hooks behind your bottom knee or calf. Once triangled, you extend your legs outward while squeezing together, straightening their trapped leg and locking their hip in place. This hyperextension prevents extraction."
+        "answer": "Your bottom leg (closest to the mat on the posted leg side) threads between your body and their posted leg, hooking your instep behind their ankle. Your top leg crosses over their trapped leg and triangles with your bottom leg - typically your top foot hooks behind your bottom knee or calf. Once triangled, you extend your legs outward while squeezing together, straightening their trapped leg and locking their hip in place. This hyperextension prevents extraction.",
+        "answer_line": "Triangle top foot behind bottom knee",
+        "distractors": {
+          "plausible": [
+            "Thread top leg behind their ankle",
+            "Hook bottom foot over their shin"
+          ],
+          "trap": [
+            "Whip legs out before locking"
+          ]
+        }
       },
       {
         "question": "What is the most critical timing window for attempting Lockdown Recovery?",

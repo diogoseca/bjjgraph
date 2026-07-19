@@ -384,7 +384,17 @@
   "flashcards": [
     {
       "question": "What is the core sequencing principle of the Teaching Methodology Framework?",
-      "answer": "Students master defensive survival from the worst positions before learning any offense, and grasp the conceptual 'why' before drilling the technical 'how', following the positional hierarchy from defense to neutral to offense."
+      "answer": "Students master defensive survival from the worst positions before learning any offense, and grasp the conceptual 'why' before drilling the technical 'how', following the positional hierarchy from defense to neutral to offense.",
+      "answer_line": "Survival & why before offense",
+      "distractors": {
+        "plausible": [
+          "Drill technique before concepts",
+          "Learn escapes after submissions"
+        ],
+        "trap": [
+          "Attack from bottom before escaping"
+        ]
+      }
     },
     {
       "question": "What are the five resistance levels in the progressive resistance drilling protocol?",

@@ -274,7 +274,17 @@
       },
       {
         "question": "Why must the collar grip be obtained before initiating the sit-down takedown?",
-        "answer": "Obtaining the collar grip while standing provides a mechanical advantage because the collar is more accessible in the vertical position and the opponent's hand fighting is compromised by the need to maintain balance. Once on the ground, the opponent can flatten defensively and use both hands specifically to prevent collar access, making grip establishment significantly more difficult."
+        "answer": "Obtaining the collar grip while standing provides a mechanical advantage because the collar is more accessible in the vertical position and the opponent's hand fighting is compromised by the need to maintain balance. Once on the ground, the opponent can flatten defensively and use both hands specifically to prevent collar access, making grip establishment significantly more difficult.",
+        "answer_line": "Collar's open while they balance",
+        "distractors": {
+          "plausible": [
+            "Sit down first for a stable base",
+            "Grip only matters after the sweep"
+          ],
+          "trap": [
+            "Pull guard, then chase the collar"
+          ]
+        }
       },
       {
         "question": "Your opponent strips your collar grip immediately after you release the seat belt—how do you respond?",
@@ -320,7 +330,17 @@
       },
       {
         "question": "What grip depth is required for an effective bow and arrow collar grip and how do you verify it?",
-        "answer": "All four fingers must be inserted past the second knuckle into the collar fabric, with the grip positioned at jaw level or above on the far-side collar. Verify depth by applying a brief downward pull on the collar before initiating the takedown—if the fabric shifts or your fingers slide along the material, the grip is too shallow and must be re-established deeper before proceeding."
+        "answer": "All four fingers must be inserted past the second knuckle into the collar fabric, with the grip positioned at jaw level or above on the far-side collar. Verify depth by applying a brief downward pull on the collar before initiating the takedown—if the fabric shifts or your fingers slide along the material, the grip is too shallow and must be re-established deeper before proceeding.",
+        "answer_line": "Four fingers past 2nd knuckle",
+        "distractors": {
+          "plausible": [
+            "Fingertips hooked at chest level",
+            "Deep thumb grip on near collar"
+          ],
+          "trap": [
+            "Grab loose, then hit the throw"
+          ]
+        }
       },
       {
         "question": "Why is securing the opponent's pant leg essential after landing in grounded back control?",

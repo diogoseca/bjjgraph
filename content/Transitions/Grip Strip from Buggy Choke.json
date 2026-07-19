@@ -292,11 +292,31 @@
       },
       {
         "question": "Your opponent re-grips their defensive frame immediately after you strip it - what adjustment should you make?",
-        "answer": "Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping. If re-gripping persists, increase body pressure to weaken the defensive structure before attempting the strip again rather than repeatedly stripping and allowing re-gripping in a cycle."
+        "answer": "Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping. If re-gripping persists, increase body pressure to weaken the defensive structure before attempting the strip again rather than repeatedly stripping and allowing re-gripping in a cycle.",
+        "answer_line": "Two-on-one break their strong grip",
+        "distractors": {
+          "plausible": [
+            "Strip the same grip faster again",
+            "Wait them out, then strip clean"
+          ],
+          "trap": [
+            "Release choke to strip with both"
+          ]
+        }
       },
       {
         "question": "How does the grip strip from buggy choke create a dilemma for the bottom player within the turtle attack system?",
-        "answer": "The grip strip forces the bottom player to choose between defending the choke and defending the positional transition. If they grip fight aggressively to prevent the choke, they must maintain frames that the top player will strip before transitioning. If they prepare to defend the transition by changing frame orientation, they reduce their choke defense, potentially allowing the submission to finish."
+        "answer": "The grip strip forces the bottom player to choose between defending the choke and defending the positional transition. If they grip fight aggressively to prevent the choke, they must maintain frames that the top player will strip before transitioning. If they prepare to defend the transition by changing frame orientation, they reduce their choke defense, potentially allowing the submission to finish.",
+        "answer_line": "Can't defend choke and transition",
+        "distractors": {
+          "plausible": [
+            "Grip fight harder to stop choke",
+            "Reframe to defend the transition"
+          ],
+          "trap": [
+            "Roll forward to escape"
+          ]
+        }
       },
       {
         "question": "What is the ideal timing window for executing the entire grip strip to side control consolidation sequence?",

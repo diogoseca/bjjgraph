@@ -389,12 +389,32 @@
       {
         "question": "What grip adjustment maximizes blood choke effectiveness versus creating a neck crank from this position?",
         "answer": "Angle your hips to the choking arm side so the blade of the forearm aligns with the carotid artery rather than pressing across the trachea. Use a high-elbow grip where the non-choking hand clasps the choking wrist with the elbow pointing upward. Curl the torso rather than pulling laterally. A properly angled blood choke finishes faster, causes less pain, and is safer than a crank.",
-        "safety_critical": true
+        "safety_critical": true,
+        "answer_line": "Blade on carotid, not trachea",
+        "distractors": {
+          "plausible": [
+            "Clasp wrist, elbow pointing down",
+            "Angle hips away from choke arm"
+          ],
+          "trap": [
+            "Uncross feet, pull sideways hard"
+          ]
+        }
       },
       {
         "question": "When should you abandon the guillotine attempt and return to Twister Control?",
         "answer": "Abandon the guillotine if the grip is not cleanly secured within the first two to three seconds of the attempt, if the opponent successfully tucks their chin before the forearm clears the chin line, or if your leg control has deteriorated to the point where the opponent can posture freely. A poorly positioned guillotine wastes energy and compromises the Twister Control you already held.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Grip not clean in first 2–3 sec",
+        "distractors": {
+          "plausible": [
+            "Wait 10 seconds, then reassess",
+            "Once your forearms start to fatigue"
+          ],
+          "trap": [
+            "Roll to your back to finish it"
+          ]
+        }
       },
       {
         "question": "In competition, how does the scoring change when you transition from Twister Control to a guillotine with guard pull?",
@@ -515,7 +535,17 @@
       {
         "question": "What visual and tactile cues indicate the attacker is transitioning from Twister Control to a guillotine?",
         "answer": "The primary cues are the release of the attacker's Twister grip on your head or arm, the feeling of their forearm threading under your chin, and a shift in chest pressure from your back toward your neck and shoulders. A turn-in escape that feels unexpectedly easy often indicates the attacker is encouraging the turn to access your neck for the guillotine.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Forearm threads under your chin",
+        "distractors": {
+          "plausible": [
+            "Grip tightens across your face",
+            "Chest pressure drives into back"
+          ],
+          "trap": [
+            "Turn in hard toward open space"
+          ]
+        }
       },
       {
         "question": "What is the safest way to tap when caught in the guillotine from Twister Control?",

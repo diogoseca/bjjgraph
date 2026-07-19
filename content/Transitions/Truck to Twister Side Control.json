@@ -496,7 +496,17 @@
       },
       {
         "question": "Why is the transition period itself the best defensive window rather than after the attacker arrives in Twister Side Control?",
-        "answer": "During the transition, the attacker's control is in flux—they have released truck-specific grips but have not yet established twister side control grips. Their weight is moving and their balance is less stable than in either static position. Their attention is divided between completing the rotation, maintaining the leg hook, and establishing new control points. This divided attention and transitional instability creates openings for frames, granby rolls, and leg extraction that are unavailable once twister side control is fully consolidated."
+        "answer": "During the transition, the attacker's control is in flux—they have released truck-specific grips but have not yet established twister side control grips. Their weight is moving and their balance is less stable than in either static position. Their attention is divided between completing the rotation, maintaining the leg hook, and establishing new control points. This divided attention and transitional instability creates openings for frames, granby rolls, and leg extraction that are unavailable once twister side control is fully consolidated.",
+        "answer_line": "Control in flux, grips not yet set",
+        "distractors": {
+          "plausible": [
+            "Leg hook is at its weakest now",
+            "More room to bridge and shrimp out"
+          ],
+          "trap": [
+            "Wait for side control to settle"
+          ]
+        }
       },
       {
         "question": "Your trapped leg is still entangled and the attacker has nearly completed the rotation—what is your priority?",

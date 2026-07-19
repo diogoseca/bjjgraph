@@ -396,7 +396,17 @@
   "flashcards": [
     {
       "question": "What replaces collar and sleeve grips as the primary control mechanism in the No-Gi Tactical Framework?",
-      "answer": "Body locks become the primary control mechanism, supplemented by underhooks, overhooks, wrist control, and head/cross-face pressure to dictate posture and engagement without any fabric to grip."
+      "answer": "Body locks become the primary control mechanism, supplemented by underhooks, overhooks, wrist control, and head/cross-face pressure to dictate posture and engagement without any fabric to grip.",
+      "answer_line": "Body locks as primary control",
+      "distractors": {
+        "plausible": [
+          "Underhooks and wrist control",
+          "Overhooks with cross-face"
+        ],
+        "trap": [
+          "Collar tie, then turn away"
+        ]
+      }
     },
     {
       "question": "Why is the front headlock emphasized more heavily in no-gi than in gi grappling?",

@@ -376,7 +376,17 @@
       {
         "question": "What is the correct sequence for transitioning from positional control grips to the kimura figure-four?",
         "answer": "First, secure the opponent's near-side wrist with your near hand and pin it firmly against their body. Only after the wrist is controlled should you release your far-side positional anchor. Thread your far arm underneath the opponent's upper arm from the outside, passing between their elbow and body. Your far hand then grabs your own near-side wrist to complete the figure-four. Chest pressure must remain committed throughout this entire transition to prevent the opponent from creating defensive space.",
-        "safety_critical": false
+        "safety_critical": false,
+        "answer_line": "Trap the near wrist before releasing",
+        "distractors": {
+          "plausible": [
+            "Thread far arm, then pin the wrist",
+            "Grab your own wrist first"
+          ],
+          "trap": [
+            "Release anchor before gripping wrist"
+          ]
+        }
       },
       {
         "question": "Why must you peel the elbow away from the body before applying rotational pressure?",

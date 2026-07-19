@@ -262,11 +262,31 @@
       },
       {
         "question": "What are the critical prerequisites that must be confirmed before initiating the step-over to mount?",
-        "answer": "Four prerequisites must be confirmed: stable shoulder pressure at the correct 45-degree angle with full body weight engaged, opponent's near-side arm controlled or trapped to prevent frame insertion, stable base with near foot positioned close to the opponent's hip for transition readiness, and opponent's defensive frames broken or suppressed. Attempting the step-over with any of these prerequisites missing significantly reduces success rate and increases counter risk."
+        "answer": "Four prerequisites must be confirmed: stable shoulder pressure at the correct 45-degree angle with full body weight engaged, opponent's near-side arm controlled or trapped to prevent frame insertion, stable base with near foot positioned close to the opponent's hip for transition readiness, and opponent's defensive frames broken or suppressed. Attempting the step-over with any of these prerequisites missing significantly reduces success rate and increases counter risk.",
+        "answer_line": "Frames broken, near arm trapped",
+        "distractors": {
+          "plausible": [
+            "Stay light for a fast step-over",
+            "Far foot planted near the hip"
+          ],
+          "trap": [
+            "Step over first, fix grips after"
+          ]
+        }
       },
       {
         "question": "What is the most critical weight transfer principle during the step-over phase of this transition?",
-        "answer": "The most critical principle is loading weight forward through the shoulder contact point to lighten your legs rather than rising your hips upward. Rising hips eliminates pressure control entirely and creates space for defensive reactions. Forward weight loading accomplishes two things simultaneously: it increases pressure on the opponent which further degrades their defensive capacity, and it makes your far leg light enough to swing over without a dramatic weight shift that telegraphs the transition."
+        "answer": "The most critical principle is loading weight forward through the shoulder contact point to lighten your legs rather than rising your hips upward. Rising hips eliminates pressure control entirely and creates space for defensive reactions. Forward weight loading accomplishes two things simultaneously: it increases pressure on the opponent which further degrades their defensive capacity, and it makes your far leg light enough to swing over without a dramatic weight shift that telegraphs the transition.",
+        "answer_line": "Load weight forward, lighten legs",
+        "distractors": {
+          "plausible": [
+            "Shift weight onto the swinging leg",
+            "Sink hips down for base pressure"
+          ],
+          "trap": [
+            "Rise hips high to clear the leg"
+          ]
+        }
       },
       {
         "question": "You begin stepping over and your opponent immediately inserts their near-side knee between your bodies — what went wrong in your setup?",
@@ -284,7 +304,17 @@
       },
       {
         "question": "Why must the opponent's near-side arm be controlled before initiating the mount transition?",
-        "answer": "The near-side arm is the opponent's primary defensive tool for creating frames that block the step-over path. An uncontrolled near arm can insert an elbow frame between your chest and their body during the critical moment when your weight shifts for the step-over. This frame creates a structural wedge that prevents your knee from clearing their body and forces you to abort the transition. Additionally, an active near arm can initiate hip escape sequences that create angles for guard recovery."
+        "answer": "The near-side arm is the opponent's primary defensive tool for creating frames that block the step-over path. An uncontrolled near arm can insert an elbow frame between your chest and their body during the critical moment when your weight shifts for the step-over. This frame creates a structural wedge that prevents your knee from clearing their body and forces you to abort the transition. Additionally, an active near arm can initiate hip escape sequences that create angles for guard recovery.",
+        "answer_line": "It frames to block the step-over",
+        "distractors": {
+          "plausible": [
+            "It shrimps to recover guard",
+            "It underhooks to sweep you over"
+          ],
+          "trap": [
+            "Control the far arm instead"
+          ]
+        }
       },
       {
         "question": "In which direction should you drive your weight during the step-over to maintain continuous pressure on the opponent?",
@@ -316,7 +346,17 @@
       },
       {
         "question": "Your mount transition attempt fails because the opponent recovers half guard during the step-over — what is your immediate follow-up strategy?",
-        "answer": "Immediately transition to half guard top passing mode rather than retreating to Shoulder of Justice. Apply a knee slice pass using the forward momentum from the failed mount attempt, driving your trapped knee through the half guard entanglement. Alternatively, re-establish crossface pressure from half guard top and begin working the standard half guard passing progression. Do not attempt to extract your leg and return to Shoulder of Justice, as this wastes the positional progress already achieved and gives the opponent time to consolidate their half guard defense."
+        "answer": "Immediately transition to half guard top passing mode rather than retreating to Shoulder of Justice. Apply a knee slice pass using the forward momentum from the failed mount attempt, driving your trapped knee through the half guard entanglement. Alternatively, re-establish crossface pressure from half guard top and begin working the standard half guard passing progression. Do not attempt to extract your leg and return to Shoulder of Justice, as this wastes the positional progress already achieved and gives the opponent time to consolidate their half guard defense.",
+        "answer_line": "Knee slice from half guard top",
+        "distractors": {
+          "plausible": [
+            "Retreat to Shoulder of Justice",
+            "Crossface, then pull leg free"
+          ],
+          "trap": [
+            "Sit back for a leglock, get swept"
+          ]
+        }
       }
     ],
     "safety_considerations": "This transition involves sustained pressure on the temporomandibular joint and jaw area throughout the step-over phase. While not a joint lock or choke, the shoulder pressure can cause significant discomfort and potential jaw strain. In training, use controlled pressure that allows partners to practice defense without risk of dental or cervical injury. Reduce intensity immediately if training partners signal distress beyond normal positional discomfort. Avoid dropping knee weight onto the opponent's ribs or solar plexus during the step-over landing. Practitioners with pre-existing TMJ conditions, neck injuries, or dental work should communicate limitations before drilling this technique.",
@@ -439,23 +479,73 @@
     "flashcards": [
       {
         "question": "What are the earliest physical cues that indicate your opponent is about to attempt the mount transition from Shoulder of Justice?",
-        "answer": "The earliest cues include: the opponent walking their near-side knee closer to your hip line which narrows their base, increased forward pressure through the shoulder as they load weight onto their upper body to lighten their legs, tightening of their control on your near-side arm to prevent frame insertion, and subtle rotation of their chest angle from perpendicular toward a mount-facing orientation. Recognizing these early signals allows you to begin positioning your defense before the step-over begins."
+        "answer": "The earliest cues include: the opponent walking their near-side knee closer to your hip line which narrows their base, increased forward pressure through the shoulder as they load weight onto their upper body to lighten their legs, tightening of their control on your near-side arm to prevent frame insertion, and subtle rotation of their chest angle from perpendicular toward a mount-facing orientation. Recognizing these early signals allows you to begin positioning your defense before the step-over begins.",
+        "answer_line": "Near knee creeps to your hip",
+        "distractors": {
+          "plausible": [
+            "Shoulder pressure lifts off you",
+            "Grip on your far arm loosens"
+          ],
+          "trap": [
+            "Wait for the leg to swing over"
+          ]
+        }
       },
       {
         "question": "Your opponent begins walking their knee up your hip — what is the highest-percentage defensive response at this moment?",
-        "answer": "Insert your near-side knee between your body and the opponent's chest immediately as their base narrows. This knee creates a physical barrier that blocks the step-over path and gives you a wedge to begin recovering toward half guard. Time this insertion to the moment their weight shifts forward, as that is when their ability to drive your knee back down is most compromised. Combine the knee insertion with a small hip escape to create the angle needed for the knee to reach its blocking position."
+        "answer": "Insert your near-side knee between your body and the opponent's chest immediately as their base narrows. This knee creates a physical barrier that blocks the step-over path and gives you a wedge to begin recovering toward half guard. Time this insertion to the moment their weight shifts forward, as that is when their ability to drive your knee back down is most compromised. Combine the knee insertion with a small hip escape to create the angle needed for the knee to reach its blocking position.",
+        "answer_line": "Insert near knee as base narrows",
+        "distractors": {
+          "plausible": [
+            "Frame the neck to push chest off",
+            "Bridge hard to bump them forward"
+          ],
+          "trap": [
+            "Turn belly-down and posture up"
+          ]
+        }
       },
       {
         "question": "Why is timing your primary defensive action during the step-over more effective than attempting to defend before the transition begins?",
-        "answer": "Defending before the transition begins means fighting against an opponent with full base stability and optimal weight distribution, which heavily favors the attacker. During the step-over itself, the attacker's base is at its narrowest, one leg is in the air, and their weight is distributed across your centerline rather than anchored to the mat. This creates the maximum vulnerability window where your defensive force has the greatest mechanical advantage. However, your positioning for defense should begin with the early cues."
+        "answer": "Defending before the transition begins means fighting against an opponent with full base stability and optimal weight distribution, which heavily favors the attacker. During the step-over itself, the attacker's base is at its narrowest, one leg is in the air, and their weight is distributed across your centerline rather than anchored to the mat. This creates the maximum vulnerability window where your defensive force has the greatest mechanical advantage. However, your positioning for defense should begin with the early cues.",
+        "answer_line": "Base is narrowest, one leg airborne",
+        "distractors": {
+          "plausible": [
+            "Defend early before they commit",
+            "Wait until they fully settle"
+          ],
+          "trap": [
+            "Turn to your knees to escape"
+          ]
+        }
       },
       {
         "question": "What happens if you bridge too early before your opponent has committed their weight to the step-over?",
-        "answer": "Bridging too early wastes energy against a fully based opponent who can simply ride the bridge using their stable far knee post and shoulder pressure anchor. The bridge achieves no positional improvement because the opponent's base is still intact and can absorb the force. Additionally, premature bridging depletes your energy reserves, leaving you weaker for the critical defensive window when the actual step-over occurs. Save explosive movements for the moment of maximum opponent vulnerability."
+        "answer": "Bridging too early wastes energy against a fully based opponent who can simply ride the bridge using their stable far knee post and shoulder pressure anchor. The bridge achieves no positional improvement because the opponent's base is still intact and can absorb the force. Additionally, premature bridging depletes your energy reserves, leaving you weaker for the critical defensive window when the actual step-over occurs. Save explosive movements for the moment of maximum opponent vulnerability.",
+        "answer_line": "Wasted energy; opponent rides it",
+        "distractors": {
+          "plausible": [
+            "Opponent's base finally breaks",
+            "You open up escape space"
+          ],
+          "trap": [
+            "You expose and lose your back"
+          ]
+        }
       },
       {
         "question": "How does maintaining hip mobility throughout the Shoulder of Justice pin prepare you to defend the mount transition?",
-        "answer": "Maintaining hip mobility through constant micro-adjustments to your hip angle prevents the opponent from achieving a completely static pin where your defensive options are minimized. Mobile hips allow you to immediately execute hip escapes or knee insertions when transition cues appear, without needing to first break free from a fully consolidated pinning position. If your hips become completely flat and immobile under pressure, you lose the ability to insert your knee or angle your body for defense when the step-over begins."
+        "answer": "Maintaining hip mobility through constant micro-adjustments to your hip angle prevents the opponent from achieving a completely static pin where your defensive options are minimized. Mobile hips allow you to immediately execute hip escapes or knee insertions when transition cues appear, without needing to first break free from a fully consolidated pinning position. If your hips become completely flat and immobile under pressure, you lose the ability to insert your knee or angle your body for defense when the step-over begins.",
+        "answer_line": "Mobile hips = instant knee insertion",
+        "distractors": {
+          "plausible": [
+            "Bridge hard before they step over",
+            "Frame arms to block the step-over"
+          ],
+          "trap": [
+            "Go flat and wait for a gap"
+          ]
+        }
       }
     ],
     "training_progressions": [

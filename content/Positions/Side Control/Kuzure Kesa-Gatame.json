@@ -910,7 +910,17 @@
     },
     {
       "question": "Why does isolating one arm make this position structurally more constraining than standard side control?",
-      "answer": "In standard side control both of the bottom player's arms stay free to build frames, hip escape, and recover guard. In Kuzure Kesa-Gatame one arm is trapped across the top player's torso, which halves the available framing structure and holds the shoulder line pinned. The same isolation that removes a defensive frame simultaneously creates a live armbar, americana, and kimura threat that has to be managed continuously. This single arm-isolation feature is what makes the position both harder to defend from underneath and more offensively rich from on top."
+      "answer": "In standard side control both of the bottom player's arms stay free to build frames, hip escape, and recover guard. In Kuzure Kesa-Gatame one arm is trapped across the top player's torso, which halves the available framing structure and holds the shoulder line pinned. The same isolation that removes a defensive frame simultaneously creates a live armbar, americana, and kimura threat that has to be managed continuously. This single arm-isolation feature is what makes the position both harder to defend from underneath and more offensively rich from on top.",
+      "answer_line": "Arm trap halves frames, opens subs",
+      "distractors": {
+        "plausible": [
+          "Controls the near leg and hip",
+          "Extra chest pressure pins you flat"
+        ],
+        "trap": [
+          "Both arms stay free to frame"
+        ]
+      }
     },
     {
       "question": "What makes Kuzure Kesa-Gatame function as a bridge position between standard side control and mount?",

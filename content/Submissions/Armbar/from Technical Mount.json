@@ -351,7 +351,17 @@
       },
       {
         "question": "You complete the swing-over and begin sitting back, but your opponent is actively resisting — what specific indicators confirm the armbar is now mechanically inescapable?",
-        "answer": "The armbar becomes mechanically inescapable when the arm is fully extended across your hips with the thumb pointing toward the ceiling, both your knees are pinched tightly together around the upper arm controlling rotation, your hips are positioned directly beneath the elbow joint as the fulcrum, and your leg over the opponent's head prevents them from sitting up or stacking. Once your hips begin driving upward from this configuration, the mechanical advantage is overwhelming — no amount of bicep strength can overcome the leverage of the entire hip structure against a single joint. Specific indicators include the arm becoming rigid and trembling with resistance, the opponent's body beginning to lift as they follow the pressure, and any further hip elevation forcing the joint past its natural range."
+        "answer": "The armbar becomes mechanically inescapable when the arm is fully extended across your hips with the thumb pointing toward the ceiling, both your knees are pinched tightly together around the upper arm controlling rotation, your hips are positioned directly beneath the elbow joint as the fulcrum, and your leg over the opponent's head prevents them from sitting up or stacking. Once your hips begin driving upward from this configuration, the mechanical advantage is overwhelming — no amount of bicep strength can overcome the leverage of the entire hip structure against a single joint. Specific indicators include the arm becoming rigid and trembling with resistance, the opponent's body beginning to lift as they follow the pressure, and any further hip elevation forcing the joint past its natural range.",
+        "answer_line": "Thumb up, hips under the elbow",
+        "distractors": {
+          "plausible": [
+            "Pinch knees, then extend arm",
+            "Thumb down, palm facing you"
+          ],
+          "trap": [
+            "Drop the leg off the head"
+          ]
+        }
       },
       {
         "question": "You have the armbar nearly locked from Technical Mount but your opponent slowly extracts their arm between your thighs — what finishing error allowed this escape?",
