@@ -17,6 +17,17 @@
 // `npx serve` (LAN testing from a phone), but such clients cannot write.
 //
 // See CLAUDE.md "Dev Snapshots" for the <snapshot /> convention.
+//
+// PAIRED-DEBUG BRIDGE (see .claude/skills/paired-debugging/SKILL.md): when a session file
+// exists at e2e/paired/.session/bridge-token, served HTML gets a <script> appended that
+// connects the page back here over SSE — letting Claude drive the owner's OWN tab (click,
+// navigate, seed storage, call window.__neural.*, eval) while the owner watches live from
+// another machine (bjjgraph:8080). Trust model mirrors the snapshot routes: command INGRESS
+// (/__paired/cmd) and result reads are loopback-only (only Claude can drive); the page-side
+// legs (/__paired/events, /__paired/result) are token-gated and LAN-reachable because the
+// owner's browser is on another machine. No session file -> every route 404s and HTML is
+// served byte-identical to plain serve. Every executed command is journaled to
+// e2e/paired/journals/<session>.jsonl for later translation into e2e specs.
 
 import http from "node:http"
 import fs from "node:fs"
@@ -190,8 +201,198 @@ async function handleSnapshot(req, res) {
   sendJson(res, 200, { ok: true, line, json: jsonRel, png: pngRel })
 }
 
+// ── paired-debug bridge ─────────────────────────────────────────────────────────────────
+const PAIRED_DIR = path.join(REPO_ROOT, "e2e", "paired")
+const PAIRED_TOKEN_FILE = path.join(PAIRED_DIR, ".session", "bridge-token")
+const PAIRED_JOURNALS = path.join(PAIRED_DIR, "journals")
+
+// token cache: per-request fs hits are fine locally, but cache 2s to keep HTML serving cheap
+let _tok = { v: null, at: 0 }
+function pairedToken() {
+  const now = Date.now()
+  if (now - _tok.at > 2000) {
+    let v = null
+    try {
+      v = fs.readFileSync(PAIRED_TOKEN_FILE, "utf8").trim() || null
+    } catch {
+      v = null
+    }
+    _tok = { v, at: now }
+  }
+  return _tok.v
+}
+
+const paired = {
+  seq: 0,
+  queue: [], // commands not yet delivered to a page
+  results: [], // executed-command results (ring, newest last)
+  clients: new Set(), // live SSE responses
+  session: null, // journal basename for the active session
+}
+
+function pairedJournal(entry) {
+  try {
+    fs.mkdirSync(PAIRED_JOURNALS, { recursive: true })
+    const name = paired.session ?? `session-${stamp(new Date())}`
+    paired.session = name
+    fs.appendFileSync(path.join(PAIRED_JOURNALS, `${name}.jsonl`), JSON.stringify(entry) + "\n")
+  } catch (e) {
+    console.error("[paired] journal write failed:", e)
+  }
+}
+
+function pairedPush(cmd) {
+  const wire = `data: ${JSON.stringify(cmd)}\n\n`
+  for (const c of paired.clients) {
+    try {
+      c.write(wire)
+    } catch {
+      paired.clients.delete(c)
+    }
+  }
+}
+
+async function handlePaired(req, res, route, query) {
+  const token = pairedToken()
+  if (!token) return sendJson(res, 404, { ok: false, error: "no paired session" })
+  const q = new URLSearchParams(query ?? "")
+
+  if (route === "/__paired/ping") {
+    res.writeHead(204)
+    return res.end()
+  }
+  if (route === "/__paired/client.js") {
+    res.writeHead(200, { "content-type": "text/javascript; charset=utf-8", "cache-control": "no-store" })
+    return res.end(PAIRED_CLIENT_JS)
+  }
+  if (route === "/__paired/events") {
+    if (q.get("t") !== token) return sendJson(res, 403, { ok: false, error: "bad token" })
+    res.writeHead(200, {
+      "content-type": "text/event-stream",
+      "cache-control": "no-store",
+      connection: "keep-alive",
+    })
+    res.write(`data: ${JSON.stringify({ kind: "hello" })}\n\n`)
+    for (const cmd of paired.queue.splice(0)) res.write(`data: ${JSON.stringify(cmd)}\n\n`)
+    paired.clients.add(res)
+    req.on("close", () => paired.clients.delete(res))
+    return
+  }
+  if (route === "/__paired/result") {
+    if (q.get("t") !== token) return sendJson(res, 403, { ok: false, error: "bad token" })
+    const body = JSON.parse(await readBody(req))
+    const entry = { ...body, at: new Date().toISOString() }
+    paired.results.push(entry)
+    if (paired.results.length > 500) paired.results.splice(0, paired.results.length - 500)
+    pairedJournal({ kind: "result", ...entry })
+    return sendJson(res, 200, { ok: true })
+  }
+
+  // Claude-side routes: loopback only (only the local agent may drive or read)
+  if (!isLoopback(req)) return sendJson(res, 403, { ok: false, error: "loopback only" })
+  if (route === "/__paired/cmd") {
+    const body = JSON.parse(await readBody(req))
+    const cmd = { kind: "cmd", id: ++paired.seq, ...body }
+    pairedJournal({ ...cmd, at: new Date().toISOString() })
+    if (paired.clients.size) pairedPush(cmd)
+    else paired.queue.push(cmd)
+    return sendJson(res, 200, { ok: true, id: cmd.id, connected: paired.clients.size })
+  }
+  if (route === "/__paired/results") {
+    const since = Number(q.get("since") ?? 0)
+    return sendJson(res, 200, {
+      ok: true,
+      connected: paired.clients.size,
+      results: paired.results.filter((r) => Number(r.id ?? 0) > since),
+    })
+  }
+  return sendJson(res, 404, { ok: false, error: "unknown paired route" })
+}
+
+// Page-side client (served, never built into the site). Executes commands in the owner's tab
+// and posts results back. Command kinds: goto | click | type | press-key(dispatch) | eval |
+// seed (localStorage) | neural (call window.__neural method) | read (eval + return value) |
+// shot (page state summary). `eval` is a dev tool by design — ingress is loopback-only.
+const PAIRED_CLIENT_JS = `(() => {
+  if (window.__pairedActive) return; window.__pairedActive = true;
+  const T = (document.currentScript && new URL(document.currentScript.src, location.href).searchParams.get("t")) || "";
+  if (!T) return;
+  const errs = [];
+  window.addEventListener("error", (e) => { errs.push(String(e.message)); if (errs.length > 50) errs.shift(); });
+  const post = (payload) => fetch("/__paired/result?t=" + encodeURIComponent(T), {
+    method: "POST", headers: { "content-type": "application/json" },
+    body: JSON.stringify(payload), keepalive: true }).catch(() => {});
+  const summary = () => ({ url: location.pathname + location.hash, title: document.title,
+    neural: !!window.__neural, errors: errs.slice(-5) });
+  const run = async (c) => {
+    try {
+      if (c.kind !== "cmd") return;
+      let value = null;
+      if (c.op === "goto") { post({ id: c.id, ok: true, note: "navigating", state: summary() }); location.href = c.url; return; }
+      else if (c.op === "click") { const el = document.querySelector(c.sel); if (!el) throw new Error("no match: " + c.sel); el.click(); }
+      else if (c.op === "type") { const el = document.querySelector(c.sel); if (!el) throw new Error("no match: " + c.sel); el.focus(); el.value = c.text; el.dispatchEvent(new Event("input", { bubbles: true })); }
+      else if (c.op === "press") { document.activeElement.dispatchEvent(new KeyboardEvent("keydown", { key: c.key, bubbles: true })); }
+      else if (c.op === "seed") { localStorage.setItem(c.key, typeof c.value === "string" ? c.value : JSON.stringify(c.value)); }
+      else if (c.op === "neural") { const a = window.__neural; if (!a) throw new Error("__neural absent"); value = await a[c.method](...(c.args || [])); }
+      else if (c.op === "eval" || c.op === "read") { value = await (new Function("return (async()=>{" + c.js + "})()"))(); }
+      else if (c.op === "shot") { /* summary only */ }
+      else throw new Error("unknown op: " + c.op);
+      let safe; try { safe = JSON.parse(JSON.stringify(value ?? null)); } catch { safe = String(value); }
+      post({ id: c.id, ok: true, value: safe, state: summary() });
+    } catch (e) { post({ id: c.id, ok: false, error: String(e && e.message || e), state: summary() }); }
+  };
+  const es = new EventSource("/__paired/events?t=" + encodeURIComponent(T));
+  es.onmessage = (m) => { try { run(JSON.parse(m.data)); } catch {} };
+  es.onopen = () => post({ id: 0, ok: true, note: "page connected", state: summary() });
+})();
+`
+
+// When a session is active, resolve HTML files ourselves and append the client tag; anything
+// we can't resolve falls through to serve-handler untouched (then just isn't injected).
+function resolveHtml(route) {
+  const safe = path.normalize(decodeURIComponent(route)).replace(/^([/\\])+/, "")
+  if (safe.startsWith("..")) return null
+  const base = path.join(STATIC_ROOT, safe)
+  if (!base.startsWith(STATIC_ROOT)) return null
+  const tries = route.endsWith("/")
+    ? [path.join(base, "index.html")]
+    : route.endsWith(".html")
+      ? [base]
+      : [`${base}.html`, path.join(base, "index.html"), route === "/" ? null : null]
+  for (const t of tries) {
+    if (t && fs.existsSync(t) && fs.statSync(t).isFile()) return t
+  }
+  if (route === "/") {
+    const idx = path.join(STATIC_ROOT, "index.html")
+    if (fs.existsSync(idx)) return idx
+  }
+  return null
+}
+
 const server = http.createServer(async (req, res) => {
-  const route = (req.url ?? "/").split("?")[0]
+  const [route, query] = (req.url ?? "/").split("?")
+
+  if (route.startsWith("/__paired/")) {
+    try {
+      return await handlePaired(req, res, route, query)
+    } catch (e) {
+      return sendJson(res, e?.statusCode ?? 500, { ok: false, error: String(e?.message ?? e) })
+    }
+  }
+
+  // Active paired session -> serve HTML with the bridge client appended (trailing <script>
+  // is hoisted into <body> by the parser; byte-identical serving resumes when the session ends)
+  const ptoken = pairedToken()
+  if (ptoken && req.method === "GET" && String(req.headers.accept ?? "").includes("text/html")) {
+    const file = resolveHtml(route)
+    if (file) {
+      const html =
+        fs.readFileSync(file) +
+        `\n<script src="/__paired/client.js?t=${encodeURIComponent(ptoken)}" defer></script>\n`
+      res.writeHead(200, { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" })
+      return res.end(html)
+    }
+  }
 
   if (route === "/__snapshot" || route === "/__snapshot/ping") {
     if (!isLoopback(req)) return sendJson(res, 403, { ok: false, error: "loopback only" })

@@ -82,9 +82,13 @@ neural/src/*
 
 # Playwright journey-suite artifacts (e2e/gallery keyframes are regenerated per run)
 e2e/report/
+e2e/report-gen/
 e2e/test-results/
 test-results/
 e2e/gallery/
+
+# Paired-debugging sessions (journals + shared-browser profile/pids are per-session scratch)
+e2e/paired/
 
 # Dev snapshot captures (written by scripts/dev-serve.mjs; see CLAUDE.md "Dev Snapshots").
 # Only this subdir — the rest of tests/artifacts/ is tracked.
