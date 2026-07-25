@@ -344,16 +344,12 @@
         "attempt_probability": 3
       },
       {
-        "transition": "Mounted Crucifix Armbar",
-        "attempt_probability": 2
-      },
-      {
         "transition": "Belly Down Armbar from Mounted Crucifix",
         "attempt_probability": 3
       },
       {
         "transition": "Mounted Crucifix Armbar from Mounted Crucifix",
-        "attempt_probability": 4
+        "attempt_probability": 6
       }
     ],
     "flashcards": [

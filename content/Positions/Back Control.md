@@ -264,13 +264,11 @@ Back control variations include the standard hooks configuration, body triangle 
 
 - **[[Transitions/Restore Back Control/Attacker|Restore Back Control]]** (1% of attempts)
 
-- **[[Submissions/Rear Triangle Choke/Attacker|Rear Triangle Choke]]** (1% of attempts)
-
 - **[[Armbar from Back/Attacker|Armbar from Back]]** (6% of attempts)
 
 - **[[Armbar from Back with Legs/Attacker|Armbar from Back with Legs]]** (2% of attempts)
 
-- **[[Rear Triangle Choke from Back Control/Attacker|Rear Triangle Choke from Back Control]]** (1% of attempts)
+- **[[Rear Triangle Choke from Back Control/Attacker|Rear Triangle Choke from Back Control]]** (2% of attempts)
 
 - **[[Short Choke from Back Control/Attacker|Short Choke from Back Control]]** (1% of attempts)
 
