@@ -44,15 +44,9 @@ description: "Master Electric Chair Bottom in BJJ. Complete lockdown attack guid
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair",
-      "text": "From this position, attempt Electric Chair. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Electric Chair from Electric Chair",
-      "text": "From this position, attempt Electric Chair from Electric Chair. This technique is attempted in 6% of exchanges from this position.",
-      "position": 6
+      "text": "From this position, attempt Electric Chair from Electric Chair. This technique is attempted in 18% of exchanges from this position.",
+      "position": 5
     }
   ],
   "totalTime": "PT2M"

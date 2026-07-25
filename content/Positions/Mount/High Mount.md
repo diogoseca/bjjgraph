@@ -232,7 +232,7 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 - **[[Kimura from High Mount/Attacker|Kimura from High Mount]]** (7% of attempts)
 
-- **[[Arm Triangle from High Mount/Attacker|Arm Triangle from High Mount]]** (6% of attempts)
+- **[[Arm Triangle from High Mount/Attacker|Arm Triangle from High Mount]]** (8% of attempts)
 
 - **[[Transitions/Gift Wrap Transition/Attacker|Gift Wrap Transition]]** (6% of attempts)
 
@@ -243,8 +243,6 @@ In competition contexts, High Mount represents the culmination of successful pas
 - **[[Transitions/Mounted Crucifix Entry/Attacker|Mounted Crucifix Entry]]** (5% of attempts)
 
 - **[[Transitions/High Mount to S Mount/Attacker|High Mount to S Mount]]** (2% of attempts)
-
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (2% of attempts)
 
 - **[[Armbar from High Mount/Attacker|Armbar from High Mount]]** (5% of attempts)
 

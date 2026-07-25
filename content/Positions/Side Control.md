@@ -237,8 +237,6 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Americana from Side Control/Attacker|Americana from Side Control]]** (10% of attempts)
 
-- **[[Submissions/Arm Crush/Attacker|Arm Crush]]** (1% of attempts)
-
 - **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (1% of attempts)
 
 - **[[Far Side Armbar from Side Control/Attacker|Far Side Armbar from Side Control]]** (1% of attempts)
@@ -247,17 +245,9 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (1% of attempts)
 
-- **[[Submissions/Marce Choke/Attacker|Marce Choke]]** (1% of attempts)
-
-- **[[Submissions/Mir Lock/Attacker|Mir Lock]]** (1% of attempts)
-
-- **[[Submissions/Triangle Choke Side/Attacker|Triangle Choke Side]]** (1% of attempts)
-
-- **[[Submissions/Von Flue Choke/Attacker|Von Flue Choke]]** (1% of attempts)
-
 - **[[Transitions/Side Control to Knee on Belly/Attacker|Side Control to Knee on Belly]]** (1% of attempts)
 
-- **[[Arm Crush from Side Control/Attacker|Arm Crush from Side Control]]** (1% of attempts)
+- **[[Arm Crush from Side Control/Attacker|Arm Crush from Side Control]]** (2% of attempts)
 
 - **[[Armbar from Side Control/Attacker|Armbar from Side Control]]** (1% of attempts)
 
@@ -267,13 +257,13 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - **[[Loop Choke from Side Control/Attacker|Loop Choke from Side Control]]** (1% of attempts)
 
-- **[[Marce Choke from Side Control/Attacker|Marce Choke from Side Control]]** (1% of attempts)
+- **[[Marce Choke from Side Control/Attacker|Marce Choke from Side Control]]** (2% of attempts)
 
-- **[[Mir Lock from Side Control/Attacker|Mir Lock from Side Control]]** (1% of attempts)
+- **[[Mir Lock from Side Control/Attacker|Mir Lock from Side Control]]** (2% of attempts)
 
-- **[[Triangle Choke Side from Side Control/Attacker|Triangle Choke Side from Side Control]]** (1% of attempts)
+- **[[Triangle Choke Side from Side Control/Attacker|Triangle Choke Side from Side Control]]** (2% of attempts)
 
-- **[[Von Flue Choke from Side Control/Attacker|Von Flue Choke from Side Control]]** (1% of attempts)
+- **[[Von Flue Choke from Side Control/Attacker|Von Flue Choke from Side Control]]** (2% of attempts)
 
 - **[[Transitions/Side Control to Kuzure Kesa-Gatame/Attacker|Side Control to Kuzure Kesa-Gatame]]** (2% of attempts)
 
