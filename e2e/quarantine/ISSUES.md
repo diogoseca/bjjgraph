@@ -22,8 +22,8 @@ Format per entry:
 
 ---
 
-## Q001 — SPA soft-nav teardown never flushes the debounced save: last ~400ms of progress silently lost   [bug] [status: Open]
-- Spec: e2e/quarantine/spa-nav-inflight-progress-survives.spec.ts
+## Q001 — SPA soft-nav teardown never flushes the debounced save: last ~400ms of progress silently lost   [bug] [status: Fixed v1.67.4]
+- Spec: e2e/gen/spa-nav-inflight-progress-survives.spec.ts (promoted; green since the fix)
 - Found: wave 1, whiteBeltHolder at spa-nav
 - Expected: a card graded moments before a Quartz soft navigation survives into the remounted
   instance — teardown flushes the pending debounced write (mirroring the pagehide/visibility

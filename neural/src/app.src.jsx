@@ -72,6 +72,11 @@ class Component extends DCLogic {
 
   componentDidMount() { this.boot(); }
   componentWillUnmount() {
+    // Q001: SPA soft-navs never fire pagehide, so without this the 400ms-debounced save is
+    // lost on teardown AND the orphaned timer clobbers the next instance's storage ~400ms in.
+    // _flushSave also clears _saveT, killing that late writer. Guarded so a (hypothetical)
+    // pre-ingest unmount can never overwrite real storage with empty state.
+    try { if (this._progressLoaded) this._flushSave(); } catch (e) {}
     try { this.clearClipLoops(); } catch (e) {}
     try { if (this.sound && this.sound.destroy) this.sound.destroy(); } catch (e) {} // close AudioContext, stop voices, drop listeners
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; }
@@ -1082,6 +1087,7 @@ class Component extends DCLogic {
   // reload; this is the single blob the cloud sync (slice 6) pushes/pulls. ----------
   _dayKey(d) { const x = d || new Date(); return x.getFullYear() + "-" + String(x.getMonth() + 1).padStart(2, "0") + "-" + String(x.getDate()).padStart(2, "0"); }
   _loadProgress() {
+    this._progressLoaded = true; // ingest ran (any path) — unmount flush is now safe (Q001)
     this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {};
     try {
       const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
