@@ -2,12 +2,89 @@
   "version": 1,
   "target": 100,
   "axes": {
-    "themes": ["onboarding", "unlock-economy", "flashcards-behind-scenes", "lifetime-journeys", "resilience", "competitive-arc", "input-access", "infra"],
-    "L": ["fresh-visitor", "first-roll-day1", "casual-week1", "curriculum-mid", "belt-ready", "white-belt-holder", "srs-veteran", "lapsed-returner", "multi-belt-endgame", "legacy-corrupt-blob"],
-    "F": ["boot-landing", "intro-roll-coach", "graph-canvas", "option-tray-sheet", "drill-mc", "recall-gate", "checkpoint-quiz", "belt-path", "belt-test", "ladder", "defense-panic", "film-study", "sound", "victory-defeat", "persistence-reload", "settings", "decision-timer", "opponent-turns", "spa-nav"],
-    "B": ["happy-path", "interruption-abort", "persistence-reload", "idempotence", "guard-limit", "economy-math", "cross-feature", "error-fallback", "keyboard-timing"]
+    "themes": [
+      "onboarding",
+      "unlock-economy",
+      "flashcards-behind-scenes",
+      "lifetime-journeys",
+      "resilience",
+      "competitive-arc",
+      "input-access",
+      "infra"
+    ],
+    "L": [
+      "fresh-visitor",
+      "first-roll-day1",
+      "casual-week1",
+      "curriculum-mid",
+      "belt-ready",
+      "white-belt-holder",
+      "srs-veteran",
+      "lapsed-returner",
+      "multi-belt-endgame",
+      "legacy-corrupt-blob"
+    ],
+    "F": [
+      "boot-landing",
+      "intro-roll-coach",
+      "graph-canvas",
+      "option-tray-sheet",
+      "drill-mc",
+      "recall-gate",
+      "checkpoint-quiz",
+      "belt-path",
+      "belt-test",
+      "ladder",
+      "defense-panic",
+      "film-study",
+      "sound",
+      "victory-defeat",
+      "persistence-reload",
+      "settings",
+      "decision-timer",
+      "opponent-turns",
+      "spa-nav"
+    ],
+    "B": [
+      "happy-path",
+      "interruption-abort",
+      "persistence-reload",
+      "idempotence",
+      "guard-limit",
+      "economy-math",
+      "cross-feature",
+      "error-fallback",
+      "keyboard-timing"
+    ]
   },
-  "rejections": [],
+  "rejections": [
+    {
+      "slug": "veteran-mastery-not-inflatable",
+      "wave": 1,
+      "reasons": [
+        "Paraphrase of core-055 ('mastered is not inflatable: rec counts DISTINCT cards proven by recall — recall-grading the same card five times raises rec by at most 1'): the spec performs the identical 5-repeat-recall-on-one-card action and asserts the same wasProven dedup (rec 3→4 exactly once).",
+        "masteredCount flatness is derivable from core-027's recall gate (masteredCount counts rec>=3 decks; rec 3→4 changes no membership), and the first-read seed assertion re-tests core-046's boot({initialState}) rail — scaling the seed from 1 to 25 decks changes numbers, not the invariant.",
+        "Rejected on novelty only; the spec itself is well-built (classic-mode MC-rig guard, truth-rail grading)."
+      ]
+    },
+    {
+      "slug": "returner-comeback-boot",
+      "wave": 1,
+      "reasons": [
+        "Scaled paraphrase of core-046 ('boot({initialState}) seeds progress before the app reads storage ... visible at first read: prep and masteredCount'): the candidate's headline 'reads their whole career at first read' is the same first-read-seeding law with a bigger blob; belt-record-at-boot surfaces are already pinned by core-011 (completed-belt blob → row state) and core-015/069 (won row after reboot).",
+        "The no-migration-beat assertion is vacuous by the spec's own header ('the fx vocabulary has NO migration beat at all ... trivially green today'), and the live-first-hand tail is core-017's landing.",
+        "Residual novelty (cardsToday 0 with empty days map) is thin and is asserted more meaningfully by the sibling returner-day-counter-clean-restart spec."
+      ]
+    },
+    {
+      "slug": "returner-path-resume-point",
+      "wave": 1,
+      "reasons": [
+        "Duplicates core-069's tail almost clause-for-clause: 'the row reads won, blue is unlocked, and blue's first lesson genuinely opens (deckOpen true, _posKey equal to its deckKey)' — the candidate asserts white test row 'won', blue row not data-locked, and blue lesson click → deckOpen/_posKey===deckKey, reached via a seeded persona instead of the played-through story; core-015 also already covers won-row + blue-unlocked persistence.",
+        "The only additions (all-white-unit-rows data-done census, _session resume-pointer read) do not change the invariant's substance — it remains the resume-point law core-069 already establishes."
+      ]
+    }
+  ],
   "tests": [
     {
       "id": "core-001",
@@ -836,6 +913,308 @@
       "invariant": "From a READY row the belt test ends in a tap with belt_test_won ordered before roll_end plus belt_unlocked and victory_cascade, a belt_test_won fanfare voice on the sound bus, and after a preserveStorage reload the row reads 'won', blue is unlocked, and blue's first lesson genuinely opens (deckOpen true, _posKey equal to its deckKey).",
       "origin": "core",
       "status": "accepted"
+    },
+    {
+      "id": "gen-w1-01",
+      "file": "e2e/gen/veteran-odds-clamp.spec.ts",
+      "title": "veteran-odds-clamp",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "option-tray-sheet",
+      "B": "economy-math",
+      "invariant": "With 25 decks drilled to prep=5, every visible option card's displayed odds equals Math.round(moveChance*100) and never exceeds the 95% moveChance ceiling nor drops below 5%, even for options whose deck is fully proven.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 60: seed-prep assertion .toBe(5) -> .toBe(4). Run failed as expected at that exact assertion (\"srsVeteran(25) seeded the landing deck to prep=5\", Expected: 4, Received: 5, exit 1, 3.3s). Restored byte-identical via precise Edit revert (file is untracked so git checkout unavailable; md5sum 79a99e0a5fe414ec35e6098661feb086 matches original), then re-ran green (3.68s).",
+        "runtimeS": 3.6
+      }
+    },
+    {
+      "id": "gen-w1-02",
+      "file": "e2e/gen/veteran-lessons-done-units-not.spec.ts",
+      "title": "veteran-lessons-done-units-not",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "belt-path",
+      "B": "guard-limit",
+      "invariant": "A veteran with 25 decks rec-proven but zero checkpoints passed sees those lesson rows marked data-done='1' while every unit row lacks data-done and every checkpoint row remains unpassed — drilled mastery alone never marks a unit complete.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 59 unit-done census assertion toBe(0)→toBe(1); run failed as expected with \"Expected: 1, Received: 0\" at veteran-lessons-done-units-not.spec.ts:59 (app correctly renders zero done unit rows). Restored via exact reverse edit (file untracked, git checkout unavailable), verified toBe(0) back on lines 59/60, re-ran green in 3.47s.",
+        "runtimeS": 6.8
+      }
+    },
+    {
+      "id": "gen-w1-03",
+      "file": "e2e/gen/veteran-mastered-survives-reload.spec.ts",
+      "title": "veteran-mastered-survives-reload",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "persistence-reload",
+      "B": "persistence-reload",
+      "invariant": "A veteran's 25-deck rec map survives a preserveStorage reload byte-for-byte at the count level: after reload masteredCount()===25, _progressBlob().v===2, and every seeded deckKey still reads rec>=3.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 109: post-reload assertion .toBe(25) flipped to .toBe(24). Run failed as expected at that exact assertion — \"Error: after reload masteredCount() === 25 / Expected: 24 / Received: 25\" (1 failed). Restored the original value via exact revert edit (verified 0 occurrences of toBe(24) and line 109 identical to original), then re-ran green (1 passed, 15.1s).",
+        "runtimeS": 44.2
+      }
+    },
+    {
+      "id": "gen-w1-04",
+      "file": "e2e/gen/veteran-film-look-respects-clamp.spec.ts",
+      "title": "veteran-film-look-respects-clamp",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "film-study",
+      "B": "guard-limit",
+      "invariant": "On a veteran profile the film first-look bonus adds at most 4 points to a technique's displayed odds and the post-watch odds still never exceed 95 — cumulative lifetime bonuses (mastery + sharpness + film) compose under the clamp, not past it.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 35 assertFilmDelta bound: toBeLessThanOrEqual(4) -> toBeLessThanOrEqual(3). Run failed as expected (exit 1) at exactly that line in the headroom test: \"Expected: <= 3, Received: 4\" — proves the +4 film-delta assertion bites. Restored via exact inverse Edit (file is git-untracked, so precise revert, not checkout); restored run fully green (2 passed, exit 0). check_gen_specs.sh: only ledger-orphan failures (this file + 18 sibling pre-Gate wave specs; ledger has 0 accepted generated yet); no non-orphan failures — RNG seam intact.",
+        "runtimeS": 31
+      }
+    },
+    {
+      "id": "gen-w1-05",
+      "file": "e2e/gen/returner-day-counter-clean-restart.spec.ts",
+      "title": "returner-day-counter-clean-restart",
+      "theme": "lifetime-journeys",
+      "L": "lapsed-returner",
+      "F": "drill-mc",
+      "B": "economy-math",
+      "invariant": "After a lapse (empty days map) the daily counter restarts from a clean zero: cardsToday is 0 at boot, the first graded card makes it exactly 1, and the _days map contains only today's key — no stale day contaminates the comeback session.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 87: expect(afterFirst.cardsToday).toBe(1) flipped to .toBe(2). Run failed as required: \"Error: first graded card makes the counter EXACTLY 1 — Expected: 2, Received: 1\" at spec:87 (assertion bites; app truly mints exactly 1 on the first graded comeback card). Restored byte-exact from /tmp backup; md5 1f802c06265634e16f8bb5139e0c0d28 matches the pre-mutation original; restored run green (1 passed, 3.0s).",
+        "runtimeS": 47.8
+      }
+    },
+    {
+      "id": "gen-w1-06",
+      "file": "e2e/gen/returner-ladder-independent-of-blob.spec.ts",
+      "title": "returner-ladder-independent-of-blob",
+      "theme": "lifetime-journeys",
+      "L": "lapsed-returner",
+      "F": "ladder",
+      "B": "persistence-reload",
+      "invariant": "Ladder rank lives in bjj-neural-ladder, independent of the progress blob: a returner seeded with full progress starts at rank 1, and after one rigged win the rank-2 state survives a preserveStorage reload while the belt record rides the blob unchanged.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 46: baseline ladder-rank assertion .toBe(1) -> .toBe(2); run failed exactly there (Expected: 2, Received: 1 — app really reports rank 1 for the full-blob returner). Restored via exact revert; md5 282bd28208ed531be549a21a6fc2dfd4 matches original byte-for-byte; restored run green (45.4s).",
+        "runtimeS": 45.4
+      }
+    },
+    {
+      "id": "gen-w1-07",
+      "file": "e2e/gen/endgame-no-locks-anywhere.spec.ts",
+      "title": "endgame-no-locks-anywhere",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "belt-path",
+      "B": "guard-limit",
+      "invariant": "With every belt won the path view has exhausted its lock economy: zero [data-locked] elements render anywhere in path view, every unit row is data-done='1', and every belt's test row reads 'won'.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Corrupted the persona seed in the spec (delete seed.belts.won[BELTS[0].id] before boot) so the first belt reads not-won and downstream belts re-lock. Run failed as expected at the headline assertion: 'zero locked rows remain' Expected 0, Received 7 ([data-locked] rows reappeared). Restored from /tmp backup (file is untracked so git checkout was not usable), md5-verified byte-identical to the original, then re-ran green (1 passed, 2.6s).",
+        "runtimeS": 45.6
+      }
+    },
+    {
+      "id": "gen-w1-08",
+      "file": "e2e/gen/endgame-won-test-is-final.spec.ts",
+      "title": "endgame-won-test-is-final",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "belt-test",
+      "B": "idempotence",
+      "invariant": "Clicking an already-won belt-test row never erases the recorded win: belts.won keeps all 5 entries with their original moves/dominance, no belt_test_start beat fires from the click (or, if a retake opens, aborting it via resetRoll leaves belts.won and every row's 'won' state intact).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 79: the belt_test_start beat-count assertion .toBe(0) flipped to .toBe(1). Run failed as expected at e2e/gen/endgame-won-test-is-final.spec.ts:79 with 'Expected: 1, Received: 0' (zero beats actually fire from clicking the won row — the assertion bites). Restored via exact inverse edit (git checkout impossible: file untracked, ledger entry lands at Gate), then re-ran green (2.1s test).",
+        "runtimeS": 6.8
+      }
+    },
+    {
+      "id": "gen-w1-09",
+      "file": "e2e/gen/endgame-ladder-rank-ceiling.spec.ts",
+      "title": "endgame-ladder-rank-ceiling",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "ladder",
+      "B": "guard-limit",
+      "invariant": "A win at the top ladder rank clamps: with rank pinned to ladderNames().length, a rigged victory leaves rank exactly at the ceiling (no overflow past the roster) and any ladder_up beat reflects the clamped rank.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 80 capped-flag assertion .toBe(true)→.toBe(false); run failed exactly there (\"ladder_up is flagged capped at the ceiling — Expected: false, Received: true\"), proving the assertion bites. Restored by exact revert; md5 f256f6af70047ce574117a8cda730c47 matches the original byte-for-byte; restored run green (4.5s). check_gen_specs.sh: only ledger-orphan failures (this file + 18 pre-Gate siblings, entries land at Gate); no other failure classes; RNG seam check ok.",
+        "runtimeS": 32.9
+      }
+    },
+    {
+      "id": "gen-w1-10",
+      "file": "e2e/gen/endgame-checkpoint-retake-cant-undone.spec.ts",
+      "title": "endgame-checkpoint-retake-cant-undone",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "checkpoint-quiz",
+      "B": "idempotence",
+      "invariant": "Retaking and deliberately failing an already-passed checkpoint never revokes completion: after answering every retake card wrong, units['white/u1'] still records checkpoint:true, the unit row stays data-done='1', and no unit-regression beat fires.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 144 assertion {checkpoint: true, t: 1} -> {checkpoint: false, t: 1} (the core ratchet check on live units state). Run failed exactly at that line: received checkpoint: true vs expected false, confirming the app keeps the pass and the assertion bites. Restored via exact inverse edit (file untracked, git checkout n/a; git diff clean of the mutation) and re-ran green (3.8s).",
+        "runtimeS": 3.8
+      }
+    },
+    {
+      "id": "gen-w1-11",
+      "file": "e2e/gen/holder-next-test-still-locked.spec.ts",
+      "title": "holder-next-test-still-locked",
+      "theme": "lifetime-journeys",
+      "L": "white-belt-holder",
+      "F": "belt-test",
+      "B": "guard-limit",
+      "invariant": "Winning white unlocks blue STUDY but not the blue TEST: a white-belt holder with zero blue progress sees white's test row 'won' and blue's test row 'locked' — belt tests gate on that belt's own units, not on the previous belt's victory.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 64 crux assertion .toBe(\"locked\") → .toBe(\"ready\") for blue's [data-belt-test] data-test-state; run failed exactly at that assertion (Expected: \"ready\", Received: \"locked\"). Restored via exact reverse Edit — md5 930e4458dfc77a3884303f5115d7864b identical to pre-mutation — then re-ran green (2.7s).",
+        "runtimeS": 13.2
+      }
+    },
+    {
+      "id": "gen-w1-12",
+      "file": "e2e/gen/holder-sequential-locks-resume-in-blue.spec.ts",
+      "title": "holder-sequential-locks-resume-in-blue",
+      "theme": "lifetime-journeys",
+      "L": "white-belt-holder",
+      "F": "belt-path",
+      "B": "cross-feature",
+      "invariant": "The sequential-unit lock discipline carries across the belt boundary: for a fresh white-belt holder, blue unit 1 renders unlocked, blue unit 2 renders data-locked='1', and drilling blue unit 1's lessons to goal (lesson_done per lesson) is what releases nothing until its checkpoint passes.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 85 assertion \"unit 2 STILL locked after all U1 lessons\" from .toBe(\"1\") to .toBeNull(); run failed exactly there (expect(received).toBeNull() — Received: \"1\"), proving the sequential-lock assertion bites. Restored the exact original string by precise revert (file untracked, git checkout unavailable); re-run green.",
+        "runtimeS": 49.1
+      }
+    },
+    {
+      "id": "gen-w1-13",
+      "file": "e2e/gen/spa-nav-single-instance-law.spec.ts",
+      "title": "spa-nav-single-instance-law",
+      "theme": "lifetime-journeys",
+      "L": "fresh-visitor",
+      "F": "spa-nav",
+      "B": "idempotence",
+      "invariant": "A Quartz soft navigation destroys and rebuilds exactly one app instance: after two spa navigations there is exactly one #neural-root in the DOM, window.__neural is a fresh instance (empty beats array, new nodes ingest), and a single keydown reaches exactly one handler (no accumulated listeners).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 123: expect(life2.roots).toBe(1) -> toBe(2); run failed exactly on that assert (\"exactly one #neural-root after nav 1\", Expected: 2, Received: 1). Restored via exact inverse edit, byte-identity confirmed by md5 fbee853c3dd0c15f093c458f19b9132c (matches pre-mutation), then re-ran green (4.8s). check_gen_specs.sh: only ledger-orphan failures (this spec + 18 sibling wave specs pre-Gate); RNG seam intact, zero substantive failures.",
+        "runtimeS": 35.2
+      }
+    },
+    {
+      "id": "gen-w1-14",
+      "file": "e2e/gen/spa-nav-midroll-teardown-clean.spec.ts",
+      "title": "spa-nav-midroll-teardown-clean",
+      "theme": "lifetime-journeys",
+      "L": "casual-week1",
+      "F": "spa-nav",
+      "B": "interruption-abort",
+      "invariant": "A soft navigation in the middle of a live roll (options dealt, decision clock running) tears down without ghosts: the remounted app has no residual _defendSub/_sweep/_beltTest/optionIdxs from the old life, no stray timer fires a beat into the new instance, and a fresh land deals a live hand.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 126 sameRef assertion .toBe(false) -> .toBe(true); run failed exactly there (\"remount is a NEW instance, not the old ref\": Expected true, Received false). Restored byte-exact from md5-verified backup (e9972a13e15b0afe0bf5a7767e96607e matches original), then re-ran green (4.3s).",
+        "runtimeS": 5.8
+      }
+    },
+    {
+      "id": "gen-w1-15",
+      "file": "e2e/gen/corrupt-blob-fresh-fallback-boot.spec.ts",
+      "title": "corrupt-blob-fresh-fallback-boot",
+      "theme": "lifetime-journeys",
+      "L": "legacy-corrupt-blob",
+      "F": "boot-landing",
+      "B": "error-fallback",
+      "invariant": "Booting with syntactically-broken JSON in bjj-neural-progress falls back to a pristine fresh profile without crashing: the app ingests >1000 nodes, prep/rec are empty, masteredCount()===0, and a first roll lands with a live hand.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 73: expect(boot.mastered, \"masteredCount() === 0 ...\").toBe(0) flipped to .toBe(1). Run failed as expected at exactly that assertion (Expected: 1, Received: 0 — received value proves the fresh-profile fallback is genuinely observed). Restored the exact original line via precise Edit revert; restored run green (10.8s). check_gen_specs.sh: only failures are 19 ledger-orphan lines (this spec + 18 same-wave siblings, ledger entries land at Gate stage); RNG seam ok, no other failures.",
+        "runtimeS": 44.6
+      }
+    },
+    {
+      "id": "gen-w1-16",
+      "file": "e2e/gen/corrupt-blob-heals-on-first-grade.spec.ts",
+      "title": "corrupt-blob-heals-on-first-grade",
+      "theme": "lifetime-journeys",
+      "L": "legacy-corrupt-blob",
+      "F": "drill-mc",
+      "B": "persistence-reload",
+      "invariant": "After falling back from corrupt storage, the first graded card writes a valid v2 blob that replaces the corruption and survives a preserveStorage reload: post-reload JSON.parse succeeds, _progressBlob().v===2, and the graded prep key persists — the poison is quarantined, not resurrected.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated e2e/gen/corrupt-blob-heals-on-first-grade.spec.ts line 148: expect(healed.v, \"stored blob is v2\").toBe(2) -> .toBe(3). Run failed as expected: \"Error: stored blob is v2 — Expected: 3, Received: 2\" at spec line 148 (1 failed), proving the heal assertion observes the real stored blob version. Restored byte-exact via cp from pre-mutation backup; md5 66ff51435224443ea2f281635582b286 matches baseline, and the restored run passed green (27.6s). check_gen_specs: only ledger-orphan FAILs (this file + 18 siblings of the same pre-Gate wave, expected until Gate); RNG seam ok; no other failures.",
+        "runtimeS": 30.1
+      }
+    },
+    {
+      "id": "quar-w1-01",
+      "file": "e2e/quarantine/spa-nav-inflight-progress-survives.spec.ts",
+      "title": "Q001: SPA soft-nav teardown never flushes the debounced save",
+      "theme": "resilience",
+      "L": "white-belt-holder",
+      "F": "spa-nav",
+      "B": "persistence-reload",
+      "invariant": "A card graded moments before a Quartz soft navigation is not lost to the prod debounced save: teardown flushes the pending write, so the remounted instance's prep map carries the grade and the seeded belt win stays intact.",
+      "origin": "bug",
+      "status": "quarantined-red",
+      "wave": 1,
+      "issue": "Q001 (e2e/quarantine/ISSUES.md)"
     }
   ]
 }
