@@ -360,14 +360,14 @@
         "question": "How should you release the guillotine from Twister Control after your training partner taps?",
         "answer": "Upon any tap signal, immediately release the choking arm pressure by opening the grip and removing the forearm from the neck. Disengage head and neck control before releasing any remaining leg entanglement. Help your partner to a seated position and monitor their breathing and consciousness. If they show any signs of delayed recovery, call for medical assistance immediately.",
         "safety_critical": true,
-        "answer_line": "Release grip, then help partner up",
+        "answer_line": "Open grip, remove forearm from neck",
         "distractors": {
           "plausible": [
-            "Unhook the legs before the neck",
-            "Let go and walk off immediately"
+            "Free the leg lace, then the neck",
+            "Sit them up before untangling"
           ],
           "trap": [
-            "Hold until they stop moving"
+            "Hold a beat to confirm the tap"
           ]
         }
       },

@@ -288,14 +288,14 @@
         "question": "Your opponent tucks their chin deeply and shrugs their shoulders during your collar grip attempt - what adjustment prevents them from blocking the grip?",
         "answer": "Work the collar grip behind the chin rather than trying to force it over the chin. Use your free hand to frame against their forehead or temple to create separation between their chin and chest. Pulse the body triangle pressure to force them to prioritize breathing, which often causes them to momentarily lift their chin. Time the collar feed during that breathing window when their defensive posture relaxes.",
         "safety_critical": false,
-        "answer_line": "Feed grip behind the chin",
+        "answer_line": "Feed behind the chin, not over it",
         "distractors": {
           "plausible": [
-            "Force the grip over the chin",
-            "Squeeze triangle and wait it out"
+            "Force the collar across the jaw",
+            "Pry the chin up with your thumb"
           ],
           "trap": [
-            "Release triangle for leverage"
+            "Drop triangle to grip two-handed"
           ]
         }
       },

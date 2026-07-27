@@ -240,14 +240,14 @@
       {
         "question": "Why must you circle your trapped arm in the direction of the lock rather than against it?",
         "answer": "Circling with the lock follows natural shoulder joint mechanics and relieves stress on the ligaments and joint capsule. Moving against the lock increases torque and accelerates potential injury. The circular motion with the lock creates temporary pressure relief while maintaining structural integrity, buying time to execute escapes without damaging the shoulder. This principle applies to all shoulder locks - always move with the rotation, never against it.",
-        "answer_line": "Follows shoulder's natural rotation",
+        "answer_line": "Follows natural shoulder mechanics",
         "distractors": {
           "plausible": [
-            "Builds leverage to strip the grip",
-            "Keeps the elbow above the mat"
+            "Speeds up the arm's escape",
+            "Loosens the opponent's grip"
           ],
           "trap": [
-            "Torquing against it creates space"
+            "Against the lock kills the torque"
           ]
         }
       },

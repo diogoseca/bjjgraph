@@ -263,14 +263,14 @@
       {
         "question": "Your opponent has tight kneebar control and begins driving their hips forward for the finish - what is your immediate response?",
         "answer": "Immediately initiate explosive hip rotation toward the attacker while simultaneously bending the captured knee and pulling the heel toward your glute. Post your free hand on the mat for base. The key is committing fully to the rotation before the extension reaches a critical angle where the knee is at risk. Hesitation allows the attacker to achieve full extension, at which point this escape becomes significantly more dangerous to attempt and you should consider tapping.",
-        "answer_line": "Rotate hips, bend knee immediately",
+        "answer_line": "Spin toward attacker, bend knee",
         "distractors": {
           "plausible": [
-            "Push off and create space",
-            "Grip the mat and stay heavy"
+            "Rotate away from the attacker",
+            "Bridge and shrimp your hips out"
           ],
           "trap": [
-            "Straighten the leg to resist"
+            "Straighten the leg to pull free"
           ]
         }
       },

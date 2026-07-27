@@ -608,14 +608,14 @@
         "question": "What are the risks of fighting a fully locked toe hold rather than tapping?",
         "answer": "A fully locked toe hold with rotation applied can cause Lisfranc joint dislocation requiring surgery and 3-6 months recovery, lateral and medial ankle ligament tears causing 6-12 weeks of rehabilitation with potential chronic instability, plantar fascia rupture requiring 8-16 weeks recovery, and toe fractures or dislocations. The escalation speed means damage can occur within fractions of a second after the point of no return.",
         "safety_critical": true,
-        "answer_line": "Lisfranc, ankle ligament damage",
+        "answer_line": "Instant severe foot & ankle damage",
         "distractors": {
           "plausible": [
-            "Mild soreness for a day or two",
-            "Slight ache, back next class"
+            "Knee ligaments blow out",
+            "Numb toes, feeling comes back"
           ],
           "trap": [
-            "No lasting harm, safe to resist"
+            "Power out if you're flexible"
           ]
         }
       }

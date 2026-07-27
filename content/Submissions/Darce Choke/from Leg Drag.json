@@ -596,14 +596,14 @@
         "question": "What is the earliest recognition cue that a Darce is being attempted from leg drag, and what should your immediate response be?",
         "answer": "The earliest cue is the opponent releasing their crossface or shoulder control and beginning to shoot their near arm under your neck. Your immediate response should be a sharp chin tuck combined with a shoulder shrug on the near side to close the neck-armpit channel, plus framing against their threading shoulder with your hands. This must happen within the first half-second of recognizing the attempt—every moment of delay allows the arm to advance deeper and makes defense exponentially harder.",
         "safety_critical": false,
-        "answer_line": "Chin tuck, shrug, frame instantly",
+        "answer_line": "Chin tuck + shrug near shoulder",
         "distractors": {
           "plausible": [
-            "Wait until it gets deeper",
-            "Push their head away with hands"
+            "Grip-fight their threading hand",
+            "Lift the far shoulder to block"
           ],
           "trap": [
-            "Turn away, giving up your back"
+            "Turn away and scramble out"
           ]
         }
       },

@@ -395,14 +395,14 @@
         "question": "In competition, what grip adjustments maximize finishing rate when the opponent is actively defending?",
         "answer": "In competition with a resisting opponent, grip the choking arm's own wrist with the free hand to create a closed loop that prevents the arm from being pulled out during defensive movement. Alternatively, clasp both hands together in a gable grip under the neck for maximum stability. If the opponent tucks their chin aggressively, adjust the shoulder angle by walking your knees slightly past their head to change the compression vector. Small positional adjustments are more effective than simply squeezing harder against active defense.",
         "safety_critical": false,
-        "answer_line": "Grip own wrist to seal loop",
+        "answer_line": "Grip own wrist to seal the loop",
         "distractors": {
           "plausible": [
-            "Rip the arm free and reset",
-            "Flare elbows for more room"
+            "Squeeze harder against defense",
+            "Grab their wrist to trap arm"
           ],
           "trap": [
-            "Grind harder against defense"
+            "Rip the arm free and reset"
           ]
         }
       }

@@ -568,14 +568,14 @@
         "question": "When should you prioritize tapping rather than continuing to fight the toe hold defense?",
         "answer": "Tap immediately whenever you feel rotational pressure engaging the lateral ankle ligaments beyond mild discomfort, when the figure-four is fully locked with elbows compressed and you cannot strip the grip within 2-3 seconds, when you hear or feel any popping sensation in the ankle or foot regardless of pain level, or when your defensive options are exhausted and continued resistance would only delay the inevitable while increasing injury risk. In training, always err on the side of tapping early.",
         "safety_critical": true,
-        "answer_line": "Any popping, or grip locked 2-3s",
+        "answer_line": "Tap at first rotational pressure",
         "distractors": {
           "plausible": [
-            "Only after sharp pain arrives",
-            "Wait for swelling to appear"
+            "First strip the figure-four grip",
+            "Wait for the pain to turn sharp"
           ],
           "trap": [
-            "Keep resisting until forced out"
+            "Counter with your own leglock"
           ]
         }
       }

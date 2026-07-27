@@ -329,14 +329,14 @@
         "question": "Your opponent successfully employs boot defense by hiding their heel - what are your two highest-percentage responses?",
         "answer": "First, attempt to peel the boot by wedging your wrist blade deeper behind the Achilles tendon while using your reinforcing hand to pull their toes toward you. If this fails within a few seconds, transition to saddle entry by threading your inside leg deeper across their hip. The saddle's tighter entanglement defeats most boot defenses because it eliminates the space needed to maintain the dorsiflexed ankle position. Continuing to fight the boot for extended periods wastes energy.",
         "safety_critical": false,
-        "answer_line": "Peel the boot, then saddle entry",
+        "answer_line": "Peel Achilles, then enter saddle",
         "distractors": {
           "plausible": [
-            "Wait for their grip to tire",
-            "Switch to a toe hold instead"
+            "Grip the toes, skip the wrist wedge",
+            "Keep grinding the boot, be patient"
           ],
           "trap": [
-            "Sit up and abandon the leg"
+            "Belly-down and crank the hidden heel"
           ]
         }
       },
@@ -374,14 +374,14 @@
         "question": "What is the most common finishing error that causes the heel hook from Carni to fail against experienced opponents?",
         "answer": "The most common finishing error is attempting rotational pressure before establishing the knee clamp. Without the knee line controlled, experienced opponents simply rotate their entire body in the direction of the heel hook, relieving all pressure on the knee ligaments. This is the fundamental difference between catching beginners and finishing on trained grapplers. The correct sequence is always: Carni control, heel grip, knee clamp, body angle, then progressive rotation.",
         "safety_critical": false,
-        "answer_line": "Turning before the knee clamp",
+        "answer_line": "Rotating before the knee clamp",
         "distractors": {
           "plausible": [
-            "Gripping the heel too shallow",
-            "Attacking from the wrong side"
+            "Skipping the heel grip step",
+            "Ignoring body angle at the end"
           ],
           "trap": [
-            "Rip the rotation with no control"
+            "Sitting up to force the tap"
           ]
         }
       },

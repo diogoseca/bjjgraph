@@ -379,14 +379,14 @@
       {
         "question": "You have shot the triangle leg but it lands across the opponent's upper back and shoulders instead of the neck - what is your immediate correction?",
         "answer": "Do not attempt to lock the triangle in this position as it will produce no choking pressure. Immediately use your hands to grab the back of the opponent's head and pull it down toward your chest while hiking your hips upward to walk your shin from their shoulders up to the base of their skull. If the opponent is already posturing against your misplaced leg, abandon the triangle and transition to closed guard or capture their arm between your legs for an armbar attempt.",
-        "answer_line": "Pull head down, walk shin to neck",
+        "answer_line": "Walk shin up to the neck",
         "distractors": {
           "plausible": [
-            "Push their shoulder away to reset",
-            "Switch to an armbar right away"
+            "Squeeze the shoulders to finish",
+            "Lock the figure-four first"
           ],
           "trap": [
-            "Lock across the back and lean back"
+            "Straighten legs to force the tap"
           ]
         }
       },

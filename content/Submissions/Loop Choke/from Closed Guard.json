@@ -601,14 +601,14 @@
         "question": "When should you tap to the loop choke rather than continue attempting to escape?",
         "answer": "You should tap immediately when you feel bilateral compression on both carotid arteries with the collar loop fully closed and the opponent's turning motion complete. Once the loop is locked with proper depth and the rotation has wrapped the collar circumferentially around your neck, unconsciousness can occur within 8-12 seconds. There is no safe escape window once the loop choke is fully applied with correct mechanics. Continuing to resist a properly locked blood choke risks loss of consciousness, which is far more dangerous than tapping and resetting. In training, always err on the side of tapping early.",
         "safety_critical": true,
-        "answer_line": "Tap when the loop fully locks",
+        "answer_line": "Tap once both carotids compress",
         "distractors": {
           "plausible": [
-            "Escape first, only tap if stuck",
-            "Wait for your coach to call it"
+            "Tap the second grips lock on",
+            "Tap if just one artery seals"
           ],
           "trap": [
-            "Hold out until your vision goes"
+            "Bridge hard to escape first"
           ]
         }
       },

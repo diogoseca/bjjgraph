@@ -589,28 +589,28 @@
       {
         "question": "The roll has already started and you cannot stop it. What do you do?",
         "answer": "Stop fighting to stay put and commit to riding the roll. Post your free hand, follow their rotation, and drive your weight through so you land on top with the attacker dumped onto the bottom in turtle. Counter-rolling at the peak of their momentum weakens the grip's angle and is far better than being slowly dragged over into a surrendered back. Throughout, keep the shoulder safe and tap to real joint pressure.",
-        "answer_line": "Post free hand, ride the roll on top",
+        "answer_line": "Ride the roll, come up on top",
         "distractors": {
           "plausible": [
-            "Pull the trapped elbow to your hip",
-            "Grab your own belt to stall it"
+            "Resist and fight to stay put",
+            "Go with it, end up in guard"
           ],
           "trap": [
-            "Turn belly-down and give the back"
+            "Turn belly-down and turtle up"
           ]
         }
       },
       {
         "question": "Why should shoulder safety take priority over keeping the position when defending the Rolling Kimura?",
         "answer": "Because the technique loads the shoulder under rotational momentum, riding out heavy kimura pressure to save a position risks a torn labrum or ligaments with a long recovery. A lost position is recoverable in seconds, but a blown-out shoulder costs months. If you feel genuine joint pressure and your counter is not there, tap, because protecting the arm keeps you training, which matters more than any single exchange.",
-        "answer_line": "Torn shoulder costs months to heal",
+        "answer_line": "Shoulder heals slow; position fast",
         "distractors": {
           "plausible": [
-            "The grip cannot be broken once set",
-            "A tap only costs you two points"
+            "Your counter is always there in time",
+            "Elbow, not shoulder, is at risk"
           ],
           "trap": [
-            "Shoulders heal fast, so ride it out"
+            "Ride out the pressure to keep top"
           ]
         }
       }

@@ -928,14 +928,14 @@
     {
       "question": "Why must the inverted player's weight rest on the shoulders and upper back rather than the neck?",
       "answer": "Loading the neck concentrates force on the cervical spine, which is both an injury risk and mechanically counterproductive because it locks the hips in place. The shoulders and upper back form a broad, stable tripod that supports the inverted posture while leaving the hips free to rotate, which is the movement every sweep and back-take depends on. Rolling weight onto the shoulder blades with the chin tucked distributes load across a wide surface and preserves the spatial freedom the position needs. This weight-bearing arrangement is a shared constraint of the configuration regardless of who is attacking or defending it.",
-      "answer_line": "Shoulder base keeps hips mobile",
+      "answer_line": "Protects neck, frees hips to rotate",
       "distractors": {
         "plausible": [
-          "Comfort only, mechanics unchanged",
-          "Frees the eyes to track opponent"
+          "Spreads load but pins the hips",
+          "Powers a stronger bridge upward"
         ],
         "trap": [
-          "Bridge all weight onto the neck"
+          "Post on the crown to stay balanced"
         ]
       }
     },

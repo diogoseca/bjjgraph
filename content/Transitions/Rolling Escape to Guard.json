@@ -532,14 +532,14 @@
       {
         "question": "What is the risk of forcing an accelerated finish when you sense the roll beginning?",
         "answer": "Forcing explosive pressure during the opponent's rolling movement creates uncontrolled force vectors on the shoulder joint that can cause serious injury including rotator cuff tears, labrum damage, or dislocation. The dynamic movement makes it difficult to control pressure precisely. In competition this risks disqualification, and in training it risks injuring your partner. Controlled transition to back control is the safer high-percentage response.",
-        "answer_line": "Uncontrolled force wrecks shoulder",
+        "answer_line": "Uncontrolled force injures shoulder",
         "distractors": {
           "plausible": [
-            "You just lose the submission",
-            "Only downside is wasted energy"
+            "Lose the position if it stalls",
+            "Elbow hyperextension is the risk"
           ],
           "trap": [
-            "Explode through as they roll"
+            "Basically safe so gun it"
           ]
         }
       }

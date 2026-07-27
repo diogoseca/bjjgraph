@@ -352,11 +352,11 @@
         "answer_line": "Torso rotation, not arm strength",
         "distractors": {
           "plausible": [
-            "Extra space lets you grip faster",
-            "Bridge threat is identical"
+            "Isolate the arm first, then turn",
+            "Crank the wrist with arm power"
           ],
           "trap": [
-            "Square hips like mount, get bridged"
+            "Sit up tall to torque harder"
           ]
         }
       },
@@ -571,14 +571,14 @@
         "question": "What is the safest way to tap to the Americana from Scarf Hold to prevent injury?",
         "answer": "Tap early and clearly before you feel sharp pain in the shoulder. Use your free hand to tap firmly on the attacker's body or the mat at least twice. If your free hand is obstructed, tap the mat with your foot or verbalize 'tap' loudly. Do not try to be tough and ride through shoulder pressure - the americana applies force to the rotator cuff and labrum which can tear without warning. Tap the moment you feel the shoulder reaching its end range of comfortable motion.",
         "safety_critical": true,
-        "answer_line": "Tap early with free hand",
+        "answer_line": "Tap early, before shoulder pain",
         "distractors": {
           "plausible": [
-            "Tap once softly on their arm",
-            "Nod your head to signal"
+            "Wait for pain, then signal quickly",
+            "One soft tap on your own leg"
           ],
           "trap": [
-            "Ride out the shoulder pressure"
+            "Tough it out, ride the pressure"
           ]
         }
       },

@@ -582,14 +582,14 @@
         "question": "What is the correct order of defensive priorities when facing a Kimura from S Mount?",
         "answer": "First priority is preventing the figure-four grip from being established by keeping your arm bent and gripping your own collar. Second priority is maintaining that grip structure through any grip-stripping attempts. Third priority is timing a hip escape during grip transitions to recover guard. If all three fail and the figure-four locks with rotation beginning, the fourth priority is tapping immediately to protect your shoulder.",
         "safety_critical": false,
-        "answer_line": "Prevent grip, escape, then tap",
+        "answer_line": "Deny the figure-four grip: arm bent",
         "distractors": {
           "plausible": [
-            "Strip the wrist, then bridge",
-            "Bridge first, fix hands later"
+            "Hip escape first to recover guard",
+            "Tap at the first sign of the lock"
           ],
           "trap": [
-            "Straighten the arm for space"
+            "Straighten the arm to pull free"
           ]
         }
       },

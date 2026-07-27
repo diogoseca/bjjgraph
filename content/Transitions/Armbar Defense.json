@@ -315,14 +315,14 @@
       {
         "question": "Why is early recognition of armbar setups more critical than in defenses for other submissions?",
         "answer": "Armbar defenses become exponentially more difficult once the opponent achieves full positioning with legs secured and arm extended. Unlike chokes where you may have several seconds before losing consciousness, the armbar can be completed in under one second once proper leverage is established, and continued resistance results in immediate elbow injury. The mechanical efficiency of the armbar means that defensive windows are extremely narrow, making early recognition and immediate defensive response absolutely critical for successful escape without injury.",
-        "answer_line": "Armbar finishes in under 1 sec",
+        "answer_line": "Finishes in under one second",
         "distractors": {
           "plausible": [
-            "You have several seconds like chokes",
-            "Chokes are easier to escape"
+            "Elbow injury is permanent",
+            "Danger starts once arm extends"
           ],
           "trap": [
-            "Late defenses work just as well"
+            "You can muscle out anytime"
           ]
         }
       },

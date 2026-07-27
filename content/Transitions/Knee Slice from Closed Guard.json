@@ -352,14 +352,14 @@
       {
         "question": "Your opponent posts their hand on your hip as you begin the knee slice. How do you respond?",
         "answer": "Address the frame immediately rather than trying to power through it. Swim your arm inside their frame to collapse it at the elbow, or shift your angle to make their frame structurally weak by moving off their centerline. Alternatively, pin their framing elbow to their body using your chest weight and then continue the knee slice once the frame is neutralized. Forcing through a strong frame wastes energy and gives them leverage to shrimp.",
-        "answer_line": "Collapse frame, swim inside",
+        "answer_line": "Kill the frame before slicing",
         "distractors": {
           "plausible": [
-            "Pull the hand off directly",
-            "Sit back and re-grip"
+            "Slice through, fix the frame later",
+            "Angle toward their centerline"
           ],
           "trap": [
-            "Strip it with both hands, no base"
+            "Post both hands and bull forward"
           ]
         }
       },

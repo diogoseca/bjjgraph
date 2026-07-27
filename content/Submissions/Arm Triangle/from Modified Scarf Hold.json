@@ -579,14 +579,14 @@
         "question": "What is the safest response when you are caught in a fully locked and sealed arm triangle from Modified Scarf Hold?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly. Do not wait to see if you can escape once the choke is fully sealed with the attacker's hip dropped and head planted. Arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds with minimal warning. Tapping early prevents injury and allows you to continue training.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, any signal",
+        "answer_line": "Tap immediately and clearly",
         "distractors": {
           "plausible": [
-            "Grip their belt and stall",
-            "Reach for their far leg"
+            "Signal with your feet first",
+            "One firm tap, then stay still"
           ],
           "trap": [
-            "Bridge into the choke to escape"
+            "Try to muscle out of the choke"
           ]
         }
       },

@@ -419,14 +419,14 @@
         "question": "How does the arm triangle from side control differ from a neck crank, and how do you ensure you are applying a blood choke?",
         "answer": "A proper arm triangle compresses both carotid arteries bilaterally, restricting blood flow to the brain. A neck crank applies twisting or bending force to the cervical spine without effective arterial compression. The key difference is the finishing angle: when the attacker is perpendicular to the opponent with chest directly over the face and the opponent's shoulder loaded against their own carotid, the choke compresses arteries. When the angle is off or the attacker squeezes from a parallel position, the force goes into the neck structure rather than the arteries. The test is whether the opponent feels lightheaded rather than neck pain.",
         "safety_critical": true,
-        "answer_line": "Perpendicular chest-over-face angle",
+        "answer_line": "Compress both carotid arteries",
         "distractors": {
           "plausible": [
-            "Squeeze harder for more effect",
-            "Judge it by how fast they tap"
+            "Squeeze hard from parallel",
+            "Tap comes from neck pain"
           ],
           "trap": [
-            "Twist the head to finish"
+            "Wrench the head to force the tap"
           ]
         }
       },

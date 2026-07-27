@@ -563,14 +563,14 @@
       {
         "question": "Your initial hip escape is blocked and you remain under Knee on Belly - what do you do next?",
         "answer": "Immediately chain into a secondary escape without pausing. If shrimping away was blocked, bridge toward the opponent's posting foot to disrupt their base, then reattempt the hip escape during their rebalancing. If both fail, try the opposite-side shrimp or look for a deep half entry. Each attempt creates incremental space improvement, and pausing allows the opponent to resettle their weight and punish your inactivity.",
-        "answer_line": "Bridge their base, then re-shrimp",
+        "answer_line": "Bridge to their base, then re-shrimp",
         "distractors": {
           "plausible": [
-            "Two-hand push on their knee",
-            "Reset frames and breathe first"
+            "Repeat the same hip escape harder",
+            "Push their knee off before bridging"
           ],
           "trap": [
-            "Roll belly-down and give the back"
+            "Turn to your knees to stand up"
           ]
         }
       },

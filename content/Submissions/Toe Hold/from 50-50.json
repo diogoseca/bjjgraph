@@ -459,14 +459,14 @@
         "question": "How do you recognize when the ankle joint is approaching its breaking point during toe hold application?",
         "answer": "Several indicators signal the breaking point is near: (1) You feel a significant increase in resistance as the ligaments reach maximum stretch, (2) The opponent's foot begins to make slight popping or crackling sounds from joint capsule stress, (3) The opponent's defensive movements become frantic or panicked, (4) You notice involuntary muscle tension throughout their leg. In training, you should NEVER reach this point—these are competition indicators only. In training, apply pressure slowly enough that your partner can tap at the first sensation of discomfort, well before any structural damage occurs. If you feel any of these indicators in training, you have applied pressure too fast.",
         "safety_critical": true,
-        "answer_line": "Popping, rising resistance, panic",
+        "answer_line": "Sharp spike in resistance",
         "distractors": {
           "plausible": [
-            "Only a verbal tap counts",
-            "Their foot goes cold and numb"
+            "Opponent goes calm and relaxed",
+            "Their foot turns cold and pale"
           ],
           "trap": [
-            "Crank harder as they fight it"
+            "The pop is your first warning"
           ]
         }
       },

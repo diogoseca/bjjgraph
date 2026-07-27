@@ -352,14 +352,14 @@
         "question": "Why must hip extension pressure be applied slowly during the belly down finish?",
         "answer": "The belly down position generates significantly more mechanical advantage than a standard supine armbar because the attacker's full body weight reinforces the hip extension. This means the elbow can reach its breaking point much faster than practitioners expect. Applying pressure slowly gives the opponent adequate time to recognize the danger and tap before ligament damage occurs. Jerking or spiking the arm in this position frequently causes serious elbow injuries including ulnar collateral ligament tears.",
         "safety_critical": true,
-        "answer_line": "Gives time to tap before damage",
+        "answer_line": "Lets them tap before injury",
         "distractors": {
           "plausible": [
-            "Stops the opponent from stacking",
-            "Keeps the belly-down base heavy"
+            "Slow to build up more force",
+            "Slow keeps the arm controlled"
           ],
           "trap": [
-            "Rip it fast before they escape"
+            "Speed forces a quicker finish"
           ]
         }
       },

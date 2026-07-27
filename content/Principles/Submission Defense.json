@@ -504,14 +504,14 @@
     {
       "question": "What should you do when caught in a fully locked submission you cannot escape?",
       "answer": "Make a tactical decision to concede position rather than risk injury — give up the arm to save the choke, or surrender the pass to prevent the leg lock — and tap promptly when an escape is genuinely impossible.",
-      "answer_line": "Concede position, tap promptly",
+      "answer_line": "Tap promptly to avoid injury",
       "distractors": {
         "plausible": [
-          "Grip your own lapel and hold on",
-          "Stall until the round timer ends"
+          "Concede position to escape",
+          "Ask your partner to ease off"
         ],
         "trap": [
-          "Spin hard against the joint lock"
+          "Explosively muscle your way out"
         ]
       }
     },

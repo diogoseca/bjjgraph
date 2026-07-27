@@ -272,14 +272,14 @@
         "answer": "Attack a straight armlock on the extended arm, or switch to a hip bump sweep while their attention is on defending the arm. The straightened arm hands you a new submission threat, and their focus on grip-fighting means their base maintenance is neglected — exactly the moment a sweep succeeds.",
         "distractors": {
           "plausible": [
-            "Pull their elbow back to bend it",
-            "Wait for them to re-bend the arm"
+            "Crank the Kimura harder to bend it",
+            "Wait for the arm to re-bend"
           ],
           "trap": [
-            "Release grip and push them away"
+            "Turn belly-down to finish"
           ]
         },
-        "answer_line": "Armbar or hip bump sweep"
+        "answer_line": "Attack straight-arm lock, or sweep"
       },
       {
         "question": "What distinguishes when to finish the Kimura submission versus executing the sweep?",

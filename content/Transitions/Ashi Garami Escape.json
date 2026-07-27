@@ -275,11 +275,11 @@
       {
         "question": "Your opponent secures a heel hook grip while you are mid-escape and have already cleared their bottom leg - what do you do?",
         "answer": "You must immediately stop all extraction movement and address the heel control with both hands using a two-on-one grip break. Even though you have cleared the bottom leg, continuing the escape with heel control secured creates catastrophic injury risk because any rotational movement of your body while the heel is controlled applies torque directly to the knee ligaments. Break the grip completely by peeling at the thumbs, then reassess whether the bottom leg has been recomposed before continuing the clearing sequence.",
-        "answer_line": "Two-on-one grip break, stop moving",
+        "answer_line": "Stop moving; two-hand grip break",
         "distractors": {
           "plausible": [
-            "Flatten your back and wait it out",
-            "Kick free with the other leg"
+            "Peel at the thumbs one-handed",
+            "Reguard the bottom leg first"
           ],
           "trap": [
             "Roll away from the pressure"

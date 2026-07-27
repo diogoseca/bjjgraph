@@ -441,14 +441,14 @@
         "question": "In competition, what strategic adjustments maximize finishing percentage from ushiro ashi-garami?",
         "answer": "Competition strategy from ushiro emphasizes speed of grip establishment over positional patience, since opponents are less willing to tap and rule sets create urgency. Immediately upon establishing ushiro control, attack the heel before the opponent can organize their defense. Use your free hand to strip their defensive grip while simultaneously seating your heel hook grip rather than sequencing these actions separately. If the first attempt fails, rapidly cycle between heel hook, ankle lock, and positional advancement attempts to overwhelm the opponent's defensive decision-making rather than committing to a single extended finishing attempt.",
         "safety_critical": false,
-        "answer_line": "Set grips fast, break slow",
+        "answer_line": "Attack heel before defense sets",
         "distractors": {
           "plausible": [
-            "Wear them down over the round",
-            "Wait for the perfect setup"
+            "Slow down and secure control first",
+            "Go for the kneebar setup"
           ],
           "trap": [
-            "Rip the heel for a fast tap"
+            "Open the ashi to chase the finish"
           ]
         }
       },

@@ -412,11 +412,11 @@
         "answer_line": "Grip your own wrist, not fingers",
         "distractors": {
           "plausible": [
-            "Grab their sleeve above the elbow",
-            "Palm-to-palm with arms extended"
+            "Rotate first, then tighten the loop",
+            "Clamp the elbow for control"
           ],
           "trap": [
-            "Open the grip to re-grip deeper"
+            "Let go of the wrist to re-clasp"
           ]
         }
       },

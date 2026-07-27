@@ -344,14 +344,14 @@
         "question": "What must you do immediately after receiving a tap to a triangle choke, and what are the specific steps to safely release this submission?",
         "answer": "Upon receiving a tap, immediately: (1) open your legs and release the figure-four lock, (2) pull the trapped arm out from the triangle space, (3) release head and neck control completely, (4) move your hips away to create space, (5) check your partner's consciousness and breathing, and (6) allow them time to recover before resuming training. Never hold the position even briefly after a tap—the release must be immediate and complete. If your partner goes unconscious without tapping, follow the same protocol and ensure they are breathing and conscious before continuing.",
         "safety_critical": true,
-        "answer_line": "Open legs, free arm, check partner",
+        "answer_line": "Open legs, break the figure-four",
         "distractors": {
           "plausible": [
-            "Sit up and celebrate first",
-            "Roll away and stand up fast"
+            "Pull the trapped arm out first",
+            "Check breathing before releasing"
           ],
           "trap": [
-            "Keep it clamped till they calm"
+            "Hold the choke to confirm the tap"
           ]
         }
       },

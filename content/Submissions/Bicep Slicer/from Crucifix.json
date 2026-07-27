@@ -442,14 +442,14 @@
         "question": "What anatomical structures are at risk during a bicep slicer, and what are the warning signs of injury?",
         "answer": "The bicep slicer attacks three anatomical structures: the bicep muscle belly (compression trauma), the elbow joint ligaments (hyperextension stress), and the radial nerve (compression). Warning signs of potential injury include sudden sharp pain in the bicep belly, popping or tearing sensations near the elbow, numbness or tingling in the forearm or hand (nerve involvement), and the opponent going silent or stiff instead of tapping. Any of these signs require immediate release and medical evaluation.",
         "safety_critical": true,
-        "answer_line": "Bicep, elbow, nerve; numbness warns",
+        "answer_line": "Bicep, elbow, radial nerve",
         "distractors": {
           "plausible": [
-            "Ligaments only; pain is normal",
-            "Muscle bruise only, heals fast"
+            "Shoulder joint and bicep tendon",
+            "Forearm bones and wrist joint"
           ],
           "trap": [
-            "Quiet partner means keep cranking"
+            "Silence means no danger"
           ]
         }
       },

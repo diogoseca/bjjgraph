@@ -472,14 +472,14 @@
         "question": "Why is depth of arm threading critical to Anaconda choke effectiveness?",
         "answer": "Deep threading ensures your forearm crosses completely across the opponent's far-side carotid artery, with your hand emerging well past their opposite shoulder. Shallow threading fails to reach the far carotid and only creates neck pressure rather than true blood choke pressure. Deep positioning also makes it much harder for opponent to defend or create space, and improves the leverage of your finishing mechanics.",
         "safety_critical": false,
-        "answer_line": "Deep thread reaches far carotid",
+        "answer_line": "Forearm reaches far carotid",
         "distractors": {
           "plausible": [
-            "Shallow bite locks up faster",
-            "Depth only matters in the gi"
+            "Adds neck-crank crushing force",
+            "Pins the near-side shoulder"
           ],
           "trap": [
-            "Roll shallow, they pass to mount"
+            "Crank shallow, opp takes back"
           ]
         }
       },

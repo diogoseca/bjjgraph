@@ -330,14 +330,14 @@
         "question": "What is the most common finishing error in the belly-down armbar and what consequence does it carry?",
         "answer": "The most common finishing error is applying extension too rapidly by jerking or spiking the arm. Because the belly-down position generates far more force than a standard supine armbar through full body weight leverage, rapid application can hyperextend the elbow before the defender has time to tap. This can cause ligament tears, joint capsule damage, or fractures. The correction is always progressive, controlled hip extension allowing adequate time for the tap signal.",
         "safety_critical": true,
-        "answer_line": "Jerking extension — snaps the joint",
+        "answer_line": "Jerking the arm too fast to tap",
         "distractors": {
           "plausible": [
-            "Loose wrist grip lets arm slip",
-            "Hips too far from the shoulder"
+            "Pulling the wrist, not raising hips",
+            "Squeezing knees to force the tap"
           ],
           "trap": [
-            "Rip it fast before they tap"
+            "Rolling to your back to finish"
           ]
         }
       },

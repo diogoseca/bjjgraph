@@ -400,14 +400,14 @@
         "question": "How can you use the heel hook threat from outside Ashi to advance to a superior position in the hierarchy?",
         "answer": "When threatening the heel hook, the opponent must address the attack through straightening, grip stripping, or rotation. Each defensive response creates specific openings for hierarchy advancement: straightening the leg allows deeper inside leg threading for Inside Ashi entry; grip stripping requires hand commitment that opens Cross Ashi transitions; rolling to relieve pressure exposes the back for Saddle advancement. Reading the defensive choice and flowing to the appropriate advancement pathway makes the threat itself more valuable than the finish at this hierarchy level.",
         "safety_critical": false,
-        "answer_line": "Read their defense, climb positions",
+        "answer_line": "Their defense picks your next entry",
         "distractors": {
           "plausible": [
-            "Hold outside ashi and wait",
-            "Switch to an upper-body attack"
+            "Just finish the heel hook now",
+            "Grip strip opens Inside Ashi"
           ],
           "trap": [
-            "Crank blind, lose the entanglement"
+            "Let go and dive for the back"
           ]
         }
       },
@@ -592,14 +592,14 @@
         "question": "Why is tapping early to a heel hook more important than with most other submissions?",
         "answer": "Heel hooks attack knee ligaments—ACL, MCL, and LCL—that have significantly fewer pain receptors than the joint capsules or tendons targeted by armbars, kimuras, or chokes. Structural failure in these ligaments can occur before the defender experiences meaningful pain, meaning that waiting for pain to signal when to tap often results in tapping after ligament damage has already occurred. Positional awareness and rotational pressure recognition must replace pain as the primary tap trigger for heel hooks.",
         "safety_critical": true,
-        "answer_line": "Ligaments tear before pain hits",
+        "answer_line": "Ligaments fail before you feel pain",
         "distractors": {
           "plausible": [
-            "The ankle pops first as a warning",
-            "Referees catch it before damage"
+            "Pain gives fair warning first",
+            "You'll hear the ankle pop first"
           ],
           "trap": [
-            "Wait for sharp pain to tap"
+            "You can spin free before it locks"
           ]
         }
       },

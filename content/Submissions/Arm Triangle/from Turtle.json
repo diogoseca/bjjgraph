@@ -602,14 +602,14 @@
         "question": "How should you extract your trapped arm, and why does direction matter?",
         "answer": "Extract the trapped arm by swimming it forward and away from your body in a circular motion, driving the elbow forward first. Direction matters critically because pulling the arm backward actually tightens the choke—your shoulder drives deeper into your own carotid artery when you retract. The forward swimming motion opens the angle between your shoulder and neck, reducing the compression that makes the choke effective. Think of reaching forward to escape rather than pulling backward.",
         "safety_critical": false,
-        "answer_line": "Swim the elbow forward first",
+        "answer_line": "Swim elbow forward and away",
         "distractors": {
           "plausible": [
-            "Drive the arm straight down",
-            "Frame on their chest instead"
+            "Rip elbow up toward the ceiling",
+            "Slide arm out toward your hip"
           ],
           "trap": [
-            "Retract the elbow toward your hip"
+            "Yank the arm straight back"
           ]
         }
       }

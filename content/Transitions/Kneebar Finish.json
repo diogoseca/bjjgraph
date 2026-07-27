@@ -537,14 +537,14 @@
       {
         "question": "At what point should you tap to a kneebar rather than continuing to fight the defense?",
         "answer": "Tap immediately when you feel hyperextension pressure on your knee and you cannot bend your leg despite maximum hamstring effort. Unlike chokes where you have a gradual window, the kneebar can damage the posterior cruciate ligament and joint capsule with sudden structural failure before you feel adequate warning pain. If their hips are extending, your knee is straight, and your leg is locked in their pinch, the submission is complete and fighting it risks catastrophic injury.",
-        "answer_line": "Leg locked straight, can't bend",
+        "answer_line": "Hyperextension, knee can't bend",
         "distractors": {
           "plausible": [
-            "When they first grab your ankle",
-            "Once your knee-line grip is gone"
+            "When your leg is forced straight",
+            "The moment they trap your foot"
           ],
           "trap": [
-            "Wait for them to tire and let go"
+            "Wait for a clear pain warning"
           ]
         }
       },

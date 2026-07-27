@@ -332,14 +332,14 @@
       {
         "question": "Your opponent drops their weight low and sprawls backward when they feel you setting up the Tomahawk Sweep. How do you adapt?",
         "answer": "The sprawl defense lowers opponent's center of gravity and creates backward pressure that directly opposes the sweep's angular momentum. Rather than forcing the sweep, recognize this as a transition opportunity: their backward hip position exposes their legs to ankle lock and heel hook entries through Ashi Garami transitions. You can also use their low posture to enter technical standup since their defensive sprawl compromises their ability to pressure forward. The backward weight shift often makes their far leg light enough for single leg X entries.",
-        "answer_line": "Enter Ashi Garami for leg attack",
+        "answer_line": "Attack exposed legs via Ashi Garami",
         "distractors": {
           "plausible": [
-            "Bump them forward and stand",
-            "Re-grip sleeve and chop again"
+            "Power through the original sweep",
+            "Retreat to closed guard bottom"
           ],
           "trap": [
-            "Sit up under the sprawl pressure"
+            "Turn away and build to turtle"
           ]
         }
       },

@@ -479,14 +479,14 @@
     {
       "question": "Why is flexibility central to the Twister System, and how does it create defensive dilemmas?",
       "answer": "The lockdown, Electric Chair, and Twister demand hip mobility and spinal rotation; opponents who lack flexibility must tap early or risk injury, which shrinks their defensive options while pressuring the attacker to train mobility too.",
-      "answer_line": "Rigid opponents must tap early",
+      "answer_line": "Inflexible foes must tap early",
       "distractors": {
         "plausible": [
-          "Only the attacker needs mobility",
-          "Stiff hips make escapes easier"
+          "Flexible defenders escape easily",
+          "Mobility only speeds the finish"
         ],
         "trap": [
-          "Crank spine hard on stiff hips"
+          "Just power through the twister"
         ]
       }
     },

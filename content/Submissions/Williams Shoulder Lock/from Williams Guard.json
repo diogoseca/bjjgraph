@@ -584,14 +584,14 @@
         "question": "When should you tap to the Williams Shoulder Lock to prevent injury?",
         "answer": "Tap immediately when you feel progressive rotational pressure on your shoulder that you cannot relieve through defensive movement. The shoulder joint has minimal structural reinforcement compared to the elbow, and damage occurs rapidly once the lock reaches its mechanical endpoint. If you feel pressure building and your defensive options are exhausted, tap before pain becomes sharp. Shoulder injuries from delayed tapping can require 6-12 months of recovery and may cause chronic joint instability.",
         "safety_critical": true,
-        "answer_line": "Once you can't relieve pressure",
+        "answer_line": "When rotation can't be defended",
         "distractors": {
           "plausible": [
-            "After trying one more escape",
-            "When the grip first locks"
+            "When the elbow starts to hurt",
+            "As soon as the grip is set"
           ],
           "trap": [
-            "Hold out until it pops"
+            "When sharp pain hits the shoulder"
           ]
         }
       },
@@ -599,11 +599,11 @@
         "question": "What defensive options are available at different stages of the Williams Shoulder Lock?",
         "answer": "Early stage when grip is being established: strip grips immediately before figure-four locks, maintain strong posture to prevent hip angle. Middle stage when lock is applied but hip angle developing: circle toward controlled arm to reduce rotation, use circular arm extraction while maintaining base. Late stage with full lock and hip angle set: if you cannot relieve pressure through movement, tap immediately. Each stage offers fewer options—early recognition and response dramatically increases defensive success rate.",
         "safety_critical": false,
-        "answer_line": "Strip grips early, circle later",
+        "answer_line": "Strip grips before figure-four",
         "distractors": {
           "plausible": [
-            "Bridge and roll at any stage",
-            "Wait for them to tire out"
+            "Circle away from the trapped arm",
+            "Posture up only after lock sets"
           ],
           "trap": [
             "Rip the arm out at full lock"
@@ -614,14 +614,14 @@
         "question": "Why is circular arm extraction more effective than pulling your arm straight back?",
         "answer": "Linear pulling works against the figure-four grip's mechanical structure, actually increasing rotational pressure on the shoulder joint. Circular extraction—rotating the elbow while maintaining shoulder alignment—gradually disengages the grip mechanics by changing the angle of force application. This technique addresses the lock's structure rather than fighting its strength, making it more energy-efficient and significantly reducing injury risk during the extraction process.",
         "safety_critical": false,
-        "answer_line": "Changes the angle of force",
+        "answer_line": "Changes the angle to disengage grip",
         "distractors": {
           "plausible": [
-            "It tires the attacker's grip",
-            "It uses stronger back muscles"
+            "Wrist rotation peels off the grip",
+            "Circular path is the shortest exit"
           ],
           "trap": [
-            "Yank straight back with force"
+            "Raw force overpowers the lock"
           ]
         }
       },

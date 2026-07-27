@@ -352,14 +352,14 @@
       {
         "question": "How should you manage force application during the transition to minimize injury risk to your training partner?",
         "answer": "Execute the transition with smooth controlled movements rather than explosive or jerky repositioning. The leg reconfiguration creates unpredictable angles on the opponent's knee and ankle joints, so controlled speed prevents accidental torque on vulnerable ligament structures. Maintain verbal communication during drilling and never snap rapidly from one configuration to another. The transition should feel like a deliberate gear shift through sequential control replacements, not a sudden violent repositioning.",
-        "answer_line": "Shift gears smoothly, step by step",
+        "answer_line": "Controlled speed, keep talking",
         "distractors": {
           "plausible": [
-            "Release all controls, then re-grip",
-            "Drill in silence to stay focused"
+            "Go slow only near the finish",
+            "Wait for the tap, then ease off"
           ],
           "trap": [
-            "Turn your back to finish the switch"
+            "Snap into position explosively"
           ]
         }
       }

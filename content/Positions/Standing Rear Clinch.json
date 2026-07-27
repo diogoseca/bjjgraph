@@ -997,14 +997,14 @@
     {
       "question": "How does Standing Rear Clinch relate to the adjacent positions it can flow into or from?",
       "answer": "Standing Rear Clinch sits at the overlap of the takedown phase and the back-attack game, bridging wrestling and jiu-jitsu. It commonly emerges from a sprawl, snap-down, arm drag, or a failed guard-pull that leaves one player behind the other, and it most often resolves into ground back control via a mat return or into a neutral clinch if the front player successfully turns to face. If the rear player's posture breaks the front player downward, the exchange can divert to a front headlock, and if the front player sits to guard, a body-lock pass toward side control becomes available. Understanding these neighboring positions is what lets either player anticipate where the exchange is heading before it arrives.",
-      "answer_line": "Bridges takedowns and back attacks",
+      "answer_line": "Bridge of takedowns and back attacks",
       "distractors": {
         "plausible": [
-          "Ends only in a mat return",
-          "Purely a guard-passing position"
+          "Only a wrestling takedown setup",
+          "Just the path to a rear choke"
         ],
         "trap": [
-          "A safe spot to rest and stall"
+          "Sit to guard to escape it"
         ]
       }
     }

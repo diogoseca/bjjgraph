@@ -844,14 +844,14 @@
         "question": "How does rotating your hip help you escape the compression?",
         "answer": "Rotating the hip away from the attacker unloads the finishing angle that drives the heel into your buttock, relieving the compression and creating the space needed to clear the trapped foot and recover position.",
         "safety_critical": false,
-        "answer_line": "Unloads the heel-to-buttock angle",
+        "answer_line": "Unloads the finishing angle",
         "distractors": {
           "plausible": [
-            "Frees the trapped ankle instantly",
-            "Loosens their figure-four lock"
+            "Turn hips toward the pressure",
+            "Bridge up to power straight out"
           ],
           "trap": [
-            "Rotate toward the attacker"
+            "Rotate into the heel to free it"
           ]
         }
       },

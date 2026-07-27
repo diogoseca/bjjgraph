@@ -1075,14 +1075,14 @@
     {
       "question": "How does the position of the captured leg's heel relative to the entangler's centerline determine which submissions become mechanically available?",
       "answer": "The heel's orientation is the primary readout for what the entanglement can produce, because heel hooks, toe holds, and ankle locks each require the foot to be trapped and rotated in a specific plane. When the heel is exposed and turned inward across the entangler's body, inside heel hook mechanics open; when it faces outward, outside heel hook and kneebar angles appear instead. If the defender keeps the heel hidden by pointing the foot and hiding it behind their own hip or the entangler's leg, submission access collapses even though the positional control may remain intact. This is why control of the foot and ankle is the highest grip priority in the family, since it governs both the finish and the defender's ability to deny it.",
-      "answer_line": "Heel angle picks the finish",
+      "answer_line": "Heel orientation dictates the finish",
       "distractors": {
         "plausible": [
-          "Hip position sets the sub",
-          "Upper-body grips decide it"
+          "Knee angle selects the lock",
+          "Point the toe to open the entry"
         ],
         "trap": [
-          "Give up the foot to bait a sub"
+          "Expose your own heel for leverage"
         ]
       }
     },

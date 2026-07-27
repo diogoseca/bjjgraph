@@ -619,14 +619,14 @@
         "question": "Why is it dangerous to straighten your arm when defending the Americana from Technical Mount?",
         "answer": "Straightening the arm to break free of the wrist pin creates an immediate armbar opportunity from technical mount. The attacker already has the ideal leg positioning for the armbar swing-over, and a straightened arm is exactly the configuration they need to finish. This binary threat is the core of technical mount offense. The correct defense is to keep the arm bent while fighting the wrist pin through elbow retraction and body movement, never extending the arm unless you can immediately retract it before the armbar is initiated.",
         "safety_critical": true,
-        "answer_line": "Straight arm invites the armbar",
+        "answer_line": "Straight arm = instant armbar",
         "distractors": {
           "plausible": [
-            "It gives up your underhook",
-            "It loosens your hip escape frame"
+            "Sets up a kimura shoulder lock",
+            "Frees attacker to take full mount"
           ],
           "trap": [
-            "It is safe if you rip it fast"
+            "Roll away to free the arm"
           ]
         }
       },

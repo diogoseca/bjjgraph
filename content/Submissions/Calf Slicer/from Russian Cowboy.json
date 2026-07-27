@@ -294,14 +294,14 @@
         "question": "What anatomical structures does the calf slicer from Russian Cowboy primarily attack?",
         "answer": "The calf slicer primarily attacks the gastrocnemius and soleus muscles of the calf through direct compression against the attacker's shin bone. Secondary targets include the Achilles tendon, which is placed under strain as the foot is folded, and the connective tissue behind the knee joint including the popliteal fossa. The compression can also affect the peroneal and tibial nerves running through the calf, creating sharp nerve pain that often triggers the tap before muscle damage occurs.",
         "safety_critical": false,
-        "answer_line": "Calf muscle crushed on your shin",
+        "answer_line": "Gastrocnemius and soleus (calf)",
         "distractors": {
           "plausible": [
-            "Achilles tendon alone",
-            "Knee joint ligaments"
+            "Shinbone (tibia) as the target",
+            "Hamstrings at back of thigh"
           ],
           "trap": [
-            "Harmless squeeze, crank harder"
+            "Ankle and foot joints"
           ]
         }
       },
@@ -384,14 +384,14 @@
         "question": "When should you abandon the calf slicer attempt and return to standard Russian Cowboy control?",
         "answer": "Abandon the attempt if the opponent successfully straightens their leg fully before you can establish the fulcrum, as forcing the position from there risks losing back control entirely. Also abort if you lose chest-to-back contact during the transition, because without upper body control the opponent can turn to face you and recover guard. Reset if the opponent creates a strong frame against your hip that prevents the hip extension needed to finish. In each case, return to seatbelt control and re-establish the hook before attempting again or transitioning to a different attack like the choke or truck entry.",
         "safety_critical": false,
-        "answer_line": "Leg straightens or back is lost",
+        "answer_line": "Once they fully straighten the leg",
         "distractors": {
           "plausible": [
-            "They turn their head to look",
-            "They grab your other ankle"
+            "Right after you set the hook",
+            "Once your fulcrum is locked in"
           ],
           "trap": [
-            "Crank through their frame anyway"
+            "Let go up top to chase the leg"
           ]
         }
       },

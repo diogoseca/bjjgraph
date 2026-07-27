@@ -334,14 +334,14 @@
         "question": "What indicates the choke is properly compressing the carotid arteries rather than crushing the trachea?",
         "answer": "A properly applied blood choke causes the opponent's face to flush red or purple within seconds, their movements become sluggish, and they may not feel immediate sharp pain. An airway choke, by contrast, causes coughing, gagging, and immediate sharp pain in the throat. If the opponent is making choking or gagging sounds, the wrists are too centered on the trachea rather than positioned on the carotid triangles on either side of the neck. Adjust wrist angle laterally to correct.",
         "safety_critical": true,
-        "answer_line": "Red face, no gagging sounds",
+        "answer_line": "Face flushes red, no sharp pain",
         "distractors": {
           "plausible": [
-            "Coughing means it's working",
-            "Sharp throat pain and gagging"
+            "Wrists press the center windpipe",
+            "Feel the pulse stop under wrist"
           ],
           "trap": [
-            "Crank wrists into the windpipe"
+            "Loud gagging means it's working"
           ]
         }
       },

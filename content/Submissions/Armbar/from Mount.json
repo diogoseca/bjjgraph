@@ -661,14 +661,14 @@
         "question": "Your attacker has both legs over you but your hands are still clasped - what is your escape sequence?",
         "answer": "With hands clasped and both legs over, execute this sequence: (1) Keep your arms bent and hands locked together - this is your primary defense preventing extension; (2) Begin turning your entire body toward the trapped arm side, driving your shoulder toward the mat; (3) As you turn, start walking your feet toward the attacker's head to create stacking pressure; (4) Drive forward aggressively to collapse their hip extension by stacking your weight onto them; (5) As their hips flatten, extract your elbow by continuing the turn and pulling your arm to your chest; (6) Immediately recover to closed guard or establish top position. The entire sequence requires maintaining the hand clasp until your arm is free.",
         "safety_critical": false,
-        "answer_line": "Lock hands, turn and stack them",
+        "answer_line": "Stack forward, turn to trapped arm",
         "distractors": {
           "plausible": [
-            "Bridge away and flatten out",
-            "Kick legs to build momentum"
+            "Bridge toward your free arm",
+            "Rip elbow out, then stack"
           ],
           "trap": [
-            "Unclasp to pull the arm free"
+            "Unclasp hands and posture up"
           ]
         }
       },

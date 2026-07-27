@@ -363,14 +363,14 @@
         "question": "How should you release the Darce Choke after your training partner taps?",
         "answer": "Release by first unclamping your hands to break the figure-four grip structure, then removing shoulder pressure from the neck. Extract your choking arm slowly—do not yank it out, as sudden removal can jerk the cervical spine. Allow your partner to recover in a seated or supine position. Monitor them for 30 seconds for signs of dizziness, disorientation, or delayed effects. If unconsciousness occurred at any point, keep their airway clear and seek medical evaluation even if they appear to recover quickly.",
         "safety_critical": true,
-        "answer_line": "Break the figure-four grip first",
+        "answer_line": "Unclamp grip, ease arm out slowly",
         "distractors": {
           "plausible": [
-            "Peel the shoulder off first",
-            "Walk away once they tap"
+            "Peel shoulder off before the hands",
+            "Sit them up, skip the 30s watch"
           ],
           "trap": [
-            "Squeeze a beat past the tap"
+            "Yank the choking arm straight out"
           ]
         }
       },
@@ -546,14 +546,14 @@
         "question": "When should you tap to the Darce Choke to ensure safety in training?",
         "answer": "Tap immediately when you feel bilateral carotid compression with no active escape in progress. Specifically, if the attacker has completed the hip drop, locked the figure-four, and begun body extension while your arm remains trapped and you have no frame established, tap without hesitation. Blood chokes can cause unconsciousness in 4-6 seconds from full lock. In training, tap early and tap often—there is no training benefit to losing consciousness, and the positional learning comes from the escape attempts, not from enduring the finish.",
         "safety_critical": true,
-        "answer_line": "Once locked with no frame left",
+        "answer_line": "Tap at full lock with no frame",
         "distractors": {
           "plausible": [
-            "As soon as your arm gets trapped",
-            "Only in competition, not drilling"
+            "Tap as arms wrap the neck",
+            "Escape first, tap only if stuck"
           ],
           "trap": [
-            "Wait until vision starts to gray"
+            "Wait until you feel light-headed"
           ]
         }
       },

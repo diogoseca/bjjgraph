@@ -844,14 +844,14 @@
         "question": "What are the earliest recognition cues that a Kimura from north-south is being set up, and what is your immediate response?",
         "answer": "The earliest cues are: the attacker's hand sliding underneath your forearm to reach for your wrist, a weight shift to one side as they begin threading their arm over yours, and any adjustment of their hips to a more perpendicular angle. Your immediate response at the first cue is to pull your elbow tight to your ribs and turn your forearm inward, denying the wrist control they need to establish the figure-four. Simultaneously, begin fighting their grip hand with your free hand to strip any wrist control before it consolidates. This early intervention is your highest-percentage defensive window—each subsequent stage of the Kimura setup reduces your defensive options dramatically.",
         "safety_critical": false,
-        "answer_line": "Hand slides under: pin elbow tight",
+        "answer_line": "Elbow to ribs, deny wrist control",
         "distractors": {
           "plausible": [
-            "Watch their hips before reacting",
-            "Grab their far lapel first"
+            "Fight the grip with both hands",
+            "React once the figure-four locks"
           ],
           "trap": [
-            "Straighten the arm onto the mat"
+            "Post on the trapped arm to sit up"
           ]
         }
       },

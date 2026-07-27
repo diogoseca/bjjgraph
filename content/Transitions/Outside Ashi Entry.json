@@ -340,14 +340,14 @@
       {
         "question": "What should be your immediate priority if the opponent steps over with their free leg during your entry?",
         "answer": "Immediately abandon the outside ashi entry as the technique is no longer viable once they successfully step over. Your options include switching to inside ashi entry (if the positioning allows), transitioning to guard pull or guard recovery, or attempting single leg X-guard entry if they've created vertical distance. Forcing the outside entry after they've stepped over typically results in giving up top position or being passed. Recognition and abandonment of failed entries is a crucial skill in leg lock systems.",
-        "answer_line": "Abandon entry, don't force it",
+        "answer_line": "Abandon the outside ashi entry",
         "distractors": {
           "plausible": [
-            "Pull them into closed guard",
-            "Crank the ankle immediately"
+            "Kick their free leg back down",
+            "Cross ankles to trap the leg"
           ],
           "trap": [
-            "Force outside entry, give back"
+            "Muscle the outside ashi to finish"
           ]
         }
       },

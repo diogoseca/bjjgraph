@@ -569,14 +569,14 @@
         "question": "Why is it dangerous to attempt explosive spinning escapes when caught in a heel hook?",
         "answer": "Explosive spinning or rolling creates rotation through the trapped leg that the attacker can follow and amplify with their existing grip. Rather than escaping the heel hook, the spinning motion accelerates the finishing mechanics by adding your own rotational force to the attacker's. This can cause the knee ligaments to tear before you feel pain or have time to tap. Rotational escapes should only be attempted when the attacker's grip and leg control are clearly compromised, and even then should be performed with controlled speed.",
         "safety_critical": true,
-        "answer_line": "Your own spin feeds the finish",
+        "answer_line": "Feeds the finish your own force",
         "distractors": {
           "plausible": [
-            "It just puts your back down",
-            "It gives up your top position"
+            "It lets them switch to a toe hold",
+            "Only risky if you spin the wrong way"
           ],
           "trap": [
-            "Safe if you spin faster than them"
+            "You can spin out before it locks"
           ]
         }
       }

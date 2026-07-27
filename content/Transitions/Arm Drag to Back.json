@@ -537,14 +537,14 @@
       {
         "question": "How does the whizzer counter work against the arm drag, and what is its primary risk?",
         "answer": "The whizzer establishes an overhook connection on the dragged arm that physically blocks the attacker's rotational path around your body. By driving your hip into theirs and clamping down with the overhook, you create a fixed point that prevents them from circling to your back. The primary risk is that a high or lazy whizzer without accompanying hip pressure can be exploited through a duck under, where the attacker dives beneath your whizzer arm to access back control from the opposite side. The whizzer must be accompanied by aggressive hip-to-hip contact and shoulder pressure to be effective.",
-        "answer_line": "Overhook plus hip-to-hip pressure",
+        "answer_line": "Overhook blocks their circle to back",
         "distractors": {
           "plausible": [
-            "Underhook that arm instead",
-            "Grab the head and pull down"
+            "Grip the wrist, pull arm free",
+            "Frame free hand on their hip"
           ],
           "trap": [
-            "Lazy high whizzer, back taken"
+            "Turn belly-down to escape"
           ]
         }
       },

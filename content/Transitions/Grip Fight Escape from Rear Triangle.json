@@ -262,14 +262,14 @@
       {
         "question": "What conditions must exist before you can effectively begin the grip fight escape?",
         "answer": "You need at least one free hand with functional grip strength available to fight the triangle lock. Your chin must be tucked to chest with face turned toward the non-choking leg to prevent the choke from finishing while you work. You must be able to identify the ankle-knee connection point by feel. If both hands are trapped or the choke is already producing tunnel vision, the grip fight is not viable and you should either tap or attempt an explosive positional escape instead.",
-        "answer_line": "Free hand, chin tucked, feel ankle",
+        "answer_line": "One free hand to fight the lock",
         "distractors": {
           "plausible": [
-            "Posture up before anything else",
-            "Wait until the squeeze loosens"
+            "Both arms loose to pry it open",
+            "Wait for their squeeze to ease"
           ],
           "trap": [
-            "Turn chin toward the choking leg"
+            "Turn your head into the choking leg"
           ]
         }
       },

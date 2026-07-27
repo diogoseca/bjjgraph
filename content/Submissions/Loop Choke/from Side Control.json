@@ -589,14 +589,14 @@
         "question": "When should you tap to the loop choke from side control rather than continue attempting to escape?",
         "answer": "You should tap immediately when you feel bilateral carotid compression with both grips established in the loop configuration and the attacker's sprawl committed to the finish. Once the horizontal sprawl tension is applied with proper grip depth and diagonal vectors, unconsciousness can occur within 8-12 seconds. There is no safe escape window once the choke is fully applied with correct mechanics from side control. The sprawl-based finish creates stretching tension that only increases as you resist. In training, always err on the side of tapping early—the cost of resetting is negligible compared to the risk of losing consciousness.",
         "safety_critical": true,
-        "answer_line": "Tap once both grips lock in",
+        "answer_line": "Both carotids sealed, tap at once",
         "distractors": {
           "plausible": [
-            "As soon as any collar grip lands",
-            "Tap only if you can't breathe"
+            "Bridge and shrimp out first",
+            "Wait for the sprawl to loosen"
           ],
           "trap": [
-            "Ride it out until you feel faint"
+            "Hold on until you nearly pass out"
           ]
         }
       },

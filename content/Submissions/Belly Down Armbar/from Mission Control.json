@@ -544,14 +544,14 @@
         "question": "Why is the grip transition from head control to wrist control the most important defensive window?",
         "answer": "When the attacker releases head control to grab your wrist, Mission Control's structure is at its weakest moment. Without head control pulling your posture down, you have a brief window to drive your posture up and potentially break free of the high guard entirely. This is the only phase where you can attack the root cause of the submission threat - the Mission Control position itself - rather than defending the armbar symptoms. Every defense after this point is progressively harder.",
         "safety_critical": false,
-        "answer_line": "Only window to break the high guard",
+        "answer_line": "Posture up — break the high guard",
         "distractors": {
           "plausible": [
-            "Their wrist grip is at its tightest",
-            "Your posture is already broken then"
+            "Grip-fight to stop the wrist grab",
+            "Tuck your elbow to your ribs"
           ],
           "trap": [
-            "Save defense for the armbar phase"
+            "Rip your trapped arm straight out"
           ]
         }
       },

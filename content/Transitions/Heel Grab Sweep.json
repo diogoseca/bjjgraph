@@ -327,14 +327,14 @@
       {
         "question": "Your opponent posts their hand behind them as you execute the sweep - what adjustment do you make?",
         "answer": "Redirect the sweep direction toward their posted hand rather than continuing to sweep them straight backward. Their posted arm becomes a fixed pivot point, and sweeping them toward that side overloads the post and forces them to either collapse on their arm or remove it. Alternatively, attack the posted arm directly with a Kimura grip entry since their hand is planted on the mat and their weight is committed, making the arm vulnerable to being isolated.",
-        "answer_line": "Redirect sweep toward posted hand",
+        "answer_line": "Sweep toward their posted hand",
         "distractors": {
           "plausible": [
-            "Sweep away from the posted arm",
-            "Armbar the posted arm"
+            "Keep sweeping straight backward",
+            "Sweep away from the posted arm"
           ],
           "trap": [
-            "Keep pushing back, they come on top"
+            "Turn belly-down to disengage"
           ]
         }
       },

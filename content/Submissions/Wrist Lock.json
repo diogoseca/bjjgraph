@@ -340,14 +340,14 @@
         "question": "Why should you pin the opponent's palm to a solid base before applying the lock?",
         "answer": "Pinning the palm flat against your sternum, hip, or the mat stops the hand from retracting and gives you a stable platform to fold against, so your body weight rather than finger strength loads the wrist.",
         "safety_critical": false,
-        "answer_line": "Stops the hand pulling free",
+        "answer_line": "Pin it, then fold with bodyweight",
         "distractors": {
           "plausible": [
-            "Adds power to your finger grip",
-            "Blocks their free-hand grip"
+            "Crank harder with your fingers",
+            "Block the free hand first"
           ],
           "trap": [
-            "Yank the loose hand hard"
+            "Two-hand it, give up your base"
           ]
         }
       },
@@ -551,14 +551,14 @@
         "question": "What is the single most reliable way to escape a wrist lock once your hand is trapped?",
         "answer": "Bend your elbow and retract the whole arm toward your body. The wrist lock dies when the elbow bends, because your forearm then follows your hand and the joint unloads instead of reaching end range.",
         "safety_critical": false,
-        "answer_line": "Bend the elbow and reel it in",
+        "answer_line": "Bend elbow, draw arm to body",
         "distractors": {
           "plausible": [
-            "Straighten and push them away",
-            "Grab your own belt and hold"
+            "Rotate the wrist free first",
+            "Straighten the arm to unload it"
           ],
           "trap": [
-            "Rip the hand out with force"
+            "Rip the hand straight out fast"
           ]
         }
       },

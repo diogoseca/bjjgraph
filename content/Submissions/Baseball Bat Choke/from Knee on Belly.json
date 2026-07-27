@@ -383,14 +383,14 @@
         "question": "Your opponent tucks their chin to prevent the collar from tightening — how do you address this common defense?",
         "answer": "A tucked chin is a passive defense that does not address the knee pressure. Maintain heavy KOB pressure while incrementally working the far-side grip deeper using small wrist rotations to feed the collar behind the neck. The chin tuck becomes unsustainable because the opponent must eventually use their hands to address the diaphragm compression, creating openings. You can also use your posting hand to gently redirect the chin upward before inserting the grip. Never force past the chin with aggressive pulling, which risks neck injury.",
         "safety_critical": false,
-        "answer_line": "Keep pressure, work grip deeper",
+        "answer_line": "Keep knee pressure, feed grip in",
         "distractors": {
           "plausible": [
-            "Abandon the choke, switch to mount",
-            "Lighten the knee to free the hand"
+            "Lighten knee to free your hands",
+            "Grip the near-side collar instead"
           ],
           "trap": [
-            "Crank the neck to pry the chin up"
+            "Lean over to reach the far collar"
           ]
         }
       },

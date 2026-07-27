@@ -374,14 +374,14 @@
         "question": "What are the key safety considerations when applying the inverted triangle from triangle control in training?",
         "answer": "The inverted triangle must be applied with extremely slow progression—minimum 5-7 seconds from setup to full pressure. Blood chokes can produce unconsciousness within 8-12 seconds of full compression, and the inverted angle can catch the opponent by surprise, meaning they may not recognize the danger quickly enough to tap. Always ensure your training partner can tap with at least one hand, watch for signs of loss of consciousness including going limp or unusual sounds, and release immediately upon any tap signal. Never jerk or spike into the position, and never apply competition-level pressure during training.",
         "safety_critical": true,
-        "answer_line": "Slow entry, keep a hand free to tap",
+        "answer_line": "Apply slowly, release on any tap",
         "distractors": {
           "plausible": [
-            "Trust their reflexes to save them",
-            "Warn them only after it is locked"
+            "Reach full pressure in 2-3 seconds",
+            "Loosen gradually after they tap"
           ],
           "trap": [
-            "Hold the choke through the tap"
+            "Spike in fast to catch the surprise"
           ]
         }
       },
@@ -621,14 +621,14 @@
         "question": "What should you do if the inverted triangle is fully locked and you cannot escape?",
         "answer": "If the inverted figure-four is fully locked with the arm secured across your throat and the attacker has proper angle, you should tap immediately. Attempting to fight through a fully locked inverted triangle risks unconsciousness, which occurs within 8-12 seconds of bilateral carotid compression. In training, there is never a valid reason to risk consciousness loss. In competition, the same applies unless you are executing a specific, pre-drilled escape technique with immediate results—but even then, the margin for error is extremely small with blood chokes.",
         "safety_critical": true,
-        "answer_line": "Tap right away and reset",
+        "answer_line": "Tap immediately",
         "distractors": {
           "plausible": [
-            "Turn your head to ease it",
-            "Grab their belt and stall"
+            "Free the trapped arm first",
+            "Posture up to relieve pressure"
           ],
           "trap": [
-            "Fight it until the arm frees"
+            "Hold breath and wait it out"
           ]
         }
       }

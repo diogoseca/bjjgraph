@@ -472,14 +472,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Trembling means damage started",
-            "Verbal complaints are the signal"
+            "Grinding is just muscle fatigue",
+            "Sudden give means tap incoming"
           ],
           "trap": [
-            "Crank on through a felt pop"
+            "Crank harder past the pop"
           ]
         },
-        "answer_line": "Steady fade vs pops or sudden give"
+        "answer_line": "Steady tension safe; pops = stop"
       },
       {
         "question": "When using the Kimura from guard in competition, what timing and pressure considerations differ from training application?",

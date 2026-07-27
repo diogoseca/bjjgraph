@@ -375,14 +375,14 @@
         "question": "At what point during the belly down armbar sequence does the opponent pass the point of no escape?",
         "answer": "The point of no escape occurs once the attacker has completed the full prone rotation with both knees squeezed around the upper arm and hips positioned directly over the elbow. Before this point, the defender can extract the arm during the rotation window. After this point, the mechanical advantage of the belly-down position is too great to overcome through strength alone—the defender must tap or risk joint damage. This makes the transition itself the decisive phase of the technique.",
         "safety_critical": false,
-        "answer_line": "Knees pinch, hips over elbow",
+        "answer_line": "Hips over elbow, rotation complete",
         "distractors": {
           "plausible": [
-            "Step-over foot touches mat",
-            "Their clasped grip breaks"
+            "When the arm first gets isolated",
+            "As the attacker starts turning over"
           ],
           "trap": [
-            "Keep resisting until pain hits"
+            "Only when your grip is broken"
           ]
         }
       },

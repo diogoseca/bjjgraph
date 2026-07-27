@@ -412,14 +412,14 @@
         "question": "What safety precautions must you observe when applying the standing guillotine in training, and why is it particularly dangerous compared to ground-based guillotines?",
         "answer": "The standing position amplifies forces on the cervical spine because the opponent's body weight hangs from the neck without ground support distributing the load. Apply pressure slowly and progressively—never explosively crank or jerk the neck. Be especially careful about lateral twisting forces which can damage cervical discs. Release immediately upon any tap signal, including verbal taps that may be difficult to hear during the choke. If the opponent goes limp, release instantly and lower them safely to the ground. In training, give your partner time to tap before reaching maximum pressure, and avoid holding the choke at full force on unconscious partners. The standing guillotine's neck crank potential makes it one of the submissions requiring the most control and responsibility from the attacker.",
         "safety_critical": true,
-        "answer_line": "Apply slow, release on any tap",
+        "answer_line": "Apply slowly, release on any tap",
         "distractors": {
           "plausible": [
-            "Finish fast to limit neck time",
-            "Standing is safer than ground"
+            "Ignore verbal taps, wait for hands",
+            "Twist the neck sideways to finish"
           ],
           "trap": [
-            "Hold pressure after they go limp"
+            "Hold pressure once they go limp"
           ]
         }
       },
@@ -590,11 +590,11 @@
         "question": "Why is driving forward a more effective escape than pulling straight back from a standing guillotine?",
         "answer": "Pulling backward moves your neck directly across the choking forearm, actually increasing pressure on the carotids and tightening the choke. It also shifts your weight behind your center of gravity, compromising your base. Driving forward collapses the attacker's structure, eliminates the hip fulcrum they need for finishing pressure, and moves you toward side control where the guillotine becomes nearly impossible to maintain. The forward drive changes the angle of force from perpendicular to the neck (choking) to parallel with the body (passing), fundamentally altering the submission mechanics in the defender's favor.",
         "safety_critical": false,
-        "answer_line": "Forward collapses their structure",
+        "answer_line": "Drive in, collapse their base",
         "distractors": {
           "plausible": [
-            "Forward frees your trapped arm",
-            "Forward makes space at the neck"
+            "Peel the choking wrist first",
+            "Turn your chin to the elbow"
           ],
           "trap": [
             "Pull straight back to slip out"

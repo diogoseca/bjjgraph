@@ -347,14 +347,14 @@
         "question": "At what point during the choke sequence does the opponent reach the point of no escape?",
         "answer": "The point of no escape occurs when both grips are established deep past the midline, the elbows are pulled tight against the opponent's chest, and the attacker's forehead is driving down beside the opponent's head eliminating all space. At this stage, the opponent cannot insert their hands between the arms and their neck, cannot bridge effectively due to the forward weight distribution, and the collar is loaded with enough tension that any movement tightens the choke further. The only remaining option is to tap.",
         "safety_critical": false,
-        "answer_line": "Deep grips, elbows tight, head down",
+        "answer_line": "Grips deep, elbows in, forehead down",
         "distractors": {
           "plausible": [
-            "Both grips in, arms still loose",
-            "One grip deep, forehead down"
+            "As soon as both grips are set",
+            "Elbows flare wide to add force"
           ],
           "trap": [
-            "Only once they go limp"
+            "Sit up and crank for extra squeeze"
           ]
         }
       },

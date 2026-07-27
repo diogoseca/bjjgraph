@@ -545,14 +545,14 @@
       {
         "question": "At what point should you abandon escape attempts and tap to the kneebar?",
         "answer": "Tap when the attacker has their hips directly across your knee crease, their legs clamped tightly around your isolated leg preventing knee bending, and they begin bridging or extending their hips. At this point, the mechanical advantage is overwhelmingly in their favor and continued resistance risks catastrophic knee ligament injury. Additional signals include sharp pain in the knee, inability to bend your knee despite maximum effort, and the sensation of your knee being pushed past its natural extension range. Tap early and decisively—no match or training round is worth a knee reconstruction.",
-        "answer_line": "Hips set, clamp tight, bridging",
+        "answer_line": "Hips on knee crease, then extending",
         "distractors": {
           "plausible": [
-            "When they first isolate the leg",
-            "Only after sharp pain hits"
+            "As soon as they isolate the leg",
+            "When they twist your foot"
           ],
           "trap": [
-            "Muscle through the ligament pain"
+            "Hold out until the pain spikes"
           ]
         }
       }

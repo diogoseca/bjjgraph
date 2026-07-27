@@ -342,14 +342,14 @@
         "question": "What is the correct fulcrum placement for maximum compression with minimal effort?",
         "answer": "The shin bone must sit precisely in the popliteal fossa — the soft tissue crease directly behind the knee joint. Placement too high on the hamstring or too low on the calf muscle reduces mechanical advantage significantly, requiring much more force to generate a tap. The hard bone of the shin against this vulnerable area creates the highest compression-to-effort ratio. Practice finding this landmark by feel during drilling until placement becomes automatic.",
         "safety_critical": false,
-        "answer_line": "Shin bone in the popliteal fossa",
+        "answer_line": "Shin in the crease behind the knee",
         "distractors": {
           "plausible": [
-            "High on the hamstring belly",
-            "Low on the meaty calf"
+            "Shin high on the hamstring",
+            "Shin low on the calf muscle"
           ],
           "trap": [
-            "On the ankle — leg slips free"
+            "Muscle it with an arm squeeze"
           ]
         }
       },

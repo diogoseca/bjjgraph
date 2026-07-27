@@ -432,14 +432,14 @@
         "question": "What anatomical structure does the far side armbar attack, and at what angle does maximum breaking pressure occur?",
         "answer": "The far side armbar attacks the elbow joint by hyperextending it beyond its natural range of motion. The elbow is a hinge joint designed to bend in one direction only, and maximum breaking pressure occurs when the arm is fully straightened with the elbow pit facing upward toward your hips. The fulcrum point is created by your hip bones pressing against the back of the opponent's elbow while you control the wrist and apply downward pressure, creating leverage that the joint cannot resist.",
         "safety_critical": false,
-        "answer_line": "Elbow, arm fully extended",
+        "answer_line": "Elbow joint, arm straight, pit up",
         "distractors": {
           "plausible": [
-            "Shoulder, at a 90-degree bend",
-            "Wrist, with hand rotated"
+            "Shoulder joint, arm twisted back",
+            "Elbow, at a right-angle bend"
           ],
           "trap": [
-            "Crank a bent arm and get stacked"
+            "Elbow, with thumb turned downward"
           ]
         }
       },

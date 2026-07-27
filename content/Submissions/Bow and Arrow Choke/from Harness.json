@@ -392,11 +392,11 @@
         "question": "What are the key safety considerations when applying the Bow and Arrow Choke, and how quickly can unconsciousness occur?",
         "answer": "The Bow and Arrow is a blood choke that can cause unconsciousness within 5-10 seconds of full application. Apply pressure slowly and progressively over 3-5 seconds minimum to allow the opponent time to recognize the danger and tap. Never jerk or spike the extension. Watch for loss of resistance, which indicates the opponent may be losing consciousness — release immediately even without a tap signal. In training, always apply at controlled speed and release instantly on any tap signal. If a partner goes unconscious, release all pressure, elevate their legs, and monitor breathing until they recover.",
         "safety_critical": true,
-        "answer_line": "Build pressure over 3-5 seconds",
+        "answer_line": "Unconscious in 5-10s; apply slowly",
         "distractors": {
           "plausible": [
-            "Speed matters more than control",
-            "Stop only if they say stop"
+            "Hold until a clear tap signal",
+            "Elevate legs before releasing"
           ],
           "trap": [
             "Jerk into full extension"
@@ -437,14 +437,14 @@
         "question": "In competition, how do you set up the Bow and Arrow when opponents are specifically defending collar access?",
         "answer": "Use systematic misdirection: aggressively threaten the rear naked choke by bringing the choking arm across the neck. When the opponent commits both hands to defending the choking arm, their collar is undefended — release the seatbelt and feed the collar immediately. Alternatively, threaten an armbar by extending their defending arm, which forces them to pull the arm back and re-prioritize arm defense over collar defense. The key competition strategy is never attacking the collar as your first option; use it as the second or third layer in a back attack chain where each previous threat creates the opening for the collar grip.",
         "safety_critical": false,
-        "answer_line": "Threaten RNC, then feed collar",
+        "answer_line": "Threaten RNC first to open collar",
         "distractors": {
           "plausible": [
-            "Wait for them to tire out",
-            "Swap to body triangle and stall"
+            "Grab the collar as your first move",
+            "Cross-feed the far-side collar grip"
           ],
           "trap": [
-            "Release both hooks to reach collar"
+            "Release the hooks to free the collar"
           ]
         }
       },

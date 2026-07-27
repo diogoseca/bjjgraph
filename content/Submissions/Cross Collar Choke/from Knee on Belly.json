@@ -289,11 +289,11 @@
         "answer_line": "Both carotid arteries",
         "distractors": {
           "plausible": [
-            "Airway and windpipe",
-            "One side of the neck only"
+            "The windpipe, an air choke",
+            "Jugular veins draining blood"
           ],
           "trap": [
-            "Crank the throat until they tap"
+            "The cervical spine, a neck crank"
           ]
         }
       },
@@ -569,14 +569,14 @@
         "question": "When should you tap to the cross collar choke from knee on belly rather than continuing to fight?",
         "answer": "Tap immediately when you feel bilateral carotid compression and cannot strip either grip or create space. Signs that the choke is locked include tunnel vision, a rushing sensation in your ears, or lightheadedness. Do not wait for unconsciousness—tap early and tap clearly using a physical hand tap on the attacker's body, a verbal signal, or a foot tap on the mat. Tapping early in training preserves your health and allows you to drill the defensive sequence again. There is no benefit to going unconscious in practice.",
         "safety_critical": true,
-        "answer_line": "Tap at first tunnel vision",
+        "answer_line": "When it's locked and escape fails",
         "distractors": {
           "plausible": [
-            "Only once you can't breathe",
-            "After two failed hip escapes"
+            "Only after you feel lightheaded",
+            "Strip both grips before you tap"
           ],
           "trap": [
-            "Ride it out and hope they gas"
+            "Wait until you nearly black out"
           ]
         }
       },

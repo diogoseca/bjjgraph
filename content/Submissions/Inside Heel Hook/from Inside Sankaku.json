@@ -311,14 +311,14 @@
         "question": "What specific anatomical structures does the Inside Sankaku heel hook attack and why is this submission considered so dangerous?",
         "answer": "The inside heel hook primarily attacks the medial collateral ligament (MCL) and anterior cruciate ligament (ACL) of the knee through rotational force applied via the heel. It also threatens the meniscus through combined rotational compression. This submission is exceptionally dangerous because these ligaments provide virtually no pain feedback before catastrophic failure - unlike joint locks that produce progressive pain, the knee can transition from feeling minimal pressure to suffering a complete ligament tear in less than one second.",
         "safety_critical": true,
-        "answer_line": "MCL/ACL torn with no pain warning",
+        "answer_line": "Tears knee ligaments, no warning",
         "distractors": {
           "plausible": [
-            "Meniscus is the primary target",
-            "Bones break before ligaments"
+            "Twists the ankle joint apart",
+            "Stretches the Achilles tendon"
           ],
           "trap": [
-            "Wait for pain, then tap"
+            "Wait for pain before tapping"
           ]
         }
       },
@@ -639,14 +639,14 @@
         "question": "Why is attempting to pass the knee line by turning into the opponent the worst defensive mistake from Inside Sankaku?",
         "answer": "Turning into the opponent to pass the knee line is catastrophic because it brings your second leg into the entanglement, transitioning you directly into the Saddle position where both legs are trapped. The Saddle provides the opponent with even greater control, eliminates most of your remaining escape options, and often exposes your heel more completely than the original Inside Sankaku. This mistake essentially helps the opponent advance to a stronger position while you burn energy on a movement that worsens your situation. All escape movement should be directed away from the opponent to create distance.",
         "safety_critical": false,
-        "answer_line": "It advances them into Saddle",
+        "answer_line": "Feeds second leg into the Saddle",
         "distractors": {
           "plausible": [
-            "It only wastes some energy",
-            "It just slows your escape"
+            "Frees the knee line to pass",
+            "Straightens leg out of the lock"
           ],
           "trap": [
-            "It safely clears the knee line"
+            "Safe once you clear the knee"
           ]
         }
       }

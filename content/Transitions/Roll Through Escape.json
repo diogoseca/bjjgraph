@@ -238,14 +238,14 @@
       {
         "question": "Why must you roll with the twist rather than against it?",
         "answer": "Rolling against the twist increases spinal torque and accelerates the submission, potentially causing injury. Rolling with the twist converts opponent's rotational pressure into escape momentum, using their own force to break free from the control position.",
-        "answer_line": "Converts their torque into escape",
+        "answer_line": "Turns their force into escape",
         "distractors": {
           "plausible": [
-            "Bridge straight up to unload it",
-            "Freeze and wait for a mistake"
+            "Buys time to defend the lock",
+            "Frees the trapped ankle first"
           ],
           "trap": [
-            "Crank back against the rotation"
+            "Against it unwinds it faster"
           ]
         }
       },

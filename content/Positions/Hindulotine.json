@@ -901,14 +901,14 @@
     {
       "question": "Why is the opponent's broken-forward posture a shared structural invariant of this position?",
       "answer": "With the head trapped lower than the shoulders and the spine curved, the opponent cannot stack their skeleton into vertical alignment to defend, so the choke and the crank both stay live. Vertical posture is the single fastest relief valve for any front-headlock choke because it lets the defender straighten the neck and drive the head out. As long as the head stays below shoulder line the grip mechanics and rotational torque remain effective for the attacker. The instant posture is regained the position degrades toward a neutral front headlock or scramble.",
-      "answer_line": "Head below shoulders kills defense",
+      "answer_line": "Bent spine can't align to defend",
       "distractors": {
         "plausible": [
-          "It just tires their neck out",
-          "It mainly blocks their vision"
+          "It pins both shoulders down",
+          "It caves the chest to cut air"
         ],
         "trap": [
-          "Let them posture up, keep squeezing"
+          "Grip still holds if they posture"
         ]
       }
     },

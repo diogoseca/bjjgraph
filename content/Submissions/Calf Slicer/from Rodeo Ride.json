@@ -392,14 +392,14 @@
         "question": "How should you adjust your grip and body position if the opponent begins to straighten their trapped leg during the finishing sequence?",
         "answer": "If the leg begins to straighten, immediately increase downward pressure on the foot by pulling it more aggressively toward their glute, using both hands if necessary. Simultaneously, tighten the figure-four by squeezing your knees together and driving your hips lower toward the mat to reduce the space available for leg extension. If the foot is slipping from your grip, switch to an armpit trap by tucking their foot under your armpit and clamping your elbow down. If the leg continues to straighten despite these adjustments, the submission is lost—release the figure-four and immediately transition back to rodeo ride or turtle top control before the opponent can capitalize.",
         "safety_critical": false,
-        "answer_line": "Tighten figure-four, pull foot in",
+        "answer_line": "Pull foot harder toward the glute",
         "distractors": {
           "plausible": [
-            "Let leg straighten, then reset",
-            "Switch grips to a cross-face"
+            "Drive your hips higher off the mat",
+            "Spread your knees to free the ankle"
           ],
           "trap": [
-            "Sit up and lose chest connection"
+            "Roll belly-down to chase the foot"
           ]
         }
       },

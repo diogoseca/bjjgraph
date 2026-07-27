@@ -607,14 +607,14 @@
         "question": "Why is turning away from the attacker a dangerous defensive response to the Ezekiel from side control?",
         "answer": "Turning away from the attacker exposes your back, which is an even more dominant position for the opponent. They can abandon the Ezekiel attempt and immediately transition to back control by inserting hooks, establishing a seatbelt grip, or even finishing the choke from the back position where it becomes harder to defend. If you must turn, always turn toward the attacker to close the choking angle and fight for an underhook, which gives you a constructive escape path rather than a positional disaster.",
         "safety_critical": false,
-        "answer_line": "Exposes your back to attack",
+        "answer_line": "Exposes your back for a back-take",
         "distractors": {
           "plausible": [
-            "Loosens their crossface control",
-            "Creates space to hip escape"
+            "Feeds your arm into an armbar",
+            "Lets them mount and flatten you"
           ],
           "trap": [
-            "It relieves neck pressure safely"
+            "It's the fastest escape route"
           ]
         }
       }

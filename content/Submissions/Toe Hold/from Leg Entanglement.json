@@ -408,14 +408,14 @@
         "question": "How should you properly release the toe hold after your training partner taps?",
         "answer": "Upon feeling or hearing the tap, immediately stop all rotational pressure. Then gradually unwind the rotation by turning your torso back to neutral, allowing the ankle to return to its natural position under controlled deceleration rather than snapping back. Only after the rotation is fully unwound should you release the figure-four grip. Finally, release your leg entanglement hooks. Abruptly dropping the grip while rotation is still loaded can cause rebound injury as the elastic tension in the stretched ligaments snaps the foot back. Check with your partner before resuming training.",
         "safety_critical": true,
-        "answer_line": "Unwind the twist, then release",
+        "answer_line": "Stop turning, then unwind slowly",
         "distractors": {
           "plausible": [
-            "Stand up before letting go",
-            "Wait for a verbal all-clear"
+            "Free your legs first, then the grip",
+            "Check with partner, then let go"
           ],
           "trap": [
-            "Rip the grip off instantly"
+            "Rip the grip off the instant of tap"
           ]
         }
       },

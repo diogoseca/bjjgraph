@@ -327,14 +327,14 @@
         "question": "Your opponent maintains a tight elbows-to-knees turtle and refuses to post — what technique creates the arm isolation needed for the belly down armbar?",
         "answer": "Use the elbow peel technique: maintain heavy chest pressure on their upper back with one hand while using your other hand to grip their elbow and physically pry it away from their knee. Drive your peeling hand upward and outward to create separation, then immediately secure two-on-one wrist control on the exposed arm before they can re-tuck. The chest pressure prevents them from rotating or standing during the peel, creating the necessary window for arm isolation.",
         "safety_critical": false,
-        "answer_line": "Peel elbow, secure two-on-one grip",
+        "answer_line": "Peel the elbow off the knee",
         "distractors": {
           "plausible": [
-            "Yank the wrist to free the arm",
-            "Flatten them out, then grip"
+            "Grab the wrist before peeling",
+            "Drive the peel hand down and in"
           ],
           "trap": [
-            "Release chest pressure to peel"
+            "Spin for the armbar right away"
           ]
         }
       },
@@ -572,14 +572,14 @@
         "question": "How should you tap to the belly down armbar from turtle, and why is early tapping especially important for this submission?",
         "answer": "Tap verbally by clearly saying 'tap' and simultaneously tap physically with your free hand on the attacker's body or the mat. Tap early — as soon as you feel the arm straightening against your resistance and the pressure is clearly overwhelming your defense. Early tapping is especially critical for the belly-down armbar because the prone position generates force through body weight and gravity simultaneously, meaning the breaking point arrives much faster than with standard armbar positions. The attacker may not fully perceive how much force they are generating, making partner communication essential.",
         "safety_critical": true,
-        "answer_line": "Tap early, voice and hand",
+        "answer_line": "Verbal + hand tap, early",
         "distractors": {
           "plausible": [
-            "Tap with the trapped arm's fingers",
-            "Wait for the coach to call stop"
+            "Slap the mat, stay silent",
+            "Signal late, once it locks"
           ],
           "trap": [
-            "Roll into it to spin free"
+            "Roll forward to free the arm"
           ]
         }
       },

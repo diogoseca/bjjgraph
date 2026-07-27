@@ -323,14 +323,14 @@
         "question": "What specific anatomical structures does the Americana from Shoulder of Justice attack?",
         "answer": "The Americana attacks the glenohumeral joint through forced external rotation of the humerus with the elbow pinned as a fulcrum. The primary structures under stress are the rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), the shoulder capsule and labrum, and the AC joint. The figure-four grip creates a lever that forces the humerus into external rotation beyond its safe range of motion, stressing these structures progressively until the opponent taps or injury occurs.",
         "safety_critical": false,
-        "answer_line": "Rotator cuff via shoulder rotation",
+        "answer_line": "Shoulder: forced external rotation",
         "distractors": {
           "plausible": [
-            "Elbow joint hyperextension",
-            "Wrist and forearm tendons"
+            "Elbow joint, like an armbar",
+            "Wrist joint via hyperflexion"
           ],
           "trap": [
-            "The neck — crank it for the tap"
+            "Internal rotation (a Kimura)"
           ]
         }
       },

@@ -356,14 +356,14 @@
         "question": "How should you adjust your grip if the defender's arm is slippery from sweat in no-gi?",
         "answer": "In no-gi conditions, secure the figure-four grip deeper on the wrist rather than the forearm to maximize contact surface area. Use a palm-to-palm or gable grip variation where standard wrist-on-wrist control is insufficient. Additionally, increase chest pressure to compensate for reduced grip friction, and consider trapping their wrist against your own chest or hip to create a secondary friction point that prevents the arm from sliding free.",
         "safety_critical": false,
-        "answer_line": "Deeper wrist grip, more pressure",
+        "answer_line": "Sink figure-four deeper on wrist",
         "distractors": {
           "plausible": [
-            "Hold the forearm instead",
-            "Rush the finish"
+            "Break off and reset the grip",
+            "Clamp higher on the forearm"
           ],
           "trap": [
-            "Ease off to reposition"
+            "Crank the finish before control"
           ]
         }
       },

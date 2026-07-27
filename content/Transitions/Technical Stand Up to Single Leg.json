@@ -549,14 +549,14 @@
       {
         "question": "Your opponent has secured a single leg grip and is driving forward - what is your priority sequence for defense?",
         "answer": "First priority is to whizzer the attacking arm by threading your arm over their shoulder and clamping your overhook tight against your ribs, which stops forward progress. Second, circle your hips away from them toward the whizzer side to create an angle that breaks their driving line. Third, use your free hand to crossface or push their head down to break their posture. Fourth, either disengage completely by kicking your trapped leg free, or counter-attack with a go-behind to take their back while they are committed to the single leg grip.",
-        "answer_line": "Whizzer, circle hips, crossface",
+        "answer_line": "Whizzer the attacking arm",
         "distractors": {
           "plausible": [
-            "Push their head down first",
-            "Hop back on the free leg"
+            "Kick trapped leg free first",
+            "Circle hips toward their drive"
           ],
           "trap": [
-            "Turn your back and scramble out"
+            "Turn your back to spin away"
           ]
         }
       },

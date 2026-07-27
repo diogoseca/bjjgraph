@@ -333,14 +333,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Sweating heavily on its own",
-            "Opponent stops talking to you"
+            "Grip fighting gets stronger",
+            "Breathing slows and steadies"
           ],
           "trap": [
-            "Keep squeezing after they fade"
+            "Opponent postures and pulls arm out"
           ]
         },
-        "answer_line": "Purple face, limpness, gurgling"
+        "answer_line": "Face reddens then turns purple"
       },
       {
         "question": "What control must be established before attempting the arm-in guillotine finish from front headlock?",
@@ -577,14 +577,14 @@
         "question": "When should you tap to the arm-in guillotine to prevent injury?",
         "answer": "Tap immediately when you feel bilateral compression on both carotid arteries with no viable escape path available. Warning signs requiring immediate tap include darkening vision, ringing ears, a feeling of lightheadedness, or the sensation that the choke is fully locked with no remaining space to relieve pressure. In training, there is no benefit to waiting until the last second—the arm-in guillotine can produce unconsciousness in under 5 seconds. Tap early and learn from the position rather than risking a blackout.",
         "safety_critical": true,
-        "answer_line": "Both arteries sealed, no escape",
+        "answer_line": "Tap at carotid squeeze, no escape",
         "distractors": {
           "plausible": [
-            "Tap only if your shoulder hurts",
-            "Wait until the ref stops it"
+            "Tap only when it becomes painful",
+            "Wait for vision to darken first"
           ],
           "trap": [
-            "Ride it out and rip your head free"
+            "Rip your head free to escape"
           ]
         }
       },

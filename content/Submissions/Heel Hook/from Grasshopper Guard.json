@@ -402,11 +402,11 @@
         "answer_line": "Stored torque still tears ligaments",
         "distractors": {
           "plausible": [
-            "It keeps the calf from cramping",
-            "It preserves your grip for re-entry"
+            "Restores circulation to the foot",
+            "Lets the ref confirm the tap"
           ],
           "trap": [
-            "The tap alone makes it safe to yank"
+            "Unwrap the legs all at once"
           ]
         }
       },
@@ -429,14 +429,14 @@
         "question": "Your opponent begins rotating their body in the direction of your heel hook torque - how do you respond?",
         "answer": "If the opponent rotates with your torque, they are nullifying the rotational differential needed for the submission. Follow their rotation by adjusting your own body angle to maintain the relative twist between their knee and foot. If they continue rotating successfully, transition to a kneebar or switch to the opposite leg rather than forcing additional torque against a rotating opponent, which wastes energy without progress.",
         "safety_critical": false,
-        "answer_line": "Match angle or switch attack",
+        "answer_line": "Follow their spin, keep the twist",
         "distractors": {
           "plausible": [
-            "Wait for them to stop rotating",
-            "Grab their belt to stop the spin"
+            "Immediately bail to a kneebar",
+            "Switch legs before adjusting"
           ],
           "trap": [
-            "Crank through as they spin free"
+            "Release to scramble for the back"
           ]
         }
       },

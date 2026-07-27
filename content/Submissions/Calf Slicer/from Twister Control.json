@@ -324,14 +324,14 @@
         "question": "What are the critical safety protocols when applying the calf slicer from twister control in training?",
         "answer": "Apply compression over five to seven seconds minimum without spiking or jerking the pressure. Maintain constant awareness that the entangled twister position may prevent your partner from physically tapping with their hands, so respond immediately to verbal taps or any vocalization of distress. Release by removing shin pressure first, then unwind the leg entanglement slowly and controlledly to avoid secondary injury during the release phase.",
         "safety_critical": true,
-        "answer_line": "Slow compression, honor verbal tap",
+        "answer_line": "Compress slowly over 5-7 seconds",
         "distractors": {
           "plausible": [
-            "Wait for a visible hand tap",
-            "Exit quickly once they tap"
+            "Unwind leg first, then ease shin",
+            "Wait for the hand-slap signal"
           ],
           "trap": [
-            "Spike pressure to force the tap"
+            "Spike the pressure for fast finish"
           ]
         }
       },

@@ -417,14 +417,14 @@
         "question": "In competition, what strategic adjustments maximize your finishing probability from mounted triangle?",
         "answer": "In competition, establish the mounted triangle early when the defender's energy is lower from fighting through your mount progression. Use the points advantage (4 for mount) to pressure them into risky escape attempts that tighten the triangle. Apply the choke in short bursts with re-adjustments between rather than one long squeeze that drains your legs for subsequent rounds. If the choke is not finishing, transition rapidly to armbar — referees may restart from standing if the position stalls. Keep one hand posted during finishing to prevent any last-resort sweep attempts.",
         "safety_critical": false,
-        "answer_line": "Short bursts, then hit the armbar",
+        "answer_line": "Burst the choke; armbar if stalled",
         "distractors": {
           "plausible": [
-            "One long unbroken squeeze",
-            "Stall the whole round in the lock"
+            "Give up mount to secure the choke",
+            "Set it up late to save energy"
           ],
           "trap": [
-            "Both hands off the mat to crank"
+            "Grip with both hands, posture up"
           ]
         }
       },

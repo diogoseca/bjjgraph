@@ -342,14 +342,14 @@
         "question": "Why must you apply kneebar pressure progressively over 5-7 seconds in training rather than explosively?",
         "answer": "Explosive application of the kneebar can cause immediate catastrophic knee injury including PCL tears, MCL ruptures, and meniscus damage before your training partner has time to recognize the danger and tap. The knee joint is extremely vulnerable to hyperextension, and unlike many other submissions, there is minimal safe zone between no pressure and injury threshold. Progressive application over 5-7 seconds allows your partner to feel the increasing danger and tap safely, preventing serious injuries that require surgery and months of recovery. This is especially critical from leg entanglement where the control is already established and finishing pressure can be applied very quickly.",
         "safety_critical": true,
-        "answer_line": "Slow lets them feel and react",
+        "answer_line": "Give partner time to tap safely",
         "distractors": {
           "plausible": [
-            "Any pace is safe if controlled",
-            "Only the tap matters, not speed"
+            "Protect your own knee and hip",
+            "Keep tight control of the leg"
           ],
           "trap": [
-            "Snap it on fast and hard"
+            "Speed makes them tap sooner"
           ]
         }
       },
@@ -642,14 +642,14 @@
         "question": "What is the earliest recognition cue that your opponent is transitioning from a heel hook or ankle lock to a kneebar within the leg entanglement?",
         "answer": "The earliest cue is feeling the attacker release their grip configuration on your foot or heel and begin pulling your entire lower leg toward their chest while their hips start pivoting perpendicular to your trapped leg. You will simultaneously feel their inside leg transitioning from the ashi garami hook behind your knee to threading across the front of your thigh. Your immediate response must be to aggressively bend your knee and grab your own shin with both hands before the figure-four leg triangle can be established. Acting in this 1-2 second transition window gives you the highest probability of preventing the kneebar from developing.",
         "safety_critical": false,
-        "answer_line": "Feel your leg yanked to their chest",
+        "answer_line": "Leg pulled to chest, hips pivot",
         "distractors": {
           "plausible": [
-            "They squeeze your foot harder",
-            "Their hips settle back flat"
+            "Heel rotated harder to the side",
+            "Inside hook digs deeper at knee"
           ],
           "trap": [
-            "Stall until the lock is tight"
+            "Grip clamps tighter on your foot"
           ]
         }
       },

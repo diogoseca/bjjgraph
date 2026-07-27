@@ -607,14 +607,14 @@
         "question": "Why should you turn toward the attacker rather than away when defending the Arm Crush?",
         "answer": "Turning toward the attacker closes the angle between your shoulder and their chest, which directly reduces the crushing pressure vector. The Arm Crush relies on your shoulder being compressed between the attacker's chest weight and your own ribcage at approximately a 45-degree angle. By turning into them, you flatten this angle and reduce the mechanical advantage of the submission. Turning away actually increases the rotational torque component because it stretches your shoulder further from its neutral position while the grip holds it in place.",
         "safety_critical": false,
-        "answer_line": "Turn in, closes crushing angle",
+        "answer_line": "Closes the shoulder-chest angle",
         "distractors": {
           "plausible": [
-            "Bridge straight up hard",
-            "Shove their head away"
+            "Creates room to slide arm out",
+            "Relieves the elbow joint first"
           ],
           "trap": [
-            "Roll to your other shoulder"
+            "Turn away to free your shoulder"
           ]
         }
       },

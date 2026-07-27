@@ -586,14 +586,14 @@
         "question": "What is the safest way to tap to a heel hook from 50-50 Guard?",
         "answer": "Tap verbally by saying 'tap' clearly and loudly as the primary signal, since your hands may be occupied fighting grips. Simultaneously tap physically with your free hand on the opponent or the mat with multiple rapid taps. If verbal and hand taps are not possible, tap with your free foot. Tap early before feeling significant rotational pressure since knee ligament damage occurs without adequate pain warning. Never try to tough through a heel hook.",
         "safety_critical": true,
-        "answer_line": "Shout tap, slap, or kick the mat",
+        "answer_line": "Yell 'tap' + free-hand tap early",
         "distractors": {
           "plausible": [
-            "Wait until the pressure peaks",
-            "Signal by shaking your head"
+            "Slap the mat once, stay silent",
+            "Signal with free foot first"
           ],
           "trap": [
-            "Muscle the heel free instead"
+            "Wait for pain, then tap"
           ]
         }
       },

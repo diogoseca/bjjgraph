@@ -587,14 +587,14 @@
         "question": "What defensive options are available at each stage of the Kimura from High Mount?",
         "answer": "Before wrist capture: keep elbows tight and hands near chin to prevent isolation. During wrist capture: straighten the arm explosively or immediately clasp your hands together. After figure-four is secured: grip fight to break the connection or bridge toward the Kimura side. During rotation: tap if you cannot stop the movement. Each stage offers progressively fewer options, which is why early recognition and immediate response are the foundation of effective Kimura defense.",
         "safety_critical": false,
-        "answer_line": "Elbows tight, then straighten arm",
+        "answer_line": "Options shrink; tap when it rotates",
         "distractors": {
           "plausible": [
-            "Bridge hard the whole time",
-            "Roll away from the trapped arm"
+            "Same escapes work at any stage",
+            "Clasp hands after it's locked"
           ],
           "trap": [
-            "Post that hand on the mat"
+            "Turn to your knees to escape"
           ]
         }
       },

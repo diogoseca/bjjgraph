@@ -603,14 +603,14 @@
         "question": "Your opponent has started threading their arm under your chin — what immediate defensive action should you take?",
         "answer": "Immediately tuck your chin tightly to your chest and use both hands to create a barrier preventing the forearm from seating under your jaw. Grip your own head or interlock your fingers behind your neck to create a chin-protection shell. Simultaneously, begin working your trapped leg free since the opponent's focus on the chin strap creates a window to address the leg entanglement. Do not rely on chin defense alone as it is a temporary measure.",
         "safety_critical": false,
-        "answer_line": "Tuck chin, shell with both hands",
+        "answer_line": "Tuck chin, hand barrier, free leg",
         "distractors": {
           "plausible": [
-            "Push their arm away",
-            "Turn head sharply away"
+            "Chin tuck and wait it out",
+            "Pry the arm out with both hands"
           ],
           "trap": [
-            "Ignore legs, chin defense only"
+            "Turn away to escape the choke"
           ]
         }
       },

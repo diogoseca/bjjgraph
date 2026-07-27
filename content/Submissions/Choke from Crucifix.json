@@ -319,14 +319,14 @@
         "question": "What are the tap signals that require immediate release when applying this choke?",
         "answer": "All of the following require immediate release: verbal tap or any vocalization, physical hand tap on your body or the mat, physical foot tap on the mat, any distress signal or body convulsion, and loss of resistance or the opponent going limp. Additionally, if your training partner stops moving or their resistance suddenly ceases, release immediately and check their consciousness. In training, when in doubt about whether they tapped, release and ask. Partner safety is infinitely more important than finishing the submission.",
         "safety_critical": true,
-        "answer_line": "Any tap, sound, or limpness",
+        "answer_line": "Any tap or distress—release now",
         "distractors": {
           "plausible": [
-            "Hand contact is the only signal",
-            "A slap on the mat doesn't count"
+            "Wait for a second tap to confirm",
+            "Only a hand tap counts as a tap"
           ],
           "trap": [
-            "Keep squeezing if they go limp"
+            "Hold until they go fully limp"
           ]
         }
       },
@@ -424,14 +424,14 @@
         "question": "How do you recognize when your opponent has reached the point of no escape in this choke?",
         "answer": "The point of no escape occurs when: (1) Both arms remain fully trapped with no possibility of freeing either hand, (2) Your choking arm is seated deep under the chin with bicep and forearm positioned on both carotids, (3) Your grip structure is locked (bicep grip for RNC, collar grip for short choke), (4) Your body position is consolidated with chest tight to their back and hips driving forward. At this point, even minimal additional squeeze will produce the tap. The opponent's only remaining option is to tap - any attempt to escape requires either arm freedom or the ability to turn, both of which are eliminated by proper crucifix control.",
         "safety_critical": false,
-        "answer_line": "Arms trapped, choke seated deep",
+        "answer_line": "Can't free a hand or turn away",
         "distractors": {
           "plausible": [
-            "Both hooks are in tight",
-            "You can out-squeeze their defense"
+            "One arm is trapped and controlled",
+            "Forearm crushes across the windpipe"
           ],
           "trap": [
-            "Release to re-grip deeper"
+            "They stop moving, ease the squeeze"
           ]
         }
       },
@@ -625,14 +625,14 @@
         "question": "What should you do if you feel the choke beginning to take effect with dimming vision or lightheadedness?",
         "answer": "If you feel the choke taking effect - indicated by dimming vision, tunnel vision, warmth spreading through your face, or lightheadedness - you must tap immediately. Do not attempt to tough it out or wait for an escape opportunity. Blood chokes can produce unconsciousness within 4-8 seconds of full bilateral carotid compression. The window between feeling the effects and losing consciousness is extremely narrow and unreliable. Tap using whatever method is available: verbal tap, foot tap on mat, or any vocalization. Continuing to resist at this point risks unconsciousness and potential injury. In training, there is zero shame in tapping to a properly applied choke from crucifix.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, don't wait",
+        "answer_line": "Tap immediately",
         "distractors": {
           "plausible": [
-            "Signal only once vision goes black",
-            "Shake your head to show trouble"
+            "Exhale to ease the pressure",
+            "Wait for the ref to stop it"
           ],
           "trap": [
-            "Hold on hoping they gas out"
+            "Tough it out and find the escape"
           ]
         }
       },

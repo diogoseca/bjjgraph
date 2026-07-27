@@ -572,14 +572,14 @@
         "question": "What is the safest way to tap when caught in a fully locked belly down armbar?",
         "answer": "Tap immediately using multiple signals simultaneously: verbal tap saying 'tap' clearly, physical hand tap on the attacker's body or the mat with your free hand, and foot tap on the mat with either leg. Use all available signals because the prone position may muffle verbal taps and limit the attacker's ability to feel hand taps. Do not wait to see if you can escape first - the belly down position creates extreme leverage that can cause serious elbow damage within 1-2 seconds of extension pressure beginning. Tapping early preserves your training longevity.",
         "safety_critical": true,
-        "answer_line": "Use voice, hand, and foot at once",
+        "answer_line": "Tap instantly, all signals at once",
         "distractors": {
           "plausible": [
-            "Loud verbal tap only",
-            "Single hand tap on the mat"
+            "Shout tap and hold still",
+            "Wait to feel pain, then tap"
           ],
           "trap": [
-            "Ride it out and hunt an escape"
+            "Bridge and roll to escape first"
           ]
         }
       },

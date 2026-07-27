@@ -425,14 +425,14 @@
         "question": "How should you release the Kimura from Overhook Control after a tap to prevent injury?",
         "answer": "Immediately stop all rotational pressure the instant you detect any tap signal. Slowly and deliberately reverse the rotation, guiding their arm back toward neutral position with controlled movement. Release the figure-four grip completely once the arm is returned to a safe angle. Do not release suddenly or allow the arm to spring back, as the sudden position change can cause secondary injury to an already stressed joint. Allow your partner time to self-assess shoulder mobility before resuming training.",
         "safety_critical": true,
-        "answer_line": "Unwind rotation, then let go",
+        "answer_line": "Guide arm back, then release grip",
         "distractors": {
           "plausible": [
-            "Drop the grip the instant they tap",
-            "Hold the lock until they speak"
+            "Open the grip, then move the arm",
+            "Resume rolling once you let go"
           ],
           "trap": [
-            "Fling their arm loose at the tap"
+            "Let go fast so the arm springs back"
           ]
         }
       }

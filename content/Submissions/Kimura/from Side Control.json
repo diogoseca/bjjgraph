@@ -415,14 +415,14 @@
         "question": "Why should you never elevate the opponent's elbow beyond 90 degrees from their body during the Kimura finish?",
         "answer": "Elevating beyond 90 degrees creates extreme stress on the shoulder capsule and significantly increases the risk of shoulder dislocation, especially in opponents with limited flexibility or previous shoulder injuries. The submission is designed to finish through the combination of moderate elevation (around 90 degrees) and rotation. Excessive elevation can cause injury before the opponent feels sufficient pain to tap, as the shoulder can dislocate suddenly without warning. Safe application focuses on rotational pressure with controlled elevation.",
         "safety_critical": true,
-        "answer_line": "Risks shoulder dislocation",
+        "answer_line": "Shoulder dislocates before the tap",
         "distractors": {
           "plausible": [
-            "It just wastes energy",
-            "It breaks your figure-four grip"
+            "It kills your rotational torque",
+            "Your figure-four grip breaks"
           ],
           "trap": [
-            "Elevate hard for a fast tap"
+            "They spin free and take your back"
           ]
         }
       },

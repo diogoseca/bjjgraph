@@ -432,14 +432,14 @@
         "question": "What common finishing error reduces the effectiveness of the shin pressure, and how do you correct it?",
         "answer": "The most common finishing error is placing the soft calf muscle across the throat instead of the hard shin bone. The calf provides much less pressure due to its cushioning effect, allowing opponents to endure and potentially escape. To correct this, focus on rotating your leg so the blade of the shin (the sharp front edge of the tibia) sits directly across the trachea. Your foot should be positioned behind their head or over their opposite shoulder - if the foot is alongside their face, your calf is likely on the throat instead of your shin. You can verify correct placement by feeling the hard bone contact against their neck. Additionally, pulling your toes toward your knee engages the proper muscle structure and rotates the shin into optimal position.",
         "safety_critical": false,
-        "answer_line": "Soft calf on throat, not shin",
+        "answer_line": "Cut shin blade across the throat",
         "distractors": {
           "plausible": [
-            "Head pulled at the wrong angle",
-            "Hips not elevated enough"
+            "Turn their head to the side",
+            "Lift your hips to add pressure"
           ],
           "trap": [
-            "Straighten the leg for more reach"
+            "Straighten the leg to crank harder"
           ]
         }
       },

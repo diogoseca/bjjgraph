@@ -493,14 +493,14 @@
         "question": "What makes the flying kneebar particularly dangerous compared to ground-based kneebar entries, and how does this affect training protocols?",
         "answer": "The flying kneebar is more dangerous because: (1) the dynamic entry creates momentum that can translate to sudden, uncontrolled pressure on landing, (2) both practitioners are moving which makes precise hip positioning more difficult, (3) failed entries can result in awkward landings causing injury to both parties, (4) the surprise element means opponents may not recognize the submission in time to tap early, and (5) adrenaline from the athletic movement can mask the attacker's sense of how much pressure they're applying. Training protocols must therefore include: mandatory crash pad progression, zero-resistance drilling for 8-12 weeks, explicit consent requirements, and restriction to brown belt or higher for live application.",
         "safety_critical": true,
-        "answer_line": "Momentum masks pressure control",
+        "answer_line": "Momentum → uncontrolled pressure",
         "distractors": {
           "plausible": [
-            "Harder to finish, not more risky",
-            "Danger is only to the attacker"
+            "Surprise makes them tap early",
+            "Adrenaline sharpens your awareness"
           ],
           "trap": [
-            "Drill it live without crash pads"
+            "Drill it live, skip crash pads"
           ]
         }
       },

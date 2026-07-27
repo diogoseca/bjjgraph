@@ -306,14 +306,14 @@
       {
         "question": "What is the first priority when you find yourself caught in Carni position?",
         "answer": "The first priority is protecting your heel by controlling your ankle position and keeping your toes pointed away from the attacker. This prevents the immediate heel hook finish while giving you time to work on extraction. If you focus on leg extraction before securing your ankle, you risk catastrophic knee injury during your escape attempt.",
-        "answer_line": "Point toes away, hide heel",
+        "answer_line": "Hide your heel, toes pointed away",
         "distractors": {
           "plausible": [
-            "Extract leg before anything else",
-            "Grip their ankle with both hands"
+            "Attack their leg to counter",
+            "Bridge and scramble out"
           ],
           "trap": [
-            "Yank the leg straight out"
+            "Kick your leg free immediately"
           ]
         }
       },

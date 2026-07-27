@@ -958,14 +958,14 @@
     {
       "question": "What are the natural entry pathways into Ashi Garami and why do they cluster around hook-based guards?",
       "answer": "Ashi Garami is most commonly reached from hook-based guards such as Single Leg X-Guard, De La Riva, Reverse De La Riva, K-Guard, and X-Guard, because those positions already establish a leg hook and partial control of the opponent's leg. Since the defining feature of the entanglement is isolating a leg between one's own, a guard that already hooks and elevates a leg only needs to complete the trap and secure the inside space to arrive at Outside Ashi. These pathways also share the leg-drag and inside-hook mechanics that let a player transition without surrendering connection to the target leg. This is why the leg-lock game is tightly coupled to modern hook guards rather than to classical closed or half guard.",
-      "answer_line": "From hook guards like DLR, X-guard",
+      "answer_line": "From hook guards: SLX, DLR, K, X",
       "distractors": {
         "plausible": [
-          "From closed guard sweeps",
-          "From mount after you pass"
+          "From closed guard, break posture",
+          "From half guard, get the underhook"
         ],
         "trap": [
-          "Dive at the legs with no control"
+          "Grab the ankle and turn away"
         ]
       }
     }

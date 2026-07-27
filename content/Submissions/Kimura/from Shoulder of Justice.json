@@ -345,14 +345,14 @@
         "question": "At what point during Shoulder of Justice pressure does the kimura opportunity typically present itself?",
         "answer": "The kimura opportunity presents when the opponent extends their near arm to push away your shoulder from their jaw. This arm extension is an instinctive pain-relief response to the intense pressure on their temporomandibular joint. The window is narrow—typically 1-2 seconds before they realize the exposure and retract. Maintaining heavy, consistent jaw pressure increases the probability and frequency of this reaction.",
         "safety_critical": false,
-        "answer_line": "Near arm extends from jaw pain",
+        "answer_line": "When they reach to push you off",
         "distractors": {
           "plausible": [
-            "They reach for your collar",
-            "They flatten and go quiet"
+            "When they tuck the near elbow in",
+            "When they turn away to escape"
           ],
           "trap": [
-            "Wait for them to fully relax"
+            "When they underhook to reverse you"
           ]
         }
       },

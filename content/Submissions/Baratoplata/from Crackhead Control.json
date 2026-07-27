@@ -306,14 +306,14 @@
         "question": "What anatomical structures does the Baratoplata from Crackhead Control primarily attack?",
         "answer": "The baratoplata primarily attacks the shoulder joint through forced internal rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the glenohumeral ligaments. The figure-four configuration creates rotational torque that stresses the shoulder capsule and can cause tears to the labrum or rotator cuff tendons when applied with force. The compound nature of the leg-assisted leverage makes it particularly dangerous because the force generation exceeds what arm-only shoulder locks produce.",
         "safety_critical": false,
-        "answer_line": "Shoulder via internal rotation",
+        "answer_line": "Shoulder joint via internal rotation",
         "distractors": {
           "plausible": [
             "Shoulder via external rotation",
-            "Elbow joint hyperextension"
+            "Shoulder via abduction leverage"
           ],
           "trap": [
-            "Crank the neck to force a tap"
+            "Elbow crank, armbar-style"
           ]
         }
       },

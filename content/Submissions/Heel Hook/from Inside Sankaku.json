@@ -339,14 +339,14 @@
         "question": "Your opponent begins pumping their hips backward to create extraction distance - what adjustment prevents their escape?",
         "answer": "Immediately drive your hips forward following their movement while using your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing extraction of the trapped leg. The key is anticipating the backward movement and matching it with forward hip pressure so the gap never opens enough for extraction. Your legs must stay tight in the figure-four throughout this adjustment.",
         "safety_critical": false,
-        "answer_line": "Drive hips forward, chase distance",
+        "answer_line": "Drive hips forward, close the gap",
         "distractors": {
           "plausible": [
-            "Squeeze knees and stay still",
-            "Pull ankle toward your chest"
+            "Crank the lock harder to finish",
+            "Hold still and wait them out"
           ],
           "trap": [
-            "Open legs to reposition"
+            "Open figure-four to reposition"
           ]
         }
       },

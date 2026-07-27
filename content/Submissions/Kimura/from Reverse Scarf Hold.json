@@ -362,14 +362,14 @@
         "question": "How should you release the kimura after your training partner taps?",
         "answer": "Immediately stop all rotational pressure the instant the tap is detected. Slowly return the arm toward its neutral position by externally rotating it back to the starting position, never releasing it suddenly or allowing it to spring back. Release the figure-four grip completely once the arm is in a neutral position. Allow your partner to self-assess their shoulder mobility before continuing training. The release should be controlled and gradual to prevent injury from sudden position changes.",
         "safety_critical": true,
-        "answer_line": "Halt rotation, then unwind slowly",
+        "answer_line": "Stop turning, release it slowly",
         "distractors": {
           "plausible": [
-            "Let go of the wrist instantly",
-            "Keep pressure till they speak"
+            "Drop the grip all at once",
+            "Wait for a verbal tap too"
           ],
           "trap": [
-            "Let the arm spring back hard"
+            "Crank a bit more to be sure"
           ]
         }
       },

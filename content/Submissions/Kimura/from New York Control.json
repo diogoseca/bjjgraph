@@ -280,14 +280,14 @@
         "question": "What anatomical structures does the Kimura from New York Control primarily attack?",
         "answer": "The Kimura attacks the shoulder joint through forced internal rotation, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule and its ligaments, and the glenoid labrum. Secondary stress affects the bicep tendon where it attaches at the shoulder. The figure-four grip creates a long lever arm on the humerus that generates rotational torque exceeding the shoulder's structural tolerance.",
         "safety_critical": false,
-        "answer_line": "Rotator cuff, capsule, labrum",
+        "answer_line": "Shoulder joint via internal rotation",
         "distractors": {
           "plausible": [
-            "Elbow hyperextension damage",
-            "Bicep tendon is the main target"
+            "Rotator cuff via external rotation",
+            "Bicep tendon as the primary target"
           ],
           "trap": [
-            "Crank fast, ignore the tap"
+            "Elbow joint by hyperextension"
           ]
         }
       },
@@ -542,14 +542,14 @@
         "question": "What is the safest way to tap when caught in the Kimura from New York Control?",
         "answer": "Tap early and clearly before you feel sharp pain in the shoulder, as the transition from discomfort to injury happens rapidly with shoulder locks. Use your free hand to tap your opponent's body multiple times. If your free hand is trapped, tap with your feet on the mat or verbally say tap loudly. Any verbal distress sound should be treated as a tap. Do not attempt to tough out shoulder lock pressure, as the rotator cuff can tear before the pain becomes intolerable.",
         "safety_critical": true,
-        "answer_line": "Tap early, before sharp pain hits",
+        "answer_line": "Tap early and clearly",
         "distractors": {
           "plausible": [
             "Tap once quietly and hope they see",
-            "Shake your head to signal stop"
+            "Wait until it hurts, then tap"
           ],
           "trap": [
-            "Grip your own belt and hold on"
+            "Tough it out and spin free"
           ]
         }
       },

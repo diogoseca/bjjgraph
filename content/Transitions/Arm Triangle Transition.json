@@ -275,14 +275,14 @@
       {
         "question": "What grip configuration is used for the arm triangle and where exactly should your forearm be positioned?",
         "answer": "Use a figure-four grip (palm-to-bicep) or gable grip (palm-to-palm) with your choking arm threaded deep under the opponent's neck. The blade of your forearm must contact the far-side carotid artery, with your hand extending well past the centerline of their neck. The opponent's own trapped arm compresses the near-side carotid. Both arteries must be compressed simultaneously for a blood choke rather than a neck crank.",
-        "answer_line": "Figure-four, forearm on far carotid",
+        "answer_line": "Figure-four, blade on far carotid",
         "distractors": {
           "plausible": [
-            "Collar-and-sleeve, forearm on jaw",
-            "S-grip across their throat"
+            "S-grip, forearm on throat",
+            "Interlaced fingers, press the jaw"
           ],
           "trap": [
-            "Roll to your back to crank it"
+            "Post free hand on mat, squeeze"
           ]
         }
       },

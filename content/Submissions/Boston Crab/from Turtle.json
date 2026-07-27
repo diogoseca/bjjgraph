@@ -652,14 +652,14 @@
         "question": "Your attacker has secured both ankles and is mid-step-over - what is your best defensive response?",
         "answer": "During the step-over transition, the attacker's balance is most compromised because they have one leg off the ground while manipulating your legs. This is the optimal moment for an explosive roll to either side. Choose the side where the attacker's stepping leg has not yet landed. The roll disrupts their balance and can break their grip on at least one ankle. Combine the roll with aggressive kicking of your legs to break free. If the roll succeeds, immediately scramble to recover guard or re-establish turtle. If it fails, transition immediately to knee retraction as the backup defense before the sit-back begins.",
         "safety_critical": false,
-        "answer_line": "Roll toward the unlanded leg",
+        "answer_line": "Explosive roll to the open side",
         "distractors": {
           "plausible": [
-            "Sit back onto their base leg",
-            "Grab their belt and hold on"
+            "Roll toward the planted leg",
+            "Kick free before rolling out"
           ],
           "trap": [
-            "Bridge upward to block the step"
+            "Arch your back to bridge them off"
           ]
         }
       },

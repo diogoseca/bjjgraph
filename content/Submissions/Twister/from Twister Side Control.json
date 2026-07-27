@@ -518,11 +518,11 @@
         "question": "What is the safest way to tap to the Twister and when should you tap?",
         "answer": "Tap verbally as the primary signal since your hands may be trapped or restricted by the submission mechanics. Supplement with physical taps on the opponent's body or the mat with whichever hand is accessible. Tap immediately when you feel rotational pressure on the spine that you cannot structurally resist—do not wait to see if you can escape. The twister attacks the cervical and thoracic spine where injuries can be permanent, so the threshold for tapping should be much lower than for joint locks on the limbs.",
         "safety_critical": true,
-        "answer_line": "Tap verbally, don't wait to escape",
+        "answer_line": "Tap verbally, don't wait",
         "distractors": {
           "plausible": [
-            "Tap the mat only, with a free hand",
-            "Tap only after trying a bridge"
+            "Physical tap only, silent",
+            "Escape first, then tap"
           ],
           "trap": [
             "Power through the rotation"

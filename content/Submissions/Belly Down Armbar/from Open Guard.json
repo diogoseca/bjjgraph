@@ -279,14 +279,14 @@
         "question": "What anatomical structure does the belly down armbar finish primarily attack?",
         "answer": "The belly down armbar finish targets the elbow joint by hyperextending it beyond its natural range of motion. Specifically, it attacks the ulnar collateral ligament and the joint capsule of the elbow, applying pressure against the natural hinge direction. The belly-down position amplifies this force because hip bridge pressure acts directly against the posterior aspect of the extended elbow, creating substantial mechanical advantage.",
         "safety_critical": false,
-        "answer_line": "Elbow joint hyperextension",
+        "answer_line": "Elbow joint via hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder capsule rotation",
-            "Wrist and forearm compression"
+            "Shoulder joint capsule",
+            "Wrist and forearm tendons"
           ],
           "trap": [
-            "Neck — bridge into a crank"
+            "Cervical spine ligaments"
           ]
         }
       },

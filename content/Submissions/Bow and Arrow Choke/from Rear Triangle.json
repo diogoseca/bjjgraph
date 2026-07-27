@@ -338,14 +338,14 @@
         "question": "What is the most common finishing error and how does it reduce choke effectiveness?",
         "answer": "The most common error is feeding a shallow collar grip that catches the jawline rather than sitting deep on the carotid artery. This produces a jaw crank that causes pain but does not effectively restrict blood flow to the brain. Experienced competitors can endure jaw pressure and continue defending. The correction is to thread the fingers deep past the jaw and ensure the wrist blade contacts the lateral neck before committing to the extension finish.",
         "safety_critical": false,
-        "answer_line": "Collar grip catches only the jaw",
+        "answer_line": "Shallow grip on jaw, not carotid",
         "distractors": {
           "plausible": [
-            "Pants grip set too loose",
-            "Far leg never hooked"
+            "Not squeezing elbows hard enough",
+            "Hips not driving the finish"
           ],
           "trap": [
-            "Muscle the extension on the jaw"
+            "Release a hook to reach deeper"
           ]
         }
       },
@@ -368,14 +368,14 @@
         "question": "What are the critical safety considerations when applying this choke in training?",
         "answer": "Apply progressive pressure over 3-5 seconds minimum to allow adequate tap recognition time. Never jerk or spike the extension. Monitor training partner's responsiveness continuously since blood chokes can produce unconsciousness in seconds. Release immediately upon any tap signal including verbal, physical hand tap, foot tap, or loss of resistance. After release, check consciousness and allow recovery time. Beginners should drill grip placement without finishing pressure until they develop proper feel and control.",
         "safety_critical": true,
-        "answer_line": "Slow pressure, release on any tap",
+        "answer_line": "Apply slowly, release on any tap",
         "distractors": {
           "plausible": [
-            "Only a hand tap counts",
-            "Finish fast to limit neck strain"
+            "Check consciousness before applying",
+            "Ease pressure at five seconds"
           ],
           "trap": [
-            "Spike the extension for a fast tap"
+            "Spike the choke for a quick finish"
           ]
         }
       },

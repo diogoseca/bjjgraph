@@ -1031,14 +1031,14 @@
     {
       "question": "How does breaking the opponent's defensive knee posture relate to the finishing mechanics of the position?",
       "answer": "A bent knee cannot be hyperextended, so the controller must first straighten the leg before the lever can load the joint. The defender's core survival tactic is therefore keeping the knee bent and the hips rotated, denying the straight line the kneebar requires. Premature extension against a bent, defended knee wastes energy and invites counters, which is why the shared principle is to break posture and straighten the leg before committing. The battle over the knee's angle precedes any battle over the finish itself.",
-      "answer_line": "Straighten knee before finishing",
+      "answer_line": "Straighten the leg before finishing",
       "distractors": {
         "plausible": [
-          "Hip pressure alone finishes it",
-          "Grip harder to force extension"
+          "Rotate hips to keep knee bent",
+          "Load the lever, then extend the leg"
         ],
         "trap": [
-          "Extend against a bent, defended knee"
+          "Let go of the leg to reposition"
         ]
       }
     },

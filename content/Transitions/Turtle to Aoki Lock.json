@@ -276,14 +276,14 @@
       {
         "question": "How should you apply the shoulder pressure safely once you have settled into Aoki Lock control?",
         "answer": "Settle and consolidate the control first, then apply the rotational, omoplata-style shoulder pressure gradually over several seconds using a controlled hip rotation rather than an explosive crank. Watch your partner constantly for verbal or physical tap signals and release immediately on any tap. The shoulder joint is fragile and a sudden application can cause rotator cuff tears, labrum damage, or dislocation before the partner can react, so progressive pressure is mandatory.",
-        "answer_line": "Settle, then apply pressure slowly",
+        "answer_line": "Add pressure slowly, watch for taps",
         "distractors": {
           "plausible": [
-            "Apply pressure immediately",
-            "Push the shoulder downward"
+            "Just hold, apply no force",
+            "Push straight down on the joint"
           ],
           "trap": [
-            "Crank explosively for a fast tap"
+            "Crank explosively"
           ]
         }
       }

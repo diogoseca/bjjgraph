@@ -550,14 +550,14 @@
         "question": "What is the safest way to tap to the calf slicer from backside 50-50?",
         "answer": "Tap verbally first since your hands may be trapped in the leg entanglement. Simultaneously tap physically with your free hand on the opponent's body or the mat with multiple rapid taps. If both hands are trapped, use your free foot to tap the mat audibly. Do not wait to see if you can escape once meaningful compression is applied, as calf slicers cause tissue damage faster than joint locks with less warning sensation before injury occurs.",
         "safety_critical": true,
-        "answer_line": "Shout tap plus free-hand taps",
+        "answer_line": "Tap verbally, then free-hand taps",
         "distractors": {
           "plausible": [
-            "Tap once with a trapped hand",
-            "Squeeze their leg as a signal"
+            "Slap the mat first, then yell",
+            "Stomp free foot on the mat first"
           ],
           "trap": [
-            "Roll out to escape the pressure"
+            "Roll to escape, tap only if stuck"
           ]
         }
       },

@@ -246,14 +246,14 @@
       {
         "question": "What is the optimal timing window for initiating posture recovery from Williams Guard?",
         "answer": "The optimal timing window opens when you detect a momentary relaxation in the opponent's shoulder lock pressure—typically during their transition between offensive options or when they shift focus from shoulder lock maintenance to setting up a sweep or alternative submission. Initiating during their active shoulder lock tightening phase dramatically increases injury risk and sweep vulnerability. You can also create your own timing window through small movements that force the opponent to readjust their grip, exploiting the brief loosening during their re-establishment of control.",
-        "answer_line": "Move when lock pressure eases",
+        "answer_line": "When their lock pressure eases",
         "distractors": {
           "plausible": [
-            "Wait for a full release first",
-            "Go as they reset their grip"
+            "Once you've already been swept",
+            "The moment they grip your arm"
           ],
           "trap": [
-            "Force through peak lock tension"
+            "Turn away and stand up"
           ]
         }
       },

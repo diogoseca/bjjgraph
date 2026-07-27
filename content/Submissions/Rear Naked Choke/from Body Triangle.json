@@ -356,14 +356,14 @@
         "question": "What is the proper release protocol when your partner taps to this choke?",
         "answer": "Immediately release the choking arm upon any tap signal — verbal, physical hand tap, or foot tap. Then unlock and remove the body triangle entirely. Guide your partner to a side-lying recovery position and monitor their consciousness and breathing for at least 30 seconds. If they lost consciousness at any point, keep them lying down until fully alert and never allow them to stand immediately. Any delay in release risks unnecessary injury.",
         "safety_critical": true,
-        "answer_line": "Release, untriangle, monitor 30s",
+        "answer_line": "Release on tap, side-lying recovery",
         "distractors": {
           "plausible": [
-            "Wait for a verbal tap first",
-            "Leave the legs locked in place"
+            "Unlock the body triangle first",
+            "Roll them onto their back to rest"
           ],
           "trap": [
-            "Hold the choke until they go limp"
+            "Hold choke until they go limp"
           ]
         }
       },

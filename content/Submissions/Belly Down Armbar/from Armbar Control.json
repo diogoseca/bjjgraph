@@ -350,14 +350,14 @@
         "question": "What is the most common finishing error that reduces belly down armbar effectiveness?",
         "answer": "The most common error is landing with hips too far from the opponent's shoulder after the rotation. This displaces the fulcrum point from the elbow joint and forces the attacker to rely on arm strength rather than body weight for the finish. The correction is to actively scoot hips toward the shoulder during and after the rotation, ensuring the elbow sits directly in the hip crease with zero gap.",
         "safety_critical": false,
-        "answer_line": "Hips too far from shoulder",
+        "answer_line": "Hips too far from their shoulder",
         "distractors": {
           "plausible": [
-            "Head turned toward their legs",
-            "Feet crossed behind their back"
+            "Cranking the arm too early",
+            "Not pinching the knees together"
           ],
           "trap": [
-            "Open the knees to finish"
+            "Rolling belly-up to crank harder"
           ]
         }
       },
@@ -565,14 +565,14 @@
         "question": "When should you tap to the belly down armbar finish rather than continuing to defend?",
         "answer": "Tap immediately when the attacker has established the prone position with knees pinched and hips tight, and your arm begins to straighten against your resistance. The belly-down position amplifies force dramatically beyond the standard armbar, meaning the elbow reaches its structural limit much faster than you expect. If you feel your arm extending despite maximum defensive effort, tap before you feel a pop or sharp pain. There is no technical defense once the arm begins to straighten under prone body weight.",
         "safety_critical": true,
-        "answer_line": "Arm straightens despite resisting",
+        "answer_line": "When your arm starts to straighten",
         "distractors": {
           "plausible": [
-            "When their knees first pinch",
-            "Once you feel shoulder pressure"
+            "Once the arm is fully extended",
+            "After all escapes have failed"
           ],
           "trap": [
-            "Wait until you hear a pop"
+            "When you feel the elbow pop"
           ]
         }
       },

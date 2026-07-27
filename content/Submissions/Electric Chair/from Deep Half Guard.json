@@ -386,14 +386,14 @@
         "question": "How should you respond if a training partner taps to Electric Chair but you suspect they may have sustained a minor injury?",
         "answer": "Immediately cease all pressure and follow the complete release protocol: release lockdown first, control their leg during release to prevent sudden movement, gradually lower leg to neutral position, and maintain communication. After release, give partner extended time to assess their knee and hip before continuing. Ask if they need to take a break or if any area requires attention. Never pressure partner to continue training if they express discomfort. Document the incident if injury occurred and adjust training intensity for future sessions. Partner safety and long-term health always take priority over training continuity.",
         "safety_critical": true,
-        "answer_line": "Release slow, control leg, check in",
+        "answer_line": "Release slow, control the leg",
         "distractors": {
           "plausible": [
-            "Let go of the leg all at once",
-            "Say nothing and start a new roll"
+            "Talk it out first, then unlock",
+            "Reset and roll again quickly"
           ],
           "trap": [
-            "Hold pressure, tell them to go on"
+            "Let go all at once, drop leg"
           ]
         }
       },

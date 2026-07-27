@@ -577,14 +577,14 @@
         "question": "What defensive options are available against the Americana at different stages of the attack?",
         "answer": "In the early stage before the grip is secured, straighten your arm to deny the figure-four configuration or perform a hip escape to change your body angle. In the mid-stage after partial grip, connect your hands or grab your own clothing to resist the rotation. In the late stage with full rotation, your only option is tapping because fighting a locked Americana risks serious shoulder injury. The earlier you defend, the higher your success rate.",
         "safety_critical": false,
-        "answer_line": "Straighten early, tap when locked",
+        "answer_line": "Straighten arm before grip sets",
         "distractors": {
           "plausible": [
-            "Grip your own gi at every stage",
-            "Push their head away instead"
+            "Bend the arm to protect it",
+            "Bridge and buck to escape mount"
           ],
           "trap": [
-            "Muscle out after full rotation"
+            "Rip arm free at full rotation"
           ]
         }
       },

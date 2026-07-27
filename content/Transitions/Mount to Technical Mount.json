@@ -255,14 +255,14 @@
       {
         "question": "What is the primary trigger that signals the optimal moment to initiate the Mount to Technical Mount transition?",
         "answer": "The primary trigger is the opponent turning to their side or initiating a hip escape from mount. When the bottom player rotates their hips and shoulders away from you, this creates the angle and space necessary to post the far leg. Attempting the transition against a flat, centered opponent sacrifices mount stability without creating the angles needed for effective technical mount. The opponent's movement—whether voluntary escape or forced by your pressure—is what makes the transition mechanically sound.",
-        "answer_line": "They turn onto their side",
+        "answer_line": "Opponent turns in or hip-escapes",
         "distractors": {
           "plausible": [
-            "They frame on your near hip",
-            "They grip your collar and pull"
+            "When opponent lies flat and still",
+            "As soon as you pass to mount"
           ],
           "trap": [
-            "Force it while they lie flat"
+            "Sit upright to lift both knees"
           ]
         }
       },

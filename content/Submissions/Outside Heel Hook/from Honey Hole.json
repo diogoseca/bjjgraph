@@ -334,14 +334,14 @@
         "question": "What physical indicators tell you the outside heel hook is reaching the breaking point?",
         "answer": "You will feel progressive tightening as slack is eliminated, followed by resistance increasing sharply as the ligaments reach their tension limit. The opponent's body may involuntarily tense or twist. Any verbal distress, sharp intake of breath, frantic tapping, or sudden body rigidity means you must immediately release all rotational pressure without any delay. The LCL can fail with minimal warning compared to other ligaments.",
         "safety_critical": true,
-        "answer_line": "Sharp resistance spike, then tap",
+        "answer_line": "Progressive tightening, slack gone",
         "distractors": {
           "plausible": [
-            "Slow steady stretch, no spike",
-            "Opponent relaxes and goes limp"
+            "Sudden body twist comes first",
+            "Grip suddenly feels loose"
           ],
           "trap": [
-            "Wait for an audible pop"
+            "Wait for the knee to give out"
           ]
         }
       },

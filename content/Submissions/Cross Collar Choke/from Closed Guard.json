@@ -294,14 +294,14 @@
         "question": "What specific anatomical structures does the cross collar choke from closed guard target, and how does proper hand placement affect which structures are compressed?",
         "answer": "The cross collar choke targets the carotid arteries on both sides of the neck, restricting blood flow to the brain to induce unconsciousness. Proper hand placement positions the bony edge of each forearm directly over a carotid artery, creating bilateral compression through the scissoring action of crossed forearms. If hands are placed too centrally, the pressure shifts to the trachea, creating a painful but less effective air choke that is easier to endure and defend. The thumb-in and palm-up grip orientations align the forearm bones optimally against the arterial targets.",
         "safety_critical": false,
-        "answer_line": "Bony forearm edge on carotids",
+        "answer_line": "Both carotids via forearm bones",
         "distractors": {
           "plausible": [
-            "Thumbs deep with palms facing down",
-            "Grip low near the shoulder seam"
+            "Jugular veins, blood return",
+            "One carotid, dominant side"
           ],
           "trap": [
-            "Crank the blades into windpipe"
+            "Windpipe crush, central grip"
           ]
         }
       },

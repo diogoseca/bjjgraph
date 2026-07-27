@@ -406,14 +406,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "They protect the shoulder capsule",
-            "Pull the wrist overhead harder"
+            "Pull wrist away from your chest",
+            "Drop hips to finish faster"
           ],
           "trap": [
-            "Let the elbow spin free"
+            "Crank the arm as it rotates out"
           ]
         },
-        "answer_line": "Saving elbow ligaments: pinch knees"
+        "answer_line": "Squeeze knees to block rotation"
       },
       {
         "question": "What specific grip adjustment should you make when opponent begins to extract their arm during the finishing sequence?",

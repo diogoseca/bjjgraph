@@ -326,14 +326,14 @@
         "question": "What anatomical structure does the armbar attack, and what is the breaking mechanism?",
         "answer": "The armbar attacks the elbow joint, specifically hyperextending it beyond its natural range of motion. The humerus (upper arm bone) is fixed against your hips while the radius and ulna (forearm bones) are controlled at the wrist. Your hip elevation creates a fulcrum that forces the elbow joint open against its natural hinge direction, applying pressure to the ligaments and joint capsule until submission or injury occurs.",
         "safety_critical": true,
-        "answer_line": "Elbow hyperextension via hip fulcrum",
+        "answer_line": "Hyperextend the elbow joint",
         "distractors": {
           "plausible": [
-            "Shoulder rotation like a kimura",
-            "Biceps compression pain"
+            "Rotate the shoulder to break",
+            "Compress the biceps muscle"
           ],
           "trap": [
-            "Jerk it fast to beat their grip"
+            "Drop your hips to finish"
           ]
         }
       },

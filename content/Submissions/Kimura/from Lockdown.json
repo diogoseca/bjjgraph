@@ -418,14 +418,14 @@
         "question": "What are the three most common finishing errors that prevent completing the Kimura from Lockdown?",
         "answer": "The three most common finishing errors are: First, not hip escaping to create the finishing angle, which turns the submission into a strength contest from bottom position. Second, allowing the opponent's elbow to float away from your body during rotation, which gives them space to straighten the arm and escape. Third, losing the lockdown configuration during the upper body attack, which lets the opponent posture up and strip the Kimura grip by creating distance. All three relate to failing to maintain structural control during the finish.",
         "safety_critical": false,
-        "answer_line": "No hip escape, elbow floats free",
+        "answer_line": "Hip escape to build finishing angle",
         "distractors": {
           "plausible": [
-            "Gripping too tight too early",
-            "Rotating the wrist too slowly"
+            "Bridge straight up to finish",
+            "Crank the wrist to force the tap"
           ],
           "trap": [
-            "Open lockdown to hip escape"
+            "Release lockdown to sit up tall"
           ]
         }
       }

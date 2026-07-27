@@ -391,14 +391,14 @@
         "question": "What safety precautions must you observe when applying the Arm Triangle from Reverse Scarf Hold?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always allow at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately, place them in recovery position on their side, elevate their legs, and monitor breathing until they regain consciousness.",
         "safety_critical": true,
-        "answer_line": "Apply slow, release on any tap",
+        "answer_line": "Apply gradually, release on tap",
         "distractors": {
           "plausible": [
-            "Finish fast before they escape",
-            "Wait for a loud verbal signal"
+            "Check their pulse each squeeze",
+            "Raise their legs first if limp"
           ],
           "trap": [
-            "Crank fast, hold till they go limp"
+            "Crank hard and fast to finish"
           ]
         }
       },

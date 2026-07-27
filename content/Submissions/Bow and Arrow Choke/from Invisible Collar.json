@@ -553,14 +553,14 @@
         "question": "What is the safest way to tap to the Bow and Arrow Choke from Invisible Collar to prevent injury?",
         "answer": "Tap early and clearly before the extension reaches full stretch. Use multiple tap signals simultaneously: tap firmly on the attacker's body or the mat with your free hand while also verbally signaling. If one hand is trapped, use your feet to tap the mat audibly. The bow and arrow can cause unconsciousness rapidly once fully extended, so tap as soon as you feel the carotid compression beginning rather than trying to endure or escape a fully locked choke.",
         "safety_critical": true,
-        "answer_line": "Tap early with hand and voice",
+        "answer_line": "Tap early, firm and clear",
         "distractors": {
           "plausible": [
-            "Signal only after it tightens",
-            "Free your trapped hand first"
+            "Just shout, keep hands free",
+            "Tap your own leg quietly"
           ],
           "trap": [
-            "Fight through and try to escape"
+            "Ride it out and try to survive"
           ]
         }
       },

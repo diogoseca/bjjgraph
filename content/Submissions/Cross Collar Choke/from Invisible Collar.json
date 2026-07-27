@@ -440,14 +440,14 @@
       {
         "question": "In competition, how does the finishing strategy differ when time is running low versus when you have ample time remaining?",
         "answer": "With ample time, maintain the patient approach—confirm grip depth fully, wait for optimal defensive openings, and use submission chains to create dilemmas. When time is short, you may need to accept slightly less optimal grip depth and initiate the finish more aggressively, accepting higher failure probability. However, never sacrifice safety regardless of time pressure. The key competition adjustment is reducing the patience phase, not the mechanical execution. A rushed finish with poor mechanics wastes more time than a deliberate setup.",
-        "answer_line": "Cut the patience, not the mechanics",
+        "answer_line": "Shorten setup, keep mechanics clean",
         "distractors": {
           "plausible": [
-            "Rush the mechanics under time",
-            "Keep the same pace regardless"
+            "Skip grip depth, force the finish",
+            "Same patient pace, hope for tap"
           ],
           "trap": [
-            "Ignore safety when time is short"
+            "Abandon control to lunge for finish"
           ]
         }
       }

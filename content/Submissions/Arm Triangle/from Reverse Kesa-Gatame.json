@@ -331,14 +331,14 @@
         "question": "What grip configuration completes the head-and-arm lock in the arm triangle from Reverse Kesa-Gatame?",
         "answer": "The primary grip is a figure-four configuration where the choking hand grips your own bicep on the opposite arm, and the free hand cups behind the opponent's head. This creates a self-reinforcing lock that tightens under pressure. An alternative is the gable grip where both palms clasp together behind the opponent's neck, providing tighter initial compression but less long-term endurance. Both grips must lock the head and trapped arm together as a single unit with zero slack.",
         "safety_critical": false,
-        "answer_line": "Figure-four on your own bicep",
+        "answer_line": "Grip own bicep, cup the head",
         "distractors": {
           "plausible": [
-            "Grab their far wrist and pull",
-            "Interlace fingers behind neck"
+            "Clamp opponent's arm, then head",
+            "Clasp your own wrist by neck"
           ],
           "trap": [
-            "Let go of head to fix the grip"
+            "Post free hand on the mat"
           ]
         }
       },

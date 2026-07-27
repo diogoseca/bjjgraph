@@ -532,14 +532,14 @@
       {
         "question": "What grip should you prioritize to make the technical stand up most difficult for your opponent?",
         "answer": "Prioritize controlling the opponent's posting-side sleeve or wrist, as this directly prevents them from planting the hand that serves as the structural foundation for the entire stand up sequence. Without the posting hand, the opponent cannot safely elevate their hips or execute the kick-through. Secondary priority is a collar grip on the same side, which allows you to apply downward pressure and snap them back to the mat if they attempt to rise. Controlling both the sleeve and collar on the posting side effectively eliminates the technical stand up as an option.",
-        "answer_line": "Control the posting-side sleeve",
+        "answer_line": "Posting-side sleeve/wrist",
         "distractors": {
           "plausible": [
-            "Control the far-side collar",
-            "Grip their belt tightly"
+            "Snap same-side collar first",
+            "Control the free-side hand"
           ],
           "trap": [
-            "Post a stiff arm on their chest"
+            "Grab both ankles, head down"
           ]
         }
       }

@@ -289,14 +289,14 @@
         "answer": "The most common error is releasing the underhook too early, which loses control and lets the opponent crossface and flatten you. The correction is to maintain the underhook connection throughout the entire sequence, keeping it until back control is fully established with both hooks inserted and secured.",
         "distractors": {
           "plausible": [
-            "Grip the seatbelt before hooks",
-            "Flatten them before climbing"
+            "Regrip underhook after each hook",
+            "Both hooks before upper control"
           ],
           "trap": [
-            "Drop underhook, dive for hooks"
+            "Let go to reach for the choke"
           ]
         },
-        "answer_line": "Keep underhook until hooks in"
+        "answer_line": "Keep underhook until hooks locked"
       },
       {
         "question": "How do you effectively counter an opponent's crossface pressure when attempting the back take?",

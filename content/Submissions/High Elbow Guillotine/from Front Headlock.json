@@ -330,11 +330,11 @@
         "question": "What are the critical safety protocols when applying this submission in training?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum—never jerk or spike the elbow elevation. The compound pressure from high elbow plus Hindulotine rotation can cause unconsciousness within seconds once locked, so maintain constant awareness of your partner's response. Release immediately on any tap signal including verbal sounds, hand taps, foot taps, or any loss of resistance. After release, monitor your partner's breathing and consciousness for 10-15 seconds. Never reapply after a release.",
         "safety_critical": true,
-        "answer_line": "Apply gradually, release on tap",
+        "answer_line": "Ramp pressure slowly, never jerk",
         "distractors": {
           "plausible": [
-            "Watch only for hand taps",
-            "Talk them through the finish"
+            "Rely on their tap to stop",
+            "Ease off after 3-5 seconds"
           ],
           "trap": [
             "Spike the elbow to finish fast"

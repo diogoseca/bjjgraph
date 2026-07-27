@@ -551,14 +551,14 @@
         "question": "When should you tap to the Estima Lock from Saddle to prevent serious injury?",
         "answer": "Tap immediately when you feel the foot fully trapped in the attacker's armpit with the elbow closed and any back extension pressure beginning. Do not wait for pain—the Lisfranc joint area can sustain ligament tears and fractures with minimal warning sensation before structural failure. If you feel any popping, sharp pain in the midfoot or ankle, or your foot being bent beyond its normal range, tap instantly. In training, err heavily toward early tapping. A missed training session is always preferable to a foot injury requiring weeks or months of rehabilitation.",
         "safety_critical": true,
-        "answer_line": "Tap as the armpit seal closes",
+        "answer_line": "Tap as extension pressure begins",
         "distractors": {
           "plausible": [
-            "Tap when your knee is freed",
-            "Tap during his grip switch"
+            "Only tap once it hurts sharply",
+            "Wait for a pop before tapping"
           ],
           "trap": [
-            "Ride it out until pain hits"
+            "Twist the trapped foot free"
           ]
         }
       },

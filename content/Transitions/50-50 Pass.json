@@ -315,11 +315,11 @@
       {
         "question": "Your opponent establishes a strong two-handed grip on your heel during the pass attempt - what immediate action should you take?",
         "answer": "Immediately abandon the pass and address the heel hook threat. Use both hands to break their grip on your heel, starting with the hand cupping your heel. Only after successfully breaking their grips should you resume the passing sequence. Forcing the pass with a heel hook grip secured will result in submission or serious injury.",
-        "answer_line": "Abandon pass, break heel grip",
+        "answer_line": "Abandon pass, break heel grips",
         "distractors": {
           "plausible": [
-            "Switch to a different pass",
-            "Grip fight for a collar tie"
+            "Peel the toe-side grip first",
+            "Grab their wrist and pry it off"
           ],
           "trap": [
             "Force the extraction anyway"

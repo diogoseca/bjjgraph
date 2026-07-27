@@ -904,14 +904,14 @@
       {
         "question": "When is the correct time to initiate your primary escape attempt?",
         "answer": "Initiate escape when opponent shifts their weight for submission setup, transitions between attacks, or when you've successfully addressed one of their control points (boot pressure reduced, grip broken). Attempting escape while opponent has full control usually fails and expends energy. Create your opportunity through defensive fighting, then exploit the opening.",
-        "answer_line": "When their control point breaks",
+        "answer_line": "When control lapses or shifts",
         "distractors": {
           "plausible": [
-            "As soon as the truck locks in",
-            "Only once you're fully flattened"
+            "The instant you feel any pressure",
+            "Once they've locked their grips"
           ],
           "trap": [
-            "Explode out under full control"
+            "As the finish tightens on you"
           ]
         }
       },

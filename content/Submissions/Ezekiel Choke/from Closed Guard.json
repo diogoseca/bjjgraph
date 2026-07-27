@@ -308,14 +308,14 @@
         "question": "How do you recognize that the choke is properly locked and the opponent has passed the point of no escape?",
         "answer": "The choke is properly locked when both the sleeve grip hand and blade forearm form a complete closed circuit around the neck with no space for the chin to tuck back in. The point of no escape is reached when your head drops beside theirs as a wedge, your chest weight commits forward through the structure, and both forearms are squeezing inward with no slack. At this stage, the opponent's attempts to pull the forearm away become biomechanically insufficient.",
         "safety_critical": false,
-        "answer_line": "Head wedge, chest weight committed",
+        "answer_line": "Closed circuit, no chin-tuck gap",
         "distractors": {
           "plausible": [
-            "Sleeve grip feels tight",
-            "They have stopped struggling"
+            "Forearms tight, chin still free",
+            "Head high over their shoulder"
           ],
           "trap": [
-            "Post up tall and crank the neck"
+            "Loosen up to feed the arm deeper"
           ]
         }
       },
@@ -428,14 +428,14 @@
         "question": "How should you release the Ezekiel Choke safely upon your training partner's tap signal?",
         "answer": "Upon any tap signal, immediately release the sleeve grip and withdraw the blade forearm from the neck in a smooth, controlled motion. Do not release abruptly and immediately scramble to another position. Maintain your top position briefly to allow your partner to recover orientation. Check that they are conscious and responsive by making eye contact, and confirm verbally that they are okay before resuming training or resetting positions. If there is any doubt about consciousness, call for assistance immediately.",
         "safety_critical": true,
-        "answer_line": "Ease the arm out, check they're okay",
+        "answer_line": "Release grip, slide forearm off neck",
         "distractors": {
           "plausible": [
-            "Let go and scramble away",
-            "Drop the sleeve grip only"
+            "Let go, then spring to side control",
+            "Rip free and stand up fast"
           ],
           "trap": [
-            "Squeeze on until they go limp"
+            "Keep squeezing till they say stop"
           ]
         }
       }
@@ -560,14 +560,14 @@
         "question": "When should you tap to an Ezekiel Choke rather than continue attempting to defend?",
         "answer": "Tap immediately if the blade forearm has crossed your throat, both of the attacker's arms are locked in the closed choking structure, and your attempts to push the forearm away with both hands are failing to create space. Blood chokes can cause unconsciousness in as little as four to six seconds once fully applied. In training, there is no benefit to fighting a fully locked Ezekiel. Tap early, analyze how you missed the setup cues, and focus on earlier prevention next time.",
         "safety_critical": true,
-        "answer_line": "Arms locked, no space to strip",
+        "answer_line": "Blade on throat, strip failing",
         "distractors": {
           "plausible": [
-            "Any time the collar gets tight",
-            "Once they pass to mount"
+            "As soon as the arm nears your neck",
+            "After you fail to bridge out"
           ],
           "trap": [
-            "Ride it out, they may tire"
+            "Gut it out and break the grip"
           ]
         }
       },

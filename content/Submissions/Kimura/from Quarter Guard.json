@@ -373,14 +373,14 @@
         "question": "What grip adjustments should you make if your opponent's wrist becomes difficult to control during rotation?",
         "answer": "Deepen the figure-four by sliding your gripping hand further past their wrist toward their forearm, increasing the contact surface area for control. Squeeze your elbows together to compress the grip configuration. If the grip continues slipping, pause the rotation and reposition your hands with a fresh grip before continuing rather than rushing the finish with compromised control.",
         "safety_critical": false,
-        "answer_line": "Deepen grip, squeeze elbows in",
+        "answer_line": "Deepen figure-four past the wrist",
         "distractors": {
           "plausible": [
-            "Switch to a wristlock instead",
-            "Widen elbows for more leverage"
+            "Squeeze elbows, skip the deeper grip",
+            "Re-grip fresh before deepening"
           ],
           "trap": [
-            "Crank through the slipping grip"
+            "Release the grip to chase far arm"
           ]
         }
       },
@@ -582,14 +582,14 @@
         "question": "At what point should you tap to the Kimura from Quarter Guard to prevent injury?",
         "answer": "Tap immediately when you feel the shoulder rotation passing the point where you can actively resist or reverse the submission. Specific indicators include sharp or increasing pain in the shoulder joint, inability to prevent further rotation despite maximum effort, and feeling your shoulder forced past its comfortable range of motion. In training, tap early—the shoulder is vulnerable to injuries requiring months of recovery and potentially surgery. Never wait to test your limits once significant rotation has begun.",
         "safety_critical": true,
-        "answer_line": "At first sharp shoulder pain",
+        "answer_line": "Tap early, at first shoulder pain",
         "distractors": {
           "plausible": [
-            "When your elbow leaves your ribs",
-            "As soon as they grab your wrist"
+            "Only after your escape fails",
+            "Once rotation is nearly maxed"
           ],
           "trap": [
-            "Wait until you hear a pop"
+            "Never tap, power out of it"
           ]
         }
       },

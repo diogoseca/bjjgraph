@@ -420,14 +420,14 @@
       {
         "question": "When should you stop trying to extract your foot and instead respect the lock by tapping?",
         "answer": "Once the figure-four is set, the calf is clamped, and rotational pressure is being applied to a heel that is firmly anchored, the inversion is consolidated and the ankle and Achilles are loaded. At that point further struggle risks injury with little chance of escape - tap to the rotational pressure before the joint is compromised.",
-        "answer_line": "Once figure-four locks, tap",
+        "answer_line": "As rotation loads the anchored heel",
         "distractors": {
           "plausible": [
-            "Tap as soon as legs entangle",
-            "Wait for sharp ankle pain"
+            "As soon as the calf gets clamped",
+            "Only after your escape stalls out"
           ],
           "trap": [
-            "Spin free against the rotation"
+            "Wait for sharp ankle pain"
           ]
         }
       }

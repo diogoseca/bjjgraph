@@ -636,14 +636,14 @@
         "question": "Why is straightening your trapped leg both the primary defense and simultaneously dangerous?",
         "answer": "Straightening the leg is the primary defense because it removes the compression angle entirely - without the knee bent, there's no way to fold the calf against the hamstring and the shin wedge loses its mechanical advantage. However, it's simultaneously dangerous because extending the leg removes the physical barrier between the attacker and your head/upper body, which is exactly what the attacker needs to transition to the Twister. The straightened leg essentially clears the path for the attacker to rotate higher on your back and attack your spine. This is the core dilemma of the truck position: defending the lower body attack opens the upper body attack. The solution is to straighten the leg while simultaneously protecting your neck and far arm, treating it as a coordinated two-part defensive action rather than addressing only one threat.",
         "safety_critical": false,
-        "answer_line": "Kills the bend, invites Twister",
+        "answer_line": "Kills the lock, opens the Twister",
         "distractors": {
           "plausible": [
-            "It also strips their boot",
-            "Extension is safe once flat"
+            "Extending risks your own knee",
+            "Straight leg lets them re-bend it"
           ],
           "trap": [
-            "Extend and leave your neck open"
+            "Straightening removes all danger"
           ]
         }
       },

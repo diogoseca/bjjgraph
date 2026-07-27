@@ -307,11 +307,11 @@
         "answer_line": "Ankle ligaments and midfoot joints",
         "distractors": {
           "plausible": [
-            "Knee ligaments, same as heel hook",
+            "Knee ligaments, like a heel hook",
             "Achilles tendon and calf muscle"
           ],
           "trap": [
-            "Nothing fragile - crank freely"
+            "Just toes, minor and resistable"
           ]
         }
       },
@@ -588,14 +588,14 @@
         "question": "What defensive options are available against the toe hold from cross ashi-garami and when should each be employed?",
         "answer": "The primary options in order of preference are: boot defense with active toe curl to prevent grip access (use immediately upon recognition), two-handed grip strip targeting the figure-four wrist connection (use when grip is established but rotation has not begun), and hip escape with leg extraction during the attacker's grip transition moment (use when their leg control loosens). Each defense has a specific timing window, and attempting a defense outside its window is ineffective. If all three fail and the grip locks with rotation, the only remaining option is to tap.",
         "safety_critical": false,
-        "answer_line": "Boot, then strip, then hip escape",
+        "answer_line": "Boot toe curl on recognition",
         "distractors": {
           "plausible": [
-            "Point the toes and stay relaxed",
-            "Wait for their grip to fatigue"
+            "Open with the grip strip",
+            "Hip escape right on first contact"
           ],
           "trap": [
-            "Yank the foot free after it locks"
+            "Yank your foot straight out"
           ]
         }
       },

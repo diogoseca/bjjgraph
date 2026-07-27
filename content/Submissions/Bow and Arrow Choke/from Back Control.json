@@ -434,14 +434,14 @@
         "question": "In competition, your bow and arrow grip is established but the opponent is defending the leg grab. What finishing alternative maintains pressure?",
         "answer": "If you cannot secure the far leg, you can use your free arm to push against the opponent's far shoulder or hip to create the opposing force instead. Another option is to hook the far leg with your own leg rather than gripping it with your hand, freeing both hands for collar work. You can also transition to a sliding collar choke by bringing your free hand to grip the other side of the collar, creating a cross-collar strangle from the back. The key is maintaining collar tension throughout any grip transition so the opponent cannot use the adjustment window to escape.",
         "safety_critical": false,
-        "answer_line": "Hook the far leg, or switch collars",
+        "answer_line": "Hook far leg, free hands for collar",
         "distractors": {
           "plausible": [
-            "Squeeze the collar harder alone",
-            "Wait for them to tire out"
+            "Grab the near ankle for leverage",
+            "Push against the near hip"
           ],
           "trap": [
-            "Drop back for a leg lock"
+            "Sit back to finish a leglock"
           ]
         }
       }
@@ -582,14 +582,14 @@
         "question": "When should you tap to the Bow and Arrow Choke, and what tap signals should you use?",
         "answer": "Tap immediately when you feel effective blood restriction to the brain, indicated by dimming vision, lightheadedness, or a tightening sensation in your head. Do not wait to see if you can escape once the choke is fully locked and applied from the perpendicular position. Use clear signals: tap your hand on the attacker's body or the mat repeatedly, tap your foot on the mat, or verbally say tap. In training, err on the side of tapping early to prevent loss of consciousness.",
         "safety_critical": true,
-        "answer_line": "Tap at first dimming vision",
+        "answer_line": "Tap at first dizziness or dimming",
         "distractors": {
           "plausible": [
-            "One quiet tap on the mat",
-            "Signal as soon as grips set"
+            "Tap only when neck pain spikes",
+            "Nod your head to signal the tap"
           ],
           "trap": [
-            "Ride it out until you black out"
+            "Explode and bridge to power out"
           ]
         }
       },

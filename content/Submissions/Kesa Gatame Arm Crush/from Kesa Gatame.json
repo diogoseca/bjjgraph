@@ -288,14 +288,14 @@
         "question": "What anatomical structure does the Kesa Gatame Arm Crush primarily attack, and what creates the hyperextension force?",
         "answer": "The arm crush primarily attacks the elbow joint, specifically hyperextending it against its natural range of motion. The force is created by using the attacker's hip bone as a rigid fulcrum point placed behind the elbow while pulling the wrist toward the chest and driving the hips forward. This creates opposing forces on either side of the elbow joint, generating compression and hyperextension that stresses the ligaments, joint capsule, and surrounding soft tissue.",
         "safety_critical": true,
-        "answer_line": "Hip bone fulcrum hyperextends elbow",
+        "answer_line": "Hyperextend elbow over hip fulcrum",
         "distractors": {
           "plausible": [
-            "Shoulder rotation via figure-four",
-            "Wrist lock via forearm pressure"
+            "Shoulder rotation, kimura-style",
+            "Wrist joint, bend it backward"
           ],
           "trap": [
-            "Lift hips off mat to crank harder"
+            "Post up tall to wrench the arm"
           ]
         }
       },

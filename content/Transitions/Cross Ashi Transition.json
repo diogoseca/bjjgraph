@@ -253,14 +253,14 @@
       {
         "question": "Your opponent begins retracting their leg as you initiate the transition - how do you respond?",
         "answer": "Immediately accelerate heel grip tension while returning to stable Ushiro configuration. Do not continue the transition with compromised control. Once you've stabilized, assess whether the escape attempt was due to timing issues or if opponent has developed effective counter. Reset and reattempt with better timing or choose alternative attack.",
-        "answer_line": "Tighten grip, revert to Ushiro",
+        "answer_line": "Retighten heel, return to Ushiro",
         "distractors": {
           "plausible": [
-            "Push through the switch anyway",
-            "Sit back for a straight ankle lock"
+            "Switch to the far-side heel grip",
+            "Pause and re-grip both legs"
           ],
           "trap": [
-            "Let go and chase the other leg"
+            "Force through, ditch heel control"
           ]
         }
       },

@@ -393,14 +393,14 @@
         "question": "Why must heel hooks be applied slowly and progressively rather than explosively in training?",
         "answer": "Heel hooks attack the knee's ligaments which have a delayed pain response compared to joint locks that compress nerves. The defender may not feel significant pain until after ligament damage has already occurred. Explosive application can cause ACL tears, MCL ruptures, or meniscus damage before the defender has any opportunity to tap. Recovery from these injuries requires 3-12 months of rehabilitation and potentially surgical reconstruction. Slow application gives the defender time to recognize pressure and tap before damage occurs.",
         "safety_critical": true,
-        "answer_line": "Ligaments give no pain warning",
+        "answer_line": "Ligaments tear before pain warns",
         "distractors": {
           "plausible": [
-            "Knee nerves warn before damage",
-            "Slow pressure risks more damage"
+            "Gives them a chance to defend",
+            "Lets you dial in the rotation"
           ],
           "trap": [
-            "Crank fast, they will tap in time"
+            "Partner will tap in time"
           ]
         }
       },
@@ -573,14 +573,14 @@
         "question": "In competition, how do you adjust your finishing approach against an opponent who is aggressively grip-fighting your heel hook attempts?",
         "answer": "Against aggressive grip fighters, use a systematic bait-and-finish approach. Threaten the heel hook grip to draw their defensive hands low, then immediately re-establish positional control when they strip. Repeat this cycle 2-3 times to progressively exhaust their grip-fighting stamina while your positional control remains fresh. When their grip breaks become slower and weaker, commit to the finish with speed and precision. Alternatively, attack their free leg first to occupy one of their defensive hands, then switch to the heel hook when they have only one hand available for defense.",
         "safety_critical": false,
-        "answer_line": "Bait grip, then re-take control",
+        "answer_line": "Bait grip breaks, then finish fast",
         "distractors": {
           "plausible": [
-            "Attack same grip repeatedly",
-            "Grip-fight hand to hand nonstop"
+            "Attack free leg to pin both hands",
+            "Finish fast first, bait if it fails"
           ],
           "trap": [
-            "Blow finish on the first grip"
+            "Drop control to two-hand the heel"
           ]
         }
       },

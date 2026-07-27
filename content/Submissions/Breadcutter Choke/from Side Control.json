@@ -355,14 +355,14 @@
         "question": "What happens if the opponent bridges explosively during your finishing sprawl?",
         "answer": "If the grips are fully secured, maintain the sprawl and ride the bridge by keeping chest weight committed through the forearm. The bridge actually helps close the choke if your position is correct. If the grips are not fully set, the bridge may create enough space for them to turn in and recover guard, so you must abandon the choke and secure side control.",
         "safety_critical": false,
-        "answer_line": "Stay heavy and ride the bridge",
+        "answer_line": "Maintain sprawl, ride the bridge",
         "distractors": {
           "plausible": [
-            "Pull them back down flat",
-            "Step over into mount mid-bridge"
+            "Posture up to tighten the choke",
+            "Follow them, re-clamp the grips"
           ],
           "trap": [
-            "Give up chest weight to re-grip"
+            "Roll to back, finish from guard"
           ]
         }
       },
@@ -370,14 +370,14 @@
         "question": "Why should you never spike or jerk the Breadcutter Choke during training?",
         "answer": "Sudden explosive force on the neck can cause tracheal damage, cervical spine injury, and carotid artery trauma that may require surgery and weeks to months of recovery. Blood chokes compress the carotid arteries and can cause unconsciousness within seconds, so a gradual controlled application gives the training partner adequate time to recognize the choke and tap before losing consciousness.",
         "safety_critical": true,
-        "answer_line": "Sudden force can injure neck, throat",
+        "answer_line": "Risks neck injury, no tap time",
         "distractors": {
           "plausible": [
-            "Slows the blood choke down",
-            "Loosens the collar grip"
+            "So they have time to escape",
+            "So you don't catch them off guard"
           ],
           "trap": [
-            "Snap it hard when they defend"
+            "The risk is only minor bruising"
           ]
         }
       },

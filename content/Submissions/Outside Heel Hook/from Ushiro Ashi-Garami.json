@@ -297,14 +297,14 @@
         "question": "What anatomical structures does the outside heel hook from ushiro ashi-garami primarily attack?",
         "answer": "The outside heel hook primarily attacks the knee's lateral ligament complex, including the LCL (lateral collateral ligament), and generates rotational stress on the ACL and MCL through lateral rotation of the heel. Secondary stress passes through the menisci and the ankle ligaments. The combined rotational and extension force can damage multiple structures simultaneously, which is why this submission is classified as extremely dangerous.",
         "safety_critical": true,
-        "answer_line": "LCL with ACL/MCL rotational stress",
+        "answer_line": "LCL and lateral knee ligaments",
         "distractors": {
           "plausible": [
-            "Ankle ligaments and joint capsule",
-            "Hamstring and calf attachments"
+            "Achilles tendon and calf muscle",
+            "MCL and inner knee first"
           ],
           "trap": [
-            "Low injury risk, hold it longer"
+            "Just the ankle, torque freely"
           ]
         }
       },

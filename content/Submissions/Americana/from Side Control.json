@@ -394,14 +394,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "45° bend with wrist by the ribs",
-            "Wrist pinned up near the head"
+            "Paint wrist toward their head",
+            "Crank rotation before pinning"
           ],
           "trap": [
-            "Float the elbow and crank"
+            "Sit up and torque both hands"
           ]
         },
-        "answer_line": "90° elbow, wrist pinned to hip"
+        "answer_line": "90° at elbow to isolate shoulder"
       },
       {
         "question": "What are the three most common defenses to the Americana from side control, and how should you adjust your technique to counter each one?",
@@ -664,14 +664,14 @@
         "question": "At what point during the Americana sequence should you tap rather than continue to fight the submission, and why is this decision critical for training longevity?",
         "answer": "You should tap when the figure-four is fully locked and you feel rotational pressure beginning at the shoulder joint that you cannot relieve through body movement. If your wrist has been driven past the midline of your body toward your hip and your elbow is pinned near your shoulder, the submission is past the point of safe resistance. Continuing to fight at this stage risks rotator cuff tears, labral damage, or shoulder dislocation - injuries requiring 3-12 months of recovery. Tapping early preserves your training longevity. A single training session is never worth months of rehabilitation and potential chronic shoulder instability.",
         "safety_critical": true,
-        "answer_line": "Tap when rotation locks shoulder",
+        "answer_line": "Shoulder torque you can't relieve",
         "distractors": {
           "plausible": [
-            "When the grip first touches you",
-            "As soon as they mount you"
+            "When your elbow leaves the mat",
+            "The moment the figure-four locks"
           ],
           "trap": [
-            "Muscle out until it pops"
+            "Wait until you feel the pop"
           ]
         }
       },

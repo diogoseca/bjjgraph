@@ -616,14 +616,14 @@
       {
         "question": "What is the danger of attempting to spin or roll out of Cross Ashi-Garami without proper timing?",
         "answer": "Rotational escape attempts without proper timing feed directly into the heel hook finish by creating rotation that the opponent can follow and amplify. Your spinning motion actually helps them apply the finishing mechanics of the submission. Only attempt rotational escapes when the opponent's leg control is clearly compromised and the escape path is open. Premature rotation dramatically increases injury risk.",
-        "answer_line": "Spinning feeds the heel hook",
+        "answer_line": "Rotation feeds the heel hook finish",
         "distractors": {
           "plausible": [
-            "You just burn extra energy",
-            "They may switch to a toehold"
+            "You surrender leg control",
+            "You telegraph your escape early"
           ],
           "trap": [
-            "No danger if you roll quickly"
+            "Opponent takes your back"
           ]
         }
       },

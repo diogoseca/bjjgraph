@@ -331,11 +331,11 @@
       {
         "question": "Your opponent threatens a heel hook while you are mid-elevation—should you continue the sweep or abort?",
         "answer": "Abort the sweep immediately and prioritize heel defense. Finishing the rotation under active heel hook tension risks catastrophic knee injury as the rotational force compounds the heel hook torque. Strip their heel grip with two-on-one hand fighting, rotate your knee inward to relieve pressure, and only reattempt the sweep once your heel is safe. No positional gain is worth a knee injury.",
-        "answer_line": "Abort sweep, defend the heel",
+        "answer_line": "Abort and defend the heel",
         "distractors": {
           "plausible": [
-            "Flare knee outward to relieve it",
-            "Freeze and wait out the grip"
+            "Grip fight with one hand",
+            "Kick the free leg to make space"
           ],
           "trap": [
             "Finish the rotation under tension"

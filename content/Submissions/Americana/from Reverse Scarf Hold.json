@@ -564,14 +564,14 @@
         "question": "What should you do if you feel sharp shoulder pain before you have a chance to tap?",
         "answer": "Verbalize immediately by shouting 'tap' or any distress signal. Simultaneously tap with any available limb, feet included. Your training partner should recognize any vocalization as a tap signal. After release, do not immediately resume training. Assess the shoulder for range of motion limitations or persistent pain. If pain continues beyond a few minutes or range of motion is reduced, seek medical evaluation before returning to training.",
         "safety_critical": true,
-        "answer_line": "Shout tap, use any limb",
+        "answer_line": "Shout 'tap' immediately",
         "distractors": {
           "plausible": [
-            "Signal only with your free hand",
-            "Ask them to ease off slowly"
+            "Resume the round after release",
+            "Check the shoulder before reacting"
           ],
           "trap": [
-            "Wait for partner to notice"
+            "Muscle out before it fully locks"
           ]
         }
       }

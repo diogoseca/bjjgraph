@@ -342,14 +342,14 @@
         "question": "Your opponent starts to frame against your Hindulotine grip with their near arm - what adjustment capitalizes on this reaction?",
         "answer": "Drive your chest down onto their framing arm to pin it against their own neck. Once the arm is secured by your body weight, smoothly transition your choking arm over the trapped arm and behind their neck to establish the head-and-arm lock. Do not try to strip the frame - instead, use it as the foundation for the arm triangle. Their defensive action becomes the setup for your next submission.",
         "safety_critical": false,
-        "answer_line": "Chest-pin the frame, then switch",
+        "answer_line": "Pin their frame arm to their neck",
         "distractors": {
           "plausible": [
-            "Strip the frame, re-guillotine",
-            "Switch to a far-side headlock"
+            "Strip the frame before choking",
+            "Thread choke arm, then pin frame"
           ],
           "trap": [
-            "Roll to your back to finish it"
+            "Release choke, they take your back"
           ]
         }
       },
@@ -417,11 +417,11 @@
         "question": "What safety precautions must you observe when transitioning from Hindulotine guillotine to arm triangle pressure?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always allow at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately and place them in recovery position on their side.",
         "safety_critical": true,
-        "answer_line": "Ramp pressure over 3-5 seconds",
+        "answer_line": "Ramp pressure slowly, never spike",
         "distractors": {
           "plausible": [
-            "Count to ten before releasing",
-            "Only stop for a verbal tap"
+            "Trap both hands for max control",
+            "Release only on a hand tap"
           ],
           "trap": [
             "Squeeze harder if they go limp"

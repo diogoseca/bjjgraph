@@ -364,14 +364,14 @@
         "question": "What are the mandatory tap signals for standing Reverse Kimura submissions and why is verbal communication especially important?",
         "answer": "All standard tap signals apply: verbal tap, physical hand tap, foot tap, or any distress signal. Verbal tap is especially important for standing submissions because the opponent may have limited ability to physically tap while maintaining balance and defending. Additionally, standing submissions can progress to dangerous falls if not controlled, so clear communication allows both practitioners to safely manage the descent or release. Never restrict your partner's ability to verbally tap by covering their mouth or applying pressure that prevents speech.",
         "safety_critical": true,
-        "answer_line": "Verbal, hand, foot, any distress",
+        "answer_line": "Verbal tap counts, hands may be busy",
         "distractors": {
           "plausible": [
-            "Mat slap is the only valid tap",
-            "Signals change for standing locks"
+            "Wait for a physical hand tap",
+            "Foot tap is the standing signal"
           ],
           "trap": [
-            "Ignore foot taps, keep cranking"
+            "Cover the mouth to control the head"
           ]
         }
       },

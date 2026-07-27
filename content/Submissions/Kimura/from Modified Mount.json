@@ -358,14 +358,14 @@
         "question": "What are the key indicators that your rotational pressure is being applied correctly versus incorrectly?",
         "answer": "Correct application: you feel resistance building smoothly in the figure-four grip as the shoulder reaches its rotational limit, the opponent's body tenses progressively, and the force comes from your hip rotation rather than arm pulling. Incorrect application: you feel your arms fatiguing, the opponent is able to incrementally reduce the rotation by turning their body, or the wrist lifts off the mat during rotation. If the wrist lifts off the mat, you have lost the anchor point and need to re-pin before continuing.",
         "safety_critical": false,
-        "answer_line": "Force comes from your hips",
+        "answer_line": "Hip drives it, wrist stays pinned",
         "distractors": {
           "plausible": [
-            "Arms burn from steady pulling",
-            "Opponent's body feels loose"
+            "Opponent goes limp as you turn",
+            "Keep turning if the wrist lifts"
           ],
           "trap": [
-            "Crank harder while they turn in"
+            "Rip fast to force the tap"
           ]
         }
       },
@@ -568,14 +568,14 @@
         "question": "When should you tap to the Kimura from Modified Mount, and what signals should you use?",
         "answer": "Tap immediately once the figure-four is locked and the wrist is pinned to the mat with rotational pressure beginning. Do not wait for pain — shoulder damage often occurs before pain signals register. Use multiple rapid hand taps with your free hand on the attacker's body, verbal tap by saying 'tap' clearly, or foot taps on the mat if your hand is trapped. Any distress sound should be treated as a tap by both partners. If you feel the shoulder reaching its rotational limit, tap before testing whether you can escape — the cost of a late tap is months of recovery.",
         "safety_critical": true,
-        "answer_line": "Tap as the wrist hits the mat",
+        "answer_line": "Tap the moment rotation starts",
         "distractors": {
           "plausible": [
-            "Tap when they secure the mount",
-            "Tap after your bridge fails"
+            "Try one escape before tapping",
+            "Only a hand tap counts as a tap"
           ],
           "trap": [
-            "Hold out until pain forces it"
+            "Hold until the pain forces it"
           ]
         }
       },

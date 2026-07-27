@@ -598,14 +598,14 @@
         "question": "Why is it critical to tap early when caught in a banana split rather than fighting through the pressure?",
         "answer": "The banana split targets muscle groups (hip adductors and groin) that have no clear structural stopping point before tissue damage occurs. Unlike a joint lock where you can feel the ligament reaching its limit and have a brief window to tap, the adductors simply tear when overstretched with no warning sensation. The transition from severe discomfort to actual muscle tear can happen in less than a second, making early tapping essential for long-term training health.",
         "safety_critical": true,
-        "answer_line": "Tap early; no warning before tear",
+        "answer_line": "Muscles tear with no warning",
         "distractors": {
           "plausible": [
-            "Adductors warn you like ligaments",
-            "Torn groin is a minor tweak"
+            "You feel the joint near its limit",
+            "The hip dislocates first"
           ],
           "trap": [
-            "Grit through and force the escape"
+            "Flexibility lets you ride it out"
           ]
         }
       },

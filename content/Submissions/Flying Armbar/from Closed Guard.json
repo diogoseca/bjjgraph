@@ -426,14 +426,14 @@
         "question": "What is the proper breakfall technique for landing the flying armbar safely?",
         "answer": "Proper breakfall technique involves landing on your shoulder blades and upper back, distributing impact across a wide area rather than concentrating force on your spine or neck. Your chin should be tucked to protect your neck, and you should land with a slight rounding of your upper back. Never land flat on your back or with your neck extended, as this can cause serious spinal compression injuries. The landing should be controlled and relatively gentle, not a violent slam. In initial learning phases, practice the aerial rotation and landing separately using crash pads or extra mats. Your ability to breakfall correctly determines whether you can train this technique safely.",
         "safety_critical": true,
-        "answer_line": "Shoulder blades, chin tucked",
+        "answer_line": "Land on shoulder blades, chin tucked",
         "distractors": {
           "plausible": [
-            "Land flat with arms spread",
-            "Slap the mat with both hands"
+            "Land seat-first, then rock backward",
+            "Slam down hard to kill momentum"
           ],
           "trap": [
-            "Extend your neck to watch them"
+            "Post a stiff arm to catch the fall"
           ]
         }
       },

@@ -423,14 +423,14 @@
         "question": "How should your finishing approach for the calf slicer differ between training and competition?",
         "answer": "The mechanics stay identical in both settings: secure the figure-four, control the foot, and extend the hips through the calf. The strategic difference in competition is using the calf slicer and heel hook as a linked dilemma to force a fast tap or a positional mistake before the referee stands you up for stalling, committing to whichever attack the opponent's knee angle exposes and threatening the back take if they sacrifice position to escape the legs. Even under competitive pressure you must keep application controlled, because reckless leg-lock spiking endangers your opponent and can draw a disqualification under many rulesets.",
         "safety_critical": false,
-        "answer_line": "Same mechanics, smarter strategy",
+        "answer_line": "Chain heel hook to force a fast tap",
         "distractors": {
           "plausible": [
-            "Skip the figure-four to save time",
-            "Use only the heel hook in comp"
+            "Alter the mechanics for competition",
+            "Slow the pace to avoid a DQ"
           ],
           "trap": [
-            "Spike the hips to force a tap"
+            "Drop foot control to rush finish"
           ]
         }
       }

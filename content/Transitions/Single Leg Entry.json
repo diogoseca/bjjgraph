@@ -309,14 +309,14 @@
         "answer": "The most critical errors are insufficient level change, a shallow penetration step, a loose leg grip, poor head positioning, and telegraphing the shot. Insufficient level change leaves you too upright and open to sprawls and guillotines; a shallow penetration step that stops too far from the opponent's base prevents securing control and allows easy escape; a loose leg grip with a gap between shoulder and hip lets the opponent extract the leg and sprawl; head position in the centerline or away from the opponent creates guillotine vulnerability and loses forward pressure; and telegraphing intention through an obvious setup lets the opponent anticipate and prepare defense. Each error fundamentally compromises the mechanical advantage of the single leg, either by failing to establish proper control or by creating defensive opportunities for the opponent.",
         "distractors": {
           "plausible": [
-            "Stronger grip fixes bad entry",
-            "Pure speed beats depth"
+            "Grip the leg too high",
+            "Shooting in too slowly"
           ],
           "trap": [
-            "Stay upright and reach for it"
+            "Dive to both knees on the shot"
           ]
         },
-        "answer_line": "Shallow shot, loose grip, telegraph"
+        "answer_line": "Insufficient level change"
       },
       {
         "question": "Describe the progression from initial standing position through completion, including the relationship between grip fighting, timing recognition, and explosive execution?",
@@ -351,14 +351,14 @@
         "answer": "The window opens when the opponent's weight shifts onto their lead leg, and it lasts only about 0.3-0.5 seconds. This shift typically happens during forward pressure, grip fighting exchanges, or recovery from their own offensive attempt. Key signals include the opponent stepping forward with the lead foot planted and weight committed, reaching with one hand and leaving a gap in their defensive frame, momentarily looking away or focusing on grip establishment, and the instant after you break their grip while they are briefly off-balance. Because the window is so short, the entry must be pre-loaded and executed explosively the instant the signal is recognized; shooting when the opponent is balanced and alert dramatically reduces success rate.",
         "distractors": {
           "plausible": [
-            "Wait for their hands to rise",
-            "Shoot when they are balanced"
+            "When they settle onto the rear leg",
+            "The moment before they step in"
           ],
           "trap": [
-            "Shoot while they step backward"
+            "Shoot while they're balanced and set"
           ]
         },
-        "answer_line": "Shoot as weight loads lead leg"
+        "answer_line": "The instant weight loads lead leg"
       },
       {
         "question": "What specific grip configuration do you need before shooting, and how does grip selection differ between gi and no-gi entries?",
@@ -391,14 +391,14 @@
       {
         "question": "Your opponent posts their free hand on your head as you capture their leg - how do you adjust to maintain your attack?",
         "answer": "When opponent posts on your head, they are attempting to create a frame that prevents your forward drive and opens space to sprawl or extract their leg. Your immediate response is to circle your head to the opposite side of the post, using your head-to-hip pressure to duck under their frame while maintaining tight shoulder-to-hip connection on the captured leg. Simultaneously, your outside hand can swim inside their posting arm to strip it or underhook it. If you cannot clear the post, change your finish angle by stepping your back foot to the outside and transitioning to an outside trip or running the pipe, where their posting hand actually works against them by preventing them from recovering balance in the new direction.",
-        "answer_line": "Circle head under their post",
+        "answer_line": "Circle head opposite the post",
         "distractors": {
           "plausible": [
-            "Drive straight into their frame",
-            "Switch to a low double instead"
+            "Swim inside the post arm first",
+            "Step to an outside trip first"
           ],
           "trap": [
-            "Lift head up into the frame"
+            "Drive straight into their frame"
           ]
         }
       },

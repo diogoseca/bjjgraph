@@ -309,14 +309,14 @@
         "question": "Your opponent hides their heel deep behind their body to defend your heel hook - how do you transition to the calf slicer?",
         "answer": "Release the heel hook grip and immediately thread your near-side arm under their ankle from the outside, cupping the ball of their foot. Their heel-hiding posture actually positions their foot perfectly for the calf slicer fold because their knee is already partially bent. Pull the foot toward their buttock while maintaining your triangle tightness, then drive your hips forward to engage the compression. The key is making this transition in one fluid motion so they cannot straighten their leg during the grip change.",
         "safety_critical": false,
-        "answer_line": "Thread arm under, fold foot in",
+        "answer_line": "Thread arm under ankle, cup foot",
         "distractors": {
           "plausible": [
-            "Crank the hidden heel harder",
-            "Spin to a toe hold instead"
+            "Keep heel hook grip, then fold",
+            "Straighten their leg to expose calf"
           ],
           "trap": [
-            "Open the triangle to chase heel"
+            "Open triangle to grab the ankle"
           ]
         }
       },
@@ -530,14 +530,14 @@
         "question": "What is the safest way to tap to the calf slicer from Honey Hole?",
         "answer": "Verbal tap is the safest and fastest signal because the inside leg triangle entanglement often limits hand mobility. Call out a clear verbal tap the moment you feel compression building that you cannot escape through defensive movement. If verbal tap is not possible, tap the mat or your partner's body repeatedly with your free hand. Do not wait for maximum pain to develop, because significant calf tissue damage can occur before peak pain is perceived. Tap early and often when caught in this submission.",
         "safety_critical": true,
-        "answer_line": "Loud verbal tap, called early",
+        "answer_line": "Verbal tap immediately",
         "distractors": {
           "plausible": [
-            "Wait for a hand to come free",
-            "Shake the leg to signal"
+            "Wait for peak pain, then tap",
+            "Signal the referee to stop it"
           ],
           "trap": [
-            "Fight to full pain, then tap"
+            "Rip your leg free with force"
           ]
         }
       },

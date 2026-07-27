@@ -395,14 +395,14 @@
         "question": "What are the critical safety protocols when applying the Darce Choke from Twister Side Control in training?",
         "answer": "Apply finishing pressure progressively over 3-5 seconds minimum to allow adequate tap recognition time. Never jerk or spike the choke. Monitor for all tap signals including verbal, hand tap, foot tap, and loss of resistance indicating unconsciousness. Release immediately upon any tap signal by unclasping hands, removing shoulder pressure first, then slowly extracting the choking arm. If unconsciousness occurs, keep the airway clear and seek medical evaluation. Never apply full pressure during drilling.",
         "safety_critical": true,
-        "answer_line": "Apply pressure slow, watch all taps",
+        "answer_line": "Release instantly on any tap signal",
         "distractors": {
           "plausible": [
-            "Verbal tap is the only signal",
-            "Ignore a foot tap on the mat"
+            "Extract the arm before the shoulder",
+            "Full pressure in a single second"
           ],
           "trap": [
-            "Jerk the choke on for speed"
+            "Crank hard and fast to finish"
           ]
         }
       },

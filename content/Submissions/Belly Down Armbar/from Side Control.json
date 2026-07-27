@@ -601,14 +601,14 @@
         "question": "When should you tap to a belly down armbar rather than continue attempting to escape?",
         "answer": "You should tap immediately when the attacker has achieved the full belly down position with secure two-on-one wrist control and tight knee squeeze around your upper arm. At this point, the mechanical advantage is overwhelming and attempting to muscle out risks catastrophic elbow hyperextension. The belly down armbar applies force faster than most people realize, so tap early and decisively.",
         "safety_critical": true,
-        "answer_line": "Tap when belly-down locks tight",
+        "answer_line": "Once locked, before extension",
         "distractors": {
           "plausible": [
-            "As soon as they isolate the arm",
-            "Only in live rolls, not drills"
+            "After your escapes have failed",
+            "When his knees clamp your head"
           ],
           "trap": [
-            "Fight it until you feel a pop"
+            "Only once you feel real pain"
           ]
         }
       },

@@ -339,14 +339,14 @@
         "question": "At what point during the side triangle sequence does the opponent reach the point of no escape, and what indicators confirm you have secured this position?",
         "answer": "The point of no escape occurs when three conditions are met simultaneously: the trapped arm is fully across their centerline with no space to retract it, the figure-four leg lock is secured with proper perpendicular body angle, and the free arm is controlled preventing them from inserting it into the triangle. Indicators include: their breathing becomes labored and audible, their face changes color (reddening), their defensive movements become weaker and more frantic, and you can feel their carotid pulse diminishing against your thigh. Once all three control points are established, even explosive movement typically fails to create escape opportunity.",
         "safety_critical": false,
-        "answer_line": "Arm, angle, and hand all secured",
+        "answer_line": "All three control points locked",
         "distractors": {
           "plausible": [
-            "Figure-four lock alone is enough",
-            "Heavy breathing proves it's tight"
+            "When arm crosses centerline",
+            "When figure-four is set"
           ],
           "trap": [
-            "Squeeze on until they go limp"
+            "Release leg lock to adjust angle"
           ]
         }
       },
@@ -617,14 +617,14 @@
         "question": "SAFETY CRITICAL: You are caught in a locked side triangle and beginning to feel lightheaded - what is the correct response?",
         "answer": "If you feel lightheadedness, this indicates the blood choke is compressing your carotid arteries and you have only seconds before potential unconsciousness. You must tap immediately - do not attempt a heroic last-second escape when blood flow to your brain is already compromised. Tap clearly with your free hand on the attacker's body or the mat, or tap with your feet, or verbally signal. There is no submission worth risking unconsciousness in training. Lightheadedness means the choke is working and your window for safe escape has likely closed. Continuing to fight after lightheadedness begins creates serious risk of going unconscious without warning.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, don't wait",
+        "answer_line": "Tap immediately with your free hand",
         "distractors": {
           "plausible": [
-            "Signal by shaking your head",
-            "Hold your breath and stay calm"
+            "Wait to see if the choke tightens",
+            "Give a light tap on your own leg"
           ],
           "trap": [
-            "Bridge and rip the legs apart"
+            "Explode out before you pass out"
           ]
         }
       },

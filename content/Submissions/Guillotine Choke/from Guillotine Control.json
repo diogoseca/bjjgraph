@@ -622,14 +622,14 @@
         "question": "When should you tap to a guillotine choke rather than continuing to fight the escape?",
         "answer": "Tap immediately if you feel lightheadedness, vision changes (tunneling or darkening), inability to create any defensive movement or progress, or if the choke has been locked for more than 3-4 seconds with full compression and you have no viable escape path remaining. In training, always err on the side of tapping early—there is no training scenario that justifies risking unconsciousness or injury. The 'tough it out' mentality with chokes leads to preventable injuries.",
         "safety_critical": true,
-        "answer_line": "Tap at first vision change",
+        "answer_line": "Tap at lightheadedness or tunneling",
         "distractors": {
           "plausible": [
-            "Hold out ten seconds, then quit",
-            "Wait until breathing is cut off"
+            "When sharp neck pain sets in",
+            "Only once every escape is gone"
           ],
           "trap": [
-            "Ride it out until you black out"
+            "Tough it out—defense may still work"
           ]
         }
       },

@@ -400,14 +400,14 @@
         "question": "What safety precautions must you observe when applying the arm triangle from high mount in training?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum from lock to tap—never spike or jerk the submission. Monitor the opponent's consciousness by watching for facial color changes, feeling for resistance changes, and noting if their movements suddenly weaken. Always ensure at least one of the opponent's hands is free to tap. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately and place them in recovery position on their side with legs elevated.",
         "safety_critical": true,
-        "answer_line": "Add pressure slowly, stop at tap",
+        "answer_line": "Apply gradually, release on tap",
         "distractors": {
           "plausible": [
-            "Crank fast so they tap sooner",
-            "Accept only a hand tap"
+            "Accept only a hand tap",
+            "Monitor color only after release"
           ],
           "trap": [
-            "Hold a few seconds past the tap"
+            "Spike it hard to force the tap"
           ]
         }
       },

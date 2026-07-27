@@ -607,14 +607,14 @@
         "question": "Your opponent has the kimura grip locked and is beginning to walk your wrist behind your back—what escape options remain?",
         "answer": "At this late stage, your best option is to roll your entire body toward the attacker, getting chest-to-chest to neutralize the rotational angle they need. This may allow you to recover guard or at minimum buy time. Alternatively, drive your elbow back toward your ribs with explosive force using your entire body, not just arm strength. If neither option works and you feel significant shoulder pressure building, tap immediately rather than risk injury fighting a deeply established submission.",
         "safety_critical": true,
-        "answer_line": "Roll chest-to-chest into them",
+        "answer_line": "Roll into attacker, chest-to-chest",
         "distractors": {
           "plausible": [
-            "Roll away to unwind the arm",
-            "Grab your own belt and hold"
+            "Grip your belt to stop the walk",
+            "Drive your elbow up and out"
           ],
           "trap": [
-            "Explode with arm strength alone"
+            "Turn belly-down away from them"
           ]
         }
       },

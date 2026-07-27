@@ -277,14 +277,14 @@
         "question": "Your opponent starts counter-rotating their ankle against your Estima Lock—how does this create the toe hold opportunity?",
         "answer": "When the opponent counter-rotates to defend the Estima Lock, they change the angle of their forefoot relative to your grip position. This defensive rotation exposes their toes and ball of foot for the cupping grip that the Estima Lock forearm position previously blocked. Their active defense of one attack is precisely what creates vulnerability to the other, making the chain highly effective against technically skilled defenders.",
         "safety_critical": false,
-        "answer_line": "Their rotation exposes the forefoot",
+        "answer_line": "Cup the now-exposed toes",
         "distractors": {
           "plausible": [
-            "Their grip defense tires your arms",
-            "Their heel slips free of your grip"
+            "Crank the Estima Lock harder",
+            "Switch your grip to the heel"
           ],
           "trap": [
-            "Let go and re-grip the whole foot"
+            "Release the reap to chase the foot"
           ]
         }
       },
@@ -502,14 +502,14 @@
         "question": "When should you tap to the toe hold from Estima Lock to prevent injury?",
         "answer": "Tap immediately when you feel rotational pressure reaching your ankle joint through the figure-four grip. The small joints of the foot, ankle ligaments, and midfoot structures have extremely low injury thresholds compared to larger joints. Damage can occur within one to two seconds of the submission being fully locked, which is faster than most other joint locks. Preserving joint health for long-term training is always more important than escaping any single submission.",
         "safety_critical": true,
-        "answer_line": "Tap the instant ankle feels torque",
+        "answer_line": "The instant you feel ankle rotation",
         "distractors": {
           "plausible": [
-            "Wait for real pain to arrive",
-            "Same warning time as a kneebar"
+            "The moment they grab your foot",
+            "Once the pain gets sharp"
           ],
           "trap": [
-            "Ride it out hunting a scramble"
+            "Power out instead of tapping"
           ]
         }
       },
@@ -577,14 +577,14 @@
         "question": "What three tactile signs confirm the attacker has fully locked the figure-four so that foot retraction is no longer available?",
         "answer": "First, you feel their cupping hand seated over the ball of your foot and toes rather than just brushing it. Second, you feel their forearm or biceps threaded snugly behind your Achilles tendon, completing the figure-four structure. Third, you feel their hip driven tight against your calf, removing the slack you would need to pull your knee back. When all three are present simultaneously, leg extraction is gone and your only remaining options are counter-rotation to buy time or an immediate tap.",
         "safety_critical": false,
-        "answer_line": "Cupped foot, Achilles arm, tight hip",
+        "answer_line": "Hand, Achilles, and hip all locked",
         "distractors": {
           "plausible": [
-            "Sharp pain plus numb toes",
-            "Attacker goes completely still"
+            "Fingers just brushing your toes",
+            "Forearm across the front of ankle"
           ],
           "trap": [
-            "Wait for slack before tapping"
+            "Yank your foot free while you can"
           ]
         }
       },

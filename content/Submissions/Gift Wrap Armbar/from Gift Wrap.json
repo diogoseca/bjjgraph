@@ -556,14 +556,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Fast extension is more secure",
-            "Speed hides your grip mistakes"
+            "Builds more finishing leverage",
+            "Prevents them from countering"
           ],
           "trap": [
-            "Snap the arm for a faster finish"
+            "Explosive locks the finish faster"
           ]
         },
-        "answer_line": "Force tears ligaments before tap"
+        "answer_line": "Lets them tap before injury"
       },
       {
         "question": "In competition, how do you use the trapped arm to make the armbar nearly unstoppable?",
@@ -693,14 +693,14 @@
         "question": "What is the most critical timing window for defending the Gift Wrap Armbar, and what should you do during it?",
         "answer": "The most critical window is during the attacker's hip shift phase before their far leg swings over your head. At this point, the attacker has committed to abandoning pure back control but has not yet locked the armbar position. Turn your hips and shoulders toward the attacker to collapse the armbar angle, and retract your free arm tight to your body with hands clasped. Once the leg crosses your face and the hips are in position, defensive options decrease dramatically.",
         "safety_critical": false,
-        "answer_line": "Turn hips before leg crosses face",
+        "answer_line": "Turn into attacker on hip shift",
         "distractors": {
           "plausible": [
-            "Bridge hard once the leg lands",
-            "Clasp both hands to stop the pull"
+            "Yank your arm free straight back",
+            "Wait until the leg crosses"
           ],
           "trap": [
-            "Extend arm to push attacker off"
+            "Extend arm to push leg off"
           ]
         }
       },

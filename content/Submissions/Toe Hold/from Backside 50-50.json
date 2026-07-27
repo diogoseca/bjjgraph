@@ -585,14 +585,14 @@
         "question": "What defensive options are available against the toe hold from Backside 50-50?",
         "answer": "Primary defense is boot defense - curl toes toward shin and hide foot immediately upon any grip contact. Secondary is two-handed grip stripping before the figure-four locks. Tertiary is bridging and turning to face the attacker to neutralize the backside angle. Leg straightening can deny rotational leverage but exposes you to ankle lock and kneebar. All defenses work best when initiated early at the grip stage, not after rotation begins. Balance foot defense with preventing back control advancement.",
         "safety_critical": false,
-        "answer_line": "Curl toes, hide foot early",
+        "answer_line": "Curl toes in, hide the foot",
         "distractors": {
           "plausible": [
-            "Strip grip after lock-in",
-            "Cross ankles to block it"
+            "Strip grips after the lock sets",
+            "Point toes out to slip free"
           ],
           "trap": [
-            "Wait and out-muscle the lock"
+            "Straighten leg to break free"
           ]
         }
       },

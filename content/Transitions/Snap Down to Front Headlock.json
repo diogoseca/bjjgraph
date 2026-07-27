@@ -551,14 +551,14 @@
       {
         "question": "After being successfully snapped down, why is it dangerous to immediately try to stand up without controlling the attacker's choking arm?",
         "answer": "Standing up without controlling the choking arm is dangerous because the upward extension of your body tightens any neck control the attacker has, particularly guillotine-style grips. As you drive upward, your neck extends against their forearm, essentially finishing the choke for them. You must first secure the choking arm at the wrist or elbow, pulling it away from your neck to create space, before attempting to stand. Controlling the arm neutralizes the submission threat during your posture recovery.",
-        "answer_line": "Control the arm before standing",
+        "answer_line": "Standing tightens the guillotine",
         "distractors": {
           "plausible": [
-            "Wait for them to tire out",
-            "Sprawl flat and hold still"
+            "It exposes your legs to a shot",
+            "It costs you your base and balance"
           ],
           "trap": [
-            "Stand up with the neck trapped"
+            "Just muscle straight up and out"
           ]
         }
       },

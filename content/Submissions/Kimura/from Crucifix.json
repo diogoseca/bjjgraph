@@ -298,14 +298,14 @@
         "question": "What anatomical structures does the Kimura from Crucifix primarily attack?",
         "answer": "The Kimura from Crucifix attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, the glenoid labrum, and the ligaments connecting the humerus to the scapula. The rotational force moves the humerus beyond its normal range of internal rotation, placing maximal stress on these structures. Secondary strain affects the bicep tendon and the acromioclavicular joint.",
         "safety_critical": false,
-        "answer_line": "Shoulder joint and rotator cuff",
+        "answer_line": "Shoulder joint & rotator cuff",
         "distractors": {
           "plausible": [
-            "Elbow joint and its ligaments",
-            "Wrist and forearm tendons"
+            "Bicep tendon & AC joint",
+            "Scapula & collarbone"
           ],
           "trap": [
-            "Nothing structural—pain only"
+            "Elbow joint & forearm ligaments"
           ]
         }
       },
@@ -418,14 +418,14 @@
         "question": "How do you accelerate the Kimura finish in competition while maintaining control?",
         "answer": "In competition, accelerate the finish by establishing a deeper initial grip, using explosive hip movement to drive the rotation rather than gradual arm-only pressure, and immediately transitioning to the Kimura when the choke defense creates the opening rather than hesitating. Keep the elbow pinned and commit your full body weight behind the rotation. The acceleration comes from committed body mechanics, not from jerking the arm. Even in competition, maintain enough control that you could stop if the opponent taps—reckless speed creates unnecessary injury risk.",
         "safety_critical": false,
-        "answer_line": "Deeper grip, drive with the hips",
+        "answer_line": "Deeper grip + explosive hip drive",
         "distractors": {
           "plausible": [
-            "Pull with arm strength alone",
-            "Stall until they gas out"
+            "Slow, steady arm-only pressure",
+            "Wait for a cleaner opening"
           ],
           "trap": [
-            "Unpin the elbow to crank harder"
+            "Unpin the elbow, whip the arm"
           ]
         }
       },
@@ -601,14 +601,14 @@
         "question": "When should you prioritize tapping over continued escape attempts?",
         "answer": "Tap immediately when: the figure-four grip is fully secured with your elbow pinned against the attacker's body and rotation has passed 45 degrees behind your back, you feel sharp or structural pain in the shoulder indicating you are at the anatomical limit, you cannot generate any meaningful defensive movement or positional change, or your energy is depleted and continued resistance only delays the inevitable while increasing injury risk. In training, always err on the side of early tapping—the crucifix Kimura has one of the highest injury rates when defended past the point of no return.",
         "safety_critical": true,
-        "answer_line": "Grip locked, elbow pinned, past 45°",
+        "answer_line": "Tap at the point of no return",
         "distractors": {
           "plausible": [
-            "Tap at first hint of pressure",
-            "Wait for the ref to stop it"
+            "Tap only when you can't breathe",
+            "Exhaust every escape first"
           ],
           "trap": [
-            "Fight through sharp joint pain"
+            "Fight through the sharp pain"
           ]
         }
       },

@@ -402,14 +402,14 @@
         "question": "Why is the Omoplata considered particularly dangerous for training partners with pre-existing shoulder injuries or instability?",
         "answer": "The Omoplata applies rotational force and external rotation pressure directly to the shoulder joint and rotator cuff complex, which are commonly injured areas in grappling. Partners with previous shoulder dislocations often have permanent instability and reduced tolerance for rotational pressure, meaning they can suffer re-injury with much less force than someone with healthy shoulders. Additionally, rotator cuff injuries may not be fully healed even after returning to training, and the Omoplata's specific pressure vector can re-tear partially healed tissue. Training partners must communicate shoulder injury history, and practitioners should avoid finishing Omoplatas on partners with shoulder issues.",
         "safety_critical": true,
-        "answer_line": "Rotational force re-injures joint",
+        "answer_line": "Rotational force on the shoulder",
         "distractors": {
           "plausible": [
-            "Only bruises the nearby muscle",
-            "Elbow ligaments take the strain"
+            "Hyperextends the shoulder backward",
+            "Strains the elbow ligaments"
           ],
           "trap": [
-            "Finish harder if they feel tight"
+            "Just a harmless muscle stretch"
           ]
         }
       },

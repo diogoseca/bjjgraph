@@ -388,14 +388,14 @@
         "question": "What is the correct response if your training partner goes limp or stops responding during application of this choke?",
         "answer": "Release ALL pressure immediately and place them on their side in recovery position. Check for consciousness by calling their name and gently shaking their shoulder. If unconscious, they will typically regain consciousness within 10-20 seconds once pressure is released. Monitor their breathing and keep them on their side. If they do not regain consciousness within 20-30 seconds, or show signs of seizure, call for medical assistance immediately. Never leave an unconscious training partner unattended. After recovery, have them sit out for the remainder of the round.",
         "safety_critical": true,
-        "answer_line": "Release, recovery position",
+        "answer_line": "Release the choke immediately",
         "distractors": {
           "plausible": [
-            "Sit them upright right away",
-            "Loosen slightly, hold position"
+            "Release, then leave to find help",
+            "Release and prop them upright"
           ],
           "trap": [
-            "Wait and see if they wake up"
+            "Keep squeezing until they tap"
           ]
         }
       },
@@ -602,14 +602,14 @@
         "question": "Why is it essential to tap early when caught in a fully locked North-South Choke?",
         "answer": "The North-South Choke is a bilateral blood choke that compresses both carotid arteries simultaneously, restricting blood flow to the brain. Once fully locked, unconsciousness can occur within 4-8 seconds. Unlike joint locks where you have some time to assess the pressure and escape, blood chokes give very little warning before causing blackout. Repeated episodes of training unconsciousness carry cumulative neurological risk. Tapping early preserves your health and allows you to train another day and improve your defensive timing.",
         "safety_critical": true,
-        "answer_line": "Blood choke: blackout in seconds",
+        "answer_line": "Blood choke — blackout in seconds",
         "distractors": {
           "plausible": [
-            "Same warning time as a joint lock",
-            "Pain warns you before you go out"
+            "Airway closes, you can't breathe",
+            "Sharp pain warns before damage"
           ],
           "trap": [
-            "Ride it out to build toughness"
+            "You can safely ride it out"
           ]
         }
       },

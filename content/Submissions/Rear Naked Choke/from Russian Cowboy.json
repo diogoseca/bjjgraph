@@ -340,14 +340,14 @@
         "question": "What is the most dangerous placement error when applying the choking arm and how do you correct it?",
         "answer": "Placing the forearm across the trachea instead of against the side of the neck is the most dangerous error. Trachea compression causes extreme pain, potential cartilage damage, and does not effectively restrict blood flow to the brain—meaning the opponent suffers injury without the choke actually working. Correct by positioning the blade of the forearm flat against the lateral neck with the elbow crook centered directly under the chin, so the squeeze closes bicep and forearm against both carotid arteries.",
         "safety_critical": true,
-        "answer_line": "Blade on carotids, crook under chin",
+        "answer_line": "Forearm blade on side of neck",
         "distractors": {
           "plausible": [
-            "Crook of elbow beside the jaw",
-            "Squeeze hard first, adjust after"
+            "Wedge the wrist up under the jaw",
+            "Center your elbow on the sternum"
           ],
           "trap": [
-            "Open the legs to sit up and squeeze"
+            "Release and re-grip for depth"
           ]
         }
       },

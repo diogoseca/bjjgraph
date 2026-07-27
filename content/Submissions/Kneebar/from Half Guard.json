@@ -375,14 +375,14 @@
         "question": "What specific injuries can result from improperly applied kneebars, and why is progressive pressure application critical?",
         "answer": "Improperly applied kneebars (particularly when jerked or spiked rapidly) can cause: posterior cruciate ligament (PCL) tears requiring 6-12 months recovery with surgery, medial collateral ligament (MCL) damage requiring 4-8 weeks recovery, patellar tendon strains or ruptures requiring 3-6 months recovery, and meniscus tears that may require surgery. Progressive pressure application (3-5 seconds minimum) is critical because knee ligaments have relatively poor proprioception compared to other joints—the pain response is delayed, meaning injury can occur before the person realizes they need to tap. Slow application gives the nervous system time to register danger and allows the training partner adequate time to recognize the submission and tap safely.",
         "safety_critical": true,
-        "answer_line": "Slow pressure spares PCL and MCL",
+        "answer_line": "Ease in slowly — no early warning",
         "distractors": {
           "plausible": [
-            "Knee warns you before it tears",
-            "Bruises only; ligaments are safe"
+            "Mainly threatens the ACL",
+            "Sharp pain signals before damage"
           ],
           "trap": [
-            "Spike it fast for a quick tap"
+            "Crank fast; they'll tap in time"
           ]
         }
       },

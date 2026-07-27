@@ -377,14 +377,14 @@
     {
       "question": "What distinguishes a leg entanglement from an individual leg lock technique?",
       "answer": "A leg entanglement is the positional framework—the configuration of legs, hips, and connection points that controls a limb—whereas a leg lock is the finishing submission applied from within that established position.",
-      "answer_line": "Framework vs the finishing move",
+      "answer_line": "Position vs finish",
       "distractors": {
         "plausible": [
-          "Same thing, different names",
-          "Entanglement is the submission"
+          "Entry motion vs submission",
+          "Legal vs banned technique"
         ],
         "trap": [
-          "Crank the lock with no position"
+          "Crank before you control"
         ]
       }
     },

@@ -629,14 +629,14 @@
         "question": "Why is it both dangerous and ineffective to finish the chin strap as a sideways neck crank?",
         "answer": "Torquing the head sideways loads the cervical spine and risks serious neck injury while strong opponents simply ride out the pain; finishing as a blood choke by rotating to close the carotid is both safer and far more reliable.",
         "safety_critical": true,
-        "answer_line": "Rotate to seal carotid, no crank",
+        "answer_line": "Loads spine; tough guys ride it out",
         "distractors": {
           "plausible": [
-            "Sideways pressure just tires you",
-            "It only works on smaller partners"
+            "Carotid choke is less reliable",
+            "Crank works if you're strong enough"
           ],
           "trap": [
-            "Twist the head hard to force it"
+            "Jump to guard to crank it tighter"
           ]
         }
       }

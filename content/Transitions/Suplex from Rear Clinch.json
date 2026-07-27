@@ -364,14 +364,14 @@
       {
         "question": "What are the critical safety considerations when drilling the suplex with a training partner?",
         "answer": "Always use adequate mat padding and ensure sufficient clear space around the drilling area. Begin with cooperative partners who assist the lift and practice controlled landings before adding resistance. Communicate clearly about intensity level and landing direction before each repetition. Never attempt overhead throws onto hard surfaces. The thrower must maintain grip throughout the landing to control descent speed and protect both practitioners from impact injuries.",
-        "answer_line": "Pad mats, cooperative reps first",
+        "answer_line": "Control the landing on padded mats",
         "distractors": {
           "plausible": [
-            "Wear a mouthguard and knee pads",
-            "Rely on partner to breakfall"
+            "A firm surface is fine when careful",
+            "Release grip once they're airborne"
           ],
           "trap": [
-            "Release grip mid-throw to reset"
+            "Go full speed to make it realistic"
           ]
         }
       }

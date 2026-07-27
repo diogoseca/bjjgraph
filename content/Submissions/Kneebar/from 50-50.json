@@ -643,14 +643,14 @@
         "question": "At what point should you tap rather than continue defending the kneebar in training?",
         "answer": "Tap immediately when you feel the attacker's hip bone positioned directly across your knee joint and they begin extending their hips with your foot secured in their armpit. Once all five control points are established (foot capture, hip alignment, leg entanglement, upper body control, and hip extension), escape probability drops below 10% and continuing to resist risks severe ligament damage. In training, tapping at the point of no escape is the correct decision—it preserves your knees for decades of training ahead.",
         "safety_critical": true,
-        "answer_line": "Hip crosses knee, hips extending",
+        "answer_line": "When hips extend across your knee",
         "distractors": {
           "plausible": [
-            "Once you feel the first ache",
-            "When your partner calls the sub"
+            "As soon as your foot is captured",
+            "Once the leg entanglement locks"
           ],
           "trap": [
-            "Ride it out and hunt a reversal"
+            "Kick your free leg to break loose"
           ]
         }
       },

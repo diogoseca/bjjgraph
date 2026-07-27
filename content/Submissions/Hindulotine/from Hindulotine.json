@@ -364,14 +364,14 @@
         "question": "How should you immediately respond if your training partner goes limp during a Hindulotine attempt?",
         "answer": "Release all grip pressure immediately without any hesitation. Place the partner in the recovery position on their side, elevate their legs, and monitor their breathing and consciousness. Do not shake them or attempt to wake them aggressively. If they do not regain consciousness within 20-30 seconds, call for medical assistance immediately. Never reapply the choke in the same training session after a loss of consciousness event.",
         "safety_critical": true,
-        "answer_line": "Release, recovery position",
+        "answer_line": "Release the grip instantly",
         "distractors": {
           "plausible": [
             "Sit them straight upright",
-            "Resume rolling once awake"
+            "Shake them hard to wake them"
           ],
           "trap": [
-            "Hold grip, check consciousness"
+            "Hold until they finally tap"
           ]
         }
       },

@@ -653,14 +653,14 @@
         "question": "Your opponent has completed the roll and is transitioning to the finishing position - what body mechanics prevent the submission from being applied?",
         "answer": "Keep your elbow bent at maximum flexion and pull your hand toward your own chest or shoulder, creating a defensive frame that resists extension. Simultaneously, turn your body toward the attacker and attempt to get your trapped elbow to the mat on the attacker's hip side, which removes the angle needed for hyperextension. Pinch your knees together toward the attacker and attempt to stack forward to compress their finishing structure. The combination of bent arm, body rotation toward attacker, and forward pressure can neutralize the finishing mechanics long enough to work an escape.",
         "safety_critical": false,
-        "answer_line": "Bend arm, turn in, elbow to mat",
+        "answer_line": "Bend elbow tight, hand to chest",
         "distractors": {
           "plausible": [
-            "Pull straight back away from them",
-            "Grip your own lapel and wait"
+            "Rotate away from the attacker",
+            "Kick legs free before framing"
           ],
           "trap": [
-            "Turn away and extend the arm"
+            "Straighten arm to pull it free"
           ]
         }
       },

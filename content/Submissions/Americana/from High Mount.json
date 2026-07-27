@@ -424,14 +424,14 @@
         "question": "What grip adjustments are needed if the opponent has unusually flexible shoulders?",
         "answer": "Against flexible opponents, the standard paint stroke arc may not generate enough rotational pressure to force the tap. Adjust by driving the wrist further toward the hip rather than stopping at the standard finishing point, extending the arc of rotation. You can also increase the leverage by lifting your elbow slightly to create a steeper downward angle on the wrist while keeping their elbow pinned. If flexibility prevents the finish entirely, use the Americana attempt as a setup to chain into armbar or transition to mounted triangle, as their flexibility defense still commits their arm to a vulnerable position.",
         "safety_critical": false,
-        "answer_line": "Extend the arc toward their hip",
+        "answer_line": "Drive wrist further toward hip",
         "distractors": {
           "plausible": [
-            "Slide their wrist toward their ear",
-            "Squeeze the figure-four tighter"
+            "Bend their wrist toward the head",
+            "Drop your elbow to flatten angle"
           ],
           "trap": [
-            "Crank past their shoulder's limit"
+            "Release the elbow pin to muscle it"
           ]
         }
       },

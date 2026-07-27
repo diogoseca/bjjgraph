@@ -387,14 +387,14 @@
         "question": "What is the primary safety concern when applying the Darce Choke from Overhook Control in training?",
         "answer": "The primary safety concern is the speed of unconsciousness onset. Because the Darce compresses both carotid arteries simultaneously, unconsciousness can occur within 8-12 seconds of full compression, sometimes faster. Training partners may not recognize the severity before losing consciousness. Always apply pressure progressively over 3-5 seconds minimum, maintain constant communication, and release immediately upon any tap signal. Never hold the choke after a tap, as the compression effect continues for seconds after release.",
         "safety_critical": true,
-        "answer_line": "Blackout in seconds, ramp slowly",
+        "answer_line": "Blackout can happen in seconds",
         "distractors": {
           "plausible": [
-            "Trapped shoulder is the main risk",
-            "Partner taps before any danger"
+            "Crushing the windpipe",
+            "Neck crank on the spine"
           ],
           "trap": [
-            "Squeeze full power on first grip"
+            "Slam on full pressure at once"
           ]
         }
       },

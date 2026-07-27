@@ -612,14 +612,14 @@
         "question": "When should you tap to the omoplata rather than continuing to fight the submission?",
         "answer": "Tap immediately if you feel sharp pain in the shoulder, if you feel a grinding or popping sensation in the joint, if your torso is completely flattened and the attacker has full hip control with no remaining escape options, or if the attacker begins applying finishing pressure and you cannot initiate any escape within 2-3 seconds. The shoulder joint can sustain permanent damage before you fully register the severity of the pressure. When in doubt, tap early - the position can be restarted in training but a damaged shoulder cannot.",
         "safety_critical": true,
-        "answer_line": "Sharp pain or grinding, escape gone",
+        "answer_line": "Tap at first sharp shoulder pain",
         "distractors": {
           "plausible": [
-            "Wait until you lose the underhook",
-            "Tap only if you cannot breathe"
+            "Wait until the shoulder fully locks",
+            "Tap only once the arm goes numb"
           ],
           "trap": [
-            "Explode away once it is deep"
+            "Explode out to rip the arm free"
           ]
         }
       },

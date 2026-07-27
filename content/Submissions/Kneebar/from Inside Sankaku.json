@@ -531,14 +531,14 @@
         "question": "When should you tap to a kneebar from Inside Sankaku rather than continuing to escape?",
         "answer": "Tap immediately when you feel the attacker's hips driving forward against the back of your knee with your ankle secured and your knee beginning to extend beyond its comfortable range. The knee joint provides less proprioceptive warning than the elbow, meaning by the time you feel significant pain structural damage may already be occurring. If you cannot bend your knee against the attacker's extension pressure and your ankle is fully trapped, the kneebar is locked and tapping is the only safe response.",
         "safety_critical": true,
-        "answer_line": "Can't bend knee, ankle trapped",
+        "answer_line": "Ankle trapped, knee can't bend",
         "distractors": {
           "plausible": [
-            "Tap when your hips lift off mat",
-            "Only if both hands are pinned"
+            "As soon as your foot is caught",
+            "When you can't spin toward the leg"
           ],
           "trap": [
-            "Wait for sharp pain to tap"
+            "When sharp knee pain hits"
           ]
         }
       },

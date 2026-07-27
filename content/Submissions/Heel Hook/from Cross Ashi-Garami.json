@@ -621,14 +621,14 @@
         "question": "What creates the best escape windows when defending the heel hook from Cross Ashi-Garami?",
         "answer": "The best escape windows occur when the attacker loosens their leg control to adjust grips, reposition their body, or transition to another entanglement position like Saddle. Watch for moments when their inside hook loses depth behind your hip or their outside cross becomes less tight. These transitional moments create space for leg extraction or counter-entanglement. Attempting escape against tight control wastes energy and risks injury.",
         "safety_critical": false,
-        "answer_line": "When they loosen grip to adjust",
+        "answer_line": "When they loosen control to adjust",
         "distractors": {
           "plausible": [
-            "Once the figure-four is set",
-            "While they squeeze hardest"
+            "When their inside hook digs deeper",
+            "Right after they lock the heel in"
           ],
           "trap": [
-            "Rip the leg out under rotation"
+            "Flatten onto your back to bridge"
           ]
         }
       },

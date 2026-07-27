@@ -388,14 +388,14 @@
         "question": "What are the critical safety protocols when applying the Short Choke in training?",
         "answer": "Apply pressure slowly and progressively, never jerking or spiking the choke. Monitor your training partner continuously for tap signals including verbal taps, hand taps on any surface, and foot taps. Release immediately upon any signal and check on your partner after release. Never apply the choke at full speed in drilling situations. If your partner goes limp or becomes unresponsive, release immediately, place them in recovery position with legs slightly elevated, and seek medical attention if they do not regain consciousness within fifteen seconds.",
         "safety_critical": true,
-        "answer_line": "Apply slow, watch for taps, release",
+        "answer_line": "Slow pressure, release on any tap",
         "distractors": {
           "plausible": [
-            "Wait for them to say stop",
-            "Drill it only with higher belts"
+            "Only stop on a verbal tap",
+            "Start firm, then ease off slowly"
           ],
           "trap": [
-            "Spike it fast to end the drill"
+            "Crank fast to test the tap"
           ]
         }
       },

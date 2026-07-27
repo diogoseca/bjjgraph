@@ -408,14 +408,14 @@
       {
         "question": "What is the most common reason practitioners fail to complete this transition against resisting opponents?",
         "answer": "The most common failure is rushing to insert hooks before establishing complete upper body control and hip blocking. Practitioners feel the positional advantage of being on top of turtle and immediately try to get hooks in, skipping the seatbelt and hip block steps. This allows the opponent to easily defend with sit-backs, granby rolls, or standup attempts. The solution is disciplined adherence to the top-down control progression: chest pressure first, seatbelt second, hip block third, and only then begin hook insertion. Patience in each phase dramatically increases completion rate.",
-        "answer_line": "Rushing hooks, skipping seatbelt",
+        "answer_line": "Inserting hooks before control",
         "distractors": {
           "plausible": [
-            "Too much chest pressure early",
-            "Weak grip on the wrists"
+            "Secure hip block before seatbelt",
+            "Start with the seatbelt grip"
           ],
           "trap": [
-            "Assume top position is enough"
+            "Reach for the choke first"
           ]
         }
       }

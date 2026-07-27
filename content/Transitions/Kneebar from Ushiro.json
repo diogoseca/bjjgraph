@@ -545,14 +545,14 @@
       {
         "question": "When should you consider tapping rather than continuing to defend the kneebar from ushiro?",
         "answer": "Tap when the attacker has achieved full perpendicular alignment with knees pinched and is bridging with your ankle locked tight against their chest, especially if your knee is pointing toward the ceiling and you cannot rotate it inward. Also tap immediately if you feel any sharp pain, popping sensation, or significant pressure on the knee joint. Kneebars can cause serious ligament damage and the risk of injury is never worth prolonged resistance against a fully established position.",
-        "answer_line": "Perpendicular, bridging, locked",
+        "answer_line": "Tap at sharp pain, pop, or pressure",
         "distractors": {
           "plausible": [
-            "Only when knee cracks audibly",
-            "After one last escape attempt"
+            "Only once the knee is fully locked",
+            "The moment they catch your foot"
           ],
           "trap": [
-            "Push through sharp pain"
+            "Tough it out and keep escaping"
           ]
         }
       }

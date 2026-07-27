@@ -346,14 +346,14 @@
         "question": "What are the indicators that you have reached the point of no escape when finishing the Americana from Modified Mount?",
         "answer": "The point of no escape occurs when three conditions are simultaneously met: the figure-four grip is fully connected with elbows squeezed tight, the opponent's elbow is pinned firmly to the mat with no upward or lateral movement possible, and the wrist has traveled past the midpoint of the arc toward their hip. Once the wrist passes the midpoint, the opponent cannot generate enough strength to reverse the rotational direction because the lever mechanics favor the attacker exponentially. At this point, the only safe response is tapping. Recognizing this point matters for safety - the submission is essentially locked in and any additional force risks injury.",
         "safety_critical": true,
-        "answer_line": "Wrist past midpoint, elbow pinned",
+        "answer_line": "Elbow pinned, wrist past midpoint",
         "distractors": {
           "plausible": [
-            "Figure-four grip is locked only",
-            "They have stopped struggling"
+            "Figure-four grip fully connected",
+            "Opponent stops bridging"
           ],
           "trap": [
-            "Elbow lifts off mat - crank on"
+            "Both hands on arm, weight lifts up"
           ]
         }
       },

@@ -314,14 +314,14 @@
         "question": "What are the minimum safety requirements before attempting this choke in training?",
         "answer": "You must ensure your partner has at least one hand free to tap, apply pressure progressively over 3-5 seconds minimum (never explosive), watch for all tap signals including verbal and physical taps, and immediately release all pressure when partner taps. Additionally, you should only practice this technique with partners who understand proper defensive protocols and tapping etiquette.",
         "safety_critical": true,
-        "answer_line": "Free hand, slow build, watch taps",
+        "answer_line": "Release the instant partner taps",
         "distractors": {
           "plausible": [
-            "Warm up the neck beforehand",
-            "A verbal tap alone is enough"
+            "Both hands must stay free to tap",
+            "Hold 3-5 seconds, then let go"
           ],
           "trap": [
-            "Pin both arms before squeezing"
+            "Crank fast to force the tap"
           ]
         }
       },
@@ -359,14 +359,14 @@
         "question": "How do you properly finish the Buggy Choke in terms of body mechanics and pressure application?",
         "answer": "The finish comes from full body engagement, not just arm strength. Drive your shoulder into the side of their neck while pulling with your arms, engage your core and lat muscles, extend your hips slightly for leverage, and maintain your angled position with your head on the opposite side. The pressure should be progressive and continuous, creating compression from multiple angles simultaneously. Squeeze as if trying to touch your shoulder to your opposite hip while keeping everything tight.",
         "safety_critical": false,
-        "answer_line": "Shoulder drive plus hip extension",
+        "answer_line": "Full-body squeeze, not arm strength",
         "distractors": {
           "plausible": [
-            "Pure arm squeeze, no body",
-            "One explosive yank on the neck"
+            "Crank with arms only for the tap",
+            "Extend hips hard, then pull arms"
           ],
           "trap": [
-            "Turn belly-down to crank harder"
+            "Square up and flatten to finish"
           ]
         }
       },
@@ -554,14 +554,14 @@
         "question": "How should you release the Buggy Choke finish safely after receiving a tap signal?",
         "answer": "Open the hand-to-shin connection and drop your knee immediately upon any tap signal, removing all loop pressure from the neck and releasing the trapped head. Do not gradually reduce pressure or finish the squeeze. Maintain positional awareness after release to ensure your partner is responsive and oriented. If they appear disoriented or unresponsive, place them in recovery position and alert the instructor immediately.",
         "safety_critical": true,
-        "answer_line": "Open loop, drop knee instantly",
+        "answer_line": "Open grip, drop knee immediately",
         "distractors": {
           "plausible": [
-            "Ease off pressure gradually",
-            "Keep head trapped, ask if OK"
+            "Ease the squeeze off gradually",
+            "Let go and reset for next round"
           ],
           "trap": [
-            "Squeeze once more before letting go"
+            "Wait for a verbal tap too"
           ]
         }
       },

@@ -332,14 +332,14 @@
         "question": "What are the indicators that your opponent is approaching their structural breaking point during the toe hold finish?",
         "answer": "Key indicators include sudden involuntary muscular tension in the opponent's leg as their body reflexively resists the rotation, audible gasps or sharp inhalations indicating acute pain onset, frantic grip-breaking attempts or pulling motions that increase in urgency, verbal distress signals or cursing, and visible facial grimacing. Critically, the toe hold's structural failure threshold is dangerously close to its pain threshold, meaning damage can begin at the same moment the opponent first feels significant pain. At the first sign of these indicators, be prepared for an immediate tap and release.",
         "safety_critical": true,
-        "answer_line": "Tension, gasps, frantic escape",
+        "answer_line": "Involuntary tension + sharp gasps",
         "distractors": {
           "plausible": [
-            "They stop moving to rest",
-            "Only a verbal tap counts"
+            "Opponent goes limp and relaxes",
+            "Heavy sweating and fatigue"
           ],
           "trap": [
-            "Wait for the pop as your cue"
+            "Wait to hear the ligament pop"
           ]
         }
       },

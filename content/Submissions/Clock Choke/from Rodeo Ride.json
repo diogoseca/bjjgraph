@@ -550,14 +550,14 @@
         "question": "When should you tap to a Clock Choke to prevent injury?",
         "answer": "Tap as soon as you feel bilateral pressure on both sides of your neck and cannot execute an escape. Blood chokes can cause unconsciousness within 8-12 seconds of full application, and there is no benefit to waiting until the last moment. If the collar grip is deep, the walking arc is past your head, and the attacker is sprawled with weight through the grip, the choke is structurally complete. Tap clearly using hand taps, foot taps, or verbal submission. If your hands are trapped, use foot taps or verbal signals immediately. Never try to tough out a locked blood choke.",
         "safety_critical": true,
-        "answer_line": "Tap when squeezed with no escape",
+        "answer_line": "Both sides pressing, no escape",
         "distractors": {
           "plausible": [
-            "Tap only when it hurts sharply",
-            "Tap only if the arm goes numb"
+            "When only one side clamps",
+            "The moment the collar sinks in"
           ],
           "trap": [
-            "Hold on until you feel faint"
+            "Tough it out and defend the grip"
           ]
         }
       },

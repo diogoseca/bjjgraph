@@ -602,14 +602,14 @@
         "question": "What common defensive mistake most often leads to injury in this position?",
         "answer": "The most dangerous mistake is attempting to explosively posture up or muscle out against a fully locked omoplata with hip control. When the attacker has tight leg control and your shoulder is already loaded under rotational pressure, a sudden forceful postural change can spike the rotational force on the shoulder joint, causing acute injury to the rotator cuff or labrum. Instead, focus on incremental positional improvements or accept the tap if escape options have genuinely closed.",
         "safety_critical": true,
-        "answer_line": "Explosive posture against lock",
+        "answer_line": "Muscling out of a locked omoplata",
         "distractors": {
           "plausible": [
-            "Freezing and not defending",
-            "Flailing your free arm around"
+            "Flattening out to relieve pressure",
+            "Freezing instead of moving early"
           ],
           "trap": [
-            "Rolling hard away from the attacker"
+            "Turning your back to spin free"
           ]
         }
       },

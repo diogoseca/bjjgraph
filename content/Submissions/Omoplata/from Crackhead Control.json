@@ -339,14 +339,14 @@
         "question": "What are the three most common finishing errors and what underlying cause do they share?",
         "answer": "The three most common errors are leaning backward instead of driving the chest forward toward the mat, failing to control the far hip which allows the forward roll escape, and creating space between your thigh and the opponent's shoulder which permits arm extraction. All three share a common root cause of insufficient body positioning discipline during the finishing sequence, typically caused by rushing to finish rather than methodically establishing each control point.",
         "safety_critical": false,
-        "answer_line": "Rushing, poor position discipline",
+        "answer_line": "Rushing instead of methodical",
         "distractors": {
           "plausible": [
-            "Gripping too tightly, fatigue",
-            "Bad angle, wrong leg position"
+            "Not enough squeezing power",
+            "Gassing out mid-finish"
           ],
           "trap": [
-            "Crank harder when it stalls"
+            "Lean back to crank harder"
           ]
         }
       },

@@ -376,14 +376,14 @@
     {
       "question": "Why is sustained compression far more effective than a momentary squeeze?",
       "answer": "Its effect is cumulative. Each restricted breath forces the defender to expand the ribcage against your weight, compounding fatigue and oxygen debt over minutes until exhaustion and breathing distress force the tap.",
-      "answer_line": "Cumulative fatigue builds over time",
+      "answer_line": "Each blocked breath stacks O2 debt",
       "distractors": {
         "plausible": [
-          "One violent crank ends it sooner",
-          "Sharp pain, not lack of air, taps"
+          "Steady pain mounts to the tap",
+          "Slowly cuts off the blood flow"
         ],
         "trap": [
-          "Post on hands to crush harder"
+          "One max squeeze ends it fast"
         ]
       }
     },

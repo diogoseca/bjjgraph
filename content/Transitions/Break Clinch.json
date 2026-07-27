@@ -503,14 +503,14 @@
       {
         "question": "What is the most effective moment to counter a clinch break attempt with a snap-down?",
         "answer": "The optimal moment is during the push-off phase when the opponent extends their arms to create distance and shifts their weight backward. At this point, their head is relatively forward compared to their hips, their arms are extended and functioning as levers you can redirect, and their backward momentum amplifies the downward force of your snap. Executing the snap-down before this moment fails because the opponent's weight is centered, and executing it after fails because they have already created too much distance.",
-        "answer_line": "Snap during their push-off",
+        "answer_line": "As they extend arms to push off",
         "distractors": {
           "plausible": [
-            "Snap the instant you clinch",
-            "Snap when they stand neutral"
+            "Before they shift weight back",
+            "Once they've fully separated"
           ],
           "trap": [
-            "Snap after they clear the clinch"
+            "Dive forward to chase the break"
           ]
         }
       },

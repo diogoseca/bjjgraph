@@ -596,14 +596,14 @@
         "question": "Why is it dangerous to attempt a powerful leg straightening movement against an established toe hold?",
         "answer": "Explosive leg extension against a locked toe hold concentrates force through the already-compromised ankle joint and midfoot structures. The rotational lock on the foot means extension adds a secondary vector of force that can tear the lateral ankle ligaments and damage the Lisfranc joint complex simultaneously. The movement happens faster than your nervous system can register pain, so structural damage occurs before you feel the need to tap.",
         "safety_critical": true,
-        "answer_line": "Second force vector tears ligaments",
+        "answer_line": "Ankle tears before pain warns you",
         "distractors": {
           "plausible": [
-            "Eases pressure off the ankle",
-            "Threatens only the knee joint"
+            "It overloads the knee ligaments",
+            "It makes the grip harder to break"
           ],
           "trap": [
-            "Nothing risky, just rip it free"
+            "Kick your leg straight to rip free"
           ]
         }
       }

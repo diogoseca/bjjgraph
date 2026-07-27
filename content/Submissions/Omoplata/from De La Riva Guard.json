@@ -570,14 +570,14 @@
         "question": "What is the safest way to tap to the omoplata from De La Riva Guard?",
         "answer": "Tap clearly and immediately using your free hand on the opponent's body or the mat, accompanied by a verbal tap. Do not wait until maximum pain to tap, as the shoulder joint reaches its injury threshold quickly once the finishing pressure is applied. If your hands are trapped, use a foot tap or verbal signal. In training, tapping early preserves your shoulder for continued practice. The omoplata can cause rotator cuff tears and labrum damage that require months of recovery or surgery.",
         "safety_critical": true,
-        "answer_line": "Tap early, hand or mat or voice",
+        "answer_line": "Tap early with hand or voice",
         "distractors": {
           "plausible": [
-            "Wait until it really hurts",
-            "Never use your feet to signal"
+            "Slap your own hip quietly",
+            "Nod to signal you give up"
           ],
           "trap": [
-            "Try to power out instead"
+            "Wait for maximum pain to tap"
           ]
         }
       },

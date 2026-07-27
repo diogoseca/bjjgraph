@@ -392,14 +392,14 @@
         "question": "What safety precautions must you observe when applying the arm triangle from Kuzure Kesa-Gatame?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always leave at least one of their hands free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp or stops responding, release immediately, position them on their side in recovery position, and monitor breathing until they regain consciousness.",
         "safety_critical": true,
-        "answer_line": "Ramp pressure slow, hand free",
+        "answer_line": "Release instantly on any tap",
         "distractors": {
           "plausible": [
-            "Jerk it on fast to stop escape",
-            "Pin both wrists for full control"
+            "Keep your own hand free",
+            "Lay them flat on their back"
           ],
           "trap": [
-            "Squeeze until they go limp"
+            "Crank hard for a quick finish"
           ]
         }
       },

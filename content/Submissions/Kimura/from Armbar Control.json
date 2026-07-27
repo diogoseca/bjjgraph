@@ -555,14 +555,14 @@
         "question": "When should you tap to the Kimura from Armbar Control to prevent injury?",
         "answer": "Tap as soon as you feel the internal rotation of your shoulder reaching the limit of your comfortable range of motion. Do not wait for pain, as shoulder damage often occurs before significant pain registers. If the figure-four is locked, the elbow is pinned, and the rotation has begun, the mechanical advantage is overwhelmingly in the attacker's favor. Tapping early in training preserves your shoulder health and allows you to train the next day.",
         "safety_critical": true,
-        "answer_line": "When rotation nears your limit",
+        "answer_line": "Tap at comfortable rotation limit",
         "distractors": {
           "plausible": [
-            "Only once pain becomes sharp",
-            "Only if the elbow also hurts"
+            "Tap once the figure-four is locked",
+            "Tap when your elbow gets pinned"
           ],
           "trap": [
-            "Hold on and hunt for an escape"
+            "Wait for sharp pain, then tap"
           ]
         }
       },

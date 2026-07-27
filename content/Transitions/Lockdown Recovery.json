@@ -374,14 +374,14 @@
       {
         "question": "What direction of force should your legs generate once the figure-four Lockdown is established?",
         "answer": "Your legs should generate force in two simultaneous directions: squeeze inward with your knees to clamp their leg tightly and prevent extraction, while extending your feet downward and away from your body to straighten their trapped leg. This combination of inward squeeze and linear extension creates a vise effect that hyperextends their knee slightly and immobilizes the hip joint. The extension force is the primary control mechanism - without it, the opponent can curl their leg and extract from the triangle configuration.",
-        "answer_line": "Squeeze in, extend legs out",
+        "answer_line": "Squeeze knees, extend feet away",
         "distractors": {
           "plausible": [
             "Pull both knees toward chest",
-            "Rotate hips and go slack"
+            "Drive feet up toward your hip"
           ],
           "trap": [
-            "Kick free and release the hook"
+            "Release the hook and kick out"
           ]
         }
       }

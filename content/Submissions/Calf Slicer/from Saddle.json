@@ -267,14 +267,14 @@
         "question": "What anatomical structures does the calf slicer from saddle primarily attack?",
         "answer": "The calf slicer primarily compresses the gastrocnemius and soleus muscles of the calf against your shin bone, which acts as a fulcrum behind the knee crease. Secondary stress is placed on the Achilles tendon as the foot is folded, and the knee joint itself experiences hyperflexion pressure. The combination of muscular compression and joint stress creates the pain compliance that forces the tap.",
         "safety_critical": false,
-        "answer_line": "Calf muscle against shin bone",
+        "answer_line": "Calf muscles crushed on the shin",
         "distractors": {
           "plausible": [
-            "Achilles tendon takes the load",
-            "Knee ligaments stretched apart"
+            "Hamstring at the back of thigh",
+            "Ankle joint as the foot folds"
           ],
           "trap": [
-            "Crank the knee to force the tap"
+            "Nerve pinch, only goes numb"
           ]
         }
       },

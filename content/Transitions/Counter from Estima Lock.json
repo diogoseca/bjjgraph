@@ -262,14 +262,14 @@
       {
         "question": "Your opponent tightens their Estima Lock grip and you feel increasing pressure on your ankle—what signals indicate you should tap rather than continue escaping?",
         "answer": "Tap immediately when you experience sharp pain in the ankle joint or Achilles tendon, feel the ankle being twisted beyond normal range of motion, lose the ability to counter-rotate effectively, or recognize that the opponent's mechanical completion of the lock leaves no viable escape angle. Preserving joint health and training longevity always takes priority over escaping any single submission attempt.",
-        "answer_line": "Tap: sharp pain, no escape angle",
+        "answer_line": "Sharp pain or ankle at end range",
         "distractors": {
           "plausible": [
-            "Tap only if the joint pops",
-            "Tap the instant they grab the foot"
+            "Only tap when the knee feels pain",
+            "Escape fully before you tap"
           ],
           "trap": [
-            "Power through, extract anyway"
+            "Tough it out; only quitters tap"
           ]
         }
       },

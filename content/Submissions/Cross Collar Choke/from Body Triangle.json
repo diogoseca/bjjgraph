@@ -367,14 +367,14 @@
         "question": "Why is it dangerous to apply this choke at full speed during training, and what is the proper application speed?",
         "answer": "Blood chokes can cause unconsciousness in as little as 3-4 seconds when properly applied to both carotid arteries. At full competition speed, a training partner may not have adequate time to recognize the choke is locked and signal a tap before losing consciousness. The proper training application speed is 3-5 seconds minimum, with progressive pressure that gives the partner clear opportunity to tap.",
         "safety_critical": true,
-        "answer_line": "Apply slow, 3-5 seconds minimum",
+        "answer_line": "Slow, progressive over 3-5s",
         "distractors": {
           "plausible": [
-            "Match the pace of live rolling",
-            "One-count squeeze is enough"
+            "Lock it fully, then release",
+            "Rely on the tap to stop"
           ],
           "trap": [
-            "Full speed lets partner react faster"
+            "Cinch both carotids at full speed"
           ]
         }
       }

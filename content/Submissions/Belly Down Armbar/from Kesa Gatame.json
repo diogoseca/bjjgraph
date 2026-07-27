@@ -296,14 +296,14 @@
         "question": "What anatomical structure does the belly down armbar from Kesa Gatame primarily attack?",
         "answer": "The primary target is the elbow joint, specifically hyperextending it against its natural range of motion. The submission creates pressure on the ulnar collateral ligament and the joint capsule by using hip extension as a fulcrum against the back of the elbow while the wrist is controlled and lifted. Secondary stress is placed on the biceps tendon as it resists the forced extension under the attacker's full body weight.",
         "safety_critical": false,
-        "answer_line": "Elbow hyperextension",
+        "answer_line": "Elbow joint",
         "distractors": {
           "plausible": [
-            "Shoulder capsule",
-            "Rotator cuff tendons"
+            "Shoulder joint",
+            "Wrist joint"
           ],
           "trap": [
-            "Neck, crank via head control"
+            "Neck / cervical spine"
           ]
         }
       },

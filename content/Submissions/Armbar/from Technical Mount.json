@@ -395,14 +395,14 @@
       {
         "question": "Your opponent grabs their own hand to form a gable grip defense while you have the armbar nearly locked — what is your response?",
         "answer": "Against a gable grip, use a figure-four grip break by securing their wrist with both hands and rotating toward the thumb side, which attacks the weakest point of the grip. Alternatively, drive your hips forward while stacking their gripped hands toward their face to create an angle that makes grip maintenance impossible. You can also peel individual fingers starting with the pinky side for grip separation. If the grip remains unbreakable after 10-15 seconds, consider switching to a mounted triangle by threading your leg under their chin while they commit both hands to grip defense, or return to Technical Mount control and reattempt when a better opening presents itself.",
-        "answer_line": "Figure-four break toward thumb",
+        "answer_line": "Figure-four wrist, rotate to thumb",
         "distractors": {
           "plausible": [
-            "Pull straight back on the grip",
-            "Wait it out, keep hips up"
+            "Peel fingers from index side first",
+            "Abandon arm, switch to triangle"
           ],
           "trap": [
-            "Open your knees to muscle it"
+            "Drop flat and crank the arm hard"
           ]
         }
       },

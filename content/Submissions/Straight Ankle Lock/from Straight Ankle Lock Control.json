@@ -794,14 +794,14 @@
         "question": "Why is pulling your leg straight out against the attacker's knee squeeze a dangerous defensive mistake?",
         "answer": "Pulling straight out drives the Achilles tendon harder into the attacker's fulcrum point (wrist bone or forearm edge), actually increasing the compression force on the tendon. Additionally, the straight pull feeds directly into the attacker's squeeze mechanics, potentially tightening their leg triangle around your trapped limb. Instead, you must first displace the fulcrum through knee rotation or break the heel grip before attempting any extraction movement.",
         "safety_critical": true,
-        "answer_line": "Drives tendon into the fulcrum",
+        "answer_line": "Drives Achilles into the fulcrum",
         "distractors": {
           "plausible": [
-            "It only tires your hamstring",
-            "It breaks your own hand grips"
+            "Cranks your knee into a kneebar",
+            "Flattens you for the leg pass"
           ],
           "trap": [
-            "Rip the leg out with force"
+            "Surrenders the heel to a heel hook"
           ]
         }
       },

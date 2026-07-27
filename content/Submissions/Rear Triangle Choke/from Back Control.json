@@ -320,14 +320,14 @@
         "question": "What is the minimum time you should take to apply full pressure when finishing this choke in training, and why?",
         "answer": "You must take a minimum of 4-6 seconds to apply full pressure when finishing the triangle choke from back control in training. This extended time window is critical because blood chokes can cause unconsciousness very quickly once properly applied, and your training partner needs adequate time to recognize the danger, decide to tap, and execute the tap signal. Rapid application of pressure as used in competition does not allow this safety window. The slow, progressive application also allows you to feel the technique's mechanics properly and gives your partner the opportunity to work defensive techniques safely.",
         "safety_critical": true,
-        "answer_line": "4-6 seconds for a safety window",
+        "answer_line": "Take at least 4-6 seconds",
         "distractors": {
           "plausible": [
-            "Half that time is plenty",
-            "Speed is fine if they can tap"
+            "Two seconds is enough",
+            "Just long enough to feel it"
           ],
           "trap": [
-            "Crank it fast, they'll tap"
+            "Clamp full force immediately"
           ]
         }
       },

@@ -353,14 +353,14 @@
         "question": "Describe the proper body angle for finishing the Brabo Choke and explain why this angle is mechanically superior to staying parallel with the opponent?",
         "answer": "The optimal finishing angle is perpendicular to the opponent's spine, with your chest across their upper back and your head near their far shoulder. This perpendicular angle creates a scissoring effect where your forearm compresses the near-side carotid while your shoulder drives into the side of their neck, pressing their own shoulder against the far-side carotid. The mechanical advantage comes from using your entire body weight and shoulder pressure rather than just arm strength. Parallel positioning loses this leverage and allows opponent to defend by turning into you or posturing up.",
         "safety_critical": false,
-        "answer_line": "Perpendicular, chest across back",
+        "answer_line": "Perpendicular to their spine",
         "distractors": {
           "plausible": [
-            "Parallel, chest to chest",
-            "Angle your head toward their hips"
+            "Stay parallel, chest to chest",
+            "Aim your head toward their feet"
           ],
           "trap": [
-            "Roll to your back to squeeze"
+            "Release grip, spin to the back"
           ]
         }
       },

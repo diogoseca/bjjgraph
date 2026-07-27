@@ -631,14 +631,14 @@
         "question": "Why is it dangerous to bridge away from the trapped arm when defending the Mir Lock?",
         "answer": "Bridging away from the trapped arm increases the distance between your torso and the captured arm, which opens the shoulder angle and actually makes the hyperextension worse. The Mir Lock works by creating external rotation combined with backward leverage - bridging away amplifies this mechanical disadvantage. Instead, you should bridge and turn toward the trapped arm side, which closes the angle between your arm and torso, reduces the hyperextension force, and potentially allows you to roll into the attacker to disrupt their base and grip structure.",
         "safety_critical": true,
-        "answer_line": "Opens the angle, worsens the lock",
+        "answer_line": "Opens shoulder angle, worsens crank",
         "distractors": {
           "plausible": [
-            "Burns energy and tires you out",
-            "Gives up your back"
+            "Slackens grip, lets arm escape",
+            "Flattens you for the mount"
           ],
           "trap": [
-            "It is safe, it relieves pressure"
+            "Roll away to spin out"
           ]
         }
       },

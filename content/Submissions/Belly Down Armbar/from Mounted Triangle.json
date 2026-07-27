@@ -513,14 +513,14 @@
         "question": "Why is it critical to tap early once the attacker reaches full belly-down position with proper hip placement?",
         "answer": "The belly-down position creates enormous mechanical advantage over the elbow joint. The attacker's full body weight drives through the hips into the elbow while the wrist is lifted, generating hyperextension force that can damage the ulnar collateral ligament and joint capsule faster than most practitioners can process the pain and signal a tap. Resisting once the position is fully established risks serious and potentially permanent elbow injury.",
         "safety_critical": true,
-        "answer_line": "Leverage outpaces your reaction",
+        "answer_line": "Injury outruns your reaction time",
         "distractors": {
           "plausible": [
-            "Pain gives plenty of warning",
-            "Your partner will ease off"
+            "The shoulder is the joint at risk",
+            "The ache warns you before damage"
           ],
           "trap": [
-            "Flex hard and power the arm out"
+            "Power out of the locked armbar"
           ]
         }
       },
@@ -543,14 +543,14 @@
         "question": "How should you signal the tap when caught in the belly down armbar from mounted triangle?",
         "answer": "Use any available method immediately: verbal tap by clearly saying 'tap,' physical hand tap on the attacker's body or the mat with your free hand, or foot tap on the mat with either leg. If your free hand is trapped or out of position, use verbal and foot taps simultaneously. Do not wait to see if you can escape once significant pressure is applied to the elbow.",
         "safety_critical": true,
-        "answer_line": "Verbal, hand, or foot tap",
+        "answer_line": "Tap immediately, any method",
         "distractors": {
           "plausible": [
-            "Only a hand tap counts",
-            "Wait for the coach to call it"
+            "Free the trapped hand, then signal",
+            "Verbal first, then foot if ignored"
           ],
           "trap": [
-            "Hold on and try to power free"
+            "Pat your own hip lightly"
           ]
         }
       },

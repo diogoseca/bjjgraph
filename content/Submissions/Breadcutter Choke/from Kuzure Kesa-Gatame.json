@@ -533,14 +533,14 @@
         "question": "How do you recognize the Breadcutter Choke is being set up from Kuzure Kesa-Gatame?",
         "answer": "The primary recognition cue is the attacker releasing their near-side hand from controlling your trapped arm or hips. You will feel a reduction in arm isolation pressure followed by fabric movement at your collar as their hand threads across. Their weight shifts forward toward your head. The moment you feel the collar tightening against the back of your neck, the grip is being set and you must act immediately.",
         "safety_critical": false,
-        "answer_line": "Near hand releases, collar tightens",
+        "answer_line": "Near hand leaves arm, threads collar",
         "distractors": {
           "plausible": [
-            "Their base leg steps over you",
-            "Chest pressure suddenly drops off"
+            "Weight drives onto your chest harder",
+            "Far arm digs under your neck"
           ],
           "trap": [
-            "Ignore it, arm control still there"
+            "No warning until the choke lands"
           ]
         }
       },

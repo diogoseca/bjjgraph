@@ -394,11 +394,11 @@
         "answer_line": "Clear grapevines before bridging",
         "distractors": {
           "plausible": [
-            "Trap the arm first, ignore legs",
-            "Hip escape out instead"
+            "Set the foot trap first",
+            "Trap the arm, then bridge"
           ],
           "trap": [
-            "Bridge anyway, they take back"
+            "Turn to your knees to escape"
           ]
         }
       },

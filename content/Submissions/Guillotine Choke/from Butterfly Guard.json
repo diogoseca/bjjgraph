@@ -402,14 +402,14 @@
         "question": "How should you immediately release the Guillotine Choke after your training partner taps?",
         "answer": "Immediately release all choking arm pressure by opening your grip and removing your arm from around the opponent's neck. Lower your hooks so they can move freely. If the partner appears dazed or was close to unconsciousness, help them to a seated position and monitor their breathing and consciousness. Do not celebrate or move away before confirming your partner is fully alert and responsive.",
         "safety_critical": true,
-        "answer_line": "Open grip, pull arm out at once",
+        "answer_line": "Open grip, unwrap arm from neck",
         "distractors": {
           "plausible": [
-            "Loosen slightly, keep hooks in",
-            "Ease off slowly while locked"
+            "Release then back off to reset",
+            "Gently taper off the pressure"
           ],
           "trap": [
-            "Hold the choke a beat longer"
+            "Finish the squeeze, then release"
           ]
         }
       },

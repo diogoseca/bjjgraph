@@ -392,14 +392,14 @@
         "question": "Why must the inside heel hook always be applied slowly in training, and what specific injuries result from fast application?",
         "answer": "The inside heel hook must always be applied slowly because the knee joint has virtually no proprioceptive feedback for rotational stress—the defender cannot feel progressive tightening the way they can with a shoulder lock or choke. Fast application causes complete MCL and ACL tears, meniscus destruction, and potential LCL damage in under one second. These injuries require surgical reconstruction (ACL replacement using hamstring or patellar tendon graft) and 9-12 months of rehabilitation. A single explosive crank in training can end a partner's competitive career permanently. There is zero justification for fast application in any training context.",
         "safety_critical": true,
-        "answer_line": "No warning; ligaments tear fast",
+        "answer_line": "Knee can't sense the rotational load",
         "distractors": {
           "plausible": [
-            "Slow only needed for white belts",
-            "Heel hooks mainly stress the ankle"
+            "Ankle is the joint being torn",
+            "You feel it tighten before harm"
           ],
           "trap": [
-            "Crank fast, release on the tap"
+            "Partner will tap in time"
           ]
         }
       },

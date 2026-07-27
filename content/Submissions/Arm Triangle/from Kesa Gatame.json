@@ -386,14 +386,14 @@
         "question": "How should you adjust your grip if the opponent's neck is thicker and the standard figure-four feels loose?",
         "answer": "Switch from the standard figure-four grip to a deeper gable grip with palms pressed together behind the opponent's head. The gable grip provides a tighter configuration that compensates for thicker necks by reducing slack. You can also walk further toward the opponent's head to increase the compression angle, and focus on expanding your chest rather than squeezing your arms. For very thick necks, ensuring the arm is driven as high as possible against the neck before locking the grip creates a shorter choking distance.",
         "safety_critical": false,
-        "answer_line": "Switch to a deep gable grip",
+        "answer_line": "Deeper gable grip, palms together",
         "distractors": {
           "plausible": [
-            "Squeeze the figure-four harder",
-            "Back away to make room"
+            "Squeeze the arms tighter",
+            "Switch to an S-grip, hook fingers"
           ],
           "trap": [
-            "Sit up tall to crank the neck"
+            "Release one hand to reset grip"
           ]
         }
       },
@@ -401,14 +401,14 @@
         "question": "What safety precautions must you observe when applying the Arm Triangle from Kesa Gatame?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always ensure at least one of the opponent's hands is free for tapping. Release immediately upon any tap signal including verbal, hand tap, or foot tap. If the opponent goes limp or stops resisting suddenly, release immediately and position them in recovery posture on their side with legs elevated. Never hold a blood choke after the tap in training.",
         "safety_critical": true,
-        "answer_line": "Ramp slowly, release on any tap",
+        "answer_line": "Release instantly on any tap",
         "distractors": {
           "plausible": [
-            "Rely on hearing them say stop",
-            "Keep both their arms pinned"
+            "Trap both arms for a tighter lock",
+            "Sit them up if they pass out"
           ],
           "trap": [
-            "Jerk the squeeze to finish fast"
+            "Crank hard for a fast finish"
           ]
         }
       },

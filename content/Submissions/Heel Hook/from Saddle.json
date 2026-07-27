@@ -377,14 +377,14 @@
         "question": "How should you adjust your finishing mechanics when the opponent attempts to straighten their trapped leg to relieve rotational pressure?",
         "answer": "When the opponent straightens their leg, maintain your grip configuration and increase hip pressure to prevent them from extending fully. Use your inside leg to hook behind their knee and pull it back into a bent position, which restores the lever mechanics needed for the finish. If they succeed in fully extending, consider transitioning to a kneebar attack which becomes higher percentage against a straightened leg, then re-attack the heel hook when they re-bend to defend the kneebar.",
         "safety_critical": false,
-        "answer_line": "Hook behind knee to re-bend it",
+        "answer_line": "Hook the knee, re-bend the leg",
         "distractors": {
           "plausible": [
-            "Yank the foot to force flexion",
-            "Squeeze knees to trap the shin"
+            "Crank the heel harder to finish",
+            "Switch to a kneebar right away"
           ],
           "trap": [
-            "Abandon inside position to re-grip"
+            "Release grips to reposition"
           ]
         }
       },
@@ -407,14 +407,14 @@
         "question": "In competition, what indicators tell you the heel hook is reaching the finishing threshold and the opponent is about to tap?",
         "answer": "Key indicators include: the opponent's body suddenly tensing or stiffening as rotational pressure reaches the joint, frantic increase in grip-fighting intensity as they recognize the position is lost, their free leg beginning to flail or post desperately rather than making technical defensive movements, and audible changes such as sharp breathing or involuntary vocalization. At this point, maintain steady pressure without increasing force—the submission is working and additional force only increases injury risk.",
         "safety_critical": true,
-        "answer_line": "Body stiffens, frantic grip fighting",
+        "answer_line": "Body suddenly tenses and stiffens",
         "distractors": {
           "plausible": [
             "Breathing slows and steadies",
-            "Free leg makes technical frames"
+            "Free leg relaxes and goes still"
           ],
           "trap": [
-            "Crank harder once they panic"
+            "Ease off pressure to confirm tap"
           ]
         }
       },

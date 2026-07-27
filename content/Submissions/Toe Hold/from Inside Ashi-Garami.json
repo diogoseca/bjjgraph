@@ -573,14 +573,14 @@
         "question": "In competition when you need to finish quickly, what adjustment increases finishing speed while maintaining control?",
         "answer": "In competition, accelerate the finish by establishing all control points simultaneously rather than sequentially. Enter with hip connection already tight, begin grip fighting while your legs are still securing position, and start the heel pull immediately upon establishing the figure-four. The rotation can be faster (2-3 seconds rather than 5-7) but must still be smooth - never jerky. The key acceleration comes from eliminating dead time between steps, not from applying pressure faster. Maintain constant forward hip drive throughout to prevent any space from developing. Your posture should remain high so you can drive body weight through the submission if needed.",
         "safety_critical": false,
-        "answer_line": "Set all control points at once",
+        "answer_line": "Establish all controls at once",
         "distractors": {
           "plausible": [
-            "Skip hip connection to save time",
-            "Grip fight before securing legs"
+            "Apply pressure faster each step",
+            "Secure each control point in turn"
           ],
           "trap": [
-            "Snap the finish, lose the grip"
+            "Break hip contact to move faster"
           ]
         }
       },

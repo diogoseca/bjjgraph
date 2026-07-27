@@ -661,14 +661,14 @@
         "question": "At what stage of the rolling omoplata attack does tapping become the safest option rather than continuing to defend?",
         "answer": "Tapping becomes the safest option once the attacker has achieved all three finishing criteria: their hips are perpendicular to your spine with direct pressure on your shoulder joint, your arm is fully extended and you cannot retract it or grip your clothing, and their leg across your head prevents you from turning or posturing. At this point, continued resistance primarily risks shoulder injury rather than creating viable escape opportunities. The shoulder joint can fail catastrophically with minimal additional pressure once these conditions are met. In training, tapping at this stage preserves your training longevity - no technique is worth a torn rotator cuff or dislocated shoulder. In competition, the same calculation applies unless the match stakes justify the injury risk.",
         "safety_critical": true,
-        "answer_line": "All three finish criteria met",
+        "answer_line": "Shoulder loaded, arm extended, stuck",
         "distractors": {
           "plausible": [
-            "When their leg crosses your head",
-            "Once you are flattened out"
+            "When they first grab your wrist",
+            "As their leg crosses your head"
           ],
           "trap": [
-            "Wait until the arm goes numb"
+            "Wait until it starts to hurt"
           ]
         }
       },

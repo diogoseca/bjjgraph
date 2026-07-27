@@ -341,14 +341,14 @@
         "question": "At what point during the Bow and Arrow sequence does the choke become effectively inescapable for the defender?",
         "answer": "The choke becomes nearly inescapable once three conditions are met simultaneously: the collar grip is deep behind the neck with the lapel taut across the throat, the pants grip is secured at the knee preventing rotation, and the top leg is hooked behind the opponent's thigh with initial extension begun. Once all three control points are locked and extension begins, the defender's available defensive responses drop dramatically because they cannot address the collar, pants grip, and leg hook simultaneously. Before this triple-lock is achieved, the defender still has realistic escape windows.",
         "safety_critical": false,
-        "answer_line": "Collar, pants, leg hook locked",
+        "answer_line": "Triple-lock set, extension begins",
         "distractors": {
           "plausible": [
-            "Once collar grip is deep",
-            "Once leg hook is set"
+            "Deep collar, lapel taut on throat",
+            "Pants grip at knee secured"
           ],
           "trap": [
-            "After you let go of both hooks"
+            "Release collar to lock the leg"
           ]
         }
       },

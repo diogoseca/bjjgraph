@@ -311,14 +311,14 @@
         "question": "Your opponent starts extracting their trapped arm during the grip transition from scarf hold - what adjustment prevents the escape?",
         "answer": "Immediately increase chest pressure downward onto the arm before it clears your body. If the arm is partially out, abandon the arm triangle transition and return to standard scarf hold control by re-wrapping the head and re-isolating the near arm. Do not chase a half-escaped arm with a loose arm triangle grip. Once you re-establish scarf hold, threaten americana again to force the arm back across their throat line, then reattempt the transition with tighter chest pressure pinning the arm before releasing your head wrap.",
         "safety_critical": false,
-        "answer_line": "Drive chest down onto the arm",
+        "answer_line": "Drive chest down to pin the arm",
         "distractors": {
           "plausible": [
-            "Sit up and re-wrap the head",
-            "Squeeze the choke harder now"
+            "Re-isolate the far arm first",
+            "Reattempt the arm triangle now"
           ],
           "trap": [
-            "Chase the arm with a loose grip"
+            "Release the head to grab the arm"
           ]
         }
       },
@@ -431,14 +431,14 @@
         "question": "What distinguishes a properly applied blood choke from a neck crank in the arm triangle from scarf hold, and how do you ensure correct application?",
         "answer": "A proper blood choke compresses the carotid arteries on both sides of the neck without significant pressure on the trachea or cervical spine. You ensure correct application by walking to full perpendicular angle so the opponent's shoulder drives into the lateral neck, not the front. Your forearm blade should cross the back of their neck with pressure directed toward the opposite carotid, not downward into the spine. If the opponent reports throat pressure rather than a squeezing sensation on the sides of their neck, adjust your angle by walking further around. The chest compression should feel like a vice closing from both sides of their neck simultaneously.",
         "safety_critical": true,
-        "answer_line": "Shoulder drives into side of neck",
+        "answer_line": "Walk to a fully perpendicular angle",
         "distractors": {
           "plausible": [
-            "Forearm crushes the windpipe",
-            "Elbow wedged under their chin"
+            "Stay square and chest-to-chest",
+            "Squeeze hard before the angle"
           ],
           "trap": [
-            "Torque the head into the spine"
+            "Twist their head to force the tap"
           ]
         }
       }
@@ -624,14 +624,14 @@
         "question": "What are the most common defensive errors that allow the arm triangle transition from scarf hold?",
         "answer": "The most common error is instinctively pulling your near arm across your own neck when defending americana attempts from scarf hold, which directly creates the trapped-arm position the arm triangle requires. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is passively waiting too long to defend, missing the critical 2-3 second transition window when the attacker switches grips and is most vulnerable to arm retraction.",
         "safety_critical": false,
-        "answer_line": "Pulling your arm across your neck",
+        "answer_line": "Pulling near arm across your neck",
         "distractors": {
           "plausible": [
-            "Framing on their hip",
-            "Turning in to your knees"
+            "Keeping both hands flat on the mat",
+            "Flaring your far elbow outward"
           ],
           "trap": [
-            "Turning face-down to your belly"
+            "Bench-pressing the choke off you"
           ]
         }
       }

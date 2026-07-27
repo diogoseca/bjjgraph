@@ -379,14 +379,14 @@
         "question": "What distinguishes the finishing mechanics of the Kimura from Scarf Hold compared to the Kimura from side control?",
         "answer": "The perpendicular angle of scarf hold changes the rotational vector of the finish. In side control, the attacker typically lifts the elbow vertically while driving the wrist toward the mat in a parallel plane. From scarf hold, the natural torque follows the T-shaped body configuration, allowing the attacker to paint the hand behind the opponent's back along an arc assisted by gravity and body weight rather than opposing them. This geometric advantage means less physical strength is needed because the perpendicular angle creates a more mechanically efficient lever path.",
         "safety_critical": false,
-        "answer_line": "Perpendicular angle, less strength",
+        "answer_line": "Arc hand behind back, gravity aids",
         "distractors": {
           "plausible": [
-            "Lift elbow vertically, not arc",
-            "Push wrist toward mat, not arc"
+            "Lift elbow up, drive wrist to mat",
+            "Muscle wrist down in parallel plane"
           ],
           "trap": [
-            "Sit up tall and muscle the crank"
+            "Torque hand toward opponent's head"
           ]
         }
       },
@@ -607,14 +607,14 @@
         "question": "How can you exploit the attacker's commitment to the kimura to improve your defensive position?",
         "answer": "When the attacker releases head control to secure the figure-four, they sacrifice one of the three pillars of scarf hold control. This creates a window for bridge-and-roll escape because their posting base is compromised while both hands are occupied with the submission grip. If you can deny the wrist grip and bridge explosively during this transition, you can force a scramble or recover closed guard. The attacker's focus on the submission creates tunnel vision that makes positional escapes more available than during standard scarf hold control.",
         "safety_critical": false,
-        "answer_line": "Bridge-roll when head control drops",
+        "answer_line": "Bridge-and-roll as head grip frees",
         "distractors": {
           "plausible": [
-            "Wait for full rotation to escape",
-            "Push their head with free hand"
+            "Wait for the figure-four to lock",
+            "Post the free hand and sit up"
           ],
           "trap": [
-            "Stall until the kimura locks in"
+            "Turn in toward the kimura shoulder"
           ]
         }
       }

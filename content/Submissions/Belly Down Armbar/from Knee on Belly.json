@@ -520,14 +520,14 @@
         "question": "Why is it critical to tap early when caught in a fully secured belly down armbar?",
         "answer": "The belly-down position creates significantly more mechanical advantage than a standard supine armbar because gravity, hip drive, and bilateral knee compression all work together. The elbow reaches its breaking point much faster than in a standard armbar, and the extreme leverage means that even a brief delay between recognizing the submission and tapping can result in ligament damage or fracture. Tap as soon as you feel full extension beginning and cannot free your arm.",
         "safety_critical": true,
-        "answer_line": "Breaking point arrives much faster",
+        "answer_line": "Extreme leverage breaks it instantly",
         "distractors": {
           "plausible": [
-            "Shoulder gives out before elbow",
-            "Same pressure as a normal armbar"
+            "Wait for full extension to tap",
+            "Shoulder gives out before elbow"
           ],
           "trap": [
-            "Stall and grip-fight until it slips"
+            "Rip your arm free before tapping"
           ]
         }
       },

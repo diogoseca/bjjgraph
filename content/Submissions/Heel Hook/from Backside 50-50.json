@@ -631,14 +631,14 @@
         "question": "When is it appropriate to tap to a heel hook from Backside 50-50 rather than continue defending?",
         "answer": "Tap immediately if you feel the rotational mechanism lock in with proper body angle and grip configuration. Heel hooks provide minimal warning pain before causing structural knee damage to the MCL, LCL, and meniscus. In training, tap when the grip is locked and body angle is configured for finishing even before full force is applied. In competition, tap when you feel the breaking pressure engage and your counter-rotation is insufficient to relieve it. There is no benefit to defending a fully locked heel hook past the point where the mechanism has engaged. Protecting your knee for long-term training is more valuable than any single round or match outcome.",
         "safety_critical": true,
-        "answer_line": "Tap once the lock is set",
+        "answer_line": "Tap the instant the hook locks in",
         "distractors": {
           "plausible": [
-            "Wait for sharp pain to build",
-            "Keep defending until grip breaks"
+            "Try to escape the leg first",
+            "Gut it out in training, tap in comp"
           ],
           "trap": [
-            "Explode out and hope it slips"
+            "Wait for sharp pain before tapping"
           ]
         }
       },

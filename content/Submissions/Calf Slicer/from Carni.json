@@ -560,14 +560,14 @@
         "question": "Why is it dangerous to delay your tap when caught in a calf slicer?",
         "answer": "The calf slicer produces a compression-type pain that builds gradually rather than generating the sharp immediate pain of joint locks. This means significant tissue damage to the calf muscle, Achilles tendon, and surrounding nerves can occur before you register the full severity of the pressure. Muscle tears and tendon strains may already be in progress by the time you feel the need to tap, making early tapping essential for long-term training health.",
         "safety_critical": true,
-        "answer_line": "Damage starts before pain does",
+        "answer_line": "Gradual pain masks real damage",
         "distractors": {
           "plausible": [
-            "The nerves go numb under pressure",
-            "Compression cuts blood flow first"
+            "Sudden pain spike gives no warning",
+            "It cuts blood flow to the foot"
           ],
           "trap": [
-            "No harm until the pain gets sharp"
+            "Kick and rip your leg free"
           ]
         }
       },

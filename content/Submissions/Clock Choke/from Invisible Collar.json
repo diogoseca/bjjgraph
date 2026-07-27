@@ -323,14 +323,14 @@
         "question": "How should you release the Clock Choke from Invisible Collar after a tap?",
         "answer": "Immediately open your collar grip fingers and release the lapel material upon receiving any tap signal. Remove your body weight from the opponent's back by shifting your hips away and creating space. Do not maintain the walking position or far-side anchor grip. Allow your partner to recover in a neutral position without pressure or rushing. Check on their condition—ask if they are okay—before continuing training, especially if there was any delay between choke onset and the tap.",
         "safety_critical": true,
-        "answer_line": "Release lapel, take weight off",
+        "answer_line": "Release grip instantly on tap",
         "distractors": {
           "plausible": [
-            "Ease pressure but keep the grip",
-            "Roll them to side control first"
+            "Ease off the choke gradually",
+            "Open hands, stay heavy on back"
           ],
           "trap": [
-            "Hold pressure while asking if OK"
+            "Hold the choke a beat longer"
           ]
         }
       },

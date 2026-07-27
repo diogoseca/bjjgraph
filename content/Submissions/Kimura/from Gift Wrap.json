@@ -597,14 +597,14 @@
         "question": "How do you defend the Kimura without exposing your neck to choke attacks?",
         "answer": "Maintain awareness of neck protection even during Kimura defense. If you must commit your free arm to fighting the Kimura grip, compensate with passive neck defense by tucking your chin hard toward your chest and turning your jaw toward the shoulder on the choking side. Monitor whether the attacker is genuinely pursuing the Kimura or using it as a feint to set up the rear naked choke on your exposed neck.",
         "safety_critical": false,
-        "answer_line": "Tuck chin, turn jaw to shoulder",
+        "answer_line": "Tuck chin, protect neck too",
         "distractors": {
           "plausible": [
-            "Grip fight with both hands",
-            "Turn your face away from the mat"
+            "Jaw toward the far shoulder",
+            "Commit both arms to grip"
           ],
           "trap": [
-            "Release chin to fight the grip"
+            "Turn belly-down to escape"
           ]
         }
       }

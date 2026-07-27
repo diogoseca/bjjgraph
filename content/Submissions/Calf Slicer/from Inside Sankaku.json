@@ -564,14 +564,14 @@
         "question": "When should you tap to the calf slicer from inside sankaku rather than attempting further escape?",
         "answer": "Tap immediately when three conditions are met: (1) the attacker's shin is fully seated behind your knee crease in the popliteal fossa, (2) they have secured a firm two-on-one grip on your ankle or foot, and (3) they begin extending their hips forward to apply compression. Once all three are established, the submission develops extremely quickly and can cause serious structural injury within one to two seconds. There is no safe escape window once fully locked.",
         "safety_critical": true,
-        "answer_line": "Shin seated, grip set, hips drive",
+        "answer_line": "Once fully locked, hips compressing",
         "distractors": {
           "plausible": [
-            "Tap once they control your foot",
-            "Tap at first hint of discomfort"
+            "As soon as the shin slides in",
+            "Only once it becomes painful"
           ],
           "trap": [
-            "Rip your leg free once locked"
+            "Yank the leg free explosively"
           ]
         }
       },

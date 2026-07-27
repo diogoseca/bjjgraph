@@ -204,7 +204,7 @@ def process_file(path, model, effort, dry, reasons):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--model", default="claude-opus-4-8")
+    ap.add_argument("--model", default="claude-opus-5")
     ap.add_argument("--effort", default="high")
     ap.add_argument("--max-files", type=int, default=0)
     ap.add_argument("--file", action="append", default=[])

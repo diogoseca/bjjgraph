@@ -548,14 +548,14 @@
       {
         "question": "Your attacker begins threatening a rear naked choke between maintenance cycles—how does this change your escape strategy?",
         "answer": "The choke threat actually creates an escape opportunity if managed correctly. When the attacker commits their free arm to the choke attempt, their overall positional control temporarily decreases because they are redirecting attention toward the finish. Defend the choke with your free arm first, then immediately exploit the reduced positional control to attempt arm recovery or hip escape before they re-establish full maintenance.",
-        "answer_line": "Defend, then exploit the opening",
+        "answer_line": "Defend choke first, then escape",
         "distractors": {
           "plausible": [
-            "Wait for the choke threat to pass",
-            "Freeze and protect until it ends"
+            "Hip escape first, then block neck",
+            "Peel the grip with both hands"
           ],
           "trap": [
-            "Ignore the choke and drive hips out"
+            "Turn belly-down to bridge free"
           ]
         }
       },

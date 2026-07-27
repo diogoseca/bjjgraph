@@ -348,14 +348,14 @@
       {
         "question": "Your opponent straightens their arm explosively as you begin the wrap—what is the correct response?",
         "answer": "Convert immediately to armbar attack. Their defensive straightening actually exposes the arm for submission. Do not chase the Gift Wrap against an extended arm—the straightening is a mistake that creates a better submission opportunity. Secure the extended wrist, control the elbow, and transition to the armbar appropriate for their arm angle. Take what the opponent gives you.",
-        "answer_line": "Convert to an armbar attack",
+        "answer_line": "Immediately armbar the straight arm",
         "distractors": {
           "plausible": [
-            "Reset grips and retry the wrap",
-            "Push their arm back down to bend it"
+            "Isolate the elbow before attacking",
+            "Trap the wrist, then re-secure wrap"
           ],
           "trap": [
-            "Force the wrap on a straight arm"
+            "Keep forcing the wrap, lose the back"
           ]
         }
       },

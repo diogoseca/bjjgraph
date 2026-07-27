@@ -542,28 +542,28 @@
       {
         "question": "Your opponent has stepped over your leg but has not yet locked their feet - what is your best defensive action?",
         "answer": "Bring your far leg over the attacker's body and head to clear your knee past their leg configuration. This prevents the saddle from locking because the attacker cannot create the triangle entanglement if your knee clears their hip line. Simultaneously, push on their hips with your far foot to create separation. This requires hip mobility and timing, but it is the highest-percentage defense at this specific stage of the entry because it addresses the mechanical requirement of the lock itself.",
-        "answer_line": "Clear far leg over their head",
+        "answer_line": "Clear your knee over their leg",
         "distractors": {
           "plausible": [
-            "Sit up and grab their collar",
-            "Push their shoulders away"
+            "Free your near leg by kicking down",
+            "Sit up and hand-fight their feet"
           ],
           "trap": [
-            "Turn away and expose the heel"
+            "Roll toward the trapped leg"
           ]
         }
       },
       {
         "question": "Why is extending your leg to fight the step-over a common but dangerous defensive mistake?",
         "answer": "Extending the leg creates the exact space the attacker needs to thread their inside leg under yours for the entanglement. A straight leg provides a clear channel for the attacker's thigh to slide under, while also exposing the ankle to straight ankle lock attacks if the saddle entry fails. The correct response is the opposite: pull the knee to the chest and turn the hip away. A bent, retracted leg denies the threading space and the step-over angle simultaneously, addressing the root mechanics of the entry rather than fighting it linearly.",
-        "answer_line": "Straight leg opens the entry lane",
+        "answer_line": "Straight leg opens threading channel",
         "distractors": {
           "plausible": [
-            "It tires your hip flexors",
-            "It telegraphs your next escape"
+            "Speeds their step-over entry",
+            "Opens a lane to pass your guard"
           ],
           "trap": [
-            "Kick hard to break their grip"
+            "Bent knee invites the ankle lock"
           ]
         }
       },

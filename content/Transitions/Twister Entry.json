@@ -314,14 +314,14 @@
       {
         "question": "Your opponent begins a granby roll as they feel your hook entering — how do you respond?",
         "answer": "Ride the granby by maintaining chest-to-back contact and following their rotational momentum. Keep your seatbelt grip secure and drive your weight into them throughout the roll. The granby often deepens your hook naturally because the rotational force separates their legs during the movement. As the roll completes and the opponent settles, immediately pinch your figure-four tight and flatten them with chest pressure. The key is never disconnecting from their back during the roll — stay glued to them and use their movement to accelerate your entry rather than fighting against it.",
-        "answer_line": "Stay glued and follow the rotation",
+        "answer_line": "Ride the roll, stay chest-to-back",
         "distractors": {
           "plausible": [
-            "Post hard to halt their momentum",
-            "Bail on the hook and re-thread"
+            "Base out wide to stop the roll",
+            "Pause, let them settle first"
           ],
           "trap": [
-            "Push off mid-roll, they take top"
+            "Abandon seatbelt, hunt the legs"
           ]
         }
       },

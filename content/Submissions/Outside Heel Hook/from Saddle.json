@@ -399,14 +399,14 @@
         "question": "Your opponent commits both hands to strip your heel cup before you establish the figure-four—how do you respond?",
         "answer": "Use your free hand to fight for grip retention on the heel cup while recognizing that their two-handed grip fight has removed their ability to post with their free leg. Tighten your leg configuration to capitalize on their compromised base. If they successfully strip the heel cup, immediately re-engage hip pressure and reset to positional control rather than desperately chasing the grip. You can reattempt the heel cup from a stronger angle once you re-establish structural control.",
         "safety_critical": false,
-        "answer_line": "Fight grip, tighten leg control",
+        "answer_line": "Tighten legs, exploit broken base",
         "distractors": {
           "plausible": [
-            "Roll belly-down to break grips",
-            "Switch to a toe hold instead"
+            "Win the grip war with both hands",
+            "Force the figure-four immediately"
           ],
           "trap": [
-            "Let go of legs to two-hand it"
+            "Kick the leg free and stand up"
           ]
         }
       },
@@ -567,14 +567,14 @@
         "question": "What is the safest way to tap when caught in a fully locked outside heel hook?",
         "answer": "Tap verbally and physically simultaneously—say 'tap' clearly while physically tapping the attacker's body, the mat, or your own body with your hand. If your hands are trapped, tap with your free foot or use a clear verbal signal. Tap at the first sensation of rotational force loading your knee joint. Do not wait to feel pain, as knee ligament damage from heel hooks occurs before significant pain sensation. Any hesitation risks permanent injury.",
         "safety_critical": true,
-        "answer_line": "Tap verbally and physically at once",
+        "answer_line": "Tap early, verbal + physical at once",
         "distractors": {
           "plausible": [
-            "Tap the mat only, stay silent",
-            "Nod or shake head to signal"
+            "Slap the mat hard, skip the shout",
+            "Yell first, add the hand later"
           ],
           "trap": [
-            "Wait for pain before tapping"
+            "Wait until you feel pain to signal"
           ]
         }
       },

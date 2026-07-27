@@ -554,14 +554,14 @@
       {
         "question": "Your opponent strips your top grip on their choking arm and begins sliding it toward your chin—what is your immediate response?",
         "answer": "Immediately increase your chin tuck by driving your chin hard into your chest while simultaneously raising your shoulder on the choking side to create a physical wall. Use your remaining grip on their wrist to pull the arm down and away from your neck. With your freed hand, re-establish the two-on-one by gripping their forearm above your existing wrist grip. Do not attempt an escape at this moment—focus entirely on re-establishing hand control before the arm gets beneath your chin.",
-        "answer_line": "Tuck chin, wall with shoulder",
+        "answer_line": "Chin down, wall shoulder, regrip arm",
         "distractors": {
           "plausible": [
-            "Grip your own collar to block",
-            "Push their head back with a hand"
+            "Peel their grip over your head",
+            "Reach back to grab their head"
           ],
           "trap": [
-            "Bridge and roll to escape now"
+            "Bridge and roll to escape"
           ]
         }
       },

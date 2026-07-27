@@ -548,14 +548,14 @@
       {
         "question": "Why is extending the near-side arm the worst possible defensive response during this transition?",
         "answer": "Extending the arm straightens the elbow joint, which is exactly the position required for an armbar finish. A bent arm at 90 degrees or greater is exponentially harder to attack because the attacker must first break your grip and straighten the arm before applying the submission. By extending voluntarily—even to push the attacker's leg away—you bypass the entire grip-breaking phase and deliver your arm into the submission position. This is the single most common error that converts a survivable position into an immediate tap.",
-        "answer_line": "It straightens elbow for armbar",
+        "answer_line": "Straight elbow = the armbar finish",
         "distractors": {
           "plausible": [
-            "It costs you your collar grip",
-            "It tires the shoulder too fast"
+            "It sets up an easy kimura",
+            "It lets them pass to side control"
           ],
           "trap": [
-            "It's safe if you push fast enough"
+            "Rip the trapped arm out fast"
           ]
         }
       }

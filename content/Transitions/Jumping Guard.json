@@ -407,14 +407,14 @@
       {
         "question": "How should you assess whether your training partner is a safe candidate for drilling jumping guard at full speed?",
         "answer": "Evaluate your partner on several safety factors: they should be of similar or larger size than you, as jumping onto significantly smaller partners creates injury risk for both; they should have stable base and strong enough legs to absorb your jumping weight without buckling or falling backward dangerously; they should understand the drill protocol including agreed resistance levels and know not to attempt slams or explosive counters during early training phases; they should be free from knee, back, or shoulder injuries that could be aggravated by absorbing impact; and they should be experienced enough to recognize when the technique is failing and not resist in ways that create awkward landing angles. Always communicate clearly about resistance levels before beginning and check in after the first few repetitions.",
-        "answer_line": "Equal/larger size, stable, protocol",
+        "answer_line": "Stable base that won't buckle",
         "distractors": {
           "plausible": [
-            "Match only your own belt rank",
-            "Choose a much smaller partner"
+            "Only that they've trained a while",
+            "Agree on resistance mid-drill"
           ],
           "trap": [
-            "Skip protocol, go full speed"
+            "Skip checks and drill at full speed"
           ]
         }
       }

@@ -421,14 +421,14 @@
         "question": "What is the proper release protocol after a training partner taps to this choke?",
         "answer": "Immediately release the choking arm upon any tap signal without applying even one additional second of pressure. Remove your body weight by lifting off the mount position. Release leg control on trapped arms. Guide your partner gently to a side-lying position. Monitor their consciousness, breathing, and orientation for at least 30 seconds. If they lost consciousness at any point, keep them lying down with legs slightly elevated until fully alert and oriented. Never allow a recently choked partner to stand immediately, as blood pressure changes can cause secondary loss of consciousness.",
         "safety_critical": true,
-        "answer_line": "Release instantly, then monitor",
+        "answer_line": "Release the choke instantly on tap",
         "distractors": {
           "plausible": [
-            "Hold weight until they recover",
-            "Roll away and start next round"
+            "Slowly ease off the grip",
+            "Sit them upright to recover"
           ],
           "trap": [
-            "Add a second of pressure post-tap"
+            "Have them stand and walk it off"
           ]
         }
       },

@@ -645,14 +645,14 @@
         "question": "At what point during the Japanese Necktie setup does the defense become extremely low percentage, and what should you do if you reach that point?",
         "answer": "The defense becomes extremely low percentage once all three conditions are met: the arm trap is fully consolidated with your shoulder pressed against your neck, the attacker has achieved the perpendicular body angle, and their grip configuration is locked. Once these elements converge and the attacker begins hip extension, the choke will compress both carotid arteries simultaneously and unconsciousness follows within seconds. If you reach this point, you must tap immediately rather than attempting a last-second escape. Fighting through a fully locked Japanese Necktie risks losing consciousness before you can tap, which is dangerous for both training partners. Recognition of this point of no return is a critical safety skill.",
         "safety_critical": true,
-        "answer_line": "Tap once all three lock in",
+        "answer_line": "Tap the moment it locks in",
         "distractors": {
           "plausible": [
-            "Pull the trapped arm free first",
-            "Wait for their grip to slip"
+            "Bridge and roll away hard",
+            "Peel the wrist grip loose"
           ],
           "trap": [
-            "Ride it out and sleep, never tap"
+            "Wait for the choke to loosen"
           ]
         }
       },

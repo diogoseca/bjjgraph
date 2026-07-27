@@ -318,14 +318,14 @@
         "question": "How do you transition from the seat belt grip to choking arm position without losing back control?",
         "answer": "Before releasing the seat belt hand connection, use the under-arm to pin or strip the opponent's near-side defending hand. Then release the over-arm from the seat belt while maintaining tight chest-to-back pressure. Slide the over-arm forearm along its existing pathway toward the neck — the arm is already positioned over the shoulder, so the transition is a continuation of the existing line rather than a withdrawal and re-entry. Throughout this transition, hooks must remain deep and chest contact must stay constant to prevent the opponent from exploiting the momentary grip change.",
         "safety_critical": false,
-        "answer_line": "Pin their hand, then slide arm",
+        "answer_line": "Strip the defending hand first",
         "distractors": {
           "plausible": [
-            "Reach over the top of the head",
-            "Lock a body triangle first"
+            "Release over-arm, then grab neck",
+            "Withdraw arm and re-enter to neck"
           ],
           "trap": [
-            "Open your hooks to reach the neck"
+            "Let go of both grips to reset"
           ]
         }
       },

@@ -410,14 +410,14 @@
         "question": "In competition, how do you set up the Bow and Arrow from Rodeo Ride using the Clock Choke as a feint?",
         "answer": "Threaten the Clock Choke by walking toward the opponent's head with your near-side hand gripping their collar. Most experienced opponents will defend by tucking their chin aggressively and protecting the near-side collar with both hands. This defensive commitment turns their head away from you and exposes the far-side collar—exactly the grip you need for the Bow and Arrow. Thread the cross-collar grip on the exposed far side while they are occupied defending the Clock Choke threat, then transition to the bow and arrow configuration before they can readjust their defense.",
         "safety_critical": false,
-        "answer_line": "Clock Choke feint exposes far collar",
+        "answer_line": "Feint clock choke to bait far collar",
         "distractors": {
           "plausible": [
-            "Feint an armbar to open the lapel",
-            "Threaten a back take, then grip"
+            "Attack the near collar instead",
+            "Grip first, feint afterward"
           ],
           "trap": [
-            "Over-rotate to head, get rolled"
+            "Release hooks to spin for choke"
           ]
         }
       }

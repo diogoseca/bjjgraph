@@ -650,14 +650,14 @@
       {
         "question": "If a Granby roll escape attempt fails and you end up in Turtle, what position are you likely transitioning to?",
         "answer": "A failed Granby roll from Inside Sankaku typically transitions you to Turtle position with your opponent in a seated or kneeling position behind you, still potentially controlling your trapped leg. From here, you've escaped the immediate heel hook danger but face back exposure threats. The opponent may pursue back control or attempt to re-enter leg entanglements. Protect your neck and establish defensive grips to prevent seatbelt control while you work to recompose to guard.",
-        "answer_line": "Turtle facing back-take threats",
+        "answer_line": "Turtle, back exposed",
         "distractors": {
           "plausible": [
-            "Closed guard, safe reset",
-            "Top position off the scramble"
+            "Recover full guard",
+            "Stay in Inside Sankaku control"
           ],
           "trap": [
-            "Turn to face them immediately"
+            "Roll flat onto your back"
           ]
         }
       },

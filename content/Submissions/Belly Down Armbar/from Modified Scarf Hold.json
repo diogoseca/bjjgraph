@@ -596,14 +596,14 @@
         "question": "What should you do if you feel the arm is already being extended in the belly-down position?",
         "answer": "If extension has begun from a fully locked belly-down position, your priority shifts immediately from escape to personal safety. Tap using verbal and physical signals simultaneously without delay. The force generated from belly-down hip extension far exceeds what the elbow joint can safely resist. Attempting to fight through full extension from this position risks sudden catastrophic ligament failure that could require surgical repair and months of rehabilitation.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, stop fighting",
+        "answer_line": "Tap now — verbal and physical",
         "distractors": {
           "plausible": [
-            "Hitchhiker escape to the far side",
-            "Bridge and walk hips toward them"
+            "Wait to see if pressure eases",
+            "Yell tap, no need to slap"
           ],
           "trap": [
-            "Stack shoulder and muscle it out"
+            "Bridge and muscle the arm out"
           ]
         }
       }

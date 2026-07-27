@@ -381,14 +381,14 @@
       {
         "question": "What specific grip configuration must you clear before attempting the standup, and what is the priority order?",
         "answer": "Priority one is any grip that controls your collar, neck, or head, because these grips allow the opponent to snap you down or apply front headlock pressure during your standup. Priority two is any seatbelt or harness grip around your torso, because this controls your upper body rotation and enables back takes during your upward movement. Priority three is hip or belt grips that anchor your hips to the mat and prevent the elevation phase. You do not need to clear all grips before attempting standup, but the first two categories must be addressed. Use two-on-one grip breaks to strip the highest priority grip, then immediately initiate the standup before opponent can re-establish control.",
-        "answer_line": "Neck grip first, then seatbelt, hip",
+        "answer_line": "Clear collar/neck grip first",
         "distractors": {
           "plausible": [
-            "Belt anchor first, collar last",
-            "Break harness before collar tie"
+            "Start with the hip/belt grips",
+            "Clear every grip before standing"
           ],
           "trap": [
-            "Post out with collar still gripped"
+            "Elevate with seatbelt still on"
           ]
         }
       },

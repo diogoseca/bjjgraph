@@ -380,14 +380,14 @@
         "question": "Where should the gable grip sit relative to the opponent's jaw for maximum arterial compression?",
         "answer": "The gable grip should sit at the base of the opponent's jaw near the ear, where the carotid arteries pass closest to the skin surface. Gripping too low on the neck targets the trachea rather than the arteries, producing a slower airway choke that gives more escape time. Gripping too high near the chin misses the arterial targets entirely. The jaw line serves as the primary anatomical landmark for optimal grip placement and maximum blood choke effectiveness.",
         "safety_critical": false,
-        "answer_line": "Jaw line near the ear",
+        "answer_line": "Base of jaw, near the ear",
         "distractors": {
           "plausible": [
-            "Low on the trachea",
-            "High up by the chin"
+            "Low on neck, over the trachea",
+            "High up near the chin"
           ],
           "trap": [
-            "Slide grip down to the chest"
+            "Behind the skull, crank the neck"
           ]
         }
       },

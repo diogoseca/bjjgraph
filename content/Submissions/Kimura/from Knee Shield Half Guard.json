@@ -530,14 +530,14 @@
         "question": "What is the safest way to tap to the Kimura from Knee Shield Half Guard?",
         "answer": "Tap early and clearly before the rotation reaches your shoulder's end range of motion. Use multiple rapid hand taps with your free hand on the opponent's body or the mat where they can feel it. If your free hand is trapped, tap with your feet on the mat or verbally say 'tap' loudly and clearly. Never attempt to tough out the pressure with shoulder locks—the joint can sustain permanent structural damage before the acute pain becomes severe enough to force the tap.",
         "safety_critical": true,
-        "answer_line": "Tap early — hand, foot, or voice",
+        "answer_line": "Tap early, before shoulder end range",
         "distractors": {
           "plausible": [
-            "Shake your head to signal",
-            "Wait until the elbow lifts high"
+            "Whisper that you give up",
+            "Pat your own leg to signal"
           ],
           "trap": [
-            "Ride it out and grip fight"
+            "Power out and ride the crank"
           ]
         }
       },

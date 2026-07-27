@@ -545,14 +545,14 @@
         "question": "What defensive actions are available before the toe hold figure-four grip is fully locked?",
         "answer": "Before the figure-four locks, you can strip the initial hand grip using two-on-one fighting, straighten your leg to remove the rotational angle, frame on the opponent's hips to create extraction space, or rotate your foot to make the grip difficult to establish. The window is small since the opponent only needs a few seconds to lock the figure-four, so early recognition and immediate action are critical for successful defense.",
         "safety_critical": false,
-        "answer_line": "Strip grip, straighten the leg",
+        "answer_line": "Strip the grip before it locks",
         "distractors": {
           "plausible": [
-            "Cross ankles and squeeze tight",
-            "Sit up and grab their collar"
+            "Bend the knee to shorten the leg",
+            "Grab their foot with both hands"
           ],
           "trap": [
-            "Rip the leg out explosively"
+            "Roll toward the twisting foot"
           ]
         }
       },

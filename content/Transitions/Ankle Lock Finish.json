@@ -286,14 +286,14 @@
       {
         "question": "When is the optimal timing window to secure your grip for the finish?",
         "answer": "The optimal timing is when the opponent's defensive hands are occupied with their escape attempt rather than defending their heel. During their inversion, they're focused on clearing your legs and rotating their hips - this divided attention creates a 2-3 second window where grip establishment faces minimal hand fighting resistance.",
-        "answer_line": "Grip while hands are busy escaping",
+        "answer_line": "While their hands clear your legs",
         "distractors": {
           "plausible": [
-            "Grip on first contact",
-            "Grip after hand fighting starts"
+            "Before they begin to invert",
+            "Once both hands grip their heel"
           ],
           "trap": [
-            "Pause to reset your legs first"
+            "After they free the leg and turn in"
           ]
         }
       },

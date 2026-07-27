@@ -390,14 +390,14 @@
         "question": "What makes the heel hook from kneebar control more dangerous than the kneebar itself?",
         "answer": "The kneebar attacks through extension, which provides clear proprioceptive feedback — the defender feels increasing stretch and pressure, allowing time to tap before damage occurs. The heel hook attacks through rotation, which damages the ACL, MCL, and LCL with minimal pain warning. Defenders often do not perceive significant pain until structural damage has already occurred. This reduced feedback window makes the heel hook substantially more dangerous, demanding extremely slow application in training and immediate release on any tap signal.",
         "safety_critical": true,
-        "answer_line": "Rotation damages before pain hits",
+        "answer_line": "Rotation tears ligaments silently",
         "distractors": {
           "plausible": [
-            "It applies far greater force",
-            "Extension is harder to defend"
+            "It over-extends the knee joint",
+            "It's a faster, tighter finish"
           ],
           "trap": [
-            "Wait for pain before tapping"
+            "Pain warns you before injury"
           ]
         }
       },

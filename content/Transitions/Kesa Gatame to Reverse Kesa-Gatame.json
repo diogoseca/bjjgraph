@@ -559,14 +559,14 @@
       {
         "question": "Your opponent successfully completes the transition and has your far arm trapped. What is your immediate priority?",
         "answer": "Your immediate priority is to prevent submission attacks on the trapped arm by keeping your elbow bent and close to your body, grabbing your own wrist with your free hand if possible. Simultaneously, begin working hip escapes to create space for guard recovery. Do not attempt to forcefully extract the trapped arm against the top player's body weight, as this wastes energy and risks shoulder injury. Instead, use systematic shrimping to gradually relieve the pressure and create extraction opportunities.",
-        "answer_line": "Bend elbow tight, shrimp for space",
+        "answer_line": "Shield trapped arm, keep elbow bent",
         "distractors": {
           "plausible": [
-            "Attack their far arm instead",
-            "Bridge and bench press them off"
+            "Shrimp out to recover guard first",
+            "Frame free hand on opponent's hip"
           ],
           "trap": [
-            "Extend elbow to muscle it out"
+            "Bridge and turn belly-down"
           ]
         }
       }

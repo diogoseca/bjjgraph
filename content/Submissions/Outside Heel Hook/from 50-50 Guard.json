@@ -569,14 +569,14 @@
         "question": "What defensive options are available before the figure-four grip is fully locked?",
         "answer": "Before the figure-four is locked, you can use boot defense by rotating your knee inward to hide the heel, two-on-one grip strip to break the attacker's hand control on your foot, spinning toward the rotation direction if partial control is established, or leg extraction by straightening and pushing off their hip to disengage entirely. Each option has diminishing effectiveness the further the attack progresses.",
         "safety_critical": false,
-        "answer_line": "Boot defense or leg extraction",
+        "answer_line": "Boot defense — hide the heel",
         "distractors": {
           "plausible": [
-            "Wait it out passively",
-            "Grab their collar and pull"
+            "Strip grip only after it locks",
+            "Spin away from the rotation"
           ],
           "trap": [
-            "Spin away from rotation direction"
+            "Roll away to rip the leg out"
           ]
         }
       },

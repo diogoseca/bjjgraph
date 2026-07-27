@@ -333,14 +333,14 @@
         "question": "What are the visual and tactile indicators that you are approaching the breaking point of the submission?",
         "answer": "Key indicators include increasing rigidity in the opponent's resistance as they approach their flexibility limit, visible distress in facial expression or body tension, the opponent's free leg beginning to scramble or push desperately against the mat, and a noticeable change in their breathing pattern becoming rapid or shallow. The attacker should feel progressively more structural resistance followed by a point where the hip structure begins to give.",
         "safety_critical": true,
-        "answer_line": "Rising rigidity, panic, fast breath",
+        "answer_line": "Rigidity climbs, then hip gives",
         "distractors": {
           "plausible": [
-            "Opponent relaxes and smiles",
-            "Their grips get stronger"
+            "Breathing slows and steadies",
+            "Free leg goes still and calm"
           ],
           "trap": [
-            "Crank hard until you hear a pop"
+            "Sudden slack means they submit"
           ]
         }
       },
@@ -578,14 +578,14 @@
         "question": "What is the safest immediate response when you feel the splitting pressure beginning to build on your hip?",
         "answer": "The safest immediate response is to simultaneously squeeze your knees together as tightly as possible while driving your chest weight forward onto the opponent's upper body. This combination prevents the split from progressing while limiting the attacker's ability to create a better perpendicular angle. Do not attempt to rip your leg free, as this can worsen the split. Focus on nullifying the current pressure first, then systematically work to break the lockdown configuration.",
         "safety_critical": true,
-        "answer_line": "Squeeze knees, drive chest in",
+        "answer_line": "Knees pinch, chest drives forward",
         "distractors": {
           "plausible": [
-            "Push their head away hard",
-            "Sit up and posture tall"
+            "Break the lockdown first",
+            "Spread knees to create base"
           ],
           "trap": [
-            "Rip the trapped leg free"
+            "Yank the trapped leg out hard"
           ]
         }
       },
@@ -593,14 +593,14 @@
         "question": "How should you respond if you feel you cannot escape and the submission pressure is continuing to increase?",
         "answer": "Tap immediately. The Electric Chair attacks the hip joint and groin where injury can occur rapidly and without adequate warning sensation. Unlike chokes which allow a brief period of defense before unconsciousness, the Electric Chair can cause a sudden groin tear or hip labral injury with just slightly more pressure than you can currently endure. There is no safe way to test your flexibility limits under live submission pressure. If the splitting pressure is significant and you cannot escape, tapping and resetting is always the correct decision.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, no warning window",
+        "answer_line": "Tap immediately",
         "distractors": {
           "plausible": [
-            "Bridge harder to relieve it",
-            "Ask them verbally to ease off"
+            "Wait until you feel sharp pain",
+            "Breathe and try to ride it out"
           ],
           "trap": [
-            "Ride it out to gain flexibility"
+            "Power through and rip your leg free"
           ]
         }
       },

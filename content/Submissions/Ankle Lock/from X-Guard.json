@@ -402,14 +402,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Joint cannot hyperextend there",
-            "Defender can always spin free"
+            "Rotation warns before it tears",
+            "Ankle can't be badly injured"
           ],
           "trap": [
-            "Crank hard, the tap will come"
+            "Hold pressure while they work free"
           ]
         },
-        "answer_line": "Pain builds gradually, warns first"
+        "answer_line": "Pain builds slowly, time to tap"
       },
       {
         "question": "In a competition with three minutes remaining and your opponent stalling in your X-Guard — how do you create the opening to finish the ankle lock?",
@@ -445,14 +445,14 @@
         "question": "What grip transition sequence should you follow when moving from X-Guard control to the ankle lock finish?",
         "answer": "Begin with X-Guard grips controlling the opponent's ankle with one hand and sleeve or belt with the other for sweep control. When transitioning, first release the upper body grip while maintaining ankle contact with your primary hand. Thread your attacking arm under the Achilles tendon with wrist blade positioned against the tendon. Then release the remaining guard grip to complete the figure-four by clasping over your own wrist. This sequential release ensures you never lose all contact with the ankle during transition, preventing the opponent from retracting their foot during the brief grip change window.",
         "safety_critical": false,
-        "answer_line": "Never lose contact on the foot",
+        "answer_line": "Free upper grip, keep ankle held",
         "distractors": {
           "plausible": [
-            "Strip the sleeve grip first",
-            "Swap both hands at once"
+            "Thread Achilles before freeing grips",
+            "Clasp figure-four before Achilles"
           ],
           "trap": [
-            "Drop hooks to two-hand the foot"
+            "Drop ankle hand to build the lock"
           ]
         }
       }

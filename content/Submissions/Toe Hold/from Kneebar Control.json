@@ -548,14 +548,14 @@
         "question": "What defensive options are available at each stage of the toe hold from kneebar control?",
         "answer": "During the grip transition (highest percentage window): dorsiflexion and foot retraction to prevent grip establishment. During partial grip (medium window): explosive leg extension to strip the incomplete figure-four, with immediate preparation to defend the kneebar. During full figure-four lock (lowest percentage window): hip rotation toward the attacker to relieve ankle torque while working to disentangle legs and recover guard. At each stage, earlier intervention provides better escape probability.",
         "safety_critical": false,
-        "answer_line": "Dorsiflex early, beat the lock",
+        "answer_line": "Dorsiflex and retract before grip",
         "distractors": {
           "plausible": [
-            "Rotate hips only once locked",
-            "Grab their collar and stall"
+            "Extend leg after figure-four locks",
+            "Rotate hips during grip transition"
           ],
           "trap": [
-            "Stay still until pain starts"
+            "Point the toes to slide foot free"
           ]
         }
       },
@@ -563,14 +563,14 @@
         "question": "Why is the toe hold considered more dangerous than many other submissions in terms of injury risk?",
         "answer": "The toe hold attacks small ligaments and joints in the ankle and foot that can fail suddenly and catastrophically with minimal warning sensation. Unlike chokes which produce gradual unconsciousness, or armbars which create progressive elbow pressure, ankle ligaments can tear instantly once their structural threshold is exceeded. The rotational force vector distributes across multiple small structures simultaneously, meaning damage can be severe and affect multiple ligaments in a single failure event.",
         "safety_critical": true,
-        "answer_line": "Tiny ligaments snap with no warning",
+        "answer_line": "Sudden failure, minimal warning",
         "distractors": {
           "plausible": [
-            "It hurts more than an armbar",
-            "The pain warns you in time"
+            "Threatens knee ligaments most",
+            "Compresses the Achilles tendon"
           ],
           "trap": [
-            "Ride out the twist to escape"
+            "You can tap once you feel it"
           ]
         }
       },

@@ -362,14 +362,14 @@
         "question": "Your opponent straightens their arm as you attempt to secure the figure-four — how do you adapt?",
         "answer": "A straightened arm is an armbar opportunity, not a failed kimura. Immediately transition by swinging your far leg over their extended arm and sitting back for an armbar finish. If the armbar angle is not available, use your body weight to re-bend their arm by driving their wrist toward their ear while threading the figure-four. The opponent's defense to one submission should open another — straightening against the kimura exposes the armbar.",
         "safety_critical": false,
-        "answer_line": "Swing leg over for the armbar",
+        "answer_line": "Swing far leg over into armbar",
         "distractors": {
           "plausible": [
-            "Muscle the arm back into a bend",
-            "Switch to a collar choke"
+            "Reset grips, re-attack the kimura",
+            "Torque the shoulder harder"
           ],
           "trap": [
-            "Chase the arm, lose knee pressure"
+            "Abandon grip, get stacked & passed"
           ]
         }
       },
@@ -377,14 +377,14 @@
         "question": "How should you release the Kimura after your training partner taps?",
         "answer": "Immediately stop all rotational pressure the instant the tap is detected. Reverse the rotation slowly and return the arm toward its neutral starting position. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or allow the arm to spring back, as this can cause injury from recoil. The release should be as controlled as the application.",
         "safety_critical": true,
-        "answer_line": "Reverse slowly, then release",
+        "answer_line": "Stop pressure, lower arm slowly",
         "distractors": {
           "plausible": [
-            "Ask if they tapped, keep grip",
-            "Hold lock till they nod"
+            "Pop the grip and let it recoil",
+            "Let go and slide out quickly"
           ],
           "trap": [
-            "Crank once more to confirm"
+            "Finish the rotation to be sure"
           ]
         }
       },

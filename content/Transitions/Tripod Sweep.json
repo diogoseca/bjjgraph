@@ -249,14 +249,14 @@
       {
         "question": "What is the purpose of attacking the opponent's ankle/posting leg rather than their other leg during the sweep execution?",
         "answer": "The posting leg is the leg your opponent uses to catch themselves when off-balanced forward. By controlling and removing this leg while simultaneously pushing their upper body backward with your grips and spider hook, you eliminate their ability to recover balance. Attacking the wrong leg (non-posting leg) allows them to simply step with the attacked leg while maintaining base with the posting leg, completely defeating the sweep's mechanical advantage.",
-        "answer_line": "Take away their posting leg",
+        "answer_line": "Remove their balance-recovery leg",
         "distractors": {
           "plausible": [
-            "Pick whichever ankle is closer",
-            "Far leg gives longer leverage"
+            "Trap the non-posting leg first",
+            "Push their chest before the leg"
           ],
           "trap": [
-            "Drop the collar grip to reach it"
+            "Drop the hook to seize the ankle"
           ]
         }
       },

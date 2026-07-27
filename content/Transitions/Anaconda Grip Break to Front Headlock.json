@@ -327,11 +327,11 @@
         "answer_line": "Short nasal breaths, stay calm",
         "distractors": {
           "plausible": [
-            "Deep chest inhales to power out",
-            "Hold everything in until free"
+            "Big lungful, then power out",
+            "Inhale hard as you extract"
           ],
           "trap": [
-            "Panic-thrash and gulp for air"
+            "Push past the tunnel vision"
           ]
         }
       },

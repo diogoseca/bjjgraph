@@ -221,14 +221,14 @@
       {
         "question": "What is the primary goal of Elbow Escape to Guard?",
         "answer": "The primary goal is to recover open guard position from the defensive buggy choke bottom situation. By using your elbow as a structural wedge against the choking arm while hip escaping, you create the space necessary to insert your legs and establish a playable guard position where you can threaten sweeps and submissions rather than defending submissions.",
-        "answer_line": "Recover open guard position",
+        "answer_line": "Recover open guard",
         "distractors": {
           "plausible": [
-            "Escape to turtle top",
-            "Reverse into top position"
+            "Shrimp free and stand up",
+            "Escape to half guard"
           ],
           "trap": [
-            "Stay flat and defend the choke"
+            "Turn to your knees to escape"
           ]
         }
       },

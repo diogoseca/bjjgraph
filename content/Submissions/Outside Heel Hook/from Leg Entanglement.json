@@ -362,14 +362,14 @@
         "question": "What is the proper heel cup grip placement and why is gripping the toes or midfoot insufficient for finishing?",
         "answer": "The proper heel cup places the blade of the wrist directly across the Achilles tendon with fingers wrapping around the calcaneus (heel bone). This creates a rigid rotational lever that transmits force directly into the knee joint through the tibia. Gripping the toes or midfoot is insufficient because the foot's many small joints and flexible ligaments absorb and dissipate rotational force before it reaches the knee. The midfoot bends and flexes under pressure rather than transmitting rotation, resulting in a weak finish that experienced grapplers can outlast. The heel bone is the only rigid structure that creates a direct mechanical connection to the knee through the ankle.",
         "safety_critical": false,
-        "answer_line": "Wrist blade across Achilles",
+        "answer_line": "Wrist blade on Achilles, wrap heel",
         "distractors": {
           "plausible": [
-            "Grip firmly around midfoot",
-            "Grip the toes tightly"
+            "Curl fingers around the toes",
+            "Cup under the midfoot arch"
           ],
           "trap": [
-            "Loosen grip to reposition heel"
+            "Abandon the ashi to grab the foot"
           ]
         }
       },

@@ -398,14 +398,14 @@
         "question": "How fast should you apply the Buggy Choke in training, and why?",
         "answer": "Apply it slowly and progressively over at least three to five seconds so your partner feels the compression building and has time to tap; explosive application risks injury and gives no warning window, which is unsafe for a blood choke.",
         "safety_critical": true,
-        "answer_line": "Slow build over 3-5 seconds",
+        "answer_line": "Slowly, over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Speed does not matter, only grip",
-            "Any pace; it is a shoulder lock"
+            "Snug quickly, then hold steady",
+            "Match your partner's tap speed"
           ],
           "trap": [
-            "Jerk it on hard with no warning"
+            "Explosively for a fast finish"
           ]
         }
       },

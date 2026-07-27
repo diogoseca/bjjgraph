@@ -573,11 +573,11 @@
         "question": "What is the safest way to tap to the belly down armbar from mounted crucifix?",
         "answer": "Tap early and clearly using multiple signals simultaneously. Verbal tap loudly saying 'tap' because your hands may be trapped or obscured in the prone position. Simultaneously tap with your free hand on the attacker, the mat, or your own body. Use foot taps on the mat with either leg as an additional signal. In the belly down position, the mechanical advantage is enormous and damage occurs quickly—tap at the first sign of significant extension pressure rather than attempting to tough it out. There is no shame in tapping to a fully locked submission.",
         "safety_critical": true,
-        "answer_line": "Tap loud, hand, and foot at once",
+        "answer_line": "Tap early with multiple signals",
         "distractors": {
           "plausible": [
-            "Tap only with your free hand",
-            "Shake your head on the mat"
+            "Free your trapped hand, then tap",
+            "Signal softly to keep your cool"
           ],
           "trap": [
             "Power out and tap once it hurts"

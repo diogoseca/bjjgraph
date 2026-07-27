@@ -302,14 +302,14 @@
         "answer": "The most common error is dropping the head below the opponent's hips while reaching for the legs before establishing position. This creates a bent-over posture with the neck extended and exposed, allowing the opponent to easily secure a front headlock grip and lock in the guillotine. The correction is to keep the head up with eyes on the opponent's chest/hips, drive the forehead into their midsection, and ensure the level change and penetration occur before the arms reach for leg control. The head should be the first point of contact and should remain above or at the height of the opponent's hips throughout the entry.",
         "distractors": {
           "plausible": [
-            "Penetration step too shallow",
-            "Gripping too high on the thighs"
+            "Changing levels too late on the shot",
+            "Grabbing the far leg first"
           ],
           "trap": [
-            "Stalling bent-over mid-shot"
+            "Turning your back to finish the shot"
           ]
         },
-        "answer_line": "Dropping head below the hips first"
+        "answer_line": "Dropping head below opponent's hips"
       },
       {
         "question": "How does penetration step depth affect the success of a double leg entry?",

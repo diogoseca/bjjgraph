@@ -398,14 +398,14 @@
         "question": "What anatomical structure does the neck crank attack?",
         "answer": "The neck crank attacks the cervical spine—the vertebrae of the neck and surrounding musculature—by forcing rotation and flexion beyond the safe range, rather than compressing arteries or the trachea like a choke.",
         "safety_critical": true,
-        "answer_line": "Cervical spine, not the throat",
+        "answer_line": "Cervical spine (neck vertebrae)",
         "distractors": {
           "plausible": [
-            "Brachial plexus nerves",
-            "Carotid arteries"
+            "Carotid arteries (blood flow)",
+            "The spinal cord and nerves"
           ],
           "trap": [
-            "Crush the windpipe to finish"
+            "The windpipe (air choke)"
           ]
         }
       },
@@ -473,14 +473,14 @@
         "question": "Why is pulling the head straight back an ineffective finishing error?",
         "answer": "Pulling straight back only strains the neck muscles without loading the cervical spine; the lock needs combined rotation and flexion off the existing twist to generate true mechanical leverage.",
         "safety_critical": false,
-        "answer_line": "Strains muscle, no spinal leverage",
+        "answer_line": "Combine rotation with flexion",
         "distractors": {
           "plausible": [
-            "The finish is simply too slow",
-            "It needs a deeper collar grip"
+            "Bend the head forward only",
+            "Add a twist after pulling back"
           ],
           "trap": [
-            "Crank straight back at full force"
+            "Release the twist to re-grip"
           ]
         }
       },

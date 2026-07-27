@@ -578,14 +578,14 @@
         "question": "What is the safest way to tap when caught in the Arm Triangle from Shoulder of Justice?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly. Do not wait to see if you can escape once the choke is locked - arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds. Tapping early prevents injury and allows you to continue training safely.",
         "safety_critical": true,
-        "answer_line": "Tap hand, foot, or say tap",
+        "answer_line": "Tap immediately and clearly",
         "distractors": {
           "plausible": [
-            "Only a mat tap counts",
-            "Wait for pain before signalling"
+            "Wait until a hand is free to tap",
+            "Tap softly one single time"
           ],
           "trap": [
-            "Stay quiet and get choked out"
+            "Power out before you tap"
           ]
         }
       },
@@ -623,14 +623,14 @@
         "question": "What are the most common defensive errors that allow the arm triangle transition from Shoulder of Justice?",
         "answer": "The most common error is instinctively bringing the far arm across the face to shield against jaw pressure, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker switches grips is the best escape opportunity and closes within 2-3 seconds.",
         "safety_critical": false,
-        "answer_line": "Shielding jaw with the far arm",
+        "answer_line": "Crossing the far arm over your face",
         "distractors": {
           "plausible": [
-            "Posting a hand on their hip",
-            "Holding your breath under pressure"
+            "Leaving your near elbow flared out",
+            "Dropping your chin to your chest"
           ],
           "trap": [
-            "Turning your back to escape"
+            "Rolling to turtle to escape"
           ]
         }
       }

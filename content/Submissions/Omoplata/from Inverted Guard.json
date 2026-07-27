@@ -309,14 +309,14 @@
         "question": "What is the point of no escape for the opponent during the omoplata from inverted guard?",
         "answer": "The point of no escape occurs when you have achieved perpendicular positioning with hip control established and your hips scooted tight against the opponent's shoulder. Once the hip control grip prevents their forward roll and your body weight is loaded onto the trapped arm with no space between your hips and their shoulder, the only remaining option is to tap. Before this point, they can still roll forward, posture, or strip grips to escape.",
         "safety_critical": false,
-        "answer_line": "Hips flush against their shoulder",
+        "answer_line": "Hip control blocks forward roll",
         "distractors": {
           "plausible": [
-            "Leg clamp locked tight",
-            "Their arm pulled straight"
+            "The moment the arm gets trapped",
+            "Once they can't strip your grips"
           ],
           "trap": [
-            "Ease off once rotation starts"
+            "When you turn belly-down to finish"
           ]
         }
       },

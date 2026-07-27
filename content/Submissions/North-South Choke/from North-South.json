@@ -391,14 +391,14 @@
         "question": "What are the critical safety considerations when applying the North-South Choke in training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum to give your training partner time to recognize the choke and tap. Always ensure your partner has at least one hand free to tap. Monitor for signs of unconsciousness including going limp, body convulsions, or cessation of resistance. Release immediately upon any tap signal. Never apply competition-speed squeeze in training. Be especially careful with the choke depth to target the carotids rather than the trachea, which causes pain and potential windpipe injury.",
         "safety_critical": true,
-        "answer_line": "Apply slowly, release on tap",
+        "answer_line": "Ease in slow; keep a hand free",
         "distractors": {
           "plausible": [
-            "Ramp to full pressure fast",
-            "Trust them to speak up"
+            "Crank fast, they can still tap",
+            "Wait for them to go limp"
           ],
           "trap": [
-            "Squeeze hard until they go limp"
+            "Trap both arms, then finish"
           ]
         }
       },
@@ -436,14 +436,14 @@
         "question": "How does the kimura attack chain create openings for the North-South Choke?",
         "answer": "When you attack the kimura from North-South, your opponent's natural defense is to clamp their elbows tight to their body and grip their own wrist or belt to prevent arm isolation. This elbow-clamped defensive posture pulls their arms away from their neck, removing the frames that would normally block your choking arm from threading underneath. When you recognize the kimura defense, immediately abandon the kimura grip and thread your arm under their exposed neck. The transition must be fast enough that the opponent cannot switch from arm defense to neck defense.",
         "safety_critical": false,
-        "answer_line": "Elbow clamp defense opens neck",
+        "answer_line": "Thread arm under exposed neck",
         "distractors": {
           "plausible": [
-            "Kimura finishes the submission",
-            "Wrist grip stops the choke"
+            "Wait out the elbow-clamp defense",
+            "Force the trapped arm skyward"
           ],
           "trap": [
-            "Yank the trapped arm to force it"
+            "Sit back for the straight armbar"
           ]
         }
       }

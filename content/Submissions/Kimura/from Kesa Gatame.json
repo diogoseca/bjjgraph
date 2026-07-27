@@ -282,14 +282,14 @@
         "question": "What anatomical structures does the Kimura from Kesa Gatame primarily attack?",
         "answer": "The Kimura primarily attacks the shoulder joint through forced internal rotation, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, and the glenoid labrum. Secondary stress falls on the shoulder capsule and biceps tendon. The figure-four grip creates a long lever arm that multiplies rotational force on these structures.",
         "safety_critical": false,
-        "answer_line": "Shoulder joint, internal rotation",
+        "answer_line": "Shoulder joint & rotator cuff",
         "distractors": {
           "plausible": [
-            "Elbow ligaments hyperextending",
-            "Wrist bones and forearm"
+            "Elbow joint & biceps tendon",
+            "Wrist & forearm tendons"
           ],
           "trap": [
-            "Crank the neck to add pressure"
+            "Cervical spine & neck"
           ]
         }
       },
@@ -372,14 +372,14 @@
         "question": "How should you release the Kimura from Kesa Gatame after your partner taps?",
         "answer": "Immediately cease all rotational pressure the instant you feel or hear the tap. Reverse the rotation slowly, guiding the arm back toward the neutral position with the same controlled speed you used to apply the lock. Release the figure-four grip completely once the arm is returned to a comfortable position. Allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or let the arm spring back, as the rapid change in direction can itself cause injury to already-stressed structures.",
         "safety_critical": true,
-        "answer_line": "Reverse slowly back to neutral",
+        "answer_line": "Stop rotating the instant they tap",
         "distractors": {
           "plausible": [
-            "Hold the lock until they speak",
-            "Keep control until they sit up"
+            "Unhook the grip before unwinding",
+            "Let them test it, then release"
           ],
           "trap": [
-            "Let the arm spring back fast"
+            "Crank once more, then let go"
           ]
         }
       },
@@ -417,14 +417,14 @@
         "question": "How do you maintain positional control when the Kimura attempt fails?",
         "answer": "The Kimura from Kesa Gatame is designed to maintain positional advantage even on failure. If the opponent defends, you retain the figure-four grip and can cycle to Americana or armbar. If they bridge and turn in, you flow to mount while keeping grip control. If they shrimp away, you follow into their guard maintaining the grip. The 25% failure outcome returns you to Kesa Gatame Top because the attack is inherently low-risk—you never sacrifice position to attempt the submission.",
         "safety_critical": false,
-        "answer_line": "Keep the grip, flow to Americana",
+        "answer_line": "Retain grip, flow to next spot",
         "distractors": {
           "plausible": [
-            "Let go and re-pin them flat",
-            "Start a completely new attack"
+            "Jump straight to armbar finish",
+            "Chase mount before regripping"
           ],
           "trap": [
-            "Give up the pin to chase the arm"
+            "Abandon grip, dive for the back"
           ]
         }
       }
