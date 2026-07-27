@@ -390,11 +390,11 @@
         "answer_line": "Overhook traps arm until legs lock",
         "distractors": {
           "plausible": [
-            "Release overhook once leg swings",
-            "Overhook secures grip on belt only"
+            "Overhook only aids the sweep",
+            "Overhook grips the belt only"
           ],
           "trap": [
-            "Release overhook right after swing"
+            "Drop overhook mid-swing"
           ]
         }
       },
@@ -405,8 +405,8 @@
         "answer_line": "Rotational force re-injures joint",
         "distractors": {
           "plausible": [
-            "Only affects healthy shoulders",
-            "Risk limited to elbow joint"
+            "Only bruises the nearby muscle",
+            "Elbow ligaments take the strain"
           ],
           "trap": [
             "Finish harder if they feel tight"
@@ -424,7 +424,7 @@
             "Grab near leg for base control"
           ],
           "trap": [
-            "Grip your own collar for base"
+            "Free the far arm to adjust grip"
           ]
         }
       },
@@ -484,7 +484,7 @@
             "Hips close but with a gap"
           ],
           "trap": [
-            "Finish harder once locked in class"
+            "Relax control, finish assured"
           ]
         }
       },
@@ -662,14 +662,14 @@
         "question": "How does turning your palm up during the Omoplata reduce shoulder pressure, and why is this alone insufficient as an escape?",
         "answer": "Turning the palm up (supination) externally rotates the forearm and partially counteracts the internal rotation being forced on the shoulder by the Omoplata pressure. This changes the angle of force on the rotator cuff and glenohumeral joint, reducing the acute rotational stress and buying additional time before the tap threshold. However, it is insufficient as a standalone escape because it does not address the leg triangle trapping the arm or the hip connection driving the pressure. The attacker can adjust by tightening their leg squeeze and walking their hips closer, eventually overcoming the supination defense. It must be combined with a forward roll, stack, or arm extraction to actually escape.",
         "safety_critical": true,
-        "answer_line": "Palm up eases pressure alone",
+        "answer_line": "Palm up eases the pressure",
         "distractors": {
           "plausible": [
-            "Palm up fully escapes the hold",
-            "Palm down relieves the pressure"
+            "It completely frees the arm",
+            "Rotating wrist inward relieves it"
           ],
           "trap": [
-            "Stop defending once palm is up"
+            "Stop escaping after palm turns"
           ]
         }
       },

@@ -291,14 +291,14 @@
       {
         "question": "What role does the opponent's trapped near arm play in the darce choke mechanics?",
         "answer": "The trapped near arm acts as a compression fulcrum. The choking arm compresses one carotid from the front, while the opponent's own trapped shoulder drives into the opposite carotid as the figure-four tightens. Without this trapped arm, the darce becomes a one-sided neck pressure that is far easier to defend and significantly less likely to produce a tap from bilateral blood restriction.",
-        "answer_line": "Trapped arm compresses far carotid",
+        "answer_line": "Bilateral compression fulcrum",
         "distractors": {
           "plausible": [
-            "Trapped arm just blocks defense",
-            "Near arm powers the sprawl"
+            "Only stops the escape",
+            "Handle to pull them down"
           ],
           "trap": [
-            "Release near arm to speed finish"
+            "Release the trapped arm early"
           ]
         }
       },

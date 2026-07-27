@@ -300,11 +300,11 @@
         "answer_line": "ACL and MCL, medial knee",
         "distractors": {
           "plausible": [
-            "Lateral ligaments, not medial",
-            "Meniscus is main target"
+            "Hip capsule and groin",
+            "Achilles and calf tissue"
           ],
           "trap": [
-            "Ankle joint takes the damage"
+            "Only the ankle, safe to wait"
           ]
         }
       },
@@ -315,11 +315,11 @@
         "answer_line": "Cup heel from reversed angle",
         "distractors": {
           "plausible": [
-            "Same grip as standard ashi",
-            "Switch hands after inverting"
+            "Grip identical to standard ashi",
+            "Palm the shin, not the foot"
           ],
           "trap": [
-            "Grab toes instead of heel"
+            "Release control to re-grip"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Knee rotates, boot defense fails",
         "distractors": {
           "plausible": [
-            "Opponent taps verbally first",
-            "They stop moving entirely"
+            "Opponent frames on your chest",
+            "Their free leg posts on the mat"
           ],
           "trap": [
-            "Increase speed to force tap"
+            "Speed up rotation to force it"
           ]
         }
       },
@@ -342,14 +342,14 @@
         "question": "What control must be established before attempting the finishing sequence?",
         "answer": "Before finishing, you need three control points secured: (1) inside leg deeply controlling the opponent's thigh to prevent escape, (2) outside leg pinching above their knee line to prevent leg straightening, and (3) the opponent's free leg neutralized or controlled to prevent counter-rotation. Only after these three points are maintained should you commit hands to heel grip establishment and finishing pressure.",
         "safety_critical": false,
-        "answer_line": "Pin both legs, control free leg",
+        "answer_line": "Both legs pinned, free leg dead",
         "distractors": {
           "plausible": [
-            "Heel grip first, legs after",
-            "Only inside leg control needed"
+            "Inside leg control is enough",
+            "Just squeeze the knees together"
           ],
           "trap": [
-            "Rush hands to heel grip early"
+            "Commit hands to the heel first"
           ]
         }
       },
@@ -361,10 +361,10 @@
         "distractors": {
           "plausible": [
             "Once figure-four is applied",
-            "When opponent stops resisting"
+            "As soon as entanglement starts"
           ],
           "trap": [
-            "Crank harder once they tap"
+            "Safe to spin until pain hits"
           ]
         }
       },
@@ -375,11 +375,11 @@
         "answer_line": "Switch to toe hold or saddle",
         "distractors": {
           "plausible": [
-            "Force heel grip through boot",
-            "Abandon leg attack entirely"
+            "Muscle the grip past the boot",
+            "Squeeze the knees harder and wait"
           ],
           "trap": [
-            "Yank the foot straight back"
+            "Open the entanglement to chase"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Release instantly, open hands",
         "distractors": {
           "plausible": [
-            "Ease pressure gradually",
-            "Hold position to teach lesson"
+            "Ease the pressure off gradually",
+            "Let go of heel, keep legs locked"
           ],
           "trap": [
-            "Keep grip, ask if they're ok"
+            "Hold grip while asking if ok"
           ]
         }
       },
@@ -402,14 +402,14 @@
         "question": "What competition strategy adjustments are needed when finishing from ushiro versus standard positions?",
         "answer": "In competition, the ushiro heel hook often catches opponents during their escape attempt when their defensive attention is split between completing the inversion and protecting the heel. The finishing window is shorter because the opponent is actively moving. Commit to the finish quickly once grip is established, or immediately transition to saddle for a more controlled finishing platform. Do not hold ushiro for extended periods in competition—either attack decisively or advance position.",
         "safety_critical": false,
-        "answer_line": "Finish fast or advance position",
+        "answer_line": "Finish fast or advance to saddle",
         "distractors": {
           "plausible": [
-            "Hold ushiro to wear them down",
-            "Wait for perfect setup"
+            "Score first, attack later",
+            "Switch legs mid-scramble"
           ],
           "trap": [
-            "Stall in position for points"
+            "Hold the entanglement and stall"
           ]
         }
       },
@@ -417,14 +417,14 @@
         "question": "What is the primary source of rotational force in the finishing sequence?",
         "answer": "The primary rotational force comes from hip extension and back arching, not from twisting with the arms. The hands function as a fixed connection point between your body and the opponent's heel, while your hips drive the actual rotation by extending away from the trapped leg. This hip-driven mechanic generates significantly more force than arm-based twisting and allows for better speed control, which is critical for safe training application.",
         "safety_critical": false,
-        "answer_line": "Hip extension, not arm twist",
+        "answer_line": "Hips extend, back arches",
         "distractors": {
           "plausible": [
-            "Arms twist the heel",
-            "Shoulder pulls generate force"
+            "Arms corkscrew the foot",
+            "Shoulder pull creates torque"
           ],
           "trap": [
-            "Yank hard and fast with hands"
+            "Rip fast with no tap window"
           ]
         }
       },
@@ -432,14 +432,14 @@
         "question": "How do you maintain offensive pressure if the opponent partially clears the outside leg?",
         "answer": "If the opponent clears your outside leg but your inside leg retains deep thigh control, immediately transition to saddle by stepping your outside leg through to the far side of their hip. This converts partial escape into a higher-control entanglement. The inside leg control is the critical retention point—as long as it stays deep on their thigh, you can rebuild the entanglement or transition to saddle rather than losing position entirely.",
         "safety_critical": false,
-        "answer_line": "Transition to saddle via inside leg",
+        "answer_line": "Step through to the saddle",
         "distractors": {
           "plausible": [
-            "Reset to standard ashi-garami",
-            "Chase with outside leg first"
+            "Chase with the freed leg",
+            "Pull them back with the arms"
           ],
           "trap": [
-            "Release grip, reshoot entry"
+            "Let the legs go and re-enter"
           ]
         }
       }
@@ -569,14 +569,14 @@
         "question": "How do you recognize that the inside heel hook from ushiro is being set up?",
         "answer": "Key recognition cues include: the attacker has followed your inversion and maintained figure-four control around your trapped leg, their hands are working toward your heel or foot from the reversed angle, their inside leg is controlling your thigh deeply preventing escape completion, and your hip mobility is restricted despite having inverted. Early recognition when you feel the entanglement maintained post-inversion is critical for timely defense.",
         "safety_critical": false,
-        "answer_line": "Figure-four maintained post-invert",
+        "answer_line": "Figure-four kept after you invert",
         "distractors": {
           "plausible": [
-            "Only worry once heel is gripped",
-            "Attacker chasing your hips"
+            "Their hips chasing yours",
+            "Both hands on your belt"
           ],
           "trap": [
-            "Ignore it, finish your invert"
+            "Wait until the heel is gripped"
           ]
         }
       },
@@ -587,11 +587,11 @@
         "answer_line": "Tap at pressure, before pain",
         "distractors": {
           "plausible": [
-            "Wait for sharp pain first",
-            "Tap only if joint pops"
+            "Tap once you lose your grips",
+            "Tap when the heel is exposed"
           ],
           "trap": [
-            "Fight through to escape first"
+            "Wait for sharp pain, then tap"
           ]
         }
       },
@@ -599,14 +599,14 @@
         "question": "What is the most important foot position to maintain throughout the defensive sequence?",
         "answer": "Maintain dorsiflexion (foot flexed toward shin with toes pulled up and curled) throughout the entire defensive and escape sequence without exception. This position pulls the heel closer to your lower leg, making it significantly harder for the attacker to establish the finishing grip. Never relax your foot or point your toes, even momentarily during escape movements, as this creates the opening the attacker needs to secure the heel.",
         "safety_critical": true,
-        "answer_line": "Dorsiflex, toes pulled up",
+        "answer_line": "Dorsiflex, toes curled up",
         "distractors": {
           "plausible": [
-            "Point toes to protect ankle",
-            "Relax foot while escaping"
+            "Turn the foot inward",
+            "Hook their leg with the toes"
           ],
           "trap": [
-            "Kick free to create space"
+            "Point the toes and kick free"
           ]
         }
       },
@@ -617,11 +617,11 @@
         "answer_line": "Boot defense, rotate, strip grips",
         "distractors": {
           "plausible": [
-            "Pull knee straight to escape",
-            "Wait out the position"
+            "Straighten the knee and pull",
+            "Bridge into their hips"
           ],
           "trap": [
-            "Yank leg free with force"
+            "Rip the leg out at full speed"
           ]
         }
       },

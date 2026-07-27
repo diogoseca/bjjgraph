@@ -349,11 +349,11 @@
         "answer_line": "Strike as they extend hooks",
         "distractors": {
           "plausible": [
-            "Enter once they retract hooks",
-            "Pause to confirm foot grip"
+            "Enter after they retract hooks",
+            "Settle the grip, then backstep"
           ],
           "trap": [
-            "Wait for full guard pass"
+            "Stall and let them take your back"
           ]
         }
       },
@@ -364,11 +364,11 @@
         "answer_line": "PCL via knee hyperextension",
         "distractors": {
           "plausible": [
-            "ACL via forced rotation",
-            "MCL via valgus stress"
+            "ACL torn by twisting the shin",
+            "MCL strained by valgus force"
           ],
           "trap": [
-            "Achilles via heel crank"
+            "Crank the heel to add torque"
           ]
         }
       },
@@ -406,14 +406,14 @@
         "question": "What is the proper power source for kneebar finishing pressure, and why does technique matter more than strength?",
         "answer": "The proper power source is hip extension through engaging the glutes and thrusting hips upward toward the ceiling, not arching the back or pulling with arm strength. Hip extension creates efficient, controlled pressure against the knee joint while protecting your own lower back from injury. The glutes are among the strongest muscles in the body, generating far more force than arms or spinal erectors. Attempting to finish with back arching generates minimal submission pressure, risks lumbar strain, and signals poor technique. The motion should feel like a controlled hip thrust with engaged core, driving hips up while pulling the heel down to your chest.",
         "safety_critical": false,
-        "answer_line": "Thrust hips, not arch back",
+        "answer_line": "Drive with glutes and hips",
         "distractors": {
           "plausible": [
-            "Pull with both arms hard",
-            "Arch back for leverage"
+            "Pull the leg with arm strength",
+            "Crunch your torso upward"
           ],
           "trap": [
-            "Yank the leg explosively"
+            "Rip the leg back explosively"
           ]
         }
       },
@@ -421,14 +421,14 @@
         "question": "At what point during the kneebar from SLX is there effectively no escape for your opponent?",
         "answer": "The point of no escape occurs when three simultaneous conditions are achieved: perpendicular hip positioning with your fulcrum directly above their kneecap, a locked figure-four leg triangle preventing any leg extraction, and tight heel control eliminating all space between their heel and your chest. Once these three elements are secured and you begin hip extension, the mechanical advantage is overwhelming and escape becomes nearly impossible without significant injury risk. Prior to achieving all three conditions, the bottom player has viable escapes including retracting hooks, sitting up, grip fighting, or stepping over with their free leg.",
         "safety_critical": false,
-        "answer_line": "Perpendicular, triangle, heel lock",
+        "answer_line": "All three controls locked at once",
         "distractors": {
           "plausible": [
-            "Just locking the leg triangle",
-            "Heel control alone is enough"
+            "When their leg stops kicking",
+            "Once your hips touch the mat"
           ],
           "trap": [
-            "As soon as you grab the foot"
+            "Crank early with loose hips"
           ]
         }
       },
@@ -439,11 +439,11 @@
         "answer_line": "Break grip two-on-one, push chest",
         "distractors": {
           "plausible": [
-            "Pry fingers with one hand",
-            "Wait for grip to fatigue"
+            "Wait for their grip to tire",
+            "Squeeze their shin harder"
           ],
           "trap": [
-            "Force through their knee grip"
+            "Turn away, giving up your back"
           ]
         }
       },
@@ -481,14 +481,14 @@
         "question": "How do you adapt the kneebar finishing strategy in competition versus training?",
         "answer": "In competition, the entry speed can be full competition pace since the opponent is actively defending and expects attacks. However, the finishing pressure should still be controlled and progressive — even in competition, spiking a kneebar risks catastrophic injury to your opponent. The key difference is in commitment level: in competition, fully commit to the backstep entry and do not hesitate, whereas in training you may drill entries at various speeds. In competition, chain the kneebar threat with guard passing to create a dual-threat strategy that forces the bottom player to choose between defending the submission and maintaining guard. The psychological pressure of the kneebar threat often opens passing lanes even when the finish itself is not achieved.",
         "safety_critical": false,
-        "answer_line": "Full speed entry, controlled finish",
+        "answer_line": "Commit hard, finish controlled",
         "distractors": {
           "plausible": [
-            "Full speed entry and finish",
-            "Slow entry, fast finish"
+            "Skip the backstep in matches",
+            "Hold the position for points"
           ],
           "trap": [
-            "Spike finish for quick tap"
+            "Rip the finish because it's a match"
           ]
         }
       },
@@ -496,14 +496,14 @@
         "question": "How do you recognize when your kneebar position quality is insufficient for a safe finish?",
         "answer": "Position quality is insufficient when any of these indicators are present: your hips are not fully perpendicular to their leg creating an acute rather than right angle, space exists between their heel and your chest allowing potential extraction, your figure-four leg triangle is loose or the opponent's thigh is not fully trapped, the opponent has defensive grips on their own leg that you cannot break, or the opponent has successfully stepped their free leg over your head establishing a defensive hook. When these conditions exist, forcing the finish risks both escape and potential injury from a compromised angle. Transition to guard passing or alternative leg entanglements rather than committing to a low-percentage finish.",
         "safety_critical": false,
-        "answer_line": "Acute angle, gaps, loose triangle",
+        "answer_line": "Hips off square, space, slack lock",
         "distractors": {
           "plausible": [
-            "Only triangle lock matters",
-            "Heel control alone suffices"
+            "Judge only by their reaction",
+            "Trust it if the entry felt fast"
           ],
           "trap": [
-            "Force finish from any angle"
+            "Crank anyway and hope for a tap"
           ]
         }
       }
@@ -615,14 +615,14 @@
         "question": "Why is it critical to tap immediately when finishing pressure begins on a kneebar rather than attempting a late escape?",
         "answer": "The knee joint has minimal tolerance for hyperextension compared to other joints, and the transition from controlled pressure to catastrophic ligament damage can occur in less than one second. Unlike chokes where unconsciousness provides a gradual progression, knee hyperextension can cause immediate PCL tears, MCL ruptures, and meniscus damage before you have time to execute an escape. Attempting explosive escapes under finishing pressure adds dangerous rotational forces that compound injury risk. The cost of tapping is restarting the roll; the cost of a late escape attempt is potentially 6-12 months of surgical recovery.",
         "safety_critical": true,
-        "answer_line": "Tap fast, injury outpaces escape",
+        "answer_line": "Ligaments tear in under a second",
         "distractors": {
           "plausible": [
-            "Escape early before pressure",
-            "Wait to gauge pressure level"
+            "Rolling out is usually safe",
+            "The knee gives warning pain first"
           ],
           "trap": [
-            "Explode out under pressure"
+            "Fight until you hear a pop"
           ]
         }
       },
@@ -660,14 +660,14 @@
         "question": "The top player has completed the backstep but has not locked the leg triangle yet — what specific defensive actions should you take in this window?",
         "answer": "Immediately grab your own knee or shin with BOTH hands using a gable grip for maximum security. Pull your trapped leg tight toward your chest to prevent the attacker from threading their inside leg across your thigh for the figure-four. Simultaneously begin sitting up by driving your hips forward and lifting your chest toward the attacker. Use your free leg to step toward the attacker's head, looking for the opportunity to step over and establish a defensive hook. This combined defense of grip protection, knee bending, and postural recovery attacks all three elements the attacker needs: leg isolation, knee extension, and your positional weakness.",
         "safety_critical": false,
-        "answer_line": "Grab knee, sit up, step over",
+        "answer_line": "Gable grip knee, sit up, step in",
         "distractors": {
           "plausible": [
-            "Grab knee, stay flat and wait",
-            "Push their hips, stay low"
+            "Stay flat and wait it out",
+            "Frame on hips, keep hips down"
           ],
           "trap": [
-            "Try to yank leg free hard"
+            "Rip the leg out with force"
           ]
         }
       },
@@ -675,14 +675,14 @@
         "question": "Why is attempting an explosive rotational escape the most dangerous defensive error when kneebar finishing pressure is being applied?",
         "answer": "Explosive rotation while the knee is under hyperextension pressure adds torque to the joint in a plane it is not designed to resist. The knee primarily moves in flexion and extension; adding rotational force under hyperextension load attacks the anterior cruciate ligament (ACL) in addition to the posterior cruciate ligament (PCL) already under stress. This compound loading mechanism can cause simultaneous multi-ligament injury, which is catastrophically worse than a single-ligament tear. Multi-ligament knee injuries often require multiple surgeries, 12 or more months of rehabilitation, and may result in permanent joint instability. A controlled tap preserves all ligaments intact.",
         "safety_critical": true,
-        "answer_line": "Adds torque, risks ACL too",
+        "answer_line": "Adds torque, risks the ACL too",
         "distractors": {
           "plausible": [
-            "Only risks joint stiffness",
-            "Speeds up your escape safely"
+            "Damage is limited to meniscus",
+            "It only strains the hamstring"
           ],
           "trap": [
-            "Twist out fast to break grip"
+            "Spin hard to rip the leg free"
           ]
         }
       }

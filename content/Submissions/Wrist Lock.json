@@ -298,11 +298,11 @@
         "answer_line": "Flexion toward the forearm",
         "distractors": {
           "plausible": [
-            "Extension away from forearm",
-            "Ulnar deviation, sideways bend"
+            "Extension, bending it backward",
+            "Sideways bend toward the thumb"
           ],
           "trap": [
-            "Hyperextend the elbow"
+            "Snap it fast past the tap"
           ]
         }
       },
@@ -310,14 +310,14 @@
         "question": "Why is a posturing opponent who plants a stiff hand on your chest vulnerable to the wrist lock?",
         "answer": "A straight, posting arm pre-loads the wrist: the harder they push, the straighter the joint becomes and the shorter the path to flexion. You pin that planted palm flat and fold it toward their forearm with minimal motion.",
         "safety_critical": false,
-        "answer_line": "Pushing pre-loads the wrist",
+        "answer_line": "Straight arm pre-loads the joint",
         "distractors": {
           "plausible": [
-            "Arm bends, easy to control",
-            "Shoulder rotates open"
+            "A bent arm is easier to fold",
+            "Their shoulder opens up first"
           ],
           "trap": [
-            "Let them push you off balance"
+            "Ignore the post, get stacked"
           ]
         }
       },
@@ -325,14 +325,14 @@
         "question": "What must you control besides the hand for the wrist lock to work?",
         "answer": "You must control the elbow line. If the opponent can bend their arm or rotate the shoulder, the forearm follows the wrist and the pressure dissipates. Trapping the elbow keeps every degree of fold loading the wrist joint.",
         "safety_critical": false,
-        "answer_line": "The elbow line",
+        "answer_line": "Trap the elbow so it can't move",
         "distractors": {
           "plausible": [
-            "The shoulder joint",
-            "Their opposite hand"
+            "Their far-side sleeve grip",
+            "Their hips and base"
           ],
           "trap": [
-            "Their head and posture"
+            "Drop the arm to fight the collar"
           ]
         }
       },
@@ -340,14 +340,14 @@
         "question": "Why should you pin the opponent's palm to a solid base before applying the lock?",
         "answer": "Pinning the palm flat against your sternum, hip, or the mat stops the hand from retracting and gives you a stable platform to fold against, so your body weight rather than finger strength loads the wrist.",
         "safety_critical": false,
-        "answer_line": "Stops hand retracting",
+        "answer_line": "Stops the hand pulling free",
         "distractors": {
           "plausible": [
-            "Improves grip strength",
-            "Prevents them tapping fast"
+            "Adds power to your finger grip",
+            "Blocks their free-hand grip"
           ],
           "trap": [
-            "Lets you free your other hand"
+            "Yank the loose hand hard"
           ]
         }
       },
@@ -358,11 +358,11 @@
         "answer_line": "Chest/hip drive, small motion",
         "distractors": {
           "plausible": [
-            "Squeeze the fingers harder",
-            "Straighten their arm first"
+            "Grip harder with your fingers",
+            "Sit up and pull with the arms"
           ],
           "trap": [
-            "Yank hard for a fast tap"
+            "Jerk it fast for a quick tap"
           ]
         }
       },
@@ -373,11 +373,11 @@
         "answer_line": "Fold the buried, bent wrist",
         "distractors": {
           "plausible": [
-            "Switch to armbar attack",
-            "Crank the shoulder harder"
+            "Switch to a straight armbar",
+            "Wait for their grip to tire"
           ],
           "trap": [
-            "Release grip, reset position"
+            "Crank the shoulder past the tap"
           ]
         }
       },
@@ -385,14 +385,14 @@
         "question": "What is the most common error that makes a wrist lock fail entirely?",
         "answer": "Bending the wrist in the wrong direction or letting the elbow travel. The mão de vaca must be a flexion fold with the elbow trapped; attacking extension or letting the arm bend dissipates all the pressure.",
         "safety_critical": false,
-        "answer_line": "Wrong bend direction, elbow free",
+        "answer_line": "Bending wrong way, elbow free",
         "distractors": {
           "plausible": [
-            "Applying too little force",
-            "Not controlling the shoulder"
+            "Not squeezing hard enough",
+            "Attacking from a bad angle"
           ],
           "trap": [
-            "Rushing the finish for speed"
+            "Cranking blind past their tap"
           ]
         }
       },
@@ -403,8 +403,8 @@
         "answer_line": "Slow apply, release on tap",
         "distractors": {
           "plausible": [
-            "Fast crank, release on tap",
-            "Slow apply, release on scream"
+            "Crank fast, then ease pressure",
+            "Torque hard, wrist is durable"
           ],
           "trap": [
             "Hold past the tap to finish"
@@ -418,11 +418,11 @@
         "answer_line": "Trap palm, fold toward forearm",
         "distractors": {
           "plausible": [
-            "Pull both wrists to your hip",
-            "Grab both sleeves, break grip"
+            "Push their hands off and reset",
+            "Sit up and fight for a collar"
           ],
           "trap": [
-            "Release grip and attempt sweep"
+            "Open guard, let them stack you"
           ]
         }
       },
@@ -433,11 +433,11 @@
         "answer_line": "Retain guard, don't chase",
         "distractors": {
           "plausible": [
-            "Switch straight to armbar",
-            "Grab a leg, try to sweep"
+            "Keep squeezing the same grip",
+            "Sit up and hunt an underhook"
           ],
           "trap": [
-            "Chase the hand, open guard"
+            "Open guard to chase the hand"
           ]
         }
       }
@@ -551,14 +551,14 @@
         "question": "What is the single most reliable way to escape a wrist lock once your hand is trapped?",
         "answer": "Bend your elbow and retract the whole arm toward your body. The wrist lock dies when the elbow bends, because your forearm then follows your hand and the joint unloads instead of reaching end range.",
         "safety_critical": false,
-        "answer_line": "Bend elbow, retract arm",
+        "answer_line": "Bend the elbow and reel it in",
         "distractors": {
           "plausible": [
-            "Straighten arm, push away",
-            "Rotate the shoulder out"
+            "Straighten and push them away",
+            "Grab your own belt and hold"
           ],
           "trap": [
-            "Pull hand back sharply"
+            "Rip the hand out with force"
           ]
         }
       },
@@ -584,8 +584,8 @@
         "answer_line": "Little range before injury",
         "distractors": {
           "plausible": [
-            "Pain means safe to keep going",
-            "Tapping late is more honorable"
+            "Wrist has plenty of stretch",
+            "Pain arrives before real damage"
           ],
           "trap": [
             "Wait for a sharp pop to react"
@@ -598,8 +598,8 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Make a tight fist to resist",
-            "Rotate the wrist against the fold"
+            "Clench a tight fist to resist",
+            "Turn the palm up to face them"
           ],
           "trap": [
             "Grab their sleeve to stall"
@@ -613,11 +613,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Power through, straighten arm",
-            "Wait for referee stoppage"
+            "Hide the hand under your hip",
+            "Wait for their grip to slip"
           ],
           "trap": [
-            "Try to reverse the position"
+            "Rip the hand free by rolling"
           ]
         },
         "answer_line": "Tap early, don't fight it"

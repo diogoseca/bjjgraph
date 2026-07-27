@@ -284,7 +284,7 @@
             "Grip crushes the jugular veins"
           ],
           "trap": [
-            "Force blade against the jaw"
+            "Crank the neck spine to finish"
           ]
         }
       },
@@ -295,8 +295,8 @@
         "answer_line": "Face reddens, resistance drops",
         "distractors": {
           "plausible": [
-            "Loud screaming signals the tap",
-            "Opponent goes rigid and stiff"
+            "Blade feels hard against bone",
+            "Their legs stop kicking entirely"
           ],
           "trap": [
             "Gasping proves air choke works"
@@ -311,7 +311,7 @@
         "distractors": {
           "plausible": [
             "Just trap the far arm tightly",
-            "Flatten opponent's hips first"
+            "Post both knees and sit up tall"
           ],
           "trap": [
             "Reach for collar immediately"
@@ -329,7 +329,7 @@
             "When forearm touches the neck"
           ],
           "trap": [
-            "Once sprawl posture is set"
+            "Wait for the sprawl, then defend"
           ]
         }
       },
@@ -340,11 +340,11 @@
         "answer_line": "Collar grip not deep enough",
         "distractors": {
           "plausible": [
-            "Sprawling too early",
+            "Not enough shoulder pressure",
             "Losing arm isolation control"
           ],
           "trap": [
-            "Rushing the finish for speed"
+            "Lift your chest to crank harder"
           ]
         }
       },
@@ -355,11 +355,11 @@
         "answer_line": "Reset grip deeper, redirect chin",
         "distractors": {
           "plausible": [
-            "Force forearm through the chin",
-            "Switch to a different choke"
+            "Wait for them to tire out",
+            "Pull collar with both hands"
           ],
           "trap": [
-            "Push down hard on the trachea"
+            "Saw forearm across the windpipe"
           ]
         }
       },
@@ -370,8 +370,8 @@
         "answer_line": "Apply slowly, release on any tap",
         "distractors": {
           "plausible": [
-            "Full speed builds better reflexes",
-            "Only verbal taps count"
+            "Trap both arms for a clean rep",
+            "Set the grip fast, finish slow"
           ],
           "trap": [
             "Hold choke after tap to confirm"
@@ -385,8 +385,8 @@
         "answer_line": "Release grip, check breathing",
         "distractors": {
           "plausible": [
-            "Hold briefly to reset position",
-            "Let them tap out physically first"
+            "Slide straight through to mount",
+            "Stand up and reset for next round"
           ],
           "trap": [
             "Keep weight on neck till they move"
@@ -412,11 +412,11 @@
         "question": "How does the finishing strategy differ when applying this choke in competition versus training?",
         "answer": "In competition, you apply the choke with full body commitment and faster sprawl mechanics once the grip is set deep, since the opponent is fighting at maximum resistance and may attempt to endure discomfort. Maintain the choke until the referee intervenes. In training, apply slowly and progressively over several seconds, giving your partner ample opportunity to tap. Never use competition intensity in training. The grip setup should be identical in both contexts, but the finishing pressure ramp differs significantly.",
         "safety_critical": true,
-        "answer_line": "Same setup, faster finish in comp",
+        "answer_line": "Faster finish, hold till referee",
         "distractors": {
           "plausible": [
-            "Apply full force in training too",
-            "Grip is looser in competition"
+            "Grip is looser in competition",
+            "Skip the sprawl when competing"
           ],
           "trap": [
             "Spike the choke fast in training"
@@ -536,8 +536,8 @@
         "answer_line": "Near hand releases, collar tightens",
         "distractors": {
           "plausible": [
-            "Grips your far collar first",
-            "Weight shifts toward your legs"
+            "Their base leg steps over you",
+            "Chest pressure suddenly drops off"
           ],
           "trap": [
             "Ignore it, arm control still there"
@@ -551,8 +551,8 @@
         "answer_line": "Tap the moment sprawl begins",
         "distractors": {
           "plausible": [
-            "Wait until vision starts blurring",
-            "Tap only when grip passes midline"
+            "Turn to your side first, then tap",
+            "Tap only if you cannot bridge out"
           ],
           "trap": [
             "Try to endure and fight through it"
@@ -596,11 +596,11 @@
         "answer_line": "Shifts angle off the carotid",
         "distractors": {
           "plausible": [
-            "Makes the choke set in faster",
-            "Gives you a better arm-drag angle"
+            "Removes all of their hip pressure",
+            "Lets you post on the free arm"
           ],
           "trap": [
-            "Opens your back to the mat"
+            "Turn away and give up the back"
           ]
         }
       }

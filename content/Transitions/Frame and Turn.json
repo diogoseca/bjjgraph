@@ -239,11 +239,11 @@
         "answer_line": "Turning in reduces spinal rotation",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Stay still, rely on frames only"
+            "Both directions load equally",
+            "Stay still and rely on frames"
           ],
           "trap": [
-            "Turn away from opponent"
+            "Turn away from the opponent"
           ]
         }
       },
@@ -253,8 +253,8 @@
         "answer_line": "Abort turn, tap if locked",
         "distractors": {
           "plausible": [
-            "Keep turning to escape grip",
-            "Power through to complete turn"
+            "Keep driving to break the grip",
+            "Freeze and wait it out"
           ],
           "trap": [
             "Fight the lock instead of tapping"

@@ -337,11 +337,11 @@
         "answer_line": "If unlocked, snap head back down",
         "distractors": {
           "plausible": [
-            "Force the squeeze while standing",
-            "Let go and shoot a takedown"
+            "Wait for them to settle upright",
+            "Release and shoot a double leg"
           ],
           "trap": [
-            "Hang on and get dragged up"
+            "Jump to guillotine with no grip"
           ]
         }
       },

@@ -325,14 +325,14 @@
         "question": "At what point in the RNC sequence from Russian Cowboy is the defender effectively past the point of escape?",
         "answer": "Once the figure-four is fully locked with the choking hand gripping the opposite bicep and the free hand positioned behind the head, the defender's escape options drop dramatically. At this stage, two-on-one grip strips become mechanically inefficient against the locked figure-four, and the diagonal stretch from the hook prevents the body curl needed to relieve pressure. The defender's best remaining option is an immediate tap rather than prolonged resistance that risks unconsciousness.",
         "safety_critical": false,
-        "answer_line": "Figure-four locked, hand set",
+        "answer_line": "Figure-four locked, hand behind head",
         "distractors": {
           "plausible": [
-            "As soon as the hook engages",
-            "When seatbelt grip is set"
+            "When both hooks are first set in",
+            "As the choking arm crosses the neck"
           ],
           "trap": [
-            "Keep resisting, don't tap"
+            "Once the arms begin to squeeze"
           ]
         }
       },
@@ -340,14 +340,14 @@
         "question": "What is the most dangerous placement error when applying the choking arm and how do you correct it?",
         "answer": "Placing the forearm across the trachea instead of against the side of the neck is the most dangerous error. Trachea compression causes extreme pain, potential cartilage damage, and does not effectively restrict blood flow to the brain—meaning the opponent suffers injury without the choke actually working. Correct by positioning the blade of the forearm flat against the lateral neck with the elbow crook centered directly under the chin, so the squeeze closes bicep and forearm against both carotid arteries.",
         "safety_critical": true,
-        "answer_line": "Forearm on trachea, not neck",
+        "answer_line": "Blade on carotids, crook under chin",
         "distractors": {
           "plausible": [
-            "Elbow crook set too high",
-            "Bicep grip left too loose"
+            "Crook of elbow beside the jaw",
+            "Squeeze hard first, adjust after"
           ],
           "trap": [
-            "Push forearm harder on throat"
+            "Open the legs to sit up and squeeze"
           ]
         }
       },
@@ -359,10 +359,10 @@
         "distractors": {
           "plausible": [
             "Strip their fingers one by one",
-            "Squeeze bicep grip harder"
+            "Squeeze the bicep grip harder"
           ],
           "trap": [
-            "Release choke, reset position"
+            "Open your hook to re-grip"
           ]
         }
       },
@@ -400,11 +400,11 @@
         "question": "Your opponent is defending the RNC by tucking their chin aggressively and pinning it to their chest—what finishing strategy works against this defense?",
         "answer": "Apply a palm-to-palm squeeze that compresses through the jawline rather than requiring clean forearm-to-neck contact. Cup your choking hand over the chin area and clasp your other hand over it, then squeeze elbows together while expanding your chest. The pressure transmits through the jaw into the carotid arteries beneath. Alternatively, maintain patient chin-line pressure with your forearm while using the hook stretch to extend their body—the extension gradually weakens their chin tuck as their muscles fatigue under the stretch.",
         "safety_critical": false,
-        "answer_line": "Palm-to-palm pressure on jaw",
+        "answer_line": "Palm-to-palm squeeze on the jaw",
         "distractors": {
           "plausible": [
-            "Force forearm under the chin",
-            "Switch to bow-and-arrow choke"
+            "Wait for the tuck to tire out",
+            "Add a body triangle and hold"
           ],
           "trap": [
             "Crank the neck sideways hard"
@@ -543,7 +543,7 @@
             "Leg hook tightens first"
           ],
           "trap": [
-            "Ignore it, still plenty safe"
+            "Turn away to hide your neck"
           ]
         }
       },
@@ -551,14 +551,14 @@
         "question": "When should you tap to an RNC from Russian Cowboy and what tap signals are available to you?",
         "answer": "Tap immediately when you feel blood flow restriction to your brain—symptoms include tunnel vision, lightheadedness, or a rushing sensation in your ears. Do not wait to see if you can escape once these symptoms appear. Available tap signals include hand tapping the attacker's body or the mat, foot tapping the mat, saying tap verbally, or making any vocal sound. In training, tap early and tap often. An ego-driven late tap risks unconsciousness and the secondary injuries that come with it.",
         "safety_critical": true,
-        "answer_line": "Tap at first tunnel vision",
+        "answer_line": "Tap at first dizziness, any signal",
         "distractors": {
           "plausible": [
-            "Wait until you go limp",
-            "Try to escape first"
+            "Tap the mat only, never the body",
+            "Wait till the arm is fully locked"
           ],
           "trap": [
-            "Push through, tap only if hurt"
+            "Grip the arm and ride it out"
           ]
         }
       },
@@ -581,14 +581,14 @@
         "question": "Your opponent has secured the figure-four but has not fully applied the squeeze yet—what is your best defensive option?",
         "answer": "With the figure-four already locked, grip stripping becomes very difficult. Your best option is to immediately tuck your chin hard into the crook of their elbow while pulling their choking wrist down with both hands to create any space between their forearm and your neck. Simultaneously begin an explosive hip escape toward their free leg side—this is your last positional escape window before the squeeze tightens. If you cannot create space or escape within a few seconds, tap immediately rather than fighting a locked figure-four to exhaustion and risking unconsciousness.",
         "safety_critical": true,
-        "answer_line": "Tuck chin, hip escape now",
+        "answer_line": "Chin into the crook of their elbow",
         "distractors": {
           "plausible": [
-            "Two-on-one strip the wrist",
-            "Wait, conserve your energy"
+            "Shrimp out before tucking chin",
+            "Bridge toward their trapped leg"
           ],
           "trap": [
-            "Fight the lock to exhaustion"
+            "Stay flat and wait for a grip slip"
           ]
         }
       },
@@ -599,11 +599,11 @@
         "answer_line": "Burst escape, then tap if it fails",
         "distractors": {
           "plausible": [
-            "Keep grip fighting passively",
-            "Save energy, stay still"
+            "Switch hands to rest one arm",
+            "Peel one finger at a time"
           ],
           "trap": [
-            "Grip fight until arms give out"
+            "Let both hands go to rest them"
           ]
         }
       }

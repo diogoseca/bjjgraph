@@ -260,11 +260,11 @@
         "answer": "Bridge just as the opponent commits an arm forward and their weight is centered or shifting toward the trapped side. Bridging during a weight shift amplifies the force needed to break their base. Bridging against a fully settled, centered opponent wastes energy because their balanced base can absorb the bridge force.",
         "distractors": {
           "plausible": [
-            "Once fully settled and balanced",
-            "Right after trapping the arm"
+            "Once they settle heavy and centered",
+            "The instant you clamp the wrist"
           ],
           "trap": [
-            "Bridge before securing the arm"
+            "Wait until they climb to high mount"
           ]
         },
         "answer_line": "When they reach and weight shifts"
@@ -289,11 +289,11 @@
         "answer_line": "45° angle over trapped shoulder",
         "distractors": {
           "plausible": [
-            "Straight up for max height",
-            "Angle away from trapped side"
+            "Straight up for maximum height",
+            "Toward your free shoulder"
           ],
           "trap": [
-            "Push straight down into them"
+            "Roll to the free side, giving back"
           ]
         }
       },
@@ -303,11 +303,11 @@
         "answer_line": "Forgetting the foot hook",
         "distractors": {
           "plausible": [
-            "Not gripping the wrist tight enough",
-            "Bridging too early"
+            "Wrist grip not tight enough",
+            "Bridging a beat too soon"
           ],
           "trap": [
-            "Trying to trap both arms"
+            "Push their chest away, offer armbar"
           ]
         }
       },
@@ -331,11 +331,11 @@
         "answer_line": "Switch to elbow escape that side",
         "distractors": {
           "plausible": [
-            "Keep bridging harder",
-            "Switch sides and retry trap"
+            "Bridge again with more power",
+            "Retry the trap on the other side"
           ],
           "trap": [
-            "Abandon escape, turtle up"
+            "Turn belly down and give the back"
           ]
         }
       },
@@ -348,7 +348,7 @@
             "Trap the arm despite high mount"
           ],
           "trap": [
-            "Try trap and roll immediately"
+            "Push their hips with straight arms"
           ]
         },
         "answer_line": "Push back to standard mount first"
@@ -373,11 +373,11 @@
         "answer_line": "Two-on-one: wrist + elbow control",
         "distractors": {
           "plausible": [
-            "Grip only the wrist tightly",
-            "Grip high near the shoulder"
+            "Squeeze the wrist with both hands",
+            "Clamp high near the shoulder"
           ],
           "trap": [
-            "Grip the gi collar instead"
+            "Extend both arms to push them off"
           ]
         }
       },
@@ -387,11 +387,11 @@
         "answer_line": "Each escape sets up the other",
         "distractors": {
           "plausible": [
-            "Only use trap and roll from bottom",
-            "Elbow escape replaces trap and roll"
+            "They defend both threats the same",
+            "Drill only your best escape"
           ],
           "trap": [
-            "Ignore elbow escape entirely"
+            "Bridge over and over till gassed"
           ]
         }
       }
@@ -565,14 +565,14 @@
       {
         "question": "How do you prevent the bottom player from chaining the trap and roll into an elbow escape?",
         "answer": "After defending the trap and roll, immediately re-center your weight and drive your hips down before the bottom player can capitalize on any weight shift your defense created. Close any space that opened on the posting side by sliding your knee back to the mat and re-establishing hip-to-hip pressure. Threaten a submission on the arm they extended during the trap attempt to freeze their offensive momentum and force them back to a defensive posture.",
-        "answer_line": "Re-center, close space, threat sub",
+        "answer_line": "Re-center weight and close space",
         "distractors": {
           "plausible": [
             "Stand up to reset the position",
-            "Chase a submission immediately"
+            "Spread your knees wide and wait"
           ],
           "trap": [
-            "Relax pressure to celebrate defense"
+            "Relax pressure after the defense"
           ]
         }
       }

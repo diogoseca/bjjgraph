@@ -258,14 +258,14 @@
       {
         "question": "Your opponent clamps their knees together as you attempt to thread the initial hook — how do you create the opening?",
         "answer": "Use upper body threats to force a defensive reaction that opens the legs. Threaten a back take by driving your seatbelt deeper and walking toward their hips, which forces them to base out with a knee. Alternatively, use your free hand to pry their top knee upward while simultaneously driving your hip forward to wedge into the gap. Cross-face pressure into their jaw can reflexively cause hip shifting. The principle is creating a dilemma — defending the leg entry means exposing something else, and you attack whichever opening they give you.",
-        "answer_line": "Threaten upper body to open legs",
+        "answer_line": "Threaten the back to open the legs",
         "distractors": {
           "plausible": [
-            "Pry the knee while pressuring back",
-            "Cross-face then wait for a gap"
+            "Wait for them to tire and open",
+            "Pull their ankles apart by hand"
           ],
           "trap": [
-            "Force the hook through with power"
+            "Force the hook and get rolled"
           ]
         }
       },
@@ -275,25 +275,25 @@
         "answer_line": "Drive hips forward into their back",
         "distractors": {
           "plausible": [
-            "Drive hips down for mount pressure",
-            "Lift hips to create space"
+            "Press hips straight down for weight",
+            "Lift hips to make threading room"
           ],
           "trap": [
-            "Pull hips back to load a bridge"
+            "Sit back and let them turn in"
           ]
         }
       },
       {
         "question": "What entry conditions must exist before you should commit to the Twister entry from cross body ride?",
         "answer": "Cross body ride must be fully established with heavy perpendicular chest-to-back pressure and a secure seatbelt or harness grip. The opponent's hips must be partially accessible — either flattened to the mat, turtled with knees spread, or in the process of sitting through. Your near-side knee must be positioned behind their hip line with a clear threading path. The opponent should be committed to defending upper body threats (neck protection, arm defense) rather than actively defending their leg position. Attempting the entry before these conditions exist results in a scramble that loses the dominant cross body position.",
-        "answer_line": "Ride established, hips accessible",
+        "answer_line": "Ride set, hips already accessible",
         "distractors": {
           "plausible": [
-            "Any turtle position is enough",
-            "Opponent actively defending legs"
+            "Any turtle is enough to start",
+            "They must be actively defending"
           ],
           "trap": [
-            "Commit early before they adjust"
+            "Abandon the ride to dive at legs"
           ]
         }
       },
@@ -303,25 +303,25 @@
         "answer_line": "Deep hook crosses their centerline",
         "distractors": {
           "plausible": [
-            "Shallow hook works if you're fast",
-            "Deep hook means foot near the knee"
+            "Shallow works if you're quick",
+            "Depth just means foot by the knee"
           ],
           "trap": [
-            "Extend the foot without hip drive"
+            "Reach so deep they trap your leg"
           ]
         }
       },
       {
         "question": "Your opponent begins a granby roll as they feel your hook entering — how do you respond?",
         "answer": "Ride the granby by maintaining chest-to-back contact and following their rotational momentum. Keep your seatbelt grip secure and drive your weight into them throughout the roll. The granby often deepens your hook naturally because the rotational force separates their legs during the movement. As the roll completes and the opponent settles, immediately pinch your figure-four tight and flatten them with chest pressure. The key is never disconnecting from their back during the roll — stay glued to them and use their movement to accelerate your entry rather than fighting against it.",
-        "answer_line": "Stay glued, ride the roll with them",
+        "answer_line": "Stay glued and follow the rotation",
         "distractors": {
           "plausible": [
-            "Release grip to avoid injury",
-            "Stop and reset the position"
+            "Post hard to halt their momentum",
+            "Bail on the hook and re-thread"
           ],
           "trap": [
-            "Fight the rotation to stay flat"
+            "Push off mid-roll, they take top"
           ]
         }
       },
@@ -330,42 +330,42 @@
         "answer": "Maintain the seatbelt grip throughout hook threading and the figure-four, releasing it only after the figure-four is fully locked and the hips are immobilized. The seatbelt (one arm over the shoulder, one arm under the armpit, hands clasped on the chest) anchors your upper body to the opponent's back, preventing them from turning in or creating separation during the vulnerable transition phase. Only release or adjust it after you have verified that the opponent's hips are immobilized by the completed figure-four. Releasing the seatbelt prematurely is the single most common cause of failed Twister entries.",
         "distractors": {
           "plausible": [
-            "Release once hooks are in",
-            "Switch to double underhooks"
+            "Release once the hook is deep",
+            "Swap to double underhooks"
           ],
           "trap": [
-            "Let go to free hands faster"
+            "Let go, they turn in and take top"
           ]
         },
-        "answer_line": "Hold seatbelt till figure-4 locks"
+        "answer_line": "Hold seatbelt until the lock sets"
       },
       {
         "question": "How does the direction of force differ between the hook threading phase and the figure-four completion phase?",
         "answer": "The force shifts from forward-and-downward pressure during hook threading to lateral, circular pinching forces during figure-four completion. During hook threading, you drive your hips into the opponent's back to deepen the hook while your chest pins them flat. During figure-four completion, your top leg swings over the opponent's body from one side while your bottom hook anchors from the other, creating pinching forces that converge on the opponent's hips. The figure-four pinch itself is created by opposed vertical forces: top leg drives down while bottom hook pulls up. Understanding this directional shift is critical for smooth transitions between phases.",
         "distractors": {
           "plausible": [
-            "Downward pressure the whole time",
-            "Lateral pull, then forward drive"
+            "Steady downward weight throughout",
+            "Pull sideways first, drive later"
           ],
           "trap": [
-            "Yank the trapped leg straight up"
+            "Swing top leg over early, get rolled"
           ]
         },
-        "answer_line": "Forward drive, then pinching circles"
+        "answer_line": "Forward drive, then pinch laterally"
       },
       {
         "question": "If the opponent successfully defends the Twister entry and you cannot complete the figure-four, what chain attacks remain available from cross body ride?",
         "answer": "After a failed Twister entry, chain immediately to the back take, crucifix, crab ride, or direct choke threats still available from cross body ride. Specifically: back take by walking your hooks toward standard seatbelt back control with double under-hooks, crucifix entry by isolating the near-side arm when they post to defend, crab ride transition by establishing hooks on their hips for an alternative back attack angle, or chokes such as the bow and arrow or clock choke if collar grips are available. The key is not stalling after a failed attempt — immediately switch to the next highest-percentage attack based on the opponent's current defensive posture.",
         "distractors": {
           "plausible": [
-            "Reset to closed guard",
-            "Retry twister from scratch"
+            "Force the same figure-four again",
+            "Spin to a leg lock entry"
           ],
           "trap": [
-            "Release ride to reset position"
+            "Release the ride to re-grip"
           ]
         },
-        "answer_line": "Back take, crucifix, crab ride"
+        "answer_line": "Back take, crucifix, or crab ride"
       },
       {
         "question": "When is the optimal timing window to initiate the Twister entry during a cross body ride exchange?",
@@ -501,14 +501,14 @@
       {
         "question": "The attacker's hook has threaded between your thighs but the figure-four is not yet locked — what is your escape window?",
         "answer": "You have a brief two to four second window before the figure-four locks where a single hook can still be cleared. Straighten your near-side leg forcefully using hip extension to push the attacker's shin out from between your thighs. Simultaneously clamp your far-side knee down to prevent the attacker's second leg from completing the figure-four. If straightening fails, immediately execute a sit-through to turn and face the attacker, using the rotational momentum to dislodge the partially-set hook before it anchors. Speed is critical because once the figure-four locks, extraction requires fundamentally different and lower-percentage techniques.",
-        "answer_line": "Straighten leg, clamp other knee",
+        "answer_line": "Straighten leg, clamp far knee",
         "distractors": {
           "plausible": [
-            "Wait for the lock, then sit through",
-            "Push their head down to escape"
+            "Wait for the lock, then sit out",
+            "Peel their grip off your chest"
           ],
           "trap": [
-            "Bridge explosively to buy time"
+            "Turn away, handing them the back"
           ]
         }
       },
@@ -546,11 +546,11 @@
         "answer_line": "As soon as straightening fails",
         "distractors": {
           "plausible": [
-            "Only after the figure-four locks",
-            "Never, keep fighting from turtle"
+            "Only once the figure-four locks",
+            "Before they ever touch a leg"
           ],
           "trap": [
-            "Stay in turtle to hold position"
+            "Stay turtled until the twister sets"
           ]
         }
       }

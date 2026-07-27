@@ -352,7 +352,7 @@
             "Ankle against your hips"
           ],
           "trap": [
-            "Shin against your ribs"
+            "Bridge to make escape space"
           ]
         }
       },
@@ -408,8 +408,8 @@
         "answer_line": "ACL tear, 6-12 month recovery",
         "distractors": {
           "plausible": [
-            "Meniscus tear, quick recovery",
-            "MCL sprain, minor recovery"
+            "PCL rupture, over a year off",
+            "Hamstring pull, months off"
           ],
           "trap": [
             "Minor strain, back next week"
@@ -423,11 +423,11 @@
         "answer_line": "Follow roll, keep leg squeezed",
         "distractors": {
           "plausible": [
-            "Release and reset position",
-            "Push opposite to stop roll"
+            "Crank harder without moving",
+            "Sit back away from them"
           ],
           "trap": [
-            "Let go to avoid the scramble"
+            "Let go and stand up"
           ]
         }
       },
@@ -468,11 +468,11 @@
         "answer_line": "Weigh exposure, time, awareness",
         "distractors": {
           "plausible": [
-            "Always take clear leg exposure",
-            "Attack whenever leg is free"
+            "Base it on opponent's belt",
+            "Decide by how tired you are"
           ],
           "trap": [
-            "Abandon position for any attempt"
+            "Abandon control for any opening"
           ]
         }
       },
@@ -483,11 +483,11 @@
         "answer_line": "Losing leg squeeze on extension",
         "distractors": {
           "plausible": [
-            "Lifting hips instead of driving",
-            "Releasing ankle control briefly"
+            "Bad entry before the finish",
+            "Choosing the wrong side early"
           ],
           "trap": [
-            "Rushing extension vs bent knee"
+            "Crank explosively to force it"
           ]
         }
       }

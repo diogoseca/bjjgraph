@@ -309,14 +309,14 @@
         "question": "What anatomical structures does the side triangle choke target, and how does the trapped arm contribute to the choking mechanism?",
         "answer": "The side triangle targets the carotid arteries on both sides of the neck, restricting blood flow to the brain to cause unconsciousness. The trapped arm serves as a critical wedge - when positioned across the opponent's own neck and squeezed between your thigh and their shoulder, it compresses one carotid artery while your leg compresses the other side. Without the trapped arm properly positioned across their centerline, the choke lacks the internal pressure component and becomes ineffective. The arm essentially becomes an extension of your choking mechanism, using their own limb against them.",
         "safety_critical": false,
-        "answer_line": "Trapped arm wedges both carotids",
+        "answer_line": "Arm pins one carotid, leg the other",
         "distractors": {
           "plausible": [
-            "Leg alone compresses both sides",
-            "Arm blocks airway, not artery"
+            "Legs alone close both arteries",
+            "Wedge shuts the windpipe"
           ],
           "trap": [
-            "Ignore arm, squeeze legs harder"
+            "Free the arm to grab a collar"
           ]
         }
       },
@@ -327,11 +327,11 @@
         "answer_line": "Drive hips toward their head",
         "distractors": {
           "plausible": [
-            "Pull down hard with your legs",
-            "Just squeeze knees together"
+            "Yank them down with your legs",
+            "Hold still and wait it out"
           ],
           "trap": [
-            "Let go and reset the position"
+            "Open legs to readjust the lock"
           ]
         }
       },
@@ -342,11 +342,11 @@
         "answer_line": "Arm, angle, and hand all secured",
         "distractors": {
           "plausible": [
-            "Just the figure-four is locked",
-            "Loud breathing means it's done"
+            "Figure-four lock alone is enough",
+            "Heavy breathing proves it's tight"
           ],
           "trap": [
-            "Release grip once face reddens"
+            "Squeeze on until they go limp"
           ]
         }
       },
@@ -357,11 +357,11 @@
         "answer_line": "Add knee squeeze, stay perpendicular",
         "distractors": {
           "plausible": [
-            "Squeeze calves, ignore angle",
-            "Stay parallel, control free arm"
+            "Squeeze calves, ignore the angle",
+            "Lie parallel to their torso"
           ],
           "trap": [
-            "Skip free-arm control entirely"
+            "Open legs to fix your angle"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Drive hips toward crown of head",
         "distractors": {
           "plausible": [
-            "Push straight into their face",
-            "Grab collar, ignore angle shift"
+            "Press straight into their face",
+            "Chase a collar, keep the angle"
           ],
           "trap": [
-            "Pry their chin up by hand"
+            "Wrench the head to break the tuck"
           ]
         }
       },
@@ -402,11 +402,11 @@
         "answer_line": "Continue if arm trapped, angle set",
         "distractors": {
           "plausible": [
-            "Always finish, never transition",
-            "Switch anytime they resist"
+            "Bail the moment they resist",
+            "Judge only by how tired you are"
           ],
           "trap": [
-            "Keep grinding past the clock"
+            "Stay locked as they free the arm"
           ]
         }
       },
@@ -417,11 +417,11 @@
         "answer_line": "Gi: collar grips; no-gi: faster",
         "distractors": {
           "plausible": [
-            "No-gi needs slower, safer setup",
+            "No-gi needs a slower setup",
             "Gi grip fighting is optional"
           ],
           "trap": [
-            "Rely on sweat for extra grip"
+            "Skip wrist control in no-gi"
           ]
         }
       },
@@ -432,11 +432,11 @@
         "answer_line": "Unlock legs first, then arms",
         "distractors": {
           "plausible": [
-            "Release arms first, then legs",
-            "Let go all at once, together"
+            "Strip the grips before the legs",
+            "Check they're okay before letting go"
           ],
           "trap": [
-            "Keep legs locked, free the arms"
+            "Hold the squeeze a beat longer"
           ]
         }
       },
@@ -447,11 +447,11 @@
         "answer_line": "Verify arm, angle, and free hand",
         "distractors": {
           "plausible": [
-            "Just check the leg lock is on",
-            "Assume free arm is controlled"
+            "Only check the leg lock is on",
+            "Trust the free arm is handled"
           ],
           "trap": [
-            "Squeeze immediately, verify later"
+            "Squeeze blind and get stacked"
           ]
         }
       },
@@ -462,11 +462,11 @@
         "answer_line": "Extract arm, then relock tight",
         "distractors": {
           "plausible": [
-            "Squeeze harder through the defense",
-            "Switch instantly to back control"
+            "Muscle through their inside frame",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Ignore it, keep squeezing hard"
+            "Drop the lock and turn away"
           ]
         }
       },
@@ -477,11 +477,11 @@
         "answer_line": "Adjust angle to body and flexibility",
         "distractors": {
           "plausible": [
-            "Same setup fits every body type",
-            "Ignore neck size differences"
+            "One setup fits all opponents",
+            "Long legs remove any angle need"
           ],
           "trap": [
-            "Force the lock despite mismatch"
+            "Force it flat and get stacked"
           ]
         }
       }
@@ -620,11 +620,11 @@
         "answer_line": "Tap immediately, don't wait",
         "distractors": {
           "plausible": [
-            "Try one last escape attempt",
-            "Wait to see if it worsens"
+            "Signal by shaking your head",
+            "Hold your breath and stay calm"
           ],
           "trap": [
-            "Fight through, break the grip"
+            "Bridge and rip the legs apart"
           ]
         }
       },
@@ -635,11 +635,11 @@
         "answer_line": "Wedge hand between neck and thigh",
         "distractors": {
           "plausible": [
-            "Grab their wrist and pull away",
-            "Push on their chest to escape"
+            "Rip at their wrist to pull free",
+            "Shove their chest away"
           ],
           "trap": [
-            "Extend arm out for them to grab"
+            "Reach across for their far hip"
           ]
         }
       },
@@ -650,11 +650,11 @@
         "answer_line": "Turn body toward the attacker",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Stay flat, do nothing extra"
+            "Bridge hard straight into the lock",
+            "Stay flat and wait for a stall"
           ],
           "trap": [
-            "Turn away, increase their angle"
+            "Roll away and give up your back"
           ]
         }
       },
@@ -665,11 +665,11 @@
         "answer_line": "No-gi: slip arm free using sweat",
         "distractors": {
           "plausible": [
-            "Gi: skip grip fighting entirely",
-            "Same escape speed both contexts"
+            "Gi lets you skip grip fighting",
+            "Escape at the same pace in both"
           ],
           "trap": [
-            "Grab their sleeve, ignore grips"
+            "Stall in gi and let grips set"
           ]
         }
       }

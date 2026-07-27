@@ -305,11 +305,11 @@
         "answer_line": "Both carotids, blood choke",
         "distractors": {
           "plausible": [
-            "Windpipe/airway, not blood",
+            "Windpipe crush, air only",
             "Only the far-side carotid"
           ],
           "trap": [
-            "Cervical spine, neck crank"
+            "Crank the neck for the tap"
           ]
         }
       },
@@ -365,11 +365,11 @@
         "answer_line": "Walk perpendicular, chest over face",
         "distractors": {
           "plausible": [
-            "45-degree angle, head forward",
-            "Head on trapped-arm side"
+            "Stay at 45 degrees, head high",
+            "Keep head on trapped-arm side"
           ],
           "trap": [
-            "Stay parallel, cranks the neck"
+            "Post up tall and crank the neck"
           ]
         }
       },
@@ -380,7 +380,7 @@
         "answer_line": "No space, color change, weak defense",
         "distractors": {
           "plausible": [
-            "Tapping is the only real sign",
+            "Their breathing gets loud",
             "Just feel tightness in your arms"
           ],
           "trap": [
@@ -392,14 +392,14 @@
         "question": "What safety precautions must you observe when applying the arm triangle from Kuzure Kesa-Gatame?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always leave at least one of their hands free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp or stops responding, release immediately, position them on their side in recovery position, and monitor breathing until they regain consciousness.",
         "safety_critical": true,
-        "answer_line": "Squeeze slow, keep a hand free",
+        "answer_line": "Ramp pressure slow, hand free",
         "distractors": {
           "plausible": [
-            "Squeeze fast to prevent escape",
-            "Trap both hands for control"
+            "Jerk it on fast to stop escape",
+            "Pin both wrists for full control"
           ],
           "trap": [
-            "Ignore taps until fully locked"
+            "Squeeze until they go limp"
           ]
         }
       },
@@ -410,11 +410,11 @@
         "answer_line": "Chest/bodyweight, not arm strength",
         "distractors": {
           "plausible": [
-            "Squeeze harder with the arms",
-            "Use grip strength to finish"
+            "Bicep squeeze sustains pressure",
+            "Grip strength beats hip position"
           ],
           "trap": [
-            "Yank the head down hard"
+            "Sit up to squeeze, lose the pin"
           ]
         }
       },
@@ -425,11 +425,11 @@
         "answer_line": "Return to Kesa-Gatame control",
         "distractors": {
           "plausible": [
-            "Chase the choke from scramble",
-            "Transition to mount instead"
+            "Switch to mount immediately",
+            "Hold the choke grip and wait"
           ],
           "trap": [
-            "Abandon position, chase choke"
+            "Bail on position to chase choke"
           ]
         }
       },
@@ -440,11 +440,11 @@
         "answer_line": "Rush setup, squeeze stays slow",
         "distractors": {
           "plausible": [
-            "Squeeze harder and faster",
-            "Skip the perpendicular walk"
+            "Skip the perpendicular walk",
+            "Switch to a faster submission"
           ],
           "trap": [
-            "Jerk the finish for a fast tap"
+            "Spike the finish for a fast tap"
           ]
         }
       }
@@ -579,11 +579,11 @@
         "answer_line": "Tap hands, feet, or say tap loud",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only when vision blurs"
+            "Silent nod and hope they see",
+            "Wait for the coach to call it"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Hold out until vision blurs"
           ]
         }
       },
@@ -595,10 +595,10 @@
         "distractors": {
           "plausible": [
             "Push the arm straight out",
-            "Grab your own gi to anchor"
+            "Turn palm up and relax the arm"
           ],
           "trap": [
-            "Let arm ride up, fight later"
+            "Let the arm ride up, fight later"
           ]
         }
       },
@@ -624,11 +624,11 @@
         "answer_line": "Passive arm, turning away, late",
         "distractors": {
           "plausible": [
-            "Only mistake is tapping late",
+            "Framing early on their hip",
             "Fighting grips, not the arm"
           ],
           "trap": [
-            "Turn away to escape the grip"
+            "Push their head, feed the arm"
           ]
         }
       }

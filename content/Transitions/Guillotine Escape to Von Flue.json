@@ -355,14 +355,14 @@
       {
         "question": "The Von Flue choke is not producing a tap and your opponent appears comfortable—what adjustments should you make to the direction of force?",
         "answer": "Angle your shoulder pressure slightly forward toward the mat rather than straight down, driving the point of your shoulder deeper into the carotid. Walk your hips further behind you to increase the gravitational component through your shoulder. You can also micro-adjust by turning your head toward their hips, which rotates the shoulder bone and changes the pressure angle on the artery. The force must compress the carotid laterally, not push into the trachea.",
-        "answer_line": "Angle shoulder down, walk hips back",
+        "answer_line": "Drive shoulder forward to the mat",
         "distractors": {
           "plausible": [
             "Push straight down harder",
             "Turn head away from their hips"
           ],
           "trap": [
-            "Drive the shoulder into the trachea"
+            "Post up, freeing their guillotine"
           ]
         }
       },

@@ -302,11 +302,11 @@
         "answer_line": "PCL and MCL via hyperextension",
         "distractors": {
           "plausible": [
-            "ACL and meniscus tear",
-            "Hip flexors and hamstrings"
+            "Ankle joint and Achilles tendon",
+            "Quadriceps tendon rupture"
           ],
           "trap": [
-            "Achilles tendon and calf"
+            "Muscle only, safe to crank slow"
           ]
         }
       },
@@ -314,14 +314,14 @@
         "question": "What defensive reaction from your opponent creates the highest-percentage kneebar entry from ankle lock control?",
         "answer": "The opponent straightening their leg to defend the ankle lock creates the highest-percentage entry because the extended leg provides an optimal lever arm for the kneebar while simultaneously removing the knee flexion that protects against hyperextension. Their own defensive movement eliminates their primary defense against the follow-up attack, making this a true dilemma-based chain.",
         "safety_critical": false,
-        "answer_line": "Straightening leg to defend ankle",
+        "answer_line": "Opponent extends leg to defend",
         "distractors": {
           "plausible": [
-            "Bending knee to escape",
-            "Turning hips away sharply"
+            "Opponent curls heel to hip",
+            "Opponent sits up and posts"
           ],
           "trap": [
-            "Kicking free with heel"
+            "Wait until they turn belly-down"
           ]
         }
       },
@@ -329,14 +329,14 @@
         "question": "Why must your hip bone be positioned directly under the opponent's knee for an effective finish?",
         "answer": "Your hip bone serves as the fulcrum for the hyperextension lever. If the knee sits above or below your hip line, the extension force disperses across soft tissue instead of concentrating on the joint. Proper hip alignment creates a mechanical advantage where small hip movements generate large forces at the knee, while misalignment allows the opponent to resist through muscular strength alone.",
         "safety_critical": false,
-        "answer_line": "Aligns hip as extension fulcrum",
+        "answer_line": "Hip bone is the lever fulcrum",
         "distractors": {
           "plausible": [
-            "Improves the ankle lock grip",
-            "Keeps opponent from sitting up"
+            "Tightens the foot-armpit grip",
+            "Stops them from posting a hand"
           ],
           "trap": [
-            "Lets you rely on arm strength"
+            "Crank with knee above your hips"
           ]
         }
       },
@@ -359,14 +359,14 @@
         "question": "What is the correct finishing mechanic for the kneebar and why should you never rely on arm strength?",
         "answer": "The finish comes from hip extension driving upward while arching your back, with your arms simply maintaining the thigh-to-chest connection. Hip extension generates far more sustainable force than arm pulling and can overcome hamstring resistance. Arms fatigue within seconds under load while hip drive can be maintained indefinitely, making arm-based finishing attempts both weak and unsustainable.",
         "safety_critical": false,
-        "answer_line": "Hip extension drives, arms hold",
+        "answer_line": "Drive hips up, arms only connect",
         "distractors": {
           "plausible": [
-            "Pull hard with your arms",
-            "Arch back, ignore hip drive"
+            "Pull the leg with biceps",
+            "Squeeze knees and hold still"
           ],
           "trap": [
-            "Yank the leg violently"
+            "Rip through fast, ignore the tap"
           ]
         }
       },
@@ -374,14 +374,14 @@
         "question": "What role does foot control play in preventing the opponent from escaping the kneebar?",
         "answer": "Controlling the foot under your armpit prevents the opponent from rotating their knee medially or laterally out of the hyperextension line. Without foot control, the opponent can spin their knee to an angle where the extension pressure becomes non-threatening, escaping the submission without addressing the thigh grip. The foot is the end of the lever that determines the direction of force on the knee.",
         "safety_critical": false,
-        "answer_line": "Prevents knee rotating free",
+        "answer_line": "Stops the knee twisting offline",
         "distractors": {
           "plausible": [
-            "Stops opponent standing up",
-            "Keeps their hips pinned down"
+            "Blocks their hand from posting",
+            "Adds pressure to the ankle joint"
           ],
           "trap": [
-            "Lets you release the thigh grip"
+            "Free the foot to reach higher"
           ]
         }
       },
@@ -389,14 +389,14 @@
         "question": "What are the critical safety protocols when applying the kneebar from straight ankle lock control in training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum, never jerking or spiking the submission. Release immediately upon any tap signal including verbal, physical, or distress vocalization. After release, drop hips away from the leg and allow your partner to extract at their own pace. Always communicate about leg lock experience levels before rolling and never train kneebars with injured partners without explicit permission.",
         "safety_critical": true,
-        "answer_line": "Apply slow, release on any tap",
+        "answer_line": "Slow pressure, instant release",
         "distractors": {
           "plausible": [
-            "Release only on verbal tap",
-            "Ask before releasing pressure"
+            "Only stop for a spoken tap",
+            "Keep tension while they extract"
           ],
           "trap": [
-            "Spike it fast to end quickly"
+            "Jerk into full extension"
           ]
         }
       },
@@ -404,14 +404,14 @@
         "question": "How do you determine the point of no escape when finishing the kneebar from this position?",
         "answer": "The point of no escape occurs when three conditions are met simultaneously: the leg triangle is locked around the thigh preventing extraction, the foot is controlled preventing knee rotation, and your hips are positioned directly under the knee with extension pressure initiated. Once all three controls are established and hip extension begins, the opponent cannot escape through any single defensive movement and must tap or risk ligament damage.",
         "safety_critical": false,
-        "answer_line": "Triangle, foot control, hip set",
+        "answer_line": "All three controls locked at once",
         "distractors": {
           "plausible": [
-            "Foot control and hip line alone",
-            "Just the leg triangle locked"
+            "Leg triangle locked by itself",
+            "Foot pinned and hips only"
           ],
           "trap": [
-            "Opponent stops struggling"
+            "Ease off when they go still"
           ]
         }
       },
@@ -419,14 +419,14 @@
         "question": "What is the most effective competition finishing strategy for the kneebar from this position?",
         "answer": "Lock all three controls first - leg triangle around the thigh, foot pinned under the armpit, and hips directly beneath the knee - then finish with one committed, continuous hip extension rather than slow pumping that lets a fresh opponent spin or stack out. Against high-level defenders, deny the stall by keeping constant forward pressure and following them if they roll, so any rotation only deepens your alignment. The breaking force still comes from controlled hip drive, not a violent jerk, which finishes cleanly while leaving the opponent a fair window to tap.",
         "safety_critical": false,
-        "answer_line": "Lock controls, one committed drive",
+        "answer_line": "Set all controls, then one drive",
         "distractors": {
           "plausible": [
-            "Finish before triangle is set",
-            "Extend fast then hold statically"
+            "Squeeze the calf for pain first",
+            "Stall and wait out the clock"
           ],
           "trap": [
-            "Slow pumping pressure repeatedly"
+            "Pump pressure on and off"
           ]
         }
       }
@@ -542,14 +542,14 @@
         "question": "What is the earliest recognition cue that your opponent is transitioning from ankle lock to kneebar?",
         "answer": "The earliest cue is feeling the attacker's grip release from your ankle followed by their hands reaching toward your thigh or knee area. Simultaneously, you will feel their hips scooting underneath your knee as they reposition for the kneebar fulcrum. Recognizing this grip change within the first second gives you the best window for successful defense.",
         "safety_critical": false,
-        "answer_line": "Ankle grip releases, hands to knee",
+        "answer_line": "Ankle grip frees, hands seek knee",
         "distractors": {
           "plausible": [
-            "Opponent grips your collar",
-            "Opponent pulls guard closed"
+            "They post a hand on your chest",
+            "They square their shoulders up"
           ],
           "trap": [
-            "Opponent taps the mat lightly"
+            "Wait until you feel knee pain"
           ]
         }
       },
@@ -557,14 +557,14 @@
         "question": "When should you tap to the kneebar from straight ankle lock control to prevent injury?",
         "answer": "Tap immediately when you feel significant extension pressure on your knee and your primary defenses (knee flexion, hip rotation, leg triangle prevention) have failed. Kneebar injuries occur suddenly because the ligaments have a sharp failure threshold - the transition from uncomfortable to catastrophic damage happens faster than your pain response can warn you. When in doubt, always tap early and reset rather than risk a ligament tear.",
         "safety_critical": true,
-        "answer_line": "When defenses fail, pressure builds",
+        "answer_line": "Tap once your defenses have failed",
         "distractors": {
           "plausible": [
-            "Only when pain becomes sharp",
-            "Wait until fully locked position"
+            "As soon as legs get entangled",
+            "Wait for sharp pain to arrive"
           ],
           "trap": [
-            "Try to wait it out and toughen up"
+            "Ride it out to test toughness"
           ]
         }
       },
@@ -572,14 +572,14 @@
         "question": "Why is maintaining knee flexion the most important structural defense against the kneebar?",
         "answer": "A bent knee physically cannot be hyperextended regardless of how much hip extension the attacker applies, because the flexed hamstring absorbs the force and the joint geometry prevents the lever arm from forming. Knee flexion removes the mechanical advantage the attacker relies on. As long as you maintain the bend, the attacker must either change technique or work to straighten your leg before they can finish, buying you time for other defensive actions.",
         "safety_critical": false,
-        "answer_line": "Bent knee cannot hyperextend",
+        "answer_line": "A flexed knee cannot be levered",
         "distractors": {
           "plausible": [
-            "It hides ankle from grips",
-            "It tires the attacker's hips"
+            "It blocks grips on your foot",
+            "It drains the attacker's grip"
           ],
           "trap": [
-            "It sets up a heel hook spin"
+            "Straighten the leg to pull it out"
           ]
         }
       },
@@ -587,14 +587,14 @@
         "question": "What defensive options are available when the attacker has fully established the kneebar position with leg triangle and foot control?",
         "answer": "Once the position is fully established, your options narrow significantly. Maintain aggressive knee flexion as your primary defense while attempting to create rotation by turning your body toward the attacker. Use your free leg to push on their hips or hook behind their body for leverage. If the attacker begins applying progressive extension and your knee starts straightening despite your resistance, tap immediately rather than risking ligament damage trying to escape a fully locked position.",
         "safety_critical": true,
-        "answer_line": "Flex knee, rotate, tap if needed",
+        "answer_line": "Keep the bend, turn in, tap early",
         "distractors": {
           "plausible": [
-            "Pull your own foot free",
-            "Push off their chest hard"
+            "Yank the trapped foot loose",
+            "Flatten out and hold still"
           ],
           "trap": [
-            "Fight to standing to break grip"
+            "Stand up to rip the leg out"
           ]
         }
       }

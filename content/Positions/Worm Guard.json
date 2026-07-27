@@ -98,14 +98,14 @@
       {
         "question": "What is the fundamental strategic error when attempting to pass worm guard with forward pressure while the lapel is still wrapped?",
         "answer": "Forward pressure into an active lapel wrap creates perfect mechanical leverage for the bottom player to execute sweeps. The lapel acts as a lever that amplifies any forward weight commitment, converting your passing energy directly into sweep momentum. The correct approach is to first address and neutralize the lapel entanglement through systematic grip stripping or leg extraction before applying any forward pressure.",
-        "answer_line": "Neutralize lapel before pressure",
+        "answer_line": "Pressuring before lapel is cleared",
         "distractors": {
           "plausible": [
-            "Smash pass through the wrap",
-            "Strip grips while advancing"
+            "Passing to the wrong side first",
+            "Gripping pants instead of collar"
           ],
           "trap": [
-            "Drive forward into the wrap"
+            "Being too patient before driving"
           ]
         }
       },
@@ -115,11 +115,11 @@
         "answer_line": "Wide base, hips back, low",
         "distractors": {
           "plausible": [
-            "Narrow stance for speed",
-            "Lean weight forward early"
+            "Narrow stance for quick angles",
+            "Stand tall to strip grips"
           ],
           "trap": [
-            "Commit forward before clearing lapel"
+            "Drive chest-first into the wrap"
           ]
         }
       },
@@ -140,14 +140,14 @@
       {
         "question": "Why is patience more important than speed when passing worm guard?",
         "answer": "Explosive speed-based passing attempts against worm guard typically fail because the lapel mechanics redirect explosive energy into sweep momentum. The bottom player's control system is specifically designed to capitalize on hasty movements. Methodical, patient dismantling allows you to systematically address each layer of control without creating opportunities for counter-attacks. Speed-based passes should only be attempted after lapel tension is broken.",
-        "answer_line": "Patience beats speed vs lapel",
+        "answer_line": "Speed feeds the sweep momentum",
         "distractors": {
           "plausible": [
-            "Explosive pass before break",
-            "Speed through the tension"
+            "Patience saves grip strength",
+            "Slow pressure flattens the guard"
           ],
           "trap": [
-            "Rush the pass to beat fatigue"
+            "Explode before the wrap locks in"
           ]
         }
       },
@@ -157,11 +157,11 @@
         "answer_line": "Clear one control system fully",
         "distractors": {
           "plausible": [
-            "Split focus across both grips",
-            "Strip the weaker grip first"
+            "Strip the weakest grip first",
+            "Break grips only after passing"
           ],
           "trap": [
-            "Attack both grips simultaneously"
+            "Chase the pass with grips still on"
           ]
         }
       },
@@ -171,11 +171,11 @@
         "answer_line": "Disengage when caught in sweep",
         "distractors": {
           "plausible": [
-            "Always fully disengage to reset",
-            "Stay engaged no matter what"
+            "Bail out at every stalemate",
+            "Reset whenever they regrip"
           ],
           "trap": [
-            "Fully bail every stalemate"
+            "Ride out sweeps you cannot stop"
           ]
         }
       },
@@ -185,11 +185,11 @@
         "answer_line": "Leg moves free, lapel goes slack",
         "distractors": {
           "plausible": [
-            "Opponent stops gripping sleeve",
-            "Lapel feels tighter under load"
+            "Opponent switches to sleeve grip",
+            "Their hips square back to you"
           ],
           "trap": [
-            "Wait for them to let go fully"
+            "Test it by driving forward hard"
           ]
         }
       },
@@ -518,7 +518,7 @@
             "Tight closed guard frame"
           ],
           "trap": [
-            "Let tension ease between attacks"
+            "Drop the wrap to chase a sweep"
           ]
         }
       },
@@ -527,11 +527,11 @@
         "answer": "Pull ample lapel from the opponent's gi, feed it deep under their leg outside-to-inside, and wrap the free end around your shin or foot. The lapel must travel a complete path under their thigh rather than sitting shallow across the surface — shallow feeds create weak control that collapses under pressure. Practice extracting sufficient material and feeding at proper depth to create a tight, secure connection.",
         "distractors": {
           "plausible": [
-            "Feed shallow across the thigh",
-            "Wrap the lapel around the wrist"
+            "Lay it shallow across the thigh",
+            "Loop it around your wrist"
           ],
           "trap": [
-            "Grab a short length and yank tight"
+            "Open your guard to dig two-handed"
           ]
         },
         "answer_line": "Feed lapel deep, wrap the shin"
@@ -588,7 +588,7 @@
             "Only after losing the sweep"
           ],
           "trap": [
-            "Force it until fully passed"
+            "Keep attacking off the slack grip"
           ]
         }
       },
@@ -615,7 +615,7 @@
             "Pull straight back repeatedly"
           ],
           "trap": [
-            "Wait for a single opening"
+            "Ditch the lapel to gamble a sweep"
           ]
         },
         "answer_line": "Chain threats to erode their base"
@@ -903,14 +903,14 @@
       "answer": "Worm Guard feeds the opponent's lapel under their own near leg, outside to inside, and wraps it around your shin or foot, forming a closed loop. This mechanical loop links their trapped leg directly to your leg, converting the gi itself into a rigid tether. Unlike spider, lasso, or De La Riva, where control runs through the bottom player's limbs alone, worm guard borrows the opponent's own garment as the primary anchor. This lapel-leg linkage is what makes the position gi-exclusive and impossible to replicate in no-gi.",
       "distractors": {
         "plausible": [
-          "Lapel wraps around the wrist",
-          "Foot wraps opponent's belt"
+          "Gi tail wrapped around the neck",
+          "Deep collar grip and pant hold"
         ],
         "trap": [
-          "Sleeve grip replaces the lapel"
+          "Feed the wrap loose and slack"
         ]
       },
-      "answer_line": "Lapel wraps under leg to shin"
+      "answer_line": "Lapel fed under leg onto your shin"
     },
     {
       "question": "Why does constant lapel tension function as the load-bearing invariant of Worm Guard for both players?",
@@ -932,8 +932,8 @@
       "answer_line": "Lapel pull drags trapped leg out",
       "distractors": {
         "plausible": [
-          "Lapel only controls the sleeve",
-          "Grip strength alone off-balances"
+          "It only tires the top player's arms",
+          "Force stays in the gi, not the base"
         ],
         "trap": [
           "Push into the linkage to escape"
@@ -971,14 +971,14 @@
     {
       "question": "What distinguishes Worm Guard from the related lapel guards such as Squid Guard and Ringworm Guard?",
       "answer": "All three are lapel guards that weaponize the opponent's gi, but they differ in how the lapel is routed and how many limbs are additionally trapped. Worm Guard wraps the lapel under one leg and around the bottom player's shin as the core linkage, whereas Squid Guard adds further leg control layered onto the same lapel structure, and Ringworm uses an alternative lapel routing built on similar principles. Because they share the tension-and-linkage mechanics, players flow between them as the opponent counters one specific configuration. Worm Guard is best understood as the foundational entry point within this connected family of lapel entanglements.",
-      "answer_line": "Core lapel-under-leg to shin wrap",
+      "answer_line": "Lapel under one leg onto the shin",
       "distractors": {
         "plausible": [
-          "Extra leg entanglement layered on",
-          "Alternate lapel routing pattern"
+          "Built on sleeve and collar grips",
+          "Belt routed behind their knee"
         ],
         "trap": [
-          "No gi grip, pure leg control"
+          "A loose drape with no connection"
         ]
       }
     },
@@ -988,11 +988,11 @@
       "answer_line": "Closing space shortens the lever",
       "distractors": {
         "plausible": [
-          "Distance doesn't affect leverage",
-          "Only grip strength matters"
+          "Range only changes grip choice",
+          "More distance weakens the pull"
         ],
         "trap": [
-          "Back away to preserve the lever"
+          "Stay flat and absorb the smash"
         ]
       }
     },

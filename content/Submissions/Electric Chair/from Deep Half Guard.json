@@ -345,10 +345,10 @@
         "distractors": {
           "plausible": [
             "2-3 seconds is enough",
-            "10+ seconds always safest"
+            "Same speed as an armbar finish"
           ],
           "trap": [
-            "Apply pressure explosively"
+            "Yank to full extension fast"
           ]
         }
       },
@@ -356,14 +356,14 @@
         "question": "What are the three primary anatomical structures attacked by the Electric Chair submission?",
         "answer": "The Electric Chair simultaneously attacks: (1) the knee joint through hyperextension and rotational torque, (2) the hip flexors and IT band through compression and stretching, and (3) the lower back and posterior chain through spinal rotation combined with leg extension. This multi-structure attack is what makes the submission so effective - it creates pressure across multiple pain points simultaneously, making it difficult for opponents to defend against all components.",
         "safety_critical": false,
-        "answer_line": "Knee, hip flexors, low back",
+        "answer_line": "Knee, hip flexors, lower back",
         "distractors": {
           "plausible": [
-            "Knee, ankle, lower back",
-            "Hip, shoulder, spine"
+            "Ankle, calf, and hamstring",
+            "Shoulder, elbow, and ribs"
           ],
           "trap": [
-            "Neck, spine, ankle"
+            "Neck — crank it for the tap"
           ]
         }
       },
@@ -371,14 +371,14 @@
         "question": "Your opponent starts to posture up and base out with their free hand during your Electric Chair attempt - what adjustment prevents escape?",
         "answer": "When opponent attempts to posture and base, immediately use your free hand to control their posting arm by grabbing their wrist or sleeve and pulling it across their body. Simultaneously increase your lockdown squeeze and accelerate your inversion to remove their base. If you cannot control the posting arm, transition to a whip-up motion using your underhook to pull their weight forward and break their posture. The key is disrupting their ability to establish a stable base before they can complete the posture recovery.",
         "safety_critical": false,
-        "answer_line": "Trap posting arm, squeeze lockdown",
+        "answer_line": "Trap the posting arm, squeeze",
         "distractors": {
           "plausible": [
-            "Release lockdown to reposition",
-            "Push opponent's head down"
+            "Push their head to the mat",
+            "Switch to a butterfly hook"
           ],
           "trap": [
-            "Let go and reset guard"
+            "Open lockdown to chase the arm"
           ]
         }
       },
@@ -389,11 +389,11 @@
         "answer_line": "Release slow, control leg, check in",
         "distractors": {
           "plausible": [
-            "Release lockdown instantly",
-            "Keep rolling to assess pain"
+            "Let go of the leg all at once",
+            "Say nothing and start a new roll"
           ],
           "trap": [
-            "Push through, ask them to continue"
+            "Hold pressure, tell them to go on"
           ]
         }
       },
@@ -408,7 +408,7 @@
             "Underhook secured, no rotation yet"
           ],
           "trap": [
-            "Ease off, assume they're stuck"
+            "Rip extension fast to force tap"
           ]
         }
       },
@@ -419,11 +419,11 @@
         "answer_line": "Tighten lockdown, pull underhook",
         "distractors": {
           "plausible": [
-            "Release lockdown, re-shoot legs",
-            "Switch straight to back take"
+            "Push their knee away to reset",
+            "Reach for their far collar"
           ],
           "trap": [
-            "Loosen grip to reset angle"
+            "Open the lockdown to re-lock"
           ]
         }
       },
@@ -435,10 +435,10 @@
         "distractors": {
           "plausible": [
             "Only knee flexibility matters",
-            "Flexible partners are safer"
+            "A warm-up removes all risk"
           ],
           "trap": [
-            "Apply full pressure regardless"
+            "Crank hard on stiff partners"
           ]
         }
       },
@@ -461,14 +461,14 @@
         "question": "Why must you establish the lockdown before attempting any Electric Chair mechanics?",
         "answer": "The lockdown provides the foundational control system that enables all Electric Chair mechanics. The figure-four leg configuration traps opponent's leg and creates the platform for hip extension and rotational pressure. Without lockdown established first, there is no anchor point to generate leverage, no control over opponent's trapped leg, and no mechanism to prevent immediate escape. Attempting inversion or hip extension without secure lockdown results in opponent simply freeing their leg and escaping. The lockdown is not just recommended - it is the essential prerequisite that makes the entire submission system possible.",
         "safety_critical": false,
-        "answer_line": "It's the anchor for all leverage",
+        "answer_line": "Anchor that creates the leverage",
         "distractors": {
           "plausible": [
-            "Underhook alone is sufficient",
-            "Inversion comes before lockdown"
+            "Keeps your own knee safe",
+            "It sets the grip for the sweep"
           ],
           "trap": [
-            "Skip lockdown, invert first"
+            "Invert first, lock the legs later"
           ]
         }
       },
@@ -491,14 +491,14 @@
         "question": "What common finishing error causes the Electric Chair to fail even when setup and control are correct?",
         "answer": "The most common finishing error is focusing exclusively on hip extension without adequate spinal rotation. While hip extension creates the primary compression force, rotation is what transforms pressure from uncomfortable to submission-inducing. Without rotation, opponent can often absorb the extension pressure and wait for opportunity to escape. The fix is to consciously turn your chest and shoulders away from opponent while extending, creating the synergistic combination of extension and rotational torque that attacks the knee, hip, and IT band simultaneously. Think of 'extending away' rather than just 'extending up.'",
         "safety_critical": false,
-        "answer_line": "Extension without rotation",
+        "answer_line": "No rotation with the extension",
         "distractors": {
           "plausible": [
-            "Extending straight up only",
-            "Rotating before extending"
+            "Underhook grip is too shallow",
+            "Feet crossed on the wrong side"
           ],
           "trap": [
-            "Release rotation, add speed"
+            "Yank hard and fast for the tap"
           ]
         }
       },
@@ -509,11 +509,11 @@
         "answer_line": "Lockdown, underhook, arm control",
         "distractors": {
           "plausible": [
-            "Lockdown alone is enough",
-            "Release underhook near finish"
+            "Leg squeeze alone is enough",
+            "Post both hands on the mat"
           ],
           "trap": [
-            "Ease pressure to reset grips"
+            "Open the legs to grab the head"
           ]
         }
       }
@@ -637,14 +637,14 @@
         "question": "What is the most effective early-stage defense against Electric Chair before the attacker begins inversion?",
         "answer": "The most effective early defense is posting your far hand wide on the mat to establish a strong base while simultaneously fighting to strip the attacker's underhook. Without the underhook, the attacker cannot maintain the upper body connection needed to complete inversion. Combine this with forward driving pressure through your shoulder and chest to compress their space. This two-pronged approach (remove underhook + maintain base) addresses both the positional and leverage components the attacker needs.",
         "safety_critical": false,
-        "answer_line": "Post base, strip the underhook",
+        "answer_line": "Base out and kill the underhook",
         "distractors": {
           "plausible": [
-            "Turn away immediately",
-            "Grab their far leg first"
+            "Flatten out and wait it out",
+            "Push their far knee away"
           ],
           "trap": [
-            "Let them secure underhook"
+            "Turn away and give up your back"
           ]
         }
       },
@@ -656,7 +656,7 @@
         "distractors": {
           "plausible": [
             "Only the knee is at risk",
-            "Pressure builds very slowly"
+            "Same as a straight armbar"
           ],
           "trap": [
             "Wait for sharp pain to tap"
@@ -682,11 +682,11 @@
         "question": "How does turning into the attacker during their inversion affect the submission mechanics?",
         "answer": "Turning into the attacker directly counters the rotational torque component of the Electric Chair. The submission's finishing power comes from combining hip extension with spinal rotation that torques the knee and hip. By turning toward the attacker, you reduce the rotational angle between your bodies, significantly diminishing the torque on your knee and hip. This can convert a nearly-finished submission into a manageable scramble position. However, turning in exposes your back, so you must be prepared to defend the back take that commonly follows.",
         "safety_critical": false,
-        "answer_line": "Cuts rotational torque, risk back",
+        "answer_line": "Kills the rotational torque",
         "distractors": {
           "plausible": [
-            "Increases their leverage",
-            "Stops the hip extension"
+            "Stops their hip extension",
+            "Frees the trapped ankle"
           ],
           "trap": [
             "Turn away to hide the leg"

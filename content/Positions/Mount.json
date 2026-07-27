@@ -833,11 +833,11 @@
       "answer_line": "Stop advance, frame, then hips",
       "distractors": {
         "plausible": [
-          "Frame first, then block advance",
-          "Bridge immediately, then frame"
+          "Frame up before stopping the climb",
+          "Shrimp first, then build frames"
         ],
         "trap": [
-          "Explosive bridge before framing"
+          "Push the chest with straight arms"
         ]
       }
     },
@@ -858,14 +858,14 @@
     {
       "question": "How does control of the hips serve as the central battle in every mount variation from both perspectives?",
       "answer": "In all mount variants the decisive contest is over the bottom player's hips, because hip mobility is what lets the bottom player bridge, shrimp, and recover guard. The top player wins by keeping their weight heavy on and connected to those hips, following them when the bottom player tries to escape and denying the space needed to reinsert a knee. The bottom player wins by freeing the hips first, since hip movement creates space that shoulder or arm movement alone never can. Whoever dictates whether the hips can move dictates the exchange, which is why every mount variation ultimately reduces to this same struggle regardless of the specific grips or leg positions involved.",
-      "answer_line": "Whoever frees hips first wins",
+      "answer_line": "Hip control decides the battle",
       "distractors": {
         "plausible": [
           "Controlling the head wins",
           "Grip fighting decides it"
         ],
         "trap": [
-          "Chase the arms, ignore hips"
+          "Sit up tall chasing armlocks"
         ]
       }
     }
@@ -880,7 +880,7 @@
           "Knee on belly, weight forward"
         ],
         "trap": [
-          "Both knees on one side"
+          "Sitting back on the thighs"
         ]
       },
       "answer_line": "Knee each side, hips centered"
@@ -888,14 +888,14 @@
     {
       "question": "Why is hip control the central battle that determines who dictates a Mount exchange?",
       "answer": "Whoever governs the connection between the two sets of hips controls the position. The top player pins by driving their hips low and heavy into the opponent's abdomen, flattening the bottom player's hips to the mat and stripping away the leverage needed to bridge or shrimp. The bottom player, conversely, must free their own hips to create the angle and space required for any escape. Because escape mechanics and retention mechanics both route through hip mobility, the exchange is fundamentally a contest over whose hips can move, which is why both roles orient their entire game around hip positioning rather than the arms.",
-      "answer_line": "Control connects through hips",
+      "answer_line": "Hip connection decides control",
       "distractors": {
         "plausible": [
-          "Control comes from grips",
-          "Posture control decides it"
+          "Grip fighting decides the pin",
+          "Upright posture decides the pin"
         ],
         "trap": [
-          "Let hips float free"
+          "Top sits tall, weight off them"
         ]
       }
     },

@@ -318,14 +318,14 @@
         "question": "What anatomical structures does the Electric Chair primarily attack?",
         "answer": "The Electric Chair primarily attacks the hip joint through forced hyperabduction, stretching the adductor muscles of the inner thigh, hip flexors, and the hip joint capsule itself. The groin region experiences the most acute pressure as the legs are split beyond their natural range of motion. Secondary stress is placed on the medial collateral ligament of the trapped knee due to rotational forces transmitted through the lockdown configuration.",
         "safety_critical": true,
-        "answer_line": "Hip & groin adductors",
+        "answer_line": "Hip joint and inner-thigh adductors",
         "distractors": {
           "plausible": [
-            "Knee & MCL ligament",
-            "Lower back & spine"
+            "Neck and cervical spine",
+            "Shoulder capsule and rotator cuff"
           ],
           "trap": [
-            "Ankle & Achilles tendon"
+            "Harmless muscle stretch, ride it out"
           ]
         }
       },
@@ -333,14 +333,14 @@
         "question": "What are the visual and tactile indicators that you are approaching the breaking point of the submission?",
         "answer": "Key indicators include increasing rigidity in the opponent's resistance as they approach their flexibility limit, visible distress in facial expression or body tension, the opponent's free leg beginning to scramble or push desperately against the mat, and a noticeable change in their breathing pattern becoming rapid or shallow. The attacker should feel progressively more structural resistance followed by a point where the hip structure begins to give.",
         "safety_critical": true,
-        "answer_line": "Panic, scrambling, breath changes",
+        "answer_line": "Rising rigidity, panic, fast breath",
         "distractors": {
           "plausible": [
-            "Opponent taps immediately",
-            "They verbally ask to stop"
+            "Opponent relaxes and smiles",
+            "Their grips get stronger"
           ],
           "trap": [
-            "Sudden calm, no resistance"
+            "Crank hard until you hear a pop"
           ]
         }
       },
@@ -375,28 +375,28 @@
       {
         "question": "What are the most common finishing errors that allow the opponent to escape the Electric Chair?",
         "answer": "The two most frequent finishing errors are releasing lockdown tension while reaching for the ankle, which allows the opponent to extract their leg, and attempting to apply explosive splitting force rather than progressive pressure. Explosive force often results in the opponent absorbing the initial burst and scrambling free during the brief recovery moment. Patient, progressive pressure that incrementally increases the split is far more effective and safer than attempting to muscle through the submission.",
-        "answer_line": "Releasing lockdown, explosive force",
+        "answer_line": "Losing lockdown, exploding early",
         "distractors": {
           "plausible": [
-            "Applying pressure too slowly",
-            "Not securing the underhook"
+            "Pressing too slowly and steadily",
+            "Failing to grip the collar"
           ],
           "trap": [
-            "Muscling through with force"
+            "Sit up and abandon the lockdown"
           ]
         }
       },
       {
         "question": "How should you adjust your grips if the opponent begins successfully resisting the split by squeezing their knees together?",
         "answer": "When the opponent squeezes knees to resist, first verify your lockdown is tight by re-engaging the heel pull and ankle cross. Then adjust the splitting angle by hip escaping further to create a more perpendicular line of force against their knee squeeze. Pulsate the pressure by briefly reducing and then rapidly re-engaging the split to find gaps in their defensive contraction. If knee squeeze defense remains strong, transition to the Old School sweep to capitalize on their defensive commitment to keeping legs together.",
-        "answer_line": "Re-angle, pulse pressure, or sweep",
+        "answer_line": "Tighten heel, re-angle, then pulse",
         "distractors": {
           "plausible": [
-            "Release lockdown and reset",
-            "Switch to a different leg"
+            "Wait for them to tire out",
+            "Grab their collar and pull"
           ],
           "trap": [
-            "Force the split with one burst"
+            "Drop the lockdown to reset"
           ]
         }
       },
@@ -407,25 +407,25 @@
         "answer_line": "Groin injury outpaces warning signs",
         "distractors": {
           "plausible": [
-            "Opponent needs time to tap",
-            "Builds better lockdown control"
+            "Slow pace raises finishing odds",
+            "Keeps the lockdown from opening"
           ],
           "trap": [
-            "Fast pressure teaches better defense"
+            "Crank fast to beat the defense"
           ]
         }
       },
       {
         "question": "What competition strategy maximizes finishing rate with the Electric Chair?",
         "answer": "In competition, establish the lockdown early and immediately work toward the Electric Chair position rather than attempting sweeps first. Once the position is secured, threaten the Old School sweep to force the opponent to commit their base defensively, then capitalize on their defensive posture to initiate the split. Apply steady progressive pressure and avoid resetting once the split begins. If the opponent successfully defends the submission, immediately transition to the Old School sweep while their attention remains focused on split defense.",
-        "answer_line": "Threaten sweep, force split commit",
+        "answer_line": "Bait the sweep, then split",
         "distractors": {
           "plausible": [
-            "Sweep first, then chair",
-            "Rush the split immediately"
+            "Sweep first, chair as backup",
+            "Stall and win on points"
           ],
           "trap": [
-            "Reset position if defended once"
+            "Abandon lockdown to scramble up"
           ]
         }
       }
@@ -548,14 +548,14 @@
         "question": "What are the earliest recognition cues that an Electric Chair is being set up from lockdown?",
         "answer": "The earliest cues are the opponent securing a noticeably deep underhook from lockdown bottom that reaches across your back, feeling them begin to extend their hips away from you which creates an angular pull on your trapped leg, and the opponent releasing one hand from upper body control to reach toward your ankle or foot. Any combination of these indicates the Electric Chair is being established and immediate defensive response is required before the split begins.",
         "safety_critical": false,
-        "answer_line": "Underhook, hip extend, ankle reach",
+        "answer_line": "Deep underhook, hips extending",
         "distractors": {
           "plausible": [
-            "Opponent squeezes knees together",
-            "They release lockdown grip"
+            "They flatten out and stall",
+            "Both hands fight your collar"
           ],
           "trap": [
-            "They pull guard and reset"
+            "Relax and let them build angle"
           ]
         }
       },
@@ -563,14 +563,14 @@
         "question": "Why is it critical to defend the Electric Chair before the attacker achieves full perpendicular angle?",
         "answer": "Once the attacker achieves perpendicular angle with all three control points established (lockdown, underhook, ankle), the mechanical advantage of the split becomes overwhelming. At this point, knee squeeze defense alone cannot resist the splitting force, and the attacker's leverage multiplies significantly with each degree of additional angle. Early defense when the attacker is still establishing controls requires far less energy and has substantially higher success rates than late-stage defense attempts.",
         "safety_critical": false,
-        "answer_line": "Late defense needs huge force",
+        "answer_line": "Leverage multiplies with angle",
         "distractors": {
           "plausible": [
-            "Knee squeeze always works late",
-            "Angle doesn't affect leverage"
+            "Escapes are easier once locked",
+            "Their grip weakens over time"
           ],
           "trap": [
-            "Wait for full split then escape"
+            "Hold on until the hip pops"
           ]
         }
       },
@@ -578,14 +578,14 @@
         "question": "What is the safest immediate response when you feel the splitting pressure beginning to build on your hip?",
         "answer": "The safest immediate response is to simultaneously squeeze your knees together as tightly as possible while driving your chest weight forward onto the opponent's upper body. This combination prevents the split from progressing while limiting the attacker's ability to create a better perpendicular angle. Do not attempt to rip your leg free, as this can worsen the split. Focus on nullifying the current pressure first, then systematically work to break the lockdown configuration.",
         "safety_critical": true,
-        "answer_line": "Squeeze knees, drive chest forward",
+        "answer_line": "Squeeze knees, drive chest in",
         "distractors": {
           "plausible": [
-            "Rip your leg free immediately",
-            "Push opponent's head away"
+            "Push their head away hard",
+            "Sit up and posture tall"
           ],
           "trap": [
-            "Yank leg out of lockdown"
+            "Rip the trapped leg free"
           ]
         }
       },
@@ -596,11 +596,11 @@
         "answer_line": "Tap immediately, no warning window",
         "distractors": {
           "plausible": [
-            "Wait for sharp pain to tap",
-            "Try to power through it"
+            "Bridge harder to relieve it",
+            "Ask them verbally to ease off"
           ],
           "trap": [
-            "Test your flexibility limit"
+            "Ride it out to gain flexibility"
           ]
         }
       },

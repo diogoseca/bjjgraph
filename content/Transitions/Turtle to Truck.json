@@ -597,14 +597,14 @@
       {
         "question": "Your opponent has locked the full leg triangle and established boot pressure - what escape options remain and what is the priority sequence?",
         "answer": "Once the Truck is fully established, the priority sequence is: first, protect your neck and spine by tucking your chin and preventing the attacker from controlling your far arm for the Twister. Second, fight the boot pressure using your free hand to push or strip the foot from your hip, as removing the boot eliminates the torque that powers all attacks. Third, work to extract your trapped leg by bending it sharply and using hip rotation to create space within the triangle. Fourth, attempt a forward roll or granby roll to escape the entanglement once you have reduced at least one control point. Escape probability is significantly lower at this stage, so if submissions begin applying, tap early rather than risking spinal or knee injury.",
-        "answer_line": "Protect neck, then strip the boot",
+        "answer_line": "Defend the neck, then kill the boot",
         "distractors": {
           "plausible": [
-            "Strip boot before protecting neck",
-            "Extract your leg first, then neck"
+            "Rip the trapped leg free first",
+            "Attack the exposed foot first"
           ],
           "trap": [
-            "Keep fighting once submission locks"
+            "Turn away and give up the far arm"
           ]
         }
       }

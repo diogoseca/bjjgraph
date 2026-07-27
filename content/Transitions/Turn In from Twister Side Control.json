@@ -262,14 +262,14 @@
       {
         "question": "What conditions must exist before attempting the turn-in escape from twister side control?",
         "answer": "Four conditions must be present: at least one arm must be free to create frames, sufficient hip mobility must remain to initiate inward rotation despite the leg entanglement, the opponent must not have fully locked the twister finish with maximum spinal torque, and you must have enough energy reserves for the sustained multi-step sequence. If the twister is fully locked, you should tap rather than force the escape and risk spinal injury.",
-        "answer_line": "Free arm, mobility, not locked",
+        "answer_line": "Free arm, hips mobile, not locked",
         "distractors": {
           "plausible": [
-            "Just needs one free arm",
-            "Any hip movement enough"
+            "Only if his legs are untangled",
+            "Needs his grips broken first"
           ],
           "trap": [
-            "Force it if twister locked"
+            "Spin in against a set twister"
           ]
         }
       },

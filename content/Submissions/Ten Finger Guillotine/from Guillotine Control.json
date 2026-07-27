@@ -316,8 +316,8 @@
         "answer_line": "Grip locks, can't adjust after",
         "distractors": {
           "plausible": [
-            "Interlacing takes both hands",
-            "Deeper grip needs more strength"
+            "Shallow grip finishes quicker",
+            "Depth just adds squeeze power"
           ],
           "trap": [
             "Lock grip first, then sink deep"
@@ -406,11 +406,11 @@
         "answer_line": "After 10-15s of solid defense",
         "distractors": {
           "plausible": [
-            "Only if arms go numb",
-            "Never, finish what you started"
+            "Only if your arms go numb",
+            "As soon as they hand-fight once"
           ],
           "trap": [
-            "Explode harder to force finish"
+            "Keep squeezing till you gas out"
           ]
         }
       }
@@ -554,8 +554,8 @@
         "answer_line": "Tap verbally, hand, and foot",
         "distractors": {
           "plausible": [
-            "Wait to see if escape works",
-            "Tap only once clearly felt"
+            "Blink hard and grimace in pain",
+            "Shout for the referee to stop"
           ],
           "trap": [
             "Try to fight through it first"

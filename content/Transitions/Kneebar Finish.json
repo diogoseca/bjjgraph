@@ -245,7 +245,7 @@
             "Rotate ankle to attack ligament"
           ],
           "trap": [
-            "Bend their knee for leverage"
+            "Release the ankle to sit up"
           ]
         }
       },
@@ -325,11 +325,11 @@
         "answer_line": "Ligaments tear before pain warns",
         "distractors": {
           "plausible": [
-            "Opponent needs time to verbally tap",
-            "Sudden pressure breaks your grip"
+            "Pauses let you reset your grips",
+            "Slow pressure builds more torque"
           ],
           "trap": [
-            "Fast pressure finishes quicker"
+            "Crank fast to beat their defense"
           ]
         }
       },
@@ -540,11 +540,11 @@
         "answer_line": "Leg locked straight, can't bend",
         "distractors": {
           "plausible": [
-            "As soon as you feel any pain",
-            "Only when you hear a pop"
+            "When they first grab your ankle",
+            "Once your knee-line grip is gone"
           ],
           "trap": [
-            "Keep fighting until near injury"
+            "Wait for them to tire and let go"
           ]
         }
       },

@@ -353,11 +353,11 @@
         "answer": "Chain multiple passing sequences together based on the opponent's reactions rather than staying static and forcing a single technique. If traditional pressure passing is defended with strong frames, transition to the knee slice or headquarters; if they defend the knee slice, flow to the leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities: if they defend your crossface, they often weaken their leg defense, and if they focus entirely on leg retention, their upper body becomes vulnerable.",
         "distractors": {
           "plausible": [
-            "Repeat same pass harder",
-            "Switch pass every few seconds"
+            "Repeat one pass with more force",
+            "Switch passes every few seconds"
           ],
           "trap": [
-            "Abandon pressure, reset to standing"
+            "Stall static until swept"
           ]
         },
         "answer_line": "Chain passes off their reaction"
@@ -522,11 +522,11 @@
         "answer_line": "Underhook on trapped-leg side",
         "distractors": {
           "plausible": [
-            "Overhook on far side arm",
-            "Collar grip to control head"
+            "Overhook on the far arm",
+            "Collar grip to steer the head"
           ],
           "trap": [
-            "Grab both pant cuffs"
+            "Reach across, get flattened"
           ]
         }
       },
@@ -579,10 +579,10 @@
         "distractors": {
           "plausible": [
             "One strong variation beats all",
-            "Master lockdown, skip others"
+            "Drill a single counter deeply"
           ],
           "trap": [
-            "Commit fully to deep half only"
+            "Freeze in one guard, get passed"
           ]
         }
       }

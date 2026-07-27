@@ -566,14 +566,14 @@
       {
         "question": "When should you prioritize escaping versus tapping to the anaconda?",
         "answer": "Tap when you feel tunnel vision starting, when you can no longer effectively fight the grip, or when you recognize that the position is fully locked with no escape opportunity. The anaconda can cause unconsciousness rapidly once the blood choke is established. If your defensive hand fighting isn't creating space after 5-10 seconds of effort, the position is likely too deep to escape. In training, err on the side of tapping early - you gain nothing from going unconscious and lose the opportunity to reset and drill the defense from earlier stages.",
-        "answer_line": "Tap at tunnel vision, don't wait",
+        "answer_line": "Tap when tunnel vision starts",
         "distractors": {
           "plausible": [
-            "Fight until you black out",
-            "Wait for a clear opening"
+            "Wait for a clear escape window",
+            "Only tap when you feel pain"
           ],
           "trap": [
-            "Push through the pain to escape"
+            "Fight on until you black out"
           ]
         }
       }

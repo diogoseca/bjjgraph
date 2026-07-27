@@ -300,10 +300,10 @@
         "distractors": {
           "plausible": [
             "Only the far-side carotid",
-            "Trachea/windpipe compression"
+            "Trachea and windpipe crush"
           ],
           "trap": [
-            "Vagus nerve strike point"
+            "Crank their neck sideways instead"
           ]
         }
       },
@@ -314,11 +314,11 @@
         "answer_line": "Near-arm frames across own neck",
         "distractors": {
           "plausible": [
-            "They push your choking arm away",
-            "They turtle to hide neck"
+            "They bridge into your hips",
+            "They grip your belt and pull"
           ],
           "trap": [
-            "They turn face-down to hide"
+            "Reach for the neck, get bridged"
           ]
         }
       },
@@ -329,11 +329,11 @@
         "answer_line": "Chest pins arm before regrip",
         "distractors": {
           "plausible": [
-            "Release grip, then chest pin",
-            "Underhook first, then thread"
+            "Underhook first, then thread",
+            "Switch to a wrist grip mid-thread"
           ],
           "trap": [
-            "Let go immediately, thread arm"
+            "Sit up tall to reach behind neck"
           ]
         }
       },
@@ -344,11 +344,11 @@
         "answer_line": "Chest-pin the frame, then thread",
         "distractors": {
           "plausible": [
-            "Strip the frame, regrip fast",
-            "Switch to a different submission"
+            "Strip the frame and regrip",
+            "Drive a crossface to break it"
           ],
           "trap": [
-            "Pull the frame off their neck"
+            "Sit up and muscle the frame away"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "answer_line": "Perpendicular, chest over face",
         "distractors": {
           "plausible": [
-            "Parallel, hips squared up",
-            "Stack them, chest on hips"
+            "Parallel with hips squared up",
+            "Stack them, chest on their hips"
           ],
           "trap": [
-            "Sit back to full mount"
+            "Roll to your back to squeeze"
           ]
         }
       },
@@ -374,11 +374,11 @@
         "answer_line": "No gap, weakening resistance",
         "distractors": {
           "plausible": [
-            "They still frame with free hand",
-            "Loud verbal tap is heard"
+            "Their free hand still frames in",
+            "They stop bridging but keep framing"
           ],
           "trap": [
-            "They stop moving—finish harder"
+            "They go still, so squeeze harder"
           ]
         }
       },
@@ -386,14 +386,14 @@
         "question": "What safety precautions must you observe when finishing the arm triangle from Twister Side Control?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always allow at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately and place them in recovery position on their side.",
         "safety_critical": true,
-        "answer_line": "Apply slow, release on any tap",
+        "answer_line": "Ease it on, stop at any tap signal",
         "distractors": {
           "plausible": [
-            "Spike it fast for a quick tap",
-            "Trap both hands, then squeeze"
+            "Only hand taps count as a tap",
+            "Ask them to verbally confirm first"
           ],
           "trap": [
-            "Hold a few seconds after tap"
+            "Squeeze on until they go limp"
           ]
         }
       },
@@ -419,11 +419,11 @@
         "answer_line": "Post, widen base, keep the grip",
         "distractors": {
           "plausible": [
-            "Release grip, re-base standing",
-            "Follow the roll, regrip on top"
+            "Roll under and pull half guard",
+            "Follow the roll, then regrip"
           ],
           "trap": [
-            "Let go and scramble to top"
+            "Bail on the grip to save the pin"
           ]
         }
       },
@@ -434,11 +434,11 @@
         "answer_line": "Bodyweight beats arm strength",
         "distractors": {
           "plausible": [
-            "Bigger biceps finish faster",
-            "Grip strength matters most"
+            "Grip strength decides the finish",
+            "Pull the head in with both hands"
           ],
           "trap": [
-            "Squeeze harder with the arms"
+            "Crank the neck for a fast tap"
           ]
         }
       }
@@ -571,7 +571,7 @@
             "They grab a fresh underhook"
           ],
           "trap": [
-            "They just adjust base slightly"
+            "Read it as just a pass attempt"
           ]
         }
       },
@@ -582,11 +582,11 @@
         "answer_line": "Tap early, hands, feet, or voice",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Go limp and hope they release"
+            "Only a hand tap counts",
+            "Tap the mat once, softly"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Power out first, tap if it fails"
           ]
         }
       },
@@ -597,11 +597,11 @@
         "answer_line": "Never frame arm across own throat",
         "distractors": {
           "plausible": [
-            "Post the frame arm on their hip",
-            "Push their face with free hand"
+            "Grip their far shoulder and pull",
+            "Keep both elbows high and wide"
           ],
           "trap": [
-            "Cross forearm over own neck"
+            "Shield your neck with your forearm"
           ]
         }
       },
@@ -628,10 +628,10 @@
         "distractors": {
           "plausible": [
             "Bridging too early on entry",
-            "Overcommitting to a deep grip"
+            "Keeping the elbow pinned to ribs"
           ],
           "trap": [
-            "Stalling to save energy"
+            "Roll away once the choke is locked"
           ]
         }
       }

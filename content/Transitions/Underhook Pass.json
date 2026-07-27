@@ -285,7 +285,7 @@
             "Crossface handles hip mobility"
           ],
           "trap": [
-            "Chase the legs, ignore the hip"
+            "Reach for the far leg, get swept"
           ]
         },
         "answer_line": "Blocks the shrimp to recover guard"
@@ -311,10 +311,10 @@
         "distractors": {
           "plausible": [
             "Abandon underhook to free the leg",
-            "Pull the leg out, ignore lockdown"
+            "Stall until they release it"
           ],
           "trap": [
-            "Force the leg free immediately"
+            "Posture up tall to yank the leg"
           ]
         }
       },
@@ -338,11 +338,11 @@
         "answer_line": "Wide base resists sweeps and bridges",
         "distractors": {
           "plausible": [
-            "Narrow base passes faster",
+            "Base only aids leg extraction",
             "Weight only on the trapped knee"
           ],
           "trap": [
-            "Narrow base, lean fully forward"
+            "Bring feet together and lean in"
           ]
         }
       },
@@ -351,11 +351,11 @@
         "answer": "Extract the trapped leg only after the opponent is fully flattened, with shoulder blades pinned to the mat and hip mobility neutralized. Specifically, you should feel their resistance to your shoulder pressure collapse, meaning they can no longer maintain a side-facing posture. Their near hip should be controlled by your free hand, and their frames should be broken or ineffective. Attempting extraction before this point allows the opponent to use residual hip mobility and framing to prevent the pass or initiate sweeps. The moment their body goes flat and heavy against the mat is your cue to begin small, methodical knee-driving movements to clear the leg.",
         "distractors": {
           "plausible": [
-            "Extract once underhook is locked",
-            "Extract as soon as crossface lands"
+            "Pull it free once grips are set",
+            "Start as soon as crossface lands"
           ],
           "trap": [
-            "Yank the leg out early"
+            "Rip the leg out, hand them your back"
           ]
         },
         "answer_line": "Extract only after fully flattened"
@@ -409,10 +409,10 @@
         "distractors": {
           "plausible": [
             "Shallow grip along the spine",
-            "Grip their same-side hip"
+            "Grip their near shoulder instead"
           ],
           "trap": [
-            "Loose grip, let them pummel free"
+            "Overreach deep, exposing your back"
           ]
         }
       },
@@ -426,7 +426,7 @@
             "Drop weight straight down only"
           ],
           "trap": [
-            "Freeze and hold your position"
+            "Rush across, get caught in triangle"
           ]
         }
       }
@@ -568,28 +568,28 @@
       {
         "question": "Why is attempting a bridge-and-roll escape against an established underhook and crossface position usually counterproductive?",
         "answer": "The bridge-and-roll requires your opponent to be relatively square on top of you with their weight distributed centrally. When the top player has a deep underhook, their weight is distributed diagonally across your body with their base posted wide. The bridge lifts your hips off the mat, which actually helps the top player extract their trapped leg since you are creating the space they need for leg clearance. Additionally, the rolling motion turns you away from them, potentially exposing your back. Hip escape movements that create lateral distance are far more effective because they address the actual problem of the crossface and underhook pressure angle.",
-        "answer_line": "Hip escape sideways, not a bridge",
+        "answer_line": "It gives space to free their leg",
         "distractors": {
           "plausible": [
-            "Bridge to create space first",
-            "Push their head, then bridge"
+            "You must post a hand to bridge",
+            "Bridging locks in the crossface"
           ],
           "trap": [
-            "Bridge and roll them over"
+            "Roll away, giving up your back"
           ]
         }
       },
       {
         "question": "At what specific point during the underhook pass sequence does your window for successful defense narrow most dramatically?",
         "answer": "The critical threshold is the moment both your shoulder blades contact the mat simultaneously while the top player maintains their crossface and hip control. Before this point, you retain hip mobility, framing capability, and the ability to create angles that disrupt the pass. After being fully flattened, your defensive options reduce to high-energy explosive escapes with significantly lower success rates. The practical implication is that all high-percentage defensive actions (pummeling for underhook, inserting knee shield, hip escaping to angle) must happen before the flattening is complete. Training should emphasize recognizing the approach to this threshold and reacting immediately.",
-        "answer_line": "Escape before shoulder blades pin",
+        "answer_line": "When both shoulder blades pin",
         "distractors": {
           "plausible": [
-            "Escape once hip control is set",
-            "React only once fully flattened"
+            "When they first thread the underhook",
+            "When the leg finally comes free"
           ],
           "trap": [
-            "Wait for high-energy escape window"
+            "Roll to turtle and give up the back"
           ]
         }
       },
@@ -613,11 +613,11 @@
         "answer_line": "Hip escape now, frame the shoulder",
         "distractors": {
           "plausible": [
-            "Wait for hip control to escape",
-            "Push the crossface off first"
+            "Bridge hard into the crossface side",
+            "Reach across for a far underhook"
           ],
           "trap": [
-            "Turtle up to protect your back"
+            "Roll belly-down into turtle"
           ]
         }
       }

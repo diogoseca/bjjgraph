@@ -310,8 +310,8 @@
         "answer_line": "Break grips before standing",
         "distractors": {
           "plausible": [
-            "Break grips after standing",
-            "Keep sleeve grip, drop collar"
+            "Stand up first, clear grips after",
+            "Clear the sleeve, leave collar"
           ],
           "trap": [
             "Ignore grips, stand up fast"
@@ -536,10 +536,10 @@
         "distractors": {
           "plausible": [
             "Control the far-side collar",
-            "Control both ankles instead"
+            "Grip their belt tightly"
           ],
           "trap": [
-            "Grab their far-side sleeve"
+            "Post a stiff arm on their chest"
           ]
         }
       }

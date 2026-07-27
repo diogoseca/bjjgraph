@@ -318,8 +318,8 @@
         "answer_line": "Abandon pass, break heel grip",
         "distractors": {
           "plausible": [
-            "Push through, finish the pass",
-            "Switch to different pass"
+            "Switch to a different pass",
+            "Grip fight for a collar tie"
           ],
           "trap": [
             "Force the extraction anyway"
@@ -332,11 +332,11 @@
         "answer_line": "Rotate knee inward, toward hip",
         "distractors": {
           "plausible": [
-            "Rotate knee outward away",
-            "Point knee straight down"
+            "Keep the knee locked in place",
+            "Point the knee straight down"
           ],
           "trap": [
-            "Rotate knee opposite direction"
+            "Rotate the knee outward"
           ]
         }
       },

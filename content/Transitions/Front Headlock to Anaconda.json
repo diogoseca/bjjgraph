@@ -334,14 +334,14 @@
       {
         "question": "What safety considerations must be observed when practicing the anaconda choke, and what are the immediate steps if your partner shows signs of distress?",
         "answer": "Critical safety considerations include: (1) Apply pressure gradually over 3-5 seconds minimum, allowing partner to recognize the submission and tap, (2) Ensure adequate mat space before rolling to avoid rolling partner into obstacles or off the mat, (3) Monitor partner continuously for tap signals (hand tap, foot tap, verbal tap, or loss of resistance), (4) In training, use controlled pressure rather than maximum force even when choke is locked. If partner shows distress (face discoloration, loss of consciousness, or unusual sounds): immediately release all pressure, uncross your ankles/unlock grip, roll partner to recovery position on their side, elevate their legs, call for instructor assistance, and do not move them unnecessarily. Never hold a choke after resistance stops or a tap is felt—release instantly. Prevention through controlled application is always preferable to managing emergencies.",
-        "answer_line": "Release fast, recovery position",
+        "answer_line": "Release instantly, monitor recovery",
         "distractors": {
           "plausible": [
-            "Ease off slowly, keep grip loose",
-            "Wait for verbal tap only"
+            "Loosen grip but keep the hold",
+            "Wait for a clear hand tap first"
           ],
           "trap": [
-            "Hold briefly to confirm they're out"
+            "Squeeze harder to force the tap"
           ]
         }
       },

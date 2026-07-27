@@ -310,7 +310,7 @@
             "Wrist joint compression"
           ],
           "trap": [
-            "External rotation of the shoulder"
+            "Torque the wrist to force a tap"
           ]
         }
       },
@@ -321,8 +321,8 @@
         "answer_line": "Grimace, distress, involuntary roll",
         "distractors": {
           "plausible": [
-            "Verbal tap only",
-            "Increased resistance and tension"
+            "Trapped arm feels more rigid",
+            "Opponent stops bridging entirely"
           ],
           "trap": [
             "Keep cranking until they go limp"
@@ -336,11 +336,11 @@
         "answer_line": "Deep figure-four, pressure, angle",
         "distractors": {
           "plausible": [
-            "Any figure-four grip is enough",
-            "Angle first, grip second"
+            "Wrist grip and squared hips",
+            "Speed of entry, not control"
           ],
           "trap": [
-            "Rush finish before grips broken"
+            "Sit up to walk feet, get swept"
           ]
         }
       },
@@ -351,11 +351,11 @@
         "answer_line": "Wrist past hip line, elbow pinned",
         "distractors": {
           "plausible": [
-            "Hand reaches opponent's back",
-            "Elbow bent past 90 degrees"
+            "Shoulder lifted off the mat",
+            "Arm bent to ninety degrees"
           ],
           "trap": [
-            "Once grip is figure-four locked"
+            "Ease pressure once grip closes"
           ]
         }
       },
@@ -366,8 +366,8 @@
         "answer_line": "Drive chest down, tighten angle",
         "distractors": {
           "plausible": [
-            "Re-secure grip, pull to torso",
-            "Widen base and wait it out"
+            "Widen base and wait it out",
+            "Sit back and pull the arm"
           ],
           "trap": [
             "Release grip to chase posture"
@@ -381,11 +381,11 @@
         "answer_line": "Deeper figure-four, elbows squeezed",
         "distractors": {
           "plausible": [
-            "Grip wrist tighter only",
-            "Switch to gi grip mid-roll"
+            "Pull wrist with fingers only",
+            "Rely on hand strength alone"
           ],
           "trap": [
-            "Loosen grip to regain feel"
+            "Release to wipe sweat, lose arm"
           ]
         }
       },
@@ -397,10 +397,10 @@
         "distractors": {
           "plausible": [
             "Saves energy for scrambles",
-            "Easier to maintain position"
+            "Required by IBJJF rules"
           ],
           "trap": [
-            "Fast pressure ensures the tap"
+            "Jerk hard so they tap sooner"
           ]
         }
       },
@@ -411,11 +411,11 @@
         "answer_line": "Break clasp, threaten back take",
         "distractors": {
           "plausible": [
-            "Wait for ref to intervene",
-            "Muscle the clasp apart fast"
+            "Hold still until they tire",
+            "Yank the arms apart by force"
           ],
           "trap": [
-            "Release Kimura to attack clasp"
+            "Release Kimura to pry the clasp"
           ]
         }
       },
@@ -426,8 +426,8 @@
         "answer_line": "Follow roll, take the back",
         "distractors": {
           "plausible": [
-            "Release grip, chase the back",
-            "Stop rotation, reset position"
+            "Stop rotation, reset position",
+            "Post hard and stay on top"
           ],
           "trap": [
             "Let go of grip during the roll"
@@ -441,11 +441,11 @@
         "answer_line": "Angled, chest heavy, deep grip",
         "distractors": {
           "plausible": [
-            "Squared up with heavy chest",
-            "Deep grip, weight on knees"
+            "Square hips, weight on knees",
+            "Strength of the grip decides"
           ],
           "trap": [
-            "Wrist grip, squared up stance"
+            "Sit tall to crank, get bridged"
           ]
         }
       },
@@ -453,14 +453,14 @@
         "question": "Why is application speed more critical for the Kimura from north-south compared to Kimuras from other positions?",
         "answer": "The north-south angle creates significantly more leverage on the shoulder joint than traditional side control or guard-based Kimuras. The perpendicular body position and the combination of lifting and rotating away from the head generates extreme torque with minimal effort. This deceptive leverage means that what feels like moderate pressure to the person applying it can be intense joint stress for the recipient. Partners may not have sufficient time to recognize danger and tap before injury occurs if the submission is applied quickly. Therefore, extremely slow application (5-7 seconds minimum) is essential to give partners adequate opportunity to tap safely.",
         "safety_critical": true,
-        "answer_line": "More leverage, deceptive torque",
+        "answer_line": "Deceptive torque, so go slower",
         "distractors": {
           "plausible": [
             "Chest pressure is weaker there",
-            "Opponent's arm is easier to hide"
+            "Your grip is weaker at that angle"
           ],
           "trap": [
-            "Apply fast since leverage is high"
+            "Rip it fast while leverage lasts"
           ]
         }
       },
@@ -471,11 +471,11 @@
         "answer_line": "Verbal, hand tap, foot tap",
         "distractors": {
           "plausible": [
-            "Verbal tap is always sufficient",
-            "Only hand tap counts here"
+            "Only a hand tap on your body",
+            "Tapping the mat does not count"
           ],
           "trap": [
-            "Wait for a clear verbal tap only"
+            "Keep torquing until they yell"
           ]
         }
       },
@@ -486,11 +486,11 @@
         "answer_line": "Stop rotation, then release gently",
         "distractors": {
           "plausible": [
-            "Drop arm immediately after tap",
-            "Release grip before pressure"
+            "Let go of everything at once",
+            "Roll away and stand up first"
           ],
           "trap": [
-            "Yank arm free right after tap"
+            "Yank the arm free after the tap"
           ]
         }
       },
@@ -546,11 +546,11 @@
         "answer_line": "Follow roll, transition to back",
         "distractors": {
           "plausible": [
-            "Hold Kimura, ignore the roll",
-            "Release grip immediately"
+            "Stay squared and stall there",
+            "Push their hip away for space"
           ],
           "trap": [
-            "Fight their roll, stay squared up"
+            "Fight the roll, get bridged over"
           ]
         }
       },
@@ -562,10 +562,10 @@
         "distractors": {
           "plausible": [
             "Chase the finish through bridge",
-            "Stand up to reset angle"
+            "Sit up to reset the angle"
           ],
           "trap": [
-            "Release grip to stop the bridge"
+            "Post both hands, get rolled"
           ]
         }
       },
@@ -577,10 +577,10 @@
         "distractors": {
           "plausible": [
             "Pull wrist away from body",
-            "Let arm extend then re-grip"
+            "Wait for arm to straighten out"
           ],
           "trap": [
-            "Release figure-four and regrip"
+            "Crank the straight arm, lose it"
           ]
         }
       },
@@ -588,14 +588,14 @@
         "question": "What is the point of no escape for the Kimura from north-south, and what control requirements must be established before reaching it?",
         "answer": "The point of no escape occurs when you have established: (1) secure figure-four grip with your elbow positioned directly over their elbow preventing straightening, (2) their wrist controlled and beginning to rotate past the parallel line with their body, (3) perpendicular hip positioning with stable base preventing their bridge from disrupting you, and (4) continuous chest pressure pinning their torso to the mat. Once all four elements are in place and you begin the rotational pressure, the opponent's only effective defense is to tap. Before reaching this point, opponent can still defend by hiding the arm, straightening the elbow, or bridging with enough force to disrupt your base. Ensure all control requirements are met before committing to the finish.",
         "safety_critical": false,
-        "answer_line": "Grip, wrist rotating, hips set",
+        "answer_line": "Grip, wrist past line, hips set",
         "distractors": {
           "plausible": [
             "Grip alone without pressure",
             "Chest pressure without grip"
           ],
           "trap": [
-            "Once opponent stops moving"
+            "Loosen up once they stop moving"
           ]
         }
       },
@@ -607,10 +607,10 @@
         "distractors": {
           "plausible": [
             "Parallel hips increase leverage",
-            "Loose grip helps opponent relax"
+            "Too much shoulder rotation"
           ],
           "trap": [
-            "Finish fast before they escape"
+            "Chase the arm, get bridged over"
           ]
         }
       },
@@ -742,8 +742,8 @@
         "answer_line": "Feet walk, grip tightens",
         "distractors": {
           "plausible": [
-            "Sudden explosive rotation only",
-            "Opponent verbally announcing it"
+            "Their hips lift off your ribs",
+            "Sudden explosive rotation only"
           ],
           "trap": [
             "Wait until wrist crosses back"
@@ -772,11 +772,11 @@
         "answer_line": "Sharp pain or lost grip control",
         "distractors": {
           "plausible": [
-            "Only after audible pop",
-            "When position feels uncomfortable"
+            "When you feel mild discomfort",
+            "After trying one last bridge"
           ],
           "trap": [
-            "Wait to see if it releases"
+            "Hold on hoping the grip slips"
           ]
         }
       },
@@ -784,14 +784,14 @@
         "question": "Your hands are clasped but the attacker is systematically peeling your grip apart—what is your next defensive option?",
         "answer": "Before your grip is fully broken, transition to your next defensive layer. Bridge explosively toward the Kimura side to disrupt the attacker's angle while simultaneously attempting to straighten your trapped arm to slip through the figure-four. If the arm straightens, immediately pull it to your chest and begin guard recovery through knee shield insertion. If the bridge fails to create separation, tuck the elbow tight to your ribs and use body rotation to face the attacker.",
         "safety_critical": false,
-        "answer_line": "Bridge and straighten trapped arm",
+        "answer_line": "Bridge hard, straighten trapped arm",
         "distractors": {
           "plausible": [
-            "Hold grip, wait it out",
-            "Turn away from the attacker"
+            "Hold the grip and wait it out",
+            "Push their head away for space"
           ],
           "trap": [
-            "Release grip to escape faster"
+            "Roll away from the Kimura side"
           ]
         }
       },
@@ -802,8 +802,8 @@
         "answer_line": "Slow cooperative drilling first",
         "distractors": {
           "plausible": [
-            "Full resistance from day one",
-            "Test structural limits often"
+            "Study video before any drilling",
+            "Drill only the attacking side"
           ],
           "trap": [
             "Skip tap protocols to save time"
@@ -814,14 +814,14 @@
         "question": "Why should you roll toward the attacker rather than away when the Kimura figure-four is locked from north-south?",
         "answer": "Rolling toward the attacker (into the Kimura) follows the direction of rotational force, which reduces the angle of stress on your shoulder joint. Rolling away from the attacker moves your body in the same direction they are applying rotational pressure, which compounds the torque and accelerates the submission. By rolling into them, you effectively take away their leverage angle and may force them to release the grip to maintain position. Additionally, rolling toward the attacker can expose their back, creating a reversal opportunity. This is counterintuitive for many practitioners who instinctively try to move away from danger, but the biomechanics of the Kimura make rolling toward the attacker the safer and more effective defensive option.",
         "safety_critical": true,
-        "answer_line": "Reduces shoulder torque angle",
+        "answer_line": "Follows the rotation, less torque",
         "distractors": {
           "plausible": [
-            "Creates more space to escape",
-            "Confuses opponent's grip"
+            "Breaks their grip immediately",
+            "Makes them carry your weight"
           ],
           "trap": [
-            "Roll away to escape the pressure"
+            "Roll away from the attacker"
           ]
         }
       },
@@ -832,11 +832,11 @@
         "answer_line": "Tap fast, leverage is deceptive",
         "distractors": {
           "plausible": [
-            "Wait for visible arm rotation",
-            "Tap only if it pops audibly"
+            "Tap as soon as they grab wrist",
+            "Wait for your coach to call it"
           ],
           "trap": [
-            "Endure it since angle feels weak"
+            "Ride it out, the angle feels weak"
           ]
         }
       },
@@ -844,14 +844,14 @@
         "question": "What are the earliest recognition cues that a Kimura from north-south is being set up, and what is your immediate response?",
         "answer": "The earliest cues are: the attacker's hand sliding underneath your forearm to reach for your wrist, a weight shift to one side as they begin threading their arm over yours, and any adjustment of their hips to a more perpendicular angle. Your immediate response at the first cue is to pull your elbow tight to your ribs and turn your forearm inward, denying the wrist control they need to establish the figure-four. Simultaneously, begin fighting their grip hand with your free hand to strip any wrist control before it consolidates. This early intervention is your highest-percentage defensive window—each subsequent stage of the Kimura setup reduces your defensive options dramatically.",
         "safety_critical": false,
-        "answer_line": "Hand slides under, pin elbow",
+        "answer_line": "Hand slides under: pin elbow tight",
         "distractors": {
           "plausible": [
-            "Wait for full figure-four grip",
-            "Push opponent's hand away only"
+            "Watch their hips before reacting",
+            "Grab their far lapel first"
           ],
           "trap": [
-            "Relax arm to feel their intent"
+            "Straighten the arm onto the mat"
           ]
         }
       },
@@ -862,11 +862,11 @@
         "answer_line": "Straighten arm, then bridge hard",
         "distractors": {
           "plausible": [
-            "Wait for rotation to begin",
-            "Grip fight without bridging"
+            "Grip fight without bridging",
+            "Wait for rotation to begin"
           ],
           "trap": [
-            "Stay still to conserve energy"
+            "Roll away from the trapped arm"
           ]
         }
       },
@@ -874,14 +874,14 @@
         "question": "How does defending the Kimura from north-south differ from defending it from side control, and why do standard side control Kimura defenses fail here?",
         "answer": "The fundamental difference is the attacker's leverage angle. From side control, the Kimura rotation moves your arm toward your hips with the attacker parallel to your body, giving you opportunities to straighten the arm, grip fight, or hip escape along their body line. From north-south, the attacker is perpendicular, which means their body rotation naturally generates shoulder torque without requiring significant arm strength. Standard side control defenses like gripping your belt or grabbing your own thigh are less effective because the north-south angle can overwhelm static grips more easily. Additionally, the chest pressure from north-south restricts your breathing and hip mobility more severely than side control, limiting the explosive movement available for escapes. You must defend earlier from north-south and be more willing to tap, because the submission develops faster and with less warning.",
         "safety_critical": false,
-        "answer_line": "Perpendicular angle, no arm strength",
+        "answer_line": "Perpendicular torque beats grips",
         "distractors": {
           "plausible": [
             "Same defenses work, just slower",
             "Belt grip stops it here too"
           ],
           "trap": [
-            "Grab your own thigh like usual"
+            "Reach for your thigh as usual"
           ]
         }
       }

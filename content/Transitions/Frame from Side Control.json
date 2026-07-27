@@ -257,7 +257,7 @@
             "Fingertips pressing into ribs"
           ],
           "trap": [
-            "Grip their far arm sleeve"
+            "Straight-arm post, get kimura'd"
           ]
         }
       },
@@ -271,7 +271,7 @@
             "Wait for them to shift on own"
           ],
           "trap": [
-            "Big explosive bridge and roll"
+            "Roll away, expose your back"
           ]
         }
       },
@@ -281,11 +281,11 @@
         "answer_line": "Bend elbow, tuck to ribs",
         "distractors": {
           "plausible": [
-            "Straight arm push for reach",
-            "Bent elbow away from body"
+            "Flare elbow away from ribs",
+            "Grip their collar for base"
           ],
           "trap": [
-            "Fully extend arm to push off"
+            "Straight-arm push, get kimura'd"
           ]
         }
       },
@@ -313,7 +313,7 @@
             "Alternate frames one at a time"
           ],
           "trap": [
-            "Avoid two frames, wastes energy"
+            "Drop both frames, get mounted"
           ]
         }
       },
@@ -341,7 +341,7 @@
             "Time it with your own breath"
           ],
           "trap": [
-            "Push hardest during their inhale"
+            "Force it in, get arm trapped"
           ]
         }
       },
@@ -469,11 +469,11 @@
         "answer_line": "Collapse frame right on insertion",
         "distractors": {
           "plausible": [
-            "Wait for hip escape, then collapse",
-            "Collapse after they settle in"
+            "Wait for their hip escape",
+            "Add chest weight, ignore frame"
           ],
           "trap": [
-            "Wait several seconds to react"
+            "Let frame settle, get swept"
           ]
         }
       },
@@ -483,11 +483,11 @@
         "answer_line": "Swim underhook, change angle",
         "distractors": {
           "plausible": [
-            "Push straight through frame",
-            "Grab wrist and rip it off"
+            "Grab wrist and rip it off",
+            "Wait for them to tire"
           ],
           "trap": [
-            "Force pressure straight into frame"
+            "Post over frame, get armbarred"
           ]
         }
       },

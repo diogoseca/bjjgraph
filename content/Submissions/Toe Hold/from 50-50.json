@@ -327,11 +327,11 @@
         "answer_line": "Lateral ankle ligaments, rotate in",
         "distractors": {
           "plausible": [
-            "Achilles tendon, rotate in",
-            "Medial ligaments, rotate out"
+            "Achilles tendon takes the stress",
+            "Midfoot bones, pure compression"
           ],
           "trap": [
-            "Outward rotation for max torque"
+            "Crank outward to snap it fast"
           ]
         }
       },
@@ -346,7 +346,7 @@
             "Two hands, independent control"
           ],
           "trap": [
-            "Grip toes only, skip forearm"
+            "Let go of legs to muscle grip"
           ]
         }
       },
@@ -376,7 +376,7 @@
             "Rotate immediately after gripping"
           ],
           "trap": [
-            "Skip figure-four, use raw grip"
+            "Release leg control to chase foot"
           ]
         }
       },
@@ -384,14 +384,14 @@
         "question": "What are the most effective opponent defenses against the toe hold from 50-50, and how should you counter them?",
         "answer": "The most effective defenses are: (1) Rolling or spinning with the pressure to alleviate torque—counter by using leg hooks to prevent full rotation or transition to heel hook. (2) Crossing the free foot over the trapped knee to block access—counter by controlling the free leg early or stripping it away with your free hand. (3) Hand fighting to prevent figure-four establishment—counter by using the initial toe grip as a distraction while sneaking the inside arm underneath, or using two-on-one control. (4) Counter-attacking your trapped leg with their own toe hold—counter by ensuring your 50-50 structure is sound before committing to your attack. Understanding these defenses allows you to anticipate them and adjust your approach accordingly.",
         "safety_critical": false,
-        "answer_line": "Counter rolls, blocks, hand fights",
+        "answer_line": "Block rotation, strip free leg",
         "distractors": {
           "plausible": [
-            "Force through resistance always",
-            "Ignore defenses, finish fast"
+            "Crank faster before they defend",
+            "Sit up to break their hand grips"
           ],
           "trap": [
-            "Release grip to reset position"
+            "Let go of legs to fight hands"
           ]
         }
       },
@@ -399,14 +399,14 @@
         "question": "Why is progressive pressure application over 3-5 seconds critical in training, and what can happen if pressure is applied too quickly?",
         "answer": "Progressive pressure application is critical because ankle ligaments and joint structures can be severely damaged very quickly—often in under one second of maximum pressure. Applying pressure slowly gives your training partner adequate time to recognize the danger, feel the pressure building, and tap safely before any damage occurs. Sudden or spiked application can cause immediate ligament tears (particularly the anterior talofibular and calcaneofibular ligaments), joint capsule rupture, or even joint dislocation before the partner can physically respond with a tap. In training, there is never a need for competition-speed application. The goal is technical mastery and safe repetition, not proving toughness or catching partners off-guard.",
         "safety_critical": true,
-        "answer_line": "Slow apply, prevents fast injury",
+        "answer_line": "Slow build gives time to tap",
         "distractors": {
           "plausible": [
-            "Apply fast, partner reacts quicker",
-            "Match competition speed always"
+            "Ankle ligaments are hard to tear",
+            "Speed only matters in competition"
           ],
           "trap": [
-            "Spike pressure to force tap"
+            "Spike the pressure to force it"
           ]
         }
       },
@@ -418,7 +418,7 @@
         "distractors": {
           "plausible": [
             "Arms control, legs finish hold",
-            "Focus foot only, ignore hips"
+            "Hips matter only for defense"
           ],
           "trap": [
             "Release hip control to grip foot"
@@ -436,7 +436,7 @@
             "Release and reset the grip"
           ],
           "trap": [
-            "Hold static, ignore their spin"
+            "Let go of legs, chase the foot"
           ]
         }
       },
@@ -444,14 +444,14 @@
         "question": "What is the point of no escape for your opponent once you have established the toe hold position?",
         "answer": "The point of no escape occurs when you have secured all three critical elements simultaneously: (1) the figure-four grip is locked with your inside forearm under the heel creating a shelf, (2) your chest is connected to their foot with zero space between, and (3) their hip and knee are controlled by your leg positioning preventing rotation. Once these three elements are established, the opponent's only safe option is to tap. Attempting to pull the foot out risks the submission tightening, and rolling is prevented by the leg hooks. The window for escape exists only before chest connection is established—once you close that space, the submission is mechanically locked in.",
         "safety_critical": false,
-        "answer_line": "Figure-four, chest, hips all locked",
+        "answer_line": "Locked grip, chest seal, hip control",
         "distractors": {
           "plausible": [
-            "Figure-four grip alone is enough",
-            "Hip control without chest connection"
+            "The figure-four alone finishes",
+            "Squeeze the knees together"
           ],
           "trap": [
-            "Try escape once chest connects"
+            "Crank early, let them spin free"
           ]
         }
       },
@@ -459,14 +459,14 @@
         "question": "How do you recognize when the ankle joint is approaching its breaking point during toe hold application?",
         "answer": "Several indicators signal the breaking point is near: (1) You feel a significant increase in resistance as the ligaments reach maximum stretch, (2) The opponent's foot begins to make slight popping or crackling sounds from joint capsule stress, (3) The opponent's defensive movements become frantic or panicked, (4) You notice involuntary muscle tension throughout their leg. In training, you should NEVER reach this point—these are competition indicators only. In training, apply pressure slowly enough that your partner can tap at the first sensation of discomfort, well before any structural damage occurs. If you feel any of these indicators in training, you have applied pressure too fast.",
         "safety_critical": true,
-        "answer_line": "Popping, resistance, panic signs",
+        "answer_line": "Popping, rising resistance, panic",
         "distractors": {
           "plausible": [
-            "Wait for verbal tap only",
-            "Push until visible injury"
+            "Only a verbal tap counts",
+            "Their foot goes cold and numb"
           ],
           "trap": [
-            "Push harder when resistance builds"
+            "Crank harder as they fight it"
           ]
         }
       },
@@ -477,11 +477,11 @@
         "answer_line": "Tighten chest, reset forearm shelf",
         "distractors": {
           "plausible": [
-            "Switch hands mid-finish quickly",
-            "Grab bicep before adjusting chest"
+            "Swap to the other side's grip",
+            "Pull the foot away from you"
           ],
           "trap": [
-            "Force finish despite slipping grip"
+            "Rip the finish as it slides"
           ]
         }
       },
@@ -492,11 +492,11 @@
         "answer_line": "Ruleset legality dictates choice",
         "distractors": {
           "plausible": [
-            "Chase whichever heel is exposed",
-            "Pick the quicker submission setup"
+            "Always heel hook, it is stronger",
+            "Opponent belt rank decides it"
           ],
           "trap": [
-            "Release inside pos to spin heel"
+            "Give up inside position to spin"
           ]
         }
       },
@@ -508,10 +508,10 @@
         "distractors": {
           "plausible": [
             "Knee ligaments and meniscus",
-            "Hip flexors and IT band"
+            "Shin bone and calf muscle"
           ],
           "trap": [
-            "Only the Achilles tendon"
+            "Minor joints, safe to crank"
           ]
         }
       },
@@ -526,7 +526,7 @@
             "Foot access needs no setup"
           ],
           "trap": [
-            "Skip heel threat, grab foot directly"
+            "Abandon leg control to grab foot"
           ]
         }
       },
@@ -541,7 +541,7 @@
             "Both hands cup the toes"
           ],
           "trap": [
-            "Grip shin instead of ankle groove"
+            "Sit up to reach, lose position"
           ]
         }
       },
@@ -552,11 +552,11 @@
         "answer_line": "Squeeze legs, follow rotation",
         "distractors": {
           "plausible": [
-            "Release legs to let them spin",
-            "Pull harder against the spin"
+            "Pull harder against the spin",
+            "Straighten legs for more room"
           ],
           "trap": [
-            "Let go and reset position"
+            "Let go of legs, they pass"
           ]
         }
       },
@@ -594,14 +594,14 @@
         "question": "What are the key indicators that the toe hold is close to the breaking point?",
         "answer": "Indicators include the opponent's foot beginning to rotate inward (medially) beyond its natural range, visible tension in the Achilles tendon and ankle structures, the opponent's body stiffening or bridging involuntarily, and audible distress or sharp intake of breath. At the first sign of any of these indicators in training, pause pressure and allow the opponent to tap rather than continuing to increase torque. The gap between discomfort and structural failure is very small with toe holds.",
         "safety_critical": true,
-        "answer_line": "Inward rotation, tension, stiffening",
+        "answer_line": "Foot rotates past its normal range",
         "distractors": {
           "plausible": [
-            "Wait for loud verbal tap",
-            "Continue until foot goes numb"
+            "Opponent stops moving entirely",
+            "Only a loud verbal tap counts"
           ],
           "trap": [
-            "Increase torque to confirm danger"
+            "Add torque to test the limit"
           ]
         }
       },
@@ -612,10 +612,10 @@
         "distractors": {
           "plausible": [
             "Grip harder, ignore their hands",
-            "Release everything and reset"
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Keep fighting for toe hold only"
+            "Release legs to fight their hands"
           ]
         }
       }
@@ -763,11 +763,11 @@
         "answer_line": "Match rotation, reduce torque",
         "distractors": {
           "plausible": [
-            "Resist rotation with strength",
+            "Kick free leg to break the grip",
             "Freeze still, wait it out"
           ],
           "trap": [
-            "Fight the twist to break grip"
+            "Twist against it, tear ligaments"
           ]
         }
       },
@@ -775,14 +775,14 @@
         "question": "When defending the toe hold in 50-50, how do you decide between grip fighting defense and counter-attacking with your own submission?",
         "answer": "The decision depends on two factors: (1) how far along the opponent's toe hold progression is, and (2) the relative quality of your access to their legs. If the opponent is still in early grip establishment phase, grip fighting is highest percentage because you can deny the submission entirely. If the figure-four is already locked and you have solid access to their foot, counter-attacking creates a mutual threat that often forces a release. However, if their toe hold is locked and your access to their legs is poor, you must prioritize rotation escape and tapping rather than gambling on a counter-attack you may not finish in time.",
         "safety_critical": true,
-        "answer_line": "Early grip = fight; locked = counter",
+        "answer_line": "Early grip fight; locked, counter",
         "distractors": {
           "plausible": [
-            "Always counter-attack immediately",
-            "Never grip fight, always escape"
+            "Base up and stall it out",
+            "Always attack their heel first"
           ],
           "trap": [
-            "Ignore progression, force submission"
+            "Turn away and give your heel"
           ]
         }
       },
@@ -805,14 +805,14 @@
         "question": "In training, at what point should you tap to a toe hold from 50-50, and why is early tapping important for long-term training health?",
         "answer": "You should tap at the first sensation of uncomfortable pressure on your ankle joint—well before you feel sharp pain or hear any popping sounds. In training, there is no benefit to enduring ankle pressure because ankle ligaments do not strengthen from being stretched near their failure point; they only accumulate micro-damage that weakens them over time. Unlike muscle soreness that builds strength, repeated ligament stress leads to chronic laxity, instability, and eventual catastrophic failure. Tapping early preserves your ankle health for decades of training. The correct training approach is to work on preventing the position and escaping early, then resetting—not toughening through the finish.",
         "safety_critical": true,
-        "answer_line": "Tap at first discomfort",
+        "answer_line": "Tap at first ankle discomfort",
         "distractors": {
           "plausible": [
-            "Tap only at sharp pain",
-            "Push through minor discomfort"
+            "Wait until it hurts sharply",
+            "Ligaments toughen from stretching"
           ],
           "trap": [
-            "Endure pressure to build toughness"
+            "Hold on until something pops"
           ]
         }
       },
@@ -824,10 +824,10 @@
         "distractors": {
           "plausible": [
             "Hand grips heel directly",
-            "Both attacks feel identical"
+            "Feels the same as a heel hook"
           ],
           "trap": [
-            "Assume heel hook, hide toes only"
+            "Hide the heel, feed them toes"
           ]
         }
       },
@@ -835,14 +835,14 @@
         "question": "Why is it critical to tap earlier to a toe hold than to many other submissions?",
         "answer": "The toe hold simultaneously attacks multiple small joints and ligaments in the foot, ankle, and midfoot. Unlike submissions that primarily create a single point of intense pain (such as the armbar at the elbow), the toe hold distributes force across many structures. This means ligament tears and joint damage can occur before pain provides adequate warning. Tap at the first sign of significant rotational pressure rather than waiting for sharp pain.",
         "safety_critical": true,
-        "answer_line": "Multiple joints, damage before pain",
+        "answer_line": "Many joints, damage before pain",
         "distractors": {
           "plausible": [
-            "Single point of pain like armbar",
-            "Toe hold is less dangerous overall"
+            "Ankles heal faster than elbows",
+            "Rotational locks build slowly"
           ],
           "trap": [
-            "Wait for sharp pain like armbar"
+            "Hold out for sharp warning pain"
           ]
         }
       },
@@ -850,14 +850,14 @@
         "question": "What defensive options are available when the figure-four grip is already locked?",
         "answer": "Once the figure-four is locked, your options narrow significantly. Rotate your knee and body in the direction the attacker is twisting to reduce effective torque on the ankle. Use two-on-one grip fighting to strip the cupping hand from your toes. If you cannot break the grip and pressure is increasing, tap immediately rather than attempting a desperate escape that could cause injury. Counter-attacking is risky at this stage but forcing a scramble may create an opening.",
         "safety_critical": true,
-        "answer_line": "Rotate with twist, strip grip, tap",
+        "answer_line": "Rotate with the twist, strip grip",
         "distractors": {
           "plausible": [
-            "Counter-attack aggressively first",
-            "Pull leg straight out fast"
+            "Flatten out and hold on",
+            "Point your toes and relax"
           ],
           "trap": [
-            "Yank foot free by force"
+            "Rip the foot out by force"
           ]
         }
       },
@@ -867,11 +867,11 @@
         "answer_line": "Retract whole foot, dorsiflex toes",
         "distractors": {
           "plausible": [
-            "Defend heel only, ignore toes",
-            "Alternate defenses randomly"
+            "Hide heel by turning knee inward",
+            "Rip leg free before clearing grips"
           ],
           "trap": [
-            "Extend foot to hide the heel"
+            "Point toes to slip the foot out"
           ]
         }
       }

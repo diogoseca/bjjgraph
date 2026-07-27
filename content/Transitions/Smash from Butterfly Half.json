@@ -258,11 +258,11 @@
         "answer_line": "Right after sweep attempt fails",
         "distractors": {
           "plausible": [
-            "During their active sweep attempt",
-            "As soon as hook is inserted"
+            "As soon as the hook is inserted",
+            "Right when you enter half guard"
           ],
           "trap": [
-            "Blast through mid-sweep momentum"
+            "Drive forward as they elevate you"
           ]
         }
       },
@@ -272,11 +272,11 @@
         "answer_line": "Control set, hook passive, wide base",
         "distractors": {
           "plausible": [
-            "Any crossface, hook still active",
-            "Base leg narrow, grips broken"
+            "Head position and grips are enough",
+            "Kill the hook before any control"
           ],
           "trap": [
-            "Commit while hook actively lifting"
+            "Commit weight while hook elevates"
           ]
         }
       },
@@ -285,11 +285,11 @@
         "answer": "Drop your hip bone straight down and slightly laterally onto the hook-side thigh, crushing the space the hook needs to generate lift. Drive your hip weight onto their thigh just above where their foot inserts under your leg; this eliminates the space between your body and the mat where the hook generates upward lifting force. The hip drop must be committed and heavy, using gravity and skeletal weight rather than muscular effort. A half-committed hip drop leaves enough space for the hook to continue generating pressure.",
         "distractors": {
           "plausible": [
-            "Push hip forward, not down",
-            "Squeeze knees together tight"
+            "Drive hip forward into their belt",
+            "Pinch both knees to trap the foot"
           ],
           "trap": [
-            "Half-commit hip to stay mobile"
+            "Lift hips to hop over the hook"
           ]
         },
         "answer_line": "Drop hip bone onto hook thigh"
@@ -300,11 +300,11 @@
         "answer_line": "Chest lifted off their torso",
         "distractors": {
           "plausible": [
-            "Hip pressure alone was enough",
-            "Switch hips immediately away"
+            "You pinned the wrong side hook",
+            "Your base leg was too narrow"
           ],
           "trap": [
-            "Let chest rise to see position"
+            "Sit up and re-pin hook by hand"
           ]
         }
       },
@@ -327,11 +327,11 @@
         "answer": "Drive forward and downward at roughly a 45-degree angle through your chest and shoulder while your hips drive down onto the hook. This combined vector flattens their posture backward while simultaneously crushing the hook's lifting capacity. Straight downward force alone is insufficient because it does not address their ability to turn sideways and create sweeping angles. The forward component prevents them from maintaining any upright structure.",
         "distractors": {
           "plausible": [
-            "Straight down through hips",
-            "Forward only, hips light"
+            "Straight down through the hips",
+            "Forward only, hips staying light"
           ],
           "trap": [
-            "Push sideways to flatten hook"
+            "Drive up and back, chest lifting"
           ]
         },
         "answer_line": "Forward-down at 45 degrees"
@@ -342,11 +342,11 @@
         "answer_line": "Walk shoulder pressure forward",
         "distractors": {
           "plausible": [
-            "Blast through frame explosively",
-            "Pull back and reset position"
+            "Wait for the frame to tire out",
+            "Pull back and reset the pass"
           ],
           "trap": [
-            "Yank frame arm with one hand"
+            "Post both hands to rip the frame"
           ]
         }
       },
@@ -356,11 +356,11 @@
         "answer_line": "Transition to knee slice pass",
         "distractors": {
           "plausible": [
-            "Keep forcing hip pressure only",
-            "Switch back to hook battle"
+            "Keep grinding hip pressure only",
+            "Go back to fighting the hook"
           ],
           "trap": [
-            "Abandon position, stand up"
+            "Turn away to attack their legs"
           ]
         }
       },
@@ -370,8 +370,8 @@
         "answer_line": "Windshield wiper knee outward",
         "distractors": {
           "plausible": [
-            "Pull leg straight back hard",
-            "Yank knee free with one motion"
+            "Pull the leg straight back hard",
+            "Wait for their squeeze to tire"
           ],
           "trap": [
             "Release upper body to free leg"
@@ -381,14 +381,14 @@
       {
         "question": "How should your weight be distributed between upper body and hips during the different phases of the smash?",
         "answer": "During the initial control phase, weight favors the upper body at roughly 60-40 to establish crossface dominance and break posture. During the hook-killing phase, weight shifts to roughly 40-60 favoring the hips as you drive your hip bone onto the butterfly hook to pin it. During the extraction phase, weight returns to upper body emphasis at 60-40 to prevent guard recovery while your legs work the extraction. Throughout all phases, avoid concentrating weight entirely on either end, as this creates instability and opens sweep or recovery opportunities.",
-        "answer_line": "Upper-hip-upper: 60/40 shift",
+        "answer_line": "Upper, hip, upper: 60/40 shift",
         "distractors": {
           "plausible": [
-            "Even 50-50 throughout entire pass",
+            "Even 50-50 throughout the pass",
             "All weight on hips continuously"
           ],
           "trap": [
-            "All weight on upper body only"
+            "Post on hands, weight off them"
           ]
         }
       }
@@ -518,10 +518,10 @@
         "distractors": {
           "plausible": [
             "Sudden explosive backstep pass",
-            "Loosening of crossface pressure"
+            "Crossface pressure loosening"
           ],
           "trap": [
-            "Opponent stands to pass guard"
+            "Relax hook when pressure builds"
           ]
         }
       },
@@ -542,14 +542,14 @@
       {
         "question": "Why is maintaining an active butterfly hook the most critical factor in preventing the smash pass?",
         "answer": "The active butterfly hook serves as both offensive weapon and defensive barrier simultaneously. Offensively, it threatens sweeps that prevent the top player from committing downward weight, because any significant forward pressure can be redirected into a sweep using their own momentum. Defensively, the constant upward lifting pressure maintains the space between your bodies that the top player needs to eliminate for the smash to work. When the hook goes passive, the top player can pin it without fear of being swept, completing the first critical phase of the smash sequence.",
-        "answer_line": "Threatens sweep, maintains space",
+        "answer_line": "Threatens sweep, keeps space",
         "distractors": {
           "plausible": [
-            "Only blocks their crossface grip",
-            "Just distracts opponent's focus"
+            "Mainly protects the trapped knee",
+            "Only blocks their crossface grip"
           ],
           "trap": [
-            "Only useful once hook is passive"
+            "Rest the hook to save energy"
           ]
         }
       },
@@ -559,11 +559,11 @@
         "answer_line": "Load hook, explode into sweep",
         "distractors": {
           "plausible": [
-            "Push back to reset distance",
-            "Wait for them to overcommit twice"
+            "Push their chest back to reset",
+            "Switch to a collar grip first"
           ],
           "trap": [
-            "Match their forward pressure back"
+            "Flatten hook and turn belly down"
           ]
         }
       },

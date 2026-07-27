@@ -355,14 +355,14 @@
         "question": "You have the figure-four secured but your opponent straightens their leg to escape - how do you adjust?",
         "answer": "A straightened leg compromises the toe hold mechanics because the rotational force dissipates through the extended knee rather than concentrating on the ankle. If the knee line opens, release the toe hold grip and immediately transition to an ankle lock on the now-extended leg, or re-engage your leg entanglement to re-bend the knee before reattempting.",
         "safety_critical": false,
-        "answer_line": "Release, hunt ankle lock instead",
+        "answer_line": "Release, hunt the ankle lock",
         "distractors": {
           "plausible": [
-            "Force the toe hold through anyway",
-            "Abandon leg attacks entirely"
+            "Keep the figure-four clamped",
+            "Sit back and stall for points"
           ],
           "trap": [
-            "Crank harder to punish escape"
+            "Roll through and give up the legs"
           ]
         }
       },
@@ -387,11 +387,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "First contact with the foot",
-            "Opponent starts to posture up"
+            "The instant they grab your foot",
+            "When they first enter ashi garami"
           ],
           "trap": [
-            "Fight through and try to stand"
+            "You can always twist free late"
           ]
         },
         "answer_line": "Grip locked, ankle now loading"
@@ -611,11 +611,11 @@
         "answer_line": "Lisfranc, ankle ligament damage",
         "distractors": {
           "plausible": [
-            "Temporary cramp, no real risk",
-            "Bruising only, quick recovery"
+            "Mild soreness for a day or two",
+            "Slight ache, back next class"
           ],
           "trap": [
-            "Push through, adrenaline blocks it"
+            "No lasting harm, safe to resist"
           ]
         }
       }

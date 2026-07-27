@@ -267,14 +267,14 @@
       {
         "question": "Your opponent posts their hand on your hip during your entry step, blocking your hip insertion. How do you respond?",
         "answer": "When the opponent posts on your hip, the Seoi Nage is effectively stuffed and forcing it will fail. Immediately redirect to a different attack that exploits their defensive posture. Their posted arm and widened stance creates vulnerability to Tai Otoshi, where their extended arm becomes the fulcrum, or Kouchi Gari targeting their advanced front foot. You can also snap their posted arm down and switch to an Ankle Pick. The critical principle is recognizing the failed entry instantly and transitioning rather than forcing.",
-        "answer_line": "Abandon, chain to another attack",
+        "answer_line": "Tai Otoshi off their posted arm",
         "distractors": {
           "plausible": [
-            "Re-grip and retry same entry",
-            "Circle to their back instead"
+            "Kouchi Gari on their rear foot",
+            "Ankle pick before snapping the arm"
           ],
           "trap": [
-            "Force the hip in anyway"
+            "Turn in harder, back to them"
           ]
         }
       },

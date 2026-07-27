@@ -343,11 +343,11 @@
         "answer_line": "Takes away lats, breaks base",
         "distractors": {
           "plausible": [
-            "Just tightens the wrist grip",
-            "Only matters for pain compliance"
+            "Only about wrist pain compliance",
+            "Just makes the grip tighter"
           ],
           "trap": [
-            "Keep elbow low for more torque"
+            "Drop your head, get your back taken"
           ]
         }
       },
@@ -358,8 +358,8 @@
         "answer_line": "5-7 sec, slow due to fall risk",
         "distractors": {
           "plausible": [
-            "2-3 seconds, same as ground",
-            "Apply as fast as possible"
+            "Two or three counts, as on ground",
+            "Speed is fine if grip is tight"
           ],
           "trap": [
             "Snap it fast before they defend"
@@ -385,14 +385,14 @@
         "question": "When opponent defends standing Kimura by counter-rotating toward their trapped arm, what are the two highest percentage responses and why?",
         "answer": "The two highest percentage responses are: (1) Follow their rotation while increasing elbow elevation and transition to back take by stepping behind them as they turn, converting their defensive rotation into back control entry with Kimura grip maintained, or (2) Use their rotational momentum to off-balance them with outside trip or inside trip, taking them to ground in dominant position with submission intact. Both responses capitalize on opponent's committed movement rather than fighting against it, exemplifying the principle of using opponent's energy and reactions to create submission-or-position dilemmas. Attempting to stop or reverse their rotation typically fails against determined defense.",
         "safety_critical": false,
-        "answer_line": "Follow rotation to back take",
+        "answer_line": "Follow rotation into back take",
         "distractors": {
           "plausible": [
-            "Fight to reverse their rotation",
-            "Release grip and reset"
+            "Release grip and reset",
+            "Jump guard to keep the arm"
           ],
           "trap": [
-            "Muscle against their rotation"
+            "Turn away, give up front headlock"
           ]
         }
       },
@@ -400,14 +400,14 @@
         "question": "What environmental safety considerations are mandatory before attempting standing Kimura in training, and what injuries are these precautions designed to prevent?",
         "answer": "Mandatory environmental precautions include: verifying 6-8 feet of clear matted space in all directions, positioning away from walls and equipment, ensuring no other training pairs in fall radius, and confirming adequate mat thickness for potential falls from standing height. These precautions prevent head trauma and concussions from uncontrolled falls onto hard surfaces, fractures or dislocations from impact with walls or equipment, and collision injuries with other practitioners. Standing submissions create inherent fall risk that ground techniques don't present, requiring proactive environmental management as non-negotiable safety protocol.",
         "safety_critical": true,
-        "answer_line": "6-8ft clear space, no walls",
+        "answer_line": "6-8ft clear space, away from walls",
         "distractors": {
           "plausible": [
-            "Just check mat thickness",
-            "Ask training partners to move"
+            "Just confirm the mats are thick",
+            "Only needed for white belts"
           ],
           "trap": [
-            "Any open mat space is fine"
+            "Drill it right next to the wall"
           ]
         }
       },
@@ -415,14 +415,14 @@
         "question": "Why is the standing Kimura considered a systematic position rather than purely a submission, and what strategic opportunities does this create?",
         "answer": "The standing Kimura functions as a systematic control position because the figure-four grip creates a steering mechanism that controls opponent's entire body, not just the arm. This systematic nature creates multiple strategic pathways: forced takedowns where opponent drops to escape shoulder pressure, back take opportunities when opponent counter-rotates, guard pull reactions that land you in dominant passing position, and submission finishes in multiple positions (standing, transition, or ground). Advanced practitioners use standing Kimura as a position-control system that creates cascading dilemmas - opponent must choose between accepting takedown, giving back, or tapping to submission. This multi-pathway approach defines systematic position versus isolated submission technique.",
         "safety_critical": false,
-        "answer_line": "Figure-four steers whole body",
+        "answer_line": "Figure-four steers the whole body",
         "distractors": {
           "plausible": [
-            "It's just a fast submission",
-            "Only useful as a grip break"
+            "Just a quick finishing hold",
+            "Only a way to break grips"
           ],
           "trap": [
-            "Force the tap or abandon it"
+            "Chase the tap, get taken down"
           ]
         }
       },
@@ -430,14 +430,14 @@
         "question": "What are the three most dangerous errors in standing Kimura application, and what catastrophic injuries can result from each?",
         "answer": "The three most dangerous errors are: (1) Explosive or jerking rotation causing immediate rotator cuff tears, posterior shoulder dislocations, or complete shoulder capsule ruptures requiring surgical repair and 6-12 month recovery, (2) Failing to control opponent's descent causing uncontrolled falls from standing height resulting in head trauma, cervical spine injuries, or impact fractures, and (3) Ignoring or delaying tap signal recognition causing progressive shoulder destruction beyond repairable damage and permanent joint instability. All three errors share common root cause: prioritizing submission completion or competitive success over mandatory training safety protocols. These are career-ending injury risks that violate fundamental training ethics.",
         "safety_critical": true,
-        "answer_line": "Jerking, drops, ignoring taps",
+        "answer_line": "Jerk rotation, drops, missed taps",
         "distractors": {
           "plausible": [
-            "Gripping too tight, too early",
-            "Standing too far apart"
+            "Grip too tight, too early",
+            "Poor foot position on entry"
           ],
           "trap": [
-            "Rush the finish for the win"
+            "Wrench the arm and dump them"
           ]
         }
       },
@@ -445,14 +445,14 @@
         "question": "Your opponent starts to posture up and pull their arm away while you have the figure-four grip established - what adjustment prevents escape?",
         "answer": "When opponent postures up and pulls away, immediately step your hips closer while driving the elbow even higher above shoulder height. Your body weight should follow their retreat rather than allowing space to open. Simultaneously increase the compression of your figure-four by squeezing elbows together and pulling their wrist toward your centerline. If they create significant distance, transition to an arm drag using your maintained wrist control, pursuing back control rather than fighting to maintain a compromised Kimura position. The key is recognizing that posturing creates arm drag opportunity - their defensive reaction opens alternative attacking pathways.",
         "safety_critical": false,
-        "answer_line": "Follow in, elevate elbow more",
+        "answer_line": "Step hips in, drive elbow higher",
         "distractors": {
           "plausible": [
-            "Release and reset the grip",
-            "Pull harder against their retreat"
+            "Lean back to keep the arm",
+            "Release and re-grip the wrist"
           ],
           "trap": [
-            "Let them create distance"
+            "Reach out, get your back taken"
           ]
         }
       },
@@ -467,7 +467,7 @@
             "Wrist joint compression"
           ],
           "trap": [
-            "Rotator cuff via external rotation"
+            "Crank external rotation to finish"
           ]
         }
       },
@@ -478,11 +478,11 @@
         "answer_line": "Full wrist grip, tight figure-four",
         "distractors": {
           "plausible": [
-            "Just touching their wrist works",
-            "Elbow elevation alone is enough"
+            "Elbow elevation alone is enough",
+            "Hook two fingers on their wrist"
           ],
           "trap": [
-            "Rotate immediately once threaded"
+            "Crank early, they take your back"
           ]
         }
       },
@@ -493,11 +493,11 @@
         "answer_line": "70-80% end in position, not tap",
         "distractors": {
           "plausible": [
-            "50/50 tap vs position",
-            "Nearly always a direct tap"
+            "Roughly even odds either way",
+            "Almost always finishes standing"
           ],
           "trap": [
-            "Fight to force the standing tap"
+            "Stall for the finish, get taken down"
           ]
         }
       },
@@ -508,11 +508,11 @@
         "answer_line": "Perpendicular hips, chest pressure",
         "distractors": {
           "plausible": [
-            "Stay parallel, pull the arm up",
-            "Release grip to post on landing"
+            "Stay parallel and pull straight up",
+            "Switch to a lapel grip on landing"
           ],
           "trap": [
-            "Let go and re-grip on the ground"
+            "Let go to post, they take top"
           ]
         }
       }
@@ -652,14 +652,14 @@
         "question": "What is the critical defensive window before the figure-four grip is fully established, and what specific actions should you take during this window?",
         "answer": "The critical window exists from the moment the attacker captures your wrist until they complete the figure-four by threading their arm under yours and gripping their own wrist. This window typically lasts 2-4 seconds. During this period, execute explosive arm retraction by pulling your elbow tight to your ribs while simultaneously using your free hand to strip the attacker's wrist grip using a two-on-one peel. Supplement the grip break with circular wrist rotation that exploits the weakness of thumb-versus-four-fingers grip. If retraction alone fails, immediately step your hips away from the attacker's angle to deny the threading arm space to complete the figure-four. Every second of delay reduces the success probability of these early-stage defenses significantly.",
         "safety_critical": false,
-        "answer_line": "2-4 sec: retract elbow, strip grip",
+        "answer_line": "Rip elbow to ribs, strip the grip",
         "distractors": {
           "plausible": [
-            "Wait for the elevation to start",
-            "Push forward into their chest"
+            "Wait until they lift the elbow",
+            "Grab their belt with free hand"
           ],
           "trap": [
-            "Stand still and brace the arm"
+            "Turn away, hand them your back"
           ]
         }
       },
@@ -667,14 +667,14 @@
         "question": "Your opponent has locked the figure-four grip and begun elevating your elbow - your arm retraction attempts have failed. What is your immediate priority and why?",
         "answer": "Immediate priority is lowering your base by bending your knees deeply and widening your stance to prevent being lifted onto your toes, which eliminates your defensive structure entirely. Simultaneously begin counter-rotating toward your trapped arm side to reduce the rotational leverage available to the attacker. Do not waste energy on further arm retraction attempts - the locked figure-four is mechanically too strong to break with pulling force alone. Instead, prepare for either a controlled guard pull (highest safety margin) or an aggressive forward drive to disrupt the attacker's base. The critical error at this stage is continuing to fight the grip with strength rather than transitioning to positional escape strategies.",
         "safety_critical": false,
-        "answer_line": "Lower base, counter-rotate in",
+        "answer_line": "Drop base, turn into trapped arm",
         "distractors": {
           "plausible": [
-            "Keep pulling the arm free",
-            "Posture up to create space"
+            "Keep yanking the arm free",
+            "Step away from the trapped side"
           ],
           "trap": [
-            "Stand tall to reset balance"
+            "Stand tall, get lifted and dumped"
           ]
         }
       },
@@ -685,11 +685,11 @@
         "answer_line": "Gravity, no bracing, fall risk",
         "distractors": {
           "plausible": [
-            "Only the fall risk differs",
-            "Ground version is actually worse"
+            "Only the falling danger differs",
+            "Grips are harder to secure"
           ],
           "trap": [
-            "Tough it out like on the ground"
+            "Tough it out like on the mat"
           ]
         }
       },
@@ -697,14 +697,14 @@
         "question": "How do you manage the dilemma between defending the shoulder lock and defending the takedown when both are threatened simultaneously?",
         "answer": "Always prioritize defending the shoulder lock over the takedown because shoulder damage is immediate and potentially permanent, while positional loss from a takedown is temporary and recoverable. When both threats are active, concede the takedown by pulling guard or allowing a controlled descent while focusing all defensive effort on the arm: pin elbow to ribs, counter-rotate, and strip grips. Landing in bottom guard or even bottom side control with an intact shoulder is vastly preferable to successfully defending the takedown while sustaining progressive shoulder damage. Advanced defenders use the takedown concession strategically - pulling guard during the takedown attempt disrupts the attacker's grip maintenance and creates grip-breaking windows during the transition.",
         "safety_critical": false,
-        "answer_line": "Defend shoulder over takedown",
+        "answer_line": "Save the shoulder, give the takedown",
         "distractors": {
           "plausible": [
-            "Defend takedown, arm can wait",
-            "Split effort evenly between both"
+            "Split effort evenly between both",
+            "Wait until they commit to one"
           ],
           "trap": [
-            "Fight the takedown at all costs"
+            "Sprawl hard, blow the shoulder"
           ]
         }
       }

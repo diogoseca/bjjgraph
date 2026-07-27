@@ -332,14 +332,14 @@
         "question": "What anatomical structures does the guillotine choke primarily attack and how does forearm placement determine the type of choke?",
         "answer": "The guillotine primarily targets the carotid arteries on both sides of the neck for a blood choke, and secondarily the trachea for an airway choke. Forearm placement determines which mechanism dominates: when the blade of the forearm crosses the front of the throat with the wrist bone centered, both carotids and the trachea are compressed. A slightly higher placement with the forearm angled upward emphasizes blood choke mechanics, while direct frontal pressure creates more tracheal compression. The high-elbow variation specifically targets the carotids by attacking behind the chin.",
         "safety_critical": false,
-        "answer_line": "Forearm angle: blood vs air choke",
+        "answer_line": "Forearm angle sets blood vs air",
         "distractors": {
           "plausible": [
-            "Trachea is the main target",
-            "High elbow crushes the trachea"
+            "Trachea is the primary target",
+            "Wrist bone off-center is fine"
           ],
           "trap": [
-            "Squeeze equally works any angle"
+            "Crank the neck to force a tap"
           ]
         }
       },
@@ -365,11 +365,11 @@
         "answer_line": "Release instantly at first tap",
         "distractors": {
           "plausible": [
-            "Ease off only if they go limp",
-            "Snap it fast then ease slowly"
+            "Loosen slowly over 3 seconds",
+            "Wait for a verbal submission"
           ],
           "trap": [
-            "Keep squeezing till ref stops"
+            "Squeeze harder if they go limp"
           ]
         }
       },
@@ -377,14 +377,14 @@
         "question": "How should you release the guillotine choke after a tap to prevent injury to your training partner?",
         "answer": "Upon any tap signal, immediately release all choking pressure by opening your grip and removing your forearm from the opponent's neck. Do not maintain any residual squeeze during the release. Help your partner to a seated position and monitor their breathing and consciousness for at least 30 seconds. If they appear disoriented, keep them seated and monitor closely. If they lose consciousness, place them in recovery position, maintain airway, and call for medical assistance immediately.",
         "safety_critical": true,
-        "answer_line": "Full release, then seat & monitor",
+        "answer_line": "Full release, then seat and monitor",
         "distractors": {
           "plausible": [
-            "Loosen grip but stay ready",
-            "Release slow to control fall"
+            "Keep light pressure a moment",
+            "Stand up quickly to give space"
           ],
           "trap": [
-            "Let go and walk away right away"
+            "Leave them alone if they go limp"
           ]
         }
       },
@@ -392,14 +392,14 @@
         "question": "What body positioning from top creates the strongest finishing platform and why does hip sprawl matter?",
         "answer": "From top, the strongest finishing platform combines hip sprawl with forward weight distribution through the chest and shoulders onto the opponent's upper back. Sprawling the hips backward drops your center of gravity and prevents the opponent from closing guard, which would neutralize your top position advantage. The sprawl also amplifies downward pressure on the opponent's head and neck through gravity loading. Drive your hip on the choking side slightly forward and angle your body toward that side to create maximum compression through the choking structure.",
         "safety_critical": false,
-        "answer_line": "Sprawl hips, drive weight forward",
+        "answer_line": "Sprawl hips, weight through chest",
         "distractors": {
           "plausible": [
-            "Sit back to control tempo",
-            "Square hips, drive straight down"
+            "Square hips, drive straight down",
+            "Stay light on toes, chest high"
           ],
           "trap": [
-            "Post hands down, let guard close"
+            "Kneel in close inside their guard"
           ]
         }
       },
@@ -409,11 +409,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Brace stiff-arm against chest",
-            "Pull guard tighter and stall"
+            "Squeeze harder and hold on",
+            "Post a foot on hip and stall"
           ],
           "trap": [
-            "Fight the drive head-on, brace hard"
+            "Meet the drive head-on, get stacked"
           ]
         },
         "answer_line": "Hip bump sweep off their drive"
@@ -424,11 +424,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Finish hard the whole time",
-            "Alternate squeeze strength randomly"
+            "Hold light until they escape",
+            "Squeeze hard, rest, repeat"
           ],
           "trap": [
-            "Max squeeze from the very start"
+            "Max effort early, gas and get passed"
           ]
         },
         "answer_line": "Control first, finish when set"
@@ -625,11 +625,11 @@
         "answer_line": "Tap at first vision change",
         "distractors": {
           "plausible": [
-            "Wait to see if it worsens",
-            "Fight on, tapping shows weakness"
+            "Hold out ten seconds, then quit",
+            "Wait until breathing is cut off"
           ],
           "trap": [
-            "Tap only when totally limp"
+            "Ride it out until you black out"
           ]
         }
       },
@@ -640,8 +640,8 @@
         "answer_line": "Posture up top; underhook bottom",
         "distractors": {
           "plausible": [
-            "Pull guard from both positions",
-            "Strip grip first from any spot"
+            "Pull guard from either position",
+            "Flatten out and wait for a stall"
           ],
           "trap": [
             "Always pull straight back to escape"
@@ -652,14 +652,14 @@
         "question": "Why is pulling straight backward the wrong defensive response to a guillotine and what should you do instead?",
         "answer": "Pulling straight backward extends the neck into the choking forearm, actually increasing compression on the carotid arteries and trachea. This is the most common defensive error and it accelerates the submission. Instead, drive forward and upward—push your hips toward the opponent while driving your head toward the ceiling. This stacks the opponent, reduces the angle of the choke, and creates the space needed for head extraction. Forward pressure combined with posture is the correct escape direction.",
         "safety_critical": false,
-        "answer_line": "Drive forward and up, not back",
+        "answer_line": "Drive hips in, head to ceiling",
         "distractors": {
           "plausible": [
-            "Drop hips low, stay flat",
-            "Turtle up and wait it out"
+            "Drop your weight and stay flat",
+            "Turtle and wait for the stall"
           ],
           "trap": [
-            "Pull head back to create space"
+            "Yank your head straight back"
           ]
         }
       },
@@ -670,11 +670,11 @@
         "answer_line": "Pass to side, shoulder in neck",
         "distractors": {
           "plausible": [
-            "Available anytime in guard",
-            "Works only from full mount"
+            "Works from inside their guard",
+            "Needs a gi collar to finish"
           ],
           "trap": [
-            "Break their grip before passing"
+            "Sit back while they hold the neck"
           ]
         }
       }

@@ -332,14 +332,14 @@
         "question": "Why is a deep collar grip more effective than a shallow grip for the loop choke?",
         "answer": "A deep collar grip that reaches past the trachea toward the back of the neck creates a true blood choke by compressing the carotid arteries on both sides of the neck, resulting in a quick and relatively painless tap. A shallow grip that only reaches the front of the neck creates an air choke on the trachea, which is less effective, takes much longer to work, causes unnecessary discomfort, and has higher injury potential. The deep grip allows the collar to act as a noose around the neck's major blood vessels rather than crushing the windpipe.",
         "safety_critical": false,
-        "answer_line": "Deep grip chokes blood vessels",
+        "answer_line": "Deep grip compresses the carotids",
         "distractors": {
           "plausible": [
-            "Shallow grip is quicker",
-            "Deep grip locks in faster"
+            "Shallow grip taps them sooner",
+            "Deep grip needs less arm strength"
           ],
           "trap": [
-            "Shallow grip causes less pain"
+            "Shallow air choke is safe to hold"
           ]
         }
       },
@@ -407,14 +407,14 @@
         "question": "What should you do if the loop choke doesn't produce a tap within 5-6 seconds of applying pressure?",
         "answer": "If the choke hasn't worked within 5-6 seconds of proper pressure application, the setup is likely incorrect and you should release the pressure and reset the technique rather than continuing to force it. Continuing to apply pressure when the choke isn't working properly often means you have a shallow grip creating an air choke rather than a blood choke, which is both ineffective and potentially dangerous. Reset your grips, ensure proper depth and positioning, or transition to a different attack. Forcing a poorly-positioned choke demonstrates poor technical understanding and creates injury risk.",
         "safety_critical": true,
-        "answer_line": "Release, reset grips",
+        "answer_line": "Release pressure and reset",
         "distractors": {
           "plausible": [
-            "Keep squeezing harder",
-            "Switch to air choke technique"
+            "Wait ten more seconds for a tap",
+            "Loosen the grip and hold on"
           ],
           "trap": [
-            "Force it, they'll tap eventually"
+            "Crank harder until they tap"
           ]
         }
       },
@@ -452,14 +452,14 @@
         "question": "What grip adjustments should you make if your opponent turns their chin strongly toward your deep collar grip side?",
         "answer": "When they turn their chin toward your deep grip, it can actually help create a tighter choke if you adjust properly. Drive your choking elbow higher over their face, using their chin turn to deepen the collar penetration. Simultaneously, pull your lapel grip more aggressively across their neck in the opposite direction to maintain the diagonal vector. If they turn significantly, consider following their movement into technical mount where the angle naturally supports the loop configuration. Their defensive turning motion can become the mechanism that tightens the choke if you maintain proper grip depth.",
         "safety_critical": false,
-        "answer_line": "Drive elbow higher, follow turn",
+        "answer_line": "Drive elbow higher, follow the turn",
         "distractors": {
           "plausible": [
-            "Switch grip to other side",
-            "Release and re-angle mount"
+            "Switch grip to the other side",
+            "Sit upright to reset your base"
           ],
           "trap": [
-            "Force chin back to center"
+            "Release collar to fight the head"
           ]
         }
       },
@@ -657,14 +657,14 @@
         "question": "How does the attacker's weight shift during the loop choke setup create escape opportunities for the defender?",
         "answer": "The attacker must shift their weight in predictable ways during the setup: they lean forward and to one side when feeding the deep collar grip, momentarily compromising their base. When they reach for the second lapel grip, one posting hand leaves the mat entirely. During the finish, they commit their chest weight forward toward your head. Each of these weight shifts creates a brief window where their mount base is compromised. The most exploitable moment is when they reach for the secondary grip, because both hands are occupied with collar work rather than posting for balance, making this the optimal time for an explosive bridge escape.",
         "safety_critical": false,
-        "answer_line": "Bridge when they reach 2nd grip",
+        "answer_line": "Bridge when they reach second grip",
         "distractors": {
           "plausible": [
-            "Bridge during initial collar feed",
-            "Escape during finishing pressure"
+            "Bridge while their base is centered",
+            "Shrimp when their weight stays low"
           ],
           "trap": [
-            "Wait until choke fully locks"
+            "Wait until the choke fully locks"
           ]
         }
       }

@@ -266,14 +266,14 @@
       {
         "question": "What conditions must exist before you can safely attempt this sweep?",
         "answer": "Four conditions must be verified: your heel must be free from opponent's heel hook grip, your free leg must retain mobility for posting and pendulum generation, you must have sufficient upper body freedom to establish a far-side control grip, and your trapped knee must not be under any active rotational pressure. If any of these conditions is absent, the sweep attempt carries unacceptable injury risk or has near-zero success probability.",
-        "answer_line": "Free heel, mobile leg, safe knee",
+        "answer_line": "Heel, leg, grips free; knee unloaded",
         "distractors": {
           "plausible": [
-            "Just need the heel hook secured",
-            "Grip freedom is the only key"
+            "Enough hip space to turn in",
+            "Wait until opponent posts a hand"
           ],
           "trap": [
-            "Attempt whenever hips feel loose"
+            "Sweep while heel is still trapped"
           ]
         }
       },

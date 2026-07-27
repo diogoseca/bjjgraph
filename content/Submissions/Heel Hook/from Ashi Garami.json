@@ -313,11 +313,11 @@
         "answer_line": "Knee ligaments: ACL, MCL, LCL",
         "distractors": {
           "plausible": [
-            "Meniscus cartilage mainly",
-            "Ankle ligaments mainly"
+            "Meniscus cartilage is the target",
+            "Ankle joint takes the main load"
           ],
           "trap": [
-            "Achilles tendon directly"
+            "Ride it out, tap only on pain"
           ]
         }
       },
@@ -325,14 +325,14 @@
         "question": "Why does the heel hook produce minimal pain before causing structural damage to the knee?",
         "answer": "Knee ligaments have significantly fewer pain receptors compared to joint capsules and tendons targeted by other submissions like armbars or kimuras. The rotational stress on the ACL, MCL, and LCL can exceed their structural failure threshold before the defender experiences meaningful pain signals. This is why early tap recognition based on positional awareness rather than pain is critical for safe training and competition.",
         "safety_critical": true,
-        "answer_line": "Ligaments have few pain receptors",
+        "answer_line": "Knee ligaments have few pain nerves",
         "distractors": {
           "plausible": [
-            "Adrenaline blocks all pain",
-            "Damage happens too fast to feel"
+            "Adrenaline masks all injury pain",
+            "Rotation numbs the leg quickly"
           ],
           "trap": [
-            "Pain means it's working right"
+            "Wait for pain before tapping"
           ]
         }
       },
@@ -343,11 +343,11 @@
         "answer_line": "Pinch knees, thread to Inside Ashi",
         "distractors": {
           "plausible": [
-            "Crank harder through the straighten",
-            "Switch to armbar immediately"
+            "Crank harder as they extend",
+            "Pull the heel with arms only"
           ],
           "trap": [
-            "Let go and reset to neutral"
+            "Open the ashi, they pass to mount"
           ]
         }
       },
@@ -370,14 +370,14 @@
         "question": "Why is hip rotation preferred over arm cranking for finishing the heel hook?",
         "answer": "Hip rotation engages the entire core and posterior chain, generating far more sustainable force than isolated arm strength while maintaining superior control over application speed. Arm cranking produces weaker, less sustainable force with jerky and uncontrolled movements that increase injury risk for the training partner. Hip rotation also naturally keeps the foot clamped to the chest, whereas arm-powered finishes often create space that allows the defender to extract their foot.",
         "safety_critical": false,
-        "answer_line": "Hip rotation, not arm cranking",
+        "answer_line": "Core drive: more force, more control",
         "distractors": {
           "plausible": [
-            "Equal arm and hip power",
-            "Squeeze knees harder instead"
+            "Arms finish quicker than hips",
+            "Arms keep the foot clamped tight"
           ],
           "trap": [
-            "Crank fast with the arms"
+            "Jerk the arms hard and fast"
           ]
         }
       },
@@ -388,11 +388,11 @@
         "answer_line": "Pinch knees to fix the fulcrum",
         "distractors": {
           "plausible": [
-            "Grip the ankle tighter instead",
-            "Angle hips away from the knee"
+            "Squeeze the ankle grip tighter",
+            "Post a hand on their hip"
           ],
           "trap": [
-            "Let the knee rotate freely"
+            "Let them spin free and take top"
           ]
         }
       },
@@ -400,14 +400,14 @@
         "question": "How can you use the heel hook threat from outside Ashi to advance to a superior position in the hierarchy?",
         "answer": "When threatening the heel hook, the opponent must address the attack through straightening, grip stripping, or rotation. Each defensive response creates specific openings for hierarchy advancement: straightening the leg allows deeper inside leg threading for Inside Ashi entry; grip stripping requires hand commitment that opens Cross Ashi transitions; rolling to relieve pressure exposes the back for Saddle advancement. Reading the defensive choice and flowing to the appropriate advancement pathway makes the threat itself more valuable than the finish at this hierarchy level.",
         "safety_critical": false,
-        "answer_line": "Read defense, flow up hierarchy",
+        "answer_line": "Read their defense, climb positions",
         "distractors": {
           "plausible": [
-            "Force the finish regardless",
-            "Abandon Ashi if defended"
+            "Hold outside ashi and wait",
+            "Switch to an upper-body attack"
           ],
           "trap": [
-            "Chase the tap, ignore position"
+            "Crank blind, lose the entanglement"
           ]
         }
       },
@@ -418,11 +418,11 @@
         "answer_line": "Figure-four, heel in wrist crook",
         "distractors": {
           "plausible": [
-            "Grip the forefoot tightly",
-            "Interlock fingers around ankle"
+            "Squeeze the forefoot tightly",
+            "Interlace fingers around the ankle"
           ],
           "trap": [
-            "Grab the toes for control"
+            "Release your legs to grip harder"
           ]
         }
       },
@@ -433,8 +433,8 @@
         "answer_line": "Consent, supervision, slow pressure",
         "distractors": {
           "plausible": [
-            "Any belt can drill freely",
-            "White belts train it solo"
+            "Gi rules clear it at blue belt",
+            "Only competitors need approval"
           ],
           "trap": [
             "Apply sudden explosive force"
@@ -448,11 +448,11 @@
         "answer_line": "Gripping forefoot, not the heel",
         "distractors": {
           "plausible": [
-            "Gripping too high on the shin",
-            "Using both hands on the ankle"
+            "Clamping the leg in the armpit",
+            "Gripping high on the shin bone"
           ],
           "trap": [
-            "Squeeze toes to lock it in"
+            "Crank fast before they can tap"
           ]
         }
       }
@@ -580,11 +580,11 @@
         "answer_line": "Hand cups heel, figure-four locks",
         "distractors": {
           "plausible": [
-            "Opponent grabs your ankle first",
-            "They clamp your knee to chest"
+            "They clamp your knee to chest",
+            "They grip your belt and sit back"
           ],
           "trap": [
-            "They posture up to pass guard"
+            "Ignore it, defend the pass first"
           ]
         }
       },
@@ -592,11 +592,11 @@
         "question": "Why is tapping early to a heel hook more important than with most other submissions?",
         "answer": "Heel hooks attack knee ligaments—ACL, MCL, and LCL—that have significantly fewer pain receptors than the joint capsules or tendons targeted by armbars, kimuras, or chokes. Structural failure in these ligaments can occur before the defender experiences meaningful pain, meaning that waiting for pain to signal when to tap often results in tapping after ligament damage has already occurred. Positional awareness and rotational pressure recognition must replace pain as the primary tap trigger for heel hooks.",
         "safety_critical": true,
-        "answer_line": "Ligament damage precedes pain",
+        "answer_line": "Ligaments tear before pain hits",
         "distractors": {
           "plausible": [
-            "Chokes are more dangerous",
-            "Pain always signals danger"
+            "The ankle pops first as a warning",
+            "Referees catch it before damage"
           ],
           "trap": [
             "Wait for sharp pain to tap"
@@ -610,8 +610,8 @@
         "answer_line": "Strip grip, boot defense, roll, tap",
         "distractors": {
           "plausible": [
-            "Point knee outward to escape",
-            "Grip strip only, never roll"
+            "Point the knee outward and pull",
+            "Stall and wait for the timer"
           ],
           "trap": [
             "Rip the leg out explosively"
@@ -625,11 +625,11 @@
         "answer_line": "Creates worse heel exposure angle",
         "distractors": {
           "plausible": [
-            "Wastes energy needlessly",
-            "Signals panic to opponent"
+            "It telegraphs your escape route",
+            "It burns energy you need later"
           ],
           "trap": [
-            "Rip free as fast as possible"
+            "Rip the leg free as fast as you can"
           ]
         }
       },
@@ -640,11 +640,11 @@
         "answer_line": "Full extraction to guard/standing",
         "distractors": {
           "plausible": [
-            "Neutralize and stay in Ashi",
-            "Escape to turtle position"
+            "Reverse into your own leg lock",
+            "Survive until the round ends"
           ],
           "trap": [
-            "Fight the grip with strength"
+            "Spin out hard, torque your knee"
           ]
         }
       }

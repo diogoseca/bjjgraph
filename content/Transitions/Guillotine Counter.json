@@ -363,14 +363,14 @@
       {
         "question": "How do you assess whether a guillotine is too deep and locked to escape versus still defensible?",
         "answer": "A guillotine becomes likely inescapable when three factors converge: opponent has fully closed guard high on your back with ankles locked, their choking arm is deep with the blade of the forearm directly across your trachea or both carotid arteries, and your posture is completely broken with your head pulled below their chest level. If any one of these three elements is missing, the counter remains viable. If you can still maintain some posture, their guard is open, or their grip is shallow across your jaw rather than deep on the neck, proceed with the systematic counter. When all three elements are locked in, tap early in training to preserve your training longevity.",
-        "answer_line": "Guard, blade, and posture all gone",
+        "answer_line": "All three: guard, blade, posture",
         "distractors": {
           "plausible": [
-            "Any deep grip means tap now",
-            "Closed guard alone means locked"
+            "Any deep grip means it's over",
+            "Head down alone means locked"
           ],
           "trap": [
-            "Fight harder, ignore posture cues"
+            "Rip your head straight out"
           ]
         }
       },
@@ -380,11 +380,11 @@
         "answer_line": "Crossface into their own arm",
         "distractors": {
           "plausible": [
-            "Pry their arm off first",
-            "Switch to armbar attempt"
+            "Pry the grip loose first",
+            "Go for a kimura instead"
           ],
           "trap": [
-            "Force their grip release fast"
+            "Pull your head out and away"
           ]
         }
       }

@@ -282,26 +282,26 @@
         "distractors": {
           "plausible": [
             "Elbow, hyperextension force",
-            "Wrist, torsion pressure"
+            "Wrist, torsional strain"
           ],
           "trap": [
-            "Neck, cervical compression"
+            "Neck crank for a faster tap"
           ]
         },
-        "answer_line": "Shoulder, forced internal rotation"
+        "answer_line": "Shoulder joint, internal rotation"
       },
       {
         "question": "What is the critical vulnerability window during the Gift Wrap to Kimura transition?",
         "answer": "The critical vulnerability occurs when the threading arm releases from under the opponent's armpit to establish the figure-four grip. During this moment, if redundant wrist control has not been established with the free hand, the opponent can recover their trapped arm. The transition should overlap grips so there is never a moment where the wrist is uncontrolled.",
         "safety_critical": false,
-        "answer_line": "Overlap grips, never release wrist",
+        "answer_line": "When the threading arm withdraws",
         "distractors": {
           "plausible": [
-            "Free arm first, then grip wrist",
-            "Establish figure-four then wrist"
+            "While inserting the second hook",
+            "After the figure-four locks"
           ],
           "trap": [
-            "Release armpit hold to reset grip"
+            "Let the wrist go to reset grips"
           ]
         }
       },
@@ -309,14 +309,14 @@
         "question": "Why must you shift your hips to the Kimura side before applying the finish?",
         "answer": "Hip positioning creates the rotational leverage angle necessary for an effective shoulder lock. From directly behind the opponent, the Kimura rotation arc is too flat to generate sufficient torque on the shoulder joint. Shifting to the Kimura side creates a perpendicular angle between your body and their arm, allowing proper paint-brush rotation that loads the rotator cuff effectively.",
         "safety_critical": false,
-        "answer_line": "Shift hips to the Kimura side",
+        "answer_line": "Creates a perpendicular torque arc",
         "distractors": {
           "plausible": [
-            "Stay square behind the opponent",
-            "Shift hips away from the arm"
+            "Stops them from bridging away",
+            "Frees your bottom arm to post"
           ],
           "trap": [
-            "Release hooks to shift hips"
+            "Give up hooks to square the hips"
           ]
         }
       },
@@ -327,11 +327,11 @@
         "answer_line": "Drive elbow up, break the angle",
         "distractors": {
           "plausible": [
-            "Pull straight back harder",
-            "Switch to armbar immediately"
+            "Yank straight back harder",
+            "Wait for their grip to tire"
           ],
           "trap": [
-            "Release grip and re-shoot Kimura"
+            "Release hooks to muscle the turn"
           ]
         }
       },
@@ -341,11 +341,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Opponent simply stops struggling",
-            "Arm rotated past 90 degrees"
+            "Opponent stops struggling",
+            "You have both hooks in"
           ],
           "trap": [
-            "Hooks in, back control secured"
+            "Release elbow pin to reposition"
           ]
         },
         "answer_line": "Figure-four locked, elbow pinned"
@@ -357,11 +357,11 @@
         "answer_line": "Grip wrist bone, squeeze elbows",
         "distractors": {
           "plausible": [
-            "Grip higher up on the bicep",
-            "Grip forearm, widen the elbows"
+            "Grip higher on the bicep",
+            "Hold the forearm, elbows wide"
           ],
           "trap": [
-            "Switch to a gi-style grip"
+            "Let the arm go to re-grip dry"
           ]
         }
       },
@@ -401,8 +401,8 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Rotating too slowly for effect",
-            "Squeezing too hard, too fast"
+            "Rotating too slowly to finish",
+            "Starting before the hooks set"
           ],
           "trap": [
             "Releasing hooks to rotate faster"
@@ -555,11 +555,11 @@
         "answer_line": "Tap once rotation exceeds range",
         "distractors": {
           "plausible": [
-            "Tap only once it truly hurts",
-            "Wait to test an escape first"
+            "Tap only when pain is sharp",
+            "Tap after the shoulder pops"
           ],
           "trap": [
-            "Fight through, look for a reversal"
+            "Roll away from the Kimura side"
           ]
         }
       },
@@ -571,10 +571,10 @@
         "distractors": {
           "plausible": [
             "Attacker's grip is tightest there",
-            "Opponent's balance is compromised"
+            "Their base is most compromised"
           ],
           "trap": [
-            "Best moment to attack their neck"
+            "Freeze until the lock is set"
           ]
         }
       },
@@ -585,11 +585,11 @@
         "answer_line": "Anchor grip, roll to Kimura side",
         "distractors": {
           "plausible": [
-            "Bridge explosively to escape",
-            "Wait for the rotation to slow"
+            "Reach for a leg to distract",
+            "Flatten out and stay still"
           ],
           "trap": [
-            "Straighten the arm to fight grip"
+            "Straighten the arm to break grip"
           ]
         }
       },
@@ -600,11 +600,11 @@
         "answer_line": "Tuck chin, turn jaw to shoulder",
         "distractors": {
           "plausible": [
-            "Commit fully, ignore neck risk",
-            "Turn head away from choking side"
+            "Grip fight with both hands",
+            "Turn your face away from the mat"
           ],
           "trap": [
-            "Release chin to reach the grip"
+            "Release chin to fight the grip"
           ]
         }
       }

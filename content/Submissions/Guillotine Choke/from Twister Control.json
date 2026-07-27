@@ -307,7 +307,7 @@
             "Equal carotid and trachea"
           ],
           "trap": [
-            "Cervical spine hyperextension"
+            "Crank the spine to force the tap"
           ]
         }
       },
@@ -322,7 +322,7 @@
             "Posturing straight upward"
           ],
           "trap": [
-            "Turning further into rotation"
+            "Lift your chin to look at them"
           ]
         }
       },
@@ -334,10 +334,10 @@
         "distractors": {
           "plausible": [
             "Keeps back-control points scored",
-            "Tires out opponent's grip"
+            "Adds pressure to the choke arm"
           ],
           "trap": [
-            "Frees your hands for the choke"
+            "Drop the legs to squeeze harder"
           ]
         }
       },
@@ -345,14 +345,14 @@
         "question": "What is the point of no escape for the defender once the guillotine from Twister Control is locked?",
         "answer": "The point of no escape occurs when the high-elbow grip is fully clasped with correct wrist-to-carotid alignment and the attacker's hips are angled to the choking side. Once the elbows are pulled tight to the ribs and the torso is curled, defensive posturing becomes insufficient to relieve the arterial compression. At this stage the defender should tap immediately rather than risk unconsciousness.",
         "safety_critical": true,
-        "answer_line": "High-elbow grip clasped, hips angled",
+        "answer_line": "High-elbow clasp with hips angled",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "First forearm touch on neck"
+            "First forearm contact on the neck",
+            "When the legs first cross behind"
           ],
           "trap": [
-            "Opponent's shoulders hit the mat"
+            "Wait until the defender goes limp"
           ]
         }
       },
@@ -360,14 +360,14 @@
         "question": "How should you release the guillotine from Twister Control after your training partner taps?",
         "answer": "Upon any tap signal, immediately release the choking arm pressure by opening the grip and removing the forearm from the neck. Disengage head and neck control before releasing any remaining leg entanglement. Help your partner to a seated position and monitor their breathing and consciousness. If they show any signs of delayed recovery, call for medical assistance immediately.",
         "safety_critical": true,
-        "answer_line": "Release grip, then check partner",
+        "answer_line": "Release grip, then help partner up",
         "distractors": {
           "plausible": [
-            "Hold briefly to confirm the tap",
-            "Release legs before the grip"
+            "Unhook the legs before the neck",
+            "Let go and walk off immediately"
           ],
           "trap": [
-            "Keep pressure until they go still"
+            "Hold until they stop moving"
           ]
         }
       },
@@ -378,11 +378,11 @@
         "answer_line": "Pull guard, break posture with legs",
         "distractors": {
           "plausible": [
-            "Grip harder and lean back",
-            "Switch to a standard RNC grip"
+            "Lean back hard to tighten it",
+            "Post a hand on the mat for base"
           ],
           "trap": [
-            "Release everything and reset"
+            "Stand up with them, hang on grip"
           ]
         }
       },
@@ -427,7 +427,7 @@
             "No change to the score at all"
           ],
           "trap": [
-            "Points transfer onto the choke"
+            "Pull guard with a loose grip"
           ]
         }
       }
@@ -551,14 +551,14 @@
         "question": "What is the safest way to tap when caught in the guillotine from Twister Control?",
         "answer": "Tap clearly and repeatedly with your hand on the opponent's body, your own body, or the mat. If your hands are trapped, use a verbal tap by saying 'tap' clearly. You can also tap with your feet on the mat. Tap early when you recognize the grip is locked and you cannot escape, as the combined rotational and choking pressure in this position causes rapid unconsciousness.",
         "safety_critical": true,
-        "answer_line": "Tap hand, mat, or say tap loudly",
+        "answer_line": "Tap hand, mat, or shout 'tap'",
         "distractors": {
           "plausible": [
-            "Wait until vision blurs first",
-            "Tap only once to be sure"
+            "Tap once softly and wait",
+            "Squeeze their arm to signal"
           ],
           "trap": [
-            "Try to verbally negotiate first"
+            "Wait until your vision blurs"
           ]
         }
       },
@@ -569,11 +569,11 @@
         "answer_line": "Blocks the forearm from your throat",
         "distractors": {
           "plausible": [
-            "Protects your ears from pressure",
-            "Keeps your shoulders square only"
+            "Relieves the spinal crank",
+            "Frees your bottom shoulder"
           ],
           "trap": [
-            "Lets you see the escape route"
+            "Look up to spot the escape"
           ]
         }
       },
@@ -584,11 +584,11 @@
         "answer_line": "Strip the grip before it's clasped",
         "distractors": {
           "plausible": [
-            "Always spin-through first",
-            "Wait until your legs are fully free"
+            "Spin through the moment it locks",
+            "Wait until your legs come free"
           ],
           "trap": [
-            "Pull straight up to break the grip"
+            "Posture straight up into the choke"
           ]
         }
       },
@@ -599,11 +599,11 @@
         "answer_line": "Twist strain plus leg entanglement",
         "distractors": {
           "plausible": [
-            "Higher overall finish rate",
-            "Faster access to the grip only"
+            "Attacker gets both hands free",
+            "It scores more competition points"
           ],
           "trap": [
-            "Opponent can't tap in this hold"
+            "Ride it out instead of tapping"
           ]
         }
       }

@@ -298,14 +298,14 @@
         "question": "What is the most critical safety consideration when applying extension pressure in the reverse armbar?",
         "answer": "Never apply extension pressure while still rotating or before completely securing the reversed position. The extension must be slow and progressive (3-5 seconds minimum) and only applied after the 180-degree rotation is complete and legs are repositioned. Applying pressure during rotation creates unpredictable angles that can cause serious ligament damage to the elbow.",
         "safety_critical": true,
-        "answer_line": "Extend slowly after rotation ends",
+        "answer_line": "Extend only after rotation completes",
         "distractors": {
           "plausible": [
-            "Apply steady pressure mid-rotation",
-            "Extend once arm is pinned to chest"
+            "Extend as soon as arm is pinned",
+            "Let hips drop before extending"
           ],
           "trap": [
-            "Snap pressure fast for a quick tap"
+            "Yank fast for an instant tap"
           ]
         }
       },
@@ -316,11 +316,11 @@
         "answer_line": "Stop, re-pin arm tight to chest",
         "distractors": {
           "plausible": [
-            "Squeeze knees, keep rotating",
-            "Adjust grip only, no need to stop"
+            "Re-grip wrist without pausing",
+            "Sit heavier to stall them out"
           ],
           "trap": [
-            "Force through and finish rotation"
+            "Let the pin go to chase the wrist"
           ]
         }
       },
@@ -331,11 +331,11 @@
         "answer_line": "Adds rotation to hyperextension",
         "distractors": {
           "plausible": [
-            "Uses more downward wrist pressure",
-            "Same straight pressure, new angle"
+            "Same straight pressure, new angle",
+            "Drives elbow down with wrist"
           ],
           "trap": [
-            "Relies on shoulder pressure instead"
+            "Crank the wrist to force a tap"
           ]
         }
       },
@@ -346,11 +346,11 @@
         "answer_line": "Verbal, hand tap, foot tap",
         "distractors": {
           "plausible": [
-            "Hand tap, verbal, eye contact",
-            "Hand tap, foot tap, going limp"
+            "Shout, eye contact, wince",
+            "Nod, grimace, body tension"
           ],
           "trap": [
-            "Wait for hand tap only, ignore rest"
+            "Ignore anything but a mat slap"
           ]
         }
       },
@@ -373,14 +373,14 @@
         "question": "Why is the reverse armbar considered more effective against experienced grapplers than beginners?",
         "answer": "Experienced grapplers have developed strong defensive instincts and muscle memory for defending standard armbars—turning thumb down, grabbing gi, creating frames. These trained defenses often fail against the reverse armbar because the mechanics are inverted. Their defensive movement actually helps facilitate your rotation. Beginners lack these trained responses, so they're equally vulnerable to both standard and reverse variations. The reverse armbar exploits learned defensive patterns, making it a high-level counter technique against sophisticated opponents.",
         "safety_critical": false,
-        "answer_line": "Their own defense aids the attacker",
+        "answer_line": "Their trained defense feeds it",
         "distractors": {
           "plausible": [
-            "Beginners defend it worse than pros",
-            "It relies on superior strength"
+            "It needs a stronger grip to work",
+            "Pros simply react more slowly"
           ],
           "trap": [
-            "Advanced grapplers spot it easily"
+            "Rip it fast before they defend"
           ]
         }
       },
@@ -391,11 +391,11 @@
         "answer_line": "Pin separates or elbow bends",
         "distractors": {
           "plausible": [
-            "Only pause if opponent taps",
-            "Pause only after full rotation"
+            "Pause only after full rotation",
+            "Pause only if they grab the gi"
           ],
           "trap": [
-            "Push through minor resistance"
+            "Rush the finish before they set"
           ]
         }
       },
@@ -403,14 +403,14 @@
         "question": "What anatomical structure does the reverse armbar specifically attack, and what makes it vulnerable in this position?",
         "answer": "The reverse armbar attacks the elbow joint, specifically hyperextending the ulnohumeral articulation against its natural range of motion. The elbow is particularly vulnerable because the arm is isolated with the thumb facing downward (pronated)—the orientation an opponent rotates into to defend the standard armbar—which exposes the joint to the reverse breaking plane where the olecranon process of the ulna cannot lock against the humerus for stability. Your hips create a fulcrum directly below the elbow while your grip pulls the wrist in the opposite direction, generating hyperextension force that the ligaments cannot resist once full extension is achieved.",
         "safety_critical": false,
-        "answer_line": "Elbow joint, hyperextended pronated",
+        "answer_line": "Elbow, hyperextended thumb-down",
         "distractors": {
           "plausible": [
-            "Shoulder joint under rotation",
-            "Wrist joint from grip pressure"
+            "Shoulder capsule twisted inward",
+            "Wrist bent under grip pressure"
           ],
           "trap": [
-            "Elbow bent for maximum leverage"
+            "Crank sideways, tear the shoulder"
           ]
         }
       },
@@ -448,14 +448,14 @@
         "question": "In competition, what finishing strategy maximizes submission success rate while minimizing injury risk to your opponent?",
         "answer": "In competition, once you've completed the rotation and established the reversed position, apply steady progressive pressure through hip elevation while maintaining tight arm control. The pressure should be constant but controlled—giving your opponent the opportunity to tap before the elbow reaches its breaking threshold. Avoid explosive jerking or spiking even in competition, as this creates unnecessary injury risk and can result in referee stoppage or penalty. The submission should feel inevitable to your opponent, creating psychological pressure that forces the tap before physical damage occurs. Patient, mechanical finishing produces higher completion rates than explosive attempts.",
         "safety_critical": true,
-        "answer_line": "Steady pressure, avoid jerking",
+        "answer_line": "Steady progressive hip pressure",
         "distractors": {
           "plausible": [
-            "Apply max pressure immediately",
-            "Hold static pressure, no increase"
+            "Hold static pressure, no increase",
+            "Release and reset for a new grip"
           ],
           "trap": [
-            "Explosive spike for fast finish"
+            "Explosive spike to force the tap"
           ]
         }
       },
@@ -466,11 +466,11 @@
         "answer_line": "Legs loosened while hips lifted",
         "distractors": {
           "plausible": [
-            "Squeezed knees too early",
-            "Rotated too slowly overall"
+            "Knees were squeezed too early",
+            "Rotation was done too slowly"
           ],
           "trap": [
-            "Focus only on hip elevation"
+            "Let go of legs and dive for wrist"
           ]
         }
       }
@@ -574,11 +574,11 @@
         "answer_line": "Bend arm, grip, roll with them",
         "distractors": {
           "plausible": [
-            "Pull arm straight and yank back",
-            "Wait for full rotation, then defend"
+            "Wait for the rotation to finish",
+            "Push their hips away first"
           ],
           "trap": [
-            "Relax arm to reduce the strain"
+            "Relax the arm to ease the strain"
           ]
         }
       },
@@ -586,14 +586,14 @@
         "question": "Why are standard armbar defenses ineffective against the reverse armbar?",
         "answer": "Standard armbar defenses are designed for a forward-facing attacker—turning the thumb down removes the breaking angle, stacking drives weight into the attacker's face, and clasping hands creates distance from the hips. The reverse armbar inverts all of these mechanics. The attacker faces your feet, so thumb-down rotation may actually align your arm with their new breaking plane. Stacking drives you toward their legs rather than disrupting control. Clasped hands are less effective because the reverse hip angle generates force from a direction your grip structure is not designed to resist.",
         "safety_critical": false,
-        "answer_line": "Standard defenses fit wrong angle",
+        "answer_line": "Reverse angle voids those defenses",
         "distractors": {
           "plausible": [
-            "Thumb-down still removes the angle",
-            "Stacking still disrupts control"
+            "Thumb-down still kills the angle",
+            "Stacking still breaks the grip"
           ],
           "trap": [
-            "Clasp hands harder to hold on"
+            "Turn thumb down and stack hard"
           ]
         }
       },
@@ -604,11 +604,11 @@
         "answer_line": "Arm locked, hips tight, legs pinned",
         "distractors": {
           "plausible": [
-            "Tap at first sign of discomfort",
-            "Wait until you hear a pop"
+            "When you lose your underhook grip",
+            "Once attacker sits up to rotate"
           ],
           "trap": [
-            "Keep fighting since arm can flex"
+            "Bridge hard to rip the arm free"
           ]
         }
       },
@@ -634,11 +634,11 @@
         "answer_line": "Frame against their near hip",
         "distractors": {
           "plausible": [
-            "Grip your own collar first",
-            "Post on the mat for base"
+            "Post on the mat for base",
+            "Chase a grip on their belt"
           ],
           "trap": [
-            "Push on their head or chest"
+            "Push their knee with a straight arm"
           ]
         }
       }

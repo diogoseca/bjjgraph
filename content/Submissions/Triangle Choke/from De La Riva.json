@@ -286,7 +286,7 @@
             "Release once leg clears shoulder"
           ],
           "trap": [
-            "Ditch hook, switch to sweep"
+            "Kick hook off, invite the pass"
           ]
         }
       },
@@ -312,11 +312,11 @@
         "answer_line": "Verbal, hand, foot tap, going limp",
         "distractors": {
           "plausible": [
-            "Only verbal taps count",
-            "Wait for clear tap before release"
+            "Only what you can hear",
+            "Any signal repeated twice"
           ],
           "trap": [
-            "Test resistance before releasing"
+            "Keep squeezing to confirm it"
           ]
         }
       },
@@ -331,7 +331,7 @@
             "Shin behind head, knee on back"
           ],
           "trap": [
-            "Knee on shoulder locks tightest"
+            "Grind shoulder version, get passed"
           ]
         }
       },
@@ -342,11 +342,11 @@
         "answer_line": "Gives partner time to tap safely",
         "distractors": {
           "plausible": [
-            "Speeds up the tap response",
-            "Prevents them defending in time"
+            "Locks the position more securely",
+            "Raises your finishing rate"
           ],
           "trap": [
-            "Snap it fast to finish quicker"
+            "Crank hard the moment it locks"
           ]
         }
       },
@@ -357,11 +357,11 @@
         "answer_line": "Flow to omoplata or back take",
         "distractors": {
           "plausible": [
-            "Switch to armbar immediately",
-            "Reset guard and restart"
+            "Reset guard and restart",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Force the choke through anyway"
+            "Squeeze harder and get stack passed"
           ]
         }
       },
@@ -373,10 +373,10 @@
         "distractors": {
           "plausible": [
             "Targets windpipe, not carotids",
-            "Arm position doesn't matter much"
+            "Both arms must be trapped inside"
           ],
           "trap": [
-            "Let arm stay outside your leg"
+            "Leave arm outside, feed the pass"
           ]
         }
       },
@@ -391,7 +391,7 @@
             "Pull up on their collar"
           ],
           "trap": [
-            "Push down on their knee"
+            "Push their knee, get posture-passed"
           ]
         }
       },
@@ -421,7 +421,7 @@
             "Mainly stops opponent posturing"
           ],
           "trap": [
-            "Squeeze knees instead of extending"
+            "Cross your ankles instead"
           ]
         }
       },
@@ -436,7 +436,7 @@
             "Push their head away to relieve"
           ],
           "trap": [
-            "Let go and stand back up"
+            "Flatten out and let them stack"
           ]
         }
       },
@@ -444,14 +444,14 @@
         "question": "What is the point of no escape in the triangle and what must be controlled before reaching it?",
         "answer": "The point of no escape occurs when you achieve proper perpendicular angle with opponent's posture broken, arm trapped across their centerline, and knee positioned behind their head. Before this point, you must control their posture through head grip, secure the trapped arm position, and lock the figure-four configuration. Once these elements align, even skilled opponents have very limited defensive options and the finish becomes largely a matter of progressive pressure application.",
         "safety_critical": false,
-        "answer_line": "Angle+broken posture+trapped arm",
+        "answer_line": "Angle, broken posture, trapped arm",
         "distractors": {
           "plausible": [
             "Just need the figure-four locked",
             "Once knee is near their head"
           ],
           "trap": [
-            "Any tight leg lock is enough"
+            "Lock legs, ignore their posture"
           ]
         }
       }
@@ -601,8 +601,8 @@
         "answer_line": "Removes angle, stretches their legs",
         "distractors": {
           "plausible": [
-            "Guarantees an instant escape",
-            "Works best while staying seated"
+            "Works best while staying seated",
+            "Gravity alone breaks the lock"
           ],
           "trap": [
             "Slam them to break the grip"
@@ -616,11 +616,11 @@
         "answer_line": "Tap immediately, any method",
         "distractors": {
           "plausible": [
-            "Wait to see if it gets worse",
-            "Tap only if pain is present"
+            "Only if you feel real pain",
+            "Hold your breath and stall"
           ],
           "trap": [
-            "Try to power through it"
+            "Tough out the choke to survive"
           ]
         }
       },
@@ -631,11 +631,11 @@
         "answer_line": "Turn away, extend arm behind you",
         "distractors": {
           "plausible": [
-            "Turn toward the trapped arm",
-            "Pull the arm straight up"
+            "Pull the arm straight up",
+            "Bridge straight backward"
           ],
           "trap": [
-            "Push their hips to create space"
+            "Turn toward the trapped arm side"
           ]
         }
       },
@@ -647,7 +647,7 @@
         "distractors": {
           "plausible": [
             "Push their head down first",
-            "Pull head up to break grip"
+            "Sit back and pull head free"
           ],
           "trap": [
             "Stack straight forward only"

@@ -318,14 +318,14 @@
       {
         "question": "Your opponent sprawls back when you attempt to scramble up after a failed de la riva sweep - what adjustment should you make?",
         "answer": "When the opponent sprawls, their hips drop back and their weight drives forward through their hands and chest. Rather than fighting the sprawl directly, redirect underneath for a deep half guard entry by threading your near shoulder under their hip line while they are committed forward. Alternatively, if you maintained collar control, snap them forward as they sprawl to pull their weight over your body and continue the sweep from the new angle. The sprawl actually removes their base from underneath them if you can redirect the forward momentum below their center of gravity.",
-        "answer_line": "Go deep half or snap collar",
+        "answer_line": "Deep half or snap their collar",
         "distractors": {
           "plausible": [
-            "Fight the sprawl head-on",
-            "Push forward into the sprawl"
+            "Drive your head into their chest",
+            "Stand tall to break free"
           ],
           "trap": [
-            "Chase a leg lock immediately"
+            "Roll to your knees and turtle"
           ]
         }
       },

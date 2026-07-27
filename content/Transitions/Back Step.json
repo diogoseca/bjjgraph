@@ -287,11 +287,11 @@
         "answer_line": "Step early, abort if heel hook locks",
         "distractors": {
           "plausible": [
-            "Step once ashi is fully deep",
-            "Push through a locked heel hook"
+            "Wait until the ashi is fully deep",
+            "Hold off until the finish threatens"
           ],
           "trap": [
-            "Force the step, ignore heel grip"
+            "Muscle the pass into the finish"
           ]
         }
       },
@@ -503,11 +503,11 @@
         "answer_line": "Forces them to stop, strip grips",
         "distractors": {
           "plausible": [
-            "It always finishes the submission",
-            "It slows your own posture reset"
+            "It sweeps them to their back",
+            "It scores an advantage point"
           ],
           "trap": [
-            "Release grips to reset your posture"
+            "Let go to fix your own posture"
           ]
         }
       },

@@ -293,11 +293,11 @@
         "answer_line": "Calf muscle crushed on tibia",
         "distractors": {
           "plausible": [
-            "Achilles tendon stretch",
-            "Knee ligaments like ACL"
+            "Knee ligaments like ACL",
+            "Hamstring tendon tearing"
           ],
           "trap": [
-            "Ankle joint hyperextension"
+            "Just a squeeze, no need to tap"
           ]
         }
       },
@@ -327,7 +327,7 @@
             "Shin threaded, before figure-four"
           ],
           "trap": [
-            "Any bent-knee contact with shin"
+            "Stay bent and ride it out"
           ]
         }
       },
@@ -353,11 +353,11 @@
         "answer_line": "Hips finish; arms fatigue fast",
         "distractors": {
           "plausible": [
-            "Arms give more control power",
-            "Combine equal arm and hip force"
+            "Arm pull is quicker to apply",
+            "Grip strength sets the pressure"
           ],
           "trap": [
-            "Lean back and pull with arms"
+            "Drop chest pressure to yank"
           ]
         }
       },
@@ -380,14 +380,14 @@
         "question": "How should you release the calf slicer immediately upon receiving a tap signal?",
         "answer": "Upon receiving any tap signal, immediately stop all hip extension and relax your legs to release the figure-four lock. Release your grip on the opponent's foot and allow them to straighten their leg naturally at their own pace. Do not jerk or quickly unwrap, as controlled release prevents secondary injury from sudden decompression. Check for any numbness, sharp pain, or reduced mobility in your partner's leg before continuing training.",
         "safety_critical": true,
-        "answer_line": "Stop hips, relax, let leg extend",
+        "answer_line": "Halt hip drive, unlock slowly",
         "distractors": {
           "plausible": [
-            "Quickly unwrap for fast release",
-            "Hold until they stop moving"
+            "Wait for a second tap to confirm",
+            "Roll away to free your legs"
           ],
           "trap": [
-            "Yank the leg straight fast"
+            "Jerk the leg straight to unwrap"
           ]
         }
       },
@@ -399,7 +399,7 @@
         "distractors": {
           "plausible": [
             "Explosive force finishes fastest",
-            "Wait for opponent to fully relax"
+            "Chain a new sub every few seconds"
           ],
           "trap": [
             "Release chest pressure early"
@@ -413,7 +413,7 @@
         "answer_line": "Straighten leg before figure-four",
         "distractors": {
           "plausible": [
-            "Strip grip after lock is set",
+            "Flatten hips and stay still",
             "Roll away from the attacker"
           ],
           "trap": [
@@ -542,7 +542,7 @@
             "Chest pressure suddenly lightens"
           ],
           "trap": [
-            "Foot pointed and toes curled"
+            "Bend knee more to hide heel"
           ]
         }
       },
@@ -550,14 +550,14 @@
         "question": "What is the safest way to tap to the calf slicer from backside 50-50?",
         "answer": "Tap verbally first since your hands may be trapped in the leg entanglement. Simultaneously tap physically with your free hand on the opponent's body or the mat with multiple rapid taps. If both hands are trapped, use your free foot to tap the mat audibly. Do not wait to see if you can escape once meaningful compression is applied, as calf slicers cause tissue damage faster than joint locks with less warning sensation before injury occurs.",
         "safety_critical": true,
-        "answer_line": "Tap verbally and with free limb",
+        "answer_line": "Shout tap plus free-hand taps",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only once to save energy"
+            "Tap once with a trapped hand",
+            "Squeeze their leg as a signal"
           ],
           "trap": [
-            "Try escaping before tapping"
+            "Roll out to escape the pressure"
           ]
         }
       },
@@ -565,14 +565,14 @@
         "question": "What defensive options are available before the figure-four is locked?",
         "answer": "Before the figure-four locks, you can straighten your trapped leg to deny the compression angle, bridge and rotate to face the opponent to break the backside angle, or strip their foot grip and work to extract your leg from the entanglement. The critical defensive window is between the moment the shin threads behind your knee and the figure-four completion. Once the figure-four is locked with foot control secured, options narrow to grip stripping and tapping.",
         "safety_critical": false,
-        "answer_line": "Straighten, face in, or strip grip",
+        "answer_line": "Extend leg, turn in, break grip",
         "distractors": {
           "plausible": [
-            "Strip grip after lock completes",
-            "Wait for the figure-four to set"
+            "Pull your foot free first",
+            "Post a hand and stall it out"
           ],
           "trap": [
-            "Kick hard to break the hold"
+            "Curl the knee and hide the foot"
           ]
         }
       },
@@ -583,8 +583,8 @@
         "answer_line": "Bent knee leaves calf exposed",
         "distractors": {
           "plausible": [
-            "Bent knee only risks heel hooks",
-            "Straight leg is the danger zone"
+            "Bent knee tires your hamstring",
+            "Bent knee blocks your own hips"
           ],
           "trap": [
             "Keep knee bent the whole match"
@@ -598,7 +598,7 @@
         "answer_line": "Strip foot grip, bridge, straighten",
         "distractors": {
           "plausible": [
-            "Wait for figure-four to fully lock",
+            "Sit up and grab their collar",
             "Pull knee tighter to base"
           ],
           "trap": [

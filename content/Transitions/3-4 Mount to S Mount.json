@@ -537,11 +537,11 @@
         "answer_line": "Grip lapel, bend elbow, escape hips",
         "distractors": {
           "plausible": [
-            "Push their leg off immediately",
-            "Try to sit up and stack them"
+            "Stall and wait for their fall-back",
+            "Turn your head away and flatten out"
           ],
           "trap": [
-            "Extend arm to create space"
+            "Straighten arm to shove them off"
           ]
         }
       },
@@ -551,11 +551,11 @@
         "answer_line": "It straightens elbow for armbar",
         "distractors": {
           "plausible": [
-            "It creates space to escape",
-            "It relieves shoulder pressure"
+            "It costs you your collar grip",
+            "It tires the shoulder too fast"
           ],
           "trap": [
-            "Extend arm to push their leg away"
+            "It's safe if you push fast enough"
           ]
         }
       }

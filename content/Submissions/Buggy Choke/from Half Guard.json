@@ -303,7 +303,7 @@
         "distractors": {
           "plausible": [
             "Windpipe compression for pain",
-            "Angle is a minor detail"
+            "Spine pressure from the crossface"
           ],
           "trap": [
             "Crank straight into the throat"
@@ -317,11 +317,11 @@
         "answer_line": "Free hand, slow build, watch taps",
         "distractors": {
           "plausible": [
-            "Apply pressure explosively",
-            "Verbal taps only, ignore physical"
+            "Warm up the neck beforehand",
+            "A verbal tap alone is enough"
           ],
           "trap": [
-            "Trap both hands, then squeeze"
+            "Pin both arms before squeezing"
           ]
         }
       },
@@ -332,11 +332,11 @@
         "answer_line": "Blocks defense and adds pressure",
         "distractors": {
           "plausible": [
-            "Only for grip control",
-            "Only slows their escape"
+            "Purely a grip for balance",
+            "Just stops them standing up"
           ],
           "trap": [
-            "Free their hand to speed finish"
+            "Abandon the trap to chase the back"
           ]
         }
       },
@@ -344,14 +344,14 @@
         "question": "What should you do if your opponent successfully defends the Buggy Choke by freeing their trapped arm?",
         "answer": "Maintain your positional control and immediately transition to alternative attacks rather than losing the position entirely. Common transitions include the electric chair sweep/submission, old school sweep, deep half guard, or taking the back if they overcommit to escaping. The key is to stay offensive and use their defensive movement to set up the next attack.",
         "safety_critical": false,
-        "answer_line": "Stay on top, chain new attack",
+        "answer_line": "Chain into sweep or back take",
         "distractors": {
           "plausible": [
             "Reset to neutral half guard",
-            "Force the same choke again"
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Chase the choke, lose position"
+            "Hold the dead choke and get passed"
           ]
         }
       },
@@ -362,11 +362,11 @@
         "answer_line": "Shoulder drive plus hip extension",
         "distractors": {
           "plausible": [
-            "Arm strength alone",
-            "Explosive single yank"
+            "Pure arm squeeze, no body",
+            "One explosive yank on the neck"
           ],
           "trap": [
-            "Loosen grip to reposition arms"
+            "Turn belly-down to crank harder"
           ]
         }
       },
@@ -396,7 +396,7 @@
             "Only works on smaller opponents"
           ],
           "trap": [
-            "Best when you let them flatten you"
+            "Give up the underhook and get flat"
           ]
         }
       },
@@ -407,8 +407,8 @@
         "answer_line": "Extend legs, turn in harder",
         "distractors": {
           "plausible": [
-            "Let them stand and reset",
-            "Pull with arms only"
+            "Push their hips away for space",
+            "Wait for them to settle down"
           ],
           "trap": [
             "Release the hook to chase them"
@@ -423,10 +423,10 @@
         "distractors": {
           "plausible": [
             "Switch grips completely",
-            "Ignore hand, keep squeezing"
+            "Post your free hand on the mat"
           ],
           "trap": [
-            "Let go to hand-fight back"
+            "Release the choke to hand fight"
           ]
         }
       },
@@ -449,14 +449,14 @@
         "question": "In competition, what finishing strategies maximize success rate while maintaining safety awareness?",
         "answer": "In competition, commit fully to the position before attempting the finish—ensure the arm trap is secure and your angle is correct before applying significant pressure. Once committed, apply steady progressive pressure rather than explosive cranking. Watch for opponent's defense patterns and be prepared to transition if they successfully address one element of your control. Even in competition, maintain awareness that opponents may pass out rather than tap, so be prepared to release immediately if they go limp. Winning by submission is not worth causing serious injury.",
         "safety_critical": true,
-        "answer_line": "Lock trap/angle, steady pressure",
+        "answer_line": "Lock arm and angle, squeeze steady",
         "distractors": {
           "plausible": [
-            "Rush the finish immediately",
-            "Crank hard once committed"
+            "Sprint straight to the finish",
+            "Skip the angle, use raw strength"
           ],
           "trap": [
-            "Ignore taps, finish for the win"
+            "Release control to crank harder"
           ]
         }
       },
@@ -467,11 +467,11 @@
         "answer_line": "Shoulder wedged, no posture left",
         "distractors": {
           "plausible": [
-            "Opponent breathing easy",
-            "Legs still free to move"
+            "Their head still turns away",
+            "Their trapped arm slides free"
           ],
           "trap": [
-            "Crank harder just in case"
+            "Let go of the arm to crank neck"
           ]
         }
       },
@@ -497,11 +497,11 @@
         "answer_line": "Signals approaching unconsciousness",
         "distractors": {
           "plausible": [
-            "Just getting comfortable",
-            "Normal fatigue setting in"
+            "Their defense is finally relaxing",
+            "They are setting up an escape"
           ],
           "trap": [
-            "Squeeze harder, no need to check"
+            "Crank tighter until they tap"
           ]
         }
       },
@@ -516,7 +516,7 @@
             "Purely for balance control"
           ],
           "trap": [
-            "Skip the leg, use arm only"
+            "Open the legs to hunt a triangle"
           ]
         }
       },
@@ -527,8 +527,8 @@
         "answer_line": "Re-pin the wrist immediately",
         "distractors": {
           "plausible": [
-            "Let it go, hold half guard",
-            "Chase the choke regardless"
+            "Switch to the other side arm",
+            "Hold half guard and rest"
           ],
           "trap": [
             "Keep squeezing with one wall gone"
@@ -542,11 +542,11 @@
         "answer_line": "Loop sealed, hand at shin",
         "distractors": {
           "plausible": [
-            "As soon as arm is trapped",
-            "Once opponent stops moving"
+            "Once opponent stops moving",
+            "As soon as you turn to your side"
           ],
           "trap": [
-            "Squeeze before the loop closes"
+            "Squeeze early and lose the arm"
           ]
         }
       },
@@ -557,11 +557,11 @@
         "answer_line": "Open loop, drop knee instantly",
         "distractors": {
           "plausible": [
-            "Ease pressure gradually",
-            "Finish the squeeze first"
+            "Ease off pressure gradually",
+            "Keep head trapped, ask if OK"
           ],
           "trap": [
-            "Hold briefly to confirm tap"
+            "Squeeze once more before letting go"
           ]
         }
       },
@@ -572,11 +572,11 @@
         "answer_line": "Keeps loop using their pressure",
         "distractors": {
           "plausible": [
-            "Top position is always better",
-            "Only prevents them passing"
+            "Bottom is safer for your neck",
+            "Stops them from stacking you"
           ],
           "trap": [
-            "Come on top to finish faster"
+            "Scramble up and let them pass"
           ]
         }
       },
@@ -587,11 +587,11 @@
         "answer_line": "Shorten grip, knee to head",
         "distractors": {
           "plausible": [
-            "Add more body weight only",
-            "Switch to a different grip"
+            "Push their head away for room",
+            "Squeeze harder with arm only"
           ],
           "trap": [
-            "Loosen grip to reset angle"
+            "Open the frame to reset angle"
           ]
         }
       },
@@ -602,11 +602,11 @@
         "answer_line": "Seal loop fast, knee then bridge",
         "distractors": {
           "plausible": [
-            "Test pressure gradually first",
-            "Release trap to reset grip"
+            "Reset your grips before sealing",
+            "Bridge first, then find the loop"
           ],
           "trap": [
-            "Test partial pressure to gauge"
+            "Abandon the arm trap to squeeze"
           ]
         }
       }
@@ -766,11 +766,11 @@
         "answer_line": "Tap immediately, don't wait",
         "distractors": {
           "plausible": [
-            "Wait it out, it'll loosen",
-            "Try one big explosive escape"
+            "Grip fight the choking hand",
+            "Wait for the position to change"
           ],
           "trap": [
-            "Hold on and endure the pressure"
+            "Ride it out until it loosens"
           ]
         }
       },
@@ -781,11 +781,11 @@
         "answer_line": "Removes leg anchor, changes angle",
         "distractors": {
           "plausible": [
-            "Only slows the choke down",
-            "Makes little tactical difference"
+            "Breaks their collar grip",
+            "Traps their far arm underneath"
           ],
           "trap": [
-            "Stall in half guard instead"
+            "Drive head deeper to flatten them"
           ]
         }
       },
@@ -796,11 +796,11 @@
         "answer_line": "Loads weight, tightens the choke",
         "distractors": {
           "plausible": [
-            "Slightly reduces pressure",
-            "Neutral, doesn't matter much"
+            "Frees the trapped arm slowly",
+            "Breaks the knee-to-shin loop"
           ],
           "trap": [
-            "Pull back hard to escape"
+            "Yank the head out backward hard"
           ]
         }
       },
@@ -812,10 +812,10 @@
         "distractors": {
           "plausible": [
             "Just repositioning half guard",
-            "Preparing a sweep attempt"
+            "Framing to build up to a sweep"
           ],
           "trap": [
-            "Nothing to worry about yet"
+            "Drive crossface deeper to flatten"
           ]
         }
       },
@@ -826,11 +826,11 @@
         "answer_line": "Tap loud: voice, hand, and foot",
         "distractors": {
           "plausible": [
-            "Verbal tap only, stay still",
-            "Wait until pressure builds more"
+            "Wait for a free hand to tap",
+            "One light tap, then keep fighting"
           ],
           "trap": [
-            "Tough it out a bit longer"
+            "Stay silent and try to survive"
           ]
         }
       },
@@ -841,11 +841,11 @@
         "answer_line": "Collapses one wall of the choke",
         "distractors": {
           "plausible": [
-            "Frees grip to escape faster",
-            "Repositions for a sweep"
+            "Sets up a knee-slice pass",
+            "Breaks their knee-shin connection"
           ],
           "trap": [
-            "Drive forward to create space"
+            "Bury the crossface arm deeper"
           ]
         }
       },
@@ -853,14 +853,14 @@
         "question": "Why is driving harder into the pressure a mistake when caught in a forming Buggy Choke?",
         "answer": "Driving forward feeds your head and shoulder deeper into the closing loop and tightens the carotid compression, because the choke uses your own forward passing pressure against you. Instead you must extract the trapped arm and posture out backward, denying the choke the compression engine it depends on.",
         "safety_critical": true,
-        "answer_line": "Extract arm, posture backward",
+        "answer_line": "Feeds head into the closing loop",
         "distractors": {
           "plausible": [
-            "Push through, break the grip",
-            "Wait for pressure to fade"
+            "Loosens the leg entanglement",
+            "Wastes energy without changing it"
           ],
           "trap": [
-            "Drive forward to escape faster"
+            "Drop weight and push through"
           ]
         }
       },
@@ -871,11 +871,11 @@
         "answer_line": "Posture out or tap now",
         "distractors": {
           "plausible": [
-            "Wait for them to fatigue",
-            "Try one big explosive roll"
+            "Peel the sealed grip apart",
+            "Bridge and wait for space"
           ],
           "trap": [
-            "Keep fighting the grip calmly"
+            "Hold on until you feel it fade"
           ]
         }
       }

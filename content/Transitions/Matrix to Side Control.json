@@ -334,14 +334,14 @@
       {
         "question": "If the opponent turtles during your consolidation attempt rather than being flattened, how does your approach change?",
         "answer": "A turtled opponent requires a different pathway to side control. Rather than continuing the flattening pressure against their turtle structure, transition to a spiral ride or use crossface pressure to break them down flat from turtle. Alternatively, you can chain to a front headlock attack, snap-down, or clock choke that exploits their turtle posture. The key is recognizing that turtle requires different mechanics than the standard Matrix-to-side-control flattening sequence.",
-        "answer_line": "Switch to turtle attacks",
+        "answer_line": "Switch to front headlock attacks",
         "distractors": {
           "plausible": [
-            "Keep flattening pressure same",
-            "Wait for them to flatten out"
+            "Keep driving flattening pressure",
+            "Stall until they flatten out"
           ],
           "trap": [
-            "Dive for a leg lace immediately"
+            "Sit back to a leg entanglement"
           ]
         }
       }

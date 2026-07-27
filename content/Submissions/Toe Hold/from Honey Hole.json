@@ -330,11 +330,11 @@
         "answer_line": "Heel hidden, toes/ball exposed",
         "distractors": {
           "plausible": [
-            "Opponent's foot fully controlled",
-            "Any moment mid-scramble works"
+            "During a clean heel-hook finish",
+            "The instant you enter the tangle"
           ],
           "trap": [
-            "Wait for full leg extension"
+            "Wait until they boot the foot free"
           ]
         }
       },
@@ -360,11 +360,11 @@
         "answer_line": "Grip locked, hip pinned, torque on",
         "distractors": {
           "plausible": [
-            "Figure-four grip locked only",
-            "Leg triangle set, no torque yet"
+            "Grip locked, hips still free",
+            "Triangle set, no torque yet"
           ],
           "trap": [
-            "Opponent stops resisting verbally"
+            "Ease off once they go limp"
           ]
         }
       },
@@ -375,11 +375,11 @@
         "answer_line": "Applying rotation too fast",
         "distractors": {
           "plausible": [
-            "Not locking the grip tight enough",
-            "Releasing leg triangle too early"
+            "Grip not locked tight enough",
+            "Releasing the triangle too soon"
           ],
           "trap": [
-            "Cranking hard like a heel hook"
+            "Letting go to reset the grip"
           ]
         }
       },
@@ -405,11 +405,11 @@
         "answer_line": "Pry with forearm, grip higher",
         "distractors": {
           "plausible": [
-            "Pull the toes back explosively",
-            "Switch hands, regrip fully"
+            "Switch hands, then regrip fully",
+            "Twist the ankle sideways instead"
           ],
           "trap": [
-            "Yank toes back hard and fast"
+            "Let go to chase the heel hook"
           ]
         }
       },
@@ -420,8 +420,8 @@
         "answer_line": "Slow 5-7 sec, grip whole foot",
         "distractors": {
           "plausible": [
-            "Tap fast, release immediately",
-            "Grip big toe only, go slow"
+            "Grip big toe only, go slow",
+            "Release fast the moment they tap"
           ],
           "trap": [
             "Snap it quick like a heel hook"
@@ -586,7 +586,7 @@
         "distractors": {
           "plausible": [
             "Tap only if sharp pain hits",
-            "Wait to see if you can escape"
+            "Tap once you hear a pop"
           ],
           "trap": [
             "Try to power out first"
@@ -600,7 +600,7 @@
         "answer_line": "Rotate hips into 50-50",
         "distractors": {
           "plausible": [
-            "Curl toes and flex foot only",
+            "Grip fight their figure-four hands",
             "Pull your knee to your chest"
           ],
           "trap": [

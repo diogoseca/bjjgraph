@@ -303,11 +303,11 @@
         "answer_line": "Attacks from above the chin tuck",
         "distractors": {
           "plausible": [
-            "Pull the chin down harder",
-            "Abandon it for a rear choke"
+            "Relies on leg squeeze for pressure",
+            "Crushes the windpipe with the wrist"
           ],
           "trap": [
-            "Push forearm through the chin"
+            "Sit up to dig under the chin"
           ]
         }
       },
@@ -318,11 +318,11 @@
         "answer_line": "Elbow above shoulder, hips locked",
         "distractors": {
           "plausible": [
-            "Opponent goes completely still",
-            "You've held the grip 10 seconds"
+            "You have switched to a gable grip",
+            "You have squeezed for ten seconds"
           ],
           "trap": [
-            "They stop framing, so ease off"
+            "Open your legs to squeeze harder"
           ]
         }
       },
@@ -352,7 +352,7 @@
             "Release the arm, keep the hooks in"
           ],
           "trap": [
-            "Reapply briefly if they seem fine"
+            "Hold on until they go limp"
           ]
         }
       },
@@ -363,11 +363,11 @@
         "answer_line": "Tighten legs, accelerate elbow up",
         "distractors": {
           "plausible": [
-            "Loosen grip to reset the angle",
-            "Switch to a different choke now"
+            "Post your free hand on the mat",
+            "Wait for their hips to settle"
           ],
           "trap": [
-            "Let them posture, re-attack after"
+            "Open your legs to chase the grip"
           ]
         }
       },
@@ -379,10 +379,10 @@
         "distractors": {
           "plausible": [
             "Squeeze harder with the forearm",
-            "Reset to a completely fresh grip"
+            "Flatten your hips to the mat"
           ],
           "trap": [
-            "Loosen briefly then regrip tighter"
+            "Release the grip to re-thread it"
           ]
         }
       },
@@ -408,11 +408,11 @@
         "answer_line": "Tire them with Hindulotine first",
         "distractors": {
           "plausible": [
-            "Go straight for the high elbow",
-            "Rush the finish the instant grip"
+            "Attack the high elbow immediately",
+            "Hold position to run the clock"
           ],
           "trap": [
-            "Release grip briefly to bait them"
+            "Release the grip to bait a scramble"
           ]
         }
       },
@@ -423,11 +423,11 @@
         "answer_line": "Posture, Von Flue, pass, or frame",
         "distractors": {
           "plausible": [
-            "Only posture recovery is likely",
-            "Tapping out is their only option"
+            "Chin tuck and hand fighting only",
+            "Bridging out the back door"
           ],
           "trap": [
-            "Keep squeezing through Von Flue"
+            "Ignore their shoulder pressure"
           ]
         }
       }
@@ -568,8 +568,8 @@
         "answer_line": "Tap early, hand and voice together",
         "distractors": {
           "plausible": [
-            "Tap once softly to test first",
-            "Wait to see if you can escape"
+            "Tap softly once to test it",
+            "Tap the mat instead of their body"
           ],
           "trap": [
             "Try to escape before tapping out"
@@ -580,14 +580,14 @@
         "question": "What defensive options are available against the High Elbow Guillotine from Hindulotine at different stages?",
         "answer": "Early stage (elbow not yet elevated): posture recovery is highest percentage—drive your head up and post on your hands. Mid stage (elbow transitioning): near-side arm frame to break the seal while working head extraction. Late stage (elbow fully elevated): Von Flue shoulder drive or guard pass are your remaining options. Once full compression with hip rotation is locked in, your only safe option is to tap immediately. The defensive window narrows rapidly as the elbow rises.",
         "safety_critical": false,
-        "answer_line": "Posture up early, before elbow rises",
+        "answer_line": "Posture early, Von Flue when late",
         "distractors": {
           "plausible": [
-            "Frame the arm before posturing up",
-            "Von Flue drive from the start"
+            "One escape works at every stage",
+            "Wait for them to tire, then move"
           ],
           "trap": [
-            "Turn your back to slip out"
+            "Turn away from the choking arm"
           ]
         }
       },

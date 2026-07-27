@@ -244,14 +244,14 @@
       {
         "question": "Why is keeping your trapped knee bent critical during hip rotation?",
         "answer": "A bent knee maintains structural protection for your ankle joint by shortening the lever arm the attacker can apply pressure through. It preserves your ability to extract the knee toward your chest as part of the escape sequence. Full leg extension maximizes attacker leverage, increases injury risk, and eliminates extraction as an escape option.",
-        "answer_line": "Shortens lever, protects ankle",
+        "answer_line": "Shortens lever, saves the ankle",
         "distractors": {
           "plausible": [
-            "Keeps hip mobile for rotation",
-            "Makes leg harder to grip"
+            "Adds hip speed to the rotation",
+            "Frees your free leg to post"
           ],
           "trap": [
-            "Extend leg for more power"
+            "Straighten leg and rip it out"
           ]
         }
       },

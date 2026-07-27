@@ -242,11 +242,11 @@
         "answer_line": "Inside hook, backward hip tension",
         "distractors": {
           "plausible": [
-            "Outside leg, blocks their hip",
-            "Inside leg, controls their arm"
+            "Outside leg, pins their knee",
+            "Far hook, controls their shoulder"
           ],
           "trap": [
-            "Release inside hook to reposition"
+            "Drop the hook to switch faster"
           ]
         }
       },
@@ -256,11 +256,11 @@
         "answer_line": "Tighten grip, revert to Ushiro",
         "distractors": {
           "plausible": [
-            "Push through to complete Cross Ashi",
-            "Release and re-shoot the entry"
+            "Push through the switch anyway",
+            "Sit back for a straight ankle lock"
           ],
           "trap": [
-            "Let go, chase a different leg"
+            "Let go and chase the other leg"
           ]
         }
       },
@@ -270,11 +270,11 @@
         "answer_line": "One hand on heel at all times",
         "distractors": {
           "plausible": [
-            "Two hands always, no exceptions",
-            "Grip pant leg, not the heel"
+            "Grip the pant cuff instead",
+            "Switch to a knee grip mid-move"
           ],
           "trap": [
-            "Release both hands to balance"
+            "Post both hands to stay balanced"
           ]
         }
       },
@@ -283,11 +283,11 @@
         "answer": "Cross Ashi is better when the opponent's hip rotates toward you, their inversion stalls, or their heel is best accessed from a perpendicular angle. Hip rotation toward you reduces Ushiro heel hook leverage, and a stalled inversion means they are attempting to recover rather than continue rotating. Ushiro remains better when the opponent is actively inverting or when the reversed angle provides direct heel access.",
         "distractors": {
           "plausible": [
-            "Opponent actively inverting away",
-            "Opponent flattens on their back"
+            "Opponent inverts hard away",
+            "They flatten onto their back"
           ],
           "trap": [
-            "Switch whenever grip feels tired"
+            "Drop heel control to test angle"
           ]
         },
         "answer_line": "Hip turns in, inversion stalls"
@@ -309,14 +309,14 @@
       {
         "question": "Your opponent turns into the transition to counter-attack your legs - what is your immediate response?",
         "answer": "Use your inside hook to block their hip rotation and prevent them from squaring up to your body. If they achieve significant angle toward your legs, address their counter-entanglement threat before continuing the transition. This may mean entering 50-50 to neutralize, completing a fast switch to Cross Ashi to attack first, or returning to Ushiro and choosing a different attack path.",
-        "answer_line": "Inside hook blocks their hips",
+        "answer_line": "Inside hook blocks their hip turn",
         "distractors": {
           "plausible": [
-            "Speed up to finish cross first",
-            "Switch grips to outside leg"
+            "Kick free and disengage",
+            "Cross your feet and sit back"
           ],
           "trap": [
-            "Release hook, sprawl backward"
+            "Let go of the hook and sprawl"
           ]
         }
       },
@@ -340,11 +340,11 @@
         "answer_line": "Cross at mid-shin to ankle",
         "distractors": {
           "plausible": [
-            "Cross high on the thigh",
-            "Cross at the knee joint"
+            "Cross at the knee joint",
+            "Cross over their hip crease"
           ],
           "trap": [
-            "Cross above the hip for control"
+            "Cross high, heel slips free"
           ]
         }
       },
@@ -501,11 +501,11 @@
         "answer_line": "Dorsiflex foot, toes to shin",
         "distractors": {
           "plausible": [
-            "Point toes to slip the grip",
-            "Relax foot between exchanges"
+            "Relax the foot between exchanges",
+            "Rotate the ankle side to side"
           ],
           "trap": [
-            "Point toes to create space"
+            "Point the toes, expose the heel"
           ]
         }
       },
@@ -530,10 +530,10 @@
         "distractors": {
           "plausible": [
             "Removes all submission risk",
-            "Only works from bottom position"
+            "Frees the trapped foot instantly"
           ],
           "trap": [
-            "Rotate hips into the attacker"
+            "Turn hips in, feed them the heel"
           ]
         }
       },
@@ -543,11 +543,11 @@
         "answer_line": "Bend knee, sit up, hand fight",
         "distractors": {
           "plausible": [
-            "Repeat the same escape attempt",
-            "Go limp and wait for opening"
+            "Repeat the same failed escape",
+            "Push their head away first"
           ],
           "trap": [
-            "Straighten leg to create space"
+            "Straighten the leg for space"
           ]
         }
       }

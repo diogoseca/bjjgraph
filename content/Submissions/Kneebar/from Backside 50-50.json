@@ -373,8 +373,8 @@
         "answer_line": "Knee has near-zero injury buffer",
         "distractors": {
           "plausible": [
-            "Builds better muscle memory",
-            "Explosive finish saves time"
+            "Slow finishes look more skilled",
+            "It conserves your grip strength"
           ],
           "trap": [
             "Snap it fast before they escape"
@@ -403,8 +403,8 @@
         "answer_line": "Stop, reinforce grip, kill rotation",
         "distractors": {
           "plausible": [
-            "Push through the rotation fast",
-            "Switch to a straight ankle lock"
+            "Switch to a straight ankle lock",
+            "Let go and reset the entry"
           ],
           "trap": [
             "Crank harder to stop the spin"
@@ -433,7 +433,7 @@
         "answer_line": "Push harder, tighten, scoot back",
         "distractors": {
           "plausible": [
-            "Release frame, grab a new grip",
+            "Sit up to chase a heel hook",
             "Let them posture, reset position"
           ],
           "trap": [
@@ -583,8 +583,8 @@
         "answer_line": "Injury window is under one second",
         "distractors": {
           "plausible": [
-            "Wait to feel real sharp pain",
-            "Try one fast escape attempt"
+            "Sharp pain warns you in time",
+            "Ligaments stretch before tearing"
           ],
           "trap": [
             "Explosively spin out immediately"
@@ -613,8 +613,8 @@
         "answer_line": "Closing distance kills the lever",
         "distractors": {
           "plausible": [
-            "Pulling away creates more space",
-            "Rolling out breaks their grip"
+            "Rolling out breaks their grip",
+            "Framing their hip stops the finish"
           ],
           "trap": [
             "Pull back hard to rip free"
@@ -643,8 +643,8 @@
         "answer_line": "Rotation loads the ACL too",
         "distractors": {
           "plausible": [
-            "It builds speed to escape",
-            "It confuses their grip"
+            "It tears the meniscus cartilage",
+            "It pops the kneecap loose"
           ],
           "trap": [
             "Twist hard and spin free"

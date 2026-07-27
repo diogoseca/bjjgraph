@@ -310,11 +310,11 @@
         "answer_line": "Both carotids via wrist + bicep",
         "distractors": {
           "plausible": [
-            "Windpipe compression cuts air",
-            "Only one carotid artery"
+            "Only one carotid at a time",
+            "The windpipe to cut off air"
           ],
           "trap": [
-            "Center forearm on trachea"
+            "Crank the cervical spine"
           ]
         }
       },
@@ -325,11 +325,11 @@
         "answer_line": "Peel pinky, or swim underhook",
         "distractors": {
           "plausible": [
-            "Yank the arm straight back",
-            "Pull with choking arm only"
+            "Yank the wrist straight back",
+            "Muscle it with the choking arm"
           ],
           "trap": [
-            "Release grip, re-shoot for arm"
+            "Sit up and abandon the back"
           ]
         }
       },
@@ -340,11 +340,11 @@
         "answer_line": "Wrist blade + crook under chin",
         "distractors": {
           "plausible": [
-            "Forearm flat against throat",
-            "Bicep centered on trachea"
+            "Elbow high up on the jawline",
+            "Squeeze mainly with the shoulder"
           ],
           "trap": [
-            "Press bone into windpipe"
+            "Bar the bone on the windpipe"
           ]
         }
       },
@@ -355,11 +355,11 @@
         "answer_line": "Tilt head back, or ramp via jaw",
         "distractors": {
           "plausible": [
-            "Pry chin down harder",
-            "Push chin sideways to open"
+            "Pry the tucked chin downward",
+            "Pull the choke arm in deeper"
           ],
           "trap": [
-            "Crank neck sideways to open"
+            "Crank the neck to wrench it free"
           ]
         }
       },
@@ -400,8 +400,8 @@
         "answer_line": "Squeeze slow, 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Slow build over 10 seconds",
-            "Moderate speed, no rush needed"
+            "Grip depth matters, not speed",
+            "Steady moderate-speed squeeze"
           ],
           "trap": [
             "Snap it tight instantly"

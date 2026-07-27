@@ -287,14 +287,14 @@
         "question": "What anatomical structures does the Kimura from Knee on Belly primarily attack?",
         "answer": "The Kimura attacks the shoulder joint complex, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, and the shoulder capsule. The forced internal rotation past the anatomical barrier creates torsional stress on these structures. Secondary stress affects the labrum and bicep tendon. The mechanism of injury is forced internal rotation beyond the shoulder's normal range of motion.",
         "safety_critical": true,
-        "answer_line": "Shoulder joint, rotator cuff",
+        "answer_line": "Shoulder capsule and rotator cuff",
         "distractors": {
           "plausible": [
-            "Elbow, like an armbar",
+            "Elbow hinge, like an armbar",
             "Wrist and hand joints"
           ],
           "trap": [
-            "Neck via choke pressure"
+            "Just muscle — safe to crank"
           ]
         }
       },
@@ -305,11 +305,11 @@
         "answer_line": "Weight drives down, not out",
         "distractors": {
           "plausible": [
-            "More surface area pins arm",
-            "Base is wider, more stable"
+            "Wider base than side control",
+            "Larger chest-to-chest contact"
           ],
           "trap": [
-            "Free arm to punch and pass"
+            "Sit back, abandon knee pressure"
           ]
         }
       },
@@ -317,14 +317,14 @@
         "question": "Your opponent grabs their own belt to anchor their arm against the Kimura — what are your options?",
         "answer": "Three primary responses exist. First, peel the grip by driving your knee across their forearm, using skeletal pressure to break their fingers' grip on the belt. Second, maintain the figure-four and step off to north-south where the angle change weakens their grip anchor. Third, redirect the attack to an Americana by reversing the rotational direction, which the belt grip does not defend against. The worst response is to fight the grip directly with arm strength.",
         "safety_critical": false,
-        "answer_line": "Knee across forearm to peel",
+        "answer_line": "Drive knee across to peel grip",
         "distractors": {
           "plausible": [
-            "Step off to north-south",
-            "Redirect to an Americana"
+            "Wait for their grip to tire",
+            "Switch to a wristlock"
           ],
           "trap": [
-            "Pull grip with arm strength"
+            "Release the knee to reposition"
           ]
         }
       },
@@ -336,7 +336,7 @@
         "distractors": {
           "plausible": [
             "Opponent grimaces visibly",
-            "Shoulder rotates fully"
+            "When they stop resisting"
           ],
           "trap": [
             "Wait for an audible pop"
@@ -347,14 +347,14 @@
         "question": "Why is elbow control the most critical element of the Kimura finish?",
         "answer": "The elbow must be pinned to the opponent's torso or the mat because it serves as the fulcrum of the rotational lever. Without elbow control, the opponent can straighten their arm and extract it from the figure-four, or raise their elbow to reduce the effective lever length. Pinning the elbow also prevents the opponent from rolling their shoulder forward to relieve rotational pressure. The kimura fails more often from lost elbow control than from any other single technical error.",
         "safety_critical": false,
-        "answer_line": "Elbow is the lever fulcrum",
+        "answer_line": "Elbow is the rotation fulcrum",
         "distractors": {
           "plausible": [
-            "Wrist grip is what matters",
-            "Hip pressure holds it down"
+            "Stops them from tapping late",
+            "Keeps your base from tipping"
           ],
           "trap": [
-            "Let the elbow float free"
+            "Pull the arm away from the body"
           ]
         }
       },
@@ -362,14 +362,14 @@
         "question": "Your opponent straightens their arm as you attempt to secure the figure-four — how do you adapt?",
         "answer": "A straightened arm is an armbar opportunity, not a failed kimura. Immediately transition by swinging your far leg over their extended arm and sitting back for an armbar finish. If the armbar angle is not available, use your body weight to re-bend their arm by driving their wrist toward their ear while threading the figure-four. The opponent's defense to one submission should open another — straightening against the kimura exposes the armbar.",
         "safety_critical": false,
-        "answer_line": "Swing leg over for armbar",
+        "answer_line": "Swing leg over for the armbar",
         "distractors": {
           "plausible": [
-            "Force the figure-four grip",
-            "Reset back to knee on belly"
+            "Muscle the arm back into a bend",
+            "Switch to a collar choke"
           ],
           "trap": [
-            "Grip fight for the wrist"
+            "Chase the arm, lose knee pressure"
           ]
         }
       },
@@ -380,7 +380,7 @@
         "answer_line": "Reverse slowly, then release",
         "distractors": {
           "plausible": [
-            "Drop grip, let arm spring back",
+            "Ask if they tapped, keep grip",
             "Hold lock till they nod"
           ],
           "trap": [
@@ -399,7 +399,7 @@
             "Elbows flared out wide"
           ],
           "trap": [
-            "Lift straight up, no rotation"
+            "Yank fast, let the elbow escape"
           ]
         }
       },
@@ -425,11 +425,11 @@
         "answer_line": "Lateral arc toward their feet",
         "distractors": {
           "plausible": [
-            "Lift the arm straight up",
-            "Rotate arm across chest"
+            "Rotate the arm toward their head",
+            "Push the hand across their chest"
           ],
           "trap": [
-            "Abduct arm up and back"
+            "Wrench the arm up off their side"
           ]
         }
       }
@@ -554,14 +554,14 @@
         "question": "What is the earliest recognition cue that a Kimura from KOB is being set up?",
         "answer": "The earliest cue is the attacker releasing their far-side pants or belt grip while maintaining KOB pressure. This frees their hand for the wrist capture. Additional cues include the attacker's eyes shifting toward your far arm and increased knee pressure designed to provoke a pushing reaction. Recognizing the setup before the grip is captured is the highest-percentage defense because prevention is far easier than escape.",
         "safety_critical": false,
-        "answer_line": "They release far-side grip",
+        "answer_line": "They release the far-side grip",
         "distractors": {
           "plausible": [
-            "Increased knee pressure only",
-            "They shift their hips wide"
+            "They flatten chest onto you",
+            "They switch to scarf hold"
           ],
           "trap": [
-            "Wait until wrist is grabbed"
+            "Wait until your wrist is caught"
           ]
         }
       },
@@ -584,14 +584,14 @@
         "question": "Why is pushing the knee with extended arms the worst defensive response to KOB pressure?",
         "answer": "Extended arms are the exact target the attacker needs for the kimura. Pushing against the knee with hands exposes the far arm for figure-four capture and creates a straight-line path for the attacker's grip. This response also wastes energy without creating escape angles because it fights pressure vertically rather than creating lateral hip movement. The correct response is to frame with elbows tight while shrimping.",
         "safety_critical": false,
-        "answer_line": "Extends arm right into grip",
+        "answer_line": "Extends arm right into the grip",
         "distractors": {
           "plausible": [
-            "Only wastes energy, no risk",
-            "Slows pass without danger"
+            "It tires your shoulders out",
+            "It telegraphs your hip escape"
           ],
           "trap": [
-            "Creates space to escape"
+            "Push harder to make space"
           ]
         }
       },

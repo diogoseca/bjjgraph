@@ -314,8 +314,8 @@
         "answer_line": "3-5 sec of progressive pressure",
         "distractors": {
           "plausible": [
-            "1-2 sec, then release fast",
-            "Apply slowly over 10+ seconds"
+            "Under one second is enough",
+            "Timing doesn't matter, angle does"
           ],
           "trap": [
             "Snap it fast before they brace"
@@ -329,11 +329,11 @@
         "answer_line": "Elbow hyperextension via hip fulcrum",
         "distractors": {
           "plausible": [
-            "Shoulder rotation, not elbow",
-            "Wrist joint under torque"
+            "Shoulder rotation like a kimura",
+            "Biceps compression pain"
           ],
           "trap": [
-            "Twist the forearm to break it"
+            "Jerk it fast to beat their grip"
           ]
         }
       },
@@ -344,11 +344,11 @@
         "answer_line": "Thumb points up toward ceiling",
         "distractors": {
           "plausible": [
-            "Thumb points down and in",
-            "Thumb sideways, palm out"
+            "Point it down toward their hip",
+            "Rotate palm flat and sideways"
           ],
           "trap": [
-            "Thumb direction doesn't matter"
+            "Crank hard before they can tap"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "answer_line": "Angle away, leg across face",
         "distractors": {
           "plausible": [
-            "Pull harder to finish fast",
-            "Sit back and reset guard"
+            "Pull the arm straight harder",
+            "Flatten your back and hold on"
           ],
           "trap": [
-            "Let go and repost to stand"
+            "Cross your ankles and squeeze"
           ]
         }
       },
@@ -389,11 +389,11 @@
         "answer_line": "Stop, lower hips, open legs",
         "distractors": {
           "plausible": [
-            "Hold pressure, ask if okay",
-            "Release grip, stay mounted"
+            "Release grip and stand up",
+            "Slide out fast and reset"
           ],
           "trap": [
-            "Let go suddenly, jump back"
+            "Keep extending after the tap"
           ]
         }
       },
@@ -404,11 +404,11 @@
         "answer_line": "Chest pressure, then isolate",
         "distractors": {
           "plausible": [
-            "Pull the wrist repeatedly",
-            "Strip grip with pure force"
+            "Rip both hands on their wrist",
+            "Sit back and pull with the arms"
           ],
           "trap": [
-            "Yank arm straight, ignore grip"
+            "Let go of leg control to pry"
           ]
         }
       },
@@ -434,11 +434,11 @@
         "answer_line": "Hips tight, arm extended, thumb up",
         "distractors": {
           "plausible": [
-            "Knees pinched but hips loose",
-            "Arm bent, wrist controlled"
+            "The instant you swing the leg over",
+            "Arm bent with both wrists gripped"
           ],
           "trap": [
-            "Keep cranking past the tap"
+            "Sit up mid-finish to adjust grip"
           ]
         }
       },
@@ -450,10 +450,10 @@
         "distractors": {
           "plausible": [
             "Parallel alignment, hips low",
-            "Facing same direction, chest down"
+            "Chest down, facing same way"
           ],
           "trap": [
-            "Stack straight on top of chest"
+            "Square up and lean back hard"
           ]
         }
       },
@@ -465,7 +465,7 @@
         "distractors": {
           "plausible": [
             "Switch to a one-hand grip",
-            "Let wrist rotate freely"
+            "Squeeze knees and wait it out"
           ],
           "trap": [
             "Release wrist to chase tricep"
@@ -479,11 +479,11 @@
         "answer_line": "Leg over face, knees pinched",
         "distractors": {
           "plausible": [
-            "One knee up, legs relaxed",
-            "Legs free to control hips"
+            "Both feet flat on the mat",
+            "Squeeze thighs, head uncovered"
           ],
           "trap": [
-            "Release leg to swap the angle"
+            "Open the knees to adjust height"
           ]
         }
       }
@@ -620,10 +620,10 @@
         "distractors": {
           "plausible": [
             "Push their head away first",
-            "Grab their far-side collar"
+            "Reach for their far collar"
           ],
           "trap": [
-            "Let wrist go, post on ground"
+            "Post that arm flat on the mat"
           ]
         }
       },
@@ -634,11 +634,11 @@
         "answer_line": "Turn into attacker, deny angle",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Stay flat and bridge hard"
+            "Stay flat and bridge hard",
+            "Push their shin off your face"
           ],
           "trap": [
-            "Turn away toward the leg"
+            "Roll away from the pressure"
           ]
         }
       },
@@ -664,8 +664,8 @@
         "answer_line": "Tap immediately, don't fight it",
         "distractors": {
           "plausible": [
-            "Try one last escape attempt",
-            "Wait to see if pressure stops"
+            "Tap only once real pain starts",
+            "Clasp hands and wait it out"
           ],
           "trap": [
             "Power through and posture up"
@@ -676,14 +676,14 @@
         "question": "Your arm is isolated but the attacker has not yet stepped over your head - what specific actions can prevent the submission from progressing?",
         "answer": "With the arm isolated but the leg not yet over your head, you have multiple options: grip fight aggressively to recover your arm to your body by bending the elbow and pulling it across your chest; bridge toward the attacker to disrupt their base before they can lift their leg; begin turning your hips toward the attacker to deny the perpendicular angle; or grab the attacker's leg as it begins to lift to physically prevent the step-over. This is the golden window for defense—exploit it aggressively.",
         "safety_critical": false,
-        "answer_line": "Grip fight, bridge, deny angle",
+        "answer_line": "Grip fight, bridge, deny the angle",
         "distractors": {
           "plausible": [
-            "Wait for the step-over first",
-            "Push their hip to create space"
+            "Frame on their knee and stall",
+            "Reach across for their far lapel"
           ],
           "trap": [
-            "Pull your arm straight back"
+            "Straighten the arm and yank back"
           ]
         }
       }

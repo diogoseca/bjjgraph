@@ -253,14 +253,14 @@
       {
         "question": "What is the optimal timing window for initiating the Estima Lock Counter Roll?",
         "answer": "The optimal window exists during the grip consolidation phase—after the opponent has established the inverted foot control but before they apply full rotational pressure through their hips. This window typically lasts two to four seconds. If you can still counter-rotate your ankle without sharp pain, the window remains open. Once hip pressure pins your calf and rotational force reaches near-tap levels, the window has closed and attempting the roll risks serious injury to the ankle joint.",
-        "answer_line": "Grip lock, before hip pressure",
+        "answer_line": "Early, while they consolidate grip",
         "distractors": {
           "plausible": [
-            "Once forearm blade fully locked",
-            "After hips rotate fully"
+            "After full rotational pressure lands",
+            "Once the foot is blade-locked tight"
           ],
           "trap": [
-            "Wait for near-tap pressure"
+            "Wait until pain nears tap level"
           ]
         }
       },
@@ -281,14 +281,14 @@
       {
         "question": "Your opponent increases hip pressure the moment you begin posting your free leg—how do you adjust your escape strategy?",
         "answer": "Increased hip pressure when you begin posting signals the opponent has recognized your counter roll setup. Rather than forcing the roll against heavy hip pressure, redirect the free leg post into a conventional defensive frame—push their hips away to create space for leg extraction or angle change escape instead. The counter roll requires sufficient space for rotation, and fighting through consolidated hip pressure dramatically increases ankle injury risk. Use the posting motion as a transition to conventional defense.",
-        "answer_line": "Redirect to hip-push frame defense",
+        "answer_line": "Frame on hips, make space first",
         "distractors": {
           "plausible": [
-            "Extend leg to break the grip",
-            "Switch to toe hold escape"
+            "Rip the trapped foot straight out",
+            "Invert and chase a leg lock back"
           ],
           "trap": [
-            "Force the roll through pressure"
+            "Muscle the roll into the pressure"
           ]
         }
       },
@@ -351,14 +351,14 @@
       {
         "question": "What physical cues in your ankle tell you the counter roll window has closed and you should tap instead?",
         "answer": "The window has closed when you experience sharp localized pain in the ankle joint or Achilles tendon rather than general pressure, when attempting to counter-rotate produces immediate pain escalation, when you feel the opponent's forearm blade fully locked across the top of your foot with no slack remaining, and when their hip pressure completely pins your calf eliminating the space required for body rotation. Any combination of these signals means the lock is at submission depth and the roll would risk structural injury.",
-        "answer_line": "Sharp pain, forearm locked, no slack",
+        "answer_line": "Pinpoint pain and no slack left",
         "distractors": {
           "plausible": [
-            "General building pressure, no pain",
-            "Opponent grip tightens slightly"
+            "Steady squeeze that stays dull",
+            "Grip tightens but foot still moves"
           ],
           "trap": [
-            "Mild discomfort, window still open"
+            "Fight on through ankle pain"
           ]
         }
       },
@@ -541,14 +541,14 @@
       {
         "question": "Why is it strategically important to apply decisive finishing pressure rather than holding the Estima Lock at moderate tension?",
         "answer": "Moderate holding tension creates an extended window where the bottom player can assess their situation, identify the counter roll opportunity, and methodically position their body for the escape. Decisive finishing pressure forces an immediate tap or creates urgency that prevents the deliberate setup the counter roll requires. The counter roll specifically exploits the gap between grip consolidation and submission completion—closing that gap through aggressive finishing removes the technique from the bottom player's available escape options entirely.",
-        "answer_line": "Closes the counter roll's timing gap",
+        "answer_line": "Denies the escape its setup time",
         "distractors": {
           "plausible": [
-            "Conserves energy for later rounds",
-            "Signals dominance to opponent"
+            "Saves your grip strength for later",
+            "Keeps your base safe from sweeps"
           ],
           "trap": [
-            "Hold moderate tension, wait it out"
+            "Hold light tension and stall"
           ]
         }
       },

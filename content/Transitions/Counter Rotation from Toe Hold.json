@@ -264,25 +264,25 @@
         "answer_line": "Rotate same way as your foot",
         "distractors": {
           "plausible": [
-            "Pull straight out of the hold",
-            "React the instant pressure hits"
+            "Pull the heel straight out",
+            "Flatten the foot to kill torque"
           ],
           "trap": [
-            "Rotate the opposite direction"
+            "Spin your body against the twist"
           ]
         }
       },
       {
         "question": "Your opponent has a deep toe hold grip and begins applying moderate rotational pressure - what determines whether you should attempt counter rotation or tap?",
         "answer": "The determining factor is whether the submission has reached maximum locked torque. Counter rotation must be initiated before the toe hold is fully locked at peak pressure. If you feel the joint is at or near its rotational limit with significant pain and no room for movement, tap immediately. The technique requires anticipatory timing during the pressure build-up phase, not reactive movement through an already-locked submission.",
-        "answer_line": "Act before the lock peaks",
+        "answer_line": "Counter before the lock maxes out",
         "distractors": {
           "plausible": [
-            "Wait until pressure peaks first",
-            "Go once the grip feels deep"
+            "Judge it by how deep the grip is",
+            "Base it on your ankle flexibility"
           ],
           "trap": [
-            "Push through a fully locked hold"
+            "Ride out a fully locked toe hold"
           ]
         }
       },

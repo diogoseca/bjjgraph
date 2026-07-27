@@ -285,8 +285,8 @@
         "answer_line": "Push knee away, bridge higher",
         "distractors": {
           "plausible": [
-            "Squeeze your own knees tighter",
-            "Wait for opponent to relax grip"
+            "Wait for opponent to relax grip",
+            "Flatten your hips to the mat"
           ],
           "trap": [
             "Force rotation against locked knees"
@@ -443,7 +443,7 @@
             "Core endurance"
           ],
           "trap": [
-            "Speed of the rotation"
+            "Rip the arm free with strength"
           ]
         }
       },
@@ -467,11 +467,11 @@
         "answer_line": "Tap immediately",
         "distractors": {
           "plausible": [
-            "Push through the rotation faster",
-            "Reverse direction quickly"
+            "Pull elbow back and reclasp hands",
+            "Kick your leg over their face"
           ],
           "trap": [
-            "Finish the rotation regardless"
+            "Complete the rotation anyway"
           ]
         }
       },

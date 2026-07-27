@@ -248,14 +248,14 @@
       {
         "question": "Why is establishing upper body control (underhook or grips) critical before transitioning hooks?",
         "answer": "Upper body control prevents opponent from creating distance or backing away during the vulnerable moment when you're reconfiguring your hooks. Without this connection, opponent can simply step back as you release the DLR hook, causing complete loss of guard position. The underhook specifically pulls them into your elevation structure.",
-        "answer_line": "Prevents opponent backing away",
+        "answer_line": "Stops them stepping away mid-swap",
         "distractors": {
           "plausible": [
-            "Improves overall grip strength",
-            "Makes hook insertion easier"
+            "Adds power to the final sweep",
+            "Tightens the DLR hook itself"
           ],
           "trap": [
-            "Lets you release hooks freely"
+            "Let go of grips while switching"
           ]
         }
       },
@@ -265,25 +265,25 @@
         "answer_line": "DLR pulls sideways, X lifts up",
         "distractors": {
           "plausible": [
-            "Both create pure vertical lift",
-            "DLR lifts, X-Guard pulls in"
+            "DLR lifts, X-Guard pulls in",
+            "Both produce pure vertical lift"
           ],
           "trap": [
-            "Hook function is identical"
+            "Sweep X-Guard sideways like DLR"
           ]
         }
       },
       {
         "question": "What is the correct sequence for hook transition from DLR to X-Guard?",
         "answer": "The bottom X-Guard hook (which will go behind opponent's knee) must be inserted simultaneously with or just before releasing the DLR hook. The DLR hook then converts to the top X-Guard hook across their hips. This coordination ensures no gap in control exists. Sequential transitions (releasing first, then establishing) create vulnerability windows.",
-        "answer_line": "Release DLR, then insert hook",
+        "answer_line": "Bottom hook in before DLR hook out",
         "distractors": {
           "plausible": [
-            "Release DLR hook first, then wait",
-            "Convert top hook first"
+            "Release DLR hook, then set X hooks",
+            "Top hook across hips goes in first"
           ],
           "trap": [
-            "Release both grips, then insert"
+            "Turn belly-down to feed the hook"
           ]
         }
       },
@@ -304,14 +304,14 @@
       {
         "question": "Why is hip positioning perpendicular to opponent's base line essential for effective X-Guard?",
         "answer": "Perpendicular hip alignment places your body's structure directly underneath opponent's center of mass, maximizing elevation leverage. Side-on positioning (like in DLR) doesn't provide the correct angle for vertical elevation sweeps. The perpendicular alignment allows your legs to extend straight up into their base while your hips create the fulcrum point.",
-        "answer_line": "Aligns hips under their base",
+        "answer_line": "Puts your frame under their base",
         "distractors": {
           "plausible": [
-            "Improves grip on collar",
-            "Same angle as DLR guard"
+            "Copies the side-on DLR angle",
+            "Locks their ankle in place"
           ],
           "trap": [
-            "Keep hips parallel like DLR"
+            "Flatten hips, let them step over"
           ]
         }
       },
@@ -322,10 +322,10 @@
         "distractors": {
           "plausible": [
             "Pause and reset your grips",
-            "Switch to attacking that arm"
+            "Attack the posted arm instead"
           ],
           "trap": [
-            "Retreat and reset DLR"
+            "Let go of hooks to grab the post"
           ]
         }
       },
@@ -335,11 +335,11 @@
         "answer_line": "Collar tie/wrist control no-gi",
         "distractors": {
           "plausible": [
-            "Double sleeve grip both rulesets",
-            "Only belt grip works no-gi"
+            "Sleeve grips still work no-gi",
+            "Hook mechanics differ by ruleset"
           ],
           "trap": [
-            "Skip underhook entirely no-gi"
+            "Skip the underhook in no-gi"
           ]
         }
       },
@@ -349,11 +349,11 @@
         "answer_line": "Attack legs, hands are occupied",
         "distractors": {
           "plausible": [
-            "Go for the far-side collar choke",
-            "Climb to mount immediately"
+            "Hunt a far-side collar choke",
+            "Climb straight to mount"
           ],
           "trap": [
-            "Release hooks and reset guard"
+            "Post up and stand, dumping hooks"
           ]
         }
       },
@@ -483,10 +483,10 @@
         "distractors": {
           "plausible": [
             "Their hips rotate underneath",
-            "They release grip for distance"
+            "Bottom hook slides behind knee"
           ],
           "trap": [
-            "They post a hand on the mat"
+            "Wait until you feel elevation"
           ]
         }
       },
@@ -496,11 +496,11 @@
         "answer_line": "Bottom hook is the fulcrum",
         "distractors": {
           "plausible": [
-            "Top hook controls the hips",
+            "Top hook drives sweep power",
             "DLR hook release is the key"
           ],
           "trap": [
-            "Defend the top hook only"
+            "Defend only the top hook"
           ]
         }
       },
@@ -538,11 +538,11 @@
         "answer_line": "Widen base, fight for crossface",
         "distractors": {
           "plausible": [
-            "Sprint back to standing",
-            "Strip both hooks aggressively"
+            "Strip both hooks aggressively",
+            "Sprint backward to standing"
           ],
           "trap": [
-            "Fight from X-Guard top anyway"
+            "Posture tall and drive forward"
           ]
         }
       }

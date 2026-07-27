@@ -345,14 +345,14 @@
       {
         "question": "Why must neck protection be maintained throughout the entire escape sequence rather than only at the beginning?",
         "answer": "The twister targets the cervical spine and can cause serious injury with very little warning before damage occurs. Even during active escape sequences, momentary exposure of the neck can allow the truck top player to reestablish the twister grip and lock the rotation before you can defend. Maintaining chin tuck and hand fighting near the neck throughout ensures that escape movements do not inadvertently create submission openings for the opponent.",
-        "answer_line": "Momentary exposure = twister risk",
+        "answer_line": "A split-second gap relocks the neck",
         "distractors": {
           "plausible": [
-            "Only matters at the start",
-            "Neck defense slows escape speed"
+            "Injury builds slowly with warning",
+            "Hand fighting alone stops the entry"
           ],
           "trap": [
-            "Drop chin tuck to move faster"
+            "Turn your chin away to breathe"
           ]
         }
       },

@@ -338,10 +338,10 @@
         "distractors": {
           "plausible": [
             "Give up the submission attempt",
-            "Just crank the wrist harder"
+            "Stand up to break their grip"
           ],
           "trap": [
-            "Yank the arm hard to break grip"
+            "Wrench the arm and lose the pin"
           ]
         }
       },
@@ -349,14 +349,14 @@
         "question": "At what point during the Kimura application does the submission become inescapable for the defender?",
         "answer": "The point of no return occurs when the figure-four grip is locked tight with the defender's elbow pinned against their body, the attacker's hips are positioned perpendicular to the trapped arm, and the wrist has been rotated past the plane of the defender's back. Once the wrist passes behind the hip line with the elbow elevated, the mechanical leverage makes escape virtually impossible without conceding the tap. Defenders must recognize that their last viable defensive window is before the elbow pin is established.",
         "safety_critical": false,
-        "answer_line": "Wrist past back, elbow pinned up",
+        "answer_line": "Wrist rotated past the back line",
         "distractors": {
           "plausible": [
-            "Once the figure-four is gripped",
-            "When hips go perpendicular only"
+            "Figure-four grip just latched on",
+            "Hips only turned perpendicular"
           ],
           "trap": [
-            "You can escape after elbow pin"
+            "It's never truly inescapable"
           ]
         }
       },
@@ -379,14 +379,14 @@
         "question": "What are the key safety considerations when applying the Kimura from Twister Side Control in training?",
         "answer": "Apply rotation slowly over 3-5 seconds minimum, never jerking or spiking. The lateral angle from Twister Side Control generates significant torque with minimal effort, making sudden application particularly dangerous. Ensure your partner has at least one free hand or foot available to tap. Listen for verbal taps or distress sounds, as the bottom position may restrict physical tapping. Release immediately upon any tap signal by stopping rotation first, then returning the arm to neutral, then releasing the grip. Never test a partner's pain tolerance after they tap.",
         "safety_critical": true,
-        "answer_line": "Rotate slowly, 3-5+ seconds",
+        "answer_line": "Rotate slowly over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Speed of application doesn't matter",
-            "Watch for physical taps only"
+            "Torque needs maximum force",
+            "Only physical taps matter"
           ],
           "trap": [
-            "Jerk it on, low effort needed"
+            "Spike it on hard and fast"
           ]
         }
       },
@@ -548,14 +548,14 @@
         "question": "What is the safest way to tap when caught in the Kimura from Twister Side Control?",
         "answer": "Tap as soon as you feel rotational pressure you cannot defend, before pain becomes severe. Use your free hand to tap rapidly on the attacker's body, the mat, or your own body. If your free hand is trapped, use verbal tapping by clearly saying 'tap' multiple times, or tap with your feet on the mat. Do not try to tough it out or wait for pain, as the lateral angle generates significant torque quickly and shoulder injuries can occur with minimal warning. The leg entanglement means you cannot roll to relieve pressure, so tap early.",
         "safety_critical": true,
-        "answer_line": "Tap early, before pain is severe",
+        "answer_line": "Tap early, don't tough it out",
         "distractors": {
           "plausible": [
-            "Wait until pain becomes severe",
-            "Struggle silently, no tap yet"
+            "Wait until the pain is severe",
+            "Only a hand tap is valid"
           ],
           "trap": [
-            "Try to roll through it first"
+            "Try to roll and power out"
           ]
         }
       },
@@ -596,11 +596,11 @@
         "answer_line": "Escape during the grip transition",
         "distractors": {
           "plausible": [
-            "Escape after figure-four locks",
-            "Escape anytime pressure eases"
+            "Only after the finish attempt",
+            "Never risk an escape at all"
           ],
           "trap": [
-            "Force an escape once locked in"
+            "Buck wildly once locked in"
           ]
         }
       }

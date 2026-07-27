@@ -231,14 +231,14 @@
       {
         "question": "Why must you rotate toward the choking arm rather than away from it?",
         "answer": "Rotating toward the choking arm collapses the angle that generates choking pressure. The buggy choke relies on perpendicular geometry where the threading arm wraps around from behind. Turning toward it shortens the choking pathway and converts the collar grip into a front-facing grip with dramatically reduced finishing potential. Turning away tightens the grip and exposes your back for hooks.",
-        "answer_line": "Turn toward the choking arm",
+        "answer_line": "Collapses the choking angle",
         "distractors": {
           "plausible": [
-            "Break the grip before turning",
-            "Turn toward, then explode up"
+            "Creates space to sit up",
+            "Strips the collar grip loose"
           ],
           "trap": [
-            "Turn away from the choking arm"
+            "Turn away to unwind the pressure"
           ]
         }
       },
@@ -248,11 +248,11 @@
         "answer_line": "Before or just after grips set",
         "distractors": {
           "plausible": [
-            "Once hooks start entering",
-            "During full body pressure"
+            "Only once hooks start entering",
+            "Right as chest pressure peaks"
           ],
           "trap": [
-            "After hips fully flatten you"
+            "Wait until the choke locks in"
           ]
         }
       },
@@ -287,14 +287,14 @@
       {
         "question": "What are the critical mechanical details of the knee-drive rotation?",
         "answer": "The near-side knee swings underneath the body in an arc toward the far side, serving as the primary driver of rotational momentum. The far-side hand posts on the mat as a pivot point while the near hand controls the threading arm. The motion must be continuous and explosive — the knee pulls the hips and torso around in one fluid movement without pausing at intermediate positions.",
-        "answer_line": "Knee drives, far hand posts",
+        "answer_line": "Near knee under, far hand posts",
         "distractors": {
           "plausible": [
-            "Far knee drives the rotation",
-            "Push off both hands evenly"
+            "Far knee swings under the body",
+            "Post evenly on both hands"
           ],
           "trap": [
-            "Pause mid-turn to reset base"
+            "Stop mid-turn and rebuild base"
           ]
         }
       },
@@ -346,25 +346,25 @@
         "answer_line": "Chin tucked, swim to underhook",
         "distractors": {
           "plausible": [
-            "Speed through the choke grips",
-            "Post hands to stop the shot"
+            "Grab the choking wrist first",
+            "Drop hips and stall flat"
           ],
           "trap": [
-            "Pull head back to create space"
+            "Pull the head back for space"
           ]
         }
       },
       {
         "question": "What chain attacks should you prepare if the initial turn stalls mid-rotation?",
         "answer": "If the turn stalls at a half-rotation, immediately switch to a sit-through by kicking the near leg through to land in seated guard. If hip mobility is compromised, drop to a hip escape on the side you have partially rotated to and work to insert a knee shield for half guard recovery. The key principle is never returning to the original turtle position — any forward progress should be converted to an alternative escape pathway rather than abandoned.",
-        "answer_line": "Sit-through, never turtle",
+        "answer_line": "Kick through to seated guard",
         "distractors": {
           "plausible": [
-            "Stall and wait for pressure",
-            "Force the original rotation"
+            "Hold the half-rotation and wait",
+            "Muscle the original turn through"
           ],
           "trap": [
-            "Return to turtle position"
+            "Reset all the way back to turtle"
           ]
         }
       }
@@ -486,25 +486,25 @@
         "answer_line": "Near knee swinging underneath",
         "distractors": {
           "plausible": [
-            "Far hand posting on mat",
-            "Hips squaring to face you"
+            "Head lifting off the mat",
+            "Hips squaring toward you"
           ],
           "trap": [
-            "Wait for full rotation to react"
+            "React only once they face you"
           ]
         }
       },
       {
         "question": "Why is static resistance to the rotation an ineffective defensive strategy?",
         "answer": "The Turn In and Face exploits a geometric vulnerability in the buggy choke — once the bottom player squares their hips to face you, the perpendicular choking angle collapses regardless of how tightly you grip. Static resistance with arm strength alone cannot overcome this geometric reality. Additionally, fighting the rotation statically wastes the brief transition window where you could convert to a back take or alternative submission.",
-        "answer_line": "Squared hips beat grip strength",
+        "answer_line": "Geometry beats grip strength",
         "distractors": {
           "plausible": [
-            "Grip harder to hold the angle",
-            "Wait for rotation to slow"
+            "Their grips are simply too loose",
+            "Rotation always outpaces reaction"
           ],
           "trap": [
-            "Hold position, ignore the turn"
+            "Squeeze harder as they rotate"
           ]
         }
       },
@@ -528,11 +528,11 @@
         "answer_line": "Chest and hips heavy, not arms",
         "distractors": {
           "plausible": [
-            "Weight through both arms",
-            "Chest pressure, hips light"
+            "Drive weight through both arms",
+            "Chest heavy, hips light"
           ],
           "trap": [
-            "Rely on chin strap alone"
+            "Lift hips high to drive forward"
           ]
         }
       },
@@ -542,11 +542,11 @@
         "answer_line": "Chin strap during head exposure",
         "distractors": {
           "plausible": [
-            "Chin strap after turn completes",
+            "Chin strap after the turn ends",
             "Underhook during early setup"
           ],
           "trap": [
-            "Keep collar grip, add pressure"
+            "Abandon base to chase the neck"
           ]
         }
       }

@@ -352,11 +352,11 @@
         "answer_line": "Submission, sweep, or back take",
         "distractors": {
           "plausible": [
-            "Armbar, triangle, or kimura",
-            "Sweep, submission, then pass"
+            "Armbar, triangle, or omoplata",
+            "Kimura, pass, then mount"
           ],
           "trap": [
-            "Always force the submission only"
+            "Release grip and scramble to pass"
           ]
         }
       },
@@ -379,14 +379,14 @@
         "question": "What immediate actions must you take after your partner taps to a Kimura from half guard?",
         "answer": "Immediately: (1) stop all rotational pressure on the shoulder, (2) release the figure-four grip configuration, (3) slowly return their arm to a neutral position avoiding sudden movements, (4) release all positional control including half guard, and (5) check with your partner about their shoulder condition before continuing training. Never release explosively or drop their arm suddenly, as this can cause additional injury even after the tap.",
         "safety_critical": true,
-        "answer_line": "Stop, release grip, ease arm out",
+        "answer_line": "Stop, release, guide arm, check in",
         "distractors": {
           "plausible": [
-            "Hold position, ask if okay first",
-            "Release grip but stay in guard"
+            "Hold the lock until they talk",
+            "Let go but keep half guard"
           ],
           "trap": [
-            "Drop the arm and reset fast"
+            "Yank the arm free and reset"
           ]
         }
       },
@@ -409,14 +409,14 @@
         "question": "What is the proper grip configuration for the Kimura figure-four, and what common grip mistake reduces effectiveness?",
         "answer": "The proper figure-four uses a palm-to-palm or wrist-to-wrist grip where you control the opponent's wrist with one hand and grip your own wrist with the other hand, creating a closed loop. The common mistake is gripping your own fingers instead of wrist, which creates a weaker connection that can be broken under pressure. Another error is crossing your arms incorrectly so that rotation moves the wrong direction. The figure-four should be tight and secure before any rotational pressure is applied.",
         "safety_critical": false,
-        "answer_line": "Grip own wrist, not fingers",
+        "answer_line": "Grip your own wrist, not fingers",
         "distractors": {
           "plausible": [
-            "Grip their fingers for control",
-            "Cross arms opposite rotation side"
+            "Grab their sleeve above the elbow",
+            "Palm-to-palm with arms extended"
           ],
           "trap": [
-            "Interlock fingers for extra grip"
+            "Open the grip to re-grip deeper"
           ]
         }
       },
@@ -424,14 +424,14 @@
         "question": "Your opponent begins rotating their body to relieve shoulder pressure mid-submission - what adjustment secures the finish?",
         "answer": "When the opponent rotates to relieve pressure, you must follow their rotation while maintaining the figure-four grip. Drive your chest forward into their back as they turn, keeping constant pressure on the shoulder joint throughout their movement. If they continue turning fully toward you, this becomes your back take opportunity - release half guard and establish hooks. The key is never allowing slack in the submission during their movement; your body follows theirs like a shadow.",
         "safety_critical": false,
-        "answer_line": "Follow rotation, keep grip tight",
+        "answer_line": "Follow their turn, grip stays tight",
         "distractors": {
           "plausible": [
-            "Release grip, reset the angle",
-            "Stop rotation, hold them still"
+            "Hold them still to stop the turn",
+            "Re-set your angle before finishing"
           ],
           "trap": [
-            "Let them turn away, then chase"
+            "Let go of the wrist to re-grip"
           ]
         }
       },
@@ -442,11 +442,11 @@
         "answer_line": "Wrist behind hip line, elbow pinned",
         "distractors": {
           "plausible": [
-            "Wrist reaches mid-back level first",
-            "Elbow passes behind their spine"
+            "Wrist reaches mid-back level",
+            "Elbow lifts off their ribs"
           ],
           "trap": [
-            "Wait until they stop resisting"
+            "Crank rotation before pinning elbow"
           ]
         }
       },
@@ -457,11 +457,11 @@
         "answer_line": "Switch to armbar off straight arm",
         "distractors": {
           "plausible": [
-            "Force elbow back to 90 degrees only",
-            "Release grip and reset kimura"
+            "Wait for them to re-bend the arm",
+            "Squeeze the wrist grip harder"
           ],
           "trap": [
-            "Yank harder on the straight arm"
+            "Abandon half guard to chase arm"
           ]
         }
       },
@@ -469,14 +469,14 @@
         "question": "What indicators tell you the opponent is about to tap before they actually signal?",
         "answer": "Key pre-tap indicators include: (1) sudden cessation of defensive movement or resistance, (2) audible exhale or grunt indicating distress, (3) their free hand moving toward your body to tap rather than continuing to defend, (4) facial grimacing or tension visible in jaw and neck, (5) shoulder elevation indicating they're trying to relieve pressure passively. Recognizing these signs allows you to ease pressure in training without requiring explicit tap, demonstrating control and protecting your partner.",
         "safety_critical": true,
-        "answer_line": "Stops resisting, grimaces, taps hand",
+        "answer_line": "Freezes, grunts, hand reaches up",
         "distractors": {
           "plausible": [
-            "Increases resistance suddenly",
-            "Goes limp and stops breathing"
+            "Breathing slows and steadies",
+            "Grip tightens, hips drive harder"
           ],
           "trap": [
-            "Keeps talking normally, no signs"
+            "Assume they're fine until the tap"
           ]
         }
       },
@@ -484,14 +484,14 @@
         "question": "When applying the Kimura from bottom half guard, how do you prevent your opponent from stacking you to escape?",
         "answer": "To prevent stacking, maintain a strong angle perpendicular to your opponent rather than staying flat underneath them. Keep your near-side shoulder blade on the mat while angling your hips away, creating an L-shape. Use your bottom knee shield or butterfly hook to create space and prevent them from driving their weight forward. If they begin stacking, swim your top leg over their shoulder to create additional leverage and frame. The perpendicular angle makes stacking mechanically difficult.",
         "safety_critical": false,
-        "answer_line": "Angle perpendicular, form an L-shape",
+        "answer_line": "Angle perpendicular, form an L",
         "distractors": {
           "plausible": [
-            "Stay flat and absorb the weight",
-            "Post both hands to block stack"
+            "Bridge up to lift their weight",
+            "Grip their belt to stop the drive"
           ],
           "trap": [
-            "Flatten out to lower base"
+            "Flatten out and let them stack"
           ]
         }
       },
@@ -502,11 +502,11 @@
         "answer_line": "Stop at firm resistance, ~75%",
         "distractors": {
           "plausible": [
-            "Push to full mid-back wrist depth",
-            "Stop only when partner taps"
+            "Stop only when they tap out",
+            "Go by arm angle, not by feel"
           ],
           "trap": [
-            "Push through muscular resistance"
+            "Crank past the elastic give"
           ]
         }
       }
@@ -693,11 +693,11 @@
         "question": "How do you defend the Kimura sweep that occurs when the attacker uses your posted hand as a pivot point?",
         "answer": "The best defense is prevention: never post your free hand on the mat to resist rotation. If you feel the urge to post, instead use that hand to attack the attacker's figure-four grip or control their hip. If you've already posted and feel the sweep loading, immediately retract the posted hand and lower your base by dropping your hips toward the mat. Widen your knees to create a broader base that's harder to sweep. The sweep requires you to be high on a single post point, so lowering your center of gravity neutralizes the leverage.",
         "safety_critical": false,
-        "answer_line": "Never post; lower hips, widen base",
+        "answer_line": "Never post; drop hips, widen base",
         "distractors": {
           "plausible": [
-            "Post hand then pull back quick",
-            "Push off post to counter sweep"
+            "Bridge and turn away from them",
+            "Kick the trapped leg free first"
           ],
           "trap": [
             "Post hand hard to stop rotation"

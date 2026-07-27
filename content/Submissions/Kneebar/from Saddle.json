@@ -333,14 +333,14 @@
         "question": "What anatomical structures does the kneebar from Saddle primarily attack, and what is the mechanism of injury?",
         "answer": "The kneebar primarily attacks the posterior cruciate ligament (PCL) through hyperextension of the knee joint. The mechanism involves positioning the opponent's knee above your hip crease as a fulcrum, then extending your hips upward while pulling the ankle downward, creating opposing forces that push the knee beyond its natural extension range. Secondary structures at risk include the medial and lateral collateral ligaments, which resist valgus and varus forces respectively, and the menisci, which can tear under compressive or rotational loading if the ankle is not properly controlled during application.",
         "safety_critical": true,
-        "answer_line": "PCL via knee hyperextension",
+        "answer_line": "Hyperextends the knee joint",
         "distractors": {
           "plausible": [
-            "ACL is the primary target",
-            "Attacks ankle, not knee"
+            "Bends the knee into deep flexion",
+            "Attacks the hip, not the knee"
           ],
           "trap": [
-            "Twist ankle to add pressure"
+            "Twist the ankle for more force"
           ]
         }
       },
@@ -351,8 +351,8 @@
         "answer_line": "Knee has no warning zone",
         "distractors": {
           "plausible": [
-            "Builds fatigue before tap",
-            "Matches choke pacing"
+            "It stretches the muscles first",
+            "Matches how chokes are paced"
           ],
           "trap": [
             "Snap it fast to finish clean"
@@ -370,7 +370,7 @@
             "Heel hide always beats kneebar"
           ],
           "trap": [
-            "Abandon heel hook, chase knee"
+            "Release control to reset grips"
           ]
         }
       },
@@ -393,14 +393,14 @@
         "question": "What is the critical difference between using hip extension versus back arching for kneebar finishing pressure?",
         "answer": "Hip extension engages the glutes and posterior chain to drive the hips upward toward the ceiling, creating efficient and controlled hyperextension pressure against the opponent's knee fulcrum. Back arching instead uses the spinal erectors and creates an arc that generates minimal actual pressure on the knee joint while placing dangerous compressive load on the attacker's own lumbar spine. The hip extension motion is sustainable, powerful, and controllable, allowing precise pressure modulation. Back arching is weak, potentially injurious to the attacker, and creates jerky uncontrolled pressure that makes safe training impossible.",
         "safety_critical": false,
-        "answer_line": "Hip extension, not back arch",
+        "answer_line": "Drive hips up with the glutes",
         "distractors": {
           "plausible": [
-            "Arch back for extra torque",
-            "Combine both for max power"
+            "Pull the ankle in with your arms",
+            "Squeeze the knees together hard"
           ],
           "trap": [
-            "Arch spine explosively"
+            "Explosively arch your spine"
           ]
         }
       },
@@ -411,11 +411,11 @@
         "answer_line": "Stop pressure, re-square ankle",
         "distractors": {
           "plausible": [
-            "Push through the rotation",
-            "Switch to a heel hook grip"
+            "Switch to a heel hook grip",
+            "Pinch knees to trap the leg"
           ],
           "trap": [
-            "Crank harder to stop rotation"
+            "Crank through the rotation"
           ]
         }
       },
@@ -442,7 +442,7 @@
         "distractors": {
           "plausible": [
             "Speed through the grip change",
-            "Loosen legs to free your hands"
+            "Grips control more than legs"
           ],
           "trap": [
             "Release legs to grab ankle fast"
@@ -471,8 +471,8 @@
         "answer_line": "Verbal tap, rapid taps, panic",
         "distractors": {
           "plausible": [
-            "Only a verbal tap counts",
-            "Wait for total stillness"
+            "Only a loud shout counts",
+            "Only a firm mat slap counts"
           ],
           "trap": [
             "Continue until full extension"
@@ -505,7 +505,7 @@
             "Fulcrum high on your abdomen"
           ],
           "trap": [
-            "Push knee past your belt line"
+            "Crank hips before fulcrum set"
           ]
         }
       }
@@ -645,8 +645,8 @@
         "answer_line": "Hands shift off heel to shin",
         "distractors": {
           "plausible": [
-            "Hips scoot back an inch",
-            "Legs squeeze tighter first"
+            "Legs squeeze tighter first",
+            "They flatten onto their back"
           ],
           "trap": [
             "Wait until hips extend"
@@ -679,7 +679,7 @@
             "Fully straighten the knee"
           ],
           "trap": [
-            "Freeze and grip fight only"
+            "Rip leg straight to escape"
           ]
         }
       },
@@ -690,11 +690,11 @@
         "answer_line": "Rotation adds ACL to PCL risk",
         "distractors": {
           "plausible": [
-            "Wastes energy, nothing else",
-            "Only risks minor knee strain"
+            "It tears the hamstring tendon",
+            "It dislocates the kneecap"
           ],
           "trap": [
-            "Spin out to break the grip"
+            "Yank the leg to rip it free"
           ]
         }
       }

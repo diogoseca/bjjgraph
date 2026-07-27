@@ -337,14 +337,14 @@
       {
         "question": "Your opponent's near arm is completely pinned tight to their ribs despite maximum pressure—what is your best response?",
         "answer": "Do not force the Kimura setup against a disciplined arm defense. Instead, capitalize on their commitment to arm protection by transitioning to mount advancement, as their arm tightness means they are not framing or creating escape space. Alternatively, briefly shift your pressure angle to create uncertainty, then snap back to the original line—this pressure variation can provoke a momentary arm extension that creates the threading window.",
-        "answer_line": "Advance mount, or vary angle",
+        "answer_line": "Take mount, or change pressure angle",
         "distractors": {
           "plausible": [
-            "Force the thread through anyway",
-            "Abandon top position entirely"
+            "Stall until the arm gets tired",
+            "Stand up to reset the exchange"
           ],
           "trap": [
-            "Yank the trapped arm free"
+            "Reach across and lose your base"
           ]
         }
       },

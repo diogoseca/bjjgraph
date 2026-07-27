@@ -259,11 +259,11 @@
         "answer_line": "Sit up for hook and core lift",
         "distractors": {
           "plausible": [
-            "Lie back for more leverage",
-            "Posture only affects grips"
+            "Lying back adds hip flexibility",
+            "Posture only matters for grips"
           ],
           "trap": [
-            "Lie back, invite a stack pass"
+            "Recline flat, invite the pass"
           ]
         }
       },
@@ -273,11 +273,11 @@
         "answer_line": "Angle to overhook, hit corner",
         "distractors": {
           "plausible": [
-            "Angle away from overhook side",
-            "Angle just adds momentum"
+            "Angle away from the overhook",
+            "Angle only adds momentum"
           ],
           "trap": [
-            "Square up, sweep straight back"
+            "Turn away, expose your back"
           ]
         }
       },
@@ -290,7 +290,7 @@
             "Pull arms first, then lift"
           ],
           "trap": [
-            "Only pull, hooks stay passive"
+            "Yank them onto you, get flattened"
           ]
         },
         "answer_line": "Fire hooks and pull together"
@@ -314,25 +314,25 @@
         "answer": "In gi, use a deep overhook gripping the lat or back of the gi; in no-gi, replace it with a seatbelt grip, hands clasped over the shoulder and under the armpit. In gi, the opposite hand controls their collar, sleeve, or establishes an underhook. Both configurations serve the same purpose: controlling the opponent's upper body rotation and preventing them from creating distance or posting. The grip must be tight enough that pulling with the arms creates immediate rotational force on the opponent's torso.",
         "distractors": {
           "plausible": [
-            "Underhook both gi and no-gi",
-            "Collar grip works in both"
+            "Same lapel grip in both",
+            "Double wrist control instead"
           ],
           "trap": [
-            "Grip pants for control"
+            "Reach for a far grip, get passed"
           ]
         },
-        "answer_line": "Deep overhook / seatbelt grip"
+        "answer_line": "Gi overhook, no-gi seatbelt"
       },
       {
         "question": "Why is head position against opponent's chest critical for elevator sweep success, and what specifically does it prevent?",
         "answer": "Pressing your head tight to the opponent's chest on the overhook side stops them posting the overhooked arm, the most common defense to this sweep. When your head creates pressure and connection, the opponent cannot extend or post that arm to create base, nor create any space to generate counterforce or adjust their posture. Keeping your head tight also makes it harder for them to apply a crossface or create angles for passing your guard. The ear-to-sternum connection makes your grips and hooks effective by eliminating space.",
         "distractors": {
           "plausible": [
-            "Head position aids balance only",
-            "Look away to see the sweep"
+            "Head only helps your balance",
+            "Chin down guards the choke"
           ],
           "trap": [
-            "Lift head to check position"
+            "Lift head, eat a crossface pass"
           ]
         },
         "answer_line": "Head tight, stop arm post"
@@ -346,7 +346,7 @@
             "Push their hips down harder"
           ],
           "trap": [
-            "Re-attempt the same sweep"
+            "Force it, get front headlocked"
           ]
         },
         "answer_line": "Chain to X-guard entries"
@@ -360,7 +360,7 @@
             "Attack on any hook pressure"
           ],
           "trap": [
-            "Attack while they sit back"
+            "Lift as they sit back, get taken"
           ]
         },
         "answer_line": "Attack as weight shifts forward"
@@ -374,7 +374,7 @@
             "Hooks drive purely forward"
           ],
           "trap": [
-            "Hooks sweep laterally, rotate"
+            "Extend legs away, guard passed"
           ]
         },
         "answer_line": "Hooks lift up, symmetric force"
@@ -384,11 +384,11 @@
         "answer": "Against a whizzer, attack a shoulder lock on their rotated arm, or roll under the whizzer into the electric chair from half butterfly. The shoulder lock works because the whizzer leaves their shoulder in a vulnerable rotated position if you control their wrist and apply inward pressure; the electric chair traps their whizzer and threatens both sweeps and calf crush submissions. The key insight is that the whizzer, while preventing the original sweep direction, actually limits the opponent's mobility and creates new attacking opportunities. A third option is to switch your sweep direction entirely, using an underhook on the opposite side.",
         "distractors": {
           "plausible": [
-            "Power through the whizzer",
-            "Switch to a kimura instead"
+            "Pull guard and reset grips",
+            "Push their whizzer arm down"
           ],
           "trap": [
-            "Fight the whizzer arm free"
+            "Rip the arm out, get passed"
           ]
         },
         "answer_line": "Shoulder lock or electric chair"
@@ -533,11 +533,11 @@
         "answer_line": "Defend early, at grip fighting",
         "distractors": {
           "plausible": [
-            "Wait until hooks are in",
-            "Defend once angle is set"
+            "Contest only after the overhook",
+            "Sprawl once you feel the hooks"
           ],
           "trap": [
-            "Wait until the lift begins"
+            "Wait for the lift, get swept"
           ]
         }
       },
@@ -551,7 +551,7 @@
             "Grab their far collar"
           ],
           "trap": [
-            "Try to out-muscle the overhook"
+            "Reach across, get your back taken"
           ]
         }
       },
@@ -561,11 +561,11 @@
         "answer_line": "Sprawl or strip leads to passing",
         "distractors": {
           "plausible": [
-            "Defense only, no offense yet",
-            "Wait for sweep to fully fail"
+            "Only counter after they reset",
+            "Passing needs a fresh setup"
           ],
           "trap": [
-            "Retreat to survive only"
+            "Stand back out, get X-guard swept"
           ]
         }
       },

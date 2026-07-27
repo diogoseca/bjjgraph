@@ -349,11 +349,11 @@
         "answer_line": "Rotation suddenly eases up",
         "distractors": {
           "plausible": [
-            "Wait for an audible pop",
-            "Tap only once pain spikes"
+            "Sharp pain warns before damage",
+            "Resistance stays firm throughout"
           ],
           "trap": [
-            "Push through the sudden give"
+            "Crank harder past the give"
           ]
         }
       },
@@ -424,11 +424,11 @@
         "answer_line": "No graduated warning like armbars",
         "distractors": {
           "plausible": [
-            "Elbow joint gives warning first",
-            "Only damages one structure"
+            "Pain builds steadily as you crank",
+            "Only strains one ligament"
           ],
           "trap": [
-            "Explosive finish is safer, faster"
+            "Crank explosively to finish fast"
           ]
         }
       },
@@ -591,7 +591,7 @@
             "Makes framing impossible"
           ],
           "trap": [
-            "Turn away to escape rotation"
+            "It's safe if you turn quickly"
           ]
         }
       },
@@ -621,7 +621,7 @@
             "Only removes hip mobility"
           ],
           "trap": [
-            "Turn away for a better angle"
+            "Back exposure aids your escape"
           ]
         }
       },

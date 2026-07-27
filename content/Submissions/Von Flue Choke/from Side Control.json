@@ -365,11 +365,11 @@
         "question": "What are at least three valid tap signals a partner might use when caught in a Von Flue choke, and why is recognizing these signals especially important for this submission?",
         "answer": "Valid tap signals include: 1) Verbal tap (calling out 'tap' or making verbal distress sounds), 2) Physical hand tap on your body or the mat, 3) Physical foot tap on the mat, 4) Releasing the guillotine grip immediately, and 5) Body going limp (indicating unconsciousness). Recognizing these signals is especially important for the Von Flue because the opponent's arms may be trapped in their own guillotine grip, limiting their ability to tap with their hands. Verbal taps become particularly important, as does watching for their grip to loosen (which often indicates impending unconsciousness). You must be hypersensitive to any indication they want to tap, including changes in their breathing or grip pressure.",
         "safety_critical": true,
-        "answer_line": "Verbal tap; hands trapped in grip",
+        "answer_line": "Verbal or foot tap; arms trapped",
         "distractors": {
           "plausible": [
-            "Foot tap outranks a verbal tap",
-            "Any grunt means stop immediately"
+            "Verbal taps don't count",
+            "Louder taps rank higher"
           ],
           "trap": [
             "Wait for a clear hand tap"
@@ -455,14 +455,14 @@
         "question": "Your training partner has been caught in two Von Flue chokes this session and now seems reluctant to attempt guillotines. How should you interpret this and what training adjustment should you make?",
         "answer": "This reluctance demonstrates the secondary strategic value of the Von Flue—it serves as a deterrent that changes opponent behavior. When training partners know you can counter their guillotine with the Von Flue, they become hesitant to hold the grip from bottom position, which actually makes your guard passing easier. However, for their development, you should now give them space to practice guillotines without immediately countering with the Von Flue. Consider alternating rounds where you allow the guillotine to develop so they can work their technique, versus rounds where you apply the counter. Good training partnership means developing both practitioners, not just demonstrating your counters repeatedly.",
         "safety_critical": false,
-        "answer_line": "Alternate rounds, let them work it",
+        "answer_line": "Alternate rounds; let them work it",
         "distractors": {
           "plausible": [
-            "Keep countering to prove dominance",
-            "Make Von Flue your go-to pass"
+            "Exploit their fear to pass easier",
+            "Tell them to avoid guillotines"
           ],
           "trap": [
-            "Posture up to escape the guillotine"
+            "Feed your neck to farm Von Flues"
           ]
         }
       },
@@ -477,7 +477,7 @@
             "The jugular vein only"
           ],
           "trap": [
-            "The airway, like a rear-naked choke"
+            "The cervical spine, a neck crank"
           ]
         }
       },
@@ -488,11 +488,11 @@
         "answer_line": "Pass toward the choking arm",
         "distractors": {
           "plausible": [
-            "Pass away to avoid the grip",
-            "Pass toward their legs"
+            "Drop your far-side shoulder",
+            "Strip the guillotine grip first"
           ],
           "trap": [
-            "Pass away from the choking arm"
+            "Posture up and pull head free"
           ]
         }
       },
@@ -530,14 +530,14 @@
         "question": "What signs tell you the Von Flue is cutting blood flow effectively?",
         "answer": "You feel your shoulder bone seated firmly on the side of the neck, the opponent's guillotine grip begins to weaken, and they reach for a verbal or physical tap; flushing of the face also signals the carotid is being compressed.",
         "safety_critical": false,
-        "answer_line": "Shoulder seated, grip weakening",
+        "answer_line": "Shoulder seated, face flushing",
         "distractors": {
           "plausible": [
-            "Opponent breathing normally",
-            "Opponent's legs go limp first"
+            "They gasp and cough for air",
+            "They wince from neck pain"
           ],
           "trap": [
-            "Their grip tightens further"
+            "They go limp; squeeze harder"
           ]
         }
       },
@@ -560,14 +560,14 @@
         "question": "What is the most common error that turns a Von Flue attempt into getting guillotined yourself?",
         "answer": "Posturing up and lifting your head, or passing away from the choking arm, both free the opponent's guillotine and let them elevate their hips to finish on you. Keep a heavy head and pass toward the choking arm.",
         "safety_critical": false,
-        "answer_line": "Posturing up, passing away from arm",
+        "answer_line": "Heavy head, pass toward choking arm",
         "distractors": {
           "plausible": [
-            "Passing too fast to the far side",
-            "Gripping the crossface too tight"
+            "Circle out to the free-arm side",
+            "Sprawl hips back, then pass"
           ],
           "trap": [
-            "Lift your head for better angle"
+            "Stand up to relieve the pressure"
           ]
         }
       },
@@ -578,8 +578,8 @@
         "answer_line": "Fast choke; release on any tap",
         "distractors": {
           "plausible": [
-            "Only release on verbal tap",
-            "Release only when they go limp"
+            "Ignore foot taps here",
+            "Apply full speed if careful"
           ],
           "trap": [
             "Hold until they stop moving"
@@ -776,14 +776,14 @@
         "question": "What is the correct body positioning after releasing a guillotine to defend the Von Flue, and why should you turn toward rather than away from your opponent?",
         "answer": "After releasing the guillotine, immediately establish forearm frames against their chest and shoulder, keep your elbows tight to your body, and turn your body toward the opponent rather than away. Turning toward them reduces the angle their shoulder can create against your neck and allows you to use your legs against their hips to push them away or re-establish guard. Turning away is dangerous because it exposes your back for potential back takes and can actually press your neck deeper into their shoulder, worsening the choke. The toward-turn also puts you in the correct position for standard side control escapes including hip escapes and guard recovery sequences.",
         "safety_critical": false,
-        "answer_line": "Frame up and turn toward opponent",
+        "answer_line": "Frame and turn toward opponent",
         "distractors": {
           "plausible": [
-            "Turn away to protect your neck",
-            "Turtle up facing the mat"
+            "Turtle up facing the mat",
+            "Cover neck and lie flat"
           ],
           "trap": [
-            "Turn away and expose your back"
+            "Turn away, giving up the back"
           ]
         }
       },
@@ -791,11 +791,11 @@
         "question": "You feel shoulder pressure on your neck while holding a guillotine from bottom and you realize the Von Flue is partially locked. What is the emergency escape sequence?",
         "answer": "This is an emergency requiring immediate action in this order: 1) Release the guillotine grip completely and without hesitation—every fraction of a second you hold it deepens the choke. 2) Use the freed arm closest to their hips to push against their hip or thigh to create distance. 3) Bridge explosively toward them to disrupt their shoulder pressure and create space. 4) Insert your knee between your bodies to establish half guard. 5) If you cannot insert the knee, continue bridging and framing until you create enough space to turn toward them and recover guard. The critical first step is always releasing the guillotine—nothing else works while you are holding the grip that creates half the choke against yourself. In training, if you feel lightheaded at any point during this sequence, tap immediately.",
         "safety_critical": true,
-        "answer_line": "Release grip, frame, bridge, recover",
+        "answer_line": "Release grip, frame, bridge out",
         "distractors": {
           "plausible": [
-            "Squeeze tighter, then bridge",
-            "Turn away and turtle first"
+            "Turn away and turtle first",
+            "Reach for an underhook first"
           ],
           "trap": [
             "Hold the guillotine and bridge"
@@ -851,11 +851,11 @@
         "question": "If you feel light-headed while defending a Von Flue and your arms are trapped, how should you signal?",
         "answer": "Tap verbally or with your foot or leg immediately — do not wait for a hand tap, since your arms are often trapped in the guillotine. Early tapping prevents unconsciousness and brain injury from carotid compression.",
         "safety_critical": true,
-        "answer_line": "Tap verbally or with foot/leg",
+        "answer_line": "Tap verbally or with your foot",
         "distractors": {
           "plausible": [
             "Wait until you can free a hand",
-            "Shout to pause, don't tap"
+            "Nod your head to signal"
           ],
           "trap": [
             "Stay silent and try to escape"
@@ -869,11 +869,11 @@
         "answer_line": "Frame, hip-escape, recover guard",
         "distractors": {
           "plausible": [
-            "Re-attack the guillotine instantly",
-            "Grab a leg to sweep them"
+            "Re-attack the guillotine now",
+            "Grab a leg to sweep"
           ],
           "trap": [
-            "Keep your arm trapped, turtle up"
+            "Turn away, giving up your back"
           ]
         }
       }

@@ -324,18 +324,18 @@
             "Grip the mat for base"
           ],
           "trap": [
-            "Only grip wrists at the very end"
+            "Post both hands past their head"
           ]
         }
       },
       {
         "question": "In which direction should you drive your weight and pressure during Mount Control, and how does this change based on your opponent's escape attempts?",
         "answer": "Default pressure direction is straight down through your hips into their solar plexus, using gravity as your primary tool. When they bridge, shift pressure backward by sprawling hips while posting forward. When they hip escape laterally, drive pressure into the direction of their escape to close space. When they frame upward, increase downward chest-to-chest pressure while swimming inside their arms. The key principle is that your pressure vector always opposes their movement direction, making every escape attempt feel like pushing into a wall.",
-        "answer_line": "Pressure always opposes their move",
+        "answer_line": "Redirect pressure to close space",
         "distractors": {
           "plausible": [
             "Always drive straight down only",
-            "Match their direction of movement"
+            "Pick one pressure line and hold"
           ],
           "trap": [
             "Ease pressure to conserve energy"
@@ -499,8 +499,8 @@
         "answer_line": "Let it go, escape the other way",
         "distractors": {
           "plausible": [
-            "Fight to keep the frame in place",
-            "Reset the same frame immediately"
+            "Reset the same frame immediately",
+            "Switch to a bridge instead"
           ],
           "trap": [
             "Muscle through the strip, hold on"

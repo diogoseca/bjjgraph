@@ -279,10 +279,10 @@
         "distractors": {
           "plausible": [
             "Trachea compression via forearm",
-            "Requires grip strength to lock"
+            "Needs heavy grip strength"
           ],
           "trap": [
-            "Targets vagus nerve, not carotids"
+            "Crank the neck to force a tap"
           ]
         }
       },
@@ -290,14 +290,14 @@
         "question": "What are the reliable indicators that the choke is reaching the breaking point and the opponent will likely tap?",
         "answer": "Key indicators include: the opponent's defensive grip fighting becomes weaker and less coordinated, their body begins to go limp or stops resisting the stretch, their breathing becomes audible or labored, and their face changes color visibly. If you feel the opponent stop actively defending and their muscle tension drops, the choke is effective and you should maintain steady pressure while watching for tap signals rather than increasing force.",
         "safety_critical": true,
-        "answer_line": "Body goes limp, breathing labored",
+        "answer_line": "Limp body, labored breathing",
         "distractors": {
           "plausible": [
-            "Wait until face turns visibly blue",
-            "They stop grip fighting entirely"
+            "Their neck muscles tense harder",
+            "Hips bridge harder and faster"
           ],
           "trap": [
-            "Increase pressure until they tap"
+            "Keep squeezing after they go limp"
           ]
         }
       },
@@ -308,11 +308,11 @@
         "answer_line": "Control near arm before collar grip",
         "distractors": {
           "plausible": [
-            "Control far arm before collar grip",
-            "Grab collar first, arm control later"
+            "Pin the far elbow first",
+            "Post on their hips for balance"
           ],
           "trap": [
-            "Skip arm control, grab collar fast"
+            "Dive for the lapel, let them turn"
           ]
         }
       },
@@ -323,11 +323,11 @@
         "answer_line": "Drive forward, flatten and pull deep",
         "distractors": {
           "plausible": [
-            "Fight to keep the stripped grip",
-            "Switch to a different collar side"
+            "Stand up to break their hands",
+            "Two-on-one on their wrist"
           ],
           "trap": [
-            "Let go and retreat to standing"
+            "Abandon the back and stand up"
           ]
         }
       },
@@ -335,14 +335,14 @@
         "question": "What is the point of no escape for the defender once the Bow and Arrow is properly configured?",
         "answer": "The point of no escape occurs once the attacker has established all three control points simultaneously: deep cross-collar grip across both carotids, far leg secured at the knee crease preventing hip rotation, and body extended to create the stretching force. Once full extension is achieved with both grips locked, the defender cannot generate enough force to strip either grip because the stretching mechanics make the grips self-tightening. Defense must happen before all three elements connect.",
         "safety_critical": false,
-        "answer_line": "All three grips locked, extended",
+        "answer_line": "All three controls set at once",
         "distractors": {
           "plausible": [
-            "Once collar grip alone is set",
-            "Once leg grip alone is set"
+            "Deep collar grip by itself",
+            "Far leg pinned by itself"
           ],
           "trap": [
-            "Wait for full body extension only"
+            "Stall until extension, then defend"
           ]
         }
       },
@@ -353,11 +353,11 @@
         "answer_line": "Leg anchors stretch; re-grip if lost",
         "distractors": {
           "plausible": [
-            "Collar grip alone creates stretch",
-            "Push forward if leg grip is lost"
+            "Collar pull alone makes the stretch",
+            "Squeeze harder with both arms"
           ],
           "trap": [
-            "Force the finish without leg grip"
+            "Extend anyway and lose the back"
           ]
         }
       },
@@ -365,14 +365,14 @@
         "question": "What is the proper speed and progression for applying the finishing stretch in training?",
         "answer": "Apply the finishing stretch progressively over three to five seconds minimum, never jerking or spiking the extension. Begin with gentle tension to confirm both grips are secure and the collar is positioned across the carotid line rather than the jaw. Increase stretching force gradually while monitoring your partner's response. In training, never apply the choke at competition speed. The progressive application allows your partner adequate time to assess the choke and tap before unconsciousness occurs.",
         "safety_critical": true,
-        "answer_line": "Apply stretch gradually, 3-5 sec",
+        "answer_line": "Build tension over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Full pressure in under a second",
-            "Skip confirming collar position"
+            "Speed matters less than grip depth",
+            "One smooth two-second finish"
           ],
           "trap": [
-            "Jerk and spike the extension"
+            "Snap the extension explosively"
           ]
         }
       },
@@ -380,14 +380,14 @@
         "question": "How should you release the Bow and Arrow Choke immediately after receiving a tap signal?",
         "answer": "Upon any tap signal—verbal, hand tap, foot tap, or loss of resistance—immediately release the collar grip first since it is the primary choking mechanism. Simultaneously release the far leg control and allow your body to relax the extension. Let the opponent's head return to neutral position without forcing any movement. Check that they are conscious and responsive. If they lost consciousness before tapping, place them in recovery position with legs elevated and monitor continuously until they are fully alert.",
         "safety_critical": true,
-        "answer_line": "Release collar grip first",
+        "answer_line": "Collar grip off first",
         "distractors": {
           "plausible": [
-            "Release leg grip first",
-            "Release both grips at once"
+            "Strip the far leg grip first",
+            "Wait for a verbal confirmation"
           ],
           "trap": [
-            "Hold position to confirm tap"
+            "Hold the stretch a beat longer"
           ]
         }
       },
@@ -398,11 +398,11 @@
         "answer_line": "Widen base, drive chest forward",
         "distractors": {
           "plausible": [
-            "Pull collar tighter to stop them",
-            "Switch immediately to leg grip"
+            "Pull the lapel tighter to stop them",
+            "Jump straight to the leg grip"
           ],
           "trap": [
-            "Chase them without changing base"
+            "Ride high and get pulled to guard"
           ]
         }
       },
@@ -413,11 +413,11 @@
         "answer_line": "Clock Choke feint exposes far collar",
         "distractors": {
           "plausible": [
-            "Feint the armbar to open collar",
-            "Threaten back take, grab collar"
+            "Feint an armbar to open the lapel",
+            "Threaten a back take, then grip"
           ],
           "trap": [
-            "Announce the choke to bait a tap"
+            "Over-rotate to head, get rolled"
           ]
         }
       }
@@ -543,10 +543,10 @@
         "distractors": {
           "plausible": [
             "Both hands grip your near collar",
-            "Hips square up behind your back"
+            "They grab your belt with both hands"
           ],
           "trap": [
-            "Wait for the choke to feel tight"
+            "Wait until the choke feels tight"
           ]
         }
       },
@@ -554,14 +554,14 @@
         "question": "When should you tap to the Bow and Arrow Choke, and what signals should you use?",
         "answer": "Tap immediately when you feel bilateral pressure on both sides of your neck and cannot effectively strip either the collar grip or the leg control. Do not wait until you feel lightheaded or see visual changes—blood chokes can cause unconsciousness in as few as four seconds. Use any available tap signal: verbal tap, hand tap on the attacker's body or the mat, or foot tap on the mat. If your arms are trapped, use a loud verbal tap immediately. Never rely on trying to outlast the choke.",
         "safety_critical": true,
-        "answer_line": "Tap fast, bilateral neck pressure",
+        "answer_line": "Tap at once on both-side pressure",
         "distractors": {
           "plausible": [
-            "Tap only once vision starts to blur",
-            "Wait to see if you can outlast it"
+            "Only a hand tap counts as a tap",
+            "Blood chokes take a minute"
           ],
           "trap": [
-            "Try to power through and escape"
+            "Turn away and explode out"
           ]
         }
       },
@@ -587,11 +587,11 @@
         "answer_line": "Turn toward attacker, collapse angle",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Post hands and wait passively"
+            "Flatten out and hide your chin",
+            "Roll to your back to stall"
           ],
           "trap": [
-            "Turn away, opening the far collar"
+            "Turn away, feeding the far collar"
           ]
         }
       },

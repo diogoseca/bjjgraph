@@ -262,14 +262,14 @@
       {
         "question": "What conditions must exist before you can effectively begin the grip fight escape?",
         "answer": "You need at least one free hand with functional grip strength available to fight the triangle lock. Your chin must be tucked to chest with face turned toward the non-choking leg to prevent the choke from finishing while you work. You must be able to identify the ankle-knee connection point by feel. If both hands are trapped or the choke is already producing tunnel vision, the grip fight is not viable and you should either tap or attempt an explosive positional escape instead.",
-        "answer_line": "Free hand, chin tucked, find ankle",
+        "answer_line": "Free hand, chin tucked, feel ankle",
         "distractors": {
           "plausible": [
-            "Any grip works, just pull hard",
-            "Start once vision blurs"
+            "Posture up before anything else",
+            "Wait until the squeeze loosens"
           ],
           "trap": [
-            "Fight with both hands trapped"
+            "Turn chin toward the choking leg"
           ]
         }
       },
@@ -346,14 +346,14 @@
       {
         "question": "If the opponent successfully defends your ankle grip break by re-locking the triangle, what is your immediate follow-up?",
         "answer": "Do not repeat the identical grip break attempt. Instead, chain into a different escape vector: attempt a hip escape to create angle, switch to the wrist peel variation targeting their hand grips, or use the disruption from your grip fight to attempt a posture recovery escape. Each failed grip break still loosens the triangle incrementally, so cycling between different attack points compounds these gains. If you have attempted three grip breaks without success, the triangle may be too tight for methodical escape and you should consider explosive alternatives or tapping.",
-        "answer_line": "Chain to a different escape",
+        "answer_line": "Switch to a different escape vector",
         "distractors": {
           "plausible": [
-            "Repeat the same grip break",
-            "Bridge explosively right away"
+            "Wait for their grip to tire",
+            "Squirm backward to slip free"
           ],
           "trap": [
-            "Keep pulling the same grip harder"
+            "Posture up into the locked legs"
           ]
         }
       }

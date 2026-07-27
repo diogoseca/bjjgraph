@@ -240,14 +240,14 @@
       {
         "question": "Why must you circle your trapped arm in the direction of the lock rather than against it?",
         "answer": "Circling with the lock follows natural shoulder joint mechanics and relieves stress on the ligaments and joint capsule. Moving against the lock increases torque and accelerates potential injury. The circular motion with the lock creates temporary pressure relief while maintaining structural integrity, buying time to execute escapes without damaging the shoulder. This principle applies to all shoulder locks - always move with the rotation, never against it.",
-        "answer_line": "Circle with the lock's rotation",
+        "answer_line": "Follows shoulder's natural rotation",
         "distractors": {
           "plausible": [
-            "Brace and resist the pressure",
-            "Yank the arm straight down"
+            "Builds leverage to strip the grip",
+            "Keeps the elbow above the mat"
           ],
           "trap": [
-            "Circle against the lock direction"
+            "Torquing against it creates space"
           ]
         }
       },
@@ -310,14 +310,14 @@
       {
         "question": "Why is early recognition and prevention emphasized over late-stage escape in kimura defense?",
         "answer": "Once the kimura is fully locked with figure-four completed and pressure applied, the defensive options reduce dramatically while injury risk increases substantially. Early grip fighting to prevent wrist control or break the figure-four grip before lock completion is exponentially easier and safer than escaping a finished kimura. Prevention requires less energy, involves less injury risk, and maintains better positional control. Late-stage escapes require precise technique, good timing, and some luck - they are survival tactics rather than reliable defenses.",
-        "answer_line": "Prevent grip before lock completes",
+        "answer_line": "Grip fighting early is far safer",
         "distractors": {
           "plausible": [
-            "Escape is equally reliable late",
-            "Fight hardest after lock is set"
+            "The figure-four weakens over time",
+            "Stalling tires the attacker out"
           ],
           "trap": [
-            "Wait and rely on late escapes"
+            "Let it finish, then rip free"
           ]
         }
       },

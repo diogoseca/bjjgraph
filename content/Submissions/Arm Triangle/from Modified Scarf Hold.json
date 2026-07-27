@@ -314,11 +314,11 @@
         "answer_line": "Bone-on-bone: arm pinned to neck",
         "distractors": {
           "plausible": [
-            "Feel deep underhook control",
-            "See their hand on your hip"
+            "Deep underhook feels locked in",
+            "Their free hand grips your hip"
           ],
           "trap": [
-            "They relax and stop framing"
+            "Loosen chest to test the arm"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "answer_line": "Hips perpendicular, head to mat",
         "distractors": {
           "plausible": [
-            "Squeeze harder from an angle",
-            "Sit up tall over their chest"
+            "Keep chest square to their side",
+            "Stack their legs and squeeze"
           ],
           "trap": [
-            "Angle away from trapped arm"
+            "Post up on knees to squeeze"
           ]
         }
       },
@@ -371,14 +371,14 @@
         "question": "What are the key indicators that the opponent has passed the point of no escape once the arm triangle is locked?",
         "answer": "The choke has passed the point of no escape when you can feel the opponent's trapped shoulder bone pressing firmly into their neck with zero space between your chest and their body, your hip is dropped and head is sealed to the mat, and the opponent cannot create any meaningful frame with their free hand. Their defensive movements become weaker and less coordinated as blood restriction takes effect. Their face may begin changing color. At this point, the tap is imminent.",
         "safety_critical": false,
-        "answer_line": "No space, no frame, fading resist",
+        "answer_line": "No space, no frame, weak defense",
         "distractors": {
           "plausible": [
-            "They stop talking or protesting",
-            "Face flushes red then fades"
+            "They stop talking to you",
+            "Their free hand grips your belt"
           ],
           "trap": [
-            "They go stiff and limp, wait"
+            "Keep squeezing after they go limp"
           ]
         }
       },
@@ -386,14 +386,14 @@
         "question": "What common finishing error causes the arm triangle from Modified Scarf Hold to become a neck crank instead of a blood choke?",
         "answer": "Attempting to finish before walking your hips to the perpendicular angle is the most common cause of neck cranking instead of choking. When you squeeze at an oblique angle relative to the opponent's body, the pressure misaligns with the carotid arteries and instead torques the neck. The perpendicular angle ensures the opponent's shoulder drives straight into the carotid while your forearm blade compresses the other side cleanly. Always complete the full hip walk before squeezing.",
         "safety_critical": false,
-        "answer_line": "Squeezing before hips are square",
+        "answer_line": "Squeezing before hips reach 90",
         "distractors": {
           "plausible": [
-            "Figure-four grip too loose",
-            "Head not sealed to the mat"
+            "Loose figure-four grip",
+            "Head lifted off the mat"
           ],
           "trap": [
-            "Crank harder to bend the neck"
+            "Torque the neck to force the tap"
           ]
         }
       },
@@ -404,11 +404,11 @@
         "answer_line": "Slow pressure, release on tap",
         "distractors": {
           "plausible": [
-            "Squeeze fast to stop escape",
-            "Only watch for verbal taps"
+            "Trap both their arms first",
+            "Listen only for a spoken word"
           ],
           "trap": [
-            "Hold through resistance to finish"
+            "Spike it hard and hold past limp"
           ]
         }
       },
@@ -419,11 +419,11 @@
         "answer_line": "Figure-four tighter, gable faster",
         "distractors": {
           "plausible": [
-            "Gable grip is always stronger",
-            "Figure-four always locks quicker"
+            "Palm-to-palm gives more leverage",
+            "Bicep grip locks in fastest"
           ],
           "trap": [
-            "Gable grip only cranks the neck"
+            "Regrip mid-finish and lose it"
           ]
         }
       },
@@ -567,11 +567,11 @@
         "answer_line": "Feel arm steered across your neck",
         "distractors": {
           "plausible": [
-            "Feel their grips loosen up",
-            "Feel weight shift to far side"
+            "Their hips square to your hips",
+            "Their head lifts off your chest"
           ],
           "trap": [
-            "Feel them go for mount instead"
+            "Wait until the lock is set"
           ]
         }
       },
@@ -582,11 +582,11 @@
         "answer_line": "Tap immediately, any signal",
         "distractors": {
           "plausible": [
-            "Try to escape once sealed",
-            "Wait to see how tight it is"
+            "Grip their belt and stall",
+            "Reach for their far leg"
           ],
           "trap": [
-            "Bridge hard and fight through"
+            "Bridge into the choke to escape"
           ]
         }
       },
@@ -597,11 +597,11 @@
         "answer_line": "Pin arm to body or extend away",
         "distractors": {
           "plausible": [
-            "Frame across your own neck",
-            "Push palm on their chest"
+            "Grab their belt with near arm",
+            "Reach over for an underhook"
           ],
           "trap": [
-            "Post your arm on your throat"
+            "Frame across your own throat"
           ]
         }
       },
@@ -612,11 +612,11 @@
         "answer_line": "Turn in, frame hips, get knees in",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Push their head down and away"
+            "Bridge hard and buck them off",
+            "Yank the trapped elbow free"
           ],
           "trap": [
-            "Turn away from trapped-arm side"
+            "Roll belly-down away from them"
           ]
         }
       },
@@ -627,11 +627,11 @@
         "answer_line": "Gives them the perpendicular angle",
         "distractors": {
           "plausible": [
-            "Only wastes your energy",
-            "Makes the tap harder to see"
+            "It just burns your own energy",
+            "It stalls until a referee restart"
           ],
           "trap": [
-            "Turning away creates escape room"
+            "Turn away to spin out the back"
           ]
         }
       }

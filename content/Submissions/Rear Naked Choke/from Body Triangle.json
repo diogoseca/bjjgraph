@@ -348,7 +348,7 @@
             "Pull head straight back hard"
           ],
           "trap": [
-            "Let go and reset both hooks"
+            "Release seatbelt to pry the chin"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "answer_line": "Release, untriangle, monitor 30s",
         "distractors": {
           "plausible": [
-            "Ease pressure slowly first",
-            "Let them stand up right away"
+            "Wait for a verbal tap first",
+            "Leave the legs locked in place"
           ],
           "trap": [
-            "Hold choke a few extra seconds"
+            "Hold the choke until they go limp"
           ]
         }
       },
@@ -371,14 +371,14 @@
         "question": "At what point during the choke setup is the defender effectively past the point of no escape?",
         "answer": "Once the choking arm is fully threaded under the chin with the elbow crook centered and the non-choking hand is secured behind the head on the bicep, escape from body triangle becomes nearly impossible. The combined leg immobilization and locked choking configuration typically produces a tap within 3-5 seconds. The critical transition point is when the choking hand connects to the opposite shoulder — at that moment, hand defense alone cannot prevent the finish.",
         "safety_critical": false,
-        "answer_line": "Hand locks onto own bicep",
+        "answer_line": "Choking hand grips own bicep",
         "distractors": {
           "plausible": [
-            "When triangle legs first lock",
+            "As soon as the legs wrap up",
             "Once forearm touches the neck"
           ],
           "trap": [
-            "Only once they go limp"
+            "Never — RNC is always escapable"
           ]
         }
       },
@@ -386,14 +386,14 @@
         "question": "What common finishing error turns a blood choke into a potentially dangerous tracheal compression?",
         "answer": "Placing the forearm directly across the trachea instead of angling it across the carotid arteries creates an air choke that compresses the windpipe. This is both less effective as a finishing technique and more dangerous, as tracheal damage can result in serious injury requiring weeks of recovery or potentially permanent damage. The correction is ensuring the blade of the forearm contacts both sides of the neck with the crook of the elbow positioned directly under the chin.",
         "safety_critical": true,
-        "answer_line": "Forearm across the trachea",
+        "answer_line": "Forearm laid across the windpipe",
         "distractors": {
           "plausible": [
-            "Elbow drifting off-center",
-            "Too much bicep pressure"
+            "Gripping too high on the bicep",
+            "Head not glued to the shoulder"
           ],
           "trap": [
-            "Squeezing legs too hard"
+            "Cranking the neck to force a tap"
           ]
         }
       },
@@ -405,7 +405,7 @@
         "distractors": {
           "plausible": [
             "Squeeze legs only at the end",
-            "Keep leg pressure constant only"
+            "Alternate: never both at once"
           ],
           "trap": [
             "Release legs to focus on arms"
@@ -528,11 +528,11 @@
         "answer_line": "Squeeze spikes, forearm nears jaw",
         "distractors": {
           "plausible": [
-            "Only watch for hand on collar",
+            "Wait until the arm is locked in",
             "Triangle loosening signals attack"
           ],
           "trap": [
-            "Ignore squeeze, watch hands only"
+            "Turn away to look at the arm"
           ]
         }
       },
@@ -540,14 +540,14 @@
         "question": "When should you tap to the Rear Naked Choke from Body Triangle during training?",
         "answer": "Tap immediately when you feel the choking arm fully lock under your chin with the opponent's hand secured behind your head on the bicep. From body triangle, escape from a locked RNC is nearly impossible because the legs prevent the hip movement needed for any escape technique. The 3-5 second window to unconsciousness from a properly applied blood choke is not enough time to execute an escape. Use any tap method available — verbal, hand tap on opponent or mat, or foot tap on mat. Tapping early preserves your safety and allows more productive training.",
         "safety_critical": true,
-        "answer_line": "Tap when arm locks under chin",
+        "answer_line": "Tap the moment the arm locks in",
         "distractors": {
           "plausible": [
-            "Wait until vision starts to blur",
-            "Tap only after verbal warning"
+            "Wait for pain before signalling",
+            "Assume the grip will slip free"
           ],
           "trap": [
-            "Try to escape once it's locked"
+            "Turn in and fight it out"
           ]
         }
       },
@@ -618,11 +618,11 @@
         "answer_line": "Clamp jaw, tuck chin, control arm",
         "distractors": {
           "plausible": [
-            "Lift chin to ease the pressure",
-            "Open mouth to release tension"
+            "Grab the wrist with one hand only",
+            "Wait for the jaw pain to fade"
           ],
           "trap": [
-            "Give the neck to ease jaw pain"
+            "Open the mouth and lift the chin"
           ]
         }
       },

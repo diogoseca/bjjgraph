@@ -308,7 +308,7 @@
             "Opponent turns onto their side"
           ],
           "trap": [
-            "Wait for full arm extension"
+            "Yank the arm straight to finish"
           ]
         }
       },
@@ -575,11 +575,11 @@
         "answer_line": "Shoulder rotating, escape gone",
         "distractors": {
           "plausible": [
-            "Only after sharp pain hits",
-            "Once fully flattened out"
+            "The instant your arm is trapped",
+            "Only once you're flat on your back"
           ],
           "trap": [
-            "Wait to feel a pop first"
+            "Wait until you hear a pop"
           ]
         }
       },
@@ -605,11 +605,11 @@
         "answer_line": "Explosive posture against lock",
         "distractors": {
           "plausible": [
-            "Turning face-down to escape",
-            "Gripping your own gi lapel"
+            "Freezing and not defending",
+            "Flailing your free arm around"
           ],
           "trap": [
-            "Turtling up to block rotation"
+            "Rolling hard away from the attacker"
           ]
         }
       },

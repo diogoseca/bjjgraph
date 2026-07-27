@@ -906,10 +906,10 @@
         "distractors": {
           "plausible": [
             "Mirror their passivity and wait",
-            "Rush in without setting grips"
+            "Blitz forward with no setup"
           ],
           "trap": [
-            "Stand still and stall the clock"
+            "Dive on a leg from way outside"
           ]
         }
       },
@@ -1007,11 +1007,11 @@
       "answer_line": "Range decides both players' options",
       "distractors": {
         "plausible": [
-          "Range only matters for the passer",
-          "Grips matter more than distance"
+          "Distance only matters for shooters",
+          "Grips trump spacing every time"
         ],
         "trap": [
-          "Ignore range, just chase grips"
+          "Ignore distance, dive for grips"
         ]
       }
     },
@@ -1078,10 +1078,10 @@
       "distractors": {
         "plausible": [
           "Only matters after guard pull",
-          "Decision point only for top player"
+          "A rest phase with no real choices"
         ],
         "trap": [
-          "Commit early to lock in advantage"
+          "Shoot blind before winning grips"
         ]
       }
     }

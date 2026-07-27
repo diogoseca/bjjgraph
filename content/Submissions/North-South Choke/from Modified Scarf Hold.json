@@ -293,11 +293,11 @@
         "answer_line": "Bilateral carotid compression",
         "distractors": {
           "plausible": [
-            "Tracheal windpipe crush",
-            "Single-side carotid only"
+            "Windpipe and trachea crush",
+            "One carotid squeezed alone"
           ],
           "trap": [
-            "Vagus nerve strike knockout"
+            "Blocking the jugular vein"
           ]
         }
       },
@@ -335,14 +335,14 @@
         "question": "Why does the hip sprawl create the finishing compression, and what happens if you keep your hips close?",
         "answer": "The hip sprawl creates a fulcrum effect where the body acts as a lever. As the hips move away, the shoulder is driven deeper into the carotid pocket, and the arm wrap tightens against the far-side carotid. With hips close, there is insufficient leverage to generate meaningful compression - the choke feels tight from the attacker's perspective but lacks the mechanical advantage needed for arterial restriction. The sprawl converts body weight into directed choking pressure rather than relying on muscular arm squeeze.",
         "safety_critical": false,
-        "answer_line": "Sprawl hips for lever leverage",
+        "answer_line": "Sprawl hips to form a lever",
         "distractors": {
           "plausible": [
-            "Hips close, squeeze with muscle",
-            "Sprawl legs for base only"
+            "Hips close feels tight to you",
+            "Sprawl legs to widen base"
           ],
           "trap": [
-            "Keep hips tight, arm-squeeze harder"
+            "Stay hip-close and grind harder"
           ]
         }
       },
@@ -395,14 +395,14 @@
         "question": "In competition, what grip adjustments maximize finishing rate when the opponent is actively defending?",
         "answer": "In competition with a resisting opponent, grip the choking arm's own wrist with the free hand to create a closed loop that prevents the arm from being pulled out during defensive movement. Alternatively, clasp both hands together in a gable grip under the neck for maximum stability. If the opponent tucks their chin aggressively, adjust the shoulder angle by walking your knees slightly past their head to change the compression vector. Small positional adjustments are more effective than simply squeezing harder against active defense.",
         "safety_critical": false,
-        "answer_line": "Grip own wrist to close the loop",
+        "answer_line": "Grip own wrist to seal loop",
         "distractors": {
           "plausible": [
-            "Yank the arm out to reset",
-            "Always use gable grip only"
+            "Rip the arm free and reset",
+            "Flare elbows for more room"
           ],
           "trap": [
-            "Just squeeze harder vs defense"
+            "Grind harder against defense"
           ]
         }
       }
@@ -549,14 +549,14 @@
         "question": "What defensive options are available at each stage of the North-South Choke setup?",
         "answer": "During early setup when the arm begins threading: fight the arm with both hands to prevent deep placement, or frame on the hip to block the slide. During mid-transition as the opponent rotates: bridge and turn toward the choking arm to collapse the shoulder angle, or shrimp hips away to create guard recovery space. During late-stage with shoulder seated: roll toward the choking arm as a last resort, or tap immediately if the choke is fully locked. Defensive effectiveness decreases dramatically at each stage, making early intervention critical.",
         "safety_critical": false,
-        "answer_line": "Fight the arm early, frame the hip",
+        "answer_line": "Fight arm early, roll to it late",
         "distractors": {
           "plausible": [
-            "Bridge and turn at any stage",
-            "Shrimp away once fully locked"
+            "Shrimp out once shoulder seats",
+            "Bridge before threading starts"
           ],
           "trap": [
-            "Muscle out once fully locked"
+            "Muscle out when fully locked"
           ]
         }
       },

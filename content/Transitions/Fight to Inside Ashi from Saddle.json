@@ -339,11 +339,11 @@
         "answer_line": "Tap immediately",
         "distractors": {
           "plausible": [
-            "Fight the rotation out",
-            "Try to reverse position"
+            "Strip the ankle grips first",
+            "Kick free leg to break the grip"
           ],
           "trap": [
-            "Push through and pummel free"
+            "Spin hard against the rotation"
           ]
         }
       },
@@ -381,11 +381,11 @@
         "answer_line": "No rotation, heel not isolated",
         "distractors": {
           "plausible": [
-            "Any time hips can still move",
-            "As long as grips feel loose"
+            "As long as you feel no pain",
+            "If he has not crossed his ankles"
           ],
           "trap": [
-            "Attempt it even if rotation started"
+            "Fight out once rotation begins"
           ]
         }
       },

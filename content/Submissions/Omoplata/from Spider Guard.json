@@ -320,7 +320,7 @@
             "Wrist via rotation lock"
           ],
           "trap": [
-            "Neck through spinal compression"
+            "Crank the neck to force the tap"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Grab far hip, flatten their chest",
         "distractors": {
           "plausible": [
-            "Release legs, chase the roll",
-            "Grab near hip to block roll"
+            "Grab near hip to block roll",
+            "Squeeze knees and wait it out"
           ],
           "trap": [
-            "Let go and re-guard instead"
+            "Post up tall, ignore their hips"
           ]
         }
       },
@@ -388,14 +388,14 @@
         "question": "What are the critical control requirements that must be established before applying finishing pressure?",
         "answer": "Three control elements must be established: First, your legs must be tightly squeezing around the trapped upper arm with knees compressed together. Second, your hips must be positioned close to the opponent's trapped shoulder for maximum rotational leverage. Third, you must have control over the opponent's far hip to prevent the forward roll escape. Without all three elements, the finish either lacks sufficient force to achieve the tap or allows an escape route.",
         "safety_critical": false,
-        "answer_line": "Tight legs, close hips, hip control",
+        "answer_line": "Squeeze arm, hips in, far hip held",
         "distractors": {
           "plausible": [
-            "Just squeeze the legs really tight",
-            "Sit up fast, worry hips later"
+            "Rely on grip strength alone",
+            "Pull the wrist toward the mat"
           ],
           "trap": [
-            "Release far hip, use both hands"
+            "Ignore the roll and crank early"
           ]
         }
       },
@@ -406,11 +406,11 @@
         "answer_line": "Sit-up, flat torso, legs, hip held",
         "distractors": {
           "plausible": [
-            "Legs swung over, arm isolated",
-            "Sleeve grip broken free"
+            "When the leg clears the shoulder",
+            "When your ankles first cross"
           ],
           "trap": [
-            "Opponent posts hand, prepare crank"
+            "Once they post, crank through it"
           ]
         }
       },
@@ -421,11 +421,11 @@
         "answer_line": "Pain lags behind joint damage",
         "distractors": {
           "plausible": [
-            "Faster taps mean less overall risk",
-            "Quick jerk saves your energy"
+            "Slow pressure builds more torque",
+            "Gives you time to reset grips"
           ],
           "trap": [
-            "Quick crank ensures a fast tap"
+            "Rip it fast before he defends"
           ]
         }
       },
@@ -440,7 +440,7 @@
             "Both require identical setup"
           ],
           "trap": [
-            "Closed guard needs no arm isolation"
+            "Throw leg over with posture intact"
           ]
         }
       },
@@ -586,10 +586,10 @@
         "distractors": {
           "plausible": [
             "Both sleeves pulled equally hard",
-            "Opponent grips your far collar"
+            "They switch to a far collar grip"
           ],
           "trap": [
-            "Wait until both sleeves gripped"
+            "Ignore it until the leg swings"
           ]
         }
       },
@@ -600,11 +600,11 @@
         "answer_line": "Window closes fast, act instantly",
         "distractors": {
           "plausible": [
-            "You have several seconds to react",
-            "Assess position before rolling"
+            "The roll works from any stage",
+            "Rolling late adds more leverage"
           ],
           "trap": [
-            "Wait for hip control to grab first"
+            "Roll only after they sit up"
           ]
         }
       },
@@ -615,11 +615,11 @@
         "answer_line": "Sharp pain or grinding, escape gone",
         "distractors": {
           "plausible": [
-            "Only when told to by your coach",
-            "Wait for an audible pop first"
+            "Wait until you lose the underhook",
+            "Tap only if you cannot breathe"
           ],
           "trap": [
-            "Fight through mild discomfort"
+            "Explode away once it is deep"
           ]
         }
       },
@@ -630,8 +630,8 @@
         "answer_line": "Resist pull evenly, elbows tight",
         "distractors": {
           "plausible": [
-            "Push through, ignore the sleeves",
-            "Pull away hard when grabbed"
+            "Stand tall and jump past guard",
+            "Grip both ankles and hold still"
           ],
           "trap": [
             "Extend arms to break the grip"

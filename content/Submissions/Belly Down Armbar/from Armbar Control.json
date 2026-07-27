@@ -297,7 +297,7 @@
             "Wrist joint flexion"
           ],
           "trap": [
-            "Bicep tendon strain"
+            "Neck crank for the tap"
           ]
         }
       },
@@ -309,10 +309,10 @@
         "distractors": {
           "plausible": [
             "Pause rotation to break grip",
-            "Switch attack to kimura"
+            "Sit back and wait for fatigue"
           ],
           "trap": [
-            "Abandon armbar, return guard"
+            "Lift leg off their face"
           ]
         }
       },
@@ -342,7 +342,7 @@
             "When wrist grip is secured"
           ],
           "trap": [
-            "After first bridge attempt"
+            "Wait until prone, then escape"
           ]
         }
       },
@@ -353,11 +353,11 @@
         "answer_line": "Hips too far from shoulder",
         "distractors": {
           "plausible": [
-            "Gripping wrist too loosely",
-            "Rotating too slowly"
+            "Head turned toward their legs",
+            "Feet crossed behind their back"
           ],
           "trap": [
-            "Releasing knee pinch early"
+            "Open the knees to finish"
           ]
         }
       },
@@ -380,14 +380,14 @@
         "question": "Why must extension pressure be applied slowly in the belly-down position compared to the standard armbar?",
         "answer": "The belly-down position creates dramatically greater mechanical advantage than the standard supine armbar because the attacker's entire body weight drives through the arm via gravity rather than just hip bridge force. This amplified leverage means the elbow reaches its structural limit much faster with less perceived effort from the attacker. Applying pressure quickly risks serious ligament damage or fracture before the defender can signal a tap.",
         "safety_critical": true,
-        "answer_line": "Body weight adds huge leverage",
+        "answer_line": "Body weight multiplies the leverage",
         "distractors": {
           "plausible": [
-            "Standard armbar rules still apply",
-            "Opponent's arm is more flexible"
+            "Gravity matters less when prone",
+            "The elbow bends further face-down"
           ],
           "trap": [
-            "Speed prevents them from escaping"
+            "Crank fast before they defend"
           ]
         }
       },
@@ -395,14 +395,14 @@
         "question": "What is the proper release protocol after your opponent taps to the belly down armbar?",
         "answer": "Release extension pressure immediately by lowering the wrist away from your chest, then release the knee squeeze around the arm, then disengage completely from the prone position. Do not wait for a second tap or verbal confirmation. Check your partner's elbow mobility and ask about any discomfort before continuing training. If there is any doubt about whether a tap occurred, release immediately since the position can be safely re-established.",
         "safety_critical": true,
-        "answer_line": "Release wrist, then knees, disengage",
+        "answer_line": "Free the wrist, then the knees",
         "distractors": {
           "plausible": [
-            "Wait for verbal confirmation first",
-            "Ease pressure but keep control"
+            "Let the knees go before the wrist",
+            "Keep light control after the tap"
           ],
           "trap": [
-            "Hold position for a second tap"
+            "Hold the lock for a second tap"
           ]
         }
       },
@@ -417,7 +417,7 @@
             "Go straight to belly-down"
           ],
           "trap": [
-            "Announce the transition early"
+            "Loosen knees while rotating"
           ]
         }
       },
@@ -553,11 +553,11 @@
         "answer_line": "Foot posts, leg swings over",
         "distractors": {
           "plausible": [
-            "Sudden increase in pace only",
-            "Opponent shifts hips sideways"
+            "They flatten their back to mat",
+            "Their grip switches to collar"
           ],
           "trap": [
-            "Wait for the knee pinch to start"
+            "Wait for the knee pinch"
           ]
         }
       },
@@ -568,11 +568,11 @@
         "answer_line": "Arm straightens despite resisting",
         "distractors": {
           "plausible": [
-            "Only after feeling a sharp pop",
-            "When knees first pinch together"
+            "When their knees first pinch",
+            "Once you feel shoulder pressure"
           ],
           "trap": [
-            "Keep fighting till the finish"
+            "Wait until you hear a pop"
           ]
         }
       },
@@ -584,10 +584,10 @@
         "distractors": {
           "plausible": [
             "Bridge hard to buck them off",
-            "Wait it out until prone lands"
+            "Stiff-arm and hold the frame"
           ],
           "trap": [
-            "Release grip and turtle up"
+            "Straighten arm to ease pressure"
           ]
         }
       },
@@ -598,11 +598,11 @@
         "answer_line": "Body weight pins arm, no space",
         "distractors": {
           "plausible": [
-            "Grip is too strong to slide",
-            "Wrong elbow angle for it"
+            "It only works with a gi grip",
+            "Needs both hands free to spin"
           ],
           "trap": [
-            "Try it faster before pinch lands"
+            "Spin the arm anyway and hold"
           ]
         }
       },
@@ -610,14 +610,14 @@
         "question": "How should you bridge when defending against the established belly-down armbar?",
         "answer": "Bridge laterally toward the trapped arm side rather than directly upward. Bridging up feeds energy into the attacker's downward pressure system and can accelerate arm extension by lifting the elbow into their hip fulcrum. Bridging laterally creates rotation that may shift the attacker off your arm and disrupt their knee pinch. However, if the prone position is fully established with tight control, bridging alone is unlikely to create escape and you should prioritize tapping safely over continued resistance.",
         "safety_critical": true,
-        "answer_line": "Bridge laterally, not straight up",
+        "answer_line": "Bridge sideways toward the arm",
         "distractors": {
           "plausible": [
-            "Bridge straight up hard",
-            "Hold still and wait to tap"
+            "Shrimp your hips away from them",
+            "Kick your legs for momentum"
           ],
           "trap": [
-            "Bridge up to lift the elbow"
+            "Bridge straight up into their hips"
           ]
         }
       }

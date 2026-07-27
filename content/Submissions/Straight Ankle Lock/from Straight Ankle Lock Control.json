@@ -306,7 +306,7 @@
             "Blade against heel bone"
           ],
           "trap": [
-            "Twist forearm for rotation"
+            "Torque the foot sideways hard"
           ]
         }
       },
@@ -318,10 +318,10 @@
         "distractors": {
           "plausible": [
             "Crank pressure through it",
-            "Switch to opposite leg entirely"
+            "Slide the fulcrum to the calf"
           ],
           "trap": [
-            "Release grip to reposition foot"
+            "Open the legs to re-grip"
           ]
         }
       },
@@ -332,11 +332,11 @@
         "answer_line": "Hip extension, arch, wrist rotation",
         "distractors": {
           "plausible": [
-            "Arm pull, leg squeeze, lean back",
-            "Knee squeeze, wrist pull, lean"
+            "Pull with both arms and sit up",
+            "Squeeze knees, then roll sideways"
           ],
           "trap": [
-            "Explosive jerk to hyperextend"
+            "Jerk the hips to snap it fast"
           ]
         }
       },
@@ -347,11 +347,11 @@
         "answer_line": "Align hips, lock legs, clamp foot",
         "distractors": {
           "plausible": [
-            "Trap foot then extend hips",
-            "Secure forearm, then adjust hips"
+            "Grip the foot, then extend hips",
+            "Squeeze knees and lean back"
           ],
           "trap": [
-            "Skip setup, bridge immediately"
+            "Bridge before control is set"
           ]
         }
       },
@@ -362,11 +362,11 @@
         "answer_line": "10-15 sec, then follow reaction",
         "distractors": {
           "plausible": [
-            "5 seconds, then release entirely",
-            "30 seconds before switching"
+            "Bail at the first grip fight",
+            "Hold a full 30 seconds"
           ],
           "trap": [
-            "Keep grinding past 20 seconds"
+            "Grind on till they free the leg"
           ]
         }
       },
@@ -389,14 +389,14 @@
         "question": "What injury risks are specific to the straight ankle lock and how does application speed affect them?",
         "answer": "The primary risks are Achilles tendon strain or rupture (high severity, 3-6 month recovery), ankle ligament sprains (medium severity, 2-6 weeks), and tibialis anterior tendon damage (medium severity, 3-6 weeks). Explosive or jerking application dramatically increases injury severity because the tendon and ligaments cannot absorb sudden force spikes the way they can manage progressive loading. Slow progressive application gives the defender adequate time to recognize pressure depth and tap before structural damage occurs, which is why training speed must always allow a 3-5 second pressure window.",
         "safety_critical": true,
-        "answer_line": "Achilles rupture; slow it down",
+        "answer_line": "Achilles rupture; apply slowly",
         "distractors": {
           "plausible": [
-            "Knee ligament tear; go steady",
-            "Ankle fracture; apply quickly"
+            "Ligament sprain only; low risk",
+            "Calf strain; heals in days"
           ],
           "trap": [
-            "Jerk fast for a clean tap"
+            "Jerk it fast for a clean tap"
           ]
         }
       },
@@ -419,11 +419,11 @@
         "question": "What is the absolute minimum time you should take to apply pressure when finishing an Achilles Lock in training?",
         "answer": "The absolute minimum is 3-5 seconds of progressive pressure from initial tension to full extension. This gives your training partner adequate time to recognize the submission and tap safely before any damage occurs to the Achilles tendon or ankle ligaments. In training, you should prioritize safety over speed and apply pressure even more slowly when working with newer partners.",
         "safety_critical": true,
-        "answer_line": "3-5 seconds minimum",
+        "answer_line": "3-5 seconds of progressive pressure",
         "distractors": {
           "plausible": [
             "1-2 seconds is enough",
-            "10+ seconds always safer"
+            "No set minimum, just feel it"
           ],
           "trap": [
             "Snap it on instantly"
@@ -441,7 +441,7 @@
             "High on the calf muscle"
           ],
           "trap": [
-            "Anywhere along the shin bone"
+            "Twist the foot to force a tap"
           ]
         }
       },
@@ -452,11 +452,11 @@
         "answer_line": "Hip extension, lean back, fulcrum",
         "distractors": {
           "plausible": [
-            "Arm bar, hip escape, grip break",
-            "Knee squeeze, toe point, twist"
+            "Squeeze knees and pull the heel",
+            "Press the shin and sit forward"
           ],
           "trap": [
-            "Sudden yank and hard jerk"
+            "Yank the leg to snap it fast"
           ]
         }
       },
@@ -467,11 +467,11 @@
         "answer_line": "Squeeze knees, seal the gap",
         "distractors": {
           "plausible": [
-            "Release control, reset guard",
-            "Switch grips to the far leg"
+            "Pull harder on the foot grip",
+            "Extend hips to finish faster"
           ],
           "trap": [
-            "Let the gap open, reposition"
+            "Open the legs and let it slide"
           ]
         }
       },
@@ -479,14 +479,14 @@
         "question": "Why must the opponent's toes be pointed toward you (not turned outward) for an effective Achilles Lock?",
         "answer": "The toes must point toward you because this foot alignment exposes the Achilles tendon to direct pressure from your fulcrum point. If the foot turns outward (external rotation), the Achilles tendon rotates away from the pressure point and the compression moves to the side of the ankle instead. This not only makes the submission ineffective but also changes the injury mechanics. Proper foot alignment is essential for both technique effectiveness and controlled application of pressure to the intended target area.",
         "safety_critical": false,
-        "answer_line": "Keeps Achilles under pressure",
+        "answer_line": "Aligns Achilles with the fulcrum",
         "distractors": {
           "plausible": [
-            "Toes out gives a tighter grip",
-            "Toes in protects your own wrist"
+            "Turned out grips the heel better",
+            "Pointing in guards your wrist"
           ],
           "trap": [
-            "Toe rotation doesn't matter"
+            "Crank it with the foot turned out"
           ]
         }
       },
@@ -494,14 +494,14 @@
         "question": "What should you do immediately after your training partner taps to an Achilles Lock?",
         "answer": "Immediately release hip extension and return your hips to the mat to remove all breaking pressure. Maintain leg control but eliminate pressure from the ankle. Then slowly open your guard and release the leg in a controlled manner - never drop it suddenly. Verbally check with your partner before resuming training to ensure they're okay. This controlled release protocol prevents additional injury and maintains a safe training environment.",
         "safety_critical": true,
-        "answer_line": "Release pressure, then open slowly",
+        "answer_line": "Kill pressure, then release slow",
         "distractors": {
           "plausible": [
-            "Hold pressure, ask if okay",
-            "Keep gripping until they nod"
+            "Let go and walk away silently",
+            "Roll straight into the next round"
           ],
           "trap": [
-            "Drop the leg suddenly"
+            "Hold pressure through the tap"
           ]
         }
       },
@@ -512,11 +512,11 @@
         "answer_line": "Chain to heel hook or toe hold",
         "distractors": {
           "plausible": [
-            "Reset ankle lock grip harder",
-            "Switch to armbar attack"
+            "Re-grip and squeeze harder",
+            "Wait for the knee to settle"
           ],
           "trap": [
-            "Fight the rotation, hold on"
+            "Chase rotation, lose the hooks"
           ]
         }
       },
@@ -527,11 +527,11 @@
         "answer_line": "Achilles tendon, straight pressure",
         "distractors": {
           "plausible": [
-            "Ankle ligaments via rotation",
-            "Calf muscle via compression"
+            "Ankle ligaments, rotational force",
+            "Calf muscle, squeezing force"
           ],
           "trap": [
-            "Knee joint via torque"
+            "Torque the knee to finish"
           ]
         }
       },
@@ -539,14 +539,14 @@
         "question": "At what point during the Achilles Lock finishing sequence has the opponent passed the 'point of no escape'?",
         "answer": "The point of no escape occurs when three conditions are met simultaneously: (1) Your hips are fully extended with your body creating the bow-and-arrow shape, (2) The heel is trapped deep in your armpit with the fulcrum positioned correctly on the Achilles tendon, and (3) Your knees are squeezed tightly together preventing leg extraction. Once all three conditions exist and you begin applying progressive pressure, the opponent's only option is to tap. Attempting escape at this stage risks serious injury.",
         "safety_critical": true,
-        "answer_line": "Full extension, heel & knees locked",
+        "answer_line": "All three locks set, then press",
         "distractors": {
           "plausible": [
-            "Heel trapped, pressure applied",
-            "Hips extended, grip established"
+            "Heel trapped and pressure on",
+            "Hips extended with grip set"
           ],
           "trap": [
-            "Once foot is in armpit"
+            "Relax once the foot is in armpit"
           ]
         }
       },
@@ -584,14 +584,14 @@
         "question": "What specific injury can result from combining twisting or rotational pressure with an Achilles Lock, and why is this prohibited in training?",
         "answer": "Combining rotation with an Achilles Lock can cause spiral fractures of the tibia or fibula, as well as severe damage to the ankle mortise joint where the leg bones meet the foot. The Achilles Lock is designed to apply straight-line compression - adding rotation transforms it into a hybrid attack that simultaneously stresses multiple structures with unpredictable injury mechanics. This combination is prohibited because the injury mechanism becomes unclear, making it impossible for the defender to know when to tap before damage occurs.",
         "safety_critical": true,
-        "answer_line": "Spiral fracture; mechanism unclear",
+        "answer_line": "Spiral fracture of tibia or fibula",
         "distractors": {
           "plausible": [
-            "Achilles rupture; too much force",
-            "Ligament tear; slows the tap"
+            "Only a strained Achilles tendon",
+            "Minor ankle sprain, low risk"
           ],
           "trap": [
-            "Add twist for a faster tap"
+            "Add a twist for a faster tap"
           ]
         }
       }
@@ -752,11 +752,11 @@
         "answer_line": "Maximizes leverage, exposes knee",
         "distractors": {
           "plausible": [
-            "Wastes energy, tires you out",
-            "Signals surrender to opponent"
+            "It only slows your bridge",
+            "It just tires the trapped leg"
           ],
           "trap": [
-            "Straighten to power out fast"
+            "Straighten hard to rip free"
           ]
         }
       },
@@ -797,11 +797,11 @@
         "answer_line": "Drives tendon into the fulcrum",
         "distractors": {
           "plausible": [
-            "Wastes your grip strength",
-            "Signals the tap too early"
+            "It only tires your hamstring",
+            "It breaks your own hand grips"
           ],
           "trap": [
-            "Yank straight out immediately"
+            "Rip the leg out with force"
           ]
         }
       },
@@ -812,11 +812,11 @@
         "answer_line": "Sit up, drive forward, rotate knee",
         "distractors": {
           "plausible": [
-            "Pull knee to chest and wait",
-            "Grip fight for the far arm"
+            "Kick free leg to break the grip",
+            "Flatten your back and stall"
           ],
           "trap": [
-            "Lean back to create space"
+            "Lean back and extend your hips"
           ]
         }
       },
@@ -827,11 +827,11 @@
         "answer_line": "Escapes lock, exposes to heel hook",
         "distractors": {
           "plausible": [
-            "Frees the leg with no downside",
-            "Only works against beginners"
+            "Breaks their grip, costs you time",
+            "Hides the foot, slows their finish"
           ],
           "trap": [
-            "Rotate hard and stop defending"
+            "Rotate outward and extend the leg"
           ]
         }
       },

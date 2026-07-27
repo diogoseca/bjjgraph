@@ -363,14 +363,14 @@
       {
         "question": "Your opponent abandons the inversion and starts coming up aggressively after your sprawl—how do you capitalize?",
         "answer": "As they transition from inverted to upright, there is a vulnerable window where their base is compromised and head position is exposed. If they drive forward with head down, snap down to a front headlock to capitalize on their poor posture. If they come up to seated guard, re-engage with a standing pass like toreando or bull fighter while they are still establishing grips.",
-        "answer_line": "Snap headlock or toreando pass",
+        "answer_line": "Snap to front headlock or pass",
         "distractors": {
           "plausible": [
             "Pull guard and reset",
-            "Shoot a double leg takedown"
+            "Stand up and disengage"
           ],
           "trap": [
-            "Dive for a leg lock instead"
+            "Dive for a heel hook"
           ]
         }
       }

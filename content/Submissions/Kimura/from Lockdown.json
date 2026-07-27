@@ -290,7 +290,7 @@
             "Wrist and forearm"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank the neck to force the tap"
           ]
         }
       },
@@ -316,11 +316,11 @@
         "answer_line": "Collapses base, exposes arm",
         "distractors": {
           "plausible": [
-            "Makes figure-four grip tighter",
-            "Prevents opponent from breathing"
+            "Tightens the figure-four grip",
+            "Sets up a deep half entry"
           ],
           "trap": [
-            "Skip it, grip is stronger anyway"
+            "Skip it and grab the wrist first"
           ]
         }
       },
@@ -331,11 +331,11 @@
         "answer_line": "Pulse grip, elbow pinned tight",
         "distractors": {
           "plausible": [
-            "Force one big explosive rotation",
-            "Release and re-grip immediately"
+            "One explosive crank to break it",
+            "Let go and reset the figure-four"
           ],
           "trap": [
-            "Muscle through with pure strength"
+            "Sit up and chase the arm"
           ]
         }
       },
@@ -346,11 +346,11 @@
         "answer_line": "Grip locked, wrist past midline",
         "distractors": {
           "plausible": [
-            "Lockdown legs first locked in",
+            "Lockdown legs are secured",
             "Opponent's shoulder starts hurting"
           ],
           "trap": [
-            "Once you start the rotation"
+            "Crank before the elbow is pinned"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Monkey grip higher on forearm",
         "distractors": {
           "plausible": [
-            "Grip the fingers instead",
-            "Switch hands mid-rotation"
+            "Squeeze harder with one hand",
+            "Reach for the elbow crease"
           ],
           "trap": [
-            "Rotate faster to compensate"
+            "Grab their fingers to hold on"
           ]
         }
       },
@@ -377,10 +377,10 @@
         "distractors": {
           "plausible": [
             "Release lockdown legs first",
-            "Let arm spring back naturally"
+            "Let go of everything at once"
           ],
           "trap": [
-            "Hold briefly to confirm the tap"
+            "Hold two seconds to confirm tap"
           ]
         }
       },
@@ -391,8 +391,8 @@
         "answer_line": "Opposing forces multiply pressure",
         "distractors": {
           "plausible": [
-            "Both forces pull same direction",
-            "Lockdown grip loosens for finish"
+            "Both vectors push the same way",
+            "Hips stay square and still"
           ],
           "trap": [
             "Release lockdown to finish faster"
@@ -406,11 +406,11 @@
         "answer_line": "Set up Kimura via sweep threats",
         "distractors": {
           "plausible": [
-            "Attack Kimura directly first",
+            "Attack the arm directly first",
             "Finish immediately from bottom"
           ],
           "trap": [
-            "Ignore sweep, force grip early"
+            "Open the guard to crank harder"
           ]
         }
       },
@@ -425,7 +425,7 @@
             "Rotating the wrist too slowly"
           ],
           "trap": [
-            "Releasing lockdown to posture up"
+            "Open lockdown to hip escape"
           ]
         }
       }
@@ -550,11 +550,11 @@
         "answer_line": "Overhook sliding toward wrist",
         "distractors": {
           "plausible": [
-            "Opponent reaches for underhook",
-            "Opponent grabs your collar"
+            "They dig for the underhook",
+            "They grab your collar"
           ],
           "trap": [
-            "Opponent posts hand on the mat"
+            "Extend lockdown and ignore it"
           ]
         }
       },
@@ -565,8 +565,8 @@
         "answer_line": "Tap early, hands or feet or voice",
         "distractors": {
           "plausible": [
-            "Wait until pain becomes severe",
-            "Try to verbally negotiate first"
+            "Tap once quietly on the mat",
+            "Only tap with your free hand"
           ],
           "trap": [
             "Fight through to find an escape"
@@ -577,14 +577,14 @@
         "question": "What defensive options are available at each stage of the Kimura from Lockdown attack?",
         "answer": "During the posture-break stage, fight to maintain posture and prevent the overhook by keeping elbows tight. During the grip-transition stage, immediately clasp hands together to prevent wrist isolation. During the hip-escape stage, drive weight forward to deny the finishing angle. During the rotation stage, roll toward the Kimura to relieve pressure and create a scramble. Throughout all stages, work on extracting the trapped leg from the lockdown, as this removes the control foundation that makes every other defense harder.",
         "safety_critical": false,
-        "answer_line": "Match defense to attack stage",
+        "answer_line": "Posture, clasp, drive, roll toward",
         "distractors": {
           "plausible": [
-            "Always roll away from Kimura",
-            "Fight grip only, ignore legs"
+            "Clasp hands and hold every stage",
+            "Ignore grips, work the legs only"
           ],
           "trap": [
-            "Posture up hard from the start"
+            "Roll away from the Kimura side"
           ]
         }
       },

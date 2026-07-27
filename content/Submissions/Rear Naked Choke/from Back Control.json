@@ -324,7 +324,7 @@
             "Attack their bottom-hand fingers"
           ],
           "trap": [
-            "Force the wrist through by strength"
+            "Turn to face them, lose the back"
           ]
         }
       },
@@ -377,14 +377,14 @@
         "question": "How should you release the rear naked choke after your partner taps, and what monitoring is required?",
         "answer": "Upon receiving any tap signal, immediately release the choking arm and remove all pressure from the neck. Release hooks or body triangle to free your partner's body. Gently guide them to a side-lying recovery position rather than letting them collapse face-down. Monitor their consciousness and breathing for at least thirty seconds. If they lost consciousness, keep them lying on their side, do not allow them to stand, and wait until they are fully alert and oriented before allowing any further activity. If consciousness does not return within fifteen seconds, seek immediate medical assistance.",
         "safety_critical": true,
-        "answer_line": "Release, side-lying, watch 30s",
+        "answer_line": "Release, side-lying, monitor 30s",
         "distractors": {
           "plausible": [
-            "Let them lie face-down to rest",
-            "Release then walk away immediately"
+            "Release then walk away at once",
+            "Sit them upright immediately"
           ],
           "trap": [
-            "Keep hooks in until they're alert"
+            "Leave them lying face-down"
           ]
         }
       },
@@ -411,7 +411,7 @@
         "distractors": {
           "plausible": [
             "Hooks just help you balance",
-            "Triangle is only for scoring"
+            "Triangle just adds arm strength"
           ],
           "trap": [
             "Release hooks to focus arm squeeze"
@@ -443,7 +443,7 @@
             "Both generate equal pressure"
           ],
           "trap": [
-            "Squeeze biceps as hard as possible"
+            "Lean back, open the chest gap"
           ]
         },
         "answer_line": "Chest expansion, not bicep squeeze"

@@ -240,10 +240,10 @@
         "distractors": {
           "plausible": [
             "Wait until they fully settle",
-            "Attack before lock is secured"
+            "Attack before you clinch up"
           ],
           "trap": [
-            "Let them set their base first"
+            "Stall until they take your back"
           ]
         }
       },
@@ -281,11 +281,11 @@
         "answer_line": "Gable grip below the navel",
         "distractors": {
           "plausible": [
-            "Gable grip at the sternum",
+            "S-grip up at the sternum",
             "Interlocked fingers, loose wrists"
           ],
           "trap": [
-            "Grip high on the ribs"
+            "Grip so high they duck under"
           ]
         }
       },
@@ -295,11 +295,11 @@
         "answer_line": "Angle laterally off the sprawl",
         "distractors": {
           "plausible": [
-            "Power through the sprawl",
-            "Release and reshoot"
+            "Stand up and disengage",
+            "Pull them into your guard"
           ],
           "trap": [
-            "Keep driving straight forward"
+            "Bull forward into a guillotine"
           ]
         }
       },
@@ -323,11 +323,11 @@
         "answer_line": "After mat contact, on crossface",
         "distractors": {
           "plausible": [
-            "Right as they hit the mat",
-            "Once side control looks secure"
+            "The instant they land",
+            "During the drive to steer them"
           ],
           "trap": [
-            "Release early to posture up"
+            "Let go early to posture up"
           ]
         }
       },
@@ -337,11 +337,11 @@
         "answer_line": "Follow their sit, keep the lock",
         "distractors": {
           "plausible": [
-            "Release grip, posture to pass",
-            "Stop and reset to standing"
+            "Posture up and pass the guard",
+            "Reset back to standing"
           ],
           "trap": [
-            "Let go and step back"
+            "Rush in and get triangled"
           ]
         }
       }
@@ -514,11 +514,11 @@
         "answer_line": "Hand fight to break their grip",
         "distractors": {
           "plausible": [
-            "Immediately shoot a takedown",
-            "Push away and reset distance"
+            "Shoot a double-leg right away",
+            "Push off and reset to neutral"
           ],
           "trap": [
-            "Release your own grip first"
+            "Stand up in their body lock"
           ]
         }
       }

@@ -463,11 +463,11 @@
         "answer_line": "Hook behind the knee, stay bent",
         "distractors": {
           "plausible": [
-            "Increase boot pressure only",
-            "Switch grips to underhook"
+            "Grab the ankle with both hands",
+            "Rely on chest pressure alone"
           ],
           "trap": [
-            "Allow the leg to fully extend"
+            "Unlock your legs to regrip the foot"
           ]
         }
       },
@@ -865,8 +865,8 @@
         "answer_line": "Tuck chin, fight the grip",
         "distractors": {
           "plausible": [
-            "Flatten out to reduce rotation",
-            "Grab their far leg"
+            "Grab their far leg",
+            "Extend your legs to slip out"
           ],
           "trap": [
             "Let hips flatten to the mat"
@@ -879,8 +879,8 @@
         "answer_line": "Bend knee, extract, or roll",
         "distractors": {
           "plausible": [
-            "Straighten leg to relieve pressure",
-            "Push through to stand up"
+            "Straighten leg to ease pressure",
+            "Roll backward away from them"
           ],
           "trap": [
             "Never tap, push through pain"
@@ -894,10 +894,10 @@
         "distractors": {
           "plausible": [
             "Hold breath and explode out",
-            "Panic-scramble immediately"
+            "Quick shallow breaths, stay tense"
           ],
           "trap": [
-            "Burn energy fighting everything"
+            "Thrash wildly until something gives"
           ]
         }
       },
@@ -907,8 +907,8 @@
         "answer_line": "When their control point breaks",
         "distractors": {
           "plausible": [
-            "As soon as truck is applied",
-            "Only after tapping once"
+            "As soon as the truck locks in",
+            "Only once you're fully flattened"
           ],
           "trap": [
             "Explode out under full control"
@@ -921,8 +921,8 @@
         "answer_line": "Hips elevated, chin tucked",
         "distractors": {
           "plausible": [
-            "Flatten hips for stability",
-            "Let torso rotate freely"
+            "Let torso rotate freely",
+            "Post both hands on the mat"
           ],
           "trap": [
             "Stay completely flat"
@@ -957,11 +957,11 @@
       "answer": "The truck is a perpendicular back-side position where one leg is trapped in a figure-four while a boot presses against the opponent's hip. The controlling player sits behind and across the opponent's back rather than squared up, linking the entangled lower body and exposed back as dual control points. This leg-in-front-of-hip geometry and perpendicular angle distinguish the truck from ordinary back control, where both hooks sit symmetrically inside the hips. The figure-four immobilizes the trapped leg independently of the hips, giving the position its signature dual-plane threat.",
       "distractors": {
         "plausible": [
-          "Both hooks symmetrical inside hips",
-          "Squared up chest to chest"
+          "Symmetric hooks like back control",
+          "Chest squared to their spine"
         ],
         "trap": [
-          "Both legs hooked like back control"
+          "Face them square, no entanglement"
         ]
       },
       "answer_line": "Perpendicular, boot on hip, leg trap"
@@ -1014,8 +1014,8 @@
       "answer_line": "One leg trapped, not both hooks",
       "distractors": {
         "plausible": [
-          "Both hooks symmetric like truck",
-          "Chest parallel like back control"
+          "Chest stays parallel to the back",
+          "Two inside grips pin the hips"
         ],
         "trap": [
           "Truck is just deep back control"
@@ -1028,11 +1028,11 @@
       "answer_line": "Perpendicular maximizes leverage",
       "distractors": {
         "plausible": [
-          "Parallel angle adds leg attacks",
-          "Alignment doesn't affect leverage"
+          "Parallel drift boosts leg attacks",
+          "Angle only matters for chokes"
         ],
         "trap": [
-          "Square up to stabilize position"
+          "Square your chest to their back"
         ]
       }
     },
@@ -1042,11 +1042,11 @@
       "answer_line": "Rotation fuels the twister",
       "distractors": {
         "plausible": [
-          "Rotation only affects the legs",
-          "More rotation always helps defense"
+          "Torque only loads the lower body",
+          "Staying square feeds the choke"
         ],
         "trap": [
-          "Encourage rotation to escape"
+          "Roll through to spin free"
         ]
       }
     },
@@ -1056,11 +1056,11 @@
       "answer_line": "Turtle entry, back control exit",
       "distractors": {
         "plausible": [
-          "Mount entry, guard exit",
-          "Side control entry, mount exit"
+          "Mount entry, side control exit",
+          "Crab ride is the main exit"
         ],
         "trap": [
-          "Closed guard is the natural exit"
+          "Fall to closed guard to finish"
         ]
       }
     }

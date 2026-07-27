@@ -358,11 +358,11 @@
         "answer_line": "Stop pressure, ease off slowly",
         "distractors": {
           "plausible": [
-            "Stop pressure, skip the check-in",
+            "Let go and step away at once",
             "Release grip fast, no easing"
           ],
           "trap": [
-            "Keep light pressure after the tap"
+            "Keep light pressure after tap"
           ]
         }
       },
@@ -400,14 +400,14 @@
         "question": "Describe the optimal body angle when attacking the Kimura from turtle and explain why this positioning is superior to attacking from directly behind the opponent?",
         "answer": "The optimal body angle is approximately 45-90 degrees perpendicular to the opponent's torso, rather than directly behind them. This perpendicular positioning provides several advantages: (1) Better access to thread your arm under theirs and establish the figure-four grip; (2) Superior leverage for applying rotational pressure to the shoulder; (3) Better ability to prevent them from rolling forward or standing up to escape; (4) Easier to maintain chest-to-shoulder contact throughout the submission; (5) Creates better angle for using body weight and hip pressure to control their posture. Attacking from directly behind makes grip establishment difficult, reduces leverage, and allows opponent to easily roll forward or stand to escape.",
         "safety_critical": false,
-        "answer_line": "45-90 degree perpendicular angle",
+        "answer_line": "45-90° perpendicular to torso",
         "distractors": {
           "plausible": [
-            "Directly behind for full control",
-            "Flat angle parallel to their spine"
+            "Square up facing their hips",
+            "Chest flat over their spine"
           ],
           "trap": [
-            "Attack straight from the back"
+            "Reach across for the far arm"
           ]
         }
       },
@@ -418,11 +418,11 @@
         "answer_line": "Strip grip, add pressure not force",
         "distractors": {
           "plausible": [
-            "Force through with more strength",
-            "Switch straight to armlock"
+            "Wait for them to tire out",
+            "Abandon and switch to armlock"
           ],
           "trap": [
-            "Crank hard to break the grip"
+            "Crank explosively to snap grip"
           ]
         }
       },
@@ -448,11 +448,11 @@
         "answer_line": "Follow roll, keep grip and chest",
         "distractors": {
           "plausible": [
-            "Stop the roll, reset from scratch",
-            "Release grip, chase new position"
+            "Let go and take the back",
+            "Freeze up and stop moving"
           ],
           "trap": [
-            "Fight the roll, stay static"
+            "Brace stiff against momentum"
           ]
         }
       },
@@ -645,14 +645,14 @@
         "question": "What is the single most important preventive action to avoid the Kimura from turtle before it begins?",
         "answer": "The most important preventive action is keeping your elbows tight to your ribs and knees throughout the turtle position, never extending or posting with a straight arm when an opponent is at your side. The Kimura requires the attacker to thread their arm underneath yours, which is only possible when your elbow separates from your body. By maintaining a tight defensive shell with elbows glued to your sides, you deny the initial access needed for the figure-four grip. This is far more effective than any late-stage escape because it prevents the submission from ever developing.",
         "safety_critical": false,
-        "answer_line": "Keep elbows glued to ribs always",
+        "answer_line": "Keep elbows glued to ribs",
         "distractors": {
           "plausible": [
-            "Post straight arm to frame early",
-            "Turtle tighter only when attacked"
+            "Widen your base for stability",
+            "Only tighten up once grabbed"
           ],
           "trap": [
-            "Post on the mat with a flat arm"
+            "Post a straight arm to the mat"
           ]
         }
       },
@@ -667,7 +667,7 @@
             "Push attacker's hips off first"
           ],
           "trap": [
-            "Yank arm free before they set grip"
+            "Rip the trapped arm straight out"
           ]
         }
       },
@@ -675,14 +675,14 @@
         "question": "Why should you roll toward the trapped arm side rather than away from it when escaping the Kimura from turtle?",
         "answer": "Rolling toward the trapped arm side is biomechanically correct because it reduces the Kimura's rotational angle and disrupts the attacker's leverage. The Kimura works by rotating your forearm toward your lower back, driving your wrist behind you (internal rotation) - rolling toward the trapped arm moves your body in the same direction as the lock's force, taking the slack out of the rotation and neutralizing it. Rolling away from the trapped arm (toward the attacker) actually accelerates the Kimura's rotational mechanism and can cause the attacker to finish the submission during your escape attempt. The correct roll pulls the attacker over you and typically results in guard or half guard recovery where the Kimura angle is neutralized.",
         "safety_critical": true,
-        "answer_line": "Toward trapped arm, kills the angle",
+        "answer_line": "Roll toward the trapped arm",
         "distractors": {
           "plausible": [
-            "Away from arm, toward attacker",
-            "Either direction works the same"
+            "Bridge straight up and over",
+            "Direction makes no difference"
           ],
           "trap": [
-            "Roll away to build escape speed"
+            "Roll away from the trapped arm"
           ]
         }
       },

@@ -304,11 +304,11 @@
         "answer_line": "Bilateral carotid compression",
         "distractors": {
           "plausible": [
-            "Compresses trachea mainly",
-            "Only near-side carotid"
+            "Windpipe crush is the main effect",
+            "Single-side blood cutoff only"
           ],
           "trap": [
-            "Targets cervical spine"
+            "Crank the neck for spinal pressure"
           ]
         }
       },
@@ -333,14 +333,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Only verbal tap counts",
-            "Heavy sweating alone"
+            "Sweating heavily on its own",
+            "Opponent stops talking to you"
           ],
           "trap": [
-            "Keep squeezing till fully limp"
+            "Keep squeezing after they fade"
           ]
         },
-        "answer_line": "Purple face, going limp"
+        "answer_line": "Purple face, limpness, gurgling"
       },
       {
         "question": "What control must be established before attempting the arm-in guillotine finish from front headlock?",
@@ -376,14 +376,14 @@
         "question": "What is the most common error that prevents finishing the arm-in guillotine from front headlock?",
         "answer": "The most common error is gripping too shallow with the forearm positioned across the chin or jaw rather than deep against the neck structures. This produces pain and discomfort but no vascular compression, allowing the opponent to defend indefinitely. The correction is to ensure your wrist blade crosses directly over the trachea and near-side carotid artery by sliding the grip deeper before clasping your hands. If the grip is too shallow, momentarily adjust by releasing and re-entering deeper rather than forcing a finish from a poor position.",
         "safety_critical": false,
-        "answer_line": "Grip too shallow on chin",
+        "answer_line": "Forearm too shallow, across jaw",
         "distractors": {
           "plausible": [
-            "Elbow flared out wide",
-            "Clasping too far back"
+            "Clasp sits too far behind head",
+            "Head angled to wrong side"
           ],
           "trap": [
-            "Squeezing harder without adjusting"
+            "Roll to guard while grip is shallow"
           ]
         }
       },
@@ -394,11 +394,11 @@
         "answer_line": "Gaps closed, angle, hips forward",
         "distractors": {
           "plausible": [
-            "Right after initial grip",
-            "Whenever hands are clasped"
+            "Instant, as soon as hands clasp",
+            "Before the body angle is made"
           ],
           "trap": [
-            "Only when opponent stops moving"
+            "Pause to reset grip mid-finish"
           ]
         }
       },
@@ -406,14 +406,14 @@
         "question": "What safety precautions are essential when training the arm-in guillotine in the gym?",
         "answer": "Always apply pressure progressively over 3-5 seconds rather than explosively. Monitor your partner continuously for tap signals including hand taps, foot taps, verbal taps, and signs of distress. The arm-in variation can cause unconsciousness in under 5 seconds of full bilateral compression, so release immediately upon any signal. Ensure your partner's free hand is accessible for tapping. Never hold the submission after a tap, and always check your partner's alertness before resuming training.",
         "safety_critical": true,
-        "answer_line": "Apply pressure slowly, watch taps",
+        "answer_line": "Slow pressure, release on tap",
         "distractors": {
           "plausible": [
-            "Only watch verbal taps",
-            "Full speed but light grip"
+            "Ramp to full squeeze instantly",
+            "Test grip strength before class"
           ],
           "trap": [
-            "Hold choke after tap to confirm"
+            "Keep crushing after they signal"
           ]
         }
       },
@@ -424,8 +424,8 @@
         "answer_line": "Bait arm into guillotine grip",
         "distractors": {
           "plausible": [
-            "Always shoot for it first",
-            "Wait for opponent to shoot"
+            "Threaten a far-side collar tie",
+            "Jump guard to force the entry"
           ],
           "trap": [
             "Release headlock to invite shot"
@@ -577,14 +577,14 @@
         "question": "When should you tap to the arm-in guillotine to prevent injury?",
         "answer": "Tap immediately when you feel bilateral compression on both carotid arteries with no viable escape path available. Warning signs requiring immediate tap include darkening vision, ringing ears, a feeling of lightheadedness, or the sensation that the choke is fully locked with no remaining space to relieve pressure. In training, there is no benefit to waiting until the last second—the arm-in guillotine can produce unconsciousness in under 5 seconds. Tap early and learn from the position rather than risking a blackout.",
         "safety_critical": true,
-        "answer_line": "Bilateral compression, no escape",
+        "answer_line": "Both arteries sealed, no escape",
         "distractors": {
           "plausible": [
-            "Only when vision fully goes black",
-            "Wait for verbal warning"
+            "Tap only if your shoulder hurts",
+            "Wait until the ref stops it"
           ],
           "trap": [
-            "Try to power out instead"
+            "Ride it out and rip your head free"
           ]
         }
       },
@@ -607,14 +607,14 @@
         "question": "Your arm is trapped inside the guillotine and you feel increasing pressure—what is your immediate response?",
         "answer": "Immediately tuck your chin hard toward the trapped arm shoulder to reduce compression surface. Simultaneously post your free hand on the opponent's hip and drive upward to create posture while turning your entire body toward the trapped arm side. This rotational movement creates an angle where the trapped arm can begin sliding free along your neck. If posturing fails, commit to driving forward to stack the attacker and relieve the choking angle. Do not waste time on half-measures—choose your escape path and commit fully.",
         "safety_critical": false,
-        "answer_line": "Tuck chin, turn, post and drive",
+        "answer_line": "Tuck chin, turn, post for posture",
         "distractors": {
           "plausible": [
-            "Pull trapped arm straight out",
-            "Tap out preemptively always"
+            "Yank trapped arm straight out",
+            "Bridge flat onto your back"
           ],
           "trap": [
-            "Push forward into the choke"
+            "Turn away from the trapped arm"
           ]
         }
       },
@@ -629,7 +629,7 @@
             "Push chest away linearly"
           ],
           "trap": [
-            "Tense neck muscles harder"
+            "Flatten out and wait it out"
           ]
         }
       }

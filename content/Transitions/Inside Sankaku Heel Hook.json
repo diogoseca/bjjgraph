@@ -491,11 +491,11 @@
         "answer_line": "Protect heel first, then escape",
         "distractors": {
           "plausible": [
-            "Escape first, protect heel after",
-            "Strip grips before protecting heel"
+            "Break their grips before anything",
+            "Do all three at once"
           ],
           "trap": [
-            "Rush hip movement to escape now"
+            "Kick and rip your foot loose"
           ]
         }
       },
@@ -505,11 +505,11 @@
         "answer_line": "Strip the grip before it doubles",
         "distractors": {
           "plausible": [
-            "Wait and tap if rotation starts",
-            "Try to out-muscle both hands"
+            "Out-muscle the two-on-one hold",
+            "Freeze until they commit fully"
           ],
           "trap": [
-            "Turn into them to break the grip"
+            "Rip the foot free, feeding the heel"
           ]
         }
       },

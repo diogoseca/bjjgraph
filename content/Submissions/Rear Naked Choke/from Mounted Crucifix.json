@@ -304,11 +304,11 @@
         "answer_line": "Both carotids via forearm and bicep",
         "distractors": {
           "plausible": [
-            "Trachea pressure causes the tapout",
-            "Only the near-side carotid matters"
+            "Air is cut off, not blood",
+            "Only the near-side artery matters"
           ],
           "trap": [
-            "Push head back to increase pressure"
+            "Crank the neck back to force a tap"
           ]
         }
       },
@@ -316,14 +316,14 @@
         "question": "What makes the mounted crucifix position specifically advantageous for finishing the RNC compared to standard back control?",
         "answer": "The mounted crucifix traps one or both of the opponent's arms using the attacker's legs, eliminating the primary defensive tools that make the standard RNC difficult to finish. From back control, the defender uses both hands for grip fighting, chin protection, and frame creation. From mounted crucifix, those hands are neutralized, allowing the attacker to thread the choking arm with minimal resistance. Additionally, the mount's gravitational weight advantage adds chest compression that augments the choke's effectiveness while preventing explosive escape movements.",
         "safety_critical": false,
-        "answer_line": "Trapped arms remove all defenses",
+        "answer_line": "Legs trap arms, killing hand defense",
         "distractors": {
           "plausible": [
-            "Mount weight alone finishes fast",
-            "Back control grips still work fine"
+            "Mount pressure alone finishes it",
+            "Chin tuck is impossible here"
           ],
           "trap": [
-            "Ignore arm trap, rush the choke"
+            "Release the arm trap to squeeze"
           ]
         }
       },
@@ -331,14 +331,14 @@
         "question": "Your opponent maintains a strong chin tuck that prevents you from sliding the choking arm beneath their chin - what adjustments should you make?",
         "answer": "First, use your free hand to cross-face the opponent, turning their head away from the choking-arm side to create an opening along the exposed neck. If the chin remains tucked, apply the choking arm over the chin and use jaw pressure to force the opening. You can also shift your hips slightly to angle the choking arm's entry from a different direction. If chin defense remains absolute, switch to alternative attacks like the armbar on a trapped arm, which forces them to address a different threat and often opens the neck on the subsequent attempt.",
         "safety_critical": false,
-        "answer_line": "Cross-face to turn head away",
+        "answer_line": "Cross-face to turn the head away",
         "distractors": {
           "plausible": [
-            "Force chin open with more strength",
-            "Switch straight to armbar attack"
+            "Wait for them to tire and relax",
+            "Pull down on the crown of the head"
           ],
           "trap": [
-            "Yank the choking arm under chin"
+            "Abandon crucifix to fix the grip"
           ]
         }
       },
@@ -364,11 +364,11 @@
         "answer_line": "Secure crucifix with arm trapped",
         "distractors": {
           "plausible": [
-            "Any crucifix grip is good enough",
-            "Choke first, secure position after"
+            "Any leg position works once mounted",
+            "Chest weight alone stops bridging"
           ],
           "trap": [
-            "Rush choke before base is tested"
+            "Let knees open to reach the neck"
           ]
         }
       },
@@ -379,11 +379,11 @@
         "answer_line": "Tap when figure-four grip locks",
         "distractors": {
           "plausible": [
-            "Tap only once squeeze feels tight",
-            "Wait for full squeeze before tap"
+            "Bridge hard to create space",
+            "Peel the choking arm off"
           ],
           "trap": [
-            "Squeeze explosively once locked"
+            "Ride it out to build tolerance"
           ]
         }
       },
@@ -394,11 +394,11 @@
         "answer_line": "Deep neck grip, hand behind head",
         "distractors": {
           "plausible": [
-            "Grip across the jaw is fine too",
-            "Locking hand goes on top of head"
+            "Blade across the jaw works too",
+            "Locking hand rests on top of head"
           ],
           "trap": [
-            "Grip past the far shoulder for reach"
+            "Release the arm trap to dig deeper"
           ]
         }
       },
@@ -409,11 +409,11 @@
         "answer_line": "Finish fast or re-secure the trap",
         "distractors": {
           "plausible": [
-            "Always finish choke immediately",
-            "Always reset to crucifix first"
+            "Squeeze harder to stop the escape",
+            "Sit up tall to chase the loose arm"
           ],
           "trap": [
-            "Keep half-committed choke going"
+            "Hold a half-locked choke and hope"
           ]
         }
       },
@@ -424,11 +424,11 @@
         "answer_line": "Release instantly, then monitor",
         "distractors": {
           "plausible": [
-            "Release slowly to ease the tap",
-            "Add one more second of pressure"
+            "Hold weight until they recover",
+            "Roll away and start next round"
           ],
           "trap": [
-            "Let them stand up right away"
+            "Add a second of pressure post-tap"
           ]
         }
       },
@@ -436,14 +436,14 @@
         "question": "In competition, what finishing strategies maximize the success rate of the RNC from mounted crucifix?",
         "answer": "In competition, capitalize on the opponent's urgency to escape by timing the choke entry during their explosive escape attempts, when their neck is most exposed from movement. Apply the choke with deliberate speed - fast enough to secure before the opponent can establish a defensive structure, but controlled enough to achieve proper placement on the carotid arteries. If chin tuck prevents entry, use over-chin jaw pressure to force a response. Chain the choke threat with armbar attempts to create dilemmas - opponents defending the neck expose arms, and those protecting arms expose the neck.",
         "safety_critical": false,
-        "answer_line": "Chain choke and armbar threats",
+        "answer_line": "Time entry to their escape bursts",
         "distractors": {
           "plausible": [
-            "Go max speed, skip proper placement",
-            "Only attack during scrambles"
+            "Stall until the clock runs down",
+            "Muscle it as soon as you mount"
           ],
           "trap": [
-            "Force choke through hard chin tuck"
+            "Give up the arm trap to hunt grips"
           ]
         }
       }
@@ -589,11 +589,11 @@
         "answer_line": "Choke finishes in 4-10 seconds",
         "distractors": {
           "plausible": [
-            "You'll feel dizzy before out",
-            "Tap once jaw pressure starts"
+            "Dizziness warns you before out",
+            "Bridging buys time to breathe"
           ],
           "trap": [
-            "Fight the grip with free hands"
+            "Ride it out to test your defense"
           ]
         }
       },
@@ -601,14 +601,14 @@
         "question": "How do you create escape opportunities by timing your explosive bridge to the attacker's movements?",
         "answer": "The attacker must release positional control to transition their hands toward the choking position. This creates brief windows where their base is compromised - typically 1-2 seconds during each hand transition. Time your explosive bridge to coincide with these moments, particularly when the attacker lifts weight to thread the choking arm. The key is patience: one well-timed explosive bridge during a balance vulnerability succeeds where ten untimed bridges against stable base fail.",
         "safety_critical": false,
-        "answer_line": "Bridge when hands transition",
+        "answer_line": "Bridge when their hands transition",
         "distractors": {
           "plausible": [
-            "Bridge continuously the whole time",
-            "Wait for the choke to lock first"
+            "Bridge nonstop until they slip",
+            "Bridge only once they settle in"
           ],
           "trap": [
-            "Bridge hardest against stable base"
+            "Wait until the choke locks in"
           ]
         }
       },
@@ -619,11 +619,11 @@
         "answer_line": "Rotate hips, angle the arm free",
         "distractors": {
           "plausible": [
-            "Extract arm anytime, ignore timing",
-            "Use pure strength against the trap"
+            "Shrug the shoulder to slip free",
+            "Straighten your body to make space"
           ],
           "trap": [
-            "Pull the arm straight out fast"
+            "Rip the arm straight out hard"
           ]
         }
       },
@@ -634,8 +634,8 @@
         "answer_line": "Turn toward the choking arm",
         "distractors": {
           "plausible": [
-            "Keep head neutral, don't turn",
-            "Turn down and tuck the chin"
+            "Keep the head square to the mat",
+            "Rock the head side to side"
           ],
           "trap": [
             "Turn away from the choking arm"

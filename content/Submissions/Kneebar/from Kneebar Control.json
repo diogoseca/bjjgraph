@@ -292,11 +292,11 @@
         "answer_line": "PCL via knee hyperextension",
         "distractors": {
           "plausible": [
-            "ACL via knee hyperextension",
-            "MCL is the primary target"
+            "ACL torn by knee rotation",
+            "MCL is the primary structure"
           ],
           "trap": [
-            "Rotational attack like heel hook"
+            "Crank fast, the knee just hinges"
           ]
         }
       },
@@ -307,11 +307,11 @@
         "answer_line": "Switch to toe hold attack",
         "distractors": {
           "plausible": [
-            "Increase pulling pressure",
-            "Transition directly to heel hook"
+            "Crank harder on the same grip",
+            "Sit back and wait them out"
           ],
           "trap": [
-            "Keep grinding for the finish"
+            "Force it till they escape and pass"
           ]
         }
       },
@@ -341,7 +341,7 @@
             "Once arm grip is secured"
           ],
           "trap": [
-            "Apply fast pressure at that point"
+            "Wait until sharp pain arrives"
           ]
         }
       },
@@ -352,11 +352,11 @@
         "answer_line": "Tighten elbows, track rotation",
         "distractors": {
           "plausible": [
-            "Let foot rotate freely",
-            "Immediately switch to heel hook"
+            "Pull the foot back to center",
+            "Sit up higher for leverage"
           ],
           "trap": [
-            "Loosen grip to reposition"
+            "Release grip to reset the angle"
           ]
         }
       },
@@ -367,11 +367,11 @@
         "answer_line": "Jerking or ignoring the tap",
         "distractors": {
           "plausible": [
-            "Slow pressure without check-ins",
-            "Extending past 150 degrees"
+            "Applying pressure too slowly",
+            "Gripping the ankle too tightly"
           ],
           "trap": [
-            "Finish fast like in competition"
+            "Assume they will tap in time"
           ]
         }
       },
@@ -382,11 +382,11 @@
         "answer_line": "Redirect to nearest submission",
         "distractors": {
           "plausible": [
-            "Chase leg with arm strength",
-            "Hold on and reset grip"
+            "Muscle the leg back into place",
+            "Freeze and wait for a reset"
           ],
           "trap": [
-            "Grip harder and pull back"
+            "Fight the grip until they pass"
           ]
         }
       },
@@ -397,11 +397,11 @@
         "answer_line": "IBJJF limits reaping, ADCC allows it",
         "distractors": {
           "plausible": [
-            "Kneebars banned in IBJJF",
-            "Same rules in both formats"
+            "Legal at every IBJJF belt level",
+            "ADCC bans all knee attacks"
           ],
           "trap": [
-            "Use max reaping in IBJJF too"
+            "Reap the knee freely in IBJJF"
           ]
         }
       }
@@ -517,11 +517,11 @@
         "answer_line": "Arm wrap, hip pressure on knee",
         "distractors": {
           "plausible": [
-            "Feel grip on your ankle only",
-            "Notice legs tightening first"
+            "Weight settling on your shoulders",
+            "They grip your lapel and posture up"
           ],
           "trap": [
-            "Wait for full extension to react"
+            "React only once the leg extends"
           ]
         }
       },
@@ -532,11 +532,11 @@
         "answer_line": "Tap early, before sharp pain",
         "distractors": {
           "plausible": [
-            "Tap only after pain hits",
-            "Verbally tap only if hands trapped"
+            "Only a verbal tap counts",
+            "Pull the leg free, then tap"
           ],
           "trap": [
-            "Try to tough it out briefly"
+            "Tough it out until it pops"
           ]
         }
       },
@@ -544,14 +544,14 @@
         "question": "What defensive options are available against the kneebar from kneebar control at different stages?",
         "answer": "Early defense (before grip consolidation): fight grips, prevent arm wrap, kick leg free. Mid-stage defense (grip established but posture intact): maintain strong bent-knee position, rotate hips toward attacker to disrupt angle, use free leg to push and create distance. Late-stage defense (posture breaking): explosive extraction attempt if grip loosens, or immediate tap if leg begins straightening under force. The later the stage, the fewer options remain and the more critical timely tapping becomes.",
         "safety_critical": true,
-        "answer_line": "Fight grips, posture, then escape",
+        "answer_line": "Fight grips, keep knee bent, escape",
         "distractors": {
           "plausible": [
             "Rotate hips only, skip grip fight",
-            "Extract explosively from the start"
+            "Flatten out and stay heavy"
           ],
           "trap": [
-            "Wait passively for opponent error"
+            "Straighten the leg to slip free"
           ]
         }
       },
@@ -577,11 +577,11 @@
         "answer_line": "Time hip rotation to their pulses",
         "distractors": {
           "plausible": [
-            "Push back constantly, no timing",
-            "Wait until hamstrings fully fail"
+            "Brace stiff and hold the bend",
+            "Flatten hips and grip their belt"
           ],
           "trap": [
-            "Match their pulse rhythm passively"
+            "Let the leg straighten, then defend"
           ]
         }
       }

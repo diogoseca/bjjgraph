@@ -312,7 +312,7 @@
             "Wrist and forearm bones"
           ],
           "trap": [
-            "Cervical spine compression"
+            "Twist their neck for extra force"
           ]
         }
       },
@@ -327,7 +327,7 @@
             "Switch to armbar instead"
           ],
           "trap": [
-            "Muscle through the grip"
+            "Post both hands, lose overhook"
           ]
         }
       },
@@ -357,7 +357,7 @@
             "Hips far back for space"
           ],
           "trap": [
-            "Hips flat, rely on arm strength"
+            "Lift hips high and get swept"
           ]
         }
       },
@@ -372,7 +372,7 @@
             "Just bodyweight committed"
           ],
           "trap": [
-            "Pulling straight up hard"
+            "Let go to re-grip, lose the arm"
           ]
         }
       },
@@ -395,14 +395,14 @@
         "question": "Why must the wrist be driven in a paint-brush arc rather than pulled straight upward when finishing?",
         "answer": "The paint-brush arc toward the opponent's back and then upward attacks the rotator cuff at its weakest rotational angle, where the small stabilizer muscles have minimal mechanical advantage. Pulling straight up engages the larger deltoid and trapezius muscles at a favorable angle for the defender, allowing them to resist with significantly more force. The behind-the-back rotation also stretches the shoulder capsule in a direction that amplifies the submission pressure with less force required from the attacker.",
         "safety_critical": false,
-        "answer_line": "Arc to back, not straight up",
+        "answer_line": "Arc to their back, then up",
         "distractors": {
           "plausible": [
-            "Straight up is faster finish",
-            "Pull toward their hip"
+            "Vertical pull is faster",
+            "Arc toward their near hip"
           ],
           "trap": [
-            "Crank straight upward"
+            "Yank straight up until it pops"
           ]
         }
       },
@@ -410,14 +410,14 @@
         "question": "What are the key safety considerations when applying the Kimura from Overhook Control in training?",
         "answer": "Apply rotational pressure slowly and progressively over 3-5 seconds minimum, never jerking or spiking the submission. The shoulder joint provides very little sensory warning between discomfort and structural failure—the rotator cuff can tear before the defender feels sharp pain. Always ensure your partner has at least one hand free to tap. Release all pressure immediately upon any tap signal (verbal, hand, or foot). Return the arm to neutral position gently after release rather than letting it spring back.",
         "safety_critical": true,
-        "answer_line": "Apply slow, progressive pressure",
+        "answer_line": "Ramp pressure over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Quick sharp pressure is safer",
-            "Wait for verbal tap only"
+            "Keep both their arms pinned",
+            "Stop only when they say tap"
           ],
           "trap": [
-            "Spike pressure to end fast"
+            "Jerk the arm to force the tap"
           ]
         }
       },
@@ -425,14 +425,14 @@
         "question": "How should you release the Kimura from Overhook Control after a tap to prevent injury?",
         "answer": "Immediately stop all rotational pressure the instant you detect any tap signal. Slowly and deliberately reverse the rotation, guiding their arm back toward neutral position with controlled movement. Release the figure-four grip completely once the arm is returned to a safe angle. Do not release suddenly or allow the arm to spring back, as the sudden position change can cause secondary injury to an already stressed joint. Allow your partner time to self-assess shoulder mobility before resuming training.",
         "safety_critical": true,
-        "answer_line": "Stop, slowly reverse, then release",
+        "answer_line": "Unwind rotation, then let go",
         "distractors": {
           "plausible": [
-            "Release grip immediately",
-            "Hold position until they nod"
+            "Drop the grip the instant they tap",
+            "Hold the lock until they speak"
           ],
           "trap": [
-            "Let the arm spring back free"
+            "Fling their arm loose at the tap"
           ]
         }
       }
@@ -564,7 +564,7 @@
             "Increased leg pressure"
           ],
           "trap": [
-            "Ignore it, nothing to defend"
+            "Wait for the figure-four to lock"
           ]
         }
       },
@@ -587,14 +587,14 @@
         "question": "What defensive options are available at each stage of the Kimura from Overhook Control attack?",
         "answer": "Before the grip switch: strip the overhook armpit seal and free your arm entirely. During the grip switch: exploit the momentary control loss to retract your arm and pull guard. After figure-four establishment: pin your wrist to your hip, straighten your arm, or turn your body toward the attacker. Once rotational pressure begins: body rotation is your only option, and if pressure cannot be stopped through positioning, tap immediately. Each successive stage offers fewer and less effective defensive options.",
         "safety_critical": false,
-        "answer_line": "Defend early, options shrink",
+        "answer_line": "Strip the overhook before the lock",
         "distractors": {
           "plausible": [
-            "Wait until figure-four locks",
-            "Only rotate body, nothing else"
+            "Pull arm out once rotation starts",
+            "Break the grip with your free hand"
           ],
           "trap": [
-            "Try to power out at the finish"
+            "Muscle the arm out once locked"
           ]
         }
       },
@@ -605,11 +605,11 @@
         "answer_line": "Grip switch is weakest moment",
         "distractors": {
           "plausible": [
-            "After figure-four locks",
-            "Before overhook even applied"
+            "Once the figure-four is locked",
+            "When they raise your elbow"
           ],
           "trap": [
-            "Wait until pressure begins"
+            "Wait for pain before reacting"
           ]
         }
       },
@@ -617,14 +617,14 @@
         "question": "What is the danger of attempting to power out of the Kimura once the figure-four is fully locked?",
         "answer": "Powering out of a locked figure-four accelerates shoulder damage because you are fighting against a lever system that multiplies the attacker's force. Your arm muscles cannot overcome the mechanical advantage of their figure-four grip combined with hip rotation and bodyweight. The struggle itself applies uncontrolled forces to your rotator cuff, shoulder capsule, and labrum. Instead of powering out, use body positioning to reduce the angle, or tap immediately if the pressure is increasing and positional adjustment is not working.",
         "safety_critical": true,
-        "answer_line": "Powering out worsens the injury",
+        "answer_line": "Lever multiplies force on shoulder",
         "distractors": {
           "plausible": [
-            "Powering out if done slowly",
-            "Fight grip with opposite arm"
+            "Slow resistance is safe enough",
+            "Extra force stalls their hips"
           ],
           "trap": [
-            "Explode out with full strength"
+            "Rip the arm free at full speed"
           ]
         }
       }

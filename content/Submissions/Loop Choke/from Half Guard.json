@@ -296,11 +296,11 @@
         "answer_line": "Carotid arteries and jugular veins",
         "distractors": {
           "plausible": [
-            "Trachea and windpipe only",
-            "Just one-sided carotid pressure"
+            "Muscles of the neck",
+            "Cervical spine pressure"
           ],
           "trap": [
-            "Front of throat like air choke"
+            "The windpipe, crush it shut"
           ]
         }
       },
@@ -338,14 +338,14 @@
         "question": "Why is the sprawling hip motion more effective than arm pulling for finishing the Loop Choke from Half Guard?",
         "answer": "The sprawl uses the large muscle groups of the hips and legs to create distance between the attacker's body and the opponent's neck, and this increasing distance is what tightens the collar loop around the neck. Arm pulling alone relies on smaller muscle groups that fatigue quickly and cannot generate the sustained force needed for a clean blood choke. The sprawl creates a mechanical advantage where the attacker's entire body weight moves away from the anchor point of the collar grip, producing consistent tightening pressure that is difficult for the defender to resist. Additionally, the sprawl keeps the attacker's weight distributed properly to prevent sweeps during the finish.",
         "safety_critical": false,
-        "answer_line": "Sprawl, not arm strength",
+        "answer_line": "Hips generate sustained distance",
         "distractors": {
           "plausible": [
-            "Pulling harder with both arms",
-            "Fast arm-cranking motion"
+            "Arms give a tighter collar grip",
+            "Arm strength finishes quicker"
           ],
           "trap": [
-            "Yank the collar with both arms"
+            "Sit back cranking, get swept"
           ]
         }
       },
@@ -360,7 +360,7 @@
             "Switch straight to guillotine"
           ],
           "trap": [
-            "Rip collar through tucked chin"
+            "Sit back and muscle the collar"
           ]
         }
       },
@@ -368,14 +368,14 @@
         "question": "What should you do if the Loop Choke produces no tap within 5-6 seconds of applying full sprawl pressure?",
         "answer": "If the choke has not produced a response within 5-6 seconds of full pressure application, the collar positioning is likely incorrect and you should release the pressure, reset the technique, and return to half guard top control rather than forcing it. Continuing to apply pressure on a poorly positioned choke often means you have a shallow grip creating tracheal pressure rather than bilateral carotid compression, which is both ineffective and dangerous. Maintain the collar grip for a future attempt while returning to standard passing, or transition to a different attack. Forcing a mispositioned choke demonstrates poor technical understanding and creates unnecessary injury risk for your training partner.",
         "safety_critical": true,
-        "answer_line": "Release, reset, regrip later",
+        "answer_line": "Release, reset, return to top",
         "distractors": {
           "plausible": [
             "Switch grips mid-choke",
-            "Add second hand, keep cranking"
+            "Hold and wait for the tap"
           ],
           "trap": [
-            "Force it harder, drive through"
+            "Crank harder to force the tap"
           ]
         }
       },

@@ -288,14 +288,14 @@
       {
         "question": "Why is it important to lift with your legs rather than your back when executing the Fireman's Carry?",
         "answer": "Lifting with your legs rather than your back is essential for both safety and effectiveness. Using leg drive by straightening your knees and hips generates much more power than trying to lift with back muscles, making the technique work against larger opponents. More importantly, lifting with your back puts enormous stress on the spine and can cause serious injury, particularly when lifting and rotating simultaneously. Proper technique requires keeping the back straight and rigid while the legs provide all the lifting force.",
-        "answer_line": "Legs lift, back stays rigid",
+        "answer_line": "Drive up with the legs",
         "distractors": {
           "plausible": [
-            "Twist while lifting for power",
-            "Explode with hips and back together"
+            "Pull him up with arms and shoulders",
+            "Muscle the lift with a hard shrug"
           ],
           "trap": [
-            "Round and pull with your back"
+            "Bend at the waist and yank"
           ]
         }
       },
@@ -400,14 +400,14 @@
       {
         "question": "If the Fireman's Carry is blocked but you maintain arm control, what chain attacks become available?",
         "answer": "When the Fireman's Carry is blocked but you maintain arm control, several chain attacks become available depending on the opponent's defensive reaction. If they sprawl and lower their hips, you can transition to a single leg attack on the near leg or switch to an ankle pick. If they whizzer hard, the duck under to back take becomes available. If they drive forward to resist, a snap down to front headlock creates guillotine and choke opportunities. If they post with their free hand, the kimura grip on the controlled arm becomes an option. The key is maintaining the arm control as your anchor point while reading their defensive reaction to select the appropriate follow-up.",
-        "answer_line": "Read reaction, chain off it",
+        "answer_line": "Duck under, single leg, snap down",
         "distractors": {
           "plausible": [
-            "Always switch to double leg",
-            "Repeat the same carry attempt"
+            "Only the double leg remains open",
+            "Wait for them to break the tie"
           ],
           "trap": [
-            "Let go and reset neutral"
+            "Turn your back to spin under"
           ]
         }
       },
@@ -417,8 +417,8 @@
         "answer_line": "As they rise or step forward",
         "distractors": {
           "plausible": [
-            "After they settle into a low base",
-            "The moment you secure your grip"
+            "Once they settle into a low base",
+            "After they sprawl their hips back"
           ],
           "trap": [
             "While they snap your head down"

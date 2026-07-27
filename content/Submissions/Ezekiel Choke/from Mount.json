@@ -296,11 +296,11 @@
         "answer_line": "Bilateral carotid compression",
         "distractors": {
           "plausible": [
-            "Windpipe/tracheal crush",
-            "One-sided carotid pressure"
+            "Airway crush cuts off oxygen",
+            "Single-side carotid pressure"
           ],
           "trap": [
-            "Crush trachea for faster tap"
+            "Crank the neck sideways to finish"
           ]
         }
       },
@@ -308,14 +308,14 @@
         "question": "Your opponent begins a strong chin tuck as you position the blade forearm from mount - what adjustment ensures the choke reaches the throat?",
         "answer": "Angle the blade hand entry from the side of the neck rather than trying to drive directly over the chin. Use your sleeve-grip hand to momentarily push the jaw upward while simultaneously dropping your body weight to create a brief opening for the forearm to slide beneath the chin to the throat. From mount, you can also shift toward high mount to change the attack angle. If the chin tuck is fully established before your forearm crosses, consider transitioning to a cross collar choke or americana rather than forcing the Ezekiel against a set defense.",
         "safety_critical": false,
-        "answer_line": "Enter from side, lift chin",
+        "answer_line": "Enter from the side, lift the jaw",
         "distractors": {
           "plausible": [
-            "Force forearm straight over chin",
-            "Switch to armbar immediately"
+            "Squeeze harder with both arms",
+            "Drop chest and wait it out"
           ],
           "trap": [
-            "Yank head back by hair"
+            "Post high, pry chin, get bridged"
           ]
         }
       },
@@ -353,14 +353,14 @@
         "question": "What is the most common finishing error when applying the Ezekiel Choke from mount?",
         "answer": "The most common error is attempting to finish with arm strength alone while sitting upright, rather than dropping the head beside the opponent's head and driving body weight downward through the choking structure. An upright squeeze lacks sufficient closing force to compress both carotids simultaneously and also raises the center of gravity, making the attacker vulnerable to upa bridges. The correction is to treat the arms as the choking frame and the body mass as the closing force, committing the entire upper body forward and down through the structure.",
         "safety_critical": false,
-        "answer_line": "Drop head, weight not arms",
+        "answer_line": "Squeezing upright with arm power",
         "distractors": {
           "plausible": [
-            "Pull harder with biceps",
-            "Sit upright, squeeze tight"
+            "Sleeve grip threaded too deep",
+            "Knees set too wide for base"
           ],
           "trap": [
-            "Lean back for leverage"
+            "Leaning back to crank the neck"
           ]
         }
       },
@@ -371,11 +371,11 @@
         "answer_line": "Curl fingers, elbow to ribs",
         "distractors": {
           "plausible": [
-            "Switch to a different grip",
-            "Grip harder with fingertips"
+            "Pump the grip to reset it",
+            "Widen elbow to create slack"
           ],
           "trap": [
-            "Let go and grab the collar"
+            "Sit up to re-grip, get bridged"
           ]
         }
       },
@@ -383,14 +383,14 @@
         "question": "What specific injury risks exist when finishing the Ezekiel Choke from mount, and what signals require immediate release?",
         "answer": "The primary risks are carotid compression causing unconsciousness within four to six seconds of a fully locked choke, and tracheal damage from improper forearm angle that crushes the windpipe rather than compressing the arteries. You must release immediately upon any tap signal: hand taps on your body or the mat, foot taps, verbal indication including any distress vocalization, or sudden loss of resistance which may indicate unconsciousness. Never spike or jerk the choke. Apply progressive pressure over three to five seconds. If the defender stops resisting abruptly without tapping, assume they are losing consciousness and release all pressure immediately.",
         "safety_critical": true,
-        "answer_line": "Any tap or limp body, release",
+        "answer_line": "Blood/airway risk; release any tap",
         "distractors": {
           "plausible": [
-            "Only a verbal tap counts",
-            "Release only once they go limp"
+            "Only spoken words count as a tap",
+            "Choke is safe until 30 seconds"
           ],
           "trap": [
-            "Keep squeezing till full lock"
+            "Squeeze on until they go limp"
           ]
         }
       },
@@ -413,14 +413,14 @@
         "question": "How does the point of no escape differ between the Ezekiel Choke and a standard cross collar choke from mount?",
         "answer": "The Ezekiel reaches the point of no escape when the blade forearm fully crosses the throat, the sleeve grip closes the loop eliminating all slack, and body weight commits forward through the structure. At this stage, the defender cannot create enough force to push the forearm off with both hands because they are fighting against gravity and body weight, not just arm strength. The cross collar choke reaches its point of no escape when both collar grips are deep and the elbows flare to apply pressure, but it remains somewhat escapable through grip stripping because the defender fights against finger strength on fabric. The Ezekiel's closed-loop structure is biomechanically harder to disassemble once fully locked.",
         "safety_critical": false,
-        "answer_line": "Forearm crosses, loop closes",
+        "answer_line": "Loop shuts under committed weight",
         "distractors": {
           "plausible": [
-            "Both collar grips are deep",
-            "Elbows flared out wide"
+            "Chin tuck no longer possible",
+            "Knees pinched tight to ribs"
           ],
           "trap": [
-            "Just threading the sleeve grip"
+            "Ease pressure once loop closes"
           ]
         }
       },
@@ -428,14 +428,14 @@
         "question": "Describe the correct release protocol when your training partner taps to the Ezekiel Choke from mount?",
         "answer": "Upon any tap signal, immediately release the sleeve grip and withdraw the blade forearm from the neck in a smooth, controlled motion. Do not release abruptly and scramble to another position. Maintain your mount position briefly to allow your partner to recover orientation and confirm consciousness. Make eye contact and confirm verbally that they are okay before resuming training or resetting positions. If there is any doubt about their level of consciousness or they appear disoriented, place them in the recovery position and call for assistance from the instructor immediately rather than attempting to continue.",
         "safety_critical": true,
-        "answer_line": "Release smooth, confirm okay",
+        "answer_line": "Ease grip out, check partner is ok",
         "distractors": {
           "plausible": [
-            "Let go and reset instantly",
-            "Release then leave the mat"
+            "Jump straight to the next drill",
+            "Stand up and reset the position"
           ],
           "trap": [
-            "Hold briefly to punish tap"
+            "Keep the squeeze one more second"
           ]
         }
       }
@@ -553,14 +553,14 @@
         "question": "How do you recognize that an Ezekiel Choke is being set up from mount?",
         "answer": "The earliest recognition cue is the attacker threading one hand inside their own opposite gi sleeve while maintaining mount. Additional cues include a forward weight shift with widened knee base, the free hand moving toward your neck rather than isolating your arm, and the attacker lowering their chest and head without establishing collar grips. The sleeve grip entry is the definitive warning signal and the point at which your defensive response should begin immediately, before the blade forearm deploys.",
         "safety_critical": false,
-        "answer_line": "Hand threads own sleeve",
+        "answer_line": "Hand threads own sleeve cuff",
         "distractors": {
           "plausible": [
-            "Both hands grip the collar",
-            "Weight shifts back on hips"
+            "Both hands dive for collars",
+            "Weight rocks back onto heels"
           ],
           "trap": [
-            "Free hand goes for underhook"
+            "Wait until forearm is on throat"
           ]
         }
       },
@@ -571,11 +571,11 @@
         "answer_line": "Forearm locked, can't push off",
         "distractors": {
           "plausible": [
-            "As soon as sleeve grip lands",
-            "Only when vision starts fading"
+            "Right when the sleeve grip lands",
+            "Once they take mount on you"
           ],
           "trap": [
-            "Wait for full unconsciousness"
+            "Ride it out until you black out"
           ]
         }
       },
@@ -586,11 +586,11 @@
         "answer_line": "Chin tuck, two-on-one block",
         "distractors": {
           "plausible": [
-            "Strip the grip with both hands",
-            "Turtle away from mount"
+            "Bench press attacker away",
+            "Flatten out and stay still"
           ],
           "trap": [
-            "Push chest up, arms wide"
+            "Turn belly-down, give the back"
           ]
         }
       },
@@ -598,14 +598,14 @@
         "question": "Why does the attacker's arm commitment to the Ezekiel create sweep opportunities from mount bottom?",
         "answer": "The Ezekiel requires both of the attacker's arms to be committed to the choking structure: one hand threaded into the sleeve and the other forming the blade across the throat. This removes their ability to post a hand on the mat to defend against bridges and sweeps. During normal mount control, the attacker can post immediately when they feel a bridge developing. During the Ezekiel attempt, their arms are trapped in the choking position and cannot transition to posting fast enough to prevent a well-timed upa bridge, making the sweep significantly higher percentage than during standard mount control.",
         "safety_critical": false,
-        "answer_line": "Both arms trapped, can't post",
+        "answer_line": "Both arms tied up, cannot post",
         "distractors": {
           "plausible": [
-            "Attacker loses hip pressure",
-            "Attacker's base narrows"
+            "Hip pressure drops off",
+            "Knee base gets narrow"
           ],
           "trap": [
-            "Attacker's grip weakens fast"
+            "Bridge only after loop closes"
           ]
         }
       },
@@ -613,14 +613,14 @@
         "question": "What is the most dangerous mistake when defending the Ezekiel Choke from mount bottom?",
         "answer": "The most dangerous mistake is failing to recognize the sleeve grip entry and allowing the complete choking structure to develop unopposed. Once the blade forearm crosses the throat and the loop closes with the attacker's body weight driving the pressure, defensive options diminish to near zero. The defense window exists between the sleeve grip establishment and the blade forearm crossing the throat. Missing this window forces you into a situation where tapping is likely the only safe option, because fighting a fully locked Ezekiel from mount bottom risks unconsciousness before escape.",
         "safety_critical": false,
-        "answer_line": "Miss the sleeve grip entry",
+        "answer_line": "Miss the sleeve grip going in",
         "distractors": {
           "plausible": [
-            "Wait too long to bridge",
-            "Grip strip too aggressively"
+            "Frame with only one hand",
+            "Bench-press the shoulders away"
           ],
           "trap": [
-            "Tap before choke fully locks"
+            "Turn belly-down to escape"
           ]
         }
       }

@@ -405,8 +405,8 @@
         "answer_line": "Hips low, control the sleeve",
         "distractors": {
           "plausible": [
-            "Stand tall to avoid hooks",
-            "Post hands wide for base"
+            "Post hands wide for base",
+            "Push both ankles to the mat"
           ],
           "trap": [
             "Lean back to create space"
@@ -433,11 +433,11 @@
         "answer_line": "Diagonal pressure, weight on toes",
         "distractors": {
           "plausible": [
-            "Weight straight down through chest",
-            "Post heavy on your hands"
+            "Drive force straight down",
+            "Sit back low on your heels"
           ],
           "trap": [
-            "Drive weight onto your palms"
+            "Post heavy on both palms"
           ]
         }
       },
@@ -447,11 +447,11 @@
         "answer_line": "New grip now, circle to back",
         "distractors": {
           "plausible": [
-            "Reset fully and restart the pass",
-            "Hold position, wait it out"
+            "Retreat and reset completely",
+            "Hold still and wait them out"
           ],
           "trap": [
-            "Retreat to create distance"
+            "Dive chest-first over their legs"
           ]
         }
       },
@@ -945,14 +945,14 @@
       {
         "question": "How do you shut down a toreando pass attempt when opponent grabs your pants at the knees?",
         "answer": "Immediately grip their sleeves or wrists to prevent them from redirecting your legs. Keep your knees pointed at them rather than allowing them to be pushed to one side. If they begin the lateral movement, follow with your hips and establish a hook on their near leg. The key is preventing the angle creation by keeping your legs between you and them.",
-        "answer_line": "Grip sleeves, keep knees square",
+        "answer_line": "Grip sleeves, knees facing them",
         "distractors": {
           "plausible": [
             "Kick legs free immediately",
-            "Turn hips away from grips"
+            "Spin your hips away from them"
           ],
           "trap": [
-            "Let knees get pushed to one side"
+            "Turtle to your knees to stand"
           ]
         }
       },
@@ -976,11 +976,11 @@
         "answer_line": "Weight on shoulders, turn sideways",
         "distractors": {
           "plausible": [
-            "Stay square to control the angle",
-            "Post on head to bridge out"
+            "Stay square to keep them centered",
+            "Ball up tighter under the stack"
           ],
           "trap": [
-            "Roll weight onto your neck"
+            "Roll onto your neck to hold on"
           ]
         }
       },
@@ -990,11 +990,11 @@
         "answer_line": "Flow to a new guard early",
         "distractors": {
           "plausible": [
-            "Force the same guard longer",
-            "Switch only after fully passed"
+            "Squeeze your grips and hold on",
+            "Wait for them to make a mistake"
           ],
           "trap": [
-            "Hang on until guard collapses"
+            "Cling on until you're flattened"
           ]
         }
       },
@@ -1004,11 +1004,11 @@
         "answer_line": "Forearm frame, elbows tight",
         "distractors": {
           "plausible": [
-            "Push with a fully extended arm",
-            "Frame only with your legs"
+            "Rely on leg shields alone",
+            "Clamp them in a bear hug"
           ],
           "trap": [
-            "Extend arm straight, elbow out"
+            "Push away with both arms straight"
           ]
         }
       },
@@ -1018,11 +1018,11 @@
         "answer_line": "Small frames, threaten sweeps",
         "distractors": {
           "plausible": [
-            "Big explosive escapes constantly",
-            "Muscle through every pass"
+            "Explode with big escapes nonstop",
+            "Hold your breath and squeeze hard"
           ],
           "trap": [
-            "Fight every inch at full power"
+            "Go flat and rest under them"
           ]
         }
       }
@@ -1064,11 +1064,11 @@
       "answer_line": "Legs unlocked, active frames",
       "distractors": {
         "plausible": [
-          "Legs crossed behind their back",
-          "Ankles locked around torso"
+          "Ankles crossed around their waist",
+          "Grips only, no leg engagement"
         ],
         "trap": [
-          "Lock ankles for passive control"
+          "Let both legs lie flat and passive"
         ]
       }
     },
@@ -1093,10 +1093,10 @@
       "distractors": {
         "plausible": [
           "Grips alone decide the exchange",
-          "Leg control alone is enough"
+          "Control the head and shoulders only"
         ],
         "trap": [
-          "Ignore grips, chase leg hooks only"
+          "Hunt hooks, abandon every grip"
         ]
       }
     },
@@ -1117,14 +1117,14 @@
     {
       "question": "What role do angles play in open guard for both the guard player and the passer?",
       "answer": "Open guard is fundamentally a battle over perpendicularity versus alignment. The guard player fights to keep the knee-line and feet pointed at the passer's centerline, because a square, facing angle lets the legs frame effectively and threaten sweeps. The passer works to circle to the side and create an angle past the leg-line, since bypassing the feet is what converts an attempt into a completed pass. Hip mobility is the engine of this contest — whoever creates or denies the angle first dictates whether the sequence becomes a sweep or a pass.",
-      "answer_line": "Stay square, don't let angle form",
+      "answer_line": "Square for guard, angle to pass",
       "distractors": {
         "plausible": [
-          "Turn sideways to attack legs",
-          "Chase submissions over angles"
+          "Both players want to stay square",
+          "Angles matter only for takedowns"
         ],
         "trap": [
-          "Let hips turn away from opponent"
+          "Turn your back to create an angle"
         ]
       }
     },
@@ -1134,11 +1134,11 @@
       "answer_line": "Keep space, shoulders off mat",
       "distractors": {
         "plausible": [
-          "Pull them in tight for control",
-          "Flatten hips to the mat"
+          "Cross ankles behind their back",
+          "Flatten hips to stay heavy"
         ],
         "trap": [
-          "Hug them chest-to-chest for safety"
+          "Let them settle chest-to-chest"
         ]
       }
     },
@@ -1149,10 +1149,10 @@
       "distractors": {
         "plausible": [
           "Pick one guard and commit fully",
-          "Ignore their posture, same guard"
+          "Any guard fits any posture"
         ],
         "trap": [
-          "Force De La Riva every time"
+          "Turn your back to switch guards"
         ]
       }
     },

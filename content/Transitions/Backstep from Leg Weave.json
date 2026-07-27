@@ -289,11 +289,11 @@
       {
         "question": "Your opponent catches your stepping leg with a hook mid-rotation - how do you respond?",
         "answer": "If caught early in the rotation, abort the backstep and return to forward leg weave pressure rather than fighting the hook from a compromised angle. If caught late when the rotation is nearly complete, use a full-body hip pop rather than just a leg kick to strip the hook, keeping your chest connected to their upper body throughout. Never try to fight the hook with just your leg in isolation, as the bottom player's hook strength will exceed your extraction strength without hip involvement.",
-        "answer_line": "Hip pop, not just a leg kick",
+        "answer_line": "Hip pop with chest glued to them",
         "distractors": {
           "plausible": [
-            "Abort immediately every time",
-            "Leg-kick to strip hook only"
+            "Kick the leg free in isolation",
+            "Abort the backstep no matter what"
           ],
           "trap": [
             "Force through, ignore the hook"

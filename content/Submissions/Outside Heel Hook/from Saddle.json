@@ -331,7 +331,7 @@
             "Fingers wrap toward centerline"
           ],
           "trap": [
-            "Grip only wrist, no arm threading"
+            "Loosen figure-four to re-angle"
           ]
         }
       },
@@ -342,11 +342,11 @@
         "answer_line": "Ride rotation, switch to inside",
         "distractors": {
           "plausible": [
-            "Release grip to reset position",
-            "Add more torque outward"
+            "Sit up higher for more leverage",
+            "Straighten the knee for extension"
           ],
           "trap": [
-            "Force original direction harder"
+            "Release the leg to chase the roll"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Progressive pressure over 5-7 sec",
         "distractors": {
           "plausible": [
-            "Fast explosive rotation",
-            "Train only with any partner"
+            "Wait for verbal tap only",
+            "Ask partner to signal when it hurts"
           ],
           "trap": [
-            "Apply full pressure immediately"
+            "Rotate explosively then release"
           ]
         }
       },
@@ -402,11 +402,11 @@
         "answer_line": "Fight grip, tighten leg control",
         "distractors": {
           "plausible": [
-            "Chase the grip aggressively",
-            "Release hips to re-grip"
+            "Roll belly-down to break grips",
+            "Switch to a toe hold instead"
           ],
           "trap": [
-            "Abandon position to re-grip fast"
+            "Let go of legs to two-hand it"
           ]
         }
       },
@@ -414,14 +414,14 @@
         "question": "Why is it important to generate rotational force through your torso rather than isolating wrist movement?",
         "answer": "Torso-generated rotation uses your entire upper body as a coordinated lever system, producing significantly more rotational force than isolated wrist movement while reducing strain on your own smaller joints. Wrist-isolated rotation risks wrist injury to the attacker and produces insufficient torque against a resistant opponent's knee joint. The figure-four grip should transmit force from your core and shoulder rotation through the connected arm structure to the opponent's heel, not generate force at the point of contact.",
         "safety_critical": false,
-        "answer_line": "Rotate with torso, not just wrist",
+        "answer_line": "More torque, less strain on wrist",
         "distractors": {
           "plausible": [
-            "Snap wrist for quick torque",
-            "Pull with arm strength only"
+            "Wrist snaps finish faster",
+            "Arm strength alone is enough"
           ],
           "trap": [
-            "Isolate wrist for max control"
+            "Crank wrist hard to force the tap"
           ]
         }
       },
@@ -432,11 +432,11 @@
         "answer_line": "Build control first, hunt sub later",
         "distractors": {
           "plausible": [
-            "Attack the sub immediately",
-            "Rush the figure-four early"
+            "Switch to a straight ankle lock",
+            "Hunt the same entry repeatedly"
           ],
           "trap": [
-            "Abandon position for fast finish"
+            "Sit up and give away the saddle"
           ]
         }
       }
@@ -556,10 +556,10 @@
         "distractors": {
           "plausible": [
             "Hand shifts to grip the toes",
-            "Knee suddenly straightens fully"
+            "Their hips slide toward your head"
           ],
           "trap": [
-            "Nothing changes, ignore the grip"
+            "Relax the leg and wait it out"
           ]
         }
       },
@@ -570,11 +570,11 @@
         "answer_line": "Tap verbally and physically at once",
         "distractors": {
           "plausible": [
-            "Wait for pain, then tap",
-            "Tap only once pressure peaks"
+            "Tap the mat only, stay silent",
+            "Nod or shake head to signal"
           ],
           "trap": [
-            "Wait until you feel a pop"
+            "Wait for pain before tapping"
           ]
         }
       },
@@ -585,8 +585,8 @@
         "answer_line": "Grip fight early, tap once loaded",
         "distractors": {
           "plausible": [
-            "Counter-rotate before grip forms",
-            "Strip cup after figure-four locks"
+            "Strip cup after figure-four locks",
+            "Hide heel only after grips set"
           ],
           "trap": [
             "Pull leg away once fully locked"
@@ -616,7 +616,7 @@
         "distractors": {
           "plausible": [
             "Rotate knee inward as well",
-            "Commit fully to one direction"
+            "Point the toes to hide the heel"
           ],
           "trap": [
             "Ignore heel, block the knee only"

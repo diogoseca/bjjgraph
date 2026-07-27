@@ -324,14 +324,14 @@
       {
         "question": "How does the sitting guard pull differ from a jumping guard pull, and when should you choose each?",
         "answer": "The sitting guard pull emphasizes control, safety, and reliability with a smooth descent maintaining constant grip tension. The jumping guard pull is faster and can catch opponents off-guard but carries higher injury risk for both practitioners and requires more athleticism and precise timing. Choose the sitting pull when safety is priority, when you want to select your specific guard type deliberately, or against larger opponents where jumping is risky. Choose jumping pulls when you need to close distance rapidly against a disengaging opponent or when competition urgency demands speed over control.",
-        "answer_line": "Sitting is safer, controlled",
+        "answer_line": "Sitting pull is safer, controlled",
         "distractors": {
           "plausible": [
-            "Jumping is safer overall",
-            "Sitting is faster to close"
+            "Jumping lowers injury risk",
+            "Sitting surprises the opponent"
           ],
           "trap": [
-            "Jump against bigger opponents"
+            "Jump guard vs a bigger opponent"
           ]
         }
       },

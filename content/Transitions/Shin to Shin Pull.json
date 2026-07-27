@@ -355,14 +355,14 @@
       {
         "question": "Your opponent sprawls their hips back as you attempt to insert the shin connection—what chain attack should you deploy?",
         "answer": "When they sprawl back, their hips move away but their upper body remains within grip range. Use this reaction to transition to an arm drag, pulling their near arm across your body and spinning to their back. If the arm drag fails, their sprawl creates distance that favors a technical stand-up to re-engage standing. Alternatively, if you have a collar grip, snap them down into a front headlock position. The key is recognizing that the sprawl response means they are prioritizing hip distance, which compromises their upper body control and creates vulnerability to pulling attacks.",
-        "answer_line": "Arm drag off the sprawl",
+        "answer_line": "Arm drag to their back",
         "distractors": {
           "plausible": [
-            "Chase hips with a shin insert",
-            "Grab both legs for a takedown"
+            "Technical stand-up first",
+            "Snap to a front headlock"
           ],
           "trap": [
-            "Release grips and reset stance"
+            "Turn away to stand up"
           ]
         }
       },

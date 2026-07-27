@@ -351,8 +351,8 @@
         "answer_line": "Sprawl hips back, crossface",
         "distractors": {
           "plausible": [
-            "Retreat to guard immediately",
-            "Grab a front headlock"
+            "Post both hands and freeze",
+            "Grab their belt and pull up"
           ],
           "trap": [
             "Turn and try to run"
@@ -523,14 +523,14 @@
       {
         "question": "What is the critical timing window for disrupting a technical stand-up, and what happens if you miss it?",
         "answer": "The critical window is during the hip elevation phase — the 1-2 seconds between when the opponent's hips begin to leave the mat and when their trail leg completes its swing through. During this window, the opponent is committed to the movement but has only two stable base points (posting hand and lead foot), making them structurally vulnerable to forward pressure or base collapse. If you miss this window and the trail leg plants, the opponent now has a strong sprinter stance with full weight on both feet, making them extremely difficult to drive backward and giving them access to defensive sprawls, snap-downs, and counter-attacks.",
-        "answer_line": "During hip elevation, base weak",
+        "answer_line": "While hips lift off the mat",
         "distractors": {
           "plausible": [
-            "After trail leg plants",
-            "Before hands touch the mat"
+            "After the trail leg plants",
+            "Right before their hands post"
           ],
           "trap": [
-            "Wait for full stand to attack"
+            "Overcommit early and get swept"
           ]
         }
       },
@@ -554,11 +554,11 @@
         "answer_line": "Close distance, re-engage grips",
         "distractors": {
           "plausible": [
-            "Wait for them to attack first",
-            "Pull guard immediately always"
+            "Sit back to your seated guard",
+            "Wait to read their next move"
           ],
           "trap": [
-            "Stand back at distance"
+            "Turn your back to create space"
           ]
         }
       },

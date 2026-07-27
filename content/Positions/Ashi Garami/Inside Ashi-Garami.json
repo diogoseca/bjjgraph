@@ -603,11 +603,11 @@
         "answer_line": "Heel protected, grip loose or broken",
         "distractors": {
           "plausible": [
-            "As soon as escape attempt starts",
-            "Only when fully exhausted"
+            "The instant the entanglement starts",
+            "Any time, speed beats position"
           ],
           "trap": [
-            "Stand while heel grip is tight"
+            "Stand with your knee still exposed"
           ]
         }
       },
@@ -962,8 +962,8 @@
       "answer_line": "Bent knee hides heel, denies angle",
       "distractors": {
         "plausible": [
-          "Straight leg always defends better",
-          "Knee line only matters for offense"
+          "Danger depends on grips, not posture",
+          "Rotation risk is constant either way"
         ],
         "trap": [
           "Extend leg to create distance"

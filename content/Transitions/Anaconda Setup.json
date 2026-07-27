@@ -258,11 +258,11 @@
         "answer_line": "Near side for anaconda, not far",
         "distractors": {
           "plausible": [
-            "Far side for anaconda choke",
-            "Same arm direction both ways"
+            "Both dive under the same way",
+            "Over-the-arm entry for both"
           ],
           "trap": [
-            "Thread over their trapped arm"
+            "Thread wrong side, get reversed"
           ]
         }
       },
@@ -611,14 +611,14 @@
       {
         "question": "What is the optimal direction to circle when defending the anaconda setup, and why does direction matter?",
         "answer": "Circle away from the choking arm side - meaning if they are threading their right arm under your neck, circle to your left. This direction matters because circling away from the choking arm increases the distance their arm must travel to complete the loop, making it progressively harder to secure the grip. Circling toward the choking arm compresses the space and actually assists the threading by shortening the distance. Additionally, circling away tends to open space for guard recovery or standup attempts as the attacker must chase your movement.",
-        "answer_line": "Circle away from choking arm",
+        "answer_line": "Circle away to lengthen arm path",
         "distractors": {
           "plausible": [
-            "Circle toward choking arm",
-            "Circle direction doesn't matter"
+            "Freeze and fight the grip",
+            "Tuck chin and wait it out"
           ],
           "trap": [
-            "Circle into the threading arm"
+            "Circle toward their grip to escape"
           ]
         }
       }

@@ -331,7 +331,7 @@
             "Wrist joint compression"
           ],
           "trap": [
-            "Bicep tendon tear"
+            "Crank past the pop to be sure"
           ]
         }
       },
@@ -342,8 +342,8 @@
         "answer_line": "Arm straight, body rising off mat",
         "distractors": {
           "plausible": [
-            "Opponent taps verbally only",
-            "Elbow crease loosely aligned"
+            "Opponent still bends the elbow",
+            "Knees loose around their arm"
           ],
           "trap": [
             "Keep driving hips fast"
@@ -353,11 +353,11 @@
       {
         "question": "What control must be established before committing to the armbar entry from high mount?",
         "answer": "Before committing, you need solid high mount with knees at or above armpit level eliminating bridge leverage, two-on-one wrist control on the target arm with the arm pulled across your centerline, the defender's free arm controlled or neutralized so it cannot create effective frames during your transition, and forward weight distribution that prevents explosive escape during the leg swing. Rushing the entry without these control points is the primary cause of failed armbar attempts from mount.",
-        "answer_line": "Mount + two-on-one wrist control",
+        "answer_line": "High mount plus two-on-one wrist",
         "distractors": {
           "plausible": [
-            "Just grab the wrist tightly",
-            "Any mount position works"
+            "One hand gripping the wrist",
+            "Low mount, knees at their hips"
           ],
           "trap": [
             "Swing leg over immediately"
@@ -367,14 +367,14 @@
       {
         "question": "Your opponent starts to posture up and sit toward you during the finishing phase—what adjustment prevents escape?",
         "answer": "The leg crossing the defender's face and throat is your primary posture control tool. Drive the calf down across their neck and use your hamstring to pull their head back to the mat. Simultaneously, angle your body slightly away from them to increase the distance they need to cover to stack you. If they continue to posture successfully, triangle your legs over their head and under their arm to create an additional control layer. Never sacrifice the hip-to-elbow connection to fight the posture.",
-        "answer_line": "Leg over neck controls posture",
+        "answer_line": "Leg over neck pins their head",
         "distractors": {
           "plausible": [
             "Push down on their shoulders",
-            "Grab a fresh underhook"
+            "Pull the wrist harder only"
           ],
           "trap": [
-            "Release hip-elbow to block posture"
+            "Let go of arm to re-grip"
           ]
         }
       },
@@ -385,8 +385,8 @@
         "answer_line": "Thumb up, knees pinched tight",
         "distractors": {
           "plausible": [
-            "Just feel slight resistance",
-            "Opponent stops moving arm"
+            "Arm bent at ninety degrees",
+            "Their hand grips your lapel"
           ],
           "trap": [
             "Keep cranking to be sure"
@@ -396,14 +396,14 @@
       {
         "question": "How should you adjust your grip when the defender begins rotating their arm during the finishing sequence?",
         "answer": "If the defender rotates their arm so the thumb points to the side rather than upward, the hyperextension angle changes and the submission loses effectiveness. Counter by adjusting your hip angle to match their rotation, squeezing your knees tighter to restrict further rotation, and pulling their wrist firmly to your chest to maintain the thumb-up orientation. You can also slightly cross your ankles over their chest for additional rotational control. If they fully rotate the arm, consider transitioning to a belly-down armbar variation.",
-        "answer_line": "Match angle, squeeze knees tighter",
+        "answer_line": "Match hip angle, pinch knees tight",
         "distractors": {
           "plausible": [
-            "Let go and reset the grip",
-            "Pull wrist away from chest"
+            "Roll their thumb toward the floor",
+            "Sit up taller for more leverage"
           ],
           "trap": [
-            "Force original angle harder"
+            "Release the wrist and re-grip"
           ]
         }
       },
@@ -413,11 +413,11 @@
         "answer_line": "Space, elbow off hip, loose leg",
         "distractors": {
           "plausible": [
-            "Crossing your ankles tightly",
-            "Squeezing knees too much"
+            "Pulling their wrist too hard",
+            "Entering from too low a mount"
           ],
           "trap": [
-            "Cross your feet for control"
+            "Sit up and let them stack you"
           ]
         }
       },
@@ -428,7 +428,7 @@
         "distractors": {
           "plausible": [
             "Yank the whole arm at once",
-            "Wait for ref to intervene"
+            "Squeeze knees and wait it out"
           ],
           "trap": [
             "Release control to reset grips"
@@ -442,11 +442,11 @@
         "answer_line": "Release pressure, notify instructor",
         "distractors": {
           "plausible": [
-            "Ease off slowly, keep rolling",
-            "Wait for them to tap first"
+            "Wait for them to tap first",
+            "Ease off but stay in the armbar"
           ],
           "trap": [
-            "Continue the roll carefully"
+            "Keep rolling once pain fades"
           ]
         }
       }
@@ -571,11 +571,11 @@
         "answer_line": "Two-on-one grip on your wrist",
         "distractors": {
           "plausible": [
-            "Attacker shifts hips slightly",
-            "Knees pinch your upper arm"
+            "Attacker grips your collar",
+            "Your elbow gets pinned flat"
           ],
           "trap": [
-            "Ignore it, still early"
+            "Wait until your arm is extended"
           ]
         }
       },
@@ -586,25 +586,25 @@
         "answer_line": "Tap when arm fully extended",
         "distractors": {
           "plausible": [
-            "Wait until it really hurts",
-            "Tap only if you hear a pop"
+            "Struggle first, signal if stuck",
+            "Wait for their hips to lift"
           ],
           "trap": [
-            "Fight through the extension"
+            "Bridge hard and rip the arm out"
           ]
         }
       },
       {
         "question": "What is the optimal timing window for the bridge escape against the armbar from high mount?",
         "answer": "The optimal timing window is during the attacker's leg swing—the moment they lift their far leg to clear your head. During this phase, the attacker is balanced on one leg and their posted hand, making them most vulnerable to being displaced by an explosive bridge. Before this window, the attacker has full mount base; after this window, the attacker has established the armbar position. The bridge must be explosive, directional, and immediately followed by hip escape to recover guard.",
-        "answer_line": "During attacker's leg swing",
+        "answer_line": "During the attacker's leg swing",
         "distractors": {
           "plausible": [
             "Right after mount is secured",
-            "Once armbar is fully locked"
+            "When they first grab your wrist"
           ],
           "trap": [
-            "Wait and explode after locked"
+            "Bridge once your arm is extended"
           ]
         }
       },

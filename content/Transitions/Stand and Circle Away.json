@@ -388,10 +388,10 @@
         "distractors": {
           "plausible": [
             "Reset back to bottom position",
-            "Absorb snap and try again"
+            "Absorb the snap and try again"
           ],
           "trap": [
-            "Push off and disengage fully"
+            "Lift your head into a guillotine"
           ]
         }
       }
@@ -515,8 +515,8 @@
         "answer_line": "Hand fights grip, feet set base",
         "distractors": {
           "plausible": [
-            "Opponent breathing heavily",
-            "Opponent grips your legs tighter"
+            "Opponent clamps your legs tighter",
+            "Opponent flattens hips to the mat"
           ],
           "trap": [
             "Wait for them to fully stand"

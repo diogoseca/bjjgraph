@@ -315,7 +315,7 @@
             "Meniscus and cartilage only"
           ],
           "trap": [
-            "Achilles tendon and calf muscle"
+            "Just calf muscle - safe to ride"
           ]
         }
       },
@@ -326,11 +326,11 @@
         "answer_line": "Heel rotates past natural range",
         "distractors": {
           "plausible": [
-            "Opponent grimaces in pain",
-            "Loud pop or cracking sound"
+            "Resistance steadily increases",
+            "Achilles area feels slack"
           ],
           "trap": [
-            "Wait for opponent to go limp"
+            "Keep turning until it pops"
           ]
         }
       },
@@ -360,7 +360,7 @@
             "When first hand touches heel"
           ],
           "trap": [
-            "Only after hip rotation begins"
+            "Safe until you feel real pain"
           ]
         }
       },
@@ -386,11 +386,11 @@
         "answer_line": "Pin toes to chest, wrist fulcrum",
         "distractors": {
           "plausible": [
-            "Squeeze figure-four tighter",
-            "Grip the ankle bone harder"
+            "Squeeze the ankle bone harder",
+            "Hook their foot with your leg"
           ],
           "trap": [
-            "Let foot rotate, follow it"
+            "Release grip and re-grab heel"
           ]
         }
       },
@@ -398,14 +398,14 @@
         "question": "What is the correct application speed for heel hooks in training and why is this critical?",
         "answer": "In training, rotational force must be applied over a minimum of 5-7 seconds from initial pressure to maximum engagement, with pauses at each increment to allow your partner to assess and tap. This is critical because heel hooks damage knee ligaments before significant pain is felt by the defender. Unlike joint locks where increasing pain provides a warning signal, heel hook damage can occur catastrophically and suddenly. Slow application gives both partners time to assess the position safely.",
         "safety_critical": true,
-        "answer_line": "Slow, 5-7 sec, pause to check",
+        "answer_line": "Slow, 5-7 sec, pausing to check",
         "distractors": {
           "plausible": [
-            "Fast, before they can defend",
-            "Steady medium pace, no pauses"
+            "One continuous squeeze to max",
+            "Same tempo as an armbar"
           ],
           "trap": [
-            "Quick snap for max effect"
+            "Snap it hard for the finish"
           ]
         }
       },
@@ -416,11 +416,11 @@
         "answer_line": "Chain heel hook into ankle lock",
         "distractors": {
           "plausible": [
-            "Force the heel hook harder",
-            "Abandon and pass guard instead"
+            "Wait for the boot to tire out",
+            "Switch to their other leg"
           ],
           "trap": [
-            "Yank through the tight boot"
+            "Crank through the locked boot"
           ]
         }
       },
@@ -443,14 +443,14 @@
         "question": "How should you release the heel hook after your training partner taps?",
         "answer": "Immediately stop all rotational pressure the instant you perceive any tap signal. Release the heel grip completely by opening your hands before unwrapping the leg entanglement. Slowly remove your crossed legs while allowing your partner to extract their leg at their own pace. Never maintain any rotational pressure during the release, even passively. Check with your partner about their knee and ankle status after every heel hook attempt, and report any discomfort to the instructor.",
         "safety_critical": true,
-        "answer_line": "Stop instantly, open grip slowly",
+        "answer_line": "Stop at once, then unwrap slowly",
         "distractors": {
           "plausible": [
-            "Hold briefly to confirm tap",
-            "Release fast, drop the leg"
+            "Ask if they tapped first",
+            "Pop the grip and stand up fast"
           ],
           "trap": [
-            "Ease pressure but keep rotating"
+            "Keep twisting as you let go"
           ]
         }
       }
@@ -579,11 +579,11 @@
         "answer_line": "Legs cross, heel cupped, pulled in",
         "distractors": {
           "plausible": [
-            "They grab your collar first",
-            "They flatten you to mount"
+            "They square hips and grab lapel",
+            "Their knee slides to half guard"
           ],
           "trap": [
-            "Ignore it, they're just adjusting"
+            "Wait until you feel knee pain"
           ]
         }
       },
@@ -609,11 +609,11 @@
         "answer_line": "Boot defense plus hand fighting",
         "distractors": {
           "plausible": [
-            "Explosive spin to free leg",
-            "Push their face away"
+            "Stall and grab their far arm",
+            "Push their head with both hands"
           ],
           "trap": [
-            "Yank leg straight and pull out"
+            "Spin explosively to unwind leg"
           ]
         }
       },
@@ -624,11 +624,11 @@
         "answer_line": "When they loosen grip to adjust",
         "distractors": {
           "plausible": [
-            "Right after they enter ashi",
-            "During their hardest squeeze"
+            "Once the figure-four is set",
+            "While they squeeze hardest"
           ],
           "trap": [
-            "Force it while control is tight"
+            "Rip the leg out under rotation"
           ]
         }
       },

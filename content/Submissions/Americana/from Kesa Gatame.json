@@ -306,14 +306,14 @@
         "question": "What anatomical structure does the Americana from Kesa Gatame primarily attack?",
         "answer": "The Americana attacks the glenohumeral (shoulder) joint through forced lateral rotation combined with extension pressure. The figure-four grip creates a lever system that rotates the humerus externally while the pinned elbow prevents the opponent from relieving the rotational stress. Secondary stress is placed on the rotator cuff complex, particularly the subscapularis muscle and the anterior shoulder capsule ligaments.",
         "safety_critical": true,
-        "answer_line": "Shoulder, lateral rotation",
+        "answer_line": "Shoulder joint, lateral rotation",
         "distractors": {
           "plausible": [
-            "Elbow, hyperextension",
-            "Wrist, flexion pressure"
+            "Elbow joint, hyperextension",
+            "Wrist joint, forced flexion"
           ],
           "trap": [
-            "Rotator cuff, direct tear only"
+            "Neck, cranking pressure"
           ]
         }
       },
@@ -339,11 +339,11 @@
         "answer_line": "Elbow bent 90°, forearm vertical",
         "distractors": {
           "plausible": [
-            "Arm fully extended straight",
-            "Hand pulled to their shoulder"
+            "Arm straightened fully out",
+            "Hand pinned beside their ear"
           ],
           "trap": [
-            "Hand near own shoulder, too bent"
+            "Elbow floating off the mat"
           ]
         }
       },
@@ -355,7 +355,7 @@
         "distractors": {
           "plausible": [
             "Switch immediately to kimura",
-            "Keep pulling wrist to finish"
+            "Pin their wrist and stall"
           ],
           "trap": [
             "Force the figure-four anyway"
@@ -381,14 +381,14 @@
         "question": "How do you maintain control if the opponent bridges explosively during the finishing sequence?",
         "answer": "Keep your base leg posted wide and your hips heavy on the opponent's torso. When they bridge, absorb the movement by driving your weight downward rather than trying to resist laterally. Maintain the figure-four grip throughout the bridge and do not release it. The bridge will exhaust their energy while your grip remains intact. If the bridge creates significant positional disruption, temporarily pause the finish, re-establish heavy chest pressure, and resume the paint motion once they settle back down.",
         "safety_critical": false,
-        "answer_line": "Base wide, hips heavy, hold grip",
+        "answer_line": "Base wide, hips heavy, keep grip",
         "distractors": {
           "plausible": [
-            "Release grip, reset position",
-            "Resist bridge laterally"
+            "Fight the bridge sideways",
+            "Sit up tall to ride it out"
           ],
           "trap": [
-            "Let go and chase with crossface"
+            "Let go and chase the crossface"
           ]
         }
       },
@@ -399,11 +399,11 @@
         "answer_line": "Gable grip, squeeze to chest",
         "distractors": {
           "plausible": [
-            "Grip lower at the fingers",
-            "Loosen grip to reduce slip"
+            "Chase a deeper wrist grip",
+            "Pause often to re-set grips"
           ],
           "trap": [
-            "Switch to a single wrist grab"
+            "Grab their fingers instead"
           ]
         }
       },
@@ -414,8 +414,8 @@
         "answer_line": "Arm straightens or wrist frees",
         "distractors": {
           "plausible": [
-            "After exactly 15 seconds trying",
-            "Only if opponent taps early"
+            "The moment they first bridge",
+            "Whenever they grip fight"
           ],
           "trap": [
             "Never abandon, keep grinding"
@@ -430,10 +430,10 @@
         "distractors": {
           "plausible": [
             "Opponent breathing heavily",
-            "Slow steady tap request"
+            "Their grip strength fading"
           ],
           "trap": [
-            "Fast finish before they resist"
+            "No tap yet means keep cranking"
           ]
         }
       },
@@ -441,14 +441,14 @@
         "question": "How does the Americana from Kesa Gatame differ mechanically from the Americana from standard side control?",
         "answer": "From Kesa Gatame, the arm is already trapped under your armpit, eliminating the initial arm isolation step required from standard side control. The perpendicular body angle creates a different leverage angle for the figure-four where your body weight drives more directly into the finishing motion. However, Kesa Gatame requires releasing head control for the figure-four, while standard side control allows maintaining crossface throughout. The scarf hold version also generates stronger natural chest pressure on the opponent's diaphragm, reducing their explosive defensive capacity during the finishing sequence.",
         "safety_critical": false,
-        "answer_line": "Arm pre-trapped, loses crossface",
+        "answer_line": "Arm pre-trapped, head control lost",
         "distractors": {
           "plausible": [
-            "Identical mechanics, no difference",
-            "Weaker chest pressure than side"
+            "Weaker top pressure than side",
+            "Must switch to mount first"
           ],
           "trap": [
-            "Easier, head stays controlled"
+            "Crank freely, no escape risk"
           ]
         }
       }
@@ -578,8 +578,8 @@
         "answer_line": "One control point, full mobility",
         "distractors": {
           "plausible": [
-            "Escaping after is just as easy",
-            "Strength alone beats the lock"
+            "Figure-four grips tire quickly",
+            "Bridging works at any stage"
           ],
           "trap": [
             "Wait for lock, then power out"

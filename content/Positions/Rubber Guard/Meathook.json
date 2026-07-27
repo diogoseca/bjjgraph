@@ -181,14 +181,14 @@
       {
         "question": "What common error leads to shoulder injuries when escaping Meathook?",
         "answer": "Continuous straight-line pulling on the trapped arm without rotational component creates sustained tension against the shin hook's strongest resistance angle, risking shoulder strain. The correct mechanic combines pulling force with rotational movement—spiral the arm as you extract rather than pulling straight back. This rotation changes leverage angles and exploits weaknesses in the hook.",
-        "answer_line": "Spiral arm while pulling out",
+        "answer_line": "Straight pull with no rotation",
         "distractors": {
           "plausible": [
-            "Pull straight back hard",
-            "Push elbow down first"
+            "Flaring the elbow outward",
+            "Rushing the hip escape first"
           ],
           "trap": [
-            "Yank arm straight back fast"
+            "Spiraling the arm as you exit"
           ]
         }
       },

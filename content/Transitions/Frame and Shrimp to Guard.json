@@ -237,10 +237,10 @@
         "distractors": {
           "plausible": [
             "Sweep opponent to top position",
-            "Survive by staying still"
+            "Break their pants grip first"
           ],
           "trap": [
-            "Turn away exposing your back"
+            "Roll belly-down to escape"
           ]
         },
         "answer_line": "Free trapped leg, regain guard"
@@ -283,7 +283,7 @@
             "Push away and reset frames"
           ],
           "trap": [
-            "Turn away and give up back"
+            "Bridge and roll belly-down"
           ]
         }
       },
@@ -294,10 +294,10 @@
         "distractors": {
           "plausible": [
             "Right after they secure grips",
-            "When fully pinned and settled"
+            "When their chest is heaviest"
           ],
           "trap": [
-            "After they've secured side control"
+            "Wait, then turn away to run"
           ]
         }
       },
@@ -321,11 +321,11 @@
         "answer_line": "Chain shrimps, or switch direction",
         "distractors": {
           "plausible": [
-            "Shrimp once, then rest",
+            "Shrimp once, then re-grip",
             "Push harder in one direction"
           ],
           "trap": [
-            "Stop moving and hold frames"
+            "Turn away to run out the back"
           ]
         }
       },
@@ -335,11 +335,11 @@
         "answer_line": "Circular path toward chest",
         "distractors": {
           "plausible": [
-            "Straight back and away",
-            "Push knee outward"
+            "Push knee outward",
+            "Extend leg long and flat"
           ],
           "trap": [
-            "Yank leg straight back hard"
+            "Straighten leg, roll belly-down"
           ]
         }
       },
@@ -350,7 +350,7 @@
         "distractors": {
           "plausible": [
             "Constant muscular tension",
-            "Push continuously with arms"
+            "Grip their sleeve to hold on"
           ],
           "trap": [
             "Flare elbows for more power"
@@ -367,7 +367,7 @@
             "Neutral — no change happened"
           ],
           "trap": [
-            "Stop and reset position"
+            "Flatten out and wait to breathe"
           ]
         }
       },
@@ -381,7 +381,7 @@
             "Their far-side ankle grip"
           ],
           "trap": [
-            "Grip their far-side sleeve"
+            "Two hands on wrist, no frames"
           ]
         }
       },
@@ -394,7 +394,7 @@
             "45° away from trapped leg"
           ],
           "trap": [
-            "Straight toward opponent's hips"
+            "Roll to knees under their weight"
           ]
         },
         "answer_line": "45° toward trapped-leg side"
@@ -516,10 +516,10 @@
         "distractors": {
           "plausible": [
             "Only control the far arm",
-            "Only flatten their shoulders"
+            "Only break their pants grip"
           ],
           "trap": [
-            "Push down on their chest only"
+            "Sit up high to chase the arms"
           ]
         }
       },
@@ -544,10 +544,10 @@
         "distractors": {
           "plausible": [
             "Chase and re-grip the leg",
-            "Dive for a leg lock"
+            "Re-drag to the other side"
           ],
           "trap": [
-            "Follow them into their guard"
+            "Dive for a leg lock, lose top"
           ]
         }
       },
@@ -571,11 +571,11 @@
         "answer_line": "3-5 seconds, then advance",
         "distractors": {
           "plausible": [
-            "10-15 seconds to secure it",
-            "Until opponent stops moving"
+            "Wait until their frames tire",
+            "Reset your grips before moving"
           ],
           "trap": [
-            "Hold it as long as possible"
+            "Sit back for a leg lock instead"
           ]
         }
       }

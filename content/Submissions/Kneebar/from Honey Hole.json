@@ -320,11 +320,11 @@
         "answer_line": "Heel tucked, leg straightens",
         "distractors": {
           "plausible": [
-            "They defend with underhook",
-            "They tap out from pain"
+            "Their knee bends deeply",
+            "They bridge to stand up"
           ],
           "trap": [
-            "Keep grinding for the heel"
+            "Keep cranking the hidden heel"
           ]
         }
       },
@@ -339,7 +339,7 @@
             "Grip strength overpowers legs"
           ],
           "trap": [
-            "Let go of triangle to angle out"
+            "Assume it finishes without control"
           ]
         }
       },
@@ -395,11 +395,11 @@
         "answer_line": "Triangle stays locked throughout",
         "distractors": {
           "plausible": [
-            "Loosen triangle briefly",
-            "Switch outside leg first"
+            "Switch outside leg first",
+            "Pinch knees to hold instead"
           ],
           "trap": [
-            "Release triangle for grip switch"
+            "Release the leg entanglement"
           ]
         }
       },
@@ -591,11 +591,11 @@
         "question": "What defensive options are available when the attacker has fully locked the arm clamp and begun extending?",
         "answer": "Once the arm clamp is locked and extension has begun, your realistic options are extremely limited. Maximum effort knee bend may delay the finish temporarily, and explosive rotation with bridge may disrupt alignment if attempted immediately. However, if the extension is progressing and your knee is being straightened, the safest option is to tap. Attempting heroic escapes at this stage carries high injury risk with low success probability. Prevention and early defense are far more effective than late-stage attempts.",
         "safety_critical": true,
-        "answer_line": "Little left, tap is safest",
+        "answer_line": "Few good options; tapping is safest",
         "distractors": {
           "plausible": [
-            "Max knee bend still works",
-            "Bridge and roll through"
+            "Wait for a referee to intervene",
+            "Hunt your own leglock counter"
           ],
           "trap": [
             "Power through the extension"

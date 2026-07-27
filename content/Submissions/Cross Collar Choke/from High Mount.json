@@ -309,7 +309,7 @@
             "Only one carotid compressed"
           ],
           "trap": [
-            "Squeeze biceps into the throat"
+            "Crank the neck sideways to finish"
           ]
         }
       },
@@ -320,11 +320,11 @@
         "answer_line": "Wrist blades set, elbows pull down",
         "distractors": {
           "plausible": [
-            "Opponent taps at first pressure",
-            "Collar just feels snug"
+            "Forearm crushing the windpipe",
+            "Collar merely feels snug"
           ],
           "trap": [
-            "Wait until they stop moving"
+            "Keep squeezing after they go limp"
           ]
         }
       },
@@ -354,7 +354,7 @@
             "One grip deep, forehead down"
           ],
           "trap": [
-            "Sit back to load the choke"
+            "Only once they go limp"
           ]
         }
       },
@@ -365,11 +365,11 @@
         "answer_line": "Squeezing arms in with biceps",
         "distractors": {
           "plausible": [
-            "Pulling elbows down too fast",
-            "Grips inserted too shallow"
+            "Elbows flared wide off the ribs",
+            "Gripping the collar palm-down"
           ],
           "trap": [
-            "Squeeze harder to force the tap"
+            "Crank harder to force the tap"
           ]
         }
       },
@@ -380,11 +380,11 @@
         "answer_line": "Pin their hand, attack the arm",
         "distractors": {
           "plausible": [
-            "Strip grip and re-insert fast",
-            "Hand-fight until they release"
+            "Hand-fight until they let go",
+            "Switch to a different collar"
           ],
           "trap": [
-            "Yank arm free, restart grips"
+            "Sit up to rip the grip free"
           ]
         }
       },
@@ -399,7 +399,7 @@
             "Tight: force hand in fast"
           ],
           "trap": [
-            "Loose collar means skip the choke"
+            "Sit up tall to feed the grip"
           ]
         }
       },
@@ -410,11 +410,11 @@
         "answer_line": "Release, recovery position, monitor",
         "distractors": {
           "plausible": [
-            "Hold briefly to confirm out",
-            "Slap face to wake them"
+            "Sit them upright to revive fast",
+            "Slap the face to wake them"
           ],
           "trap": [
-            "Keep choke on a few more seconds"
+            "Hold the choke to confirm it"
           ]
         }
       },
@@ -444,7 +444,7 @@
             "Rush the second grip early"
           ],
           "trap": [
-            "Trade grips in a hand fight"
+            "Posture up to muscle the finish"
           ]
         }
       }
@@ -578,11 +578,11 @@
         "answer_line": "Strip the very first hand in",
         "distractors": {
           "plausible": [
-            "Defend once both grips are set",
-            "Wait, then fight the elbows"
+            "Fight the elbows once set",
+            "Turn away and hide the collar"
           ],
           "trap": [
-            "Let first grip in, block second"
+            "Wait for the squeeze, then bridge"
           ]
         }
       },
@@ -590,11 +590,11 @@
         "question": "How do you create an effective escape window when the attacker is working collar grips from high mount?",
         "answer": "The escape window opens when the attacker commits their second hand to the collar, removing it from posting position. This creates a momentary base weakness on the side where they were posting. Time your bridge toward that side—their inability to post makes the bridge more effective. Additionally, any grip transition where the attacker adjusts hand position creates a brief window where their weight shifts. Read these weight shifts and use them to initiate hip escapes or bridges.",
         "safety_critical": false,
-        "answer_line": "Bridge toward the posting-hand side",
+        "answer_line": "Bridge as their post hand leaves",
         "distractors": {
           "plausible": [
             "Bridge away from both grips",
-            "Escape only after both grips set"
+            "Push their chest to make space"
           ],
           "trap": [
             "Wait for the choke to lock fully"
@@ -608,11 +608,11 @@
         "answer_line": "Both grips deep, elbows pulling down",
         "distractors": {
           "plausible": [
-            "Tap at first hint of discomfort",
-            "Fight on, it's still escapable"
+            "As soon as the collar tightens",
+            "When you can't strip one lapel"
           ],
           "trap": [
-            "Wait to feel dizzy before tapping"
+            "After vision starts to gray out"
           ]
         }
       },

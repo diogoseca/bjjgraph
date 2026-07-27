@@ -283,7 +283,7 @@
             "Elbow flared out to the side"
           ],
           "trap": [
-            "Shallow grip for quick reaction"
+            "Yank the head to force the tap"
           ]
         }
       },
@@ -374,14 +374,14 @@
       {
         "question": "Your opponent sprawls hard and drives their hips back as you begin the arm thread - how do you chain to your next attack?",
         "answer": "When the opponent sprawls backward, their neck often extends slightly and their weight shifts rearward, making the Japanese Necktie angle disappear. Maintain your chest connection and follow their movement. If your arm is partially threaded, transition to an anaconda choke by adjusting your arm to trap their near arm against their neck. If no arm thread exists yet, use the sprawl momentum to snap them down harder and re-establish front headlock control, then attempt a Darce setup since their sprawled position often exposes the underhook line.",
-        "answer_line": "Chain to anaconda or Darce",
+        "answer_line": "Stay chest-tight, switch to anaconda",
         "distractors": {
           "plausible": [
             "Force the necktie through it",
-            "Release grip and reset neutral"
+            "Release the head and stand up"
           ],
           "trap": [
-            "Keep pulling straight back"
+            "Turn away and give up the back"
           ]
         }
       },

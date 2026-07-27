@@ -371,11 +371,11 @@
         "answer_line": "Attack the extended arm",
         "distractors": {
           "plausible": [
-            "Push through and mount now",
-            "Retract knee to reset"
+            "Retract knee to reset",
+            "Slap the frames away"
           ],
           "trap": [
-            "Let go and reset to side control"
+            "Let them frame and settle in"
           ]
         }
       },
@@ -400,7 +400,7 @@
         "distractors": {
           "plausible": [
             "Its low base is unstable",
-            "It's illegal to hold long"
+            "Mount is always the better hold"
           ],
           "trap": [
             "Settle in and grind it out"
@@ -413,8 +413,8 @@
         "answer_line": "Follow and take the back",
         "distractors": {
           "plausible": [
-            "Sit back to guard pull",
-            "Chase mount immediately"
+            "Chase mount immediately",
+            "Hop to the far side instead"
           ],
           "trap": [
             "Fight the turn, stay chest up"
@@ -832,7 +832,7 @@
             "Slows your breathing recovery"
           ],
           "trap": [
-            "It's fine if elbows stay in"
+            "Straight-arm pushing is safe"
           ]
         }
       },
@@ -857,7 +857,7 @@
         "distractors": {
           "plausible": [
             "Grab their wrist and freeze",
-            "Wait for the choke to finish"
+            "Lock both hands on their grip"
           ],
           "trap": [
             "Bridge straight up into them"
@@ -874,7 +874,7 @@
             "Deep chest breaths only"
           ],
           "trap": [
-            "Panic-bridge to catch air"
+            "Explosive bridge to gulp air"
           ]
         }
       },
@@ -888,7 +888,7 @@
             "Only from strong top posture"
           ],
           "trap": [
-            "Pull guard the moment they settle"
+            "Dive deep half under full pressure"
           ]
         }
       }

@@ -256,14 +256,14 @@
       {
         "question": "What is the most important factor in determining the effectiveness of a guillotine choke?",
         "answer": "The depth of your choking arm under the opponent's chin is the most critical factor. Your wrist bone must be positioned past their throat on the far side of their neck, creating a choking surface under the chin rather than across the trachea. Without proper depth, the choke will be weak and easily defended by a simple chin tuck. Achieving this depth requires sliding your arm deep during the transition from front headlock, which is why timing the transition during opponent movement is so important.",
-        "answer_line": "Wrist bone deep under chin",
+        "answer_line": "Wrist bone deep past the chin",
         "distractors": {
           "plausible": [
-            "Squeeze as hard as possible",
-            "Speed of the transition"
+            "Squeezing with maximum grip force",
+            "How fast you shoot the entry"
           ],
           "trap": [
-            "Pressure across the trachea"
+            "Lean back, let them posture up"
           ]
         }
       },
@@ -272,11 +272,11 @@
         "answer": "Attack when the opponent moves because motion extends their neck and splits their attention, opening the window to slide your grip deep. When they try to stand or drive forward, their neck naturally extends and their defensive awareness is divided between the movement and defending the choke, letting you slide your arm deeper and establish the grip before they can react. Their momentum also helps you pull them into the guillotine position. By contrast, a static opponent can focus entirely on defense, keeping their chin tucked and posture strong, making proper grip depth much more difficult to secure.",
         "distractors": {
           "plausible": [
-            "Attack once they set base",
-            "Attack when grip feels tight"
+            "Wait until they settle down",
+            "Only when your grip feels locked"
           ],
           "trap": [
-            "Force it against a set base"
+            "Muscle it as they posture up"
           ]
         },
         "answer_line": "Attack while they're moving"
@@ -287,10 +287,10 @@
         "distractors": {
           "plausible": [
             "Mount, back control, side control",
-            "Kneeling, turtle, knee-on-belly"
+            "Turtle, knee-on-belly, kneeling"
           ],
           "trap": [
-            "Drop to your back for leverage"
+            "Crank sideways as a neck wrench"
           ]
         },
         "answer_line": "Guard, legs wrapped, feet planted"
@@ -301,25 +301,25 @@
         "answer_line": "Switch to darce or anaconda",
         "distractors": {
           "plausible": [
-            "Force the choke anyway",
-            "Release control and reset"
+            "Muscle the choke through the tuck",
+            "Wait for the chin to loosen"
           ],
           "trap": [
-            "Let go of headlock control"
+            "Abandon the front headlock"
           ]
         }
       },
       {
         "question": "What is the mechanical difference between a guillotine that attacks the trachea versus one that attacks the carotid arteries, and why does this matter?",
         "answer": "A guillotine that attacks the trachea (windpipe) is positioned across the throat with the forearm creating crushing pressure on the front of the neck. While painful and potentially effective, it can be defended by a strong chin tuck and risks injury to the trachea. A properly executed guillotine attacks the carotid arteries by positioning the wrist bone under the chin with the forearm creating a V-shape on the sides of the neck. This version causes loss of consciousness by cutting off blood flow to the brain rather than air, making it faster acting (4-6 seconds) and harder to defend. The high-elbow guillotine variation specifically targets the arteries by changing the angle of pressure. Understanding this difference allows you to adjust your technique based on the situation and opponent's defenses.",
-        "answer_line": "Carotid: wrist under chin, faster",
+        "answer_line": "Wrist under chin chokes carotids",
         "distractors": {
           "plausible": [
-            "Trachea: crushes windpipe, painful",
-            "Both target same neck structure"
+            "Windpipe crush is higher percentage",
+            "Both chokes cut off blood flow"
           ],
           "trap": [
-            "Aim for trachea for reliability"
+            "Trust the throat crush to finish"
           ]
         }
       },
@@ -368,14 +368,14 @@
       {
         "question": "The guillotine attempt fails and your opponent begins to posture - what chain attacks are available?",
         "answer": "When the guillotine fails and the opponent postures, you retain front headlock control and can immediately chain to several attacks. If their far arm is exposed, switch to a darce choke by threading your choking arm under their armpit and connecting to your other arm behind their neck. If they turn away, the anaconda choke becomes available by wrapping their arm and neck together. If they posture strongly and you lose neck control, snap them back down and take the back by stepping over as they try to recover base. From closed guard with a failed guillotine, you can transition to an omoplata by swimming your leg over their shoulder on the choking side, or set up a triangle by opening your guard and angling for the leg across their neck. The critical principle is never releasing front headlock control to chase a dead guillotine - maintain the control and flow to the next available attack.",
-        "answer_line": "Keep control, chain next attack",
+        "answer_line": "Keep headlock, chain darce/anaconda",
         "distractors": {
           "plausible": [
-            "Release grip, reset to neutral",
-            "Chase the guillotine harder"
+            "Bail and pull full guard",
+            "Crank the failed guillotine harder"
           ],
           "trap": [
-            "Let go of headlock to re-shoot"
+            "Give up the grip to shoot a double"
           ]
         }
       },

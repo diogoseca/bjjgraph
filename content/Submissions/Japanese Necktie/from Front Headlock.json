@@ -341,11 +341,11 @@
         "answer_line": "Perpendicular, shoulder on far side",
         "distractors": {
           "plausible": [
-            "Rotate past 90 for more leverage",
-            "Any angle works if grip is tight"
+            "Rotate well past 90 degrees",
+            "Grip tightness matters, not angle"
           ],
           "trap": [
-            "Stay parallel to their spine"
+            "Cling parallel as they stand up"
           ]
         }
       },
@@ -356,11 +356,11 @@
         "answer_line": "Release, roll away, check breathing",
         "distractors": {
           "plausible": [
-            "Shake them to wake up first",
-            "Hold position, wait it out"
+            "Sit them up and give them water",
+            "Elevate the head, not the legs"
           ],
           "trap": [
-            "Keep choke on to confirm tap"
+            "Hold the choke to confirm the tap"
           ]
         }
       },
@@ -368,14 +368,14 @@
         "question": "Why is gradual pressure application (5-7 seconds minimum) essential when training the Japanese Necktie, even though the choke can work much faster?",
         "answer": "Gradual application allows your training partner time to recognize the danger, assess their defensive options, and tap safely before losing consciousness. The Japanese Necktie can render opponents unconscious in 3-5 seconds when applied explosively, which doesn't provide adequate time for safe tapping in a training environment. Slow application also prevents trachea damage from sudden shoulder pressure and reduces risk of neck strain from rotational torque. In training, the goal is skill development and safety, not demonstrating how quickly you can choke someone unconscious. Partners who apply submissions gradually build trust and create a safer training environment for everyone.",
         "safety_critical": true,
-        "answer_line": "Gives time to tap safely",
+        "answer_line": "Gives partner time to tap safely",
         "distractors": {
           "plausible": [
-            "Prevents cardio fatigue only",
-            "Builds better muscle memory"
+            "Improves the finishing rate",
+            "Stops your grips from slipping"
           ],
           "trap": [
-            "Apply fast to test the choke"
+            "Snap it on fast to prove control"
           ]
         }
       },
@@ -383,14 +383,14 @@
         "question": "What is the purpose of the overhook on the opponent's near arm, and what happens if this arm trap fails during execution?",
         "answer": "The overhook traps the opponent's arm against their body, transforming their own shoulder into part of the choking mechanism. Their trapped shoulder compresses one carotid artery while your shoulder compresses the other, creating the bilateral compression necessary for the choke. If the arm trap fails and they extract their arm, they can post with that hand to create base, turn into you to face guard, or use the free arm to hand fight and break your grips. Without the trapped arm, you lose half of the choking mechanism and the technique becomes a weak front headlock position rather than an effective submission. If the trap fails, you should immediately transition to alternative attacks like anaconda, darce, or standard guillotine.",
         "safety_critical": false,
-        "answer_line": "Traps shoulder to compress neck",
+        "answer_line": "Traps shoulder as second choke point",
         "distractors": {
           "plausible": [
-            "Just controls their posture",
-            "Prevents them from standing"
+            "Only holds their posture down",
+            "Stops them rolling to guard"
           ],
           "trap": [
-            "Grip harder if arm slips free"
+            "Keep squeezing after the arm frees"
           ]
         }
       },
@@ -401,11 +401,11 @@
         "answer_line": "Hip extension and shoulder drive",
         "distractors": {
           "plausible": [
-            "Squeeze harder with biceps",
-            "Pull down with both arms"
+            "Curl the arms to close space",
+            "Rock backward and pull"
           ],
           "trap": [
-            "Crank neck with arm strength"
+            "Crank the spine for a neck crank"
           ]
         }
       },
@@ -416,11 +416,11 @@
         "answer_line": "Drop weight, pull head down",
         "distractors": {
           "plausible": [
-            "Let them stand, reset setup",
+            "Let them posture, then reset",
             "Push their head up higher"
           ],
           "trap": [
-            "Let go completely and back off"
+            "Hang on their neck as they rise"
           ]
         }
       },
@@ -431,11 +431,11 @@
         "answer_line": "Carotids: tightness, tunnel vision",
         "distractors": {
           "plausible": [
-            "Windpipe pressure, hard breathing",
-            "Neck strain, sharp local pain"
+            "Sharp pain along the jawline",
+            "Breathing slowly getting harder"
           ],
           "trap": [
-            "Trachea crush, gasping for air"
+            "Crank the windpipe till they gasp"
           ]
         }
       },
@@ -443,14 +443,14 @@
         "question": "What is the 'point of no escape' in the Japanese Necktie, and how do you ensure you reach it before the opponent can defend?",
         "answer": "The point of no escape occurs when three conditions are met simultaneously: the arm trap is secure with the opponent's shoulder locked against their neck, the grip configuration is locked (whether gable grip, shin grip, or lapel grip), and your body is positioned at the perpendicular angle with shoulder contact on the far side of their neck. Once all three elements are in place and you begin hip extension, defensive options become severely limited. To reach this point before the opponent defends, prioritize the arm trap first since this is the most commonly defended element. Execute the rotation quickly after securing the arm trap, and lock your grip immediately upon achieving the perpendicular angle. Speed through the transition phase while being deliberate in the finishing phase.",
         "safety_critical": false,
-        "answer_line": "Arm trap + lock + perpendicular",
+        "answer_line": "All three: trap, grip, angle",
         "distractors": {
           "plausible": [
-            "Just get the grip locked tight",
-            "Perpendicular angle is enough"
+            "A locked grip is enough",
+            "The angle alone seals it"
           ],
           "trap": [
-            "Rush the finish before the trap"
+            "Hip extend before the arm is trapped"
           ]
         }
       },
@@ -462,10 +462,10 @@
         "distractors": {
           "plausible": [
             "They sit back on their heels",
-            "They scramble to stand up"
+            "They flatten out on their belly"
           ],
           "trap": [
-            "Wait for them to relax fully"
+            "Chase the choke as they stand up"
           ]
         }
       },
@@ -491,11 +491,11 @@
         "answer_line": "Extract trapped arm before lock",
         "distractors": {
           "plausible": [
-            "Pull head straight back",
-            "Turn into them right away"
+            "Pull your head straight back",
+            "Grab their wrist and hold on"
           ],
           "trap": [
-            "Wait and bridge out later"
+            "Ride it out and hope they tire"
           ]
         }
       }
@@ -618,11 +618,11 @@
         "answer_line": "Extract arm before grips lock",
         "distractors": {
           "plausible": [
-            "Pull chin down and wait",
-            "Push their overhook elbow only"
+            "Tuck your chin and stall",
+            "Grab their far wrist and hold"
           ],
           "trap": [
-            "Turn into them for the takedown"
+            "Roll forward with the arm trapped"
           ]
         }
       },
@@ -633,11 +633,11 @@
         "answer_line": "Extends neck, tightens choke",
         "distractors": {
           "plausible": [
-            "Works same as a guillotine",
-            "Only helps if grip is loose"
+            "Works the same as a guillotine",
+            "It frees your trapped arm"
           ],
           "trap": [
-            "Yank head back hard to escape"
+            "Arch back hard to rip head out"
           ]
         }
       },
@@ -645,14 +645,14 @@
         "question": "At what point during the Japanese Necktie setup does the defense become extremely low percentage, and what should you do if you reach that point?",
         "answer": "The defense becomes extremely low percentage once all three conditions are met: the arm trap is fully consolidated with your shoulder pressed against your neck, the attacker has achieved the perpendicular body angle, and their grip configuration is locked. Once these elements converge and the attacker begins hip extension, the choke will compress both carotid arteries simultaneously and unconsciousness follows within seconds. If you reach this point, you must tap immediately rather than attempting a last-second escape. Fighting through a fully locked Japanese Necktie risks losing consciousness before you can tap, which is dangerous for both training partners. Recognition of this point of no return is a critical safety skill.",
         "safety_critical": true,
-        "answer_line": "All three locked, tap now",
+        "answer_line": "Tap once all three lock in",
         "distractors": {
           "plausible": [
-            "Try one last hard escape",
-            "Bridge and roll to relieve"
+            "Pull the trapped arm free first",
+            "Wait for their grip to slip"
           ],
           "trap": [
-            "Fight through, don't tap yet"
+            "Ride it out and sleep, never tap"
           ]
         }
       },
@@ -663,11 +663,11 @@
         "answer_line": "Breaks angle, risky if grips set",
         "distractors": {
           "plausible": [
-            "Always safe, do it anytime",
-            "Only works once choke is tight"
+            "It strips their overhook grip",
+            "Safe at any stage of the choke"
           ],
           "trap": [
-            "Turn in after grips are locked"
+            "Spin in once the grip is locked"
           ]
         }
       },

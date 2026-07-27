@@ -320,14 +320,14 @@
       {
         "question": "What grip configuration provides the highest-percentage entry for a double leg takedown from standing guard?",
         "answer": "A collar tie with same-side wrist control provides the strongest setup for a double leg entry. The collar tie controls the opponent's posture and head position, preventing them from sprawling effectively, while the wrist control eliminates their ability to post or establish a guillotine grip during your level change. Snapping down on the collar tie before shooting creates a forward weight shift that loads the opponent's weight onto their toes, directly into the path of your penetration step.",
-        "answer_line": "Collar tie, same-side wrist",
+        "answer_line": "Collar tie plus same-side wrist",
         "distractors": {
           "plausible": [
-            "Two-on-one sleeve control",
-            "Double collar tie grip"
+            "Two sleeve cuff grips at range",
+            "Belt and far-collar grip"
           ],
           "trap": [
-            "Cross grips, opposite wrist"
+            "No grips, dive in head outside"
           ]
         }
       },

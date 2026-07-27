@@ -278,14 +278,14 @@
         "question": "What anatomical structures does the Twister primarily attack and why are they vulnerable to rotational force?",
         "answer": "The Twister primarily attacks the cervical and thoracic spine through rotational torque, along with secondary stress on the shoulder girdle. These structures are vulnerable because the spine has limited rotational range of motion, especially when the lower body is anchored in one direction and the upper body is forced to rotate in the opposite direction. The intervertebral discs and spinal ligaments are not designed to withstand the opposing forces the twister creates between the fixed hips and rotating torso.",
         "safety_critical": true,
-        "answer_line": "Spine's limited rotational range",
+        "answer_line": "Spine barely rotates under torque",
         "distractors": {
           "plausible": [
-            "Shoulder joint hyperextension",
-            "Elbow and wrist hyperextension"
+            "Elbow joint hyperextension",
+            "Rib cage compression only"
           ],
           "trap": [
-            "Knee ligament overextension"
+            "Hold the crank past the tap"
           ]
         }
       },
@@ -293,14 +293,14 @@
         "question": "Why must the near shoulder be driven completely to the mat before threading the arm under the head?",
         "answer": "The shoulder must be pinned flat because it eliminates the opponent's ability to rotate their torso defensively. If the shoulder retains any elevation, the opponent can turn into the attacker to block the arm thread or turn away to escape the position entirely. The pinned shoulder also pre-loads the spinal rotation that the finish requires, meaning less additional force is needed once the grip is secured. Skipping this step is the most common reason the arm thread fails.",
         "safety_critical": false,
-        "answer_line": "Removes opponent's rotation defense",
+        "answer_line": "Kills their defensive torso turn",
         "distractors": {
           "plausible": [
-            "Tightens the choke mechanism",
-            "Frees the head for control"
+            "Adds pressure to the windpipe",
+            "Creates space to switch grips"
           ],
           "trap": [
-            "Lets you switch to armbar"
+            "Thread while their shoulder is up"
           ]
         }
       },
@@ -311,11 +311,11 @@
         "answer_line": "Grip locked, arm trapped, hips fixed",
         "distractors": {
           "plausible": [
-            "Shoulder flattened, grip not set",
-            "Leg entanglement deep, no grip yet"
+            "Shoulder flat but grip not set",
+            "Hooks deep with no grip yet"
           ],
           "trap": [
-            "Opponent already tapping"
+            "Rotate before the grip is set"
           ]
         }
       },
@@ -356,11 +356,11 @@
         "answer_line": "Grip lower, hips further from head",
         "distractors": {
           "plausible": [
-            "Grip higher for more torque",
+            "Clasp higher on the crown",
             "Squeeze harder with both arms"
           ],
           "trap": [
-            "Release and reset the grip"
+            "Jerk the neck to force the tap"
           ]
         }
       },
@@ -368,14 +368,14 @@
         "question": "What are the key differences between finishing the Twister from Twister Side Control versus from the Truck?",
         "answer": "From twister side control, the attacker has a perpendicular angle that provides superior shoulder-driving leverage and a more stable base through the posted outside leg. The arm threading pathway is slightly different—approaching from the lateral side rather than from behind. The truck entry provides more direct spinal alignment for the rotation but less base stability. Twister side control requires more deliberate shoulder flattening before the arm thread, while the truck often allows faster grip acquisition but with higher reversal risk due to the attacker's positioning behind the opponent.",
         "safety_critical": false,
-        "answer_line": "More leverage vs faster grip access",
+        "answer_line": "Side control gives base and leverage",
         "distractors": {
           "plausible": [
-            "Truck has more base stability",
-            "Both use identical arm pathway"
+            "Truck is the sturdier platform",
+            "Both share one arm pathway"
           ],
           "trap": [
-            "Twister SC allows faster finish"
+            "Drop the hooks to finish faster"
           ]
         }
       },
@@ -383,14 +383,14 @@
         "question": "In competition, what strategic factors determine whether to commit to the Twister finish versus transitioning to an alternative submission?",
         "answer": "Commit to the twister when: the arm thread is unobstructed, the shoulder is fully pinned, and the leg entanglement is deep and secure. Transition away when: the arm thread is blocked twice consecutively, the leg entanglement is becoming shallow, or the opponent is successfully creating upper body frames. Time remaining matters—the twister setup is time-intensive, so with limited time, faster alternatives like the darce choke on a turn-in or back take on a turn-away may be higher percentage. Energy expenditure should also factor in, as forcing a defended twister depletes resources needed for alternatives.",
         "safety_critical": false,
-        "answer_line": "Commit only if thread is open",
+        "answer_line": "Thread open and shoulder pinned",
         "distractors": {
           "plausible": [
-            "Commit whenever hooks feel deep",
-            "Always finish once grip starts"
+            "Hooks feel deep, entry blocked",
+            "Grip started, so ride it out"
           ],
           "trap": [
-            "Force it if time is running out"
+            "Muscle it as the clock runs out"
           ]
         }
       }
@@ -506,11 +506,11 @@
         "answer_line": "Shoulder flattening, hips restricted",
         "distractors": {
           "plausible": [
-            "Opponent grips your collar first",
+            "They grab your collar first",
             "Sudden knee pressure on ribs"
           ],
           "trap": [
-            "Opponent releases leg entanglement"
+            "Wait until the grip is locked"
           ]
         }
       },
@@ -521,11 +521,11 @@
         "answer_line": "Tap verbally, don't wait to escape",
         "distractors": {
           "plausible": [
-            "Tap only when hands are free",
-            "Wait to see if you can escape"
+            "Tap the mat only, with a free hand",
+            "Tap only after trying a bridge"
           ],
           "trap": [
-            "Try to power through the rotation"
+            "Power through the rotation"
           ]
         }
       },
@@ -551,11 +551,11 @@
         "answer_line": "Bridge early, tap if pressure builds",
         "distractors": {
           "plausible": [
-            "Strip grip with free hand only",
-            "Power through with neck strength"
+            "Free the trapped leg first",
+            "Shrimp your hips backward"
           ],
           "trap": [
-            "Wait for opponent to tire out"
+            "Muscle your neck against the twist"
           ]
         }
       },
@@ -566,11 +566,11 @@
         "answer_line": "Frame first, then extract legs",
         "distractors": {
           "plausible": [
-            "Extract legs before framing up",
+            "Pull the legs out before framing",
             "Bridge immediately for distance"
           ],
           "trap": [
-            "Rush straight to full escape"
+            "Turn away to run for the exit"
           ]
         }
       }

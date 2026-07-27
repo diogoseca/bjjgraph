@@ -346,10 +346,10 @@
         "distractors": {
           "plausible": [
             "Chokes the trachea/airway",
-            "Cuts blood via leg squeeze alone"
+            "Leg squeeze cuts blood alone"
           ],
           "trap": [
-            "Windpipe compression finishes it"
+            "Crank the spine like a neck crank"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Squeeze legs together hard",
-            "Pull head down with arms only"
+            "Pull head down with arms only",
+            "Rely on ankle-lock strength"
           ],
           "trap": [
-            "Clamp adductors as hard as possible"
+            "Clamp knees hard till you gas out"
           ]
         },
         "answer_line": "Hip extension, not leg squeeze"
@@ -432,14 +432,14 @@
         "question": "How do you adjust your finishing mechanics when the opponent tucks their chin aggressively to defend against the choke?",
         "answer": "Chin tucking is a stalling tactic that does not address the underlying structural problem of the triangle. To overcome it: first ensure your angle is correct at 90 degrees to their centerline. Second, pull their head even lower using grips behind the head or their collar - their chin cannot protect them if their face is pointing at your belly button. Third, increase hip elevation and extension rather than squeezing harder. Fourth, grab your own shin with both hands and pull to close any remaining space. The bilateral compression from your leg and their shoulder will eventually overcome the chin defense as long as your structure is correct.",
         "safety_critical": false,
-        "answer_line": "Angle first, then pull head low",
+        "answer_line": "Fix angle, then pull head low",
         "distractors": {
           "plausible": [
-            "Squeeze legs harder against chin",
-            "Push chin up to break tuck"
+            "Push their chin up to break tuck",
+            "Wait for them to gas out"
           ],
           "trap": [
-            "Abandon angle, squeeze harder"
+            "Drop the angle to squeeze harder"
           ]
         }
       },
@@ -464,14 +464,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Frantic tapping, that's all",
-            "Loud verbal complaints only"
+            "Strong posture and tight grips",
+            "Calm face and steady breathing"
           ],
           "trap": [
-            "Wait for the tap regardless"
+            "Wait until they finally tap"
           ]
         },
-        "answer_line": "Reddening face, limp arm, no defense"
+        "answer_line": "Purple face, limp arm, defense fades"
       },
       {
         "question": "How does the triangle from closed guard connect to other submissions in a systematic attack chain, and what reactions from your opponent lead to each alternative attack?",
@@ -660,8 +660,8 @@
         "answer_line": "Turn toward the choking leg",
         "distractors": {
           "plausible": [
-            "Turn away to protect your neck",
-            "Post on the mat and sit up"
+            "Post on the mat and bridge up",
+            "Pull your head straight back"
           ],
           "trap": [
             "Turn away from the choking leg"
@@ -675,11 +675,11 @@
         "answer_line": "Keep both arms in or both out",
         "distractors": {
           "plausible": [
-            "Keep one arm in, one out for base",
-            "Post one hand, tuck the other"
+            "Push their knee to open guard",
+            "Stand up to disengage fast"
           ],
           "trap": [
-            "Let one arm drift inside"
+            "Feed one arm inside their guard"
           ]
         }
       },
@@ -687,11 +687,11 @@
         "question": "When caught in a triangle, why is it dangerous to simply try to pull your trapped arm out, and what submission does this expose you to?",
         "answer": "Pulling the trapped arm straight back while the triangle is locked feeds directly into an armbar. The attacker simply pivots their legs over your face while your arm is already extended from the extraction attempt, creating a fully locked armbar position. The arm extraction movement also temporarily increases space in the triangle, allowing the attacker to adjust their angle or deepen the lock. Instead of pulling the arm out directly, you must first address the triangle structure by turning toward the choking leg or stacking to change the angle, then extract the arm from a position where the armbar transition is blocked by your body positioning.",
         "safety_critical": false,
-        "answer_line": "Turn or stack before pulling arm",
+        "answer_line": "Turn or stack before freeing arm",
         "distractors": {
           "plausible": [
-            "Pull arm out fast to escape",
-            "Push their hips to relieve pressure"
+            "Push their hips to make space",
+            "Flatten out and bridge hard"
           ],
           "trap": [
             "Yank the trapped arm straight back"
@@ -702,14 +702,14 @@
         "question": "What are the physical signs that indicate you are running out of time to escape a locked triangle before losing consciousness?",
         "answer": "Physical warning signs include: vision narrowing or darkening at the edges (tunnel vision), a feeling of pressure building in your head and face, hearing becoming muffled or distant, difficulty thinking clearly or processing defensive options, involuntary relaxation of your muscles despite wanting to resist, and a warm or tingling sensation in your face and ears from blood pooling. If you experience any of these signs, you must tap immediately rather than continuing escape attempts, as unconsciousness can follow within seconds. In training, there is no tactical benefit to pushing past these warning signs - tap, reset, and drill the defense from an earlier stage.",
         "safety_critical": true,
-        "answer_line": "Tunnel vision or fading - tap now",
+        "answer_line": "Tunnel vision or muffled hearing",
         "distractors": {
           "plausible": [
-            "Push through, finish the escape",
-            "Wait for full unconsciousness"
+            "Sharp pain in your neck",
+            "Burning in your shoulders"
           ],
           "trap": [
-            "Keep fighting through tunnel vision"
+            "Push on until everything goes black"
           ]
         }
       }

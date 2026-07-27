@@ -387,14 +387,14 @@
       {
         "question": "What direction of force should your choking arm apply once the Darce grip is locked?",
         "answer": "Your choking arm should pull upward and toward your own body, creating a lifting action on the back of opponent's neck while your shoulder drives downward and forward into the side of their head. These opposing force vectors compress the carotid arteries from both sides simultaneously, creating the blood choke mechanism that produces the tap.",
-        "answer_line": "Pull up-in, shoulder drives down",
+        "answer_line": "Pull up into you, shoulder down",
         "distractors": {
           "plausible": [
             "Pull straight down and back",
-            "Push forward, shoulder pulls up"
+            "Drag their arm across your chest"
           ],
           "trap": [
-            "Pull outward away from your body"
+            "Crank sideways into a neck crank"
           ]
         }
       }

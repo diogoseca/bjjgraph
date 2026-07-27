@@ -574,14 +574,14 @@
       {
         "question": "Why should you bridge toward the side your opponent is stepping from rather than directly upward?",
         "answer": "Bridging toward the side they're stepping from (their original side control position) disrupts the weight transfer that powers the step-over. Their body weight is moving in one direction (toward mount) and your bridge creates force in the opposite direction, maximizing disruption. An upward bridge actually assists the transition by lifting your hips and creating more clearance for their leg. The lateral bridge also threatens to dump them past their original base, forcing them to abandon the mount attempt and reset their base to prevent being rolled. This directional specificity is critical and often overlooked by less experienced practitioners.",
-        "answer_line": "Bridge toward stepping side",
+        "answer_line": "Bridge toward their stepping side",
         "distractors": {
           "plausible": [
-            "Bridge straight upward",
-            "Bridge away from their step"
+            "Bridge away from their step",
+            "Turn away and shrimp out"
           ],
           "trap": [
-            "Bridge up to buy space"
+            "Bridge up, feed the mount"
           ]
         }
       },

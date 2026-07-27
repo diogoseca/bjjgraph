@@ -336,7 +336,7 @@
             "Pull ankle straight backward"
           ],
           "trap": [
-            "Let them settle their base"
+            "Drive knees together, lose hooks"
           ]
         }
       },
@@ -350,7 +350,7 @@
             "Wait until they stop pulling"
           ],
           "trap": [
-            "Fight to keep the leg in place"
+            "Give up guard, scramble to knees"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "answer": "You can revert to full X-Guard, switch to butterfly guard, enter deep half guard if they drive forward, or stand up into a single leg takedown. Reverting to X-Guard means re-inserting the knee hook and hip cross for elevation sweeps; butterfly guard requires extracting both legs and establishing butterfly hooks; deep half comes from threading underneath a forward-driving opponent; and the technical stand-up to single leg works if you maintain ankle control while rising. The key is having predetermined fallback positions rather than forcing a failed transition repeatedly.",
         "distractors": {
           "plausible": [
-            "Keep forcing the same entry",
-            "Give up the guard entirely"
+            "No attacks remain; disengage",
+            "Only a footlock is left"
           ],
           "trap": [
-            "Repeat the failed SLX attempt"
+            "Force the same SLX again"
           ]
         },
         "answer_line": "X-Guard, butterfly, or deep half"
@@ -488,8 +488,8 @@
         "answer_line": "Gap between hook release and wrap",
         "distractors": {
           "plausible": [
-            "Right as guard is first locked in",
-            "After SLX is fully secured"
+            "Right as X-Guard locks in",
+            "During their sweep finish"
           ],
           "trap": [
             "Wait until SLX is complete"
@@ -499,14 +499,14 @@
       {
         "question": "Why is pulling your trapped leg straight backward a counterproductive defensive response?",
         "answer": "Pulling straight backward feeds your leg into the opponent's SLX wrap because their inside foot is threading around the back of your ankle. Your backward pull actually provides the momentum and angle they need to complete the wrap. Instead, you should angle your knee laterally outward and step to the side, which defeats the threading path of their wrap by changing the extraction angle to one that their foot cannot follow.",
-        "answer_line": "Angle knee out, step laterally",
+        "answer_line": "It feeds your leg into their wrap",
         "distractors": {
           "plausible": [
-            "Pull the knee straight up",
-            "Kick the free leg to escape"
+            "It strains your lower back",
+            "It opens your back to them"
           ],
           "trap": [
-            "Yank the leg straight back"
+            "It helps them finish a footlock"
           ]
         }
       },
@@ -530,11 +530,11 @@
         "answer_line": "Drive knee down, clear hooks",
         "distractors": {
           "plausible": [
-            "Rip the leg free explosively",
-            "Clear hip hook before ankle"
+            "Clear the hip hook first",
+            "Grip fight for the collar first"
           ],
           "trap": [
-            "Yank the leg out with force"
+            "Rip the leg out explosively"
           ]
         }
       }

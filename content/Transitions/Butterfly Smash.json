@@ -354,11 +354,11 @@
         "answer_line": "Chain to a different pass",
         "distractors": {
           "plausible": [
-            "Repeat smash with more force",
-            "Wait for them to tire out"
+            "Wait for them to tire out",
+            "Stall in their closed structure"
           ],
           "trap": [
-            "Force same pass again harder"
+            "Repeat same smash harder"
           ]
         }
       },
@@ -368,13 +368,13 @@
         "distractors": {
           "plausible": [
             "Faster to strip in sequence",
-            "Prevents opponent frame resets"
+            "Saves your grip strength"
           ],
           "trap": [
-            "Strip all frames at once fast"
+            "Strip all frames at once"
           ]
         },
-        "answer_line": "Keeps pressure, avoids release"
+        "answer_line": "Keeps constant pressure on"
       }
     ],
     "safety_considerations": "The butterfly smash is generally a safe passing technique when performed with control. However, practitioners should be mindful of pressure application on the opponent's face and neck during crossface establishment - excessive or sudden pressure can cause discomfort or injury to the jaw, cervical spine, or temporomandibular joint. When drilling, start with light pressure and gradually increase as both partners become comfortable with the mechanics. Be particularly careful with head positioning to avoid accidental headbutts when driving forward. Partners should communicate clearly if pressure becomes uncomfortable, especially on the jaw or neck. When receiving the pass, avoid explosive bridging or shrimping movements that could result in collision injuries.",
@@ -534,14 +534,14 @@
       {
         "question": "How does threatening offensive sweeps function as a defensive tool against the butterfly smash?",
         "answer": "When you actively threaten butterfly sweeps, arm drags, and back takes, the passer must divide their attention between executing the smash and defending against your attacks. A passer who is worried about being swept cannot fully commit their weight forward into the pressure sequence. This offensive-defensive balance forces the passer to maintain a more conservative posture, which slows or prevents the structure collapse needed for the smash to work. Passive defense invites aggressive pressure because the passer can commit fully without risk.",
-        "answer_line": "Splits their attention, focus",
+        "answer_line": "Divides the passer's focus",
         "distractors": {
           "plausible": [
-            "Tires out the passer faster",
-            "Distracts from grip fighting"
+            "Tires the opponent out fast",
+            "Weakens their grip strength"
           ],
           "trap": [
-            "Go fully passive, wait it out"
+            "Go fully passive and wait"
           ]
         }
       },

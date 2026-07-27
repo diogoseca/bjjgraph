@@ -504,14 +504,14 @@
     {
       "question": "What should you do when caught in a fully locked submission you cannot escape?",
       "answer": "Make a tactical decision to concede position rather than risk injury — give up the arm to save the choke, or surrender the pass to prevent the leg lock — and tap promptly when an escape is genuinely impossible.",
-      "answer_line": "Concede position, tap early",
+      "answer_line": "Concede position, tap promptly",
       "distractors": {
         "plausible": [
-          "Fight through to the last second",
-          "Escape first, tap only if hurt"
+          "Grip your own lapel and hold on",
+          "Stall until the round timer ends"
         ],
         "trap": [
-          "Never tap, fight through pain"
+          "Spin hard against the joint lock"
         ]
       }
     },
@@ -549,11 +549,11 @@
       "answer_line": "Positional sparring from submission",
       "distractors": {
         "plausible": [
-          "Full rounds build best defense",
-          "Drilling escapes solo repeatedly"
+          "Cooperative reps with no resistance",
+          "Roll light with smaller partners"
         ],
         "trap": [
-          "Avoid resistance to prevent injury"
+          "Escape only after it locks deep"
         ]
       }
     },

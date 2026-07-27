@@ -301,11 +301,11 @@
         "answer_line": "Hyperextends the PCL",
         "distractors": {
           "plausible": [
-            "Tears the ACL",
-            "Targets the meniscus mainly"
+            "Targets the meniscus mainly",
+            "Compresses the kneecap"
           ],
           "trap": [
-            "Hyperextends the ankle"
+            "Attacks the ankle joint"
           ]
         }
       },
@@ -376,11 +376,11 @@
         "answer_line": "Stop, re-clamp foot, then continue",
         "distractors": {
           "plausible": [
-            "Speed up before it slips fully",
-            "Switch hands one at a time"
+            "Switch hands one at a time",
+            "Grab the ankle for backup grip"
           ],
           "trap": [
-            "Extend faster to finish first"
+            "Extend faster to beat the slip"
           ]
         }
       },
@@ -391,7 +391,7 @@
         "answer_line": "Slow, progressive, 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Fast before they can escape",
+            "Match the opponent's resistance",
             "Steady moderate speed throughout"
           ],
           "trap": [
@@ -437,7 +437,7 @@
         "distractors": {
           "plausible": [
             "Squeeze thigh muscles harder",
-            "Push hips higher for leverage"
+            "Crank the foot to their chest"
           ],
           "trap": [
             "Position hips at mid-thigh"

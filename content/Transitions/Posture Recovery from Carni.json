@@ -301,11 +301,11 @@
       {
         "question": "What is the critical difference between posture recovery and explosive leg extraction from Carni?",
         "answer": "Posture recovery uses controlled, steady forward pressure to systematically collapse the entanglement structure before extracting the leg, while explosive extraction attempts to rip the leg free through speed and power. Explosive extraction creates angular changes that the bottom player can exploit for saddle transitions and back takes, and risks self-injury if the knee torques against remaining hooks. Posture recovery is slower but significantly safer and more reliable.",
-        "answer_line": "Steady pressure, not explosive rip",
+        "answer_line": "Steady pressure collapses structure",
         "distractors": {
           "plausible": [
-            "Rip leg free fast for safety",
-            "Match their speed to escape"
+            "Explosive is safer and faster",
+            "Mirror the opponent's intensity"
           ],
           "trap": [
             "Yank knee free against the hook"

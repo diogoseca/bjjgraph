@@ -310,14 +310,14 @@
       {
         "question": "Why is grip fighting before the level change essential rather than shooting directly for the lock?",
         "answer": "Shooting against strong defensive frames leads to failed entries and wasted energy. Controlling one of the opponent's wrists and pulling it across their body eliminates that arm as a frame while disrupting their posted hand base. This creates an unguarded entry lane on one side of their body. The single-wrist control also prevents them from establishing collar ties or snap-downs that counter your level change effectively.",
-        "answer_line": "Control and pull one wrist",
+        "answer_line": "Pull one wrist across their body",
         "distractors": {
           "plausible": [
-            "Grip both wrists together",
-            "Push their shoulders down"
+            "Grip both sleeves at once",
+            "Push their head straight back"
           ],
           "trap": [
-            "Shoot without grip fighting"
+            "Dive for the leg with head down"
           ]
         }
       },

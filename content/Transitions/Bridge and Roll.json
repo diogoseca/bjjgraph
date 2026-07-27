@@ -304,8 +304,8 @@
         "answer_line": "45° toward trapped shoulder",
         "distractors": {
           "plausible": [
-            "Straight up for max power",
-            "45° away from trapped side"
+            "Roll toward the free arm side",
+            "Push with arms, not hips"
           ],
           "trap": [
             "Bridge straight up, muscle it"
@@ -315,14 +315,14 @@
       {
         "question": "How do you generate maximum bridging power and which muscle groups should be engaged?",
         "answer": "Maximum bridging power comes from full hip extension driven primarily by the glutes, hamstrings, and core muscles, not the lower back. The planted foot (opposite the trapped side) should be positioned close to the buttocks with the knee bent at approximately 90 degrees to create optimal leverage. The explosive drive comes from pressing through this planted foot while simultaneously extending the hips upward and toward the angled direction. The lower back should remain relatively stable while the power generates from the larger muscle groups of the posterior chain. Many beginners make the mistake of trying to lift with their back, which produces weak bridges and risks injury.",
-        "answer_line": "Drive hips via glutes, not back",
+        "answer_line": "Drive hips up using glutes/hams",
         "distractors": {
           "plausible": [
-            "Lift with lower back strength",
-            "Push with the trapped-side foot"
+            "Power the bridge from the spine",
+            "Post the trapped-side leg to lift"
           ],
           "trap": [
-            "Arch back, extend foot far out"
+            "Hyperextend low back to bridge up"
           ]
         }
       },
@@ -331,8 +331,8 @@
         "answer": "If the opponent posts with their free arm mid-bridge, either switch to an elbow escape or attack the opposite side with a new bridge and roll. The elbow escape (shrimp) uses the space created by their committed post; alternatively, their post on one side creates a base weakness on the opposite side that you can attack explosively with a bridge and roll. Never continue forcing a failed bridge and roll against a successful post, as this wastes energy and keeps you in an inferior position. Reading their counter and flowing to the appropriate response is critical for escape success.",
         "distractors": {
           "plausible": [
-            "Bridge harder same direction",
-            "Re-trap the posted arm first"
+            "Re-trap the posted arm first",
+            "Freeze and re-grip, wait"
           ],
           "trap": [
             "Keep forcing the same bridge"
@@ -345,8 +345,8 @@
         "answer": "Frames must come first because attempting any escape while under immediate submission threat is tactically unsound and typically gets you submitted. Frames create the necessary space to prevent attacks like the Americana, armbar, ezekiel choke, or collar chokes that opponents frequently threaten from mount. They also prevent the opponent from establishing high mount or grapevining the legs, both of which make the bridge and roll significantly less effective or impossible. This is the principle of survival before escape: you must neutralize immediate threats before attempting to improve position. Only when frames are established and submission threats are managed can you safely commit to the escape sequence.",
         "distractors": {
           "plausible": [
-            "Bridge immediately for speed",
-            "Frames only needed vs subs"
+            "Frames only needed vs subs",
+            "Grip fight before framing"
           ],
           "trap": [
             "Skip frames, bridge under attack"
@@ -364,21 +364,21 @@
             "Wait for a full stalemate"
           ],
           "trap": [
-            "Bridge on their strongest moment"
+            "Buck nonstop until you gas out"
           ]
         }
       },
       {
         "question": "What is the relationship between the planted foot position and bridging effectiveness?",
         "answer": "The planted foot position is biomechanically crucial for generating explosive bridging power. The foot should be positioned close to the buttocks (heel nearly touching) with the knee bent at approximately 90 degrees or slightly less. This position creates optimal leverage for driving through the foot and extending the hips powerfully. If the foot is too far from the body, the angle becomes mechanically disadvantaged and produces weak, ineffective bridges. The closer the foot, the better the leverage for hip extension, similar to how a sprinter positions their feet in starting blocks. This foot placement allows maximum force transfer from the powerful glute and hamstring muscles directly into the explosive bridging motion.",
-        "answer_line": "Heel close, knee near 90°",
+        "answer_line": "Heel close, knee bent ~90°",
         "distractors": {
           "plausible": [
-            "Foot far out for reach",
-            "Knee locked straight"
+            "Plant foot far from hips",
+            "Bridge up on your toes"
           ],
           "trap": [
-            "Extend leg for a big push"
+            "Straighten legs, shove them off"
           ]
         }
       },
@@ -387,7 +387,7 @@
         "answer": "The Americana attempt commits their arm and shifts their weight toward the attacking side, creating the ideal bridge-and-roll setup on that side. First address the immediate submission threat by pulling your elbow tight to your body and denying the grip. As they reach and lean, their base becomes narrow on the attacking side. Use your free hand to trap their committed arm against your chest—by reaching, they have essentially trapped their own arm for you—and simultaneously hook their same-side foot. Because their weight is already shifted toward that side from the Americana attempt, your bridge requires less force to complete the reversal. The key insight is that submission attempts from mount always create escape windows.",
         "distractors": {
           "plausible": [
-            "Pull elbow in, stay still",
+            "Bridge to the non-attacking side",
             "Push their arm away first"
           ],
           "trap": [
@@ -582,14 +582,14 @@
       {
         "question": "Your opponent successfully traps your right arm and hooks your right foot—what are your options before the bridge?",
         "answer": "You have a narrow window between the trapping completion and the bridge execution. Primary option: immediately post your left hand on the mat at a 45-degree angle to your left hip, creating a tripod that will absorb the incoming bridge. Secondary option: if you have time, strip your right wrist free by circling it toward their thumb (the weakest point of any grip) before they can secure it against their chest—this eliminates the trap entirely. Third option: drive your hips forward aggressively to flatten their body and reduce their bridging angle, while simultaneously pulling your right foot free from their hook by straightening your leg. The worst response is freezing or attempting to push down with your trapped arm, as this plays directly into the escape mechanics.",
-        "answer_line": "Post left hand for tripod base",
+        "answer_line": "Post free hand as a tripod",
         "distractors": {
           "plausible": [
-            "Strip right wrist free first",
-            "Drive hips to flatten them"
+            "Drive hips to flatten them",
+            "Wait for their bridge, react"
           ],
           "trap": [
-            "Push down with trapped arm"
+            "Push up with the trapped arm"
           ]
         }
       },

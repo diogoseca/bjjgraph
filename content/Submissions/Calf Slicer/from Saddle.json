@@ -270,11 +270,11 @@
         "answer_line": "Calf muscle against shin bone",
         "distractors": {
           "plausible": [
-            "Achilles tendon, not calf",
-            "Knee ligaments, not muscle"
+            "Achilles tendon takes the load",
+            "Knee ligaments stretched apart"
           ],
           "trap": [
-            "Ankle bones grinding together"
+            "Crank the knee to force the tap"
           ]
         }
       },
@@ -289,7 +289,7 @@
             "Hip rotation blocks the fold"
           ],
           "trap": [
-            "Attack heel hook instead now"
+            "Extend the leg, feeding your heel"
           ]
         }
       },
@@ -297,14 +297,14 @@
         "question": "What are the critical safety protocols when applying the calf slicer in training?",
         "answer": "Apply compression progressively over a minimum of 5-7 seconds, never jerking or spiking. Listen for verbal taps since leg entanglement may prevent hand tapping. Release immediately upon any tap signal by first releasing foot control, then slowly removing shin pressure. Check your partner's calf mobility and sensation before continuing. Never hold the position after a tap to practice finishing mechanics.",
         "safety_critical": true,
-        "answer_line": "Apply slow, release fast on tap",
+        "answer_line": "Compress slowly, release instantly",
         "distractors": {
           "plausible": [
-            "Apply fast, release slow",
-            "Wait for hand tap only"
+            "Rely on hand taps to stop",
+            "Release the shin before the foot"
           ],
           "trap": [
-            "Hold position after tap briefly"
+            "Hold the lock after they tap"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Drive hips, or switch to heel hook",
         "distractors": {
           "plausible": [
-            "Release grip and reset position",
-            "Pull foot only, ignore hips"
+            "Pull the foot, hips stay still",
+            "Squeeze knees, wait it out"
           ],
           "trap": [
-            "Fight extension, ignore heel hook"
+            "Sit back, releasing the saddle"
           ]
         }
       },
@@ -345,11 +345,11 @@
         "answer_line": "Shin behind knee, on calf belly",
         "distractors": {
           "plausible": [
-            "Shin higher, on the hamstring",
-            "Shin lower, on the Achilles"
+            "Higher up, across the hamstring",
+            "Lower down, over the Achilles"
           ],
           "trap": [
-            "Push shin onto kneecap directly"
+            "Spike the edge into the knee joint"
           ]
         }
       },
@@ -364,7 +364,7 @@
             "Gable grip on the ankle"
           ],
           "trap": [
-            "Overhook the trapped leg"
+            "Release legs to squeeze the foot"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Slicer reopens the heel hook",
         "distractors": {
           "plausible": [
-            "Always finish with calf slicer",
-            "Skip slicer, spam heel hook"
+            "Only useful when points are tied",
+            "Best opening move from saddle"
           ],
           "trap": [
-            "Ignore ruleset, attack anyway"
+            "Attack it where it's banned"
           ]
         }
       }
@@ -526,7 +526,7 @@
             "Feel your ankle rotate free"
           ],
           "trap": [
-            "Ignore shin pressure increase"
+            "Turn in, feeding your heel"
           ]
         }
       },
@@ -537,11 +537,11 @@
         "answer_line": "Tap loudly, verbally, right away",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only by hand on the mat"
+            "Only signal with a free hand",
+            "Slap the mat, never shout"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Ride it out hoping to escape"
           ]
         }
       },
@@ -552,11 +552,11 @@
         "answer_line": "Straighten leg before fold locks",
         "distractors": {
           "plausible": [
-            "Bend knee further to escape",
-            "Push off with trapped leg"
+            "Strip grips after the fold sets",
+            "Frame with the trapped foot"
           ],
           "trap": [
-            "Fight the lock once it's set"
+            "Muscle through a locked slicer"
           ]
         }
       },
@@ -567,8 +567,8 @@
         "answer_line": "Fixes slicer, exposes the heel",
         "distractors": {
           "plausible": [
-            "Fixes slicer, no other risk",
-            "Exposes heel, blocks slicer only"
+            "Only risky if you turn away",
+            "Frees the knee, heel stays hid"
           ],
           "trap": [
             "Fully extend and ignore heel risk"

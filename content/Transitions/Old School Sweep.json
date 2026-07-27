@@ -267,7 +267,7 @@
             "Opponent has neutral base"
           ],
           "trap": [
-            "As soon as lockdown locks on"
+            "When they posture up to pass"
           ]
         },
         "answer_line": "Opponent shifts weight forward"
@@ -352,7 +352,7 @@
             "Release lockdown, reset guard"
           ],
           "trap": [
-            "Push harder into the post"
+            "Roll away and give up your back"
           ]
         }
       },
@@ -422,7 +422,7 @@
             "Stop and reset the lockdown"
           ],
           "trap": [
-            "Sweep straight into the post"
+            "Turn and give up your back"
           ]
         }
       },
@@ -477,7 +477,7 @@
             "When they settle into base"
           ],
           "trap": [
-            "Against a solid, posted base"
+            "As they drive to pass your guard"
           ]
         },
         "answer_line": "Weight shifts or leg extends"
@@ -642,11 +642,11 @@
         "answer_line": "Drive whizzer deep, crank crossface",
         "distractors": {
           "plausible": [
-            "Sprawl hips back immediately",
-            "Push away and stand up"
+            "Bench them off to make space",
+            "Grip fight for their wrist"
           ],
           "trap": [
-            "Try to strip the lockdown first"
+            "Strip the lockdown first"
           ]
         }
       },
@@ -688,7 +688,7 @@
             "Head control first, then hook"
           ],
           "trap": [
-            "They post their free hand"
+            "They go limp to bait you"
           ]
         }
       },
@@ -698,11 +698,11 @@
         "answer_line": "Crossface hard, turn their head away",
         "distractors": {
           "plausible": [
-            "Deepen your whizzer immediately",
-            "Sprawl your hips back first"
+            "Posture up tall and away",
+            "Grab their belt and stall"
           ],
           "trap": [
-            "Fight for head control yourself"
+            "Sit back to hunt a leglock"
           ]
         }
       },
@@ -726,8 +726,8 @@
         "answer_line": "Increase whizzer, sprawl hips back",
         "distractors": {
           "plausible": [
-            "Fight hard to recover crossface",
-            "Release whizzer, reset base"
+            "Post on your free hand hard",
+            "Reach to underhook their leg"
           ],
           "trap": [
             "Abandon whizzer, chase crossface"
@@ -740,8 +740,8 @@
         "answer_line": "When their underhook is shallow",
         "distractors": {
           "plausible": [
-            "When head control is established",
-            "Anytime, lockdown doesn't matter"
+            "When head control is set",
+            "The moment they start pumping"
           ],
           "trap": [
             "When all three controls are set"

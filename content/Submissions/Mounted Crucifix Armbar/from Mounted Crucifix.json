@@ -377,14 +377,14 @@
         "question": "How does grip positioning on the wrist affect the armbar's finishing angle and effectiveness?",
         "answer": "The C-grip should be positioned with the thumb on the back of the wrist and fingers wrapped around the radial side (thumb side) of the forearm. This grip controls wrist rotation, preventing the defender from turning the thumb toward the ground which would misalign the elbow for hyperextension. Pulling the wrist toward your chest with the defender's thumb pointing toward the ceiling ensures the elbow's natural hinge aligns directly against your hip pressure. Gripping too far down the forearm reduces rotational control, while gripping the hand itself allows the wrist to flex and absorb extension force.",
         "safety_critical": false,
-        "answer_line": "Thumb up, C-grip on radial side",
+        "answer_line": "Thumb up, C-grip radial side",
         "distractors": {
           "plausible": [
-            "Grip the hand, not the forearm",
-            "Thumb down for a sharper angle"
+            "Cup the hand, not the wrist",
+            "Rotate palm toward the floor"
           ],
           "trap": [
-            "Grip low on the forearm instead"
+            "Release wrist to reset the grip"
           ]
         }
       },
@@ -399,7 +399,7 @@
             "Pivoting the hips too slowly"
           ],
           "trap": [
-            "Lift hips to reposition faster"
+            "Rip the arm to force the tap"
           ]
         }
       },
@@ -410,8 +410,8 @@
         "answer_line": "Slow, progressive, never jerking",
         "distractors": {
           "plausible": [
-            "Fast before they can recover",
-            "One steady moderate push"
+            "Fast so they cannot react",
+            "Whatever pace ends it soonest"
           ],
           "trap": [
             "One explosive final crank"

@@ -507,14 +507,14 @@
       {
         "question": "What is your last-resort defensive option when the attacker has consolidated the kneebar position with knees pinched?",
         "answer": "The last-resort defense is aggressively bending your knee and pulling your heel toward your buttock while fighting their grip on your ankle. A deeply bent knee cannot be hyperextended regardless of how much hip pressure they apply. This is energy-intensive because you are fighting their pulling force and hip bridge simultaneously, but it prevents the finish and buys time to work the leg free or wait for a grip adjustment that creates an extraction opportunity.",
-        "answer_line": "Bend knee, pull heel to butt",
+        "answer_line": "Bend knee hard, heel to hip",
         "distractors": {
           "plausible": [
-            "Push off their chest with arms",
-            "Try to stand up immediately"
+            "Flex toes toward your shin",
+            "Push their head away by hand"
           ],
           "trap": [
-            "Straighten leg to create space"
+            "Extend leg to slip it free"
           ]
         }
       },

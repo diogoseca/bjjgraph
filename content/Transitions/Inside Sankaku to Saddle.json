@@ -270,7 +270,7 @@
             "Heavy hip pressure on thigh"
           ],
           "trap": [
-            "Outside leg over the knee"
+            "Keep one leg outside to attack"
           ]
         }
       },
@@ -280,11 +280,11 @@
         "answer_line": "Deepen hook, cinch knee to chest",
         "distractors": {
           "plausible": [
-            "Pause and re-grip the ankle",
-            "Slow rotation to regain grip"
+            "Pause and re-grip their ankle",
+            "Post a hand on the mat for base"
           ],
           "trap": [
-            "Release hook to reset entry"
+            "Open your knee to chase the heel"
           ]
         }
       },
@@ -294,11 +294,11 @@
         "answer_line": "Ankle and hip frame grips first",
         "distractors": {
           "plausible": [
-            "Cup the heel immediately",
-            "Grip both ankles right away"
+            "Grip both their ankles first",
+            "Underhook their far leg first"
           ],
           "trap": [
-            "Release hip frame for heel grip"
+            "Sit up and two-hand the heel"
           ]
         }
       },
@@ -322,11 +322,11 @@
         "answer_line": "Arc forward-lateral, stay pressed",
         "distractors": {
           "plausible": [
-            "Lift hips, then rotate across",
-            "Push straight forward only"
+            "Push straight forward only",
+            "Rotate hips before pressing in"
           ],
           "trap": [
-            "Lift off entirely to spin free"
+            "Lift hips off them to spin"
           ]
         }
       },
@@ -336,8 +336,8 @@
         "answer_line": "Strip frames, then attack heel",
         "distractors": {
           "plausible": [
-            "Ignore frames, go for heel",
-            "Strip both hands at once"
+            "Strip both hands at once",
+            "Frame back on their shoulder"
           ],
           "trap": [
             "Release hip pressure to strip"
@@ -350,11 +350,11 @@
         "answer_line": "Rebuild figure-four, don't force it",
         "distractors": {
           "plausible": [
-            "Force the Saddle through it",
-            "Skip to Ashi-Garami directly"
+            "Push forward harder into them",
+            "Switch to a toe hold attack"
           ],
           "trap": [
-            "Release all control and reset"
+            "Force the Saddle from bad angle"
           ]
         }
       }
@@ -491,11 +491,11 @@
         "answer_line": "Gives them the perpendicular angle",
         "distractors": {
           "plausible": [
-            "Exposes your back to attack",
-            "Creates distance to escape"
+            "Exposes your back to them",
+            "Tires your hips out early"
           ],
           "trap": [
-            "Relieves knee line pressure"
+            "It frees your knee from the line"
           ]
         }
       },
@@ -505,11 +505,11 @@
         "answer_line": "Pummel leg inside, hip escape",
         "distractors": {
           "plausible": [
-            "Post frame and wait it out",
+            "Post a frame and wait it out",
             "Strip their heel grip first"
           ],
           "trap": [
-            "Let both legs get inside"
+            "Straighten the trapped leg hard"
           ]
         }
       },

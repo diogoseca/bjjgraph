@@ -279,14 +279,14 @@
         "question": "What anatomical structures does the armbar from knee on belly primarily attack?",
         "answer": "The armbar targets the elbow joint, specifically hyperextending it against the natural range of motion. The primary structures at risk are the ulnar collateral ligament, the radial collateral ligament, and the joint capsule. Secondary risk extends to the shoulder joint when the opponent resists by rolling or stacking, potentially causing subluxation. The mechanical principle is a lever system where your hips create the fulcrum point against the upper arm while your chest and hands control the wrist as the resistance point.",
         "safety_critical": true,
-        "answer_line": "Elbow joint (hyperextension)",
+        "answer_line": "Elbow joint hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder joint and rotator cuff",
-            "Biceps and triceps tendons"
+            "Wrist and forearm rotation",
+            "Ribs from knee-on-belly pressure"
           ],
           "trap": [
-            "The neck and cervical spine"
+            "Muscle only, safe to crank hard"
           ]
         }
       },
@@ -316,7 +316,7 @@
             "Switch straight to a choke"
           ],
           "trap": [
-            "Let go and re-shoot a kimura"
+            "Kick legs off and yank the arm"
           ]
         }
       },
@@ -342,8 +342,8 @@
         "answer_line": "Return to knee pressure, wait",
         "distractors": {
           "plausible": [
-            "Scramble for a takedown instead",
-            "Switch immediately to guillotine"
+            "Step over to mount immediately",
+            "Chase the far-side collar choke"
           ],
           "trap": [
             "Lunge forward to recapture arm"
@@ -357,11 +357,11 @@
         "answer_line": "Elevate hips slowly, 2-3 seconds",
         "distractors": {
           "plausible": [
-            "Snap hips up hard and fast",
-            "Extend arm the instant it's straight"
+            "Ask if they feel it first",
+            "Fall back and pull the arm down"
           ],
           "trap": [
-            "Jerk arm sharply if no tap yet"
+            "Spike the arm past resistance"
           ]
         }
       },
@@ -391,7 +391,7 @@
             "Grip the forearm, not the wrist"
           ],
           "trap": [
-            "Let arm rotate freely, finish anyway"
+            "Open your knees to fix the grip"
           ]
         }
       },
@@ -406,7 +406,7 @@
             "Slower than a mount armbar setup"
           ],
           "trap": [
-            "Only works after a stalling call"
+            "Rush the finish, skip hip control"
           ]
         }
       },
@@ -421,7 +421,7 @@
             "Knee squeeze alone is enough"
           ],
           "trap": [
-            "Extend immediately once arm bends"
+            "Extend before the hips close gap"
           ]
         }
       }
@@ -543,8 +543,8 @@
         "answer_line": "Don't push knee with straight arm",
         "distractors": {
           "plausible": [
-            "Shrimp away, then frame the hip",
-            "Frame with your far arm first"
+            "Hold their belt with both hands",
+            "Bridge hard to bump them off"
           ],
           "trap": [
             "Bench-press the shin to escape"
@@ -555,14 +555,14 @@
         "question": "Why is it critical to tap early when caught in a fully locked armbar from knee on belly?",
         "answer": "The elbow joint provides very little tactile warning before structural failure. Unlike chokes where you may feel gradually increasing pressure, the elbow can transition from uncomfortable but manageable to ligament tear in a fraction of a second, especially when the attacker has tight hips and good knee squeeze. The rapid entry speed of this particular armbar means the attacker may have maximum leverage before you realize escape is impossible. Tapping early preserves your training longevity — elbow ligament injuries take 4-12 weeks minimum to heal and may require surgery.",
         "safety_critical": true,
-        "answer_line": "Little warning before injury",
+        "answer_line": "Elbow fails with no warning",
         "distractors": {
           "plausible": [
-            "Elbow pain builds up gradually",
-            "Wait to see if it fully locks"
+            "Ligaments stretch safely first",
+            "You can always slip the arm out"
           ],
           "trap": [
-            "Fight through slight discomfort"
+            "Hold on until you hear a pop"
           ]
         }
       },
@@ -588,7 +588,7 @@
         "answer_line": "Bridge only if there's a hip gap",
         "distractors": {
           "plausible": [
-            "Always bridge to escape armbars",
+            "Bridge only after they sit back",
             "Bridge away from the attacker"
           ],
           "trap": [

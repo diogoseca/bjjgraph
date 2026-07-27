@@ -96,7 +96,7 @@
         "distractors": {
           "plausible": [
             "Mid-torso, level with sternum",
-            "Anchored at the collarbone"
+            "Straight down their centerline"
           ],
           "trap": [
             "Low, pinned near the hip"
@@ -127,7 +127,7 @@
             "Clasp hands in a gable grip"
           ],
           "trap": [
-            "Grip the far bicep, not wrist"
+            "Free a hook to clamp the arm"
           ]
         }
       },
@@ -165,8 +165,8 @@
         "answer_line": "Follow to technical mount",
         "distractors": {
           "plausible": [
-            "Stop the turn, reset hooks",
-            "Release arm, chase the back"
+            "Push their hip back to flatten them",
+            "Base out wide and hold your angle"
           ],
           "trap": [
             "Let go and scramble to guard"
@@ -183,7 +183,7 @@
             "Drive hips back to load pressure"
           ],
           "trap": [
-            "Grip max force the entire time"
+            "Sit up tall to lift your chest"
           ]
         }
       },
@@ -608,10 +608,10 @@
         "distractors": {
           "plausible": [
             "Yank the arm straight out",
-            "Push against the control hard"
+            "Brace and out-muscle the grip"
           ],
           "trap": [
-            "Tense the arm, brace rigidly"
+            "Push their face with free arm"
           ]
         }
       },
@@ -621,8 +621,8 @@
         "answer_line": "Keeps hips mobile to shrimp",
         "distractors": {
           "plausible": [
-            "Protects the trapped arm better",
-            "Reduces choke pressure slightly"
+            "Frees the trapped arm faster",
+            "Takes weight off your chest"
           ],
           "trap": [
             "Flatten out to bridge harder"
@@ -632,14 +632,14 @@
       {
         "question": "Your opponent starts transitioning toward mount while maintaining the Gift Wrap - how should you respond?",
         "answer": "As they shift toward mount, use this weight transfer to bridge and create hip movement. Shrimp your hips away from the direction they are moving and try to insert a knee or shin as a frame. The mount transition momentarily reduces their back control pressure, creating an escape window. Time your hip escape to coincide with their weight shift rather than fighting against settled control.",
-        "answer_line": "Bridge and shrimp away, frame knee",
+        "answer_line": "Bridge, shrimp away, frame knee",
         "distractors": {
           "plausible": [
-            "Stay still, wait for full mount",
-            "Push straight up with both hands"
+            "Slide hips into their shift",
+            "Stay still until mount settles"
           ],
           "trap": [
-            "Relax completely, save energy"
+            "Push them off with free hand"
           ]
         }
       },
@@ -653,7 +653,7 @@
             "Explode on every single frame"
           ],
           "trap": [
-            "Fight the arm trap nonstop"
+            "Go flat on your back to rest"
           ]
         }
       },
@@ -663,25 +663,25 @@
         "answer_line": "Dropping neck defense for arm",
         "distractors": {
           "plausible": [
-            "Recovering arm too slowly",
-            "Framing with the wrong knee"
+            "Recovering the arm too slowly",
+            "Shrimping the wrong direction"
           ],
           "trap": [
-            "Both hands fight the arm trap"
+            "Tucking your chin too early"
           ]
         }
       },
       {
         "question": "Your opponent is attacking your free arm for an armbar - what is your defensive protocol?",
         "answer": "Immediately retract the free arm close to your body, keeping the elbow tight to your ribs. Turn toward the arm being attacked to reduce extension angles. If they begin isolating the arm, you may need to accept giving up the arm momentarily to roll through the armbar attempt, using the rotation to potentially escape to turtle. Never fully extend the free arm or you lose your last defensive tool.",
-        "answer_line": "Tuck elbow tight, roll to turtle",
+        "answer_line": "Tuck elbow to ribs, turn in",
         "distractors": {
           "plausible": [
-            "Turn away from the attack",
-            "Pull straight back and yank"
+            "Angle away from the attack",
+            "Bridge hard to buck them off"
           ],
           "trap": [
-            "Fully extend to resist force"
+            "Extend the arm to push away"
           ]
         }
       }
@@ -967,7 +967,7 @@
           "It blocks their strongest arm"
         ],
         "trap": [
-          "It only weakens their grip"
+          "Peeling chokes stays just as easy"
         ]
       }
     },
@@ -978,7 +978,7 @@
       "distractors": {
         "plausible": [
           "Keeps grip closer to your body",
-          "Reduces cardio for the top player"
+          "Puts more weight on their chest"
         ],
         "trap": [
           "Low grip locks the elbow joint"
@@ -1002,7 +1002,7 @@
     {
       "question": "What role do the hooks or body triangle play relative to the arm trap in defining the position?",
       "answer": "The hooks or body triangle are the primary anchor that prevents the hips from escaping and keeps the two bodies connected back-to-chest, while the arm trap is a secondary layer that removes defensive options. If the leg control fails, the entire position collapses regardless of how tight the arm trap is, because the trapped player recovers the ability to turn and escape. Conversely, an intact leg anchor with a lost arm trap simply reverts to standard back control rather than losing the position outright. Understanding this hierarchy explains why the leg control is the foundation and the arm trap is the enhancement.",
-      "answer_line": "Hooks anchor hips, arm trap adds",
+      "answer_line": "Hooks anchor hips; trap adds layer",
       "distractors": {
         "plausible": [
           "Arm trap is the true anchor",
@@ -1020,7 +1020,7 @@
       "distractors": {
         "plausible": [
           "It's the strongest static hold",
-          "Best used to run the clock"
+          "Holding it scores extra points"
         ],
         "trap": [
           "Stay static, conserve energy"

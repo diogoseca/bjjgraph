@@ -282,14 +282,14 @@
         "question": "What anatomical structures does the Kimura from Kesa Gatame primarily attack?",
         "answer": "The Kimura primarily attacks the shoulder joint through forced internal rotation, specifically targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, and the glenoid labrum. Secondary stress falls on the shoulder capsule and biceps tendon. The figure-four grip creates a long lever arm that multiplies rotational force on these structures.",
         "safety_critical": false,
-        "answer_line": "Shoulder via internal rotation",
+        "answer_line": "Shoulder joint, internal rotation",
         "distractors": {
           "plausible": [
-            "Elbow hyperextension",
-            "Wrist and forearm bones"
+            "Elbow ligaments hyperextending",
+            "Wrist bones and forearm"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank the neck to add pressure"
           ]
         }
       },
@@ -297,14 +297,14 @@
         "question": "Why is the grip transition from headlock to figure-four the most critical moment in this submission?",
         "answer": "The grip transition is the most vulnerable moment because releasing head control temporarily reduces your ability to pin the opponent. Without head control, they can bridge, frame, and create space for escape. The transition must be preceded by shifting maximum chest and shoulder pressure onto the opponent's upper body to compensate. Hesitation during the grip change gives the opponent a window to establish defensive grips or escape entirely.",
         "safety_critical": false,
-        "answer_line": "Shift chest pressure before release",
+        "answer_line": "Load chest pressure before release",
         "distractors": {
           "plausible": [
-            "Switch grips as fast as possible",
-            "Keep head control the whole time"
+            "Pinch their wrist tighter first",
+            "Drop your head to the mat"
           ],
           "trap": [
-            "Let go and reset for a fresh grip"
+            "Sit up tall to reach the grip"
           ]
         }
       },
@@ -312,14 +312,14 @@
         "question": "Your opponent clasps their hands together as you establish the figure-four—what are your options?",
         "answer": "You have three primary options. First, use your knee or hip as a wedge between their hands to mechanically pry the grip apart, which works well when their grip is a loose S-grip. Second, transition to an Americana by reversing the rotational direction since their clasped hands actually facilitate the opposite rotation. Third, maintain the figure-four and wait—their grip will fatigue faster than your body position, and you can use small rotational pulses to incrementally break their connection.",
         "safety_critical": false,
-        "answer_line": "Pry grip apart with knee/hip wedge",
+        "answer_line": "Wedge knee or hip to pry hands",
         "distractors": {
           "plausible": [
-            "Pull straight back with arm strength",
-            "Switch immediately to armbar"
+            "Yank the wrist with arm strength",
+            "Switch to a collar choke instead"
           ],
           "trap": [
-            "Yank the arm to force the bend"
+            "Lift off them to pull the grip"
           ]
         }
       },
@@ -327,14 +327,14 @@
         "question": "What distinguishes the finishing mechanics of the Kimura from Kesa Gatame compared to standard side control?",
         "answer": "The perpendicular body angle in Kesa Gatame creates a different rotational platform. Instead of rotating the arm while positioned parallel to the opponent, you drive the rotation through your torso and hips from a perpendicular angle, generating force through core rotation rather than shoulder and arm strength. The pre-loaded arm trap under your armpit also means the elbow is already close to your body, creating a tighter fulcrum from the start. This angle often makes the finish faster and harder to defend.",
         "safety_critical": false,
-        "answer_line": "Rotate via hips/torso, not arm",
+        "answer_line": "Drive rotation with hips and torso",
         "distractors": {
           "plausible": [
-            "Rely on stronger arm strength",
-            "Same mechanics as side control"
+            "Sit up tall and crank the wrist",
+            "Drive your elbow into their ribs"
           ],
           "trap": [
-            "Lean back and pull with shoulders"
+            "Lift your chest off to torque more"
           ]
         }
       },
@@ -345,11 +345,11 @@
         "answer_line": "Hand passes hip line, mid-rotation",
         "distractors": {
           "plausible": [
-            "As soon as figure-four locks",
-            "When opponent stops moving"
+            "As soon as the grip is locked",
+            "When they stop bridging"
           ],
           "trap": [
-            "When you feel their elbow bend"
+            "Crank fast to test if it's tight"
           ]
         }
       },
@@ -360,11 +360,11 @@
         "answer_line": "Slow rotation, release on any tap",
         "distractors": {
           "plausible": [
-            "Apply steady moderate pressure",
-            "Watch only for verbal tap"
+            "Watch only for a verbal tap",
+            "Pin both arms for extra control"
           ],
           "trap": [
-            "Increase speed for a fast tap"
+            "Spike the rotation for a fast tap"
           ]
         }
       },
@@ -375,8 +375,8 @@
         "answer_line": "Reverse slowly back to neutral",
         "distractors": {
           "plausible": [
-            "Release grip instantly and let go",
-            "Hold position until partner nods"
+            "Hold the lock until they speak",
+            "Keep control until they sit up"
           ],
           "trap": [
             "Let the arm spring back fast"
@@ -390,11 +390,11 @@
         "answer_line": "Switch to Americana or armbar",
         "distractors": {
           "plausible": [
-            "Force the arm back into bend",
-            "Abandon the attack and reset"
+            "Crank the wrist to force a bend",
+            "Wait for the arm to tire and fold"
           ],
           "trap": [
-            "Yank the straight arm harder"
+            "Release the wrist to re-grip"
           ]
         }
       },
@@ -417,14 +417,14 @@
         "question": "How do you maintain positional control when the Kimura attempt fails?",
         "answer": "The Kimura from Kesa Gatame is designed to maintain positional advantage even on failure. If the opponent defends, you retain the figure-four grip and can cycle to Americana or armbar. If they bridge and turn in, you flow to mount while keeping grip control. If they shrimp away, you follow into their guard maintaining the grip. The 25% failure outcome returns you to Kesa Gatame Top because the attack is inherently low-risk—you never sacrifice position to attempt the submission.",
         "safety_critical": false,
-        "answer_line": "Keep grip, flow to Americana/mount",
+        "answer_line": "Keep the grip, flow to Americana",
         "distractors": {
           "plausible": [
-            "Release grip and reset position",
-            "Chase the submission relentlessly"
+            "Let go and re-pin them flat",
+            "Start a completely new attack"
           ],
           "trap": [
-            "Let go of Kesa Gatame Top"
+            "Give up the pin to chase the arm"
           ]
         }
       }
@@ -538,14 +538,14 @@
         "question": "How do you recognize that the Kimura from Kesa Gatame is being set up before the grip is established?",
         "answer": "The primary recognition cues are: increased chest and shoulder pressure on your face as the opponent redistributes weight, loosening of the headlock arm as they prepare to release it, and their other hand tightening on your near wrist or forearm. The opponent's body may also rotate slightly to face your arm rather than maintaining standard Kesa Gatame angle. Recognizing these cues gives you the critical window to establish defensive grips before the figure-four is locked.",
         "safety_critical": false,
-        "answer_line": "Chest pressure builds, arm loosens",
+        "answer_line": "Chest pressure up, head arm loosens",
         "distractors": {
           "plausible": [
-            "Opponent grabs your collar",
-            "Opponent's hips start to shift"
+            "They flatten their chest to the mat",
+            "Their legs step over your hips"
           ],
           "trap": [
-            "Opponent posts on their far arm"
+            "Wait until the figure-four locks"
           ]
         }
       },
@@ -556,11 +556,11 @@
         "answer_line": "Tap early, verbal plus hand/foot",
         "distractors": {
           "plausible": [
-            "Wait until pain to tap",
-            "Tap once quietly by hand"
+            "Tap once quietly by hand",
+            "Signal by shaking your head"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Muscle out and tap only if it hurts"
           ]
         }
       },
@@ -571,11 +571,11 @@
         "answer_line": "Clasp hands before rotation starts",
         "distractors": {
           "plausible": [
-            "Bridge hard after grip locks",
-            "Turn away once rotation begins"
+            "Reach for their far collar",
+            "Bridge hard after the lock sets"
           ],
           "trap": [
-            "Keep elbow away from body early"
+            "Roll away as they start rotating"
           ]
         }
       },
@@ -583,14 +583,14 @@
         "question": "Why is turning into the opponent more effective than turning away when defending the Kimura rotation?",
         "answer": "Turning into the opponent reduces the available rotational range for the shoulder lock by changing the angle between your torso and arm. When you turn toward them, your body follows the direction of the forced rotation, effectively reducing the relative rotation at the shoulder joint. Turning away actually increases the rotational stress on the shoulder because your body moves opposite to the forced direction. Additionally, turning in disrupts the opponent's perpendicular angle and can create scramble opportunities.",
         "safety_critical": false,
-        "answer_line": "Turning in reduces rotation range",
+        "answer_line": "Turning in shrinks rotation range",
         "distractors": {
           "plausible": [
-            "Turning away relieves pressure",
-            "Either direction works equally"
+            "It just buys time either way",
+            "It hides your wrist from the grip"
           ],
           "trap": [
-            "Turn away to create scramble space"
+            "Turn away and bridge to escape"
           ]
         }
       }

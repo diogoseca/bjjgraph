@@ -96,8 +96,8 @@
         "answer_line": "Keeps hip rotation available",
         "distractors": {
           "plausible": [
-            "Reduces pain, nothing else",
-            "Makes kicking free leg easier"
+            "Makes kicking free leg easier",
+            "Tires the attacker's legs faster"
           ],
           "trap": [
             "Straightening speeds extraction"
@@ -984,14 +984,14 @@
     {
       "question": "How does straight ankle lock control differ mechanically from inside and outside ashi-garami?",
       "answer": "Straight ankle lock control is the lower-commitment entanglement where the entangling legs sit outside or across the thigh and the primary threat is Achilles hyperextension, with the trapped player retaining meaningful hip mobility. Inside and outside ashi-garami advance the leg triangle deeper, deepening the wedge to further kill rotation and, in the inside variation, opening rotational heel-hook leverage that the straight ankle position does not threaten. The straight ankle position is therefore both a starting hub and a comparatively controllable, lower-injury-risk cousin: it accesses the more dominant entanglements when rotation opens them, but on its own it lacks their rotational finishing structures. The defining distinction is depth of leg control and whether the finishing vector is hyperextension or rotation.",
-      "answer_line": "Shallow grip, hyperextension only",
+      "answer_line": "Shallower wedge, Achilles threat",
       "distractors": {
         "plausible": [
           "Same depth, adds heel hook risk",
-          "Deeper wedge, identical finish"
+          "Deeper triangle, kills rotation"
         ],
         "trap": [
-          "Rotational heel hook is live here"
+          "No real threat, ignore the lock"
         ]
       }
     },

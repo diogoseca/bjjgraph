@@ -380,11 +380,11 @@
         "answer_line": "Apply slowly, release on any tap",
         "distractors": {
           "plausible": [
-            "Only verbal taps count",
-            "Reapply to confirm they're out"
+            "Only spoken signals count",
+            "Count to five then let go"
           ],
           "trap": [
-            "Hold a moment longer after tap"
+            "Hold the choke a beat too long"
           ]
         }
       },
@@ -425,11 +425,11 @@
         "answer_line": "Open hands, release lapel instantly",
         "distractors": {
           "plausible": [
-            "Ease off pressure gradually",
-            "Keep hooks in while releasing"
+            "Ease off the pressure gradually",
+            "Slide up to full mount"
           ],
           "trap": [
-            "Hold light tension a moment longer"
+            "Keep light choke tension on"
           ]
         }
       }
@@ -571,8 +571,8 @@
         "answer_line": "Verbal tap, rapid taps, tap early",
         "distractors": {
           "plausible": [
-            "Wait until lightheaded to tap",
-            "Tap once softly on the mat"
+            "One soft touch on the mat",
+            "Whisper 'tap' once, quietly"
           ],
           "trap": [
             "Try to power out instead"
@@ -613,14 +613,14 @@
         "question": "When should you attempt to escape back control versus focusing purely on collar grip defense?",
         "answer": "Attempt the escape during the grip transition window when the attacker breaks their seat belt to reach for the collar. This 1-2 second window represents a significant reduction in back control structure. If you miss this window and the collar grip is established, shift to pure grip defense first to prevent the choke from being completed, then work your escape once the choking threat is neutralized. Never attempt an escape while the choke is actively tightening, as the movement may accelerate unconsciousness.",
         "safety_critical": true,
-        "answer_line": "Escape during grip transition window",
+        "answer_line": "Escape in the grip transition window",
         "distractors": {
           "plausible": [
-            "Always try to escape immediately",
-            "Escape while the choke tightens"
+            "Bail out the instant back is taken",
+            "Wait for the choke to fully lock"
           ],
           "trap": [
-            "Fight the choking hand off directly"
+            "Buck wildly and expose your neck"
           ]
         }
       }

@@ -286,7 +286,7 @@
             "Bottom leg alone stops pressure"
           ],
           "trap": [
-            "Only the shield matters, ignore leg"
+            "Grab a collar and drop the leg"
           ]
         }
       },
@@ -328,7 +328,7 @@
             "Wait until fully flattened out"
           ],
           "trap": [
-            "Push your knee harder into them"
+            "Turn to your knees under crossface"
           ]
         }
       },
@@ -352,11 +352,11 @@
         "answer_line": "Attack the posted arm, angle out",
         "distractors": {
           "plausible": [
-            "Ignore the post, keep pressure",
-            "Posted hand means they're passing"
+            "A post means they've stopped passing",
+            "Wait for them to unpost themselves"
           ],
           "trap": [
-            "Push into the post for pressure"
+            "Flatten out chasing the grip"
           ]
         }
       },
@@ -533,11 +533,11 @@
         "answer_line": "Angle 45° to slide past frame",
         "distractors": {
           "plausible": [
-            "Drive straight in for more power",
-            "Angle only helps grip fighting"
+            "Angle only wins the grip battle",
+            "Any angle works equally well"
           ],
           "trap": [
-            "Square up head-on into shield"
+            "Drive straight in and get elevated"
           ]
         }
       },
@@ -589,11 +589,11 @@
         "answer_line": "Wide base, don't commit weight",
         "distractors": {
           "plausible": [
-            "Commit weight to speed the pass",
-            "Narrow base for more control"
+            "Keep your knees tight together",
+            "Post your forehead on the mat"
           ],
           "trap": [
-            "Drive forward fully into shield"
+            "Lean fully into the shield"
           ]
         }
       }

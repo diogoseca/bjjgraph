@@ -258,7 +258,7 @@
             "Set up an armbar attack"
           ],
           "trap": [
-            "Release grip before bump"
+            "Free the arm, they post and pass"
           ]
         },
         "answer_line": "Block post, feed Kimura"
@@ -266,14 +266,14 @@
       {
         "question": "Why must you create a 45-degree angle before executing the hip bump?",
         "answer": "The 45-degree angle directs your force into the opponent's weakest base point rather than their strongest. Bumping straight forward attacks their strongest base, while bumping at an angle exploits the diagonal weakness in their structure. This angle also allows you to generate more power from your posting hand and driving leg while maintaining better control of their upper body.",
-        "answer_line": "Targets their weakest base",
+        "answer_line": "Attacks their weakest base point",
         "distractors": {
           "plausible": [
-            "Generates more raw power",
-            "Keeps hips squared to bump"
+            "Keeps hips squared to bump",
+            "Saves energy on the sit-up"
           ],
           "trap": [
-            "Bump straight into base"
+            "Bump straight, get flattened out"
           ]
         }
       },
@@ -287,7 +287,7 @@
             "Each attack used alone"
           ],
           "trap": [
-            "Give up chain after one fails"
+            "Stall open guard and get passed"
           ]
         }
       },
@@ -325,25 +325,25 @@
         "answer_line": "C-grip wrist, overhook head",
         "distractors": {
           "plausible": [
-            "Grab collar for control",
-            "Hold grips as long as gi"
+            "Hold grips as long as in gi",
+            "Same commitment as in gi"
           ],
           "trap": [
-            "Wait for a firm grip first"
+            "Hunt grips while they pass"
           ]
         }
       },
       {
         "question": "Your opponent sprawls their hips backward as you begin sitting up for the Hip Bump - what options remain available?",
         "answer": "When they sprawl back, several options exist depending on how far they retreat. If they sprawl but keep their upper body forward, you can emphasize pulling their head down aggressively while driving through at a steeper angle. If they create significant distance, transition to a Guillotine by wrapping their neck as they lean forward to sprawl. You can also use the sit-up motion to transition to a technical stand-up and reset to a neutral standing position. The sprawl defense creates distance but often compromises their upper body posture.",
-        "answer_line": "Transition to guillotine",
+        "answer_line": "Wrap the neck for guillotine",
         "distractors": {
           "plausible": [
             "Chase their hips backward",
-            "Force bump through sprawl"
+            "Force the bump through sprawl"
           ],
           "trap": [
-            "Release grips and retreat"
+            "Follow up and give up the back"
           ]
         }
       },
@@ -366,14 +366,14 @@
         "answer": "Posturing up puts the opponent in a transitional moment where their base is unsettled and their upward momentum can be redirected laterally. As they drive upward, their weight shifts onto their knees and back before their base fully settles, and the act of posturing often forces them to release grips or shift hand position, giving you a window to control their arm. Your diagonal hip bump then redirects that upward momentum sideways. Catching them mid-posture-recovery is the highest-percentage window for this sweep.",
         "distractors": {
           "plausible": [
-            "Wait until posture is set",
+            "They cannot grip while rising",
             "Attack after they sit back"
           ],
           "trap": [
-            "Let them fully posture first"
+            "Let them posture, then get passed"
           ]
         },
-        "answer_line": "Redirect their upward momentum"
+        "answer_line": "Redirect their rising momentum"
       },
       {
         "question": "After completing the sweep and landing in mount, what are the first three things you should establish?",
@@ -508,8 +508,8 @@
         "answer_line": "Denies weight to redirect",
         "distractors": {
           "plausible": [
-            "Keeps grips stripped away",
-            "Stops wrist control grips"
+            "Blocks their hip movement",
+            "Stops them closing the guard"
           ],
           "trap": [
             "Lean forward for pressure"
@@ -536,11 +536,11 @@
         "answer_line": "Stay unpredictable, hold posture",
         "distractors": {
           "plausible": [
-            "Post your hand every time",
+            "React to each attack in turn",
             "Rely on strength alone"
           ],
           "trap": [
-            "Pull your arm back every time"
+            "Post the same arm every time"
           ]
         }
       },
@@ -551,10 +551,10 @@
         "distractors": {
           "plausible": [
             "Narrow your stance for speed",
-            "Lean weight onto knees"
+            "Raise hips for mobility"
           ],
           "trap": [
-            "Square up directly to them"
+            "Post a hand and lean forward"
           ]
         }
       }

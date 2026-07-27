@@ -316,14 +316,14 @@
         "question": "What is the minimum time you should take to apply finishing pressure on a kneebar during training, and why?",
         "answer": "Minimum 5-7 seconds of progressive pressure during training. This slow application allows your training partner ample time to recognize the danger and tap safely. Explosive or fast applications can cause severe knee ligament damage before the person can react, potentially causing ACL/MCL tears that require surgery and 9-12 months recovery. Competition speed and training speed are different—partner safety always takes priority in the training room.",
         "safety_critical": true,
-        "answer_line": "5-7 sec, slow buildup",
+        "answer_line": "Build pressure over 5-7 seconds",
         "distractors": {
           "plausible": [
-            "2-3 seconds is enough",
-            "10+ sec, extremely slow only"
+            "2-3 seconds is plenty",
+            "Any pace once they feel the grip"
           ],
           "trap": [
-            "Apply fast, no warning"
+            "Snap it on with no buildup"
           ]
         }
       },
@@ -338,7 +338,7 @@
             "Hip low on their shin"
           ],
           "trap": [
-            "Hip off their leg entirely"
+            "Extend hips before hip is set"
           ]
         }
       },
@@ -353,7 +353,7 @@
             "Meniscus is the main target"
           ],
           "trap": [
-            "Ankle, via rotation not bend"
+            "Crank fast before they can tap"
           ]
         }
       },
@@ -361,14 +361,14 @@
         "question": "What physical sensation indicates you have reached the point of no escape for your opponent?",
         "answer": "The point of no escape occurs when you feel your opponent's leg become completely rigid against your hip as your extension begins. At this moment, their thigh is pinned by your leg entanglement, their foot is locked in your armpit preventing rotation, and your hip is positioned across their knee joint. Any additional hip extension will immediately hyperextend the joint. Experienced practitioners recognize this feeling—once you achieve this locked configuration, the opponent must tap or suffer injury. In training, this is when you pause and check for the tap rather than completing the extension.",
         "safety_critical": true,
-        "answer_line": "Leg goes rigid against hip",
+        "answer_line": "Their leg locks rigid on your hip",
         "distractors": {
           "plausible": [
-            "Opponent stops moving at all",
-            "Their foot slips from armpit"
+            "They stop shrimping away",
+            "Your ankles cross behind them"
           ],
           "trap": [
-            "Wait for a verbal tap only"
+            "Rip your hips back to test it"
           ]
         }
       },
@@ -379,7 +379,7 @@
         "answer_line": "Stops foot rotation, locks leg",
         "distractors": {
           "plausible": [
-            "Just adds extra pain",
+            "Adds pressure to their calf",
             "Only needed for finishing grip"
           ],
           "trap": [
@@ -410,10 +410,10 @@
         "distractors": {
           "plausible": [
             "Getting swept to their guard",
-            "Losing top position control"
+            "Their knee slipping free"
           ],
           "trap": [
-            "Ignore your own leg, attack faster"
+            "Leave your heel facing them"
           ]
         }
       },
@@ -428,7 +428,7 @@
             "Push their knee back straight"
           ],
           "trap": [
-            "Let the knee rotate freely"
+            "Let their foot slide out shallow"
           ]
         }
       },
@@ -436,14 +436,14 @@
         "question": "What should you do in training if you have applied proper kneebar technique with correct hip position and foot control for 5 seconds and opponent has not tapped?",
         "answer": "Release the submission and reset the position. In training, if proper technique with progressive pressure does not produce a tap within 5 seconds, continuing to apply force risks injuring a stubborn partner or indicates a technical error in your execution. This is not competition where you might finish through resistance—training priorities are skill development and partner safety. Release, discuss with your partner whether they felt pressure, and either adjust your technique or acknowledge they successfully defended. Never 'teach someone a lesson' by forcing through their stubbornness in training.",
         "safety_critical": true,
-        "answer_line": "Release and reset position",
+        "answer_line": "Release and reset the position",
         "distractors": {
           "plausible": [
-            "Hold steady and wait longer",
-            "Add more pressure gradually"
+            "Hold the lock until they tap",
+            "Switch to a heel hook instead"
           ],
           "trap": [
-            "Force through their resistance"
+            "Crank hard until it pops"
           ]
         }
       },
@@ -466,11 +466,11 @@
         "question": "In competition, what indicators tell you to commit fully to the finish versus transition to another attack?",
         "answer": "Commit fully to the finish when: (1) your hip is perfectly positioned across their knee joint with zero space; (2) their foot is locked deep in your armpit with no rotation; (3) your leg entanglement is tight with their thigh completely immobilized; (4) their upper body is flat and they cannot sit up to face you; (5) your own leg is safe from counter-attack. Transition to another attack when: they successfully rotate their knee away from danger, they sit up and establish upper body control, you feel your foot control slipping, or they begin establishing control on your leg. The kneebar-to-heel-hook chain is particularly effective—their kneebar defense often exposes their heel.",
         "safety_critical": false,
-        "answer_line": "All 5 controls locked, no gaps",
+        "answer_line": "Every control tight, no space",
         "distractors": {
           "plausible": [
-            "Just foot control is enough",
-            "Only need hip across the knee"
+            "Foot deep in armpit is enough",
+            "Hip on the joint line alone"
           ],
           "trap": [
             "Commit even if foot slips free"
@@ -481,14 +481,14 @@
         "question": "What are the three most critical ligaments at risk when a kneebar is applied, and what are the typical recovery times if they are torn?",
         "answer": "The three most critical ligaments at risk are: (1) MCL (Medial Collateral Ligament) and LCL (Lateral Collateral Ligament) which provide side-to-side stability, recovery 6-12 months with surgery; (2) ACL (Anterior Cruciate Ligament) and PCL (Posterior Cruciate Ligament) which prevent front-to-back movement, recovery 9-12 months with reconstructive surgery; (3) The meniscus (while not a ligament, it's commonly damaged), recovery 3-6 months. These injuries are severe and career-impacting, which is why controlled application and immediate release upon tap are non-negotiable.",
         "safety_critical": true,
-        "answer_line": "MCL/LCL, ACL/PCL, meniscus",
+        "answer_line": "MCL/LCL, ACL/PCL and meniscus",
         "distractors": {
           "plausible": [
-            "Only ACL, 9-12 month recovery",
-            "Just meniscus, 3 months"
+            "ACL only, heals in a few weeks",
+            "Meniscus alone, back in a month"
           ],
           "trap": [
-            "None recover, always career-ending"
+            "Keep rolling on a tweaked knee"
           ]
         }
       }
@@ -617,7 +617,7 @@
         "distractors": {
           "plausible": [
             "Wait until hip crosses joint",
-            "Push your leg straight out"
+            "Grip their collar and stall"
           ],
           "trap": [
             "Straighten leg to pull away"
@@ -628,14 +628,14 @@
         "question": "Why does straightening your trapped leg make the kneebar worse rather than helping you escape?",
         "answer": "Straightening your leg creates the exact leverage the attacker needs to hyperextend your knee. A straight leg with the foot locked in the attacker's armpit and their hip across your knee joint is the ideal finishing configuration for them. A bent knee, by contrast, absorbs the pressure without hyperextending. Always keep your knee bent and pull your heel toward your buttock—this creates a structural defense that prevents the hyperextension mechanism from engaging.",
         "safety_critical": true,
-        "answer_line": "Straight leg enables hyperextension",
+        "answer_line": "Straight leg lets them hyperextend",
         "distractors": {
           "plausible": [
-            "Straight leg protects the joint",
-            "It only matters for the ankle"
+            "It shortens their lever arm",
+            "It frees your heel from the armpit"
           ],
           "trap": [
-            "Kick out hard to break grip"
+            "Kick out explosively to escape"
           ]
         }
       },
@@ -643,14 +643,14 @@
         "question": "At what point should you tap rather than continue defending the kneebar in training?",
         "answer": "Tap immediately when you feel the attacker's hip bone positioned directly across your knee joint and they begin extending their hips with your foot secured in their armpit. Once all five control points are established (foot capture, hip alignment, leg entanglement, upper body control, and hip extension), escape probability drops below 10% and continuing to resist risks severe ligament damage. In training, tapping at the point of no escape is the correct decision—it preserves your knees for decades of training ahead.",
         "safety_critical": true,
-        "answer_line": "When all 5 controls lock in",
+        "answer_line": "Hip crosses knee, hips extending",
         "distractors": {
           "plausible": [
-            "Only when pain becomes sharp",
-            "Wait for referee to call it"
+            "Once you feel the first ache",
+            "When your partner calls the sub"
           ],
           "trap": [
-            "Keep fighting past that point"
+            "Ride it out and hunt a reversal"
           ]
         }
       },
@@ -665,7 +665,7 @@
             "Symmetry favors the attacker"
           ],
           "trap": [
-            "Ignore your leg, escape only"
+            "Turn your heel toward them"
           ]
         }
       },
@@ -676,11 +676,11 @@
         "answer_line": "Sit up, face them, retract foot",
         "distractors": {
           "plausible": [
-            "Stay flat and wait it out",
+            "Push their head away",
             "Pull knee straight to escape"
           ],
           "trap": [
-            "Relax the leg to buy time"
+            "Stay flat and let them settle"
           ]
         }
       }

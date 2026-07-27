@@ -297,11 +297,11 @@
         "answer_line": "Bony forearm edge on carotids",
         "distractors": {
           "plausible": [
-            "Center grips for windpipe",
-            "Palm-down grip alignment"
+            "Thumbs deep with palms facing down",
+            "Grip low near the shoulder seam"
           ],
           "trap": [
-            "Squeeze biceps, ignore grips"
+            "Crank the blades into windpipe"
           ]
         }
       },
@@ -312,8 +312,8 @@
         "answer_line": "Heels drive back, knees pull in",
         "distractors": {
           "plausible": [
-            "Switch fully to armbar attempt",
-            "Grab both wrists to control"
+            "Sit up and chase a sweep instead",
+            "Push their chest away for space"
           ],
           "trap": [
             "Release first grip to reset"
@@ -339,14 +339,14 @@
         "question": "Why is it critical to break posture completely before attempting the second collar grip, and what happens when this step is skipped?",
         "answer": "Breaking posture eliminates the opponent's ability to use their arm length and leverage advantage to strip grips or create distance. When posture is fully broken, the opponent's hands are trapped close to your body and their base is compromised, giving you a clear window to thread the second grip without interference. Skipping posture breaking means the opponent can extend their arms, push off your chest or hips, and easily strip the first collar grip with two free hands while sitting upright. This is the single most common reason the technique fails at intermediate levels.",
         "safety_critical": false,
-        "answer_line": "Locks opponent's hands, no strip",
+        "answer_line": "Locks their hands, no grip strip",
         "distractors": {
           "plausible": [
-            "Speeds up the choke entry",
-            "Keeps hips squared to mat"
+            "Saves grip strength for the finish",
+            "Squares your hips to the mat"
           ],
           "trap": [
-            "Grip early before posture breaks"
+            "Sit up chasing the collar"
           ]
         }
       },
@@ -354,14 +354,14 @@
         "question": "How should you immediately respond when your training partner taps to the cross collar choke?",
         "answer": "Release both collar grips immediately upon feeling or hearing the tap, without applying any additional pressure. Open your guard to give your partner space to separate and recover circulation. Do not hold the position while releasing grips slowly. Blood chokes restrict brain circulation, so even a few extra seconds of pressure after the tap can cause unnecessary dizziness or risk unconsciousness. Check that your partner is alert and responsive before resetting. If they appear disoriented, give them time to fully recover before continuing training.",
         "safety_critical": true,
-        "answer_line": "Release grips instantly",
+        "answer_line": "Let go and open guard at once",
         "distractors": {
           "plausible": [
-            "Ease pressure gradually",
-            "Hold briefly to confirm tap"
+            "Ease pressure over a few seconds",
+            "Drop grips but keep guard closed"
           ],
           "trap": [
-            "Finish for one more second"
+            "Hold choke until they go limp"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Angle hips, attack laterally",
         "distractors": {
           "plausible": [
-            "Pull straight back harder",
-            "Switch to rear naked choke"
+            "Pull straight back with both arms",
+            "Wait for the chin to lift"
           ],
           "trap": [
-            "Force grip under chin by strength"
+            "Open guard to sit up higher"
           ]
         }
       },
@@ -384,14 +384,14 @@
         "question": "What is the biomechanical reason that chest expansion and shoulder blade retraction produce more effective choking pressure than arm squeezing alone?",
         "answer": "The chest and back muscles (pectorals, rhomboids, trapezius) are significantly larger and more fatigue-resistant than the forearm flexors used for gripping. Chest expansion drives the forearms forward into the neck while shoulder blade retraction pulls the elbows backward and inward, creating a pinching action that compresses from both sides simultaneously. Arm squeezing alone engages only the forearm flexors, which fatigue within 15-20 seconds of maximum effort. The structural approach also maintains consistent pressure regardless of grip fatigue, making the choke sustainable over longer application periods.",
         "safety_critical": false,
-        "answer_line": "Chest, back muscles outlast arms",
+        "answer_line": "Chest and back outlast the arms",
         "distractors": {
           "plausible": [
-            "Bigger biceps grip harder",
-            "Wrist strength squeezes tighter"
+            "Longer reach seats deeper grips",
+            "Wrist curl adds finishing force"
           ],
           "trap": [
-            "Max forearm squeeze alone"
+            "Open guard to muscle the squeeze"
           ]
         }
       },
@@ -399,14 +399,14 @@
         "question": "In a competition scenario where your opponent is defending the choke effectively, what chain attacks should you transition to and what defensive reactions trigger each transition?",
         "answer": "If the opponent uses both hands to strip your collar grips, their arms are occupied and unable to post, making them vulnerable to a hip bump sweep to mount. If they posture up aggressively while defending, the space created opens a triangle setup as their arm position separates during the posture recovery. If they turn their body to one side to reduce collar access, the exposed arm becomes available for a kimura or omoplata entry. The cross collar choke threat should be maintained as long as possible, because each defensive reaction opens a different high-percentage follow-up attack.",
         "safety_critical": false,
-        "answer_line": "Strips grips leads to hip bump",
+        "answer_line": "Grip strip opens the hip bump",
         "distractors": {
           "plausible": [
-            "Always transition to armbar",
-            "Reset guard and re-grip only"
+            "Armbar answers every defense",
+            "Re-grip the same collar again"
           ],
           "trap": [
-            "Chase the choke past resistance"
+            "Open guard to chase the choke"
           ]
         }
       },
@@ -564,8 +564,8 @@
         "answer_line": "Hand crosses in, thumb in collar",
         "distractors": {
           "plausible": [
-            "Sudden increase in ankle pressure",
-            "Opponent's head tilts back first"
+            "Their head lifts and posts back",
+            "Both hands grab your sleeves"
           ],
           "trap": [
             "Wait until second grip is in"
@@ -576,14 +576,14 @@
         "question": "What is the safest way to tap when caught in a cross collar choke from closed guard, and when should you tap?",
         "answer": "Tap immediately when you feel bilateral pressure on the sides of your neck that restricts blood flow, indicated by a sensation of tightening or lightheadedness. Use a clear physical tap on your opponent's body, arm, or the mat with your hand, or verbally say 'tap' loudly. Blood chokes can cause unconsciousness in as few as 8-12 seconds under full pressure, so do not attempt to wait out the choke hoping it will loosen. If your hands are trapped, tap with your feet on the mat or on your opponent. Tapping early prevents unnecessary risk of unconsciousness and associated complications. There is no shame in tapping to a well-executed technique.",
         "safety_critical": true,
-        "answer_line": "Tap hand or mat, tap early",
+        "answer_line": "Tap early with hand, arm, or mat",
         "distractors": {
           "plausible": [
-            "Wait for numbness, then tap",
-            "Verbally tap only, no hand"
+            "Wait until numbness sets in",
+            "Shake your head as the signal"
           ],
           "trap": [
-            "Try to wait out the choke"
+            "Wait it out until you pass out"
           ]
         }
       },
@@ -609,11 +609,11 @@
         "answer_line": "Posture denies grip insertion",
         "distractors": {
           "plausible": [
-            "Posture speeds up your escape",
-            "Posture keeps hips heavy"
+            "Sitting tall tires out their legs",
+            "Straight spine protects your arms"
           ],
           "trap": [
-            "Round back to lower base"
+            "Round your back and lean in"
           ]
         }
       },
@@ -624,8 +624,8 @@
         "answer_line": "Between first grip and second",
         "distractors": {
           "plausible": [
-            "After both grips are locked",
-            "Before any collar contact"
+            "Once both grips are locked deep",
+            "Right after they break posture"
           ],
           "trap": [
             "Wait for the finish to defend"

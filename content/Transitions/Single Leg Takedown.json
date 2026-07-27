@@ -359,14 +359,14 @@
       {
         "question": "What is the optimal timing window to shoot for a single leg?",
         "answer": "The optimal timing windows occur when opponent's weight shifts forward (from a snap-down or collar tie pressure), when they step forward aggressively, when they reach for grips with both hands simultaneously, or when they're recovering from defending a feint or level change threat. Avoid shooting when opponent is square with weight back and hands active in defensive position.",
-        "answer_line": "Shoot on forward weight shift",
+        "answer_line": "Shoot as their weight shifts forward",
         "distractors": {
           "plausible": [
-            "Shoot when hands are active",
-            "Shoot when they're squared up"
+            "Wait until they settle in a stance",
+            "Shoot after they circle away"
           ],
           "trap": [
-            "Shoot when weight is back"
+            "Dive in as your head gets snapped"
           ]
         }
       },
@@ -594,11 +594,11 @@
         "answer_line": "Stay square, hand fight, re-sprawl",
         "distractors": {
           "plausible": [
-            "Full commit to one side sprawl",
-            "Only hand fight, skip hips"
+            "Drop your hips flat and freeze",
+            "Back up in a straight line"
           ],
           "trap": [
-            "Commit fully to first sprawl"
+            "Turn away and try to scramble free"
           ]
         }
       }

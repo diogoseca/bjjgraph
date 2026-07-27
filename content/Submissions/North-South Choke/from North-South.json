@@ -305,10 +305,10 @@
         "distractors": {
           "plausible": [
             "Near-side carotid only",
-            "Airway/windpipe restriction"
+            "Shoulder pressure on the spine"
           ],
           "trap": [
-            "Trachea crush, not carotids"
+            "Crush the windpipe to finish"
           ]
         }
       },
@@ -319,11 +319,11 @@
         "answer_line": "Crossface to turn the head",
         "distractors": {
           "plausible": [
-            "Pry the chin up directly",
+            "Pry the chin up with fingers",
             "Wait for the chin to relax"
           ],
           "trap": [
-            "Release pressure and reset"
+            "Lift your chest to dig the arm"
           ]
         }
       },
@@ -349,11 +349,11 @@
         "answer_line": "Grip locked, hip drop begins",
         "distractors": {
           "plausible": [
-            "Arm threaded under neck",
-            "Shoulder drives into neck"
+            "Arm threaded, grip still open",
+            "As they slide to the choke side"
           ],
           "trap": [
-            "Only after you feel pain"
+            "Wait until you feel real pain"
           ]
         }
       },
@@ -364,11 +364,11 @@
         "answer_line": "Hip drop and torso rotation",
         "distractors": {
           "plausible": [
-            "Add more chest weight",
-            "Increase choking speed"
+            "Pinch the elbows tighter",
+            "Walk your base toward the head"
           ],
           "trap": [
-            "Squeeze harder with arms"
+            "Crank arms into the windpipe"
           ]
         }
       },
@@ -376,14 +376,14 @@
         "question": "Your opponent starts framing against your chest mid-setup - what grip adjustment prevents the escape?",
         "answer": "When frames appear during your setup, you have two immediate options. First, angle your shoulder past their forearm frames by driving forward at a diagonal rather than straight down, collapsing the structural integrity of their frames. Second, attack the framing arm with a kimura grip, which forces them to withdraw the frame and simultaneously exposes the neck for the choke entry. Never fight against established frames with direct pressure, as this wastes energy and gives the defender time to build their escape sequence.",
         "safety_critical": false,
-        "answer_line": "Angle past frame or kimura grip",
+        "answer_line": "Angle past frames or kimura grip",
         "distractors": {
           "plausible": [
             "Back off and reset position",
             "Grab a fresh double grip"
           ],
           "trap": [
-            "Push straight through frames"
+            "Post up high to break the frames"
           ]
         }
       },
@@ -394,11 +394,11 @@
         "answer_line": "Apply slowly, release on tap",
         "distractors": {
           "plausible": [
-            "Verbal tap signal only",
-            "Free hand not required"
+            "Ramp to full pressure fast",
+            "Trust them to speak up"
           ],
           "trap": [
-            "Apply at full competition speed"
+            "Squeeze hard until they go limp"
           ]
         }
       },
@@ -424,11 +424,11 @@
         "answer_line": "Follow rotation, drop hips more",
         "distractors": {
           "plausible": [
-            "Abandon for side control",
-            "Add more downward chest weight"
+            "Add more downward chest weight",
+            "Squeeze harder to stop the turn"
           ],
           "trap": [
-            "Hold grip still and wait it out"
+            "Sit back to keep the grip"
           ]
         }
       },
@@ -443,7 +443,7 @@
             "Wrist grip stops the choke"
           ],
           "trap": [
-            "Keep fighting for the kimura"
+            "Yank the trapped arm to force it"
           ]
         }
       }
@@ -580,10 +580,10 @@
         "distractors": {
           "plausible": [
             "One firm tap, then wait",
-            "Say stop, keep resisting"
+            "Tap only after it hurts"
           ],
           "trap": [
-            "Fight through to escape it"
+            "Ride it out and stay quiet"
           ]
         }
       },
@@ -594,11 +594,11 @@
         "answer_line": "Frame early, tap once locked",
         "distractors": {
           "plausible": [
-            "Wait for grip before defending",
-            "Ignore the early side slide"
+            "Bridge hard once arm is deep",
+            "Wait for the grip to defend"
           ],
           "trap": [
-            "Keep fighting after grip locks"
+            "Fight the grip until you fade"
           ]
         }
       },
@@ -606,14 +606,14 @@
         "question": "Why is early recognition more important than escape technique when defending the North-South Choke?",
         "answer": "The North-South Choke has a defined point of no return once the grip is secured and hips begin dropping, after which escape probability drops below ten percent. Unlike joint locks where you may have time to work an escape under pressure, blood chokes compress both carotid arteries simultaneously and cause unconsciousness within seconds of full compression. Early recognition allows you to frame and create space during the setup phase when the opponent's control is weakest, rather than fighting a locked submission with vanishing time before unconsciousness.",
         "safety_critical": true,
-        "answer_line": "No escape once grip locks",
+        "answer_line": "Unconscious in seconds once set",
         "distractors": {
           "plausible": [
-            "Same as escaping joint locks",
-            "Late escapes still work fine"
+            "Joint-lock escape timing applies",
+            "You can breathe through it"
           ],
           "trap": [
-            "Rely on technique once locked"
+            "Turn away after the grip closes"
           ]
         }
       },

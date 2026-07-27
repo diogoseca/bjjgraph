@@ -263,42 +263,42 @@
       {
         "question": "What are the two critical grip positions required before executing an effective snap down to front headlock?",
         "answer": "The two critical grips are: (1) Primary head/neck control with hand positioned behind opponent's skull or neck with firm pressure, and (2) Secondary control point on opponent's tricep, lat, or overhook on near arm. This two-point control system prevents opponent from posting or creating defensive frames while providing the leverage to direct their descent and maintain control throughout the transition.",
-        "answer_line": "Head control + tricep/overhook",
+        "answer_line": "Head control plus tricep grip",
         "distractors": {
           "plausible": [
-            "Two hands on head, no arm",
-            "Head grip + wrist control"
+            "Two hands on skull, no arm",
+            "Both wrists, no head control"
           ],
           "trap": [
-            "Underhook only, ignore head"
+            "Dive for a leg, head down"
           ]
         }
       },
       {
         "question": "Why is it essential to drive your hips forward during the snap down rather than simply pulling with your arms?",
         "answer": "Hip drive is essential because arm strength alone generates insufficient force to overcome an opponent's structural base and postural resistance. By driving hips forward while pulling downward, you engage larger muscle groups including lats, core, and hips, creating significantly more power. Forward hip drive also positions your body weight over the opponent as they descend, establishing the dominant angle necessary for front headlock control and preventing posture recovery.",
-        "answer_line": "Drive hips forward, not just arms",
+        "answer_line": "Drive hips forward as you pull",
         "distractors": {
           "plausible": [
-            "Pull down with both arms hard",
-            "Push chest into their head"
+            "Squeeze the grips much harder",
+            "Press your shoulder on their skull"
           ],
           "trap": [
-            "Yank straight down, no hip drive"
+            "Lean back to pull, lose your base"
           ]
         }
       },
       {
         "question": "Your opponent sprawls and drives forward as you initiate the snap down - what is the correct response?",
         "answer": "When opponent sprawls and drives forward, redirect to alternative techniques rather than forcing the snap. Use their forward drive to change levels and attack their legs with single or double leg takedowns since they have committed their weight forward. Alternatively, execute an arm drag to access their back, or redirect to guillotine if their head is exposed during the sprawl. The key is recognizing the failed snap early and immediately transitioning rather than continuing against their momentum.",
-        "answer_line": "Chain to leg attack takedown",
+        "answer_line": "Chain to a leg attack takedown",
         "distractors": {
           "plausible": [
-            "Force the snap harder",
-            "Switch to underhook and clinch"
+            "Stand tall and break the tie",
+            "Circle away and reset your grips"
           ],
           "trap": [
-            "Keep pulling for the snap"
+            "Keep pulling, they take your back"
           ]
         }
       },
@@ -312,7 +312,7 @@
             "Snap down and away from you"
           ],
           "trap": [
-            "Snap up and back on their neck"
+            "Drop your head below theirs"
           ]
         }
       },
@@ -322,10 +322,10 @@
         "distractors": {
           "plausible": [
             "Rear naked choke setup",
-            "Kimura from front headlock"
+            "Bow and arrow choke"
           ],
           "trap": [
-            "Let go and reset your grips"
+            "Let the head go and stand up"
           ]
         },
         "answer_line": "Guillotine, anaconda, or darce"
@@ -333,14 +333,14 @@
       {
         "question": "Your opponent posts their hand to the mat after the snap - how do you adjust your attack?",
         "answer": "When opponent posts to the mat, their posted arm becomes vulnerable. Attack the posted arm with a kimura grip by controlling their wrist and threading behind the elbow. Alternatively, circle toward the posted side while maintaining head control to collapse the structural frame by driving your shoulder into their tricep. You can also use the post as a cue to transition to anaconda or darce choke, as the posted arm creates the arm-in configuration these submissions require.",
-        "answer_line": "Attack posted arm with kimura",
+        "answer_line": "Attack the posted arm with kimura",
         "distractors": {
           "plausible": [
-            "Switch to leg takedown",
-            "Circle away from posted arm"
+            "Circle away from the posted arm",
+            "Push the post flat and stall"
           ],
           "trap": [
-            "Release grip to re-angle"
+            "Dive across for the far leg"
           ]
         }
       },
@@ -354,7 +354,7 @@
             "Snap with maximum arm speed"
           ],
           "trap": [
-            "Snap after they back away"
+            "Chase them, overextend, lose base"
           ]
         }
       },
@@ -364,11 +364,11 @@
         "answer_line": "Posture defense opens leg attacks",
         "distractors": {
           "plausible": [
-            "Snap down always beats sprawling",
-            "Head control stops leg attacks"
+            "Both threats defend the same way",
+            "Level changes ruin your grips"
           ],
           "trap": [
-            "Abandon snaps, only shoot legs"
+            "Shoot legs only, get sprawled on"
           ]
         }
       },
@@ -377,14 +377,14 @@
         "answer": "No-gi snap downs rely on transient grips like cupping the skull or a collar tie, while gi collar and lapel grips give far more lasting security. In no-gi, the primary grip is a cupping hand behind the skull or a collar tie with fingers interlocked behind the neck, relying on friction and hand positioning for security. In gi, a deep cross-collar or lapel grip behind the neck resists being stripped and allows sustained control with repeated snap attempts, whereas no-gi grips demand faster execution since sweat and head movement let the opponent shed them more easily.",
         "distractors": {
           "plausible": [
-            "Both use identical collar ties",
-            "No-gi grips last longer than gi"
+            "No-gi grips hold longer than gi",
+            "Gi lapel grips strip easily"
           ],
           "trap": [
-            "Grab the gi pants for control"
+            "Pull their fingers to break grips"
           ]
         },
-        "answer_line": "Gi: lapel grip; no-gi: skull cup"
+        "answer_line": "Gi lapel grip, no-gi skull cup"
       },
       {
         "question": "You successfully snap your opponent down but they immediately begin to stand back up before you consolidate front headlock - what went wrong and how do you fix it?",
@@ -540,11 +540,11 @@
         "answer_line": "Recover posture, strip the grip",
         "distractors": {
           "plausible": [
-            "Brace hard and resist the pull",
-            "Pull your head straight back"
+            "Drop your level and hold still",
+            "Grab their wrists and stall"
           ],
           "trap": [
-            "Resist the pull with pure strength"
+            "Lean back and muscle the pull"
           ]
         }
       },
@@ -554,11 +554,11 @@
         "answer_line": "Control the arm before standing",
         "distractors": {
           "plausible": [
-            "Bridge and roll immediately",
-            "Post your hands and push up"
+            "Wait for them to tire out",
+            "Sprawl flat and hold still"
           ],
           "trap": [
-            "Stand straight up right away"
+            "Stand up with the neck trapped"
           ]
         }
       },
@@ -582,11 +582,11 @@
         "answer_line": "Shoot a takedown as they commit",
         "distractors": {
           "plausible": [
-            "Brace and wait them out",
-            "Pull guard to reset position"
+            "Break the grips and back out",
+            "Frame on their hips and stall"
           ],
           "trap": [
-            "Stand tall and resist the snap"
+            "Drop to your knees to stop it"
           ]
         }
       }

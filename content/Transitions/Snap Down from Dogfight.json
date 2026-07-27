@@ -263,11 +263,11 @@
         "answer_line": "Forward weight commit, head high",
         "distractors": {
           "plausible": [
-            "Snap when they sit back neutral",
-            "Wait for a completely still stance"
+            "When they settle their weight back",
+            "The instant they stand upright"
           ],
           "trap": [
-            "Snap during their retreat"
+            "Snap as they drive you backward"
           ]
         }
       },
@@ -277,11 +277,11 @@
         "answer_line": "Fully release whizzer for pull",
         "distractors": {
           "plausible": [
-            "Keep partial whizzer grip",
-            "Release whizzer after the pull"
+            "Split grip between arm and head",
+            "Drop the collar tie instead"
           ],
           "trap": [
-            "Maintain whizzer through snap"
+            "Keep whizzer, get driven back"
           ]
         }
       },
@@ -291,11 +291,11 @@
         "answer_line": "Circle laterally, attack a post",
         "distractors": {
           "plausible": [
-            "Release grip and reset position",
-            "Force head down harder"
+            "Bail out and reset to neutral",
+            "Wait for them to drop the posts"
           ],
           "trap": [
-            "Pull straight down against posts"
+            "Drive weight over their posts"
           ]
         }
       },
@@ -305,8 +305,8 @@
         "answer_line": "Sprawl hips back after the snap",
         "distractors": {
           "plausible": [
-            "Sprawl hips before the snap",
-            "Widen base but stay hip-close"
+            "Sprawl hips back before the snap",
+            "Drop your weight onto their back"
           ],
           "trap": [
             "Keep hips tight to opponent"
@@ -319,11 +319,11 @@
         "answer_line": "Pull at 45°, toward your chest",
         "distractors": {
           "plausible": [
-            "Straight down, away from body",
-            "90° pull off to the side"
+            "Straight down over their base",
+            "Pull 90° off to one side"
           ],
           "trap": [
-            "Straight down over their base"
+            "Reach out and pull down-away"
           ]
         }
       },
@@ -333,11 +333,11 @@
         "answer_line": "Abandon snap, recover base",
         "distractors": {
           "plausible": [
-            "Pull harder to finish snap",
-            "Absorb the drive head-on"
+            "Drop your level and pull down",
+            "Freeze and hold the collar tie"
           ],
           "trap": [
-            "Keep pulling, fight through it"
+            "Keep pulling, get swept to bottom"
           ]
         }
       },
@@ -347,11 +347,11 @@
         "answer_line": "Cup skull base, elbow drives down",
         "distractors": {
           "plausible": [
-            "Grip on the trapezius muscle",
-            "Skull grip with elbow flared out"
+            "Grip low on the trapezius",
+            "Grip the near shoulder, not head"
           ],
           "trap": [
-            "Low neck grip near the collar"
+            "Overreach the grip, expose neck"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Flow to darce, anaconda, back take",
         "distractors": {
           "plausible": [
-            "Reset to neutral and restart",
-            "Switch to a leg attack entry"
+            "Wait for the chin to untuck",
+            "Give up top and stand back up"
           ],
           "trap": [
-            "Force the guillotine harder"
+            "Muscle the guillotine; get reversed"
           ]
         }
       }
@@ -504,10 +504,10 @@
         "distractors": {
           "plausible": [
             "Drive forward after posture breaks",
-            "Pull back against the snap"
+            "Stiff-arm to hold your posture"
           ],
           "trap": [
-            "Retreat and reset base"
+            "Retreat and reset your base"
           ]
         }
       },
@@ -531,8 +531,8 @@
         "answer_line": "Tuck chin tight to chest",
         "distractors": {
           "plausible": [
-            "Post hands to build base",
-            "Circle laterally to escape"
+            "Grab a leg for a takedown",
+            "Roll to your back to recover guard"
           ],
           "trap": [
             "Lift your head to stand up"

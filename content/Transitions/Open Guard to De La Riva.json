@@ -277,11 +277,11 @@
         "answer_line": "Ankle grip anchors the hook",
         "distractors": {
           "plausible": [
-            "Grip adds extra sweep power",
-            "Grip controls their posture"
+            "Grip breaks their posture first",
+            "Grip keeps your hips off the mat"
           ],
           "trap": [
-            "Skip grip, thread hook first"
+            "Thread hook first, grip later"
           ]
         }
       },
@@ -316,14 +316,14 @@
       {
         "question": "What grip combination creates the strongest initial DLR control after the hook is established?",
         "answer": "The strongest initial control combines the same-side ankle or pant grip with a cross grip on the opponent's far sleeve or collar. This diagonal control system creates opposing forces that break the opponent's posture and prevent them from squaring up. The ankle grip anchors the hook while the cross grip disrupts their upper body alignment.",
-        "answer_line": "Same-side ankle + cross grip",
+        "answer_line": "Same-side ankle + cross sleeve",
         "distractors": {
           "plausible": [
-            "Cross ankle, same-side sleeve",
-            "Same-side ankle and lapel only"
+            "Both grips on their near side",
+            "Cross ankle with same-side sleeve"
           ],
           "trap": [
-            "Both hands on the same sleeve"
+            "Drop ankle grip, grab both sleeves"
           ]
         }
       },
@@ -503,11 +503,11 @@
         "answer_line": "Cheap early, costly once set",
         "distractors": {
           "plausible": [
-            "Only matters after hook is deep",
-            "Intervene only if swept"
+            "Deep hooks strip off just as easy",
+            "Grip fighting early wastes energy"
           ],
           "trap": [
-            "Wait, then rip hook out fast"
+            "Let it seat, then rip your leg out"
           ]
         }
       },
@@ -517,8 +517,8 @@
         "answer_line": "Keep weight even or rearward",
         "distractors": {
           "plausible": [
-            "Load weight onto lead leg",
-            "Weight distribution doesn't matter"
+            "Stay tall with hips squared up",
+            "Sink weight onto their shins"
           ],
           "trap": [
             "Drive weight forward into guard"
@@ -531,8 +531,8 @@
         "answer_line": "Fuels their inversion/berimbolo",
         "distractors": {
           "plausible": [
-            "Speeds up your pass sequence",
-            "Has no real effect either way"
+            "Pops the hook off your knee",
+            "Kills their ankle grip"
           ],
           "trap": [
             "Drive through with more pressure"

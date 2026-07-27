@@ -301,14 +301,14 @@
       {
         "question": "Why must you keep your head up during sprawl execution rather than looking down?",
         "answer": "Keeping your head up protects your neck from injury by maintaining proper cervical spine alignment. It defends against guillotine choke attempts, since dropping your head forward creates the perfect angle for the opponent to secure the neck. It allows you to maintain visual awareness of the opponent's reactions, enabling adaptive responses. Proper head position also helps maintain structural balance, as looking down tends to collapse your base and shift your weight incorrectly. The head should stay neutral with eyes forward throughout the entire sprawl movement.",
-        "answer_line": "Protects neck, denies guillotine",
+        "answer_line": "Protects neck, stops the guillotine",
         "distractors": {
           "plausible": [
-            "Keeps eyes on opponent's feet",
-            "Helps drive chest down harder"
+            "Sets up an underhook faster",
+            "Keeps your face off the mat"
           ],
           "trap": [
-            "Look down to see their legs"
+            "Drop your head to see the legs"
           ]
         }
       },

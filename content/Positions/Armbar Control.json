@@ -368,8 +368,8 @@
         "answer_line": "Aligns elbow at weakest angle",
         "distractors": {
           "plausible": [
-            "Prevents wrist rotation",
-            "Locks the shoulder joint"
+            "Gives you a stronger grip",
+            "Reduces strain on your back"
           ],
           "trap": [
             "Point thumb down for grip"
@@ -838,8 +838,8 @@
         "answer_line": "Tap at elbow pressure, arm straight",
         "distractors": {
           "plausible": [
-            "Tap only after you hear a pop",
-            "Wait for sharp pain to tap"
+            "Tap as soon as the arm is grabbed",
+            "Tap when their legs cross your chest"
           ],
           "trap": [
             "Keep fighting, try to power out"

@@ -299,14 +299,14 @@
         "question": "What anatomical structures does the Bow and Arrow Choke primarily target, and how does the collar create compression?",
         "answer": "The Bow and Arrow Choke targets both carotid arteries on the sides of the neck. The gi collar material wraps across the front of the neck with the reinforced seam and wrist blade pressing into one carotid while the collar fabric compresses the other. The two-directional pull between the collar hand and the leg grip tightens this loop progressively, creating bilateral blood flow restriction that leads to unconsciousness within seconds of full application.",
         "safety_critical": true,
-        "answer_line": "Both carotids via collar & blade",
+        "answer_line": "Both carotids, collar plus blade",
         "distractors": {
           "plausible": [
-            "Trachea and windpipe pressure",
-            "Only one carotid artery"
+            "Only one carotid gets pressure",
+            "Spine and neck vertebrae"
           ],
           "trap": [
-            "Jaw hinge and chin pressure"
+            "Crush the windpipe to finish"
           ]
         }
       },
@@ -329,14 +329,14 @@
         "question": "What is the correct depth for the collar grip, and how do you recognize when it is too shallow?",
         "answer": "The correct depth positions the blade of your wrist directly across the carotid artery, with the collar seam past the opponent's chin line and sitting on the front of the neck. A grip is too shallow when the collar material sits on the jaw or chin rather than the neck, when the opponent can relieve pressure by simply tucking their chin, or when the choke produces pain in the jaw but no blood restriction sensation. Walk the grip deeper using a caterpillar motion if the initial placement is above the chin.",
         "safety_critical": false,
-        "answer_line": "Wrist blade past chin on neck",
+        "answer_line": "Wrist blade past chin, on neck",
         "distractors": {
           "plausible": [
-            "Collar seam resting on jaw",
-            "Grip shallow, chin tucked ok"
+            "Thumb-in grip at the shoulder",
+            "Fingers inside collar at jaw"
           ],
           "trap": [
-            "Crank harder to force through"
+            "Crank across the jaw to finish"
           ]
         }
       },
@@ -347,11 +347,11 @@
         "answer_line": "Leg creates opposing force arc",
         "distractors": {
           "plausible": [
-            "Leg grip just for balance",
-            "Collar pull alone suffices"
+            "Leg grip is only for balance",
+            "Collar pull alone is enough"
           ],
           "trap": [
-            "Release leg, grab both lapels"
+            "Let go and dive for both legs"
           ]
         }
       },
@@ -434,14 +434,14 @@
         "question": "In competition, your bow and arrow grip is established but the opponent is defending the leg grab. What finishing alternative maintains pressure?",
         "answer": "If you cannot secure the far leg, you can use your free arm to push against the opponent's far shoulder or hip to create the opposing force instead. Another option is to hook the far leg with your own leg rather than gripping it with your hand, freeing both hands for collar work. You can also transition to a sliding collar choke by bringing your free hand to grip the other side of the collar, creating a cross-collar strangle from the back. The key is maintaining collar tension throughout any grip transition so the opponent cannot use the adjustment window to escape.",
         "safety_critical": false,
-        "answer_line": "Hook leg or cross-collar switch",
+        "answer_line": "Hook the far leg, or switch collars",
         "distractors": {
           "plausible": [
-            "Release collar to reset grip",
-            "Push on far knee instead"
+            "Squeeze the collar harder alone",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Abandon grip to chase the leg"
+            "Drop back for a leg lock"
           ]
         }
       }
@@ -585,11 +585,11 @@
         "answer_line": "Tap at first dimming vision",
         "distractors": {
           "plausible": [
-            "Wait to test the escape",
-            "Tap only if it hurts badly"
+            "One quiet tap on the mat",
+            "Signal as soon as grips set"
           ],
           "trap": [
-            "Fight through, escape first"
+            "Ride it out until you black out"
           ]
         }
       },
@@ -597,14 +597,14 @@
         "question": "Why is the transition phase when the attacker releases a hook the best defensive window?",
         "answer": "When the attacker releases one hook to reach for the far leg, their lower body control is temporarily reduced from two hooks to one. This creates a window where your hip movement is less restricted, making it possible to turn into the attacker and recover guard. Once both grips are established and the attacker reaches the perpendicular finishing position, their mechanical advantage is overwhelming and escape becomes extremely difficult. The hook release is often your last realistic opportunity for a successful escape.",
         "safety_critical": false,
-        "answer_line": "Hook release frees hip movement",
+        "answer_line": "Hook release frees your hips",
         "distractors": {
           "plausible": [
-            "Best window is after both hooks",
-            "Escape anytime, no window"
+            "Both hooks in is the best window",
+            "Timing never matters for escapes"
           ],
           "trap": [
-            "Wait for perpendicular angle"
+            "Wait for the perpendicular finish"
           ]
         }
       },
@@ -612,14 +612,14 @@
         "question": "What is the correct defensive body position when the collar grip has been locked and you cannot strip it?",
         "answer": "Curl your body forward into a compact ball with knees drawn toward your chest, chin tucked firmly to your sternum, and both hands controlling the choking wrist with a two-on-one grip. This shortened body position reduces the attacker's bow-and-arrow leverage by denying the extension they need to generate maximum compression. Simultaneously use hip movement to prevent the attacker from establishing the perpendicular angle. Never bridge or extend your spine, as this assists the attacker's finishing mechanics.",
         "safety_critical": false,
-        "answer_line": "Curl tight, chin down, two-on-one",
+        "answer_line": "Curl up, chin down, strip the wrist",
         "distractors": {
           "plausible": [
-            "Two-on-one grip, hips square",
-            "Turn away, extend legs straight"
+            "Flatten out and stay square",
+            "Push the arm with one hand"
           ],
           "trap": [
-            "Bridge and extend the spine"
+            "Bridge and extend your spine"
           ]
         }
       }

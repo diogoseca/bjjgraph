@@ -235,70 +235,70 @@
       {
         "question": "Why is the Tripod Sweep most effective when your opponent's weight is forward rather than back on their heels?",
         "answer": "When the opponent's weight is forward, they are already off-balance in the direction of the sweep. The tripod structure and ankle attack remove their ability to post and catch themselves, making the sweep mechanically sound. When their weight is back, they have no forward momentum to exploit and can simply step back or sit down to defend, making the sweep biomechanically impossible to complete with the required force vectors.",
-        "answer_line": "Exploits forward off-balance",
+        "answer_line": "Exploits their forward off-balance",
         "distractors": {
           "plausible": [
-            "Works well weight-back too",
-            "Any stance works, just power through"
+            "Best when they sit on their heels",
+            "Any stance works if you pull hard"
           ],
           "trap": [
-            "Force the sweep when weight is back"
+            "Kick hooks off to chase the sweep"
           ]
         }
       },
       {
         "question": "What is the purpose of attacking the opponent's ankle/posting leg rather than their other leg during the sweep execution?",
         "answer": "The posting leg is the leg your opponent uses to catch themselves when off-balanced forward. By controlling and removing this leg while simultaneously pushing their upper body backward with your grips and spider hook, you eliminate their ability to recover balance. Attacking the wrong leg (non-posting leg) allows them to simply step with the attacked leg while maintaining base with the posting leg, completely defeating the sweep's mechanical advantage.",
-        "answer_line": "Remove the leg that catches them",
+        "answer_line": "Take away their posting leg",
         "distractors": {
           "plausible": [
-            "Attack whichever leg is closer",
-            "Attack the far leg for reach"
+            "Pick whichever ankle is closer",
+            "Far leg gives longer leverage"
           ],
           "trap": [
-            "Attack the free leg they can move"
+            "Drop the collar grip to reach it"
           ]
         }
       },
       {
         "question": "How does the tripod structure create a more effective sweep than simply pulling the opponent forward with both spider hooks?",
         "answer": "The tripod structure creates angular leverage by positioning your body perpendicular to the opponent while maintaining three-point stability (two points on mat, one spider hook on opponent). This angle allows you to generate rotational force rather than just linear pulling force. The tripod base also elevates your hips off the mat, creating space to attack the ankle and generating upward force with the active spider hook that makes the opponent top-heavy and unable to recover balance by posting.",
-        "answer_line": "Angle + hip lift beats linear pull",
+        "answer_line": "Angled hip lift creates rotation",
         "distractors": {
           "plausible": [
-            "Just pull harder with both hooks",
-            "Two hooks always stronger"
+            "Both hooks give a stronger pull",
+            "Linear force needs more strength"
           ],
           "trap": [
-            "Flatten out and yank with arms"
+            "Sit flat and let them stack you"
           ]
         }
       },
       {
         "question": "What should you immediately transition to if your opponent sits their weight back defensively when you establish the tripod base?",
         "answer": "When the opponent sits back, immediately abandon the Tripod Sweep and transition to alternative attacks that capitalize on their defensive posture: triangle choke setup (they've brought their posture down), omoplata (attack the extended arm), or Sickle Sweep (hook behind their far knee and sweep them backward using their own defensive weight distribution). Never waste energy attempting a sweep that has lost its mechanical advantage.",
-        "answer_line": "Triangle, omoplata, or Sickle Sweep",
+        "answer_line": "Switch to triangle or omoplata",
         "distractors": {
           "plausible": [
-            "Keep forcing the Tripod Sweep",
-            "Release grips and reset guard"
+            "Re-grip the ankle and pull harder",
+            "Wait for them to lean forward"
           ],
           "trap": [
-            "Push through with more ankle grip"
+            "Let go of grips and lie flat"
           ]
         }
       },
       {
         "question": "Why must you maintain your grips throughout the entire sweep and follow-through to top position?",
         "answer": "Maintaining grips (especially the sleeve grip) prevents the opponent from posting their hand to the mat to stop the sweep mid-execution and provides control during the transition to top position. If you release grips early, the opponent can create defensive frames, recover guard, or create a scramble situation where your sweep advantage is lost. The grips also allow you to control their upper body and arms as you secure knee on belly or mount, preventing guard recovery and ensuring you capitalize on the sweep with a dominant position.",
-        "answer_line": "Grips stop the post, secure top",
+        "answer_line": "Grips deny the post and keep control",
         "distractors": {
           "plausible": [
-            "Release grips once they tip",
-            "Switch grips mid-sweep for control"
+            "Only the collar matters at the end",
+            "Grips just add pulling power"
           ],
           "trap": [
-            "Let go early to grab the far leg"
+            "Let go and turn your back to top"
           ]
         }
       },
@@ -308,11 +308,11 @@
         "answer_line": "Chain into triangle or omoplata",
         "distractors": {
           "plausible": [
-            "Just a stand-alone single sweep",
-            "Combine only with pass sequence"
+            "Only pairs with other sweeps",
+            "Best used alone as a finisher"
           ],
           "trap": [
-            "Release spider hook to chain"
+            "Drop the hook to switch attacks"
           ]
         }
       },
@@ -347,28 +347,28 @@
       {
         "question": "Your opponent strips your collar grip mid-setup but you still have the sleeve grip and spider hook - how do you recover or adapt?",
         "answer": "Without the collar grip, you lose the primary pulling force that creates the diagonal off-balance. Immediately re-grip the collar before continuing, as the sweep without collar control lacks sufficient force to complete. If re-gripping is not possible, use your free hand to grip their belt or far lapel as a substitute pulling point. Alternatively, transition to a different attack that works with sleeve-only control, such as switching the spider hook foot to lasso position for a lasso sweep, or pulling the sleeve grip to create an armbar or triangle entry. Do not attempt the Tripod Sweep without a pulling grip on the upper body.",
-        "answer_line": "Re-grip collar before sweeping",
+        "answer_line": "Re-establish collar, then sweep",
         "distractors": {
           "plausible": [
-            "Force sweep off sleeve grip alone",
-            "Switch straight to Sickle Sweep"
+            "Yank the sleeve to make up for it",
+            "Swim for a second spider hook"
           ],
           "trap": [
-            "Attempt sweep with no upper grip"
+            "Let go of sleeve to fight the grip"
           ]
         }
       },
       {
         "question": "You initiate the Tripod Sweep and your opponent steps their far leg backward out of ankle grip range - what is your immediate tactical response?",
         "answer": "When the opponent retreats the far leg, they have widened their base laterally which paradoxically weakens their front-to-back stability. Immediately switch to the Sickle Sweep by hooking your attacking foot behind their near knee instead and sweeping them backward. Their wide stance makes lateral recovery difficult. Alternatively, if they step far enough back, use the space created to sit up into a technical standup while maintaining the sleeve grip, converting to a standing confrontation where you retain grip advantage. The key is reading whether they retreated the leg laterally or directly backward, as each opens a different counter-attack.",
-        "answer_line": "Switch to Sickle Sweep on near knee",
+        "answer_line": "Sickle sweep behind the near knee",
         "distractors": {
           "plausible": [
             "Chase the retreating ankle",
-            "Release sleeve grip and re-shoot"
+            "Switch to double spider hooks"
           ],
           "trap": [
-            "Abandon grips and follow the leg"
+            "Turn away and give up the hook"
           ]
         }
       },
@@ -378,25 +378,25 @@
         "answer_line": "Lateral hip lift and rotation",
         "distractors": {
           "plausible": [
-            "Straight hip thrust upward",
-            "Hips stay flat, arms do the work"
+            "Drive hips straight at the ceiling",
+            "Bridge onto your shoulders first"
           ],
           "trap": [
-            "Square hips flat to the mat"
+            "Turn belly-down for more leverage"
           ]
         }
       },
       {
         "question": "During competition, your opponent is stalling in your Spider Guard and refusing to engage forward - how do you create the conditions needed to initiate the Tripod Sweep?",
         "answer": "Against a stalling opponent who keeps weight back, use your spider hooks to create forced reactions. Extend both legs fully to push them away, then sharply pull with both grips to snap them forward. Alternate between pushing and pulling to disrupt their static base. Use your collar grip to pull them diagonally across your body rather than straight forward, which is harder to resist. You can also lower one spider hook to their hip and kick it upward to elevate their posture, forcing them to step forward to recover balance. The moment they commit any weight forward to regain stability, immediately transition to the tripod base and attack. Creating the forward weight shift is the prerequisite that makes the entire sweep viable.",
-        "answer_line": "Push-pull hooks to force a reaction",
+        "answer_line": "Alternate push-pull to break base",
         "distractors": {
           "plausible": [
-            "Wait patiently for them to engage",
-            "Pull straight forward repeatedly"
+            "Yank collar straight down the center",
+            "Raise both hooks to their armpits"
           ],
           "trap": [
-            "Release hooks and re-guard entirely"
+            "Release a sleeve to grab the ankle"
           ]
         }
       }
@@ -507,42 +507,42 @@
       {
         "question": "What is the earliest recognition cue that your opponent is setting up a Tripod Sweep from Spider Guard?",
         "answer": "The earliest cue is when the opponent removes one foot from your bicep and places it on the mat while maintaining the other spider hook active. This asymmetric transition from double spider hooks to single hook plus mat post is the defining setup motion for the Tripod Sweep. At this point, their free hand will soon reach for your ankle. Recognizing this transition gives you the maximum defensive window to strip grips, adjust base, or pressure forward before the tripod structure is complete.",
-        "answer_line": "One spider hook drops to post foot",
+        "answer_line": "One hook drops, foot posts on mat",
         "distractors": {
           "plausible": [
-            "Both spider hooks come off at once",
-            "Opponent grips your collar first"
+            "Both feet leave your biceps",
+            "They start pulling your sleeve down"
           ],
           "trap": [
-            "Wait until they grab your ankle"
+            "Ignore it until they grab your ankle"
           ]
         }
       },
       {
         "question": "Why is breaking the sleeve grip more important than addressing the ankle grip when defending the Tripod Sweep?",
         "answer": "The sleeve grip prevents you from posting your hand to the mat, which is the primary mechanism for catching yourself during the sweep. Without the sleeve grip, even a perfectly executed sweep fails because you simply post your free hand and stabilize. The ankle grip only works in combination with sleeve control that removes your posting ability. If you strip the sleeve grip first, you restore your posting ability and make the ankle grip tactically meaningless, whereas stripping only the ankle grip leaves the sweeper able to re-attack it immediately.",
-        "answer_line": "Sleeve grip blocks the post hand",
+        "answer_line": "Sleeve grip blocks your post hand",
         "distractors": {
           "plausible": [
-            "Ankle grip matters more overall",
-            "Both grips equally critical"
+            "It is easier to break than ankle",
+            "Sleeve grip controls your hips"
           ],
           "trap": [
-            "Strip the ankle grip first"
+            "Yank your foot out and stand tall"
           ]
         }
       },
       {
         "question": "Your opponent has established the full tripod structure with spider hook, mat post, and is reaching for your ankle - what is your last-resort defensive option?",
         "answer": "At this late stage, your best option is to aggressively drive forward through the weakened guard by pushing the spider hook foot off your bicep and stepping over their posted leg on the mat. The opponent has sacrificed half their guard structure to build the tripod, leaving only one spider hook defending one side. By attacking the exposed side with a pressure pass, you convert their offensive setup into a passing opportunity. This is high-risk because if they secure the ankle grip during your forward drive, the sweep becomes more powerful, so commitment and speed are critical.",
-        "answer_line": "Drive forward, step over posted leg",
+        "answer_line": "Drive forward over their posted leg",
         "distractors": {
           "plausible": [
-            "Sit back and wait it out",
-            "Grab their far ankle to counter"
+            "Freeze until they lose the grip",
+            "Turn away to strip the hook"
           ],
           "trap": [
-            "Pull away and disengage guard"
+            "Stand tall and pull backward"
           ]
         }
       },
@@ -552,11 +552,11 @@
         "answer_line": "Lower hips, widen base, weight back",
         "distractors": {
           "plausible": [
-            "Stand tall to resist the pull",
-            "Lean forward into the pull"
+            "Rise on your toes to stay mobile",
+            "Bring your feet close together"
           ],
           "trap": [
-            "Lock knees and push straight ahead"
+            "Straighten legs and lean forward"
           ]
         }
       },
@@ -567,10 +567,10 @@
         "distractors": {
           "plausible": [
             "Reset to neutral and restart",
-            "Wait for them to attack again"
+            "Stand tall to break the hook"
           ],
           "trap": [
-            "Chase the retracting ankle grip"
+            "Dive into their guard head-first"
           ]
         }
       }

@@ -330,11 +330,11 @@
         "answer_line": "Diagonal, slightly upward on hip",
         "distractors": {
           "plausible": [
-            "Straight back against the hip",
-            "Downward to pin the hip"
+            "Straight back against the ribs",
+            "Downward to pin their thigh"
           ],
           "trap": [
-            "Push straight back with muscle"
+            "Straighten arm, feed it to armbar"
           ]
         }
       },
@@ -344,11 +344,11 @@
         "answer_line": "Return to neck defense first",
         "distractors": {
           "plausible": [
-            "Keep rotating with one hook cleared",
-            "Push straight to back door escape"
+            "Bridge to pop the second hook",
+            "Reach back for their far foot"
           ],
           "trap": [
-            "Keep turning, ignore seatbelt"
+            "Keep turning, feed the choke"
           ]
         }
       },
@@ -504,11 +504,11 @@
         "answer_line": "Short choke threats, don't chase",
         "distractors": {
           "plausible": [
-            "Commit fully to finish the choke",
-            "Release seatbelt to attack harder"
+            "Only frame, never threaten back",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Chase the choke deep every time"
+            "Chase the choke deep, lose grips"
           ]
         }
       },
@@ -518,11 +518,11 @@
         "answer_line": "Swim your arm past their frame",
         "distractors": {
           "plausible": [
-            "Push through the frame with hips",
-            "Wait for them to release the frame"
+            "Keep scooting and ignore it",
+            "Wait for them to drop the frame"
           ],
           "trap": [
-            "Retreat and reset the position"
+            "Turn away and expose your back"
           ]
         }
       },

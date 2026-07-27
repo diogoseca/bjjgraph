@@ -282,14 +282,14 @@
         "question": "What anatomical structures does the Kimura attack when applied from flattened half guard?",
         "answer": "The Kimura primarily attacks the shoulder joint through forced internal rotation beyond its normal range of motion. The specific structures at risk are the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments that stabilize the shoulder capsule, and the glenoid labrum. Secondary stress is placed on the bicep tendon at its attachment point. The flattened position amplifies these forces because the opponent cannot use hip movement to relieve the rotational pressure on the joint.",
         "safety_critical": false,
-        "answer_line": "Shoulder, forced internal rotation",
+        "answer_line": "Shoulder joint, internal rotation",
         "distractors": {
           "plausible": [
-            "Elbow hyperextension",
-            "Wrist and forearm bones"
+            "Elbow ligaments and triceps",
+            "Forearm bones and wrist tendons"
           ],
           "trap": [
-            "Cervical spine and neck"
+            "Neck — crank if the arm stalls"
           ]
         }
       },
@@ -315,11 +315,11 @@
         "answer_line": "Chest pressure, elbow pinned tight",
         "distractors": {
           "plausible": [
-            "Wrist grip only, no base",
-            "Underhook without figure-four"
+            "Deep underhook and high hips",
+            "Both feet posted, weight back"
           ],
           "trap": [
-            "Release crossface for the grip"
+            "Sit up to crank the shoulder"
           ]
         }
       },
@@ -334,7 +334,7 @@
             "When opponent's back is flat"
           ],
           "trap": [
-            "Once crossface is released"
+            "Let go of head control to finish"
           ]
         }
       },
@@ -345,11 +345,11 @@
         "answer_line": "Drive clasp down, knee-wedge elbow",
         "distractors": {
           "plausible": [
-            "Pull arms apart with strength",
-            "Release grip, reset position"
+            "Rip the arms apart with force",
+            "Switch to an armbar instead"
           ],
           "trap": [
-            "Stop pressure, peel fingers"
+            "Sit up to yank the hands free"
           ]
         }
       },
@@ -360,11 +360,11 @@
         "answer_line": "Drive arm across, rebend elbow",
         "distractors": {
           "plausible": [
-            "Pull straight up for armbar",
-            "Release wrist, regrip higher"
+            "Regrip higher on the forearm",
+            "Squeeze knees to trap the arm"
           ],
           "trap": [
-            "Yank wrist without repositioning"
+            "Crank the wrist and hold on"
           ]
         }
       },
@@ -375,7 +375,7 @@
         "answer_line": "Slow, 3-5 second rotation",
         "distractors": {
           "plausible": [
-            "Fast to prevent defense",
+            "Only slow with white belts",
             "Speed matches sparring pace"
           ],
           "trap": [
@@ -387,14 +387,14 @@
         "question": "How does the competition finishing strategy differ from the training application of this Kimura?",
         "answer": "In competition, you can apply the Kimura at a faster pace than training, but the fundamental mechanics remain identical — grip establishment, elbow pinning, and hip-driven rotation. The key competition adjustment is maintaining relentless forward pressure throughout the sequence to prevent the referee from standing you up for inactivity. Chain the Kimura threat with passing attempts so the referee sees continuous advancement. If the opponent defends the Kimura, immediately transition to a pass or positional upgrade rather than stalling in the grip. Time management matters — begin the Kimura attack when there is sufficient time on the clock to work through defensive responses.",
         "safety_critical": false,
-        "answer_line": "Faster pace, same mechanics",
+        "answer_line": "Faster pace, identical mechanics",
         "distractors": {
           "plausible": [
-            "Slower to conserve energy",
-            "Skip grip, rush the finish"
+            "Slower pace to save energy",
+            "Different grips for the ruleset"
           ],
           "trap": [
-            "Stall in grip to run clock"
+            "Sit in the grip to burn clock"
           ]
         }
       },
@@ -405,11 +405,11 @@
         "answer_line": "Post wide, keep grip, retighten",
         "distractors": {
           "plausible": [
-            "Release grip, repost hands",
-            "Follow the bridge, roll with them"
+            "Ride the bridge and roll with it",
+            "Switch to the near arm"
           ],
           "trap": [
-            "Let go and reset from scratch"
+            "Post both hands to stop the bridge"
           ]
         }
       },
@@ -417,14 +417,14 @@
         "question": "Why is attacking the far arm preferable to the near arm when executing the Kimura from flattened half guard top?",
         "answer": "The far arm is mechanically isolated from the opponent's defensive structure when it extends past their torso centerline — to reach for frames, underhooks, or crossface defense, they must expose it beyond the protection of their own body. The near arm, by contrast, is shielded beneath your chest and can be easily retracted to safety. Additionally, attacking the near arm requires you to sacrifice crossface control, which eliminates the head position advantage that makes the flattened half guard so dominant. The far arm attack preserves crossface pressure while the arm is already extended into a vulnerable position.",
         "safety_critical": false,
-        "answer_line": "Far arm is exposed, isolated",
+        "answer_line": "Far arm is exposed and isolated",
         "distractors": {
           "plausible": [
-            "Near arm is easier to grab",
-            "Both arms equally vulnerable"
+            "Near arm has weaker rotation",
+            "Far arm sits closer to your chest"
           ],
           "trap": [
-            "Attack near arm, drop crossface"
+            "Take the near arm, lose crossface"
           ]
         }
       }
@@ -536,14 +536,14 @@
         "question": "How do you recognize that a Kimura is being set up from flattened half guard?",
         "answer": "The primary early warning signal is the attacker releasing their crossface hand from your jaw or neck and redirecting it toward your extended arm. You may also feel their weight shift slightly toward your head side as they create the rotational angle. Any time your elbow drifts more than six inches from your ribcage while flattened, you are in the Kimura danger zone. The threading of their far arm under your elbow confirms the figure-four is being established.",
         "safety_critical": false,
-        "answer_line": "Crossface releases toward your arm",
+        "answer_line": "Crossface leaves toward your arm",
         "distractors": {
           "plausible": [
-            "Opponent grips your collar",
-            "Weight shifts to your legs"
+            "They grip your collar",
+            "Their weight shifts to your legs"
           ],
           "trap": [
-            "Ignore elbow drifting from ribs"
+            "Wait until the figure-four locks"
           ]
         }
       },
@@ -555,7 +555,7 @@
         "distractors": {
           "plausible": [
             "Only when pain is severe",
-            "Wait for an audible pop"
+            "Tap only if grip is fully locked"
           ],
           "trap": [
             "Try to power out first"
@@ -569,8 +569,8 @@
         "answer_line": "Tight elbows, clasp, bridge in",
         "distractors": {
           "plausible": [
-            "Straighten arm immediately",
-            "Pull elbow away fast"
+            "Frame on hips to make space",
+            "Grab their belt and hold still"
           ],
           "trap": [
             "Roll away from the pressure"
@@ -581,14 +581,14 @@
         "question": "Why is rolling away from the Kimura a dangerous defensive error in this position?",
         "answer": "Rolling away from the Kimura exposes your back to the attacker, who can transition directly from the Kimura grip to a back take while maintaining control of the captured arm. This converts a submission defense into a positional crisis that is often worse than the original Kimura threat. The correct response is to turn toward the attacker by bridging into the Kimura side, which relieves rotational pressure on the shoulder while keeping your chest facing the opponent and denying back exposure.",
         "safety_critical": false,
-        "answer_line": "Exposes back to attacker",
+        "answer_line": "Exposes your back for the take",
         "distractors": {
           "plausible": [
-            "Wastes energy, nothing else",
-            "Slightly worsens shoulder angle"
+            "Only gives up an underhook",
+            "Just tightens their figure-four"
           ],
           "trap": [
-            "Speeds up your escape safely"
+            "Safe if you roll fast enough"
           ]
         }
       },
@@ -596,14 +596,14 @@
         "question": "How should you use the grip clasp defense to create positional improvement rather than just stalling?",
         "answer": "The grip clasp buys time but is not a permanent solution — the attacker will eventually break it through leverage. Use the stalling window to begin hip escaping toward your trapped leg side, incrementally creating the space needed to re-establish your knee shield or elbow frame. Each small hip movement compounds while your grip holds the rotation at bay. The objective is to convert defensive time into positional recovery so that when the grip eventually breaks, you have already improved your position enough to prevent the finish.",
         "safety_critical": false,
-        "answer_line": "Hip escape while clasp holds",
+        "answer_line": "Hip escape while the clasp holds",
         "distractors": {
           "plausible": [
-            "Hold clasp, wait it out",
-            "Clasp then push off mat"
+            "Wait for the attacker to tire",
+            "Kick your legs to spin free"
           ],
           "trap": [
-            "Release clasp to reset guard"
+            "Let go of the clasp to frame"
           ]
         }
       }

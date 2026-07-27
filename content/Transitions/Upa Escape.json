@@ -282,11 +282,11 @@
         "answer_line": "Kills two base points on one side",
         "distractors": {
           "plausible": [
-            "Frees your near-side arm faster",
-            "Opposite sides give a wider bridge"
+            "Frees your near arm sooner",
+            "Balances the bridge evenly"
           ],
           "trap": [
-            "Opposite sides give more leverage"
+            "Split sides, they ride it out"
           ]
         }
       },
@@ -296,11 +296,11 @@
         "answer_line": "Bridge 45° toward trapped side",
         "distractors": {
           "plausible": [
-            "Bridge 45° away from trap side",
-            "Explode straight up, then rotate"
+            "Bridge 45° away from the trap",
+            "Twist shoulders, skip the hips"
           ],
           "trap": [
-            "Bridge straight up (90°)"
+            "Bridge straight up, they post"
           ]
         }
       },
@@ -394,11 +394,11 @@
         "answer_line": "Clear grapevines before bridging",
         "distractors": {
           "plausible": [
-            "Bridge hard to break the hooks",
-            "Set foot trap before clearing legs"
+            "Trap the arm first, ignore legs",
+            "Hip escape out instead"
           ],
           "trap": [
-            "Force the bridge through the hooks"
+            "Bridge anyway, they take back"
           ]
         }
       },
@@ -554,11 +554,11 @@
         "answer_line": "Geometry beats weight alone",
         "distractors": {
           "plausible": [
-            "Add more weight to stay heavy",
-            "Sprawl wider to add pressure"
+            "Sprawl wider for more pressure",
+            "Heavier top never gets rolled"
           ],
           "trap": [
-            "Rely on mass, ignore your base"
+            "Ditch base for weight, get swept"
           ]
         }
       },

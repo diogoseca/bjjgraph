@@ -261,14 +261,14 @@
       {
         "question": "Why must you establish the seatbelt grip before attempting to climb onto the opponent's back?",
         "answer": "The seatbelt grip provides the structural control necessary to prevent opponent escape during the transition to back mount. Without this grip, the opponent can simply drive forward or turn into you as you attempt to climb, completely neutralizing the position. The seatbelt acts as your anchor point, allowing you to break their structure and control their movement while inserting hooks. Attempting to climb first creates unnecessary space and escape opportunities that even moderately skilled opponents will exploit immediately.",
-        "answer_line": "Seatbelt grip before climbing",
+        "answer_line": "Anchor that stops them turning in",
         "distractors": {
           "plausible": [
-            "Climb first, grip second",
-            "Hip control alone is enough"
+            "Frees both hands to place hooks",
+            "Mainly it flattens them out"
           ],
           "trap": [
-            "Skip the grip, climb fast"
+            "Jump on the back with no grips"
           ]
         }
       },
@@ -279,10 +279,10 @@
         "distractors": {
           "plausible": [
             "Pins their far shoulder down",
-            "Hooks under their far leg"
+            "Stops their head from posting"
           ],
           "trap": [
-            "Chin strap for neck control"
+            "Step over their waist to block"
           ]
         }
       },
@@ -292,11 +292,11 @@
         "answer_line": "Follow, thread leg into truck",
         "distractors": {
           "plausible": [
-            "Release grip, reset position",
-            "Force them back the other way"
+            "Force them back the other way",
+            "Sit back and wait it out"
           ],
           "trap": [
-            "Let go and chase far hook"
+            "Drop the seatbelt to grab legs"
           ]
         }
       },
@@ -306,11 +306,11 @@
         "answer_line": "Switch grip after leg blocks turn",
         "distractors": {
           "plausible": [
-            "Switch grip before leg is set",
-            "Keep hip grip the whole time"
+            "Keep the hip grip the whole time",
+            "Wait until both hooks are in"
           ],
           "trap": [
-            "Release hips before leg lands"
+            "Let hips go before leg lands"
           ]
         }
       },
@@ -334,11 +334,11 @@
         "answer_line": "Collapse turtle before hooks",
         "distractors": {
           "plausible": [
-            "Insert hooks, then break posture",
-            "Flatten straight to side control"
+            "Hooks first, then break base",
+            "Wait for them to move first"
           ],
           "trap": [
-            "Attack the neck before the hips"
+            "Force hooks into strong turtle"
           ]
         }
       },
@@ -348,11 +348,11 @@
         "answer_line": "Neck's open — take seatbelt free",
         "distractors": {
           "plausible": [
-            "Abandon leg, reset your stance",
-            "Switch straight to a leg attack"
+            "Switch straight to a leg attack",
+            "Wait for them to release the leg"
           ],
           "trap": [
-            "Yank leg free, then disengage"
+            "Post both hands to free the leg"
           ]
         }
       },
@@ -362,11 +362,11 @@
         "answer_line": "Weight forward, far leg posts",
         "distractors": {
           "plausible": [
-            "Weight back, near leg posts",
-            "Even weight, both knees down"
+            "Even weight, both knees down",
+            "Drive all weight onto the head"
           ],
           "trap": [
-            "Lean back to avoid a roll"
+            "Sit back and lean away from them"
           ]
         }
       },
@@ -380,7 +380,7 @@
             "Only ever leads to side control"
           ],
           "trap": [
-            "Abandon it if hooks don't land"
+            "Keep forcing hooks as they roll"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Shin low at knee, foot hooks in",
         "distractors": {
           "plausible": [
-            "Shin high near their waist",
-            "Shin placed below the knee"
+            "Shin below the knee line",
+            "Toes pointed away, no hook"
           ],
           "trap": [
-            "Hook your own ankle instead"
+            "Shin high — they step over it"
           ]
         }
       },
@@ -531,35 +531,35 @@
             "Once both hooks are already in"
           ],
           "trap": [
-            "Wait for full mount to escape"
+            "Do nothing until the choke starts"
           ]
         }
       },
       {
         "question": "Why is sitting through toward the blocking leg side often your best defensive option despite the risk of truck position?",
         "answer": "Sitting through toward the blocking leg side works because the attacker's base is weakest in that direction - they are sitting with their weight on one hip and their blocking leg is committed across your thigh. Moving in this direction disrupts their seated structure and exploits the fact that their posted far leg cannot effectively block lateral movement. While the sit-through can lead to truck position if the attacker maintains their grips, the truck represents a less immediately dangerous position than full back control with hooks, and the scramble created often allows further escape opportunities.",
-        "answer_line": "Exploits their weak seated base",
+        "answer_line": "Their seated base is weakest there",
         "distractors": {
           "plausible": [
-            "Fully escapes the position",
-            "Sit away from the blocking leg"
+            "It is the only escape available",
+            "It removes all truck danger"
           ],
           "trap": [
-            "Stand straight up through it"
+            "Sit away and feed them the back"
           ]
         }
       },
       {
         "question": "What should your immediate priority be if the attacker has already established the seatbelt grip from chair sit?",
         "answer": "Once the seatbelt is established, your priority shifts from preventing the grip to preventing your turtle structure from being broken onto your side. Use your hands to fight the seatbelt grip using two-on-one control on the choking arm, tuck your chin tight to your chest, and maintain the strongest possible four-point base to resist being pulled sideways. You are now in a survival situation where you must delay the back take long enough to find an escape opportunity, rather than being in the proactive defensive window where explosive movement could have prevented the position entirely.",
-        "answer_line": "Fight being broken to your side",
+        "answer_line": "Stop them breaking you sideways",
         "distractors": {
           "plausible": [
-            "Focus on stripping the seatbelt",
-            "Try to stand up immediately"
+            "Rush to stand to your feet",
+            "Reach back for their far leg"
           ],
           "trap": [
-            "Turn into the blocking leg"
+            "Turn your back and roll away"
           ]
         }
       },
@@ -569,11 +569,11 @@
         "answer_line": "You're fighting a rigid shin bar",
         "distractors": {
           "plausible": [
-            "It's the fastest escape route",
-            "It fastest faces the attacker"
+            "It is the fastest escape route",
+            "It frees your near arm first"
           ],
           "trap": [
-            "Drive hard through the shin"
+            "Push into it and expose the neck"
           ]
         }
       },
@@ -584,7 +584,7 @@
         "distractors": {
           "plausible": [
             "Push their head away instead",
-            "Grab only their far wrist"
+            "Post both hands on the mat"
           ],
           "trap": [
             "Extend arms to create space"

@@ -320,11 +320,11 @@
         "answer_line": "Calf crushed against shin fulcrum",
         "distractors": {
           "plausible": [
-            "Knee ligament tear is the goal",
-            "Achilles tendon stretch mechanism"
+            "Hamstring stretched over thigh",
+            "Achilles tendon stretched at heel"
           ],
           "trap": [
-            "Ankle rotation snaps the joint"
+            "Crank hard and fast for the tap"
           ]
         }
       },
@@ -335,11 +335,11 @@
         "answer_line": "Tensing, kicking, hand reaching",
         "distractors": {
           "plausible": [
-            "Opponent goes fully limp",
-            "Loud verbal complaints only"
+            "Breathing stays slow and steady",
+            "Grip fights on your wrist only"
           ],
           "trap": [
-            "Opponent relaxing means safe"
+            "Crank harder if they go quiet"
           ]
         }
       },
@@ -362,14 +362,14 @@
         "question": "At what point during the calf slicer setup does the opponent effectively lose the ability to escape, and why?",
         "answer": "The point of no escape occurs when the figure-four leg lock is fully established AND the opponent's foot is secured. Before the figure-four is locked, the opponent can kick free or straighten their leg to escape. Before the foot is controlled, they can extend the leg to nullify the compression angle. Once both controls are in place simultaneously, the mechanical advantage shifts decisively to the attacker—the opponent cannot straighten the leg against the locked figure-four, and cannot rotate free because the foot trap prevents angular escape. Any remaining defense is limited to managing the pain threshold or tapping.",
         "safety_critical": false,
-        "answer_line": "Figure-four locked + foot secured",
+        "answer_line": "Figure-four locked and foot secured",
         "distractors": {
           "plausible": [
             "Figure-four locked, foot still free",
             "Foot secured, figure-four loose"
           ],
           "trap": [
-            "Shin threaded deep is enough alone"
+            "Extend hips before locking foot"
           ]
         }
       },
@@ -381,10 +381,10 @@
         "distractors": {
           "plausible": [
             "Figure-four locked too loosely",
-            "Extending hips too slowly"
+            "Hips extended too slowly"
           ],
           "trap": [
-            "Release grips to grab the foot"
+            "Abandon the back to chase the foot"
           ]
         }
       },
@@ -399,7 +399,7 @@
             "Switch grips to a cross-face"
           ],
           "trap": [
-            "Yank the leg explosively"
+            "Sit up and lose chest connection"
           ]
         }
       },
@@ -440,11 +440,11 @@
         "answer_line": "Denies posts, frames, sit-throughs",
         "distractors": {
           "plausible": [
-            "Only matters for the takedown",
-            "Leg control alone is sufficient"
+            "Matters only during the entry",
+            "Leg control alone is enough"
           ],
           "trap": [
-            "Release grips to add hip pressure"
+            "Post both hands to squeeze harder"
           ]
         }
       },
@@ -456,7 +456,7 @@
         "distractors": {
           "plausible": [
             "Abort at any sign of resistance",
-            "Abort only once fully escaped"
+            "Wait until they fully extract"
           ],
           "trap": [
             "Force the finish regardless"
@@ -612,11 +612,11 @@
         "question": "What are the specific injury risks of the calf slicer that make early tapping essential during training?",
         "answer": "The calf slicer threatens MCL and LCL knee ligament tears from hyperextension (4-12 week recovery, potentially requiring surgery), meniscus damage from rotational force during escape attempts (6-16 weeks, often requiring arthroscopic surgery), calf muscle tears from direct compression (2-6 weeks), and posterior knee capsule strain (2-4 weeks). Unlike chokes where you feel the submission approaching and have several seconds to escape, the calf slicer can cause structural knee damage before the full pain signal registers. Tapping early in training is not weakness—it is necessary self-preservation for long-term training ability.",
         "safety_critical": true,
-        "answer_line": "Knee damage precedes pain signal",
+        "answer_line": "Ligament tears before pain warns",
         "distractors": {
           "plausible": [
-            "Pain always precedes injury",
-            "Chokes are just as sudden"
+            "Only bruised calf muscle risk",
+            "Slow burn gives time to tap"
           ],
           "trap": [
             "Fight through to build tolerance"
@@ -630,8 +630,8 @@
         "answer_line": "Denies knee bend for shin insert",
         "distractors": {
           "plausible": [
-            "Straight legs improve base width",
-            "Bent knees always prevent leg locks"
+            "Straight legs widen your base",
+            "Straight legs protect the ankles"
           ],
           "trap": [
             "Bend knees fully for power"

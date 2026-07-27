@@ -327,11 +327,11 @@
         "answer_line": "Short nasal breaths, stay calm",
         "distractors": {
           "plausible": [
-            "Deep breaths to power the break",
-            "Hold your breath and explode"
+            "Deep chest inhales to power out",
+            "Hold everything in until free"
           ],
           "trap": [
-            "Gasp through your mouth"
+            "Panic-thrash and gulp for air"
           ]
         }
       },

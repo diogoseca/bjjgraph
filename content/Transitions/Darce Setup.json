@@ -261,11 +261,11 @@
         "answer_line": "Perpendicular, 90 degrees",
         "distractors": {
           "plausible": [
-            "Shallow angle, stay square",
-            "Deep angle, nearly parallel"
+            "Shallow angle, chest square",
+            "45 degrees off their hip"
           ],
           "trap": [
-            "Align parallel to their spine"
+            "Line up parallel with their spine"
           ]
         }
       },
@@ -274,11 +274,11 @@
         "answer": "Don't fight the grip — flow to an alternative attack like the Anaconda, crucifix, or back take that exploits their defensive commitment. Switching to an Anaconda means adjusting your grip configuration, the crucifix comes from controlling their defending arm, and their grip on your threading arm can itself open the transition to back control. The key is never to fight their grip directly but to punish their commitment to defending the Darce.",
         "distractors": {
           "plausible": [
-            "Force the arm deeper anyway",
-            "Reset and re-thread same arm"
+            "Re-thread the same arm deeper",
+            "Reset and rebuild the setup"
           ],
           "trap": [
-            "Muscle through their grip"
+            "Release the head to fix the grip"
           ]
         },
         "answer_line": "Flow to Anaconda or back take"
@@ -288,14 +288,14 @@
         "answer": "Constant shoulder pressure keeps the opponent's posture broken and denies them the space to rebuild defensive structure. It maintains control of their head and upper body while keeping their weight distributed poorly, making movement difficult and limiting escape pathways. Without consistent pressure, opponents can create space and recover posture to stand or turn away.",
         "distractors": {
           "plausible": [
-            "Controls head, not weight",
-            "Sets up leg entanglement"
+            "Only locks in the head grip",
+            "Frees your hips to attack legs"
           ],
           "trap": [
-            "Ease off to save energy"
+            "Lighten up to save your gas tank"
           ]
         },
-        "answer_line": "Break posture, deny space"
+        "answer_line": "Breaks posture, denies space"
       },
       {
         "question": "What is the optimal timing window to begin threading the choking arm?",
@@ -303,11 +303,11 @@
         "answer_line": "Right after arm trap and angle set",
         "distractors": {
           "plausible": [
-            "Immediately on first contact",
-            "Wait for full mount control"
+            "Whenever the head is controlled",
+            "Right as they shoot the takedown"
           ],
           "trap": [
-            "Thread before trapping the arm"
+            "Thread while their arm stays free"
           ]
         }
       },
@@ -317,11 +317,11 @@
         "answer_line": "Figure-four, squeeze in and forward",
         "distractors": {
           "plausible": [
-            "Pull straight down on head",
-            "Cross-face grip, pull back"
+            "Gable grip, pull toward the mat",
+            "Palm-to-palm, pull elbows apart"
           ],
           "trap": [
-            "Crank straight downward"
+            "Crank the neck sideways"
           ]
         }
       },
@@ -331,11 +331,11 @@
         "answer_line": "Circle into the post, collapse it",
         "distractors": {
           "plausible": [
-            "Pull back to reset the angle",
-            "Chase distance, re-close space"
+            "Pull them back toward your hips",
+            "Switch grips and re-set the head"
           ],
           "trap": [
-            "Let them retract and reset"
+            "Give ground and let them stand"
           ]
         }
       },
@@ -344,11 +344,11 @@
         "answer": "Treat the front headlock as a hub — flow to the Anaconda, guillotine, back take, or Japanese necktie rather than forcing the blocked Darce. Reverse your arm threading direction for the Anaconda, adjust your grip under the chin for the guillotine, circle behind as they defend the choke threat to take the back, or adjust your leg position to attack the Japanese necktie. All are high-percentage chains, and a blocked Darce should flow directly into the next attack rather than being forced.",
         "distractors": {
           "plausible": [
-            "Force the blocked Darce longer",
-            "Abandon front headlock entirely"
+            "Give up and stand back to feet",
+            "Switch to a leg attack instead"
           ],
           "trap": [
-            "Keep cranking the stuck grip"
+            "Let the head go to re-grip"
           ]
         },
         "answer_line": "Flow to Anaconda, guillotine, back"
@@ -476,14 +476,14 @@
       {
         "question": "Why should you move toward the choking arm rather than away when defending the Darce setup?",
         "answer": "Moving toward the choking arm reduces the angle the attacker needs to complete the choke. The Darce requires the attacker's body to be perpendicular to your spine — by turning into them you flatten that angle and make it geometrically harder for the choke to close on your carotid arteries. Moving away actually opens the angle and creates space for deeper arm penetration making the choke tighter.",
-        "answer_line": "Flattens the angle needed",
+        "answer_line": "It flattens the choking angle",
         "distractors": {
           "plausible": [
-            "Creates space to stand up",
-            "Relieves neck pressure faster"
+            "It frees your hips to shrimp",
+            "It loosens their head grip"
           ],
           "trap": [
-            "Turn away to create distance"
+            "Turning away feels safer"
           ]
         }
       },
@@ -493,11 +493,11 @@
         "answer_line": "Circle in, sit through to guard",
         "distractors": {
           "plausible": [
-            "Wait for grip then defend",
-            "Post hands, try to stand up"
+            "Frame on the hips and push away",
+            "Look up and posture your head"
           ],
           "trap": [
-            "Pull head back to create space"
+            "Pull your head straight back"
           ]
         }
       },
@@ -521,11 +521,11 @@
         "answer_line": "Tuck chin, extract arm, roll",
         "distractors": {
           "plausible": [
-            "Push straight up to stand",
-            "Wait it out, conserve energy"
+            "Bridge and push into their chest",
+            "Sit up and posture your spine"
           ],
           "trap": [
-            "Turn away from the choke arm"
+            "Turn away from the choking arm"
           ]
         }
       }

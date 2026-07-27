@@ -351,14 +351,14 @@
         "question": "How do you recognize that the opponent's heel is approaching the breaking point during the finish?",
         "answer": "Breaking point indicators include the opponent's knee beginning to rotate independently of their hip, a sudden change in the resistance profile where the ligament tension shifts from elastic to rigid, and the opponent's body visibly tensing or attempting emergency escape movements. However, the critical safety reality is that knee ligaments often provide NO pain warning before catastrophic failure. This means you must apply force so slowly and progressively that the opponent has ample time to feel any discomfort and tap before structural damage occurs. Never rely on the opponent's reaction as your only safety measure.",
         "safety_critical": true,
-        "answer_line": "Go slow, never rely on pain cue",
+        "answer_line": "Knee rotates, tension turns rigid",
         "distractors": {
           "plausible": [
-            "Wait for their verbal tap only",
-            "Watch facial grimace as signal"
+            "Heel slides deeper into the grip",
+            "Their hips flatten to the mat"
           ],
           "trap": [
-            "Speed up once resistance firms"
+            "Wait for pain to warn you"
           ]
         }
       },
@@ -388,7 +388,7 @@
             "Single hand grip on the heel"
           ],
           "trap": [
-            "When they start to grip fight"
+            "Wait until the knee pops to tap"
           ]
         }
       },
@@ -414,11 +414,11 @@
         "answer_line": "Re-consolidate legs, re-enter grip",
         "distractors": {
           "plausible": [
-            "Chase the heel with reached arms",
-            "Immediately switch to kneebar"
+            "Straighten arms to chase the heel",
+            "Loosen the figure-four for room"
           ],
           "trap": [
-            "Scramble to re-grab bare-handed"
+            "Open your legs to lunge for heel"
           ]
         }
       },
@@ -430,10 +430,10 @@
         "distractors": {
           "plausible": [
             "Ease pressure and ask if okay",
-            "Pause and wait for their tap"
+            "Hold still until they settle"
           ],
           "trap": [
-            "Keep pressure until they tap"
+            "Keep cranking until they tap"
           ]
         }
       },
@@ -441,14 +441,14 @@
         "question": "In competition, what strategic adjustments maximize finishing percentage from ushiro ashi-garami?",
         "answer": "Competition strategy from ushiro emphasizes speed of grip establishment over positional patience, since opponents are less willing to tap and rule sets create urgency. Immediately upon establishing ushiro control, attack the heel before the opponent can organize their defense. Use your free hand to strip their defensive grip while simultaneously seating your heel hook grip rather than sequencing these actions separately. If the first attempt fails, rapidly cycle between heel hook, ankle lock, and positional advancement attempts to overwhelm the opponent's defensive decision-making rather than committing to a single extended finishing attempt.",
         "safety_critical": false,
-        "answer_line": "Attack fast before defense sets",
+        "answer_line": "Set grips fast, break slow",
         "distractors": {
           "plausible": [
-            "Stay patient, wear them down",
-            "Commit fully to one long attempt"
+            "Wear them down over the round",
+            "Wait for the perfect setup"
           ],
           "trap": [
-            "Spike the heel for a fast tap"
+            "Rip the heel for a fast tap"
           ]
         }
       },
@@ -456,14 +456,14 @@
         "question": "Why is it dangerous to apply the heel hook with arm rotation only rather than full body rotation?",
         "answer": "Arm-only rotation creates two critical problems. First, it produces inconsistent and jerky force application because small arm muscles fatigue rapidly and generate force in unpredictable bursts rather than smooth progressive pressure. This makes it nearly impossible to apply the slow, controlled rotation required for safe training. Second, arm-only rotation lacks sufficient power against competent defense, leading the attacker to compensate by jerking or spiking the submission in frustration, dramatically increasing injury risk. Full body rotation using core and hip turn creates smooth, powerful, controllable force that can be modulated precisely.",
         "safety_critical": true,
-        "answer_line": "Arms alone jerk, spike, injure",
+        "answer_line": "Jerky bursts spike the knee",
         "distractors": {
           "plausible": [
-            "Arms alone are just too weak",
-            "Body rotation wastes energy"
+            "Your elbow slips off their shin",
+            "Opponent can grab your wrist"
           ],
           "trap": [
-            "Jerk with arms for quick finish"
+            "Yank hard once for a fast tap"
           ]
         }
       }
@@ -604,11 +604,11 @@
         "answer_line": "Keep the foot dorsiflexed",
         "distractors": {
           "plausible": [
-            "Point toes to relieve tension",
-            "Grip fight their wrist first"
+            "Grip fight their wrist first",
+            "Bridge hard to bump them off"
           ],
           "trap": [
-            "Relax the foot to slip out"
+            "Point the toes to slip free"
           ]
         }
       },
@@ -616,14 +616,14 @@
         "question": "How do you distinguish between a shallow ushiro entanglement you can escape versus a deep entanglement requiring alternative strategy?",
         "answer": "In shallow entanglement, the attacker's inside leg has minimal control below your knee and their upper body grips have not established heel access. You can complete rotation to standing or turtle. In deep entanglement, their inside leg controls your thigh deeply, their outside leg is tight over your knee line, and they are actively working heel grips. Deep entanglement requires accepting turtle or counter-entanglement rather than forcing extraction, which would worsen heel exposure during the struggle.",
         "safety_critical": false,
-        "answer_line": "Deep thigh/knee control = no force",
+        "answer_line": "Thigh trapped, knee crossed = deep",
         "distractors": {
           "plausible": [
-            "Any grip contact means go deep",
-            "Distance from mat decides depth"
+            "Any hand contact means it's deep",
+            "Deep only once you're inverted"
           ],
           "trap": [
-            "Force extraction if grips feel light"
+            "Rip the leg out while grips set"
           ]
         }
       },
@@ -634,11 +634,11 @@
         "answer_line": "Knee gives no pain warning",
         "distractors": {
           "plausible": [
-            "Tapping late loses less face",
-            "Pain builds gradually like armlocks"
+            "Ligaments stretch before tearing",
+            "The grip loosens as you turn"
           ],
           "trap": [
-            "Wait to feel real pain first"
+            "Ride it out to feel real pain"
           ]
         }
       },
@@ -649,11 +649,11 @@
         "answer_line": "When control's too deep to pull out",
         "distractors": {
           "plausible": [
-            "Only after five clean escapes",
-            "Never, always fight extraction"
+            "After five seconds of progress",
+            "Only once both heels are trapped"
           ],
           "trap": [
-            "Keep yanking the leg free"
+            "Rip the leg free and hope"
           ]
         }
       },

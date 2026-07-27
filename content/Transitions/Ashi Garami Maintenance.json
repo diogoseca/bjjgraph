@@ -269,52 +269,52 @@
         "distractors": {
           "plausible": [
             "Pull straight back against the stand",
-            "Release grips, re-shoot entry"
+            "Release grips and re-shoot entry"
           ],
           "trap": [
-            "Let go and stand up with them"
+            "Lie flat and pull with the arms"
           ]
         }
       },
       {
         "question": "What grip configuration provides the strongest upper body connection for maintaining Ashi Garami control?",
         "answer": "A two-on-one grip controlling the opponent's ankle with one hand and heel cord with the other provides the strongest upper body connection. The bottom hand cups the heel to prevent rotation while the top hand controls the ankle to prevent extension. This double grip creates redundancy so losing one grip does not immediately compromise the entire control chain.",
-        "answer_line": "Two-on-one: ankle + heel cord",
+        "answer_line": "Two-on-one: ankle and heel cord",
         "distractors": {
           "plausible": [
             "Single ankle grip, free hand posts",
-            "Grip pants cuff, not the foot"
+            "Grip the pant cuff, not the foot"
           ],
           "trap": [
-            "Grab behind opponent's knee"
+            "Let go and post both hands"
           ]
         }
       },
       {
         "question": "When should you prioritize re-hooking versus advancing to a superior position during maintenance?",
         "answer": "Re-hooking takes priority whenever you have lost your inside leg hook or when the opponent has cleared more than one connection point simultaneously. Advancing should only occur when all primary connections are stable and you have inside space dominance. Attempting advancement with compromised connections typically results in losing the position entirely rather than improving it.",
-        "answer_line": "Re-hook when a hook is lost",
+        "answer_line": "Re-hook first when a hook is lost",
         "distractors": {
           "plausible": [
-            "Advance immediately for finish",
-            "Push pace regardless of grips"
+            "Advance once one grip returns",
+            "Trade hooks for a deeper grip"
           ],
           "trap": [
-            "Advance with compromised hooks"
+            "Abandon hooks to chase the heel"
           ]
         }
       },
       {
         "question": "What is the primary mechanical principle behind inside space control in Ashi Garami maintenance?",
         "answer": "Inside space control works by positioning your inside knee and hip to block the opponent's leg from pummeling inside your control configuration. This wedge denies the opponent the angle needed to rotate their knee inward, which would allow them to strip the outside hook and begin systematic extraction through the primary clearing vector.",
-        "answer_line": "Knee/hip wedge blocks pummel",
+        "answer_line": "Inside knee and hip wedge the pummel",
         "distractors": {
           "plausible": [
-            "Squeeze knees together only",
-            "Flatten hips to the mat"
+            "Knee squeeze alone stops entry",
+            "Flatten hips flat to the mat"
           ],
           "trap": [
-            "Let knee drift outward"
+            "Open the knee line and sit up"
           ]
         }
       },
@@ -323,11 +323,11 @@
         "answer": "Counter the knee push by driving your inside knee back to their centerline while pulling their trapped leg tighter with your grips. Make the pull with your upper body grips, and if the push partially succeeds, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push.",
         "distractors": {
           "plausible": [
-            "Push back with pure knee strength",
-            "Release grips to reset base"
+            "Fight the push with knee strength",
+            "Release grips to rebuild base"
           ],
           "trap": [
-            "Let the knee push through"
+            "Turn away and give up your back"
           ]
         },
         "answer_line": "Drive knee back, pull grips tight"
@@ -337,11 +337,11 @@
         "answer": "Passive maintenance holds static hooks and grips, while active maintenance makes continuous micro-adjustments before connections fail. Passive reliance on static hook placement and grip tension leads to gradual degradation of control as the opponent systematically clears connections. Active maintenance — hip following, grip transitions, and preventive re-hooking before connections fail — creates cumulative fatigue in the defender.",
         "distractors": {
           "plausible": [
-            "Passive: hold hooks statically",
-            "Active means bigger, harder squeezes"
+            "Active: heavier squeeze pressure",
+            "Passive: switching grips often"
           ],
           "trap": [
-            "Relax grips between exchanges"
+            "Hold static and chase the heel"
           ]
         },
         "answer_line": "Active: constant micro-adjust"
@@ -349,14 +349,14 @@
       {
         "question": "How does upper body posture affect your ability to maintain Ashi Garami from bottom position?",
         "answer": "Maintaining an elevated posture on elbows or in a seated position provides significantly better control than lying flat. The elevated posture enables pulling the opponent's leg toward you, following their hip movement by scooting, and creating the angle needed for grip transitions. Flat positioning eliminates pulling leverage and makes hip following nearly impossible against a standing opponent.",
-        "answer_line": "Elevated posture, elbows/seated",
+        "answer_line": "Up on elbows or seated",
         "distractors": {
           "plausible": [
-            "Flat back for max hip mobility",
-            "Elevated posture, flat legs"
+            "Flat back for free hip movement",
+            "Chest to the mat, chin tucked"
           ],
           "trap": [
-            "Lie completely flat, arms down"
+            "Lie flat with arms at your sides"
           ]
         }
       },
@@ -380,10 +380,10 @@
         "distractors": {
           "plausible": [
             "Squeeze straight down only",
-            "Push knees apart to reset"
+            "Lean back and pull with arms"
           ],
           "trap": [
-            "Release clamp to re-angle"
+            "Straighten legs, concede the pass"
           ]
         },
         "answer_line": "Pinch knees in, pull to center"
@@ -509,11 +509,11 @@
       {
         "question": "Why is explosive ripping considered a poor defensive strategy against maintained Ashi Garami?",
         "answer": "Explosive ripping creates rotation through the knee joint that exposes the heel to hook grips, actually making the opponent's finishing position stronger. The violent movement also disrupts your own base, making it easier for the opponent to follow your momentum and re-establish any connections lost during the rip. Systematic mechanical clearing maintains heel protection throughout the entire extraction process.",
-        "answer_line": "Rip exposes heel to hooks",
+        "answer_line": "Ripping exposes the heel",
         "distractors": {
           "plausible": [
-            "Ripping wastes too much energy",
-            "Ripping is fine, just risky"
+            "Ripping burns too much energy",
+            "Ripping is too slow to work"
           ],
           "trap": [
             "Rip explosively to break grips"
@@ -537,14 +537,14 @@
       {
         "question": "When is the optimal timing window to attempt extraction from Ashi Garami?",
         "answer": "The optimal extraction window occurs during the opponent's grip transitions when they release one upper body grip to adjust or advance to a different control configuration. These transitional moments create brief gaps in the connection chain where one fewer control point is active. Recognizing and acting during these windows significantly increases extraction success compared to attempting escape against fully established control.",
-        "answer_line": "During opponent's grip transitions",
+        "answer_line": "During their grip transitions",
         "distractors": {
           "plausible": [
-            "Right when hooks first land",
-            "After they fully lock in"
+            "After they settle all grips",
+            "When they switch to a collar tie"
           ],
           "trap": [
-            "Wait for their finishing attempt"
+            "Wait for the finishing attempt"
           ]
         }
       },
@@ -554,8 +554,8 @@
         "answer_line": "Protect heel, rebuild outside space",
         "distractors": {
           "plausible": [
-            "Keep clearing with same sequence",
-            "Speed up the same extraction"
+            "Sit up and grip their collar",
+            "Straighten both legs and wait"
           ],
           "trap": [
             "Rip the leg free immediately"

@@ -457,7 +457,7 @@
         "distractors": {
           "plausible": [
             "Achilles and hamstring",
-            "Hip and lower back"
+            "Calf muscle and shin bone"
           ],
           "trap": [
             "Toes and metatarsals only"
@@ -531,11 +531,11 @@
         "answer_line": "Clamp knees, drive hips forward",
         "distractors": {
           "plausible": [
-            "Release figure-four to fight leg",
-            "Pull away to reset angle"
+            "Bench-press their hip away",
+            "Scoot back to reset distance"
           ],
           "trap": [
-            "Abandon grip, chase the leg"
+            "Drop grip, chase the free leg"
           ]
         }
       },
@@ -558,14 +558,14 @@
         "question": "Your opponent has their knee fully extended and straight - why is this position suboptimal for finishing the toe hold and how do you correct it?",
         "answer": "A fully extended knee removes tension from the MCL, significantly reducing the submission's effectiveness since the rotational component cannot properly load the knee ligament. Additionally, a straight leg is easier to retract and extract from your entanglement. To correct this, use your leg entanglement to bend their knee by pulling their foot toward you while your legs clamp tighter around their thigh. Position your hips closer to their hip, which naturally forces knee flexion. A 15-30 degree knee bend is optimal - this loads the MCL when you apply rotation while maintaining your positional control over their leg.",
         "safety_critical": false,
-        "answer_line": "Bend knee 15-30 degrees to load MCL",
+        "answer_line": "Bend knee 15-30 degrees, load MCL",
         "distractors": {
           "plausible": [
-            "Keep leg straight, pull harder",
-            "Extend knee further for leverage"
+            "Pull harder on straight leg",
+            "Wait for them to bend it"
           ],
           "trap": [
-            "Yank leg straight for finish"
+            "Crank the twist, they escape"
           ]
         }
       },
@@ -573,14 +573,14 @@
         "question": "In competition when you need to finish quickly, what adjustment increases finishing speed while maintaining control?",
         "answer": "In competition, accelerate the finish by establishing all control points simultaneously rather than sequentially. Enter with hip connection already tight, begin grip fighting while your legs are still securing position, and start the heel pull immediately upon establishing the figure-four. The rotation can be faster (2-3 seconds rather than 5-7) but must still be smooth - never jerky. The key acceleration comes from eliminating dead time between steps, not from applying pressure faster. Maintain constant forward hip drive throughout to prevent any space from developing. Your posture should remain high so you can drive body weight through the submission if needed.",
         "safety_critical": false,
-        "answer_line": "Establish control points at once",
+        "answer_line": "Set all control points at once",
         "distractors": {
           "plausible": [
-            "Apply rotation as fast as possible",
-            "Skip hip connection to save time"
+            "Skip hip connection to save time",
+            "Grip fight before securing legs"
           ],
           "trap": [
-            "Jerk pressure for quick tap"
+            "Snap the finish, lose the grip"
           ]
         }
       },
@@ -621,11 +621,11 @@
         "answer_line": "Keep leg control, switch grip",
         "distractors": {
           "plausible": [
-            "Release legs, reset from scratch",
-            "Chase the foot with both hands"
+            "Chase the foot with both hands",
+            "Stand up to pass their guard"
           ],
           "trap": [
-            "Let go entirely, re-shoot entry"
+            "Let go, they pass your legs"
           ]
         }
       }
@@ -786,14 +786,14 @@
         "question": "Why is it critical to roll in the correct direction when escaping the toe hold?",
         "answer": "The toe hold applies medial rotation to the foot, twisting it inward toward your other leg. Rolling in the same direction as the rotation (the direction your foot is being twisted) relieves the rotational pressure on your ankle ligaments. Rolling in the opposite direction amplifies the torque and can cause immediate ligament damage. Before attempting a rolling escape, you must identify the direction of the rotational force and ensure you roll with it, not against it.",
         "safety_critical": true,
-        "answer_line": "Roll with rotation, not against",
+        "answer_line": "Roll with the rotation, not against",
         "distractors": {
           "plausible": [
             "Roll toward your dominant side",
-            "Roll away from the pressure"
+            "Pick a side and commit fast"
           ],
           "trap": [
-            "Roll opposite to power out"
+            "Roll against the twist to escape"
           ]
         }
       },
@@ -804,11 +804,11 @@
         "answer_line": "Extract leg from entanglement",
         "distractors": {
           "plausible": [
-            "Relax, threat is over",
-            "Attack their arms immediately"
+            "Attack their arms immediately",
+            "Sit up and grab their collar"
           ],
           "trap": [
-            "Stay still, they'll re-grip"
+            "Relax, let them re-attack"
           ]
         }
       },
@@ -846,11 +846,11 @@
         "question": "The attacker has the figure-four locked and has begun pulling your heel - is it safe to attempt an explosive roll to escape, and why or why not?",
         "answer": "No, explosive movement is extremely dangerous once the figure-four is locked and heel pull has begun. An explosive roll under these conditions can actually accelerate the rotational force on your ankle and MCL because your body rotation adds to the attacker's rotational vector. Instead, move slowly and deliberately: first attempt to strip the figure-four grip using your hands, then create distance with your free leg posting on their hip. If the attacker has begun medial (inward) rotation of your toe toward your centerline in addition to the heel pull, the safest option is to tap immediately rather than attempting any dynamic escape. The narrow margin between discomfort and structural damage makes controlled, methodical defense essential.",
         "safety_critical": true,
-        "answer_line": "No—move slow, strip or tap",
+        "answer_line": "No—strip the grip or tap",
         "distractors": {
           "plausible": [
-            "Yes, explosive roll escapes it",
-            "Roll fast before rotation starts"
+            "Kick the free leg to break grip",
+            "Point your toes to ease it"
           ],
           "trap": [
             "Explode out with full force"
@@ -880,7 +880,7 @@
         "distractors": {
           "plausible": [
             "Push harder on same hip spot",
-            "Give up posting, hand fight only"
+            "Drop the post to their thigh"
           ],
           "trap": [
             "Stop moving, let them control"

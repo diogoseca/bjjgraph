@@ -286,14 +286,14 @@
       {
         "question": "You have locked the triangle from mount but the opponent is not tapping. What is the most likely mechanical error?",
         "answer": "The most likely error is squeezing straight-on without adjusting your hip angle. A triangle locked with hips parallel to the opponent compresses the trachea (an airway choke that is painful but survivable) rather than the carotid arteries (a blood choke that causes unconsciousness). Rotate your hips 30-45 degrees perpendicular to the opponent so your inner thighs compress across both carotid arteries. Also ensure you are pulling the opponent's head down to eliminate defensive space.",
-        "answer_line": "Rotate hips 30-45 degrees",
+        "answer_line": "Hips squared on, crushing windpipe",
         "distractors": {
           "plausible": [
-            "Squeeze harder straight-on",
-            "Pull head straight up"
+            "Not squeezing knees hard enough",
+            "Wrong leg locked over the neck"
           ],
           "trap": [
-            "Release grip, reset squeeze"
+            "Sit up tall to tighten the choke"
           ]
         }
       },

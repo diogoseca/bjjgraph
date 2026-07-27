@@ -230,11 +230,11 @@
         "answer_line": "Rotate shoulder via hip drive",
         "distractors": {
           "plausible": [
-            "Squeeze arm like an armbar",
-            "Choke opponent unconscious"
+            "Isolate the arm for an armbar",
+            "Off-balance them into a sweep"
           ],
           "trap": [
-            "Crank elbow for hyperextension"
+            "Release the legs to crank the arm"
           ]
         }
       },
@@ -244,11 +244,11 @@
         "answer_line": "Slow forward-down hip drive",
         "distractors": {
           "plausible": [
-            "Fast explosive hip thrust",
-            "Hip escape to create angle"
+            "Bridge the hips straight upward",
+            "Rotate hips like an omoplata"
           ],
           "trap": [
-            "Yank the arm backward hard"
+            "Explosive thrust into the shoulder"
           ]
         }
       },
@@ -325,14 +325,14 @@
       {
         "question": "What is the optimal timing window for applying maximum pressure?",
         "answer": "Apply maximum pressure only after confirming tight leg entanglement, stable posted leg base, and opponent's defensive movements have been neutralized. The pressure buildup should occur over 3-5 seconds minimum to allow safe tap recognition. Never apply explosive pressure.",
-        "answer_line": "Apply after entanglement is set",
+        "answer_line": "Only after control is fully set",
         "distractors": {
           "plausible": [
-            "As soon as arm is trapped",
-            "Right after base is posted"
+            "The instant the arm is trapped",
+            "Once you feel their weight shift"
           ],
           "trap": [
-            "Apply pressure explosively fast"
+            "Crank hard the moment they move"
           ]
         }
       },
@@ -493,11 +493,11 @@
         "answer_line": "Roll toward the trapped arm",
         "distractors": {
           "plausible": [
-            "Roll away from trapped arm",
-            "Post and posture upward"
+            "Post the free hand and sit up",
+            "Bridge the hips straight upward"
           ],
           "trap": [
-            "Yank the trapped arm free"
+            "Turn away and try to stand up"
           ]
         }
       },
@@ -507,11 +507,11 @@
         "answer_line": "At first sharp shoulder pain",
         "distractors": {
           "plausible": [
-            "Only after full extension",
-            "When escape looks impossible"
+            "After two failed escape tries",
+            "Once your grip is stripped"
           ],
           "trap": [
-            "Fight through the pain"
+            "Wait for full arm extension"
           ]
         }
       },
@@ -532,14 +532,14 @@
       {
         "question": "What makes the Aoki Lock defense different from defending a standard omoplata?",
         "answer": "The Aoki Lock uses bilateral leg entanglement around the shoulder rather than a single leg controlling the arm, making arm extraction significantly harder. The attacker's control comes from their entire lower body rather than hip positioning alone, and the pressure direction is driven by hip drive rather than hip rotation. This means traditional omoplata defenses like posturing up or rolling forward are less effective and may increase injury risk.",
-        "answer_line": "Bilateral legs, not single leg",
+        "answer_line": "Both legs trap the shoulder",
         "distractors": {
           "plausible": [
-            "Same escapes as omoplata",
-            "Hip position controls the arm"
+            "Pressure comes from hip rotation",
+            "One leg controls the arm"
           ],
           "trap": [
-            "Posture up like omoplata escape"
+            "Posture up to break the lock"
           ]
         }
       }

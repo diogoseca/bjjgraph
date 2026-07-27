@@ -286,7 +286,7 @@
             "Wrist joint compression"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank the neck to finish faster"
           ]
         }
       },
@@ -309,14 +309,14 @@
         "question": "What is the point of no escape for the opponent during the omoplata from inverted guard?",
         "answer": "The point of no escape occurs when you have achieved perpendicular positioning with hip control established and your hips scooted tight against the opponent's shoulder. Once the hip control grip prevents their forward roll and your body weight is loaded onto the trapped arm with no space between your hips and their shoulder, the only remaining option is to tap. Before this point, they can still roll forward, posture, or strip grips to escape.",
         "safety_critical": false,
-        "answer_line": "Hips flush against shoulder",
+        "answer_line": "Hips flush against their shoulder",
         "distractors": {
           "plausible": [
-            "Leg thread fully locked",
-            "Opponent's arm fully extended"
+            "Leg clamp locked tight",
+            "Their arm pulled straight"
           ],
           "trap": [
-            "As soon as you start rotating"
+            "Ease off once rotation starts"
           ]
         }
       },
@@ -324,14 +324,14 @@
         "question": "What are the key safety considerations when applying the omoplata from inverted guard?",
         "answer": "Apply finishing pressure slowly over 4-6 seconds minimum with progressive loading. Never jerk or spike the shoulder rotation. Always maintain awareness of tap signals including verbal taps, physical taps on your body or the mat, and any distress sounds. If the opponent attempts to roll forward, release immediately as continuing pressure during a roll creates severe shoulder injury risk. In training, never apply competition-level speed or intensity on the finish.",
         "safety_critical": true,
-        "answer_line": "Apply pressure slow, 4-6 sec",
+        "answer_line": "Load pressure slowly, 4-6 sec",
         "distractors": {
           "plausible": [
-            "Watch only verbal taps",
-            "Full speed like competition"
+            "Stop only at a hand tap",
+            "Tighten the leg clamp first"
           ],
           "trap": [
-            "Finish fast before they roll"
+            "Crank through their forward roll"
           ]
         }
       },
@@ -339,14 +339,14 @@
         "question": "How should you release the omoplata from inverted guard after a tap?",
         "answer": "Immediately stop all forward pressure on the trapped arm and cease hip rotation. Release the leg clamp by separating your knees and lifting your top leg off the opponent's shoulder. Unwind your hip position back to neutral. Allow the opponent to extract their arm at their own pace without rushing or pulling it free, as the shoulder may be compromised. Check with your partner about any pain or injury before resuming training.",
         "safety_critical": true,
-        "answer_line": "Stop pressure, release slowly",
+        "answer_line": "Cease pressure immediately",
         "distractors": {
           "plausible": [
-            "Release leg clamp first",
-            "Unwind hips before legs"
+            "Unwind hips before the legs",
+            "Kick the top leg over and stand"
           ],
           "trap": [
-            "Pull their arm free for them"
+            "Yank their arm out for them"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Uses rotational momentum, faster",
         "distractors": {
           "plausible": [
-            "Same angle, slower control",
-            "Requires stable base first"
+            "Leg threads from the side",
+            "Needs a static closed guard"
           ],
           "trap": [
-            "Ignore base, force straight in"
+            "Stall inverted and get flattened"
           ]
         }
       },
@@ -387,11 +387,11 @@
         "answer_line": "Defense opens triangle or sweep",
         "distractors": {
           "plausible": [
-            "Always finish arm regardless",
-            "Switch to armbar attack"
+            "Keep cranking the same arm",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Let go and reset guard"
+            "Uninvert and give up your back"
           ]
         }
       },
@@ -402,11 +402,11 @@
         "answer_line": "Space between hips and shoulder",
         "distractors": {
           "plausible": [
-            "Not pinching knees enough",
-            "Leaning too far backward"
+            "Knees not pinched tight enough",
+            "Gripping the wrong sleeve"
           ],
           "trap": [
-            "Cranking arm without hip control"
+            "Let go of hips to grab the arm"
           ]
         }
       },
@@ -542,11 +542,11 @@
         "question": "What is the safest way to tap to the omoplata from inverted guard?",
         "answer": "Tap clearly and repeatedly using your free hand on the opponent's body, the mat, or your own body. Verbal taps are equally valid and should be used if your free hand is trapped. Tap early when you feel the shoulder reaching its rotational limit rather than waiting for pain, as the shoulder joint can sustain damage before significant pain registers. If you cannot tap with your hands, tap with your feet or verbalize loudly.",
         "safety_critical": true,
-        "answer_line": "Tap early, hand mat or verbal",
+        "answer_line": "Tap early, clearly, or verbally",
         "distractors": {
           "plausible": [
-            "Wait for pain before tapping",
-            "Tap only with free hand"
+            "Slap the mat once, quietly",
+            "Use your free hand only"
           ],
           "trap": [
             "Try to power out instead"
@@ -561,7 +561,7 @@
         "distractors": {
           "plausible": [
             "Always try to roll out",
-            "Wait and hope they stop"
+            "Grab your own lapel and stall"
           ],
           "trap": [
             "Force roll after hip control"
@@ -590,11 +590,11 @@
         "answer_line": "Elbows tight, upright, base back",
         "distractors": {
           "plausible": [
-            "Reach deep to control legs",
-            "Lean forward to pass"
+            "Grip both pant cuffs low",
+            "Head-down pressure on their chest"
           ],
           "trap": [
-            "Extend arms to grip aggressively"
+            "Reach a deep collar grip inside"
           ]
         }
       }

@@ -444,7 +444,7 @@
         "answer_line": "Whizzer or re-pummel, widen base",
         "distractors": {
           "plausible": [
-            "Sprawl and drop your level",
+            "Break their grip with both hands",
             "Match their pressure head-on"
           ],
           "trap": [
@@ -881,7 +881,7 @@
         "answer_line": "55% rear foot, knees bent",
         "distractors": {
           "plausible": [
-            "Weight forward to control tie",
+            "Split your weight fifty-fifty",
             "Stand tall, weight centered"
           ],
           "trap": [
@@ -906,14 +906,14 @@
       {
         "question": "What are the three most common attacks your opponent will attempt from a dominant clinch, and how do you prioritize defending them?",
         "answer": "The three primary threats from dominant clinch are: (1) snap down to front headlock—defended by maintaining strong upright posture, active grip stripping, and keeping your chin level rather than allowing your head to be pulled down; (2) level change to takedown such as single or double leg—defended by keeping weight slightly back, maintaining active hand position at chest height ready to frame, and training automatic sprawl reaction to level changes; (3) body lock establishment—defended by keeping elbows tight to your body and pummeling aggressively to deny the grip lock. Prioritize posture maintenance above all else, because broken posture makes defending all three attacks exponentially harder.",
-        "answer_line": "Maintain posture above all",
+        "answer_line": "Posture first, then frame the shot",
         "distractors": {
           "plausible": [
-            "Prioritize grip fighting first",
-            "Focus on hand fighting only"
+            "Counter with your own snap down",
+            "Circle away to reset distance"
           ],
           "trap": [
-            "Let head drop, brace with arms"
+            "Drop your head and post on arms"
           ]
         }
       },
@@ -1030,11 +1030,11 @@
       "answer_line": "Controls posture and leverage",
       "distractors": {
         "plausible": [
-          "Controls vision, not posture",
-          "Only affects grip strength"
+          "Blocks vision more than balance",
+          "Mainly wears down their neck"
         ],
         "trap": [
-          "Only matters after underhooks"
+          "Ignore it till grips are won"
         ]
       }
     },
@@ -1104,7 +1104,7 @@
           "Scores points on its own"
         ],
         "trap": [
-          "Stall in place to run the clock"
+          "Hang on it to rest and recover"
         ]
       }
     },

@@ -307,10 +307,10 @@
         "distractors": {
           "plausible": [
             "Trachea/windpipe compression",
-            "Only near-side carotid"
+            "Only near-side carotid pressure"
           ],
           "trap": [
-            "Squeeze biceps, ignore shoulder"
+            "Crank the neck sideways"
           ]
         }
       },
@@ -348,11 +348,11 @@
         "question": "What are the key safety considerations when applying the Darce Choke, and how fast does unconsciousness occur?",
         "answer": "The Darce Choke compresses both carotid arteries simultaneously, which can cause unconsciousness in as little as 4-6 seconds once the choke is fully locked. Apply pressure progressively over 3-5 seconds to allow tap recognition. Never jerk or spike the choke. Watch for all tap signals including verbal, hand tap, foot tap, and body going limp. Release immediately upon any signal by unclamping hands first, then removing shoulder pressure. If a training partner loses consciousness, place them in recovery position and monitor breathing.",
         "safety_critical": true,
-        "answer_line": "4-6 seconds; apply pressure slowly",
+        "answer_line": "4-6 seconds; build pressure slowly",
         "distractors": {
           "plausible": [
-            "30 seconds; slow onset",
-            "Only verbal tap counts"
+            "20-30 seconds; gradual fade",
+            "Compresses the windpipe, not blood"
           ],
           "trap": [
             "Jerk it tight to finish fast"
@@ -363,14 +363,14 @@
         "question": "How should you release the Darce Choke after your training partner taps?",
         "answer": "Release by first unclamping your hands to break the figure-four grip structure, then removing shoulder pressure from the neck. Extract your choking arm slowly—do not yank it out, as sudden removal can jerk the cervical spine. Allow your partner to recover in a seated or supine position. Monitor them for 30 seconds for signs of dizziness, disorientation, or delayed effects. If unconsciousness occurred at any point, keep their airway clear and seek medical evaluation even if they appear to recover quickly.",
         "safety_critical": true,
-        "answer_line": "Unclamp hands, then release shoulder",
+        "answer_line": "Break the figure-four grip first",
         "distractors": {
           "plausible": [
-            "Yank arm out quickly",
-            "Release shoulder pressure first"
+            "Peel the shoulder off first",
+            "Walk away once they tap"
           ],
           "trap": [
-            "Hold a few seconds after tap"
+            "Squeeze a beat past the tap"
           ]
         }
       },
@@ -382,10 +382,10 @@
         "distractors": {
           "plausible": [
             "Squeeze harder, same angle",
-            "Pull head straight back"
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Force it, ignore position"
+            "Crank the neck to break tuck"
           ]
         }
       },
@@ -396,8 +396,8 @@
         "answer_line": "Hip drop done, elbows pinched",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "Grip feels tight only"
+            "Hands feel locked together",
+            "Your chest is off their back"
           ],
           "trap": [
             "Ease pressure to check grip"
@@ -546,14 +546,14 @@
         "question": "When should you tap to the Darce Choke to ensure safety in training?",
         "answer": "Tap immediately when you feel bilateral carotid compression with no active escape in progress. Specifically, if the attacker has completed the hip drop, locked the figure-four, and begun body extension while your arm remains trapped and you have no frame established, tap without hesitation. Blood chokes can cause unconsciousness in 4-6 seconds from full lock. In training, tap early and tap often—there is no training benefit to losing consciousness, and the positional learning comes from the escape attempts, not from enduring the finish.",
         "safety_critical": true,
-        "answer_line": "Hip drop + lock, no escape route",
+        "answer_line": "Once locked with no frame left",
         "distractors": {
           "plausible": [
-            "Only when vision blurs",
-            "Wait to see if partner stops"
+            "As soon as your arm gets trapped",
+            "Only in competition, not drilling"
           ],
           "trap": [
-            "Try to power through it"
+            "Wait until vision starts to gray"
           ]
         }
       },
@@ -564,11 +564,11 @@
         "answer_line": "Extract arm before hip drop",
         "distractors": {
           "plausible": [
-            "Push away to create space",
-            "Grip fight the hands only"
+            "Grip fight their hands only",
+            "Bridge and try to sit up"
           ],
           "trap": [
-            "Pull away and straighten neck"
+            "Pull head away, extend neck"
           ]
         }
       },
@@ -579,11 +579,11 @@
         "answer_line": "Turn in, tuck chin",
         "distractors": {
           "plausible": [
-            "Push away, extend the neck",
-            "Stay still, wait it out"
+            "Grip fight their hands only",
+            "Stay flat and wait it out"
           ],
           "trap": [
-            "Arch back and posture up"
+            "Arch back, push hips away"
           ]
         }
       }

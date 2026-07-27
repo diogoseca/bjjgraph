@@ -319,11 +319,11 @@
         "answer_line": "3-5 seconds, gradual buildup",
         "distractors": {
           "plausible": [
-            "1-2 seconds is enough",
-            "10+ seconds, very slow"
+            "Under one second, then hold",
+            "Speed matters less than depth"
           ],
           "trap": [
-            "Apply at full competition speed"
+            "Finish at full competition speed"
           ]
         }
       },
@@ -349,11 +349,11 @@
         "answer_line": "Deep grip, even neck compression",
         "distractors": {
           "plausible": [
-            "Partner coughing and gasping",
-            "Forearm crushing the front throat"
+            "Two fingers in, thumb inside",
+            "Their coughing and gasping"
           ],
           "trap": [
-            "Loosen grip to check depth"
+            "Post up to look at your grip"
           ]
         }
       },
@@ -361,14 +361,14 @@
         "question": "You have been applying committed finishing pressure for 6 seconds with no tap - what should you do and why?",
         "answer": "Release the pressure and reset your grips rather than continuing to force the choke. If no tap occurs within 5-6 seconds of committed pressure, the setup is almost certainly incorrect—typically a shallow grip creating an air choke rather than a blood choke, or improper sprawl angle that fails to generate bilateral compression. Continuing to force a poorly positioned choke causes unnecessary tracheal discomfort, wastes energy, and creates injury risk without a realistic chance of finishing. Reset to side control, re-establish crossface control, and either attempt a fresh grip with proper depth or transition to a different submission.",
         "safety_critical": true,
-        "answer_line": "Release and reset the grip",
+        "answer_line": "Release and reset the grips",
         "distractors": {
           "plausible": [
-            "Switch to a different angle",
-            "Wait 10 more seconds"
+            "Assume they have a high tolerance",
+            "Adjust the sprawl angle mid-choke"
           ],
           "trap": [
-            "Force it, they'll tap eventually"
+            "Crank the collar until they tap"
           ]
         }
       },
@@ -391,14 +391,14 @@
         "question": "At what point in the loop choke sequence from side control does escape become nearly impossible for the defender?",
         "answer": "Escape becomes nearly impossible once both grips are established in the loop configuration and the attacker has committed to the sprawl with shoulder pressure driving forward. At this stage, the collar functions as a closed loop around the neck that self-tightens with any movement. The defender's bridging tightens the collar, their turning deepens the grip, and their shrimping stretches the fabric across the neck. The critical threshold is when the attacker's forearm is positioned diagonally across the centerline of the neck with both grips creating opposing tension—at this point, the only realistic option for the defender is to tap immediately.",
         "safety_critical": false,
-        "answer_line": "Both grips set, shoulder driving in",
+        "answer_line": "Both grips set, sprawl committed",
         "distractors": {
           "plausible": [
-            "As soon as any grip is felt",
-            "When they stop bridging entirely"
+            "The instant a collar grip lands",
+            "Only after the legs get trapped"
           ],
           "trap": [
-            "Only once fully unconscious"
+            "Never — you can always bridge out"
           ]
         }
       },
@@ -406,14 +406,14 @@
         "question": "What immediate actions must you take when your training partner taps to the loop choke from side control?",
         "answer": "Upon feeling or hearing a tap, immediately release both collar grips completely and remove all chest and shoulder pressure by disengaging to a neutral position. After release, check your partner's alertness and awareness before continuing training. Allow a minimum of 60 seconds recovery time before resuming. Never hesitate or delay the release, and never question whether the tap was real—all tap signals must be honored instantly without exception. Blood chokes have a very narrow window between discomfort and unconsciousness, making immediate release especially critical for this technique.",
         "safety_critical": true,
-        "answer_line": "Release instantly, check partner",
+        "answer_line": "Release both grips, check partner",
         "distractors": {
           "plausible": [
-            "Ease off slowly over a few seconds",
-            "Confirm the tap was real first"
+            "Let go and roll again at once",
+            "Release only the top hand first"
           ],
           "trap": [
-            "Keep light pressure, ask if okay"
+            "Hold the squeeze until it's verbal"
           ]
         }
       },
@@ -439,11 +439,11 @@
         "answer_line": "Forearm becomes collar seamlessly",
         "distractors": {
           "plausible": [
-            "Grab the far collar with new hand",
-            "Pause pressure, then re-engage"
+            "Because it traps their far arm",
+            "It builds pressure by pausing"
           ],
           "trap": [
-            "Release crossface to grab collar"
+            "Let go of head to reset grip"
           ]
         }
       }
@@ -577,11 +577,11 @@
         "answer_line": "Block the crossface-to-collar slide",
         "distractors": {
           "plausible": [
-            "Defend once the collar is set",
-            "Wait until sprawl pressure starts"
+            "Two-hand frame on their shoulder",
+            "Bridge into them right away"
           ],
           "trap": [
-            "Try to escape after grips lock in"
+            "Turn to your side, expose back"
           ]
         }
       },
@@ -589,14 +589,14 @@
         "question": "When should you tap to the loop choke from side control rather than continue attempting to escape?",
         "answer": "You should tap immediately when you feel bilateral carotid compression with both grips established in the loop configuration and the attacker's sprawl committed to the finish. Once the horizontal sprawl tension is applied with proper grip depth and diagonal vectors, unconsciousness can occur within 8-12 seconds. There is no safe escape window once the choke is fully applied with correct mechanics from side control. The sprawl-based finish creates stretching tension that only increases as you resist. In training, always err on the side of tapping early—the cost of resetting is negligible compared to the risk of losing consciousness.",
         "safety_critical": true,
-        "answer_line": "Tap when both grips lock the choke",
+        "answer_line": "Tap once both grips lock in",
         "distractors": {
           "plausible": [
-            "Wait 8 seconds, then tap",
-            "Frame and shrimp out first"
+            "As soon as any collar grip lands",
+            "Tap only if you can't breathe"
           ],
           "trap": [
-            "Bridge hard to power out"
+            "Ride it out until you feel faint"
           ]
         }
       },
@@ -622,11 +622,11 @@
         "answer_line": "Bridge hard when both hands are up",
         "distractors": {
           "plausible": [
-            "Wait for the choke to fully lock",
-            "Push their head away with hands"
+            "Shrimp slowly toward their legs",
+            "Grip-fight the lapel one-handed"
           ],
           "trap": [
-            "Stay still, conserve energy"
+            "Turn belly-down to hide the neck"
           ]
         }
       },

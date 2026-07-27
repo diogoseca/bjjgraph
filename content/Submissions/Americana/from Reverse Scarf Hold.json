@@ -280,10 +280,10 @@
         "distractors": {
           "plausible": [
             "Elbow hyperextension",
-            "Wrist flexion and pressure"
+            "Wrist flexion under the grip"
           ],
           "trap": [
-            "Elbow joint like an armbar"
+            "Twist the neck to speed the tap"
           ]
         }
       },
@@ -291,14 +291,14 @@
         "question": "What physical indicators tell you the shoulder is approaching its breaking point during the Americana?",
         "answer": "Key indicators include the defender's body tensing significantly as the shoulder reaches end range, involuntary sounds or sharp breathing changes indicating pain response, visible resistance in the wrist arc where further rotation meets hard anatomical limitation, and the defender's shoulder beginning to lift off the mat as the joint reaches maximum external rotation. In training, you must stop well before these indicators and rely on your partner's tap.",
         "safety_critical": true,
-        "answer_line": "Shoulder lifts off mat",
+        "answer_line": "Shoulder starts lifting off the mat",
         "distractors": {
           "plausible": [
-            "Loud tap only, ignore body",
-            "Arm suddenly goes limp"
+            "Their grip suddenly loosens",
+            "Their legs go completely still"
           ],
           "trap": [
-            "Push until you feel a pop"
+            "Keep going until you hear a pop"
           ]
         }
       },
@@ -336,14 +336,14 @@
         "question": "Your opponent starts straightening their trapped arm during your Americana attempt - what adjustment prevents escape?",
         "answer": "When the opponent straightens their arm, immediately transition from the americana grip to a kimura grip by maintaining your figure-four but reversing the rotational direction. The straight arm is actually more vulnerable to the kimura than the bent arm is to the americana. Alternatively, if they extend forcefully, use the momentum to step over their arm into an armbar position. Never fight to re-bend a straightening arm against resistance, as this wastes energy and telegraphs your intention.",
         "safety_critical": false,
-        "answer_line": "Switch to kimura grip",
+        "answer_line": "Switch to a kimura grip",
         "distractors": {
           "plausible": [
-            "Force arm back to bend it",
-            "Abandon and reset position"
+            "Squeeze the figure-four harder",
+            "Let go and reset the position"
           ],
           "trap": [
-            "Muscle through to re-bend arm"
+            "Muscle the arm back into a bend"
           ]
         }
       },
@@ -369,8 +369,8 @@
         "answer_line": "Slow pressure, release on tap",
         "distractors": {
           "plausible": [
-            "Fast pressure, ask if it hurts",
-            "Full pressure, stop if screamed"
+            "Wait for a verbal signal only",
+            "Let the arm fall when finished"
           ],
           "trap": [
             "Jerk quickly to save time"
@@ -507,8 +507,8 @@
         "answer_line": "Far-side release, wrist grab",
         "distractors": {
           "plausible": [
-            "Sudden hip escape attempt",
-            "Increase in chest pressure only"
+            "More chest pressure, no grip change",
+            "Attacker turns to face your legs"
           ],
           "trap": [
             "Ignore it, wrist grabs are safe"
@@ -522,7 +522,7 @@
         "answer_line": "Tap hand or feet, or shout",
         "distractors": {
           "plausible": [
-            "Wait until pain is unbearable",
+            "Wait for the ref to stop it",
             "Try to power out first"
           ],
           "trap": [
@@ -537,8 +537,8 @@
         "answer_line": "Keep elbow tight, grab own belt",
         "distractors": {
           "plausible": [
-            "Bridge explosively right away",
-            "Pull elbow away from body"
+            "Push their face with free hand",
+            "Roll away from the attacker"
           ],
           "trap": [
             "Let go and try to sit up"
@@ -552,8 +552,8 @@
         "answer_line": "Locked grip is nearly unbreakable",
         "distractors": {
           "plausible": [
-            "Escapes work fine at any stage",
-            "Explosive strength beats it late"
+            "Strong bridging breaks it late",
+            "Shoulder pain builds up slowly"
           ],
           "trap": [
             "Save your energy, escape later"
@@ -567,8 +567,8 @@
         "answer_line": "Shout tap, use any limb",
         "distractors": {
           "plausible": [
-            "Stay silent, tap when free",
-            "Push through the sharp pain"
+            "Signal only with your free hand",
+            "Ask them to ease off slowly"
           ],
           "trap": [
             "Wait for partner to notice"

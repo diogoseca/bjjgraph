@@ -324,11 +324,11 @@
         "answer_line": "Pry chin up, or choke over it",
         "distractors": {
           "plausible": [
-            "Wait for opponent to relax",
-            "Pull head back by hair/ears"
+            "Wait for the chin to tire out",
+            "Squeeze harder without adjusting"
           ],
           "trap": [
-            "Let go and reset the grip"
+            "Release arm control to reposition"
           ]
         }
       },
@@ -339,11 +339,11 @@
         "answer_line": "Elbow crook centers on throat",
         "distractors": {
           "plausible": [
-            "Forearm across the windpipe",
-            "Bicep only, no forearm depth"
+            "Bicep only, no forearm depth",
+            "Wrist blade under the jawline"
           ],
           "trap": [
-            "Press hard on the trachea front"
+            "Grind forearm across the windpipe"
           ]
         }
       },
@@ -351,14 +351,14 @@
         "question": "How should you release the Rear Naked Choke from Crucifix immediately upon receiving a tap signal?",
         "answer": "Immediately open the figure-four lock and remove the choking arm from the neck. Release the leg triangle to free the trapped arm. Allow the opponent to return to a neutral position. Monitor their consciousness and breathing for at least 30 seconds after release. If they lost consciousness, keep them in a side-lying recovery position and do not allow them to stand until they are fully alert and responsive. Never hold the choke past the tap for any reason.",
         "safety_critical": true,
-        "answer_line": "Release, free arm, monitor 30s",
+        "answer_line": "Release fully, monitor 30 seconds",
         "distractors": {
           "plausible": [
-            "Release arm, stand them up fast",
-            "Loosen slowly over a few seconds"
+            "Sit them up right away",
+            "Keep legs locked, drop the arm"
           ],
           "trap": [
-            "Hold briefly to confirm the tap"
+            "Hold two seconds to be sure"
           ]
         }
       },
@@ -366,14 +366,14 @@
         "question": "What are the indicators that the choke is properly positioned and will produce a finish?",
         "answer": "Key indicators include the opponent's face rapidly changing color, involuntary body tension followed by progressive relaxation, the opponent's movements becoming slower and less coordinated, and the feeling of arterial pulse against your forearm diminishing. In training, a properly locked choke typically produces a tap within 2-3 seconds. If you are squeezing hard but the opponent shows no distress after 5 seconds, your forearm placement is likely off-center and needs adjustment.",
         "safety_critical": true,
-        "answer_line": "Pulse fades, tap in 2-3 seconds",
+        "answer_line": "Pulse fading, tap within seconds",
         "distractors": {
           "plausible": [
-            "Opponent goes limp all over",
-            "Loud gasping for air"
+            "Loud gasping and coughing sounds",
+            "Face stays its normal color"
           ],
           "trap": [
-            "Squeeze harder if no reaction"
+            "Crank harder when nothing happens"
           ]
         }
       },
@@ -399,11 +399,11 @@
         "answer_line": "Strip hand, or attack that arm",
         "distractors": {
           "plausible": [
-            "Muscle through with more squeeze",
-            "Abandon choke, reset position"
+            "Squeeze harder and force it",
+            "Wait for their grip to tire"
           ],
           "trap": [
-            "Let go of the chin control"
+            "Open the leg triangle to adjust"
           ]
         }
       },
@@ -414,11 +414,11 @@
         "answer_line": "No two-on-one defense possible",
         "distractors": {
           "plausible": [
-            "Just tighter body triangle",
-            "Faster hip positioning only"
+            "Body triangle replaces leg control",
+            "Only the finishing angle differs"
           ],
           "trap": [
-            "Opponent has both hands free"
+            "Free their arm to speed the choke"
           ]
         }
       },
@@ -426,14 +426,14 @@
         "question": "What training speed should you use when drilling this submission and why is it particularly important from crucifix?",
         "answer": "Always drill with slow, progressive application—3-5 seconds minimum to build pressure in training. The RNC from crucifix is particularly dangerous because the opponent has severely limited defensive capacity and the choke can lock fully before they have time to tap. Never use competition speed during drilling. The combination of positional dominance and rapid blood flow restriction means unconsciousness can occur within seconds of a properly locked choke, making controlled and progressive application absolutely essential for partner safety.",
         "safety_critical": true,
-        "answer_line": "Slow, 3-5 seconds minimum",
+        "answer_line": "Slow build, 3-5 seconds minimum",
         "distractors": {
           "plausible": [
-            "Fast to feel real pressure",
-            "Match competition speed"
+            "Light and fast for more reps",
+            "Normal drilling pace, like armbars"
           ],
           "trap": [
-            "Full speed, tap fast if needed"
+            "Snap it on to test their defense"
           ]
         }
       }
@@ -587,11 +587,11 @@
         "answer_line": "Two-on-one grip, turn chin in",
         "distractors": {
           "plausible": [
-            "Push against the far bicep",
-            "Sit up to break the choke"
+            "Bridge and roll to the far side",
+            "Push their head back with a hand"
           ],
           "trap": [
-            "Tap early to avoid the lock"
+            "Turn away from the choking arm"
           ]
         }
       },
@@ -602,11 +602,11 @@
         "answer_line": "Only moment control is reduced",
         "distractors": {
           "plausible": [
-            "Best time to escape the mount",
-            "When opponent tires out most"
+            "Their body triangle opens then",
+            "Their grip strength peaks then"
           ],
           "trap": [
-            "Wait for figure-four to lock first"
+            "Wait until the figure-four locks"
           ]
         }
       }

@@ -266,7 +266,7 @@
             "Rotation only, no lift"
           ],
           "trap": [
-            "Yank with arm strength only"
+            "Muscle it and get your guard passed"
           ]
         }
       },
@@ -336,7 +336,7 @@
             "Pause to secure grips first"
           ],
           "trap": [
-            "Release and stand up to celebrate"
+            "Stand up and let them re-guard"
           ]
         }
       },
@@ -361,7 +361,7 @@
         "distractors": {
           "plausible": [
             "Chase the leg with X-hook",
-            "Switch to standard butterfly"
+            "Pull them into closed guard"
           ],
           "trap": [
             "Release ankle grip to reset"

@@ -312,14 +312,14 @@
       {
         "question": "Your opponent successfully defends the drag by pummeling an underhook - what chain attack do you execute?",
         "answer": "Use their pummel momentum against them by immediately switching to a duck under on the opposite side. As they drive the underhook in, they momentarily commit weight forward and expose the far side. Alternatively, convert to a snap down by pulling their head downward while their arms are busy pummeling, or switch to a single leg entry underneath their newly committed underhook.",
-        "answer_line": "Duck under to the open side",
+        "answer_line": "Duck under on the opposite side",
         "distractors": {
           "plausible": [
-            "Fight to break the underhook",
-            "Re-attempt drag same side"
+            "Fight to re-pummel the underhook",
+            "Shoot a double leg into pressure"
           ],
           "trap": [
-            "Circle away from the underhook"
+            "Turn away and give up the back"
           ]
         }
       },

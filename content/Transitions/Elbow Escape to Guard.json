@@ -228,7 +228,7 @@
             "Reverse into top position"
           ],
           "trap": [
-            "Fight grips for the tap"
+            "Stay flat and defend the choke"
           ]
         }
       },
@@ -241,7 +241,7 @@
             "Bottom of rear naked choke"
           ],
           "trap": [
-            "Top of turtle position"
+            "Wait until the choke is locked"
           ]
         },
         "answer_line": "Bottom of buggy choke"
@@ -279,11 +279,11 @@
         "answer": "Escaping the hips diagonally creates significantly more space because it moves you off the opponent's centerline, where they cannot simply follow you. A straight backward escape lets the opponent maintain the same angle and connection. The diagonal angle also naturally positions your knee for insertion and sets up proper open guard structure facing the opponent.",
         "distractors": {
           "plausible": [
-            "Creates one big single shrimp",
-            "Keeps hips squared to opponent"
+            "Adds more shrimping power",
+            "Keeps hips square to opponent"
           ],
           "trap": [
-            "Escape straight back for room"
+            "Turn belly-down, give up the back"
           ]
         },
         "answer_line": "Moves off their centerline"
@@ -308,8 +308,8 @@
         "answer_line": "During grip adjustment phase",
         "distractors": {
           "plausible": [
-            "Before arm is even threaded",
-            "After both grips are locked"
+            "Whenever their weight shifts",
+            "Right after they switch sides"
           ],
           "trap": [
             "Wait until pressure fully sets"
@@ -322,8 +322,8 @@
         "answer_line": "First option before back-take",
         "distractors": {
           "plausible": [
-            "Only used after guard passes",
-            "Backup after submission escape"
+            "Last resort after back is taken",
+            "Only works from closed guard"
           ],
           "trap": [
             "Skip straight to back control"
@@ -340,7 +340,7 @@
             "Grip fight instead of escaping"
           ],
           "trap": [
-            "Explode hips first, wedge later"
+            "Yank your head straight out"
           ]
         }
       },
@@ -497,7 +497,7 @@
         "distractors": {
           "plausible": [
             "Sudden burst of hip movement",
-            "Opponent's grip loosening"
+            "Their elbows widening for base"
           ],
           "trap": [
             "Wait for full guard insertion"
@@ -510,11 +510,11 @@
         "answer_line": "Strip wedge, then convert fast",
         "distractors": {
           "plausible": [
-            "Hold same pressure and wait",
-            "Grip fight indefinitely"
+            "Wait for them to tire out",
+            "Switch to a collar choke"
           ],
           "trap": [
-            "Release choke to reset grips"
+            "Roll to your back keeping grip"
           ]
         }
       },
@@ -552,11 +552,11 @@
         "answer_line": "Grab their wrist before collar",
         "distractors": {
           "plausible": [
-            "Strip elbow after collar locks",
-            "Push their arm away broadly"
+            "Strip the wedge after it locks",
+            "Post on their shoulder to flatten"
           ],
           "trap": [
-            "Let collar grip lock, then fight"
+            "Dive both hands in to dig it out"
           ]
         }
       }

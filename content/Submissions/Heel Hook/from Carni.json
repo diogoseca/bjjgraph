@@ -299,14 +299,14 @@
         "question": "What anatomical structures does the heel hook from Carni primarily attack?",
         "answer": "The heel hook attacks the knee's ligamentous structures through controlled rotational force applied via the heel. The primary targets are the ACL (anterior cruciate ligament), MCL (medial collateral ligament), and LCL (lateral collateral ligament). Secondary damage can occur to the meniscus and ankle ligaments. The rotational force travels from the heel through the tibia to the knee joint, making this submission uniquely dangerous because multiple structures are loaded simultaneously.",
         "safety_critical": true,
-        "answer_line": "ACL, MCL, LCL ligaments",
+        "answer_line": "ACL, MCL and LCL knee ligaments",
         "distractors": {
           "plausible": [
             "Meniscus and ankle only",
-            "Just the ACL alone"
+            "Achilles tendon and calf"
           ],
           "trap": [
-            "Hip flexors and spine"
+            "Ankle only, safe to crank hard"
           ]
         }
       },
@@ -329,14 +329,14 @@
         "question": "Your opponent successfully employs boot defense by hiding their heel - what are your two highest-percentage responses?",
         "answer": "First, attempt to peel the boot by wedging your wrist blade deeper behind the Achilles tendon while using your reinforcing hand to pull their toes toward you. If this fails within a few seconds, transition to saddle entry by threading your inside leg deeper across their hip. The saddle's tighter entanglement defeats most boot defenses because it eliminates the space needed to maintain the dorsiflexed ankle position. Continuing to fight the boot for extended periods wastes energy.",
         "safety_critical": false,
-        "answer_line": "Peel boot, then saddle entry",
+        "answer_line": "Peel the boot, then saddle entry",
         "distractors": {
           "plausible": [
-            "Only pull toes toward you",
-            "Jump straight to saddle"
+            "Wait for their grip to tire",
+            "Switch to a toe hold instead"
           ],
           "trap": [
-            "Release and reset position"
+            "Sit up and abandon the leg"
           ]
         }
       },
@@ -374,14 +374,14 @@
         "question": "What is the most common finishing error that causes the heel hook from Carni to fail against experienced opponents?",
         "answer": "The most common finishing error is attempting rotational pressure before establishing the knee clamp. Without the knee line controlled, experienced opponents simply rotate their entire body in the direction of the heel hook, relieving all pressure on the knee ligaments. This is the fundamental difference between catching beginners and finishing on trained grapplers. The correct sequence is always: Carni control, heel grip, knee clamp, body angle, then progressive rotation.",
         "safety_critical": false,
-        "answer_line": "Skips knee clamp before turn",
+        "answer_line": "Turning before the knee clamp",
         "distractors": {
           "plausible": [
-            "Delays the heel grip",
-            "Misjudges body angle"
+            "Gripping the heel too shallow",
+            "Attacking from the wrong side"
           ],
           "trap": [
-            "Muscles through with strength"
+            "Rip the rotation with no control"
           ]
         }
       },
@@ -389,14 +389,14 @@
         "question": "Why must the heel hook be applied slowly in training, and what makes this submission different from joint locks with pain compliance?",
         "answer": "Unlike armbars or kimuras where pain increases proportionally with pressure (giving the defender time to tap before injury), the heel hook attacks ligaments that provide almost no pain warning before catastrophic failure. The knee can feel only mild discomfort while the ACL is already partially torn. This means explosive application can cause career-ending injury before the defender even recognizes they need to tap. Training application must be slow and progressive to give both partners time to assess the position safely.",
         "safety_critical": true,
-        "answer_line": "Little pain warning before injury",
+        "answer_line": "Ligaments give no pain warning",
         "distractors": {
           "plausible": [
-            "Same pain curve as an armbar",
-            "Pain always precedes damage"
+            "Pain always precedes the damage",
+            "Knee ligaments recover quickly"
           ],
           "trap": [
-            "Fast reps build safe reflexes"
+            "Rip it fast to beat the escape"
           ]
         }
       },
@@ -533,14 +533,14 @@
         "question": "How do you recognize that the heel hook from Carni is being set up before the finish is applied?",
         "answer": "Key recognition cues include: the opponent establishing a figure-four around your leg with their inside leg hooking your hip, both hands moving to your heel and ankle area with a two-on-one grip, the opponent angling their hips toward your centerline, and the opponent pinching their knees together above your knee. Early recognition before the grip is deep is critical because defensive options decrease dramatically once all control points are established.",
         "safety_critical": false,
-        "answer_line": "Figure-four + two-on-one grip",
+        "answer_line": "Figure-four plus two-on-one grip",
         "distractors": {
           "plausible": [
-            "Opponent just grabs your foot",
-            "Opponent shoots for takedown"
+            "Hands high on your shin",
+            "Knees splayed wide open"
           ],
           "trap": [
-            "Wait until rotation begins"
+            "Wait until rotation starts"
           ]
         }
       },
@@ -551,8 +551,8 @@
         "answer_line": "Tap at first rotational pressure",
         "distractors": {
           "plausible": [
-            "Tap only when it truly hurts",
-            "Wait for the ref to call it"
+            "Hold on until it truly hurts",
+            "Wait until the heel is fully turned"
           ],
           "trap": [
             "Power out and try to stand"
@@ -578,11 +578,11 @@
         "question": "What defensive options are available against the heel hook from Carni at different stages?",
         "answer": "Early stage (loose control): boot defense plus stacking forward to collapse the entanglement and pass to top. Middle stage (established control but no finish): inside hook clearance with free leg followed by systematic leg extraction while maintaining boot defense. Late stage (heel grip secured with rotational pressure beginning): roll toward the attacker to relieve pressure or tap immediately. The defensive window narrows rapidly once the attacker establishes all control points.",
         "safety_critical": false,
-        "answer_line": "Boot+stack, then clear, then tap",
+        "answer_line": "Boot and stack early, tap late",
         "distractors": {
           "plausible": [
-            "Extract leg before boot defense",
-            "Wait passively for a scramble"
+            "Pull the leg free straight away",
+            "Push their knees apart by hand"
           ],
           "trap": [
             "Roll away from the attacker"
@@ -593,14 +593,14 @@
         "question": "Why is rolling away from the heel hook often a mistake, and when is it appropriate?",
         "answer": "Rolling away from the heel hook is dangerous because it exposes your back to the attacker, who can follow the roll to establish back control or the truck position. The attacker specifically trains to capitalize on this defensive reaction. Rolling is only appropriate when rolling toward the attacker (into the direction of rotational pressure) to relieve force on the knee ligaments as an emergency measure when the submission is partially applied. Even then, you must be prepared for the attacker to follow and attempt a back take.",
         "safety_critical": false,
-        "answer_line": "Exposes back; only roll toward them",
+        "answer_line": "Back exposure; only roll toward them",
         "distractors": {
           "plausible": [
-            "Rolling any direction is safe",
-            "Rolling always beats tapping"
+            "Only safe if you shrimp first",
+            "Safe once the heel slips free"
           ],
           "trap": [
-            "Roll away to escape the grip"
+            "Roll away from the attacker"
           ]
         }
       }

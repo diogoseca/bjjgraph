@@ -348,14 +348,14 @@
       {
         "question": "Your opponent sprawls backward as you drop to your hip - how do you adjust?",
         "answer": "Follow their backward movement while maintaining head control with your choking arm. Use their sprawling momentum to accelerate your own hip drop and leg threading motion. If they sprawl far enough that leg threading becomes impossible, transition immediately to a standing guillotine by coming up with them or snap them back down by driving your weight forward through the head control. Never let them create distance without adapting your attack.",
-        "answer_line": "Follow, keep head control",
+        "answer_line": "Follow them, keep head control",
         "distractors": {
           "plausible": [
-            "Sit to guard, finish the choke",
-            "Post free hand to rebuild base"
+            "Post free hand to rebuild base",
+            "Squeeze harder and lie flat"
           ],
           "trap": [
-            "Turn your back and stand up"
+            "Release the neck and shoot in"
           ]
         }
       },

@@ -304,8 +304,8 @@
         "answer_line": "PCL and MCL via hyperextension",
         "distractors": {
           "plausible": [
-            "ACL and meniscus tear",
-            "Patella and quad tendon"
+            "Rotator cuff tendons",
+            "Cervical spine ligaments"
           ],
           "trap": [
             "Ankle and Achilles tendon"
@@ -424,8 +424,8 @@
         "answer_line": "Follow roll, keep leg triangle",
         "distractors": {
           "plausible": [
-            "Release and re-enter kneebar",
-            "Switch immediately to armbar"
+            "Crank the knee to stop the roll",
+            "Reach up to attack the arm"
           ],
           "trap": [
             "Let go to avoid losing position"
@@ -601,11 +601,11 @@
         "answer_line": "Bend knee before triangle closes",
         "distractors": {
           "plausible": [
-            "Kick their leg away only",
-            "Rotate hips after extension begins"
+            "Push on the attacker's chest",
+            "Grab the attacker's ankle"
           ],
           "trap": [
-            "Stay still and hope to slip out"
+            "Straighten the leg to escape"
           ]
         }
       },
@@ -617,7 +617,7 @@
         "distractors": {
           "plausible": [
             "Protects against heel hook",
-            "Buys time to sit up fully"
+            "It breaks the attacker's grip"
           ],
           "trap": [
             "Push knee straight to resist"

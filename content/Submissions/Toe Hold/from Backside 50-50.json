@@ -291,10 +291,10 @@
         "distractors": {
           "plausible": [
             "Only the achilles tendon",
-            "Knee ligaments primarily"
+            "Mainly the knee ligaments"
           ],
           "trap": [
-            "Grip and twist single toes"
+            "The heel, so crank it hard"
           ]
         }
       },
@@ -350,11 +350,11 @@
         "answer_line": "Re-bend knee or switch to kneebar",
         "distractors": {
           "plausible": [
-            "Force the toe hold through it",
-            "Switch to armbar instead"
+            "Yank the toes for more torque",
+            "Twist your hips away hard"
           ],
           "trap": [
-            "Crank harder to finish fast"
+            "Release the leg and reset"
           ]
         }
       },
@@ -395,11 +395,11 @@
         "answer_line": "Locked grip, 30-40 deg rotation",
         "distractors": {
           "plausible": [
-            "The moment grip is locked",
-            "When opponent stops moving"
+            "As soon as the finish is set",
+            "When they stop struggling"
           ],
           "trap": [
-            "Only when they scream"
+            "After you hear a bone pop"
           ]
         }
       },
@@ -589,10 +589,10 @@
         "distractors": {
           "plausible": [
             "Strip grip after lock-in",
-            "Straighten leg immediately"
+            "Cross ankles to block it"
           ],
           "trap": [
-            "Wait and try to out-muscle it"
+            "Wait and out-muscle the lock"
           ]
         }
       },
@@ -604,7 +604,7 @@
         "distractors": {
           "plausible": [
             "Rotation is easy to escape",
-            "Tapping late is fine, just slow"
+            "Strength beats a locked grip"
           ],
           "trap": [
             "Wait until rotation to react"

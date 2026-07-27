@@ -224,10 +224,10 @@
         "distractors": {
           "plausible": [
             "Wait for them to relax",
-            "Only after crossface locks in"
+            "Hold until crossface locks"
           ],
           "trap": [
-            "Wait until they tire themselves"
+            "Dive across, lose the pin"
           ]
         }
       },
@@ -293,8 +293,8 @@
         "answer_line": "Redirect to knee-on-belly",
         "distractors": {
           "plausible": [
-            "Backstep only, no other option",
-            "Trap the shield knee and pass"
+            "Kick the shield leg away",
+            "Lie flat to smother them"
           ],
           "trap": [
             "Force the knee through shield"
@@ -346,11 +346,11 @@
       {
         "question": "What chain attacks become available if the mount is blocked and you must redirect to knee on belly?",
         "answer": "From knee on belly you can threaten baseball bat choke, armbar, or use the pressure to force a reaction that reopens the mount path. If they push your knee, transition to mount. If they turn away from the pressure, follow to back take. If they stay flat and try to frame, attack the near arm with Americana or kimura. Knee on belly serves as a secondary pressure point that resets the dilemma.",
-        "answer_line": "Read reaction, chain the attack",
+        "answer_line": "Baseball bat choke or armbar",
         "distractors": {
           "plausible": [
-            "Always finish with armbar",
-            "Switch straight to back take"
+            "Only leglocks are open",
+            "Nothing, just hold pressure"
           ],
           "trap": [
             "Abandon position, reset guard"
@@ -481,11 +481,11 @@
         "answer_line": "Frame face, hip escape, knee in",
         "distractors": {
           "plausible": [
-            "Bridge hard before framing",
-            "Turtle up to protect your back"
+            "Bridge hard and muscle up",
+            "Grab their stepping ankle"
           ],
           "trap": [
-            "Push away and stand straight up"
+            "Turn away and turtle up"
           ]
         }
       },

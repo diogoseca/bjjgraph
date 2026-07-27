@@ -326,8 +326,8 @@
         "answer_line": "Test for a gap with free hand",
         "distractors": {
           "plausible": [
-            "Wait for the grip to feel looser",
-            "Judge by opponent's fatigue level"
+            "Judge by opponent's fatigue level",
+            "Go by how long the grip has held"
           ],
           "trap": [
             "Push through despite tunnel vision"

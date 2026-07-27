@@ -264,14 +264,14 @@
       {
         "question": "Your opponent circles away from your collar drag direction instead of allowing the rotation—what are your options?",
         "answer": "When opponent circles away, you have three high-percentage options: First, immediately switch direction and collar drag to the opposite side, using their defensive momentum against them. Second, use their backward/circular movement to snap them down into front headlock position, as their circling creates forward vulnerability. Third, fake completing the original drag while actually transitioning to arm drag, duck-under, or single leg on the side they are circling toward. The key principle is that their defensive movement always opens something else—never fight against their reaction, redirect to attack what they have exposed.",
-        "answer_line": "Snap down or drag the other side",
+        "answer_line": "Snap down or attack the far side",
         "distractors": {
           "plausible": [
-            "Force the original drag through",
-            "Chase them with bigger steps"
+            "Muscle through the same direction",
+            "Stand tall and re-grip the collar"
           ],
           "trap": [
-            "Release grips and reset stance"
+            "Turn your back chasing the grip"
           ]
         }
       },

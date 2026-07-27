@@ -566,14 +566,14 @@
       {
         "question": "What is the critical difference between defending this standing armbar transition versus a grounded armbar from back control?",
         "answer": "The standing transition provides a unique defensive advantage: the attacker must manage balance and momentum during a standing-to-ground movement, which creates structural instability you can exploit. In the grounded version, the attacker has a stable base throughout. Use the standing instability by timing defensive turns or drops to the exact moment the attacker commits to the rotation, when their control is weakest. However, the standing version also carries higher injury risk due to the momentum of the descent.",
-        "answer_line": "Standing attacker must balance",
+        "answer_line": "Exploit his unstable standing base",
         "distractors": {
           "plausible": [
-            "Grounded version is always safer",
-            "Standing defense needs no timing"
+            "Wait until you land to escape",
+            "Stall by gripping your own belt"
           ],
           "trap": [
-            "Ignore balance, defend normally"
+            "Yank the arm out with brute force"
           ]
         }
       }

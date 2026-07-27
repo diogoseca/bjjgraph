@@ -360,11 +360,11 @@
         "answer_line": "Trachea, not carotid arteries",
         "distractors": {
           "plausible": [
-            "Carotid arteries, like RNC",
-            "Trachea and arteries equally"
+            "Carotid arteries, like the RNC",
+            "Vagus nerve pressure point"
           ],
           "trap": [
-            "Jugular vein compression"
+            "Crank the neck sideways to finish"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Shin locked, head trapped, hook set",
         "distractors": {
           "plausible": [
-            "Opponent stops moving at all",
-            "They tap immediately"
+            "Both your hands grip your shin",
+            "Their back is flat on the mat"
           ],
           "trap": [
-            "Wait for them to go limp"
+            "Crank hard until they stop moving"
           ]
         }
       },
@@ -421,10 +421,10 @@
         "distractors": {
           "plausible": [
             "Ease off slowly then release",
-            "Tap for them and continue"
+            "Get help before releasing"
           ],
           "trap": [
-            "Hold briefly to confirm tap"
+            "Hold until you feel a real tap"
           ]
         }
       },
@@ -432,14 +432,14 @@
         "question": "What common finishing error reduces the effectiveness of the shin pressure, and how do you correct it?",
         "answer": "The most common finishing error is placing the soft calf muscle across the throat instead of the hard shin bone. The calf provides much less pressure due to its cushioning effect, allowing opponents to endure and potentially escape. To correct this, focus on rotating your leg so the blade of the shin (the sharp front edge of the tibia) sits directly across the trachea. Your foot should be positioned behind their head or over their opposite shoulder - if the foot is alongside their face, your calf is likely on the throat instead of your shin. You can verify correct placement by feeling the hard bone contact against their neck. Additionally, pulling your toes toward your knee engages the proper muscle structure and rotates the shin into optimal position.",
         "safety_critical": false,
-        "answer_line": "Calf on throat, not shin bone",
+        "answer_line": "Soft calf on throat, not shin",
         "distractors": {
           "plausible": [
-            "Foot positioned too high",
-            "Not pulling head hard enough"
+            "Head pulled at the wrong angle",
+            "Hips not elevated enough"
           ],
           "trap": [
-            "Push knee down for more force"
+            "Straighten the leg for more reach"
           ]
         }
       },
@@ -450,11 +450,11 @@
         "answer_line": "Follow angle, pull chin back",
         "distractors": {
           "plausible": [
-            "Force head back to center",
-            "Release and reset the shin"
+            "Square their head up by force",
+            "Reset the shin and start over"
           ],
           "trap": [
-            "Push down harder on far ear"
+            "Crank the neck sideways for a tap"
           ]
         }
       },
@@ -477,14 +477,14 @@
         "question": "In competition, what finishing adjustments maximize effectiveness while maintaining safe application speed?",
         "answer": "In competition, while the urgency to finish is higher, you should still apply pressure progressively rather than explosively to avoid injuring your opponent. Start with moderate pressure and increase gradually over 3-4 seconds while watching for the tap. The key competitive adjustment is ensuring your control is completely locked before applying finishing pressure - spend the extra half-second confirming your shin placement and head control rather than rushing a sloppy finish. Many competition gogoplatas fail because athletes apply pressure before the position is fully secured. Additionally, you can increase effectiveness by lifting your hips slightly while pulling the head, creating opposing forces that accelerate the tap without requiring explosive pressure application.",
         "safety_critical": true,
-        "answer_line": "Lock control, then apply slow",
+        "answer_line": "Lock control, then squeeze slowly",
         "distractors": {
           "plausible": [
-            "Apply max pressure immediately",
-            "Rush finish before time runs out"
+            "Sacrifice head control for speed",
+            "Switch attacks to save time"
           ],
           "trap": [
-            "Explosive pressure for fast tap"
+            "Explosive pressure for a fast tap"
           ]
         }
       },
@@ -510,11 +510,11 @@
         "answer_line": "No progress in 10-15 seconds",
         "distractors": {
           "plausible": [
-            "Only if tapped by opponent",
-            "Never, always finish the attempt"
+            "Only after they fully stand up",
+            "Quit at the first resistance"
           ],
           "trap": [
-            "Force it through the discomfort"
+            "Grind through your own knee pain"
           ]
         }
       }
@@ -652,14 +652,14 @@
         "question": "What makes the gogoplata uniquely dangerous compared to other choke submissions from a defender's safety perspective?",
         "answer": "The gogoplata attacks the trachea directly with the hard shin bone, creating an air choke that can cause structural damage to the windpipe. Unlike blood chokes (rear naked choke, triangle) that compress the carotid arteries and cause reversible unconsciousness, tracheal compression from the gogoplata can crush or collapse the windpipe, resulting in permanent airway damage requiring surgical repair. This means the defender must tap earlier and more decisively than with blood chokes, as the window between 'uncomfortable' and 'seriously injured' is much narrower. Defenders should never attempt to tough out a locked gogoplata.",
         "safety_critical": true,
-        "answer_line": "Air choke can crush windpipe",
+        "answer_line": "Air choke can crush the windpipe",
         "distractors": {
           "plausible": [
-            "Same escape window as RNC",
-            "Only dangerous if flexible"
+            "Compresses carotids, not airway",
+            "Effects always fully reversible"
           ],
           "trap": [
-            "Tough it out like blood choke"
+            "Ride it out like a blood choke"
           ]
         }
       },
@@ -667,14 +667,14 @@
         "question": "At what point in the gogoplata sequence should a defender escalate their defensive urgency to maximum, and what should they do?",
         "answer": "Maximum defensive urgency should engage the instant you feel a hard bony surface (the shin) making contact with the front of your throat while your posture is broken. At this point, you have seconds before the attacker secures full head control and the choke becomes extremely dangerous. Your immediate response should be to tuck your chin, turn your head toward the attacker's knee, and explosively drive your hips backward while simultaneously fighting their grip on your head with both hands. If these actions do not create immediate space within 2-3 seconds, you should tap rather than continuing to fight a locked tracheal choke.",
         "safety_critical": true,
-        "answer_line": "Shin on throat, posture broken",
+        "answer_line": "Shin hits throat: tuck chin, turn",
         "distractors": {
           "plausible": [
-            "Only when hands secure head",
-            "Wait until breathing stops"
+            "Only once their hands lock",
+            "Once the choke starts hurting"
           ],
           "trap": [
-            "Try to power through with strength"
+            "Bridge away and expose your back"
           ]
         }
       },
@@ -682,14 +682,14 @@
         "question": "Your opponent has established rubber guard and you feel their leg beginning to thread across your face - what is the correct sequence of defensive actions?",
         "answer": "The correct sequence is: First, immediately drive your posture upward and backward using your core and hips, not just your neck. Second, simultaneously use your near-side hand to frame against their hip or leg to create space, preventing the leg from completing its arc across your throat. Third, fight any head control grips with your far-side hand to prevent them from pulling your face into the incoming shin. Fourth, if the leg continues advancing despite your posture recovery attempt, turn your chin strongly toward the direction the leg is coming from to prevent the shin from settling across the front of your trachea. The critical element is speed - every half-second of delay reduces your escape probability significantly.",
         "safety_critical": false,
-        "answer_line": "Posture up, frame, turn chin",
+        "answer_line": "Posture up, frame, strip grips",
         "distractors": {
           "plausible": [
-            "Turn chin first, then posture",
-            "Push knee down to stack"
+            "Pull the shin down with both hands",
+            "Cover your throat with one hand"
           ],
           "trap": [
-            "Relax and wait for opening"
+            "Turn your back to slip out"
           ]
         }
       },

@@ -953,14 +953,14 @@
     {
       "question": "Why is the trapped ankle's remaining rotational range the shared danger signal that governs urgency for both players?",
       "answer": "Because the submission works by twisting the ankle past its natural rotational range, the amount of safe rotation left is the single measure of how close the position is to finishing. As the heel is fixed and the foot torqued, the joint approaches its mechanical limit, and once that range is exhausted the ligaments and Achilles are directly threatened. The controlling player reads this range to know when the lock is consolidated enough that pressure will produce a tap, while the trapped player reads the same range to know when counter-rotation can still buy time versus when tapping is the only safe option. This shared awareness of joint range, rather than raw pain, is what dictates the pace of the exchange for both sides.",
-      "answer_line": "Range left signals tap timing",
+      "answer_line": "Range left shows finish proximity",
       "distractors": {
         "plausible": [
-          "Pain level is the real gauge",
-          "Time elapsed determines danger"
+          "Pain level is the true gauge",
+          "Grip strength sets the urgency"
         ],
         "trap": [
-          "Ignore range, fight through it"
+          "No pain yet means keep fighting"
         ]
       }
     }

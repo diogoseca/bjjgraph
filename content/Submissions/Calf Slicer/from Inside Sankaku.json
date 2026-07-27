@@ -298,7 +298,7 @@
             "ACL and meniscus tissue"
           ],
           "trap": [
-            "Quad and patellar tendon"
+            "Ride it out, slicers are harmless"
           ]
         }
       },
@@ -313,7 +313,7 @@
             "Opponent bridges to escape hips"
           ],
           "trap": [
-            "Release grip to reset position"
+            "Heel hidden, crank rotation anyway"
           ]
         }
       },
@@ -328,7 +328,7 @@
             "Shin low on upper calf"
           ],
           "trap": [
-            "Shin pressed into kneecap"
+            "Crank knee sideways to force tap"
           ]
         }
       },
@@ -339,11 +339,11 @@
         "answer_line": "Apply slow, 5-7 seconds steady",
         "distractors": {
           "plausible": [
-            "As fast as possible for tap",
-            "3-4 seconds is safe enough"
+            "3-4 seconds is safe enough",
+            "Speed is fine if they tap early"
           ],
           "trap": [
-            "Snap it on hard and fast"
+            "Spike hips hard to finish fast"
           ]
         }
       },
@@ -430,10 +430,10 @@
         "distractors": {
           "plausible": [
             "Only tires their grip strength",
-            "Forces stalling for the ref"
+            "Forces them to grip fight harder"
           ],
           "trap": [
-            "Signals you'll finish the heel hook"
+            "Lets you stall out the round"
           ]
         }
       }
@@ -553,7 +553,7 @@
         "distractors": {
           "plausible": [
             "Sudden increase in hip pressure",
-            "Opponent switches base widely"
+            "They tighten the figure-four legs"
           ],
           "trap": [
             "Wait for pain before reacting"
@@ -567,11 +567,11 @@
         "answer_line": "Shin seated, grip set, hips drive",
         "distractors": {
           "plausible": [
-            "Tap at first hint of discomfort",
-            "Wait until you feel a pop"
+            "Tap once they control your foot",
+            "Tap at first hint of discomfort"
           ],
           "trap": [
-            "Try to escape once fully locked"
+            "Rip your leg free once locked"
           ]
         }
       },
@@ -582,8 +582,8 @@
         "answer_line": "Straighten leg, exposes heel hook",
         "distractors": {
           "plausible": [
-            "Retract leg with heel hidden",
-            "Bend the knee to escape"
+            "Bend the knee to escape",
+            "Sit up and grab their collar"
           ],
           "trap": [
             "Roll toward the attacker's hips"
@@ -597,7 +597,7 @@
         "answer_line": "Closer hips increase compression",
         "distractors": {
           "plausible": [
-            "Distance doesn't affect force",
+            "Hip height matters, not distance",
             "Angle only changes grip strength"
           ],
           "trap": [
@@ -612,11 +612,11 @@
         "answer_line": "Sankaku lock prevents leg extraction",
         "distractors": {
           "plausible": [
-            "Only the grip setup is different",
-            "Just faster application speed"
+            "It attacks the knee, not the calf",
+            "Both legs get trapped at once"
           ],
           "trap": [
-            "Easier to escape than others"
+            "Safe to sit in and defend late"
           ]
         }
       }

@@ -291,11 +291,11 @@
         "question": "What is the minimum time you should take when applying finishing pressure in the banana split during training?",
         "answer": "A minimum of 5-7 seconds with slow, progressive pressure application. The banana split targets muscle groups that can tear rapidly if pressure is applied too quickly. Unlike joint locks where you feel structural limits, compression submissions like the banana split create intense muscular pain that requires gradual application to allow safe tapping. Never spike or jerk the pressure.",
         "safety_critical": true,
-        "answer_line": "5-7 seconds, gradual pressure",
+        "answer_line": "5-7 seconds of gradual pressure",
         "distractors": {
           "plausible": [
-            "2-3 seconds is sufficient",
-            "Apply steadily over a minute"
+            "Two seconds, then hold hard",
+            "Speed is fine if they can tap"
           ],
           "trap": [
             "Snap it on hard and fast"
@@ -309,13 +309,13 @@
         "distractors": {
           "plausible": [
             "Knee and ankle ligaments",
-            "Hip flexors and quads"
+            "Hip flexors and quadriceps"
           ],
           "trap": [
-            "Spine and neck vertebrae"
+            "Just pain - safe to ride out"
           ]
         },
-        "answer_line": "Hip adductors and groin"
+        "answer_line": "Hip adductors and groin muscles"
       },
       {
         "question": "Why is staying connected to the opponent's hips essential for successful banana split execution from the truck?",
@@ -324,11 +324,11 @@
         "answer_line": "Prevents opponent rolling out",
         "distractors": {
           "plausible": [
-            "Keeps your balance centered",
+            "Frees your hands for grips",
             "Sets up the choke finish"
           ],
           "trap": [
-            "Release hips to chase leg"
+            "Release hips to chase the leg"
           ]
         }
       },
@@ -336,14 +336,14 @@
         "question": "What should you do immediately upon receiving a tap signal during banana split application?",
         "answer": "Immediately stop all leg splitting pressure and release the leg trap, allowing the opponent's legs to return to a natural position in a controlled manner. Never release explosively as this can cause injury during the release phase. Maintain positional control but remove all stretching force, and allow your partner to assess their condition before continuing. The release should be as controlled and gradual as the application.",
         "safety_critical": true,
-        "answer_line": "Stop instantly, release slowly",
+        "answer_line": "Stop pressure at once, unwind slow",
         "distractors": {
           "plausible": [
-            "Hold position, ease off slow",
-            "Release hips, keep leg trapped"
+            "Keep stretching till they speak",
+            "Free the hips, hold the leg"
           ],
           "trap": [
-            "Release explosively at once"
+            "Fling the legs apart instantly"
           ]
         }
       },
@@ -384,11 +384,11 @@
         "answer_line": "Flexibility varies, adjust pace",
         "distractors": {
           "plausible": [
-            "Apply same speed to everyone",
-            "Only matters for beginners"
+            "Bendy partners tap sooner",
+            "Only your own hips matter"
           ],
           "trap": [
-            "Force max pressure regardless"
+            "Crank max until something gives"
           ]
         }
       },
@@ -398,14 +398,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Let them close, then reset",
-            "Switch immediately to armbar"
+            "Squeeze knees together harder",
+            "Post a hand on the mat"
           ],
           "trap": [
-            "Release far leg to reposition"
+            "Release hip control to re-grip"
           ]
         },
-        "answer_line": "Scoot away, pull far leg"
+        "answer_line": "Scoot away, pull far leg in"
       },
       {
         "question": "What physical indicators suggest you are approaching the submission breaking point and must slow down?",
@@ -413,14 +413,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Only verbal tap counts",
-            "Heavy breathing means fine"
+            "A verbal tap is the only sign",
+            "Loud breathing means all is fine"
           ],
           "trap": [
-            "Push through until they scream"
+            "Crank on until they scream"
           ]
         },
-        "answer_line": "Straining, twitching, then relax"
+        "answer_line": "Straining, twitching, sudden calm"
       },
       {
         "question": "How should you adjust your grip if the opponent's far leg becomes sweaty or slippery during execution?",
@@ -428,8 +428,8 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Grip tighter at the ankle",
-            "Switch to a wrist lock"
+            "Cross your grips at the ankle",
+            "Pinch the foot two-handed"
           ],
           "trap": [
             "Let go and re-shoot the hook"
@@ -459,8 +459,8 @@
         "answer_line": "Opens back take and twister",
         "distractors": {
           "plausible": [
-            "Guarantees a fast tapout",
-            "Tires opponent, nothing else"
+            "Scores points in most rulesets",
+            "Only wears down their grips"
           ],
           "trap": [
             "Abandon truck to chase legs"
@@ -598,14 +598,14 @@
         "question": "Why is it critical to tap early when caught in a banana split rather than fighting through the pressure?",
         "answer": "The banana split targets muscle groups (hip adductors and groin) that have no clear structural stopping point before tissue damage occurs. Unlike a joint lock where you can feel the ligament reaching its limit and have a brief window to tap, the adductors simply tear when overstretched with no warning sensation. The transition from severe discomfort to actual muscle tear can happen in less than a second, making early tapping essential for long-term training health.",
         "safety_critical": true,
-        "answer_line": "Tap early, no warning before tear",
+        "answer_line": "Tap early; no warning before tear",
         "distractors": {
           "plausible": [
-            "Fight through like a joint lock",
-            "Wait for sharp pain to tap"
+            "Adductors warn you like ligaments",
+            "Torn groin is a minor tweak"
           ],
           "trap": [
-            "Push past discomfort to escape"
+            "Grit through and force the escape"
           ]
         }
       },
@@ -613,14 +613,14 @@
         "question": "Your opponent has established the split from the truck and you feel increasing groin pressure - should you attempt the forward roll escape?",
         "answer": "Only attempt the forward roll if you have enough mobility remaining in your legs to execute it without rolling directly against the splitting force. If the split is deeply loaded, the rolling motion can actually increase tearing force on the groin momentarily during the escape. If groin pressure is already significant, the safest option is to tap immediately and reset rather than risk a muscle tear attempting a late escape. Save the forward roll for situations where the split is partially loaded but not yet at dangerous pressure levels.",
         "safety_critical": true,
-        "answer_line": "Only if legs still have mobility",
+        "answer_line": "Only if your legs still move",
         "distractors": {
           "plausible": [
-            "Always roll out immediately",
-            "Wait it out, don't move"
+            "Roll out every time, no exceptions",
+            "Grip his ankle to peel the trap"
           ],
           "trap": [
-            "Force the roll once loaded deep"
+            "Roll hard into a deep split"
           ]
         }
       },
@@ -628,11 +628,11 @@
         "question": "How does squaring your hips back toward the attacker help defend the banana split from the truck?",
         "answer": "Squaring your hips back into the attacker collapses the wedge angle they need to spread your legs. The banana split requires the attacker to extend their twister-hook leg and open the angle between your thighs. Turning your hips back toward them closes that angle, takes tension off your adductors, and reduces the splitting leverage. It also crowds the attacker's space so they cannot keep extending the hook. However, be aware that squaring up can feed the back take or calf slicer if you give up your near-leg position carelessly.",
         "safety_critical": false,
-        "answer_line": "Squares hips, collapses angle",
+        "answer_line": "Kills the wedge angle they need",
         "distractors": {
           "plausible": [
-            "Pulls knee to chest instead",
-            "Pushes attacker's hips away"
+            "Frees your near ankle from hook",
+            "Lets you post both hands wide"
           ],
           "trap": [
             "Turn away exposing your back"

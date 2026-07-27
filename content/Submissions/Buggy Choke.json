@@ -315,7 +315,7 @@
             "Blood choke on one carotid"
           ],
           "trap": [
-            "Joint lock on the neck"
+            "Crank the neck to finish it"
           ]
         }
       },
@@ -326,11 +326,11 @@
         "answer_line": "Pin crossface arm and head first",
         "distractors": {
           "plausible": [
-            "Secure the shin grip first",
-            "Control the far arm first"
+            "Control the far arm first",
+            "Get a deep underhook first"
           ],
           "trap": [
-            "Release head to grab shin"
+            "Give up the head, chase the shin"
           ]
         }
       },
@@ -338,14 +338,14 @@
         "question": "Your opponent's head is trapped and you have just drawn your knee toward your own head with hand on shin — why is this the point of no escape?",
         "answer": "Once the knee is drawn to your head and the hand-to-shin loop is sealed, the opponent's head and their own shoulder are locked inside a closed frame with no slack to spin out, so the carotid compression only tightens as you bridge.",
         "safety_critical": false,
-        "answer_line": "Closed frame seals, no slack to spin",
+        "answer_line": "Head and shoulder locked, no slack",
         "distractors": {
           "plausible": [
-            "Loop is loose but tap is near",
-            "Pressure fades without bridging"
+            "Your shin grip alone holds them",
+            "Their arm is free but tired"
           ],
           "trap": [
-            "They can still bridge free"
+            "Ease off and re-adjust the grip"
           ]
         }
       },
@@ -356,11 +356,11 @@
         "answer_line": "Pull hand to instep, knee closer",
         "distractors": {
           "plausible": [
-            "Push knee away, grip shin lightly",
-            "Slide hand up toward the knee"
+            "Slide hand up toward the knee",
+            "Straighten your leg for leverage"
           ],
           "trap": [
-            "Let go and re-grip the collar"
+            "Release the trapped arm to re-grip"
           ]
         }
       },
@@ -375,7 +375,7 @@
             "Grip slips without gi fabric"
           ],
           "trap": [
-            "Squeeze harder with the elbow"
+            "Extend the arm to reach deeper"
           ]
         }
       },
@@ -383,14 +383,14 @@
         "question": "Your opponent stops fighting and goes quiet a few seconds into the choke — what is happening and what do you do?",
         "answer": "Quietness or going limp can signal the blood choke is working and unconsciousness is near; if there is no tap, maintain control but be ready to release the instant they tap or go fully limp, and never hold past unconsciousness.",
         "safety_critical": true,
-        "answer_line": "Choke working, stay ready to release",
+        "answer_line": "Choke working — release once limp",
         "distractors": {
           "plausible": [
-            "They're bluffing, squeeze harder",
-            "Resting, ease off pressure fully"
+            "They are stalling; ignore it",
+            "Assume resting, loosen the choke"
           ],
           "trap": [
-            "Hold on past unconsciousness"
+            "Keep squeezing after they go out"
           ]
         }
       },
@@ -398,14 +398,14 @@
         "question": "How fast should you apply the Buggy Choke in training, and why?",
         "answer": "Apply it slowly and progressively over at least three to five seconds so your partner feels the compression building and has time to tap; explosive application risks injury and gives no warning window, which is unsafe for a blood choke.",
         "safety_critical": true,
-        "answer_line": "Slowly, 3-5 seconds for tap window",
+        "answer_line": "Slow build over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Fast, so they can't posture out",
-            "Medium speed, matching their pace"
+            "Speed does not matter, only grip",
+            "Any pace; it is a shoulder lock"
           ],
           "trap": [
-            "Explosively, to lock it instantly"
+            "Jerk it on hard with no warning"
           ]
         }
       },
@@ -428,14 +428,14 @@
         "question": "Your opponent extracts the trapped arm and starts to posture before you finish — what is your best follow-up?",
         "answer": "Re-pin the wrist if you can; if the arm is gone, transition to lockdown to break their posture and threaten the Electric Chair, or release to an underhook sweep, keeping constant offensive pressure rather than holding a dead choke.",
         "safety_critical": false,
-        "answer_line": "Re-pin or go lockdown/Electric Chair",
+        "answer_line": "Re-pin, or lockdown to E-chair",
         "distractors": {
           "plausible": [
             "Hold on and wait for a re-grip",
             "Switch immediately to a kimura"
           ],
           "trap": [
-            "Release everything and reset guard"
+            "Turn belly-down under their weight"
           ]
         }
       },
@@ -568,11 +568,11 @@
         "question": "What are the earliest cues that your opponent is setting up a Buggy Choke on you?",
         "answer": "The bottom player chambers their knee up toward their own head, your crossface arm suddenly feels pinned and cannot straighten, and they reach a hand toward their own shin; recognizing these the instant they appear is your best defense.",
         "safety_critical": true,
-        "answer_line": "Their knee chambers up to their head",
+        "answer_line": "Their knee chambers to their head",
         "distractors": {
           "plausible": [
             "Their knee drops toward the mat",
-            "They reach for your near wrist"
+            "They grip your belt and pull down"
           ],
           "trap": [
             "None yet — keep driving weight in"
@@ -586,11 +586,11 @@
         "answer_line": "Keep head up, elbow tight",
         "distractors": {
           "plausible": [
-            "Keep head low, drive forward hard",
-            "Keep elbow wide for base"
+            "Widen your knees for base",
+            "Pull their far collar down"
           ],
           "trap": [
-            "Drop head to flatten their hips"
+            "Drop your head to the mat"
           ]
         }
       },
@@ -620,7 +620,7 @@
             "Slows your pass unnecessarily"
           ],
           "trap": [
-            "Opens a sweep for your opponent"
+            "Nothing — power on through it"
           ]
         }
       },

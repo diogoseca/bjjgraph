@@ -299,11 +299,11 @@
         "answer_line": "Both carotid arteries",
         "distractors": {
           "plausible": [
-            "Only the far carotid",
-            "Trachea and carotids together"
+            "Only the far-side carotid",
+            "Trachea plus the jaw"
           ],
           "trap": [
-            "Windpipe only (air choke)"
+            "Crank the neck for a pain tap"
           ]
         }
       },
@@ -311,14 +311,14 @@
         "question": "Why is cutting the angle to 30-45 degrees essential before applying the finishing squeeze?",
         "answer": "Without the proper angle, the thigh and shin compress the trachea (windpipe) rather than the carotid arteries, creating a slow air choke instead of a fast blood choke. At 30-45 degrees with the choking leg's knee pointing toward the trapped shoulder, the compression geometry aligns with both carotid arteries simultaneously, creating efficient bilateral occlusion that produces a tap far more quickly and reliably.",
         "safety_critical": false,
-        "answer_line": "Knee toward trapped shoulder",
+        "answer_line": "Hits both carotids, not windpipe",
         "distractors": {
           "plausible": [
-            "Stay squared to opponent",
-            "Angle toward the free arm side"
+            "Shortens distance to lock legs",
+            "Stops them from standing up"
           ],
           "trap": [
-            "Just squeeze harder, skip angle"
+            "Stay square and crank the throat"
           ]
         }
       },
@@ -329,11 +329,11 @@
         "answer_line": "Pull head down, hips up",
         "distractors": {
           "plausible": [
-            "Release grip, reset the angle",
-            "Push down on their chest"
+            "Push down on their chest",
+            "Squeeze the legs harder only"
           ],
           "trap": [
-            "Let go and re-guard"
+            "Open legs, let them posture up"
           ]
         }
       },
@@ -341,14 +341,14 @@
         "question": "What role does the opponent's trapped arm play in the finishing mechanics of the triangle choke?",
         "answer": "The trapped arm functions as an internal wedge that amplifies carotid compression from inside the triangle. When pulled diagonally across the opponent's own neck toward the attacker's opposite hip, the forearm presses against the carotid artery on the side not covered by the choking leg's thigh. This means the opponent's own limb contributes to the choking pressure, making the submission significantly tighter without requiring additional leg force.",
         "safety_critical": false,
-        "answer_line": "Wedges into far carotid artery",
+        "answer_line": "Wedges into the far carotid",
         "distractors": {
           "plausible": [
-            "Just controls their posture",
-            "Prevents them from tapping"
+            "Only controls their posture",
+            "Blocks their shoulder turn"
           ],
           "trap": [
-            "Push it away from their neck"
+            "Push their arm out of the lock"
           ]
         }
       },
@@ -371,14 +371,14 @@
         "question": "What are the signs that a training partner is losing consciousness during a triangle choke, and what must you do?",
         "answer": "Signs include sudden loss of resistance or going limp, changes in skin color (face turning red or purple), gurgling sounds, eyes rolling back, or any unusual cessation of defensive movement. You must release the triangle immediately by uncrossing ankles, removing all leg pressure, and releasing grips. Check consciousness and breathing, place them in recovery position if unconscious, elevate their legs, and alert the instructor immediately. Never assume they are still fighting—treat any ambiguous signal as a tap.",
         "safety_critical": true,
-        "answer_line": "Go limp: release immediately",
+        "answer_line": "Limp partner: release at once",
         "distractors": {
           "plausible": [
-            "Tap for them, keep squeezing",
-            "Ease pressure, keep watching"
+            "Shout their name, keep the lock",
+            "Loosen slightly and keep watching"
           ],
           "trap": [
-            "Hold choke to confirm they're out"
+            "Keep the choke to confirm it"
           ]
         }
       },
@@ -416,14 +416,14 @@
         "question": "Why is sustained progressive compression more effective than explosive squeezing for the triangle finish?",
         "answer": "Blood chokes work through sustained arterial occlusion—the carotid arteries must be compressed continuously for 4-8 seconds to produce unconsciousness. Explosive squeezing at maximum force fatigues the leg muscles within 10-15 seconds, after which the squeeze weakens and the opponent can survive the pressure wave. Progressive compression at 70-80% effort can be maintained indefinitely, ensuring continuous arterial occlusion. The opponent cannot outlast a steady squeeze the way they can wait out an explosive burst.",
         "safety_critical": false,
-        "answer_line": "Steady 70-80% squeeze wins",
+        "answer_line": "Steady 70-80% squeeze",
         "distractors": {
           "plausible": [
-            "Max squeeze finishes fastest",
-            "Alternate bursts of pressure"
+            "Squeeze only at the last second",
+            "Tighten only when they move"
           ],
           "trap": [
-            "Go 100% explosive immediately"
+            "Blast 100%, gas out, lose it"
           ]
         }
       },
@@ -560,11 +560,11 @@
         "answer_line": "Recover posture first",
         "distractors": {
           "plausible": [
-            "Pry at the legs first",
+            "Pry the legs apart first",
             "Pull your head out first"
           ],
           "trap": [
-            "Try to stand up immediately"
+            "Turn away, give up your back"
           ]
         }
       },
@@ -572,14 +572,14 @@
         "question": "When should you tap to a triangle choke rather than continuing to defend?",
         "answer": "Tap immediately whenever you feel bilateral neck pressure that you cannot relieve through posture or positioning, when your vision begins to darken or narrow, when you feel lightheaded or disoriented, or when you recognize that the attacker has achieved full angle, arm control, and hip elevation with your posture completely broken. In training, tapping early preserves your safety and allows you to reset and practice the escape from an earlier defensive window. There is no tactical value in losing consciousness.",
         "safety_critical": true,
-        "answer_line": "At first sign you can't clear it",
+        "answer_line": "As soon as pressure won't clear",
         "distractors": {
           "plausible": [
-            "Wait until vision fully goes",
-            "Fight until you almost pass out"
+            "Only after three failed escapes",
+            "Once you feel any leg pressure"
           ],
           "trap": [
-            "Never tap, try to power out"
+            "Push through the greying vision"
           ]
         }
       },
@@ -602,14 +602,14 @@
         "question": "What defensive options become available when the attacker attempts to transition from the triangle to an armbar?",
         "answer": "When the attacker begins swinging their leg over your face for the armbar transition, they must partially open the triangle lock, which creates an escape window. You can pull your head free during the transition, stack your weight forward to prevent the leg from clearing your head, or extract the previously trapped arm as the attacker's grip shifts to control your wrist. The transition moment is often the best escape opportunity because the attacker temporarily sacrifices triangle tightness to change positions.",
         "safety_critical": false,
-        "answer_line": "Pull head free during transition",
+        "answer_line": "Pull head free as they switch",
         "distractors": {
           "plausible": [
-            "Wait for the choke to reset",
-            "Push your legs away instantly"
+            "Hold still until they re-lock",
+            "Grab your own belt and wait"
           ],
           "trap": [
-            "Relax and let the leg pass over"
+            "Relax, let the leg pass over"
           ]
         }
       },
@@ -617,14 +617,14 @@
         "question": "How does the stack defense work against the triangle choke and what is the main risk?",
         "answer": "The stack defense involves driving your weight forward over the attacker, lifting their hips onto their shoulders to compress their body and collapse the choking angle. This forward pressure reduces the space available for the attacker to extend their hips and squeeze. The main risk is that committing your weight forward exposes you to the omoplata transition—the attacker can release the triangle, swing their hips through, and attack your shoulder. To mitigate this, control the attacker's far hip with your free hand while stacking.",
         "safety_critical": false,
-        "answer_line": "Stack forward; risk: omoplata",
+        "answer_line": "Drive weight in; omoplata risk",
         "distractors": {
           "plausible": [
-            "Stack forward, no real risk",
-            "Pull back to escape the angle"
+            "Safe pressure with no downside",
+            "Back away to ease the choke"
           ],
           "trap": [
-            "Stack without hip control"
+            "Turn your back while driving in"
           ]
         }
       }

@@ -246,11 +246,11 @@
         "answer_line": "Forward roll over trapped shoulder",
         "distractors": {
           "plausible": [
-            "They tap before finishing",
-            "They grab your far leg"
+            "They straighten the trapped arm",
+            "They grip your near collar"
           ],
           "trap": [
-            "Wait for the tap first"
+            "Crank the shoulder to force a tap"
           ]
         }
       },
@@ -313,14 +313,14 @@
       {
         "question": "Your opponent successfully turns into you after the roll instead of giving up their back - what are your options?",
         "answer": "If the opponent successfully faces you after the roll, you have several recovery options depending on how much control you retained. If you have an overhook on their formerly trapped arm, pull closed guard with the overhook and immediately threaten triangle or re-enter the omoplata. If you have no grips, establish closed guard and work standard guard attacks. The key is accepting the position change and immediately transitioning to your guard game rather than trying to force the back take.",
-        "answer_line": "Accept it, work guard attacks",
+        "answer_line": "Accept it, play closed guard",
         "distractors": {
           "plausible": [
             "Force the back take anyway",
-            "Scramble back to omoplata"
+            "Bench press to make space"
           ],
           "trap": [
-            "Release all grips and reset"
+            "Let go of grips and flatten"
           ]
         }
       },

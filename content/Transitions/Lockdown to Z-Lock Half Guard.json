@@ -534,14 +534,14 @@
       {
         "question": "How should you adjust your lockdown tension pattern to make the Z-Lock transition as difficult as possible?",
         "answer": "Vary your lockdown tension dynamically rather than maintaining static pressure. Alternate between strong extensions that off-balance the opponent and tight squeezes that prevent knee rotation. The variation in tension makes it impossible for the opponent to time their knee circle because the resistance pattern keeps changing. Additionally, periodically pulse strong squeeze-and-extend combinations that snap their leg back into deep lockdown, resetting any progress they made toward the knee circle.",
-        "answer_line": "Vary tension unpredictably",
+        "answer_line": "Randomly alternate squeeze/extend",
         "distractors": {
           "plausible": [
-            "Hold one constant max squeeze",
-            "Release tension to bait them"
+            "Hold one steady max squeeze",
+            "Keep a set squeeze rhythm"
           ],
           "trap": [
-            "Extend the leg fully straight"
+            "Unlock legs to reset the hold"
           ]
         }
       }

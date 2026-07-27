@@ -373,11 +373,11 @@
         "answer_line": "Pain lags behind ligament damage",
         "distractors": {
           "plausible": [
-            "Slow pressure finishes it faster",
-            "Fast pressure signals a real tap"
+            "Slow builds greater breaking torque",
+            "Rules ban fast leg submissions"
           ],
           "trap": [
-            "Explosive rotation ensures the tap"
+            "Crank fast to force the tap"
           ]
         }
       },
@@ -388,11 +388,11 @@
         "answer_line": "Tighten knees, follow their spin",
         "distractors": {
           "plausible": [
-            "Release and reset the grip",
-            "Power through with more speed"
+            "Crank harder with your arms",
+            "Sit up and posture back"
           ],
           "trap": [
-            "Let go and chase a new angle"
+            "Abandon the leg, scramble up"
           ]
         }
       },
@@ -403,11 +403,11 @@
         "answer_line": "Walk grip deeper behind heel",
         "distractors": {
           "plausible": [
-            "Finish anyway with more force",
-            "Switch hands to re-grip fast"
+            "Switch hands and re-grip fast",
+            "Reset back to 50-50 guard"
           ],
           "trap": [
-            "Crank hard from the toes"
+            "Crank the shallow toe grip"
           ]
         }
       },
@@ -573,7 +573,7 @@
         "distractors": {
           "plausible": [
             "Wait it out passively",
-            "Pull knee straight into their hip"
+            "Grab their collar and pull"
           ],
           "trap": [
             "Spin away from rotation direction"

@@ -312,14 +312,14 @@
         "question": "What anatomical structures does the omoplata attack when applied from De La Riva Guard?",
         "answer": "The omoplata primarily attacks the shoulder joint by forcing external rotation beyond its normal range. The structures at risk include the rotator cuff muscles and tendons, the glenohumeral joint capsule, the AC joint, and the labrum. The lever created by the leg across the shoulder blade generates torque that rotates the humerus relative to the scapula, stressing the entire shoulder girdle.",
         "safety_critical": false,
-        "answer_line": "Shoulder via external rotation",
+        "answer_line": "Shoulder rotated past its limit",
         "distractors": {
           "plausible": [
-            "Elbow, like an armbar",
-            "Wrist and forearm joints"
+            "Elbow hyperextension like armbar",
+            "Wrist and forearm ligaments"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Neck: crank if the arm stalls"
           ]
         }
       },
@@ -327,14 +327,14 @@
         "question": "What physical indicators tell you the opponent's shoulder is approaching the submission threshold?",
         "answer": "The opponent's shoulder begins to elevate involuntarily as the rotator cuff muscles reach their elastic limit. You will feel increasing resistance followed by a sudden decrease in resistance as the joint reaches end range. The opponent's body may begin to shift or squirm as pain signals intensify. Their breathing pattern often changes, becoming shorter and more rapid. Any verbal response or facial grimace indicates you are near the threshold and must control pressure carefully.",
         "safety_critical": true,
-        "answer_line": "Shoulder rises, breathing shortens",
+        "answer_line": "Shoulder rises, breath shortens",
         "distractors": {
           "plausible": [
-            "Only a verbal tap counts",
-            "Legs going limp signals tap"
+            "Grip strength suddenly increases",
+            "Hips flatten to the mat"
           ],
           "trap": [
-            "No response means keep cranking"
+            "No tap yet, so crank harder"
           ]
         }
       },
@@ -372,14 +372,14 @@
         "question": "What is the most common finishing error that allows escape from the omoplata applied from DLR?",
         "answer": "The most common finishing error is failing to control the far hip before sitting up. Without far hip control, the opponent forward rolls out of the omoplata in the 1-2 second window between the leg clearing the shoulder and the attacker establishing the seated finishing position. The correction is making the far hip grip your absolute first priority after the leg swing, reaching across immediately before attempting to sit up or apply any shoulder pressure.",
         "safety_critical": false,
-        "answer_line": "Not securing far hip first",
+        "answer_line": "Failing to trap the far hip",
         "distractors": {
           "plausible": [
-            "Sitting up too slowly",
+            "Rushing the leg swing",
             "Losing the cross sleeve grip"
           ],
           "trap": [
-            "Cranking the arm immediately"
+            "Drop hip grip to crank shoulder"
           ]
         }
       },
@@ -408,23 +408,23 @@
             "Switch straight to armbar"
           ],
           "trap": [
-            "Release position and reset guard"
+            "Free the leg and turn away"
           ]
         },
-        "answer_line": "Convert to sweep off far hip"
+        "answer_line": "Come up on top for the sweep"
       },
       {
         "question": "What are the key safety considerations when applying the omoplata from De La Riva Guard?",
         "answer": "The shoulder joint has limited rotational range and is vulnerable to serious injury including rotator cuff tears and labrum damage requiring surgery. Always apply finishing pressure slowly and progressively over 4-6 seconds minimum. Never jerk or spike the shoulder rotation. Maintain awareness of all tap signals including verbal taps, hand or foot taps on you or the mat, and distress sounds. If the opponent attempts a forward roll escape, release immediately as continued pressure during the roll can cause acute shoulder dislocation.",
         "safety_critical": true,
-        "answer_line": "Apply slowly, release on roll",
+        "answer_line": "Slow pressure, honor every tap",
         "distractors": {
           "plausible": [
-            "Finish fast before they escape",
-            "Only verbal taps matter"
+            "Finish fast before the escape",
+            "Hold the finish until they yell"
           ],
           "trap": [
-            "Add pressure through the roll"
+            "Spike the shoulder rotation"
           ]
         }
       },
@@ -558,11 +558,11 @@
         "answer_line": "Hook redirects up, sleeve tightens",
         "distractors": {
           "plausible": [
-            "Only watch for the leg swing",
+            "Watch only for the leg swing",
             "Sudden collar grip appears"
           ],
           "trap": [
-            "Ignore it, hook feels normal"
+            "Post that hand out on the mat"
           ]
         }
       },
@@ -574,7 +574,7 @@
         "distractors": {
           "plausible": [
             "Wait until it really hurts",
-            "Only tap with your free hand"
+            "Never use your feet to signal"
           ],
           "trap": [
             "Try to power out instead"
@@ -588,8 +588,8 @@
         "answer_line": "Retract arm, then roll, then stack",
         "distractors": {
           "plausible": [
-            "Always forward roll immediately",
-            "Wait and tap at first pressure"
+            "Bridge and shrimp out backwards",
+            "Grab the mat and hold still"
           ],
           "trap": [
             "Pull elbow away once locked in"
@@ -603,8 +603,8 @@
         "answer_line": "After leg clears, before hip grip",
         "distractors": {
           "plausible": [
-            "As soon as leg starts swinging",
-            "After they sit up fully"
+            "Once they sit up fully",
+            "When the sleeve grip is set"
           ],
           "trap": [
             "Wait until wrist control locks"
@@ -618,8 +618,8 @@
         "answer_line": "Rotate elbow in, tuck to ribs",
         "distractors": {
           "plausible": [
-            "Post the arm out to base",
-            "Push elbow down to the mat"
+            "Straighten arm to push the knee",
+            "Grab your own collar and wait"
           ],
           "trap": [
             "Flare elbow out for base"

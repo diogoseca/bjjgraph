@@ -310,11 +310,11 @@
         "question": "What is the minimum application time for this submission in training and why is controlled pressure critical for safety?",
         "answer": "The minimum application time in training should be 5-7 seconds of progressive, controlled pressure. This is critical because the Suloev Stretch can cause severe knee ligament damage (particularly PCL tears) and calf muscle tears if applied explosively. The submission creates intense pressure rapidly, and the bent leg position makes it difficult for the defending person to tap quickly in some cases. Slow, progressive application allows the training partner to recognize the danger, feel the pressure building, and tap safely before any injury occurs. Explosive or jerking motions can cause immediate injury before the tap can even be executed.",
         "safety_critical": true,
-        "answer_line": "5-7 sec, slow progressive pressure",
+        "answer_line": "5-7 sec, slow controlled pressure",
         "distractors": {
           "plausible": [
-            "1-2 sec fast application",
-            "10+ sec is safest option"
+            "1-2 seconds is plenty",
+            "Speed is irrelevant here"
           ],
           "trap": [
             "Apply explosively for effect"
@@ -358,11 +358,11 @@
         "answer_line": "Stop, unhook, back off, check in",
         "distractors": {
           "plausible": [
-            "Extend leg fast to release",
-            "Keep pressure, ask if okay"
+            "Release but skip the check-in",
+            "Hold lock, ask if okay first"
           ],
           "trap": [
-            "Yank leg straight immediately"
+            "Yank their leg straight fast"
           ]
         }
       },
@@ -403,11 +403,11 @@
         "answer_line": "Squeeze knees tighter, add chest",
         "distractors": {
           "plausible": [
-            "Loosen lock to let leg move",
-            "Pull with arms, ignore chest"
+            "Bridge into them for leverage",
+            "Grip the ankle and yank"
           ],
           "trap": [
-            "Fight force head-on with arms"
+            "Let the leg fully straighten out"
           ]
         }
       },
@@ -550,14 +550,14 @@
         "question": "Why must the Suloev Stretch be applied slowly and progressively in training?",
         "answer": "The knee and calf are dense, unforgiving structures that can be injured before a partner can physically tap; slow progressive pressure with clear communication lets the partner tap safely and prevents PCL, meniscus, and calf injuries.",
         "safety_critical": true,
-        "answer_line": "Injury can occur before a tap",
+        "answer_line": "Injury can happen before a tap",
         "distractors": {
           "plausible": [
-            "Fast taps make speed unnecessary",
-            "Only beginners need slow pace"
+            "The tap always beats injury",
+            "Slow pace is just for novices"
           ],
           "trap": [
-            "Full speed is fine with control"
+            "Full speed is fine with skill"
           ]
         }
       },
@@ -598,7 +598,7 @@
         "answer_line": "Switch to kneebar or ankle lock",
         "distractors": {
           "plausible": [
-            "Force the fold back into place",
+            "Squeeze the calf compression harder",
             "Abandon leg attacks entirely"
           ],
           "trap": [
@@ -787,11 +787,11 @@
         "answer_line": "Drill recognition and early defense",
         "distractors": {
           "plausible": [
-            "Drill escaping a locked stretch",
-            "Only spar at full resistance"
+            "Just watch instructional videos",
+            "Learn it only by hard rolling"
           ],
           "trap": [
-            "Practice escaping full lock live"
+            "Get fully locked, then escape live"
           ]
         }
       },
@@ -847,11 +847,11 @@
         "answer_line": "Unloads the heel-to-buttock angle",
         "distractors": {
           "plausible": [
-            "Straightens the knee joint fully",
-            "Relieves pressure on the chest"
+            "Frees the trapped ankle instantly",
+            "Loosens their figure-four lock"
           ],
           "trap": [
-            "Rotate away once fully locked"
+            "Rotate toward the attacker"
           ]
         }
       },
@@ -862,11 +862,11 @@
         "answer_line": "Frame or kick to reverse or clear",
         "distractors": {
           "plausible": [
-            "Keep it still, protect the knee",
-            "Use it only to push their hip"
+            "Keep it flat and wait it out",
+            "Only push against their hip"
           ],
           "trap": [
-            "Tuck it away from the action"
+            "Cross it into their hooks"
           ]
         }
       }

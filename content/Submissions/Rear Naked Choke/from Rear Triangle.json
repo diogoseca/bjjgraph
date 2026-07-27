@@ -277,11 +277,11 @@
         "answer_line": "Both carotid arteries",
         "distractors": {
           "plausible": [
-            "Windpipe and trachea",
+            "The windpipe alone",
             "One carotid artery only"
           ],
           "trap": [
-            "Crush the trachea"
+            "The cervical spine (crank)"
           ]
         }
       },
@@ -322,11 +322,11 @@
         "answer_line": "Blade laterally, not throat",
         "distractors": {
           "plausible": [
-            "Deep centered on trachea",
-            "Bicep only, forearm loose"
+            "Forearm flat on the chin",
+            "Wrist bone under the ear"
           ],
           "trap": [
-            "Press hard on windpipe"
+            "Drive into the windpipe hard"
           ]
         }
       },
@@ -364,14 +364,14 @@
         "question": "How does the dual compression from triangle legs and choking arms compound the finishing pressure?",
         "answer": "The triangle legs compress the carotid artery on the trapped-arm side from a posterior angle while the choking forearm and bicep compress both carotids from an anterior angle. This creates three distinct pressure vectors converging on the blood supply to the brain rather than the typical two from a standard RNC. The result is faster onset of blood restriction and a shorter window for the opponent to escape. The defender must address both pressure sources simultaneously, which is significantly more difficult than defending a single choking mechanism.",
         "safety_critical": false,
-        "answer_line": "Three-vector blood pressure",
+        "answer_line": "Three blood-flow vectors",
         "distractors": {
           "plausible": [
-            "Doubles airway restriction",
-            "Adds joint lock pressure"
+            "Doubles the airway squeeze",
+            "Adds a joint-lock finish"
           ],
           "trap": [
-            "Only leg pressure matters"
+            "Neck-crank supplies the finish"
           ]
         }
       },
@@ -379,14 +379,14 @@
         "question": "What are the key indicators that the choke is properly set and will produce a finish?",
         "answer": "The forearm blade sits laterally across one carotid with the bicep pressing the other, the elbow is centered under the chin, and the figure-four is locked behind the head. The opponent's defensive movements weaken or become erratic, and you feel their body relax slightly. In training, a properly set blood choke produces a tap within 3-8 seconds of full application. If you have been squeezing for more than 10 seconds without a tap, the placement is likely off—release, adjust, and re-apply rather than adding more force.",
         "safety_critical": true,
-        "answer_line": "Tap within 3-8 seconds",
+        "answer_line": "Blade on carotid, figure-four locked",
         "distractors": {
           "plausible": [
-            "Opponent taps at 20 seconds",
-            "Loud gasping sounds heard"
+            "Opponent gasps loudly",
+            "Tap only after 20 seconds"
           ],
           "trap": [
-            "Add more force past 10 sec"
+            "Crank harder to force the tap"
           ]
         }
       },
@@ -409,14 +409,14 @@
         "question": "What is the proper speed and progression for applying this choke in training versus competition?",
         "answer": "In training, apply the choke slowly over 3-5 seconds minimum, allowing your partner to feel the pressure build and tap before any risk of unconsciousness. Never snap or jerk into the finish. In competition, the choke can be applied more quickly once the grip is locked, but the initial arm threading should still be controlled to ensure proper carotid placement. The rear triangle variant finishes faster than standard RNC due to compounding pressure, so extra caution in training is warranted because the margin between a secured choke and unconsciousness is shorter.",
         "safety_critical": true,
-        "answer_line": "Slow in training, controlled",
+        "answer_line": "Slow, controlled build in training",
         "distractors": {
           "plausible": [
-            "Fast in training builds trust",
-            "Snap finish in competition"
+            "Same speed in comp and drilling",
+            "Rush the grip in competition"
           ],
           "trap": [
-            "Jerk into finish quickly"
+            "Snap into the finish"
           ]
         }
       }
@@ -545,10 +545,10 @@
         "distractors": {
           "plausible": [
             "Wait until arm is under chin",
-            "Grab opponent's top leg first"
+            "Grab the top leg first"
           ],
           "trap": [
-            "Pull head forward to escape"
+            "Turn away, exposing the neck"
           ]
         }
       },
@@ -574,8 +574,8 @@
         "answer_line": "Restores two-hand defense",
         "distractors": {
           "plausible": [
-            "Only relieves leg fatigue",
-            "Improves your grip strength"
+            "Only eases leg fatigue",
+            "Opens a path to stand up"
           ],
           "trap": [
             "Ignore arm, escape hips only"

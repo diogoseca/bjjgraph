@@ -290,7 +290,7 @@
             "Ankle joint via rotation"
           ],
           "trap": [
-            "Hip flexor via compression"
+            "Muscle only - safe to crank hard"
           ]
         }
       },
@@ -313,11 +313,11 @@
         "question": "What must be established before you begin applying hip extension pressure for the finish?",
         "answer": "Three elements must be secured before applying pressure: first, your shin must be positioned precisely behind the knee crease, not on the thigh or upper calf. Second, the opponent's foot must be controlled and pulled against your chest to lock the knee angle. Third, your legs must be figure-foured or triangled around the opponent's thigh to create a structural lock that prevents your shin from being displaced under pressure.",
         "safety_critical": false,
-        "answer_line": "Triangle legs around the thigh",
+        "answer_line": "All three: shin, foot, leg lock",
         "distractors": {
           "plausible": [
-            "Pin shin to the thigh, not crease",
-            "Pull foot to chest, then set shin"
+            "Just the shin behind the crease",
+            "Only foot pulled to your chest"
           ],
           "trap": [
             "Extend hips before locking legs"
@@ -331,11 +331,11 @@
         "answer_line": "Leg triangle locked, hips extend",
         "distractors": {
           "plausible": [
-            "Once the knee is isolated",
-            "When foot pins to the chest"
+            "The moment he grabs your ankle",
+            "Once he falls back to the mat"
           ],
           "trap": [
-            "Not until the pain sets in"
+            "Wait until pain forces the tap"
           ]
         }
       },
@@ -350,7 +350,7 @@
             "Foot control released too early"
           ],
           "trap": [
-            "Rushing the hip extension speed"
+            "Crank hard to force the finish"
           ]
         }
       },
@@ -373,14 +373,14 @@
         "question": "What is the safe application speed for the calf slicer in training and why is this critical?",
         "answer": "The calf slicer must be applied over a minimum of five to seven seconds in training, building pressure gradually with controlled hip extension. This is critical because the calf slicer's compression mechanism can cause muscle tears and Achilles tendon damage before the defender fully registers the pain and can tap. The delayed pain response means spiking or jerking the submission can cause catastrophic injury before any tap signal is possible. Always prioritize training partner safety over finishing speed.",
         "safety_critical": true,
-        "answer_line": "5-7 seconds, gradual pressure",
+        "answer_line": "Five to seven seconds, gradual",
         "distractors": {
           "plausible": [
-            "Fast snap before they defend",
-            "Match their tap speed exactly"
+            "Two seconds is plenty of warning",
+            "Any speed if they can reach to tap"
           ],
           "trap": [
-            "Spike pressure to test their tap"
+            "Snap it fast, they will tap"
           ]
         }
       },
@@ -395,7 +395,7 @@
             "Truck: relies on reading reactions"
           ],
           "trap": [
-            "Carni requires the foot released"
+            "Abandon inside control to slice"
           ]
         }
       },
@@ -519,10 +519,10 @@
         "distractors": {
           "plausible": [
             "Twisting torque on your ankle",
-            "Grips heel, foot pulled tight"
+            "Attacker chasing your heel grip"
           ],
           "trap": [
-            "Just harmless leg control"
+            "Ignore it, no real threat yet"
           ]
         }
       },
@@ -530,14 +530,14 @@
         "question": "What is the safest approach to tapping when caught in a calf slicer from Carni?",
         "answer": "Tap verbally and physically as soon as you feel the compression lock with the attacker's leg triangle established around your thigh and your foot controlled against their chest. Do not wait for sharp pain because the calf slicer has a delayed pain response where tissue damage can occur before you register full discomfort. Verbal tapping is preferred because the leg entanglement may restrict hand access for physical tapping.",
         "safety_critical": true,
-        "answer_line": "Tap verbally at first lock feel",
+        "answer_line": "Tap out loud the moment it locks",
         "distractors": {
           "plausible": [
-            "Wait for sharp pain to tap",
-            "Tap physically only, stay silent"
+            "Slap the mat only, stay quiet",
+            "Yell only if hands are trapped"
           ],
           "trap": [
-            "Fight position until pressure spikes"
+            "Ride it out, hunt the escape"
           ]
         }
       },
@@ -560,14 +560,14 @@
         "question": "Why is it dangerous to delay your tap when caught in a calf slicer?",
         "answer": "The calf slicer produces a compression-type pain that builds gradually rather than generating the sharp immediate pain of joint locks. This means significant tissue damage to the calf muscle, Achilles tendon, and surrounding nerves can occur before you register the full severity of the pressure. Muscle tears and tendon strains may already be in progress by the time you feel the need to tap, making early tapping essential for long-term training health.",
         "safety_critical": true,
-        "answer_line": "Pain lags behind tissue damage",
+        "answer_line": "Damage starts before pain does",
         "distractors": {
           "plausible": [
-            "Pressure spikes without warning",
-            "Grip loosens then suddenly locks"
+            "The nerves go numb under pressure",
+            "Compression cuts blood flow first"
           ],
           "trap": [
-            "Sharp pain hits before any harm"
+            "No harm until the pain gets sharp"
           ]
         }
       },

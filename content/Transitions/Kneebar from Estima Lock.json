@@ -280,14 +280,14 @@
       {
         "question": "What is the critical hip placement for the kneebar and why does positioning a few inches too high completely negate the submission?",
         "answer": "Your hip bone must land directly on the crease of the opponent's knee joint—the exact point where the femur meets the tibia. If you position even a few inches too high on the thigh, your hip acts as a fulcrum above the joint rather than across it, which means your bridging motion compresses the thigh muscle rather than hyperextending the knee. The opponent can freely bend their knee when the fulcrum is above the joint, completely eliminating any submission threat. Precise hip-to-knee alignment is non-negotiable for a functional kneebar.",
-        "answer_line": "Hip bone right on knee crease",
+        "answer_line": "Hip bone on the knee crease",
         "distractors": {
           "plausible": [
-            "Hip on mid-thigh for leverage",
-            "Hip just below the knee joint"
+            "Sit on the mid-thigh muscle",
+            "Ride the shin below the joint"
           ],
           "trap": [
-            "Hip anywhere, squeeze harder"
+            "Release the clamp to slide up"
           ]
         }
       },
@@ -545,14 +545,14 @@
       {
         "question": "At what point should you abandon escape attempts and tap to the kneebar?",
         "answer": "Tap when the attacker has their hips directly across your knee crease, their legs clamped tightly around your isolated leg preventing knee bending, and they begin bridging or extending their hips. At this point, the mechanical advantage is overwhelmingly in their favor and continued resistance risks catastrophic knee ligament injury. Additional signals include sharp pain in the knee, inability to bend your knee despite maximum effort, and the sensation of your knee being pushed past its natural extension range. Tap early and decisively—no match or training round is worth a knee reconstruction.",
-        "answer_line": "Hips set, clamp tight, bridge starts",
+        "answer_line": "Hips set, clamp tight, bridging",
         "distractors": {
           "plausible": [
-            "Only when you feel sharp pain",
-            "Wait for the ref to call it"
+            "When they first isolate the leg",
+            "Only after sharp pain hits"
           ],
           "trap": [
-            "Fight through to escape grip"
+            "Muscle through the ligament pain"
           ]
         }
       }

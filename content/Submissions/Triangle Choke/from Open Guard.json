@@ -279,14 +279,14 @@
         "question": "What anatomical structures does the triangle choke primarily attack, and how does the figure-four leg configuration create the choking mechanism?",
         "answer": "The triangle choke attacks both carotid arteries through bilateral compression. The choking leg's inner thigh presses against one carotid while the opponent's own trapped shoulder is driven into the opposite carotid by the squeeze of the legs. The figure-four configuration creates a mechanical lock where squeezing the knees together simultaneously compresses both sides of the neck. This is a blood choke, not an air choke—it restricts blood flow to the brain rather than blocking the airway, causing unconsciousness in 4-6 seconds of full compression.",
         "safety_critical": false,
-        "answer_line": "Both carotids, blood choke",
+        "answer_line": "Both carotid arteries, blood choke",
         "distractors": {
           "plausible": [
-            "Compresses the windpipe",
-            "One-sided carotid pressure"
+            "Compresses the windpipe (air choke)",
+            "Traps one side of the neck"
           ],
           "trap": [
-            "Blocks airway, not blood flow"
+            "It's a neck crank on the spine"
           ]
         }
       },
@@ -312,11 +312,11 @@
         "answer_line": "Cut angle to shoulder line",
         "distractors": {
           "plausible": [
-            "Maximum knee squeeze",
-            "Pull head down hardest"
+            "Pinch your knees tighter",
+            "Yank the head down hard"
           ],
           "trap": [
-            "Square up, squeeze harder"
+            "Sit up square and muscle it"
           ]
         }
       },
@@ -371,8 +371,8 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Wait for verbal tap only",
-            "Release only if they go limp"
+            "Release when they grunt in pain",
+            "Only when the coach calls time"
           ],
           "trap": [
             "Keep squeezing until tap"
@@ -417,7 +417,7 @@
         "distractors": {
           "plausible": [
             "Switch your grip to the far arm",
-            "Re-lock the figure-four tighter"
+            "Straighten your choking leg out"
           ],
           "trap": [
             "Let them spin out freely"
@@ -545,14 +545,14 @@
         "question": "What are the earliest warning signs during open guard engagement that indicate a triangle is being set up?",
         "answer": "The earliest indicators are: opponent secures a deep collar grip and begins pulling your posture down, opponent controls one of your sleeves and begins pulling it across their centerline, opponent's hips start shifting laterally to create an angle off your centerline, and one foot rises from hip control toward your shoulder or bicep. The most reliable single indicator is the hip escape to create angle—this almost always precedes a triangle attempt. Recognizing these cues allows you to address the setup before the legs even shoot.",
         "safety_critical": false,
-        "answer_line": "Hip shift creating angle off you",
+        "answer_line": "Hips shift to angle off your center",
         "distractors": {
           "plausible": [
-            "Deep collar grip appears first",
-            "Foot rises toward your shoulder"
+            "They posture up tall and back",
+            "They grip both of your ankles"
           ],
           "trap": [
-            "Ignore sleeve control, it's minor"
+            "Sleeve control is minor, ignore it"
           ]
         }
       },
@@ -608,11 +608,11 @@
         "answer_line": "Tap immediately",
         "distractors": {
           "plausible": [
-            "Try to power through it",
-            "Wait for the black-out feeling"
+            "Try to explode out and escape",
+            "Slow your breathing to relax"
           ],
           "trap": [
-            "Keep fighting, save the tap"
+            "Push through until you black out"
           ]
         }
       }

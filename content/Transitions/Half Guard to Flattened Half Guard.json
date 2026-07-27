@@ -290,11 +290,11 @@
         "answer_line": "Drive hips into shin, pin knee",
         "distractors": {
           "plausible": [
-            "Pin far knee to the mat",
-            "Grab their ankle and yank"
+            "Pin the far knee to the mat",
+            "Lean back to unfold the shin"
           ],
           "trap": [
-            "Push shin away with your hands"
+            "Post both hands, lose chest contact"
           ]
         }
       },
@@ -303,11 +303,11 @@
         "answer": "Small incremental hip advances maintain constant stable pressure and deny the bottom player momentum to redirect into sweeps. Sudden weight shifts create space and explosive lunges are telegraphed, generating exactly the type of momentum that skilled bottom players use to sweep. Small steps compound into full flattening without ever creating an exploitable moment.",
         "distractors": {
           "plausible": [
-            "Explosive bursts break defense",
-            "Match their pace and speed"
+            "Small steps conserve your energy",
+            "Small steps save your grip strength"
           ],
           "trap": [
-            "Drive forward explosively for speed"
+            "Explode forward to end it fast"
           ]
         },
         "answer_line": "Small steps deny sweep momentum"
@@ -317,14 +317,14 @@
         "answer": "Whizzer their underhook arm while driving the crossface harder, or switch to a Kimura grip if they overcommit the arm. The strong whizzer (overhook) combined with increased crossface pressure limits their leverage and prevents them from turning to their side. The Kimura option targets their exposed arm when they overcommit, creating a submission threat that forces them to retract the arm and abandon the underhook battle.",
         "distractors": {
           "plausible": [
-            "Switch to armbar attempt",
+            "Switch to an armbar attempt",
             "Release crossface, grab wrist"
           ],
           "trap": [
-            "Let go and reset position"
+            "Concede the underhook, sit back"
           ]
         },
-        "answer_line": "Whizzer + crossface, or Kimura"
+        "answer_line": "Whizzer plus crossface, or Kimura"
       },
       {
         "question": "You have successfully flattened your opponent but they begin small hip escapes to create space. What is the optimal response?",
@@ -333,7 +333,7 @@
         "distractors": {
           "plausible": [
             "Reset to flat position first",
-            "Chase hips, regain crossface"
+            "Squeeze harder to stop the shrimp"
           ],
           "trap": [
             "Release pressure to reposition"
@@ -350,7 +350,7 @@
             "Control the far-side hip"
           ],
           "trap": [
-            "Switch grips often to adjust"
+            "Trade crossface for an armbar grip"
           ]
         }
       },
@@ -506,10 +506,10 @@
         "distractors": {
           "plausible": [
             "Feel their hips walking in",
-            "Feel knee shield start folding"
+            "Feel them grab your bottom collar"
           ],
           "trap": [
-            "Feel them grab your collar"
+            "Wait for chest-to-chest contact"
           ]
         }
       },
@@ -520,24 +520,24 @@
         "distractors": {
           "plausible": [
             "Fight to remove the crossface",
-            "Abandon knee shield, escape hips"
+            "Frame on their hip and wait"
           ],
           "trap": [
-            "Let go of knee shield to reset"
+            "Turn away and give up your back"
           ]
         }
       },
       {
         "question": "Why is it more effective to maintain frames than to try to rebuild them once lost?",
         "answer": "Once frames collapse and your opponent achieves chest-to-chest contact, the energy required to re-create space is exponentially higher than the energy needed to maintain existing frames. The opponent's full body weight is compressing your structure, and every micro-movement against this weight is taxing. Maintaining frames means working against progressive pressure with structural support, while rebuilding means pushing the opponent's settled weight away with compromised positioning and reduced leverage.",
-        "answer_line": "Maintaining beats rebuilding frames",
+        "answer_line": "Rebuilding costs far more energy",
         "distractors": {
           "plausible": [
-            "Frames matter only late",
-            "Rebuilding is just as easy"
+            "Frames are about grip strength",
+            "Space matters less than grips"
           ],
           "trap": [
-            "Let frames go, push off later"
+            "Let frames collapse, bridge later"
           ]
         }
       },
@@ -565,7 +565,7 @@
             "Push straight back against them"
           ],
           "trap": [
-            "Match their forward drive, push back"
+            "Turn belly-down under their drive"
           ]
         }
       }

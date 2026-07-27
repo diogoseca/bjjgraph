@@ -284,14 +284,14 @@
         "question": "What anatomical structures does the Cross Collar Choke Finish target, and how does this differ from an air choke?",
         "answer": "The Cross Collar Choke Finish targets both carotid arteries on the lateral sides of the neck, compressing them to restrict blood flow to the brain. This is a blood choke, not an air choke. An air choke targets the trachea to restrict breathing, which is slower, more painful, and carries higher injury risk. Proper collar placement ensures the gi material folds across the carotid arteries rather than pressing into the windpipe, producing unconsciousness in 3-8 seconds rather than the longer and more dangerous timeline of tracheal compression.",
         "safety_critical": true,
-        "answer_line": "Both carotid arteries, a blood choke",
+        "answer_line": "Both carotids — blood, not air",
         "distractors": {
           "plausible": [
-            "Trachea, like an air choke",
-            "Both carotids and the windpipe"
+            "Windpipe, cutting off breathing",
+            "Chin pressure to make them quit"
           ],
           "trap": [
-            "Center pressure on the windpipe"
+            "Crank the neck to force the tap"
           ]
         }
       },
@@ -305,7 +305,7 @@
             "Right after seatbelt control lands"
           ],
           "trap": [
-            "Force it before hands are busy"
+            "Let go of seatbelt to force it"
           ]
         }
       },
@@ -316,10 +316,10 @@
         "distractors": {
           "plausible": [
             "One deep hook is enough alone",
-            "Collar grip without seatbelt control"
+            "Collar grip without seatbelt"
           ],
           "trap": [
-            "Attempt finish before setup is done"
+            "Drop hooks to deepen the collar"
           ]
         }
       },
@@ -330,10 +330,10 @@
         "distractors": {
           "plausible": [
             "Pull the collar straight backward",
-            "Rotate elbow up and outward"
+            "Rotate the elbow up and out"
           ],
           "trap": [
-            "Yank the collar away from neck"
+            "Crank across the windpipe hard"
           ]
         }
       },
@@ -357,11 +357,11 @@
         "answer_line": "Hooks stop hip escape and turns",
         "distractors": {
           "plausible": [
-            "Hooks only add extra pressure",
-            "Hooks matter just for scoring"
+            "Hooks only add choking pressure",
+            "Hooks are just for scoring points"
           ],
           "trap": [
-            "Free your hands by releasing hooks"
+            "Drop hooks to chase the finish"
           ]
         }
       },
@@ -371,11 +371,11 @@
         "answer_line": "Pulling collar away, not rotating",
         "distractors": {
           "plausible": [
-            "Gripping too shallow in the collar",
-            "Rotating the wrong forearm inward"
+            "Not squeezing hard enough",
+            "Elbow flared out wide"
           ],
           "trap": [
-            "Centering pressure on the windpipe"
+            "Cranking across the windpipe"
           ]
         }
       },
@@ -386,7 +386,7 @@
         "distractors": {
           "plausible": [
             "Force the choke through the tuck",
-            "Switch straight to bow and arrow"
+            "Strip the tuck with your free hand"
           ],
           "trap": [
             "Abandon back control and reset"
@@ -414,11 +414,11 @@
         "answer_line": "Follow the turn, chase the angle",
         "distractors": {
           "plausible": [
-            "Release grip and reset position",
-            "Flatten them back out first"
+            "Flatten them back to the mat",
+            "Pause and re-grip the collar"
           ],
           "trap": [
-            "Let them turn away freely"
+            "Post a hand and lose the seatbelt"
           ]
         }
       },
@@ -426,14 +426,14 @@
         "question": "What are the immediate signs that you should release the choke, and what is the correct post-release protocol?",
         "answer": "Release immediately upon any tap signal (hand, verbal, or foot), when the opponent goes limp, or when they cease all movement. After release, maintain light positional awareness while checking your partner's responsiveness. If they are unconscious, place them in recovery position, monitor breathing, and seek medical attention if they do not regain consciousness within 20 seconds. Never continue applying pressure after a tap to test tightness or verify the submission was working.",
         "safety_critical": true,
-        "answer_line": "Any tap or limp — release, check",
+        "answer_line": "Tap or limp — release, check them",
         "distractors": {
           "plausible": [
-            "Ease off slightly, hold pressure",
-            "Release only once they go still"
+            "Wait for a verbal tap only",
+            "Stand up and reset for next round"
           ],
           "trap": [
-            "Hold a beat to confirm it worked"
+            "Hold on a few seconds past limp"
           ]
         }
       },
@@ -444,7 +444,7 @@
         "distractors": {
           "plausible": [
             "Rush the mechanics under time",
-            "Grip lighter to save seconds"
+            "Keep the same pace regardless"
           ],
           "trap": [
             "Ignore safety when time is short"
@@ -581,7 +581,7 @@
         "distractors": {
           "plausible": [
             "Choking pressure on your neck",
-            "Fingers gripping your lapel top"
+            "Their chest sealing to your back"
           ],
           "trap": [
             "Wait until the choke tightens"
@@ -592,14 +592,14 @@
         "question": "Why should you escape toward the non-collar side rather than toward the choking hand?",
         "answer": "Escaping toward the non-collar side creates distance between your neck and the choking grip, reducing pressure and opening space for guard recovery. Moving toward the collar side can rotate your neck into the pressure and actually tighten the choke angle. The direction of your hip escape directly determines whether you relieve or intensify the choking mechanics.",
         "safety_critical": false,
-        "answer_line": "It relieves pressure, opens guard",
+        "answer_line": "It pulls your neck from the grip",
         "distractors": {
           "plausible": [
-            "Escape toward the choking hand",
-            "Turn flat face into the mat"
+            "It scores an escape point",
+            "It frees your trapped bottom arm"
           ],
           "trap": [
-            "Pull straight forward to stand"
+            "Roll toward the choking arm"
           ]
         }
       },
@@ -610,11 +610,11 @@
         "answer_line": "Trap the switching arm, hip escape",
         "distractors": {
           "plausible": [
-            "Wait for the RNC grip to fully set",
-            "Defend only the new choke threat"
+            "Wait for the RNC grip to set",
+            "Defend only the new choke arm"
           ],
           "trap": [
-            "Stay still and brace your neck"
+            "Turn belly-down and post up"
           ]
         }
       },
@@ -625,11 +625,11 @@
         "answer_line": "When knuckles press into your neck",
         "distractors": {
           "plausible": [
-            "The moment any grip is felt",
-            "Only once pressure starts hurting"
+            "Only once pressure starts hurting",
+            "As soon as they get a hook in"
           ],
           "trap": [
-            "Never commit both hands defending"
+            "Both hands out while grip is shallow"
           ]
         }
       },
@@ -641,10 +641,10 @@
         "distractors": {
           "plausible": [
             "Flatten out and cover your face",
-            "Hands on floor, push away hard"
+            "Push their legs off with both hands"
           ],
           "trap": [
-            "Turn onto your back for space"
+            "Turn belly-down to your knees"
           ]
         }
       }

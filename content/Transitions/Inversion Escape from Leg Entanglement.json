@@ -261,14 +261,14 @@
       {
         "question": "What is the most critical safety check before initiating the inversion escape from a leg entanglement?",
         "answer": "Before initiating the inversion, you must verify that the opponent has not secured a deep heel grip with figure-four finishing configuration. If the heel is already controlled with rotational pressure being applied, the inversion will amplify the mechanical stress on the knee ligaments and can cause catastrophic injury. The heel must be hidden with your foot flexed and knee rotated inward before any rolling motion begins. If the heel is compromised, switch to grip fighting or an alternative non-rotational escape.",
-        "answer_line": "Confirm heel hidden before rolling",
+        "answer_line": "Heel hidden and knee rotated inward",
         "distractors": {
           "plausible": [
-            "Clear the ankle grip first",
-            "Point toes and spin through"
+            "Make sure your hands post the mat",
+            "Check the mat is clear behind you"
           ],
           "trap": [
-            "Invert fast to beat the finish"
+            "Straighten the leg and rip it out"
           ]
         }
       },

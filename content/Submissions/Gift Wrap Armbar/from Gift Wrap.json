@@ -302,11 +302,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Shoulder joint, not the elbow",
-            "Wrist lock via grip fatigue"
+            "Attacks the shoulder capsule",
+            "Wrist lock from grip fatigue"
           ],
           "trap": [
-            "Push opponent's free arm away"
+            "Let go of the wrap to switch arms"
           ]
         },
         "answer_line": "Traps 2nd arm, elbow hyperextends"
@@ -317,14 +317,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Wait only for verbal tap",
-            "Arm goes limp and relaxed"
+            "Breathing slows and steadies",
+            "Grip re-clasps, elbow bends"
           ],
           "trap": [
-            "Keep cranking through a pop"
+            "Spike the hips through the pop"
           ]
         },
-        "answer_line": "Arm straight, tensed, distress"
+        "answer_line": "Arm straight, tense, sudden distress"
       },
       {
         "question": "What must be established before committing to the armbar transition from gift wrap control?",
@@ -347,14 +347,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Legs clamp but wrist stays loose",
-            "Hips high, knees open wide"
+            "Ankles crossed, hips on the mat",
+            "Wrist held loose over your face"
           ],
           "trap": [
-            "Loosen knees to adjust angle"
+            "Legs open with arm still bent"
           ]
         },
-        "answer_line": "Knees clamp head, hips under elbow"
+        "answer_line": "Knees clamped, hips under elbow"
       },
       {
         "question": "What is the most common finishing error that allows opponents to survive the Gift Wrap Armbar even from a locked position?",
@@ -363,11 +363,11 @@
         "answer_line": "Pulling with arms, not hips",
         "distractors": {
           "plausible": [
-            "Squeezing knees too tightly",
-            "Bridging hips too slowly"
+            "Squeezing the knees too tightly",
+            "Bridging the hips too slowly"
           ],
           "trap": [
-            "Yanking the wrist upward"
+            "Letting elbow slip off the thigh"
           ]
         }
       },
@@ -377,8 +377,8 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Grab hand tighter, ignore knees",
-            "Switch grip to fingers only"
+            "Clamp the hand harder, knees open",
+            "Pull the wrist across your body"
           ],
           "trap": [
             "Let go and re-grip the wrist"
@@ -393,8 +393,8 @@
         "answer_line": "Slow extension, release on pop",
         "distractors": {
           "plausible": [
-            "Fast bridge to beat the tap",
-            "Wait for a loud verbal tap only"
+            "Hold pressure and wait it out",
+            "Release and reset the grip"
           ],
           "trap": [
             "Keep extending after a pop"
@@ -451,14 +451,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Muscle strain from overuse",
-            "Nerve compression in forearm"
+            "Bicep tendon strains and tears",
+            "Forearm nerve gets compressed"
           ],
           "trap": [
-            "Ignore tap, keep extending"
+            "Ignore the tap and keep going"
           ]
         },
-        "answer_line": "Ligaments/capsule tear past ROM"
+        "answer_line": "Elbow ligaments and capsule tear"
       },
       {
         "question": "Before you ever lift your hips, what two control points must be locked for the finish to work?",
@@ -481,7 +481,7 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Opponent taps verbally first",
+            "Slack still left in the bend",
             "Arm feels loose, no resistance"
           ],
           "trap": [
@@ -556,8 +556,8 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Slow extension wastes energy",
-            "Fast extension is more secure"
+            "Fast extension is more secure",
+            "Speed hides your grip mistakes"
           ],
           "trap": [
             "Snap the arm for a faster finish"
@@ -571,8 +571,8 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Trapped arm speeds up the pin",
-            "Trapped arm improves your base"
+            "It frees your hand for basing",
+            "Skip wrist control, arm is stuck"
           ],
           "trap": [
             "Release gift wrap between attacks"
@@ -696,8 +696,8 @@
         "answer_line": "Turn hips before leg crosses face",
         "distractors": {
           "plausible": [
-            "Wait until armbar is locked",
-            "Defend after the leg crosses"
+            "Bridge hard once the leg lands",
+            "Clasp both hands to stop the pull"
           ],
           "trap": [
             "Extend arm to push attacker off"
@@ -708,14 +708,14 @@
         "question": "Why is extending your free arm to push the attacker away a dangerous mistake when defending the Gift Wrap Armbar?",
         "answer": "Extending the free arm provides the attacker with exactly the arm isolation they need to complete the armbar setup. The push creates wrist exposure that allows two-on-one grip, the extension removes the arm from the protected position near your ribs, and the straight arm is already partially in the finishing position. Instead, keep the elbow glued to the ribs and use hip movement and body turning for defensive actions rather than arm-based responses.",
         "safety_critical": false,
-        "answer_line": "Gives attacker the arm isolation",
+        "answer_line": "It hands over the arm isolation",
         "distractors": {
           "plausible": [
-            "Wastes energy, tires you out",
-            "Opens your guard unnecessarily"
+            "It drains your grip strength fast",
+            "It flattens your shoulders down"
           ],
           "trap": [
-            "Push their hips to create space"
+            "It only costs you a bit of space"
           ]
         }
       },
@@ -726,11 +726,11 @@
         "answer_line": "Full extension, hips under elbow",
         "distractors": {
           "plausible": [
-            "Only when you hear a pop",
-            "Wait until pain becomes sharp"
+            "When they first grab your wrist",
+            "Once your hands get broken apart"
           ],
           "trap": [
-            "Keep fighting the wrist grip"
+            "Wait for a pop before tapping"
           ]
         }
       },
@@ -771,8 +771,8 @@
         "answer_line": "It's the armbar's target limb",
         "distractors": {
           "plausible": [
-            "It's needed to grip fight",
-            "It's your main framing tool"
+            "It's blocked by the gift wrap",
+            "It tires faster than the legs"
           ],
           "trap": [
             "Extend it to create distance"
@@ -786,11 +786,11 @@
         "answer_line": "Before knees pinch, leg crosses face",
         "distractors": {
           "plausible": [
-            "After the armbar is fully locked",
-            "As soon as arm feels trapped"
+            "After they fall back and extend",
+            "Wait until their grips settle"
           ],
           "trap": [
-            "Pull the arm back straight"
+            "Rip elbow out against the lever"
           ]
         }
       },
@@ -801,8 +801,8 @@
         "answer_line": "Thumb down, rotate toward elbow",
         "distractors": {
           "plausible": [
-            "Pull straight back against it",
-            "Push off with the free arm"
+            "Push off with the free arm",
+            "Turn your face away from them"
           ],
           "trap": [
             "Yank the arm free forcefully"
@@ -816,11 +816,11 @@
         "answer_line": "Restores two-hand defense options",
         "distractors": {
           "plausible": [
-            "Speeds up the choke defense only",
-            "Improves your base and posture"
+            "Improves your base and posture",
+            "Buys time to stall the round"
           ],
           "trap": [
-            "Extend the free arm to fight grips"
+            "Lets you reach back for the head"
           ]
         }
       }

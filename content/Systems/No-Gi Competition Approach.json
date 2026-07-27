@@ -423,11 +423,11 @@
       "answer_line": "Feeds guillotine, darce, anaconda",
       "distractors": {
         "plausible": [
-          "Leads only to side control",
-          "Always guillotine, ignore reaction"
+          "Solely a side-control entry",
+          "Always finish, never transition"
         ],
         "trap": [
-          "Abandon head control after fail"
+          "Drop the head, opponent takes back"
         ]
       }
     },

@@ -312,11 +312,11 @@
         "question": "How does the Truck position's perpendicular angle change the collar grip setup compared to standard back control?",
         "answer": "The Truck's perpendicular alignment means the attacker is beside the opponent with one leg trapped, giving early access to the far collar before back control is fully established. However, the perpendicular angle cannot finish the bow on its own: the attacker must release the figure-four and climb up to genuine back control with a seatbelt and hooks to reach the finishing geometry. The advantage is timing, feeding the collar early, not eliminating the climb to the back.",
         "safety_critical": false,
-        "answer_line": "Early collar access still climb back",
+        "answer_line": "Early collar, but climb to back",
         "distractors": {
           "plausible": [
-            "Perpendicular finishes choke alone",
-            "Far collar replaces seatbelt control"
+            "Perpendicular angle finishes it",
+            "Collar grip replaces the seatbelt"
           ],
           "trap": [
             "Drop figure-four to grab collar"
@@ -330,8 +330,8 @@
         "answer_line": "Attack twister or calf slicer",
         "distractors": {
           "plausible": [
-            "Re-secure the collar grip",
-            "Wait for hands to return"
+            "Muscle the collar in deeper",
+            "Climb to back control instead"
           ],
           "trap": [
             "Release truck to chase collar"
@@ -342,14 +342,14 @@
         "question": "What is the point of no escape for the defender once the Bow and Arrow from Truck is fully engaged?",
         "answer": "The point of no escape occurs when the collar grip is locked deep past the chin with the wrist blade across both carotids AND the attacker has climbed to genuine back control with a seatbelt and hooks and taken a hand grip on the far leg or hip. Once both vectors are active and the attacker begins the back-stretch, the mechanical advantage is overwhelming. The defender must address either the collar grip or the climb to the back before both are simultaneously locked.",
         "safety_critical": false,
-        "answer_line": "Collar locked plus back control",
+        "answer_line": "Deep collar plus seatbelt and hooks",
         "distractors": {
           "plausible": [
-            "Collar locked hooks not yet in",
-            "Seatbelt secured collar shallow"
+            "Deep collar, hooks not yet in",
+            "Seatbelt on, collar still shallow"
           ],
           "trap": [
-            "Choke alone back control optional"
+            "Crank the neck without back control"
           ]
         }
       },
@@ -357,14 +357,14 @@
         "question": "What are the proper tap signals and what should the attacker do upon receiving any of them?",
         "answer": "Tap signals include verbal tap, physical hand tap on body or mat, foot tap on mat, any audible distress signal, or sudden loss of resistance indicating possible unconsciousness. Upon receiving any tap signal, the attacker must immediately release the collar grip, release leg extension and entanglement pressure, allow the opponent's head to return to neutral, and check for consciousness. Never second-guess a tap.",
         "safety_critical": true,
-        "answer_line": "Release immediately check pulse",
+        "answer_line": "Release instantly, check response",
         "distractors": {
           "plausible": [
-            "Ease off slowly then release",
-            "Ask if they're okay first"
+            "Finish the rep then let go",
+            "Loosen gradually over 3 seconds"
           ],
           "trap": [
-            "Keep tension until verbal tap"
+            "Ignore mat taps, wait for hand"
           ]
         }
       },
@@ -387,14 +387,14 @@
         "question": "How do you adjust when the collar grip stalls at the chin and cannot be fed deeper?",
         "answer": "Use caterpillar grip motion to incrementally walk the collar past the chin by gripping, pulling through, regripping deeper, and repeating. Simultaneously apply additional boot pressure to rotate the opponent slightly, which opens space between chin and chest for the collar to pass. If the chin tuck remains impenetrable, consider a short choke variation with the shallower grip, or abandon the collar and transition to twister or calf slicer.",
         "safety_critical": false,
-        "answer_line": "Caterpillar grip plus boot rotate",
+        "answer_line": "Caterpillar the grip, add rotation",
         "distractors": {
           "plausible": [
-            "Grip deeper without repositioning",
-            "Switch straight to twister"
+            "Pull harder from the same grip",
+            "Reach across for the far collar"
           ],
           "trap": [
-            "Yank collar hard to force it"
+            "Yank the collar to force the chin"
           ]
         }
       },
@@ -402,14 +402,14 @@
         "question": "What is the correct application speed for the Bow and Arrow Choke from Truck in training?",
         "answer": "The choke must be applied slowly and progressively, taking a minimum of 3-5 seconds from initial pressure to full compression. This allows the training partner adequate time to recognize the choke is locked and deliver a tap signal before unconsciousness occurs. Never spike or jerk the choke in training. Competition-speed application is reserved for competition only. Smooth, progressive tightening protects your training partners.",
         "safety_critical": true,
-        "answer_line": "Slow 3-5 seconds progressive",
+        "answer_line": "Slow, progressive, 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Fast in training slow in comp",
-            "Apply at competition speed always"
+            "Match your partner's pace",
+            "Any speed if you release fast"
           ],
           "trap": [
-            "Spike it fast for realism"
+            "Jerk the finish to feel real"
           ]
         }
       }
@@ -530,10 +530,10 @@
         "distractors": {
           "plausible": [
             "Hand reaches for the far arm",
-            "Hand adjusts trapped leg"
+            "Hand adjusts the trapped leg"
           ],
           "trap": [
-            "Any hand movement means choke"
+            "Defend the leg, ignore the neck"
           ]
         }
       },
@@ -541,14 +541,14 @@
         "question": "What is the safest way to tap to the Bow and Arrow Choke from Truck when escape is no longer viable?",
         "answer": "Tap immediately using any available signal: verbal tap loudly, hand tap on the opponent's body or the mat, or foot tap on the mat. Do not wait to see if you can survive the choke because the bow and arrow applies enormous bilateral carotid pressure and the window between discomfort and unconsciousness can be as short as 5-8 seconds. Tap the moment you feel the collar locked across both sides of your neck and the extension beginning.",
         "safety_critical": true,
-        "answer_line": "Tap immediately any signal",
+        "answer_line": "Tap at once, any signal counts",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Verbal tap only counts"
+            "Only a hand tap is valid",
+            "Tap once the collar bites deep"
           ],
           "trap": [
-            "Try to power out first"
+            "Ride it out to build defense"
           ]
         }
       },
@@ -559,8 +559,8 @@
         "answer_line": "Rolling tightens the deep choke",
         "distractors": {
           "plausible": [
-            "Roll works if grip is shallow",
-            "Granby roll escapes any grip"
+            "Roll always beats a collar grip",
+            "Movement loosens any gi grip"
           ],
           "trap": [
             "Roll immediately to escape"
@@ -571,14 +571,14 @@
         "question": "What defensive options are available against the Bow and Arrow Choke from Truck?",
         "answer": "Primary defensive options include collar grip prevention through hand fighting to deny deep collar access, chin tuck to block the collar from passing the jawline, two-on-one collar strip if the grip is established but the extension has not begun, granby roll escape during the grip transition phase when control is temporarily reduced, and boot clearing combined with hip escape to exit the truck entirely after neutralizing the collar threat.",
         "safety_critical": false,
-        "answer_line": "Tuck chin strip the grip",
+        "answer_line": "Tuck the chin, strip the grip",
         "distractors": {
           "plausible": [
-            "Power through boot pressure",
-            "Bridge and roll immediately"
+            "Muscle out of the boot pressure",
+            "Bridge and roll into them"
           ],
           "trap": [
-            "Ignore grip escape hips first"
+            "Escape hips, leave the neck open"
           ]
         }
       },
@@ -586,14 +586,14 @@
         "question": "What is the defensive priority hierarchy when caught in the Truck with a Bow and Arrow being attempted?",
         "answer": "The priority hierarchy is: first, protect the neck by tucking chin and fighting the collar grip with your near hand. Second, prevent the grip from going past the chin using hand fighting and chin positioning. Third, if the grip is established, strip it with two-on-one before extension begins. Fourth, address boot pressure and leg entanglement. Fifth, execute an escape to guard recovery. Neck protection always comes first because the choke is the immediate danger.",
         "safety_critical": false,
-        "answer_line": "Protect neck first always",
+        "answer_line": "Neck first, then the legs",
         "distractors": {
           "plausible": [
-            "Escape the legs first",
-            "Strip the grip before tucking chin"
+            "Free the trapped leg first",
+            "Strip grip before tucking chin"
           ],
           "trap": [
-            "Fix boot pressure before neck"
+            "Granby roll with the grip deep"
           ]
         }
       }

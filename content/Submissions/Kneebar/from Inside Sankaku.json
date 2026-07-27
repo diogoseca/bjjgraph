@@ -289,11 +289,11 @@
         "answer_line": "Trap ankle, hips behind knee",
         "distractors": {
           "plausible": [
-            "Chase the heel hook harder",
-            "Switch straight to toe hold"
+            "Dig harder for the hidden heel",
+            "Wait for them to expose it"
           ],
           "trap": [
-            "Abandon control, stand up"
+            "Open knees to chase the foot"
           ]
         }
       },
@@ -304,11 +304,11 @@
         "answer_line": "PCL and MCL via hyperextension",
         "distractors": {
           "plausible": [
-            "ACL via hyperextension",
-            "Meniscus is the primary target"
+            "Hip labrum and groin adductors",
+            "Ankle ligaments under the armpit"
           ],
           "trap": [
-            "Achilles tendon rupture"
+            "Twist the knee to find the tap"
           ]
         }
       },
@@ -319,11 +319,11 @@
         "answer_line": "Squeeze knees, drive hips forward",
         "distractors": {
           "plausible": [
-            "Follow leg, ease off pressure",
-            "Reposition hips to the side"
+            "Slide hips out to the side",
+            "Wait for the leg to settle"
           ],
           "trap": [
-            "Release ankle, chase the heel"
+            "Open knees to regrip the foot"
           ]
         }
       },
@@ -338,7 +338,7 @@
             "Toes pointed toward the floor"
           ],
           "trap": [
-            "Rotate hips away for space"
+            "Open knees and arch away"
           ]
         }
       },
@@ -349,11 +349,11 @@
         "answer_line": "Follow rotation, stay behind knee",
         "distractors": {
           "plausible": [
-            "Release grips, reset position",
-            "Fight the rotation, hold angle"
+            "Freeze and hold the old angle",
+            "Sit up to face them"
           ],
           "trap": [
-            "Let go of ankle to reposition"
+            "Open legs to chase the heel"
           ]
         }
       },
@@ -364,8 +364,8 @@
         "answer_line": "Leg straightens, thigh tenses",
         "distractors": {
           "plausible": [
-            "Opponent taps verbally only",
-            "A sudden pop sound confirms it"
+            "Free leg goes completely still",
+            "Their hips turn toward you"
           ],
           "trap": [
             "Push to max extension, then stop"
@@ -379,8 +379,8 @@
         "answer_line": "3-5 sec progressive, never spike",
         "distractors": {
           "plausible": [
-            "Apply fast before they defend",
-            "Slow ten-second count works too"
+            "Any speed if grips are correct",
+            "Hold static, no gradual build"
           ],
           "trap": [
             "Jerk sharply to get the tap"
@@ -394,11 +394,11 @@
         "answer_line": "Switch to heel hook or toe hold",
         "distractors": {
           "plausible": [
-            "Abandon attack, pass the guard",
-            "Hold position, wait it out"
+            "Crank the same kneebar harder",
+            "Stall and wait them out"
           ],
           "trap": [
-            "Let go completely, stand up"
+            "Post up and reach for a collar"
           ]
         }
       }
@@ -531,11 +531,11 @@
         "question": "When should you tap to a kneebar from Inside Sankaku rather than continuing to escape?",
         "answer": "Tap immediately when you feel the attacker's hips driving forward against the back of your knee with your ankle secured and your knee beginning to extend beyond its comfortable range. The knee joint provides less proprioceptive warning than the elbow, meaning by the time you feel significant pain structural damage may already be occurring. If you cannot bend your knee against the attacker's extension pressure and your ankle is fully trapped, the kneebar is locked and tapping is the only safe response.",
         "safety_critical": true,
-        "answer_line": "Cant bend knee, ankle trapped",
+        "answer_line": "Can't bend knee, ankle trapped",
         "distractors": {
           "plausible": [
-            "Tap only if you hear a pop",
-            "Try to power through it first"
+            "Tap when your hips lift off mat",
+            "Only if both hands are pinned"
           ],
           "trap": [
             "Wait for sharp pain to tap"
@@ -549,11 +549,11 @@
         "answer_line": "Boot escape, bend knee, hip out",
         "distractors": {
           "plausible": [
-            "Power-straighten the trapped leg",
-            "Wait for control, then defend"
+            "Wait for full control, then react",
+            "Grab their belt and stall"
           ],
           "trap": [
-            "Pull leg free, create distance"
+            "Straighten the leg to yank it out"
           ]
         }
       },
@@ -561,14 +561,14 @@
         "question": "What makes defending the kneebar from Inside Sankaku different from defending a standard kneebar?",
         "answer": "The Inside Sankaku entanglement restricts your hip mobility and prevents the standard kneebar defense of simply pulling the leg free and creating distance. Your leg is trapped in the opponent's figure-four configuration, limiting both rotational and linear escape movements. The attacker maintains knee line control throughout the kneebar attempt, preventing you from rotating to alleviate pressure as easily as against an open kneebar. This makes early recognition during the transition phase far more critical for successful defense.",
         "safety_critical": false,
-        "answer_line": "Leg trapped, cant pull free",
+        "answer_line": "Figure-four traps the leg, no exit",
         "distractors": {
           "plausible": [
-            "Rotation escape works easily",
-            "Distance creates space quickly"
+            "Hips stay free to rotate out",
+            "Backing away creates space fast"
           ],
           "trap": [
-            "Pull leg out like open kneebar"
+            "Yank the leg straight out hard"
           ]
         }
       },
@@ -579,8 +579,8 @@
         "answer_line": "Stop, drop hips, release slow",
         "distractors": {
           "plausible": [
-            "Release grip immediately fast",
-            "Ask partner to reset stance"
+            "Let go of the ankle instantly",
+            "Roll away and stand up first"
           ],
           "trap": [
             "Hold briefly to confirm finish"

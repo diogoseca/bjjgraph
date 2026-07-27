@@ -324,7 +324,7 @@
             "Opponent leaning back away"
           ],
           "trap": [
-            "Opponent's hands both on hooks"
+            "Attack as they turn in to face you"
           ]
         }
       },
@@ -354,7 +354,7 @@
             "Collar hand fully released"
           ],
           "trap": [
-            "Opponent's hand grips your wrist"
+            "Pause to adjust once under the chin"
           ]
         }
       },
@@ -369,7 +369,7 @@
             "Switch hands to re-thread arm"
           ],
           "trap": [
-            "Yank their trapped hand out"
+            "Post both hands, abandon hooks"
           ]
         }
       },
@@ -377,14 +377,14 @@
         "question": "What are the critical finishing errors that reduce effectiveness and increase injury risk?",
         "answer": "The most dangerous error is placing the forearm directly across the trachea, creating a windpipe crush instead of a blood choke. Other common errors include cranking the neck backward by pulling the head rather than squeezing elbows together, failing to use the locking hand to push the head forward into the choke, and applying explosive jerking force rather than progressive steady compression. Each error reduces submission effectiveness while increasing injury risk substantially.",
         "safety_critical": true,
-        "answer_line": "Forearm on trachea, not carotids",
+        "answer_line": "Blade on carotids, squeeze elbows",
         "distractors": {
           "plausible": [
-            "Squeezing elbows too gently",
-            "Pushing head forward too soon"
+            "Reach across for a deeper grip",
+            "Hold a static grip and wait"
           ],
           "trap": [
-            "Jerk head back explosively"
+            "Crush the windpipe with forearm"
           ]
         }
       },
@@ -392,14 +392,14 @@
         "question": "What safety precautions are essential when training the RNC from Invisible Collar?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum and never snap or jerk the choke. Ensure the forearm blade sits against the carotid arteries, not the trachea. Release immediately upon any tap signal including verbal, physical hand tap, foot tap, or going limp. After release, monitor your partner for 30 seconds minimum and keep them lying down if they lost consciousness. Never hold past the tap under any circumstances regardless of training context.",
         "safety_critical": true,
-        "answer_line": "Ramp pressure slow, tap = release",
+        "answer_line": "Slow ramp, release on any tap",
         "distractors": {
           "plausible": [
-            "Only stop for a hand or foot tap",
-            "Let them stand right after release"
+            "Wait for a verbal signal only",
+            "Let them stand up right away"
           ],
           "trap": [
-            "Loosen the choke to check for a tap"
+            "Keep squeezing until they go limp"
           ]
         }
       },
@@ -425,11 +425,11 @@
         "answer_line": "Deepen collar until two-hand defense",
         "distractors": {
           "plausible": [
-            "Switch immediately every time",
-            "Attempt RNC before any collar"
+            "Switch on the first flinch",
+            "Start with RNC, no collar"
           ],
           "trap": [
-            "Switch the moment one hand grips"
+            "Abandon hooks to force the switch"
           ]
         }
       },
@@ -441,10 +441,10 @@
         "distractors": {
           "plausible": [
             "Slow gradual switch for control",
-            "Wait for perfect hand position"
+            "Prioritize points over the finish"
           ],
           "trap": [
-            "Adjust grip before squeezing"
+            "Unhook legs to chase the grip"
           ]
         }
       }
@@ -564,7 +564,7 @@
             "Focused on their own grip depth"
           ],
           "trap": [
-            "Turn toward to kill the choke"
+            "Assume real finish, strip two-handed"
           ]
         }
       },
@@ -575,8 +575,8 @@
         "answer_line": "Tap early, physical and verbal",
         "distractors": {
           "plausible": [
-            "Wait to confirm it's locked",
-            "Tap only once fully sealed"
+            "Signal only if arms come free",
+            "One light touch is enough"
           ],
           "trap": [
             "Fight until vision narrows"
@@ -594,7 +594,7 @@
             "Turning hips away too soon"
           ],
           "trap": [
-            "Keep one hand on the neck"
+            "Reach back to grab their head"
           ]
         }
       },

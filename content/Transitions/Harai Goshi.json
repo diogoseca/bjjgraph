@@ -263,7 +263,7 @@
             "Stomp on their planted foot"
           ],
           "trap": [
-            "Kick hard at their ankle"
+            "Commit full weight to a kick"
           ]
         }
       },
@@ -382,14 +382,14 @@
       {
         "question": "In competition, your opponent is stalling in a bent-over defensive posture with head low and hips back - can you hit Harai Goshi from here, and if so how?",
         "answer": "A bent-over defensive posture with hips back is one of the worst positions from which to attempt standard Harai Goshi, because you cannot get your hips below theirs when their center of gravity is already low and withdrawn. However, you can use this posture against them by first using a snap-down or collar drag to further commit their weight forward and downward, then immediately driving your hips in as they attempt to recover their posture. The moment they lift their head and straighten their back is your window - their center of gravity rises and moves forward simultaneously. Alternatively, use Kouchi Gari or Ouchi Gari to attack their forward-weighted feet, and when they step back to recover base, their posture straightens naturally and opens the Harai Goshi entry. Never force the throw against an opponent whose hips are already lower than yours.",
-        "answer_line": "No - wait for them to rise",
+        "answer_line": "Snap them down, then attack",
         "distractors": {
           "plausible": [
-            "Yes, force hips in anyway",
-            "Switch immediately to armbar"
+            "Wait for them to stand tall",
+            "Pull guard and reset"
           ],
           "trap": [
-            "Drive hips in while they're low"
+            "Force your hips in while low"
           ]
         }
       },
@@ -582,10 +582,10 @@
         "distractors": {
           "plausible": [
             "Wait a moment then attack",
-            "Break grips and reset"
+            "Back away to create space"
           ],
           "trap": [
-            "Reset to neutral stance"
+            "Turn away to break their grips"
           ]
         }
       },

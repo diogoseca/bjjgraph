@@ -384,7 +384,7 @@
           "Entanglement is the submission"
         ],
         "trap": [
-          "Only leg locks need entanglement"
+          "Crank the lock with no position"
         ]
       }
     },
@@ -398,21 +398,21 @@
           "Gives you an outside angle"
         ],
         "trap": [
-          "Lets you ignore heel exposure"
+          "Ignore their free leg entirely"
         ]
       }
     },
     {
       "question": "What does 'heel exposure' mean and why does it matter?",
       "answer": "Heel exposure is controlling and surfacing the opponent's heel rather than letting them hide it behind their hip or knee line; without exposure even a dominant entanglement produces no finishing threat for heel hooks.",
-      "answer_line": "Surface the heel, don't hide it",
+      "answer_line": "Surfacing the heel to attack it",
       "distractors": {
         "plausible": [
-          "Trapping the foot flat",
-          "Controlling the ankle line"
+          "Pinning their foot flat",
+          "Squeezing the ankle harder"
         ],
         "trap": [
-          "Let them hide heel, still safe"
+          "Crank the twist with no control"
         ]
       }
     },
@@ -464,8 +464,8 @@
       "answer_line": "Getting caught back, like 50-50",
       "distractors": {
         "plausible": [
-          "Only a risk for beginners",
-          "Happens only in outside ashi"
+          "They strip your locking grips",
+          "They stand and back away"
         ],
         "trap": [
           "Jam legs deeper to avoid it"
@@ -482,7 +482,7 @@
           "Straight from mount or back"
         ],
         "trap": [
-          "Standing leg kicks set it up"
+          "Dive on legs with no control"
         ]
       }
     },
@@ -506,11 +506,11 @@
       "answer_line": "ID the entanglement early",
       "distractors": {
         "plausible": [
-          "Wait for the heel hook to lock",
-          "Focus only on hand fighting"
+          "Hand fight first, assess later",
+          "Rely on flexibility to slip out"
         ],
         "trap": [
-          "Stay still to avoid deeper trouble"
+          "Wait for the heel hook to lock"
         ]
       }
     }

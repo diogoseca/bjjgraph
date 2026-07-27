@@ -322,11 +322,11 @@
         "answer_line": "LCL and posterolateral corner",
         "distractors": {
           "plausible": [
-            "ACL and meniscus",
-            "MCL and medial meniscus"
+            "MCL and medial meniscus",
+            "Hamstring insertion at the knee"
           ],
           "trap": [
-            "Achilles tendon and ankle"
+            "Ankle only, safe to ride it out"
           ]
         }
       },
@@ -334,14 +334,14 @@
         "question": "What physical indicators tell you the outside heel hook is reaching the breaking point?",
         "answer": "You will feel progressive tightening as slack is eliminated, followed by resistance increasing sharply as the ligaments reach their tension limit. The opponent's body may involuntarily tense or twist. Any verbal distress, sharp intake of breath, frantic tapping, or sudden body rigidity means you must immediately release all rotational pressure without any delay. The LCL can fail with minimal warning compared to other ligaments.",
         "safety_critical": true,
-        "answer_line": "Resistance spikes, then tap signal",
+        "answer_line": "Sharp resistance spike, then tap",
         "distractors": {
           "plausible": [
-            "Opponent goes completely limp",
-            "Gradual even stretching sensation"
+            "Slow steady stretch, no spike",
+            "Opponent relaxes and goes limp"
           ],
           "trap": [
-            "Ignore resistance, keep cranking"
+            "Wait for an audible pop"
           ]
         }
       },
@@ -379,14 +379,14 @@
         "question": "What is the most common finishing error that allows opponents to escape the outside heel hook?",
         "answer": "The most common finishing error is using only arm strength to apply rotation instead of engaging the entire torso. Arms alone cannot generate sufficient torque against a resisting opponent and fatigue rapidly. The correct technique uses core rotation with elbows pinched to the chest, letting the turning of the shoulders and trunk generate breaking force while the arms maintain the grip configuration and transfer that torque to the heel.",
         "safety_critical": false,
-        "answer_line": "Using arms only, not torso rotation",
+        "answer_line": "Arms only, no torso rotation",
         "distractors": {
           "plausible": [
-            "Rotating too fast for control",
-            "Squeezing triangle too hard"
+            "Grip too deep under the heel",
+            "Hips too close to their thigh"
           ],
           "trap": [
-            "Yank arms back explosively"
+            "Rip it fast and explosively"
           ]
         }
       },
@@ -412,11 +412,11 @@
         "answer_line": "Slow pressure, watch for taps",
         "distractors": {
           "plausible": [
-            "Fast pressure, ask verbally",
-            "Moderate pressure, check hands only"
+            "Check only for a hand tap",
+            "Trust partner to pull leg free"
           ],
           "trap": [
-            "Full speed like competition"
+            "Apply at full competition speed"
           ]
         }
       },
@@ -427,11 +427,11 @@
         "answer_line": "Follow rotation, tighten triangle",
         "distractors": {
           "plausible": [
-            "Pull straight back to stop rotation",
-            "Release grip and re-shoot"
+            "Pull straight back to stall them",
+            "Square your hips to theirs"
           ],
           "trap": [
-            "Chase by extending your arms"
+            "Reach out with arms to chase"
           ]
         }
       },
@@ -586,11 +586,11 @@
         "answer_line": "Hand withdraws, forearm crosses out",
         "distractors": {
           "plausible": [
-            "Sudden increase in grip pressure",
-            "Opponent's hips square up"
+            "Grip pressure suddenly increases",
+            "Their hips square to yours"
           ],
           "trap": [
-            "Foot suddenly goes numb"
+            "Wait until it hurts to react"
           ]
         }
       },
@@ -601,11 +601,11 @@
         "answer_line": "Any rotation felt after grip locks",
         "distractors": {
           "plausible": [
-            "Only when sharp pain hits",
-            "Wait until you hear a pop"
+            "Once your knee starts to ache",
+            "When you run out of grip fights"
           ],
           "trap": [
-            "Try to power out first"
+            "Wait to hear a pop"
           ]
         }
       },
@@ -613,14 +613,14 @@
         "question": "What is your best defensive option when you feel the outside heel hook grip being established?",
         "answer": "Your best option depends on timing. If the grip transition has just begun, explosive hip rotation toward 50-50 guard exploits the weakened control during the switch. If the cup is forming but the figure-four is not locked, commit both hands to two-on-one grip stripping of the cupping hand. If the figure-four is already locked with rotational pressure beginning, tap immediately. The worst decision is to freeze and assess the situation because every defensive option has a narrow timing window.",
         "safety_critical": false,
-        "answer_line": "Match response to grip stage",
+        "answer_line": "Stage-dependent: strip, rotate, tap",
         "distractors": {
           "plausible": [
-            "Always rotate to 50-50 first",
-            "Always tap immediately"
+            "Always spin to 50-50 first",
+            "Yank the trapped foot straight out"
           ],
           "trap": [
-            "Freeze and assess situation"
+            "Turn away from the attack"
           ]
         }
       },
@@ -631,8 +631,8 @@
         "answer_line": "Two-on-one strip cupping hand",
         "distractors": {
           "plausible": [
-            "Pull knee straight to defend",
-            "Wait for full lock, then tap"
+            "Hand-fight one grip at a time",
+            "Point your toes and flex hard"
           ],
           "trap": [
             "Kick free with sudden force"

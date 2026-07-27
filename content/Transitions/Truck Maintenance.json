@@ -265,10 +265,10 @@
         "distractors": {
           "plausible": [
             "Chest pressure on upper back",
-            "Figure-four leg lock tightness"
+            "Figure-four leg tightness"
           ],
           "trap": [
-            "Cross-face grip on far shoulder"
+            "Release the boot to climb up"
           ]
         }
       },
@@ -278,8 +278,8 @@
         "answer_line": "Threaten neck to pull a hand back",
         "distractors": {
           "plausible": [
-            "Re-seat boot deeper immediately",
-            "Switch to underhook control"
+            "Squeeze the figure-four harder",
+            "Wait for them to tire out"
           ],
           "trap": [
             "Release boot, chase far-side sub"
@@ -296,21 +296,21 @@
             "Hunt submissions continuously"
           ],
           "trap": [
-            "Grip and pull with arms nonstop"
+            "Loosen the legs to rest"
           ]
         }
       },
       {
         "question": "What indicators tell you truck maintenance is failing and you should transition to back control?",
         "answer": "Key failure indicators include: boot pressure reduced below effective torque despite re-seating attempts, opponent's trapped leg more than halfway extracted from entanglement, opponent achieving significant hip rotation toward facing you, or opponent establishing a strong frame that prevents re-establishment of chest pressure. When two or more of these occur simultaneously, immediately transition to back control by inserting hooks rather than fighting a losing maintenance battle.",
-        "answer_line": "2+ warning signs, insert hooks",
+        "answer_line": "2+ warning signs, take the back",
         "distractors": {
           "plausible": [
-            "Boot pressure drops, re-seat",
-            "Wait for leg to fully escape"
+            "Re-seat boot on first sign",
+            "Squeeze harder to hold on"
           ],
           "trap": [
-            "Hold pressure, ignore frame"
+            "Hold pressure, ignore the frame"
           ]
         }
       },
@@ -335,7 +335,7 @@
         "distractors": {
           "plausible": [
             "Tire the opponent out physically",
-            "Score points during scrambles"
+            "Open a lane to switch position"
           ],
           "trap": [
             "Ignore position, hunt tap only"
@@ -537,7 +537,7 @@
         "answer_line": "Bend knee, rotate hip, tap if needed",
         "distractors": {
           "plausible": [
-            "Push through and extract leg",
+            "Bridge to create space",
             "Wait it out, pressure will ease"
           ],
           "trap": [
@@ -548,14 +548,14 @@
       {
         "question": "What determines whether you should attempt a granby roll or a hip escape from truck bottom?",
         "answer": "Choose granby roll when the attacker's weight is committed forward over your upper body, as the roll uses their forward pressure as momentum to generate rotation. Choose hip escape when the attacker has loose upper body control but maintains strong boot and leg entanglement, because shrimping creates the angles needed to work the trapped leg free. Granby requires space and momentum to initiate effectively, while hip escape works in tighter configurations where rolling is not feasible.",
-        "answer_line": "Granby vs forward weight, else hip",
+        "answer_line": "Granby if weight forward, else hip",
         "distractors": {
           "plausible": [
             "Always granby for more space",
-            "Hip escape whenever weight forward"
+            "Hip escape when weight forward"
           ],
           "trap": [
-            "Roll into their forward pressure"
+            "Roll the wrong way, feed the back"
           ]
         }
       },

@@ -104,8 +104,8 @@
         "answer_line": "Drive hips forward, follow escape",
         "distractors": {
           "plausible": [
-            "Pull the trapped knee straight in",
-            "Match hips but loosen leg config"
+            "Hold position, squeeze knees still",
+            "Lean back to stretch them out"
           ],
           "trap": [
             "Release legs to re-angle entry"
@@ -150,7 +150,7 @@
             "Two-on-one grip, elbows flared out"
           ],
           "trap": [
-            "Grip toes instead of the heel"
+            "Uncross legs to crank harder"
           ]
         }
       },
@@ -160,8 +160,8 @@
         "answer_line": "Hip pressure, elevate knee, toe hold",
         "distractors": {
           "plausible": [
-            "Pry heel off hip with hands",
-            "Wait for them to move it"
+            "Pry the heel free with both hands",
+            "Squeeze knees, crank without heel"
           ],
           "trap": [
             "Abandon position, chase kneebar"
@@ -175,7 +175,7 @@
         "distractors": {
           "plausible": [
             "Release leg, sprawl to disengage",
-            "Stop roll but don't chase saddle"
+            "Roll the opposite way to block"
           ],
           "trap": [
             "Let them roll free, reset guard"
@@ -188,8 +188,8 @@
         "answer_line": "Hip pressure, patient, not arms",
         "distractors": {
           "plausible": [
-            "Explosive bursts to force tap",
-            "Grip strength through the hands"
+            "Grip strength through the hands",
+            "Constant readjusting to stay tight"
           ],
           "trap": [
             "Rush finish before they tire"
@@ -202,8 +202,8 @@
         "answer_line": "Re-hook leg, recapture knee line",
         "distractors": {
           "plausible": [
-            "Wait for full escape then reset",
-            "Grab ankle only, ignore knee line"
+            "Grab ankle only, ignore knee line",
+            "Sit up, push their leg back in"
           ],
           "trap": [
             "Chase heel grip, ignore leg recovery"
@@ -597,11 +597,11 @@
         "answer_line": "Turning in feeds the Saddle entry",
         "distractors": {
           "plausible": [
-            "Pulling knee up aids their control",
+            "Extending both legs out straight",
             "Posting hands instead of hips"
           ],
           "trap": [
-            "Turn in to clear the knee line"
+            "Swing free leg across their body"
           ]
         }
       },
@@ -650,11 +650,11 @@
       {
         "question": "If a Granby roll escape attempt fails and you end up in Turtle, what position are you likely transitioning to?",
         "answer": "A failed Granby roll from Inside Sankaku typically transitions you to Turtle position with your opponent in a seated or kneeling position behind you, still potentially controlling your trapped leg. From here, you've escaped the immediate heel hook danger but face back exposure threats. The opponent may pursue back control or attempt to re-enter leg entanglements. Protect your neck and establish defensive grips to prevent seatbelt control while you work to recompose to guard.",
-        "answer_line": "Turtle, opponent behind you",
+        "answer_line": "Turtle facing back-take threats",
         "distractors": {
           "plausible": [
-            "Back to guard, leg still trapped",
-            "Scramble to top position"
+            "Closed guard, safe reset",
+            "Top position off the scramble"
           ],
           "trap": [
             "Turn to face them immediately"
@@ -664,11 +664,11 @@
       {
         "question": "When is attempting a counter leg attack a viable strategy from Inside Sankaku bottom?",
         "answer": "Counter leg attacks are viable when: (1) the opponent is focused on submission grips rather than positional control, creating upper body openings, (2) you can reach their free leg or expose their heel without worsening your heel exposure, or (3) you can transition to 50-50 guard where the entanglement becomes symmetrical. This is generally a last-resort strategy for experienced practitioners - prioritize escape over counter-attack unless escape has failed repeatedly and you have clear access to their leg.",
-        "answer_line": "Their grip focus opens your leg",
+        "answer_line": "They chase grips, leg in reach",
         "distractors": {
           "plausible": [
             "Anytime escape feels difficult",
-            "Only after escaping heel danger"
+            "As soon as they touch your foot"
           ],
           "trap": [
             "Attack instead of defending heel"
@@ -681,8 +681,8 @@
         "answer_line": "Hide heel, wait for their openings",
         "distractors": {
           "plausible": [
-            "Constant explosive escape attempts",
-            "Match their patience with grips"
+            "Hand fight their grips nonstop",
+            "Stay flat until they release"
           ],
           "trap": [
             "Frantic struggle to force escape"
@@ -958,21 +958,21 @@
           "Single hook, no crossed legs"
         ],
         "trap": [
-          "Outside leg exposes far heel"
+          "Lock below their knee, no pinch"
         ]
       }
     },
     {
       "question": "Why is control of the knee line considered the pivotal battleground for both players in Inside Sankaku?",
       "answer": "The knee line is the boundary that determines whether the entangling player retains rotational control or the trapped player can spin free. As long as the crossed legs stay above and across the opponent's knee, the trapped leg cannot rotate to clear the inside heel exposure. If the trapped leg's knee gets past that barrier, the heel hook angle is neutralized and escape or counter paths open. Both players therefore orient their entire effort around this line: one fights to hold it, the other fights to cross it, which makes it the true fulcrum of the position rather than the heel itself.",
-      "answer_line": "Line between rotation and escape",
+      "answer_line": "Gate between rotation and escape",
       "distractors": {
         "plausible": [
-          "Hip connection is the real fulcrum",
-          "Heel grip is the true battleground"
+          "Ankle grips decide the exchange",
+          "Upper-body frames decide it"
         ],
         "trap": [
-          "Knee line barely matters here"
+          "Let their knee cross your lock"
         ]
       }
     },
@@ -982,11 +982,11 @@
       "answer_line": "Closes distance, locks figure-four",
       "distractors": {
         "plausible": [
-          "Only matters for the top player",
-          "Grip strength substitutes for hips"
+          "Foot pressure holds it alone",
+          "Hand grips keep the leg trapped"
         ],
         "trap": [
-          "Space hips apart for base"
+          "Let hips drift, trust the feet"
         ]
       }
     },
@@ -996,11 +996,11 @@
       "answer_line": "Both legs committed, no pure pin",
       "distractors": {
         "plausible": [
-          "Top player is fully dominant",
-          "Only bottom player is exposed"
+          "Grip fighting decides control",
+          "One side keeps both limbs free"
         ],
         "trap": [
-          "Free your hands, ignore legs"
+          "Coast like it's side control"
         ]
       }
     },
@@ -1010,11 +1010,11 @@
       "answer_line": "Saddle stabler, Sankaku sharper",
       "distractors": {
         "plausible": [
-          "Saddle and Sankaku are identical",
-          "Sankaku traps both legs like Saddle"
+          "Sankaku controls both legs",
+          "Saddle relies on the knee pinch"
         ],
         "trap": [
-          "Sankaku is always more secure"
+          "Camp in Sankaku, it's safer"
         ]
       }
     },
@@ -1024,8 +1024,8 @@
       "answer_line": "Turning in feeds second leg in",
       "distractors": {
         "plausible": [
-          "Turning in creates hip space",
-          "Direction doesn't matter, escape"
+          "It slackens their figure-four",
+          "Inward spin hides your heel"
         ],
         "trap": [
           "Rotate toward them to clear knee"
@@ -1038,11 +1038,11 @@
       "answer_line": "Inside heel hook is primary threat",
       "distractors": {
         "plausible": [
-          "Outside heel hook is primary threat",
-          "Armbar becomes the main threat"
+          "Toe hold is the main finish",
+          "Kneebar is the top submission"
         ],
         "trap": [
-          "Heel direction is irrelevant here"
+          "Chase the armbar, drop the legs"
         ]
       }
     },
@@ -1052,8 +1052,8 @@
       "answer_line": "Weight through hips, not hands",
       "distractors": {
         "plausible": [
-          "Grip strength holds the position",
-          "Posting hands frees the hips"
+          "Speed and scrambles hold it",
+          "Post on the mat to stay heavy"
         ],
         "trap": [
           "Grind with forearms for control"

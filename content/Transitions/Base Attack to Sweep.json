@@ -311,14 +311,14 @@
       {
         "question": "Why must you maintain shoulder protection throughout the sweep attempt?",
         "answer": "The opponent may abandon the sweep defense and commit to finishing the shoulder lock during your transition. If you sacrifice shoulder safety for sweep mechanics, you risk injury during the position change. Tap immediately if shoulder reaches dangerous range regardless of sweep progress.",
-        "answer_line": "They may finish the lock anyway",
+        "answer_line": "Opponent can still finish the lock",
         "distractors": {
           "plausible": [
-            "Shoulder risk ends once sweeping",
-            "Only protect after sweep lands"
+            "Sweeping motion blocks the armlock",
+            "Defensive grip alone keeps you safe"
           ],
           "trap": [
-            "Sacrifice shoulder for speed"
+            "Ignore the arm and rip the sweep"
           ]
         }
       },
@@ -517,11 +517,11 @@
         "answer_line": "Weight shift feeds the sweep",
         "distractors": {
           "plausible": [
-            "It slows down the submission",
-            "It only risks the opponent's arm"
+            "Tires you out with no real risk",
+            "It just stalls the arm attack"
           ],
           "trap": [
-            "Drive forward to finish fast"
+            "Post the trapped arm on the mat"
           ]
         }
       }

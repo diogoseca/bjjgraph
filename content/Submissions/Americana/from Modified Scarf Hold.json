@@ -303,7 +303,7 @@
             "Wrist flexion overload"
           ],
           "trap": [
-            "Neck and carotid artery"
+            "Only muscle, safe to crank fast"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "answer_line": "Deeper wrist grip, more pressure",
         "distractors": {
           "plausible": [
-            "Switch to gi-style sleeve grip",
-            "Speed up the finish"
+            "Hold the forearm instead",
+            "Rush the finish"
           ],
           "trap": [
-            "Loosen grip to regain control"
+            "Ease off to reposition"
           ]
         }
       },
@@ -389,11 +389,11 @@
         "answer_line": "Increase pressure, threaten kimura",
         "distractors": {
           "plausible": [
-            "Pull the anchored arm directly",
-            "Abandon and pass to mount"
+            "Abandon and pass to mount",
+            "Release and reset the grip"
           ],
           "trap": [
-            "Yank the arm to break the grip"
+            "Yank the arm free explosively"
           ]
         }
       },
@@ -528,14 +528,14 @@
         "question": "How do you recognize the Americana from Modified Scarf Hold is being set up?",
         "answer": "The primary recognition cue is feeling the attacker's underhook hand begin sliding along your arm toward your wrist rather than maintaining its standard position. Their free hand will reach underneath your elbow to establish the figure-four. Chest pressure typically increases as they stabilize for the finish. Recognizing this transition within the first 1-2 seconds is critical because defense becomes dramatically harder once the figure-four grip is locked.",
         "safety_critical": false,
-        "answer_line": "Hand slides to your wrist",
+        "answer_line": "Their hand slides toward your wrist",
         "distractors": {
           "plausible": [
-            "Opponent grips your collar",
-            "Weight shifts to your legs"
+            "They switch grips to your collar",
+            "Their weight shifts to your legs"
           ],
           "trap": [
-            "Ignore it, it's not a threat"
+            "Wait for the figure-four to lock"
           ]
         }
       },
@@ -543,14 +543,14 @@
         "question": "What is the safest way to tap to the Americana from Modified Scarf Hold?",
         "answer": "Tap early and clearly using multiple signals. The preferred method is verbal tap combined with physical tapping on the attacker's body or the mat with your free hand. In modified scarf hold, your far hand is typically free to tap, so use it immediately when you feel shoulder rotation approaching your pain threshold. Do not wait until pain is severe, as shoulder joint damage can occur rapidly once the rotational limit is reached. Tap at least twice with clear, firm contact.",
         "safety_critical": true,
-        "answer_line": "Tap early, verbal plus physical",
+        "answer_line": "Tap early, verbal and physical",
         "distractors": {
           "plausible": [
-            "Wait until pain is severe",
-            "Tap once, then verify"
+            "Tap with the trapped-side hand",
+            "Nod your head as the signal"
           ],
           "trap": [
-            "Try to power out first"
+            "Power out before you tap"
           ]
         }
       },
@@ -558,14 +558,14 @@
         "question": "What defensive options are available against the Americana from Modified Scarf Hold?",
         "answer": "The primary options in order of priority are: prevent wrist isolation by keeping the elbow connected to your ribs; anchor the trapped arm by gripping your own lapel, shorts, or far bicep; straighten the arm to prevent the figure-four from locking; turn toward the attacker to reduce the external rotation angle; and bridge toward the americana side to create space for guard recovery. Effectiveness depends heavily on timing, with earlier intervention providing significantly better results.",
         "safety_critical": false,
-        "answer_line": "Keep elbow tight to ribs",
+        "answer_line": "Keep your elbow tight to your ribs",
         "distractors": {
           "plausible": [
-            "Anchor hand to opposite hip",
-            "Turn away from the attacker"
+            "Push the attacker's face away",
+            "Bridge away from the lock side"
           ],
           "trap": [
-            "Push off and turtle away"
+            "Turn away and turtle out"
           ]
         }
       },

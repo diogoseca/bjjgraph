@@ -316,7 +316,7 @@
         "distractors": {
           "plausible": [
             "2-3 seconds is enough",
-            "Speed doesn't matter, just tap"
+            "Match your competition pace"
           ],
           "trap": [
             "Apply full force immediately"
@@ -349,7 +349,7 @@
             "Both legs over the trapped arm"
           ],
           "trap": [
-            "Let arm slip between shins"
+            "Unhook to swap leg position"
           ]
         }
       },
@@ -357,14 +357,14 @@
         "question": "Why is proper body angle (perpendicular to opponent) crucial in the monoplata?",
         "answer": "Being perpendicular to your opponent's body ensures that the rotational pressure is applied correctly to the shoulder joint rather than to the elbow or other areas. This angle allows their arm to point toward their own head, which maximizes the shoulder lock's effectiveness while minimizing risk of elbow injury. An incorrect angle (too parallel to opponent) can result in dangerous pressure on the wrong joint and significantly reduces the submission's effectiveness.",
         "safety_critical": false,
-        "answer_line": "Stay perpendicular to opponent",
+        "answer_line": "Puts pressure on shoulder not elbow",
         "distractors": {
           "plausible": [
-            "Angle 45 degrees to opponent",
-            "Face same direction as opponent"
+            "Keeps your weight balanced",
+            "Frees a leg to reposition"
           ],
           "trap": [
-            "Stay parallel, chest to chest"
+            "Lets you crank into the neck"
           ]
         }
       },
@@ -375,8 +375,8 @@
         "answer_line": "Block far hip with free leg",
         "distractors": {
           "plausible": [
-            "Follow them over immediately",
-            "Tighten grip and wait"
+            "Tighten grip and wait",
+            "Post your hand on the mat"
           ],
           "trap": [
             "Resist the roll with the lock"
@@ -450,8 +450,8 @@
         "answer_line": "Increase angle, extend hips",
         "distractors": {
           "plausible": [
-            "Apply more speed and force",
-            "Switch to a straight armbar"
+            "Switch to a straight armbar",
+            "Wait for them to gas out"
           ],
           "trap": [
             "Crank harder, same position"
@@ -480,11 +480,11 @@
         "answer_line": "Loose lock, no hip block, rushed",
         "distractors": {
           "plausible": [
-            "Over-squeezing the figure-four",
-            "Blocking near hip, not far"
+            "Body angle too perpendicular",
+            "Finishing the sub too slowly"
           ],
           "trap": [
-            "Keeping wrist control too long"
+            "Unhook far leg to re-grip"
           ]
         }
       }
@@ -616,14 +616,14 @@
         "question": "Why is explosive escape from a fully locked monoplata extremely dangerous for your shoulder?",
         "answer": "When the figure-four is fully locked and the attacker has achieved perpendicular angle, your shoulder is in a mechanically compromised position where the joint capsule, rotator cuff, and labrum are all under rotational stress. An explosive escape attempt generates sudden force against this locked position, which can cause immediate shoulder dislocation, rotator cuff tears, or labrum damage. These injuries often require surgical repair and 6-12 months of recovery. The correct response to a fully locked monoplata is to tap immediately.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, don't explode",
+        "answer_line": "Shoulder joint is fully loaded",
         "distractors": {
           "plausible": [
-            "Slowly posture out of it",
-            "Wait for ref to stop it"
+            "It just tires you out",
+            "It only lets them re-grip"
           ],
           "trap": [
-            "Explosively spin out fast"
+            "Exploding out is usually safe"
           ]
         }
       },

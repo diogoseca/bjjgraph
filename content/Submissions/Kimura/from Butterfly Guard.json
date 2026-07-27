@@ -292,7 +292,7 @@
             "Wrist bones and tendons"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank harder if shoulder feels stuck"
           ]
         }
       },
@@ -303,11 +303,11 @@
         "answer_line": "C-grip wrist, figure-four, hooks in",
         "distractors": {
           "plausible": [
-            "Grab wrist, release hooks first",
-            "Underhook arm before gripping wrist"
+            "Underhook arm before gripping wrist",
+            "Square your chest to their chest"
           ],
           "trap": [
-            "Let go of hooks to chase grip"
+            "Fall flat to your back to finish"
           ]
         }
       },
@@ -318,8 +318,8 @@
         "answer_line": "Wrist past spine, hard end-range",
         "distractors": {
           "plausible": [
-            "Opponent taps verbally only",
-            "Arm fully straightened out"
+            "Arm fully straightened out",
+            "Opponent's hips lift off mat"
           ],
           "trap": [
             "Push past the first resistance"
@@ -330,14 +330,14 @@
         "question": "What control must you establish before attempting the Kimura finish from Butterfly Guard?",
         "answer": "Before finishing, you must have: secure wrist control on the target arm, a locked figure-four grip with your forearm pressing against the back of their forearm, at least one active hook preventing the opponent from creating distance, and your body angled so your chest faces the trapped shoulder. Without all four elements, the finish will be mechanically weak and the opponent will likely escape or counter.",
         "safety_critical": false,
-        "answer_line": "Figure-four wrist control locked",
+        "answer_line": "Figure-four plus hook and angle",
         "distractors": {
           "plausible": [
-            "Grip their wrist, skip the hook",
-            "Chest square before figure-four"
+            "Wrist grip alone is enough",
+            "Square your chest to their chest"
           ],
           "trap": [
-            "Release hooks, drive with both arms"
+            "Fall back flat and crank the arm"
           ]
         }
       },
@@ -363,11 +363,11 @@
         "answer_line": "Apply pressure slow, 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Fast but fully controlled speed",
-            "Pause halfway then continue"
+            "Match your partner's resistance",
+            "Set it fast, then ease off"
           ],
           "trap": [
-            "Spike pressure quickly to finish"
+            "Torque hard the moment it locks"
           ]
         }
       },
@@ -382,7 +382,7 @@
             "Loosen grip to reposition higher"
           ],
           "trap": [
-            "Release elbow pin to adjust grip"
+            "Let the arm straighten to regrip"
           ]
         }
       },
@@ -393,11 +393,11 @@
         "answer_line": "Stop, unwind slowly, release grip",
         "distractors": {
           "plausible": [
-            "Release grip suddenly right away",
-            "Hold position until partner moves"
+            "Let go and roll straight back in",
+            "Ease off but keep the figure-four"
           ],
           "trap": [
-            "Let arm spring back on its own"
+            "Hold the crank a beat longer"
           ]
         }
       },
@@ -408,11 +408,11 @@
         "answer_line": "Hooks elevate vs hips angle off",
         "distractors": {
           "plausible": [
-            "Both rely on identical leg control",
-            "Closed guard needs hooks too"
+            "Closed guard version needs hooks",
+            "Butterfly needs no grip control"
           ],
           "trap": [
-            "Butterfly gives more hip control"
+            "Skip hooks and just crank the arm"
           ]
         }
       },
@@ -562,11 +562,11 @@
         "answer_line": "Tap early: hand, foot, or verbal",
         "distractors": {
           "plausible": [
-            "Wait until pain becomes sharp",
-            "Tap only with your free hand"
+            "Ask partner to slow the lock",
+            "Only mat contact counts"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Muscle out and wait for pain"
           ]
         }
       },
@@ -577,8 +577,8 @@
         "answer_line": "Retract early, block, circle away",
         "distractors": {
           "plausible": [
-            "Pass guard as soon as caught",
-            "Wait for the rotation to slow"
+            "Wait for the rotation to slow",
+            "Bridge and bench-press the arm"
           ],
           "trap": [
             "Force a pass while hooks are in"
@@ -592,8 +592,8 @@
         "answer_line": "Locked grip and hooks control both",
         "distractors": {
           "plausible": [
-            "Escape is equally easy either way",
-            "Strength alone breaks the grip"
+            "Butterfly hooks are easy to clear",
+            "One arm retraction still works late"
           ],
           "trap": [
             "Muscle the arm free by force"

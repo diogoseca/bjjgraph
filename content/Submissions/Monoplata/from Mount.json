@@ -316,8 +316,8 @@
         "answer_line": "Apply pressure over 5-7 seconds",
         "distractors": {
           "plausible": [
-            "2-3 seconds is enough",
-            "Speed doesn't matter, just lock"
+            "Slow only for newer partners",
+            "Any speed if they know the tap"
           ],
           "trap": [
             "Snap it fast to finish quick"
@@ -331,11 +331,11 @@
         "answer_line": "Rotator cuff, labrum, capsule",
         "distractors": {
           "plausible": [
-            "Just the shoulder socket bone",
-            "Bicep and elbow ligaments"
+            "Elbow ligaments, like an armbar",
+            "Wrist tendons and forearm"
           ],
           "trap": [
-            "Wrist and forearm tendons"
+            "No real risk, crank the finish"
           ]
         }
       },
@@ -376,8 +376,8 @@
         "answer_line": "Post hand, ride the bridge",
         "distractors": {
           "plausible": [
-            "Muscle through and lock legs fast",
-            "Abandon position, reset to guard"
+            "Grab their head and squeeze",
+            "Drop weight onto their chest"
           ],
           "trap": [
             "Force the figure-four through it"
@@ -391,11 +391,11 @@
         "answer_line": "Blocks them grabbing your leg",
         "distractors": {
           "plausible": [
-            "Keeps their hips flat to mat",
-            "Prevents them from bridging"
+            "Stops them tucking their chin",
+            "Frees your hand for the finish"
           ],
           "trap": [
-            "Skip it and thread leg first"
+            "Skip it and swing leg over"
           ]
         }
       },
@@ -406,11 +406,11 @@
         "answer_line": "Verbal, hand, foot, or scream",
         "distractors": {
           "plausible": [
-            "Only a verbal tap counts",
-            "Only a hand tap on the mat"
+            "Only taps you can see count",
+            "Shouting is not a valid tap"
           ],
           "trap": [
-            "Ignore taps, finish the lock"
+            "Hold until you feel a hand tap"
           ]
         }
       },
@@ -422,10 +422,10 @@
         "distractors": {
           "plausible": [
             "Only hip extension creates force",
-            "Pressure from arm bar leverage"
+            "Elbow leverage like an armbar"
           ],
           "trap": [
-            "Wrench the wrist for finish"
+            "Crank hips before the lock sets"
           ]
         }
       },
@@ -621,7 +621,7 @@
         "distractors": {
           "plausible": [
             "Push away and create distance",
-            "Wait for figure-four to lock"
+            "Frame on their hip and shrimp"
           ],
           "trap": [
             "Straighten your trapped arm"
@@ -635,11 +635,11 @@
         "answer_line": "Early: prevent; late: mitigate",
         "distractors": {
           "plausible": [
-            "Both stages use same defense",
-            "Late-stage defense is high-percent"
+            "Late-stage has the best odds",
+            "Both stages attack the leg"
           ],
           "trap": [
-            "Try to escape after lock closes"
+            "Rip your arm out once locked"
           ]
         }
       },
@@ -650,11 +650,11 @@
         "answer_line": "Keep arms symmetric, hips active",
         "distractors": {
           "plausible": [
-            "Extend arms to push them off",
-            "Only defend the trapped side"
+            "Defend only the isolated arm",
+            "Grip their sleeve with both hands"
           ],
           "trap": [
-            "Abandon mount defense fundamentals"
+            "Extend arms to push them off"
           ]
         }
       }

@@ -246,28 +246,28 @@
       {
         "question": "What is the optimal timing window for initiating the heel drag during a mount escape sequence?",
         "answer": "The optimal timing is immediately after a subtle hip bump or bridge that creates 2-3 inches of space between the opponent's foot and the mat. This momentary lift gives your heel access to hook over their ankle or instep. Attempting the drag without this space creation results in your heel sliding off the top of their foot without catching. The bump and hook should be nearly simultaneous actions.",
-        "answer_line": "Small bump creates space first",
+        "answer_line": "Small bump, then hook together",
         "distractors": {
           "plausible": [
-            "Big explosive bridge upward",
-            "Hook immediately, no setup"
+            "Explosive vertical bridge first",
+            "Hook first, space later"
           ],
           "trap": [
-            "Big bridge, exposes arms"
+            "Turn belly down to free legs"
           ]
         }
       },
       {
         "question": "What conditions must exist before you can attempt the heel drag escape?",
         "answer": "The opponent must have at least one foot planted flat on the mat within range of your hooking leg, typically near your hip line. Your legs must have freedom of movement, meaning the opponent cannot have full grapevine hooks locked. You also need enough hip mobility to generate a small bridge or bump to create space, and your arms should be framing on the opponent's hips rather than extended where they can be attacked.",
-        "answer_line": "Foot flat on mat, no grapevine",
+        "answer_line": "Foot flat in range, no grapevine",
         "distractors": {
           "plausible": [
-            "Any time opponent is mounted",
-            "Arms extended to push off"
+            "Works from any mount position",
+            "Opponent's legs grapevined tight"
           ],
           "trap": [
-            "Extend arms to create space"
+            "Straighten arms to push mount off"
           ]
         }
       },
@@ -281,7 +281,7 @@
             "Flex ankle to pull foot in"
           ],
           "trap": [
-            "Push down on top of foot"
+            "Reach down to grab their ankle"
           ]
         }
       },
@@ -291,11 +291,11 @@
         "answer_line": "No space, weak pull, slow close",
         "distractors": {
           "plausible": [
-            "Lack of raw strength",
-            "Bad foot placement only"
+            "Simply not strong enough",
+            "Wrong hand position only"
           ],
           "trap": [
-            "Release hook to reset"
+            "Give up and stay flat under mount"
           ]
         }
       },
@@ -323,7 +323,7 @@
             "Twist foot outward"
           ],
           "trap": [
-            "Push foot away from hip"
+            "Roll belly down to yank it free"
           ]
         }
       },
@@ -333,11 +333,11 @@
         "answer_line": "Switch to elbow escape, same side",
         "distractors": {
           "plausible": [
-            "Retry heel drag harder",
-            "Bridge to upa immediately"
+            "Retry the heel drag harder",
+            "Push their knee back down"
           ],
           "trap": [
-            "Push opponent's knee down"
+            "Roll to belly away from pressure"
           ]
         }
       },
@@ -347,11 +347,11 @@
         "answer_line": "Re-pull hard, turn to half guard",
         "distractors": {
           "plausible": [
-            "Let go and reset position",
-            "Push opponent off directly"
+            "Wait for them to settle again",
+            "Straighten legs and slide out"
           ],
           "trap": [
-            "Release hook, retry from scratch"
+            "Turn to belly to hide the leg"
           ]
         }
       },
@@ -361,25 +361,25 @@
         "answer_line": "Each defense opens next escape",
         "distractors": {
           "plausible": [
-            "Heel drag replaces other escapes",
-            "Use only after upa fails"
+            "One escape beats all others",
+            "Only useful after upa fails"
           ],
           "trap": [
-            "Commit to one escape only"
+            "Stall flat and wait for an opening"
           ]
         }
       },
       {
         "question": "What distinguishes the near-side heel drag from the cross-body variation in terms of setup and application?",
         "answer": "The near-side heel drag uses the same-side heel to hook the opponent's nearest foot, requiring less hip mobility and covering a shorter distance, making it the default high-percentage option. The cross-body variation uses the opposite foot to reach across, requiring greater hip mobility and a larger bridge for space creation. The cross-body version is primarily used when the near-side foot has been retracted or when the opponent has adapted to defend the standard version, offering a different angle of attack.",
-        "answer_line": "Near-side is the default option",
+        "answer_line": "Near side: shorter reach, default",
         "distractors": {
           "plausible": [
-            "Cross-body is easier, use first",
-            "Both require equal mobility"
+            "Cross-body needs less mobility",
+            "Both cover the same distance"
           ],
           "trap": [
-            "Reach across for every attempt"
+            "Cross reach, turning your back"
           ]
         }
       }
@@ -494,11 +494,11 @@
         "answer_line": "Tuck feet tight, toes curled",
         "distractors": {
           "plausible": [
-            "Keep feet flat and wide",
-            "Post feet wide for base"
+            "Cross ankles under their back",
+            "Sit with legs straight out"
           ],
           "trap": [
-            "Plant heels flat on mat"
+            "Plant both heels flat and wide"
           ]
         }
       },
@@ -508,11 +508,11 @@
         "answer_line": "Subtle lateral bump, not big bridge",
         "distractors": {
           "plausible": [
-            "Explosive upward hip thrust",
-            "Opponent traps arm and leg"
+            "Big vertical hip thrust",
+            "They trap your arm and leg"
           ],
           "trap": [
-            "Ignore small hip movements"
+            "Lift both feet off the mat"
           ]
         }
       },
@@ -522,11 +522,11 @@
         "answer_line": "When heel catches, insert far hook",
         "distractors": {
           "plausible": [
-            "Only after losing full mount",
-            "Fight to re-establish full mount"
+            "Only once mount is already lost",
+            "Wait until half guard is locked"
           ],
           "trap": [
-            "Keep fighting to free your foot"
+            "Reach back to pry your foot free"
           ]
         }
       },
@@ -536,11 +536,11 @@
         "answer_line": "Lift foot, drive knee to armpit",
         "distractors": {
           "plausible": [
-            "Pull foot straight back hard",
-            "Push down with posted leg first"
+            "Yank foot straight backward",
+            "Cross your ankles under them"
           ],
           "trap": [
-            "Leave foot flat, brace harder"
+            "Sit tall and pry the hook loose"
           ]
         }
       }

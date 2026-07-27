@@ -358,11 +358,11 @@
         "answer_line": "Cross collar grip, same side",
         "distractors": {
           "plausible": [
-            "Wrist grip on far arm",
-            "Underhook on near side"
+            "Two-on-one wrist tie, far arm",
+            "Pants grip at the far knee"
           ],
           "trap": [
-            "Reach for a sleeve again"
+            "Turn away and roll to your knees"
           ]
         }
       },

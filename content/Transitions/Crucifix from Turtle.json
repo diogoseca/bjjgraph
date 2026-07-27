@@ -329,14 +329,14 @@
       {
         "question": "What is the correct shin placement when threading the leg over the opponent's shoulder, and why does this matter?",
         "answer": "The shin must press against the back of the opponent's shoulder blade, not over their head or neck. Shoulder placement creates a mechanical lock where the leg acts as a lever pinning the arm against the opponent's own body. Head placement is unstable because the opponent can duck their head and the arm slides free. The shoulder is a fixed bony landmark that provides consistent leverage regardless of the opponent's head movement.",
-        "answer_line": "Shin on shoulder blade, not neck",
+        "answer_line": "Shin on shoulder blade",
         "distractors": {
           "plausible": [
-            "Shin across the neck",
-            "Shin behind the head"
+            "Shin across their neck",
+            "Shin behind their head"
           ],
           "trap": [
-            "Shin under the far armpit"
+            "Shin on head, they roll you"
           ]
         }
       },
@@ -592,11 +592,11 @@
         "answer_line": "Turn in and shrimp away",
         "distractors": {
           "plausible": [
-            "Pull arm and pray",
-            "Stand up to break control"
+            "Stand up to break control",
+            "Sit back to open guard"
           ],
           "trap": [
-            "Reach back to grab the leg"
+            "Reach back to grab their leg"
           ]
         }
       }

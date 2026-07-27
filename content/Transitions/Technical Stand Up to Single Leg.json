@@ -269,11 +269,11 @@
         "answer_line": "Outside head blocks neck chokes",
         "distractors": {
           "plausible": [
-            "Inside head, closer to hips",
-            "Head position doesn't matter"
+            "Ear glued to their belt line",
+            "Chin tucked, look at the mat"
           ],
           "trap": [
-            "Inside head for tighter grip"
+            "Head inside to squeeze tighter"
           ]
         }
       },
@@ -283,11 +283,11 @@
         "answer_line": "Attack as they step forward",
         "distractors": {
           "plausible": [
-            "Attack the instant you rise",
-            "Wait for them to set stance"
+            "Fire the moment you start rising",
+            "Hold until their stance settles"
           ],
           "trap": [
-            "Wait for them to grip up first"
+            "Shoot from knees under their grips"
           ]
         }
       },
@@ -310,11 +310,11 @@
         "answer": "A locked-elbow posted hand, a vertical-shin lead leg, and an active frame redirect forward pressure into the ground through your skeleton. The posted hand's locked elbow creates a structural brace that absorbs the drive through skeletal alignment rather than muscular effort, while the extended lead leg with vertical shin provides a stable base for driving upward. The non-posted hand actively frames against the opponent's torso or head to create separation distance. Keeping the back straight and head up maintains spinal integrity, so the combined structure can absorb the opponent's pressure without collapsing.",
         "distractors": {
           "plausible": [
-            "Bent elbow post, low base",
-            "Straight back, no active frame"
+            "Both hands posted behind you",
+            "Bent elbow, hips low and heavy"
           ],
           "trap": [
-            "Relax post, absorb with muscle"
+            "Turn away and give your back"
           ]
         },
         "answer_line": "Locked post, vertical shin, frame"
@@ -324,28 +324,28 @@
         "answer": "Gripping behind the knee controls the joint directly and shortens the lever arm, so the opponent cannot easily hop, post, or kick the leg free. The knee has restricted range of motion when compressed from behind, making extraction difficult, and the shorter lever makes it easier for you to lift and manipulate the leg. Pinching your elbows together with a behind-the-knee grip creates a tight cradle that is extremely difficult to break compared to a loose grip above the knee.",
         "distractors": {
           "plausible": [
-            "Grip above knee for reach",
-            "Grip the ankle for control"
+            "Above knee gives longer reach",
+            "Ankle grip pins the foot down"
           ],
           "trap": [
-            "Loose grip lets leg breathe"
+            "Hug high thigh, head inside"
           ]
         },
-        "answer_line": "Grip behind the knee, not above"
+        "answer_line": "Shortens lever, kills the hop"
       },
       {
         "question": "When should you abandon the technical standup attempt entirely and choose a different escape strategy?",
         "answer": "Abandon standing when the opponent has back hooks and harness control, crossface repeatedly breaks your post, or a locked choke demands immediate defense. Also abandon when your base has been compromised to the point where standing exposes you to a worse position. In these cases, focus on position-specific escapes first: hand fighting and hook removal from back control, elbow escape from mount, or shrimping from side control.",
         "distractors": {
           "plausible": [
-            "Always finish the standup",
-            "Standup first, defend after"
+            "Only when you start to gas out",
+            "When they pass to side control"
           ],
           "trap": [
-            "Post hard and force the stand"
+            "Turn belly-down and post up"
           ]
         },
-        "answer_line": "Hooks in or choke on, stay down"
+        "answer_line": "Hooks or choke on: escape first"
       },
       {
         "question": "Your opponent reads your single leg entry and starts to whizzer your arm - how do you use this against them?",
@@ -353,11 +353,11 @@
         "answer_line": "Circle to whizzer side, take back",
         "distractors": {
           "plausible": [
-            "Fight the whizzer off directly",
-            "Retreat and reset the shot"
+            "Muscle the overhook off first",
+            "Switch to a double leg shot"
           ],
           "trap": [
-            "Pull straight back against it"
+            "Drop to knees and hold the leg"
           ]
         }
       },
@@ -381,11 +381,11 @@
         "answer_line": "Weight forward, lead foot steps",
         "distractors": {
           "plausible": [
-            "Opponent circling on toes",
-            "Opponent sitting back in hips"
+            "When they bounce on their toes",
+            "Right after they step backward"
           ],
           "trap": [
-            "Opponent squaring up their base"
+            "Shoot when their hips are back"
           ]
         }
       },
@@ -524,11 +524,11 @@
         "answer_line": "Crash it as they first post hand",
         "distractors": {
           "plausible": [
-            "Wait until they're halfway up",
-            "Let them stand, then crossface"
+            "Only once they clear their hips",
+            "After they turn to face you"
           ],
           "trap": [
-            "Attack after they're fully up"
+            "Dive for their legs from knees"
           ]
         }
       },
@@ -538,11 +538,11 @@
         "answer_line": "Sprawl hips back, chest up",
         "distractors": {
           "plausible": [
-            "Sprawl forward into the shot",
-            "Sit hips down, chest down"
+            "Square up and push their head",
+            "Pull guard before they finish"
           ],
           "trap": [
-            "Stand tall and back away"
+            "Turn away and run backward"
           ]
         }
       },
@@ -552,11 +552,11 @@
         "answer_line": "Whizzer, circle hips, crossface",
         "distractors": {
           "plausible": [
-            "Crossface first, then whizzer",
-            "Sprawl back, then whizzer"
+            "Push their head down first",
+            "Hop back on the free leg"
           ],
           "trap": [
-            "Pull guard to reset position"
+            "Turn your back and scramble out"
           ]
         }
       },
@@ -566,11 +566,11 @@
         "answer_line": "Stay chest-to-back, deny space",
         "distractors": {
           "plausible": [
-            "Create distance, reset stance",
-            "Release grips, circle away"
+            "Give space to time their rise",
+            "Let them rise, then shoot in"
           ],
           "trap": [
-            "Back off to avoid the level change"
+            "Grab a guillotine as they rise"
           ]
         }
       },
@@ -580,11 +580,11 @@
         "answer_line": "Pull foot back, snap head down",
         "distractors": {
           "plausible": [
-            "Kick free and retreat fully",
-            "Post hands, step back safely"
+            "Grab a whizzer and circle away",
+            "Sprawl heavy and sit to guard"
           ],
           "trap": [
-            "Chase the grip with your hand"
+            "Reach down to peel their hands"
           ]
         }
       }

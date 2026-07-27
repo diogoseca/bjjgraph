@@ -239,7 +239,7 @@
             "Strip both hooks at once"
           ],
           "trap": [
-            "Sit up to bench-press escape"
+            "Lean forward and try to stand"
           ]
         }
       },
@@ -249,11 +249,11 @@
         "answer_line": "Focus full force on one hook",
         "distractors": {
           "plausible": [
-            "Remove the weaker hook last",
-            "Alternate pressure on both hooks"
+            "Save the lighter hook for last",
+            "Split effort between both legs"
           ],
           "trap": [
-            "Attack both hooks together"
+            "Roll belly-down to shed them"
           ]
         }
       },
@@ -277,11 +277,11 @@
         "answer_line": "Hip escape away from the hook",
         "distractors": {
           "plausible": [
-            "Hip escape toward the hook",
-            "Bridge straight up first"
+            "Bridge straight up off the mat",
+            "Slide your hips into their heel"
           ],
           "trap": [
-            "Pull your knee into the hook"
+            "Turn belly-down over their leg"
           ]
         }
       },
@@ -295,7 +295,7 @@
             "Kick the leg far away"
           ],
           "trap": [
-            "Ignore it, chase second hook"
+            "Roll toward them, giving the back"
           ]
         }
       },
@@ -309,7 +309,7 @@
             "As soon as any hook lands"
           ],
           "trap": [
-            "Explode at every chance you get"
+            "Roll toward the choking arm"
           ]
         }
       },
@@ -323,7 +323,7 @@
             "Bridge hard and sit back"
           ],
           "trap": [
-            "Pry the triangle knees apart"
+            "Turn away from the locked ankles"
           ]
         }
       },
@@ -347,11 +347,11 @@
         "answer_line": "Target the lighter-loaded hook",
         "distractors": {
           "plausible": [
-            "Target the heavier hook first",
-            "Always start top-side hook"
+            "Start with the deeper, heavy one",
+            "Always attack the top-side leg"
           ],
           "trap": [
-            "Remove whichever is easiest to see"
+            "Turn your head to look for it"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Threat level and hook depth",
         "distractors": {
           "plausible": [
-            "Elbow wedge is always safer choice",
-            "Heel drag is always faster choice"
+            "The gi or no-gi ruleset",
+            "How much time is left on the clock"
           ],
           "trap": [
-            "Use whichever arm is already free"
+            "Pull a hand off your neck first"
           ]
         }
       },
@@ -379,7 +379,7 @@
             "Both feet hooked under thighs"
           ],
           "trap": [
-            "Cross ankles behind their back"
+            "Release the leg and turn away"
           ]
         }
       },
@@ -393,7 +393,7 @@
             "Post hands and push off mat"
           ],
           "trap": [
-            "Grab their far arm and pull"
+            "Turn belly-down and scramble up"
           ]
         }
       }
@@ -512,18 +512,18 @@
             "Legs abruptly triangle shut"
           ],
           "trap": [
-            "They tighten the choke grip first"
+            "Wait until a hook pops out"
           ]
         }
       },
       {
         "question": "Why is switching to body triangle an effective counter to the elbow escape, and what is the timing window?",
         "answer": "Body triangle eliminates the hook-by-hook removal mechanic entirely because your legs are locked in a single structure that cannot be addressed with elbow wedges. The timing window is before the opponent gains leverage on your first hook—once you feel the elbow wedge establishing contact, you have approximately two to three seconds to transition your hooks into body triangle configuration before they begin the hip escape that clears the hook.",
-        "answer_line": "Before first hook loses leverage",
+        "answer_line": "Before they get leverage on hook one",
         "distractors": {
           "plausible": [
             "Any time during the sequence",
-            "After the first hook clears fully"
+            "After the first hook clears"
           ],
           "trap": [
             "Wait until they turn to guard"
@@ -536,11 +536,11 @@
         "answer_line": "Re-insert the hook instantly",
         "distractors": {
           "plausible": [
-            "Consolidate the remaining hook",
-            "Pause and reassess position"
+            "Squeeze the seatbelt tighter",
+            "Wait for them to commit"
           ],
           "trap": [
-            "Grab their ankle and yank it"
+            "Unlock legs and sit up over them"
           ]
         }
       },
@@ -551,7 +551,7 @@
         "distractors": {
           "plausible": [
             "Ease pressure to save energy",
-            "Switch grips to re-secure hooks"
+            "Flatten out and hold on"
           ],
           "trap": [
             "Release choke to control hips"
@@ -564,11 +564,11 @@
         "answer_line": "Shift weight onto threatened hook",
         "distractors": {
           "plausible": [
-            "Lean away to stay mobile",
-            "Distribute weight evenly"
+            "Square chest evenly over their spine",
+            "Relax the hook to stay mobile"
           ],
           "trap": [
-            "Lift your hips to reset base"
+            "Cross your ankles to lock hooks"
           ]
         }
       }

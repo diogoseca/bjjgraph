@@ -246,8 +246,8 @@
         "answer_line": "Lapel grip plus sleeve control",
         "distractors": {
           "plausible": [
-            "Lapel grip, collar tie other hand",
-            "Two hands on the lapel only"
+            "Lapel grip, collar tie free hand",
+            "Grip both of their sleeves"
           ],
           "trap": [
             "Drop sleeve, grab both lapels"
@@ -260,11 +260,11 @@
         "answer_line": "Omoplata off the posted arm",
         "distractors": {
           "plausible": [
-            "Kimura from the same post",
-            "Armbar off the far side"
+            "Armbar their far arm",
+            "Sweep toward the posted side"
           ],
           "trap": [
-            "Chase the sweep, ignore post"
+            "Force sweep, get stacked passed"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Flow to spider or lasso guard",
         "distractors": {
           "plausible": [
-            "Chase re-grip from bad angle",
-            "Reset to closed guard fully"
+            "Stand up to break contact",
+            "Roll to turtle and reset"
           ],
           "trap": [
-            "Force the same lapel re-grip"
+            "Chase the same re-grip blindly"
           ]
         }
       },

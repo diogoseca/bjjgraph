@@ -258,25 +258,25 @@
         "answer_line": "Hip escape creates the angle",
         "distractors": {
           "plausible": [
-            "Pull the arm harder instead",
+            "Rely on arm strength alone",
             "Circle first, pull arm after"
           ],
           "trap": [
-            "Pull straight back, no angle"
+            "Pull straight in, get flattened"
           ]
         }
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin the drag - how do you adjust?",
         "answer": "The far hand post means they are defending the angle but committing weight to one side. Continue your rotation and use your butterfly hook on the posting side to elevate that hip, disrupting their base. Alternatively, switch your circling direction and attack the space behind their posting arm. Their post creates a fixed point you can use as a pivot rather than an obstacle. If they post very strongly, transition to a front headlock or snap-down to break their post before resuming the back take.",
-        "answer_line": "Hook the post side, elevate hip",
+        "answer_line": "Hook post side, elevate that hip",
         "distractors": {
           "plausible": [
-            "Force through, ignore the post",
-            "Abandon drag, reset guard"
+            "Muscle the drag through",
+            "Sit up and drive shoulder in"
           ],
           "trap": [
-            "Push straight into the post"
+            "Dive across and get flattened"
           ]
         }
       },
@@ -286,10 +286,10 @@
         "distractors": {
           "plausible": [
             "Only when they sit back",
-            "Wait for a scramble opening"
+            "Any time you have a sleeve grip"
           ],
           "trap": [
-            "Attack when they're squared up"
+            "Lunge across as they posture back"
           ]
         },
         "answer_line": "When they commit weight forward"
@@ -299,11 +299,11 @@
         "answer": "You need a two-point grip: a same-side wrist grip in a C-grip or monkey grip, plus a cross-side grip on their triceps, lat, or upper arm. The wrist grip provides directional control to pull the arm across their centerline, while the triceps grip provides the pushing force that accelerates the arm across their body. Without both grip points, the drag lacks the mechanical advantage to turn their shoulders and create the angle. In gi, the collar can substitute for the triceps grip.",
         "distractors": {
           "plausible": [
-            "Both hands on the same wrist",
-            "Collar grip alone is enough"
+            "Collar grip alone is enough",
+            "Double sleeve grips, no push"
           ],
           "trap": [
-            "Grab both wrists, no tricep"
+            "Overreach across, lose your base"
           ]
         },
         "answer_line": "Wrist grip plus tricep grip"
@@ -315,10 +315,10 @@
         "distractors": {
           "plausible": [
             "Fight the whizzer arm free",
-            "Pull harder against the grip"
+            "Elevate on the whizzer side"
           ],
           "trap": [
-            "Rip your arm out, retreat"
+            "Turn away from the whizzer arm"
           ]
         }
       },
@@ -332,21 +332,21 @@
             "Pull toward your own chest"
           ],
           "trap": [
-            "Re-grip repeatedly, burn grips"
+            "Fall back flat to pull harder"
           ]
         }
       },
       {
         "question": "Your opponent defends the arm drag by immediately sitting back to create distance - what is your chain attack?",
         "answer": "When they sit back, they pull away from your butterfly hooks and create distance, but their retreat exposes several opportunities. If you maintain wrist control, follow their retreat by extending your hooks into a single leg X or X-guard entry since their backward weight shift loads perfectly onto your hooks. If they clear your hooks entirely, use the maintained wrist grip to pull yourself to a front headlock position as they sit, threatening guillotine or snap-down. Their seated retreat also opens up collar drag or ankle pick variations from the seated position.",
-        "answer_line": "Follow retreat into X-guard",
+        "answer_line": "Extend hooks, enter X-guard",
         "distractors": {
           "plausible": [
-            "Release grips, reset position",
-            "Chase with a double leg"
+            "Wait for them to re-engage",
+            "Switch to a collar-sleeve grip"
           ],
           "trap": [
-            "Let go and stand up to pass"
+            "Turn belly-down, hand them back"
           ]
         }
       },
@@ -360,7 +360,7 @@
             "Head on their far shoulder"
           ],
           "trap": [
-            "Head down, chase their hips"
+            "Duck your head under their arm"
           ]
         }
       },
@@ -388,7 +388,7 @@
             "Symmetric, balanced posture"
           ],
           "trap": [
-            "Wait for them to attack legs"
+            "Reach for the drag while flat"
           ]
         }
       }
@@ -526,11 +526,11 @@
         "answer_line": "Turn into them, face them",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Turtle up, cover your neck"
+            "Turtle up, cover your neck",
+            "Sprawl back to break contact"
           ],
           "trap": [
-            "Turn away, expose your back"
+            "Turn away, give up your back"
           ]
         }
       },
@@ -540,11 +540,11 @@
         "answer_line": "Overhook plus hip-to-hip pressure",
         "distractors": {
           "plausible": [
-            "Just overhook, skip the hips",
-            "Whizzer while backing away"
+            "Underhook that arm instead",
+            "Grab the head and pull down"
           ],
           "trap": [
-            "Lazy high whizzer, no hip pressure"
+            "Lazy high whizzer, back taken"
           ]
         }
       },
@@ -558,7 +558,7 @@
             "Squaring shoulders too early"
           ],
           "trap": [
-            "Post both hands forward, grip"
+            "Reach across their centerline"
           ]
         }
       }

@@ -338,14 +338,14 @@
         "question": "What is the correct grip configuration for the figure-four Kimura lock and why does hand placement distance matter?",
         "answer": "The figure-four grip is created by controlling the opponent's wrist with your same-side hand, then threading your opposite hand underneath their elbow to grip your own wrist. The critical element is gripping your wrist as far from the opponent's arm as possible - maximum distance between your hands creates maximum leverage. This distance functions as a lever arm: the further your grip point from the fulcrum (their shoulder), the more torque you can generate with less effort. Gripping too close to their arm reduces mechanical advantage significantly and makes the submission weak.",
         "safety_critical": false,
-        "answer_line": "Grip wrist as far as possible",
+        "answer_line": "Grip your own wrist far from theirs",
         "distractors": {
           "plausible": [
-            "Grip close to their elbow",
-            "Any wrist grip works fine"
+            "Clamp both hands near their elbow",
+            "Squeeze the grip as hard as you can"
           ],
           "trap": [
-            "Release wrist control early"
+            "Sit up and yank the arm upward"
           ]
         }
       },
@@ -371,11 +371,11 @@
         "answer_line": "Arc hand down toward their hip",
         "distractors": {
           "plausible": [
-            "Lift hand straight up",
-            "Arc hand toward their head"
+            "Push their hand straight upward",
+            "Sweep their palm toward their ear"
           ],
           "trap": [
-            "Yank arm away from their body"
+            "Sit up tall and crank both hands"
           ]
         }
       },
@@ -383,14 +383,14 @@
         "question": "Why is maintaining mount control throughout the Kimura attempt considered essential to the technique's effectiveness?",
         "answer": "Mount control provides three critical advantages: First, your bodyweight creates constant downward pressure that limits opponent's mobility and breathing, compounding the submission pressure psychologically and physically. Second, mount position prevents common Kimura defenses like rolling away or creating distance - your legs and hips pin their torso. Third, maintaining mount means you retain dominant position even if the submission attempt fails, allowing you to transition to other attacks or reestablish the Kimura without losing positional hierarchy. Sacrificing mount for submission speed often results in losing both position and submission.",
         "safety_critical": false,
-        "answer_line": "Keep mount, control persists",
+        "answer_line": "Bodyweight pins their hips and torso",
         "distractors": {
           "plausible": [
-            "Sacrifice mount for speed",
-            "Sit up to add more torque"
+            "Speed beats pressure here",
+            "Trade the pin for a deeper grip"
           ],
           "trap": [
-            "Abandon hips to free both hands"
+            "Post both hands to crank harder"
           ]
         }
       },
@@ -398,14 +398,14 @@
         "question": "What are the three most dangerous injuries that can result from improper Kimura application, and what are their typical recovery timelines?",
         "answer": "The three most severe injuries are: (1) Rotator cuff tears affecting the supraspinatus, infraspinatus, or teres minor tendons, requiring 3-6 months recovery and often surgical repair; (2) Shoulder dislocation (anterior or posterior), requiring 6-12 weeks recovery with possible surgical intervention for recurrent instability; and (3) Labrum tears, requiring 4-9 months recovery with surgery. All three injuries can result in permanent shoulder instability or reduced range of motion if not properly treated. These injuries typically occur when explosive force is applied or when training partners continue pressure past the tap point.",
         "safety_critical": true,
-        "answer_line": "Rotator cuff, dislocation, labrum",
+        "answer_line": "Cuff, dislocation, labrum: months",
         "distractors": {
           "plausible": [
-            "Elbow, wrist, and finger strains",
-            "Neck, spine, and rib injuries"
+            "Elbow strain, back in a week",
+            "Wrist sprain, tape and roll"
           ],
           "trap": [
-            "Minor bruising, nothing serious"
+            "Keep rolling on a popped shoulder"
           ]
         }
       },
@@ -413,14 +413,14 @@
         "question": "How should you adjust your Kimura attack if the opponent straightens their trapped arm to defend?",
         "answer": "When the opponent straightens their trapped arm in an attempt to reduce rotational pressure on the shoulder, they create an immediate opening for a straight armbar. Maintain your grip on their wrist, adjust your angle by bringing your leg over their face toward the trapped arm side, and fall back while controlling their arm for the armbar finish. The figure-four grip naturally transitions to armbar control when they extend. This is why Kimura defense by arm extension is considered poor technique - it trades one submission threat for another without escaping danger.",
         "safety_critical": false,
-        "answer_line": "Transition to armbar finish",
+        "answer_line": "Switch to the straight armbar",
         "distractors": {
           "plausible": [
-            "Re-grip and restart Kimura",
-            "Push arm back to bent position"
+            "Fight to re-bend their elbow",
+            "Reset the figure-four grip"
           ],
           "trap": [
-            "Release the arm and reset"
+            "Roll to your back chasing the lock"
           ]
         }
       },
@@ -443,14 +443,14 @@
         "question": "What anatomical structures does the Kimura from Mount specifically attack and how does the submission create the breaking mechanism?",
         "answer": "The Kimura targets the shoulder joint complex, specifically the glenohumeral joint, rotator cuff muscles (supraspinatus, infraspinatus, subscapularis, teres minor), and the surrounding ligamentous capsule. The figure-four grip creates internal rotation of the humerus while the elbow is flexed and the arm is elevated. This forces the humeral head against the posterior capsule and stretches the external rotator muscles beyond their natural range. The breaking mechanism occurs when continued rotation exceeds the structural limits of the capsule, tendons, or the joint itself, resulting in dislocation or tissue rupture.",
         "safety_critical": false,
-        "answer_line": "Shoulder joint, rotator cuff",
+        "answer_line": "Shoulder: forced internal rotation",
         "distractors": {
           "plausible": [
-            "Elbow joint and biceps tendon",
-            "Wrist joint and forearm"
+            "Elbow: hyperextension of joint",
+            "Wrist: bent back on forearm"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank the neck for the finish"
           ]
         }
       },
@@ -473,14 +473,14 @@
         "question": "What grip adjustments should you make during the finishing sequence if opponent resistance is preventing the tap?",
         "answer": "If resistance prevents the finish, first verify your grip distance on your own wrist is maximized. Then check your body angle - you may need to shift your chest more perpendicular to their body. If the resistance is grip-based (they're holding their belt or pants), increase your body angle toward their head while maintaining elbow height, using the mechanical advantage of the longer lever to break their grip. You can also post your far hand on their head to create additional pressure. Never compensate for poor positioning by adding explosive force - instead, troubleshoot mechanics systematically.",
         "safety_critical": false,
-        "answer_line": "Maximize grip, angle chest more",
+        "answer_line": "Max grip distance, adjust angle",
         "distractors": {
           "plausible": [
-            "Pull harder with more strength",
-            "Switch to a different submission"
+            "Pull with pure arm strength",
+            "Flatten chest onto their body"
           ],
           "trap": [
-            "Add explosive force to break grip"
+            "Rip the arm to break resistance"
           ]
         }
       },
@@ -488,14 +488,14 @@
         "question": "What common finishing errors reduce submission effectiveness and how do you recognize when they're occurring?",
         "answer": "The most common finishing errors are: (1) lifting straight up instead of rotating down toward the hip and lower back - recognized when you feel significant resistance despite adequate grip strength; (2) allowing the wrist to drift away from their body - visible when their arm begins to extend rather than rotate; (3) losing hip connection to their shoulder - recognized when they begin to create space or rotate their torso; and (4) gripping too close on the figure-four - felt as inadequate leverage despite correct motion. Each error has a distinct sensation: straight lifting feels like a strength contest, drifting wrist feels like losing control, hip disconnection feels like the position becoming unstable, and close gripping feels mechanically weak.",
         "safety_critical": false,
-        "answer_line": "Lifting straight up, not arcing",
+        "answer_line": "Lifting up instead of arcing down",
         "distractors": {
           "plausible": [
-            "Gripping wrist too far away",
-            "Rushing before securing angle"
+            "Sliding knee toward their head",
+            "Squeezing the wrist grip harder"
           ],
           "trap": [
-            "Adding explosive force to finish"
+            "Cranking explosively for a tap"
           ]
         }
       }
@@ -681,11 +681,11 @@
         "answer_line": "Grip belt, frame hip, escape",
         "distractors": {
           "plausible": [
-            "Push away and stand up",
-            "Bridge immediately, ignore grip"
+            "Grab their wrist with free hand",
+            "Bridge hard and ignore the lock"
           ],
           "trap": [
-            "Straighten arm to create space"
+            "Straighten the arm for space"
           ]
         }
       }

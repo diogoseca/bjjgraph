@@ -286,7 +286,7 @@
             "Wrist and forearm torque"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank the neck for the finish"
           ]
         }
       },
@@ -297,8 +297,8 @@
         "answer_line": "Switch to triangle or reset",
         "distractors": {
           "plausible": [
-            "Fight to re-secure shin control",
-            "Pull head down to break posture"
+            "Pull head down to break posture",
+            "Grab the collar and pull them flat"
           ],
           "trap": [
             "Force the omoplata anyway"
@@ -324,14 +324,14 @@
         "question": "At what point during the omoplata sequence is the opponent past the point of safe escape without risking injury?",
         "answer": "The point of no safe escape occurs when the attacker has achieved the perpendicular angle with hip control established and begins sitting up with forward pressure. At this stage, the shoulder is already under significant rotational stress and explosive escape attempts risk acute injury to the rotator cuff or labrum. The shoulder's available range of motion is fully consumed, and any sudden force from either direction can cause immediate damage requiring surgical intervention.",
         "safety_critical": true,
-        "answer_line": "Perpendicular angle, hip secured",
+        "answer_line": "Perpendicular angle with hip control",
         "distractors": {
           "plausible": [
             "As soon as the leg is threaded",
             "When the overhook grip is broken"
           ],
           "trap": [
-            "Only once they've already tapped"
+            "Only when shoulder pain begins"
           ]
         }
       },
@@ -346,7 +346,7 @@
             "Bad angle, wrong leg position"
           ],
           "trap": [
-            "Opponent's superior strength"
+            "Crank harder when it stalls"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Stop pressure, release leg pinch",
         "distractors": {
           "plausible": [
-            "Hold position, check verbally",
-            "Slowly ease off over a few seconds"
+            "Ease off slowly over a few seconds",
+            "Ask them to repeat the tap"
           ],
           "trap": [
-            "Maintain position, ask if okay"
+            "Hold the finish until they verbalize"
           ]
         }
       },
@@ -384,14 +384,14 @@
         "question": "How does the Crackhead Control entry change competition finishing strategy compared to a standard closed guard omoplata?",
         "answer": "The Crackhead Control entry provides pre-broken posture and arm isolation that standard entries lack, allowing more aggressive commitment to the finish once the leg thread completes. In competition, this means faster transitions from setup to finish with fewer defensive windows for the opponent. The reduced setup time forces opponents to face the finishing sequence before their defensive reactions fully engage, yielding higher tap rates compared to entries requiring simultaneous posture breaking and arm isolation.",
         "safety_critical": false,
-        "answer_line": "Faster finish, fewer windows",
+        "answer_line": "Faster finish, fewer defense windows",
         "distractors": {
           "plausible": [
-            "Higher submission rate overall",
-            "More reliable at lower belts only"
+            "Needs no perpendicular angle",
+            "Only useful for sweeps, not subs"
           ],
           "trap": [
-            "Slower but safer commitment path"
+            "Stall in the thread to build grips"
           ]
         }
       },
@@ -402,8 +402,8 @@
         "answer_line": "Strip the grip, keep overhook",
         "distractors": {
           "plausible": [
-            "Yank the leg free forcefully",
-            "Switch base and reset guard"
+            "Switch base and reset guard",
+            "Grab their collar and pull down"
           ],
           "trap": [
             "Force the leg thread anyway"
@@ -417,7 +417,7 @@
         "answer_line": "Steady exhale, rhythmic breathing",
         "distractors": {
           "plausible": [
-            "Hold breath during peak pressure",
+            "Inhale hard as you sit up",
             "Quick sharp exhales in bursts"
           ],
           "trap": [
@@ -534,10 +534,10 @@
         "distractors": {
           "plausible": [
             "Opponent grips your far collar",
-            "They flatten their hips to the mat"
+            "They flatten hips to the mat"
           ],
           "trap": [
-            "They post their hand on the mat"
+            "No cue until it is locked on"
           ]
         }
       },
@@ -564,7 +564,7 @@
         "distractors": {
           "plausible": [
             "Stack first, then posture up",
-            "Roll immediately, ignore timing"
+            "Turn away and hide the arm"
           ],
           "trap": [
             "Wait and try to out-strength it"
@@ -575,14 +575,14 @@
         "question": "When does the forward roll escape become too dangerous to attempt?",
         "answer": "The forward roll becomes extremely risky once the opponent has established two-handed control on your far hip and has achieved the perpendicular angle with their torso. At this point, they can follow your roll while maintaining arm control, potentially ending in mount with the arm still trapped. Attempting a late roll also puts the shoulder under dynamic loading during the rotation, significantly increasing acute injury risk compared to a controlled tap.",
         "safety_critical": true,
-        "answer_line": "Once hip control, angle achieved",
+        "answer_line": "Two-hand far-hip control and angle",
         "distractors": {
           "plausible": [
-            "As soon as leg thread begins",
-            "When overhook grip is broken"
+            "As soon as the leg thread begins",
+            "When the overhook grip is broken"
           ],
           "trap": [
-            "Anytime before the tap happens"
+            "Roll late with the arm still trapped"
           ]
         }
       }

@@ -813,14 +813,14 @@
     {
       "question": "How does Triangle Control differ from Armbar Control and Omoplata Control that sit adjacent to it in the attack chain?",
       "answer": "All three isolate a limb from a guard-based angle, but they attack different structures and are separated by the opponent's reaction, which is why they chain together. Triangle Control strangles the neck with the legs while trapping one arm, so the finish is a blood choke; Armbar Control isolates that same trapped arm to hyperextend the elbow, typically opening when the opponent postures up out of the choke. Omoplata Control shifts to a shoulder lock using the legs against the far arm, usually becoming available when the opponent stacks forward or turns the shoulder in. The shared 30-45 degree hip angle and one-arm isolation are what let a player flow between them as the defender's posture and shoulder position change.",
-      "answer_line": "Same angle, different limb attacked",
+      "answer_line": "Neck, elbow, shoulder — same angle",
       "distractors": {
         "plausible": [
-          "Omoplata attacks the trapped arm",
-          "Armbar attacks the far shoulder"
+          "They all crank the same arm",
+          "Only the leg position differs"
         ],
         "trap": [
-          "All three finish the exact same way"
+          "Ignore reactions, force the triangle"
         ]
       }
     },

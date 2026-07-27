@@ -298,11 +298,11 @@
         "answer_line": "Both carotid arteries",
         "distractors": {
           "plausible": [
-            "Trachea and windpipe",
-            "Vagus nerve only"
+            "Windpipe and airway",
+            "Jaw and facial nerve"
           ],
           "trap": [
-            "Crush the trachea directly"
+            "Crank the neck for a spine lock"
           ]
         }
       },
@@ -310,14 +310,14 @@
         "question": "Why is the depth of the behind-the-neck collar grip critical to finishing the choke?",
         "answer": "A deeper grip behind the neck means less distance is required to close the choking mechanism and more of the collar fabric contacts the far-side carotid artery. A shallow grip leaves slack that the opponent can exploit to create defensive space, and the collar may slide off the artery during the finishing sprawl, reducing compression effectiveness significantly.",
         "safety_critical": false,
-        "answer_line": "Deeper grip, faster finish",
+        "answer_line": "Deeper grip closes choke sooner",
         "distractors": {
           "plausible": [
-            "Grip width matters most",
-            "Speed of feed matters most"
+            "Shallow grip is easier to hide",
+            "Only the cross forearm matters"
           ],
           "trap": [
-            "Jerk the grip tight fast"
+            "Sit up to reach deeper mid-feed"
           ]
         }
       },
@@ -340,14 +340,14 @@
         "question": "Your opponent tucks their chin tightly to block the forearm from crossing the throat - how do you adjust?",
         "answer": "Drive the forearm blade across the jawline rather than directly across the throat. The jaw acts as a lever that forces the chin up and exposes the neck. Alternatively, use the crossface hand to push their chin upward before sliding the choking forearm into position. The chin tuck defense becomes ineffective once the forearm gains purchase on the jaw.",
         "safety_critical": false,
-        "answer_line": "Drive forearm across jaw",
+        "answer_line": "Blade forearm across the jawline",
         "distractors": {
           "plausible": [
-            "Push harder on throat",
-            "Switch to different choke"
+            "Press straight into the windpipe",
+            "Pull the collar tighter instead"
           ],
           "trap": [
-            "Yank head down hard"
+            "Sit up and crank the head down"
           ]
         }
       },
@@ -355,14 +355,14 @@
         "question": "What happens if the opponent bridges explosively during your finishing sprawl?",
         "answer": "If the grips are fully secured, maintain the sprawl and ride the bridge by keeping chest weight committed through the forearm. The bridge actually helps close the choke if your position is correct. If the grips are not fully set, the bridge may create enough space for them to turn in and recover guard, so you must abandon the choke and secure side control.",
         "safety_critical": false,
-        "answer_line": "Ride bridge, keep sprawl",
+        "answer_line": "Stay heavy and ride the bridge",
         "distractors": {
           "plausible": [
-            "Release grips immediately",
-            "Follow them into mount"
+            "Pull them back down flat",
+            "Step over into mount mid-bridge"
           ],
           "trap": [
-            "Jerk choke shut fast"
+            "Give up chest weight to re-grip"
           ]
         }
       },
@@ -370,14 +370,14 @@
         "question": "Why should you never spike or jerk the Breadcutter Choke during training?",
         "answer": "Sudden explosive force on the neck can cause tracheal damage, cervical spine injury, and carotid artery trauma that may require surgery and weeks to months of recovery. Blood chokes compress the carotid arteries and can cause unconsciousness within seconds, so a gradual controlled application gives the training partner adequate time to recognize the choke and tap before losing consciousness.",
         "safety_critical": true,
-        "answer_line": "Risks spine, trachea injury",
+        "answer_line": "Sudden force can injure neck, throat",
         "distractors": {
           "plausible": [
-            "Makes tap come faster",
-            "Improves grip depth"
+            "Slows the blood choke down",
+            "Loosens the collar grip"
           ],
           "trap": [
-            "Required to finish choke"
+            "Snap it hard when they defend"
           ]
         }
       },
@@ -385,14 +385,14 @@
         "question": "What is the proper release protocol when your partner taps to the Breadcutter Choke?",
         "answer": "Immediately release the collar grip upon any tap signal, including verbal, physical hand or foot tap, or body going limp. Remove body weight and pressure from the opponent's neck, allow them to turn to a safe position, verify they are breathing normally and conscious, and give them recovery time before continuing. Never hold the choke even momentarily after a tap.",
         "safety_critical": true,
-        "answer_line": "Release instantly, check breathing",
+        "answer_line": "Release at once, check breathing",
         "distractors": {
           "plausible": [
-            "Hold briefly then release",
-            "Release grip, stay mounted"
+            "Only a verbal tap counts",
+            "Reset grips for the next rep"
           ],
           "trap": [
-            "Finish the rep, then release"
+            "Hold until they go limp"
           ]
         }
       },
@@ -400,14 +400,14 @@
         "question": "How does the Breadcutter Choke chain with other attacks when the opponent defends the collar grip?",
         "answer": "When the opponent focuses on stripping collar grips, their arms move away from their body and their attention shifts to hand fighting. This opens opportunities for americana and kimura attacks on the exposed arms, arm triangle setups when they bring an arm across their neck defensively, and transitions to mount or knee on belly while they are occupied with grip defense rather than positional escape.",
         "safety_critical": false,
-        "answer_line": "Americana or kimura on arm",
+        "answer_line": "Americana or kimura on the arm",
         "distractors": {
           "plausible": [
-            "Switch to armbar attack",
-            "Go straight for back take"
+            "Wait until they stop stripping",
+            "Drop back for a leg attack"
           ],
           "trap": [
-            "Abandon position, reset"
+            "Stand up to reset the grip fight"
           ]
         }
       }
@@ -541,14 +541,14 @@
         "question": "Why should you turn toward the attacker rather than away when defending this choke?",
         "answer": "Turning toward the attacker compresses the space behind your neck, making it harder for them to feed the lapel deeper. Turning away stretches the collar across your neck, actually tightening the existing grip and exposing more of your far collar. Additionally, turning away can expose your back, creating a worse position than the original side control bottom.",
         "safety_critical": false,
-        "answer_line": "Turn toward, close neck space",
+        "answer_line": "Turn in toward the attacker",
         "distractors": {
           "plausible": [
-            "Turn away to create distance",
-            "Turn toward, attack legs"
+            "Bridge straight backward",
+            "Flatten out and wait it out"
           ],
           "trap": [
-            "Turn away, expose your back"
+            "Roll away and give up your back"
           ]
         }
       },
@@ -556,14 +556,14 @@
         "question": "When should you tap to the Breadcutter Choke to prevent injury?",
         "answer": "Tap immediately when you feel bilateral pressure on both sides of your neck and cannot effectively strip either collar grip. Blood chokes can cause unconsciousness in as few as four to six seconds once fully locked. Do not wait to see if you can tough it out. Use verbal tap, hand tap on opponent or mat, or foot tap on mat. Tap early and tap often in training.",
         "safety_critical": true,
-        "answer_line": "Tap now, can't strip grips",
+        "answer_line": "Tap once grips can't be stripped",
         "distractors": {
           "plausible": [
-            "Wait for vision to fade",
-            "Tap after two escape tries"
+            "Only after you feel pain",
+            "When the pressure feels sharp"
           ],
           "trap": [
-            "Wait to test your defense"
+            "Ride it out to build tolerance"
           ]
         }
       },
@@ -586,14 +586,14 @@
         "question": "What defensive structure should you maintain against your neck while under Breadcutter Choke threat?",
         "answer": "Keep your near-side hand at collar level with fingers inside your own collar to block the attacker's hand from gripping the fabric behind your neck. Your far-side hand should be ready to strip any grip that gets past your initial defense. Elbows stay tight to your ribs to deny the hand path to the collar and maintain framing capability against the forearm if the cross grip is established.",
         "safety_critical": false,
-        "answer_line": "Hand inside your own collar",
+        "answer_line": "Fingers inside your own collar",
         "distractors": {
           "plausible": [
-            "Both hands grip their wrists",
-            "Elbows away from your ribs"
+            "Grab both of their sleeves",
+            "Cover the neck with both palms"
           ],
           "trap": [
-            "Push against their chest"
+            "Straight-arm their chest away"
           ]
         }
       }

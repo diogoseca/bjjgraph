@@ -265,14 +265,14 @@
       {
         "question": "Your opponent begins tightening their grip as you establish frames—should you continue the extraction or pause?",
         "answer": "Pause the extraction attempt when the opponent tightens significantly. Forcing through increased pressure can cause injury and rarely succeeds. Instead, maintain your frames, re-establish strong counter-rotation, and wait for the next opportunity when they adjust position or their grip fatigues. Patience is critical in leg lock defense.",
-        "answer_line": "Pause, hold frames, wait",
+        "answer_line": "Pause and hold your frames",
         "distractors": {
           "plausible": [
-            "Push through the tightness",
-            "Speed up extraction now"
+            "Speed up to beat the grip",
+            "Give up and stop resisting"
           ],
           "trap": [
-            "Force the leg out immediately"
+            "Rip the foot out by force"
           ]
         }
       },

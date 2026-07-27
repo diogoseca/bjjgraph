@@ -339,14 +339,14 @@
         "question": "Your opponent begins pumping their hips backward to create extraction distance - what adjustment prevents their escape?",
         "answer": "Immediately drive your hips forward following their movement while using your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing extraction of the trapped leg. The key is anticipating the backward movement and matching it with forward hip pressure so the gap never opens enough for extraction. Your legs must stay tight in the figure-four throughout this adjustment.",
         "safety_critical": false,
-        "answer_line": "Drive hips forward to close gap",
+        "answer_line": "Drive hips forward, chase distance",
         "distractors": {
           "plausible": [
-            "Lean back to reset grips",
-            "Reach for heel immediately"
+            "Squeeze knees and stay still",
+            "Pull ankle toward your chest"
           ],
           "trap": [
-            "Loosen legs to re-angle"
+            "Open legs to reposition"
           ]
         }
       },
@@ -386,11 +386,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Slow force preserves grip only",
-            "Fast force risks losing position"
+            "Slow finish scores more points",
+            "Explosive force tires your grips"
           ],
           "trap": [
-            "Speed increases tap response time"
+            "Fast finish is safer for partner"
           ]
         },
         "answer_line": "No warning before ligament tears"
@@ -401,11 +401,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Switch to straight ankle lock",
-            "Abandon hip pressure, reset"
+            "Straight ankle lock on that foot",
+            "Crank harder on the hidden heel"
           ],
           "trap": [
-            "Release grip to re-attack heel"
+            "Drop hip pressure to chase toes"
           ]
         },
         "answer_line": "Toe hold on exposed forefoot"
@@ -416,11 +416,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Single hand grip on ankle",
-            "Foot clamped at hip, not armpit"
+            "Single hand wrap on the ankle",
+            "Foot clamped at hip instead"
           ],
           "trap": [
-            "Pull arms back for leverage"
+            "Extend arms, lose hip contact"
           ]
         },
         "answer_line": "Blade grip, foot in armpit"
@@ -432,11 +432,11 @@
         "answer_line": "Stop rotation, unwrap slowly",
         "distractors": {
           "plausible": [
-            "Unwind everything at once",
-            "Keep grip, release legs first"
+            "Let go of everything at once",
+            "Wait for partner to pull free"
           ],
           "trap": [
-            "Quickly strip entanglement"
+            "Twist heel once more, then release"
           ]
         }
       },
@@ -444,14 +444,14 @@
         "question": "What common finishing error causes the most position losses when attacking the heel hook from Inside Sankaku?",
         "answer": "The most frequent error causing position loss is reaching for the heel before establishing complete positional control through all four layers. When the attacker extends their upper body forward to grab the heel without maintaining hip connection, they create space the defender exploits to pump their hips backward and extract the trapped leg. The correction is to maintain hip drive forward even during the grip transition, using legs and core for connection rather than leaning the torso away from the entanglement point.",
         "safety_critical": false,
-        "answer_line": "Reaching for heel too early",
+        "answer_line": "Chasing the heel before control",
         "distractors": {
           "plausible": [
-            "Rotating torso too soon",
+            "Rotating the torso too soon",
             "Switching grips mid-transition"
           ],
           "trap": [
-            "Leaning forward to grab heel"
+            "Standing up to add torque"
           ]
         }
       },
@@ -462,11 +462,11 @@
         "answer_line": "Clock, score, ruleset legality",
         "distractors": {
           "plausible": [
-            "Always attack immediately",
-            "Ignore score, finish fast"
+            "Opponent's belt rank alone",
+            "How many points a heel hook pays"
           ],
           "trap": [
-            "Rush leg locks near time expiry"
+            "Crank fast as time expires"
           ]
         }
       }
@@ -614,14 +614,14 @@
         "question": "What defensive options are available against the heel hook before the finishing grip is established?",
         "answer": "Before the grip is locked, the primary defense is the boot: press your heel tightly against your own hip, turn your toes inward, and use your near hand to reinforce heel concealment. Simultaneously work hip escapes backward to create extraction distance. If the boot defense is being overcome by sustained pressure, attempt a Granby roll when knee line control slips, or reach for the opponent's legs to establish a counter-entanglement in 50-50 Guard. The key is that all these options require the finishing grip to NOT yet be established.",
         "safety_critical": false,
-        "answer_line": "Boot defense, hip escape, Granby",
+        "answer_line": "Boot the heel, hip escape, Granby",
         "distractors": {
           "plausible": [
-            "Turn into attacker to pass knee",
-            "Push away for extraction only"
+            "Push their head away and stall",
+            "Sit up and punch the foot free"
           ],
           "trap": [
-            "Turn knee toward attacker"
+            "Turn your knee toward them"
           ]
         }
       },
@@ -629,14 +629,14 @@
         "question": "Why is turning into the attacker to pass the knee line the most dangerous defensive mistake?",
         "answer": "Turning into the attacker brings your second leg into their entanglement structure, facilitating their transition to the Saddle position where both of your legs are trapped. The Saddle provides even tighter control with more submission options and fewer escape routes than Inside Sankaku. Additionally, the rotation toward the attacker can actually improve their heel hook angle by increasing the heel exposure toward their centerline. The correct escape direction is always backward and away from the attacker.",
         "safety_critical": false,
-        "answer_line": "Feeds second leg into Saddle",
+        "answer_line": "Feeds second leg into the Saddle",
         "distractors": {
           "plausible": [
-            "Improves your hip mobility",
-            "Creates space for hip escape"
+            "Loosens their hip-to-hip pressure",
+            "Breaks their figure-four legs"
           ],
           "trap": [
-            "Speeds up your extraction"
+            "Only risks a minor ankle tweak"
           ]
         }
       },
@@ -647,11 +647,11 @@
         "answer_line": "Verbal tap plus rapid taps",
         "distractors": {
           "plausible": [
-            "Tap only once, then wait",
-            "Wait for escape before tapping"
+            "One light tap on the mat",
+            "Nod head to signal trouble"
           ],
           "trap": [
-            "Struggle silently to escape"
+            "Stay silent and keep fighting"
           ]
         }
       }

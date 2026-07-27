@@ -282,7 +282,7 @@
         "distractors": {
           "plausible": [
             "Mount weight alone stops defense",
-            "Opponent too tired to resist"
+            "Head is already turned sideways"
           ],
           "trap": [
             "Legs pinned so they can't bridge"
@@ -296,11 +296,11 @@
         "answer_line": "Gable grip, palm to palm",
         "distractors": {
           "plausible": [
-            "Chin grip only, no anchor",
+            "Chin only, no rear anchor",
             "Single hand behind the head"
           ],
           "trap": [
-            "Grab the far wrist instead"
+            "Interlock your fingers"
           ]
         }
       },
@@ -311,11 +311,11 @@
         "answer_line": "Switch to crown grip, flex forward",
         "distractors": {
           "plausible": [
-            "Pry the chin with your knee",
-            "Wait for them to move first"
+            "Pry the chin up with your knee",
+            "Crank sideways for lateral rotation"
           ],
           "trap": [
-            "Release grip and reset position"
+            "Loosen hooks to reposition hands"
           ]
         }
       },
@@ -327,7 +327,7 @@
         "distractors": {
           "plausible": [
             "Fast snap once grip is set",
-            "Steady pressure for 10+ seconds"
+            "Crank to full force then hold"
           ],
           "trap": [
             "Explosive jerk to finish quick"

@@ -260,11 +260,11 @@
         "answer": "Proper head position prevents guillotine chokes, provides structural drive and leverage, and creates angles that weaken the sprawl. First, keeping the head up with the forehead driving into the opponent's midsection prevents guillotine choke opportunities, which occur when the head drops below the opponent's hips. Second, proper head position provides structural drive and leverage to control the opponent's upper body and maintain forward pressure. Third, positioning the head on the centerline or outside creates angles that make defensive sprawling less effective. Head position is often the difference between a successful entry and a defensive submission.",
         "distractors": {
           "plausible": [
-            "Head down to power the shot",
-            "Head buried for extra leverage"
+            "Chin tucked into their chest",
+            "Cheek pressed to their hip"
           ],
           "trap": [
-            "Drop head to shoot deeper"
+            "Duck below their hip line"
           ]
         },
         "answer_line": "Forehead in belly, head up"
@@ -275,7 +275,7 @@
         "distractors": {
           "plausible": [
             "Pull guard immediately",
-            "Reset to standing every time"
+            "Drop flat and shrimp away"
           ],
           "trap": [
             "Force the double no matter what"
@@ -303,13 +303,13 @@
         "distractors": {
           "plausible": [
             "Penetration step too shallow",
-            "Gripping too high on thighs"
+            "Gripping too high on the thighs"
           ],
           "trap": [
-            "Looking down to find the legs"
+            "Stalling bent-over mid-shot"
           ]
         },
-        "answer_line": "Dropping head below hips first"
+        "answer_line": "Dropping head below the hips first"
       },
       {
         "question": "How does penetration step depth affect the success of a double leg entry?",
@@ -387,11 +387,11 @@
         "answer_line": "Angle step to cut off retreat",
         "distractors": {
           "plausible": [
-            "Shoot straight, chase angle",
-            "Switch legs after you land"
+            "Reset stance and re-approach",
+            "Grab the far arm to stop them"
           ],
           "trap": [
-            "Chase straight, ignore angle"
+            "Shoot straight where they were"
           ]
         }
       },

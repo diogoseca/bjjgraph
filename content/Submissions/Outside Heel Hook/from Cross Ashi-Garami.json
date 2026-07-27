@@ -292,14 +292,14 @@
         "question": "What anatomical structures does the outside heel hook from cross ashi-garami primarily attack?",
         "answer": "The outside heel hook attacks the knee joint through external rotation of the heel, which loads the medial collateral ligament (MCL) and anterior cruciate ligament (ACL) as primary targets. Secondary stress is placed on the lateral collateral ligament (LCL), posterior cruciate ligament (PCL), and meniscus. The rotational force travels from the ankle through the tibia to the knee because the femur is held in place by the leg entanglement, creating a lever system that isolates knee rotation.",
         "safety_critical": true,
-        "answer_line": "MCL and ACL via rotation",
+        "answer_line": "MCL and ACL via knee rotation",
         "distractors": {
           "plausible": [
-            "Achilles tendon damage",
-            "Meniscus is primary target"
+            "Achilles tendon is the target",
+            "Meniscus takes the main load"
           ],
           "trap": [
-            "Ankle joint only"
+            "Harmless, safe to ride out"
           ]
         }
       },
@@ -307,14 +307,14 @@
         "question": "Your opponent begins the boot defense by flexing their knee hard and pulling their heel to their hip—what adjustment prevents escape?",
         "answer": "Use your outside leg cross to apply outward rotational pressure on their shin while simultaneously pulling their foot toward your chest with an ankle grip. If the boot is deeply committed and the heel cannot be exposed, transition to a toe hold by redirecting your grip to the toes and ball of the foot, or enter a kneebar by releasing the cross and attacking the extended knee line. The boot defense exposes different submission opportunities that punish the bent-leg configuration.",
         "safety_critical": false,
-        "answer_line": "Switch to toe hold or kneebar",
+        "answer_line": "Rotate shin out, pull foot in",
         "distractors": {
           "plausible": [
-            "Force through with more torque",
-            "Just tighten the knee clamp"
+            "Wait for their leg to tire",
+            "Switch to a top-down heel grip"
           ],
           "trap": [
-            "Keep cranking the boot lock"
+            "Release the cross and reset"
           ]
         }
       },
@@ -322,14 +322,14 @@
         "question": "What grip configuration provides the most secure heel cup for finishing the outside heel hook?",
         "answer": "The most secure configuration is a two-handed cup grip with the bottom hand wrapping underneath the heel, palm across the Achilles tendon and fingers pointing toward the toes. The top hand layers over the bottom hand to reinforce the cup. Both elbows must be drawn tight against the ribcage to connect the grip to your core, preventing the opponent from stripping the hands apart. This configuration converts torso rotation into direct rotational pressure on the heel.",
         "safety_critical": false,
-        "answer_line": "Bottom-up cup, elbows tight",
+        "answer_line": "Bottom-up cup, elbows to ribs",
         "distractors": {
           "plausible": [
             "Top-down grip, arms extended",
-            "Figure-four grip, elbows out"
+            "Achilles grab, elbows flared"
           ],
           "trap": [
-            "One-handed grip for speed"
+            "Let go to re-grip mid-finish"
           ]
         }
       },
@@ -337,14 +337,14 @@
         "question": "What are the key safety considerations when applying the outside heel hook from cross ashi-garami in training?",
         "answer": "Always apply rotation progressively over a minimum of 5-7 seconds—never use sudden explosive force. Release immediately upon any tap signal, including verbal taps, hand taps, foot taps, or any vocal distress. Recognize that knee ligament damage from heel hooks can occur without pain warning—the ligaments may tear before the opponent feels pain. Train only with experienced partners who understand leg lock safety. Never continue past the first sign of discomfort, and never test flexibility limits.",
         "safety_critical": true,
-        "answer_line": "Progressive rotation, tap fast",
+        "answer_line": "Slow rotation, release on any tap",
         "distractors": {
           "plausible": [
-            "Rotate hard once, then hold",
-            "Wait for pain before releasing"
+            "Wait for a hand signal only",
+            "Trust pain as the warning sign"
           ],
           "trap": [
-            "Test opponent's flexibility limit"
+            "Crank hard to prove the finish"
           ]
         }
       },
@@ -370,11 +370,11 @@
         "answer_line": "Under-heel grip, add knee clamp",
         "distractors": {
           "plausible": [
-            "Top-down grip reinforced twice",
-            "Release and re-shoot immediately"
+            "Top-down grip, pull twice as hard",
+            "Strip their hands first"
           ],
           "trap": [
-            "Muscle grip with arms only"
+            "Release the leg to re-shoot"
           ]
         }
       },
@@ -382,14 +382,14 @@
         "question": "Why is full-body torque essential for finishing the heel hook rather than relying on arm strength alone?",
         "answer": "Arm strength alone generates insufficient rotational force against a resisting opponent, and the arms fatigue rapidly under load, degrading grip security. Full-body torque—generated by bridging the hips upward and rotating the torso as a unit—recruits the much larger muscles of the core, glutes, and legs to produce finishing force. The arms maintain the grip connection while the body supplies power. This also keeps elbows tight to the ribs, which prevents grip stripping.",
         "safety_critical": false,
-        "answer_line": "Bridge hips, rotate torso",
+        "answer_line": "Bridge hips, rotate as one unit",
         "distractors": {
           "plausible": [
-            "Pull harder with the forearms",
-            "Squeeze grip tighter with hands"
+            "Squeeze the knees harder only",
+            "Wait until they stop resisting"
           ],
           "trap": [
-            "Yank with arms, elbows flared"
+            "Sit up, elbows flare, leg slips"
           ]
         }
       },
@@ -397,14 +397,14 @@
         "question": "What is the point of no escape for the defender once the outside heel hook is fully applied from cross ashi-garami?",
         "answer": "The point of no return occurs when the attacker has a deep two-handed heel cup with elbows tight to the ribs and begins external rotation with hip extension. At this stage, the knee ligaments are loaded and the defender cannot safely extract their heel or rotate their body to relieve pressure without risking ligament damage. The defender must tap before or at this moment. Once rotation begins with a locked grip, any defensive movement—including rolling—can accelerate ligament damage rather than relieve it.",
         "safety_critical": true,
-        "answer_line": "Deep cup plus rotation begins",
+        "answer_line": "Deep heel cup, rotation started",
         "distractors": {
           "plausible": [
             "When hip control is first felt",
-            "When knees are squeezed together"
+            "When the inside hook is set"
           ],
           "trap": [
-            "Try to roll out at that point"
+            "After the knee starts to hurt"
           ]
         }
       }
@@ -512,11 +512,11 @@
         "answer_line": "Crossed legs, hands cup heel",
         "distractors": {
           "plausible": [
-            "Single hook behind the knee",
-            "Opponent grips your collar"
+            "Single hook behind your knee",
+            "They post on your hip to stand"
           ],
           "trap": [
-            "Ignore it, it's just guard pass"
+            "Wait until you feel the crank"
           ]
         }
       },
@@ -524,14 +524,14 @@
         "question": "What is the safest way to tap to the outside heel hook from cross ashi-garami?",
         "answer": "Tap verbally first by clearly saying 'tap' since your hands may be engaged in grip fighting. Simultaneously tap physically with your free hand on the attacker's body or the mat. If both hands are trapped, use your free foot to tap the mat or the attacker's body. The critical timing is to tap before or at the moment rotation begins with a locked grip—once the ligaments are loaded, any delay increases injury risk. Never try to tough out a locked heel hook in training. Tap early and reset.",
         "safety_critical": true,
-        "answer_line": "Tap verbally and physically",
+        "answer_line": "Say it aloud and slap the mat",
         "distractors": {
           "plausible": [
-            "Wait until pain to tap",
-            "Tap only after rotation locks"
+            "Squeeze their leg as a signal",
+            "Shake your head and grimace"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Grip fight on and hope it slips"
           ]
         }
       },
@@ -554,14 +554,14 @@
         "question": "When is the optimal moment to attempt an escape from the cross ashi-garami heel hook position?",
         "answer": "The best escape windows appear when the attacker loosens leg control to adjust grips, reposition their body, or transition to a different submission. Watch for moments when their inside hook loses depth or their outside cross becomes less tight. These transitional gaps are brief but create enough space for leg extraction or counter-entanglement. Attempting escape against tight control wastes energy and risks injury. Patient defense combined with opportunistic escapes has the highest success rate.",
         "safety_critical": false,
-        "answer_line": "When grip loosens to adjust",
+        "answer_line": "When they loosen to fix grips",
         "distractors": {
           "plausible": [
-            "Right when legs first entangle",
-            "As soon as hip pressure starts"
+            "Once your heel is fully exposed",
+            "After they lock the figure four"
           ],
           "trap": [
-            "Force escape against tight grip"
+            "Thrash hard while control is tight"
           ]
         }
       },
@@ -569,14 +569,14 @@
         "question": "Why is it dangerous to attempt explosive spinning escapes when caught in a heel hook?",
         "answer": "Explosive spinning or rolling creates rotation through the trapped leg that the attacker can follow and amplify with their existing grip. Rather than escaping the heel hook, the spinning motion accelerates the finishing mechanics by adding your own rotational force to the attacker's. This can cause the knee ligaments to tear before you feel pain or have time to tap. Rotational escapes should only be attempted when the attacker's grip and leg control are clearly compromised, and even then should be performed with controlled speed.",
         "safety_critical": true,
-        "answer_line": "Spinning adds your own torque",
+        "answer_line": "Your own spin feeds the finish",
         "distractors": {
           "plausible": [
-            "It tires out the attacker",
-            "It resets the leg entanglement"
+            "It just puts your back down",
+            "It gives up your top position"
           ],
           "trap": [
-            "Spin fast to break the grip"
+            "Safe if you spin faster than them"
           ]
         }
       }

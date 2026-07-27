@@ -267,40 +267,40 @@
         "answer": "Proper level change drops your hips below the opponent's hips, letting you penetrate their base and secure the leg without being sprawled on. Key components include explosive hip and knee flexion that drops your center of gravity rapidly, maintaining an upright chest position to preserve structural power, keeping eyes on target throughout the movement, and executing the penetration step simultaneously with the level drop. Without proper level change, you remain too high and vulnerable to sprawl defense, guillotines, and front headlock attacks. The level change must be committed and explosive rather than gradual or tentative.",
         "distractors": {
           "plausible": [
-            "Drop chest, keep hips high",
-            "Gradual level change works too"
+            "Lower the chest, hips stay tall",
+            "Step in first, drop level after"
           ],
           "trap": [
-            "Bend at waist, hips stay high"
+            "Reach for the leg from upright"
           ]
         },
-        "answer_line": "Explosive hip drop below theirs"
+        "answer_line": "Drop hips below theirs, chest up"
       },
       {
         "question": "What is the optimal head positioning during single leg entry and why is this position critical for both offensive success and defensive safety?",
         "answer": "Keep your head tight to the opponent's hip or lower abdomen on the outside of their body, driving constant forward pressure throughout. Offensively this blocks their hips from moving backward into a sprawl, maintains your structural connection to their base, and lets your forward drive break their balance. Defensively, the outside head position keeps your neck away from their centerline and choking arm, protecting you from guillotine chokes. The head serves as both a pressure point for control and a defensive shield against submission attacks.",
         "distractors": {
           "plausible": [
-            "Head buried in centerline",
-            "Head up, eyes on ceiling"
+            "Head on top of their shoulder",
+            "Chin up, eyes on their face"
           ],
           "trap": [
-            "Head inside, near their neck"
+            "Head inside on their centerline"
           ]
         },
-        "answer_line": "Head outside, tight to hip"
+        "answer_line": "Head outside, tight on their hip"
       },
       {
         "question": "How should you adapt your finishing technique based on opponent's defensive reaction, and what are the three most common counters with their appropriate responses?",
         "answer": "Adapting your finish based on opponent's reaction is fundamental to single leg success. The three most common counters are: (1) Sprawl - respond by switching to double leg, transitioning to ankle pick, or circling to different angle while maintaining leg control; (2) Whizzer - respond by using it against them to transition to outside position, executing far side trip or dump, or accepting guard pull to single leg X; (3) Guillotine - respond by maintaining tight head-to-hip position, completing takedown despite grip, or hand fighting the choking arm while adjusting head position. The key is to maintain leg control throughout all adaptations and read their weight distribution to select the highest-percentage finish option available rather than forcing a predetermined outcome.",
-        "answer_line": "Read reaction, chain the finish",
+        "answer_line": "Read the counter, chain the finish",
         "distractors": {
           "plausible": [
-            "Always switch to double leg",
-            "Release leg, reset to neutral"
+            "Force the same finish harder",
+            "Only the double leg answers all"
           ],
           "trap": [
-            "Let go of leg, back away"
+            "Turn your back to circle out"
           ]
         }
       },
@@ -309,11 +309,11 @@
         "answer": "The most critical errors are insufficient level change, a shallow penetration step, a loose leg grip, poor head positioning, and telegraphing the shot. Insufficient level change leaves you too upright and open to sprawls and guillotines; a shallow penetration step that stops too far from the opponent's base prevents securing control and allows easy escape; a loose leg grip with a gap between shoulder and hip lets the opponent extract the leg and sprawl; head position in the centerline or away from the opponent creates guillotine vulnerability and loses forward pressure; and telegraphing intention through an obvious setup lets the opponent anticipate and prepare defense. Each error fundamentally compromises the mechanical advantage of the single leg, either by failing to establish proper control or by creating defensive opportunities for the opponent.",
         "distractors": {
           "plausible": [
-            "Only grip strength matters",
-            "Speed matters more than depth"
+            "Stronger grip fixes bad entry",
+            "Pure speed beats depth"
           ],
           "trap": [
-            "Telegraph the setup early"
+            "Stay upright and reach for it"
           ]
         },
         "answer_line": "Shallow shot, loose grip, telegraph"
@@ -323,28 +323,28 @@
         "answer": "The progression is grip fighting to create an opening, recognizing the timing window, then explosive level change and penetration as one fluid motion. Grip fighting or hand-fighting advantage from standing controls the opponent's movement and disguises your entry timing. From that setup you recognize the optimal moment based on the opponent's weight distribution, stance, and defensive awareness. Execution requires explosive level change simultaneous with the penetration step, dropping your hips well below the opponent's while stepping deep into their base; immediately upon penetration you secure the leg with both arms while establishing head-to-hip pressure. These elements are sequential but must appear as one motion — grip fighting creates the opening, timing recognition identifies the window, and explosive execution capitalizes on it before the opponent reacts. Speed from setup to completion is critical, as hesitation at any point allows the opponent to establish defenses.",
         "distractors": {
           "plausible": [
-            "Shoot first, grip fight after",
-            "Wait for perfect balance always"
+            "Shoot first, grips come after",
+            "Wait until they are square and set"
           ],
           "trap": [
-            "Hesitate to confirm the opening"
+            "Shoot from range with head inside"
           ]
         },
-        "answer_line": "Grip fight, time it, explode"
+        "answer_line": "Grip fight, read timing, explode"
       },
       {
         "question": "What role does the penetration step play in single leg entry success, and where should your lead foot be positioned relative to opponent's base?",
         "answer": "The penetration step sets how close your hips get to the opponent's base; your lead foot should land about 12-18 inches behind their heel. That closeness directly affects your ability to control their leg and prevent escape. The foot lands either between their legs or to the outside of the target leg depending on variation. This deep placement gets your hips close to the opponent, establishing the proper angle for leg capture and creating the mechanical advantage needed to finish. A shallow penetration step that lands too far from their base is one of the most common errors, resulting in weak control and easy defensive extraction of the leg.",
         "distractors": {
           "plausible": [
-            "Foot lands at their toes",
-            "Foot stays outside your stance"
+            "Foot lands even with their toes",
+            "Step wide outside both legs"
           ],
           "trap": [
-            "Shallow step, stay at range"
+            "Shoot from range, arms only"
           ]
         },
-        "answer_line": "Lead foot 12-18in past heel"
+        "answer_line": "Lead foot deep behind their heel"
       },
       {
         "question": "What is the optimal timing window for initiating a single leg entry, and what conditions signal that the window is open?",
@@ -352,53 +352,53 @@
         "distractors": {
           "plausible": [
             "Wait for their hands to rise",
-            "Shoot when they're balanced"
+            "Shoot when they are balanced"
           ],
           "trap": [
-            "Wait several seconds to confirm"
+            "Shoot while they step backward"
           ]
         },
-        "answer_line": "Shoot when weight hits lead leg"
+        "answer_line": "Shoot as weight loads lead leg"
       },
       {
         "question": "What specific grip configuration do you need before shooting, and how does grip selection differ between gi and no-gi entries?",
         "answer": "Never shoot without grip control: in gi use collar and same-side sleeve, in no-gi a collar tie with opposite-side wrist control or a two-on-one Russian tie. The gi grips let you pull the opponent's weight forward while controlling their posting hand during entry, with the sleeve grip preventing them from framing on your head as you shoot. The no-gi configurations break their posture and create an angle. The critical principle across both contexts is controlling at least one of the opponent's arms so they cannot establish a crossface or guillotine grip as you level change; entering with no connection gives the opponent free defensive reactions.",
         "distractors": {
           "plausible": [
-            "Grip legs first, arms later",
-            "Same grips work gi and no-gi"
+            "One grip works for gi and no-gi",
+            "Grab the legs, skip hand fight"
           ],
           "trap": [
-            "Shoot with no hand control"
+            "Shoot blind with no grips"
           ]
         },
-        "answer_line": "Control an arm before shooting"
+        "answer_line": "Collar tie plus wrist or sleeve"
       },
       {
         "question": "What is the primary direction of force application during each phase of the single leg entry?",
         "answer": "The direction of force changes through three distinct phases. During the level change and penetration step, force is directed forward and downward at approximately 45 degrees toward the mat, driving your body through opponent's stance. During leg capture and head positioning, force shifts to purely forward horizontal pressure through your shoulder into their hip, preventing them from retreating. During the stand-and-finish phase, force transitions to upward and forward at approximately 45 degrees, combining elevation of the captured leg with continued horizontal drive that pushes opponent off their remaining base. The common error is applying force in only one direction throughout - the sequential change in force angle is what makes the single leg mechanically overwhelming at each stage.",
-        "answer_line": "Forward-down, then up-forward",
+        "answer_line": "Down, then through, then up",
         "distractors": {
           "plausible": [
-            "Straight up the whole time",
-            "Backward pull throughout"
+            "Lift upward from the start",
+            "Same 45-degree angle throughout"
           ],
           "trap": [
-            "Force stays constant one direction"
+            "Pull them backward onto you"
           ]
         }
       },
       {
         "question": "Your opponent posts their free hand on your head as you capture their leg - how do you adjust to maintain your attack?",
         "answer": "When opponent posts on your head, they are attempting to create a frame that prevents your forward drive and opens space to sprawl or extract their leg. Your immediate response is to circle your head to the opposite side of the post, using your head-to-hip pressure to duck under their frame while maintaining tight shoulder-to-hip connection on the captured leg. Simultaneously, your outside hand can swim inside their posting arm to strip it or underhook it. If you cannot clear the post, change your finish angle by stepping your back foot to the outside and transitioning to an outside trip or running the pipe, where their posting hand actually works against them by preventing them from recovering balance in the new direction.",
-        "answer_line": "Circle head, duck the post",
+        "answer_line": "Circle head under their post",
         "distractors": {
           "plausible": [
-            "Push straight through the post",
-            "Release leg, reset position"
+            "Drive straight into their frame",
+            "Switch to a low double instead"
           ],
           "trap": [
-            "Pull head back to disengage"
+            "Lift head up into the frame"
           ]
         }
       },
@@ -407,11 +407,11 @@
         "answer": "Chain to the double leg, high crotch, ankle pick, back take by running the pipe, or a guard pull to single leg X — never disengaging from the leg. Specifically: (1) double leg conversion when the opponent's stance narrows as they hop — step through and capture the second leg for a more powerful finish; (2) high crotch transition — shift your head inside and drive upward into their hip for a different lifting angle; (3) ankle pick on the standing leg — release the thigh and drop to the far ankle while they defend the captured leg; (4) back take via running the pipe — circle behind them using the captured leg as a pivot; (5) guard pull to single leg X — if the standing finish is completely denied, sit back while maintaining leg control to establish SLX guard. The critical principle is never disengaging entirely: maintain some form of leg control while switching options so the opponent cannot reset to neutral.",
         "distractors": {
           "plausible": [
-            "Reset to neutral, re-shoot",
-            "Switch only to double leg"
+            "Only the double leg is available",
+            "Muscle the same single harder"
           ],
           "trap": [
-            "Release leg, back off to reset"
+            "Turn your back to spin away"
           ]
         },
         "answer_line": "Chain attacks, never let go"
@@ -422,8 +422,8 @@
         "answer_line": "Head outside, force hands low",
         "distractors": {
           "plausible": [
-            "Head inside their stance always",
-            "Abandon shot if grip appears"
+            "Shoot faster from longer range",
+            "Wait for them to attack first"
           ],
           "trap": [
             "Pull back once they grip neck"
@@ -570,11 +570,11 @@
         "answer_line": "Turn knee out, not pull back",
         "distractors": {
           "plausible": [
-            "Pull straight back, hard",
-            "Kick the free leg away"
+            "Pull straight back with force",
+            "Hop backward to build space"
           ],
           "trap": [
-            "Yank leg toward your chest"
+            "Sit down to strip the grip"
           ]
         }
       },
@@ -584,11 +584,11 @@
         "answer_line": "Half-sprawl, hands stay active",
         "distractors": {
           "plausible": [
-            "Full sprawl on every attempt",
-            "Always drive forward, ignore pull"
+            "Sprawl hard on every entry",
+            "Back away and reset distance"
           ],
           "trap": [
-            "Commit hips back immediately"
+            "Dive forward into their guard"
           ]
         }
       },
@@ -598,11 +598,11 @@
         "answer_line": "Guillotine, their neck exposed",
         "distractors": {
           "plausible": [
-            "Whizzer to stop the takedown",
-            "Sprawl hips to kill the shot"
+            "Peel their hands finger by finger",
+            "Post on the mat and stand up"
           ],
           "trap": [
-            "Try to stand and pull away"
+            "Turn away to shed the leg grip"
           ]
         }
       },
@@ -612,11 +612,11 @@
         "answer_line": "Press head down, attack angle",
         "distractors": {
           "plausible": [
-            "Let them stand, then re-engage",
-            "Circle away to reset distance"
+            "Hold still and wait them out",
+            "Back off to reset the distance"
           ],
           "trap": [
-            "Release head, back to neutral"
+            "Jump guard chasing a guillotine"
           ]
         }
       }

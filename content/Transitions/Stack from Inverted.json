@@ -485,14 +485,14 @@
       {
         "question": "Why is it critical to maintain weight on your shoulder blades rather than your neck during stack defense?",
         "answer": "Weight on the cervical spine creates serious injury risk including disc herniation, nerve compression, and in severe cases spinal cord damage. Beyond safety, neck loading eliminates your ability to rotate and create the angles necessary for escape. Shoulder blade contact provides a stable platform that allows hip rotation, granby rolling, and directional movement while distributing the stacking force across a wider, more structurally sound surface area of your upper back.",
-        "answer_line": "Weight on shoulders, not neck",
+        "answer_line": "Spine safety plus room to rotate",
         "distractors": {
           "plausible": [
-            "Weight evenly on head/neck",
-            "Tuck chin, brace on neck"
+            "Keeps head high to breathe easier",
+            "Frees both hands to fight grips"
           ],
           "trap": [
-            "Let weight rest on the neck"
+            "Post on top of head to hold on"
           ]
         }
       },

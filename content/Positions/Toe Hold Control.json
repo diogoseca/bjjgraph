@@ -348,11 +348,11 @@
         "answer_line": "Slow rotation gives time to tap",
         "distractors": {
           "plausible": [
-            "Apply max pressure immediately",
-            "Wait for verbal tap only"
+            "Wait for a verbal tap only",
+            "Squeeze grips harder instead"
           ],
           "trap": [
-            "Explosive crank for fast finish"
+            "Jerk the twist to beat the tap"
           ]
         }
       },
@@ -691,8 +691,8 @@
         "answer_line": "Tap at first ankle rotation stress",
         "distractors": {
           "plausible": [
-            "Wait until you hear a pop",
-            "Tap only when grip fully locked"
+            "Tap only when pain turns sharp",
+            "Tap once the grip fully locks"
           ],
           "trap": [
             "Power through to break the grip"
@@ -944,11 +944,11 @@
     {
       "question": "Why does the direction the foot is rotated matter to the injury mechanics of this position?",
       "answer": "The toe hold applies force by rotating the foot against a pinned knee, and the plane of that rotation dictates which ankle structures are loaded, primarily the ligaments and joint capsule of the ankle. Because these structures have a short range before failure, the position offers little warning time compared with slower-tapping chokes. When the knee is allowed to rotate externally with the foot, the stress no longer isolates at the ankle and can spread dangerously into the knee. Understanding this mechanism is what makes progressive, controlled rotation and early tapping a shared safety imperative for both players.",
-      "answer_line": "Fast ligament load, tap early",
+      "answer_line": "Direction sets which tissue loads",
       "distractors": {
         "plausible": [
-          "Knee absorbs all the stress",
-          "Slow tapping like a choke"
+          "Knee absorbs stress either way",
+          "Speed matters, direction doesn't"
         ],
         "trap": [
           "Push through mild rotation pain"

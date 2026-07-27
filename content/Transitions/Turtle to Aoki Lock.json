@@ -280,7 +280,7 @@
         "distractors": {
           "plausible": [
             "Apply pressure immediately",
-            "Use arm strength to crank"
+            "Push the shoulder downward"
           ],
           "trap": [
             "Crank explosively for a fast tap"
@@ -409,11 +409,11 @@
       {
         "question": "When should you stop defending and tap during this sequence?",
         "answer": "You should tap early once the leg-over has locked the entanglement and you feel rotational pressure building on the shoulder without an immediate spin or extraction available. The Aoki Lock is a true shoulder lock that can cause rotator cuff tears, labrum damage, or dislocation, and these injuries occur quickly once pressure is applied. If you cannot escape the moment the lock is set, protecting the joint by tapping is the correct decision rather than risking a serious shoulder injury.",
-        "answer_line": "Tap once lock is set",
+        "answer_line": "Tap once the lock is set",
         "distractors": {
           "plausible": [
             "Wait for sharp pain",
-            "Try to power out first"
+            "Wait until you feel a pop"
           ],
           "trap": [
             "Fight through the pressure"

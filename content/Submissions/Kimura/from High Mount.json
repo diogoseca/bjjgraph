@@ -302,7 +302,7 @@
             "Wrist and forearm bones"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank the neck when arm stalls"
           ]
         }
       },
@@ -310,14 +310,14 @@
         "question": "How do you recognize when the Kimura is approaching the breaking point during application?",
         "answer": "The breaking point approaches when the defender's forearm passes approximately 90 degrees of rotation behind their back relative to the starting position. You will feel increasing resistance in the figure-four grip as the shoulder capsule tightens, and the defender's body may begin to involuntarily arch or twist. In training, you must slow down significantly before this point and apply pressure progressively, giving your partner clear opportunity to tap before structural damage occurs. Never push through sudden increases in resistance.",
         "safety_critical": true,
-        "answer_line": "Feel resistance, tap before damage",
+        "answer_line": "Forearm past 90 degrees behind back",
         "distractors": {
           "plausible": [
-            "Wait for a loud pop or crack",
-            "Push until partner resists"
+            "When the elbow leaves the mat",
+            "Once their hands break apart"
           ],
           "trap": [
-            "Crank hard and fast to finish"
+            "Rotate hard until it gives"
           ]
         }
       },
@@ -325,14 +325,14 @@
         "question": "What control must be established before attempting the figure-four grip from High Mount?",
         "answer": "Before committing to the figure-four, you must establish three control points: first, your hips must be driving forward pressure into the defender's upper chest to prevent bridging; second, the target arm must be isolated from the defender's body with their elbow separated from their ribs; third, the defender's opposite arm must be monitored or controlled to prevent them from creating frames or stripping your grip. Attempting the figure-four without these prerequisites typically results in losing mount position.",
         "safety_critical": false,
-        "answer_line": "Pressure, isolate, control arm",
+        "answer_line": "Hip pressure, isolate that arm",
         "distractors": {
           "plausible": [
-            "Grip figure-four immediately",
-            "Control legs before arm"
+            "Trap both arms under your knees",
+            "Grab a collar grip first"
           ],
           "trap": [
-            "Abandon mount to chase grip"
+            "Abandon mount to chase the grip"
           ]
         }
       },
@@ -373,11 +373,11 @@
         "answer_line": "Tighten grip or switch Americana",
         "distractors": {
           "plausible": [
-            "Release and re-grip fresh",
-            "Force original angle harder"
+            "Push their wrist toward the hip",
+            "Muscle the same angle harder"
           ],
           "trap": [
-            "Let go of wrist control"
+            "Sit up and abandon the arm"
           ]
         }
       },
@@ -385,14 +385,14 @@
         "question": "What is the proper application speed for the Kimura in training and why is this critical?",
         "answer": "The Kimura must be applied slowly and progressively in training, taking a minimum of 3-5 seconds for the finishing rotation. This controlled pace is critical because the shoulder joint can suffer catastrophic damage (rotator cuff tears, capsule damage, labral tears) before the defender feels sufficient pain to tap. The shoulder's pain response lags behind structural damage, meaning a fast application can cause serious injury even when the defender intends to tap. Always give your partner time to recognize the danger, process the position, and signal their tap.",
         "safety_critical": true,
-        "answer_line": "Slow, 3-5 second finish",
+        "answer_line": "Slow, 3-5 second rotation",
         "distractors": {
           "plausible": [
-            "Fast before they escape",
-            "Speed matches their resistance"
+            "Any speed if you stop on tap",
+            "Speed matters only in competition"
           ],
           "trap": [
-            "Snap it quickly for the tap"
+            "Snap it through for the tap"
           ]
         }
       },
@@ -400,14 +400,14 @@
         "question": "How should you release the Kimura immediately after your partner taps?",
         "answer": "The instant you feel or hear a tap, stop all rotational pressure and hold the arm in its current position without adding any force. Then slowly return the arm toward neutral by externally rotating it back toward the starting position. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or let the arm spring back, as this rebound can cause injury to an already stressed joint. Maintain awareness that the shoulder may be compromised even after release.",
         "safety_critical": true,
-        "answer_line": "Stop, ease arm back slowly",
+        "answer_line": "Stop, ease the arm back slowly",
         "distractors": {
           "plausible": [
-            "Release grip instantly",
-            "Hold position, ask if okay"
+            "Release the grip instantly",
+            "Roll away to give them space"
           ],
           "trap": [
-            "Let arm spring back free"
+            "Let the arm spring back free"
           ]
         }
       },
@@ -419,10 +419,10 @@
         "distractors": {
           "plausible": [
             "Yank the arm straight out",
-            "Strike the hands to break grip"
+            "Switch hands to a fresh grip"
           ],
           "trap": [
-            "Abandon position, stand up"
+            "Stand up to rip the grip free"
           ]
         }
       },
@@ -433,11 +433,11 @@
         "answer_line": "Gravity, elbow isolation, no bridge",
         "distractors": {
           "plausible": [
-            "More space to switch grips",
-            "Easier to control legs"
+            "Longer lever on their wrist",
+            "They tire faster underneath"
           ],
           "trap": [
-            "Weight stays on the hips"
+            "Post your hands to crank harder"
           ]
         }
       }
@@ -572,14 +572,14 @@
         "question": "What is the safest way to tap when caught in the Kimura from High Mount?",
         "answer": "Tap immediately and clearly the moment you feel rotational pressure on your shoulder that you cannot stop. Use your free hand to tap rapidly on the attacker's body, the mat, or your own body. If your free hand is trapped, use verbal tapping by saying 'tap' loudly or tapping with your feet. Do not wait to see if you can escape once rotation has begun—the shoulder can suffer structural damage before you feel significant pain, and the top-down angle from high mount makes late escapes nearly impossible.",
         "safety_critical": true,
-        "answer_line": "Tap fast, hand, mat, or verbal",
+        "answer_line": "Tap fast: hand, mat, or voice",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only once pain is sharp"
+            "Only a free-hand tap counts",
+            "Slap the mat, never your body"
           ],
           "trap": [
-            "Try to power out of rotation"
+            "Ride it out and try to escape"
           ]
         }
       },
@@ -591,10 +591,10 @@
         "distractors": {
           "plausible": [
             "Bridge hard the whole time",
-            "Grip fight only after locked"
+            "Roll away from the trapped arm"
           ],
           "trap": [
-            "Wait and hope they let go"
+            "Post that hand on the mat"
           ]
         }
       },
@@ -605,11 +605,11 @@
         "answer_line": "Bridge on their lateral shift",
         "distractors": {
           "plausible": [
-            "Bridge as soon as mounted",
-            "Bridge after grip is locked"
+            "Bridge the instant they mount",
+            "Bridge once the grip is locked"
           ],
           "trap": [
-            "Bridge straight up, centered"
+            "Roll toward the trapped arm"
           ]
         }
       },

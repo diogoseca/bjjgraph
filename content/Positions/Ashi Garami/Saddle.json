@@ -533,8 +533,8 @@
         "answer_line": "Tap now, or hip-clear toward them",
         "distractors": {
           "plausible": [
-            "Pull the leg away explosively",
-            "Wait it out, defend the grip"
+            "Point your toes to change rotation",
+            "Sit up and fight the hand grips"
           ],
           "trap": [
             "Yank leg back to strip the grip"
@@ -575,7 +575,7 @@
         "answer_line": "Heel, grips, hips, then extract",
         "distractors": {
           "plausible": [
-            "Extract leg first, then grips",
+            "Address grips before hiding heel",
             "Clear hips before hiding heel"
           ],
           "trap": [

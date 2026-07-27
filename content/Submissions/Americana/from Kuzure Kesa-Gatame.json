@@ -305,14 +305,14 @@
         "question": "What anatomical structures does the Americana from Kuzure Kesa-Gatame specifically attack?",
         "answer": "The Americana attacks the glenohumeral joint through forced external rotation, stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the associated ligaments. The paint motion creates maximum torque on these structures by using the forearm as a lever against the pinned shoulder, with the elbow serving as the fulcrum point.",
         "safety_critical": false,
-        "answer_line": "Shoulder via external rotation",
+        "answer_line": "Shoulder joint and rotator cuff",
         "distractors": {
           "plausible": [
-            "Elbow joint hyperextension",
-            "Wrist joint compression"
+            "Elbow ligaments and triceps",
+            "Wrist tendons and forearm"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Neck and spine via head crank"
           ]
         }
       },
@@ -327,7 +327,7 @@
             "Re-grip and restart americana"
           ],
           "trap": [
-            "Release grip, reset position"
+            "Post up chasing arm, get swept"
           ]
         }
       },
@@ -350,14 +350,14 @@
         "question": "What are the key safety considerations when applying the Americana from Kuzure Kesa-Gatame in training?",
         "answer": "Apply the paint progressively over three to five seconds minimum, never jerk or spike the rotation. Use no more than 10-20% pressure in drilling. Monitor for all tap signals including verbal taps, hand or foot taps on any surface, and distress vocalizations. Release immediately upon any signal by stopping all rotational pressure first, then carefully returning the arm to neutral. Never repeatedly attack the same shoulder in a single session, and never train this technique with partners who have existing shoulder injuries without medical clearance.",
         "safety_critical": true,
-        "answer_line": "Apply slow, low pressure, watch taps",
+        "answer_line": "Slow 3-5s pressure, release on tap",
         "distractors": {
           "plausible": [
-            "Full pressure builds tolerance",
-            "Quick taps, then repeat drilling"
+            "Drill at 50% speed for realism",
+            "Only stop for a clear verbal tap"
           ],
           "trap": [
-            "Spike rotation to test tap speed"
+            "Hold the lock until they relax"
           ]
         }
       },
@@ -368,11 +368,11 @@
         "answer_line": "Stop rotation first, then release",
         "distractors": {
           "plausible": [
-            "Release grip before pressure",
-            "Lower arm quickly to reset"
+            "Unhook the figure-four grip first",
+            "Let the arm swing down freely"
           ],
           "trap": [
-            "Keep grip, ease pressure slowly"
+            "Hold the lock till they say stop"
           ]
         }
       },
@@ -383,11 +383,11 @@
         "answer_line": "Walk elbow away from body",
         "distractors": {
           "plausible": [
-            "Pull the trapped hand hard",
-            "Pry fingers off the belt"
+            "Strip the belt grip with fingers",
+            "Wait for their grip to tire"
           ],
           "trap": [
-            "Yank wrist to snap grip fast"
+            "Lift hips to pull, get bridged"
           ]
         }
       },
@@ -402,7 +402,7 @@
             "Requires less hip pressure"
           ],
           "trap": [
-            "Paint straight down to mat"
+            "Post up to change angle, get rolled"
           ]
         }
       },
@@ -413,11 +413,11 @@
         "answer_line": "Grip locked, wrist pinned, hips down",
         "distractors": {
           "plausible": [
-            "Once figure-four grip is locked",
-            "When wrist touches the mat"
+            "As soon as the arm is threaded",
+            "When they stop bridging"
           ],
           "trap": [
-            "As soon as paint motion starts"
+            "Release hips to crank harder"
           ]
         }
       },
@@ -444,10 +444,10 @@
         "distractors": {
           "plausible": [
             "Pry elbow off ribs with hands",
-            "Pull wrist straight up hard"
+            "Wait for the elbow to loosen"
           ],
           "trap": [
-            "Muscle the arm straight out"
+            "Lift chest to pry, lose the pin"
           ]
         }
       }
@@ -582,7 +582,7 @@
         "distractors": {
           "plausible": [
             "Tap once pain becomes sharp",
-            "Say tap only, no hand tap"
+            "Tug their sleeve gently once"
           ],
           "trap": [
             "Fight through, tap at max pain"
@@ -596,8 +596,8 @@
         "answer_line": "Elbow to ribs, hand to shoulder",
         "distractors": {
           "plausible": [
-            "Arm fully extended, elbow out",
-            "Hand pushing attacker's hip"
+            "Hand pushing attacker's hip",
+            "Flatten shoulders and hold still"
           ],
           "trap": [
             "Straighten arm to create space"
@@ -612,10 +612,10 @@
         "distractors": {
           "plausible": [
             "Always escape before defending",
-            "Ignore grip, bridge immediately"
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Pure defense, no escape attempt"
+            "Bridge hard while grip is locked"
           ]
         }
       }

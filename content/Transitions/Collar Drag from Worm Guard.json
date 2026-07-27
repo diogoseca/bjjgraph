@@ -264,38 +264,38 @@
         "distractors": {
           "plausible": [
             "Frees a hand for extra grip",
-            "Weakens their overall base"
+            "Shortens the pull distance"
           ],
           "trap": [
-            "Lets you release the lapel grip"
+            "Release lapel to strip collar"
           ]
         }
       },
       {
         "question": "What is the optimal timing window for initiating the collar drag from worm guard?",
         "answer": "The optimal timing is when the opponent attempts to posture up against the worm guard tension or shifts their weight backward after defending a sweep attempt. Their upward or backward energy reduces their forward resistance, making the collar drag more effective. Additionally, the moment they attempt to strip the lapel with one hand, they are down to single-hand base, creating another ideal timing window for the drag.",
-        "answer_line": "When they posture up or strip grip",
+        "answer_line": "When they posture or strip grip",
         "distractors": {
           "plausible": [
-            "Right after securing worm guard",
-            "When their weight shifts forward"
+            "Right after you secure the wrap",
+            "When their weight drives forward"
           ],
           "trap": [
-            "As soon as you get lapel wrap"
+            "Wait until they start passing"
           ]
         }
       },
       {
         "question": "What grip depth is required on the collar and why does a shallow grip fail?",
         "answer": "The collar grip must be deep behind the neck at the collar crease where it meets the shoulder. A shallow grip on the lapel fold provides insufficient leverage because the pulling angle is too far from the opponent's center of mass. The deep grip behind the neck allows you to pull their head directly downward with maximum mechanical advantage, making the drag difficult to resist.",
-        "answer_line": "Deep at collar crease behind neck",
+        "answer_line": "Deep at collar crease by neck",
         "distractors": {
           "plausible": [
-            "Mid-collar, near the shoulder blade",
-            "Lapel fold grip, close to chest"
+            "Shallow bite on the lapel fold",
+            "Sleeve grip at their elbow"
           ],
           "trap": [
-            "Grab the far collar for control"
+            "Reach across for the far collar"
           ]
         }
       },
@@ -306,24 +306,24 @@
         "distractors": {
           "plausible": [
             "Switch to a different sweep",
-            "Pause and reset your grips"
+            "Pause and re-set your grips"
           ],
           "trap": [
-            "Release grip, attack the arm"
+            "Sit back flat and wait it out"
           ]
         }
       },
       {
         "question": "What is the primary direction of force during the collar drag execution?",
         "answer": "The primary force direction is diagonally forward and slightly to the side rather than straight down. The diagonal angle makes it harder for the opponent to resist because they cannot simply brace forward. The lateral component creates the angle you need to come around to front headlock on the side. Pulling straight down tends to collapse the opponent on top of you rather than beside you, which is tactically inferior.",
-        "answer_line": "Diagonally forward and to the side",
+        "answer_line": "Diagonally forward and to a side",
         "distractors": {
           "plausible": [
             "Straight down toward the mat",
             "Straight back toward your hips"
           ],
           "trap": [
-            "Straight up to break posture"
+            "Push them away to make space"
           ]
         }
       },
@@ -333,22 +333,22 @@
         "answer_line": "Hits the plane sweeps don't cover",
         "distractors": {
           "plausible": [
-            "Replaces sweeps as primary attack",
-            "Only used after sweeps fully fail"
+            "Replaces sweeps as main attack",
+            "Only used after sweeps fail"
           ],
           "trap": [
-            "Skip drag if base sweep is defended"
+            "Drop lapel to free both hands"
           ]
         }
       },
       {
         "question": "What should you do if the opponent successfully strips your collar grip mid-drag?",
         "answer": "If the collar grip is stripped but you still have lapel control, immediately transition to an alternative attack from worm guard rather than attempting to re-establish the collar grip. Options include an arm drag on the stripping arm, a sweep attempt using the opponent's momentary distraction, or re-setting the collar grip from a different angle. The worst response is to freeze and allow them to reset their defensive posture.",
-        "answer_line": "Switch attacks, don't reset grip",
+        "answer_line": "Chain to arm drag or sweep now",
         "distractors": {
           "plausible": [
-            "Immediately re-grip the collar",
-            "Reset to neutral and restart"
+            "Push them back to reset range",
+            "Close guard and stall a beat"
           ],
           "trap": [
             "Release lapel to chase collar"
@@ -358,14 +358,14 @@
       {
         "question": "What distinguishes the collar drag from worm guard from a sit-up sweep, and when should you choose one over the other?",
         "answer": "The collar drag aims to achieve front headlock top position by pulling the opponent forward and circling to their side, while a sit-up sweep aims to reverse position by getting underneath and elevating. Choose the collar drag when the opponent has wide base making elevation sweeps unlikely, when you want access to the front headlock submission tree, or when the opponent's posture is elevated. Choose sweeps when the opponent's weight is forward and they are more easily elevated.",
-        "answer_line": "Drag=headlock; sweep=elevate them",
+        "answer_line": "Drag seeks headlock; sweep lifts",
         "distractors": {
           "plausible": [
-            "Drag=sweep; headlock comes later",
-            "Both aim for the same headlock"
+            "Drag is just a faster sweep",
+            "Both end in the same top pin"
           ],
           "trap": [
-            "Choose drag when weight is forward"
+            "Elevate into forward pressure"
           ]
         }
       }
@@ -481,38 +481,38 @@
         "distractors": {
           "plausible": [
             "They square their hips to you",
-            "They release the lapel grip"
+            "They pull you into closed guard"
           ],
           "trap": [
-            "They posture up to break guard"
+            "Wait until you feel the pull"
           ]
         }
       },
       {
         "question": "Why is stepping backward an unreliable defense against the collar drag when worm guard is established?",
         "answer": "The worm guard lapel wrap specifically immobilizes your lead leg by wrapping the lapel around it, preventing you from stepping backward. Since stepping back is the natural defensive response to being pulled forward, the worm guard eliminates your strongest defensive mechanism. This is why the collar drag from worm guard is significantly more effective than from standard open guard positions.",
-        "answer_line": "Lapel wrap traps your lead leg",
+        "answer_line": "Lapel wrap pins your lead leg",
         "distractors": {
           "plausible": [
-            "Their grip is simply too strong",
-            "You're too flat to move your legs"
+            "Their collar grip is too strong",
+            "Backstep needs both hands free"
           ],
           "trap": [
-            "Widening your base stops it"
+            "Widen base and stay tall"
           ]
         }
       },
       {
         "question": "Your opponent has obtained a deep collar grip and you feel the drag is imminent - what is your highest percentage defensive response?",
         "answer": "Drive your weight forward and down immediately while posting your far hand to prevent face-down collapse. Your forward drive counteracts their pulling force and makes it impossible for them to sit up underneath you. Simultaneously work to strip the collar grip with your other hand. If you successfully pin them flat, their collar drag loses all power because they cannot complete the sit-up motion needed to come around to front headlock.",
-        "answer_line": "Drive forward, post hand, strip",
+        "answer_line": "Drive forward, post, strip grip",
         "distractors": {
           "plausible": [
             "Sit back and create distance",
-            "Turtle up to protect your neck"
+            "Pull your head straight back"
           ],
           "trap": [
-            "Raise up to posture out"
+            "Turtle up and give your back"
           ]
         }
       },
@@ -523,10 +523,10 @@
         "distractors": {
           "plausible": [
             "Widen base like sweep defense",
-            "Raise hips to add stability"
+            "Grip fight both sleeves first"
           ],
           "trap": [
-            "Raise center of gravity for both"
+            "Raise your center of gravity"
           ]
         }
       }

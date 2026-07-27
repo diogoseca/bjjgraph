@@ -247,7 +247,7 @@
             "Bicep across the windpipe"
           ],
           "trap": [
-            "Grip the far shoulder instead"
+            "Loosen head control to reach deep"
           ]
         },
         "answer_line": "Wrist bone into the throat"
@@ -275,7 +275,7 @@
             "S-grip, thumb lock, seatbelt"
           ],
           "trap": [
-            "One-hand wrist grab only"
+            "Hook thumbs together in the grip"
           ]
         },
         "answer_line": "Gable, S-grip, interlaced fingers"
@@ -301,10 +301,10 @@
         "distractors": {
           "plausible": [
             "Post on the mat for base",
-            "Control their far leg"
+            "Frame on their shoulder"
           ],
           "trap": [
-            "Let it hang free for balance"
+            "Underhook far arm, drop the loop"
           ]
         }
       },
@@ -314,10 +314,10 @@
         "distractors": {
           "plausible": [
             "Opponent squared and braced",
-            "Opponent standing still, framed"
+            "Opponent framing on your hips"
           ],
           "trap": [
-            "Wait for them to shoot a leg"
+            "Attack once they posture up tall"
           ]
         },
         "answer_line": "Broken posture, no frames, moving"
@@ -328,7 +328,7 @@
         "distractors": {
           "plausible": [
             "Pull away to reset grip",
-            "Push through their post"
+            "Wait for their frame to tire"
           ],
           "trap": [
             "Release head control to grab wrist"
@@ -356,11 +356,11 @@
         "answer_line": "Continuous sprawl into thread",
         "distractors": {
           "plausible": [
-            "Let them recover posture first",
-            "Sprawl then wait to attack"
+            "Circle behind to take the back",
+            "Sprawl then wait for them to move"
           ],
           "trap": [
-            "Pull guard immediately after sprawl"
+            "Pull guard right after the sprawl"
           ]
         }
       },
@@ -369,14 +369,14 @@
         "answer": "Chain from the front headlock into the anaconda, the darce, a back take, or a snap-down reset—each failed attempt flows into the next attack. Specifically: (1) transition to an anaconda choke by threading your arm under their neck and over their far arm, locking a gable grip and rolling; (2) switch to a darce by underhooking their near arm and connecting your hands under the far side of the neck; (3) disengage the choke and take the back, using their defensive reaction to step around and secure hooks; or (4) snap them back down to re-establish the front headlock and reset the attack cycle. The key is that each failed guillotine flows seamlessly into the next attack rather than creating a dead moment where you must rebuild control from scratch.",
         "distractors": {
           "plausible": [
-            "Reset to neutral clinch",
-            "Switch straight to kimura"
+            "Crank harder on the same grip",
+            "Step back and re-shoot a double"
           ],
           "trap": [
-            "Release headlock to reset stance"
+            "Pull guard to force the choke"
           ]
         },
-        "answer_line": "Anaconda, darce, back take, snap"
+        "answer_line": "Chain anaconda, darce, or back take"
       }
     ],
     "safety_considerations": "When training the guillotine setup, both practitioners must understand that the neck and trachea are extremely vulnerable areas requiring careful, controlled practice. Apply the setup slowly during drilling, giving your partner time to tap if uncomfortable. Never explosively jerk or crank the neck during the setup phase. Partners should communicate clearly about pressure levels, and the person applying the technique should release immediately upon any tap, verbal submission, or sign of distress. Be especially cautious with grip pressure during the initial threading phase, as overly aggressive arm placement can cause trachea damage even before the choke is fully applied. When practicing from standing positions, ensure adequate mat space and be prepared to control your partner's fall if they lose balance. Beginners should focus on positioning and mechanics with minimal pressure until they understand the technique thoroughly. Remember that a properly applied guillotine can render someone unconscious in 3-8 seconds, so never maintain pressure once a tap occurs, and never practice finishing mechanics without a partner's explicit consent and understanding of safe tapping protocols.",
@@ -533,10 +533,10 @@
         "distractors": {
           "plausible": [
             "Pull guard yourself first",
-            "Push straight forward"
+            "Strip the grip with one hand"
           ],
           "trap": [
-            "Tuck chin and wait it out"
+            "Turn in toward the choking arm"
           ]
         }
       },
@@ -564,7 +564,7 @@
             "Pull straight back to escape"
           ],
           "trap": [
-            "Push forward into the choke"
+            "Sit to guard with arm trapped"
           ]
         }
       }

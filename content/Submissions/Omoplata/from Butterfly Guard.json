@@ -342,11 +342,11 @@
         "answer_line": "Elbow up, torso flat, arm wound",
         "distractors": {
           "plausible": [
-            "Opponent taps the mat loudly",
-            "Opponent's hand turns purple"
+            "Opponent's face flushes red",
+            "Their grip suddenly goes limp"
           ],
           "trap": [
-            "Sudden burst of resistance"
+            "Wait for a pop or crack"
           ]
         }
       },
@@ -387,11 +387,11 @@
         "answer_line": "Posted arm exposed to overhook",
         "distractors": {
           "plausible": [
-            "Posted hand blocks the omoplata",
-            "Their base improves, delaying entry"
+            "Their weight centers, base solid",
+            "Their hand guards against the trap"
           ],
           "trap": [
-            "Abandon omoplata, chase the sweep"
+            "Freeze up and get passed"
           ]
         }
       },
@@ -564,14 +564,14 @@
         "question": "At what stage of the omoplata sequence do your defensive options become most limited?",
         "answer": "Defensive options become most limited once the attacker's leg has fully cleared over your shoulder and they have secured control of your far hip. Before the leg clears, posturing and arm withdrawal are highly effective. After the leg clears but before hip control, the forward roll remains available. Once both are established, only turning into the attacker or tapping remain viable.",
         "safety_critical": false,
-        "answer_line": "Leg cleared, hip control set",
+        "answer_line": "Leg cleared and far hip pinned",
         "distractors": {
           "plausible": [
-            "Right after the overhook locks",
-            "Once the hook lifts your hips"
+            "The moment the overhook locks",
+            "During the forward-roll window"
           ],
           "trap": [
-            "Only once fully flattened out"
+            "Only after the shoulder is cranked"
           ]
         }
       },

@@ -257,11 +257,11 @@
         "answer_line": "Instant, within 1-2 seconds",
         "distractors": {
           "plausible": [
-            "Wait until fully postured up",
-            "Pause to secure grips first"
+            "Once they build a new guard",
+            "After settling for a few breaths"
           ],
           "trap": [
-            "Let them reset before attacking"
+            "Stall with head low inside guard"
           ]
         }
       },
@@ -285,11 +285,11 @@
         "answer_line": "Low, heavy, diagonal drive",
         "distractors": {
           "plausible": [
-            "High hips for extra reach",
-            "Square hips, drive straight"
+            "Square hips, drive straight",
+            "Stay tall to keep your base"
           ],
           "trap": [
-            "Rise hips to clear the leg"
+            "Hop over into their butterfly hook"
           ]
         }
       },
@@ -314,10 +314,10 @@
         "distractors": {
           "plausible": [
             "Grip the near hip instead",
-            "Underhook the near arm"
+            "Two hands on their top knee"
           ],
           "trap": [
-            "Grab the collar for control"
+            "Post both hands on the mat"
           ]
         }
       },
@@ -327,11 +327,11 @@
         "answer_line": "Switch to smash pass or backstep",
         "distractors": {
           "plausible": [
-            "Force the knee through it",
-            "Keep pushing same angle"
+            "Pull their knee shield down",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Let go and reset to guard"
+            "Muscle through and get elevated"
           ]
         }
       },
@@ -341,11 +341,11 @@
         "answer_line": "Diagonal, toward far shoulder",
         "distractors": {
           "plausible": [
-            "Straight forward, full power",
-            "Toward the near shoulder"
+            "Toward the near shoulder",
+            "Straight down through the hip"
           ],
           "trap": [
-            "Drive straight into their frame"
+            "Drive forward with head down"
           ]
         }
       },
@@ -355,11 +355,11 @@
         "answer_line": "Collapse frame, swim inside",
         "distractors": {
           "plausible": [
-            "Power through the frame",
-            "Pull the hand off directly"
+            "Pull the hand off directly",
+            "Sit back and re-grip"
           ],
           "trap": [
-            "Muscle past, ignore the frame"
+            "Strip it with both hands, no base"
           ]
         }
       },
@@ -370,10 +370,10 @@
         "distractors": {
           "plausible": [
             "Repeat the same knee slice",
-            "Retreat to closed guard"
+            "Stand up and disengage fully"
           ],
           "trap": [
-            "Force the pass, ignore reaction"
+            "Give up the underhook and grind"
           ]
         }
       },
@@ -387,7 +387,7 @@
             "Hips too low during drive"
           ],
           "trap": [
-            "Posting foot in wrong spot"
+            "Hunch head down inside their guard"
           ]
         }
       }
@@ -511,11 +511,11 @@
         "answer_line": "Posturing up with hip pressure",
         "distractors": {
           "plausible": [
-            "Opponent breaks grips only",
-            "They shift weight backward"
+            "They pull your head down",
+            "Their hips slide backward"
           ],
           "trap": [
-            "They relax and sit back"
+            "Wait until their knee is across"
           ]
         }
       },
@@ -539,11 +539,11 @@
         "answer_line": "Turns you in, kills your frame",
         "distractors": {
           "plausible": [
-            "Loses grip on their sleeve",
-            "Slows down your hip escape"
+            "Loses your sleeve grip",
+            "Tires your legs for later"
           ],
           "trap": [
-            "Commit fully, force the sweep"
+            "Low risk, sweep it every time"
           ]
         }
       },
@@ -581,8 +581,8 @@
         "answer_line": "Kills hip mobility, no escape",
         "distractors": {
           "plausible": [
-            "Only affects your grips",
-            "Slows your posture recovery"
+            "It just tires your arms out",
+            "Only limits your grip fighting"
           ],
           "trap": [
             "Flat is fine, just frame hard"

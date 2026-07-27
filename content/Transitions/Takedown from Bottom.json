@@ -288,11 +288,11 @@
         "answer_line": "Collar tie + wrist control",
         "distractors": {
           "plausible": [
-            "Double overhooks, both sides",
-            "Underhook and collar tie"
+            "Russian two-on-one grip",
+            "Double underhook body lock"
           ],
           "trap": [
-            "Both hands on the collar tie"
+            "Bury your head, grab both legs"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Attack the lead leg, low single",
         "distractors": {
           "plausible": [
-            "Reach across for the trail leg",
-            "Go for a standard double leg"
+            "Go for a standard double leg",
+            "Arm drag to take the back"
           ],
           "trap": [
-            "Shoot the back leg across stance"
+            "Dive at the far leg, head down"
           ]
         }
       }

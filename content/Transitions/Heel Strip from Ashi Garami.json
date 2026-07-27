@@ -259,11 +259,11 @@
       {
         "question": "What is the most critical safety consideration when attempting a heel strip from Ashi Garami?",
         "answer": "If the heel hook rotation has already begun—meaning the opponent is actively twisting your heel against your knee—you must tap immediately rather than attempt a strip. The stripping motion can actually increase rotational force on the knee during active application, making a bad situation catastrophically worse. The heel strip is a preventive technique that must be executed BEFORE the opponent begins finishing rotation.",
-        "answer_line": "Tap if rotation already started",
+        "answer_line": "Tap the instant rotation begins",
         "distractors": {
           "plausible": [
-            "Strip through active rotation",
-            "Wait for a clearer opening"
+            "Hand-fight to defend the heel",
+            "Wait for the pressure to ease"
           ],
           "trap": [
             "Strip harder to beat the finish"

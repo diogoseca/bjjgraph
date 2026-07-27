@@ -305,14 +305,14 @@
         "question": "What anatomical structures does the Twister from Cross Body Ride primarily attack?",
         "answer": "The Twister primarily attacks the cervical and thoracic spine through combined rotational torque and lateral flexion. The leg entanglement creates rotation through the thoracic and lumbar spine from below, while the chin strap grip applies cervical rotation and lateral bending from above. The shoulder girdle is also stressed as the upper body is pulled in opposition to the immobilized lower body.",
         "safety_critical": false,
-        "answer_line": "Cervical & thoracic spine rotation",
+        "answer_line": "Cervical and thoracic spine",
         "distractors": {
           "plausible": [
-            "Shoulder girdle stress",
-            "Lumbar spine lateral flexion"
+            "Elbow and wrist joints",
+            "Hip flexor muscles"
           ],
           "trap": [
-            "Knee and ankle joints"
+            "Harmless neck stretch only"
           ]
         }
       },
@@ -380,14 +380,14 @@
         "question": "Your opponent starts turning into you to reduce spinal rotation — how do you respond?",
         "answer": "Increase pressure through your leg entanglement to resist their hip rotation and maintain the spinal torque angle. If they successfully reduce some rotation, recognize that their neck becomes more exposed as they turn toward you, opening opportunities for guillotine variations or front headlock transitions. The key is to exploit what the defensive reaction gives you rather than fighting exclusively to maintain the original Twister angle.",
         "safety_critical": false,
-        "answer_line": "Add leg pressure, exploit neck",
+        "answer_line": "Add leg pressure, attack neck",
         "distractors": {
           "plausible": [
-            "Release legs to reset the angle",
-            "Force original angle only"
+            "Wait for them to tire",
+            "Yank the chin strap harder"
           ],
           "trap": [
-            "Let go of the chin strap grip"
+            "Release legs to reset angle"
           ]
         }
       },
@@ -398,11 +398,11 @@
         "answer_line": "Gable or figure-four behind head",
         "distractors": {
           "plausible": [
-            "Single hand chin strap grip",
-            "Cross-face grip behind neck"
+            "One-handed chin cup",
+            "Cross-collar throat grip"
           ],
           "trap": [
-            "Grip the far leg pant cuff"
+            "Post free hand on the mat"
           ]
         }
       },
@@ -455,14 +455,14 @@
         "question": "How does the Twister fit within the broader Cross Body Ride attack system?",
         "answer": "The Twister is one option within a comprehensive attack system from Cross Body Ride that includes calf slicers on the trapped leg, banana splits exploiting hip immobility, guillotine variations when the opponent turns in, and transitions to traditional back control. The Twister threat forces defensive reactions that open these alternative attacks. Elite practitioners use the Twister as a primary threat that channels opponent defense toward specific patterns, then exploit those patterns with higher-percentage alternatives when the Twister itself is well-defended.",
         "safety_critical": false,
-        "answer_line": "Threat opens slicer, back take",
+        "answer_line": "Threat opens slicer and back take",
         "distractors": {
           "plausible": [
-            "Twister is the only real threat",
-            "Used only as last resort"
+            "Best used only as last resort",
+            "Works only on white belts"
           ],
           "trap": [
-            "Twister replaces all other attacks"
+            "Chase twister, ignore other subs"
           ]
         }
       }

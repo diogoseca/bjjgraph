@@ -299,14 +299,14 @@
         "question": "What anatomical structure does the belly down armbar from New York primarily attack and why is the belly down position particularly dangerous for this target?",
         "answer": "The primary target is the elbow joint, specifically hyperextending it to stress the ulnar collateral ligament and joint capsule. The belly down position is particularly dangerous because the prone orientation creates a mechanical advantage ratio exceeding 5:1 against the elbow joint. Unlike a standard supine armbar where the attacker must lift their hips against gravity, the belly down position allows gravity to assist the extension force, meaning even small hip elevations generate significant hyperextension pressure. This amplified leverage means damage can occur much faster than practitioners expect.",
         "safety_critical": true,
-        "answer_line": "Elbow, gravity boosts leverage",
+        "answer_line": "Elbow — gravity adds hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder joint, like kimura",
-            "Wrist joint, twist pressure"
+            "Rotator cuff, like a kimura",
+            "Wrist tendons, twisting load"
           ],
           "trap": [
-            "Ribs, compression damage"
+            "Sit up and crank the shoulder"
           ]
         }
       },
@@ -336,7 +336,7 @@
             "Two hands, palms facing out"
           ],
           "trap": [
-            "Grab sleeve instead of wrist"
+            "Crank their fingers to hold on"
           ]
         }
       },
@@ -344,14 +344,14 @@
         "question": "Your opponent clasps their hands together to defend the arm extension after you have completed the belly down rotation - what is your finishing strategy?",
         "answer": "The belly down position makes hand clasping a delay rather than an escape. Maintain patient position and use small incremental hip bridges to gradually stress the grip until it breaks. Alternatively, use one hand to peel the clasping fingers while maintaining hip pressure with the other hand controlling the wrist. You can also walk your hips slightly higher toward the opponent's shoulder to increase the lever angle, which multiplies force against the clasped grip without requiring additional strength. Never rush or jerk against a clasped grip as this risks injury.",
         "safety_critical": false,
-        "answer_line": "Small bridges, break the grip",
+        "answer_line": "Small hip bridges break the grip",
         "distractors": {
           "plausible": [
-            "Pry fingers apart fast",
-            "Wait for opponent to tire"
+            "Squeeze knees tighter and wait",
+            "Switch to a wristlock instead"
           ],
           "trap": [
-            "Jerk hard to snap the grip"
+            "Let go of the wrist to pry hands"
           ]
         }
       },
@@ -366,7 +366,7 @@
             "Thigh pressing the forearm"
           ],
           "trap": [
-            "Knee driving into triceps"
+            "Lift hips to hunt the elbow"
           ]
         }
       },
@@ -377,11 +377,11 @@
         "answer_line": "Stay perpendicular, knees tight",
         "distractors": {
           "plausible": [
-            "Release knees to re-angle",
-            "Switch to straight armbar"
+            "Follow their body, not the arm",
+            "Grip their thumb and untwist"
           ],
           "trap": [
-            "Let them rotate freely"
+            "Open knees to chase the rotation"
           ]
         }
       },
@@ -396,7 +396,7 @@
             "Prevents opponent from bridging"
           ],
           "trap": [
-            "Only needed for bigger opponents"
+            "Rotate down from square hips"
           ]
         }
       },
@@ -404,14 +404,14 @@
         "question": "What are the key safety protocols when applying the belly down armbar finish in training?",
         "answer": "Apply extension through slow, controlled hip elevation over 2-3 seconds minimum, never jerking or spiking the arm. The belly down position amplifies force far beyond what most practitioners expect, so what feels like light pressure to the attacker may produce serious hyperextension for the defender. Release immediately upon any tap signal. Practice the rotation and the finishing pressure as separate components until both are controlled. Never apply this technique on partners with known elbow injuries. Beginners should work at 50% pressure maximum until control is consistent.",
         "safety_critical": true,
-        "answer_line": "Slow 2-3 sec controlled extension",
+        "answer_line": "Slow 2-3 second hip elevation",
         "distractors": {
           "plausible": [
-            "Fast spike for quick tap",
-            "Full pressure builds control"
+            "Drill rotation and finish as one",
+            "Judge pressure by your own feel"
           ],
           "trap": [
-            "Jerk arm to force quick tap"
+            "Spike hips fast for a quick tap"
           ]
         }
       },
@@ -419,14 +419,14 @@
         "question": "How should you release the belly down armbar after receiving a tap signal?",
         "answer": "Release extension pressure first by lowering your hips back to the mat and dropping the wrist downward, removing all hyperextension force from the elbow immediately. Then release your knee squeeze to free the arm from the thigh clamp. Finally, disengage completely by rolling off and creating space. Do not release in reverse order because opening the knees while maintaining wrist tension can cause the arm to jerk into a different hyperextension angle. Monitor your partner's arm mobility after release and check for signs of injury before continuing training.",
         "safety_critical": true,
-        "answer_line": "Lower hips, drop wrist first",
+        "answer_line": "Drop hips and wrist, then knees",
         "distractors": {
           "plausible": [
-            "Release knees first, then wrist",
-            "Roll away immediately"
+            "Release all points at once",
+            "Roll off first, then unclamp"
           ],
           "trap": [
-            "Open knees while holding wrist"
+            "Open knees, wrist still locked"
           ]
         }
       },
@@ -440,7 +440,7 @@
             "Increase pressure, wait it out"
           ],
           "trap": [
-            "Force the armbar directly"
+            "Crank the bent elbow to force it"
           ]
         }
       }
@@ -564,7 +564,7 @@
             "Opponent grips your collar"
           ],
           "trap": [
-            "Opponent pulls head down harder"
+            "Wait until the leg crosses over"
           ]
         }
       },
@@ -572,14 +572,14 @@
         "question": "What is the safest way to tap when caught in a fully locked belly down armbar?",
         "answer": "Tap immediately using multiple signals simultaneously: verbal tap saying 'tap' clearly, physical hand tap on the attacker's body or the mat with your free hand, and foot tap on the mat with either leg. Use all available signals because the prone position may muffle verbal taps and limit the attacker's ability to feel hand taps. Do not wait to see if you can escape first - the belly down position creates extreme leverage that can cause serious elbow damage within 1-2 seconds of extension pressure beginning. Tapping early preserves your training longevity.",
         "safety_critical": true,
-        "answer_line": "Tap verbal, hand, and foot",
+        "answer_line": "Use voice, hand, and foot at once",
         "distractors": {
           "plausible": [
-            "Wait, then tap if it hurts",
-            "Tap only verbally, loud"
+            "Loud verbal tap only",
+            "Single hand tap on the mat"
           ],
           "trap": [
-            "Try to escape before tapping"
+            "Ride it out and hunt an escape"
           ]
         }
       },
@@ -602,14 +602,14 @@
         "question": "What defensive options remain after the attacker has completed the belly down rotation?",
         "answer": "Options are very limited once the rotation is complete. Hand clasping by grabbing your own wrist or bicep can delay the finish temporarily but will eventually fail against the mechanical advantage. The hitchhiker escape by rotating your thumb toward the mat and spinning has reduced effectiveness against belly down compared to standard armbar but may work if the attacker's wrist control is imperfect. Realistically, if the belly down position is fully locked with tight knees and two-on-one wrist control, the correct response is to tap immediately rather than risk injury fighting an unwinnable position.",
         "safety_critical": true,
-        "answer_line": "Tap — options are very limited",
+        "answer_line": "Tap early — escapes rarely work",
         "distractors": {
           "plausible": [
-            "Hitchhiker escape, spin free",
-            "Clasp hands, hold indefinitely"
+            "Stack forward and drive over",
+            "Pull the trapped arm straight out"
           ],
           "trap": [
-            "Bridge explosively to escape"
+            "Rip the arm free explosively"
           ]
         }
       },
@@ -619,8 +619,8 @@
         "answer_line": "Fight overhook, elbow tight",
         "distractors": {
           "plausible": [
-            "Widen base, ignore the arm",
-            "Wait for shin grip release"
+            "Turn away and flatten out",
+            "Grip fight their far collar"
           ],
           "trap": [
             "Pull arm straight to escape"

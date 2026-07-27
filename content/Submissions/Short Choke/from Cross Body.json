@@ -316,11 +316,11 @@
         "answer_line": "Weaker grip fight, body relaxes",
         "distractors": {
           "plausible": [
-            "Opponent breathing speeds up",
+            "Breathing steadies and deepens",
             "Forearm feels loose and open"
           ],
           "trap": [
-            "Ease off, wait for the tap"
+            "Post up and crank when they slow"
           ]
         }
       },
@@ -331,11 +331,11 @@
         "answer_line": "Solid cross body ride first",
         "distractors": {
           "plausible": [
-            "Just underhook, skip hip control",
-            "Parallel body, chase the arm"
+            "Just an underhook is enough",
+            "Lie parallel, chase the arm"
           ],
           "trap": [
-            "Rush the arm, skip position"
+            "Post on knees to thread the arm"
           ]
         }
       },
@@ -350,7 +350,7 @@
             "Opponent's posture starts to break"
           ],
           "trap": [
-            "As soon as they start defending"
+            "Only once you feel lightheaded"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Lifting chest, pulling with arms",
         "distractors": {
           "plausible": [
-            "Not tucking chin tight enough",
-            "Choking too slowly, losing time"
+            "Threading the arm too slowly",
+            "Wrong hand cups the head"
           ],
           "trap": [
-            "Keeping chest pressure too long"
+            "Roll to your back to finish"
           ]
         }
       },
@@ -376,11 +376,11 @@
         "answer_line": "Walk the arm, threaten crucifix",
         "distractors": {
           "plausible": [
-            "Force through with hand strength",
-            "Switch grips faster and faster"
+            "Stall until their grips tire",
+            "Switch to the other side arm"
           ],
           "trap": [
-            "Yank the arm hard through grips"
+            "Abandon the ride to strip grips"
           ]
         }
       },
@@ -391,11 +391,11 @@
         "answer_line": "Apply slow, watch for taps, release",
         "distractors": {
           "plausible": [
-            "Apply fast, ask if they're okay",
-            "Squeeze hard, release on tap only"
+            "Wait for them to say stop",
+            "Drill it only with higher belts"
           ],
           "trap": [
-            "Spike it fast to end drilling quick"
+            "Spike it fast to end the drill"
           ]
         }
       },
@@ -406,11 +406,11 @@
         "answer_line": "Cross body first, chain attacks",
         "distractors": {
           "plausible": [
-            "Attack the choke arm immediately",
-            "Rely on speed over positioning"
+            "Stall for points, avoid attacks",
+            "Repeat one setup every time"
           ],
           "trap": [
-            "Go all-in on one big move"
+            "Dive for the neck, lose the ride"
           ]
         }
       },
@@ -571,11 +571,11 @@
         "answer_line": "Head/chin control, forearm sliding",
         "distractors": {
           "plausible": [
-            "Sudden speed burst from attacker",
-            "Attacker grabs both your legs"
+            "Their knees pinch your hips",
+            "Their weight shifts to your legs"
           ],
           "trap": [
-            "Attacker relaxes, seems passive"
+            "Ignore it until the arm locks"
           ]
         }
       },
@@ -586,11 +586,11 @@
         "answer_line": "Two-on-one grip, tuck chin tight",
         "distractors": {
           "plausible": [
-            "Pull straight back with hands only",
-            "Turtle up and hide the neck"
+            "Pull the arm with hands alone",
+            "Flatten out and lie still"
           ],
           "trap": [
-            "Grab your own collar for defense"
+            "Turn belly-down to hide the neck"
           ]
         }
       },
@@ -602,7 +602,7 @@
         "distractors": {
           "plausible": [
             "Right after the grip locks tight",
-            "As soon as cross body is set"
+            "While their chest pressure is heavy"
           ],
           "trap": [
             "Wait until you feel lightheaded"
@@ -616,11 +616,11 @@
         "answer_line": "Immediately when grip locks in",
         "distractors": {
           "plausible": [
-            "When you start feeling dizzy",
-            "After ten seconds of pressure"
+            "Once your chin gets forced up",
+            "After you try one escape first"
           ],
           "trap": [
-            "Never tap, fight to the end"
+            "Ride it out until you pass out"
           ]
         }
       }

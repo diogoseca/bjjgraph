@@ -322,7 +322,7 @@
         "answer_line": "Widen base, bend knees, angle knee",
         "distractors": {
           "plausible": [
-            "Post hand, lean back for balance",
+            "Lean back away from their hook",
             "Straighten trapped leg to resist"
           ],
           "trap": [
@@ -375,14 +375,14 @@
       {
         "question": "How should you apply pressure without enabling the opponent's technical standup or guard recovery?",
         "answer": "Balance forward pressure with upper body control - never drive forward without simultaneously controlling their shoulders or head with collar ties or cross-face pressure. Keep your weight distributed through your chest and shoulders onto their upper body rather than just leaning over their legs. This prevents them from using your forward momentum to stand up while maintaining enough pressure to limit their movement options.",
-        "answer_line": "Control shoulders, then pressure",
+        "answer_line": "Pressure with shoulder control",
         "distractors": {
           "plausible": [
             "Just lean over their legs",
-            "Push forward, adjust after"
+            "Ease off until they settle"
           ],
           "trap": [
-            "Drive forward, no upper control"
+            "Bulldoze in without any grips"
           ]
         }
       },
@@ -811,11 +811,11 @@
         "answer": "Maintain SLX with the inside leg wrapped around the opponent's ankle, the outside foot hooking their hip, and upper-body grips. The inside leg wraps tightly around the ankle or lower calf to prevent extraction, while the outside foot actively hooks the hip or inner thigh to create elevation and off-balancing pressure. Upper body control comes through sleeve grips, collar ties, or overhooks to prevent them from posturing up and controlling distance. Both legs must work in coordination — the bottom hook controls, the top hook elevates.",
         "distractors": {
           "plausible": [
-            "Both hooks on same leg part",
-            "Grips only, no leg control"
+            "Both feet planted on their chest",
+            "Triangle your legs over the knee"
           ],
           "trap": [
-            "Loosen ankle wrap for mobility"
+            "Relax leg tension to conserve gas"
           ]
         },
         "answer_line": "Ankle wrap, hip hook, upper grips"
@@ -841,10 +841,10 @@
         "distractors": {
           "plausible": [
             "Grip both ankles tightly",
-            "Focus only on far shoulder"
+            "Frame on their hips with both hands"
           ],
           "trap": [
-            "Release sleeve grip to attack legs"
+            "Sweep with legs only, no grips"
           ]
         }
       },
@@ -855,10 +855,10 @@
         "distractors": {
           "plausible": [
             "Fully straighten legs for lift",
-            "Push hard with both feet flat"
+            "Lift by pulling with your grips"
           ],
           "trap": [
-            "Lock legs straight, drive up"
+            "Drop low and pull them onto you"
           ]
         }
       },
@@ -868,11 +868,11 @@
         "answer_line": "Anchor on ankle, reinsert top hook",
         "distractors": {
           "plausible": [
-            "Release ankle to reset position",
-            "Push them away and stand up"
+            "Bridge hard to shake them off",
+            "Frame their chest and shrimp away"
           ],
           "trap": [
-            "Let go of ankle, chase hook"
+            "Let go of the leg and turn away"
           ]
         }
       },
@@ -967,11 +967,11 @@
     {
       "question": "How does Single Leg X-Guard differ mechanically from its parent X-Guard?",
       "answer": "X-Guard wraps and elevates BOTH of the standing player's legs, splitting their base wide and removing nearly all posting ability, so it is a pure sweeping platform. SLX isolates only ONE leg, leaving a free leg to post and base with. This trade-off costs some sweeping leverage but gains a tighter, single-limb entanglement that feeds directly into leg-lock control positions like ashi garami and the saddle. In short, X-Guard maximizes off-balancing, while SLX balances sweeping with a direct leg-attack pathway.",
-      "answer_line": "SLX isolates one leg, not both",
+      "answer_line": "Only one leg entangled",
       "distractors": {
         "plausible": [
-          "SLX wraps both legs like X-Guard",
-          "SLX is sweep-only, no leg attacks"
+          "Elevates both legs off the mat",
+          "Pure sweep tool, no submissions"
         ],
         "trap": [
           "Ignore their free posting leg"
@@ -984,11 +984,11 @@
       "answer_line": "Elevation strips their base",
       "distractors": {
         "plausible": [
-          "Elevation is just for show",
-          "Elevation only helps leg locks"
+          "Lift only matters for leg locks",
+          "Height creates space to stand up"
         ],
         "trap": [
-          "Drop leg to settle their weight"
+          "Drop the leg and let them settle"
         ]
       }
     },
@@ -999,38 +999,38 @@
       "distractors": {
         "plausible": [
           "Hips far back for safety",
-          "Hips to the side of their base"
+          "Hips angled off to one side"
         ],
         "trap": [
-          "Hips pushed away from their weight"
+          "Hips flat, absorbing the pressure"
         ]
       }
     },
     {
       "question": "What does the standing player's free (untrapped) leg contribute, and how does it shape the balance contest?",
       "answer": "Because SLX isolates only one leg, the standing player retains a free leg that serves as a posting point and base against sweeps. Widening this free leg diagonally and lowering the hips lets them resist directional off-balancing and buy time to clear hooks. This is precisely why SLX is a live balance battle rather than a settled trap: the entangling player fights to keep the trapped leg elevated and the hips under center, while the standing player uses the free leg to re-establish base. Neither the sweep nor the escape is guaranteed until one side wins the base-versus-elevation exchange.",
-      "answer_line": "Free leg posts wide to resist sweeps",
+      "answer_line": "Posts wide to resist sweeps",
       "distractors": {
         "plausible": [
-          "Free leg stays passive and still",
-          "Free leg immediately kicks free"
+          "Stays passive with no base job",
+          "Only kicks grips, never bases"
         ],
         "trap": [
-          "Free leg crosses over to trap"
+          "Steps across their centerline"
         ]
       }
     },
     {
       "question": "Why is Single Leg X-Guard described as a dual sweep-and-leg-lock platform rather than a single-purpose guard?",
       "answer": "The single-leg isolation that defines SLX simultaneously sets up two attack families from the same configuration. The elevated, off-balanced trapped leg creates high-percentage sweeping angles, while that same isolated and extended limb is exposed for entries into ashi garami, inside sankaku, and the saddle. Because both threats share the identical control points, the exchange can flow between upper-body sweeps and lower-body leg attacks without rebuilding grips. This dual-threat nature is the position's defining strategic value and why it bridges traditional guard play with the modern leg-entanglement game.",
-      "answer_line": "Same controls feed sweeps and locks",
+      "answer_line": "One control set, two attack paths",
       "distractors": {
         "plausible": [
-          "Only sweeps, no leg attacks possible",
-          "Only leg locks, no sweep threat"
+          "Needs new grips for each threat",
+          "Sweep first, locks only after"
         ],
         "trap": [
-          "Must release grips to switch attacks"
+          "Let go of the leg to switch"
         ]
       }
     },
@@ -1040,11 +1040,11 @@
       "answer_line": "Lost ankle tension or elevation",
       "distractors": {
         "plausible": [
-          "Too much upper body grip fighting",
-          "Standing player's free leg posting"
+          "Too much upper-body grip fighting",
+          "Squeezing the knees too tightly"
         ],
         "trap": [
-          "Attacker extracts leg too soon"
+          "Losing the bottom hook is harmless"
         ]
       }
     }

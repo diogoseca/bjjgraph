@@ -270,84 +270,84 @@
       {
         "question": "Why is shoulder pressure directed at the opponent's face and chest more effective than pressure on their hips during the smash pass?",
         "answer": "Shoulder pressure on the face and chest is more effective because the opponent has weaker structural frames in their upper body compared to their hips and legs. When you pressure their hips, they can use their strong leg muscles and hip structure to maintain frames and create space. Upper body pressure compromises their breathing, turns their head away, and makes it biomechanically difficult to maintain defensive structures. Additionally, crossface pressure on the head controls their entire spine, limiting their mobility far more than hip pressure would.",
-        "answer_line": "Face/chest exploits weak frames",
+        "answer_line": "Face and chest frames are weaker",
         "distractors": {
           "plausible": [
-            "Hips have less mobility",
-            "Legs are easier to control"
+            "Hips are less mobile than chest",
+            "Face pressure scores more points"
           ],
           "trap": [
-            "Drive pressure into their hips"
+            "Lift chest, drive down on hips"
           ]
         }
       },
       {
         "question": "What is the most common mistake beginners make when attempting to extract their trapped leg during the smash pass?",
         "answer": "The most common mistake is trying to explosively rip or yank the trapped leg out using force and speed. This causes the opponent's grip to reflexively tighten and wastes significant energy. The correct approach is to extract the leg slowly and methodically while the opponent is flattened and their retention is compromised by your control positions. Small backward steps with steady pressure, while maintaining crossface and inside leg control, is far more effective than violent extraction attempts.",
-        "answer_line": "Extract leg slowly, not yank",
+        "answer_line": "Extract slowly under pressure",
         "distractors": {
           "plausible": [
-            "Rip leg free explosively",
-            "Extract leg before crossface"
+            "Extract before setting crossface",
+            "Switch passes instead of extracting"
           ],
           "trap": [
-            "Yank leg fast to surprise them"
+            "Explode out, posting on the mat"
           ]
         }
       },
       {
         "question": "How should you respond if your opponent successfully establishes a deep half guard position while you are attempting the smash pass?",
         "answer": "You should immediately stop attempting the smash pass and address the deep half guard position first. Trying to force the smash pass from deep half is low percentage and energy inefficient. Instead, you need to deal with the deep half guard specifically - this might involve swimming your leg under to clear their entanglement, establishing a whizzer control, or transitioning to a completely different passing strategy. Never ignore a positional change that fundamentally alters your control structure.",
-        "answer_line": "Stop smash, address deep half",
+        "answer_line": "Stop passing, clear deep half",
         "distractors": {
           "plausible": [
-            "Force smash pass through it",
-            "Switch directly to back take"
+            "Sprawl and wait them out",
+            "Jump straight to mount"
           ],
           "trap": [
-            "Keep smashing, ignore deep half"
+            "Turn away and post far hand"
           ]
         }
       },
       {
         "question": "Why is controlling the opponent's inside leg critical before attempting to extract your trapped leg?",
         "answer": "Controlling the inside leg prevents the opponent from recovering full guard or transitioning to deep half guard as you extract your trapped leg. Without this control, the opponent can simply follow your leg extraction by bringing their outside leg across to close their guard, or they can use their inside leg to prevent your leg from clearing entirely. Inside leg control via underhook, grip, or pin eliminates their primary re-guarding mechanism and is a non-negotiable prerequisite for successful pass completion.",
-        "answer_line": "Blocks re-guard/deep half",
+        "answer_line": "Stops them recovering guard",
         "distractors": {
           "plausible": [
-            "Sets up backstep pass",
-            "Frees hands for crossface"
+            "Sets up a backstep pass",
+            "Frees your hands for grips"
           ],
           "trap": [
-            "Skip it, extract leg first"
+            "Free the inside leg and stand"
           ]
         }
       },
       {
         "question": "Your opponent posts a strong frame on your shoulder as you attempt to drive crossface pressure - how do you adjust?",
         "answer": "When the opponent posts a strong frame on your shoulder, do not try to power through it directly, as that plays into their strongest structural support. Instead, redirect your pressure angle by walking your hips higher toward their head, which changes the angle of force and makes their straight-arm frame less effective. You can also use your free hand to strip the frame at the wrist or elbow, or momentarily shift your weight to collapse the frame before immediately re-establishing crossface. Another option is to switch to an underhook smash variation, which attacks from under their arm rather than through the frame.",
-        "answer_line": "Walk hips higher, change angle",
+        "answer_line": "Walk hips higher, new angle",
         "distractors": {
           "plausible": [
-            "Power through the frame",
-            "Pull back and reset crossface"
+            "Reset and rebuild the crossface",
+            "Bail out to a knee slice"
           ],
           "trap": [
-            "Push harder into their frame"
+            "Rear back and drive through it"
           ]
         }
       },
       {
         "question": "What are the key differences between the smash pass approach and dynamic passing approaches to half guard?",
         "answer": "The smash pass emphasizes patient pressure application, heavy shoulder control, and systematic flattening of the opponent's structure. It relies on making the opponent progressively more uncomfortable until their retention fails. Dynamic passing, by contrast, uses speed, angle changes, and explosive movements to circumvent the opponent's guards rather than crushing through them. Smash passing is more energy efficient over time and works well against flexible opponents or strong guard players, while dynamic passing is faster but requires more cardiovascular capacity and works better against opponents who rely on pressure resistance rather than mobility.",
-        "answer_line": "Patient pressure vs speed/angles",
+        "answer_line": "Patient pressure vs speed",
         "distractors": {
           "plausible": [
-            "Smash faster, less efficient",
-            "Dynamic needs less cardio"
+            "Dynamic uses heavier pressure",
+            "Both crush through the guard"
           ],
           "trap": [
-            "Smash relies on speed"
+            "Sprint through the smash pass"
           ]
         }
       },
@@ -356,11 +356,11 @@
         "answer": "Abandon the smash pass when strong hip frames, a back-take threat, deep half guard, or a dead crossface stall your progress. Elite passers recognize when to switch strategies rather than forcing a technique that is not working, or when they are spending excessive energy without advancing. The smash pass should feel like inevitable progression - if it feels like a stalemate, consider knee slice, backstep, or long step alternatives.",
         "distractors": {
           "plausible": [
-            "Only if opponent taps out",
-            "After first failed attempt"
+            "After one failed attempt",
+            "Only when they threaten sweeps"
           ],
           "trap": [
-            "Never abandon, force it through"
+            "Force it through no matter what"
           ]
         },
         "answer_line": "Strong frames, deep half, stall"
@@ -371,11 +371,11 @@
         "answer_line": "Flatten knee, pry ankles apart",
         "distractors": {
           "plausible": [
-            "Rip leg out with force",
-            "Ignore lockdown, keep smashing"
+            "Wait for them to release it",
+            "Yank the leg straight out"
           ],
           "trap": [
-            "Yank trapped leg free fast"
+            "Drop crossface to fight the legs"
           ]
         }
       },
@@ -384,11 +384,11 @@
         "answer": "Initiate the smash pass immediately after winning the underhook or crossface battle, before a knee shield or lockdown forms. The best moment is when you have just cleared a frame or blocked an underhook attempt, because the opponent is momentarily between defensive structures. Another excellent window opens when the opponent attempts a sweep that fails - their defensive structure is compromised during the sweep attempt and the transition back to guard retention creates a gap you can exploit with immediate crossface pressure.",
         "distractors": {
           "plausible": [
-            "Wait until fully flattened",
-            "After opponent recovers guard"
+            "Only from a standing position",
+            "Once their knee shield is set"
           ],
           "trap": [
-            "Rush in before winning frames"
+            "Dive in before clearing frames"
           ]
         },
         "answer_line": "Right after winning crossface"
@@ -398,11 +398,11 @@
         "answer": "Gi smash passing uses collar, pants, and belt grips as fabric anchors, while no-gi replaces them with tighter chest-to-chest body pressure. In gi, collar grips augment crossface control, pants grips at the knee provide inside leg control, and belt grips support the underhook smash variation - persistent friction-based control that complements shoulder pressure. In no-gi, grips are transient, so the crossface must be deeper with more shoulder commitment, inside leg control comes from overhook or wrist control rather than pants grips, and the emphasis shifts toward maintaining constant chest-to-chest connection. No-gi smash passing demands tighter body positioning throughout.",
         "distractors": {
           "plausible": [
-            "No-gi uses more pants grips",
-            "Gi needs deeper crossface"
+            "No-gi grips hold longer",
+            "Gi relies on chest pressure"
           ],
           "trap": [
-            "Same grips work in both"
+            "Grab their shorts in no-gi"
           ]
         },
         "answer_line": "Gi fabric grips vs body pressure"
@@ -546,11 +546,11 @@
         "answer_line": "Static defense yields to pressure",
         "distractors": {
           "plausible": [
-            "Framing alone stops the pass",
-            "Waiting out top player works"
+            "Frames alone stop the pass",
+            "Smash pass follows no order"
           ],
           "trap": [
-            "Stay passive, conserve energy"
+            "Lie flat and conserve energy"
           ]
         }
       },
@@ -560,11 +560,11 @@
         "answer_line": "Frame far hip, escape, re-shield",
         "distractors": {
           "plausible": [
-            "Accept flattening, wait it out",
-            "Push crossface off with legs"
+            "Bench press their shoulder away",
+            "Grab their head and hold on"
           ],
           "trap": [
-            "Stay flat, protect neck only"
+            "Turn belly down to escape"
           ]
         }
       },
@@ -574,25 +574,25 @@
         "answer_line": "Clearing shield or leg extraction",
         "distractors": {
           "plausible": [
-            "Right after establishing crossface",
-            "During initial guard pass entry"
+            "Just after crossface is set",
+            "While they hold you flat"
           ],
           "trap": [
-            "Never vulnerable once crossface set"
+            "Only sweep once fully flattened"
           ]
         }
       },
       {
         "question": "How does the defensive approach differ when facing a smash pass versus a dynamic knee slice pass from half guard?",
         "answer": "Against the smash pass, defense centers on preventing the crossface, maintaining side angle, and using frames to manage the slow progressive pressure. The defender has more time to react but must be proactive to avoid being incrementally crushed. Against the knee slice, defense requires faster reactions because the pass uses speed and angle changes rather than pressure. Knee slice defense focuses on blocking the knee cut with frames at the hip and maintaining inside leg hooks to prevent the knee from crossing. The smash pass defender needs endurance and frame management; the knee slice defender needs timing and hip mobility.",
-        "answer_line": "Endurance/frames vs timing/hips",
+        "answer_line": "Grind frames vs fast hip timing",
         "distractors": {
           "plausible": [
-            "Both defended the same way",
-            "Knee slice needs more endurance"
+            "Knee slice needs more endurance",
+            "Both use the same frames"
           ],
           "trap": [
-            "Ignore hips, only fight crossface"
+            "Only fight crossface, flatten hips"
           ]
         }
       }

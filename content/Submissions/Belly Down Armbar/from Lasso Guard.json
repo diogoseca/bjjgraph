@@ -297,14 +297,14 @@
         "question": "What anatomical structure does the belly down armbar from lasso guard primarily attack?",
         "answer": "The submission primarily attacks the elbow joint, targeting hyperextension of the ulnar collateral ligament and the joint capsule. The controlled extension against the natural range of motion creates pressure at the elbow that forces the tap before structural damage occurs. Secondary stress is placed on the biceps tendon as it resists the forced extension.",
         "safety_critical": false,
-        "answer_line": "Elbow hyperextension",
+        "answer_line": "Elbow joint hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder joint rotation",
-            "Wrist joint flexion"
+            "Rotator cuff rotation",
+            "Wrist ligament flexion"
           ],
           "trap": [
-            "Biceps tendon tear"
+            "Neck - crank it to force a tap"
           ]
         }
       },
@@ -319,7 +319,7 @@
             "Easier back exposure"
           ],
           "trap": [
-            "Frees both hands for grips"
+            "Release the lasso to grab a leg"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Redirect into sweep or triangle",
         "distractors": {
           "plausible": [
-            "Fight to keep the armbar",
-            "Release grips and reset"
+            "Release grips and reset",
+            "Pull them back down flat"
           ],
           "trap": [
-            "Pull them back to flatten"
+            "Force the armbar as they stack"
           ]
         }
       },
@@ -345,11 +345,11 @@
         "answer_line": "After legs fully clamp arm",
         "distractors": {
           "plausible": [
-            "Once hips turn perpendicular",
-            "As soon as grip is broken"
+            "Once you break their posture",
+            "Never — keep it to the finish"
           ],
           "trap": [
-            "Early, to free hips for swing"
+            "Let it go during the leg swing"
           ]
         }
       },
@@ -357,14 +357,14 @@
         "question": "What are the key safety considerations when applying the belly down armbar from lasso guard?",
         "answer": "The belly down position creates extreme mechanical advantage that can damage the elbow joint very rapidly. Always apply extension slowly and progressively, never jerk or spike the arm. Monitor for verbal and physical tap signals continuously. The prone position amplifies force beyond what most practitioners expect, making controlled application essential to prevent serious ligament damage or joint capsule tears.",
         "safety_critical": true,
-        "answer_line": "Extend slowly, watch for taps",
+        "answer_line": "Extend slowly, release on any tap",
         "distractors": {
           "plausible": [
-            "Finish fast before they escape",
-            "Grip the wrist extra tight"
+            "Trust a verbal tap alone",
+            "Squeeze knees tighter for control"
           ],
           "trap": [
-            "Jerk the arm to finish quick"
+            "Spike the arm to force the tap"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Track rotation, stay perpendicular",
         "distractors": {
           "plausible": [
-            "Release legs to re-angle body",
-            "Push their head away sharply"
+            "Grab their belt and hold on",
+            "Sit back to a supine armbar"
           ],
           "trap": [
-            "Hold hips still, let them roll"
+            "Let go of the legs to re-angle"
           ]
         }
       },
@@ -439,7 +439,7 @@
             "Easier to enter from any guard"
           ],
           "trap": [
-            "Lets opponent regain guard"
+            "Release the legs once prone"
           ]
         }
       }
@@ -567,14 +567,14 @@
         "question": "What is the safest response when your arm is being extended in the belly down armbar position?",
         "answer": "Tap immediately using any available signal — verbal tap, hand tap on partner or mat, or foot tap on the mat. Do not attempt to fight the extension once the belly down position is established, as the mechanical advantage is extreme and the elbow can sustain ligament damage within a fraction of a second of continued pressure. Tap early and clearly using multiple signals simultaneously to ensure your partner recognizes the submission.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, multiple signals",
+        "answer_line": "Tap early with voice, hand, or foot",
         "distractors": {
           "plausible": [
-            "Flex the bicep to resist",
-            "Roll toward the pressure"
+            "Grab your own gi to stall",
+            "Bridge your hips upward hard"
           ],
           "trap": [
-            "Wait to see if it worsens"
+            "Fight the extension until it pops"
           ]
         }
       },
@@ -585,11 +585,11 @@
         "answer_line": "Stack weight, extract the arm",
         "distractors": {
           "plausible": [
-            "Wait for the armbar to lock",
-            "Grab your own wrist to defend"
+            "Reach for their far lapel",
+            "Pull guard and stall for time"
           ],
           "trap": [
-            "Relax and let them finish"
+            "Wait for the lock, then escape"
           ]
         }
       },
@@ -600,11 +600,11 @@
         "answer_line": "Late escapes rarely work",
         "distractors": {
           "plausible": [
-            "Both phases are equally safe",
-            "Established position is easier"
+            "Grips are tightest mid-transition",
+            "Belly-down eases elbow pressure"
           ],
           "trap": [
-            "Save energy, escape after"
+            "Save energy, escape after it locks"
           ]
         }
       }

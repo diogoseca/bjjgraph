@@ -268,11 +268,11 @@
         "answer_line": "Commits weight forward, kills base",
         "distractors": {
           "plausible": [
-            "Opens their hips for sweep",
+            "Opens their hips for a sweep",
             "Loosens their collar grip"
           ],
           "trap": [
-            "Lets them stand and pass easier"
+            "Attack before breaking posture"
           ]
         }
       },
@@ -282,11 +282,11 @@
         "answer_line": "About 45 degrees off centerline",
         "distractors": {
           "plausible": [
-            "Straight on, 0 degrees, head up",
+            "Straight on, no rotation needed",
             "Full 90 degrees, hip to hip"
           ],
           "trap": [
-            "No angle, keep them centered"
+            "Flatten your back and stay square"
           ]
         }
       },
@@ -307,14 +307,14 @@
       {
         "question": "What is the most common timing mistake when opening your closed guard during triangle setup?",
         "answer": "Opening the closed guard too early before establishing proper arm control and angle creation. The guard should remain closed to maintain posture control until the exact moment of angle creation and leg throw. Opening prematurely allows the opponent to regain posture, establish base, or begin guard passing sequences.",
-        "answer_line": "Opening guard before arm control set",
+        "answer_line": "Opening before arm control is set",
         "distractors": {
           "plausible": [
-            "Opening guard too slowly overall",
-            "Opening on the wrong side arm"
+            "Opening it too slowly overall",
+            "Crossing your ankles too long"
           ],
           "trap": [
-            "Opening guard immediately to attack"
+            "Open guard and push them away"
           ]
         }
       },
@@ -339,10 +339,10 @@
         "distractors": {
           "plausible": [
             "Only leads to armbar finishes",
-            "Dead end if triangle fails"
+            "A dead end if the triangle fails"
           ],
           "trap": [
-            "Forces you back to neutral guard"
+            "Open guard and let them stand"
           ]
         }
       },
@@ -363,14 +363,14 @@
       {
         "question": "Your opponent posts their free hand on the mat as you begin isolating their other arm — how do you exploit this?",
         "answer": "A posted hand on the mat means that arm is committed to base and cannot defend the arm isolation. Immediately accelerate the setup by pulling the non-posted arm across your centerline more aggressively, since they cannot use the posted hand to resist without losing balance. Their posting also shifts their weight to one side, which aids your angle creation by giving you a clear direction to hip escape. The post essentially removes one of their defensive tools from the equation, creating a window where they must choose between maintaining base or defending the triangle entry.",
-        "answer_line": "Accelerate isolating the free arm",
+        "answer_line": "Rush the non-posted arm across",
         "distractors": {
           "plausible": [
             "Attack the posted arm instead",
             "Wait for them to remove the post"
           ],
           "trap": [
-            "Release grip to bait a deeper post"
+            "Open guard to attack the post"
           ]
         }
       },
@@ -381,10 +381,10 @@
         "distractors": {
           "plausible": [
             "Wrist grip only, skip overhook",
-            "Use underhook instead of C-clamp"
+            "Underhook the arm, not a C-clamp"
           ],
           "trap": [
-            "Reach for collar and lapel grips"
+            "Push their head away for space"
           ]
         }
       },
@@ -398,7 +398,7 @@
             "Sideways push across their chest"
           ],
           "trap": [
-            "Downward stomp onto the shoulder"
+            "Flatten hips and kick straight down"
           ]
         }
       },
@@ -408,11 +408,11 @@
         "answer_line": "Lock knee, push hip, angle out",
         "distractors": {
           "plausible": [
-            "Force the triangle lock immediately",
-            "Posture up to stop the stack"
+            "Force the triangle lock at once",
+            "Try to posture up underneath"
           ],
           "trap": [
-            "Release the leg to reset position"
+            "Let them stack you flat and wait"
           ]
         }
       },
@@ -422,11 +422,11 @@
         "answer_line": "Instant their arm enters your guard",
         "distractors": {
           "plausible": [
-            "Wait until frame is fully set",
-            "After they post the second hand"
+            "Wait until the frame is fully set",
+            "Only after they grip your collar"
           ],
           "trap": [
-            "Let both hands frame in first"
+            "Let them frame and stand up"
           ]
         }
       }
@@ -559,25 +559,25 @@
       {
         "question": "What is the earliest point in the triangle setup sequence where you can identify and disrupt the attack?",
         "answer": "The earliest recognition point is when the opponent establishes the dual grip combination of collar control and sleeve or wrist grip that signals the setup initiation. The collar grip enables posture breaking and the sleeve grip enables arm isolation — together they represent the necessary grip foundation. Stripping either grip before posture is broken prevents the entire downstream sequence. The defensive action is to immediately address the more dangerous grip first (usually the collar grip using a two-on-one break) before the opponent can use it to pull your head down.",
-        "answer_line": "Strip the collar grip immediately",
+        "answer_line": "When collar and sleeve grips join",
         "distractors": {
           "plausible": [
-            "Wait until angle is created to react",
-            "Strip the sleeve grip first instead"
+            "Once your posture breaks forward",
+            "When they grab your wrist only"
           ],
           "trap": [
-            "Let posture break, then defend arm"
+            "Wait until their leg is over you"
           ]
         }
       },
       {
         "question": "Why is turning toward the trapped arm side the correct defensive rotation rather than turning away?",
         "answer": "Turning toward the trapped arm side squares your shoulders relative to the opponent's body, which directly counteracts the 45-degree angle they need for the triangle to function. This rotation also brings your trapped arm closer to your body's centerline, making extraction mechanically easier since you are reducing the distance the arm must travel. Turning away does the opposite — it deepens the angle, exposes more of the back of your neck to the attacking leg, and can give the opponent your back entirely if they abandon the triangle and follow your turning momentum.",
-        "answer_line": "Squares hips, kills the 45° angle",
+        "answer_line": "Squares shoulders, kills the angle",
         "distractors": {
           "plausible": [
             "Turning away frees the arm faster",
-            "Either direction works equally well"
+            "It breaks their ankle lock grip"
           ],
           "trap": [
             "Turn away to face them directly"
@@ -591,21 +591,21 @@
         "distractors": {
           "plausible": [
             "Posture up first, arm second",
-            "Block hip only, ignore arm"
+            "Block the hip only, ignore arm"
           ],
           "trap": [
-            "Abandon guard, stand up fast"
+            "Turn away from the trapped arm"
           ]
         }
       },
       {
         "question": "How does defending the triangle setup interact with defending other closed guard attacks like hip bump sweep and omoplata?",
         "answer": "The triangle defense creates a connected defensive problem because the reactions that defend one attack can expose another. Posturing hard to prevent the triangle opens you to hip bump sweeps since your weight moves backward. Pulling your arm back aggressively can give the opponent an omoplata angle if they redirect to overhook control. Stacking forward to crush the triangle attempt exposes you to pendulum sweeps. The solution is balanced defensive posture — hands on hips, elbows tight, head up, base wide — that addresses the immediate triangle threat without overcorrecting into positions vulnerable to alternative attacks. Awareness of the interconnected attack tree is essential.",
-        "answer_line": "Stay balanced, don't overcorrect",
+        "answer_line": "Each fix opens another attack",
         "distractors": {
           "plausible": [
-            "Posture hard against the triangle",
-            "Yank arm back aggressively"
+            "Defenses are fully independent",
+            "One posture stops all attacks"
           ],
           "trap": [
             "Stack forward to smash triangle"
@@ -615,28 +615,28 @@
       {
         "question": "What specific body sensations or pressure changes should you monitor to recognize the transition from normal closed guard control to triangle setup initiation?",
         "answer": "Monitor for three key sensory changes: first, increasing downward pull on your head and shoulders that signals posture-breaking intent through collar and guard tension. Second, lateral pulling force on one arm that feels different from normal grip fighting — the pull direction is across the opponent's body rather than toward them, indicating arm isolation rather than standard guard control. Third, a rotational shift in the pressure on your hips from below, where you feel one of the opponent's hips dropping away as they begin the hip escape for angle creation. This hip shift is often the most reliable cue because it represents the committed transition from guard control to triangle-specific mechanics.",
-        "answer_line": "Downward pull, arm pull, hip drop",
+        "answer_line": "Head pulled down, arm dragged across",
         "distractors": {
           "plausible": [
-            "Only watch for collar grip changes",
-            "Only watch for leg movement below"
+            "Opponent's breathing gets faster",
+            "Their grip on your belt tightens"
           ],
           "trap": [
-            "Ignore hip shifts, watch hands only"
+            "Reach across to break their grip"
           ]
         }
       },
       {
         "question": "When the opponent's leg is already over your shoulder but the triangle is not yet locked, what determines whether you should stack forward or posture backward?",
         "answer": "The decision depends on where their hips are relative to yours and whether they have established head control. If their hips are still relatively flat on the mat and they are reaching for your head with their hands, posturing backward is more effective because it creates vertical distance before they can establish the downward pull needed to close the triangle. If they have already gripped behind your head or established shin pressure pulling you forward, stacking forward is the better option because fighting backward against their leg and arm control is a losing battle — instead, using their pulling force to drive your weight over them compresses their body and prevents them from locking the ankle behind their knee. The key diagnostic is: can you lift your head freely? If yes, posture back. If their control prevents head elevation, stack forward.",
-        "answer_line": "Can you lift head? Then posture back",
+        "answer_line": "No head control yet, so posture back",
         "distractors": {
           "plausible": [
-            "Always stack forward immediately",
-            "Always posture backward immediately"
+            "Whichever side their hips face",
+            "Stack once your legs start to tire"
           ],
           "trap": [
-            "Pull their leg off with both hands"
+            "Grab their leg and yank it off"
           ]
         }
       }

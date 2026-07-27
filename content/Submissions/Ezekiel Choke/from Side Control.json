@@ -306,7 +306,7 @@
             "Just the far-side carotid"
           ],
           "trap": [
-            "The cervical spine"
+            "The windpipe - crush it harder"
           ]
         }
       },
@@ -314,14 +314,14 @@
         "question": "Your opponent begins turning their body away from you during the blade forearm placement—what adjustment prevents the choke from failing?",
         "answer": "When the opponent turns away, follow their movement by walking your knees toward their head side while maintaining hip pressure. The turning motion can actually assist the choke by exposing more of the near-side carotid to the blade forearm. Drive the blade forearm deeper as they turn and use your chest weight to prevent them from completing the turn to turtle. If they create enough angle to threaten a full turn, abandon the choke and re-establish crossface to prevent giving up the back.",
         "safety_critical": false,
-        "answer_line": "Follow, drive blade deeper",
+        "answer_line": "Follow the turn, blade deeper",
         "distractors": {
           "plausible": [
-            "Release grip and reset position",
-            "Grab both wrists instead"
+            "Release the grip and reset",
+            "Switch to a wrist grab"
           ],
           "trap": [
-            "Chase the turn into the back"
+            "Sit up to muscle the choke"
           ]
         }
       },
@@ -362,11 +362,11 @@
         "answer_line": "Squeezing arms without body weight",
         "distractors": {
           "plausible": [
-            "Gripping sleeve too shallow",
-            "Wrong forearm angle on throat"
+            "Sleeve grip only two fingers deep",
+            "Starting before crossface is set"
           ],
           "trap": [
-            "Yanking the choke suddenly tight"
+            "Cranking the neck to force a tap"
           ]
         }
       },
@@ -377,11 +377,11 @@
         "answer_line": "Deepen grip, hook the cuff seam",
         "distractors": {
           "plausible": [
-            "Grip tighter with fingertips",
-            "Switch to a fresh sleeve grip"
+            "Pinch harder with fingertips",
+            "Grab the lapel instead of sleeve"
           ],
           "trap": [
-            "Let go and re-grab quickly"
+            "Sit up to re-grip, giving space"
           ]
         }
       },
@@ -407,11 +407,11 @@
         "answer_line": "Right after they defend an arm lock",
         "distractors": {
           "plausible": [
-            "Immediately after side control",
-            "During the scramble for mount"
+            "The instant you land in side control",
+            "While they are actively bridging"
           ],
           "trap": [
-            "First 30 seconds of side control"
+            "Attack before pinning their hips"
           ]
         }
       },
@@ -422,11 +422,11 @@
         "answer_line": "Push jaw up, thread blade under",
         "distractors": {
           "plausible": [
-            "Pry the chin down with elbow",
-            "Force it straight over the chin"
+            "Pry the chin down with the elbow",
+            "Drive straight over the chin"
           ],
           "trap": [
-            "Switch to a guillotine choke"
+            "Sit up to muscle it over"
           ]
         }
       },
@@ -434,14 +434,14 @@
         "question": "How should you safely release the Ezekiel Choke upon receiving a tap signal during training?",
         "answer": "Upon any tap signal, immediately release the sleeve grip and withdraw the blade forearm from the neck in a smooth, controlled motion. Do not release abruptly and scramble to another position. Maintain your side control position briefly to allow your partner to recover orientation and confirm consciousness. Make eye contact and verify verbally that they are responsive and feel okay before resuming training or resetting positions. If there is any doubt about consciousness or the partner seems disoriented, call for instructor assistance immediately and place them in the recovery position.",
         "safety_critical": true,
-        "answer_line": "Release calm, check they're okay",
+        "answer_line": "Slow release, then check on them",
         "distractors": {
           "plausible": [
-            "Release fast and reset positions",
-            "Let go and ask if they're fine"
+            "Yank the arm out and sit up",
+            "Hold grip until they say stop"
           ],
           "trap": [
-            "Release and scramble to mount"
+            "Keep squeezing until they go limp"
           ]
         }
       }
@@ -614,7 +614,7 @@
             "Creates space to hip escape"
           ],
           "trap": [
-            "Turn away to escape faster"
+            "It relieves neck pressure safely"
           ]
         }
       }

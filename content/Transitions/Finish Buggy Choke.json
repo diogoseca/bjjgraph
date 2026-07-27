@@ -226,14 +226,14 @@
       {
         "question": "What is the primary goal of Finish Buggy Choke?",
         "answer": "The primary goal is to complete the strangulation by compressing both carotid arteries using progressive collar pressure and body mechanics, forcing the opponent to tap or rendering them unconscious. This represents the final phase of the buggy choke attack sequence.",
-        "answer_line": "Compress carotids for tap",
+        "answer_line": "Compress both carotids for the tap",
         "distractors": {
           "plausible": [
-            "Crush windpipe for a tap",
-            "Squeeze until they get tired"
+            "Crush the windpipe to finish",
+            "Wrench the neck to a crank"
           ],
           "trap": [
-            "Push their chin up for space"
+            "Let go of the leg to squeeze"
           ]
         }
       },
@@ -499,11 +499,11 @@
       {
         "question": "Your opponent has both grips locked and is beginning to drive their shoulder toward the mat - what is your priority?",
         "answer": "At this stage, grip fighting alone will not save you. Your priority is immediate body movement to disrupt the finishing angle. Sit to guard by driving your near hip to the mat and rotating to face them, accepting half guard position. The perpendicular angle elimination immediately reduces choking pressure even if grips remain. Tap if you cannot create movement before pressure peaks.",
-        "answer_line": "Sit to guard, kill the angle",
+        "answer_line": "Sit to guard to kill the angle",
         "distractors": {
           "plausible": [
             "Grip fight the collar hand",
-            "Bridge and roll away fast"
+            "Frame and stall for time"
           ],
           "trap": [
             "Roll away from the choking arm"

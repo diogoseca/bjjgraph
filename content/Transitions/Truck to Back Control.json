@@ -316,10 +316,10 @@
         "distractors": {
           "plausible": [
             "Threading hooks too slowly",
-            "Losing boot pressure early"
+            "Wrong hook inserted first"
           ],
           "trap": [
-            "Lifting chest for more leverage"
+            "Crossing ankles once hooks are in"
           ]
         }
       },
@@ -354,14 +354,14 @@
       {
         "question": "Your opponent frames against your chest as you begin the alignment shift - how do you adjust?",
         "answer": "When the opponent frames against your chest during the alignment shift, increase your forward pressure and drive your weight into the frames to collapse them. If the frames are strong enough to stall your transition, abandon the back take attempt temporarily and re-establish full truck control with boot pressure. Threaten a calf slicer or twister to force the opponent to remove their frames for submission defense, then reattempt the transition during their defensive reaction.",
-        "answer_line": "Drive forward, collapse frames",
+        "answer_line": "Drive forward to collapse frames",
         "distractors": {
           "plausible": [
-            "Immediately retreat to truck",
-            "Threaten a submission right away"
+            "Roll to the opposite side",
+            "Sit back to pull guard"
           ],
           "trap": [
-            "Yank the far wrist to break it"
+            "Release seatbelt to grip wrist"
           ]
         }
       },
@@ -583,8 +583,8 @@
         "answer_line": "Hips up, on your side, chin tucked",
         "distractors": {
           "plausible": [
-            "Flat on your stomach, arms in",
-            "Hips down, knees together"
+            "Hips down, knees squeezed tight",
+            "Roll toward the hooking leg"
           ],
           "trap": [
             "Go fully flat to hide the neck"

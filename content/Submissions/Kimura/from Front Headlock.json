@@ -298,14 +298,14 @@
         "question": "What anatomical structures does the Kimura from front headlock primarily target?",
         "answer": "The Kimura targets the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, and the shoulder capsule. The forced internal rotation behind the back stresses these structures beyond their normal range of motion. The labrum is also at risk, particularly when rotation is combined with abduction. The submission works by exceeding the shoulder's rotational capacity while the opponent's bent-forward posture limits their available range of motion.",
         "safety_critical": false,
-        "answer_line": "Shoulder rotator cuff & capsule",
+        "answer_line": "Shoulder joint: cuff and capsule",
         "distractors": {
           "plausible": [
-            "Elbow joint hyperextension",
-            "Wrist and forearm bones"
+            "Elbow ligaments and triceps",
+            "Wrist bones and forearm tendons"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Cervical spine — crank the neck"
           ]
         }
       },
@@ -313,14 +313,14 @@
         "question": "Your opponent straightens their arm as you reach for the figure-four grip - what adjustment prevents escape?",
         "answer": "Drive their wrist toward their hip using your grip hand while simultaneously pressing your chest forward to collapse their posture further, forcing the elbow to bend by shortening the distance between their shoulder and wrist. If they maintain the straight arm, transition back to a choke threat since their extended arm is no longer protecting their neck. The choke threat forces them to bend the arm defensively, reopening the Kimura opportunity. Never fight a fully straight arm with pure grip strength.",
         "safety_critical": false,
-        "answer_line": "Threaten choke to reopen bend",
+        "answer_line": "Drive wrist to hip, collapse posture",
         "distractors": {
           "plausible": [
-            "Drive chest, ignore straight arm",
-            "Reset and re-shoot the grip"
+            "Pull straight arm across your chest",
+            "Wait for them to re-bend the arm"
           ],
           "trap": [
-            "Muscle the wrist into figure-four"
+            "Release head control to yank arm"
           ]
         }
       },
@@ -343,14 +343,14 @@
         "question": "You have the figure-four locked but your opponent begins rolling toward you to relieve pressure - how do you finish?",
         "answer": "Follow their roll by stepping over with your far leg and transitioning to a belly-down Kimura finish position. As they roll, maintain your grip and let their rotation actually tighten the submission rather than fighting to keep them flat. You can also step over to mount while keeping the Kimura grip, which gives you gravity assistance for the finish. The key principle is not resisting their roll but adapting your body position to maintain and increase the rotational pressure throughout their movement.",
         "safety_critical": false,
-        "answer_line": "Follow roll, step over to finish",
+        "answer_line": "Ride the roll, step over to finish",
         "distractors": {
           "plausible": [
-            "Wait for roll to stop first",
-            "Release grip to reposition"
+            "Wait until they settle flat",
+            "Switch to an armbar mid-roll"
           ],
           "trap": [
-            "Fight to hold them flat"
+            "Base out with the grip hand"
           ]
         }
       },
@@ -358,14 +358,14 @@
         "question": "What breaking point indicators tell you the shoulder is approaching its rotational limit during the Kimura?",
         "answer": "Watch for increasing mechanical resistance in the rotation as the joint approaches end range, the opponent's entire body beginning to twist and contort to create slack, audible distress sounds or sharp breathing changes, visible tension in the shoulder and upper arm muscles, and the opponent's free hand reaching desperately toward the trapped arm. In training, you should feel a firm mechanical stop as the shoulder reaches its anatomical limit. Slow down and wait for the tap at this point rather than forcing through the barrier.",
         "safety_critical": false,
-        "answer_line": "Mechanical stop + distress signs",
+        "answer_line": "Firm mechanical stop, body twisting",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "Rapid tapping speed increase"
+            "Opponent goes limp and stops moving",
+            "Tapping gets faster and lighter"
           ],
           "trap": [
-            "Force through resistance felt"
+            "Wait for an audible pop or click"
           ]
         }
       },
@@ -373,14 +373,14 @@
         "question": "Your opponent grabs their own wrist to block the Kimura rotation - what grip adjustments do you make?",
         "answer": "Insert your top hand deeper into the crook of their elbow and use a prying motion to break the defensive grip apart. Alternatively, maintain the figure-four and step over to mount position, which changes the leverage angle and adds gravitational force to your advantage, often breaking their defensive grip. You can also create a pumping motion by quickly pulling the wrist away then driving it back toward their hip to shock the grip open. Never try to muscle through their clasped defense with a static sustained pull.",
         "safety_critical": false,
-        "answer_line": "Pry elbow crook, or step to mount",
+        "answer_line": "Pry the elbow crook, or take mount",
         "distractors": {
           "plausible": [
-            "Yank wrist harder repeatedly",
-            "Switch to armbar attack"
+            "Wait for the grip to tire out",
+            "Switch to a straight armbar"
           ],
           "trap": [
-            "Muscle through with static pull"
+            "Stand up to gain more torque"
           ]
         }
       },
@@ -388,14 +388,14 @@
         "question": "What is the proper speed and release protocol for applying the Kimura rotation in training?",
         "answer": "Apply shoulder rotation gradually over a minimum of three to five seconds, never jerking or spiking the movement. When your partner taps verbally, with their hand, or with their foot, immediately stop all rotational pressure, then slowly return their arm toward a neutral position by externally rotating it back. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly, as the arm springing back can itself cause injury. Always err on the side of slower application in training environments.",
         "safety_critical": true,
-        "answer_line": "Gradual 3-5 sec, slow release",
+        "answer_line": "Rotate over 3-5 sec, ease arm back",
         "distractors": {
           "plausible": [
-            "Quick controlled snap motion",
-            "Release grip instantly on tap"
+            "Apply full pressure in one second",
+            "Stop only after a verbal tap"
           ],
           "trap": [
-            "Spike pressure, release suddenly"
+            "Crank fast, then drop the arm"
           ]
         }
       },
@@ -406,11 +406,11 @@
         "answer_line": "Cycle chokes and Kimura threats",
         "distractors": {
           "plausible": [
-            "Increase raw rotational force",
-            "Hold single grip until it breaks"
+            "Add raw strength to the rotation",
+            "Hold one grip and wait them out"
           ],
           "trap": [
-            "Abandon submission, stall position"
+            "Pull guard to chase the Kimura"
           ]
         }
       },
@@ -418,14 +418,14 @@
         "question": "How should you handle a situation where your training partner's arm is caught but they cannot reach to tap?",
         "answer": "If your partner cannot physically reach you with their free hand to tap, you must be especially attentive to verbal taps, foot taps on the mat, and any distress signals including unusual sounds or body tension. If you suspect they are in pain but have not tapped, pause the rotation and ask them directly. Never assume silence means they are comfortable with the pressure. Position yourself so their free hand can always reach your body or the mat. If their tapping hand is trapped, immediately adjust your position or release to ensure they have a clear tapping avenue.",
         "safety_critical": true,
-        "answer_line": "Watch for verbal or foot taps",
+        "answer_line": "Accept verbal, foot, or mat taps",
         "distractors": {
           "plausible": [
-            "Ask only if they seem tense",
-            "Increase pressure to test limit"
+            "Pause only if they cry out loudly",
+            "Lighten pressure and hold the lock"
           ],
           "trap": [
-            "Assume silence means no pain"
+            "Keep rotating until they go limp"
           ]
         }
       },
@@ -436,11 +436,11 @@
         "answer_line": "Pins torso, blocks standing/rolling",
         "distractors": {
           "plausible": [
-            "Adds extra rotational torque",
-            "Protects your own posture"
+            "Adds torque to the shoulder lock",
+            "Keeps your own posture upright"
           ],
           "trap": [
-            "Release chest, free both hands"
+            "Optional once the grip is locked"
           ]
         }
       }
@@ -556,11 +556,11 @@
         "answer_line": "Far hand releases, reaches for arm",
         "distractors": {
           "plausible": [
-            "Sudden increase in chest weight",
-            "Head control grip tightens more"
+            "Their forehead drives into your ribs",
+            "They widen their sprawl and hips"
           ],
           "trap": [
-            "Ignore hand changes, defend neck"
+            "Post both hands to defend neck"
           ]
         }
       },
@@ -568,14 +568,14 @@
         "question": "When should you tap to the Kimura from front headlock, and what signals should you use?",
         "answer": "Tap immediately when you feel sharp pain in the shoulder or when you recognize that your defensive grip is about to fail and the rotation will continue unchecked. Use any available signal: verbal tap by saying 'tap' clearly, physical hand tap on the opponent's body or the mat with your free hand, or foot taps if your hands are trapped. Never try to tough it out or test the flexibility limit of your shoulder. The Kimura can cause sudden catastrophic damage to the rotator cuff and labrum that may require surgery and months of recovery time.",
         "safety_critical": true,
-        "answer_line": "Tap at sharp pain or grip failing",
+        "answer_line": "Tap at sharp pain or failing grip",
         "distractors": {
           "plausible": [
-            "Tap only when rotation stops",
-            "Wait to test flexibility limit"
+            "Tap once your shoulder goes numb",
+            "Signal by shaking your head only"
           ],
           "trap": [
-            "Tough it out, test the limit"
+            "Hold out until you hear a pop"
           ]
         }
       },

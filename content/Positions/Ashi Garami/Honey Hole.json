@@ -586,11 +586,11 @@
         "answer_line": "Heel gripped, rotation felt, tap",
         "distractors": {
           "plausible": [
-            "Only tap at sharp pain",
-            "Wait for an audible pop first"
+            "Sharp pain is the only signal",
+            "First exhaust every escape"
           ],
           "trap": [
-            "Try to power out, don't tap"
+            "Power out against the twist"
           ]
         }
       },
@@ -628,11 +628,11 @@
         "answer_line": "Fight heel grip, toes hidden",
         "distractors": {
           "plausible": [
-            "Grip their wrist to control",
-            "Push their hip away first"
+            "Pry open their locked legs",
+            "Bridge to bump them off"
           ],
           "trap": [
-            "Pull leg straight back"
+            "Rip trapped leg straight out"
           ]
         }
       },
@@ -657,10 +657,10 @@
         "distractors": {
           "plausible": [
             "Point knee toward opponent",
-            "Turn foot away from knee"
+            "Square hips flat to the mat"
           ],
           "trap": [
-            "Twist knee to create space"
+            "Twist free against their grip"
           ]
         }
       },
@@ -670,11 +670,11 @@
         "answer_line": "Check entry, reaction, commitment",
         "distractors": {
           "plausible": [
-            "Only review the final grip",
-            "Blame bad luck and move on"
+            "Only study the final finish",
+            "Drill late escapes, skip entries"
           ],
           "trap": [
-            "Assume nothing could be done"
+            "Vow to hold out longer next time"
           ]
         }
       }

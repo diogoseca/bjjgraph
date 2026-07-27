@@ -274,7 +274,7 @@
             "Wrist joint flexion"
           ],
           "trap": [
-            "Biceps tendon tear"
+            "Crank the neck for the tap"
           ]
         }
       },
@@ -297,14 +297,14 @@
         "question": "Your opponent clasps their hands together to prevent arm extension once you are belly down - how do you break this grip?",
         "answer": "Wedge your forearm between their interlocked hands while maintaining constant hip pressure on the elbow. Push your forearm through the gap and peel their hands apart. Alternatively, apply slow progressive pressure through the locked grip by lifting your hips while controlling the wrist. The sustained pressure on the elbow typically forces grip separation within several seconds as the defender must release to tap before the joint is compromised.",
         "safety_critical": false,
-        "answer_line": "Wedge forearm, hip pressure",
+        "answer_line": "Wedge forearm in, drive hip down",
         "distractors": {
           "plausible": [
-            "Pry fingers apart one by one",
-            "Strike the hands to release"
+            "Pry their top fingers loose",
+            "Sit upright for more leverage"
           ],
           "trap": [
-            "Release wrist grip to reset"
+            "Rip the wrist fast to snap grip"
           ]
         }
       },
@@ -319,7 +319,7 @@
             "Hips low on the forearm"
           ],
           "trap": [
-            "Hips centered on the shoulder"
+            "Lift hips off to torque harder"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Slow, progressive over 3-5 sec",
         "distractors": {
           "plausible": [
-            "Steady pressure, hold and wait",
-            "Quick pulse then release"
+            "Hold pressure without lifting",
+            "Wait for them to relax first"
           ],
           "trap": [
-            "Fast, sharp spike upward"
+            "Sharp spike of the hips upward"
           ]
         }
       },
@@ -349,7 +349,7 @@
             "Better wrist leverage"
           ],
           "trap": [
-            "Frees your hands to strike"
+            "Release wrist control to rotate"
           ]
         }
       },
@@ -372,14 +372,14 @@
         "question": "What tap signals must you monitor during the belly down armbar finish and what is the correct release sequence?",
         "answer": "Monitor for verbal taps, physical hand taps on your body or the mat, foot taps on the mat, and any distress vocalizations including screaming or grunting. Upon recognizing any tap signal, immediately lower the wrist to release extension pressure first, then release knee squeeze on the upper arm, then disengage completely. Never wait for a second tap or confirmation. If uncertain whether a signal occurred, release immediately as the position can always be re-established.",
         "safety_critical": true,
-        "answer_line": "Lower wrist, release knees, exit",
+        "answer_line": "Any tap: drop wrist, then knees",
         "distractors": {
           "plausible": [
-            "Release knees before wrist",
-            "Disengage first, then release"
+            "Free your legs before the wrist",
+            "Stop only for a hand tap"
           ],
           "trap": [
-            "Wait for a second tap"
+            "Hold until they tap a second time"
           ]
         }
       }
@@ -505,7 +505,7 @@
             "Opponent leans away for space"
           ],
           "trap": [
-            "Opponent grips your collar"
+            "Wait until they rotate to react"
           ]
         }
       },
@@ -516,11 +516,11 @@
         "answer_line": "Leverage outpaces your reaction",
         "distractors": {
           "plausible": [
-            "Pain will build up slowly",
-            "You can escape after tapping late"
+            "Pain gives plenty of warning",
+            "Your partner will ease off"
           ],
           "trap": [
-            "Flex the arm and power out"
+            "Flex hard and power the arm out"
           ]
         }
       },
@@ -532,7 +532,7 @@
         "distractors": {
           "plausible": [
             "Push their hips away",
-            "Grab your own collar tightly"
+            "Flatten shoulders to the mat"
           ],
           "trap": [
             "Relax the arm to save energy"
@@ -546,11 +546,11 @@
         "answer_line": "Verbal, hand, or foot tap",
         "distractors": {
           "plausible": [
-            "Wait until pain peaks",
-            "Shake your head no"
+            "Only a hand tap counts",
+            "Wait for the coach to call it"
           ],
           "trap": [
-            "Try to verbally negotiate"
+            "Hold on and try to power free"
           ]
         }
       },
@@ -561,8 +561,8 @@
         "answer_line": "Blocks straight-arm alignment",
         "distractors": {
           "plausible": [
-            "Reduces overall arm fatigue",
-            "Improves your grip strength"
+            "Adds slack for a hip escape",
+            "Weakens their wrist grip"
           ],
           "trap": [
             "Straighten arm to create space"

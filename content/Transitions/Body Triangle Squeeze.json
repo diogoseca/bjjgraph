@@ -395,14 +395,14 @@
       {
         "question": "Your squeeze has been applied for twenty seconds with sustained pressure but the opponent has not tapped - what do you do next?",
         "answer": "Sustained pressure without a tap indicates suboptimal angle, effective breathing management by the opponent, or insufficient posterior chain engagement. First, adjust your hip angle to shift compression toward the floating ribs on their bottom side. Second, pulse the pressure with two to three sharp squeeze spikes to disrupt any breathing rhythm they have established. Third, if the squeeze still shows no effect, transition to coordinated choke attacks using the degraded breathing capacity as a setup rather than continuing to invest leg energy in a squeeze that has reached its effectiveness ceiling.",
-        "answer_line": "Adjust angle, pulse, then choke",
+        "answer_line": "Shift hips, pulse, then attack neck",
         "distractors": {
           "plausible": [
-            "Keep same squeeze, wait longer",
-            "Switch legs to reset triangle"
+            "Hold still and outlast their breath",
+            "Muscle it harder with leg strength"
           ],
           "trap": [
-            "Release and re-lock from scratch"
+            "Cross your ankles in front of them"
           ]
         }
       },

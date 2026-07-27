@@ -325,10 +325,10 @@
         "distractors": {
           "plausible": [
             "1-2 seconds is fast enough",
-            "Speed doesn't matter in training"
+            "Only slow for beginner partners"
           ],
           "trap": [
-            "Apply pressure suddenly and fast"
+            "Snap it on explosively"
           ]
         }
       },
@@ -339,11 +339,11 @@
         "answer_line": "Pull chin, drive shoulder into neck",
         "distractors": {
           "plausible": [
-            "Just pull the chin hard",
-            "Squeeze both arms together tightly"
+            "Bicep squeeze on the windpipe",
+            "Lift their head off the mat"
           ],
           "trap": [
-            "Crank the head sideways fast"
+            "Sit back, let the head slip free"
           ]
         }
       },
@@ -369,11 +369,11 @@
         "answer_line": "Trachea damage is most dangerous",
         "distractors": {
           "plausible": [
-            "Only bruising, nothing serious",
-            "Broken collarbone is the main risk"
+            "Jaw soreness is the worst risk",
+            "Shoulder strain from squeezing"
           ],
           "trap": [
-            "Jerk hard for a quick finish"
+            "Blackout is harmless, keep going"
           ]
         }
       },
@@ -381,14 +381,14 @@
         "question": "How should you position the opponent's head from the front headlock to create the proper chin strap angle?",
         "answer": "You should position the opponent's head clearly to one side of your body rather than centered in front of you. This lateral positioning is crucial because it creates the proper angle for your choking arm to thread deeply under their chin and reach across toward their far ear. If their head is centered, you won't be able to get the deep penetration needed for the chin strap - you'll end up with a weak traditional guillotine position instead. The side positioning also allows your shoulder to drive into the side of their neck effectively, creating the necessary pressure on the near-side carotid artery.",
         "safety_critical": false,
-        "answer_line": "Head to one side, not centered",
+        "answer_line": "Head offset to one side of your body",
         "distractors": {
           "plausible": [
-            "Keep head centered in front",
-            "Pull head down between your knees"
+            "Square their skull under your chest",
+            "Wedge the head between your knees"
           ],
           "trap": [
-            "Push their head straight backward"
+            "Shove the head back to make space"
           ]
         }
       },
@@ -399,11 +399,11 @@
         "answer_line": "Figure-four grip vs clasped hands",
         "distractors": {
           "plausible": [
-            "Palm-down forearm under the chin",
+            "Only the finishing angle differs",
             "Free hand cups the far shoulder"
           ],
           "trap": [
-            "Turn away to crank the finish"
+            "Clasp hands and crank the spine"
           ]
         }
       },
@@ -441,14 +441,14 @@
         "question": "Your opponent begins posturing up during the chin strap setup - what grip adjustment maintains your finishing position?",
         "answer": "When opponent postures up, immediately deepen your choking arm by pulling your elbow tighter to your body and driving your wrist further under their chin. Use your opposite hand to push down on the back of their head, counteracting their posture attempt. If they create significant space, consider transitioning to a high elbow guillotine variation where you drive your elbow toward the ceiling - their postured position actually makes this variation more accessible. Alternatively, pull your hips in closer and use your legs to break their posture down before they can fully extend. The key is recognizing the posture attempt early and adjusting before they create too much space.",
         "safety_critical": false,
-        "answer_line": "Deepen grip, push their head down",
+        "answer_line": "Deepen the arm, drive head down",
         "distractors": {
           "plausible": [
-            "Release and reset the position",
-            "Pull straight back harder"
+            "Widen your elbow for leverage",
+            "Grab their belt and pull down"
           ],
           "trap": [
-            "Let go of the bicep grip to regrip"
+            "Sit back and lose the head"
           ]
         }
       },
@@ -471,14 +471,14 @@
         "question": "How do you adjust your finishing mechanics when the opponent turns their chin toward your choking arm side?",
         "answer": "When opponent turns their chin toward your choking arm, they actually make the finish easier in some ways - their turning motion exposes the far-side carotid more fully to your forearm pressure. Maintain your bicep grip and increase the chin pull while keeping your shoulder pressure constant. However, watch for them using this turn to initiate a roll escape. Counter by sprawling your hips back and to the choking arm side, jamming their turn. If they commit to rolling into you, follow the roll while maintaining the grip - you can finish from mount or side control positions. The chin strap remains effective regardless of whether you end up on top or transitioning with their movement.",
         "safety_critical": false,
-        "answer_line": "Keep pulling, watch for roll escape",
+        "answer_line": "Keep pulling, watch the roll",
         "distractors": {
           "plausible": [
-            "Switch choking arms immediately",
-            "Loosen the grip to let them turn"
+            "Switch arms to the near side",
+            "Wait for them to square back up"
           ],
           "trap": [
-            "Chase the roll and lose hip control"
+            "Follow their roll, lose the hips"
           ]
         }
       },
@@ -489,11 +489,11 @@
         "answer_line": "Bilateral pressure, chin tilted back",
         "distractors": {
           "plausible": [
-            "Chin pushed hard to the side",
-            "Explosive squeezing gets the tap"
+            "Forearm across the side of neck",
+            "Head pushed down to their chest"
           ],
           "trap": [
-            "Crank and twist until they tap"
+            "Twist the head sideways to finish"
           ]
         }
       },
@@ -501,14 +501,14 @@
         "question": "What anatomical structures does the Chin Strap Guillotine attack to produce the tap?",
         "answer": "It is primarily a blood choke that compresses the carotid arteries by rotating and lengthening the neck, with secondary pressure on the trachea; cutting carotid blood flow forces the tap or causes unconsciousness within seconds.",
         "safety_critical": true,
-        "answer_line": "Carotid arteries via rotation",
+        "answer_line": "Carotid arteries, blood choke",
         "distractors": {
           "plausible": [
-            "Trachea compression mainly",
-            "Jugular vein compression only"
+            "Windpipe crushed to force tap",
+            "Jugular veins are the target"
           ],
           "trap": [
-            "Crank the neck for the finish"
+            "Cervical spine cranked to tap"
           ]
         }
       },
@@ -518,39 +518,39 @@
         "answer_line": "Pull chin, drive head forward",
         "distractors": {
           "plausible": [
-            "Pull chin only, no head drive",
-            "Squeeze both arms together tightly"
+            "Both hands clasp and squeeze",
+            "Grip your wrist and crunch up"
           ],
           "trap": [
-            "Crank head sideways for finish"
+            "Twist the neck to force the tap"
           ]
         }
       },
       {
         "question": "Your opponent starts to posture up and lift their head above their hips during the finish - what adjustment prevents escape?",
         "answer": "Re-establish chest pressure to snap the head back below the hip line and reflatten their posture before re-applying the squeeze; a posturing opponent unwinds the rotational angle and frees the carotid, so restoring broken posture is mandatory before finishing.",
-        "answer_line": "Snap the head back below hips",
+        "answer_line": "Snap their head back below hips",
         "distractors": {
           "plausible": [
             "Squeeze harder as they rise",
-            "Re-grip the collar first"
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Sit up and follow them out"
+            "Open the legs and follow them up"
           ]
         }
       },
       {
         "question": "What tactile cue tells you the carotid choke is set and the finish is imminent?",
         "answer": "When the opponent's face rotates away from the choking arm and the near-side neck lengthens with no slack between your forearm, their throat, and your shoulder, the carotid is sealed and steady squeezing will produce the tap quickly.",
-        "answer_line": "Face rotated away, no slack in neck",
+        "answer_line": "Face turned away, neck taut",
         "distractors": {
           "plausible": [
-            "Opponent's grip goes slack",
-            "They stop moving completely"
+            "Their hands claw at your arm",
+            "You hear them gasping loudly"
           ],
           "trap": [
-            "They posture up with room to breathe"
+            "Limp body means squeeze harder"
           ]
         }
       },
@@ -629,14 +629,14 @@
         "question": "Why is it both dangerous and ineffective to finish the chin strap as a sideways neck crank?",
         "answer": "Torquing the head sideways loads the cervical spine and risks serious neck injury while strong opponents simply ride out the pain; finishing as a blood choke by rotating to close the carotid is both safer and far more reliable.",
         "safety_critical": true,
-        "answer_line": "Rotate to close carotid, don't crank",
+        "answer_line": "Rotate to seal carotid, no crank",
         "distractors": {
           "plausible": [
-            "Crank harder for a faster tap",
-            "Pull straight up for pressure"
+            "Sideways pressure just tires you",
+            "It only works on smaller partners"
           ],
           "trap": [
-            "Torque head sideways to finish"
+            "Twist the head hard to force it"
           ]
         }
       }
@@ -772,11 +772,11 @@
         "answer_line": "Tuck chin tight to chest",
         "distractors": {
           "plausible": [
-            "Frame against their hips first",
-            "Grab their wrist immediately"
+            "Bridge your hips into them",
+            "Post a hand on their shoulder"
           ],
           "trap": [
-            "Pull your head straight back"
+            "Straighten your neck and pull back"
           ]
         }
       },
@@ -862,10 +862,10 @@
         "distractors": {
           "plausible": [
             "Straight upward pull on the throat",
-            "Squeeze from both sides equally"
+            "Even pressure from both sides"
           ],
           "trap": [
-            "It only pulls the head backward"
+            "Treat it as a guillotine, posture up"
           ]
         }
       },
@@ -875,22 +875,22 @@
         "answer_line": "Arm-in choke like anaconda or darce",
         "distractors": {
           "plausible": [
-            "They'll just give up the position",
+            "They settle for a headlock pin",
             "They switch to a leg attack"
           ],
           "trap": [
-            "Stop hand-fighting, relax fully"
+            "Relax and stop hand-fighting"
           ]
         }
       },
       {
         "question": "Your posture is broken and you cannot lift your head - which way should you escape?",
         "answer": "Escape perpendicular to the choke: clear the head to the side or roll through with a granby to recover guard rather than pulling straight back, which only tightens the rotation and deepens the carotid compression.",
-        "answer_line": "Clear head sideways, or roll through",
+        "answer_line": "Clear head sideways or granby roll",
         "distractors": {
           "plausible": [
-            "Pull straight back to create space",
-            "Push straight up with both arms"
+            "Posture up and lift the head",
+            "Grip their belt and stall it out"
           ],
           "trap": [
             "Pull your head straight backward"
@@ -901,14 +901,14 @@
         "question": "Why should you tap early rather than tough out a tight chin strap?",
         "answer": "It is a fast blood choke that can cause unconsciousness within seconds and also loads the cervical spine; tapping early to a sealed carotid choke prevents blackout and neck injury, whereas waiting risks both.",
         "safety_critical": true,
-        "answer_line": "Fast blood choke risks blackout",
+        "answer_line": "Blood choke, blackout in seconds",
         "distractors": {
           "plausible": [
-            "It's only uncomfortable, not risky",
-            "Toughing it out builds tolerance"
+            "Toughing it out builds tolerance",
+            "You can breathe through it fine"
           ],
           "trap": [
-            "Wait until your vision goes black"
+            "Wait until vision starts to gray"
           ]
         }
       }

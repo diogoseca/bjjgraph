@@ -280,7 +280,7 @@
             "Vagus nerve pressure point"
           ],
           "trap": [
-            "Cervical spine and nerves"
+            "Crank neck for spinal pressure"
           ]
         }
       },
@@ -292,10 +292,10 @@
         "distractors": {
           "plausible": [
             "Force the grip over the chin",
-            "Pry chin up with free hand"
+            "Squeeze triangle and wait it out"
           ],
           "trap": [
-            "Abandon grip, hunt for armbar"
+            "Release triangle for leverage"
           ]
         }
       },
@@ -306,7 +306,7 @@
         "answer_line": "Deep collar grip + pants grip",
         "distractors": {
           "plausible": [
-            "Collar grip and belt grip",
+            "Collar grip and near-wrist grip",
             "Two hooks plus collar grip"
           ],
           "trap": [
@@ -321,7 +321,7 @@
         "answer_line": "Regrip pants, belt, or far hip",
         "distractors": {
           "plausible": [
-            "Switch to shin-on-shin control",
+            "Strip their hands with both arms",
             "Release and reset the choke"
           ],
           "trap": [
@@ -336,11 +336,11 @@
         "answer_line": "Triangle blocks hip rotation",
         "distractors": {
           "plausible": [
-            "Triangle frees hands sooner",
-            "Triangle chokes on its own"
+            "Triangle chokes on its own",
+            "Triangle stops shoulder shrug"
           ],
           "trap": [
-            "Hooks give better back control"
+            "Cross the ankles to lock it"
           ]
         }
       },
@@ -382,7 +382,7 @@
         "distractors": {
           "plausible": [
             "Release body triangle first",
-            "Let go of all grips together"
+            "Force their head back to center"
           ],
           "trap": [
             "Hold the choke a beat longer"
@@ -393,14 +393,14 @@
         "question": "Your opponent begins fighting your collar grip with both hands, leaving their arms exposed - what transition should you consider?",
         "answer": "When both their hands commit to collar defense, their arms are extended and exposed. Immediately consider transitioning to an armbar by isolating the reaching arm and swinging your leg over their head, or transition to a crucifix by trapping one of their outstretched arms with your leg. The body triangle maintains positional control throughout either transition. You can also bait the collar defense repeatedly, attacking the arm each time they reach, creating a collar-or-arm dilemma.",
         "safety_critical": false,
-        "answer_line": "Armbar or crucifix the exposed arm",
+        "answer_line": "Armbar or crucifix exposed arm",
         "distractors": {
           "plausible": [
-            "Switch straight to rear naked choke",
+            "Roll them over into mount",
             "Abandon attack, reset to guard"
           ],
           "trap": [
-            "Release triangle to chase the arm"
+            "Release triangle to chase arm"
           ]
         }
       },
@@ -412,7 +412,7 @@
         "distractors": {
           "plausible": [
             "Rush the grip before hooks lock",
-            "Wait passively for an opening"
+            "Flatten them out and force it"
           ],
           "trap": [
             "Release triangle to free a hand"
@@ -557,7 +557,7 @@
             "Wait to defend until extension"
           ],
           "trap": [
-            "Pull down on choking forearm"
+            "Roll away, feeding the collar"
           ]
         }
       },
@@ -614,10 +614,10 @@
         "distractors": {
           "plausible": [
             "Retry the two-on-one collar strip",
-            "Turtle up to hide the neck"
+            "Shrug shoulders and wait it out"
           ],
           "trap": [
-            "Push off to create space"
+            "Straighten out flat to relieve it"
           ]
         }
       },
@@ -628,8 +628,8 @@
         "answer_line": "Unconsciousness in 5-10 seconds",
         "distractors": {
           "plausible": [
-            "Rib fracture is the main risk",
-            "Shoulder dislocation risk"
+            "Windpipe crush is the main risk",
+            "Blackout takes 30+ seconds"
           ],
           "trap": [
             "No real risk, tapping optional"

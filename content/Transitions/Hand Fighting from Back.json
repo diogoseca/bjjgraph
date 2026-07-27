@@ -266,10 +266,10 @@
         "distractors": {
           "plausible": [
             "Chin turned toward the choking arm",
-            "Chin lifted to see the grip"
+            "Chin loose and floating free"
           ],
           "trap": [
-            "Chin up and neck extended"
+            "Chin up, neck fully extended"
           ]
         }
       },
@@ -280,10 +280,10 @@
         "distractors": {
           "plausible": [
             "Keep fighting the original arm",
-            "Release grips and reset hooks"
+            "Split one hand to each arm"
           ],
           "trap": [
-            "Turn chin away to track the switch"
+            "Turn chin away to track switch"
           ]
         }
       },
@@ -307,11 +307,11 @@
         "answer_line": "Free trapped leg before hand fight",
         "distractors": {
           "plausible": [
-            "Ignore it, focus only on the arm",
-            "Squeeze back to tire their legs"
+            "Ignore it and fight the arm",
+            "Squeeze your own legs to counter"
           ],
           "trap": [
-            "Pull the choking arm across first"
+            "Buck up and extend your neck"
           ]
         }
       },
@@ -321,11 +321,11 @@
         "answer_line": "Harness weakens, hip escape opens",
         "distractors": {
           "plausible": [
-            "Their hooks loosen automatically",
-            "Their base becomes unstable"
+            "Their hooks release on their own",
+            "Their base collapses instantly"
           ],
           "trap": [
-            "Attack the choking arm harder"
+            "Stall and let them reset the choke"
           ]
         }
       },
@@ -508,11 +508,11 @@
         "answer_line": "Forces regrip, opens fresh window",
         "distractors": {
           "plausible": [
-            "Matches strength against strength",
-            "Tires their grip strength faster"
+            "Matches your strength to theirs",
+            "Drains their grips over time"
           ],
           "trap": [
-            "Muscle the arm out by force"
+            "Loosen your seatbelt to switch"
           ]
         }
       },
@@ -536,11 +536,11 @@
         "answer_line": "Two hands busy, can't defend rest",
         "distractors": {
           "plausible": [
-            "They lose hook control entirely",
-            "Their base weakens immediately"
+            "Their grips finally overpower you",
+            "Their hips break free to escape"
           ],
           "trap": [
-            "They can still frame freely"
+            "Loosen hooks to gift wrap fast"
           ]
         }
       },

@@ -777,7 +777,7 @@
       "distractors": {
         "plausible": [
           "Attack whichever leg is closest",
-          "Finish fast before defense sets"
+          "Camp in outside ashi for control"
         ],
         "trap": [
           "Skip straight to the heel hook"
@@ -790,11 +790,11 @@
       "answer": "Heel exposure is pivotal because rotational finishes only become available once the heel crosses past the entangling limb instead of staying hidden or straight. The most dangerous leg lock finishes rotate the knee and ankle to attack ligaments, and that rotation is denied while the foot stays straight or the heel is buried. Across all variants the attacker's job is to peel or rotate the trapped foot so the heel crosses their centerline, while the defender's mirror job is to keep the foot straight or bury the heel against the attacker's body. Because the heel can be exposed or hidden from nearly any position on the hierarchy, both players are constantly managing which way the trapped foot points. Reading heel exposure, rather than the name of the position, is what tells you whether a finish is genuinely available or still a bluff.",
       "distractors": {
         "plausible": [
-          "The position name reveals danger",
-          "Ankle straightness barely matters"
+          "Grip strength decides the finish",
+          "Speed of entry decides the finish"
         ],
         "trap": [
-          "Crank whenever the foot moves"
+          "Force the lock while heel is hidden"
         ]
       },
       "answer_line": "Heel exposure decides the finish"
@@ -816,11 +816,11 @@
     {
       "question": "Why does maintaining connection points matter more than grip strength in holding any leg entanglement?",
       "answer": "A leg entanglement is held by a system of contact points, the inside leg hook, the outside hook or foot bind, hip-to-hip pressure, and upper-body control, working together rather than by any single strong grip. When one connection is briefly abandoned during a transition between variants, the opponent gets the gap needed to extract the leg or reverse the position entirely. This is why sound methodology advances position incrementally, giving up one contact point only as the next is secured, so control is never fully released. Explosive movement that sacrifices multiple connections at once is the most common way entanglements collapse, even when the finishing mechanics were otherwise correct.",
-      "answer_line": "Advance connections one at a time",
+      "answer_line": "A system of points, not one grip",
       "distractors": {
         "plausible": [
           "Grip strength holds it together",
-          "Speed through every transition"
+          "Hip pressure alone is enough"
         ],
         "trap": [
           "Release all grips to attack"
@@ -833,8 +833,8 @@
       "answer_line": "Protect the heel, then extract",
       "distractors": {
         "plausible": [
-          "Rip the leg out immediately",
-          "Address inside space first"
+          "Address inside space first",
+          "Attack their leg back instead"
         ],
         "trap": [
           "Yank the leg free explosively"
@@ -844,11 +844,11 @@
     {
       "question": "Why do leg entanglements neutralize size and strength advantages so effectively?",
       "answer": "Ashi Garami positions play out in a horizontal plane where control comes from limb entanglement and rotational leverage rather than from pinning an opponent under body weight, so the top pressure and mass a larger athlete relies on is largely removed from the equation. A knee or ankle attacked by precise rotation can be compromised faster than the surrounding muscles can react to protect it, unlike a pin battle where raw strength directly resists control. This lets a smaller, technical player isolate and finish a much larger opponent once inside space and heel exposure are secured. It is a central reason the position family became foundational to modern competitive grappling, especially in no-gi where the absence of grips makes leg entries more accessible.",
-      "answer_line": "Rotation beats size, not top weight",
+      "answer_line": "Rotational leverage, not mass",
       "distractors": {
         "plausible": [
-          "A bigger frame still wins here",
-          "Top pressure decides the outcome"
+          "Top pressure decides the outcome",
+          "Explosive strength closes the gap"
         ],
         "trap": [
           "Muscle through the escape"
@@ -866,7 +866,7 @@
           "Both legs trapped together"
         ],
         "trap": [
-          "Sit back and pull guard"
+          "Dive for the heel with no control"
         ]
       },
       "answer_line": "Legs entangle to trap one leg"
@@ -891,11 +891,11 @@
       "answer_line": "Exposed heel opens rotational subs",
       "distractors": {
         "plausible": [
-          "Straight leg opens heel hooks",
-          "Any grip enables the finish"
+          "Straight leg unlocks heel hooks",
+          "Any grip makes the finish live"
         ],
         "trap": [
-          "Attack the ankle when heel is hidden"
+          "Force a heel hook on aligned leg"
         ]
       }
     },
@@ -904,14 +904,14 @@
       "answer": "The hierarchy runs Outside Ashi-Garami, Inside Ashi-Garami, Cross Ashi-Garami, then Saddle, with each step adding inside-space and knee-line control. Climbing the hierarchy progressively rotates the entangling player toward the inside of the leg, which both tightens control and increases the natural exposure of the opponent's heel. Higher positions raise finishing percentage precisely because they combine tighter isolation of the leg with easier access to the heel and knee. The hierarchy is therefore not arbitrary ranking but a map of increasing mechanical leverage over the same trapped limb.",
       "distractors": {
         "plausible": [
-          "Each step just adds a new grip",
-          "Saddle is only a tighter Outside"
+          "Each step just adds a grip",
+          "Saddle is only a fancier Outside"
         ],
         "trap": [
-          "Jump straight to Saddle"
+          "Skip straight to the finish"
         ]
       },
-      "answer_line": "Each step tightens knee and heel"
+      "answer_line": "Tighter knee line, more heel shown"
     },
     {
       "question": "Why are many Ashi Garami variations described as bilateral or reciprocal threat positions rather than one-directional control?",
@@ -947,8 +947,8 @@
       "answer_line": "Keep hips elevated and mobile",
       "distractors": {
         "plausible": [
-          "Stay flat and heavy on your back",
-          "Base means staying on top"
+          "Base means staying on top",
+          "Grip the leg to make a base"
         ],
         "trap": [
           "Flatten out to add pressure"
@@ -962,10 +962,10 @@
       "distractors": {
         "plausible": [
           "From closed guard sweeps",
-          "From standard half guard"
+          "From mount after you pass"
         ],
         "trap": [
-          "Pull guard then shoot in blind"
+          "Dive at the legs with no control"
         ]
       }
     }

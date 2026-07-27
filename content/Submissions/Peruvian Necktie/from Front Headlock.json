@@ -308,7 +308,7 @@
             "Leg just blocks their base"
           ],
           "trap": [
-            "Rely on arm strength alone"
+            "Drop the leg to squeeze harder"
           ]
         }
       },
@@ -319,11 +319,11 @@
         "answer_line": "Blocks posture-up, exposes neck",
         "distractors": {
           "plausible": [
-            "Signals a guillotine defense",
+            "Means they are stalling out",
             "Means they'll try to roll out"
           ],
           "trap": [
-            "It stops the necktie attempt"
+            "Force a guillotine anyway"
           ]
         }
       },
@@ -335,10 +335,10 @@
         "distractors": {
           "plausible": [
             "Sit straight back for power",
-            "Angle avoids the trachea only"
+            "Angle only avoids the trachea"
           ],
           "trap": [
-            "Sit straight back, then pull"
+            "Crank the head straight up hard"
           ]
         }
       },
@@ -346,14 +346,14 @@
         "question": "What are the critical safety considerations when applying the Peruvian Necktie in training?",
         "answer": "The Peruvian Necktie is a blood choke that can produce unconsciousness within seconds of a clean lock, so the primary safety concern is application speed and awareness of your partner's state. Always apply pressure progressively over 3-5 seconds, never jerk or spike the submission. Watch for partner going limp, irregular breathing, or any distress signals beyond normal discomfort. Release immediately on any tap signal — verbal, hand, or foot. The leg-over-head component also creates cervical spine stress, so never apply twisting or cranking motions. After release, allow your partner to straighten their neck naturally and confirm they are conscious and oriented before continuing.",
         "safety_critical": true,
-        "answer_line": "Apply slowly, watch for taps",
+        "answer_line": "Ramp pressure over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Speed matters more than care",
-            "Only worry about arm safety"
+            "Rely on the tap to stop you",
+            "Ease off only if they say stop"
           ],
           "trap": [
-            "Crank fast for a quick tap"
+            "Jerk the lock to force the tap"
           ]
         }
       },
@@ -380,10 +380,10 @@
         "distractors": {
           "plausible": [
             "Reapply the same grip harder",
-            "Wait for them to tire out"
+            "Stall until they let go"
           ],
           "trap": [
-            "Chase the grip, ignore back"
+            "Release the head to fix the grip"
           ]
         }
       },
@@ -391,14 +391,14 @@
         "question": "What is the point of no escape for the defender once the Peruvian Necktie sequence progresses?",
         "answer": "The point of no escape occurs once the leg lands across the back of the neck and the attacker begins the sit-through. Before the leg is over the head, the defender can posture up, sprawl back, or strip the grip with reasonable success. Once the leg is over the head and the attacker sits to the hip, the defender's posture is completely broken by the downward force of the leg, and the gable grip prevents head extraction. At this point, the only remaining option is to tap. Attempting to roll through after the leg is locked typically tightens the choke rather than relieving it.",
         "safety_critical": false,
-        "answer_line": "Leg over neck, sit-through starts",
+        "answer_line": "Leg lands over neck, sit-through",
         "distractors": {
           "plausible": [
-            "Once gable grip first locks",
-            "When posture first breaks"
+            "As soon as the hands connect",
+            "When the head is pulled down"
           ],
           "trap": [
-            "Roll through to escape late"
+            "You can still roll out and escape"
           ]
         }
       },
@@ -425,7 +425,7 @@
         "distractors": {
           "plausible": [
             "Grip harder with both hands",
-            "Reposition entirely from scratch"
+            "Drop your hips closer to them"
           ],
           "trap": [
             "Crank the neck for more force"
@@ -436,14 +436,14 @@
         "question": "What are the most common defensive responses you should expect when setting up the Peruvian Necktie from front headlock?",
         "answer": "The three most common defensive responses are: first, explosive posturing up before the leg lands, which is the highest-percentage escape and must be prevented by maintaining heavy chest pressure and snapping the head down before throwing the leg; second, sprawling the hips back to create distance and prevent the grip lock, which you counter by following their hip movement or chaining to a darce; third, forward rolling through the choke attempt to recover guard, which you counter by sprawling your hips back and letting the leg over the head act as a hook that jams the roll. Recognizing which defense the opponent favors allows you to preemptively address it during your setup.",
         "safety_critical": false,
-        "answer_line": "Posture up, sprawl, or roll out",
+        "answer_line": "Posture up, sprawl back, or roll",
         "distractors": {
           "plausible": [
-            "Tap early to avoid the choke",
-            "Pull guard to reset position"
+            "Grab your own belt and stall",
+            "Turn belly-down to hide neck"
           ],
           "trap": [
-            "Stand up to escape headlock"
+            "Spin out and give up your back"
           ]
         }
       }
@@ -568,7 +568,7 @@
             "Arm threaded from far side"
           ],
           "trap": [
-            "Any front headlock grip works"
+            "Defend it like a guillotine only"
           ]
         }
       },
@@ -576,14 +576,14 @@
         "question": "What is the safest way to tap to the Peruvian Necktie and when should you tap?",
         "answer": "Tap immediately once the leg is over your head, the grip is locked, and the sit-through begins. Do not wait to see if you can survive — this choke produces unconsciousness within seconds of a clean lock and you may not have time to tap once it fully sets. Use a clear hand tap on the attacker's body or the mat, combined with a verbal tap if possible. Because your far arm may be trapped, ensure your near hand is free to tap. If both hands are trapped, tap with your feet on the mat and verbalize loudly. Never attempt to tough out a locked Peruvian Necktie in training.",
         "safety_critical": true,
-        "answer_line": "Tap fast once leg locks in",
+        "answer_line": "Tap the instant the lock sets",
         "distractors": {
           "plausible": [
-            "Wait to see if you can survive",
-            "Tap only when it truly hurts"
+            "Wait until pressure builds",
+            "Shrug and hope to slip free"
           ],
           "trap": [
-            "Try to power through it"
+            "Ride it out to test your neck"
           ]
         }
       },
@@ -594,11 +594,11 @@
         "answer_line": "Posture up, drive forward",
         "distractors": {
           "plausible": [
-            "Pull back to create space",
-            "Wait for the leg to land"
+            "Tuck chin and wait it out",
+            "Roll forward right away"
           ],
           "trap": [
-            "Sit back to break the grip"
+            "Sit back to make space"
           ]
         }
       },
@@ -609,11 +609,11 @@
         "answer_line": "Exploits gap during sit-through",
         "distractors": {
           "plausible": [
-            "Always safest way to escape",
-            "Works best right after grip locks"
+            "Rolling breaks the gable grip",
+            "Safe because head stays free"
           ],
           "trap": [
-            "Roll anytime to escape"
+            "Roll while the choke is tight"
           ]
         }
       },
@@ -621,14 +621,14 @@
         "question": "What should you do if you feel yourself becoming lightheaded during a Peruvian Necktie attempt in training?",
         "answer": "Tap immediately by any means available — hand tap, foot tap, or verbal signal. Lightheadedness indicates carotid compression is restricting blood flow to the brain, and unconsciousness can follow within seconds. Do not attempt to fight through lightheadedness hoping to escape, as you may lose consciousness before you can tap. After tapping, communicate to your partner that you felt lightheaded so they can adjust their training intensity. Take a brief rest before resuming training and monitor for any persistent symptoms like headache or dizziness.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, any method",
+        "answer_line": "Tap at once by any means",
         "distractors": {
           "plausible": [
-            "Push through a few more seconds",
-            "Signal only if it gets worse"
+            "Breathe deep and stay calm",
+            "Wait until vision narrows"
           ],
           "trap": [
-            "Try to escape before tapping"
+            "Explode out and fight the grip"
           ]
         }
       },
@@ -639,11 +639,11 @@
         "answer_line": "Frees far carotid, buys time",
         "distractors": {
           "plausible": [
-            "Fully escapes the choke",
-            "Stops all neck pressure"
+            "Ends the choke immediately",
+            "Removes the leg pressure"
           ],
           "trap": [
-            "Pull elbow toward their hip"
+            "Stop defending once arm is free"
           ]
         }
       }

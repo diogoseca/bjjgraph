@@ -351,11 +351,11 @@
         "answer_line": "Pull back to top turtle",
         "distractors": {
           "plausible": [
-            "Force through to complete it",
-            "Release and reset from bottom"
+            "Bail out and stand up",
+            "Recover guard from bottom"
           ],
           "trap": [
-            "Keep driving the stalled roll"
+            "Force the stalled roll through"
           ]
         }
       },
@@ -526,11 +526,11 @@
         "answer_line": "Turn into them, face and scramble",
         "distractors": {
           "plausible": [
-            "Turn away to protect your back",
-            "Go limp and absorb the roll"
+            "Go limp and ride it out",
+            "Freeze and wait to land"
           ],
           "trap": [
-            "Turn away, tuck your back down"
+            "Give your back and flatten out"
           ]
         }
       },

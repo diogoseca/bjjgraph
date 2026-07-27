@@ -344,14 +344,14 @@
         "question": "What must you do immediately after receiving a tap to a triangle choke, and what are the specific steps to safely release this submission?",
         "answer": "Upon receiving a tap, immediately: (1) open your legs and release the figure-four lock, (2) pull the trapped arm out from the triangle space, (3) release head and neck control completely, (4) move your hips away to create space, (5) check your partner's consciousness and breathing, and (6) allow them time to recover before resuming training. Never hold the position even briefly after a tap—the release must be immediate and complete. If your partner goes unconscious without tapping, follow the same protocol and ensure they are breathing and conscious before continuing.",
         "safety_critical": true,
-        "answer_line": "Open legs, release, check partner",
+        "answer_line": "Open legs, free arm, check partner",
         "distractors": {
           "plausible": [
-            "Release grip, then open legs",
-            "Hold briefly, then release"
+            "Sit up and celebrate first",
+            "Roll away and stand up fast"
           ],
           "trap": [
-            "Keep control until they recover"
+            "Keep it clamped till they calm"
           ]
         }
       },
@@ -366,7 +366,7 @@
             "Grip wrist, leave arm loose"
           ],
           "trap": [
-            "Let go of the arm, control head"
+            "Drop grip, get stacked and passed"
           ]
         }
       },
@@ -389,14 +389,14 @@
         "question": "What should you do if your training partner stands up while you have them in a triangle, and why is this a critical safety situation?",
         "answer": "If your partner stands up while you have them in a triangle, you must immediately release the submission or transition to a safer position like an armbar on the trapped arm. Standing while caught in a triangle indicates your partner is in panic mode and may slam you, creating serious injury risk to your head, neck, and spine. In training, this is a sign that safety has been compromised—release immediately and discuss proper training protocols. Never hold onto the triangle if your partner stands, as the risk of being slammed far outweighs the benefit of getting the tap. In competition, you can transition to armbar or sweep, but in training, safety is paramount.",
         "safety_critical": true,
-        "answer_line": "Release immediately - slam risk",
+        "answer_line": "Release at once - slam risk",
         "distractors": {
           "plausible": [
-            "Switch to armbar, stay locked in",
-            "Hold tight, wait for them to fall"
+            "Freeze and wait for the coach",
+            "Tell them to sit back down"
           ],
           "trap": [
-            "Pull guard back down by force"
+            "Stay clamped as they lift you"
           ]
         }
       },
@@ -404,14 +404,14 @@
         "question": "Why is the triangle from spider guard considered particularly effective compared to triangles from other guard positions?",
         "answer": "The triangle from spider guard is highly effective because spider guard already establishes the key prerequisites for triangle success: broken posture (feet on biceps push opponent forward), controlled arm positioning (sleeve grips dictate where arms are placed), and distance management (feet create optimal spacing for throwing legs). Opponents defending spider guard sweeps often create defensive reactions—posting hands, driving forward, collapsing posture—that expose them perfectly to the triangle. The transition is fluid and natural since the same controls that make spider guard effective for sweeps translate directly into submission setups, often catching opponents focused on pass defense rather than submission defense.",
         "safety_critical": false,
-        "answer_line": "Spider guard already breaks posture",
+        "answer_line": "Spider guard pre-breaks posture",
         "distractors": {
           "plausible": [
-            "Works because opponent gets tired",
-            "Only works on weak grip fighters"
+            "It needs no sleeve-grip control",
+            "The angle stops mattering here"
           ],
           "trap": [
-            "Because spider guard traps legs"
+            "It finishes without arm control"
           ]
         }
       },
@@ -479,14 +479,14 @@
         "question": "In competition, what finishing strategies maximize your success rate when the opponent is defending intelligently and the clock is running down?",
         "answer": "For competition finishing under time pressure: First, commit fully to your angle by pivoting your hips as perpendicular as possible—half-committed triangles never finish against good defense. Second, abandon the head pull if they're resisting strongly and focus on hip elevation and knee squeeze, which is harder for them to counter. Third, use their defensive movements against them—if they're spending energy fighting the arm pull, they're not defending the angle adjustment. Fourth, threaten the armbar on their trapped arm to create a dilemma: if they defend the armbar, they expose the choke, and vice versa. Finally, if the triangle truly isn't finishing, transition immediately to omoplata or armbar rather than wasting precious time on a stalled position.",
         "safety_critical": false,
-        "answer_line": "Commit full angle, elevate hips",
+        "answer_line": "Commit angle, elevate the hips",
         "distractors": {
           "plausible": [
-            "Focus only on pulling the head",
-            "Wait patiently for the tap"
+            "Rely only on pulling the head",
+            "Slow down to save your energy"
           ],
           "trap": [
-            "Abandon angle, muscle the arm"
+            "Drop the angle and muscle it"
           ]
         }
       }

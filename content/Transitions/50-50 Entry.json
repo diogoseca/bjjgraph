@@ -242,7 +242,7 @@
             "Shin pressed to their shin"
           ],
           "trap": [
-            "Foot hooked on their ankle"
+            "Thread shallow, they free the leg"
           ]
         }
       },
@@ -256,7 +256,7 @@
             "Right after they sprawl"
           ],
           "trap": [
-            "While they're flat on back"
+            "Enter late, get your guard passed"
           ]
         }
       },
@@ -294,8 +294,8 @@
         "answer_line": "Use momentum, roll through",
         "distractors": {
           "plausible": [
-            "Push back against the stack",
-            "Post hands and sit up"
+            "Post hands and sit up",
+            "Flatten out, frame the hips"
           ],
           "trap": [
             "Fight the stack, stay inverted"
@@ -308,11 +308,11 @@
         "answer_line": "Elevate hips, use hip torque",
         "distractors": {
           "plausible": [
-            "Pull with arms, hips high",
-            "Keep hips low throughout"
+            "Pull with arms to rotate",
+            "Keep hips square and still"
           ],
           "trap": [
-            "Drive hips into the mat early"
+            "Flatten hips early, get stacked"
           ]
         }
       },

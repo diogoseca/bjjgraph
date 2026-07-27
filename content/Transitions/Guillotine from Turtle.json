@@ -315,14 +315,14 @@
       {
         "question": "What is the most common grip depth error when attempting guillotine from turtle and how does it compromise the technique?",
         "answer": "Gripping too shallow around the face instead of deep under the chin. This creates a crank rather than a choke, has low finish rate, high injury risk, and allows opponent to escape by turning their head. The correction is ensuring your wrist reaches the opposite side of neck before locking grip, or transitioning to a different attack if depth cannot be achieved.",
-        "answer_line": "Grip deep under the chin",
+        "answer_line": "Wrist past far side of the neck",
         "distractors": {
           "plausible": [
-            "Grip wide across the face",
-            "Lock hands before wrist crosses neck"
+            "Squeeze elbows before hands lock",
+            "Pull the chin up with the palm"
           ],
           "trap": [
-            "Crank the neck for a quick tap"
+            "Fall back cranking a shallow grip"
           ]
         }
       },

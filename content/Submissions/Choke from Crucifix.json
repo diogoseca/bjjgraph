@@ -307,11 +307,11 @@
         "answer_line": "Carotids, not the windpipe",
         "distractors": {
           "plausible": [
-            "Both carotids and windpipe",
-            "Trachea for a faster tap"
+            "Bicep and forearm on one side",
+            "Pressure on the jaw and chin"
           ],
           "trap": [
-            "Crush the windpipe hard"
+            "Flat forearm crushing the trachea"
           ]
         }
       },
@@ -322,11 +322,11 @@
         "answer_line": "Any tap, sound, or limpness",
         "distractors": {
           "plausible": [
-            "Only a verbal tap counts",
-            "Two taps before releasing"
+            "Hand contact is the only signal",
+            "A slap on the mat doesn't count"
           ],
           "trap": [
-            "Finish before they tap out"
+            "Keep squeezing if they go limp"
           ]
         }
       },
@@ -337,8 +337,8 @@
         "answer_line": "Freed arm breaks the choke",
         "distractors": {
           "plausible": [
-            "Focus fully on the choke arm",
-            "Loosen legs once arm inserted"
+            "Legs mainly stop them standing",
+            "Arm strength alone finishes it"
           ],
           "trap": [
             "Release legs to grip collar"
@@ -367,11 +367,11 @@
         "answer_line": "Slow build in training, 3-5s",
         "distractors": {
           "plausible": [
-            "Same speed in training and comp",
-            "Fast in training builds toughness"
+            "Rely on them to tap in time",
+            "Progressive pace for beginners only"
           ],
           "trap": [
-            "Snap it on explosively"
+            "Snap it on before they can tap"
           ]
         }
       },
@@ -382,8 +382,8 @@
         "answer_line": "Widen base, drop hips, stay heavy",
         "distractors": {
           "plausible": [
-            "Release grip to reset position",
-            "Follow roll without adjusting base"
+            "Sit up to block the roll",
+            "Squeeze the choke harder"
           ],
           "trap": [
             "Let go and re-establish crucifix"
@@ -412,11 +412,11 @@
         "answer_line": "Switch to short choke variation",
         "distractors": {
           "plausible": [
-            "Grip harder and pull through",
-            "Switch to arm-triangle instead"
+            "Squeeze tighter on same grip",
+            "Hold and wait them out"
           ],
           "trap": [
-            "Force arm under the chin fast"
+            "Sit up, releasing the leg traps"
           ]
         }
       },
@@ -427,11 +427,11 @@
         "answer_line": "Arms trapped, choke seated deep",
         "distractors": {
           "plausible": [
-            "Opponent stops struggling",
-            "You feel fatigued from squeezing"
+            "Both hooks are in tight",
+            "You can out-squeeze their defense"
           ],
           "trap": [
-            "Ease pressure, they're done"
+            "Release to re-grip deeper"
           ]
         }
       },
@@ -442,11 +442,11 @@
         "answer_line": "Threaten armbar as choke bait",
         "distractors": {
           "plausible": [
-            "Squeeze harder, same entry",
-            "Switch position entirely"
+            "Squeeze harder from same entry",
+            "Stall and win on points"
           ],
           "trap": [
-            "Abandon crucifix for guard pass"
+            "Abandon crucifix to pass guard"
           ]
         }
       },
@@ -457,11 +457,11 @@
         "answer_line": "Release, recovery position, monitor",
         "distractors": {
           "plausible": [
-            "Shake them to wake up fast",
-            "Slap their face to revive"
+            "Shake them awake quickly",
+            "Sit them straight up to talk"
           ],
           "trap": [
-            "Restart training right away"
+            "Keep rolling once eyes open"
           ]
         }
       }
@@ -598,11 +598,11 @@
         "answer_line": "Trapped arms can't reach grip",
         "distractors": {
           "plausible": [
-            "Fight the grip with your hand",
-            "Strip choke before freeing arm"
+            "Grip fighting is faster",
+            "Free arm to attack a submission"
           ],
           "trap": [
-            "Ignore arms, attack the grip"
+            "Stay still, defend with neck only"
           ]
         }
       },
@@ -613,11 +613,11 @@
         "answer_line": "When attacker shifts to insert arm",
         "distractors": {
           "plausible": [
-            "Right when crucifix locks in",
-            "After the choke is fully sunk"
+            "After the choke is fully sunk",
+            "Once you feel light-headed"
           ],
           "trap": [
-            "Wait for a total leg-pressure lapse"
+            "Wait passively for a leg lapse"
           ]
         }
       },
@@ -628,11 +628,11 @@
         "answer_line": "Tap immediately, don't wait",
         "distractors": {
           "plausible": [
-            "Wait for an escape chance",
-            "Tough it out a few more seconds"
+            "Signal only once vision goes black",
+            "Shake your head to show trouble"
           ],
           "trap": [
-            "Try to power through it"
+            "Hold on hoping they gas out"
           ]
         }
       },

@@ -540,11 +540,11 @@
         "answer_line": "Short controlled nasal breaths",
         "distractors": {
           "plausible": [
-            "Deep breaths to bank oxygen",
-            "Hold breath until you escape"
+            "Hold your breath until you escape",
+            "Tense your whole body and grind out"
           ],
           "trap": [
-            "Gasp hard through your mouth"
+            "Buck wildly and gulp big mouthfuls"
           ]
         }
       }

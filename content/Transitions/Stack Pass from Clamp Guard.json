@@ -508,14 +508,14 @@
       {
         "question": "How should you protect your spine during a deeply committed stack pass attempt that you cannot prevent?",
         "answer": "If the stack is deep enough that your hips are above your shoulders, immediately turn your body to one side rather than accepting the compression flat on your back. Flat stacking loads the cervical spine axially, which is the most dangerous loading pattern for neck injuries. Turning to one side converts the axial load into a lateral load that your spine handles much more safely through its natural curvature. Additionally, use your arms to create frames that support some of the passer's weight through skeletal structure rather than allowing full compression through your spine. If the compression becomes painful at any point, tap immediately — no guard recovery is worth a cervical injury.",
-        "answer_line": "Turn to one side, don't stay flat",
+        "answer_line": "Turn to one side to shed the load",
         "distractors": {
           "plausible": [
-            "Arch back hard to resist",
-            "Push their hips away with legs"
+            "Arch hard to fight the compression",
+            "Squeeze knees tight and wait it out"
           ],
           "trap": [
-            "Stay flat and bridge upward"
+            "Bridge straight up into the stack"
           ]
         }
       }

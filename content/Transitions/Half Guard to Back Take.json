@@ -275,11 +275,11 @@
         "answer": "Climb to back control once your underhook has created a perpendicular angle and the opponent's weight commits forward. Specifically, their bottom hip should be blocked by your knee at that moment, which prevents their defensive turn-in and stops them from recovering base as you climb.",
         "distractors": {
           "plausible": [
-            "As soon as underhook lands",
+            "Once they post the far hand",
             "Wait for them to flatten out"
           ],
           "trap": [
-            "Climb immediately, no angle"
+            "Climb while they turn into you"
           ]
         },
         "answer_line": "Perpendicular angle, hip blocked"
@@ -289,11 +289,11 @@
         "answer": "The most common error is releasing the underhook too early, which loses control and lets the opponent crossface and flatten you. The correction is to maintain the underhook connection throughout the entire sequence, keeping it until back control is fully established with both hooks inserted and secured.",
         "distractors": {
           "plausible": [
-            "Release underhook after angle",
-            "Switch to seatbelt too soon"
+            "Grip the seatbelt before hooks",
+            "Flatten them before climbing"
           ],
           "trap": [
-            "Let go, chase hooks instead"
+            "Drop underhook, dive for hooks"
           ]
         },
         "answer_line": "Keep underhook until hooks in"
@@ -303,8 +303,8 @@
         "answer": "Frame against their neck or shoulder with your inside arm while the underhook still drives you to the perpendicular angle. The defensive frame blunts the crossface as you angle out anyway; if the crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage.",
         "distractors": {
           "plausible": [
-            "Push crossface off with both hands",
-            "Sit up to break the crossface"
+            "Bridge hard to bump them off",
+            "Grip their collar and pull down"
           ],
           "trap": [
             "Abandon underhook, push face away"
@@ -317,11 +317,11 @@
         "answer": "Blocking the bottom hip with your top knee stops the opponent from turning into you to recover guard during the climb. It also maintains your perpendicular angle; without this hip block, opponents can easily rotate toward you and nullify the back take, recovering to standard half guard or even passing to top position.",
         "distractors": {
           "plausible": [
-            "Keeps their shoulder pinned",
-            "Prevents them standing up"
+            "It pins their far shoulder down",
+            "It stops them standing up"
           ],
           "trap": [
-            "Let them turn in, chase back"
+            "Skip it, climb and grab hooks"
           ]
         },
         "answer_line": "Stops their turn-in defense"
@@ -346,8 +346,8 @@
         "answer_line": "Deep to far shoulder blade",
         "distractors": {
           "plausible": [
-            "Resting on their ribs",
-            "Gripping their far lat only"
+            "Cup their near shoulder",
+            "Palm flat on their lower back"
           ],
           "trap": [
             "Shallow grip, hand on hip"
@@ -378,7 +378,7 @@
             "Chase the far hand to break post"
           ],
           "trap": [
-            "Release ankle, force the climb"
+            "Climb into their wide base anyway"
           ]
         }
       },
@@ -388,8 +388,8 @@
         "answer_line": "Sweep and kimura threats",
         "distractors": {
           "plausible": [
-            "Switch to full guard pull",
-            "Abandon underhook, pass instead"
+            "Re-shoot the same climb again",
+            "Grip fight until they tire"
           ],
           "trap": [
             "Release underhook, force hooks"
@@ -402,7 +402,7 @@
         "distractors": {
           "plausible": [
             "Underhook alone is enough",
-            "Angle set, release immediately"
+            "Once their weight is forward"
           ],
           "trap": [
             "Release lock early, chase hooks"
@@ -416,11 +416,11 @@
         "answer_line": "Circle under, keep underhook",
         "distractors": {
           "plausible": [
-            "Strip the whizzer immediately",
-            "Stop and reset the underhook"
+            "Flatten out and wait it out",
+            "Take an overhook of your own"
           ],
           "trap": [
-            "Fight the whizzer, pull arm free"
+            "Pull arm free, lose the underhook"
           ]
         }
       }
@@ -554,11 +554,11 @@
         "answer_line": "Turn into them, deny exposure",
         "distractors": {
           "plausible": [
-            "Turn away to create distance",
-            "Stay flat and wait it out"
+            "Stay flat and shrimp away",
+            "Grab their top wrist and stall"
           ],
           "trap": [
-            "Turn away, protect your neck"
+            "Turn away to protect your neck"
           ]
         }
       },
@@ -568,8 +568,8 @@
         "answer_line": "Whizzer, or turn in if late",
         "distractors": {
           "plausible": [
-            "Post far hand and widen base",
-            "Push their head down"
+            "Push their head down",
+            "Bridge and buck them off"
           ],
           "trap": [
             "Turn away to buy time"
@@ -586,21 +586,21 @@
             "They posted their far hand"
           ],
           "trap": [
-            "Wait for the seatbelt to react"
+            "Only once the seatbelt locks"
           ]
         }
       },
       {
         "question": "Why should you prioritize addressing the underhook over extracting your trapped leg from half guard?",
         "answer": "The underhook is the primary offensive lever for the back take and creates an immediate positional threat, while a trapped leg in half guard without an underhook is merely a stalling mechanism. If you focus on leg extraction while ignoring the underhook, the bottom player establishes the back take control structure before you complete your pass. A trapped leg with strong crossface control is a passing position; an uncontested underhook is an imminent back take.",
-        "answer_line": "Underhook is the real threat",
+        "answer_line": "Underhook is their scoring lever",
         "distractors": {
           "plausible": [
-            "Free the leg first, then react",
-            "Crossface neutralizes the risk"
+            "Leg extraction ends the danger",
+            "Hip escape resolves it faster"
           ],
           "trap": [
-            "Ignore underhook, extract leg"
+            "Free the leg, give up your back"
           ]
         }
       }

@@ -328,11 +328,11 @@
         "answer_line": "Feint, attack loaded rear leg",
         "distractors": {
           "plausible": [
-            "Chase harder with same attack",
+            "Chase them with the same throw",
             "Switch to a hip throw"
           ],
           "trap": [
-            "Lunge forward off balance"
+            "Dive low single with head down"
           ]
         }
       },
@@ -546,11 +546,11 @@
         "answer_line": "Snap head down, take back",
         "distractors": {
           "plausible": [
-            "Back away and reset stance",
-            "Wait for their next attempt"
+            "Back away and reset your stance",
+            "Pull guard to stop the throw"
           ],
           "trap": [
-            "Shoot a double leg blindly"
+            "Turn belly-down under the throw"
           ]
         }
       },
@@ -560,11 +560,11 @@
         "answer_line": "Deep collar grip, outside step",
         "distractors": {
           "plausible": [
-            "Low lapel grip, squared stance",
+            "Low lapel pull, squared hips",
             "Underhook, foot between yours"
           ],
           "trap": [
-            "Both hands on shoulders"
+            "Wait until the reap lands to react"
           ]
         }
       }

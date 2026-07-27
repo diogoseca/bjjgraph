@@ -282,14 +282,14 @@
       {
         "question": "Why must seatbelt control be established before attempting to insert hooks during the turtle to back transition?",
         "answer": "Seatbelt control provides upper body connection and prevents opponent from sitting to guard, standing, or rolling away during the vulnerable hook insertion phase. Without upper body control first, the opponent can use their hip mobility to escape before you establish dominant position. The seatbelt creates a steering mechanism that allows you to control their upper body orientation while your legs work to secure hooks. This top-down control progression is fundamental to successful back takes from turtle.",
-        "answer_line": "Seatbelt first, then hooks",
+        "answer_line": "Seatbelt stops escapes first",
         "distractors": {
           "plausible": [
-            "Insert hooks before seatbelt",
-            "Secure hooks then add seatbelt"
+            "Hooks control the hips better",
+            "Grip speed matters most"
           ],
           "trap": [
-            "Release seatbelt to speed up hooks"
+            "Let go of upper-body control"
           ]
         }
       },
@@ -313,11 +313,11 @@
         "answer_line": "Keep seatbelt, follow them up",
         "distractors": {
           "plausible": [
-            "Release grip, reset to turtle",
-            "Push them back down instantly"
+            "Muscle them back to the mat",
+            "Wait for them to settle down"
           ],
           "trap": [
-            "Let go of seatbelt to re-shoot"
+            "Let go of the grip to re-shoot"
           ]
         }
       },
@@ -342,7 +342,7 @@
         "distractors": {
           "plausible": [
             "Resist the roll, hold position",
-            "Release grip to avoid the roll"
+            "Post a hand to stop the spin"
           ],
           "trap": [
             "Let go and re-shoot after roll"
@@ -352,14 +352,14 @@
       {
         "question": "What weight distribution principle makes the difference between successful and unsuccessful turtle breakdown?",
         "answer": "Your weight must be distributed forward and downward through your chest onto their upper back, not sitting back on their hips or buttocks. The pressure point is between their shoulder blades with your sternum, creating a collapsing force on their postural structure. This forward weight distribution breaks their turtle frame and prevents explosive forward or upward movement. Sitting too far back allows them to maintain their base and creates space for escapes. The angle of pressure should be approximately 45 degrees forward and down, combining horizontal and vertical force vectors.",
-        "answer_line": "Chest pressure, forward and down",
+        "answer_line": "Chest drives forward and down",
         "distractors": {
           "plausible": [
-            "Sit back on their hips/glutes",
-            "Push weight straight downward"
+            "Spread weight evenly on back",
+            "Press mainly on their neck"
           ],
           "trap": [
-            "Lean back to avoid a scramble"
+            "Sit back onto their hips"
           ]
         }
       },
@@ -384,7 +384,7 @@
         "distractors": {
           "plausible": [
             "Force the back take regardless",
-            "Reset to neutral turtle position"
+            "Stall and catch your breath"
           ],
           "trap": [
             "Release all control to reset"
@@ -394,14 +394,14 @@
       {
         "question": "How does the turtle to back control transition differ between gi and no-gi grappling?",
         "answer": "In gi grappling, collar grips and sleeve controls provide additional anchoring points that make the seatbelt more secure and harder to strip. The gi fabric also increases friction, making it easier to maintain chest-to-back connection. In no-gi, the seatbelt grip becomes harder to maintain because of sweat and lack of fabric. The body lock variation around the waist becomes more important as a primary control method. Hook insertion technique remains the same, but no-gi requires tighter body positioning and faster execution because the opponent can slip out of controls more easily.",
-        "answer_line": "No-gi: body lock, faster grip",
+        "answer_line": "No-gi: body lock, quick grips",
         "distractors": {
           "plausible": [
-            "Gi: only speed matters more",
-            "No-gi: use collar grips instead"
+            "Gi grips slip more from sweat",
+            "Gi and no-gi play identically"
           ],
           "trap": [
-            "Slow down control in no-gi"
+            "Trust a sweaty grip to hold"
           ]
         }
       },
@@ -412,10 +412,10 @@
         "distractors": {
           "plausible": [
             "Too much chest pressure early",
-            "Overusing the seatbelt grip"
+            "Weak grip on the wrists"
           ],
           "trap": [
-            "Abandon hip block to save time"
+            "Assume top position is enough"
           ]
         }
       }
@@ -594,8 +594,8 @@
         "answer_line": "Kick leg back, drive hips away",
         "distractors": {
           "plausible": [
-            "Turn toward the hook side early",
-            "Grab hook with your hand"
+            "Turn to the non-hook side",
+            "Grab the hook with your hand"
           ],
           "trap": [
             "Stay still and brace for it"

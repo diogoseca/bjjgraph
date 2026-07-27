@@ -295,7 +295,7 @@
             "Wrist lock via forearm pressure"
           ],
           "trap": [
-            "Squeeze biceps to tear muscle"
+            "Lift hips off mat to crank harder"
           ]
         }
       },
@@ -306,11 +306,11 @@
         "answer_line": "Bone-on-bone, arm straight, no slack",
         "distractors": {
           "plausible": [
-            "Elbow pressed into soft belly tissue",
-            "Slight bend absorbing pressure"
+            "Elbow buried in soft belly tissue",
+            "A slight bend soaking up the drive"
           ],
           "trap": [
-            "Arm bent and slack, then drive hips"
+            "Sit up to re-seat it, losing the pin"
           ]
         }
       },
@@ -333,14 +333,14 @@
         "question": "At what point during the arm crush setup does the opponent lose the ability to effectively defend?",
         "answer": "The point of no return occurs when the arm is fully straightened with the elbow seated against the hip bone and the wrist locked tight against the attacker's chest with two-on-one control. Once all slack is eliminated and the fulcrum is established with bone-on-bone contact, the opponent cannot bend their arm to escape because the attacker's entire body weight holds it straight, and they cannot rotate the forearm because the two-on-one grip prevents wrist rotation. At this stage, even minimal hip pressure creates significant submission force.",
         "safety_critical": false,
-        "answer_line": "Arm straight, elbow locked to hip",
+        "answer_line": "Arm straight, elbow seated on hip",
         "distractors": {
           "plausible": [
-            "Grip two-on-one, then straighten",
-            "Wrist to chest before seating elbow"
+            "When two-on-one grip is taken",
+            "When their bridging attempts stop"
           ],
           "trap": [
-            "Drive hips before locking the wrist"
+            "Release the pin to chase the arm"
           ]
         }
       },
@@ -348,14 +348,14 @@
         "question": "Your opponent begins rotating their wrist to slip the elbow off your hip during the crush - what grip adjustment prevents this escape?",
         "answer": "Immediately pronate their hand so the palm faces the ceiling by rotating your grip on their wrist, which locks the elbow in the most vulnerable hyperextension plane and prevents them from turning the joint to relieve pressure. Simultaneously squeeze your elbows tighter together to clamp the arm against your torso, eliminating the rotational freedom they need. If they continue fighting the grip, add a figure-four control around their forearm for maximum wrist immobilization before reapplying the hip drive.",
         "safety_critical": false,
-        "answer_line": "Pronate palm up, clamp elbows tight",
+        "answer_line": "Rotate palm up, squeeze elbows in",
         "distractors": {
           "plausible": [
-            "Supinate palm down, release grip",
-            "Switch to single wrist grip"
+            "Turn their thumb toward the mat",
+            "Slide the grip up the forearm"
           ],
           "trap": [
-            "Let go and reset head control"
+            "Sit up chasing it, losing the pin"
           ]
         }
       },
@@ -378,11 +378,11 @@
         "question": "Why must the arm crush be applied gradually rather than explosively, and what specific injuries can result from improper application speed?",
         "answer": "Explosive application of the arm crush can cause elbow hyperextension injuries, ligament tears (particularly the ulnar collateral ligament), or even elbow dislocation before the opponent has time to recognize the danger and tap. The elbow joint has limited structural tolerance once placed against a rigid fulcrum, and sudden force application can cause irreversible damage within fractions of a second. Gradual application over 2-3 seconds gives the opponent time to tap and allows both practitioners to feel the progressive resistance that indicates the joint is approaching its limit.",
         "safety_critical": true,
-        "answer_line": "Apply gradually over 2-3 seconds",
+        "answer_line": "Slow pressure, allow time to tap",
         "distractors": {
           "plausible": [
-            "Crank steadily until they wince",
-            "Torque first, then ease off on tap"
+            "Wait for a verbal tap only",
+            "Let fatigue in the arm finish it"
           ],
           "trap": [
             "Explode into it for a fast finish"
@@ -545,11 +545,11 @@
         "answer_line": "Try rotating forearm, then tap",
         "distractors": {
           "plausible": [
-            "Bridge explosively to reverse",
-            "Yank arm back with a jerk"
+            "Shrimp hips away to make space",
+            "Grab their belt with the free hand"
           ],
           "trap": [
-            "Push through the pain to escape"
+            "Bridge and buck against the lock"
           ]
         }
       },
@@ -560,11 +560,11 @@
         "answer_line": "Keep the arm bent, not straight",
         "distractors": {
           "plausible": [
-            "Same defense for both attacks",
-            "Protect the shoulder joint"
+            "Bridge hard as the first response",
+            "Frame on the hip to make space"
           ],
           "trap": [
-            "Straighten arm and stay rigid"
+            "Straighten the arm and stay rigid"
           ]
         }
       },

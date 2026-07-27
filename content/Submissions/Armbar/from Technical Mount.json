@@ -316,7 +316,7 @@
             "Shoulder rotation causes the tap"
           ],
           "trap": [
-            "Bicep tendon rupture from pull"
+            "Elbow is durable, crank harder"
           ]
         }
       },
@@ -327,7 +327,7 @@
         "answer_line": "Trembling arm near full extension",
         "distractors": {
           "plausible": [
-            "Loud yell means finish now",
+            "Three-second count, then finish",
             "Any resistance means keep going"
           ],
           "trap": [
@@ -341,11 +341,11 @@
         "answer_line": "Trap or pin the free hand first",
         "distractors": {
           "plausible": [
-            "Ignore it, hip pressure is enough",
-            "Grab their far collar first"
+            "Grab their far collar first",
+            "Switch to a kimura grip instead"
           ],
           "trap": [
-            "Swing over immediately anyway"
+            "Swing over and sit back anyway"
           ]
         }
       },
@@ -355,11 +355,11 @@
         "answer_line": "Thumb up, hips under the elbow",
         "distractors": {
           "plausible": [
-            "Pinch knees, then extend arm",
-            "Thumb down, palm facing you"
+            "Thumb down, palm facing you",
+            "Their elbow past your hip line"
           ],
           "trap": [
-            "Drop the leg off the head"
+            "Drop the leg off their head"
           ]
         }
       },
@@ -402,7 +402,7 @@
             "Wait it out, keep hips up"
           ],
           "trap": [
-            "Yank the arm explosively"
+            "Open your knees to muscle it"
           ]
         }
       },
@@ -413,8 +413,8 @@
         "answer_line": "Ligament rupture, no time to tap",
         "distractors": {
           "plausible": [
-            "Only risk is muscle soreness",
-            "Risk is limited to wrist strain"
+            "Bruising that fades in a day",
+            "Joint pops back in by itself"
           ],
           "trap": [
             "Apply fast to end it quicker"
@@ -428,11 +428,11 @@
         "answer_line": "Faster setup, same controlled finish",
         "distractors": {
           "plausible": [
-            "Spike it fast to win outright",
-            "Slow everything down like training"
+            "Slow it down more than training",
+            "Stall on top to run the clock"
           ],
           "trap": [
-            "Spike the armbar for the finish"
+            "Crank it fast before they tap"
           ]
         }
       },
@@ -443,10 +443,10 @@
         "distractors": {
           "plausible": [
             "Arm pulling isolates fast-twitch",
-            "Both generate equal pressure"
+            "Elbow leverage beats hip drive"
           ],
           "trap": [
-            "Pull harder with arms for finish"
+            "Sit up and crank with both arms"
           ]
         }
       }
@@ -593,11 +593,11 @@
         "answer_line": "Tap the moment arm fully extends",
         "distractors": {
           "plausible": [
-            "Tap only if you hear a pop",
-            "Wait for sharp pain to tap"
+            "Only when your grips are broken",
+            "When you cannot bridge them off"
           ],
           "trap": [
-            "Keep fighting to escape grip"
+            "Fight until you hear a pop"
           ]
         }
       },

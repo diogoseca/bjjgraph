@@ -209,14 +209,14 @@
         "answer": "The primary goal is to lock the body triangle while keeping Gift Wrap arm control, eliminating both arm defense and hip escape. This combined control position maximizes positional dominance and creates optimal conditions for patient submission hunting.",
         "distractors": {
           "plausible": [
-            "Trade Gift Wrap for triangle",
-            "Isolate the far arm first"
+            "Trap the far arm before locking",
+            "Roll to a mounted position"
           ],
           "trap": [
-            "Release Gift Wrap to thread leg"
+            "Drop Gift Wrap to squeeze ribs"
           ]
         },
-        "answer_line": "Triangle + Gift Wrap control"
+        "answer_line": "Lock triangle, keep Gift Wrap"
       },
       {
         "question": "What position do you start Body Triangle Lock from?",
@@ -464,25 +464,25 @@
         "answer_line": "Protect neck first",
         "distractors": {
           "plausible": [
-            "Block the leg thread",
-            "Split attention evenly"
+            "Bridge and try to stand up",
+            "Split focus between neck and leg"
           ],
           "trap": [
-            "Block leg, expose neck"
+            "Block the leg, expose neck"
           ]
         }
       },
       {
         "question": "The body triangle has already locked - what is your immediate priority?",
         "answer": "Shift strategy from preventing the lock to managing the position. Protect your neck as the immediate priority since the attacker will now aggressively hunt submissions. Then work to attack the figure-four lock by targeting the ankle behind their knee, using hip movement to create space rather than trying to pry the legs apart with arm strength.",
-        "answer_line": "Protect neck, then attack lock",
+        "answer_line": "Protect neck, then work the lock",
         "distractors": {
           "plausible": [
-            "Attack the lock, ignore neck",
+            "Pry the legs apart by hand",
             "Wait passively for a mistake"
           ],
           "trap": [
-            "Pry legs apart with arm strength"
+            "Ignore the neck, attack the lock"
           ]
         }
       },

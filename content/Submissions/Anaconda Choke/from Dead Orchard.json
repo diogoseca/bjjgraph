@@ -315,7 +315,7 @@
             "Single-side carotid pressure"
           ],
           "trap": [
-            "Cervical spine compression"
+            "Crank the neck for a spinal finish"
           ]
         }
       },
@@ -323,14 +323,14 @@
         "question": "How do you recognize when the opponent has reached the point of no escape during the finishing sequence?",
         "answer": "The point of no escape occurs when the grip is deep past the far shoulder, hips have achieved optimal compression angle, and the opponent's defensive grips have been cleared. Physical indicators include the opponent's trapped arm going limp against their neck, cessation of active hand fighting, labored or irregular breathing patterns, and a general slowing of defensive movements. At this stage, steady pressure application will produce a tap within four to eight seconds.",
         "safety_critical": false,
-        "answer_line": "Grip deep, angle set, defenses gone",
+        "answer_line": "Deep grip, set angle, arm goes limp",
         "distractors": {
           "plausible": [
-            "Deep grip alone signals finish",
-            "Wait for opponent to verbally quit"
+            "They stop bridging for a moment",
+            "Only a tight squeeze matters"
           ],
           "trap": [
-            "Squeeze harder immediately"
+            "Release pressure to re-grip deeper"
           ]
         }
       },
@@ -338,14 +338,14 @@
         "question": "What are the critical indicators that you should release the choke immediately during training?",
         "answer": "Release immediately when you detect any tap signal including verbal, hand tap, or foot tap. Also release if the opponent goes limp, stops moving, exhibits involuntary twitching, makes gurgling sounds, or shows any sign of losing consciousness. If there is any ambiguity about whether a tap occurred, release immediately. In training, prioritize partner safety over finishing the submission. Unconsciousness from blood chokes can occur in as few as four seconds once fully locked.",
         "safety_critical": true,
-        "answer_line": "Any tap or signs of distress",
+        "answer_line": "Any tap or sign of distress",
         "distractors": {
           "plausible": [
-            "Only verbal tap counts",
-            "Release only if visibly unconscious"
+            "Only a hand tap counts",
+            "Ease off and ask if they are okay"
           ],
           "trap": [
-            "Keep squeezing until they go still"
+            "Hold the squeeze until they go limp"
           ]
         }
       },
@@ -359,7 +359,7 @@
             "Only adjust shoulder height"
           ],
           "trap": [
-            "Squeeze harder for more force"
+            "Force a roll, land in their guard"
           ]
         }
       },
@@ -369,11 +369,11 @@
         "answer_line": "Avoids panic, saves arm energy",
         "distractors": {
           "plausible": [
-            "Only prevents opponent panic",
-            "Only saves attacker's energy"
+            "Tires their neck muscles first",
+            "Speeds the tap before they defend"
           ],
           "trap": [
-            "Squeeze explosively to finish fast"
+            "Rip the squeeze, they burst free"
           ]
         }
       },
@@ -409,14 +409,14 @@
         "question": "What distinguishes the point where the choke becomes a dangerous neck crank rather than a blood choke, and how do you prevent this?",
         "answer": "The transition from blood choke to neck crank occurs when the hips walk too far past the perpendicular finishing angle, creating a rotational force on the cervical spine rather than bilateral compression on the carotid arteries. You prevent this by stopping the hip walk when you feel maximum compression resistance, which occurs when your chest is approximately perpendicular to the opponent's spine. If the opponent taps from sharp neck pain rather than the gradual tunnel-vision sensation of a blood choke, your angle has drifted into cranking territory and needs correction.",
         "safety_critical": true,
-        "answer_line": "Stop at perpendicular hip angle",
+        "answer_line": "Stop hips at perpendicular chest",
         "distractors": {
           "plausible": [
-            "Any sharp pain confirms finish",
-            "More hip rotation deepens choke"
+            "Neck pain means it is working",
+            "Squeeze the arms harder for depth"
           ],
           "trap": [
-            "Keep walking hips past resistance"
+            "Keep rotating past the stop point"
           ]
         }
       },
@@ -426,11 +426,11 @@
         "answer_line": "Strip grips fast, commit to walk",
         "distractors": {
           "plausible": [
-            "Wait out the clock passively",
+            "Switch to a different submission",
             "Slow down to conserve energy"
           ],
           "trap": [
-            "Abandon finish, stall for points"
+            "Dive for the roll and get swept"
           ]
         }
       },
@@ -441,10 +441,10 @@
         "distractors": {
           "plausible": [
             "Pull both hands apart evenly",
-            "Walk hips before stripping hands"
+            "Grip the top hand and pull up"
           ],
           "trap": [
-            "Squeeze harder against the clasp"
+            "Release the head to use both hands"
           ]
         }
       }
@@ -586,28 +586,28 @@
         "question": "When should you absolutely tap rather than continue fighting the anaconda finish?",
         "answer": "Tap immediately when you feel bilateral compression on both carotid arteries combined with any vision changes such as tunnel vision, darkening, or seeing spots. Also tap if you feel a pressure sensation building in your head, hear ringing in your ears, or notice your movements becoming sluggish or uncoordinated. These are signs that cerebral blood flow is significantly compromised. Blood chokes can produce unconsciousness in four to eight seconds, and the transition from functional defense to unconsciousness can happen faster than you can decide to tap.",
         "safety_critical": true,
-        "answer_line": "Vision changes plus neck pressure",
+        "answer_line": "Vision changes with neck pressure",
         "distractors": {
           "plausible": [
-            "Wait until you go unconscious",
-            "Tap only after sharp neck pain"
+            "Tap when you run out of breath",
+            "Only tap if the neck hurts sharply"
           ],
           "trap": [
-            "Fight through the tunnel vision"
+            "Push through until you black out"
           ]
         }
       },
       {
         "question": "Why is turning toward the trapped arm side more effective than turning away when defending this choke?",
         "answer": "Turning toward the trapped arm side changes the compression angle in your favor by moving the carotid arteries away from the primary compression line of the choking arm. Turning away does the opposite by rotating your neck into the choking arm's squeeze direction, actually tightening the bilateral compression. Additionally, turning toward the trapped arm side positions your hips for the hip escape that offers the highest percentage exit from the position, while turning away exposes your back for potential hook insertion and back control transition.",
-        "answer_line": "Toward eases pressure, aids escape",
+        "answer_line": "Turn toward the trapped arm side",
         "distractors": {
           "plausible": [
-            "Turning away also works fine",
-            "Either direction feels the same"
+            "Turning away frees your trapped arm",
+            "Turning toward opens your airway"
           ],
           "trap": [
-            "Turn away, exposing your back"
+            "Turn away and get choked out"
           ]
         }
       },

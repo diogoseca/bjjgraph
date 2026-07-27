@@ -318,11 +318,11 @@
         "answer_line": "Elbow joint hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder joint primarily",
-            "Wrist and forearm tendons"
+            "Shoulder rotation is the target",
+            "Forearm tendons take the strain"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank the wrist to force the tap"
           ]
         }
       },
@@ -333,11 +333,11 @@
         "answer_line": "Popping sound or sudden give",
         "distractors": {
           "plausible": [
-            "Opponent verbally protests",
-            "Arm reaches full extension"
+            "Opponent's face flushes red",
+            "Their breathing gets louder"
           ],
           "trap": [
-            "Wait for audible bone crack"
+            "Wait for an audible crack"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Hips drive after full extension",
         "distractors": {
           "plausible": [
-            "Thumb rotates upward",
-            "Knees squeeze together"
+            "The moment you cross the leg over",
+            "As soon as you control the wrist"
           ],
           "trap": [
-            "Lean back before hips engage"
+            "Rip back before the arm extends"
           ]
         }
       },
@@ -389,11 +389,11 @@
         "answer_line": "Torque grip back to thumb-up",
         "distractors": {
           "plausible": [
-            "Switch to leg attack instead",
-            "Ignore rotation, keep pulling"
+            "Squeeze the knees harder instead",
+            "Pinch the arm and wait it out"
           ],
           "trap": [
-            "Force finish at current angle"
+            "Crank hard on the twisted arm"
           ]
         }
       },
@@ -586,11 +586,11 @@
         "answer_line": "Grip own collar, bend elbow",
         "distractors": {
           "plausible": [
-            "Pummel for an underhook",
-            "Turn away and hide the arm"
+            "Trap their far leg with both hands",
+            "Bump hips before setting any grip"
           ],
           "trap": [
-            "Push against their hips"
+            "Straighten arm to push them off"
           ]
         }
       },
@@ -598,14 +598,14 @@
         "question": "When should you tap to an armbar from S Mount rather than continue defending?",
         "answer": "Tap immediately when your arm reaches full extension with the attacker's hips engaged against your elbow and their knees squeezed together. At this point, the mechanical advantage is overwhelming and continued resistance will result in elbow ligament damage within 2-3 seconds. Other tap indicators include any popping sensation in the elbow, sudden sharp pain in the joint, or the feeling that the attacker's hip elevation is driving your elbow past its natural range. Training tomorrow is more important than defending a finished submission.",
         "safety_critical": true,
-        "answer_line": "Full extension, hips engaged",
+        "answer_line": "Full extension with hips engaged",
         "distractors": {
           "plausible": [
-            "Tap as soon as arm aches",
-            "Tap only if they yell"
+            "Tap once they isolate the arm",
+            "Tap when they squeeze the knees"
           ],
           "trap": [
-            "Wait for sharp pain to tap"
+            "Hold out for the ligament pop"
           ]
         }
       },
@@ -616,7 +616,7 @@
         "distractors": {
           "plausible": [
             "Wait passively for their mistake",
-            "Push straight up with both arms"
+            "Shrimp away from the attacker"
           ],
           "trap": [
             "Yank the arm free immediately"
@@ -644,10 +644,10 @@
         "distractors": {
           "plausible": [
             "Bridge straight up any time",
-            "Turn away without bridging"
+            "Wait until they fully extend"
           ],
           "trap": [
-            "Bridge hard against settled base"
+            "Straighten arm to shove them off"
           ]
         }
       },
@@ -655,14 +655,14 @@
         "question": "What should you prioritize if the attacker successfully extends your arm but has not yet engaged their hips for the finish?",
         "answer": "Immediately turn your body toward the extended arm and try to curl it back by pulling your elbow toward your hip. Simultaneously bridge toward the attacker to reduce the angle they need for the finish. If you can get your elbow past the centerline of their hips, you can begin extracting the arm. If the arm is fully extended but hips are not yet engaged, you have a 1-2 second window—this is your last opportunity before the submission becomes mechanically complete and you must tap.",
         "safety_critical": true,
-        "answer_line": "Curl elbow to hip, bridge in",
+        "answer_line": "Curl elbow to hip and bridge in",
         "distractors": {
           "plausible": [
-            "Wait for hips before reacting",
-            "Pull straight back with bicep"
+            "Yank the arm out with strength",
+            "Grip your own wrist and freeze"
           ],
           "trap": [
-            "Relax and accept the position"
+            "Turn away and expose your back"
           ]
         }
       }

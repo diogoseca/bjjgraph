@@ -301,14 +301,14 @@
         "question": "What anatomical structure does the Americana from Modified Mount primarily attack, and how does the rotational force damage it?",
         "answer": "The Americana attacks the glenohumeral joint by forcing external rotation of the humerus while the elbow is pinned, concentrating torsional stress on the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. The figure-four grip creates a lever system where the pinned elbow acts as the fulcrum and the wrist arc generates the rotational force. When the wrist travels toward the hip with the elbow locked, the shoulder joint is forced beyond its natural range of external rotation, attacking ligaments and tendons that stabilize the joint.",
         "safety_critical": false,
-        "answer_line": "External rotation, elbow pinned",
+        "answer_line": "Shoulder, forced external rotation",
         "distractors": {
           "plausible": [
-            "Internal rotation of humerus",
-            "Hyperextends the elbow joint"
+            "Elbow levered into hyperextension",
+            "Wrist twisted against the joint"
           ],
           "trap": [
-            "Compresses the radial nerve"
+            "Rip it before the elbow is pinned"
           ]
         }
       },
@@ -320,10 +320,10 @@
         "distractors": {
           "plausible": [
             "Pins the opponent's far hip",
-            "Frees both hands to grip faster"
+            "Traps the far arm as well"
           ],
           "trap": [
-            "Post foot inside their guard"
+            "Both feet up, get bridged and rolled"
           ]
         }
       },
@@ -331,14 +331,14 @@
         "question": "Your opponent begins straightening their trapped arm during your figure-four establishment - what immediate adjustment do you make?",
         "answer": "Immediately abandon the Americana and transition to a straight armbar by swinging your posted leg over their head. The arm extension that defends the Americana perfectly sets up the armbar, as the straightened arm is the exact configuration needed for armbar entry from Modified Mount. This is the core dilemma of the Americana-armbar combination: defending one submission directly exposes the other. If they bend the arm again to defend the armbar, immediately return to the Americana. This cycling between attacks is what ultimately forces the tap.",
         "safety_critical": false,
-        "answer_line": "Switch to armbar immediately",
+        "answer_line": "Swing leg over head for armbar",
         "distractors": {
           "plausible": [
-            "Muscle through the Americana",
-            "Re-bend arm, restart figure-four"
+            "Force the wrist back to the mat",
+            "Squeeze elbows tighter and hold"
           ],
           "trap": [
-            "Release grip, reset from mount"
+            "Chase the arm, get bumped to guard"
           ]
         }
       },
@@ -349,11 +349,11 @@
         "answer_line": "Wrist past midpoint, elbow pinned",
         "distractors": {
           "plausible": [
-            "Grip fully locked only",
-            "Opponent stops struggling"
+            "Figure-four grip is locked only",
+            "They have stopped struggling"
           ],
           "trap": [
-            "Keep cranking past resistance"
+            "Elbow lifts off mat - crank on"
           ]
         }
       },
@@ -364,11 +364,11 @@
         "answer_line": "3-5 seconds, progressive pressure",
         "distractors": {
           "plausible": [
-            "1-2 seconds, quick snap",
-            "10+ seconds, very gradual"
+            "Slow because the elbow is weak",
+            "Only drilling needs slow pace"
           ],
           "trap": [
-            "Jerk fast to beat their defense"
+            "Snap it fast before they defend"
           ]
         }
       },
@@ -379,11 +379,11 @@
         "answer_line": "Stop rotation first, then release",
         "distractors": {
           "plausible": [
-            "Release grip first, then stop",
-            "Drop arm, then check in verbally"
+            "Release grip before easing torque",
+            "Let go and roll away at once"
           ],
           "trap": [
-            "Keep light pressure, then release"
+            "Hold pressure until they speak"
           ]
         }
       },
@@ -395,10 +395,10 @@
         "distractors": {
           "plausible": [
             "Yank the wrist straight out",
-            "Switch immediately to armbar"
+            "Torque the figure-four harder"
           ],
           "trap": [
-            "Force the arc through the grip"
+            "Sit up to pry, losing your base"
           ]
         }
       },
@@ -409,11 +409,11 @@
         "answer_line": "Tighten grip, lean into post",
         "distractors": {
           "plausible": [
-            "Rush the arc as fast as possible",
-            "Widen elbows for more torque"
+            "Widen elbows for more torque",
+            "Sit upright for extra leverage"
           ],
           "trap": [
-            "Release grip to re-angle wrist"
+            "Rip the arc fast under adrenaline"
           ]
         }
       }
@@ -531,7 +531,7 @@
         "distractors": {
           "plausible": [
             "Full figure-four already locked",
-            "Opponent posts on far leg first"
+            "They square hips and stay still"
           ],
           "trap": [
             "Ignore until shoulder pain starts"
@@ -545,11 +545,11 @@
         "answer_line": "Tap early, verbal or foot signal",
         "distractors": {
           "plausible": [
-            "Wait until pain becomes severe",
-            "Tap only using your free hand"
+            "Wait until the pain gets sharp",
+            "One quiet tap on the mat"
           ],
           "trap": [
-            "Endure it to build tolerance"
+            "Ride it out to build tolerance"
           ]
         }
       },
@@ -560,8 +560,8 @@
         "answer_line": "Posted leg kills the bridge escape",
         "distractors": {
           "plausible": [
-            "Modified Mount removes both hands",
-            "Standard mount has weaker base"
+            "Both of your arms get trapped",
+            "The mat blocks your shoulder turn"
           ],
           "trap": [
             "Bridge harder to force a roll"
@@ -575,11 +575,11 @@
         "answer_line": "Straighten arm, turn in, then tap",
         "distractors": {
           "plausible": [
-            "Bridge hard to reverse them",
-            "Pull elbow off mat and hold"
+            "Grab your own belt and hold on",
+            "Push their head with free hand"
           ],
           "trap": [
-            "Fight the rotation to the end"
+            "Refuse to tap, ride out the crank"
           ]
         }
       }

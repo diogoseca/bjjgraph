@@ -306,14 +306,14 @@
       {
         "question": "What happens if you attempt this defense when the Electric Chair is already fully extended?",
         "answer": "At full extension, the bottom player has maximum mechanical advantage and the trapped leg is under significant stretching pressure through the groin and hip. Attempting to straighten from this position requires overcoming the entire lockdown system at its strongest point, resulting in very low success probability and meaningful risk of groin strain or medial knee ligament injury. Instead, transition to alternative defenses like the limp leg technique, which works with the lockdown's force rather than directly against it.",
-        "answer_line": "Switch to limp leg technique",
+        "answer_line": "Transition to another escape",
         "distractors": {
           "plausible": [
-            "Push through with more force",
-            "Grind through the lockdown"
+            "Pull the trapped foot free",
+            "Push their top leg off"
           ],
           "trap": [
-            "Force it, risk groin injury"
+            "Explode to rip your leg out"
           ]
         }
       },

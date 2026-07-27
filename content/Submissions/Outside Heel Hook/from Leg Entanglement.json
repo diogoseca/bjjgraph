@@ -369,7 +369,7 @@
             "Grip the toes tightly"
           ],
           "trap": [
-            "Grab the shin, skip the foot"
+            "Loosen grip to reposition heel"
           ]
         }
       },
@@ -395,8 +395,8 @@
         "answer_line": "Re-pummel hook below the knee",
         "distractors": {
           "plausible": [
-            "Chase a kneebar immediately",
-            "Wait for opponent to reset"
+            "Grip the foot tighter and hold",
+            "Wait for the opponent to reset"
           ],
           "trap": [
             "Increase rotation from above knee"
@@ -410,10 +410,10 @@
         "distractors": {
           "plausible": [
             "Grip strength wins the finish",
-            "Pull hard and fast with arms"
+            "Squeeze the knees to finish"
           ],
           "trap": [
-            "Yank the wrist for a quick finish"
+            "Arch and yank the heel explosively"
           ]
         },
         "answer_line": "Drive with hips, not just arms"
@@ -422,14 +422,14 @@
         "question": "Why must rotational force be applied progressively over 5-7 seconds minimum rather than suddenly in training?",
         "answer": "Rotational force must be applied progressively because knee ligaments, unlike elbow joints, provide minimal pain feedback before structural failure. A sudden rotational force can tear the LCL or ACL before the opponent has time to recognize the danger and tap. The 5-7 second minimum gives your training partner adequate time to feel the pressure building, assess whether they can defend, and tap before any structural damage occurs. Ligament tears from heel hooks often happen in fractions of a second once the failure threshold is reached, and there is no reliable warning sensation. Progressive application is the only responsible approach in training and must never be compromised regardless of competitive pressure or frustration.",
         "safety_critical": true,
-        "answer_line": "Apply slowly, 5-7+ seconds",
+        "answer_line": "Knees give little pain warning",
         "distractors": {
           "plausible": [
-            "Apply steady moderate pressure",
-            "Increase pressure until tap"
+            "To slowly tire their leg out",
+            "To keep the hold from slipping"
           ],
           "trap": [
-            "Snap it quickly to finish fast"
+            "A fast snap finishes cleaner"
           ]
         }
       },
@@ -649,11 +649,11 @@
         "answer_line": "Strip the cupping hand fast",
         "distractors": {
           "plausible": [
-            "Wait for figure-four to lock",
-            "Focus only on boot defense"
+            "Kick the leg free immediately",
+            "Point your toes to ease pain"
           ],
           "trap": [
-            "Relax and assess calmly"
+            "Wait for rotation to react"
           ]
         }
       },
@@ -680,7 +680,7 @@
         "distractors": {
           "plausible": [
             "Tap only after sharp pain",
-            "Keep escaping if grip is loose"
+            "Wait until you feel it tearing"
           ],
           "trap": [
             "Fight through the figure-four"

@@ -281,7 +281,7 @@
             "Just one carotid artery"
           ],
           "trap": [
-            "Front of throat directly"
+            "Crush trachea for a fast tap"
           ]
         }
       },
@@ -293,10 +293,10 @@
         "distractors": {
           "plausible": [
             "Fight grip with free hand",
-            "Switch to different grip"
+            "Switch to a different grip"
           ],
           "trap": [
-            "Release collar to reset"
+            "Sit tall, yank grip free"
           ]
         }
       },
@@ -307,11 +307,11 @@
         "answer_line": "Posted leg maintains base",
         "distractors": {
           "plausible": [
-            "Frees both hands fully",
-            "Lower center of gravity"
+            "Lower center of gravity",
+            "Pins both shoulders to mat"
           ],
           "trap": [
-            "Commit both hands, no post"
+            "Both hands committed, no post"
           ]
         }
       },
@@ -322,11 +322,11 @@
         "answer_line": "Ride bridge, raise hips",
         "distractors": {
           "plausible": [
-            "Fight the bridge, hold ground",
+            "Wait out the bridge, stay flat",
             "Release grip, re-base"
           ],
           "trap": [
-            "Post free hand to stop it"
+            "Lean forward over their head"
           ]
         }
       },
@@ -338,10 +338,10 @@
         "distractors": {
           "plausible": [
             "Coughing means it's working",
-            "Tap only if unconscious"
+            "Sharp throat pain and gagging"
           ],
           "trap": [
-            "Center wrists on trachea"
+            "Crank wrists into the windpipe"
           ]
         }
       },
@@ -353,10 +353,10 @@
         "distractors": {
           "plausible": [
             "Pull first grip harder only",
-            "Switch to different choke"
+            "Sit back, wait for chin to lift"
           ],
           "trap": [
-            "Force hand under chin"
+            "Both hands rip the chin upward"
           ]
         }
       },
@@ -368,7 +368,7 @@
         "distractors": {
           "plausible": [
             "Shake them awake immediately",
-            "Keep pressure, monitor them"
+            "Sit them upright right away"
           ],
           "trap": [
             "Resume training right away"
@@ -382,11 +382,11 @@
         "answer_line": "Control with grip, don't commit",
         "distractors": {
           "plausible": [
-            "Commit fully to finish now",
-            "Abandon grip, stall clock"
+            "Abandon grip, stall the clock",
+            "Switch to armbar for the finish"
           ],
           "trap": [
-            "Force second grip in now"
+            "Ride high, sink both grips deep"
           ]
         }
       },
@@ -412,11 +412,11 @@
         "answer_line": "Past first knuckle, wrist deep",
         "distractors": {
           "plausible": [
-            "Two fingers inside collar",
-            "Palm flat against chest"
+            "Two fingers inside the collar",
+            "Palm flat against their chest"
           ],
           "trap": [
-            "Grip fabric near shoulder"
+            "Shallow grip, sit up and crank"
           ]
         }
       }
@@ -539,11 +539,11 @@
         "answer_line": "Cross-body reach, head pressure",
         "distractors": {
           "plausible": [
-            "Sudden weight shift back",
-            "Both hands pushing chest"
+            "Sudden weight shift backward",
+            "Attacker posts both hands down"
           ],
           "trap": [
-            "Ignore hand near collar"
+            "Ignore the hand near collar"
           ]
         }
       },
@@ -551,14 +551,14 @@
         "question": "What is the safest approach to tapping when caught in a cross collar choke from 3-4 mount?",
         "answer": "Tap immediately and clearly as soon as you feel choking pressure compressing your carotid arteries or when you recognize that both grips are set deep and you cannot strip them. Use a firm, repeated hand tap on the attacker's body or the mat, combined with a verbal tap saying 'tap.' Blood chokes can cause unconsciousness within 5-10 seconds of full application, so there is no benefit to enduring a fully locked choke. Tap early in training to protect long-term brain health.",
         "safety_critical": true,
-        "answer_line": "Tap early, clearly, verbally",
+        "answer_line": "Tap early, firmly, and say tap",
         "distractors": {
           "plausible": [
-            "Wait to see if it tightens",
-            "Try to fight through it"
+            "Wait until vision starts to fade",
+            "Hold out for the grips to slip"
           ],
           "trap": [
-            "Endure it to build tolerance"
+            "Ride it out and go to sleep"
           ]
         }
       },
@@ -566,14 +566,14 @@
         "question": "What defensive actions are available at each stage of the cross collar choke setup?",
         "answer": "Before the first grip: maintain collar control with both hands, keep elbows tight, and use frames to prevent collar access. During first grip insertion: immediately apply two-on-one grip stripping with bent arms. Between first and second grip: bridge toward the posted leg side to exploit compromised base, or shrimp to create escape angle. After both grips are set: tuck chin hard, bridge and roll as a desperation attempt, or tap if the choke is locked. Defensive effectiveness drops dramatically at each stage, making early prevention essential.",
         "safety_critical": false,
-        "answer_line": "Frame early, strip first grip",
+        "answer_line": "Defend by stage, strip grips early",
         "distractors": {
           "plausible": [
-            "Wait until both grips set",
-            "Tap at the first grip"
+            "Hold still until the choke is deep",
+            "Only react once pressure builds"
           ],
           "trap": [
-            "Push chest, ignore grip"
+            "Straight-arm push, elbows flared"
           ]
         }
       },

@@ -297,14 +297,14 @@
         "question": "What anatomical structures does the Ten Finger Guillotine primarily attack?",
         "answer": "The Ten Finger Guillotine primarily attacks the carotid arteries on both sides of the neck, restricting blood flow to the brain. The forearm blade also applies compression to the trachea. Proper technique emphasizes bilateral carotid compression (blood choke) over tracheal crushing (air choke) because blood chokes are faster acting, more reliable, and cause less injury to training partners.",
         "safety_critical": false,
-        "answer_line": "Carotids - blood choke primary",
+        "answer_line": "Both carotids, a blood choke",
         "distractors": {
           "plausible": [
-            "Trachea - air choke primary",
-            "Equal blood and air choke"
+            "The windpipe, an air choke",
+            "Jugular veins alone"
           ],
           "trap": [
-            "Crush windpipe hard and fast"
+            "Wrench the cervical spine"
           ]
         }
       },
@@ -315,11 +315,11 @@
         "answer_line": "Set depth before locking grip",
         "distractors": {
           "plausible": [
-            "Lock grip first, adjust after",
-            "Depth matters only post-lock"
+            "Interlace first, adjust later",
+            "Shallow forearm still finishes"
           ],
           "trap": [
-            "Interlace fingers immediately"
+            "Force the finish across the chin"
           ]
         }
       },
@@ -342,14 +342,14 @@
         "question": "What is the proper speed of application when finishing the Ten Finger Guillotine in training?",
         "answer": "The choke must be applied SLOWLY and progressively over a minimum of 3-5 seconds. Never jerk or spike the choke with explosive movements. Progressive squeeze is both safer for your training partner's trachea and cervical spine, and mechanically more effective because steady compression eliminates gaps. The choke should tighten like a vice closing—continuous increasing pressure that gives the opponent time to recognize the danger and tap before injury occurs.",
         "safety_critical": true,
-        "answer_line": "Slow, progressive 3-5 seconds",
+        "answer_line": "Slow and progressive, 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Fast steady squeeze, no pause",
-            "One quick decisive pull"
+            "Ramp up only when they resist",
+            "Match how hard they defend"
           ],
           "trap": [
-            "Spike it hard and fast"
+            "Jerk it explosively to finish"
           ]
         }
       },
@@ -375,11 +375,11 @@
         "answer_line": "Lats, shrug and pull",
         "distractors": {
           "plausible": [
-            "Biceps for quick strong squeeze",
+            "Biceps for a strong squeeze",
             "Forearm grip for endurance"
           ],
           "trap": [
-            "Crank hard with biceps only"
+            "Explode with a one-shot crank"
           ]
         }
       },
@@ -405,11 +405,11 @@
         "answer_line": "After 10-15s of solid defense",
         "distractors": {
           "plausible": [
-            "Never abandon, keep grinding",
-            "Switch after 2-3 seconds"
+            "Never quit, grind forever",
+            "Bail after 2-3 seconds"
           ],
           "trap": [
-            "Force it, ignore the defense"
+            "Jump guard to force the finish"
           ]
         }
       }
@@ -583,11 +583,11 @@
         "answer_line": "Turn chin, frame, pass, circle",
         "distractors": {
           "plausible": [
-            "Pull elbows apart hard",
-            "Wait it out and relax"
+            "Pry the wrist off your neck",
+            "Push their head away by hand"
           ],
           "trap": [
-            "Yank straight back against grip"
+            "Yank straight back off the grip"
           ]
         }
       },
@@ -598,11 +598,11 @@
         "answer_line": "Frame hips, hip escape, angle",
         "distractors": {
           "plausible": [
-            "Lie flat and absorb pressure",
-            "Pull guard closed tighter"
+            "Pull guard closed tighter",
+            "Bench-press them off you"
           ],
           "trap": [
-            "Push straight up against chest"
+            "Lie flat and stop moving"
           ]
         }
       }

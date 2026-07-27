@@ -321,11 +321,11 @@
         "answer_line": "Close distance or switch to kneebar",
         "distractors": {
           "plausible": [
-            "Chase the foot as it extends",
-            "Yank the grip tighter now"
+            "Chase the extending foot",
+            "Crank with the arms only"
           ],
           "trap": [
-            "Force the toe hold anyway"
+            "Force the toe hold, get bucked off"
           ]
         }
       },
@@ -366,11 +366,11 @@
         "answer_line": "Arm-only rotation, loose elbows",
         "distractors": {
           "plausible": [
-            "Rotating too fast for control",
+            "Finishing too fast to control",
             "Not securing head position first"
           ],
           "trap": [
-            "Muscle it with pure arm strength"
+            "Being too gentle, so crank harder"
           ]
         }
       },
@@ -408,14 +408,14 @@
         "question": "How should you properly release the toe hold after your training partner taps?",
         "answer": "Upon feeling or hearing the tap, immediately stop all rotational pressure. Then gradually unwind the rotation by turning your torso back to neutral, allowing the ankle to return to its natural position under controlled deceleration rather than snapping back. Only after the rotation is fully unwound should you release the figure-four grip. Finally, release your leg entanglement hooks. Abruptly dropping the grip while rotation is still loaded can cause rebound injury as the elastic tension in the stretched ligaments snaps the foot back. Check with your partner before resuming training.",
         "safety_critical": true,
-        "answer_line": "Unwind rotation, then release grip",
+        "answer_line": "Unwind the twist, then release",
         "distractors": {
           "plausible": [
-            "Release grip, then unwind ankle",
-            "Hold position until they nod"
+            "Stand up before letting go",
+            "Wait for a verbal all-clear"
           ],
           "trap": [
-            "Drop the grip immediately"
+            "Rip the grip off instantly"
           ]
         }
       },
@@ -426,11 +426,11 @@
         "answer_line": "Chain into kneebar or heel hook",
         "distractors": {
           "plausible": [
-            "Hold the toe hold until it lands",
-            "Increase grip pressure repeatedly"
+            "Grind one toe hold to the end",
+            "Slow down to conserve energy"
           ],
           "trap": [
-            "Commit fully and ignore reactions"
+            "Overcommit and get reversed"
           ]
         }
       },
@@ -441,11 +441,11 @@
         "answer_line": "Abandon grip, attack exposed heel",
         "distractors": {
           "plausible": [
-            "Force the toe hold grip harder",
-            "Switch to attacking the knee"
+            "Crush the toes even harder",
+            "Switch to a kneebar setup"
           ],
           "trap": [
-            "Chase the toes as they curl"
+            "Release the entanglement to reset"
           ]
         }
       }
@@ -590,14 +590,14 @@
         "question": "What defensive options are available against the toe hold from leg entanglement at each stage of the attack?",
         "answer": "During the early grip phase (attacker reaching for toes), you have maximum options: strip the grip, retract the foot, extend the leg, or counter-attack their legs. During the figure-four consolidation phase, effective defenses narrow to grip stripping at the wrist connection and leg extension to remove rotational angle. Once the full figure-four is locked with hips close and elbows cinched, your primary option is to extend the leg powerfully or initiate a counter-entanglement. Once rotation begins with all control elements locked, the only safe option is to tap immediately.",
         "safety_critical": true,
-        "answer_line": "Early: strip/extend; late: tap",
+        "answer_line": "Escape early; once locked, tap",
         "distractors": {
           "plausible": [
-            "Always extend the leg only",
-            "Counter-attack works at any stage"
+            "Bridge free once the grip sets",
+            "Same defenses at every phase"
           ],
           "trap": [
-            "Wait for a bigger escape window"
+            "Stall for a bigger opening"
           ]
         }
       },
@@ -608,11 +608,11 @@
         "answer_line": "It increases ankle rotation force",
         "distractors": {
           "plausible": [
-            "It only fatigues your leg muscle",
-            "It signals weakness to opponent"
+            "It only strains your hamstring",
+            "It just wastes your energy"
           ],
           "trap": [
-            "Pull back hard to create space"
+            "It actually relieves the pressure"
           ]
         }
       },
@@ -623,11 +623,11 @@
         "answer_line": "Retract knee, clear the knee line",
         "distractors": {
           "plausible": [
-            "Relax since the danger has passed",
-            "Attack their arm immediately"
+            "Attack their nearest arm",
+            "Sit up and grab a collar"
           ],
           "trap": [
-            "Stay still and catch your breath"
+            "Relax now that you're safe"
           ]
         }
       }

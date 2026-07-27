@@ -256,11 +256,11 @@
         "answer_line": "Palm down, elbow tight to ribs",
         "distractors": {
           "plausible": [
-            "Palm up for a deeper reach",
-            "Palm down, elbow away from body"
+            "Palm up to reach the far side",
+            "Thumb-up wrist blade on throat"
           ],
           "trap": [
-            "Palm up toward the ceiling"
+            "Flare elbow wide for depth"
           ]
         }
       },
@@ -270,11 +270,11 @@
         "answer_line": "Saw forearm across the jaw line",
         "distractors": {
           "plausible": [
-            "Pry the chin up with your fingers",
-            "Switch to a different choke"
+            "Squeeze the harness tighter",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Force straight under the chin"
+            "Let go of the seatbelt to pry"
           ]
         }
       },
@@ -284,11 +284,11 @@
         "answer_line": "Grip your own opposite bicep",
         "distractors": {
           "plausible": [
-            "Grip behind their head first",
-            "Grip their far shoulder"
+            "Hand behind their head first",
+            "Hold their far shoulder"
           ],
           "trap": [
-            "Clasp hands behind their neck"
+            "Crank the neck with both hands"
           ]
         }
       },
@@ -313,7 +313,7 @@
         "distractors": {
           "plausible": [
             "Squeeze the biceps hard",
-            "Pull elbows apart forcefully"
+            "Pull down hard with the forearm"
           ],
           "trap": [
             "Yank the head with choking arm"
@@ -326,11 +326,11 @@
         "answer_line": "Rotate shoulder, pull elbow tight",
         "distractors": {
           "plausible": [
-            "Release and reinsert deeper",
-            "Yank the arm straight back"
+            "Squeeze now and hope it finishes",
+            "Fall to the choking side first"
           ],
           "trap": [
-            "Loosen grip to reposition"
+            "Let go and reinsert the arm"
           ]
         }
       },
@@ -368,11 +368,11 @@
         "answer_line": "Opportunity, attack exposed arm",
         "distractors": {
           "plausible": [
-            "Threat, stop and defend head",
-            "Neutral, keep working as normal"
+            "Threat, defend your head first",
+            "Ignore it and just squeeze"
           ],
           "trap": [
-            "Threat, abandon the choke now"
+            "Give up the back to disengage"
           ]
         }
       },
@@ -386,7 +386,7 @@
             "Do both at the same time"
           ],
           "trap": [
-            "Angle change before grip fight"
+            "Abandon hooks to dive at neck"
           ]
         }
       },
@@ -396,11 +396,11 @@
         "answer_line": "Gap under chin, hand leaves neck",
         "distractors": {
           "plausible": [
-            "Opponent turns their head away",
-            "Their hips shift on the mat"
+            "When their hips shift on the mat",
+            "When they start breathing hard"
           ],
           "trap": [
-            "Wait for them to fully relax"
+            "Force it in while they grip"
           ]
         }
       },
@@ -410,11 +410,11 @@
         "answer_line": "Clamp hooks in or lock triangle",
         "distractors": {
           "plausible": [
-            "Loosen hooks to free your hands",
-            "Switch hooks to overhooks"
+            "Let hooks rest, hold with grips",
+            "Point toes in and relax legs"
           ],
           "trap": [
-            "Release hooks for grip fighting"
+            "Cross your ankles in front"
           ]
         }
       }
@@ -557,25 +557,25 @@
         "answer_line": "Tuck chin, wall with shoulder",
         "distractors": {
           "plausible": [
-            "Grab their far wrist instead",
-            "Bridge and roll immediately"
+            "Grip your own collar to block",
+            "Push their head back with a hand"
           ],
           "trap": [
-            "Try to escape position now"
+            "Bridge and roll to escape now"
           ]
         }
       },
       {
         "question": "Why should you turn toward the underhook side rather than the overhook side when attempting to escape during the RNC setup?",
         "answer": "Turning toward the underhook side disrupts the attacker's structural alignment because it compresses the space on the choking side where they need room for arm insertion. It also positions your shoulder as a barrier against the choking arm and creates the optimal angle for hip escape to turtle. Turning toward the overhook side opens the neck on the choking side, plays into the attacker's angle change, and makes arm insertion significantly easier.",
-        "answer_line": "Compresses space, blocks arm",
+        "answer_line": "Underhook side blocks their arm",
         "distractors": {
           "plausible": [
-            "Opens more room to escape",
-            "Equal either direction"
+            "It loosens their hooks first",
+            "Either way works if you're fast"
           ],
           "trap": [
-            "Turn toward the overhook side"
+            "Turn toward the choking arm"
           ]
         }
       },
@@ -585,25 +585,25 @@
         "answer_line": "Block free hand, pull wrist down",
         "distractors": {
           "plausible": [
-            "Pry the forearm off your neck",
-            "Wait for the figure-four to form"
+            "Peel their elbow off your chest",
+            "Grab their pants to stop hooks"
           ],
           "trap": [
-            "Turtle up to hide your neck"
+            "Turtle up and hide the neck"
           ]
         }
       },
       {
         "question": "When is the optimal moment to attempt a positional escape during your opponent's RNC setup sequence?",
         "answer": "The optimal escape window opens when the attacker commits both hands to the choke insertion sequence, which momentarily reduces their hook or body control pressure. Watch for the moment they release their clasped seatbelt grip to begin stripping your defenses—this is when their positional control is weakest because their hands are occupied with your arms rather than controlling your body. Time your hip escape for this transition point, maintaining your grip on the choking arm throughout the escape movement.",
-        "answer_line": "When both hands commit to strips",
+        "answer_line": "When both hands leave your hips",
         "distractors": {
           "plausible": [
-            "Right when hooks first go in",
-            "As soon as seatbelt grip locks"
+            "After the seatbelt grip locks tight",
+            "Once the choking arm is under chin"
           ],
           "trap": [
-            "Wait until the choke is locked"
+            "Let go of the arm and buck hard"
           ]
         }
       }

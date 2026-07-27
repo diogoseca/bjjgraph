@@ -305,14 +305,14 @@
       {
         "question": "What physical indicator tells you that escape is no longer safe and you should tap instead?",
         "answer": "Tap immediately when: opponent has secured two-on-one grip on your heel with their wrist blade positioned against your Achilles, you feel any rotational pressure beginning on your heel, or you cannot freely move your foot within their grip. The inside heel hook causes catastrophic injury in milliseconds once locked.",
-        "answer_line": "Wrist blade + rotation on heel",
+        "answer_line": "Rotational pressure on the heel",
         "distractors": {
           "plausible": [
             "Any discomfort in the ankle",
             "Opponent grips your foot once"
           ],
           "trap": [
-            "Wait to feel a pop before tap"
+            "Wait for a pop before tapping"
           ]
         }
       },

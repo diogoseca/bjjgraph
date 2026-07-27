@@ -544,11 +544,11 @@
         "answer_line": "Before both grips are set",
         "distractors": {
           "plausible": [
-            "After first grip lands",
-            "When knee starts sliding"
+            "After the collar grip is locked",
+            "Once the knee is already through"
           ],
           "trap": [
-            "Stand once weight commits forward"
+            "Stand tall while collar is gripped"
           ]
         }
       }

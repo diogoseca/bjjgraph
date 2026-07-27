@@ -305,7 +305,7 @@
             "Shoulder via external rotation"
           ],
           "trap": [
-            "Wrist joint (rotational lock)"
+            "Crank the wrist to finish faster"
           ]
         }
       },
@@ -317,10 +317,10 @@
         "distractors": {
           "plausible": [
             "Force the figure-four anyway",
-            "Release grip and reset"
+            "Wait for them to re-bend it"
           ],
           "trap": [
-            "Let go, abandon the position"
+            "Post up tall and crank the arm"
           ]
         }
       },
@@ -346,11 +346,11 @@
         "answer_line": "Hips past centerline, arms exposed",
         "distractors": {
           "plausible": [
-            "More leg control than half guard",
-            "Easier back exposure overall"
+            "Their legs trap yours more",
+            "Guarantees an easy back take"
           ],
           "trap": [
-            "Faster guard pass, skip the arm"
+            "Extend your arm to pass faster"
           ]
         }
       },
@@ -373,14 +373,14 @@
         "question": "What grip adjustments should you make if your opponent's wrist becomes difficult to control during rotation?",
         "answer": "Deepen the figure-four by sliding your gripping hand further past their wrist toward their forearm, increasing the contact surface area for control. Squeeze your elbows together to compress the grip configuration. If the grip continues slipping, pause the rotation and reposition your hands with a fresh grip before continuing rather than rushing the finish with compromised control.",
         "safety_critical": false,
-        "answer_line": "Deepen grip, squeeze elbows together",
+        "answer_line": "Deepen grip, squeeze elbows in",
         "distractors": {
           "plausible": [
-            "Grip harder, push through anyway",
-            "Switch to a wristlock instead"
+            "Switch to a wristlock instead",
+            "Widen elbows for more leverage"
           ],
           "trap": [
-            "Force the rotation despite slip"
+            "Crank through the slipping grip"
           ]
         }
       },
@@ -570,11 +570,11 @@
         "answer_line": "Straighten arm, elbow to ribs",
         "distractors": {
           "plausible": [
-            "Muscle out by rotating away",
-            "Grab their gi sleeve instead"
+            "Grab their sleeve with free hand",
+            "Relax and try to slip it out"
           ],
           "trap": [
-            "Rotate against the submission"
+            "Twist your shoulder against it"
           ]
         }
       },
@@ -582,14 +582,14 @@
         "question": "At what point should you tap to the Kimura from Quarter Guard to prevent injury?",
         "answer": "Tap immediately when you feel the shoulder rotation passing the point where you can actively resist or reverse the submission. Specific indicators include sharp or increasing pain in the shoulder joint, inability to prevent further rotation despite maximum effort, and feeling your shoulder forced past its comfortable range of motion. In training, tap early—the shoulder is vulnerable to injuries requiring months of recovery and potentially surgery. Never wait to test your limits once significant rotation has begun.",
         "safety_critical": true,
-        "answer_line": "At first sharp pain or forced stall",
+        "answer_line": "At first sharp shoulder pain",
         "distractors": {
           "plausible": [
-            "Wait until near-injury pain hits",
-            "Only once you can't move at all"
+            "When your elbow leaves your ribs",
+            "As soon as they grab your wrist"
           ],
           "trap": [
-            "Test your limits before tapping"
+            "Wait until you hear a pop"
           ]
         }
       },

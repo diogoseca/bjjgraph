@@ -270,14 +270,14 @@
       {
         "question": "Your opponent tucks their chin tightly during your finishing attempt - how do you adjust to complete the choke?",
         "answer": "Walk your choking arm higher on the neck through incremental adjustments while maintaining constant baseline pressure. Simultaneously increase your hip angle to generate more rotational torque. The rotation works around the chin tuck by compressing from the sides rather than pulling straight into the chin. If the chin tuck persists, apply pressure through the jaw itself, which creates enough discomfort to force a tap or create an opening for the forearm to slide deeper.",
-        "answer_line": "Walk grip higher, raise angle",
+        "answer_line": "Walk arm higher, add hip angle",
         "distractors": {
           "plausible": [
-            "Just pull harder into chin",
+            "Pull straight into the chin",
             "Switch to opposite-arm grip"
           ],
           "trap": [
-            "Release grip and reset"
+            "Sit up to muscle it, lose the back"
           ]
         }
       },

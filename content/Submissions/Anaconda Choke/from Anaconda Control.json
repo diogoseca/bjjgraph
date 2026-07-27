@@ -382,14 +382,14 @@
         "question": "What are the minimum safety requirements for applying an Anaconda choke in training?",
         "answer": "Apply pressure progressively over 3-5 seconds minimum (never explosive or jerking), ensure partner has clear tap access with at least one hand, monitor partner constantly for tap signals or distress, and release immediately upon any tap signal or loss of resistance. Additionally, avoid practicing on partners with neck injuries without instructor approval.",
         "safety_critical": true,
-        "answer_line": "Go slow, release instantly on tap",
+        "answer_line": "Slow pressure, release on any tap",
         "distractors": {
           "plausible": [
-            "Wait for verbal tap only",
-            "Check partner after locking grip"
+            "Cap each attempt at ten seconds",
+            "Rely on partner shouting stop"
           ],
           "trap": [
-            "Apply pressure explosively, fast"
+            "Crank hard and hold past the tap"
           ]
         }
       },
@@ -397,14 +397,14 @@
         "question": "Why is the opponent's trapped arm essential to the Anaconda choke mechanism?",
         "answer": "The trapped arm creates dual-sided pressure by forcing the opponent's own shoulder against their opposite carotid artery. This means the choke attacks both carotid arteries simultaneously - your choking arm compresses one side while their trapped arm/shoulder compresses the other side. Without this trapped arm, you only have single-sided pressure which is insufficient for an effective finish.",
         "safety_critical": false,
-        "answer_line": "Traps shoulder onto own carotid",
+        "answer_line": "Presses their shoulder into carotid",
         "distractors": {
           "plausible": [
-            "Prevents opponent from posting",
-            "Stops opponent's other arm free"
+            "Blocks their posting hand",
+            "Stops them standing up"
           ],
           "trap": [
-            "Just stops opponent grabbing gi"
+            "Crank the neck instead of choking"
           ]
         }
       },
@@ -412,14 +412,14 @@
         "question": "When should you release an Anaconda choke immediately, even without a tap?",
         "answer": "Release immediately if partner shows any signs of distress (panicked sounds, frantic movement), if partner goes limp or loses resistance, if you hear desperate breathing sounds, or if partner makes any verbal indication of submission. Also release if your partner's free hand stops moving or defending, as this may indicate loss of consciousness. When in doubt, always release and check on your partner's condition.",
         "safety_critical": true,
-        "answer_line": "Limp, panicked, or silent = release",
+        "answer_line": "Limp, panicked, or stops defending",
         "distractors": {
           "plausible": [
-            "Wait for a clear verbal tap",
-            "Check pulse before releasing"
+            "Only a firm two-hand tap counts",
+            "Loosen a bit and keep the hold"
           ],
           "trap": [
-            "Keep squeezing until they tap"
+            "Crank tighter once they stop moving"
           ]
         }
       },
@@ -442,14 +442,14 @@
         "question": "How does the Anaconda choke differ from the Darce choke in terms of arm positioning?",
         "answer": "In the Anaconda, your choking arm threads under the opponent's neck from the same side as their trapped arm, encircling neck and arm together on the near side. In the Darce, your choking arm threads under the opponent's armpit first and then across to the far side of the neck, trapping the arm from the opposite direction. Both use figure-four configuration, but the threading path and trapped arm position differ. This makes them complementary techniques with easy transitions between them when one is defended.",
         "safety_critical": false,
-        "answer_line": "Threads near-side; Darce threads far",
+        "answer_line": "Threads near side; Darce goes far",
         "distractors": {
           "plausible": [
-            "Both thread from far side",
-            "Darce traps arm, Anaconda doesn't"
+            "Both enter from the far armpit",
+            "Only the grip differs"
           ],
           "trap": [
-            "They're the same technique"
+            "Turn your back to switch sides"
           ]
         }
       },
@@ -457,14 +457,14 @@
         "question": "What are the two most effective grips for completing the Anaconda figure-four?",
         "answer": "The two most effective grips are the Gable grip (palms together with fingers interlocked) and the rear naked choke grip (hand gripping opposite bicep). Both grips provide strong connection that cannot slip during finishing pressure, especially in no-gi situations. Palm-to-palm grip is weaker and more prone to slipping, making it less reliable for the finish.",
         "safety_critical": false,
-        "answer_line": "Gable grip or RNC hand-to-bicep",
+        "answer_line": "Gable grip or hand-to-bicep lock",
         "distractors": {
           "plausible": [
-            "Palm-to-palm grip is strongest",
-            "Grab own wrist for the lock"
+            "Palm-to-palm clasp, no lock",
+            "Cup your own wrist to lock"
           ],
           "trap": [
-            "Interlace fingers loosely"
+            "Grab their fingers to hold on"
           ]
         }
       },
@@ -475,11 +475,11 @@
         "answer_line": "Deep thread reaches far carotid",
         "distractors": {
           "plausible": [
-            "Shallow thread still chokes fine",
-            "Depth only matters for comfort"
+            "Shallow bite locks up faster",
+            "Depth only matters in the gi"
           ],
           "trap": [
-            "Thread just past the collarbone"
+            "Roll shallow, they pass to mount"
           ]
         }
       },
@@ -490,11 +490,11 @@
         "answer_line": "Rolled, knees up, grip locked tight",
         "distractors": {
           "plausible": [
-            "Opponent's breathing changes only",
-            "Just achieving the figure-four"
+            "Breathing changes are enough",
+            "Just locking the figure-four"
           ],
           "trap": [
-            "Opponent stops struggling entirely"
+            "Keep squeezing after they go limp"
           ]
         }
       },
@@ -509,7 +509,7 @@
             "Muscle the arm back by force"
           ],
           "trap": [
-            "Let go and go for a takedown"
+            "Sit back for a leglock instead"
           ]
         }
       },
@@ -517,14 +517,14 @@
         "question": "What anatomical structures does the Anaconda choke primarily attack to cause submission?",
         "answer": "The Anaconda primarily attacks both carotid arteries simultaneously to create a blood choke. Your choking forearm compresses one carotid artery on the side of your arm, while the opponent's own trapped shoulder is driven into their opposite carotid artery. This dual-sided compression restricts blood flow to the brain, causing rapid loss of consciousness in 3-5 seconds if not released. Secondary pressure may affect the trachea and airway, but the primary mechanism is bilateral carotid compression.",
         "safety_critical": false,
-        "answer_line": "Both carotid arteries (blood choke)",
+        "answer_line": "Both carotid arteries, blood choke",
         "distractors": {
           "plausible": [
-            "The trachea and airway only",
-            "Cervical spine compression"
+            "Airway crush only",
+            "Spinal compression"
           ],
           "trap": [
-            "Just neck muscles, not blood flow"
+            "Twist the head to force the tap"
           ]
         }
       },
@@ -535,11 +535,11 @@
         "answer_line": "Switch to Gable, squeeze elbows in",
         "distractors": {
           "plausible": [
-            "Loosen grip then quickly reset",
-            "Push hips back to add slack"
+            "Loosen and re-clasp mid-finish",
+            "Shift hips back for slack"
           ],
           "trap": [
-            "Keep the same loose grip longer"
+            "Crank the neck to force the tap"
           ]
         }
       },
@@ -689,11 +689,11 @@
         "answer_line": "Free your arm before it's trapped",
         "distractors": {
           "plausible": [
-            "Turn head away from pressure",
-            "Grip their wrist to stop threading"
+            "Grip their choking wrist tight",
+            "Sit back to your guard"
           ],
           "trap": [
-            "Push their head down and away"
+            "Drop your head and roll forward"
           ]
         }
       },
@@ -701,14 +701,14 @@
         "question": "When caught in a fully locked Anaconda after the roll, what is the correct survival and escape sequence?",
         "answer": "First, use your free hand to attack the grip at the point where their hands connect - pull on their top wrist to create any space at all around your neck. Simultaneously, work to straighten your trapped arm even partially. If you can create breathing space, bridge explosively toward your opponent while continuing to attack their grip. Use the bridge momentum to turn into them and recover a scramble position. If the choke is fully locked with no space and you cannot effectively fight the grip, tap immediately - the Anaconda causes unconsciousness in 3-5 seconds once both carotids are compressed.",
         "safety_critical": true,
-        "answer_line": "Attack grip, bridge, tap if stuck",
+        "answer_line": "Peel the grip, bridge, turn in",
         "distractors": {
           "plausible": [
-            "Pull straight back with neck",
-            "Wait out the pressure calmly"
+            "Pull your head backward out",
+            "Turn away and flatten out"
           ],
           "trap": [
-            "Try to stand up under pressure"
+            "Stay still and hope they gas out"
           ]
         }
       },
@@ -719,11 +719,11 @@
         "answer_line": "Circle toward your free shoulder",
         "distractors": {
           "plausible": [
-            "Circle toward the choking arm",
-            "Circle straight back away"
+            "Back straight out to the rear",
+            "Spin toward their hips"
           ],
           "trap": [
-            "Turn into the choking arm side"
+            "Rotate into the choking arm"
           ]
         }
       },
@@ -746,14 +746,14 @@
         "question": "How should you manage your breathing and energy when caught in Anaconda control?",
         "answer": "Take short, controlled breaths through your nose rather than gasping through your mouth. Deep panicked breaths expand your chest and neck, which can actually tighten the choke. Keep your breathing shallow and steady while you work defensive hand positions. Avoid spending energy on explosive movements that lack technical purpose - each failed explosive escape drains energy you need for sustained grip fighting. If you feel tunnel vision, lightheadedness, or the inability to effectively fight the grip, tap immediately. Training safely is more important than escaping every submission.",
         "safety_critical": true,
-        "answer_line": "Short nasal breaths, tap if dizzy",
+        "answer_line": "Small steady nasal breaths",
         "distractors": {
           "plausible": [
-            "Deep breaths to stay calm",
-            "Explosive bursts to escape fast"
+            "Big deep breaths through mouth",
+            "Puff your chest to make space"
           ],
           "trap": [
-            "Hold breath and power through"
+            "Hold your breath and thrash hard"
           ]
         }
       }

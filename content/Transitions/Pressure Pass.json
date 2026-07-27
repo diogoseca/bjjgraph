@@ -248,11 +248,11 @@
         "answer": "Pressure passing uses controlled, heavy weight distribution to limit the opponent's mobility and progressively break down their guard structure. Unlike speed passing, it does not try to quickly bypass the legs; it emphasizes control and methodical advancement over speed.",
         "distractors": {
           "plausible": [
-            "Move fast past the legs",
-            "Overpower with strength alone"
+            "Bypass legs quickly to advance",
+            "Overpower with raw strength"
           ],
           "trap": [
-            "Rush the pass to finish quick"
+            "Dive in fast and get swept"
           ]
         },
         "answer_line": "Heavy control over speed"
@@ -291,11 +291,11 @@
         "answer_line": "Pass toward the crossface side",
         "distractors": {
           "plausible": [
-            "Pass away from the crossface",
-            "Crossface stops back takes"
+            "Crossface just blocks their view",
+            "Direction doesn't really matter"
           ],
           "trap": [
-            "Pass opposite the crossface side"
+            "Pass away, expose your back"
           ]
         }
       },
@@ -332,11 +332,11 @@
         "answer": "Incremental advancement means passing in controlled steps, consolidating each position before moving to the next rather than finishing in one motion. Rushing is counterproductive because it costs you pressure and balance, handing the opponent your momentum to use for sweeps or guard recovery. Pressure passing requires patience and steady progression while maintaining constant heavy pressure throughout.",
         "distractors": {
           "plausible": [
-            "Finish the pass in one burst",
-            "Match opponent's pace exactly"
+            "Match the opponent's pace",
+            "Trade pressure for better grips"
           ],
           "trap": [
-            "Rush to finish before they react"
+            "Rush and hand them a sweep"
           ]
         },
         "answer_line": "Consolidate each step first"
@@ -374,11 +374,11 @@
         "answer": "Against a strong knee shield you should chain to another pass, such as a knee slice or leg weave, rather than continue pure forward pressure. Forward force is inefficient here because the knee shield is a structural frame that gets stronger the harder you drive into it. Chain to a knee slice by angling your trapped knee across their thigh while maintaining crossface pressure, or switch to a leg weave by threading your leg over their knee shield. The key is recognizing the stall point early and transitioning before the opponent consolidates their defensive structure.",
         "distractors": {
           "plausible": [
-            "Keep driving forward pressure",
-            "Sit back and reset position"
+            "Wait them out under pressure",
+            "Muscle the knee shield flat"
           ],
           "trap": [
-            "Force through the knee shield"
+            "Bull forward and get swept"
           ]
         },
         "answer_line": "Chain to knee slice or weave"
@@ -536,11 +536,11 @@
         "answer_line": "Frame neck, hip escape, shield knee",
         "distractors": {
           "plausible": [
-            "Bridge and go for a takedown",
-            "Push away and stand up"
+            "Bench press them straight up",
+            "Just hold on and stall"
           ],
           "trap": [
-            "Turn away and expose the back"
+            "Turn away and expose your back"
           ]
         }
       },
@@ -564,11 +564,11 @@
         "answer_line": "Protect neck, block mount, escape",
         "distractors": {
           "plausible": [
-            "Recover guard first, then defend",
-            "Escape space before protecting neck"
+            "Bridge hard to throw them off",
+            "Underhook first, defense later"
           ],
           "trap": [
-            "Skip straight to guard recovery"
+            "Reach for guard, get choked"
           ]
         }
       }

@@ -272,10 +272,10 @@
         "distractors": {
           "plausible": [
             "Wide parallel stance for power",
-            "Narrow stance, feet together"
+            "Square up, weight evenly split"
           ],
           "trap": [
-            "Lean forward onto your toes"
+            "Lean your chest over their hips"
           ]
         },
         "answer_line": "Staggered stance, triangle base"
@@ -286,11 +286,11 @@
         "answer_line": "Break both grips before standing",
         "distractors": {
           "plausible": [
-            "Power through the collar pull",
-            "Switch to a guard pass instead"
+            "Break the sleeve grip first",
+            "Circle wide to pass instead"
           ],
           "trap": [
-            "Stand anyway and pull away"
+            "Straighten arms and yank free"
           ]
         }
       },
@@ -314,11 +314,11 @@
         "answer_line": "Extend hips into crossed ankles",
         "distractors": {
           "plausible": [
-            "Pry ankles apart with hands",
-            "Pull their knees apart"
+            "Pull their knees apart",
+            "Squat low and shake them off"
           ],
           "trap": [
-            "Reach behind to uncross ankles"
+            "Bend forward to reach the ankles"
           ]
         }
       },
@@ -328,7 +328,7 @@
         "answer_line": "Don't lean forward; keep arm tight",
         "distractors": {
           "plausible": [
-            "Push their hips down harder",
+            "Widen your knees for base",
             "Post the foot faster"
           ],
           "trap": [
@@ -356,11 +356,11 @@
         "answer_line": "Control their legs immediately",
         "distractors": {
           "plausible": [
-            "Posture up and disengage",
-            "Grip their collar for control"
+            "Grip their collar for control",
+            "Stand tall and reset distance"
           ],
           "trap": [
-            "Step back to create space"
+            "Drop your chest between their legs"
           ]
         }
       },
@@ -369,11 +369,11 @@
         "answer": "Explode upward only once dangerous grips are broken, both hands are fixed on the hips, and one foot is posted with weight centered over your base. Driving up before grips are cleared lets the opponent ride your momentum into a sweep; hesitating after the foot is posted gives an alert guard player the single-knee-up window to attack the armbar or hip bump. The ideal moment is a brief, decisive burst that carries you through the vulnerable transition phase in one continuous motion rather than a slow, hesitant rise.",
         "distractors": {
           "plausible": [
-            "As soon as one hand is on hip",
-            "Immediately on first contact"
+            "Once both hands find the hips",
+            "After the collar grip breaks"
           ],
           "trap": [
-            "Explode up before clearing grips"
+            "Drive up while grips still hold"
           ]
         },
         "answer_line": "After grips cleared, foot posted"
@@ -511,11 +511,11 @@
         "answer_line": "Hands move from grips to hips",
         "distractors": {
           "plausible": [
-            "They straighten their legs",
-            "They release their collar grip"
+            "They widen their knees",
+            "They lift their chin to posture"
           ],
           "trap": [
-            "Wait until they post a foot"
+            "Open your guard to reset"
           ]
         }
       },
@@ -553,8 +553,8 @@
         "answer_line": "Momentum pulls their arm away",
         "distractors": {
           "plausible": [
-            "Too slow to finish in time",
-            "Their balance is too strong"
+            "Their sleeve grip blocks it",
+            "You lose points for failing"
           ],
           "trap": [
             "Commit fully, finish anyway"
@@ -568,7 +568,7 @@
         "distractors": {
           "plausible": [
             "Hold closed guard longer",
-            "Attack the ankle lock harder"
+            "Sit up for a body lock"
           ],
           "trap": [
             "Release all grips, disengage"

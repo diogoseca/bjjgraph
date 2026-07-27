@@ -306,7 +306,7 @@
             "One-sided carotid pressure"
           ],
           "trap": [
-            "Cervical spine pressure"
+            "Crank the neck to force the tap"
           ]
         }
       },
@@ -347,7 +347,7 @@
         "answer_line": "Redirect drive into hip swing",
         "distractors": {
           "plausible": [
-            "Brace and stop the stack cold",
+            "Post a hand to kill the momentum",
             "Speed up the rotation regardless"
           ],
           "trap": [
@@ -359,14 +359,14 @@
         "question": "What are the key indicators that the inverted figure-four lock is positioned correctly for a successful finish?",
         "answer": "The lock is correctly positioned when the crossing ankle sits high behind the opponent's neck rather than on the shoulders, both knees are pulled together creating bilateral compression, the opponent's trapped arm is pulled diagonally across their own throat amplifying the choking mechanism, and your hips are angled 30-45 degrees off the opponent's centerline relative to the inverted position. If the opponent's face is changing color and they are unable to turn their head, the compression geometry is correct. A correctly positioned lock produces submission pressure with minimal muscular effort.",
         "safety_critical": false,
-        "answer_line": "Ankle high, knees together, angle",
+        "answer_line": "Ankle high, knees tight, off-angle",
         "distractors": {
           "plausible": [
             "Ankle on shoulder, knees apart",
             "Arm pulled away from throat"
           ],
           "trap": [
-            "Square hips straight to opponent"
+            "Square up, get stacked and passed"
           ]
         }
       },
@@ -374,14 +374,14 @@
         "question": "What are the key safety considerations when applying the inverted triangle from triangle control in training?",
         "answer": "The inverted triangle must be applied with extremely slow progression—minimum 5-7 seconds from setup to full pressure. Blood chokes can produce unconsciousness within 8-12 seconds of full compression, and the inverted angle can catch the opponent by surprise, meaning they may not recognize the danger quickly enough to tap. Always ensure your training partner can tap with at least one hand, watch for signs of loss of consciousness including going limp or unusual sounds, and release immediately upon any tap signal. Never jerk or spike into the position, and never apply competition-level pressure during training.",
         "safety_critical": true,
-        "answer_line": "Apply slowly, watch for tap",
+        "answer_line": "Slow entry, keep a hand free to tap",
         "distractors": {
           "plausible": [
-            "Apply fast before they defend",
-            "Full pressure right away"
+            "Trust their reflexes to save them",
+            "Warn them only after it is locked"
           ],
           "trap": [
-            "Jerk into position quickly"
+            "Hold the choke through the tap"
           ]
         }
       },
@@ -389,14 +389,14 @@
         "question": "How should you release the inverted triangle immediately after your training partner taps?",
         "answer": "First, uncross your ankles to open the figure-four lock, removing the primary compression mechanism. Then remove the leg crossing behind the opponent's neck. Release the trapped arm carefully without jerking it, as it may be in a compromised position. Create space to allow the opponent to turn their head and restore normal blood flow to the brain. Check for consciousness and breathing immediately. If the opponent appears disoriented or unconscious, support their neck during release and position them on their side. Never simply release and walk away—always verify your partner's condition after a blood choke.",
         "safety_critical": true,
-        "answer_line": "Uncross ankles, release, check",
+        "answer_line": "Uncross ankles first, then check",
         "distractors": {
           "plausible": [
-            "Release arm first, then legs",
-            "Let go and walk away"
+            "Pull the trapped arm out first",
+            "Stand up and reset the round"
           ],
           "trap": [
-            "Jerk arm free immediately"
+            "Hold the lock to confirm the tap"
           ]
         }
       },
@@ -411,7 +411,7 @@
             "Release legs to regrip arm"
           ],
           "trap": [
-            "Chase the arm, lose position"
+            "Reach up and grab the arm back"
           ]
         }
       },
@@ -426,7 +426,7 @@
             "Replaces standard triangle choke"
           ],
           "trap": [
-            "Only works if opponent stacks"
+            "Bail on triangle to chase invert"
           ]
         }
       },
@@ -437,11 +437,11 @@
         "answer_line": "Figure-4 locked, arm across throat",
         "distractors": {
           "plausible": [
-            "Ankles crossed, rotation started",
-            "Head control grip established"
+            "As soon as the legs cross",
+            "When head control is established"
           ],
           "trap": [
-            "Once hip rotation begins"
+            "Never - you can fight out anytime"
           ]
         }
       }
@@ -564,7 +564,7 @@
         "answer_line": "Ankles uncross, hips shift",
         "distractors": {
           "plausible": [
-            "Grip tightens on far arm",
+            "Attacker squares hips to you",
             "Opponent posture breaks down"
           ],
           "trap": [
@@ -576,14 +576,14 @@
         "question": "What is the safest way to tap when caught in an inverted triangle from triangle control?",
         "answer": "Tap immediately and clearly using any available method—physical hand tap on the opponent's body or the mat, verbal tap by saying 'tap' loudly, or foot tap on the mat. The inverted triangle is a blood choke that can produce unconsciousness within 8-12 seconds of full bilateral compression, and the inverted angle may catch you by surprise, meaning you have less time to recognize the danger than with a standard triangle. Do not wait to see if you can escape once full compression is established. Tap early and tap clearly—there is no benefit to risking consciousness loss in training.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, any method",
+        "answer_line": "Tap at once - hand, foot or voice",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only once pressure builds"
+            "Only a hand tap counts",
+            "Signal by shaking your head"
           ],
           "trap": [
-            "Try to power out first"
+            "Hold on and try to survive it"
           ]
         }
       },
@@ -609,8 +609,8 @@
         "answer_line": "Posture, extract arm, drive forward",
         "distractors": {
           "plausible": [
-            "Pull guard to reset position",
-            "Grab a leg lock counter"
+            "Peel the top leg with both hands",
+            "Bridge and roll to your back"
           ],
           "trap": [
             "Push into the choke direction"
@@ -621,14 +621,14 @@
         "question": "What should you do if the inverted triangle is fully locked and you cannot escape?",
         "answer": "If the inverted figure-four is fully locked with the arm secured across your throat and the attacker has proper angle, you should tap immediately. Attempting to fight through a fully locked inverted triangle risks unconsciousness, which occurs within 8-12 seconds of bilateral carotid compression. In training, there is never a valid reason to risk consciousness loss. In competition, the same applies unless you are executing a specific, pre-drilled escape technique with immediate results—but even then, the margin for error is extremely small with blood chokes.",
         "safety_critical": true,
-        "answer_line": "Tap immediately, don't fight it",
+        "answer_line": "Tap right away and reset",
         "distractors": {
           "plausible": [
-            "Try a drilled escape technique",
-            "Bridge hard to break the lock"
+            "Turn your head to ease it",
+            "Grab their belt and stall"
           ],
           "trap": [
-            "Wait a few seconds, assess"
+            "Fight it until the arm frees"
           ]
         }
       }

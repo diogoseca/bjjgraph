@@ -328,14 +328,14 @@
       {
         "question": "Your opponent pummel-wins an underhook as you attempt to close the body lock grip - what is your immediate response?",
         "answer": "Do not continue forcing the body lock closure against an established underhook, as this will fail and waste energy. Instead, address the underhook first by either re-pummeling aggressively to recover inside position, or transitioning to an alternative attack that uses the opponent's underhook against them. A snap down becomes highly available because the opponent's underhook commits their weight forward, and an arm drag on the underhook arm can expose their back. Once you have neutralized or recovered from their underhook, re-attempt the body lock closure. The body lock requires at minimum one underhook to establish properly.",
-        "answer_line": "Fix underhook, don't force lock",
+        "answer_line": "Re-pummel to regain inside position",
         "distractors": {
           "plausible": [
-            "Force the body lock closed",
-            "Switch to a collar tie"
+            "Muscle the lock shut anyway",
+            "Drop levels for a double leg"
           ],
           "trap": [
-            "Pull guard to reset position"
+            "Turn your back to spin out"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "answer_line": "Inside trip or lateral drop",
         "distractors": {
           "plausible": [
-            "Release lock, reset to neutral",
-            "Shoot a double leg instead"
+            "Reset to a neutral tie-up",
+            "Bail and shoot a double leg"
           ],
           "trap": [
-            "Repeat the identical drive angle"
+            "Bury your head and re-drive"
           ]
         }
       },

@@ -413,14 +413,14 @@
       {
         "question": "If your initial back take attempt from the Whizzer is blocked, what chain attacks are available without releasing the overhook?",
         "answer": "Without releasing the Whizzer, you can transition to a kimura by adjusting your grip to catch their wrist while your overhook maintains shoulder control. You can increase downward pressure and switch to a front headlock or snap-down if they posture against your back take. From the front headlock position, darce and anaconda choke entries become available. You can also use the Whizzer to execute a lateral sweep by stepping your near leg behind their knee while driving their shoulder sideways. The key is maintaining the overhook as your base control while cycling through different finishing directions based on where the opponent distributes their weight in response to each threat.",
-        "answer_line": "Kimura, snap-down, sweep options",
+        "answer_line": "Kimura, snap-down to darce/anaconda",
         "distractors": {
           "plausible": [
-            "Only back take is available",
-            "Switch hands, then armbar"
+            "Switch to an armbar entry",
+            "Keep driving for the back take"
           ],
           "trap": [
-            "Release overhook for guillotine"
+            "Drop overhook, dive for guillotine"
           ]
         }
       },

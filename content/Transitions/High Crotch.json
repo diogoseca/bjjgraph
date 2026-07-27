@@ -548,14 +548,14 @@
       {
         "question": "What visual cues should you watch for during grip fighting to anticipate a high crotch shot before it launches?",
         "answer": "Key pre-shot cues include: the opponent suddenly breaking all grips rather than fighting for new ones, which clears their arms for the shot; their eyes dropping from your face to your hips or legs indicating they are measuring distance; a slight bending of their knees that lowers their center of gravity in preparation for the level change; a snap or pull attempt designed to get your weight forward before they reverse direction into the shot; and any sudden explosive movement after a period of relatively calm hand fighting. Recognizing these cues even half a second early gives you enough time to initiate a sprawl before penetration occurs.",
-        "answer_line": "Break grips, eyes drop, knees bend",
+        "answer_line": "Grips break, eyes drop, knees bend",
         "distractors": {
           "plausible": [
-            "Sudden pull toward you",
-            "Heavy hand fighting, no change"
+            "Posture rises, hands go high",
+            "Backward step, hips retreat"
           ],
           "trap": [
-            "Wait for the grip on your leg"
+            "Reach down to block their head"
           ]
         }
       }

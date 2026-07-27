@@ -463,8 +463,8 @@
         "answer_line": "Re-pummel hook, block hip",
         "distractors": {
           "plausible": [
-            "Wait for them to fully turn",
-            "Grab far hand, stay still"
+            "Just squeeze knees harder",
+            "Lean back and extend their leg"
           ],
           "trap": [
             "Release hook to re-angle"
@@ -477,11 +477,11 @@
         "answer_line": "Stay below the knee line",
         "distractors": {
           "plausible": [
-            "Stay above the knee line",
-            "Keep hips near their hip"
+            "Pinch at mid-thigh level",
+            "Control their upper body first"
           ],
           "trap": [
-            "Push toward their hip"
+            "Ride high toward their hip"
           ]
         }
       },
@@ -948,11 +948,11 @@
         "answer_line": "Stay below the knee line",
         "distractors": {
           "plausible": [
-            "Stay above the knee line",
-            "Keep hips near their hip"
+            "Grip strength matters most",
+            "Chest tight to their chest"
           ],
           "trap": [
-            "Push toward their hip"
+            "Slide up toward their hips"
           ]
         }
       },
@@ -1049,26 +1049,26 @@
       "answer": "It is neutral because trapping the opponent's leg commits your own legs into a structure the opponent can often attack in return. Neither player automatically holds positional superiority the way a top player does in mount or side control, and configurations like 50-50 grant both athletes identical access to each other's legs. Superiority within the family comes from sub-configuration and angle rather than from the family itself, which is why saddle and inside ashi are dominant while 50-50 is a coin-flip exchange. The zero point value reflects that scoring systems generally do not award position here until a sweep, pass, or submission resolves the exchange.",
       "distractors": {
         "plausible": [
-          "Attacker always dominates",
-          "Points award on entry"
+          "Entry alone wins the exchange",
+          "The entangler is always safe"
         ],
         "trap": [
-          "Treat all entanglements as dominant"
+          "Assume dominance in 50-50"
         ]
       },
-      "answer_line": "Both legs are equally at risk"
+      "answer_line": "Both can attack each other's legs"
     },
     {
       "question": "What role does the isolation of a single joint play in making leg entanglements mechanically distinct from upper-body control positions?",
       "answer": "Leg entanglements work by isolating one joint, the ankle, knee, or hip, from the opponent's ability to defend it with their whole body, so that the entangler's entire structure is levered against that single vulnerable point. Unlike upper-body control where large muscle groups and the torso can resist, an isolated joint has a fixed rotational limit and little muscular protection, meaning small angular changes translate directly into submission pressure. This is why hip proximity to the captured joint matters so much: the closer the attacking hips sit to the target, the shorter the lever the defender has to fight back with. The configuration essentially converts a limb into a lever with a fixed fulcrum, which is the biomechanical signature of the entire family.",
-      "answer_line": "Isolates joint, short lever",
+      "answer_line": "Joint can't use whole-body defense",
       "distractors": {
         "plausible": [
-          "Uses whole body to defend",
-          "Relies on muscle fatigue"
+          "Muscle fatigue does the work",
+          "Grip strength overwhelms it"
         ],
         "trap": [
-          "Keep hips far from the joint"
+          "Keep your hips off the leg"
         ]
       }
     },
@@ -1078,11 +1078,11 @@
       "answer_line": "Heel angle picks the finish",
       "distractors": {
         "plausible": [
-          "Knee angle picks the finish",
-          "Hip position picks the finish"
+          "Hip position sets the sub",
+          "Upper-body grips decide it"
         ],
         "trap": [
-          "Expose heel to invite a trade"
+          "Give up the foot to bait a sub"
         ]
       }
     },

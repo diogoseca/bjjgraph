@@ -342,14 +342,14 @@
         "question": "Which direction should the opponent's thumb point when you have the far side armbar properly positioned?",
         "answer": "The opponent's thumb should point toward their feet (away from their head). This thumb position prevents the hitchhiker escape where they could rotate their arm and relieve pressure on the elbow. If the thumb points toward their head, they can more easily rotate and escape the submission.",
         "safety_critical": false,
-        "answer_line": "Thumb points toward feet",
+        "answer_line": "Thumb points toward their feet",
         "distractors": {
           "plausible": [
-            "Thumb points toward head",
-            "Thumb angled off to the side"
+            "Thumb points up at their head",
+            "Thumb angled out to the side"
           ],
           "trap": [
-            "Let them choose thumb angle"
+            "Release wrist to fix thumb grip"
           ]
         }
       },
@@ -357,14 +357,14 @@
         "question": "What is the primary source of breaking pressure in the far side armbar, and why is this biomechanically important?",
         "answer": "The primary source of breaking pressure should be hip extension and upward drive, not pulling with the arms. This is biomechanically important because your hips and core generate much more force than your arms, creating a more effective submission. Additionally, hip-driven pressure is easier to control and apply progressively, making it safer for training while being more difficult for opponents to resist.",
         "safety_critical": false,
-        "answer_line": "Hip extension, not arm pull",
+        "answer_line": "Extend hips and drive upward",
         "distractors": {
           "plausible": [
-            "Pull the wrist with arms",
-            "Squeeze knees together hard"
+            "Pull the wrist with both arms",
+            "Lean back using shoulder power"
           ],
           "trap": [
-            "Yank the arm explosively"
+            "Rip it fast, injure your partner"
           ]
         }
       },
@@ -372,14 +372,14 @@
         "question": "How should you respond if your opponent clasps their hands together in prayer defense against your far side armbar attempt?",
         "answer": "When opponent clasps hands in prayer defense, you have several options: systematically peel their fingers apart by isolating and breaking individual grips; use your legs and body torque to stress their grip until it breaks; transition to attacking their near arm with kimura or americana; or transition to mount/other positions. Never use sudden explosive force to break the grip as this can cause finger or wrist injuries.",
         "safety_critical": true,
-        "answer_line": "Peel fingers, use torque",
+        "answer_line": "Peel fingers, use body torque",
         "distractors": {
           "plausible": [
-            "Wait for the grip to fatigue",
-            "Switch straight to mount"
+            "Wait for the grip to tire out",
+            "Pull the arm with both hands"
           ],
           "trap": [
-            "Rip the grip apart fast"
+            "Rip the grip apart explosively"
           ]
         }
       },
@@ -387,11 +387,11 @@
         "question": "What critical safety protocol must you ensure before finishing the far side armbar in training?",
         "answer": "Before finishing the far side armbar in training, you must ensure that your training partner has at least one hand free and accessible to deliver a tap signal. If both their hands are trapped or controlled in a way that prevents tapping, you must adjust your position or release enough pressure to allow tap access. Additionally, you should apply pressure slowly and progressively, watching for any tap signal including verbal taps or distress sounds.",
         "safety_critical": true,
-        "answer_line": "Ensure a hand free to tap",
+        "answer_line": "Keep a hand free to tap",
         "distractors": {
           "plausible": [
-            "Apply pressure slowly only",
-            "Watch for a verbal tap"
+            "Break both grips before finishing",
+            "Pinch knees tight, then extend"
           ],
           "trap": [
             "Trap both hands completely"
@@ -402,14 +402,14 @@
         "question": "Why is perpendicular hip positioning important for the effectiveness of the far side armbar?",
         "answer": "Perpendicular hip positioning (creating a 'T' shape with your body relative to opponent's) is crucial because it maximizes leverage on the elbow joint by creating the proper angle of attack. When your hips are positioned near their head at a 90-degree angle, your hip drive creates direct hyperextension force on the elbow. Poor angle reduces leverage, making the submission weaker and easier to defend against, while proper positioning allows even smaller practitioners to finish larger opponents.",
         "safety_critical": false,
-        "answer_line": "Maximizes elbow leverage",
+        "answer_line": "Creates the strongest elbow angle",
         "distractors": {
           "plausible": [
-            "Stops them from posturing up",
-            "Blocks guard recovery"
+            "Keeps their shoulders flat",
+            "Stops them sitting up to your side"
           ],
           "trap": [
-            "Keep hips parallel to them"
+            "Stay square and get stacked over"
           ]
         }
       },
@@ -432,14 +432,14 @@
         "question": "What anatomical structure does the far side armbar attack, and at what angle does maximum breaking pressure occur?",
         "answer": "The far side armbar attacks the elbow joint by hyperextending it beyond its natural range of motion. The elbow is a hinge joint designed to bend in one direction only, and maximum breaking pressure occurs when the arm is fully straightened with the elbow pit facing upward toward your hips. The fulcrum point is created by your hip bones pressing against the back of the opponent's elbow while you control the wrist and apply downward pressure, creating leverage that the joint cannot resist.",
         "safety_critical": false,
-        "answer_line": "Elbow, fully extended arm",
+        "answer_line": "Elbow, arm fully extended",
         "distractors": {
           "plausible": [
             "Shoulder, at a 90-degree bend",
             "Wrist, with hand rotated"
           ],
           "trap": [
-            "Elbow, while still bent"
+            "Crank a bent arm and get stacked"
           ]
         }
       },
@@ -447,14 +447,14 @@
         "question": "Your opponent begins to posture up and stack you during the far side armbar finish - what adjustment prevents escape?",
         "answer": "When being stacked, immediately angle your body away from the opponent by pivoting on your hips, creating a diagonal line with your body rather than staying perpendicular. Bring the leg that was across their face down to their hip to prevent them from driving forward. Keep the wrist controlled close to your chest and squeeze your knees together to maintain arm isolation. If stacking continues, consider transitioning to a belly-down armbar position or switching to triangle if their head drops low enough.",
         "safety_critical": false,
-        "answer_line": "Angle hips away, block hip",
+        "answer_line": "Angle hips away, block their hip",
         "distractors": {
           "plausible": [
-            "Squeeze knees, hold position",
-            "Sit back and reset guard"
+            "Push their head away with a foot",
+            "Sit up and rebuild your guard"
           ],
           "trap": [
-            "Lean forward into the stack"
+            "Ride the stack, let them fold you"
           ]
         }
       },
@@ -462,14 +462,14 @@
         "question": "What is the point of no escape in the far side armbar, and how do you recognize when you've passed it?",
         "answer": "The point of no escape occurs when you have achieved three conditions: the arm is fully isolated across your chest with their elbow above your hip line, your legs are properly controlling their body (one across the face/chest, one hooking or blocking their far hip), and you have begun hip extension with their thumb pointing toward their feet. At this point, any defensive movement they make typically worsens their position. You recognize it by the feeling of complete control where the opponent's struggles create no meaningful space or positional improvement.",
         "safety_critical": false,
-        "answer_line": "Isolated arm, legs set, hips driving",
+        "answer_line": "Arm isolated, legs set, hips driving",
         "distractors": {
           "plausible": [
-            "Wrist controlled, arm still bent",
-            "Opponent's shoulder pinned"
+            "Wrist held but arm still bent",
+            "Their far shoulder pinned down"
           ],
           "trap": [
-            "They stop struggling fully"
+            "Loosen grips once they stop moving"
           ]
         }
       },
@@ -477,14 +477,14 @@
         "question": "What grip adjustments should you make during the finishing sequence of the far side armbar?",
         "answer": "During the finishing sequence, transition from initial wrist control to a two-on-one grip near the wrist for maximum control, keeping your elbows tight to your body. Pull the wrist toward your chest rather than away from your body. If finishing in gi, grip the sleeve near the wrist for additional control. Ensure your forearms create a shelf that prevents the arm from bending at the elbow. The grip should be firm but not so tight that it prevents you from feeling the submission progress and controlling the speed of application.",
         "safety_critical": false,
-        "answer_line": "Two-on-one grip at wrist",
+        "answer_line": "Two-on-one grip at the wrist",
         "distractors": {
           "plausible": [
-            "One hand grips the sleeve",
-            "Grip higher near the bicep"
+            "Hold higher up near the bicep",
+            "Grip their shoulder to steer them"
           ],
           "trap": [
-            "Push wrist away from chest"
+            "Shove wrist away, lose the arm"
           ]
         }
       },
@@ -492,14 +492,14 @@
         "question": "In competition, what finishing strategies increase your success rate with the far side armbar?",
         "answer": "In competition, success rate increases with several strategies: attack the armbar as part of a chain rather than isolated, so defensive reactions to other threats expose the arm; secure grips before fully committing to the rotation to prevent last-second defenses; use constant hip pressure even during the setup to exhaust the opponent's defensive energy; finish by driving hips up rather than pulling down on the arm for stronger leverage; and if the first attempt fails, immediately transition to another attack rather than forcing the same submission, then return to the armbar when the opponent's defenses reset.",
         "safety_critical": false,
-        "answer_line": "Chain attacks, drive hips up",
+        "answer_line": "Chain attacks and drive hips up",
         "distractors": {
           "plausible": [
-            "Isolate one submission only",
-            "Pull down hard on the arm"
+            "Hunt one lone armbar attempt",
+            "Save all pressure for the finish"
           ],
           "trap": [
-            "Force it, ignore other options"
+            "Stay stacked and crank the arm"
           ]
         }
       }
@@ -638,14 +638,14 @@
         "question": "Why should you turn toward the attacker rather than away when defending the far side armbar?",
         "answer": "Turning toward the attacker denies them the perpendicular hip angle they need to finish the armbar. When you drive your shoulder into the attacker, it collapses their body alignment and prevents their hips from creating the T-shape fulcrum against your elbow. Turning away from the attacker does the opposite: it facilitates their rotation, accelerates perpendicular alignment, and may additionally expose your back for a transition to back control, making your situation worse.",
         "safety_critical": false,
-        "answer_line": "Denies perpendicular angle",
+        "answer_line": "Denies them the perpendicular angle",
         "distractors": {
           "plausible": [
-            "Protects your back position",
-            "Keeps hips square to them"
+            "Keeps your hips square to them",
+            "Buys time to catch your breath"
           ],
           "trap": [
-            "Turn away to create space"
+            "Turn away and feed them your back"
           ]
         }
       },
@@ -653,11 +653,11 @@
         "question": "When should you tap rather than continue defending the far side armbar, and why is this a safety-critical decision?",
         "answer": "You should tap immediately when you feel hyperextension pressure on your elbow that you cannot relieve through positional adjustment. If your arm is fully extended, the attacker's hips are driving upward, and your grip fighting has failed, continuing to resist risks ligament tears or elbow dislocation. The elbow joint has very little tolerance for hyperextension beyond its natural range. In training, tap early and tap often; the cost of tapping is a reset, while the cost of a torn ligament is months of recovery. Never let ego override joint safety.",
         "safety_critical": true,
-        "answer_line": "Tap when pressure unrelieved",
+        "answer_line": "Tap once you can't relieve it",
         "distractors": {
           "plausible": [
-            "Tap only once it fully locks",
-            "Wait for the coach to stop it"
+            "Tap only after the arm locks",
+            "Tap when your grip first slips"
           ],
           "trap": [
             "Fight through the pain"
@@ -671,11 +671,11 @@
         "answer_line": "Bridge and roll immediately",
         "distractors": {
           "plausible": [
-            "Wait for legs to settle first",
-            "Pull the arm back defensively"
+            "Flatten out and hide the elbow",
+            "Push their leg off your face"
           ],
           "trap": [
-            "Let them finish the swing"
+            "Straighten the arm to slip it out"
           ]
         }
       },
@@ -683,14 +683,14 @@
         "question": "How does the hitchhiker escape work mechanically, and what are its limitations?",
         "answer": "The hitchhiker escape works by rotating the trapped arm so that your thumb points toward your head rather than your feet, which realigns the elbow joint relative to the attacker's hip pressure and relieves the hyperextension angle. You then spin your body in the direction of your thumb, rolling to your knees and extracting your arm. The primary limitation is that skilled attackers control thumb direction by ensuring it points toward your feet, which blocks the rotation needed for the escape. It also requires the attacker to have slightly loose leg control, and attempting it too late when significant pressure is already applied risks self-inflicted injury during the rotation.",
         "safety_critical": false,
-        "answer_line": "Rotate thumb toward head",
+        "answer_line": "Turn thumb up toward your head",
         "distractors": {
           "plausible": [
-            "Rotate thumb toward feet",
-            "Pull straight back and yank"
+            "Turn the palm down and pull",
+            "Bridge and bench press away"
           ],
           "trap": [
-            "Force rotation under pressure"
+            "Yank the trapped arm free hard"
           ]
         }
       }

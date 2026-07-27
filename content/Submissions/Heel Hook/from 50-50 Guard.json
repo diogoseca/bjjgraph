@@ -307,10 +307,10 @@
         "distractors": {
           "plausible": [
             "Ankle ligaments primarily",
-            "Hip flexor tendons"
+            "Calf muscle and Achilles"
           ],
           "trap": [
-            "Spinal discs and vertebrae"
+            "Ride it out, no pain warning"
           ]
         }
       },
@@ -333,14 +333,14 @@
         "question": "What are the indicators that the heel hook is approaching the breaking point?",
         "answer": "The breaking point approaches when the opponent's foot begins externally rotating relative to their knee with the rotational force building progressively. Visual indicators include the toes pointing outward beyond their natural range while the knee remains relatively fixed. Tactile indicators include feeling the ankle joint reaching maximum rotation and the ligament tension transmitting through your grip. In training, you must stop well before this point since knee ligament damage occurs without warning pain signals.",
         "safety_critical": true,
-        "answer_line": "Foot rotates out, no pain warning",
+        "answer_line": "Foot rotates out, no warning",
         "distractors": {
           "plausible": [
-            "Opponent taps or yells out",
+            "Loud pop before the tap",
             "Knee bends past 90 degrees"
           ],
           "trap": [
-            "Wait for a visible pain response"
+            "Crank until they show pain"
           ]
         }
       },
@@ -351,11 +351,11 @@
         "answer_line": "Chain to kneebar or back take",
         "distractors": {
           "plausible": [
-            "Keep forcing the same heel grip",
-            "Reset to a neutral position"
+            "Switch hands and re-grip heel",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Abandon the leg, stand up"
+            "Keep cranking the hidden heel"
           ]
         }
       },
@@ -366,7 +366,7 @@
         "answer_line": "One hand always stays on heel",
         "distractors": {
           "plausible": [
-            "Alternate hands every few seconds",
+            "Chase the heel with fingertips",
             "Grip ankle bone, not heel"
           ],
           "trap": [
@@ -441,11 +441,11 @@
         "answer_line": "No pain warning before injury",
         "distractors": {
           "plausible": [
-            "Opponent taps later than usual",
-            "Ligaments are naturally weaker"
+            "Knee ligaments are weaker tissue",
+            "Knees carry more of your weight"
           ],
           "trap": [
-            "Apply pressure fast to test it"
+            "Crank fast to test their defense"
           ]
         }
       }
@@ -586,14 +586,14 @@
         "question": "What is the safest way to tap to a heel hook from 50-50 Guard?",
         "answer": "Tap verbally by saying 'tap' clearly and loudly as the primary signal, since your hands may be occupied fighting grips. Simultaneously tap physically with your free hand on the opponent or the mat with multiple rapid taps. If verbal and hand taps are not possible, tap with your free foot. Tap early before feeling significant rotational pressure since knee ligament damage occurs without adequate pain warning. Never try to tough through a heel hook.",
         "safety_critical": true,
-        "answer_line": "Tap loud, hand, then foot if needed",
+        "answer_line": "Shout tap, slap, or kick the mat",
         "distractors": {
           "plausible": [
-            "Wait, then tap once it hurts",
-            "Tap only with your free hand"
+            "Wait until the pressure peaks",
+            "Signal by shaking your head"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Muscle the heel free instead"
           ]
         }
       },
@@ -604,7 +604,7 @@
         "answer_line": "Hide heel, strip grips, extract",
         "distractors": {
           "plausible": [
-            "Counter-attack the heel immediately",
+            "Flatten out and grip their belt",
             "Push opponent's hip away first"
           ],
           "trap": [
@@ -634,8 +634,8 @@
         "answer_line": "Assess inside position in 3-5 sec",
         "distractors": {
           "plausible": [
-            "Always fight for the reversal",
-            "Extract immediately, never contest"
+            "Base the choice on grip strength",
+            "Always fight for the reversal"
           ],
           "trap": [
             "Stall and wait the opponent out"

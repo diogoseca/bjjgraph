@@ -233,28 +233,28 @@
       {
         "question": "What is the primary goal of Leg Drag to Back Take?",
         "answer": "The primary goal is to capitalize on the opponent's defensive reaction of turning away from leg drag pressure to establish back control, the most dominant position in BJJ scoring 4 points with highest submission percentage.",
-        "answer_line": "Follow their turn to the back",
+        "answer_line": "Follow their turn to take the back",
         "distractors": {
           "plausible": [
-            "Pass to side control",
-            "Finish with a leg lock"
+            "Attack the near leg for a heel hook",
+            "Consolidate a chest-to-chest pin"
           ],
           "trap": [
-            "Release grips and reset"
+            "Release the leg and pull guard"
           ]
         }
       },
       {
         "question": "What position do you start Leg Drag to Back Take from?",
         "answer": "This technique starts from Leg Drag Control/Top, where you have pulled the opponent's leg across their body and established hip dominance with shoulder or head control.",
-        "answer_line": "Leg Drag Control (top)",
+        "answer_line": "Leg drag control on top",
         "distractors": {
           "plausible": [
-            "Side Control (top)",
-            "Knee on Belly (top)"
+            "Chest-to-chest pin on top",
+            "Riding a knee on the belly"
           ],
           "trap": [
-            "Half Guard (bottom)"
+            "From inside their closed guard"
           ]
         }
       },
@@ -289,14 +289,14 @@
       {
         "question": "When is the best time to attempt Leg Drag to Back Take?",
         "answer": "The optimal moment is when you feel the opponent beginning to rotate away from your leg drag pressure. This defensive reaction exposes their back and creates the window for following their movement with hooks and seatbelt.",
-        "answer_line": "When they start rotating away",
+        "answer_line": "The instant they rotate away",
         "distractors": {
           "plausible": [
-            "Right after securing leg drag",
-            "After they turtle fully"
+            "After they flatten to their back",
+            "Once they lock a deep half"
           ],
           "trap": [
-            "Before applying leg drag pressure"
+            "While they still face you squarely"
           ]
         }
       },
@@ -348,11 +348,11 @@
         "answer_line": "Release only as rotation begins",
         "distractors": {
           "plausible": [
-            "Release as soon as hip clears",
-            "Hold grip until hooks are in"
+            "Let go once your grip tires",
+            "Keep the leg pinned till hooks land"
           ],
           "trap": [
-            "Release early to bait a turn"
+            "Drop the leg and dive for hooks"
           ]
         }
       },
@@ -376,11 +376,11 @@
         "answer_line": "Attack the choke, neck is open",
         "distractors": {
           "plausible": [
-            "Fight to free the hook first",
-            "Switch to the other hook"
+            "Peel their hands off the leg",
+            "Swap to the other side hook"
           ],
           "trap": [
-            "Let go and reset seatbelt"
+            "Cross your ankles to hold them"
           ]
         }
       },
@@ -522,11 +522,11 @@
         "answer_line": "Never turn fully away",
         "distractors": {
           "plausible": [
-            "Never give up the underhook",
-            "Never stop moving your hips"
+            "Never let them flatten your hips",
+            "Never stop shrimping backward"
           ],
           "trap": [
-            "Turn away to create scramble"
+            "Roll away to start a scramble"
           ]
         }
       },
@@ -561,14 +561,14 @@
       {
         "question": "Why is accepting half guard a favorable defensive outcome when defending the back take?",
         "answer": "Half guard is significantly safer than back control because you face your opponent, have frame options, and can work sweeps and guard recovery. Back control gives the opponent 4 points and the highest submission percentage in BJJ. Trading back exposure for half guard is always a positional win for the defender.",
-        "answer_line": "Trade back for half guard safety",
+        "answer_line": "You face them and can frame",
         "distractors": {
           "plausible": [
-            "Equal risk to back control",
-            "Only safe if on top"
+            "Half guard scores you points",
+            "Both positions carry equal risk"
           ],
           "trap": [
-            "Fight to keep facing away"
+            "Give the back, then turn in later"
           ]
         }
       },
@@ -579,10 +579,10 @@
         "distractors": {
           "plausible": [
             "Bridge and roll for mount",
-            "Frame and push hips away"
+            "Pummel for an underhook first"
           ],
           "trap": [
-            "Wait for hooks before escaping"
+            "Turn belly-down to build base"
           ]
         }
       }

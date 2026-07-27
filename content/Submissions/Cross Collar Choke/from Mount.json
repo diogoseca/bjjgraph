@@ -305,14 +305,14 @@
         "question": "Your opponent begins stripping your first collar grip with both hands — what immediate attacking opportunity does this create?",
         "answer": "When the opponent uses both hands to strip your collar grip, both of their arms are occupied above their torso and away from their body. This creates an immediate Americana or Kimura opportunity on either arm since they cannot defend the shoulder lock while gripping your wrist. Alternatively, their elevated elbows create space to advance to high mount where collar access improves dramatically.",
         "safety_critical": false,
-        "answer_line": "Armbar or Kimura on the arm",
+        "answer_line": "Americana or Kimura on either arm",
         "distractors": {
           "plausible": [
             "Reinsert the same collar grip",
-            "Switch to a cross choke instead"
+            "Wait for their hands to reset"
           ],
           "trap": [
-            "Release mount to chase the arm"
+            "Abandon mount to chase the arm"
           ]
         }
       },
@@ -323,8 +323,8 @@
         "answer_line": "Wrist blade on side of neck",
         "distractors": {
           "plausible": [
-            "Deeper grip fixes throat pain",
-            "More squeeze pressure overall"
+            "Ask if they feel lightheaded",
+            "Judge it by how fast they tap"
           ],
           "trap": [
             "Center forearm on the windpipe"
@@ -335,14 +335,14 @@
         "question": "Why must the first collar grip be deep behind the neck before attempting the second grip?",
         "answer": "A shallow first grip positions the forearm across the trachea rather than the carotid artery, producing pain without effective blood restriction. Deep insertion places the wrist blade directly against the artery, ensuring that when the X-formation is completed with the second grip, bilateral compression occurs immediately. Additionally, a shallow first grip is easier for the opponent to strip, wasting the setup work and compromising your mount stability.",
         "safety_critical": false,
-        "answer_line": "Deep grip = wrist on artery",
+        "answer_line": "Wrist blade lands on the artery",
         "distractors": {
           "plausible": [
-            "Deep grip is just harder to strip",
-            "Deep grip protects your posture"
+            "Mainly stops grip stripping",
+            "Mainly protects your posture"
           ],
           "trap": [
-            "Shallow grip lets you finish faster"
+            "Crank the throat for a fast tap"
           ]
         }
       },
@@ -387,7 +387,7 @@
             "Only works if arms are extended"
           ],
           "trap": [
-            "Chase whichever looks open first"
+            "Abandon mount to force the armbar"
           ]
         }
       },
@@ -429,10 +429,10 @@
         "distractors": {
           "plausible": [
             "Squeeze harder without adjusting",
-            "Pull the collar tighter overall"
+            "Release a grip and re-feed it"
           ],
           "trap": [
-            "Crank chin downward for pressure"
+            "Sit up tall to crank the choke"
           ]
         }
       }
@@ -569,10 +569,10 @@
         "distractors": {
           "plausible": [
             "Wait for visible dizziness",
-            "Tap only if grip fully locks"
+            "Tap only if your neck hurts"
           ],
           "trap": [
-            "Try to fight through the fade"
+            "Fight it until vision goes dark"
           ]
         }
       },

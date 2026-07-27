@@ -863,21 +863,21 @@
           "Turn in first, then defend neck"
         ],
         "trap": [
-          "Attack legs before neck"
+          "Buck and bridge, ignore the choke"
         ]
       }
     },
     {
       "question": "Why does the position-before-submission principle carry heightened importance from back control compared to many other dominant positions?",
       "answer": "Back control offers the sport's highest finishing rate, which tempts attackers to rush submissions before control is complete - and that impatience is precisely how the position is lost. Because breaking the harness grip to attack the neck temporarily frees the defender's arms and reduces upper-body control, a premature attack hands the defender the tools to hand-fight, strip hooks, and escape unopposed. Across all variants the correct sequence is to first secure all three control layers, then systematically break down the defender's hand fighting, and only commit to a finish once the defense has been compromised. Patient control-first hunting yields far higher finishing rates than aggressive early attacks that risk surrendering the best position in the sport.",
-      "answer_line": "Secure control before attacking",
+      "answer_line": "Attacking loosens your own control",
       "distractors": {
         "plausible": [
-          "Attack instantly, high finish rate",
-          "Break harness grip immediately"
+          "Finish rate is highest, so rush it",
+          "Defender is helpless once hooks set"
         ],
         "trap": [
-          "Rush the choke early"
+          "Break grip to lunge for the neck"
         ]
       }
     },
@@ -901,11 +901,11 @@
       "answer_line": "Defending one exposes another",
       "distractors": {
         "plausible": [
-          "Only the neck is ever at risk",
-          "Defend arms only, ignore neck"
+          "Only the neck is truly at risk",
+          "Attacks come in a set order"
         ],
         "trap": [
-          "Free both hands to strip choke"
+          "Grab the choking arm with both hands"
         ]
       }
     },
@@ -916,7 +916,7 @@
       "distractors": {
         "plausible": [
           "Weakens grip on the harness",
-          "Makes hooks too deep"
+          "Slows switching to the mount"
         ],
         "trap": [
           "Cross feet for tighter squeeze"
@@ -931,8 +931,8 @@
       "answer_line": "Chest, hooks/triangle, harness",
       "distractors": {
         "plausible": [
-          "Harness grip is the only layer",
-          "Hip pressure alone suffices"
+          "Crossface, underhook, whizzer",
+          "Knee pin, collar tie, base"
         ],
         "trap": [
           "Loose chest, tight hooks only"
@@ -945,11 +945,11 @@
       "answer_line": "Creates strong-arm choking side",
       "distractors": {
         "plausible": [
-          "Symmetric grip is stronger",
+          "Symmetric grip resists escapes",
           "Diagonal grip frees both hands"
         ],
         "trap": [
-          "Grip both shoulders evenly"
+          "Hug the waist with both arms"
         ]
       }
     },
@@ -960,7 +960,7 @@
       "distractors": {
         "plausible": [
           "High hooks near belt control hips",
-          "Hook depth doesn't matter"
+          "Point toes inward for grip"
         ],
         "trap": [
           "Hook outside the thighs"
@@ -977,7 +977,7 @@
           "Hooks immobilize hips more"
         ],
         "trap": [
-          "Leave triangle loose to relax"
+          "Ignore your exposed crossed ankle"
         ]
       }
     },
@@ -987,8 +987,8 @@
       "answer_line": "Elevated shoulders keep neck open",
       "distractors": {
         "plausible": [
-          "Flat shoulders help attacker",
-          "Shoulder height is irrelevant"
+          "Flat shoulders help the attacker",
+          "Bridging is impossible when flat"
         ],
         "trap": [
           "Let shoulders flatten to mat"
@@ -1001,8 +1001,8 @@
       "answer_line": "Defender fights blind by feel",
       "distractors": {
         "plausible": [
-          "Defender can see attacker's hands",
-          "Sight advantage favors defender"
+          "Back attacks are easy to read",
+          "Chin tuck alone stops chokes"
         ],
         "trap": [
           "Ignore hand fighting, turtle up"

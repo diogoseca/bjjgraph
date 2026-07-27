@@ -424,11 +424,11 @@
         "question": "How does the outside heel hook finish differ in competition versus training application?",
         "answer": "In competition, practitioners may apply the heel hook faster and with more commitment since the stakes of losing the grip are higher. However, responsible competitors still apply progressively rather than explosively. In training, the minimum 5-7 second application window is mandatory, and both partners should communicate clearly before engaging in heel hook exchanges. The mechanical technique is identical, but training demands more deliberate speed control, earlier tapping, and verbal communication about pressure levels throughout the attempt.",
         "safety_critical": true,
-        "answer_line": "Same mechanics, controlled speed",
+        "answer_line": "Same mechanics, stay progressive",
         "distractors": {
           "plausible": [
-            "Faster explosive rotation always",
-            "No need to communicate live"
+            "Different grips in competition",
+            "Faster is safe once warmed up"
           ],
           "trap": [
             "Snap it immediately for points"
@@ -621,7 +621,7 @@
         "answer_line": "Boot defense before grip locks",
         "distractors": {
           "plausible": [
-            "Straighten leg to power out",
+            "Cross ankles to trap the foot",
             "Kick free with explosive force"
           ],
           "trap": [
@@ -636,8 +636,8 @@
         "answer_line": "Straight leg amplifies rotation",
         "distractors": {
           "plausible": [
-            "Bent knee absorbs more force",
-            "It relieves pressure quickly"
+            "Extending frees the trapped heel",
+            "It weakens their figure-four grip"
           ],
           "trap": [
             "Kick out to break the grip"

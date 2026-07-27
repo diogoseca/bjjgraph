@@ -282,11 +282,11 @@
         "answer_line": "Elbow joint hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder joint rotation",
-            "Wrist joint compression"
+            "Shoulder capsule rotation",
+            "Wrist and forearm compression"
           ],
           "trap": [
-            "Bicep muscle tear"
+            "Neck — bridge into a crank"
           ]
         }
       },
@@ -294,14 +294,14 @@
         "question": "What grip configuration should you establish before initiating the hip cut from open guard?",
         "answer": "Secure a 2-on-1 grip on the opponent's wrist using a pistol grip with your near hand and a cross-grip or C-grip with your far hand. Both hands must control the wrist before the hip escape begins, because the grip is the anchor for maintaining arm isolation throughout the entire sequence from hip cut through belly-down rotation. Without this dual wrist control, the opponent can retract the arm during any phase of the attack.",
         "safety_critical": false,
-        "answer_line": "2-on-1 wrist control both hands",
+        "answer_line": "2-on-1 wrist control, both hands",
         "distractors": {
           "plausible": [
-            "Single wrist grip only",
+            "Single wrist grip is enough",
             "Sleeve and collar grip"
           ],
           "trap": [
-            "Grab the far ankle first"
+            "Release wrist to grab collar"
           ]
         }
       },
@@ -309,14 +309,14 @@
         "question": "Why is the belly-down rotation considered the point of no escape for the defender?",
         "answer": "Once the attacker completes the belly-down rotation with knees squeezed and wrist pinned to the chest, the defender loses their primary escape options. They cannot stack because the attacker is prone. The hitchhiker escape becomes extremely difficult because the rotation direction has already moved past the escape window. The mechanical advantage of the hip bridge from the prone position makes even very small upward movements generate significant hyperextension pressure on the elbow joint.",
         "safety_critical": false,
-        "answer_line": "Stack, hitchhiker escapes both gone",
+        "answer_line": "Prone kills stack and hitchhiker",
         "distractors": {
           "plausible": [
-            "Opponent can still stack up",
-            "Hitchhiker escape still works"
+            "Rotation opens new escape angles",
+            "Knees must loosen once belly-down"
           ],
           "trap": [
-            "They can bridge free easily"
+            "Ride it out and grip fight"
           ]
         }
       },
@@ -324,14 +324,14 @@
         "question": "How should you apply finishing pressure to prevent injury during training?",
         "answer": "Apply the hip bridge slowly and progressively, raising your hips in small increments while constantly monitoring for the tap. The belly-down position generates far more force than a standard face-up armbar, so the margin between submission pressure and injury is significantly smaller. Never jerk or spike the hips upward. Allow the training partner adequate time to recognize the submission and tap before increasing pressure further. If uncertain, pause rather than increase force.",
         "safety_critical": true,
-        "answer_line": "Bridge slowly, watch for tap",
+        "answer_line": "Bridge slowly, watch for the tap",
         "distractors": {
           "plausible": [
-            "Apply pressure fast then pause",
-            "Increase pressure until resistance"
+            "Set the grip, then bridge fully",
+            "Squeeze knees, keep hips static"
           ],
           "trap": [
-            "Jerk hips up sharply"
+            "Jerk the hips up sharply"
           ]
         }
       },
@@ -342,11 +342,11 @@
         "answer_line": "Chain to omoplata or triangle",
         "distractors": {
           "plausible": [
-            "Chase the retracting arm hard",
-            "Reset guard and restart attack"
+            "Squeeze knees and wait it out",
+            "Sit up and re-grip the sleeve"
           ],
           "trap": [
-            "Yank the wrist back forcefully"
+            "Cross the ankles and hold on"
           ]
         }
       },
@@ -357,11 +357,11 @@
         "answer_line": "Release hips and open knees",
         "distractors": {
           "plausible": [
-            "Ease pressure gradually first",
-            "Hold position, confirm the tap"
+            "Roll them into side control",
+            "Sit up and re-grip the wrist"
           ],
           "trap": [
-            "Keep bridging until fully still"
+            "Hold pressure through the tap"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Accelerate turn, tighten knees",
         "distractors": {
           "plausible": [
-            "Stop rotating and reset grip",
-            "Release wrist to re-angle"
+            "Hip out to rebuild the angle",
+            "Pull the wrist toward your hip"
           ],
           "trap": [
-            "Let them rotate freely through"
+            "Open knees to follow them over"
           ]
         }
       },
@@ -387,11 +387,11 @@
         "answer_line": "Pin wrist, knees tight, posture down",
         "distractors": {
           "plausible": [
-            "Only wrist control confirmed",
-            "Legs crossed over their back"
+            "Wrist pinned is enough",
+            "Ankles crossed over their back"
           ],
           "trap": [
-            "Opponent already flat on stomach"
+            "Rotate before breaking posture"
           ]
         }
       }
@@ -509,10 +509,10 @@
         "distractors": {
           "plausible": [
             "Opponent passing to side control",
-            "Single underhook, forward pressure"
+            "Underhook and forward pressure"
           ],
           "trap": [
-            "Opponent shooting for a takedown"
+            "Posture back and pull the arm"
           ]
         }
       },
@@ -520,14 +520,14 @@
         "question": "When should you tap to a belly down armbar finish to prevent injury?",
         "answer": "Tap immediately when you feel extension pressure on your elbow after the attacker has completed the belly-down rotation. The prone position generates extreme mechanical advantage, and the window between feeling pressure and sustaining ligament damage is very small compared to standard armbars. Do not wait to see if you can still escape once the prone position is fully established — tap at the first sign of progressive elbow extension from the completed belly-down position.",
         "safety_critical": true,
-        "answer_line": "At first sign of elbow extension",
+        "answer_line": "At the first elbow extension",
         "distractors": {
           "plausible": [
-            "Only when rotation not complete",
-            "Wait until you can't move at all"
+            "As soon as they grab your wrist",
+            "After one hip-escape attempt"
           ],
           "trap": [
-            "Try to escape before tapping"
+            "Wait for a pop, then tap"
           ]
         }
       },
@@ -553,11 +553,11 @@
         "answer_line": "Straightens elbow, aids the finish",
         "distractors": {
           "plausible": [
-            "Tires out the attacker",
-            "Resets the guard position"
+            "Creates space to spin out",
+            "Loosens their knee squeeze"
           ],
           "trap": [
-            "Stacks the attacker safely"
+            "Turn thumb down and pull hard"
           ]
         }
       }

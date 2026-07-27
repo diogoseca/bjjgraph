@@ -244,25 +244,25 @@
         "answer_line": "Zero-space chest-to-chest lock",
         "distractors": {
           "plausible": [
-            "Crossface pressure first",
-            "Strong underhook control"
+            "Hooks under both their legs",
+            "Knee sliced across their belt line"
           ],
           "trap": [
-            "Loose grip for mobility"
+            "Posture up to reset the grip"
           ]
         }
       },
       {
         "question": "Your opponent establishes a strong knee shield before you can secure the body lock - how do you address this?",
         "answer": "You must address the knee shield before attempting the body lock, because chest-to-chest contact is impossible with a knee between you. Use crossface pressure and hip-to-hip connection to walk past the knee shield first, or smash the knee shield flat by driving your weight into it and pinching your elbow inside their knee. Only once the knee shield is cleared or bypassed should you commit to clasping the body lock.",
-        "answer_line": "Smash knee shield flat first",
+        "answer_line": "Clear the knee shield first",
         "distractors": {
           "plausible": [
-            "Clasp body lock anyway",
-            "Underhook the far leg"
+            "Stand up and break their grips",
+            "Pull their bottom leg out"
           ],
           "trap": [
-            "Back off and re-shoot"
+            "Clasp over the knee shield"
           ]
         }
       },
@@ -272,11 +272,11 @@
         "answer_line": "Kills their hip mobility",
         "distractors": {
           "plausible": [
-            "Frees your grip pressure",
-            "Tires out their legs"
+            "Squares your hips to the mat",
+            "Makes the crossface unnecessary"
           ],
           "trap": [
-            "Lets you release the lock early"
+            "Clear the leg while still on side"
           ]
         }
       },
@@ -286,11 +286,11 @@
         "answer_line": "Forehead down, crossface pressure",
         "distractors": {
           "plausible": [
-            "Look at the trapped leg",
-            "Chin tucked to your chest"
+            "Chin tucked into your own chest",
+            "Head on the trapped-leg side"
           ],
           "trap": [
-            "Lift head to see the pass"
+            "Lift head to watch the leg"
           ]
         }
       },
@@ -301,10 +301,10 @@
         "distractors": {
           "plausible": [
             "S-grip around the waist",
-            "Gable grip around the waist"
+            "Butterfly grip, four over four"
           ],
           "trap": [
-            "Butterfly grip, four over four"
+            "Clasp low under their hips"
           ]
         }
       },
@@ -328,11 +328,11 @@
         "answer_line": "Tiny steps, no torso lift",
         "distractors": {
           "plausible": [
-            "Big steps to cover ground",
-            "Push off your toes hard"
+            "Post on your free knee to walk",
+            "Turn your hips to the ceiling"
           ],
           "trap": [
-            "Lift hips to gain space"
+            "Big hip lift to swing the leg out"
           ]
         }
       },
@@ -342,39 +342,39 @@
         "answer_line": "Only after leg is fully free",
         "distractors": {
           "plausible": [
-            "Release once leg starts moving",
-            "Release when hips are square"
+            "When they stop resisting",
+            "As soon as you cross the knee line"
           ],
           "trap": [
-            "Release early to reset grips"
+            "Open the lock to grab the head"
           ]
         }
       },
       {
         "question": "Your opponent successfully turns to their side and fights for an underhook during your body lock pass - what are your options?",
         "answer": "You have two primary options depending on how far they turn. If they are only partially turned, squeeze the body lock tighter and use your head as a wedge to walk them back flat, driving your forehead into the mat to force their shoulder down. If they have turned significantly and established an underhook, abandon the body lock pass and transition to taking the back, as their turning motion exposes their back. Fighting to force them flat from a deep turn wastes energy and is low percentage.",
-        "answer_line": "Deep turn: abandon, take back",
+        "answer_line": "Deep turn: abandon, take the back",
         "distractors": {
           "plausible": [
-            "Always fight to flatten them",
-            "Switch immediately to knee cut"
+            "Sit back into a leg entry",
+            "Give up the clasp and pass low"
           ],
           "trap": [
-            "Force flat from a deep turn"
+            "Reach across for their underhook"
           ]
         }
       },
       {
         "question": "What makes the body lock pass particularly effective in no-gi compared to other passing approaches?",
         "answer": "In no-gi, the body lock creates control through body-on-body connection rather than grip-dependent control that can be stripped. Without gi grips, the bottom player has fewer options to create distance or manage the passer's posture, making the tight body lock exceptionally difficult to escape. The pass also minimizes the speed and athleticism advantages that no-gi scrambles typically favor, instead converting the exchange into a methodical pressure sequence where technique and weight placement determine the outcome.",
-        "answer_line": "Body control beats grip control",
+        "answer_line": "Body connection can't be stripped",
         "distractors": {
           "plausible": [
-            "Faster than gi grip fighting",
-            "Uses more athletic scrambling"
+            "Sweat makes bottom player slip out",
+            "It needs less pressure than gi"
           ],
           "trap": [
-            "Relies on collar and sleeve grips"
+            "Grip fight the wrists instead"
           ]
         }
       }
@@ -502,25 +502,25 @@
         "answer_line": "Frame before the lock forms",
         "distractors": {
           "plausible": [
-            "Fight the grip once locked",
-            "Turn away once flattened"
+            "Break the clasp after it's set",
+            "Bridge hard once you're flat"
           ],
           "trap": [
-            "Wait, then escape the lock"
+            "Turn belly-down to escape"
           ]
         }
       },
       {
         "question": "Why is being flattened onto your back so damaging to your defensive position against the body lock pass?",
         "answer": "Being flat on your back eliminates hip mobility, which is the foundation of all guard retention and escape mechanics. Without the ability to create angles through hip movement, you cannot re-insert knee shield, initiate hip escapes, or generate the leverage needed for sweeps. The flat position also maximizes the passer's pressure advantage because their weight drives straight through your torso into the mat with no angular displacement.",
-        "answer_line": "Kills hip mobility entirely",
+        "answer_line": "No hips means no guard retention",
         "distractors": {
           "plausible": [
-            "Tires your arms out fast",
-            "Loses your grip strength"
+            "Stops you breathing deeply",
+            "Removes your leg-lock options"
           ],
           "trap": [
-            "Makes framing easier"
+            "Stay flat and wait for a mistake"
           ]
         }
       },
@@ -544,11 +544,11 @@
         "answer_line": "Apply, then fight back to side",
         "distractors": {
           "plausible": [
-            "Apply and hold it indefinitely",
-            "Apply before you're flattened"
+            "Apply it before they clasp",
+            "Use it to invert underneath"
           ],
           "trap": [
-            "Stay flat, keep lockdown only"
+            "Hold flat and stall on lockdown"
           ]
         }
       },

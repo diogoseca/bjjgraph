@@ -259,7 +259,7 @@
             "Tighten steadily the whole time"
           ],
           "trap": [
-            "Release grip to reset position"
+            "Unhook your legs to squeeze tighter"
           ]
         }
       },
@@ -269,11 +269,11 @@
         "answer_line": "Slack in the arm's diagonal line",
         "distractors": {
           "plausible": [
-            "Hooks feel too deep and heavy",
-            "Opponent's breathing gets heavier"
+            "Hooks locked too deep and heavy",
+            "Your wrist grip feels too tight"
           ],
           "trap": [
-            "Lifting chest to check position"
+            "Sit up tall to reassess control"
           ]
         }
       },
@@ -287,7 +287,7 @@
             "As deep as possible, near spine"
           ],
           "trap": [
-            "Thread over the shoulder joint"
+            "Thread so deep your chest lifts off"
           ]
         }
       },
@@ -315,7 +315,7 @@
             "Grip the hand for wrist control"
           ],
           "trap": [
-            "Grip with thumb outside, palm up"
+            "Grip their fingers to hold it down"
           ]
         }
       },
@@ -357,7 +357,7 @@
             "Re-establish the arm trap first"
           ],
           "trap": [
-            "Abandon the back for a takedown"
+            "Dive for a leglock, lose the back"
           ]
         }
       },
@@ -381,11 +381,11 @@
         "answer_line": "Structure over muscle, relax between",
         "distractors": {
           "plausible": [
-            "Grip as hard as possible always",
-            "Constantly re-tighten every second"
+            "Hold maximum grip pressure always",
+            "Re-tighten every few seconds"
           ],
           "trap": [
-            "Flex hard through every exhale"
+            "Sit up off them to rest your chest"
           ]
         }
       }
@@ -537,8 +537,8 @@
         "answer_line": "Hips create the rotation angle",
         "distractors": {
           "plausible": [
-            "Arm strength beats any lock",
-            "Pulling straight overpowers it"
+            "Pry the trapping wrist off",
+            "Bridge hard to break the lock"
           ],
           "trap": [
             "Stay flat and yank the arm free"
@@ -551,11 +551,11 @@
         "answer_line": "Defend, then exploit the opening",
         "distractors": {
           "plausible": [
-            "Ignore the choke, escape hips",
-            "Wait passively for it to pass"
+            "Wait for the choke threat to pass",
+            "Freeze and protect until it ends"
           ],
           "trap": [
-            "Tap out to reset the position"
+            "Ignore the choke and drive hips out"
           ]
         }
       },
@@ -565,11 +565,11 @@
         "answer_line": "Relax arm, breathe, be patient",
         "distractors": {
           "plausible": [
-            "Constantly pull against the trap",
-            "Struggle continuously throughout"
+            "Yank the trapped arm nonstop",
+            "Bridge repeatedly to tire them out"
           ],
           "trap": [
-            "Hold your breath and muscle through"
+            "Expose your neck to free the arm"
           ]
         }
       }

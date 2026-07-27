@@ -333,11 +333,11 @@
         "answer_line": "Step over, finish belly-down",
         "distractors": {
           "plausible": [
-            "Pry the grip apart with hands",
-            "Switch to armbar instead"
+            "Pry their clasped hands apart",
+            "Crank harder from the side"
           ],
           "trap": [
-            "Stand up and stack them"
+            "Stand up and abandon the pin"
           ]
         }
       },
@@ -348,11 +348,11 @@
         "answer_line": "Near arm extends from jaw pain",
         "distractors": {
           "plausible": [
-            "Opponent taps out early",
-            "They reach for your collar"
+            "They reach for your collar",
+            "They flatten and go quiet"
           ],
           "trap": [
-            "They turn away exposing back"
+            "Wait for them to fully relax"
           ]
         }
       },
@@ -363,8 +363,8 @@
         "answer_line": "Keeps arm extended, prevents retract",
         "distractors": {
           "plausible": [
-            "Stops them from bridging",
-            "Controls their far hip"
+            "Controls their far hip",
+            "Frees a hand for the wrist"
           ],
           "trap": [
             "Lift shoulder to see the wrist"
@@ -393,11 +393,11 @@
         "answer_line": "Slack between elbow and chest",
         "distractors": {
           "plausible": [
-            "Weak thumb grip on wrist",
-            "Loose figure-four hand clasp"
+            "Grabbing the wrong wrist",
+            "Thumb wrapped around the bar"
           ],
           "trap": [
-            "Squeezing knees together tight"
+            "Open the grip to reposition it"
           ]
         }
       },
@@ -439,10 +439,10 @@
         "distractors": {
           "plausible": [
             "Always finish from the side",
-            "Use belly-down first, always"
+            "Pick by your grip strength"
           ],
           "trap": [
-            "Switch finish based on your fatigue"
+            "Crank the side finish regardless"
           ]
         }
       },
@@ -483,11 +483,11 @@
         "answer_line": "Grip controls even without tap",
         "distractors": {
           "plausible": [
-            "Abandon grip if finish stalls",
-            "Only attack for the submission"
+            "Only hunt for the finish",
+            "Stall to run out the clock"
           ],
           "trap": [
-            "Release grip to reset for points"
+            "Let go and reset the position"
           ]
         }
       }
@@ -619,8 +619,8 @@
         "answer_line": "Clasp hands, elbow to ribs",
         "distractors": {
           "plausible": [
-            "Yank the arm straight out",
-            "Push their hip away sharply"
+            "Push their hip away sharply",
+            "Bridge away from the attacker"
           ],
           "trap": [
             "Pull the trapped arm free fast"

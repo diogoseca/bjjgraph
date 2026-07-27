@@ -150,14 +150,14 @@
       {
         "question": "The bottom player establishes a hook behind your knee - how do you recover before they complete the entanglement?",
         "answer": "Immediately shift your weight away from the hooked leg and begin the back step motion. As you step back, use your free hand to address the hook by pushing their leg away or pinning it against their body. Move slowly and deliberately rather than explosively jerking, which can complete the entanglement or cause injury. Reset to neutral distance once the hook is cleared.",
-        "answer_line": "Shift weight, clear hook slow",
+        "answer_line": "Shift weight away, clear hook slowly",
         "distractors": {
           "plausible": [
-            "Yank leg free fast",
-            "Grab their foot and twist"
+            "Grab their foot and twist it",
+            "Sprawl hips heavy onto their legs"
           ],
           "trap": [
-            "Jerk leg explosively free"
+            "Jerk your leg out explosively"
           ]
         }
       },

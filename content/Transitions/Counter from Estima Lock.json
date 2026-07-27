@@ -251,11 +251,11 @@
         "answer_line": "Turn toes out, drive heel down",
         "distractors": {
           "plausible": [
-            "Yank foot free immediately",
-            "Point toes, flex ankle"
+            "Kick free with your other leg",
+            "Sit up and grab their ankle"
           ],
           "trap": [
-            "Rip foot out without turning"
+            "Yank the foot straight out"
           ]
         }
       },
@@ -266,7 +266,7 @@
         "distractors": {
           "plausible": [
             "Tap only if the joint pops",
-            "Fight until you can't move"
+            "Tap the instant they grab the foot"
           ],
           "trap": [
             "Power through, extract anyway"

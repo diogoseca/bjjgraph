@@ -388,11 +388,11 @@
         "question": "In competition, what strategic advantage does the slow transition to this choke provide?",
         "answer": "The gradual transition from side control to north-south disguises the submission setup as a positional adjustment. Referees and opponents often do not recognize the choke threat until the arm is already deep and the position is locked. This means the opponent's defensive reactions come late, after the choke is already partially applied. Additionally, the slow grind of the transition is demoralizing and forces the opponent to expend energy defending what feels like pressure passing rather than a submission attack, creating a psychological advantage in longer matches.",
         "safety_critical": false,
-        "answer_line": "Disguises choke as a pass",
+        "answer_line": "Hides the setup as position change",
         "distractors": {
           "plausible": [
-            "Speeds up scoring for points",
-            "Tires opponent out mentally"
+            "Awards guard-pass points faster",
+            "Lets you rest mid-match"
           ],
           "trap": [
             "Announce the choke to intimidate"
@@ -410,7 +410,7 @@
             "Post free hand on the mat"
           ],
           "trap": [
-            "Grab their near-side wrist"
+            "Lift your chest to reach far"
           ]
         }
       },
@@ -554,8 +554,8 @@
         "answer_line": "Crossface deepens, they walk north",
         "distractors": {
           "plausible": [
-            "They switch to a tighter crossface",
-            "They grab your far-side collar"
+            "They post on your far hip",
+            "They pull half guard underneath"
           ],
           "trap": [
             "They just adjust their base weight"
@@ -584,8 +584,8 @@
         "answer_line": "Turn in to block the arm thread",
         "distractors": {
           "plausible": [
-            "Turn away to protect your neck",
-            "Stay flat and wait for space"
+            "Stay flat and wait for space",
+            "Reach back for their head"
           ],
           "trap": [
             "Turn away, expose your back"

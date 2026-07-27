@@ -285,8 +285,8 @@
         "answer_line": "Clear the hook, then Toreando",
         "distractors": {
           "plausible": [
-            "Grip fight through the hook",
-            "Speed through before hook set"
+            "Fight their upper-body grips first",
+            "Drive knee into their hip instead"
           ],
           "trap": [
             "Force Toreando with hook active"
@@ -302,7 +302,7 @@
             "Full 90+ degree step"
           ],
           "trap": [
-            "Step straight back away"
+            "Step back into their leg entry"
           ]
         },
         "answer_line": "45-90 degree angle step"
@@ -312,14 +312,14 @@
         "answer": "The main Toreando grips are knee grips, pant grips below the knee, ankle/cuff grips, sleeve-and-knee combination, and two-on-one leg control. Knee grips are the standard default in gi, providing good control and leverage. Pant grips below the knees give stronger control but require closer proximity. Ankle/cuff grips offer maximum leg immobilization, best against flexible opponents or strong frames. The sleeve and knee combination is used when you already have sleeve control from standing—maintain it while adding knee control. Two-on-one leg control puts both hands on one leg with body positioning controlling the other, used when the opponent's grips prevent bilateral control. The choice depends on the opponent's guard style, their grip fighting, and your current grip configuration.",
         "distractors": {
           "plausible": [
-            "Always use knee grips",
-            "Always use ankle grips"
+            "Same grip for every opponent",
+            "Pick grips by your own preference"
           ],
           "trap": [
-            "Grab both sleeves only"
+            "Grab both sleeves, ignore legs"
           ]
         },
-        "answer_line": "Match grip to opponent's guard"
+        "answer_line": "Knee grip default, ankle if flexible"
       },
       {
         "question": "How does the Toreando Pass integrate into a comprehensive guard passing system?",
@@ -327,11 +327,11 @@
         "answer_line": "Entry that chains to other passes",
         "distractors": {
           "plausible": [
-            "Standalone pass, no follow-up",
-            "Only used against open guard"
+            "A standalone move with no follow-up",
+            "Last resort when other passes fail"
           ],
           "trap": [
-            "Retreat if Toreando is stopped"
+            "Keep forcing it into a leg entry"
           ]
         }
       },
@@ -345,7 +345,7 @@
             "Step first, then redirect legs"
           ],
           "trap": [
-            "Pause to reset grips mid-pass"
+            "Freeze mid-pass, let them invert"
           ]
         }
       },
@@ -354,14 +354,14 @@
         "answer": "Expect the opponent to turn their hips and shoulders toward you to follow your lateral movement; counter by taking the back or establishing headquarters. This turning motion is the most common and effective defensive response as they attempt to maintain guard while you move. Since they are actively turning into you, their back becomes exposed, making this defensive choice create offensive opportunities for you. Alternatively, if you recognize they habitually turn to defend the Toreando, you can fake the Toreando motion to bait the turn, then capitalize on their predictable reaction with a pre-planned technique.",
         "distractors": {
           "plausible": [
-            "They turn in, reset guard",
-            "They frame and stand up"
+            "They shrimp away; chase the legs",
+            "They frame and stand to disengage"
           ],
           "trap": [
-            "Chase the far leg instead"
+            "Dive across and expose your back"
           ]
         },
-        "answer_line": "They turn in, take the back"
+        "answer_line": "They turn in — take the back"
       },
       {
         "question": "Your opponent posts both feet on your hips as you try to establish knee grips - how do you adjust your entry?",
@@ -369,11 +369,11 @@
         "answer_line": "Pin one ankle, pass that side",
         "distractors": {
           "plausible": [
-            "Push-pull both ankles apart",
-            "Fight both feet simultaneously"
+            "Fight both feet at once",
+            "Back out to break the frames"
           ],
           "trap": [
-            "Grab both pant legs and pull in"
+            "Lean forward onto both feet"
           ]
         }
       },
@@ -383,11 +383,11 @@
         "answer_line": "Crossface, drop hip, knee cut",
         "distractors": {
           "plausible": [
-            "Rip the leg free immediately",
-            "Retreat and restart standing"
+            "Back out and restart standing",
+            "Posture up and pry the knees"
           ],
           "trap": [
-            "Yank leg free, forcing scramble"
+            "Turn away to pull the leg free"
           ]
         }
       },
@@ -408,14 +408,14 @@
       {
         "question": "What grip adjustments are needed when performing the Toreando Pass in no-gi compared to gi?",
         "answer": "In no-gi, you lose access to pant and sleeve grips, so you must adapt to skin-contact control points. Grip behind both knees in the crease using a cupping grip, or control the shins with forearm pressure rather than hand grips. The pass must be executed with more speed and commitment because friction-based control is less secure than fabric grips. Consider using a slight push-and-release timing where you compress the knees momentarily then explode laterally during the brief window before the opponent can re-establish foot placement. Wrist control replaces sleeve grips if one hand needs to address upper body connection.",
-        "answer_line": "Cup knees, use speed not grips",
+        "answer_line": "Cup behind knees, commit fast",
         "distractors": {
           "plausible": [
-            "Control shins with forearms",
-            "Slow, controlled compression"
+            "Squeeze the ankles with both hands",
+            "Add more grip strength to compensate"
           ],
           "trap": [
-            "Rely on sleeve and pant grips"
+            "Linger in their leg-lock range"
           ]
         }
       },
@@ -565,25 +565,25 @@
         "answer_line": "Deny bilateral leg grips",
         "distractors": {
           "plausible": [
-            "Sit back and wait",
-            "Grip their collar tight"
+            "Keep both knees pinched together",
+            "Frame on their shoulders early"
           ],
           "trap": [
-            "Extend legs straight out"
+            "Extend legs flat, invite the drag"
           ]
         }
       },
       {
         "question": "Your opponent has gripped both your knees and begins stepping left - what is the correct hip response?",
         "answer": "Immediately rotate your hips to face left, matching the direction of the passer's movement. Your belly button must track toward their chest at all times. Use a combination of hip escape toward the passing side and shoulder walk to maintain alignment. Simultaneously, fight to strip at least one grip — if you can free one knee while tracking their movement, the pass fails because they lose the bilateral control needed for effective leg redirection. If both grips remain, continue tracking with your hips while looking for an opportunity to insert a De La Riva or Reverse De La Riva hook on their lead leg.",
-        "answer_line": "Track hips, strip a grip",
+        "answer_line": "Rotate hips with them, strip a grip",
         "distractors": {
           "plausible": [
-            "Stay square, brace hips",
-            "Turn away from the step"
+            "Stay square and brace with frames",
+            "Bridge and push their hands away"
           ],
           "trap": [
-            "Push their head down hard"
+            "Turn belly-down away from them"
           ]
         }
       },
@@ -604,14 +604,14 @@
       {
         "question": "How does maintaining a collar grip change the defensive dynamics against the Toreando?",
         "answer": "A collar grip fundamentally changes the Toreando dynamic because it gives you a constant connection to the passer's upper body that their lateral step cannot break. As they step sideways, you can use the collar grip to pull them off-balance in the direction of their movement, amplifying their momentum beyond their control. This converts their passing energy into a sweep opportunity. The collar grip also prevents them from freely posturing up and establishing full extension on your legs, keeping the engagement closer where your feet-on-hips frames are most effective. The tradeoff is that one hand is committed to the collar rather than defending your legs, so this strategy works best when combined with active foot positioning.",
-        "answer_line": "Collar grip turns pass into sweep",
+        "answer_line": "Collar grip converts pass to sweep",
         "distractors": {
           "plausible": [
-            "Collar grip stops all movement",
-            "Collar grip frees both hands"
+            "Freezes them in place completely",
+            "Blocks the pass on its own"
           ],
           "trap": [
-            "Release legs to grip collar"
+            "Release legs to chase the collar"
           ]
         }
       },
@@ -621,11 +621,11 @@
         "answer_line": "Frame and insert knee shield",
         "distractors": {
           "plausible": [
-            "Turtle up immediately",
-            "Bridge and push away"
+            "Reach both arms over their back",
+            "Push their head with both hands"
           ],
           "trap": [
-            "Accept flat back, wait it out"
+            "Turn belly-down and turtle"
           ]
         }
       }

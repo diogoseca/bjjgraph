@@ -305,10 +305,10 @@
         "distractors": {
           "plausible": [
             "Windpipe and trachea",
-            "Jugular veins, not carotids"
+            "Jugular veins only"
           ],
           "trap": [
-            "Cervical spine compression"
+            "Spine - crank it for the tap"
           ]
         }
       },
@@ -316,14 +316,14 @@
         "question": "How do you recognize when the opponent's arm position in reverse scarf hold creates the arm triangle opportunity?",
         "answer": "The trigger is the opponent's near arm crossing their own throat line, either because your reverse scarf hold chest pressure drives it there or because they defensively frame across their own neck. You will feel their forearm against their own neck with their shoulder loaded against their carotid. This arm position is the prerequisite for the arm triangle. Recognize it immediately rather than continuing to hunt for americanas or kimuras.",
         "safety_critical": false,
-        "answer_line": "Arm crosses own throat line",
+        "answer_line": "Their arm crosses their throat",
         "distractors": {
           "plausible": [
-            "Underhook slips loose",
-            "Shoulder pops out of socket"
+            "Their hips shrimp away",
+            "Their far hand grips your belt"
           ],
           "trap": [
-            "Keep hunting for kimura"
+            "Sit up, get bumped to guard"
           ]
         }
       },
@@ -338,7 +338,7 @@
             "Underhook swap before pin"
           ],
           "trap": [
-            "Muscle the arm free first"
+            "Sit up to reach the far grip"
           ]
         }
       },
@@ -350,10 +350,10 @@
         "distractors": {
           "plausible": [
             "Strip the frame away fast",
-            "Abandon position, reset"
+            "Switch to a far-side underhook"
           ],
           "trap": [
-            "Fight to pry frame off"
+            "Post both hands to pry it off"
           ]
         }
       },
@@ -379,8 +379,8 @@
         "answer_line": "No gap, shoulder pins carotid",
         "distractors": {
           "plausible": [
-            "Opponent goes completely limp",
-            "They stop talking entirely"
+            "Their free hand grabs your belt",
+            "Their breathing gets louder"
           ],
           "trap": [
             "Wait for them to go unconscious"
@@ -394,11 +394,11 @@
         "answer_line": "Apply slow, release on any tap",
         "distractors": {
           "plausible": [
-            "Hold until they go limp",
-            "Finish fast before they escape"
+            "Finish fast before they escape",
+            "Wait for a loud verbal signal"
           ],
           "trap": [
-            "Ignore taps, finish the choke"
+            "Crank fast, hold till they go limp"
           ]
         }
       },
@@ -428,7 +428,7 @@
             "Switch sides, chase kimura"
           ],
           "trap": [
-            "Crank the americana harder"
+            "Sit up and crank the shoulder"
           ]
         }
       },
@@ -439,11 +439,11 @@
         "answer_line": "Extra 180-degree rotation needed",
         "distractors": {
           "plausible": [
-            "Identical angle, no difference",
-            "Faster finish from reverse scarf"
+            "Requires the far underhook first",
+            "Grip switches to a Gable lock"
           ],
           "trap": [
-            "Skip the walk-around entirely"
+            "Finish square-on without rotating"
           ]
         }
       }
@@ -576,7 +576,7 @@
             "Grip tightens on your wrist"
           ],
           "trap": [
-            "They're going for a kimura"
+            "Turn away to relieve the weight"
           ]
         }
       },
@@ -602,8 +602,8 @@
         "answer_line": "Keep arm off your own throat",
         "distractors": {
           "plausible": [
-            "Frame with near arm on hip",
-            "Grip their far collar tight"
+            "Grip their far collar tight",
+            "Grab your own collar for base"
           ],
           "trap": [
             "Cross forearm over own neck"
@@ -617,11 +617,11 @@
         "answer_line": "Turn in, frame hips, get knees",
         "distractors": {
           "plausible": [
-            "Turn away, create space",
-            "Bridge straight up hard"
+            "Bridge straight up hard",
+            "Grab their belt and hold on"
           ],
           "trap": [
-            "Push their head, stay flat"
+            "Turn away and flatten out"
           ]
         }
       },
@@ -632,11 +632,11 @@
         "answer_line": "Framing across your own neck",
         "distractors": {
           "plausible": [
-            "Turning away once caught",
-            "Waiting too long to defend"
+            "Gripping their sleeve too early",
+            "Keeping your elbow glued down"
           ],
           "trap": [
-            "Pull guard immediately"
+            "Reach across to push their head"
           ]
         }
       }

@@ -597,14 +597,14 @@
         "answer": "The three priority gi grips are collar and sleeve, double sleeve control, and collar tie with wrist control. The collar and sleeve grip provides control of distance and the ability to set up both throws and guard pulls; double sleeve control neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and the collar tie with wrist control allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted.",
         "distractors": {
           "plausible": [
-            "Both lapels, ignore the sleeves",
-            "Underhook and overhook only"
+            "Double lapel grips only",
+            "Underhook and overhook clinch"
           ],
           "trap": [
-            "Cross grip with head down"
+            "Head down, no grips, dive in"
           ]
         },
-        "answer_line": "Collar-sleeve, sleeve, collar tie"
+        "answer_line": "Collar-sleeve, 2x sleeve, collar tie"
       },
       {
         "question": "How should you distribute your weight and position your feet to maintain a strong standing base against both pulling and pushing forces?",
@@ -612,11 +612,11 @@
         "answer_line": "Bent knees, weight on balls of feet",
         "distractors": {
           "plausible": [
-            "Feet together, knees locked",
-            "Weight forward, up on toes"
+            "Very wide stance, hips low",
+            "Load everything on the lead leg"
           ],
           "trap": [
-            "Stand tall, weight on heels"
+            "Upright, heels planted flat"
           ]
         }
       },
@@ -637,14 +637,14 @@
       {
         "question": "Your opponent suddenly tightens their sleeve grip, rounds their shoulders, and begins stepping one foot between yours - what is happening and how do you respond?",
         "answer": "These cues indicate an imminent guard pull. Your opponent is establishing control grips before sitting, breaking their own posture to drop their center of gravity, and positioning a foot between yours to create a hook or entanglement as they sit. Your immediate response should be to strip or pummel their controlling grips before they commit to sitting, then drive forward pressure into their chest to force them upright. If you cannot break grips in time, the moment they begin sitting, immediately advance your hips forward and begin addressing their legs to prevent guard establishment. Drive your near knee between their legs and work to pass before they can consolidate any guard position.",
-        "answer_line": "Strip grips, drive them upright",
+        "answer_line": "Strip grips, pressure their chest",
         "distractors": {
           "plausible": [
-            "Wait and see what they do",
-            "Pull guard yourself first"
+            "Wait and react once they sit",
+            "Back straight up out of range"
           ],
           "trap": [
-            "Shoot a takedown immediately"
+            "Follow them down into guard"
           ]
         }
       },
@@ -654,11 +654,11 @@
         "answer_line": "Cycle active bursts, passive rest",
         "distractors": {
           "plausible": [
-            "Grip fight hard the whole time",
-            "Hold tension, breath held tight"
+            "Constant hard grip fighting",
+            "Hold your breath and bear down"
           ],
           "trap": [
-            "Fight on exhausted, stay standing"
+            "Pull guard every time you tire"
           ]
         }
       },
@@ -679,14 +679,14 @@
       {
         "question": "What are the three most common base and posture errors that compromise standing position stability, and how does each create vulnerability?",
         "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer.",
-        "answer_line": "Locked knees, weight on heels",
+        "answer_line": "Tall stance, flat feet, overreach",
         "distractors": {
           "plausible": [
-            "Flat-footed, no movement",
-            "Overly wide, overextended stance"
+            "Crouching low, hands too high",
+            "Square hips, heavy lead leg"
           ],
           "trap": [
-            "Narrow stance, feet together"
+            "Bent knees and constant motion"
           ]
         }
       }
@@ -1060,14 +1060,14 @@
       {
         "question": "What are the three most important grip configurations to establish when initiating standing engagement in the gi?",
         "answer": "The three priority grip configurations are: (1) collar and sleeve grip, which provides control of distance and the ability to set up both throws and guard pulls; (2) double sleeve control, which neutralizes the opponent's offensive options while creating pulling and off-balancing opportunities; and (3) collar tie with wrist control, which allows snapdowns, Russian tie transitions, and close-range throw entries. Each configuration should be established proactively through deliberate hand fighting sequences rather than passively accepted.",
-        "answer_line": "Collar-sleeve, sleeve, collar tie",
+        "answer_line": "Collar-sleeve, 2-sleeve, collar tie",
         "distractors": {
           "plausible": [
-            "Both lapels, ignore the sleeves",
+            "Double lapel grips only",
             "Underhook and overhook only"
           ],
           "trap": [
-            "Cross grip with head down"
+            "Head down, reaching cross grip"
           ]
         }
       },
@@ -1077,11 +1077,11 @@
         "answer_line": "Bent knees, weight on balls of feet",
         "distractors": {
           "plausible": [
-            "Feet together, knees locked",
-            "Weight forward, up on toes"
+            "Deep crouch, extra-wide stance",
+            "Lean forward, up on the toes"
           ],
           "trap": [
-            "Stand tall, weight on heels"
+            "Stand tall back on your heels"
           ]
         }
       },
@@ -1109,7 +1109,7 @@
             "Pull guard yourself first"
           ],
           "trap": [
-            "Shoot a takedown immediately"
+            "Lean over them as they sit"
           ]
         }
       },
@@ -1119,11 +1119,11 @@
         "answer_line": "Cycle active bursts, passive rest",
         "distractors": {
           "plausible": [
-            "Grip fight hard the whole time",
-            "Hold tension, breath held tight"
+            "Grip fight hard nonstop",
+            "Go easy the entire round"
           ],
           "trap": [
-            "Fight on exhausted, stay standing"
+            "Hold your breath through scrambles"
           ]
         }
       },
@@ -1144,14 +1144,14 @@
       {
         "question": "What are the three most common base and posture errors that compromise standing position stability, and how does each create vulnerability?",
         "answer": "The three most common errors are: (1) Standing too tall with locked knees and weight on heels, which raises center of gravity and delays defensive reactions because you must first bend your knees before sprawling or changing levels, making you vulnerable to both takedowns and throws. (2) Flat-footed static positioning without active movement, which allows opponents to time attacks against a predictable target and eliminates your ability to create angles or generate offensive momentum. (3) Overextended or overly wide stance that compromises mobility, which makes you susceptible to foot sweeps and trips because your feet are planted in predictable positions and weight transfer between them takes longer.",
-        "answer_line": "Locked knees, weight on heels",
+        "answer_line": "Tall on heels, static, overwide",
         "distractors": {
           "plausible": [
-            "Flat-footed, no movement",
-            "Overly wide, overextended stance"
+            "Overgripping with tight elbows",
+            "Crouching too low, hands down"
           ],
           "trap": [
-            "Narrow stance, feet together"
+            "Bent knees, weight on the balls"
           ]
         }
       }
@@ -1192,11 +1192,11 @@
       "answer": "The Standing Position is defined by both grapplers upright with feet as the only mat contact, on mobile two-legged bases with no dominant control established. Because neither player has established dominant control, the configuration is symmetric and neutral: both have equal access to offense and both carry equal risk of being off-balanced. Since the center of gravity is high and supported only by the feet, small disruptions in base translate quickly into falls or takedowns, which is why footwork and posture dominate the exchange. This contrasts sharply with ground positions where contact area is large, the base is low, and control hierarchies are already established.",
       "distractors": {
         "plausible": [
-          "One player has ground control",
-          "Both grapplers seated on mat"
+          "One side already has control",
+          "Knees down still counts standing"
         ],
         "trap": [
-          "First grip wins the exchange"
+          "Reach tall for grips first"
         ]
       },
       "answer_line": "Both upright, mobile two-foot base"
@@ -1206,11 +1206,11 @@
       "answer": "Standing is neutral and worth zero points because neither grappler holds a positional or scoring advantage while both are on their feet. Both stand upright with equal opportunity to initiate takedowns, throws, or guard pulls, and no points are awarded merely for being on the feet, since the position confers no control over the opponent's hips, posture, or movement. The score only changes when one player converts the exchange into a takedown, sweep, or dominant landing that satisfies advancement criteria. This zero-sum symmetry is precisely what makes grip fighting and off-balancing so contested, because both players are competing to break the neutrality in their favor.",
       "distractors": {
         "plausible": [
-          "Takedowns score without landing",
-          "Grip fighting alone earns points"
+          "Standing earns advantage points",
+          "Points start once grips lock"
         ],
         "trap": [
-          "Any takedown attempt scores points"
+          "Force takedowns without setup"
         ]
       },
       "answer_line": "Neutral, no control established yet"
@@ -1246,14 +1246,14 @@
     {
       "question": "What role does distance management play in determining which techniques are even available from the Standing Position?",
       "answer": "Distance sets the menu of available techniques for both players simultaneously. At long range with no contact, level-change shots such as single and double legs and open-space footwork dominate, since there are no grips to break first. At grip range, collar-sleeve exchanges, arm drags, and guard pulls become available because the hands can reach control points. At close clinch range, throws, snapdowns, body locks, and front-headlock series open up while shots become harder to complete. Each player uses footwork to move the exchange to the range that favors their preferred entries, which is why controlling distance effectively controls the opponent's options as much as your own.",
-      "answer_line": "Distance sets which techniques work",
+      "answer_line": "Each range opens its own attacks",
       "distractors": {
         "plausible": [
-          "Only close range matters most",
-          "Long range removes all options"
+          "Throws land from long range",
+          "Grips come before every shot"
         ],
         "trap": [
-          "Close distance blindly every time"
+          "Sprint into the clinch blindly"
         ]
       }
     },
@@ -1274,28 +1274,28 @@
     {
       "question": "How does the Standing Position relate to and differ from the adjacent Clinch and guard-pull destinations it commonly feeds into?",
       "answer": "The Standing Position is the open, neutral upright state, whereas the Clinch is the same upright frame after grips and head or body control have been established, collapsing distance and shifting the exchange toward throws and takedowns. A guard pull deliberately abandons the upright neutral base entirely, taking one player to a seated or supine ground position such as closed guard, seated guard, or De La Riva, trading standing mobility for a bottom guard game. Both transitions resolve the neutrality of standing: the clinch does so by tightening control while staying vertical, the guard pull by voluntarily going to the ground. Understanding these adjacencies matters because every standing decision is ultimately a choice about which of these states to convert the neutral position into.",
-      "answer_line": "Clinch tightens grip, stays upright",
+      "answer_line": "Clinch adds grips; pull goes down",
       "distractors": {
         "plausible": [
-          "Guard pull just means grip fighting",
-          "Clinch and standing are identical"
+          "Guard pull keeps you standing",
+          "Clinch means chest-to-chest only"
         ],
         "trap": [
-          "Pull guard to skip grip fighting"
+          "Pull guard with no grips set"
         ]
       }
     },
     {
       "question": "Why is direct submission rare from the Standing Position, and what conditions allow the exceptions that do occur?",
       "answer": "Direct submissions are rare because the neutral upright configuration gives neither player the sustained control over a limb or the neck required to isolate and finish, and both retain full mobility to circle away or posture out. The high, mobile base also means any attacker committing to a submission risks being off-balanced or countered before the finish locks. Exceptions arise when one player exposes their neck by posturing down or shooting poorly, opening standing guillotines and front-headlock chokes, or when a flying or jumping attack such as a flying kneebar or jumping guard converts the standing engagement directly into a leg entanglement or submission. These are higher-risk, higher-skill actions that depend on a specific opening rather than being reliable defaults from the neutral position.",
-      "answer_line": "Rare due to mobility, no control",
+      "answer_line": "Too mobile, no sustained control",
       "distractors": {
         "plausible": [
-          "Submissions are common standing",
-          "Only chokes work while standing"
+          "Rules bar subs until grounded",
+          "Standing subs need gi grips"
         ],
         "trap": [
-          "Always shoot for a guillotine"
+          "Jump guillotine on every shot"
         ]
       }
     }

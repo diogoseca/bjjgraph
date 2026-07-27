@@ -355,14 +355,14 @@
       {
         "question": "What grip configuration behind the knees produces the most stable connection during the finish, and why does hand position matter?",
         "answer": "The most stable grip is a Gable grip (palm-to-palm without interlocking fingers) positioned behind both knees with forearms pressing into the back of the opponent's legs. This grip is preferred because it distributes force across a wider area than interlocked fingers, reduces the risk of finger injuries during explosive movements, and allows quick release when transitioning to positional controls. The forearms pressing into the hamstring tendons create additional control beyond just the hands. Hand position matters because placing the grip too high (behind the thighs) reduces leverage for lifting the legs, while too low (at the ankles) sacrifices control of the opponent's hip movement. Behind the knees is the optimal fulcrum point for disrupting base.",
-        "answer_line": "Gable grip behind the knees",
+        "answer_line": "Gable grip behind both knees",
         "distractors": {
           "plausible": [
-            "Interlocked fingers for grip",
-            "Grip high behind the thighs"
+            "Wrist-to-wrist grip on the shins",
+            "S-grip cupping the hamstrings"
           ],
           "trap": [
-            "Grip low at the ankles"
+            "Interlace fingers and squeeze"
           ]
         }
       },

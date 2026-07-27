@@ -321,14 +321,14 @@
         "question": "What are the key indicators that the breaking point is approaching during application of the inside heel hook?",
         "answer": "The primary indicators are: the heel begins rotating past its natural range of motion relative to the knee axis, connective tissue tension increases dramatically through your grip creating a sense of structural resistance, and the opponent's body begins involuntarily twisting to follow the rotation direction. Critically, the defender may NOT perceive these indicators clearly due to the knee's poor rotational proprioception. The attacker bears primary responsibility for controlled application—you must apply slowly and watch for ANY tap signal because your partner may not feel the danger until damage has already begun.",
         "safety_critical": true,
-        "answer_line": "Heel rotates past natural range",
+        "answer_line": "Heel rotating past knee axis",
         "distractors": {
           "plausible": [
-            "Watch for opponent grimacing",
-            "Listen for verbal tap only"
+            "Opponent grimaces or yells",
+            "Your grip slips on the ankle"
           ],
           "trap": [
-            "No indicators, apply full speed"
+            "Rip fast to beat their escape"
           ]
         }
       },
@@ -342,7 +342,7 @@
             "Knee line before triangle"
           ],
           "trap": [
-            "Skip hips, rush the finish"
+            "Rush finish, lose legs, get passed"
           ]
         }
       },
@@ -366,11 +366,11 @@
         "answer_line": "Elbows to chest, not arms out",
         "distractors": {
           "plausible": [
-            "Pull hands apart forcefully",
-            "Use only forearm strength"
+            "Rotate heel with wrist only",
+            "Squeeze knee, ignore the heel"
           ],
           "trap": [
-            "Extend arms for more leverage"
+            "Sit up to crank, lose the legs"
           ]
         }
       },
@@ -380,11 +380,11 @@
         "answer_line": "C-grip Achilles, not heel bone",
         "distractors": {
           "plausible": [
-            "Grip harder on the heel bone",
-            "Chalk hands before continuing"
+            "Pinch heel bone with fingertips",
+            "Grip the toes and twist instead"
           ],
           "trap": [
-            "Release grip to wipe hands"
+            "Release control to dry your hands"
           ]
         }
       },
@@ -392,14 +392,14 @@
         "question": "Why must the inside heel hook always be applied slowly in training, and what specific injuries result from fast application?",
         "answer": "The inside heel hook must always be applied slowly because the knee joint has virtually no proprioceptive feedback for rotational stress—the defender cannot feel progressive tightening the way they can with a shoulder lock or choke. Fast application causes complete MCL and ACL tears, meniscus destruction, and potential LCL damage in under one second. These injuries require surgical reconstruction (ACL replacement using hamstring or patellar tendon graft) and 9-12 months of rehabilitation. A single explosive crank in training can end a partner's competitive career permanently. There is zero justification for fast application in any training context.",
         "safety_critical": true,
-        "answer_line": "No pain feedback, fast tears knee",
+        "answer_line": "No warning; ligaments tear fast",
         "distractors": {
           "plausible": [
-            "Fast taps cause minor sprains only",
-            "Only dangerous in competition"
+            "Slow only needed for white belts",
+            "Heel hooks mainly stress the ankle"
           ],
           "trap": [
-            "Fine to crank fast if controlled"
+            "Crank fast, release on the tap"
           ]
         }
       },
@@ -409,25 +409,25 @@
         "answer_line": "Two-on-one ankle, threaten toehold",
         "distractors": {
           "plausible": [
-            "Release position to reset",
-            "Switch immediately to kneebar"
+            "Switch immediately to kneebar",
+            "Crank the hidden heel harder"
           ],
           "trap": [
-            "Let go and reset to guard"
+            "Release legs and stand away"
           ]
         }
       },
       {
         "question": "In competition, how do you adjust your finishing approach against an opponent who is aggressively grip-fighting your heel hook attempts?",
         "answer": "Against aggressive grip fighters, use a systematic bait-and-finish approach. Threaten the heel hook grip to draw their defensive hands low, then immediately re-establish positional control when they strip. Repeat this cycle 2-3 times to progressively exhaust their grip-fighting stamina while your positional control remains fresh. When their grip breaks become slower and weaker, commit to the finish with speed and precision. Alternatively, attack their free leg first to occupy one of their defensive hands, then switch to the heel hook when they have only one hand available for defense.",
-        "answer_line": "Bait grip, then finish when tired",
+        "answer_line": "Bait grip, finish when they tire",
         "distractors": {
           "plausible": [
-            "Attack heel with max speed always",
-            "Switch positions constantly"
+            "Muscle the grip past their hands",
+            "Hold position, never threaten"
           ],
           "trap": [
-            "Force grip through their defense"
+            "Let go of legs to strip grips"
           ]
         }
       },
@@ -438,10 +438,10 @@
         "distractors": {
           "plausible": [
             "Stop rolling and reset grip",
-            "Release leg to prevent injury"
+            "Pull heel harder and hold still"
           ],
           "trap": [
-            "Let them roll through freely"
+            "Stay static, let them come on top"
           ]
         }
       }
@@ -570,7 +570,7 @@
         "answer_line": "Hide heel against hip fast",
         "distractors": {
           "plausible": [
-            "Assess grip before reacting",
+            "Frame on their chest first",
             "Push opponent's hips away first"
           ],
           "trap": [
@@ -582,14 +582,14 @@
         "question": "What are the definitive indicators that you must tap immediately rather than continue escape attempts?",
         "answer": "Tap immediately when: (1) opponent has secured a reinforced figure-four grip on your heel with their wrist blade against your Achilles tendon, (2) you feel ANY rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. The inside heel hook can cause complete ligament failure in under one second once the breaking threshold is reached—there is no time to evaluate mid-submission. If you are debating whether to tap, you should already be tapping. No training round or competition match is worth surgical knee reconstruction.",
         "safety_critical": true,
-        "answer_line": "Any rotation felt, tap now",
+        "answer_line": "Feel any heel rotation, tap",
         "distractors": {
           "plausible": [
-            "Tap only when pain is sharp",
-            "Wait for full figure-four lock"
+            "Tap when the pain turns sharp",
+            "Tap once your ankle goes numb"
           ],
           "trap": [
-            "Try to power out first"
+            "Spin out to beat the finish"
           ]
         }
       },
@@ -599,11 +599,11 @@
         "answer_line": "Commit fully, rotate to 50-50",
         "distractors": {
           "plausible": [
-            "Wait for a bigger opening",
-            "Slowly test the space first"
+            "Straighten leg and pull it free",
+            "Wait for their grip to slip"
           ],
           "trap": [
-            "Half-commit to test reaction"
+            "Roll away, feeding the finish"
           ]
         }
       },
@@ -613,8 +613,8 @@
         "answer_line": "Strip their thumb early",
         "distractors": {
           "plausible": [
-            "Grip fight the whole match",
-            "Pry at their strongest fingers"
+            "Pry at their strongest fingers",
+            "Grab the triangle to break it"
           ],
           "trap": [
             "Yank leg straight back hard"
@@ -624,14 +624,14 @@
       {
         "question": "After tapping to an inside heel hook in training, what should you analyze about your defense to improve for next time?",
         "answer": "Analyze the critical decision points in reverse order: (1) When did the position become inescapable—could you have tapped earlier to protect your knee? (2) What entry did they use to establish Honey Hole and at what point could you have prevented it? (3) Did you hesitate after feeling the triangle form instead of reacting immediately? (4) Were your escape attempts fully committed or half-hearted? (5) Did you grip-fight effectively before they established the finishing configuration? Prevention and early-stage escape are far more trainable than late-stage defense. Most heel hook finishes occur because the defender failed to react in the first 1-2 seconds of entanglement.",
-        "answer_line": "Review earliest escape decisions",
+        "answer_line": "Trace back to the first mistake",
         "distractors": {
           "plausible": [
-            "Focus only on final second",
-            "Blame bad luck, move on"
+            "Only study the final grip",
+            "Ask them to go lighter next time"
           ],
           "trap": [
-            "Assume heel hooks unbeatable"
+            "Next time hold on past the tap"
           ]
         }
       }

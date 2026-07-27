@@ -912,14 +912,14 @@
     {
       "question": "How does Omoplata Control differ mechanically from Triangle Control and Armbar Control?",
       "answer": "All three isolate a limb with the legs, but they attack different joints through different geometry. The triangle uses the legs to encircle the neck and one arm for a blood choke, while the armbar hyperextends the elbow with the arm pinned against the hips. Omoplata Control instead threads a leg across the back to rotate the shoulder joint, attacking the shoulder capsule rather than the elbow or carotids. This shared limb-isolation logic is precisely why the position chains so readily into triangles and armbars when the shoulder attack is defended, since the opponent's head and arm are already committed.",
-      "answer_line": "Rotates shoulder, not elbow/neck",
+      "answer_line": "Threads leg to rotate the shoulder",
       "distractors": {
         "plausible": [
-          "Chokes with legs like triangle",
-          "Hyperextends elbow like armbar"
+          "Encircles neck for a blood choke",
+          "Pins the arm straight on the hips"
         ],
         "trap": [
-          "Attacks the wrist, not shoulder"
+          "Cranks the elbow, so yank it hard"
         ]
       }
     },

@@ -286,7 +286,7 @@
             "Achilles tendon primarily"
           ],
           "trap": [
-            "Ankle joint rotation"
+            "Ride it out, only muscle pain"
           ]
         }
       },
@@ -301,7 +301,7 @@
             "Stronger ankle grip"
           ],
           "trap": [
-            "Easier back exposure"
+            "Ditch control to hunt the back"
           ]
         }
       },
@@ -324,14 +324,14 @@
         "question": "What are the critical safety protocols when applying the calf slicer from twister control in training?",
         "answer": "Apply compression over five to seven seconds minimum without spiking or jerking the pressure. Maintain constant awareness that the entangled twister position may prevent your partner from physically tapping with their hands, so respond immediately to verbal taps or any vocalization of distress. Release by removing shin pressure first, then unwind the leg entanglement slowly and controlledly to avoid secondary injury during the release phase.",
         "safety_critical": true,
-        "answer_line": "Slow pressure, heed verbal tap",
+        "answer_line": "Slow compression, honor verbal tap",
         "distractors": {
           "plausible": [
-            "Watch for hand tap only",
-            "Apply quick sharp pressure"
+            "Wait for a visible hand tap",
+            "Exit quickly once they tap"
           ],
           "trap": [
-            "Increase pressure until tap"
+            "Spike pressure to force the tap"
           ]
         }
       },
@@ -339,14 +339,14 @@
         "question": "What is the correct release sequence after your training partner taps to the calf slicer from twister control?",
         "answer": "First release the foot grip and stop all compression pressure immediately. Second, slowly remove your shin from behind the knee crease without any jerking movements. Third, carefully unwind the leg entanglement from the twister control position. Fourth, allow your partner to extend and straighten their leg naturally before fully disengaging. Finally, check that your partner has normal sensation and full mobility in the affected leg before continuing training.",
         "safety_critical": true,
-        "answer_line": "Release foot, then unwind slow",
+        "answer_line": "Release foot first, unwind slowly",
         "distractors": {
           "plausible": [
-            "Unwind legs, then release foot",
-            "Release pressure, exit fast"
+            "Unwind the legs before releasing",
+            "Let partner pull the leg out"
           ],
           "trap": [
-            "Jerk the leg free quickly"
+            "Hold the lock while unwinding"
           ]
         }
       },
@@ -358,10 +358,10 @@
         "distractors": {
           "plausible": [
             "Loud verbal complaints only",
-            "Opponent taps the mat"
+            "Attacker's grip slips loose"
           ],
           "trap": [
-            "Defender relaxes completely"
+            "Ride it out until pain fades"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Defending one exposes other",
         "distractors": {
           "plausible": [
-            "Same grip attacks both moves",
-            "Only hip angle matters here"
+            "Only hip angle matters here",
+            "Twister must land first"
           ],
           "trap": [
-            "Both defenses stack safely"
+            "Defend both at once and stall"
           ]
         }
       },
@@ -498,7 +498,7 @@
             "Opponent grabs your wrist"
           ],
           "trap": [
-            "Pressure suddenly stops"
+            "Wait for pain before reacting"
           ]
         }
       },
@@ -506,14 +506,14 @@
         "question": "When should you tap to the calf slicer from twister control rather than continue attempting to escape?",
         "answer": "Tap immediately when you feel sharp pain in the calf muscle, when the shin is fully seated behind your knee and your lower leg is being folded past ninety degrees, or when you cannot generate any movement to reduce compression despite effort. Because the entangled twister position may limit your ability to physically tap with your hands, use verbal taps or any clear vocalization. Never wait for pain to become severe, as calf compression injuries occur rapidly once the position is locked.",
         "safety_critical": true,
-        "answer_line": "Tap early, use verbal signal",
+        "answer_line": "Tap early, vocalize the tap",
         "distractors": {
           "plausible": [
-            "Wait for sharp pain only",
-            "Tap only when hands are free"
+            "Wait for numbness in the foot",
+            "Only tap if your hand is free"
           ],
           "trap": [
-            "Try to power out first"
+            "Bridge and rip the leg free"
           ]
         }
       },
@@ -525,7 +525,7 @@
         "distractors": {
           "plausible": [
             "Grip fight for the foot",
-            "Turn into the opponent"
+            "Flatten out and stay heavy"
           ],
           "trap": [
             "Bridge and roll explosively"
@@ -540,10 +540,10 @@
         "distractors": {
           "plausible": [
             "Tensing the calf muscle",
-            "Waiting too long to tap"
+            "Grabbing the attacker's shin"
           ],
           "trap": [
-            "Muscling through with strength"
+            "Hold out hoping it slips off"
           ]
         }
       },
@@ -554,8 +554,8 @@
         "answer_line": "Straighten leg, slip knee free",
         "distractors": {
           "plausible": [
-            "Turn into opponent's hips",
-            "Extract leg from entanglement"
+            "Grip fight for their foot",
+            "Stack shoulders and stall"
           ],
           "trap": [
             "Bridge explosively to escape"

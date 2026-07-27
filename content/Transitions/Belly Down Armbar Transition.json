@@ -527,14 +527,14 @@
       {
         "question": "How should you signal a tap when caught belly-down and unable to use your trapped hand?",
         "answer": "Use your free hand to tap the attacker's body, leg, or the mat repeatedly and clearly. Verbal taps by saying 'tap' loudly are essential when your free hand is also compromised. You can also stomp your feet on the mat. In training, always have multiple tap signals ready and communicate them to your training partner before beginning. Never rely solely on the trapped hand for signaling.",
-        "answer_line": "Tap free hand loudly and clearly",
+        "answer_line": "Tap free hand or shout 'tap'",
         "distractors": {
           "plausible": [
-            "Tap with the trapped hand",
-            "Wait until resistance is felt"
+            "Tap using the trapped hand",
+            "Nod your head to signal"
           ],
           "trap": [
-            "Try to power out silently"
+            "Stay silent and muscle out"
           ]
         }
       }

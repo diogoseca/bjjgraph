@@ -387,11 +387,11 @@
         "answer_line": "Arm drag, snap-down, or re-grip",
         "distractors": {
           "plausible": [
-            "Release wrist and re-shoot",
-            "Switch to a double leg"
+            "Drop the wrist and shoot low",
+            "Stall and wait for an opening"
           ],
           "trap": [
-            "Let go and reset to neutral"
+            "Turn your back to spin behind"
           ]
         }
       },

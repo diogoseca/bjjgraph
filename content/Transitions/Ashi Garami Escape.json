@@ -261,28 +261,28 @@
       {
         "question": "What is the primary danger of straightening your trapped leg during an ashi garami escape attempt?",
         "answer": "Straightening the trapped leg creates a direct line of force that makes heel hooks, kneebars, and ankle locks significantly more effective and dangerous. The straight leg provides optimal leverage for the opponent's rotational submissions and dramatically increases injury risk, particularly to the knee ligaments (ACL, MCL) and ankle. Keeping the leg slightly bent reduces submission leverage by preventing full extension of the knee joint. Only extend the leg during final extraction when the opponent's legs are completely cleared from the entanglement.",
-        "answer_line": "Enables heel hooks, kneebars",
+        "answer_line": "Feeds heel hooks and kneebars",
         "distractors": {
           "plausible": [
-            "Only affects ankle strength",
-            "Makes hip rotation easier"
+            "Weakens your ankle only",
+            "Speeds up their hip rotation"
           ],
           "trap": [
-            "Straighten to kick leg free"
+            "Extend hard to rip the leg out"
           ]
         }
       },
       {
         "question": "Your opponent secures a heel hook grip while you are mid-escape and have already cleared their bottom leg - what do you do?",
         "answer": "You must immediately stop all extraction movement and address the heel control with both hands using a two-on-one grip break. Even though you have cleared the bottom leg, continuing the escape with heel control secured creates catastrophic injury risk because any rotational movement of your body while the heel is controlled applies torque directly to the knee ligaments. Break the grip completely by peeling at the thumbs, then reassess whether the bottom leg has been recomposed before continuing the clearing sequence.",
-        "answer_line": "Stop, break grip immediately",
+        "answer_line": "Two-on-one grip break, stop moving",
         "distractors": {
           "plausible": [
-            "Finish clearing bottom leg",
-            "Rotate hips away first"
+            "Flatten your back and wait it out",
+            "Kick free with the other leg"
           ],
           "trap": [
-            "Push through to extract leg"
+            "Roll away from the pressure"
           ]
         }
       },

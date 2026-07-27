@@ -324,10 +324,10 @@
         "distractors": {
           "plausible": [
             "Only ankle ligaments at risk",
-            "Fast crank before they adjust"
+            "Mainly the knee ligaments"
           ],
           "trap": [
-            "Speed up once you feel resistance"
+            "Crank fast before they defend"
           ]
         }
       },
@@ -350,14 +350,14 @@
         "question": "How does the figure-four leg configuration create mechanical advantage for the Aoki Lock compression?",
         "answer": "The figure-four configuration creates a closed loop that allows you to generate tremendous squeezing force by recruiting your largest leg muscles (quadriceps, hamstrings, adductors) while trapping opponent's foot in a mechanically disadvantaged position. When you squeeze your legs together while maintaining hip extension, the opposing forces create compression across their entire lower leg structure while forcing extreme plantar flexion. The closed loop prevents force dissipation and focuses all pressure on the trapped limb.",
         "safety_critical": false,
-        "answer_line": "Closed loop focuses leg muscle",
+        "answer_line": "Closed loop recruits big leg muscles",
         "distractors": {
           "plausible": [
             "Arm strength drives the squeeze",
-            "Bodyweight alone creates pressure"
+            "Bodyweight alone makes the pressure"
           ],
           "trap": [
-            "Grip the foot and yank it"
+            "Let go of ashi to grab the foot"
           ]
         }
       },
@@ -383,11 +383,11 @@
         "answer_line": "Compression, not knee rotation",
         "distractors": {
           "plausible": [
-            "Same rotational knee attack",
-            "Targets hip rotation instead"
+            "Isolates the knee ligaments",
+            "Attacks hip rotation instead"
           ],
           "trap": [
-            "Twist the knee for extra force"
+            "Switch to a heel hook mid-lock"
           ]
         }
       },
@@ -398,11 +398,11 @@
         "answer_line": "Increase calf and shin squeeze",
         "distractors": {
           "plausible": [
-            "Force the foot back to flex it",
-            "Switch immediately to heel hook"
+            "Force the foot back into flexion",
+            "Sit up and pull with both arms"
           ],
           "trap": [
-            "Let go and reset the grip"
+            "Unhook legs to re-grip the foot"
           ]
         }
       },
@@ -432,7 +432,7 @@
             "Any ashi garami hook in place"
           ],
           "trap": [
-            "Release hook to chase the hands"
+            "Once they sit up it's gone - let go"
           ]
         }
       },
@@ -443,8 +443,8 @@
         "answer_line": "Stiffening body, foot discoloring",
         "distractors": {
           "plausible": [
-            "Loud verbal tap only counts",
-            "Wait for opponent to go limp"
+            "Only a loud verbal tap counts",
+            "Their hips flatten to the mat"
           ],
           "trap": [
             "Crank harder once you see signs"
@@ -459,10 +459,10 @@
         "distractors": {
           "plausible": [
             "Death-grip the foot for control",
-            "Pull hard with both arms"
+            "Pull the leg straight with arms"
           ],
           "trap": [
-            "Let go of their leg entirely"
+            "Sit up and two-hand yank the toes"
           ]
         }
       },
@@ -473,11 +473,11 @@
         "answer_line": "Keep lock tight, off-balance them",
         "distractors": {
           "plausible": [
-            "Release and reshoot the takedown",
-            "Stand up to match their base"
+            "Flatten out and hold on passively",
+            "Sit up to grab their standing leg"
           ],
           "trap": [
-            "Let go and follow them up"
+            "Open the lock and stand up too"
           ]
         }
       },
@@ -621,8 +621,8 @@
         "answer_line": "Inside leg threading the gap",
         "distractors": {
           "plausible": [
-            "Opponent gripping your collar",
-            "Sudden hip escape attempt"
+            "The ashi garami hook going in",
+            "Foot pushed into plantar flexion"
           ],
           "trap": [
             "Wait until figure-four locks"
@@ -636,11 +636,11 @@
         "answer_line": "They don't stop compression",
         "distractors": {
           "plausible": [
-            "They work equally well here",
-            "Boot defense blocks everything"
+            "Boot defense is applied too late",
+            "They need gi grips to work"
           ],
           "trap": [
-            "Rely on knee rotation defense alone"
+            "Stall in boot defense and wait"
           ]
         }
       },
@@ -652,7 +652,7 @@
         "distractors": {
           "plausible": [
             "Wait for sharp ankle pain only",
-            "Fight it like a heel hook"
+            "Ankle locks are safe to ride"
           ],
           "trap": [
             "Push through, it's just soreness"
@@ -681,8 +681,8 @@
         "answer_line": "Opposes flexion, not compression",
         "distractors": {
           "plausible": [
-            "Fully defends the whole lock",
-            "Only needed after lock is set"
+            "It jams their hip extension",
+            "Only needed once the lock is set"
           ],
           "trap": [
             "Relax the foot to save energy"

@@ -285,11 +285,11 @@
         "answer_line": "Switch to Kouchi Gari",
         "distractors": {
           "plausible": [
-            "Abandon and reset grips",
-            "Force through the sprawl"
+            "Force through the sprawl",
+            "Re-attempt the same throw"
           ],
           "trap": [
-            "Release grips and back off"
+            "Shoot a double into the sprawl"
           ]
         }
       },

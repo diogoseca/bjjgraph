@@ -330,11 +330,11 @@
         "answer_line": "Adds wrist rotation as 2nd lever",
         "distractors": {
           "plausible": [
-            "Uses shin instead of hip pressure",
-            "Requires more hip extension"
+            "Shin replaces hip drive entirely",
+            "Needs deeper hip extension only"
           ],
           "trap": [
-            "Relies only on rolling forward"
+            "Drop hip pressure to grab wrist"
           ]
         }
       },
@@ -342,14 +342,14 @@
         "question": "What is the correct immediate response when your training partner taps to a tarikoplata?",
         "answer": "Upon tap signal, you must immediately release the wrist grip first as this is the primary source of rotational stress, then gradually remove your leg from over their shoulder without jerking or sudden movements. Allow them to extract their arm naturally without resistance. After releasing, check verbally that they are uninjured before continuing training. Never maintain any pressure after a tap signal - shoulder locks can cause permanent damage in a fraction of a second, and respecting the tap is paramount to safe training culture.",
         "safety_critical": true,
-        "answer_line": "Release wrist grip first",
+        "answer_line": "Release the wrist grip first",
         "distractors": {
           "plausible": [
-            "Release leg pressure first",
-            "Ease off both slowly together"
+            "Slide your leg off first",
+            "Push their arm back to neutral"
           ],
           "trap": [
-            "Hold briefly to confirm tap"
+            "Hold a beat to confirm the tap"
           ]
         }
       },
@@ -375,11 +375,11 @@
         "answer_line": "90-degree angle maximizes leverage",
         "distractors": {
           "plausible": [
-            "Parallel hips increase pressure",
-            "Past 90 degrees locks tighter"
+            "Parallel hips add more pressure",
+            "Beyond 90 degrees locks tighter"
           ],
           "trap": [
-            "Angle doesn't matter, just squeeze"
+            "Square up and let them posture"
           ]
         }
       },
@@ -387,14 +387,14 @@
         "question": "What physical prerequisites should a practitioner have before attempting the tarikoplata in live training?",
         "answer": "A practitioner should have excellent hip mobility to achieve full extension, demonstrated proficiency with traditional omoplata including proper positioning and pressure control, fine motor control for coordinating hip drive with wrist rotation, understanding of shoulder anatomy and injury mechanisms, minimum purple belt experience level recommended, and thorough drilling of the technique at slow speed with cooperative partners before live application. They should also understand proper release protocols and have established trust with training partners. The tarikoplata is an advanced technique that should not be attempted by beginners due to its high injury risk when applied incorrectly.",
         "safety_critical": true,
-        "answer_line": "Purple belt+, master omoplata first",
+        "answer_line": "Purple belt with omoplata mastery",
         "distractors": {
           "plausible": [
-            "Strong grip strength alone",
-            "Flexible wrists only"
+            "Strong wrist and finger grips",
+            "Deep squat and ankle mobility"
           ],
           "trap": [
-            "Any belt with fast reflexes"
+            "Learn it live at full speed"
           ]
         }
       },
@@ -405,11 +405,11 @@
         "answer_line": "Secure wrist grip, drive hips in",
         "distractors": {
           "plausible": [
-            "Chase with hip extension alone",
-            "Wait for them to settle down"
+            "Extend hips harder and hold",
+            "Switch to a triangle attempt"
           ],
           "trap": [
-            "Keep chasing without wrist control"
+            "Let them posture and stack you"
           ]
         }
       },
@@ -436,10 +436,10 @@
         "distractors": {
           "plausible": [
             "Pull straight back on the wrist",
-            "Wait for their grip to tire"
+            "Switch to the other wrist"
           ],
           "trap": [
-            "Abandon position, reset guard"
+            "Sit up to pry with both hands"
           ]
         }
       },
@@ -447,14 +447,14 @@
         "question": "What are the warning signs that indicate you should immediately release pressure even before your partner taps?",
         "answer": "Release immediately if you observe: any popping, clicking, or cracking sounds from the shoulder or wrist joint; sudden muscle rigidity or spasm in the trapped arm; your partner going limp or becoming unresponsive; any verbal expression of distress such as gasping, grunting, or crying out; visible changes in your partner's complexion indicating distress; or any unusual sensation through your grips indicating structural failure. The tarikoplata can cause damage faster than the pain signal reaches the brain, so proactive release based on these warning signs is essential. In training, erring on the side of caution by releasing early is always preferable to causing injury.",
         "safety_critical": true,
-        "answer_line": "Popping, rigidity, or limpness",
+        "answer_line": "Popping sounds or sudden limpness",
         "distractors": {
           "plausible": [
-            "Opponent breathing heavily",
-            "Opponent stops moving their arm"
+            "They bridge and fight harder",
+            "They grab your belt for base"
           ],
           "trap": [
-            "Wait for verbal tap only"
+            "Wait for a verbal tap only"
           ]
         }
       },
@@ -469,7 +469,7 @@
             "Add more hip drive only"
           ],
           "trap": [
-            "Flexibility means finish impossible"
+            "Crank explosively for the tap"
           ]
         }
       },
@@ -481,10 +481,10 @@
         "distractors": {
           "plausible": [
             "Grip forearm mid-shaft tightly",
-            "Rotate palm away from head"
+            "Two-hand clamp on their elbow"
           ],
           "trap": [
-            "Use only hand strength, elbow wide"
+            "Flare elbow wide, lose the arm"
           ]
         }
       }
@@ -603,14 +603,14 @@
         "question": "Why is the forward roll escape that works against standard omoplata extremely dangerous when the attacker has established tarikoplata wrist control?",
         "answer": "The forward roll becomes dangerous because the wrist rotation component creates rotational torque on the shoulder that is amplified by rolling. In a standard omoplata, rolling forward reduces the hip-driven shoulder pressure by moving in the same direction as the force. However, with the tarikoplata's wrist rotation, rolling forward adds your body's momentum to the existing rotational stress, creating a compound shearing force on the rotator cuff that can cause immediate structural failure. The wrist grip also allows the attacker to follow your roll and maintain control throughout, meaning the escape provides no relief while dramatically increasing injury risk.",
         "safety_critical": true,
-        "answer_line": "Roll amplifies shoulder torque",
+        "answer_line": "Your roll momentum adds to the lock",
         "distractors": {
           "plausible": [
-            "Roll only affects hip pressure",
-            "Rolling breaks the wrist grip"
+            "Rolling frees the trapped hand",
+            "Roll unloads the hip pressure"
           ],
           "trap": [
-            "Rolling forward is the safe escape"
+            "Roll fast before the grip sets"
           ]
         }
       },
@@ -622,10 +622,10 @@
         "distractors": {
           "plausible": [
             "Wait until hip control is set",
-            "Push away with your free arm"
+            "Bridge hard into their hips"
           ],
           "trap": [
-            "Try to roll through immediately"
+            "Rip the trapped arm out hard"
           ]
         }
       },
@@ -633,14 +633,14 @@
         "question": "At what point during a tarikoplata attempt should you prioritize tapping over continued escape attempts?",
         "answer": "You should tap immediately once both pressure vectors are coordinated - meaning you feel simultaneous hip extension driving into your shoulder and wrist rotation turning your palm toward your head. Once the attacker achieves perpendicular hip angle with synchronized wrist torque, the compound lock can damage the rotator cuff and labrum faster than your nervous system can process pain signals. No late-stage defensive technique offers sufficient probability of escape to justify the catastrophic injury risk. Tapping early is not a sign of weakness but a recognition that the submission has been achieved and continued resistance risks permanent damage.",
         "safety_critical": true,
-        "answer_line": "Hip and wrist pressure sync up",
+        "answer_line": "Hip drive and wrist torque sync",
         "distractors": {
           "plausible": [
-            "Only after sharp pain starts",
-            "When hips reach 90 degrees"
+            "Only when you feel sharp pain",
+            "After your escape roll fails"
           ],
           "trap": [
-            "Try to power out at that point"
+            "Power out once both lock in"
           ]
         }
       },
@@ -651,8 +651,8 @@
         "answer_line": "Post free arm wide on the mat",
         "distractors": {
           "plausible": [
-            "Grab their gripping hand",
-            "Tuck arm against your body"
+            "Grip your own belt for base",
+            "Push their shin off your back"
           ],
           "trap": [
             "Reach across to strip the grip"

@@ -277,14 +277,14 @@
         "answer": "Abandon the crossface pass and switch to a knee slice or backstep pass, which work with or around the deep underhook. A deep underhook gives the opponent the rotational power to turn into you and threaten sweeps or back takes, making the crossface pass significantly harder to complete. Alternatively, apply a strong whizzer to limit the underhook's effectiveness while switching your passing angle.",
         "distractors": {
           "plausible": [
-            "Force crossface anyway",
-            "Attack armbar off underhook"
+            "Stall and wait them out",
+            "Grab collar and posture up"
           ],
           "trap": [
-            "Release grips, reset stance"
+            "Reach across into their underhook"
           ]
         },
-        "answer_line": "Switch to knee slice/backstep"
+        "answer_line": "Switch to knee slice or backstep"
       },
       {
         "question": "What is the correct leg extraction motion and why does a straight pull fail?",
@@ -296,7 +296,7 @@
             "Twist hips away, pull leg free"
           ],
           "trap": [
-            "Pull leg straight back hard"
+            "Sit back and hunt a footlock"
           ]
         }
       },
@@ -334,11 +334,11 @@
         "answer_line": "Diagonal down across the face",
         "distractors": {
           "plausible": [
-            "Straight down, no head turn",
-            "Angle up toward the chin"
+            "Push laterally, keep them square",
+            "Chest-to-chest, no head contact"
           ],
           "trap": [
-            "Push straight across, no angle"
+            "Post high on hands and shove"
           ]
         }
       },
@@ -347,25 +347,25 @@
         "answer": "Never force the circular extraction against a lockdown; posture up to kill the stretch reflex, then kick your foot free or switch to a smash pass. The figure-four grip eliminates the knee mobility your extraction arc needs, so the normal arc is impossible. After posturing up slightly to remove their stretch advantage, either vigorously pummel your trapped foot free by kicking it toward their hips while maintaining crossface pressure, or drive their locked legs to the mat and work around them with a smash pass.",
         "distractors": {
           "plausible": [
-            "Force circular arc harder",
+            "Force the circular arc harder",
             "Pull straight, ignore lockdown"
           ],
           "trap": [
-            "Kick leg wildly, lose base"
+            "Sit back for a footlock"
           ]
         },
-        "answer_line": "Posture up, kick foot free"
+        "answer_line": "Posture up, kick the foot free"
       },
       {
         "question": "What distinguishes the crossface pass from the knee slice pass when both start from half guard top?",
         "answer": "The crossface pass flattens the opponent with heavy shoulder pressure, while the knee slice creates an angular path by cutting across the thigh line. The crossface pass uses shoulder pressure and head control to flatten the opponent before extracting the trapped leg, keeping the passer's weight forward and linear throughout. The knee slice emphasizes hip mobility over upper-body pressure, cutting the knee across the opponent's thigh line to change the passing plane. Crossface is typically higher percentage when the opponent lacks a deep underhook, while the knee slice can succeed even against partial underhook control because the angular movement changes the passing plane.",
         "distractors": {
           "plausible": [
-            "Both rely on shoulder pressure",
-            "Knee slice needs deep underhook"
+            "Knee slice needs a deep underhook",
+            "Crossface uses more hip mobility"
           ],
           "trap": [
-            "Crossface is best vs underhook"
+            "Force crossface into the underhook"
           ]
         },
         "answer_line": "Crossface flattens; slice angles"
@@ -497,28 +497,28 @@
       {
         "question": "What is the most effective timing window for defending the crossface pass?",
         "answer": "The most effective timing window is before the crossface is established, during the passer's initial attempt to drive their forearm across your face. At this phase, you can still fight for the underhook, insert knee shield, or create frames that prevent the crossface from settling. Once the crossface is locked in with shoulder pressure and the far arm is controlled, defensive success rates drop dramatically. Early recognition and immediate action are critical.",
-        "answer_line": "Before crossface locks in",
+        "answer_line": "Before the crossface settles",
         "distractors": {
           "plausible": [
-            "After shoulder pressure sets",
-            "Once flat, use explosive bridge"
+            "After they extract the leg",
+            "Once they step over to mount"
           ],
           "trap": [
-            "Wait, defend once flattened"
+            "Turn belly-down to escape"
           ]
         }
       },
       {
         "question": "Why is the underhook on the trapped leg side the single most important defensive grip?",
         "answer": "The underhook on the trapped leg side prevents the passer from driving you flat because it allows you to maintain angle and turn into them. It provides the primary pathway to sweeps, back takes, and guard recovery by giving you control of the passer's posture and body angle. Without the underhook, the passer can freely apply crossface pressure and flatten you, which eliminates virtually all high-percentage defensive options from half guard bottom.",
-        "answer_line": "Underhook trapped-leg side",
+        "answer_line": "Keeps you on your side to turn in",
         "distractors": {
           "plausible": [
-            "Overhook on the far side",
-            "Grip opponent's collar"
+            "Mainly protects your trapped leg",
+            "It sets up a collar choke"
           ],
           "trap": [
-            "Abandon underhook, frame arms"
+            "Post both hands and push away"
           ]
         }
       },

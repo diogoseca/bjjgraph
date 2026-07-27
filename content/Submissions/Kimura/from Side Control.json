@@ -329,7 +329,7 @@
         "distractors": {
           "plausible": [
             "1-2 seconds is plenty",
-            "Speed doesn't matter here"
+            "Only slow down for beginners"
           ],
           "trap": [
             "Snap it on hard and fast"
@@ -343,11 +343,11 @@
         "answer_line": "Blocks their turn-in escape",
         "distractors": {
           "plausible": [
-            "Stops them from sitting up",
-            "Keeps their hips flat"
+            "Pins their far shoulder down",
+            "Sets up a collar choke next"
           ],
           "trap": [
-            "Release knee, chase far hip"
+            "Release hip, let them turn in"
           ]
         }
       },
@@ -355,14 +355,14 @@
         "question": "What are the two components of shoulder pressure that create the Kimura lock, and why must both be present?",
         "answer": "The two components are elevation (lifting the elbow away from the mat) and rotation (turning their hand toward their back behind their body). Elevation alone or rotation alone will not create sufficient pressure to finish the submission against a resisting opponent. The combination creates simultaneous stress on multiple planes of shoulder movement, targeting both rotational and elevational limits of the joint. Together they create an inescapable mechanical disadvantage for the defender.",
         "safety_critical": false,
-        "answer_line": "Elevate elbow + rotate wrist",
+        "answer_line": "Lift the elbow and rotate the hand",
         "distractors": {
           "plausible": [
-            "Elevation alone is enough",
-            "Rotation alone finishes it"
+            "Rotate the hand toward their feet",
+            "Lift elbow, keep hand still"
           ],
           "trap": [
-            "Yank the arm straight down"
+            "Straighten the arm and crank"
           ]
         }
       },
@@ -373,8 +373,8 @@
         "answer_line": "Stop and release immediately",
         "distractors": {
           "plausible": [
-            "Ask them to tap verbally",
-            "Ease off pressure slowly"
+            "Ease off pressure slowly",
+            "Watch their face for pain"
           ],
           "trap": [
             "Keep applying, they'll signal"
@@ -400,14 +400,14 @@
         "question": "What is the correct figure-four grip structure for maximum leverage in the Kimura?",
         "answer": "Your near hand grips the opponent's wrist with your palm on their wrist bones. Your far arm threads over their arm and grips your own near wrist with four fingers, creating a bracket structure. Your forearm should be perpendicular to their forearm. Both elbows must stay tight together and close to their body - this is critical for maintaining leverage and preventing them from straightening their arm. The grip should feel like a solid frame with no gaps in the structure.",
         "safety_critical": false,
-        "answer_line": "Own-wrist grip, elbows tight",
+        "answer_line": "Grab own wrist, elbows tight",
         "distractors": {
           "plausible": [
-            "Grip their wrist, not yours",
-            "Keep elbows wide for power"
+            "Both hands on their wrist",
+            "Flare elbows wide for power"
           ],
           "trap": [
-            "Loosen grip to rest arms"
+            "Sit up tall to crank harder"
           ]
         }
       },
@@ -419,10 +419,10 @@
         "distractors": {
           "plausible": [
             "It just wastes energy",
-            "It slows the tap response"
+            "It breaks your figure-four grip"
           ],
           "trap": [
-            "Elevate hard for fast tap"
+            "Elevate hard for a fast tap"
           ]
         }
       },
@@ -430,14 +430,14 @@
         "question": "Your opponent begins straightening their arm to break your figure-four structure - what immediate adjustment prevents the escape?",
         "answer": "Immediately pinch your elbows tighter together and drive them toward your opponent's centerline, maintaining pressure on the bent arm. If their arm begins to straighten, use your chest weight to push their elbow toward the mat while maintaining wrist control. If the arm straightens past the point of recovery, transition immediately to an armbar by throwing your leg over their head - the straight arm is now perfectly positioned for this submission. Never waste energy fighting a fully straightened arm; instead, use it as a transition opportunity.",
         "safety_critical": false,
-        "answer_line": "Pinch elbows, then armbar",
+        "answer_line": "Pinch elbows in, switch to armbar",
         "distractors": {
           "plausible": [
-            "Release and reset the grip",
-            "Force elbow back to bent"
+            "Let go and re-grip the wrist",
+            "Wait for the arm to tire"
           ],
           "trap": [
-            "Fight the straight arm hard"
+            "Keep cranking as they turn in"
           ]
         }
       },
@@ -452,7 +452,7 @@
             "Wrist joint's flexion limit"
           ],
           "trap": [
-            "Bicep tendon tear point"
+            "Crank till something pops"
           ]
         }
       },
@@ -467,7 +467,7 @@
             "Once knee blocks the hip"
           ],
           "trap": [
-            "Once you mount their chest"
+            "Relax once the elbow lifts"
           ]
         }
       },
@@ -475,11 +475,11 @@
         "question": "Your opponent's shoulder has limited flexibility and they tap earlier than expected - how do you adjust your finishing mechanics for different body types?",
         "answer": "Always communicate with training partners about flexibility limitations before drilling. For less flexible opponents, reduce your elevation angle significantly and rely more on rotation with the arm closer to the mat. Watch for early warning signs like grimacing or tension before verbal taps. Some practitioners may tap at 70-80 degrees of elevation that others can sustain without discomfort. In competition, recognize that inflexible opponents tap faster, so secure control and apply pressure progressively rather than explosively. Never assume everyone has the same range of motion.",
         "safety_critical": true,
-        "answer_line": "Less elevation, watch early",
+        "answer_line": "Lower elevation, watch tension",
         "distractors": {
           "plausible": [
             "Same angle, just go slower",
-            "More rotation, less caution"
+            "Have them warm the shoulder up"
           ],
           "trap": [
             "Push through their grimace"
@@ -490,14 +490,14 @@
         "question": "How do you adjust your grip and positioning if you're attempting the Kimura in no-gi versus gi competition?",
         "answer": "In no-gi, grip security becomes critical since there's no gi material to anchor. Use a deeper figure-four grip where your grabbing hand wraps further around your own wrist for added security. Keep your body tighter to the opponent to prevent their arm from slipping due to sweat. Your chest pressure becomes even more important since you can't use collar or sleeve grips to control position. Consider the wrist-ride variation where you grip their wrist more aggressively. In gi, you can use their sleeve to assist arm isolation and their belt or pants grip to add rotational pressure to the finish.",
         "safety_critical": false,
-        "answer_line": "No-gi: deeper grip, tighter",
+        "answer_line": "No-gi: deeper grip, body tighter",
         "distractors": {
           "plausible": [
-            "No-gi: rely on sleeve grips",
-            "Gi: skip the figure-four"
+            "No-gi: same depth as in gi",
+            "Gi: drop the chest pressure"
           ],
           "trap": [
-            "Loosen grip to fight sweat"
+            "Give slack to re-grip on sweat"
           ]
         }
       }
@@ -649,11 +649,11 @@
         "question": "Why is turning into the attacker (toward their legs) the preferred escape direction rather than turning away?",
         "answer": "Turning into the attacker reduces the rotational angle on your shoulder, directly counteracting the submission mechanics. The Kimura finishes by rotating your hand behind your back - turning into the attacker moves your body in the same direction as the rotation, relieving pressure. Additionally, turning into them disrupts their side control base and can create scramble opportunities or back take positions. Turning away (giving your back) does the opposite: it increases rotational leverage on your shoulder and exposes your back to hooks and chokes, making both the submission and positional situation worse simultaneously.",
         "safety_critical": false,
-        "answer_line": "Reduces shoulder rotation angle",
+        "answer_line": "Cuts the shoulder rotation angle",
         "distractors": {
           "plausible": [
-            "Just disrupts their base",
-            "Keeps your back protected"
+            "Lets you bridge them off",
+            "Protects your neck from chokes"
           ],
           "trap": [
             "Turn away to hide the arm"
@@ -667,11 +667,11 @@
         "answer_line": "Anchor arm, turn hips, break grip",
         "distractors": {
           "plausible": [
-            "Turn away to hide the elbow",
-            "Push their head off first"
+            "Push their head away first",
+            "Wait until they elevate it"
           ],
           "trap": [
-            "Yank your arm straight out"
+            "Turn away, feed them your back"
           ]
         }
       },
@@ -682,11 +682,11 @@
         "answer_line": "Roll with it, or tap now",
         "distractors": {
           "plausible": [
-            "Muscle the arm free fast",
-            "Turn away to escape hips"
+            "Turn away from the rotation",
+            "Bridge hard to unload weight"
           ],
           "trap": [
-            "Power out with pure strength"
+            "Muscle out with pure strength"
           ]
         }
       }

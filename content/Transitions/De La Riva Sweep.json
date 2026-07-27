@@ -261,14 +261,14 @@
       {
         "question": "Why is controlling the opponent's sleeve on the same side as the De La Riva hook essential for sweep success?",
         "answer": "Controlling the sleeve prevents the opponent from posting their hand on that side to block the sweep. Without sleeve control, the opponent can easily base out with their arm, stopping the sweeping motion and maintaining their position. The sleeve grip also provides directional control to pull opponent off-balance.",
-        "answer_line": "Same-side sleeve grip",
+        "answer_line": "Stops them posting to block",
         "distractors": {
           "plausible": [
-            "Cross collar grip",
-            "Opposite sleeve grip"
+            "Sets up your collar choke",
+            "Keeps their back upright"
           ],
           "trap": [
-            "Overhook their same arm"
+            "Drop the hook, sleeve is enough"
           ]
         }
       },
@@ -289,14 +289,14 @@
       {
         "question": "What role does the opposite leg (non-hook leg) play in executing an effective De La Riva Sweep?",
         "answer": "The opposite leg creates crucial framing pressure on the opponent's far hip or knee, preventing them from posting wide with that leg to maintain base. It also controls their rotational movement and can push to enhance the off-balancing effect, working in coordination with the hook and grips to complete the sweep.",
-        "answer_line": "Frames far hip/knee",
+        "answer_line": "Frames the far hip or knee",
         "distractors": {
           "plausible": [
-            "Hooks their far leg too",
-            "Pushes off the mat for base"
+            "Hooks their far leg as well",
+            "Posts flat on the mat for base"
           ],
           "trap": [
-            "Kicks their near ankle away"
+            "Kick it out straight, get passed"
           ]
         }
       },
@@ -536,11 +536,11 @@
         "answer_line": "Circle into toreando pass",
         "distractors": {
           "plausible": [
-            "Reset to neutral, re-engage",
-            "Dive for a leg lock"
+            "Settle for top half guard",
+            "Wait and re-grip the collar"
           ],
           "trap": [
-            "Step back, disengage fully"
+            "Dive for a leg lock, get reversed"
           ]
         }
       }

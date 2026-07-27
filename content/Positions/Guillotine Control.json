@@ -162,11 +162,11 @@
         "answer_line": "Elbows pinned, structure not squeeze",
         "distractors": {
           "plausible": [
-            "Squeeze as hard as possible",
-            "Constant max grip tension"
+            "Float hips light to save energy",
+            "Rest grips between squeezes"
           ],
           "trap": [
-            "Muscle it with arm strength"
+            "Crush nonstop with arm power"
           ]
         }
       },
@@ -194,7 +194,7 @@
             "Sit back and reset posture"
           ],
           "trap": [
-            "Pull straight up to re-close"
+            "Jump guard to keep the choke"
           ]
         }
       },
@@ -204,11 +204,11 @@
         "answer_line": "Pull head down, sprawl hips forward",
         "distractors": {
           "plausible": [
-            "Chase the head with your arms",
+            "Squeeze arms harder to hold on",
             "Sit back to reset the angle"
           ],
           "trap": [
-            "Let go and re-shoot the choke"
+            "Flop to guard to keep the choke"
           ]
         }
       }
@@ -584,11 +584,11 @@
         "answer_line": "Angle hips under, toward choke side",
         "distractors": {
           "plausible": [
-            "Stay flat on your back",
-            "Square hips straight up"
+            "Square hips straight up",
+            "Push hips away to make space"
           ],
           "trap": [
-            "Post hips wide for base"
+            "Lie flat on your back"
           ]
         }
       },
@@ -598,11 +598,11 @@
         "answer_line": "Hip bump sweep, redirect pressure",
         "distractors": {
           "plausible": [
-            "Push back against their weight",
-            "Pull them down with arms only"
+            "Pull them down with arms only",
+            "Squeeze the choke even harder"
           ],
           "trap": [
-            "Brace and fight head-on"
+            "Brace and push back head-on"
           ]
         }
       },
@@ -627,7 +627,7 @@
         "distractors": {
           "plausible": [
             "Squeeze arms as hard as you can",
-            "Rely on grip strength alone"
+            "Hold static and wait for the tap"
           ],
           "trap": [
             "Release legs to save energy"
@@ -641,10 +641,10 @@
         "distractors": {
           "plausible": [
             "Keep pulling the same angle",
-            "Switch grips to the same choke"
+            "Wait for them to lift the chin"
           ],
           "trap": [
-            "Release the choke completely"
+            "Squeeze the tucked jaw harder"
           ]
         }
       },
@@ -655,7 +655,7 @@
         "distractors": {
           "plausible": [
             "Low closed guard at the hips",
-            "Open guard with no leg control"
+            "Butterfly hooks, hips square"
           ],
           "trap": [
             "Flatten legs out on the mat"
@@ -668,11 +668,11 @@
         "answer_line": "Finish fast, or release and retain",
         "distractors": {
           "plausible": [
-            "Hold the choke and ignore the pass",
-            "Push them away to create space"
+            "Push them away to create space",
+            "Let go of everything at once"
           ],
           "trap": [
-            "Let go of everything and scramble"
+            "Hold the choke as they pass"
           ]
         }
       }
@@ -965,11 +965,11 @@
       "answer_line": "Front headlock, head below hips",
       "distractors": {
         "plausible": [
-          "Side headlock with underhook",
-          "Head trapped, hips low instead"
+          "Side clinch with deep underhook",
+          "Chest-to-chest with collar tie"
         ],
         "trap": [
-          "Loose headlock, head above hips"
+          "Loose wrap, let them posture up"
         ]
       }
     },
@@ -983,7 +983,7 @@
           "Leg control and hip pressure"
         ],
         "trap": [
-          "Head position and foot placement"
+          "Squeeze hard, gaps don't matter"
         ]
       }
     },
@@ -1004,14 +1004,14 @@
     {
       "question": "What distinguishes Guillotine Control from the neighboring Anaconda and Darce controls?",
       "answer": "All three are front-headlock chokes, but the guillotine encircles the neck alone with the head trapped against the torso and the choking arm crossing the front of the throat. The anaconda and darce are arm-in chokes: the attacker threads an arm under the opponent's near armpit and around the neck, trapping both head and one arm. The practical trigger is the opponent's reaction—when they turn into the attacker or expose the near arm, the guillotine converts to anaconda or darce. The guillotine is thus the front-facing member of the same front-headlock family.",
-      "answer_line": "Neck-only, no arm trapped",
+      "answer_line": "Head trapped, neck wrapped in front",
       "distractors": {
         "plausible": [
-          "Traps the near arm too",
-          "Attacked only from side control"
+          "Threads under the near armpit",
+          "Attacks the jaw, not the throat"
         ],
         "trap": [
-          "Same grip as anaconda choke"
+          "Open your grip to chase the arms"
         ]
       }
     },
@@ -1021,11 +1021,11 @@
       "answer_line": "Grip and elbow height set the attack",
       "distractors": {
         "plausible": [
-          "Only hand size matters",
-          "Grip choice never changes defense"
+          "All grips choke the same way",
+          "S-grip only works in the gi"
         ],
         "trap": [
-          "Always use a one-handed grip"
+          "Open the loop to switch grips"
         ]
       }
     },
@@ -1036,7 +1036,7 @@
       "distractors": {
         "plausible": [
           "Push on their far shoulder",
-          "Grab their belt for base"
+          "Post it on the mat for balance"
         ],
         "trap": [
           "Let the second hand float free"
@@ -1049,8 +1049,8 @@
       "answer_line": "Defend neck or position, not both",
       "distractors": {
         "plausible": [
-          "Both are defended equally always",
-          "Position always wins over choke"
+          "Position always wins over choke",
+          "Stalling makes the threat fade"
         ],
         "trap": [
           "Ignore the choke, fight position"
@@ -1064,10 +1064,10 @@
       "distractors": {
         "plausible": [
           "Raw arm strength alone",
-          "Squeezing the fists harder"
+          "Leaning back to add leverage"
         ],
         "trap": [
-          "Pull straight back with arms"
+          "Fall back without closing guard"
         ]
       }
     }

@@ -356,11 +356,11 @@
         "answer_line": "Tap before losing consciousness",
         "distractors": {
           "plausible": [
-            "Wait for visible warning signs",
-            "Fight through neck pressure"
+            "Rely on warning signs first",
+            "Wait for the referee to stop it"
           ],
           "trap": [
-            "Push through tunnel vision"
+            "Slam opponent to break the lock"
           ]
         }
       }

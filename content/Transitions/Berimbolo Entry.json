@@ -283,10 +283,10 @@
         "distractors": {
           "plausible": [
             "Starting the spin too early",
-            "Gripping too tight at start"
+            "Over-gripping before entry"
           ],
           "trap": [
-            "Pausing at 90 to reset grips"
+            "Waiting until they pass first"
           ]
         }
       },
@@ -309,8 +309,8 @@
         "answer": "The head must stay tucked close to the mat, rolling over the shoulders rather than the top of the head, for both rotation mechanics and injury prevention. Keeping the head close to the mat lowers the center of gravity, improves balance during the inversion, and increases rotational speed by creating a smaller radius of rotation. Lifting the head or attempting to maintain visual contact with the opponent during the spin raises the center of gravity, slows the rotation, and can result in falling to your back mid-movement. Additionally, improper head position places dangerous pressure on the cervical spine and increases risk of neck injury.",
         "distractors": {
           "plausible": [
-            "Roll over the top of the head",
-            "Keep neck stiff and braced"
+            "Keep neck stiff and braced",
+            "Spin flat without inverting"
           ],
           "trap": [
             "Lift head to watch opponent"
@@ -367,7 +367,7 @@
         "distractors": {
           "plausible": [
             "Continue spin to Kiss of Dragon",
-            "Switch to Single Leg X-Guard"
+            "Bail out to closed guard"
           ],
           "trap": [
             "Stall at 90 to regroup"
@@ -394,11 +394,11 @@
         "answer_line": "Convert to Kiss of the Dragon",
         "distractors": {
           "plausible": [
-            "Race to finish before they square",
-            "Abort to Single Leg X-Guard"
+            "Freeze and re-grip",
+            "Sit back to full guard"
           ],
           "trap": [
-            "Fight the counter-rotation head-on"
+            "Fight their spin head-on"
           ]
         }
       }

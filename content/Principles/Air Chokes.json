@@ -402,7 +402,7 @@
           "Air chokes need deeper grips"
         ],
         "trap": [
-          "Air chokes never finish fights"
+          "Ignore them, they can't finish"
         ]
       }
     },
@@ -440,7 +440,7 @@
       "answer_line": "Ulna bone concentrates force",
       "distractors": {
         "plausible": [
-          "Wrist grip alone causes injury",
+          "Danger comes from neck cranking",
           "Only risky at high pressure"
         ],
         "trap": [

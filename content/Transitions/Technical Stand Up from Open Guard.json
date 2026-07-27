@@ -325,28 +325,28 @@
       {
         "question": "What are the key grip management priorities before initiating the stand-up in gi versus no-gi?",
         "answer": "In gi, you must strip or neutralize the opponent's collar and sleeve grips before standing, as these grips give them tremendous pulling power to drag you back down or redirect you into a snap-down. Maintaining your own collar grip during the stand-up provides distance control. In no-gi, the primary concern is preventing wrist and ankle grips. Without gi friction, you can push off the opponent's body more effectively with your feet, but their underhooks become more dangerous as you approach standing because they facilitate body lock takedowns.",
-        "answer_line": "Strip their grips, keep yours",
+        "answer_line": "Strip collar/sleeve, keep your own",
         "distractors": {
           "plausible": [
-            "Break all grips both ways",
-            "Same priorities in gi and no-gi"
+            "Drop every grip and stand fast",
+            "Wait for them to grip first"
           ],
           "trap": [
-            "Ignore opponent's underhooks"
+            "Turn your back to break grips"
           ]
         }
       },
       {
         "question": "Your opponent begins shooting a double leg as you reach the final standing phase - what is your immediate response?",
         "answer": "Immediately sprawl by driving your hips backward and downward while posting both hands on their head and shoulders to stuff the shot. If the sprawl is successful, circle to their head side and look to establish a front headlock or snap down. If you recognize the shot too late to sprawl effectively, sit back and pull guard rather than getting taken down to a worse position. The key is making a decisive choice between sprawling or pulling guard rather than being caught compromised in a half-standing position.",
-        "answer_line": "Sprawl hips back immediately",
+        "answer_line": "Sprawl hips back and stuff head",
         "distractors": {
           "plausible": [
-            "Pull guard right away",
-            "Post hands and wait it out"
+            "Post hands and wait it out",
+            "Step back to reset distance"
           ],
           "trap": [
-            "Try to finish standing up"
+            "Reach for their head, hips forward"
           ]
         }
       },
@@ -528,14 +528,14 @@
       {
         "question": "What is the risk of shooting a takedown too early versus too late during the opponent's stand-up sequence?",
         "answer": "Shooting too early, while the opponent is still seated with their legs active in guard, exposes you to guillotines, front headlock attacks, and snap-downs because you are driving into their defensive guard structure rather than catching them in transition. Shooting too late, after they have established a full standing base with feet apart, means you are attacking a balanced opponent who can sprawl effectively. The optimal window is during the final phase when they are transitioning from tripod to standing, when their feet are closest together and their hands are occupied.",
-        "answer_line": "Shoot during their transition",
+        "answer_line": "Shoot as they rise, mid-transition",
         "distractors": {
           "plausible": [
-            "Shoot the instant they sit up",
-            "Wait for full standing base"
+            "Wait for a settled standing base",
+            "Shoot from far outside range"
           ],
           "trap": [
-            "Shoot while they're still seated"
+            "Dive in while they're still seated"
           ]
         }
       }

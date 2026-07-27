@@ -347,14 +347,14 @@
       {
         "question": "What is the correct direction of force when applying the finishing squeeze on the Short Choke?",
         "answer": "Squeeze your elbows together toward the centerline while simultaneously expanding your chest and arching slightly backward. The forearm compresses the front of the neck while the figure-four loop creates bilateral pressure on both carotid arteries. Force must compress inward from all sides rather than pulling backward, which would create a crank rather than a clean blood choke.",
-        "answer_line": "Elbows in, chest expands",
+        "answer_line": "Elbows to centerline, chest out",
         "distractors": {
           "plausible": [
-            "Pull straight back for leverage",
-            "Twist the head sideways"
+            "Yank the head straight backward",
+            "Widen the elbows for more room"
           ],
           "trap": [
-            "Crank backward for a neck break"
+            "Fall back without hooking a leg"
           ]
         }
       }

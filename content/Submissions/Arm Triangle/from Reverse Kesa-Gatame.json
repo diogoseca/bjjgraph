@@ -308,7 +308,7 @@
             "Jugular vein only"
           ],
           "trap": [
-            "Cervical spine pressure"
+            "Neck crank on the spine for tap"
           ]
         }
       },
@@ -331,14 +331,14 @@
         "question": "What grip configuration completes the head-and-arm lock in the arm triangle from Reverse Kesa-Gatame?",
         "answer": "The primary grip is a figure-four configuration where the choking hand grips your own bicep on the opposite arm, and the free hand cups behind the opponent's head. This creates a self-reinforcing lock that tightens under pressure. An alternative is the gable grip where both palms clasp together behind the opponent's neck, providing tighter initial compression but less long-term endurance. Both grips must lock the head and trapped arm together as a single unit with zero slack.",
         "safety_critical": false,
-        "answer_line": "Figure-four grip on own bicep",
+        "answer_line": "Figure-four on your own bicep",
         "distractors": {
           "plausible": [
-            "Gable grip for max endurance",
-            "Grip opponent's far wrist"
+            "Grab their far wrist and pull",
+            "Interlace fingers behind neck"
           ],
           "trap": [
-            "Leave slack for head mobility"
+            "Let go of head to fix the grip"
           ]
         }
       },
@@ -379,11 +379,11 @@
         "answer_line": "Not perpendicular, head too high",
         "distractors": {
           "plausible": [
-            "Grip isn't tight enough yet",
-            "Need more time, keep waiting"
+            "Grip is not tight enough yet",
+            "Opponent's neck is too thick"
           ],
           "trap": [
-            "Squeeze harder with the arms"
+            "Crank the neck sideways to finish"
           ]
         }
       },
@@ -391,14 +391,14 @@
         "question": "What are the key indicators that the opponent has passed the point of no escape in the arm triangle from Reverse Kesa-Gatame?",
         "answer": "The choke is past the escape threshold when: your hip is dropped to the mat with your head sealed on the far side, the opponent's trapped shoulder bone is pressing firmly into their carotid with zero space between your chest and their body, the opponent cannot create any frame with their free hand against your hips or shoulders, and their bridge attempts generate no meaningful movement. Their face will begin changing color as blood flow restricts, and their defensive movements become weaker and less coordinated within seconds.",
         "safety_critical": false,
-        "answer_line": "Hip dropped, head sealed, no frame",
+        "answer_line": "Hip down, head sealed, no frames",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "Grip feels maximally tight"
+            "Grip feels maximally tight",
+            "They pause bridging for a moment"
           ],
           "trap": [
-            "Opponent's face turns red only"
+            "Loosen the grip to check it"
           ]
         }
       },
@@ -406,14 +406,14 @@
         "question": "What safety precautions must you observe when applying the arm triangle from Reverse Kesa-Gatame?",
         "answer": "Apply pressure progressively over 3-5 seconds and never spike or jerk the submission. Monitor consciousness continuously by watching for facial color changes and feeling for diminishing resistance. Always ensure the opponent has at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand tap, foot tap, or any distress signal. If the opponent goes limp, release immediately, position them on their side in recovery position, elevate their legs, and monitor breathing. Never hold after the tap in training — blood chokes can cause unconsciousness in 6-8 seconds and brain damage if sustained.",
         "safety_critical": true,
-        "answer_line": "Slow pressure, release on any tap",
+        "answer_line": "Gradual pressure, instant release",
         "distractors": {
           "plausible": [
-            "Pin both arms, then finish",
-            "Apply full force instantly"
+            "Hold ten seconds, then let go",
+            "Accept only a hand signal"
           ],
           "trap": [
-            "Keep squeezing after the tap"
+            "Keep squeezing after they tap"
           ]
         }
       },
@@ -436,14 +436,14 @@
         "question": "In competition with under 30 seconds remaining, how do you accelerate the arm triangle finish from Reverse Kesa-Gatame?",
         "answer": "Compress the setup phases by simultaneously driving the arm across the neck and threading behind the head in one fluid motion rather than sequential steps. Skip the deliberate walk-around and instead jump directly to the perpendicular angle while locking the grip. Drop your hip and head immediately upon gripping rather than settling incrementally. Apply maximum chest compression from the start rather than building progressively. Accept higher risk of losing position in exchange for a faster finish window. The key is pre-committing to the finish rather than maintaining the option to return to the pin.",
         "safety_critical": false,
-        "answer_line": "Combine steps, jump to angle, commit",
+        "answer_line": "Fuse the steps, commit to angle",
         "distractors": {
           "plausible": [
             "Skip the grip, use pure weight",
-            "Return to pin if resistance felt"
+            "Reset the pin if they resist"
           ],
           "trap": [
-            "Spike the choke for instant tap"
+            "Abandon it and chase mount"
           ]
         }
       }
@@ -572,11 +572,11 @@
         "answer_line": "Armpit clamp tightens, arm dragged",
         "distractors": {
           "plausible": [
-            "Attacker suddenly relaxes weight",
-            "Attacker grips your near wrist"
+            "They suddenly relax their weight",
+            "They grab your near-side wrist"
           ],
           "trap": [
-            "Attacker sits back to reset"
+            "Wait and see before defending"
           ]
         }
       },
@@ -617,11 +617,11 @@
         "answer_line": "Turn in, frame hips, get to knees",
         "distractors": {
           "plausible": [
-            "Turn away to unwind the grip",
-            "Push attacker's head straight back"
+            "Push their head off your neck",
+            "Wait for the walk to finish"
           ],
           "trap": [
-            "Bridge away from trapped arm"
+            "Turn away from the attacker"
           ]
         }
       },

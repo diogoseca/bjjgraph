@@ -296,11 +296,11 @@
         "answer_line": "Pressure forces hands off collar",
         "distractors": {
           "plausible": [
-            "Mount gives same opening",
-            "Hands free to defend collar"
+            "Mount offers the identical window",
+            "Their arms stay free to block"
           ],
           "trap": [
-            "Lets opponent turn to guard"
+            "Lift the knee once grips are in"
           ]
         }
       },
@@ -341,11 +341,11 @@
         "answer_line": "Release grips, roll off, check in",
         "distractors": {
           "plausible": [
-            "Loosen grips but stay mounted",
-            "Ask if okay before releasing"
+            "Help them sit up immediately",
+            "Walk away to give them space"
           ],
           "trap": [
-            "Hold position til they nod"
+            "Hold the choke until they go limp"
           ]
         }
       },
@@ -356,11 +356,11 @@
         "answer_line": "Deep palm-up/palm-down bat grip",
         "distractors": {
           "plausible": [
-            "Both grips palm-down at collar",
-            "Shallow grip for quicker finish"
+            "Both hands palm-down on the collar",
+            "Grip the belt with the second hand"
           ],
           "trap": [
-            "Grip both collars near throat"
+            "Shallow grip crushing the windpipe"
           ]
         }
       },
@@ -371,11 +371,11 @@
         "answer_line": "Clamp elbows to ribs, spin as one",
         "distractors": {
           "plausible": [
-            "Pull harder with hands alone",
-            "Widen elbows for more torque"
+            "Pull harder with your hands alone",
+            "Flare arms wide for more torque"
           ],
           "trap": [
-            "Yank the collar instead of spin"
+            "Post a hand on the mat to spin"
           ]
         }
       },
@@ -386,11 +386,11 @@
         "answer_line": "Keep pressure, work grip deeper",
         "distractors": {
           "plausible": [
-            "Force grip past the chin",
-            "Abandon grip, reset position"
+            "Abandon the choke, switch to mount",
+            "Lighten the knee to free the hand"
           ],
           "trap": [
-            "Yank chin up aggressively"
+            "Crank the neck to pry the chin up"
           ]
         }
       },
@@ -401,11 +401,11 @@
         "answer_line": "Deep grips plus spin locked in",
         "distractors": {
           "plausible": [
-            "As soon as first grip lands",
-            "When knee pressure increases"
+            "As soon as the first grip lands",
+            "When the knee pressure spikes"
           ],
           "trap": [
-            "Bridge and roll to escape"
+            "Not until you feel lightheaded"
           ]
         }
       },
@@ -550,11 +550,11 @@
         "answer_line": "Hand leaves KOB for far collar",
         "distractors": {
           "plausible": [
-            "Increased knee pressure alone",
-            "Opponent shifts hips first"
+            "Both their knees drop to the mat",
+            "They square hips toward your head"
           ],
           "trap": [
-            "Ignore hand, watch the knee"
+            "Ignore the hand, stare at knee"
           ]
         }
       },
@@ -565,11 +565,11 @@
         "answer_line": "Tap early, don't wait it out",
         "distractors": {
           "plausible": [
-            "Tap only when vision blurs",
-            "Verbal tap alone is enough"
+            "One single tap is enough",
+            "Only a hand tap counts"
           ],
           "trap": [
-            "Wait for choke to fully lock"
+            "Ride it out until you fade"
           ]
         }
       },
@@ -595,11 +595,11 @@
         "answer_line": "Exposes far collar completely",
         "distractors": {
           "plausible": [
-            "Loses knee pressure leverage",
-            "Makes underhook harder to get"
+            "It blocks your view of them",
+            "It eases their knee pressure"
           ],
           "trap": [
-            "Turn away, relieving the pain"
+            "Turn away and give up the back"
           ]
         }
       },

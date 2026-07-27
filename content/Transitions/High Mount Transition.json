@@ -352,14 +352,14 @@
       {
         "question": "Your opponent defends by driving their chin into your shin and stalling rather than moving forward or laterally - what do you do?",
         "answer": "Maintain gogoplata pressure and work to tighten the submission rather than forcing the mount transition. The chin-tuck stall indicates they are not providing momentum in any direction. Increase hip elevation and pull your foot deeper behind their head to intensify the choke. Their stall will eventually break into a forward escape attempt or a tap.",
-        "answer_line": "Tighten choke, don't force pass",
+        "answer_line": "Elevate hips, tighten the choke",
         "distractors": {
           "plausible": [
-            "Release and reset to guard",
-            "Wait passively, change nothing"
+            "Let go and reset to guard",
+            "Sit passive and wait them out"
           ],
           "trap": [
-            "Force the mount transition now"
+            "Bail out to scramble for mount"
           ]
         }
       }

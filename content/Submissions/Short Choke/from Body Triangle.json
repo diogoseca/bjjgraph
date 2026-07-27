@@ -307,7 +307,7 @@
             "Confirm only at the finish"
           ],
           "trap": [
-            "Wait for opponent to go still"
+            "Crank across the windpipe hard"
           ]
         }
       },
@@ -352,7 +352,7 @@
             "Pulling too early in the feed"
           ],
           "trap": [
-            "Crank hard to force it shut"
+            "Overreach and lose the seatbelt"
           ]
         }
       },
@@ -550,8 +550,8 @@
         "answer_line": "Hand leaves seatbelt for collar",
         "distractors": {
           "plausible": [
-            "Sudden hip triangle squeeze",
-            "Legs repositioning on hips"
+            "Opponent suddenly goes limp",
+            "Attacker's chest pressure lifts"
           ],
           "trap": [
             "Wait until pressure on throat"
@@ -595,11 +595,11 @@
         "answer_line": "Two-hand strip or tap",
         "distractors": {
           "plausible": [
-            "Turn hard into the attacker",
-            "Bridge and roll to escape"
+            "Bridge and roll to escape",
+            "Frame and shrimp hips out"
           ],
           "trap": [
-            "Pull own chin down and wait"
+            "Turn away to protect the neck"
           ]
         }
       },

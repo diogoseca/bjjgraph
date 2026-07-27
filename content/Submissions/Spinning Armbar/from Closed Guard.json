@@ -369,8 +369,8 @@
         "answer_line": "Stop, release slow, roll away",
         "distractors": {
           "plausible": [
-            "Let go instantly, stand up",
-            "Slowly re-bend, then release"
+            "Wait for them to pull free",
+            "Bend the arm back for them"
           ],
           "trap": [
             "Yank the arm back fast"
@@ -388,7 +388,7 @@
             "Only works after full mount"
           ],
           "trap": [
-            "Force through their resistance"
+            "Spin recklessly, lose position"
           ]
         }
       },
@@ -489,7 +489,7 @@
         "answer_line": "Switch to a figure-four grip",
         "distractors": {
           "plausible": [
-            "Release both hands, re-grab",
+            "Pinch wrist tighter, single hand",
             "Grab their sleeve instead"
           ],
           "trap": [
@@ -674,7 +674,7 @@
         "answer_line": "Flatten their hips, walk to head",
         "distractors": {
           "plausible": [
-            "Pull your trapped arm straight back",
+            "Bench press them off you",
             "Sit back to create distance"
           ],
           "trap": [

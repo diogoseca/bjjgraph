@@ -306,11 +306,11 @@
         "answer_line": "Bilateral carotid compression",
         "distractors": {
           "plausible": [
-            "Trachea crush is primary",
-            "Only one carotid artery"
+            "Crushing the windpipe airway",
+            "Only one blood vessel"
           ],
           "trap": [
-            "It's a pure air choke"
+            "A neck crank on the spine"
           ]
         }
       },
@@ -336,11 +336,11 @@
         "answer_line": "Elbow tuck clears choke path",
         "distractors": {
           "plausible": [
-            "Flattens them, unrelated to arm",
-            "Blocks Americana, blocks choke too"
+            "Flattening is unrelated to arm",
+            "It opens the near-side hip"
           ],
           "trap": [
-            "Tight elbow blocks the choke arm"
+            "Tight elbow blocks the choke"
           ]
         }
       },
@@ -351,11 +351,11 @@
         "answer_line": "Sprawl hips drive shoulder weight",
         "distractors": {
           "plausible": [
-            "Squeeze arms for the finish",
-            "Pull head down with the arm"
+            "Squeeze the arms to finish",
+            "Pull the head down by hand"
           ],
           "trap": [
-            "Crank the arm explosively"
+            "Post on hands to crank harder"
           ]
         }
       },
@@ -366,11 +366,11 @@
         "answer_line": "Slow pressure, watch for limpness",
         "distractors": {
           "plausible": [
-            "Apply fast before they escape",
-            "Only watch verbal tap signal"
+            "Squeeze as fast as you can",
+            "Only accept a verbal tap"
           ],
           "trap": [
-            "Finish quick before they recover"
+            "Hold the choke after they tap"
           ]
         }
       },
@@ -396,11 +396,11 @@
         "answer_line": "Walk hips toward choking arm",
         "distractors": {
           "plausible": [
-            "Squeeze arms harder instead",
-            "Pull opponent's head backward"
+            "Lighten your sprawl weight",
+            "Switch to a different choke"
           ],
           "trap": [
-            "Crank neck sideways hard"
+            "Wrench their neck sideways"
           ]
         }
       },
@@ -610,11 +610,11 @@
         "answer_line": "Turning head away exposes neck",
         "distractors": {
           "plausible": [
-            "Bridging hard escapes best",
-            "Pushing chest away helps"
+            "Bridge hard to buck them off",
+            "Push their chest to make room"
           ],
           "trap": [
-            "Chin tuck loosens the grip"
+            "Turn belly-down to spin free"
           ]
         }
       }

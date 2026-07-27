@@ -313,7 +313,7 @@
             "Elbow joint hyperextension"
           ],
           "trap": [
-            "Neck via choke compression"
+            "Crank the neck to force a tap"
           ]
         }
       },
@@ -321,14 +321,14 @@
         "question": "What distinguishes the Crackhead Control entry for the baratoplata from setups in other positions?",
         "answer": "Crackhead Control provides pre-existing posture control and arm isolation that other setups lack. The shin across the back of the neck keeps the opponent compressed, and the overhook naturally positions the target arm for the figure-four threading. This eliminates two of the three major setup steps required from other positions - posture breaking and arm isolation - making the entry significantly more efficient with a smaller defensive window for the opponent to exploit.",
         "safety_critical": false,
-        "answer_line": "Posture + arm isolation prebuilt",
+        "answer_line": "Posture and arm isolation prebuilt",
         "distractors": {
           "plausible": [
-            "Only removes posture breaking",
-            "Just improves grip strength"
+            "Removes posture breaking only",
+            "Isolates the arm but not posture"
           ],
           "trap": [
-            "Release shin control early"
+            "Drop the shin to thread faster"
           ]
         }
       },
@@ -339,11 +339,11 @@
         "answer_line": "Figure-four closed, hips angled",
         "distractors": {
           "plausible": [
-            "Figure-four closed, no hip yet",
+            "Figure-four closed, no hip drive",
             "Overhook grip fully secured"
           ],
           "trap": [
-            "Can still escape after closed loop"
+            "Wait for hip drive, then escape"
           ]
         }
       },
@@ -373,7 +373,7 @@
             "Push through minor resistance"
           ],
           "trap": [
-            "Beginners drill finishes slowly"
+            "Snap hips fast for the finish"
           ]
         }
       },
@@ -381,14 +381,14 @@
         "question": "What are the most common finishing errors that allow the opponent to escape the baratoplata?",
         "answer": "The three most common finishing errors are: first, failing to angle the hips away from the trapped arm before applying pressure, which reduces rotational leverage by approximately 40 percent; second, leaving slack in the figure-four connection between forearm and shin, which gives the opponent space to rotate their elbow and relieve pressure; and third, attempting to finish with arm strength alone rather than using hip extension as the primary force generator, which causes rapid fatigue and insufficient torque. Each error independently can convert a locked submission into an escape opportunity.",
         "safety_critical": false,
-        "answer_line": "No hip angle, loose figure-four",
+        "answer_line": "No hip angle, slack, arm strength",
         "distractors": {
           "plausible": [
-            "Angle hips toward the arm",
-            "Keep some slack for comfort"
+            "Angling hips toward trapped arm",
+            "Threading the arm too early"
           ],
           "trap": [
-            "Finish using arm strength alone"
+            "Yank the shoulder to force it"
           ]
         }
       },
@@ -400,10 +400,10 @@
         "distractors": {
           "plausible": [
             "Loosen grip to reposition",
-            "Switch to arm strength finish"
+            "Pull straight back on the arm"
           ],
           "trap": [
-            "Release grip and restart"
+            "Chase the roll, lose shin control"
           ]
         }
       },
@@ -418,7 +418,7 @@
             "Works best in isolation"
           ],
           "trap": [
-            "Telegraph both threats early"
+            "Abandon shin control to force it"
           ]
         }
       },
@@ -426,14 +426,14 @@
         "question": "How should you release the Baratoplata from Crackhead Control after your training partner taps?",
         "answer": "Upon any tap signal, immediately stop all hip extension and forward pressure on the shoulder. Release the figure-four grip by letting go of your shin, then unwrap the controlling leg from behind the opponent's neck. Lower your hips to remove all rotational force from the shoulder before allowing your partner to extract their arm at their own pace. Check that they have full shoulder mobility and no pain before resuming training. Never maintain any pressure while releasing, as the shoulder is at its most vulnerable at end range of motion.",
         "safety_critical": true,
-        "answer_line": "Release grip, unwrap leg slowly",
+        "answer_line": "Release grip, then unwrap leg",
         "distractors": {
           "plausible": [
-            "Hold position, ask if ok",
-            "Release leg before grip"
+            "Extract their arm for them",
+            "Unwrap leg before the grip"
           ],
           "trap": [
-            "Keep pressure while releasing"
+            "Keep hips extended while freeing"
           ]
         }
       }
@@ -573,11 +573,11 @@
         "answer_line": "Tap early, before pain peaks",
         "distractors": {
           "plausible": [
-            "Tap only with free hand",
-            "Tap once pressure feels heavy"
+            "Tap only with your free hand",
+            "Twist free before tapping"
           ],
           "trap": [
-            "Wait until pain is significant"
+            "Wait for the pain to set in"
           ]
         }
       },
@@ -585,14 +585,14 @@
         "question": "What defensive options are available at each stage of the baratoplata setup?",
         "answer": "Before the arm thread begins: posture aggressively to break crackhead control entirely, exploiting the momentary weakness from the overhook release. During the arm thread: immediately straighten your trapped arm fully and pull the elbow toward your hip to prevent the figure-four from closing. After figure-four connection but before hip extension: attempt explosive bridge toward the trapped arm side while driving your elbow to your hip to create space in the loop. Once hip extension begins with proper angle: tap immediately, as effective defensive options are exhausted at this point.",
         "safety_critical": false,
-        "answer_line": "Straighten arm before closing loop",
+        "answer_line": "Straighten arm before lock closes",
         "distractors": {
           "plausible": [
-            "Bridge away after hips extend",
-            "Posture break after thread starts"
+            "Bridge away from trapped arm",
+            "Break posture after thread starts"
           ],
           "trap": [
-            "Struggle once hips extend"
+            "Rip the arm out under the lock"
           ]
         }
       },

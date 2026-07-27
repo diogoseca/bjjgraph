@@ -223,11 +223,11 @@
         "answer_line": "Preserve position, not rush subs",
         "distractors": {
           "plausible": [
-            "Finish fast before they escape",
-            "Hunt submissions immediately"
+            "Control both their wrists",
+            "Advance to a mounted position"
           ],
           "trap": [
-            "Rush the choke, ignore position"
+            "Sit back for RNC, lose the back"
           ]
         }
       },
@@ -237,11 +237,11 @@
         "answer_line": "Drive hooks deeper, add pressure",
         "distractors": {
           "plausible": [
-            "Fight leg extension with hooks",
-            "Release hooks, reset position"
+            "Muscle against their leg push",
+            "Grab their feet to stop it"
           ],
           "trap": [
-            "Let go and re-hook from scratch"
+            "Extend legs to match theirs"
           ]
         }
       },
@@ -251,11 +251,11 @@
         "answer_line": "Seatbelt: choke arm + underhook",
         "distractors": {
           "plausible": [
-            "Double underhooks both sides",
-            "Collar grip only, no seatbelt"
+            "Grip both their wrists tightly",
+            "Bear hug around their waist"
           ],
           "trap": [
-            "Grab both wrists, skip seatbelt"
+            "Post on the mat, lose the back"
           ]
         }
       },
@@ -265,11 +265,11 @@
         "answer_line": "Attack the now-exposed other arm",
         "distractors": {
           "plausible": [
-            "Switch to guillotine choke",
+            "Yank your trapped hand loose",
             "Wait for them to release grip"
           ],
           "trap": [
-            "Abandon seatbelt to double-collar"
+            "Drop the seatbelt entirely"
           ]
         }
       },
@@ -279,11 +279,11 @@
         "answer_line": "Head on choke-arm side",
         "distractors": {
           "plausible": [
-            "Head on underhook side",
+            "Head on the underhook side",
             "Head centered on their spine"
           ],
           "trap": [
-            "Head on far side, block turn-in"
+            "Lift head off, they turn in"
           ]
         }
       },
@@ -293,11 +293,11 @@
         "answer_line": "Rotate threats, never fully commit",
         "distractors": {
           "plausible": [
-            "Commit hard to one submission",
-            "Wait passively for opening"
+            "Fake threats but never attack",
+            "Wait passively for an opening"
           ],
           "trap": [
-            "Go all-in on first choke seen"
+            "Force one finish, lose the back"
           ]
         }
       },
@@ -321,11 +321,11 @@
         "answer_line": "Strong hook defense or fatigue",
         "distractors": {
           "plausible": [
-            "Immediately from the first hook",
-            "Only after finishing choke"
+            "The instant you take the back",
+            "Only once the choke is set"
           ],
           "trap": [
-            "Never, hooks are always better"
+            "Mid-scramble, and get passed"
           ]
         }
       },
@@ -495,11 +495,11 @@
         "answer_line": "Turn to one hip for rotation",
         "distractors": {
           "plausible": [
-            "Stay flat, push both hips up",
+            "Push both hips up off the mat",
             "Bridge straight up to dislodge"
           ],
           "trap": [
-            "Stay flat and wait them out"
+            "Stay flat, get choked out"
           ]
         }
       },
@@ -523,11 +523,11 @@
         "answer_line": "Conserve energy, wait for openings",
         "distractors": {
           "plausible": [
-            "Muscle out with strength",
-            "Escape immediately, full speed"
+            "Muscle out with raw strength",
+            "Bridge nonstop to create space"
           ],
           "trap": [
-            "Explode out early, burn energy"
+            "Explode early, gas, get finished"
           ]
         }
       }

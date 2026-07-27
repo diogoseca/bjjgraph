@@ -304,40 +304,40 @@
         "answer": "Clearing the leg early lets the opponent track it with their knees and hips to re-establish half guard or enter deep half. When the opponent is fully flattened with effective crossface and pressure, their ability to move their lower body is severely compromised; the flattened structure prevents them from generating the hip movement needed to follow your leg. Rushing leg extraction is the most common reason the X Pass fails against competent guard players.",
         "distractors": {
           "plausible": [
-            "Clear leg early to save time",
-            "Clear leg once hips turn away"
+            "Speed matters more than pressure",
+            "Clear it while they still frame"
           ],
           "trap": [
-            "Rip leg free immediately"
+            "Rip it out, they take deep half"
           ]
         },
-        "answer_line": "Flatten first, then clear leg"
+        "answer_line": "Flatten shoulders before extracting"
       },
       {
         "question": "Your opponent secures a deep underhook on the trapped side mid-pass. What is your immediate response?",
         "answer": "If the underhook is already established, immediately transition to an over-under pass variation. Wrap their underhook arm by weaving your arm over their shoulder and behind their back, using the underhook itself as a handle to drive them flat. This converts their offensive grip into a liability. If the underhook is shallow, you can still prevent it by driving your elbow tight to your ribs and increasing crossface pressure to flatten their shoulder back to the mat before they can deepen the grip.",
-        "answer_line": "Switch to over-under pass",
+        "answer_line": "Convert to an over-under pass",
         "distractors": {
           "plausible": [
-            "Fight the underhook with strength",
-            "Abandon pass, reset to guard"
+            "Rip the underhook out by force",
+            "Back out and restart standing"
           ],
           "trap": [
-            "Push away to break the grip"
+            "Post and push, they take your back"
           ]
         }
       },
       {
         "question": "How does the X Pass create a multi-directional dilemma for the bottom player?",
         "answer": "The angular pressure forces the bottom player to choose between multiple defensive priorities simultaneously. They must decide between maintaining guard structure (knees together), defending the crossface (preventing shoulder flattening), or framing against hip pressure (stopping weight from settling). Defending one aspect weakens another. If they focus on the crossface, their guard structure weakens. If they maintain guard integrity, they cannot effectively frame against the angular drive. This cascading dilemma is what makes the X Pass effective against technically skilled guard players.",
-        "answer_line": "Splits guard, crossface, frames",
+        "answer_line": "Forces three defenses at once",
         "distractors": {
           "plausible": [
-            "Only pressures leg clearing",
-            "Just tests grip strength"
+            "It only threatens leg extraction",
+            "It mainly wins the grip fight"
           ],
           "trap": [
-            "Defending one covers all three"
+            "All-in on frames, get flattened"
           ]
         }
       },
@@ -346,40 +346,40 @@
         "answer": "In no-gi the crossface uses shoulder-to-face pressure and an arm threaded behind the head to the far lat or neck, replacing collar and sleeve grips. The free hand controls the opponent's knee or hip by cupping or hooking rather than gripping fabric. In gi, you can supplement the crossface with a grip on the far collar for additional control and grip the pants at the knee to assist with leg pinning. The fundamental angular mechanics remain identical; only the grip attachment points change.",
         "distractors": {
           "plausible": [
-            "Same collar grip works in no-gi",
-            "Grip the wrist instead of head"
+            "Sleeve and collar grips still work",
+            "Cup the wrist, not the neck"
           ],
           "trap": [
-            "Grab cloth, ignore skin control"
+            "Hunt grips, they recover guard"
           ]
         },
-        "answer_line": "Shoulder pressure, arm behind head"
+        "answer_line": "Shoulder and arm replace grips"
       },
       {
         "question": "If your X Pass attempt is defended and opponent begins recovering to knee shield, what passing chain options do you have?",
         "answer": "When the knee shield stalls your X Pass, chain to a knee cut, long step, or back step, or reset the crossface and re-attempt from a new angle. The knee cut redirects your pressure through their centerline; the long step steps your free leg completely over their guard; the back step enters a reverse passing position. The key is not committing to a single failed attempt but reading the defensive reaction and selecting the appropriate follow-up from your passing system.",
         "distractors": {
           "plausible": [
-            "Force the same angle harder",
-            "Abandon pass, stand and reset"
+            "Only the back step will work",
+            "Re-grip and wait them out"
           ],
           "trap": [
-            "Keep driving the stalled angle"
+            "Muscle the same angle, get swept"
           ]
         },
-        "answer_line": "Chain to knee cut or long step"
+        "answer_line": "Switch to knee cut or long step"
       },
       {
         "question": "What is the optimal timing window for initiating the X Pass from top half guard?",
         "answer": "The optimal timing window opens when the bottom player commits to a defensive action that momentarily weakens another aspect of their guard. For example, when they reach for an underhook, their knee shield weakens. When they adjust their knee shield, their upper body frames soften. The pass should be initiated as a response to their movement rather than from a static position. Attempting the X Pass against a fully settled, well-structured half guard without first creating a reaction has a significantly lower success rate.",
-        "answer_line": "Attack when they shift priorities",
+        "answer_line": "Go as they commit to a defense",
         "distractors": {
           "plausible": [
-            "Attack from a fully static guard",
-            "Wait for them to fully settle"
+            "Only pass from a settled base",
+            "Set every grip before moving"
           ],
           "trap": [
-            "Rush in before any reaction"
+            "Dive in blind, they take your back"
           ]
         }
       }
@@ -496,28 +496,28 @@
       {
         "question": "What is the most critical timing window for defending the X Pass and why?",
         "answer": "The most critical defensive window occurs between the passer's wide step and their diagonal drive. During this transition, the passer's weight is momentarily shifting from their base to the new wide stance, making them vulnerable to disruption. If you hip escape to follow their step or fight for the underhook during this window, you can prevent the angular pressure from being established. Once the diagonal drive is committed with full crossface pressure, defensive options become severely limited.",
-        "answer_line": "Disrupt during their wide step",
+        "answer_line": "Hit them mid-step, before the angle",
         "distractors": {
           "plausible": [
-            "Defend after crossface locks in",
-            "Wait until angle is fully set"
+            "Defend only once weight settles",
+            "Fight the grips before they move"
           ],
           "trap": [
-            "Push straight into their chest"
+            "Turn away to escape, lose your back"
           ]
         }
       },
       {
         "question": "Why do standard linear frames fail against the X Pass and how should you adjust?",
         "answer": "Standard linear frames (pushing straight against the passer's chest) fail because the X Pass attacks from a diagonal angle that bypasses linear resistance. The passer drives around your frames rather than through them. To counter this, angle your frames to match the passer's diagonal pressure line, directing your forearm against the crossface shoulder rather than the chest center. Using an angled knee shield that matches their lateral movement is far more effective than a straight-across frame.",
-        "answer_line": "Angle frame to crossface shoulder",
+        "answer_line": "Match frames to their diagonal",
         "distractors": {
           "plausible": [
-            "Push harder straight at chest",
-            "Add a second straight frame"
+            "Add a second frame on the chest",
+            "Grip their sleeve and hold on"
           ],
           "trap": [
-            "Brace dead center, push forward"
+            "Straight-arm them, get flattened"
           ]
         }
       },
@@ -538,14 +538,14 @@
       {
         "question": "When is transitioning to deep half guard the best defensive response against the X Pass?",
         "answer": "Deep half guard is the best response when the passer has already committed heavily to forward pressure and you cannot maintain your knee shield or win the underhook battle. Their forward weight commitment creates the opening to go underneath them by threading your head under their hips. However, this must be initiated before you are completely flattened; you need enough hip mobility to dive underneath. If the passer recognizes the entry early, they can sprawl to prevent it, so timing and commitment are essential.",
-        "answer_line": "Dive under on their forward load",
+        "answer_line": "Go under when they load forward",
         "distractors": {
           "plausible": [
-            "Use deep half from the start",
-            "Wait until fully flattened"
+            "Play it as your first option",
+            "Use it when they back off"
           ],
           "trap": [
-            "Shoot deep half while sprawled"
+            "Dive in flat, they take your back"
           ]
         }
       },

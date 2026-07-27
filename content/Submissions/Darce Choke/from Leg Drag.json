@@ -335,11 +335,11 @@
         "answer_line": "Trapped arm seals both carotids",
         "distractors": {
           "plausible": [
-            "Windpipe compression, not blood",
-            "Attacker's arms alone compress"
+            "Windpipe pressure stops airflow",
+            "Attacker's arms do all the work"
           ],
           "trap": [
-            "Vagus nerve strike knockout"
+            "Crank the neck to force the tap"
           ]
         }
       },
@@ -350,8 +350,8 @@
         "answer_line": "Weak grip, color change, sounds",
         "distractors": {
           "plausible": [
-            "Wait for a verbal tap only",
-            "Frantic struggling means safe"
+            "Strong push against your elbow",
+            "Bridging hard onto their side"
           ],
           "trap": [
             "Add pressure once they go still"
@@ -364,14 +364,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Just trap the near arm first",
-            "Crossface alone is enough"
+            "Trap the near arm and go",
+            "Crossface pressure by itself"
           ],
           "trap": [
-            "Let arm post on the mat"
+            "Dive for choke with hips light"
           ]
         },
-        "answer_line": "Hips pin, crossface turns, arm in"
+        "answer_line": "Hip pin, crossface, arm trapped"
       },
       {
         "question": "At what point during the Darce sequence does the submission become inescapable, and what defines this threshold?",
@@ -379,11 +379,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Once the arm starts threading",
-            "As soon as chin tucks down"
+            "The moment threading begins",
+            "When the crossface is set"
           ],
           "trap": [
-            "Before the grip fully clasps"
+            "Let go of hip pressure to re-grip"
           ]
         },
         "answer_line": "Figure-four locks, hips sprawl"
@@ -395,8 +395,8 @@
         "answer_line": "Drive hips forward, control head",
         "distractors": {
           "plausible": [
-            "Pull harder on trapped arm only",
-            "Force the choke despite posture"
+            "Pull harder on the trapped arm",
+            "Switch to a guillotine grip"
           ],
           "trap": [
             "Lean back to create space"
@@ -409,14 +409,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Threading hand under the chin",
-            "Grip too far from the shoulder"
+            "Choking arm too deep past neck",
+            "Finishing palm turned upward"
           ],
           "trap": [
-            "Squeeze elbows too tight"
+            "Release hip pressure to fix grip"
           ]
         },
-        "answer_line": "Loose grip, hand atop, elbows flared"
+        "answer_line": "Loose grip, hand on top, elbows out"
       },
       {
         "question": "How should you respond if your opponent loses consciousness during the Darce choke?",
@@ -437,14 +437,14 @@
         "question": "How do you adjust the finishing angle when the initial perpendicular position fails to produce a tap?",
         "answer": "If the initial angle is not producing carotid compression, first check that the opponent's arm is still trapped inside the triangle. Then adjust by walking your hips further toward the opponent's head, which changes the compression vector. You can also try dropping your far shoulder lower toward the mat while maintaining the grip, which increases the downward pressure component. If neither adjustment works, the threading depth may be insufficient—rather than burning energy forcing an ineffective choke, consider briefly loosening to re-thread deeper, or transition to side control and look for the next opportunity.",
         "safety_critical": false,
-        "answer_line": "Walk hips toward the head",
+        "answer_line": "Walk hips toward their head",
         "distractors": {
           "plausible": [
-            "Pull the trapped arm outward",
-            "Squeeze harder from same angle"
+            "Squeeze harder from same angle",
+            "Lift your far shoulder higher"
           ],
           "trap": [
-            "Abandon grip for a wristlock"
+            "Let them posture up to reset"
           ]
         }
       },
@@ -455,8 +455,8 @@
         "answer_line": "Same mechanics, slower in training",
         "distractors": {
           "plausible": [
-            "Lighter grip used in training",
-            "Weaker hip sprawl in training"
+            "Competition uses a different grip",
+            "Training version skips the sprawl"
           ],
           "trap": [
             "Full speed finish in training too"
@@ -470,11 +470,11 @@
         "answer_line": "Thread deeper for structural lock",
         "distractors": {
           "plausible": [
-            "Switch to gi grip mid-roll",
-            "Squeeze harder to fight the slip"
+            "Squeeze harder to beat the slip",
+            "Pull the head with your free arm"
           ],
           "trap": [
-            "Chase a fresh grip, losing position"
+            "Unlock hands to re-grip mid-finish"
           ]
         }
       }
@@ -599,11 +599,11 @@
         "answer_line": "Chin tuck, shrug, frame instantly",
         "distractors": {
           "plausible": [
-            "Wait to see how deep it gets",
-            "Turn away to create space"
+            "Wait until it gets deeper",
+            "Push their head away with hands"
           ],
           "trap": [
-            "Post hands flat on the mat"
+            "Turn away, giving up your back"
           ]
         }
       },
@@ -611,14 +611,14 @@
         "question": "Why is turning away from the opponent the wrong defensive reaction when you feel a Darce being set up?",
         "answer": "Turning away opens the neck-armpit channel wider by separating your chin from your shoulder on the near side, giving the opponent more space to thread their arm through. It also exposes your back, which can lead to an even worse position if the Darce fails. The correct response is to turn INTO the opponent, which closes the channel by driving your chin toward the near shoulder and creating structural resistance against the threading arm. This is counterintuitive because the natural reaction to choking pressure is to turn away, which is why drilling the correct response is essential.",
         "safety_critical": false,
-        "answer_line": "Turn into opponent, close channel",
+        "answer_line": "Turn into them, close the channel",
         "distractors": {
           "plausible": [
-            "Turn away to protect the neck",
-            "Post on far arm to create space"
+            "Pull your head straight back",
+            "Grab their wrist and pull down"
           ],
           "trap": [
-            "Expose the back to escape choke"
+            "Roll belly-down to escape"
           ]
         }
       },
@@ -629,8 +629,8 @@
         "answer_line": "Tap once compression won't release",
         "distractors": {
           "plausible": [
-            "Wait for tunnel vision to fade",
-            "Test tolerance before tapping"
+            "Signal only if your arm numbs",
+            "Concede as soon as grip locks"
           ],
           "trap": [
             "Hold out for the 8-second mark"

@@ -416,11 +416,11 @@
         "answer_line": "Snap head down before full posture",
         "distractors": {
           "plausible": [
-            "Chase the escaping head",
-            "Squeeze harder to stop extraction"
+            "Squeeze harder to stop extraction",
+            "Let go and stand clear to reset"
           ],
           "trap": [
-            "Keep chasing a lost guillotine"
+            "Keep chasing the slipping choke"
           ]
         }
       }
@@ -904,11 +904,11 @@
       "answer_line": "Head below shoulders kills defense",
       "distractors": {
         "plausible": [
-          "Head below hips stops posture",
-          "Spine straight limits defense"
+          "It just tires their neck out",
+          "It mainly blocks their vision"
         ],
         "trap": [
-          "Let posture return, keep choking"
+          "Let them posture up, keep squeezing"
         ]
       }
     },

@@ -285,7 +285,7 @@
             "Wrist and forearm bones"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Neck—crank it if arm resists"
           ]
         }
       },
@@ -296,8 +296,8 @@
         "answer_line": "Flattens hips, kills lasso power",
         "distractors": {
           "plausible": [
-            "Tires opponent's arms out",
-            "Blocks their breathing"
+            "Sets up your collar grip",
+            "Tires their gripping arms"
           ],
           "trap": [
             "Skip it, grip the wrist first"
@@ -312,10 +312,10 @@
         "distractors": {
           "plausible": [
             "Force the rotation harder",
-            "Release grip, re-angle"
+            "Pull the wrist toward you"
           ],
           "trap": [
-            "Let go and pass guard instead"
+            "Let go and dive for the head"
           ]
         }
       },
@@ -338,14 +338,14 @@
         "question": "When should you release the Kimura after feeling or hearing a tap?",
         "answer": "Release all rotational pressure immediately upon any tap signal—verbal, physical hand tap, foot tap, or any distress sound. Return the arm toward neutral position by reversing the rotation slowly, then release the figure-four grip completely. Never release suddenly as the arm springing back forcefully can cause additional injury. Allow the partner to self-assess shoulder mobility before continuing.",
         "safety_critical": true,
-        "answer_line": "Immediately, any tap signal",
+        "answer_line": "Immediately, on any tap signal",
         "distractors": {
           "plausible": [
-            "After confirming verbally",
-            "Once mount is secured"
+            "Only for a clear verbal call",
+            "Once they stop resisting"
           ],
           "trap": [
-            "Hold briefly to ensure tap"
+            "Hold one beat to be certain"
           ]
         }
       },
@@ -356,11 +356,11 @@
         "answer_line": "Follow the roll, keep grip",
         "distractors": {
           "plausible": [
-            "Release grip, reset position",
-            "Base out, stop the roll"
+            "Base out to stop the roll",
+            "Reset and re-grip the wrist"
           ],
           "trap": [
-            "Fight the roll, hold ground"
+            "Let go mid-roll, land bottom"
           ]
         }
       },
@@ -386,11 +386,11 @@
         "answer_line": "Losing wide base, knees close",
         "distractors": {
           "plausible": [
-            "Gripping too tight on wrist",
-            "Rushing the figure-four"
+            "Gripping the wrist too tight",
+            "Not squaring hips to opponent"
           ],
           "trap": [
-            "Posting both hands on mat"
+            "Dive forward onto both elbows"
           ]
         }
       },
@@ -402,10 +402,10 @@
         "distractors": {
           "plausible": [
             "Grip their fingers tightly",
-            "Pull arm away from body"
+            "Pull their arm off your ribs"
           ],
           "trap": [
-            "Wide grip, arm extended out"
+            "Lean back, give up your base"
           ]
         }
       },
@@ -420,7 +420,7 @@
             "Right after guard passing"
           ],
           "trap": [
-            "When they grip your lasso leg"
+            "Mid-sweep, while off balance"
           ]
         }
       }
@@ -536,14 +536,14 @@
         "question": "What is the earliest recognition cue that a Kimura attack is developing from Lasso Guard top?",
         "answer": "The earliest cue is the top player deliberately controlling your non-lasso wrist or forearm with purpose rather than using standard passing grips. Before this, they may telegraph the attack by suddenly shifting their weight forward and compressing their chest against your torso. Recognizing the intention at the wrist control stage allows defense before the figure-four locks, which is significantly easier than escaping a fully established Kimura grip.",
         "safety_critical": false,
-        "answer_line": "Purposeful wrist/forearm control",
+        "answer_line": "Purposeful wrist/forearm grip",
         "distractors": {
           "plausible": [
-            "Sudden weight shift forward",
-            "Opponent grips your collar"
+            "They grip your collar",
+            "They switch to half guard"
           ],
           "trap": [
-            "Figure-four already locked"
+            "Wait for the lock to close"
           ]
         }
       },
@@ -551,14 +551,14 @@
         "question": "When should you tap to a Kimura from Lasso Guard rather than continuing to defend?",
         "answer": "Tap immediately when you feel rotational pressure on your shoulder that you cannot stop with your current defensive grip or position. If the figure-four is locked, your anchor grip has been broken, and rotation has begun past your comfortable range of motion, continuing to resist risks catastrophic rotator cuff or labral injury. It is always safer to tap early and reset than to risk a training injury that could require surgery and months of recovery.",
         "safety_critical": true,
-        "answer_line": "Immediately if rotation starts",
+        "answer_line": "As soon as you can't stop rotation",
         "distractors": {
           "plausible": [
-            "Only if grip is fully locked",
-            "When pain becomes sharp"
+            "Once your lasso hook is cleared",
+            "Only if they step over your head"
           ],
           "trap": [
-            "Wait to see if you can escape"
+            "Wait for sharp shoulder pain"
           ]
         }
       },
@@ -566,14 +566,14 @@
         "question": "Why should you bridge toward the Kimura side rather than away from it when escaping?",
         "answer": "Bridging toward the Kimura side compresses the rotational arc available to the attacker, reducing the mechanical advantage they need to finish. Bridging away from the Kimura side actually increases the distance the arm can travel, making the submission tighter and giving the attacker more room to generate finishing pressure. The toward-side bridge also creates better hip escape angles for extracting the captured arm.",
         "safety_critical": false,
-        "answer_line": "Toward Kimura side",
+        "answer_line": "Toward the Kimura side",
         "distractors": {
           "plausible": [
             "Away, to create distance",
             "Straight up, no angle"
           ],
           "trap": [
-            "Bridge away, then hip escape"
+            "Turn away, give up your back"
           ]
         }
       },
@@ -585,10 +585,10 @@
         "distractors": {
           "plausible": [
             "Push their head away",
-            "Try to out-muscle the grip"
+            "Out-muscle the grip"
           ],
           "trap": [
-            "Pull elbow out immediately"
+            "Straighten and rip the arm free"
           ]
         }
       },

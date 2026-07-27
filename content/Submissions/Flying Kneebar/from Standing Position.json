@@ -361,11 +361,11 @@
         "answer_line": "Hip, ankle tight, legs locked",
         "distractors": {
           "plausible": [
-            "Hip on thigh, ankle loose",
-            "Legs squeezed before hip set"
+            "Grip strength over hip placement",
+            "Hip on the thigh, chest loose"
           ],
           "trap": [
-            "Skip ankle control, just extend"
+            "Fall back with no ankle control"
           ]
         }
       },
@@ -376,11 +376,11 @@
         "answer_line": "Tuck chin, round spine, land flat",
         "distractors": {
           "plausible": [
-            "Land on your shoulder, chin up",
-            "Keep spine straight, brace neck"
+            "Land on one shoulder to roll out",
+            "Stay stiff and absorb the impact"
           ],
           "trap": [
-            "Post arms, release ankle grip"
+            "Post a hand to break the fall"
           ]
         }
       },
@@ -391,8 +391,8 @@
         "answer_line": "Convert to heel hook, adjust grip",
         "distractors": {
           "plausible": [
-            "Force the kneebar harder",
-            "Release and reset position"
+            "Sit up and re-grip the ankle",
+            "Switch to a toe hold instead"
           ],
           "trap": [
             "Crank extension against rotation"
@@ -403,14 +403,14 @@
         "question": "What physical prerequisites must a practitioner have before attempting flying kneebar in live training?",
         "answer": "Practitioners must demonstrate: (1) Proficient breakfall ability from various angles and rotations, tested through dedicated ukemi (breakfall) training. (2) Core strength sufficient to control rotation speed and body positioning mid-air, verified through related drills like granby rolls. (3) Hip flexibility to configure legs properly around opponent's leg without strain. (4) Spatial awareness and proprioception to track body position during rotation. (5) Understanding of kneebar finishing mechanics from static positions. (6) Minimum rank of brown belt or 5+ years experience. (7) Completion of 8-12 weeks crash pad drilling progression with zero resistance.",
         "safety_critical": true,
-        "answer_line": "Breakfalls, core, brown belt+",
+        "answer_line": "Breakfalls, core, hip mobility",
         "distractors": {
           "plausible": [
-            "White belt with good flexibility",
-            "Just a strong core and hip mobility"
+            "Flexibility alone is enough",
+            "Watching video demos suffices"
           ],
           "trap": [
-            "Any belt, jump into live rounds"
+            "Skip ukemi, drill live at speed"
           ]
         }
       },
@@ -436,11 +436,11 @@
         "answer_line": "PCL, MCL, LCL - months to heal",
         "distractors": {
           "plausible": [
-            "ACL is the primary target",
-            "Only meniscus, weeks to heal"
+            "ACL only, back in six weeks",
+            "Meniscus tear, heals in days"
           ],
           "trap": [
-            "Minor strain, days to recover"
+            "No real damage, crank freely"
           ]
         }
       },
@@ -466,11 +466,11 @@
         "answer_line": "Hip, ankle, legs all locked in",
         "distractors": {
           "plausible": [
-            "Opponent stops moving at all",
-            "Leg looks slightly extended"
+            "Any grip on their ankle",
+            "Once you land on your back"
           ],
           "trap": [
-            "Add sudden extra force now"
+            "Rip the hips to force it"
           ]
         }
       },
@@ -481,8 +481,8 @@
         "answer_line": "Squeeze knees, slide hip down",
         "distractors": {
           "plausible": [
-            "Yank the ankle harder instead",
-            "Push through from the high hip"
+            "Re-grip and yank the ankle",
+            "Bail and take top position"
           ],
           "trap": [
             "Force extension from high hip"
@@ -496,11 +496,11 @@
         "answer_line": "Momentum masks pressure control",
         "distractors": {
           "plausible": [
-            "Only risky for beginners",
-            "Same risk as ground kneebar"
+            "Harder to finish, not more risky",
+            "Danger is only to the attacker"
           ],
           "trap": [
-            "Skip the crash pad drilling phase"
+            "Drill it live without crash pads"
           ]
         }
       },
@@ -511,8 +511,8 @@
         "answer_line": "Pulse hip, threaten toe hold",
         "distractors": {
           "plausible": [
-            "Pry their hands off directly",
-            "Overpower their grip strength"
+            "Pull the ankle with both arms",
+            "Wait for their grip to tire"
           ],
           "trap": [
             "Release ankle to free your hands"
@@ -649,8 +649,8 @@
         "answer_line": "Turn into the trapped leg",
         "distractors": {
           "plausible": [
-            "Turn away for more space",
-            "Stay flat and pull the knee"
+            "Flatten out and pull the heel",
+            "Push their hips away by hand"
           ],
           "trap": [
             "Rotate away from the attacker"
@@ -664,11 +664,11 @@
         "answer_line": "Hip wedged, no bend in 2-3 sec",
         "distractors": {
           "plausible": [
-            "Only when the pain is unbearable",
-            "Wait for the ref to stop it"
+            "Once the ref calls it",
+            "After you try three escapes"
           ],
           "trap": [
-            "Keep fighting, trust your ligaments"
+            "Ride it out, pain comes first"
           ]
         }
       },
@@ -679,11 +679,11 @@
         "answer_line": "Bend knee, clasp leg, turn in",
         "distractors": {
           "plausible": [
-            "Kick out hard to break free",
-            "Turn away to create distance"
+            "Push their hip away, then sit up",
+            "Grab a collar grip and stall"
           ],
           "trap": [
-            "Push against the hip immediately"
+            "Kick leg straight, turn away"
           ]
         }
       },

@@ -320,24 +320,24 @@
         "distractors": {
           "plausible": [
             "Chase the far arm aggressively",
-            "Flatten hips, ignore the roll"
+            "Squeeze the wrist grip harder"
           ],
           "trap": [
-            "Let go and reset to guard"
+            "Stay high on your knees"
           ]
         }
       },
       {
         "question": "Your opponent successfully hides their elbow tight to their body - what is your response?",
         "answer": "When opponent tucks their elbow defensively, you have three high-percentage options: first, maintain the grip and transition to mount since their defensive focus on the arm opens positional advancement; second, spin to north-south where different angles often expose the elbow; third, use the shoulder pressure to gradually pry the elbow away from their body through progressive angle changes. Never release the grip - their defensive posture still limits their escape options.",
-        "answer_line": "Keep grip, advance to mount/NS",
+        "answer_line": "Keep grip, take mount or north-south",
         "distractors": {
           "plausible": [
-            "Release grip, attack other arm",
-            "Yank the elbow straight out"
+            "Let go and hunt the far arm",
+            "Stall until they tire out"
           ],
           "trap": [
-            "Let go and reset position"
+            "Rip the elbow out by force"
           ]
         }
       },
@@ -351,7 +351,7 @@
             "Push pace with rapid movement"
           ],
           "trap": [
-            "Release grip to reset tempo"
+            "Crank the arm with pure strength"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Keep grip, walk feet, re-square",
         "distractors": {
           "plausible": [
-            "Release grip, reset to guard",
-            "Chase hips instead of shoulder"
+            "Chase hips instead of shoulder",
+            "Pull them flat by the head"
           ],
           "trap": [
-            "Let go and start over"
+            "Let go to chase the back"
           ]
         }
       }
@@ -684,11 +684,11 @@
         "answer_line": "Hips angled, bottom hip elevated",
         "distractors": {
           "plausible": [
-            "Hips square, flat on the mat",
-            "Both hips flat for stability"
+            "Flat hips for a stronger base",
+            "Square up chest to chest"
           ],
           "trap": [
-            "Flatten hips to conserve energy"
+            "Turn away and face the mat"
           ]
         }
       },
@@ -698,10 +698,10 @@
         "distractors": {
           "plausible": [
             "Push straight back against them",
-            "Release grip, frame with hands"
+            "Squeeze the grip and hold on"
           ],
           "trap": [
-            "Let them flatten you out"
+            "Go flat to absorb the pressure"
           ]
         },
         "answer_line": "Roll or slide to deep half"
@@ -741,10 +741,10 @@
         "distractors": {
           "plausible": [
             "Pull with arms to generate power",
-            "Flat back, no posted foot"
+            "Bridge with back flat, no post"
           ],
           "trap": [
-            "Yank the Kimura arm to sweep"
+            "Open lockdown to bridge higher"
           ]
         }
       },
@@ -951,7 +951,7 @@
           "Just slows their hand movement"
         ],
         "trap": [
-          "Frees their arm for framing"
+          "Nothing, just wait it out"
         ]
       }
     },
@@ -961,11 +961,11 @@
       "answer_line": "Elbow grip shortens their lever",
       "distractors": {
         "plausible": [
-          "Wrist grip locks tighter",
-          "Either depth works equally well"
+          "Either depth works equally well",
+          "Grip strength matters, not depth"
         ],
         "trap": [
-          "Grip the wrist for quick control"
+          "Grab shallow near the wrist"
         ]
       }
     },
@@ -1014,14 +1014,14 @@
     {
       "question": "How is body alignment relative to the trapped arm managed by both players in the Kimura Trap?",
       "answer": "The grip holder wants their body perpendicular to the trapped arm so the rotational lever on the shoulder is maximized and the opponent cannot follow the arm with their torso. The trapped player conversely tries to square up and bring their shoulders and hips into line with the arm, because aligning the spine behind the limb removes the twist and lets the joint move as one unit. This produces a constant angular battle where one player circles to break perpendicularity and the other rotates to restore it. Whoever wins the angle controls whether the shoulder stays isolated, which is why footwork and hip rotation matter as much as the grip itself.",
-      "answer_line": "Stay perpendicular to the arm",
+      "answer_line": "Attacker T's up, defender squares",
       "distractors": {
         "plausible": [
-          "Square up to increase leverage",
-          "Alignment doesn't matter much"
+          "Mirror their alignment exactly",
+          "Alignment matters only on top"
         ],
         "trap": [
-          "Face opponent squarely for control"
+          "Square your chest to theirs"
         ]
       }
     }

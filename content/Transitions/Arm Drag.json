@@ -303,11 +303,11 @@
         "answer_line": "Force a reaction, then drag",
         "distractors": {
           "plausible": [
-            "Wait for them to attack",
-            "Pry elbows open by hand"
+            "Circle away until they tire",
+            "Pry the elbow loose by hand"
           ],
           "trap": [
-            "Grab retracted arm and yank"
+            "Shoot a blind single, head down"
           ]
         }
       },
@@ -363,7 +363,7 @@
             "Switch stance and grip side"
           ],
           "trap": [
-            "Drag harder against rooted base"
+            "Yank hard, giving up your back"
           ]
         }
       },

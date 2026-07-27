@@ -279,11 +279,11 @@
         "answer_line": "45° angle, outside to inside",
         "distractors": {
           "plausible": [
-            "90° straight down the middle",
-            "Flat, parallel to their leg"
+            "Straight down through center",
+            "Flat along their leg line"
           ],
           "trap": [
-            "Drive knee straight through center"
+            "Drive full weight into knee shield"
           ]
         }
       },
@@ -293,11 +293,11 @@
         "answer_line": "Far hip control stops rotation",
         "distractors": {
           "plausible": [
-            "Pin the near hip and shoulder",
-            "Head control stops rotation"
+            "Pin the near hip instead",
+            "Crossface alone keeps them flat"
           ],
           "trap": [
-            "Ignore hips, chase the grip"
+            "Ignore hips, they spin to turtle"
           ]
         }
       },
@@ -324,7 +324,7 @@
             "Hip drive without crossface"
           ],
           "trap": [
-            "Underhook replaces all pressure"
+            "Lift chest off, guard recovers"
           ]
         },
         "answer_line": "Hip drive + crossface + far-hip"
@@ -349,11 +349,11 @@
         "answer_line": "Follow turn, take the back",
         "distractors": {
           "plausible": [
-            "Stop turn, force back down",
-            "Release grips, reset pass"
+            "Sprawl heavy and disengage",
+            "Spin under for a leglock"
           ],
           "trap": [
-            "Chase side control, fight turn"
+            "Fight the turn to keep side control"
           ]
         }
       },
@@ -363,11 +363,11 @@
         "answer_line": "Forward, low hip drive",
         "distractors": {
           "plausible": [
-            "Hips high for leverage",
-            "Hips back to base out"
+            "Hips back to post and base",
+            "Sharp lateral hip pivot"
           ],
           "trap": [
-            "Rise hips to generate power"
+            "Lift hips high, guard recovers"
           ]
         }
       },
@@ -391,11 +391,11 @@
         "answer_line": "Slice diagonal; cut more lateral",
         "distractors": {
           "plausible": [
-            "Cut has more forward drive",
-            "Slice used when they're on side"
+            "Cut drives more forward",
+            "Slice is for on-their-side"
           ],
           "trap": [
-            "Same angle, just faster speed"
+            "Rush same angle, get swept"
           ]
         }
       },
@@ -602,8 +602,8 @@
         "answer_line": "During their forward drive",
         "distractors": {
           "plausible": [
-            "After they consolidate side",
-            "Before they commit weight"
+            "Before they commit weight",
+            "The moment they grip your collar"
           ],
           "trap": [
             "Wait until fully passed"
@@ -616,11 +616,11 @@
         "answer_line": "Exposes arm to kimura",
         "distractors": {
           "plausible": [
-            "No risk, always safe move",
-            "Risks guillotine instead"
+            "Risks a guillotine instead",
+            "Lets them take your back"
           ],
           "trap": [
-            "Reach for underhook now"
+            "Reach for the underhook now"
           ]
         }
       },
@@ -630,11 +630,11 @@
         "answer_line": "Offensive grips, threaten sweeps",
         "distractors": {
           "plausible": [
-            "Pure defense, hold shield still",
-            "Push away and stand up"
+            "Hold the shield still and wait",
+            "Push them off and stand up"
           ],
           "trap": [
-            "Release grips, reset frame only"
+            "Turn away to reset your guard"
           ]
         }
       },

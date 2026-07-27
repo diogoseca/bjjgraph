@@ -287,14 +287,14 @@
         "question": "What anatomical structures does the Kimura from Kuzure Kesa-Gatame primarily attack?",
         "answer": "The Kimura targets the shoulder joint's internal rotation limit, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments, the glenoid labrum, and the shoulder capsule. Secondary stress occurs at the acromioclavicular joint when rotation is taken past the normal range of motion.",
         "safety_critical": true,
-        "answer_line": "Rotator cuff & shoulder capsule",
+        "answer_line": "Rotator cuff and shoulder capsule",
         "distractors": {
           "plausible": [
-            "Elbow joint hyperextension",
-            "Wrist flexor tendons"
+            "Elbow hyperextension like armbar",
+            "Wrist and forearm tendons"
           ],
           "trap": [
-            "Cervical spine rotation"
+            "Neck — crank it to finish"
           ]
         }
       },
@@ -302,14 +302,14 @@
         "question": "Why is maintaining hip pressure during grip acquisition critical to this submission's success?",
         "answer": "Hip pressure serves dual purposes: it pins the opponent's torso to prevent them from creating the space needed to turn, bridge, or recover guard, and it anchors your own body so that upper body movements to secure the grip do not shift your center of gravity. Without hip pressure, the opponent exploits the momentary attention shift to escape before the figure-four is established.",
         "safety_critical": false,
-        "answer_line": "Pins torso, prevents escape",
+        "answer_line": "Pins torso, denies escape space",
         "distractors": {
           "plausible": [
-            "Adds extra submission power",
-            "Blocks their arm from moving"
+            "Generates the finishing torque",
+            "Keeps your shoulders square"
           ],
           "trap": [
-            "Free your hands to grip faster"
+            "Lift hips to reach the wrist"
           ]
         }
       },
@@ -320,11 +320,11 @@
         "answer_line": "Peel fingers or switch to armbar",
         "distractors": {
           "plausible": [
-            "Power through with body weight",
-            "Release grip and re-shoot later"
+            "Drive body weight through it",
+            "Let go and reset the position"
           ],
           "trap": [
-            "Yank the arm to break their grip"
+            "Stand up to rip the grip free"
           ]
         }
       },
@@ -365,11 +365,11 @@
         "answer_line": "Deepen figure-four toward elbow",
         "distractors": {
           "plausible": [
-            "Grip harder at the wrist",
-            "Switch to gi grip mechanics"
+            "Squeeze harder at their wrist",
+            "Speed up before it slips"
           ],
           "trap": [
-            "Chalk the opponent's arm mid-roll"
+            "Release and re-grip the wrist"
           ]
         }
       },
@@ -377,14 +377,14 @@
         "question": "How should you release the Kimura safely after your training partner taps?",
         "answer": "Immediately stop all rotational pressure the instant the tap is felt or heard. Slowly return the arm toward its natural resting position by externally rotating back toward the starting angle. Release the figure-four grip completely and allow your partner to self-assess their shoulder mobility before continuing. Never release suddenly or let the arm spring back, as this can cause injury even after the rotational pressure stops.",
         "safety_critical": true,
-        "answer_line": "Stop, slowly return arm, release",
+        "answer_line": "Ease the torque, guide arm down",
         "distractors": {
           "plausible": [
-            "Hold position until they confirm",
-            "Quickly unwind to reset position"
+            "Let go of both grips at once",
+            "Straighten the elbow to relieve it"
           ],
           "trap": [
-            "Let the arm spring back naturally"
+            "Keep cranking until they say stop"
           ]
         }
       },
@@ -392,14 +392,14 @@
         "question": "What signals indicate you should abandon the Kimura attempt and return to positional control?",
         "answer": "Abandon the attempt when your hip pressure has been compromised and the opponent is actively turning into you, when you cannot secure the figure-four grip after two attempts and the opponent is actively defending, or when the opponent has connected their hands in a defensive grip you cannot break without sacrificing base. Returning to solid Kuzure Kesa-Gatame preserves your dominant position and allows another attempt from a stronger starting point.",
         "safety_critical": false,
-        "answer_line": "Lost hips, grip fails, hands locked",
+        "answer_line": "Hips lost, grip fails, hands locked",
         "distractors": {
           "plausible": [
-            "Opponent takes a deep breath",
-            "Kimura takes longer than 10 seconds"
+            "They grab their belt to defend",
+            "Your arms start to tire"
           ],
           "trap": [
-            "Force the figure-four regardless"
+            "Crank harder and give up base"
           ]
         }
       },
@@ -407,14 +407,14 @@
         "question": "Why is elbow elevation above the shoulder line important before initiating the rotational finish?",
         "answer": "When the elbow sits below shoulder level, the opponent's chest wall and latissimus dorsi provide substantial muscular resistance to rotation, making the finish require significantly more force. Elevating the elbow above the shoulder line bypasses these large muscle groups and isolates the rotational load onto the smaller rotator cuff muscles and ligaments, which cannot resist the torque effectively. This is the difference between muscling a finish and using proper leverage.",
         "safety_critical": false,
-        "answer_line": "Bypasses lats, isolates rotator cuff",
+        "answer_line": "Bypasses lats, isolates cuff",
         "distractors": {
           "plausible": [
             "Makes the grip easier to hold",
-            "Increases speed of the rotation"
+            "Speeds up the rotation"
           ],
           "trap": [
-            "Lower elbow for more leverage"
+            "Drive the elbow into their neck"
           ]
         }
       },
@@ -426,10 +426,10 @@
         "distractors": {
           "plausible": [
             "Re-thread the figure-four grip",
-            "Switch to a straight armlock hold"
+            "Wait for the arm to bend again"
           ],
           "trap": [
-            "Push the arm back to bent position"
+            "Sit back before clearing the head"
           ]
         }
       }
@@ -561,11 +561,11 @@
         "answer_line": "Wrist rotates behind your back",
         "distractors": {
           "plausible": [
-            "Only when it truly hurts",
-            "After the figure-four fully locks"
+            "When the figure-four locks on",
+            "When your elbow is bent to 90"
           ],
           "trap": [
-            "Wait for the ref to call it"
+            "Muscle out after rotation starts"
           ]
         }
       },
@@ -591,11 +591,11 @@
         "answer_line": "Turn in, grip-fight, or tap",
         "distractors": {
           "plausible": [
-            "Push their hips off you",
-            "Sit up to break the lock"
+            "Push their head away",
+            "Wait for them to lose the grip"
           ],
           "trap": [
-            "Yank arm free while turning away"
+            "Rip the arm out, rolling away"
           ]
         }
       }

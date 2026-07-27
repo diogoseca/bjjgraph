@@ -226,14 +226,14 @@
       {
         "question": "What is the primary trigger that indicates it is time to initiate this transition?",
         "answer": "The primary trigger is feeling opponent begin hip rotation toward you. This rotation typically occurs when they attempt to relieve back pressure, create escape angles, or defend choke attacks. The transition redirects this defensive movement into the mounted position rather than allowing escape.",
-        "answer_line": "Feel hip rotation begin",
+        "answer_line": "Feel their hips rotate toward you",
         "distractors": {
           "plausible": [
             "Opponent posts free hand",
-            "Wait for choke to land"
+            "Their shoulders flatten to mat"
           ],
           "trap": [
-            "Ignore it, hold position"
+            "Drop both hooks and jump to mount"
           ]
         }
       },
@@ -243,53 +243,53 @@
         "answer_line": "Far hook first, keep near hook",
         "distractors": {
           "plausible": [
-            "Near hook first for control",
-            "Remove both hooks together"
+            "Remove both hooks at once",
+            "Keep both hooks in and rotate"
           ],
           "trap": [
-            "Remove near hook, keep far hook"
+            "Strip near hook, ride far hook"
           ]
         }
       },
       {
         "question": "Your opponent posts their free arm against your transitioning knee - how do you respond?",
         "answer": "Drive through the single-arm frame using committed hip pressure while maintaining Gift Wrap tightness. A single arm lacks structural integrity to stop a committed knee drive. If the frame persists, immediately threaten armbar on the extended framing arm - this creates a dilemma where they must choose between blocking the mount or protecting the arm.",
-        "answer_line": "Drive knee, then threat armbar",
+        "answer_line": "Drive the knee, then armbar threat",
         "distractors": {
           "plausible": [
-            "Stop and regrip Gift Wrap",
-            "Switch to different pass"
+            "Reset and re-tighten Gift Wrap",
+            "Pause and switch to a choke"
           ],
           "trap": [
-            "Retreat until arm clears"
+            "Release Gift Wrap to strip arm"
           ]
         }
       },
       {
         "question": "What critical mistake causes practitioners to end in half guard instead of mount?",
         "answer": "Failing to clear the knee past the opponent's hip line before they flatten their hips results in half guard or quarter guard. The knee must cross completely while the opponent is still rotating. Half measures create half guard. The solution is committing fully to knee clearance at the perpendicular point of rotation.",
-        "answer_line": "Knee stalls before hip line",
+        "answer_line": "Knee stalls before their hip line",
         "distractors": {
           "plausible": [
-            "Losing near hook too early",
-            "Rotating too fast to mount"
+            "Losing the near hook too early",
+            "Rotating your hips too fast"
           ],
           "trap": [
-            "Settling for half guard control"
+            "Let go control and jump to mount"
           ]
         }
       },
       {
         "question": "Why is technical mount the target position rather than standard mount?",
         "answer": "Technical mount with high knee positioning maintains the arm isolation advantage from the Gift Wrap. The trapped arm remains compromised for defense, making subsequent submission attempts significantly higher percentage. Low mount allows the opponent to use both arms for escape frames, negating the control advantage built through the Gift Wrap.",
-        "answer_line": "Keeps trapped arm isolated",
+        "answer_line": "Keeps their trapped arm isolated",
         "distractors": {
           "plausible": [
-            "Provides better base control",
-            "Faster to set up chokes"
+            "Gives a wider, heavier base",
+            "Lets you posture up higher"
           ],
           "trap": [
-            "Free both arms for safety"
+            "Sit in low mount to feel heavy"
           ]
         }
       },
@@ -310,28 +310,28 @@
       {
         "question": "When should you abandon the Gift Wrap during transition?",
         "answer": "Only abandon the Gift Wrap if the arm is already recovering and maintaining grip compromises the mount transition entirely. It is better to complete mount with standard control than to lose both the arm trap and the position. However, fight to maintain the Gift Wrap unless absolutely necessary - it significantly increases submission success from technical mount.",
-        "answer_line": "Only if it costs the mount",
+        "answer_line": "Only if keeping it costs the mount",
         "distractors": {
           "plausible": [
-            "Whenever grip feels tired",
-            "As soon as knee clears hip"
+            "Whenever your grip feels tired",
+            "Right after the knee crosses"
           ],
           "trap": [
-            "Release early to secure choke"
+            "Release it and spin for armbar"
           ]
         }
       },
       {
         "question": "How do you create rotation against a passive opponent who refuses to move?",
         "answer": "Attack the rear naked choke aggressively to force defensive hand movement and head turning. Use your choking arm to physically turn their head and upper body toward you while the Gift Wrap arm maintains control. The forced rotation creates the same trigger as natural defensive movement. Body triangle squeezing pressure also creates discomfort that generates movement.",
-        "answer_line": "Attack choke, turn their head",
+        "answer_line": "Attack the choke, turn their head",
         "distractors": {
           "plausible": [
-            "Wait them out patiently",
-            "Switch to different attack"
+            "Wait for them to move first",
+            "Squeeze harder and stay still"
           ],
           "trap": [
-            "Release Gift Wrap to regrip"
+            "Loosen hooks to bait movement"
           ]
         }
       },
@@ -341,25 +341,25 @@
         "answer_line": "Wrist grip, elbow drives down",
         "distractors": {
           "plausible": [
-            "Forearm grip, elbow lifted up",
-            "Bicep grip, arm across belt"
+            "Grip their sleeve, elbow flared",
+            "Grab their bicep, arm held low"
           ],
           "trap": [
-            "Release grip during rotation"
+            "Let the wrist go mid-rotation"
           ]
         }
       },
       {
         "question": "How does the direction of force change during each phase of this transition?",
         "answer": "In the initial phase, force is lateral as you guide rotation using the near hook and Gift Wrap control. At the perpendicular point, force shifts to downward pressure as you drive your knee across the hip line. In the consolidation phase, force becomes vertical as you settle weight into technical mount. Understanding these directional shifts prevents applying force in the wrong plane, which is the root cause of most failed transition attempts.",
-        "answer_line": "Lateral, then down, then up",
+        "answer_line": "Lateral, then down, then settle",
         "distractors": {
           "plausible": [
-            "Downward force the whole time",
-            "Vertical push from the start"
+            "Downward pressure the whole time",
+            "Straight up from the start"
           ],
           "trap": [
-            "Push laterally the whole time"
+            "Lift your weight to clear knee"
           ]
         }
       }
@@ -544,11 +544,11 @@
         "answer_line": "Prioritize blocking the mount",
         "distractors": {
           "plausible": [
-            "Split focus, arm and hips",
-            "Recover arm before blocking"
+            "Split effort between arm and hips",
+            "Bridge hard to free the arm"
           ],
           "trap": [
-            "Fight only for the trapped arm"
+            "Ignore the knee, rip the arm out"
           ]
         }
       }

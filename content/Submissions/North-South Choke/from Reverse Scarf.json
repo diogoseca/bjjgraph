@@ -316,11 +316,11 @@
         "answer_line": "Bilateral carotid compression",
         "distractors": {
           "plausible": [
-            "Trachea compression like RNC",
-            "One-side neck pressure only"
+            "Tracheal compression, airway shut",
+            "Single carotid, one side only"
           ],
           "trap": [
-            "Crank the windpipe hard"
+            "Grind knuckles into the throat"
           ]
         }
       },
@@ -331,11 +331,11 @@
         "answer_line": "Hip transition to north-south",
         "distractors": {
           "plausible": [
-            "Initial arm thread under neck",
-            "Final grip lock moment"
+            "Right after the shoulder drops",
+            "During the final squeeze"
           ],
           "trap": [
-            "Wait until choke fully locked"
+            "Never, weight alone holds them"
           ]
         }
       },
@@ -346,11 +346,11 @@
         "answer_line": "Drop head, ear to mat",
         "distractors": {
           "plausible": [
-            "Keep head up for base",
-            "Head toward choking arm side"
+            "Keep head up to see the mat",
+            "Head toward the choking arm"
           ],
           "trap": [
-            "Push head away, stay elevated"
+            "Post hands on mat, lift chest"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Tilt forehead, then cross-face",
         "distractors": {
           "plausible": [
-            "Force arm through the chin",
-            "Pull head up by hair"
+            "Muscle the arm past the chin",
+            "Squeeze tighter and wait it out"
           ],
           "trap": [
-            "Jam arm against locked chin"
+            "Lift chest to pry chin free"
           ]
         }
       },
@@ -376,11 +376,11 @@
         "answer_line": "Face reddens, resistance fades",
         "distractors": {
           "plausible": [
-            "Sharp pain, opponent stays strong",
-            "Forearm pressing the jaw"
+            "Sharp pain and loud gasping",
+            "Forearm biting into the jaw"
           ],
           "trap": [
-            "Bone-on-bone deep pressure"
+            "Only stop when they tap"
           ]
         }
       },
@@ -391,11 +391,11 @@
         "answer_line": "Release, recovery position",
         "distractors": {
           "plausible": [
-            "Keep pressure, check pulse first",
-            "Sit them up immediately"
+            "Sit them upright right away",
+            "Loosen slightly, hold position"
           ],
           "trap": [
-            "Shake vigorously, reapply choke"
+            "Wait and see if they wake up"
           ]
         }
       },
@@ -407,10 +407,10 @@
         "distractors": {
           "plausible": [
             "Pull arm back and re-thread",
-            "Release grip, reset position"
+            "Pry their fingers off first"
           ],
           "trap": [
-            "Let go and switch arms"
+            "Post up and muscle the squeeze"
           ]
         }
       },
@@ -436,11 +436,11 @@
         "answer_line": "Switch to bicep RNC-style grip",
         "distractors": {
           "plausible": [
-            "Regrip gable tighter, squeeze",
-            "Chalk hands, pause the choke"
+            "Regrip gable and squeeze harder",
+            "Slide the grip up under the jaw"
           ],
           "trap": [
-            "Release and re-lock same grip"
+            "Lift chest to reset both hands"
           ]
         }
       },
@@ -451,11 +451,11 @@
         "answer_line": "Thread deeper, sprawl hips more",
         "distractors": {
           "plausible": [
-            "Squeeze harder with the arm",
-            "Choke lower toward the collar"
+            "Squeeze the arm harder",
+            "Choke lower near the collarbone"
           ],
           "trap": [
-            "Grind forearm into windpipe"
+            "Sit up to muscle the squeeze"
           ]
         }
       }
@@ -587,14 +587,14 @@
         "question": "What is the critical defensive window for escaping this choke, and what happens if you miss it?",
         "answer": "The critical window exists between the moment the attacker begins threading their arm under your neck and the moment they lock their grip in north-south alignment. This window is approximately 5-10 seconds depending on the attacker's speed and proficiency. Once the grip is locked and both carotids are compressed, escape success drops dramatically and tapping quickly becomes the safest option. Training should focus on defensive reactions that occur within this window.",
         "safety_critical": true,
-        "answer_line": "Before grip locks, 5-10 sec",
+        "answer_line": "Before the grip locks, 5-10 sec",
         "distractors": {
           "plausible": [
-            "After choke fully sinks in",
-            "Only during initial takedown"
+            "Any time before it starts hurting",
+            "Only after they reach north-south"
           ],
           "trap": [
-            "Wait, then explode out late"
+            "Stall until lightheaded, then go"
           ]
         }
       },
@@ -602,14 +602,14 @@
         "question": "Why is it essential to tap early when caught in a fully locked North-South Choke?",
         "answer": "The North-South Choke is a bilateral blood choke that compresses both carotid arteries simultaneously, restricting blood flow to the brain. Once fully locked, unconsciousness can occur within 4-8 seconds. Unlike joint locks where you have some time to assess the pressure and escape, blood chokes give very little warning before causing blackout. Repeated episodes of training unconsciousness carry cumulative neurological risk. Tapping early preserves your health and allows you to train another day and improve your defensive timing.",
         "safety_critical": true,
-        "answer_line": "Blood choke, blackout in seconds",
+        "answer_line": "Blood choke: blackout in seconds",
         "distractors": {
           "plausible": [
-            "Only mild discomfort, ride it out",
-            "Same risk as a joint lock"
+            "Same warning time as a joint lock",
+            "Pain warns you before you go out"
           ],
           "trap": [
-            "Fight through to build toughness"
+            "Ride it out to build toughness"
           ]
         }
       },
@@ -650,11 +650,11 @@
         "answer_line": "Turn to side, chin tucked",
         "distractors": {
           "plausible": [
-            "Stay flat, arms wide open",
-            "Push attacker's legs away"
+            "Bridge hard and hold it",
+            "Grab their belt with both hands"
           ],
           "trap": [
-            "Extend arms overhead flat"
+            "Lie flat with arms overhead"
           ]
         }
       }

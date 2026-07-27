@@ -366,11 +366,11 @@
         "answer_line": "Hold steady, don't spike pressure",
         "distractors": {
           "plausible": [
-            "Speed up to force the tap",
-            "Ease off until they signal"
+            "Ease off and let them recover",
+            "Switch to a different submission"
           ],
           "trap": [
-            "Snap hard for a fast finish"
+            "Rip the ankle for a quick tap"
           ]
         }
       }
@@ -535,11 +535,11 @@
         "answer_line": "Tap when trapped, no escape seen",
         "distractors": {
           "plausible": [
-            "Tap only if it truly hurts",
-            "Wait for the audible pop"
+            "Tap only if the pain spikes",
+            "Tap once your ankle goes numb"
           ],
           "trap": [
-            "Fight through, escape is close"
+            "Muscle out and keep fighting"
           ]
         }
       },

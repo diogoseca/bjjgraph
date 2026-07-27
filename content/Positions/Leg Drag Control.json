@@ -563,11 +563,11 @@
         "answer_line": "Turn into them, fight underhook",
         "distractors": {
           "plausible": [
-            "Turn away, then reverse them",
-            "Stay flat and do nothing"
+            "Bridge explosively to buck them",
+            "Push them away with straight arms"
           ],
           "trap": [
-            "Let them finish the back take"
+            "Roll to knees and turtle up"
           ]
         }
       },
@@ -577,25 +577,25 @@
         "answer_line": "Break their upper control first",
         "distractors": {
           "plausible": [
-            "Reclaim your leg first",
-            "Attack their far leg first"
+            "Reclaim your trapped leg first",
+            "Hunt their far arm for a kimura"
           ],
           "trap": [
-            "Ignore upper body, yank the leg"
+            "Bench press them with straight arms"
           ]
         }
       },
       {
         "question": "How should you create space in leg drag bottom without exposing your back?",
         "answer": "Use a shrimping motion away from them while keeping your shoulders flat—never turn onto your side. Push against their shoulder and hip simultaneously while hip escaping to create angle. Your free leg can push against their hip or hook behind their knee to generate space. The key is moving your hips away while keeping your chest facing them.",
-        "answer_line": "Shrimp flat, push shoulder+hip",
+        "answer_line": "Shrimp flat, push shoulder and hip",
         "distractors": {
           "plausible": [
             "Roll to your side, then shrimp",
-            "Turtle up and crawl away"
+            "Bridge straight up repeatedly"
           ],
           "trap": [
-            "Turn onto your side to shrimp"
+            "Turtle up and crawl away"
           ]
         }
       },
@@ -606,24 +606,24 @@
         "distractors": {
           "plausible": [
             "Wait until they fully settle",
-            "Push their chest away hard"
+            "Shove their chest with both hands"
           ],
           "trap": [
-            "Stay still, conserve energy"
+            "Turn away and build to turtle"
           ]
         }
       },
       {
         "question": "How do you manage energy when defending leg drag bottom against an aggressive passer?",
         "answer": "Don't waste energy trying to escape when they have full control—you'll exhaust yourself. Instead, maintain minimum frames to prevent advancement and wait for them to attack or transition. Escape windows open when they move. Stay relaxed between escape attempts, keeping frames tight but not rigid. One well-timed explosive escape attempt is better than constant ineffective movement.",
-        "answer_line": "Frame minimal, wait for window",
+        "answer_line": "Frame minimal, wait for a window",
         "distractors": {
           "plausible": [
-            "Escape constantly, stay active",
-            "Match their pressure, push back"
+            "Match their pressure, push back",
+            "Hug them tight to slow the pass"
           ],
           "trap": [
-            "Explode repeatedly, never rest"
+            "Give up frames to rest your arms"
           ]
         }
       },
@@ -903,7 +903,7 @@
           "Leg stacked straight overhead"
         ],
         "trap": [
-          "Leg trapped by opponent's grip"
+          "Lie flat, reach up for their head"
         ]
       },
       "answer_line": "Leg crossed over own midline"
@@ -917,7 +917,7 @@
           "The far underhook pins hips"
         ],
         "trap": [
-          "Pull leg straight back to free it"
+          "Turn away to yank the leg free"
         ]
       },
       "answer_line": "Crossed leg locks the pelvis"
@@ -970,11 +970,11 @@
       "answer_line": "Leg pulled in, not framing out",
       "distractors": {
         "plausible": [
-          "Same leg use as knee shield",
-          "Leg drag needs a knee shield"
+          "The knee still blocks the chest",
+          "Only the grips are different"
         ],
         "trap": [
-          "Knee shield strengthens leg drag"
+          "Swing knee across to re-shield"
         ]
       }
     },

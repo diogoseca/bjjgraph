@@ -297,7 +297,7 @@
             "Only the far carotid"
           ],
           "trap": [
-            "Vagus nerve pressure point"
+            "Crank the neck to force a tap"
           ]
         }
       },
@@ -312,7 +312,7 @@
             "Bottom player posts on hands"
           ],
           "trap": [
-            "Bottom player flattens out"
+            "Force the thread with no reaction"
           ]
         }
       },
@@ -335,14 +335,14 @@
         "question": "What indicates you have reached the point of no escape when finishing the Darce from Twister Side Control?",
         "answer": "The point of no escape occurs when the figure-four grip is locked with the threading arm deep past the chin, hips have walked perpendicular to create tight choke geometry, and chest pressure is driving the trapped shoulder into the neck. At this stage, the bilateral carotid compression is structurally locked and even strong defensive bridging cannot create enough space to relieve the pressure. The defender's only option is to tap.",
         "safety_critical": false,
-        "answer_line": "Locked figure-four, hips walked in",
+        "answer_line": "Figure-four locked, hips walked in",
         "distractors": {
           "plausible": [
-            "Grip is locked, hips still square",
-            "Opponent stops moving entirely"
+            "Arm threaded only to the ear",
+            "Their chin still tucked to chest"
           ],
           "trap": [
-            "Any chin tuck achieved"
+            "Wait until they go limp"
           ]
         }
       },
@@ -365,14 +365,14 @@
         "question": "What grip adjustments should you make if the initial figure-four connection feels loose or has slack?",
         "answer": "Walk your hips further toward the opponent's head to increase the perpendicular angle and mechanically tighten the grip. Ensure your threading arm is deep enough that your hand reaches the far-side bicep rather than stopping at the forearm. Pull your elbows tighter together before applying finishing pressure. If slack persists, you may need to re-thread the arm deeper rather than attempting to compensate with squeezing force on an improperly set grip.",
         "safety_critical": false,
-        "answer_line": "Walk hips, thread past the bicep",
+        "answer_line": "Walk hips up, thread to far bicep",
         "distractors": {
           "plausible": [
             "Squeeze harder through the slack",
             "Grip lower on the forearm"
           ],
           "trap": [
-            "Lean back to add tension"
+            "Lean back and lose chest pressure"
           ]
         }
       },
@@ -383,11 +383,11 @@
         "answer_line": "Attack the Darce/Twister dilemma",
         "distractors": {
           "plausible": [
-            "Dive for the choke immediately",
+            "Wait for a scramble to start",
             "Ignore the Twister threat"
           ],
           "trap": [
-            "Release control to chase choke"
+            "Dive for the choke, lose control"
           ]
         }
       },
@@ -398,8 +398,8 @@
         "answer_line": "Apply pressure slow, watch all taps",
         "distractors": {
           "plausible": [
-            "Full pressure if partner resists",
-            "Verbal tap is the only signal"
+            "Verbal tap is the only signal",
+            "Ignore a foot tap on the mat"
           ],
           "trap": [
             "Jerk the choke on for speed"
@@ -413,8 +413,8 @@
         "answer_line": "Unclasp hands, ease shoulder first",
         "distractors": {
           "plausible": [
-            "Extract arm first, then hands",
-            "Release instantly, skip monitoring"
+            "Hold shoulder pressure a bit longer",
+            "Walk away once they tap"
           ],
           "trap": [
             "Yank the arm out fast"
@@ -552,11 +552,11 @@
         "answer_line": "Tap early, verbal or physical",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only once fully locked"
+            "Only a hand tap is a real tap",
+            "Tap once, then wait for release"
           ],
           "trap": [
-            "Try to power out first"
+            "Bridge hard and hope to escape"
           ]
         }
       },
@@ -582,8 +582,8 @@
         "answer_line": "Pummel elbow, block the bicep",
         "distractors": {
           "plausible": [
-            "Wait for the grip before reacting",
-            "Push straight at the elbow"
+            "Push straight at the elbow",
+            "Bridge and drive them forward"
           ],
           "trap": [
             "Turn in toward the pressure"

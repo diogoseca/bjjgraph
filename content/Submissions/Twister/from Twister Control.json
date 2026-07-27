@@ -299,14 +299,14 @@
         "question": "What anatomical structures does the Twister from Twister Control primarily attack?",
         "answer": "The Twister primarily attacks the cervical and thoracic spine through combined rotational torque and lateral flexion. The leg entanglement creates rotation through the thoracic and lumbar spine from below, while the chin strap grip applies cervical rotation and lateral bending from above. The shoulder girdle is also stressed as the upper body is pulled in opposition to the immobilized lower body.",
         "safety_critical": false,
-        "answer_line": "Spine: rotation + lateral flexion",
+        "answer_line": "Spine: rotation and side bending",
         "distractors": {
           "plausible": [
             "Knee and ankle ligaments",
-            "Shoulder joint primarily"
+            "Shoulder joint alone"
           ],
           "trap": [
-            "Wrist and forearm bones"
+            "Just the neck, safe to crank"
           ]
         }
       },
@@ -318,10 +318,10 @@
         "distractors": {
           "plausible": [
             "Chin strap grip comes first",
-            "Apply both grips simultaneously"
+            "Apply both grips at once"
           ],
           "trap": [
-            "Chin strap alone finishes it"
+            "Drop legs to chase the grip"
           ]
         }
       },
@@ -347,8 +347,8 @@
         "answer_line": "Very slow, 5-7+ seconds",
         "distractors": {
           "plausible": [
-            "Fast before they recover",
-            "Steady moderate pace"
+            "Match their defensive tempo",
+            "Only slow it down for beginners"
           ],
           "trap": [
             "Explosive snap to finish"
@@ -377,11 +377,11 @@
         "answer_line": "Increase leg pressure, exploit neck",
         "distractors": {
           "plausible": [
-            "Match their turn, reset angle",
-            "Release legs to re-angle"
+            "Match their turn and reset",
+            "Hunt a new collar grip"
           ],
           "trap": [
-            "Force original angle harder"
+            "Let go of legs to chase neck"
           ]
         }
       },
@@ -389,14 +389,14 @@
         "question": "What grip configuration provides the strongest finishing mechanics for the Twister?",
         "answer": "A gable grip or figure-four configuration behind the opponent's head provides the strongest finishing mechanics. The threading arm seats under the chin with the forearm against the jawline, while the far-side hand connects behind the head to lock the position. This configuration distributes the rotational force across both arms and allows you to apply pressure through body rotation rather than isolated arm strength, which is both more powerful and more controlled.",
         "safety_critical": false,
-        "answer_line": "Gable/figure-four behind head",
+        "answer_line": "Gable or figure-four behind head",
         "distractors": {
           "plausible": [
             "Single overhook grip only",
             "Crossface grip alone"
           ],
           "trap": [
-            "Isolated arm strength pull"
+            "Neck crank grip, legs released"
           ]
         }
       },
@@ -422,11 +422,11 @@
         "answer_line": "No hip rotation, labored breathing",
         "distractors": {
           "plausible": [
-            "Opponent stops moving at all",
-            "Verbal complaint of discomfort"
+            "You have both hooks in tight",
+            "Opponent flattens onto their back"
           ],
           "trap": [
-            "Loud pop or crack sound"
+            "Wait for a loud pop or crack"
           ]
         }
       },
@@ -434,14 +434,14 @@
         "question": "How does the Twister fit within the broader Twister Control attack system?",
         "answer": "The Twister is one option within a comprehensive attack system from Twister Control that includes calf slicers on the trapped leg, banana splits exploiting hip immobility, guillotine variations when the opponent turns in, and transitions to traditional back control. The Twister threat forces defensive reactions that open these alternative attacks. Elite practitioners use the Twister as a primary threat that channels opponent defense toward specific patterns, then exploit those patterns with higher-percentage alternatives when the Twister itself is well-defended.",
         "safety_critical": false,
-        "answer_line": "Threat opens slicer/split/back",
+        "answer_line": "Threat opens slicer, split, back",
         "distractors": {
           "plausible": [
-            "Standalone finishing move only",
+            "Standalone finish, nothing else",
             "Backup if back control fails"
           ],
           "trap": [
-            "Replaces all other attacks"
+            "Chase twister, lose position"
           ]
         }
       }
@@ -576,8 +576,8 @@
         "answer_line": "Wrist isolation, arm threading in",
         "distractors": {
           "plausible": [
-            "Sudden hip pressure increase",
-            "Opponent switches base only"
+            "Opponent flattens you to mat",
+            "Lapel grip fight starts"
           ],
           "trap": [
             "Wait for chin strap to lock"
@@ -591,11 +591,11 @@
         "answer_line": "Tap immediately, any method",
         "distractors": {
           "plausible": [
-            "Try to bridge out first",
-            "Wait to see if it tightens"
+            "Peel the chin-strap grip",
+            "Turn into the rotation"
           ],
           "trap": [
-            "Fight through the pressure"
+            "Bridge explosively to escape"
           ]
         }
       },
@@ -603,14 +603,14 @@
         "question": "Your opponent has started threading their arm under your chin — what immediate defensive action should you take?",
         "answer": "Immediately tuck your chin tightly to your chest and use both hands to create a barrier preventing the forearm from seating under your jaw. Grip your own head or interlock your fingers behind your neck to create a chin-protection shell. Simultaneously, begin working your trapped leg free since the opponent's focus on the chin strap creates a window to address the leg entanglement. Do not rely on chin defense alone as it is a temporary measure.",
         "safety_critical": false,
-        "answer_line": "Tuck chin, shell with hands",
+        "answer_line": "Tuck chin, shell with both hands",
         "distractors": {
           "plausible": [
-            "Push their arm away only",
+            "Push their arm away",
             "Turn head sharply away"
           ],
           "trap": [
-            "Rely on chin defense only"
+            "Ignore legs, chin defense only"
           ]
         }
       },
@@ -618,14 +618,14 @@
         "question": "Why is addressing the leg entanglement more important than purely defending the chin strap?",
         "answer": "The leg entanglement creates the rotational foundation that makes the Twister mechanically possible. Even if you successfully defend the chin strap temporarily, the opponent can reset and reattempt as many times as needed while maintaining leg control. Freeing the trapped leg eliminates the spinal rotation entirely, making the Twister mechanically impossible regardless of upper body positioning. Leg extraction provides a permanent solution while chin defense is only a temporary delay.",
         "safety_critical": false,
-        "answer_line": "Freeing leg ends threat permanently",
+        "answer_line": "Freeing leg ends the threat",
         "distractors": {
           "plausible": [
-            "Chin defense is equally durable",
-            "Both matter equally, do either"
+            "Chin defense is just as durable",
+            "Both equal, pick either one"
           ],
           "trap": [
-            "Chin strap defense alone suffices"
+            "Hold chin, ignore trapped leg"
           ]
         }
       },
@@ -636,11 +636,11 @@
         "answer_line": "Amplifies spinal torque, injury risk",
         "distractors": {
           "plausible": [
-            "Creates escape space safely",
-            "Only tires you out, low risk"
+            "Rolls you into a mounted back",
+            "Strains your bridging shoulder"
           ],
           "trap": [
-            "Best way to break the grip"
+            "Nothing - bridge harder to escape"
           ]
         }
       }

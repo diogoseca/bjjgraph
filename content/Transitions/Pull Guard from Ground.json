@@ -409,14 +409,14 @@
       {
         "question": "What is the most common mistake that leads to hard impact when pulling guard?",
         "answer": "Dropping straight down rather than sitting back is the primary cause of hard impacts. Practitioners who fall or jump straight down land heavily on their tailbone, risking injury and losing control. The correct technique involves sitting back smoothly as if sitting into a chair behind you, keeping the back rounded and core engaged to control the descent. This distributes impact across a larger surface area and maintains body control throughout the movement.",
-        "answer_line": "Sit back smoothly, not drop down",
+        "answer_line": "Sit back like into a chair behind",
         "distractors": {
           "plausible": [
-            "Sit back too slowly to control",
-            "Keep legs stiff during the fall"
+            "Rush the descent to beat the pass",
+            "Keep spine rigid and chin up"
           ],
           "trap": [
-            "Drop straight down onto tailbone"
+            "Jump guard with no grips"
           ]
         }
       },

@@ -508,11 +508,11 @@
         "answer_line": "Sharp pain, locked figure-four",
         "distractors": {
           "plausible": [
-            "Mild ankle discomfort only",
-            "Opponent grips tighter briefly"
+            "Mild stretch, rotation still free",
+            "Breathing quickens from effort"
           ],
           "trap": [
-            "Try to power out, ignore pain"
+            "Wait until you hear a pop"
           ]
         }
       }

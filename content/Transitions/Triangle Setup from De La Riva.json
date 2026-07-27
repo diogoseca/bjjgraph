@@ -267,14 +267,14 @@
       {
         "question": "Why should you maintain DLR hook tension until your shooting leg is already in motion across the neck?",
         "answer": "The DLR hook prevents the opponent from stepping back and creating distance during the critical transition moment. If you release the hook before your shooting leg is moving, the opponent can simply retreat out of range, denying you the triangle entry entirely. The hook acts as an anchor that holds them within your leg's reach during the brief vulnerability window between guard structures.",
-        "answer_line": "Hold hook to block retreat",
+        "answer_line": "Hold hook to block their retreat",
         "distractors": {
           "plausible": [
-            "Release hook before shooting",
-            "Switch hook to opposite leg"
+            "Switch the hook to your other leg",
+            "Grab their ankle instead"
           ],
           "trap": [
-            "Let go of hook to shoot faster"
+            "Drop guard and chase them standing"
           ]
         }
       },
@@ -284,11 +284,11 @@
         "answer_line": "Pull sleeve, shoot over posted arm",
         "distractors": {
           "plausible": [
-            "Grab the posted hand directly",
-            "Switch to closed guard immediately"
+            "Grab their posted hand directly",
+            "Wait for them to unpost"
           ],
           "trap": [
-            "Release sleeve grip and re-grip"
+            "Abandon guard and turn to turtle"
           ]
         }
       },
@@ -298,11 +298,11 @@
         "answer_line": "Angle 30-45°, knee to shoulder",
         "distractors": {
           "plausible": [
-            "Stay square for max compression",
-            "Angle knee away from shoulder"
+            "Squeeze knees without moving",
+            "Point the knee at their hip"
           ],
           "trap": [
-            "Straighten out flat under them"
+            "Open the lock to reposition"
           ]
         }
       },
@@ -340,11 +340,11 @@
         "answer_line": "Hip up, angle toward shot side",
         "distractors": {
           "plausible": [
-            "Keep hips flat, drive leg only",
-            "Angle hips away from target side"
+            "Drive the leg with no lift",
+            "Turn hips the other way"
           ],
           "trap": [
-            "Push hips down for base"
+            "Flatten out under their pressure"
           ]
         }
       },
@@ -354,11 +354,11 @@
         "answer_line": "Forces reactions that open sweeps",
         "distractors": {
           "plausible": [
-            "Only matters if it finishes",
-            "Tires opponent out physically"
+            "Only useful against gi players",
+            "Mainly a stamina drain on them"
           ],
           "trap": [
-            "Distracts you from DLR sweep"
+            "Abandon the hook to chase chokes"
           ]
         }
       },
@@ -368,11 +368,11 @@
         "answer_line": "Follow with hips, keep sleeve grip",
         "distractors": {
           "plausible": [
-            "Release grip and reset to neutral",
-            "Chase with upper body only"
+            "Chase with your upper body only",
+            "Wait for them to come back in"
           ],
           "trap": [
-            "Let them fully disengage"
+            "Sit up and chase off your hips"
           ]
         }
       },
@@ -382,11 +382,11 @@
         "answer_line": "Pull head down, walk shin to neck",
         "distractors": {
           "plausible": [
-            "Lock triangle anyway, squeeze hard",
-            "Push their shoulder to reset"
+            "Push their shoulder away to reset",
+            "Switch to an armbar right away"
           ],
           "trap": [
-            "Force the lock and lean back"
+            "Lock across the back and lean back"
           ]
         }
       },
@@ -396,11 +396,11 @@
         "answer_line": "Roll with stack to omoplata/mount",
         "distractors": {
           "plausible": [
-            "Push against the stack directly",
-            "Release legs and turtle up"
+            "Kick legs open and shrimp out",
+            "Grab their belt and hold on"
           ],
           "trap": [
-            "Fight stack flat on your back"
+            "Stay flat and muscle the squeeze"
           ]
         }
       },
@@ -411,10 +411,10 @@
         "distractors": {
           "plausible": [
             "Switch to a fresh overhook grip",
-            "Push through without the grip"
+            "Stop and re-pummel for a new grip"
           ],
           "trap": [
-            "Shoot leg without arm isolation"
+            "Shoot the leg with no arm trapped"
           ]
         }
       }
@@ -529,11 +529,11 @@
         "answer_line": "Sleeve pull tightens, leg frees",
         "distractors": {
           "plausible": [
-            "Opponent grips your collar tighter",
-            "Opponent's hips lift off mat"
+            "They grip your collar tighter",
+            "They flare both elbows outward"
           ],
           "trap": [
-            "Ignore it, it's just base shift"
+            "Keep driving forward into them"
           ]
         }
       },
@@ -543,11 +543,11 @@
         "answer_line": "Strip the cross sleeve grip",
         "distractors": {
           "plausible": [
-            "Posture up immediately first",
-            "Control their far hip first"
+            "Posture up before anything else",
+            "Pin their far hip to the mat"
           ],
           "trap": [
-            "Push their head down to defend"
+            "Reach across and feed your arm"
           ]
         }
       },
@@ -557,11 +557,11 @@
         "answer_line": "Drive knee through, pass guard",
         "distractors": {
           "plausible": [
-            "Wait for the triangle to lock",
-            "Pull away to create distance"
+            "Stand up and break their grip",
+            "Circle to the other side first"
           ],
           "trap": [
-            "Retreat to create space instead"
+            "Wait for the lock, then defend"
           ]
         }
       },
@@ -585,11 +585,11 @@
         "answer_line": "Pin elbows tight to ribs",
         "distractors": {
           "plausible": [
-            "Post hands wide for base",
-            "Extend arms to control hips"
+            "Sit low onto your heels",
+            "Grip both ankles to kill hooks"
           ],
           "trap": [
-            "Reach forward to grip collar"
+            "Reach across for a collar grip"
           ]
         }
       }

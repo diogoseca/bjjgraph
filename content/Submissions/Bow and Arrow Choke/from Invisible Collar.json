@@ -291,7 +291,7 @@
             "One carotid, one jaw"
           ],
           "trap": [
-            "Crank neck to snap vertebrae"
+            "Cervical spine, crank to tap"
           ]
         }
       },
@@ -299,14 +299,14 @@
         "question": "What physical indicators tell you the choke is properly aligned on the carotid arteries rather than the jaw or trachea?",
         "answer": "When properly aligned on the carotid arteries, the opponent's face will begin to change color rapidly, and they will feel compelled to tap within seconds rather than minutes. If the opponent can endure the pressure for more than 10 seconds while grimacing, the choke is likely on the jaw. If they are coughing or gagging, the pressure is on the trachea. A proper blood choke produces a quiet, steady pressure that the opponent cannot simply tough through.",
         "safety_critical": true,
-        "answer_line": "Fast tap, sudden color change",
+        "answer_line": "Color drains fast, tap in seconds",
         "distractors": {
           "plausible": [
-            "Coughing means it's working",
-            "Slow tap means good position"
+            "Grimacing through ten-plus seconds",
+            "Endures a full minute grimacing"
           ],
           "trap": [
-            "Keep cranking if they endure it"
+            "Gagging means it's sunk deep"
           ]
         }
       },
@@ -336,7 +336,7 @@
             "Once hip shift begins"
           ],
           "trap": [
-            "Wait until fully mounted to finish"
+            "Extend before the pant grip lands"
           ]
         }
       },
@@ -363,10 +363,10 @@
         "distractors": {
           "plausible": [
             "Regrip deeper during the fall",
-            "Rotate palm away from chest"
+            "Slide the grip toward the lapel"
           ],
           "trap": [
-            "Switch to two-hand collar grip"
+            "Release a hook to fix the grip"
           ]
         }
       },
@@ -374,14 +374,14 @@
         "question": "What are the critical safety considerations when applying the Bow and Arrow Choke from Invisible Collar in training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum, never jerking or spiking the extension. Monitor your partner's consciousness throughout since blood chokes can cause unconsciousness rapidly. Ensure your partner has clear access to tap with at least one hand or can verbally tap at all times. Release immediately upon any tap signal. Never hold the choke past the tap to demonstrate control. Be especially careful with the leg extension component which can strain the opponent's knee or hip.",
         "safety_critical": true,
-        "answer_line": "Apply slow, release instantly on tap",
+        "answer_line": "Slow pressure, release on any tap",
         "distractors": {
           "plausible": [
-            "Hold briefly after tap to confirm",
-            "Apply quick sharp jerk to finish"
+            "Trap both arms so they can't post",
+            "Extend fully first, then squeeze"
           ],
           "trap": [
-            "Ignore taps near full extension"
+            "Hold the finish past the signal"
           ]
         }
       },
@@ -404,14 +404,14 @@
         "question": "Your opponent grabs their own collar with both hands to block the choke from tightening - how do you overcome this defense?",
         "answer": "Their two-handed collar defense leaves their legs completely uncontrolled. Extend your body more aggressively to generate additional pressure that their grip cannot match over time. Simultaneously, you can switch the pant grip to the far sleeve and peel one defensive hand away, or use your legs to push off their hip to increase the stretch distance. Their static grip defense is unsustainable against the full-body mechanical advantage of the bow and arrow extension.",
         "safety_critical": false,
-        "answer_line": "Extend body, attack the pant grip",
+        "answer_line": "Extend harder, switch to sleeve",
         "distractors": {
           "plausible": [
-            "Pry their hands off directly",
-            "Abandon choke, pass the guard"
+            "Pry their hands off one by one",
+            "Punch the collar hand deeper"
           ],
           "trap": [
-            "Release pant grip to free a hand"
+            "Drop the collar to break grips"
           ]
         }
       },
@@ -423,10 +423,10 @@
         "distractors": {
           "plausible": [
             "Retract legs, then free collar",
-            "Free pant grip first"
+            "Free the pant grip first"
           ],
           "trap": [
-            "Let go of everything at once"
+            "Yank their head back to neutral"
           ]
         }
       }
@@ -553,14 +553,14 @@
         "question": "What is the safest way to tap to the Bow and Arrow Choke from Invisible Collar to prevent injury?",
         "answer": "Tap early and clearly before the extension reaches full stretch. Use multiple tap signals simultaneously: tap firmly on the attacker's body or the mat with your free hand while also verbally signaling. If one hand is trapped, use your feet to tap the mat audibly. The bow and arrow can cause unconsciousness rapidly once fully extended, so tap as soon as you feel the carotid compression beginning rather than trying to endure or escape a fully locked choke.",
         "safety_critical": true,
-        "answer_line": "Tap early, multiple signals at once",
+        "answer_line": "Tap early with hand and voice",
         "distractors": {
           "plausible": [
-            "Wait for full extension to tap",
-            "Tap only verbally, no hand tap"
+            "Signal only after it tightens",
+            "Free your trapped hand first"
           ],
           "trap": [
-            "Try to escape instead of tapping"
+            "Fight through and try to escape"
           ]
         }
       },
@@ -587,7 +587,7 @@
         "distractors": {
           "plausible": [
             "Bridge away from collar side",
-            "Pull both knees to chest"
+            "Peel the pant grip with both hands"
           ],
           "trap": [
             "Push straight backward against pull"

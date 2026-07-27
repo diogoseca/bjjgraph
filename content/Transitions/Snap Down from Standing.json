@@ -272,8 +272,8 @@
         "answer_line": "Weight forward, head past base",
         "distractors": {
           "plausible": [
-            "Right after grip contact",
-            "Whenever your grip is set"
+            "As soon as you get the grip",
+            "As they circle to the side"
           ],
           "trap": [
             "When they're squared and balanced"
@@ -314,11 +314,11 @@
         "answer_line": "Arms only, no step or timing",
         "distractors": {
           "plausible": [
-            "Wrong hand grip on the head",
-            "Snapping too fast repeatedly"
+            "Grip placed on the wrong side",
+            "Opponent was simply stronger"
           ],
           "trap": [
-            "Pulling harder with the arms"
+            "Not cranking the neck harder"
           ]
         }
       },
@@ -332,7 +332,7 @@
             "Grab the hair or ear area"
           ],
           "trap": [
-            "Squeeze a crushing grip on skull"
+            "Reach over with both hands"
           ]
         }
       },
@@ -346,7 +346,7 @@
             "Horizontal, pull toward you"
           ],
           "trap": [
-            "Push their head forward and up"
+            "Twist the neck to one side"
           ]
         }
       },
@@ -357,10 +357,10 @@
         "distractors": {
           "plausible": [
             "Snap again immediately, harder",
-            "Switch to a double leg instantly"
+            "Retreat to recover your base"
           ],
           "trap": [
-            "Repeat the exact same snap"
+            "Shoot a blind double leg"
           ]
         }
       },
@@ -501,7 +501,7 @@
             "Sudden downward pressure felt"
           ],
           "trap": [
-            "Wait until pressure hits"
+            "A loose, relaxed collar tie"
           ]
         }
       },

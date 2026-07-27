@@ -311,11 +311,11 @@
         "answer_line": "Deep feed forms neck V-shape",
         "distractors": {
           "plausible": [
-            "Shallow grip, faster to set up",
-            "Grip lapel near the collar"
+            "Shallow grip sets up quicker",
+            "Target the front of the throat"
           ],
           "trap": [
-            "Stay shallow, air choke only"
+            "Overcommit and get swept"
           ]
         }
       },
@@ -341,11 +341,11 @@
         "answer_line": "Lapel noose plus body weight",
         "distractors": {
           "plausible": [
-            "Pure arm strength pulls tight",
-            "Squeeze with biceps, not weight"
+            "Pull tight using arm strength",
+            "Twist the neck for leverage"
           ],
           "trap": [
-            "Yank the lapel with both arms"
+            "Rise up to crank harder"
           ]
         }
       },
@@ -368,14 +368,14 @@
         "question": "How should you progressively apply pressure during the Marce Choke in training, and why is this timing critical?",
         "answer": "In training, you should apply pressure progressively over 3-5 seconds minimum, starting light and gradually increasing to give your partner clear awareness of the danger and adequate time to tap. This is critical because blood chokes can cause unconsciousness quickly - often within 3-8 seconds of full pressure - and if you apply maximum pressure instantly, your partner may not have time to recognize the danger and tap before losing consciousness. Progressive application builds trust in training, prevents injuries, allows learning of the technique and its defenses, and develops the sensitivity needed to control the submission effectively in competition.",
         "safety_critical": true,
-        "answer_line": "Apply pressure slowly, 3-5 sec",
+        "answer_line": "Build pressure over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Apply full pressure instantly",
-            "Ease in over 10-15 seconds"
+            "Pulse the grip on and off",
+            "Match their resistance level"
           ],
           "trap": [
-            "Snap it tight immediately"
+            "Snap to full force at once"
           ]
         }
       },
@@ -398,14 +398,14 @@
         "question": "What indicates you have achieved the point of no return where the choke will finish if maintained?",
         "answer": "The point of no return is reached when the lapel is fed deep across both sides of the neck forming a tight V-shape, your body weight is driving perpendicular pressure through the lapel, and you feel the opponent's defensive movements becoming weaker or more desperate. Physical indicators include their face changing color (reddening), their breathing becoming labored or stopping, and a noticeable decrease in the strength of their grip fighting. At this point, the carotid arteries are being compressed bilaterally and unconsciousness will occur within 3-8 seconds if maintained. In training, this is when you should expect an immediate tap - if it doesn't come, be prepared to release immediately as unconsciousness may be imminent.",
         "safety_critical": true,
-        "answer_line": "Deep V-grip plus weakening defense",
+        "answer_line": "Deep V-grip and fading defense",
         "distractors": {
           "plausible": [
-            "Just their face turning red",
-            "Grip fighting stops completely"
+            "You've squeezed for 10 seconds",
+            "Your arms feel fully locked"
           ],
           "trap": [
-            "Wait for them to stop moving"
+            "Wait until they go limp"
           ]
         }
       },
@@ -645,14 +645,14 @@
         "question": "What physical sensations indicate you need to tap immediately rather than continue fighting the Marce Choke?",
         "answer": "You should tap immediately when you feel tightness on both sides of your neck simultaneously (bilateral carotid compression), your vision begins to narrow or darken (early signs of blood flow restriction to the brain), you feel a rushing sensation in your head, or your grip strength suddenly weakens during your defensive efforts. Any of these sensations indicate that the blood choke is effective and unconsciousness may follow within seconds. Do not wait until you feel lightheaded or disoriented, as by that point you may not have the motor control to tap effectively. Training yourself to recognize early warning signs and tap promptly is a critical safety skill.",
         "safety_critical": true,
-        "answer_line": "Tightness both sides, vision narrows",
+        "answer_line": "Both-side tightness, fading vision",
         "distractors": {
           "plausible": [
-            "Only mild neck discomfort",
-            "Slight fatigue in the grip"
+            "A stretch in your shoulder",
+            "Slight breathlessness only"
           ],
           "trap": [
-            "Wait until fully lightheaded"
+            "Wait until you nearly black out"
           ]
         }
       }

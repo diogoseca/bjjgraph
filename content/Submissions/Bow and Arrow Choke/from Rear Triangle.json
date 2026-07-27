@@ -285,7 +285,7 @@
             "Trachea and vagus nerve"
           ],
           "trap": [
-            "Cervical spine pressure"
+            "Crank neck to compress the spine"
           ]
         }
       },
@@ -297,7 +297,7 @@
         "distractors": {
           "plausible": [
             "Faster grip-fighting motions",
-            "Opponent grips tighter"
+            "Breathing gets loud and raspy"
           ],
           "trap": [
             "Keep squeezing past stillness"
@@ -326,8 +326,8 @@
         "answer_line": "Deep collar plus pants grip set",
         "distractors": {
           "plausible": [
-            "Once triangle first locks",
-            "As soon as jaw is grazed"
+            "Once the triangle first locks",
+            "When both hands leave the collar"
           ],
           "trap": [
             "Wait until extension starts"
@@ -338,14 +338,14 @@
         "question": "What is the most common finishing error and how does it reduce choke effectiveness?",
         "answer": "The most common error is feeding a shallow collar grip that catches the jawline rather than sitting deep on the carotid artery. This produces a jaw crank that causes pain but does not effectively restrict blood flow to the brain. Experienced competitors can endure jaw pressure and continue defending. The correction is to thread the fingers deep past the jaw and ensure the wrist blade contacts the lateral neck before committing to the extension finish.",
         "safety_critical": false,
-        "answer_line": "Shallow grip catches jaw only",
+        "answer_line": "Collar grip catches only the jaw",
         "distractors": {
           "plausible": [
             "Pants grip set too loose",
-            "Triangle squeezed too early"
+            "Far leg never hooked"
           ],
           "trap": [
-            "Crank jaw harder for the tap"
+            "Muscle the extension on the jaw"
           ]
         }
       },
@@ -353,14 +353,14 @@
         "question": "Your initial collar grip is catching the jaw instead of the neck - how do you adjust without losing position?",
         "answer": "Do not force the extension with a jaw grip. Instead, momentarily loosen the collar grip slightly while using your free hand to cross-face the opponent and turn their chin away from your choking hand. This exposes the neck and allows you to walk your fingers deeper into the collar past the mandible. Once you feel the wrist blade contact the lateral neck, re-secure the pants grip and proceed with the extension. Patience during the grip adjustment prevents jaw injuries.",
         "safety_critical": false,
-        "answer_line": "Cross-face, turn chin, rethread",
+        "answer_line": "Cross-face the chin, rethread",
         "distractors": {
           "plausible": [
-            "Force the extension anyway",
-            "Switch to armbar instantly"
+            "Pull harder on the pants grip",
+            "Swap to the other collar"
           ],
           "trap": [
-            "Yank grip hard to seat it"
+            "Let go of the back to reset"
           ]
         }
       },
@@ -368,14 +368,14 @@
         "question": "What are the critical safety considerations when applying this choke in training?",
         "answer": "Apply progressive pressure over 3-5 seconds minimum to allow adequate tap recognition time. Never jerk or spike the extension. Monitor training partner's responsiveness continuously since blood chokes can produce unconsciousness in seconds. Release immediately upon any tap signal including verbal, physical hand tap, foot tap, or loss of resistance. After release, check consciousness and allow recovery time. Beginners should drill grip placement without finishing pressure until they develop proper feel and control.",
         "safety_critical": true,
-        "answer_line": "Progressive pressure, release on tap",
+        "answer_line": "Slow pressure, release on any tap",
         "distractors": {
           "plausible": [
-            "Full power builds toughness",
-            "Only verbal taps count"
+            "Only a hand tap counts",
+            "Finish fast to limit neck strain"
           ],
           "trap": [
-            "Spike the extension for fast tap"
+            "Spike the extension for a fast tap"
           ]
         }
       },
@@ -386,8 +386,8 @@
         "answer_line": "Points secured, work methodically",
         "distractors": {
           "plausible": [
-            "Rush finish before reset",
-            "Abandon position to force it"
+            "Rush finish before a reset",
+            "Chase a sweep for more points"
           ],
           "trap": [
             "Sacrifice back control for choke"
@@ -401,11 +401,11 @@
         "answer_line": "Strip hand, cycle other attacks",
         "distractors": {
           "plausible": [
-            "Force the collar through anyway",
-            "Release triangle to reset"
+            "Wait for their grips to tire",
+            "Squeeze legs harder and hold"
           ],
           "trap": [
-            "Muscle grip past their block"
+            "Release triangle to reset"
           ]
         }
       },
@@ -416,11 +416,11 @@
         "answer_line": "Follow roll, stay angled behind",
         "distractors": {
           "plausible": [
-            "Release both grips immediately",
-            "Fight the roll head-on"
+            "Fight the roll head-on",
+            "Stop and rebuild the collar grip"
           ],
           "trap": [
-            "Let go of the pants grip"
+            "Spin belly-down, give up back"
           ]
         }
       }
@@ -542,11 +542,11 @@
         "answer_line": "Hand threading toward far lapel",
         "distractors": {
           "plausible": [
-            "Both hands release their grips",
+            "Their chest presses your back",
             "Ankle locks behind the knee"
           ],
           "trap": [
-            "Ignore hand near your neck"
+            "Ignore the hand near your neck"
           ]
         }
       },
@@ -554,14 +554,14 @@
         "question": "When should you tap to the Bow and Arrow Choke from Rear Triangle and what signals should you use?",
         "answer": "Tap immediately when you feel the collar grip is deep on your neck and the extension begins with both grips established. Use any available tap signal: verbal tap, physical hand tap on the attacker's body or the mat, or foot tap on the mat. If you feel lightheadedness, vision changes, or tingling, tap immediately regardless of your defensive position. In training, always err on the side of tapping early since this blood choke can produce unconsciousness in seconds.",
         "safety_critical": true,
-        "answer_line": "Tap early once collar seats deep",
+        "answer_line": "Tap as soon as the collar seats",
         "distractors": {
           "plausible": [
-            "Wait until vision changes",
-            "Tap only if asked verbally"
+            "Only a verbal tap is valid",
+            "Hold on until you feel dizzy"
           ],
           "trap": [
-            "Try to escape past deep grip"
+            "Ride it out to train defense"
           ]
         }
       },
@@ -572,7 +572,7 @@
         "answer_line": "Two-on-one strip, tuck chin",
         "distractors": {
           "plausible": [
-            "Wait to see how deep it gets",
+            "Grab their pants to block grip",
             "Push away with both hands"
           ],
           "trap": [
@@ -588,7 +588,7 @@
         "distractors": {
           "plausible": [
             "Roll away from collar side",
-            "Stand up and pull guard"
+            "Bridge straight back to flatten"
           ],
           "trap": [
             "Turn back further into choke"
@@ -602,11 +602,11 @@
         "answer_line": "Strip collar before pants grip",
         "distractors": {
           "plausible": [
-            "Wait for the extension to start",
-            "Attack the pants grip instead"
+            "Free the trapped arm first",
+            "Fight for an underhook instead"
           ],
           "trap": [
-            "Stay still, conserve energy"
+            "Turn belly-down and stall"
           ]
         }
       }

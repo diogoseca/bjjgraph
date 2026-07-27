@@ -512,14 +512,14 @@
     {
       "question": "What is the difference between a rigid hook and a responsive hook?",
       "answer": "A rigid hook is locked stiff and snaps out of place when the opponent explosively changes direction, unable to reattach. A responsive hook stays firm enough to hold connection but flexible enough to follow movement and re-curve around the target from a new angle.",
-      "answer_line": "Responsive flexes, rigid snaps out",
+      "answer_line": "Responsive re-curves to keep contact",
       "distractors": {
         "plausible": [
-          "Rigid hook holds through any move",
-          "Responsive hook is looser, weaker"
+          "Rigid hook gives a stronger grip",
+          "Loose contact you let slide away"
         ],
         "trap": [
-          "Lock the hook rigid for max grip"
+          "Cross the ankles to lock it tight"
         ]
       }
     },

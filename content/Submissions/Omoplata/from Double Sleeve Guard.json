@@ -323,11 +323,11 @@
         "answer_line": "Switch to triangle threat",
         "distractors": {
           "plausible": [
-            "Fight their posture directly",
-            "Let go and reset guard"
+            "Wrestle their posture down",
+            "Bail and reset your guard"
           ],
           "trap": [
-            "Push their head down"
+            "Straighten legs, lose clamp"
           ]
         }
       },
@@ -365,14 +365,14 @@
         "question": "What is the most common finishing error that causes the omoplata to fail at the final stage?",
         "answer": "The most common finishing error is leaning backward away from the opponent rather than driving the hips forward toward their head. Practitioners instinctively pull back thinking it creates rotation, but this actually reduces pressure on the shoulder and allows the opponent to sit up or roll. The correct finishing mechanic is to advance your hips toward the opponent's head while leaning your torso forward over their back, creating a shearing force that externally rotates the shoulder against the fulcrum of your leg.",
         "safety_critical": false,
-        "answer_line": "Drive hips forward, not back",
+        "answer_line": "Leaning back, not driving hips",
         "distractors": {
           "plausible": [
-            "Pull sleeve grip harder",
-            "Rotate torso side to side"
+            "Not squeezing the knees tight",
+            "Releasing sleeve grip too soon"
           ],
           "trap": [
-            "Lean back away from opponent"
+            "Cranking the arm sideways hard"
           ]
         }
       },
@@ -399,7 +399,7 @@
         "distractors": {
           "plausible": [
             "Fast controlled snap",
-            "Hold pressure after tap heard"
+            "Ease off once they relax"
           ],
           "trap": [
             "Jerk the shoulder for speed"
@@ -582,8 +582,8 @@
         "answer_line": "Tap early, verbal and physical",
         "distractors": {
           "plausible": [
-            "Wait until pain is severe",
-            "Tap only with free hand"
+            "Tap once the pain sets in",
+            "Rely on saying 'tap' alone"
           ],
           "trap": [
             "Try to power through pain"
@@ -597,11 +597,11 @@
         "answer_line": "Roll early, before waist control",
         "distractors": {
           "plausible": [
-            "Stack them flat immediately",
-            "Step over head as first option"
+            "Turtle up and wait it out",
+            "Grab their belt and stall"
           ],
           "trap": [
-            "Extend arm to break the grip"
+            "Rip the trapped arm straight out"
           ]
         }
       },

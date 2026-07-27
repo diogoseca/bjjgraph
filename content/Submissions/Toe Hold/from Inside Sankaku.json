@@ -292,11 +292,11 @@
         "answer_line": "Ankle, midfoot, Lisfranc joints",
         "distractors": {
           "plausible": [
-            "Only the Achilles tendon",
-            "Knee and hip joints"
+            "Achilles tendon alone",
+            "Knee ligaments and the femur"
           ],
           "trap": [
-            "Toes only, isolate one digit"
+            "Crank one toe until it snaps"
           ]
         }
       },
@@ -307,11 +307,11 @@
         "answer_line": "Keep legs locked, grab toes fast",
         "distractors": {
           "plausible": [
-            "Release legs to reach toes",
-            "Grab heel harder first"
+            "Sit up and re-grip the heel",
+            "Switch to outside ashi first"
           ],
           "trap": [
-            "Let go of entanglement to reach"
+            "Unhook legs to reach the toes"
           ]
         }
       },
@@ -322,11 +322,11 @@
         "answer_line": "Sudden looseness, small pops",
         "distractors": {
           "plausible": [
-            "Opponent stops struggling",
-            "Loud verbal complaint"
+            "Opponent goes quiet and still",
+            "Their calf tenses up hard"
           ],
           "trap": [
-            "Crank harder until they tap"
+            "Add torque until you hear a crack"
           ]
         }
       },
@@ -352,11 +352,11 @@
         "answer_line": "Stop, release slowly, check in",
         "distractors": {
           "plausible": [
-            "Drop foot immediately",
-            "Keep grip to teach lesson"
+            "Let go abruptly and stand up",
+            "Wait for a second tap first"
           ],
           "trap": [
-            "Add extra pressure before release"
+            "Torque harder after the tap"
           ]
         }
       },
@@ -382,11 +382,11 @@
         "answer_line": "Leg trapped, can't retract foot",
         "distractors": {
           "plausible": [
-            "Open guard gives better angle",
-            "Sankaku only works no-gi"
+            "Open guard offers a better angle",
+            "Grip strength decides the finish"
           ],
           "trap": [
-            "Both equally easy to escape"
+            "Skip entanglement, dive on feet"
           ]
         }
       },
@@ -412,11 +412,11 @@
         "answer_line": "Isolating single toes, not ball",
         "distractors": {
           "plausible": [
-            "Gripping too loosely",
-            "Using both hands on heel"
+            "Loose grip that slips off",
+            "Both hands cupping the heel"
           ],
           "trap": [
-            "Twist fast before gripping fully"
+            "Crank through the tap to be sure"
           ]
         }
       },
@@ -539,11 +539,11 @@
         "answer_line": "Heel release, hand reaches toes",
         "distractors": {
           "plausible": [
-            "Sudden hip escape attempt",
-            "Opponent grabs your collar"
+            "They dig for your Achilles",
+            "Opponent pulls your knee line"
           ],
           "trap": [
-            "Ignore it, focus on your offense"
+            "Ignore it and hunt your own leg"
           ]
         }
       },
@@ -551,14 +551,14 @@
         "question": "What is the safest way to tap to the toe hold from Inside Sankaku?",
         "answer": "Tap verbally by loudly saying 'tap' while simultaneously tapping with your free hand on the opponent or mat. Verbal tap is critical because your hands may be occupied fighting grips. Tap at the first sensation of rotational pressure on your ankle joint rather than waiting to assess escape possibility. Toe holds cause rapid multi-joint damage across the ankle and midfoot, and the pain signal often arrives after structural damage has already begun.",
         "safety_critical": true,
-        "answer_line": "Tap loud verbally, early",
+        "answer_line": "Say 'tap' loudly and tap early",
         "distractors": {
           "plausible": [
-            "Wait to assess escape first",
-            "Tap only with free hand"
+            "Wait to test the escape first",
+            "Tap after the pain peaks"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Explode out to rip your foot free"
           ]
         }
       },
@@ -569,7 +569,7 @@
         "answer_line": "Strip grip, rotate, extract leg",
         "distractors": {
           "plausible": [
-            "Point toes and wait it out",
+            "Hand-fight only and stay flat",
             "Pull knee to chest hard"
           ],
           "trap": [
@@ -596,14 +596,14 @@
         "question": "Why is it dangerous to attempt a powerful leg straightening movement against an established toe hold?",
         "answer": "Explosive leg extension against a locked toe hold concentrates force through the already-compromised ankle joint and midfoot structures. The rotational lock on the foot means extension adds a secondary vector of force that can tear the lateral ankle ligaments and damage the Lisfranc joint complex simultaneously. The movement happens faster than your nervous system can register pain, so structural damage occurs before you feel the need to tap.",
         "safety_critical": true,
-        "answer_line": "Adds force faster than pain signal",
+        "answer_line": "Second force vector tears ligaments",
         "distractors": {
           "plausible": [
-            "Relieves ankle pressure safely",
-            "Only risks knee, not ankle"
+            "Eases pressure off the ankle",
+            "Threatens only the knee joint"
           ],
           "trap": [
-            "Explosively kick free immediately"
+            "Nothing risky, just rip it free"
           ]
         }
       }

@@ -301,7 +301,7 @@
             "Wrist via flexion pressure"
           ],
           "trap": [
-            "Bicep via compression force"
+            "Neck and spine via cranking"
           ]
         }
       },
@@ -384,14 +384,14 @@
         "question": "How should you release the Kimura from Armbar Control after your partner taps?",
         "answer": "Immediately stop all rotational pressure the instant the tap is detected. Reverse the rotation slowly, guiding the forearm back toward the starting position rather than simply letting go. Release the figure-four grip completely once the arm is in a neutral position. Allow your partner to move their own shoulder through its range of motion to self-assess before continuing. Never release suddenly as the arm springing back can cause additional joint stress.",
         "safety_critical": true,
-        "answer_line": "Stop, reverse slowly, release",
+        "answer_line": "Stop, reverse slowly, then release",
         "distractors": {
           "plausible": [
-            "Release grip instantly",
-            "Hold position, ask if okay"
+            "Keep figure-four until they sit up",
+            "Have them rotate it while gripped"
           ],
           "trap": [
-            "Let arm spring back freely"
+            "Let go and let the arm snap back"
           ]
         }
       },
@@ -417,11 +417,11 @@
         "answer_line": "Elbow pinned, forearm past torso",
         "distractors": {
           "plausible": [
-            "Opponent stops struggling",
-            "Figure-four grip is locked"
+            "Figure-four grip is locked",
+            "Both legs crossed over chest"
           ],
           "trap": [
-            "Opponent taps verbally"
+            "Opponent goes limp and stops moving"
           ]
         }
       },
@@ -547,7 +547,7 @@
             "Opponent leans back for leverage"
           ],
           "trap": [
-            "Opponent releases all grips"
+            "Wait until shoulder pain starts"
           ]
         }
       },
@@ -555,14 +555,14 @@
         "question": "When should you tap to the Kimura from Armbar Control to prevent injury?",
         "answer": "Tap as soon as you feel the internal rotation of your shoulder reaching the limit of your comfortable range of motion. Do not wait for pain, as shoulder damage often occurs before significant pain registers. If the figure-four is locked, the elbow is pinned, and the rotation has begun, the mechanical advantage is overwhelmingly in the attacker's favor. Tapping early in training preserves your shoulder health and allows you to train the next day.",
         "safety_critical": true,
-        "answer_line": "At limit of comfortable rotation",
+        "answer_line": "When rotation nears your limit",
         "distractors": {
           "plausible": [
-            "When pain becomes noticeable",
-            "Once you can no longer resist"
+            "Only once pain becomes sharp",
+            "Only if the elbow also hurts"
           ],
           "trap": [
-            "Wait to see if you can escape"
+            "Hold on and hunt for an escape"
           ]
         }
       },
@@ -573,11 +573,11 @@
         "answer_line": "Elbow to ribs, hand to ceiling",
         "distractors": {
           "plausible": [
-            "Elbow away from body, hand down",
-            "Turn away from trapped arm"
+            "Push their hip with free hand",
+            "Turn away from the trapped arm"
           ],
           "trap": [
-            "Straighten arm to resist rotation"
+            "Straighten arm to beat rotation"
           ]
         }
       },
@@ -604,10 +604,10 @@
         "distractors": {
           "plausible": [
             "Bridge straight up, no turn",
-            "Bridge toward your free arm"
+            "Bridge and roll toward their legs"
           ],
           "trap": [
-            "Bridge away from kimura side"
+            "Bridge away from the kimura side"
           ]
         }
       }

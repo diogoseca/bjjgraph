@@ -304,11 +304,11 @@
         "answer_line": "Grip behind neck, face reddens",
         "distractors": {
           "plausible": [
-            "Grip on front lapel, tight",
-            "Straight pull, opponent coughs"
+            "Lapel pressed on the windpipe",
+            "Partner coughing, no color change"
           ],
           "trap": [
-            "Force jaw sideways for pain"
+            "Crank jaw sideways to finish"
           ]
         }
       },
@@ -350,7 +350,7 @@
         "distractors": {
           "plausible": [
             "Pull straight down harder",
-            "Switch to different choke"
+            "Grind forearm into their jaw"
           ],
           "trap": [
             "Release pant grip to reset"
@@ -364,8 +364,8 @@
         "answer_line": "Hands busy defending hook/truck",
         "distractors": {
           "plausible": [
-            "Hips flattened to the mat",
-            "Right after securing seatbelt"
+            "Right after securing seatbelt",
+            "Before the hook is established"
           ],
           "trap": [
             "Hands free and near their neck"
@@ -379,11 +379,11 @@
         "answer_line": "Shallow grip, straight-down pull",
         "distractors": {
           "plausible": [
-            "Grip too far behind neck",
-            "Angling too far past spine"
+            "Chest pressure too heavy",
+            "Hooking leg set too high"
           ],
           "trap": [
-            "Crank the jaw for extra pain"
+            "Wrench neck sideways to finish"
           ]
         }
       },
@@ -550,8 +550,8 @@
         "answer_line": "Strip grip, turn in, or shrimp",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Bridge and roll them over"
+            "Bridge and roll them over",
+            "Straighten legs and wait it out"
           ],
           "trap": [
             "Turn away from the attacker"

@@ -298,14 +298,14 @@
         "question": "What anatomical structures does the Kimura from Crucifix primarily attack?",
         "answer": "The Kimura from Crucifix attacks the shoulder joint complex including the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, the glenoid labrum, and the ligaments connecting the humerus to the scapula. The rotational force moves the humerus beyond its normal range of internal rotation, placing maximal stress on these structures. Secondary strain affects the bicep tendon and the acromioclavicular joint.",
         "safety_critical": false,
-        "answer_line": "Shoulder joint & rotator cuff",
+        "answer_line": "Shoulder joint and rotator cuff",
         "distractors": {
           "plausible": [
-            "Elbow joint and ligaments",
+            "Elbow joint and its ligaments",
             "Wrist and forearm tendons"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Nothing structural—pain only"
           ]
         }
       },
@@ -313,14 +313,14 @@
         "question": "Your opponent straightens their arm when you attempt the figure-four grip—what adjustment prevents escape?",
         "answer": "When the opponent straightens their arm to prevent the figure-four grip, you have two options. First, use both hands to forcefully bend the arm at the elbow by pushing on the wrist while pulling on the elbow crook. Second, recognize that a straightened arm from crucifix is vulnerable to an armbar—transition your attack to an armbar by controlling the wrist and applying downward pressure on the extended arm using your body as the fulcrum. This creates a forced choice where either defense opens the other attack.",
         "safety_critical": false,
-        "answer_line": "Bend elbow or switch to armbar",
+        "answer_line": "Bend the elbow or hit the armbar",
         "distractors": {
           "plausible": [
-            "Force the figure-four anyway",
-            "Abandon the arm, attack legs"
+            "Muscle the figure-four anyway",
+            "Switch to a collar choke"
           ],
           "trap": [
-            "Release grip and reset position"
+            "Sit up and chase the straight arm"
           ]
         }
       },
@@ -328,14 +328,14 @@
         "question": "What are the key indicators that the Kimura is approaching the breaking point of the shoulder joint?",
         "answer": "Key indicators include the opponent's hand reaching approximately the level of their opposite hip behind their back, visible rotation of the shoulder with the elbow beginning to lift despite your control, increasing vocal distress or rapid breathing changes, and muscle trembling as they resist at end range of motion. When you feel resistance change from muscular to structural (a harder, bony endpoint), you are at the anatomical limit. At this point, any additional force risks serious injury—wait for the tap rather than pushing through.",
         "safety_critical": true,
-        "answer_line": "Hand reaches hip, structural stop",
+        "answer_line": "Hand past hip, resistance turns bony",
         "distractors": {
           "plausible": [
-            "Opponent taps out verbally",
-            "Loud yell means finish now"
+            "Count three seconds of pressure",
+            "Wait until they stop resisting"
           ],
           "trap": [
-            "Push harder until you feel a pop"
+            "Rip through the hard stop"
           ]
         }
       },
@@ -343,14 +343,14 @@
         "question": "Why is maintaining the leg triangle essential during the Kimura finish from crucifix?",
         "answer": "The leg triangle trapping the near arm is what makes the crucifix Kimura fundamentally different from Kimura attacks elsewhere. Without it, the opponent can use their freed arm to grip-fight, clasp hands together, frame against your body, or create the connected defensive structure that normally defeats Kimura attempts. The trapped arm eliminates the majority of standard Kimura defenses. If you lose the leg triangle during the attack, you immediately revert to a standard Kimura scenario where the defender has full two-handed defensive access.",
         "safety_critical": false,
-        "answer_line": "Traps arm, kills two-hand defense",
+        "answer_line": "Traps the arm so hands can't clasp",
         "distractors": {
           "plausible": [
-            "Adds extra body weight control",
-            "Prevents opponent from rolling"
+            "Blocks their far-hand frame",
+            "Keeps your hips heavy on the mat"
           ],
           "trap": [
-            "Optional if grip is tight enough"
+            "Skip it if the grip feels tight"
           ]
         }
       },
@@ -373,14 +373,14 @@
         "question": "Your opponent begins rolling toward the Kimura side—how do you adjust to maintain the finish?",
         "answer": "Follow the roll while maintaining both the leg triangle and the figure-four grip. As they turn, your hip position needs to adjust to stay perpendicular to their new body angle. The roll can work in your favor—use their rotational momentum to accelerate the Kimura rotation behind their back. If they complete a full roll, you may end in a mounted position with the Kimura still locked. The key is never releasing the leg triangle during the transition, as losing that control converts the scramble into their escape opportunity.",
         "safety_critical": false,
-        "answer_line": "Follow roll, keep triangle & grip",
+        "answer_line": "Follow the roll, keep both locks",
         "distractors": {
           "plausible": [
-            "Release grip to avoid injury",
-            "Stop rolling, reset position"
+            "Post your free hand on the mat",
+            "Sit back to flatten them out"
           ],
           "trap": [
-            "Let go of the leg triangle"
+            "Open the legs to stay on top"
           ]
         }
       },
@@ -388,14 +388,14 @@
         "question": "What grip adjustments should you make if your initial figure-four is shallow?",
         "answer": "If your initial figure-four is shallow with fingers barely reaching your opposite wrist, do not attempt to rotate—the grip will slip under load. Instead, temporarily halt rotation and readjust by releasing and re-threading deeper under the opponent's forearm. Alternatively, use a palm-to-palm grip temporarily while you walk your hands into better position. Your gripping hand must wrap fully around the back of the wrist or forearm with your palm contacting your own wrist. A deep grip provides the mechanical advantage needed for a controlled finish.",
         "safety_critical": false,
-        "answer_line": "Re-thread deeper, don't rotate",
+        "answer_line": "Re-thread deeper before rotating",
         "distractors": {
           "plausible": [
-            "Rotate fast before they adjust",
-            "Switch to a wrist lock instead"
+            "Squeeze harder and hold on",
+            "Swap to a wrist lock instead"
           ],
           "trap": [
-            "Crank rotation to set the grip"
+            "Crank the rotation to set it"
           ]
         }
       },
@@ -403,14 +403,14 @@
         "question": "What distinguishes the point of no escape for the defender in this submission?",
         "answer": "The point of no escape occurs when three conditions are met simultaneously: the figure-four grip is fully secured with deep palm-to-wrist contact, the opponent's elbow is pinned tightly against the attacker's ribcage eliminating the hitchhiker escape, and the rotation has passed approximately 45 degrees behind the opponent's back. Before this threshold, the defender can potentially strip the grip, straighten the arm, or create enough positional disruption to escape. After this point, the mechanical advantage is overwhelming and the defender should tap to prevent injury.",
         "safety_critical": false,
-        "answer_line": "Deep grip + pinned elbow + 45°",
+        "answer_line": "Deep grip, elbow pinned, past 45°",
         "distractors": {
           "plausible": [
-            "Grip secured, arm still moving",
-            "Elbow floats but grip is tight"
+            "Figure-four locked, elbow loose",
+            "Rotation started, grip shallow"
           ],
           "trap": [
-            "Any grip contact means tap now"
+            "Wait for pain before escaping"
           ]
         }
       },
@@ -418,14 +418,14 @@
         "question": "How do you accelerate the Kimura finish in competition while maintaining control?",
         "answer": "In competition, accelerate the finish by establishing a deeper initial grip, using explosive hip movement to drive the rotation rather than gradual arm-only pressure, and immediately transitioning to the Kimura when the choke defense creates the opening rather than hesitating. Keep the elbow pinned and commit your full body weight behind the rotation. The acceleration comes from committed body mechanics, not from jerking the arm. Even in competition, maintain enough control that you could stop if the opponent taps—reckless speed creates unnecessary injury risk.",
         "safety_critical": false,
-        "answer_line": "Deep grip, explosive hip drive",
+        "answer_line": "Deeper grip, drive with the hips",
         "distractors": {
           "plausible": [
-            "Jerk the arm rapidly upward",
-            "Wait for opponent to tire out"
+            "Pull with arm strength alone",
+            "Stall until they gas out"
           ],
           "trap": [
-            "Yank the wrist for fast finish"
+            "Unpin the elbow to crank harder"
           ]
         }
       },
@@ -433,14 +433,14 @@
         "question": "What common finishing error reduces the effectiveness of the rotational force?",
         "answer": "The most common finishing error is allowing the elbow to float away from the body during rotation. When the elbow lifts from the ribcage, it creates space for the hitchhiker escape where the opponent rotates their entire shoulder complex to relieve pressure and potentially extract the arm. It also changes the angle of force application from efficient shoulder rotation to a less mechanical pulling motion. Pin the elbow to your ribs as if clamping it in a vise, then rotate only the wrist and forearm while the elbow remains fixed as the fulcrum.",
         "safety_critical": false,
-        "answer_line": "Elbow floats off the ribs",
+        "answer_line": "Letting the elbow float off the ribs",
         "distractors": {
           "plausible": [
-            "Grip hand slips off the wrist",
-            "Hips not squared to opponent"
+            "Squeezing the legs too tight",
+            "Looking away from the arm"
           ],
           "trap": [
-            "Rotating too fast for control"
+            "Rip the arm before fixing it"
           ]
         }
       }
@@ -571,14 +571,14 @@
         "question": "What is the safest way to tap to the Kimura from Crucifix?",
         "answer": "Since one arm is trapped in the leg triangle and the other is being attacked, standard hand tapping may be limited. Use verbal tap (saying 'tap' loudly and clearly) as the primary signal. If your feet are free, tap rapidly with your foot on the mat. If the leg triangle allows any movement on the trapped side, tap the attacker's body. Use multiple signals simultaneously. Do not wait until sharp pain—tap at the first sensation of the shoulder reaching its rotational limit, as the crucifix makes defensive recovery nearly impossible once rotation is committed.",
         "safety_critical": true,
-        "answer_line": "Tap loudly, verbal 'tap'",
+        "answer_line": "Shout 'tap' plus foot taps",
         "distractors": {
           "plausible": [
-            "Wait, use hand tap only",
-            "Tap your own thigh once"
+            "Tap the mat with your hand",
+            "Wait for the ref to stop it"
           ],
           "trap": [
-            "Stay silent, tough it out"
+            "Stay quiet and ride out the pain"
           ]
         }
       },
@@ -586,14 +586,14 @@
         "question": "What defensive options are available against the Kimura from Crucifix?",
         "answer": "The primary defensive options are: straightening the arm to prevent figure-four grip establishment (risk: armbar transition), explosive hip escape to disrupt crucifix control (risk: may tighten position if unsuccessful), turning toward the attacker to deny rotation angle (risk: exposes neck), and gripping your own clothing to anchor against rotation (risk: temporary stall only). The most effective strategy combines grip prevention with positional escape—fight the submission while simultaneously working to free the trapped arm and escape the crucifix entirely.",
         "safety_critical": false,
-        "answer_line": "Prevent grip, escape position",
+        "answer_line": "Deny the grip, then hip escape",
         "distractors": {
           "plausible": [
-            "Turn toward attacker only",
-            "Grip own clothing to anchor"
+            "Stall and wait for them to tire",
+            "Flatten out and cover your face"
           ],
           "trap": [
-            "Straighten arm and relax"
+            "Let them lock the figure-four"
           ]
         }
       },
@@ -601,14 +601,14 @@
         "question": "When should you prioritize tapping over continued escape attempts?",
         "answer": "Tap immediately when: the figure-four grip is fully secured with your elbow pinned against the attacker's body and rotation has passed 45 degrees behind your back, you feel sharp or structural pain in the shoulder indicating you are at the anatomical limit, you cannot generate any meaningful defensive movement or positional change, or your energy is depleted and continued resistance only delays the inevitable while increasing injury risk. In training, always err on the side of early tapping—the crucifix Kimura has one of the highest injury rates when defended past the point of no return.",
         "safety_critical": true,
-        "answer_line": "Grip locked, elbow pinned, 45°+",
+        "answer_line": "Grip locked, elbow pinned, past 45°",
         "distractors": {
           "plausible": [
-            "Feel any discomfort at all",
-            "Opponent breathing heavily"
+            "Tap at first hint of pressure",
+            "Wait for the ref to stop it"
           ],
           "trap": [
-            "Keep fighting until exhausted"
+            "Fight through sharp joint pain"
           ]
         }
       },
@@ -616,14 +616,14 @@
         "question": "How does the crucifix position specifically limit your standard Kimura defenses?",
         "answer": "Standard Kimura defenses rely heavily on the opposite arm: clasping hands together, gripping the belt or pants, framing against the attacker, or pushing their arms away. In the crucifix, your near arm is trapped in the attacker's leg triangle, completely eliminating these two-arm defenses. You are reduced to single-arm defense against a two-arm attack, creating a fundamental mechanical disadvantage. This is why crucifix escape must be prioritized alongside Kimura defense—solving the crucifix restores your full defensive capabilities.",
         "safety_critical": false,
-        "answer_line": "Traps near arm, blocks 2-hand D",
+        "answer_line": "Near arm trapped—no two-arm defense",
         "distractors": {
           "plausible": [
-            "Reduces opponent's grip strength",
-            "Limits attacker's hip mobility"
+            "Your hips are pinned to the mat",
+            "Both arms stay free to frame"
           ],
           "trap": [
-            "Makes defense easier one-handed"
+            "Reach across to clasp your hands"
           ]
         }
       }

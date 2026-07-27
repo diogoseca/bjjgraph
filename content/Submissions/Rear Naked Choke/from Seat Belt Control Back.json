@@ -321,11 +321,11 @@
         "answer_line": "Pin their hand, then slide arm",
         "distractors": {
           "plausible": [
-            "Withdraw arm, then re-enter",
-            "Release over-arm first"
+            "Reach over the top of the head",
+            "Lock a body triangle first"
           ],
           "trap": [
-            "Let go of seat belt fully"
+            "Open your hooks to reach the neck"
           ]
         }
       },
@@ -337,10 +337,10 @@
         "distractors": {
           "plausible": [
             "Coughing means it's working",
-            "Feel a bone ridge, that's right"
+            "Sharp pain means it's deep"
           ],
           "trap": [
-            "Press straight on the windpipe"
+            "Ride the windpipe and squeeze"
           ]
         }
       },
@@ -351,11 +351,11 @@
         "answer_line": "Strip hand, then frame head back",
         "distractors": {
           "plausible": [
-            "Pry the chin from the front",
-            "Pull chin with bare hands"
+            "Yank the chin with your fingers",
+            "Wait for them to get tired"
           ],
           "trap": [
-            "Force it through the tight chin"
+            "Drop hooks to muscle the chin"
           ]
         }
       },
@@ -366,11 +366,11 @@
         "answer_line": "Deep hooks, chest tight, no gaps",
         "distractors": {
           "plausible": [
-            "Loose hooks are fine to start",
+            "Chin control alone is enough",
             "Seat belt grip alone is enough"
           ],
           "trap": [
-            "Rush the choke from shallow hooks"
+            "Drop hooks to reach the neck"
           ]
         }
       },
@@ -378,14 +378,14 @@
         "question": "What is the point of no escape for the defender once the choke reaches a certain configuration?",
         "answer": "Once the figure-four lock is completed behind the head with proper forearm depth across the carotid arteries, the choke becomes extremely difficult to defend. The closed circuit of the arms creates a self-reinforcing compression structure that the defender cannot break open with grip fighting alone. The specific point of no return is when the choking arm crook sits centered under the chin and the locking arm's forearm presses against the back of the skull — at this configuration, the attacker needs only to expand the chest to finish, requiring minimal additional effort. Experienced defenders recognize this threshold and will tap before the squeeze rather than attempting to fight a locked figure-four.",
         "safety_critical": false,
-        "answer_line": "Figure-four locked under chin",
+        "answer_line": "Figure-four locked under the chin",
         "distractors": {
           "plausible": [
-            "Any grip contact triggers it",
-            "Seat belt release is the point"
+            "Both hooks fully inserted",
+            "Chest sealed to their back"
           ],
           "trap": [
-            "Fighting grips still works then"
+            "Peeling the wrist still saves you"
           ]
         }
       },
@@ -397,10 +397,10 @@
         "distractors": {
           "plausible": [
             "Squeeze harder with forearms",
-            "Re-grip for a fresh angle"
+            "Widen elbows for leverage"
           ],
           "trap": [
-            "Let go and re-set the choke"
+            "Release and open hooks to rest"
           ]
         }
       },
@@ -408,14 +408,14 @@
         "question": "What are the most dangerous finishing errors when applying the Rear Naked Choke and how do you avoid them?",
         "answer": "The most dangerous error is applying the choke to the trachea instead of the carotid arteries, which causes windpipe damage, intense pain, and potential long-term respiratory injury. Always verify the forearm sits in the lateral neck grooves, not on the midline. The second critical error is maintaining the choke after a tap or after the opponent goes unconscious — release must be immediate and complete upon any tap signal. The third error is explosive application — jerking or snapping the choke risks cervical spine injury. Always apply progressive pressure over 2-5 seconds minimum. In training, never apply competition-speed chokes.",
         "safety_critical": true,
-        "answer_line": "Trachea, not carotid, pressure",
+        "answer_line": "Crushing trachea instead of carotids",
         "distractors": {
           "plausible": [
-            "Hold the choke after they tap",
-            "Any forearm position works"
+            "Squeezing before hooks are set",
+            "Choking with the bicep only"
           ],
           "trap": [
-            "Explode the choke on fast"
+            "Letting go of hooks to squeeze"
           ]
         }
       },
@@ -426,8 +426,8 @@
         "answer_line": "Strip their hand, re-thread angle",
         "distractors": {
           "plausible": [
-            "Pull wrist back to the same spot",
-            "Switch grips and start over"
+            "Pull the wrist back the same way",
+            "Squeeze harder against the peel"
           ],
           "trap": [
             "Let go of the choking arm"
@@ -438,14 +438,14 @@
         "question": "In a competition scenario with under one minute remaining, what adjustments maximize finishing probability from established seat belt?",
         "answer": "Accelerate the dilemma cycle by attacking the choke immediately without extended grip fighting sequences. Use the short choke variation to bypass the need for a full figure-four — a gable grip pressed against the side of the neck generates enough pressure to force a quick tap even without ideal arm depth. Increase hook pressure and body compression to make the opponent feel claustrophobic urgency. If the standard path is blocked, commit fully to the highest-percentage available option rather than cycling between multiple threats. Accept that a slightly imperfect choke position applied with decisive commitment finishes more often under time pressure than continuing to search for perfect positioning.",
         "safety_critical": false,
-        "answer_line": "Short choke, skip grip fighting",
+        "answer_line": "Go straight to the short choke",
         "distractors": {
           "plausible": [
-            "Wait for the perfect figure-four",
-            "Cycle between multiple threats"
+            "Hunt a perfect figure-four grip",
+            "Switch to an armbar instead"
           ],
           "trap": [
-            "Stall and let the clock run out"
+            "Loosen hooks to chase the neck"
           ]
         }
       }
@@ -575,8 +575,8 @@
         "answer_line": "Over-arm hand leaves seat belt",
         "distractors": {
           "plausible": [
-            "Increased hook pressure only",
-            "Head shifts to one side first"
+            "Their hooks loosen and drop",
+            "Increased hook pressure only"
           ],
           "trap": [
             "Wait for forearm on your neck"
@@ -605,11 +605,11 @@
         "answer_line": "Grip fight early, two-on-one mid",
         "distractors": {
           "plausible": [
-            "Wait until figure-four to react",
-            "Only defend once under the chin"
+            "Bridge and buck to break grips",
+            "Wait for the choke to appear"
           ],
           "trap": [
-            "Ignore seat belt, defend hooks only"
+            "Turn belly-down to escape hooks"
           ]
         }
       },

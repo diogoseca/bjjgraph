@@ -383,14 +383,14 @@
       {
         "question": "Your opponent recognizes the arm drag setup and immediately stiffens their arm and widens their base. How do you adjust?",
         "answer": "A stiff arm with wide base creates a static, energy-expensive defensive posture that can be exploited through timing and misdirection. First, use the resistance against them by switching threats: fake the arm drag and use their defensive commitment to attack the opposite side with a hip bump sweep or collar drag. Alternatively, use a push-pull sequence where you push their arm first to elicit a pulling reaction, then ride that pulling energy into the arm drag. You can also attack their stiff arm directly with a two-on-one wrist snap that breaks the rigid structure, or simply wait for them to relax their defensive tension and strike when they reset.",
-        "answer_line": "Fake it, attack the open side",
+        "answer_line": "Fake drag, hit hip bump sweep",
         "distractors": {
           "plausible": [
-            "Pull even harder on the stiff arm",
-            "Switch to same-side attack"
+            "Pull the arm first, then push",
+            "Two-on-one on their free wrist"
           ],
           "trap": [
-            "Force the drag through resistance"
+            "Dive under for the single leg"
           ]
         }
       },

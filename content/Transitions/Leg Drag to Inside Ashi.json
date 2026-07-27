@@ -244,8 +244,8 @@
         "answer_line": "Control dragged knee, then hook hip",
         "distractors": {
           "plausible": [
-            "Grip collar, ignore the leg",
-            "Underhook far arm first"
+            "Underhook the far arm first",
+            "Grip the near ankle only"
           ],
           "trap": [
             "Release leg grip to base hands"
@@ -342,11 +342,11 @@
         "answer_line": "Sit back, pull leg rotationally",
         "distractors": {
           "plausible": [
-            "Drive forward through the hip",
-            "Push down through the knee"
+            "Push down through the knee",
+            "Drive forward through the hip"
           ],
           "trap": [
-            "Keep driving forward into pass"
+            "Overcommit and lose the leg"
           ]
         }
       }
@@ -503,11 +503,11 @@
         "answer_line": "Turn in, hide the heel",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Sit up to grip fight"
+            "Sit up to grip fight",
+            "Frame and shrimp back"
           ],
           "trap": [
-            "Turn away, expose the heel"
+            "Turn away to escape"
           ]
         }
       },
@@ -517,8 +517,8 @@
         "answer_line": "Clear grip, hooks, then extract",
         "distractors": {
           "plausible": [
-            "Extract leg immediately, hard",
-            "Address hooks before the grip"
+            "Address hooks before the grip",
+            "Straighten the leg first"
           ],
           "trap": [
             "Yank leg free explosively"

@@ -352,11 +352,11 @@
         "answer_line": "Confirm all 4 points before attack",
         "distractors": {
           "plausible": [
-            "Secure heel, then rush finish",
-            "Lock inside leg, attack fast"
+            "Sit up for a steeper angle first",
+            "Switch to outside ashi first"
           ],
           "trap": [
-            "Skip hooks, go for the finish"
+            "Extend hips for the heel hook now"
           ]
         }
       },
@@ -366,11 +366,11 @@
         "answer_line": "SLX lifts, ashi rotates laterally",
         "distractors": {
           "plausible": [
-            "Force stays vertical throughout",
-            "Force shifts straight downward"
+            "Both phases pull heel to chest",
+            "Rotation first, then elevation"
           ],
           "trap": [
-            "Keep elevating with hooks only"
+            "Extend hips before heel is tight"
           ]
         }
       },
@@ -380,11 +380,11 @@
         "answer_line": "Grip both hands before hook off",
         "distractors": {
           "plausible": [
-            "Enter faster, same timing",
-            "Grip tighter with one hand"
+            "Hold the heel with one hand",
+            "Spin to inside sankaku first"
           ],
           "trap": [
-            "Repeat the same entry again"
+            "Dive for the heel, lose the hook"
           ]
         }
       }
@@ -514,10 +514,10 @@
         "distractors": {
           "plausible": [
             "Pull trapped leg back hard",
-            "Push off their hip hook first"
+            "Sit up and break their grips"
           ],
           "trap": [
-            "Fight the clamp head-on"
+            "Stand and rip the leg free"
           ]
         }
       },
@@ -541,11 +541,11 @@
         "answer_line": "Lower base, keep hands close",
         "distractors": {
           "plausible": [
-            "Post hands wide, ignore setup",
-            "Defend heel grip only"
+            "Ignore sweeps, watch the heel",
+            "Drop your weight straight back"
           ],
           "trap": [
-            "Post wide, freeing your legs"
+            "Post both hands wide on the mat"
           ]
         }
       },
@@ -555,11 +555,11 @@
         "answer_line": "Drive hips down, flatten them",
         "distractors": {
           "plausible": [
-            "Push straight back to escape",
-            "Wait, then step over cleanly"
+            "Pull the trapped leg straight out",
+            "Sit back and break the grips"
           ],
           "trap": [
-            "Force flat once angle is set"
+            "Turn away and roll to escape"
           ]
         }
       }

@@ -358,11 +358,11 @@
         "answer_line": "Chain sickle, collar drag, tomoe",
         "distractors": {
           "plausible": [
-            "Pull guard closed and reset",
-            "Wait for opponent to attack"
+            "Switch to closed guard and reset",
+            "Sit up and hunt an underhook"
           ],
           "trap": [
-            "Release feet and stand up"
+            "Drop feet, let them stack and pass"
           ]
         }
       }

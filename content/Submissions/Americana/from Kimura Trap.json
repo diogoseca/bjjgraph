@@ -315,7 +315,7 @@
             "Wrist via hyperflexion"
           ],
           "trap": [
-            "Rotator cuff via internal rotation"
+            "Forearm muscles, pain compliance"
           ]
         }
       },
@@ -326,8 +326,8 @@
         "answer_line": "Redirect back to standard Kimura",
         "distractors": {
           "plausible": [
-            "Switch straight to armbar",
-            "Wait for arm to rebend"
+            "Wait for the arm to rebend",
+            "Release grips and restart attack"
           ],
           "trap": [
             "Force Americana on straight arm"
@@ -341,11 +341,11 @@
         "answer_line": "Elbow tight, hand driving down",
         "distractors": {
           "plausible": [
-            "Arm fully straightened out",
-            "Hand pushing up and away"
+            "Palm pushing up and away",
+            "Wrist rotating loosely outward"
           ],
           "trap": [
-            "Wrist rotating loosely outward"
+            "Arm fully straightened out"
           ]
         }
       },
@@ -368,14 +368,14 @@
         "question": "What is the correct application speed for the Americana from Kimura Trap and why?",
         "answer": "The Americana must be applied slowly and progressively over 3-5 seconds minimum from initial pressure to expected tap. The shoulder joint can be damaged before the defender registers pain, particularly because the transition from Kimura defense catches them off-guard. In drilling, use 10-20% pressure maximum. Never spike or jerk the rotational force. The slow application gives partners time to tap and prevents catastrophic injuries like shoulder dislocation or rotator cuff tears that can end careers.",
         "safety_critical": true,
-        "answer_line": "Slow, 3-5 seconds minimum",
+        "answer_line": "Slow, over 3-5 seconds minimum",
         "distractors": {
           "plausible": [
-            "Fast, before they defend",
-            "Match their breathing pace"
+            "Speed matches their resistance",
+            "Gentle in drills, fast in comp"
           ],
           "trap": [
-            "Snap it quickly for the tap"
+            "Jerk it fast to force the tap"
           ]
         }
       },
@@ -401,8 +401,8 @@
         "answer_line": "Outlast grip, walk feet to head",
         "distractors": {
           "plausible": [
-            "Rip through the grip fast",
-            "Switch immediately to armbar"
+            "Switch immediately to armbar",
+            "Wait without adding pressure"
           ],
           "trap": [
             "Yank the wrist hard to break it"
@@ -450,7 +450,7 @@
             "Opponent's hips flat on mat"
           ],
           "trap": [
-            "Once wrist passes ear level"
+            "No such point — always power out"
           ]
         }
       }
@@ -566,7 +566,7 @@
             "Opponent switches base wide"
           ],
           "trap": [
-            "Only notice after arm is straight"
+            "Wait until shoulder pain starts"
           ]
         }
       },
@@ -592,8 +592,8 @@
         "answer_line": "Straighten arm or bridge early",
         "distractors": {
           "plausible": [
-            "Pull elbow tight to your ribs",
-            "Wait for the ref to stop it"
+            "Push their chest with free hand",
+            "Stay flat and conserve energy"
           ],
           "trap": [
             "Pull arm tight, hand toward mat"
@@ -623,7 +623,7 @@
         "distractors": {
           "plausible": [
             "Only risks minor wrist strain",
-            "Makes escape completely safe"
+            "It costs you the underhook"
           ],
           "trap": [
             "Keep arm straight and relax"

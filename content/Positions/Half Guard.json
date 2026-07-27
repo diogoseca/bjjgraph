@@ -940,8 +940,8 @@
       "answer": "Staying on the side preserves the hip mobility that every Half Guard offensive sequence depends on. From the side the bottom player can shrimp, create angles, and enter sweeps or back takes. When flattened onto the back, the hips lose their capacity to rotate and the trapped leg's fulcrum is neutralized, letting the top player establish chest-to-chest pressure and crossface that lead directly toward the pass. Being on the side also keeps the shoulders angled toward the opponent, which is the prerequisite for winning the underhook battle. This is why flattening is the top player's core objective and staying on the side is the bottom player's core defensive imperative across all variants.",
       "distractors": {
         "plausible": [
-          "Stay flat, brace with arms",
-          "Turn shoulders away from foe"
+          "Hug the head with both arms",
+          "Grip fight for both wrists"
         ],
         "trap": [
           "Flatten out onto your back"
@@ -955,8 +955,8 @@
       "answer_line": "Leg still trapped, not done",
       "distractors": {
         "plausible": [
-          "Posture up and pause there",
-          "Crossface alone completes it"
+          "Crossface alone completes it",
+          "Bottom has no attacks left"
         ],
         "trap": [
           "Stop working, hold position"
@@ -969,8 +969,8 @@
       "answer_line": "Threaten sweep, back, and guard",
       "distractors": {
         "plausible": [
-          "Commit fully to one sweep",
-          "Defend only, wait for gaps"
+          "Commit fully to one attack",
+          "Hunt only the submission"
         ],
         "trap": [
           "Abandon offense, stall out"
@@ -983,8 +983,8 @@
       "answer_line": "Frames control the gap",
       "distractors": {
         "plausible": [
-          "Grips alone control the gap",
-          "Leg pressure controls the gap"
+          "Grips alone decide spacing",
+          "Explosive bridging makes space"
         ],
         "trap": [
           "Let chests connect early"
@@ -997,8 +997,8 @@
       "answer_line": "Flow between variations",
       "distractors": {
         "plausible": [
-          "Master one structure only",
-          "Switch based on your mood"
+          "Drill one guard to mastery",
+          "Rotate guards in a set order"
         ],
         "trap": [
           "Hold one static frame always"
@@ -1016,7 +1016,7 @@
           "Both ankles locked behind back"
         ],
         "trap": [
-          "Post the trapped leg free"
+          "Let the hold slip to the ankle"
         ]
       },
       "answer_line": "One leg trapped below the knee"
@@ -1055,11 +1055,11 @@
       "answer_line": "Keep hips angled, not flat",
       "distractors": {
         "plausible": [
-          "Square shoulders to the mat",
-          "Angle away from the opponent"
+          "Shoulder turn alone is enough",
+          "Lock one shape, never adjust"
         ],
         "trap": [
-          "Let hips flatten out square"
+          "Turn away and give your back"
         ]
       }
     },
@@ -1069,11 +1069,11 @@
       "answer_line": "Frames deny chest connection",
       "distractors": {
         "plausible": [
-          "Grips alone deny connection",
-          "Legs alone deny connection"
+          "Muscle the top player away",
+          "Sleeve grips keep them at bay"
         ],
         "trap": [
-          "Allow the chest connection"
+          "Pull them down on top of you"
         ]
       }
     },

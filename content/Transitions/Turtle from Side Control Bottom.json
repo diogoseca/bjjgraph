@@ -251,42 +251,42 @@
       {
         "question": "What is the most critical body connection to maintain during the turning motion and why?",
         "answer": "The elbow-to-knee connection on the near side is the most critical body structure during the turn. This connection creates a sealed defensive shell that prevents the opponent from inserting underhooks, hooks, or reaching your neck as you rotate from your back to your hands and knees. Without this connection, the gap between your upper and lower body becomes an entry point for back control establishment, making the turn counterproductive.",
-        "answer_line": "Near-side elbow-to-knee seal",
+        "answer_line": "Near-side elbow glued to knee",
         "distractors": {
           "plausible": [
-            "Forearm frame on the hip",
-            "Far-side underhook grip"
+            "Both hands gripping their collar",
+            "Flat back pressed to the mat"
           ],
           "trap": [
-            "Extend legs away from body"
+            "Reach far arm across their body"
           ]
         }
       },
       {
         "question": "When is the optimal timing window to initiate the turtle turn from side control bottom?",
         "answer": "The optimal timing window occurs when the opponent shifts their weight during transitions or submission setups. Specifically, when they lift their hips to attempt an americana, adjust for a kimura, or shift weight toward your head for a north-south transition. These moments create momentary gaps in hip pressure that allow the turning motion to succeed. Attempting the turn against settled, heavy side control pressure has a significantly lower success rate.",
-        "answer_line": "Opponent's hip-pressure gap",
+        "answer_line": "When their hips lift or shift",
         "distractors": {
           "plausible": [
-            "Right when side control lands",
-            "During heavy crossface pressure"
+            "As soon as they land in side control",
+            "When their crossface is heaviest"
           ],
           "trap": [
-            "Force it through heavy pressure"
+            "Roll away while they sit heavy"
           ]
         }
       },
       {
         "question": "Your opponent blocks your turn by driving a heavy crossface - how do you adjust your escape strategy?",
         "answer": "When the crossface blocks the turn, switch strategies rather than fighting through it. Options include using a stronger bridge combined with far-side underhook to create more space, switching to a hip escape toward the opponent instead of away, or threatening a guard recovery with your far-side leg to force the opponent to address a different threat. This may lighten the crossface pressure enough for a subsequent turn attempt from a different angle.",
-        "answer_line": "Bridge + far-side underhook",
+        "answer_line": "Bridge hard, win far underhook",
         "distractors": {
           "plausible": [
-            "Hip escape away from opponent",
-            "Force through the crossface"
+            "Shrimp away from their chest",
+            "Grab their belt and pull down"
           ],
           "trap": [
-            "Freeze and turtle up"
+            "Turn away and give up your back"
           ]
         }
       },
@@ -307,14 +307,14 @@
       {
         "question": "Why is remaining static in turtle position dangerous after completing the turn?",
         "answer": "Static turtle is dangerous because it gives the opponent unlimited time to systematically establish back control through seatbelt grip, hook insertion, and harness control. The opponent transitions from side control top to turtle top, where they have multiple high-percentage attack pathways including back takes, front headlock submissions, and crucifix entries. The turtle should be treated as a momentary waypoint with immediate continuation to guard recovery or standing.",
-        "answer_line": "Opponent builds seatbelt/hooks",
+        "answer_line": "They set seatbelt and hooks",
         "distractors": {
           "plausible": [
-            "Turtle is a stable resting spot",
-            "It only slows your escape"
+            "Your frames slowly tire out",
+            "It lets them recover their grips"
           ],
           "trap": [
-            "Wait there to catch a breath"
+            "Stay put and catch your breath"
           ]
         }
       },
@@ -335,28 +335,28 @@
       {
         "question": "What determines whether you should attempt the turtle turn versus a standard hip escape to guard?",
         "answer": "The determining factor is the opponent's control configuration. The turtle turn is preferred when the opponent has a very tight crossface that prevents hip escape toward them, when their weight is distributed more toward your upper body leaving hip space, or when standard guard recovery has been repeatedly blocked. Hip escape to guard is preferred when the crossface is loose, when there is space to insert a knee between your bodies, or when the opponent's weight is centered on your hips rather than your torso.",
-        "answer_line": "Where their crossface & weight sit",
+        "answer_line": "Their crossface and weight bias",
         "distractors": {
           "plausible": [
-            "Whichever arm is stronger",
-            "How tired the opponent looks"
+            "Your energy level at the moment",
+            "Which arm they trapped first"
           ],
           "trap": [
-            "Always default to hip escape"
+            "Shrimp away under a tight crossface"
           ]
         }
       },
       {
         "question": "What is the proper chin position throughout the turning sequence and why is it critical?",
         "answer": "The chin must remain tucked tightly to your chest throughout the entire turning sequence. This protects against front headlock attacks including guillotines, darces, and anacondas that become available when your neck is exposed during the rotation. The tucked chin also facilitates the rounded back position needed for a tight defensive turtle structure. Lifting the chin even briefly during the turn creates a submission opportunity that skilled opponents will exploit immediately.",
-        "answer_line": "Chin tucked, blocks headlocks",
+        "answer_line": "Chin tucked stops guillotines",
         "distractors": {
           "plausible": [
-            "Chin down, protects your back",
-            "Chin neutral, watch the hands"
+            "Head turned away from them",
+            "Jaw relaxed, eyes on the ceiling"
           ],
           "trap": [
-            "Lift chin to see the opponent"
+            "Lift chin to spot their base"
           ]
         }
       },
@@ -370,7 +370,7 @@
             "Bridge away to create space"
           ],
           "trap": [
-            "Push flat, skip the bridge"
+            "Roll belly-down with no bridge"
           ]
         }
       },
@@ -547,14 +547,14 @@
       {
         "question": "What position advancement opportunities does a failed turtle turn create for the top player?",
         "answer": "A failed turtle turn often leaves the bottom player partially rotated with compromised framing structure and depleted energy. This creates excellent opportunities for mount advancement because their hip has turned away, making the step-over easier than from standard side control. If they return to their back after a failed turn, they are typically more exhausted and their frames are weaker, making submission attempts like americana or kimura more viable. The failed escape also provides psychological advantage as their confidence in escape options diminishes.",
-        "answer_line": "Step-over mount, easier now",
+        "answer_line": "Step over into mount now",
         "distractors": {
           "plausible": [
-            "Back take is now easier",
-            "Guard pass is now easier"
+            "Drop back for a straight footlock",
+            "Spin to north-south and stall"
           ],
           "trap": [
-            "Retreat and reset the position"
+            "Chase the back, lose top position"
           ]
         }
       }

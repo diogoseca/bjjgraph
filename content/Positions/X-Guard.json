@@ -675,11 +675,11 @@
       "answer": "X-Guard variants control by wrapping the opponent's leg with the bottom player's own legs, so retention comes from bone-and-hip structure, not grips. Because there is no sleeve, collar, or pant grip to strip, the family is uniquely resistant to grip-breaking strategies and functions identically in gi and no-gi. The legs are structurally stronger than any arm-based retention, letting a lighter player control a heavier standing opponent. The hands are then freed to manage the trapped ankle or the opponent's free leg rather than being spent on primary retention.",
       "distractors": {
         "plausible": [
-          "Hand grips are the primary control",
-          "Only functions with gi grips"
+          "Sleeve control is what holds it",
+          "Needs a gi to work at all"
         ],
         "trap": [
-          "Grip the sleeve for retention"
+          "Free the leg to fix your grips"
         ]
       },
       "answer_line": "Bone structure, not grip strength"
@@ -690,11 +690,11 @@
       "answer_line": "Remove a base, elevate it",
       "distractors": {
         "plausible": [
-          "Push the opponent straight back",
-          "Grip break to off-balance them"
+          "Shove them straight backward",
+          "Break grips to unbalance them"
         ],
         "trap": [
-          "Muscle the leg off the mat"
+          "Drop flat and pull them down"
         ]
       }
     },
@@ -704,11 +704,11 @@
       "answer_line": "Elevated hips load the lift",
       "distractors": {
         "plausible": [
-          "Flat hips save energy for later",
-          "Elevate hips only during sweeps"
+          "Grips supply the lifting force",
+          "Only matters during the finish"
         ],
         "trap": [
-          "Flatten hips to control weight"
+          "Settle flat to control weight"
         ]
       }
     },
@@ -718,11 +718,11 @@
       "answer_line": "Threatens sweep and leg lock",
       "distractors": {
         "plausible": [
-          "It only ever sets up a sweep",
-          "It only leads to back takes"
+          "Purely an off-balancing move",
+          "Only a path to taking the back"
         ],
         "trap": [
-          "Fixate only on the leg lock"
+          "Release the leg to chase a heel"
         ]
       }
     },
@@ -732,11 +732,11 @@
       "answer_line": "Extend one leg, retract other",
       "distractors": {
         "plausible": [
-          "Push straight in one direction",
-          "Pull hard to force the fall"
+          "Shove straight down one line",
+          "Yank hard to force the fall"
         ],
         "trap": [
-          "Commit all weight one direction"
+          "Overextend until legs get stripped"
         ]
       }
     },
@@ -747,7 +747,7 @@
       "distractors": {
         "plausible": [
           "Hold the original X rigidly",
-          "Reset back to closed guard"
+          "Stall and wait them out"
         ],
         "trap": [
           "Release the leg to reset guard"
@@ -760,11 +760,11 @@
       "answer_line": "Guide the fall, don't lift it",
       "distractors": {
         "plausible": [
-          "Muscle the sweep through fast",
-          "Grip strength powers the sweep"
+          "Power it through with speed",
+          "Squeeze harder for more force"
         ],
         "trap": [
-          "Pull with the arms to finish"
+          "Free the hook and shove them off"
         ]
       }
     }
@@ -776,11 +776,11 @@
       "answer_line": "Both legs cross one trapped leg",
       "distractors": {
         "plausible": [
-          "Both legs hook both thighs",
-          "One hook with no outside frame"
+          "Both feet hook both thighs",
+          "One hook, no outside frame"
         ],
         "trap": [
-          "Grab the ankle with both hands"
+          "Unhook and sit up flat to them"
         ]
       }
     },
@@ -790,11 +790,11 @@
       "answer_line": "Legs, not grips, give control",
       "distractors": {
         "plausible": [
-          "Sleeve and collar grips retain it",
-          "It fails without gi grips"
+          "Sleeve and collar hold it in",
+          "Useless without a gi"
         ],
         "trap": [
-          "Depend on lapel grips to hold"
+          "Drop the leg to chase a lapel"
         ]
       }
     },
@@ -818,11 +818,11 @@
       "answer_line": "Elevation loads the spring",
       "distractors": {
         "plausible": [
-          "Flat hips conserve energy",
-          "Hips only matter for sweeps"
+          "Grip tension supplies the drive",
+          "Only needed at the finish"
         ],
         "trap": [
-          "Lay hips flat to smash down"
+          "Lay flat and let them settle"
         ]
       }
     },
@@ -832,11 +832,11 @@
       "answer_line": "Hook must clear behind the knee",
       "distractors": {
         "plausible": [
-          "Shallow hook on the calf works",
-          "Hook depth doesn't matter much"
+          "Catching the calf is enough",
+          "Outside frame does the holding"
         ],
         "trap": [
-          "Hook the shin and pull back"
+          "Unhook and reach for a grip"
         ]
       }
     },
@@ -846,11 +846,11 @@
       "answer_line": "Deep knee hook plus hip frame",
       "distractors": {
         "plausible": [
-          "Same low hook as single leg X",
-          "Both hooks inside the thighs"
+          "Both feet inside their thighs",
+          "Wraps down near the ankle"
         ],
         "trap": [
-          "Release the hook to switch"
+          "Straighten legs and let leg out"
         ]
       }
     },
@@ -860,22 +860,22 @@
       "answer_line": "Sweep escape feeds leg entry",
       "distractors": {
         "plausible": [
-          "Sweeps only, no leg attacks",
-          "Leg locks only, no sweeping"
+          "Only works if they stay upright",
+          "Needs them to sit back first"
         ],
         "trap": [
-          "Let go of the leg to pass"
+          "Abandon the leg to hunt grips"
         ]
       }
     },
     {
       "question": "What role does controlling the opponent's trapped ankle or free leg play in the position?",
       "answer": "Hand control on the trapped ankle or the opponent's free leg is the connective tissue that keeps the leg-based structure intact. Gripping the trapped ankle prevents the standing player from simply stepping backward to slide their leg out of the deep inside hook, sealing the primary escape. Reaching or controlling the free leg limits the opponent's ability to reestablish a second posting base and widens the off-balancing angles available. While the legs supply the elevating and framing power, these grips remove the opponent's easiest exits and let the bottom player dictate which sweep or entanglement direction opens up.",
-      "answer_line": "Grips seal off the escape route",
+      "answer_line": "Hands seal off the escape route",
       "distractors": {
         "plausible": [
-          "Grips are the primary control",
-          "Only grip the far collar"
+          "Hands do the main lifting work",
+          "Mainly there to set up chokes"
         ],
         "trap": [
           "Release the ankle to attack arm"

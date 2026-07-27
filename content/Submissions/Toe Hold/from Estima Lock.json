@@ -265,11 +265,11 @@
         "answer_line": "Ankle ligaments & small foot joints",
         "distractors": {
           "plausible": [
-            "Achilles tendon mainly",
-            "Toe joints only"
+            "Achilles tendon is the main target",
+            "Only the big toe joint"
           ],
           "trap": [
-            "Knee ligaments"
+            "Crank hard, foot bones are tough"
           ]
         }
       },
@@ -277,14 +277,14 @@
         "question": "Your opponent starts counter-rotating their ankle against your Estima Lock—how does this create the toe hold opportunity?",
         "answer": "When the opponent counter-rotates to defend the Estima Lock, they change the angle of their forefoot relative to your grip position. This defensive rotation exposes their toes and ball of foot for the cupping grip that the Estima Lock forearm position previously blocked. Their active defense of one attack is precisely what creates vulnerability to the other, making the chain highly effective against technically skilled defenders.",
         "safety_critical": false,
-        "answer_line": "Rotation exposes forefoot to cup",
+        "answer_line": "Their rotation exposes the forefoot",
         "distractors": {
           "plausible": [
-            "Grip fatigue forces a release",
-            "Opponent taps out from pain"
+            "Their grip defense tires your arms",
+            "Their heel slips free of your grip"
           ],
           "trap": [
-            "Opponent frees their heel"
+            "Let go and re-grip the whole foot"
           ]
         }
       },
@@ -310,11 +310,11 @@
         "answer_line": "5-7 seconds minimum, slow build",
         "distractors": {
           "plausible": [
-            "2-3 seconds is safe enough",
-            "Speed doesn't matter here"
+            "Two seconds if the grip is snug",
+            "Same pace as a kneebar entry"
           ],
           "trap": [
-            "Apply as fast as possible"
+            "Snap it on before they react"
           ]
         }
       },
@@ -322,14 +322,14 @@
         "question": "How should you distribute force across the forefoot when establishing the toe hold grip?",
         "answer": "Cup the ball of the foot broadly with your palm, wrapping fingers across the top of the forefoot so that contact spans multiple toes rather than isolating any individual joint. The grip should feel like holding a baseball with the opponent's forefoot. This broad distribution prevents isolated toe breaks while creating a larger surface area for effective rotational leverage. Never hook individual toes with your fingers.",
         "safety_critical": true,
-        "answer_line": "Cup forefoot broadly like a ball",
+        "answer_line": "Cup the whole ball of the foot",
         "distractors": {
           "plausible": [
-            "Hook two toes for leverage",
-            "Grip the ankle bone directly"
+            "Squeeze the ankle bone instead",
+            "Grip across the instep only"
           ],
           "trap": [
-            "Isolate and hook one toe"
+            "Hook one toe and torque it"
           ]
         }
       },
@@ -337,14 +337,14 @@
         "question": "Your rotational pressure stalls and the opponent stabilizes their ankle despite your maintained grip—what should you do?",
         "answer": "When rotational pressure stalls, do not simply increase arm force. Instead, adjust your body angle to find a new rotational vector by circling your hips. If the opponent has genuinely neutralized your angle through counter-rotation and framing, transition back to the Estima Lock or flow to an alternative leg attack rather than forcing a mechanically compromised finish. Forcing stalled pressure wastes energy and risks losing the position entirely.",
         "safety_critical": false,
-        "answer_line": "Circle hips to find new angle",
+        "answer_line": "Circle your hips for a new angle",
         "distractors": {
           "plausible": [
-            "Pull harder with the arms",
-            "Switch grip to figure-four again"
+            "Hold the grip and wait it out",
+            "Sit up to shorten the lever"
           ],
           "trap": [
-            "Force it with more arm strength"
+            "Rip the foot with a sharp jerk"
           ]
         }
       },
@@ -370,11 +370,11 @@
         "answer_line": "Stop, release gradually, check in",
         "distractors": {
           "plausible": [
-            "Drop the foot immediately",
-            "Hold position until they nod"
+            "Let the foot drop free at once",
+            "Wait for them to yank it out"
           ],
           "trap": [
-            "Keep rotating until fully released"
+            "Hold torque a beat past the tap"
           ]
         }
       }
@@ -487,14 +487,14 @@
         "question": "How do you recognize that the attacker is transitioning from Estima Lock to the toe hold?",
         "answer": "The primary recognition cue is feeling the attacker release their forearm-across-foot Estima Lock position while maintaining heel control with their other hand. You will then feel their free hand reaching around the outside of your foot to cup your toes and ball of foot. The pressure vector changes from downward compression to a preparatory cupping sensation across your forefoot before rotational force begins.",
         "safety_critical": false,
-        "answer_line": "Forearm releases, hand cups toes",
+        "answer_line": "Forearm leaves, hand cups toes",
         "distractors": {
           "plausible": [
-            "Sudden sharp rotational pain",
-            "Both hands release the foot"
+            "Sharp rotational pain arrives first",
+            "Heel grip switches to your knee"
           ],
           "trap": [
-            "Pressure suddenly disappears"
+            "Relax and wait to feel the finish"
           ]
         }
       },
@@ -505,11 +505,11 @@
         "answer_line": "Tap the instant ankle feels torque",
         "distractors": {
           "plausible": [
-            "Wait until it truly hurts",
-            "Try to escape one more time"
+            "Wait for real pain to arrive",
+            "Same warning time as a kneebar"
           ],
           "trap": [
-            "Fight through to look for an exit"
+            "Ride it out hunting a scramble"
           ]
         }
       },
@@ -547,14 +547,14 @@
         "question": "What role does your free leg play in defending the toe hold from Estima Lock?",
         "answer": "The free leg is your primary defensive tool for creating the distance needed to escape. Place your free foot on the attacker's hip, inner thigh, or behind their knee and push to generate separation. The push disrupts their hip pressure contact against your trapped leg's calf, which is the mechanical anchor preventing leg extraction. Without an active free leg, you surrender your most effective escape lever and the attacker can maintain control with minimal effort.",
         "safety_critical": false,
-        "answer_line": "Push off hip to create distance",
+        "answer_line": "Push their hip to make space",
         "distractors": {
           "plausible": [
-            "Kick to strike the attacker",
-            "Wrap it around their far leg"
+            "Grab their wrists to stop rotation",
+            "Hook your free leg over their back"
           ],
           "trap": [
-            "Keep both legs still and tense"
+            "Stay still and tense until it ends"
           ]
         }
       },
@@ -562,14 +562,14 @@
         "question": "At what point does the toe hold from Estima Lock become impossible to escape, and what is the correct decision?",
         "answer": "Escape becomes effectively impossible once the figure-four is fully consolidated and rotational pressure has begun—the attacker's cupping hand is seated on your forefoot, their other arm is threaded behind your Achilles, and their hips are tight to your calf eliminating retraction slack. Past this point, continuing to fight only burns the one to two seconds you have before the small foot joints fail. The correct decision is to tap immediately; preserving the ankle and midfoot for long-term training always outweighs escaping a single position.",
         "safety_critical": true,
-        "answer_line": "Figure-four locked and tight - tap",
+        "answer_line": "Tap once the figure-four seats",
         "distractors": {
           "plausible": [
-            "Once rotation causes sharp pain",
-            "When your foot goes numb"
+            "When your calf is fully trapped",
+            "After one failed escape attempt"
           ],
           "trap": [
-            "Keep fighting for a scramble"
+            "Rip your foot out at full lock"
           ]
         }
       },
@@ -577,14 +577,14 @@
         "question": "What three tactile signs confirm the attacker has fully locked the figure-four so that foot retraction is no longer available?",
         "answer": "First, you feel their cupping hand seated over the ball of your foot and toes rather than just brushing it. Second, you feel their forearm or biceps threaded snugly behind your Achilles tendon, completing the figure-four structure. Third, you feel their hip driven tight against your calf, removing the slack you would need to pull your knee back. When all three are present simultaneously, leg extraction is gone and your only remaining options are counter-rotation to buy time or an immediate tap.",
         "safety_critical": false,
-        "answer_line": "Cup hand, Achilles arm, hips tight",
+        "answer_line": "Cupped foot, Achilles arm, tight hip",
         "distractors": {
           "plausible": [
-            "Sharp pain and loss of feeling",
-            "Attacker stops all movement"
+            "Sharp pain plus numb toes",
+            "Attacker goes completely still"
           ],
           "trap": [
-            "A slight give in the grip"
+            "Wait for slack before tapping"
           ]
         }
       },
@@ -595,11 +595,11 @@
         "answer_line": "Tap earlier in training than comp",
         "distractors": {
           "plausible": [
-            "Same margin in both settings",
-            "Push limits more in training"
+            "Treat it like an armbar window",
+            "Same margin as shoulder locks"
           ],
           "trap": [
-            "Test your limit during sparring"
+            "Ride the limit in daily rolls"
           ]
         }
       }

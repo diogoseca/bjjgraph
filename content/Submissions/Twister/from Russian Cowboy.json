@@ -308,7 +308,7 @@
             "Hip lock alone creates submission"
           ],
           "trap": [
-            "Isolate cervical spine only"
+            "Targets shoulder joint only"
           ]
         }
       },
@@ -409,8 +409,8 @@
         "answer_line": "When they defend neck, not legs",
         "distractors": {
           "plausible": [
-            "As soon as Russian Cowboy starts",
-            "Only after opponent is exhausted"
+            "Only after opponent is exhausted",
+            "Once they flatten to their belly"
           ],
           "trap": [
             "Rush it before they turtle"
@@ -586,7 +586,7 @@
         "answer_line": "Tuck arms, straighten to break lock",
         "distractors": {
           "plausible": [
-            "Reach out to post on the mat",
+            "Wait for them to tire out",
             "Grab your own foot to defend"
           ],
           "trap": [
@@ -601,7 +601,7 @@
         "answer_line": "Turn in to align hips, shoulders",
         "distractors": {
           "plausible": [
-            "Turning away relieves pressure",
+            "Bridge straight up and over",
             "Direction doesn't matter much"
           ],
           "trap": [
@@ -631,7 +631,7 @@
         "answer_line": "Their free leg lifts off the mat",
         "distractors": {
           "plausible": [
-            "Seatbelt grip tightens suddenly",
+            "They post their free leg wider",
             "They shift more body weight down"
           ],
           "trap": [

@@ -300,11 +300,11 @@
         "answer_line": "Both carotid arteries",
         "distractors": {
           "plausible": [
-            "Windpipe/trachea only",
-            "Jugular veins only"
+            "Windpipe crushed by the forearm",
+            "Jugular veins on both sides"
           ],
           "trap": [
-            "Vagus nerve strike point"
+            "Crank the neck to force the tap"
           ]
         }
       },
@@ -315,11 +315,11 @@
         "answer_line": "Their frame across own neck",
         "distractors": {
           "plausible": [
-            "Opponent turning face away",
-            "Opponent posting on the floor"
+            "They turn their face away",
+            "They post a hand on the mat"
           ],
           "trap": [
-            "Strip their frame immediately"
+            "Hold the guillotine, get passed"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Chest pins arm, then figure-four",
         "distractors": {
           "plausible": [
-            "Release grip before repositioning",
-            "Underhook the far arm instead"
+            "Underhook their far arm first",
+            "Switch hands behind their head"
           ],
           "trap": [
-            "Release grip to reset guillotine"
+            "Let the arm slip, get passed"
           ]
         }
       },
@@ -349,7 +349,7 @@
             "Switch to a far-side headlock"
           ],
           "trap": [
-            "Yank the frame off their neck"
+            "Roll to your back to finish it"
           ]
         }
       },
@@ -364,7 +364,7 @@
             "Angle toward their legs"
           ],
           "trap": [
-            "Lean back and pull with arms"
+            "Lean back; they bridge and reverse"
           ]
         }
       },
@@ -375,11 +375,11 @@
         "answer_line": "No gap, face color, weak defense",
         "distractors": {
           "plausible": [
-            "Loud tapping sounds nearby",
-            "Opponent stops moving entirely"
+            "They sweat and breathe hard",
+            "Your own arms start burning"
           ],
           "trap": [
-            "They start talking normally"
+            "Hold the squeeze past the tap"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Drop hip, flush chest, not arms",
         "distractors": {
           "plausible": [
-            "Squeeze arms harder together",
-            "Pull head down with free hand"
+            "Squeeze the arms harder",
+            "Pull their head with free hand"
           ],
           "trap": [
-            "Pull the choking arm tighter"
+            "Sit up to regrip, get reversed"
           ]
         }
       },
@@ -409,7 +409,7 @@
             "Stay square and grind it out"
           ],
           "trap": [
-            "Abandon guillotine, chase far side"
+            "Spin far side, they take your back"
           ]
         }
       },
@@ -417,14 +417,14 @@
         "question": "What safety precautions must you observe when transitioning from Hindulotine guillotine to arm triangle pressure?",
         "answer": "Apply pressure progressively over 3-5 seconds, never spike or jerk the submission. Monitor the opponent's consciousness by feeling for resistance changes and watching for facial color changes. Always allow at least one hand free for tapping. Release immediately upon any tap signal including verbal, hand, or foot taps. If the opponent goes limp, release immediately and place them in recovery position on their side.",
         "safety_critical": true,
-        "answer_line": "Progressive pressure, watch tap",
+        "answer_line": "Ramp pressure over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Spike it fast to end quickly",
-            "Trap both hands for control"
+            "Count to ten before releasing",
+            "Only stop for a verbal tap"
           ],
           "trap": [
-            "Hold past the tap to finish"
+            "Squeeze harder if they go limp"
           ]
         }
       },
@@ -435,11 +435,11 @@
         "answer_line": "Chest pins arm before switching",
         "distractors": {
           "plausible": [
-            "Grip harder on the wrist",
-            "Speed through the transition"
+            "Grip harder on their wrist",
+            "Rush the switch for speed"
           ],
           "trap": [
-            "Chase the arm as it slides out"
+            "Chase the arm out, get passed"
           ]
         }
       }
@@ -568,11 +568,11 @@
         "answer_line": "Chest weight down, grip releases",
         "distractors": {
           "plausible": [
-            "They squeeze the guillotine tighter",
+            "They squeeze the guillotine more",
             "They step back to reset"
           ],
           "trap": [
-            "They're losing the position"
+            "Relax, the choke feels lighter"
           ]
         }
       },
@@ -580,14 +580,14 @@
         "question": "What is the safest way to tap when caught in the Arm Triangle from Hindulotine?",
         "answer": "Tap immediately and clearly using any available signal: tap the mat or the attacker's body multiple times with your free hand, tap with your feet if hands are trapped, or verbally say 'tap' loudly. Do not wait to see if you can escape once the choke is locked - arm triangles compress the carotid arteries and can cause unconsciousness in 6-8 seconds. Tapping early prevents injury and allows you to continue training.",
         "safety_critical": true,
-        "answer_line": "Tap hand, foot, or voice, now",
+        "answer_line": "Tap now: hand, foot, or voice",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only after vision blurs"
+            "Slap the mat only, never them",
+            "One soft flick, then wait"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Ride it out and hope they slip"
           ]
         }
       },
@@ -595,14 +595,14 @@
         "question": "What arm positioning prevents the attacker from converting the Hindulotine into an arm triangle?",
         "answer": "Keep your near arm either pinned tight against your own body with your elbow down and hand on your own chest, or extend it fully away from your neck. The critical mistake is allowing your forearm to cross your own throat line, which creates the trapped-arm position the attacker needs. When defending the guillotine, use head positioning and hip movement rather than arm frames across your neck.",
         "safety_critical": false,
-        "answer_line": "Never cross forearm over throat",
+        "answer_line": "Elbow down, hand on your chest",
         "distractors": {
           "plausible": [
-            "Post the arm out wide always",
-            "Grip your own collar tight"
+            "Grab their belt with that arm",
+            "Push their head with both hands"
           ],
           "trap": [
-            "Frame forearm across own neck"
+            "Cross your forearm at your throat"
           ]
         }
       },
@@ -613,11 +613,11 @@
         "answer_line": "Turn in, knees, frame their hips",
         "distractors": {
           "plausible": [
-            "Turn away and try to stand up",
-            "Push their head off both hands"
+            "Grip fight their locked hands",
+            "Push their head with both hands"
           ],
           "trap": [
-            "Turn away toward trapped-arm side"
+            "Turn away and flatten your back"
           ]
         }
       },
@@ -625,14 +625,14 @@
         "question": "What are the most common defensive errors that allow the arm triangle transition from Hindulotine?",
         "answer": "The most common error is instinctively framing across your own neck when defending the guillotine, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker switches grips is the best escape opportunity, and it closes within 2-3 seconds.",
         "safety_critical": false,
-        "answer_line": "Framing own neck, turning away",
+        "answer_line": "Neck frames and late reaction",
         "distractors": {
           "plausible": [
-            "Bridging too early and often",
+            "Bridging early and often",
             "Gripping their sleeve instead"
           ],
           "trap": [
-            "Turn away once caught to escape"
+            "Turn away once the choke lands"
           ]
         }
       }

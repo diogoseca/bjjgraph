@@ -291,14 +291,14 @@
         "question": "What anatomical structure does the belly down armbar from mounted crucifix primarily attack?",
         "answer": "The primary target is the elbow joint, specifically hyperextending it past its natural range of motion. The ulnar collateral ligament and the joint capsule bear the greatest stress. The belly down angle directs force through the posterior aspect of the elbow joint, with the attacker's pelvic bone serving as the fulcrum against the olecranon process. Secondary stress occurs on the biceps tendon as it resists the forced extension.",
         "safety_critical": false,
-        "answer_line": "Elbow hyperextension",
+        "answer_line": "Elbow joint hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder joint rotation",
-            "Wrist joint flexion"
+            "Shoulder rotation like a kimura",
+            "Biceps tendon as main target"
           ],
           "trap": [
-            "Bicep tendon tear"
+            "Neck crank through the crucifix"
           ]
         }
       },
@@ -313,7 +313,7 @@
             "Pins the opponent's shoulder"
           ],
           "trap": [
-            "Lets you extend faster and harder"
+            "Rip the hips up at full speed"
           ]
         }
       },
@@ -325,7 +325,7 @@
         "distractors": {
           "plausible": [
             "Rely on verbal tap only",
-            "Squeeze knees harder if they resist"
+            "Check their face for a wince"
           ],
           "trap": [
             "Jerk the arm to lock it quickly"
@@ -370,10 +370,10 @@
         "distractors": {
           "plausible": [
             "Pry from the thumb-side grip",
-            "Pull straight up on the wrist"
+            "Twist their wrist to break grip"
           ],
           "trap": [
-            "Jerk an explosive grip break"
+            "Release the arm to pry two-handed"
           ]
         }
       },
@@ -381,14 +381,14 @@
         "question": "What are the key indicators that the submission is reaching the breaking point and you should ease pressure in training?",
         "answer": "Watch for the opponent's body stiffening as they resist the extension, increased breathing rate or holding breath, any involuntary flinch or jerk in their trapped arm, and their free hand reaching toward the trapped arm or tapping their own body. The elbow will reach full extension with visible straightening of the arm, and any pressure beyond this point risks ligament damage. In training, ease off at full extension and give adequate time for the tap—the submission is proven at full extension, not beyond it.",
         "safety_critical": true,
-        "answer_line": "Ease off at full extension",
+        "answer_line": "Arm straightens, body stiffens",
         "distractors": {
           "plausible": [
-            "Stop only when body stiffens",
-            "Wait for a loud verbal tap"
+            "Elbow still bent at 90 degrees",
+            "Opponent relaxes and goes limp"
           ],
           "trap": [
-            "Push slightly past straight"
+            "Wait for a clear verbal tap"
           ]
         }
       },
@@ -414,11 +414,11 @@
         "answer_line": "Wide base, toes anchored down",
         "distractors": {
           "plausible": [
-            "Narrow legs for quick footwork",
-            "Knees flat, weight centered"
+            "Knees flat, weight centered",
+            "Sit back onto your heels"
           ],
           "trap": [
-            "Chase the roll without widening"
+            "Squeeze legs together and hold on"
           ]
         }
       },
@@ -429,11 +429,11 @@
         "answer_line": "Threaten choke, catch extended arm",
         "distractors": {
           "plausible": [
-            "Skip crucifix, rotate immediately",
-            "Apply pressure slow the whole time"
+            "Wait for them to grip fight",
+            "Attack the free arm first"
           ],
           "trap": [
-            "Rush the rotation, narrow base"
+            "Abandon crucifix to spin for it"
           ]
         }
       }
@@ -561,8 +561,8 @@
         "answer_line": "Hips slide toward your head",
         "distractors": {
           "plausible": [
-            "Wrist control appears first",
-            "Chest rotates down first"
+            "Their knees pinch your hips",
+            "They post a hand by your head"
           ],
           "trap": [
             "Relax, the crucifix feels secure"
@@ -577,10 +577,10 @@
         "distractors": {
           "plausible": [
             "Tap only with your free hand",
-            "Wait until pain is unbearable"
+            "Shake your head on the mat"
           ],
           "trap": [
-            "Try to power out, delay tap"
+            "Power out and tap once it hurts"
           ]
         }
       },
@@ -591,11 +591,11 @@
         "answer_line": "Retract elbow during transition",
         "distractors": {
           "plausible": [
-            "Clasp hands once belly down",
-            "Turn into attacker once locked"
+            "Grab your own gi and wait it out",
+            "Kick your legs to create space"
           ],
           "trap": [
-            "Bridge explosively once locked in"
+            "Straighten the arm to ease the pain"
           ]
         }
       },
@@ -606,7 +606,7 @@
         "answer_line": "Leg control loosens mid-rotation",
         "distractors": {
           "plausible": [
-            "Attacker stays off-balance always",
+            "Their hips are highest mid-roll",
             "Wrist grip weakens at the end"
           ],
           "trap": [

@@ -427,14 +427,14 @@
     {
       "question": "Why should submission finishing use slow, controlled torque rather than explosive rotation?",
       "answer": "Rotational submissions like heel hooks and Kimuras can tear ligaments before pain registers. Controlled, progressive rotation gives the partner a clear window to tap and prevents injury; explosive speed is reserved for grip breaks and sweep entries.",
-      "answer_line": "Slow torque, time to tap",
+      "answer_line": "Slow torque gives time to tap",
       "distractors": {
         "plausible": [
-          "Fast finish shows dominance",
-          "Explosive speed ends fights"
+          "Pain warns them before injury",
+          "Explosive spin beats late defense"
         ],
         "trap": [
-          "Snap fast, they'll tap in time"
+          "Snap the rotation at full speed"
         ]
       }
     },

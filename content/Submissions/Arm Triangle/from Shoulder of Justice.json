@@ -302,7 +302,7 @@
             "Jugular vein only"
           ],
           "trap": [
-            "Vagus nerve pressure point"
+            "Crank the neck to force the tap"
           ]
         }
       },
@@ -317,7 +317,7 @@
             "Opponent pushes your hip"
           ],
           "trap": [
-            "Opponent frames your throat"
+            "Opponent underhooks your near side"
           ]
         }
       },
@@ -332,7 +332,7 @@
             "S-grip on the collar"
           ],
           "trap": [
-            "Single wrist grip only"
+            "Lace fingers behind their head"
           ]
         }
       },
@@ -340,14 +340,14 @@
         "question": "Your opponent starts to retract their far arm during the grip switch - what adjustment prevents escape?",
         "answer": "Increase chest pressure immediately by driving your weight down onto their retracting arm before it clears. If you cannot pin it, abandon the arm triangle attempt and immediately re-establish Shoulder of Justice jaw pressure with your shoulder back in their chin. Do not chase a half-locked arm triangle. The retraction removes their own defense against the jaw pressure, so returning to Shoulder of Justice restarts the dilemma cycle and the reaction will reappear.",
         "safety_critical": false,
-        "answer_line": "Reset Shoulder of Justice pressure",
+        "answer_line": "Drive chest weight onto the arm",
         "distractors": {
           "plausible": [
-            "Chase the half-locked arm",
-            "Switch to armbar attempt"
+            "Squeeze the grip harder",
+            "Walk to the finish angle now"
           ],
           "trap": [
-            "Release grip and reset guard"
+            "Abandon top and pull guard"
           ]
         }
       },
@@ -358,11 +358,11 @@
         "answer_line": "Hips perpendicular, head to mat",
         "distractors": {
           "plausible": [
-            "Stay square, squeeze harder",
-            "Hips parallel to opponent"
+            "Stay square and squeeze harder",
+            "Hips parallel along their body"
           ],
           "trap": [
-            "Pull head back for leverage"
+            "Sit up tall, get bridged over"
           ]
         }
       },
@@ -373,8 +373,8 @@
         "answer_line": "Shoulder bone pinned, no space",
         "distractors": {
           "plausible": [
-            "Face changes color only",
-            "Opponent stops resisting"
+            "Forearm crushing the windpipe",
+            "Your hips parallel to their body"
           ],
           "trap": [
             "Wait for them to go limp"
@@ -407,7 +407,7 @@
             "Grab a fresh underhook"
           ],
           "trap": [
-            "Chase the slipping arm"
+            "Lift chest to reach the arm"
           ]
         }
       },
@@ -418,11 +418,11 @@
         "answer_line": "Widen base, keep grip locked",
         "distractors": {
           "plausible": [
-            "Release grip to rebalance",
-            "Sit back to block bridge"
+            "Sit back to block the bridge",
+            "Post on the choke-side elbow"
           ],
           "trap": [
-            "Let go and re-grip after roll"
+            "Turn belly-down to stop the roll"
           ]
         }
       },
@@ -433,11 +433,11 @@
         "answer_line": "Squeezing arms instead of chest",
         "distractors": {
           "plausible": [
-            "Not gripping tight enough",
-            "Rushing the perpendicular walk"
+            "Applying pressure too gradually",
+            "Keeping your ribcage too heavy"
           ],
           "trap": [
-            "Cranking the neck harder"
+            "Break the seal, they escape to top"
           ]
         }
       }
@@ -570,7 +570,7 @@
             "Hips drive into your ribs"
           ],
           "trap": [
-            "Pressure suddenly disappears"
+            "Wait until the grip locks to react"
           ]
         }
       },
@@ -581,11 +581,11 @@
         "answer_line": "Tap hand, foot, or say tap",
         "distractors": {
           "plausible": [
-            "Wait to see if you escape",
-            "Tap only when it hurts most"
+            "Only a mat tap counts",
+            "Wait for pain before signalling"
           ],
           "trap": [
-            "Try to power out first"
+            "Stay quiet and get choked out"
           ]
         }
       },
@@ -596,7 +596,7 @@
         "answer_line": "Pin arm to ribs, elbow down",
         "distractors": {
           "plausible": [
-            "Post hand on their chest",
+            "Hug their head with both arms",
             "Grab their choking wrist"
           ],
           "trap": [
@@ -611,11 +611,11 @@
         "answer_line": "Turn in, frame hips, get to knees",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Push their face for room"
+            "Push their face for room",
+            "Wait for the angle to change"
           ],
           "trap": [
-            "Bridge straight up and arch back"
+            "Turn away and give your back"
           ]
         }
       },
@@ -623,14 +623,14 @@
         "question": "What are the most common defensive errors that allow the arm triangle transition from Shoulder of Justice?",
         "answer": "The most common error is instinctively bringing the far arm across the face to shield against jaw pressure, which directly creates the arm triangle setup. The second most common error is turning away from the attacker once caught, which accelerates the choke by driving your own shoulder into your carotid. The third is waiting too long to defend - the transition window when the attacker switches grips is the best escape opportunity and closes within 2-3 seconds.",
         "safety_critical": false,
-        "answer_line": "Arm crosses own face/neck",
+        "answer_line": "Shielding jaw with the far arm",
         "distractors": {
           "plausible": [
-            "Turning away once caught",
-            "Tapping too early to reset"
+            "Posting a hand on their hip",
+            "Holding your breath under pressure"
           ],
           "trap": [
-            "Turning into the choke side"
+            "Turning your back to escape"
           ]
         }
       }

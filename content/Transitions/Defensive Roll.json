@@ -253,14 +253,14 @@
       {
         "question": "Why must you roll WITH the direction of spinal rotation rather than against it?",
         "answer": "Rolling against the rotation dramatically increases spinal torque and can cause serious injury to the cervical and thoracic spine. Rolling with the rotation uses the opponent's own momentum to reduce stress on your spine while creating the escape angle.",
-        "answer_line": "Roll with rotation, not against",
+        "answer_line": "Uses their momentum, less torque",
         "distractors": {
           "plausible": [
-            "Brace neck and stop the spin",
-            "Roll opposite to unwind"
+            "Frees your trapped foot first",
+            "Builds pressure to break grips"
           ],
           "trap": [
-            "Force reversal against rotation"
+            "Spin against it to unwind them"
           ]
         }
       },
@@ -312,11 +312,11 @@
         "answer_line": "Abort roll, hand fight grips",
         "distractors": {
           "plausible": [
-            "Force the roll through anyway",
-            "Switch to opposite roll direction"
+            "Bridge hard to break the lock",
+            "Switch to the other roll side"
           ],
           "trap": [
-            "Yank knee free with force"
+            "Force through the tight lock"
           ]
         }
       },
@@ -354,11 +354,11 @@
         "answer_line": "Open palm flat, fingers away",
         "distractors": {
           "plausible": [
-            "Closed fist for a strong post",
-            "Palm facing body for control"
+            "Closed fist for a stronger post",
+            "Palm turned back toward your hip"
           ],
           "trap": [
-            "Grab their gi sleeve instead"
+            "Skip the post, roll on your head"
           ]
         }
       },
@@ -368,11 +368,11 @@
         "answer_line": "When twister grip fully locked",
         "distractors": {
           "plausible": [
-            "When chest pressure is heavy",
-            "When legs are lightly entangled"
+            "When chest pressure feels heavy",
+            "When you cannot bridge freely"
           ],
           "trap": [
-            "Force the roll anyway, risk tap"
+            "Never — always roll out of it"
           ]
         }
       },

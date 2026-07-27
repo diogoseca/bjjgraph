@@ -441,8 +441,8 @@
         "answer_line": "Weight down, knee blocks hips",
         "distractors": {
           "plausible": [
-            "Follow straight into crucifix",
-            "Chest pressure only, no knee"
+            "Squeeze the waist with both arms",
+            "Spin to the far side quickly"
           ],
           "trap": [
             "Back off to create space"
@@ -454,8 +454,8 @@
         "answer": "Drive your chest weight forward and down at a 45-degree angle the moment they post a hand, collapsing their base before the hips rise. Simultaneously wedge your near-side knee tight against their hip bone to block the hip from elevating. If they manage to get one leg under them, hook that leg with your arm or underhook their far arm to pull them back to the mat. The critical window is before their trail leg swings through to plant, and prevention through constant heavy pressure is always preferable to reacting after they initiate.",
         "distractors": {
           "plausible": [
-            "Wait until they post a hand",
-            "Grab underhook far arm first"
+            "Pull them backward by the belt",
+            "Push their head to the mat"
           ],
           "trap": [
             "Release grip to reposition"
@@ -483,11 +483,11 @@
         "answer_line": "Follow the roll, keep seatbelt",
         "distractors": {
           "plausible": [
-            "Disengage to reset position",
-            "Chase without the grip"
+            "Disengage and reset your base",
+            "Pin a leg to stop their spin"
           ],
           "trap": [
-            "Release to avoid getting rolled"
+            "Let go and dive for their legs"
           ]
         }
       },
@@ -525,8 +525,8 @@
         "answer_line": "Keep one control point always",
         "distractors": {
           "plausible": [
-            "Release all grips, then re-grip",
-            "Rush multiple attacks at once"
+            "Rush multiple attacks at once",
+            "Switch sides on every attack"
           ],
           "trap": [
             "Let go completely between moves"
@@ -880,8 +880,8 @@
         "answer_line": "Strip choking hand, create motion",
         "distractors": {
           "plausible": [
-            "Wait for them to over-extend",
-            "Push against their chest only"
+            "Clear wrist control first",
+            "Wait for them to over-extend"
           ],
           "trap": [
             "Stay still to conserve energy"
@@ -908,11 +908,11 @@
         "answer_line": "Kick leg back, rotate hips away",
         "distractors": {
           "plausible": [
-            "Wait to see if second hook lands",
-            "Push their leg with your hand"
+            "Clamp your knees shut and hold",
+            "Grab the hook with both hands"
           ],
           "trap": [
-            "Ignore it, hooks rarely land"
+            "Roll toward the hooking side"
           ]
         }
       },
@@ -951,10 +951,10 @@
         "distractors": {
           "plausible": [
             "Fight every grip at max effort",
-            "Explode immediately at any shift"
+            "Go limp to save all your energy"
           ],
           "trap": [
-            "Scramble constantly to stay busy"
+            "Open your elbows to rest them"
           ]
         }
       },
@@ -964,11 +964,11 @@
         "answer_line": "Chain into a second escape",
         "distractors": {
           "plausible": [
-            "Reset to static turtle",
-            "Stop and wait for a restart"
+            "Reset to a tight static turtle",
+            "Finish the same roll harder"
           ],
           "trap": [
-            "Freeze and cover up"
+            "Flatten out and cover your head"
           ]
         }
       }
@@ -1009,11 +1009,11 @@
       "answer": "Turtle is a four-point posture — hands under shoulders, knees under hips, back rounded, rear exposed — with no one pinned flat. Unlike a pin such as side control or mount, the bottom player is not flattened supine; they retain a live four-point base and mobility while the other player works from behind or the side. The tucked, rounded shell trades rear exposure for submission protection, denying the front of the body while giving up the back. It is the transitional junction between being passed and either recovering guard or conceding the back.",
       "distractors": {
         "plausible": [
-          "Same as being pinned flat",
-          "Chest and knees on the mat"
+          "Chest and knees on the mat",
+          "Kneeling upright, head high"
         ],
         "trap": [
-          "Flat on back, hips down"
+          "Belly-up with shoulders pinned"
         ]
       },
       "answer_line": "Four-point base, not flattened"
@@ -1038,11 +1038,11 @@
       "answer_line": "Seatbelt, hooks, hip connection",
       "distractors": {
         "plausible": [
-          "Ankle control decides the exchange",
-          "Head control decides the exchange"
+          "Ankle grips decide the exchange",
+          "Sleeve control decides everything"
         ],
         "trap": [
-          "Hooks before harness always"
+          "Dive for the back with no grips"
         ]
       }
     },
@@ -1052,11 +1052,11 @@
       "answer_line": "Weight placement is a trade-off",
       "distractors": {
         "plausible": [
-          "Weight distribution never changes",
-          "More weight is always safer"
+          "Stay balanced evenly at all times",
+          "Heavier pressure is always safer"
         ],
         "trap": [
-          "Commit all weight forward always"
+          "Drive everything high and forward"
         ]
       }
     },
@@ -1066,25 +1066,25 @@
       "answer_line": "Grip battle sets the tempo",
       "distractors": {
         "plausible": [
-          "Grip fighting is optional",
-          "Positioning matters more than grips"
+          "Position beats hand fighting",
+          "React to their hands, don't lead"
         ],
         "trap": [
-          "Attack before winning grips"
+          "Dive on the neck with no control"
         ]
       }
     },
     {
       "question": "Why is the neck simultaneously the highest-priority target and the highest-priority defense in turtle?",
       "answer": "The exposed rear and lowered head put the neck in constant reach of front headlock and back chokes, making it the top's most direct finish and the bottom's most urgent thing to protect. The bottom defends by tucking the chin to the chest and rounding the upper back, eliminating the space an arm needs to encircle the throat. The top attacks by prying the head up or threading an arm across the throat when the chin lifts. This shared focus on the neck is why lifting the head is the single most punished error in the position.",
-      "answer_line": "Chin tucked defends the neck",
+      "answer_line": "Rear exposure keeps chokes in reach",
       "distractors": {
         "plausible": [
-          "Neck defense matters less than hips",
-          "Keep head up to see attacks"
+          "Hips matter more than the neck",
+          "Arms are the top's main target"
         ],
         "trap": [
-          "Lift head to look around"
+          "Lift your head to scan the room"
         ]
       }
     },
@@ -1094,11 +1094,11 @@
       "answer_line": "Elbows glued to knees seal gaps",
       "distractors": {
         "plausible": [
-          "Wide elbows for more base",
-          "Frames matter only for hooks"
+          "Keep arms long to push away",
+          "Widen your stance for base"
         ],
         "trap": [
-          "Flare elbows to create space"
+          "Reach back to grab their leg"
         ]
       }
     },
@@ -1108,11 +1108,11 @@
       "answer_line": "Turtle has no hooks, no guard yet",
       "distractors": {
         "plausible": [
-          "Turtle equals back control already",
-          "Turtle equals front headlock already"
+          "It counts as a back take already",
+          "A safe home base to settle into"
         ],
         "trap": [
-          "Turtle is a finishing position"
+          "Settle in and rest on bottom"
         ]
       }
     }

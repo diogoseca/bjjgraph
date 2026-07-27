@@ -298,10 +298,10 @@
         "distractors": {
           "plausible": [
             "Knee ligaments (ACL/MCL)",
-            "Ankle joint capsule only"
+            "Ankle joint capsule alone"
           ],
           "trap": [
-            "Foot bones (metatarsals)"
+            "Harmless squeeze — no need to tap"
           ]
         }
       },
@@ -312,11 +312,11 @@
         "answer_line": "Thread arm under, fold foot in",
         "distractors": {
           "plausible": [
-            "Switch to straight ankle lock",
-            "Re-grip heel, crank harder"
+            "Crank the hidden heel harder",
+            "Spin to a toe hold instead"
           ],
           "trap": [
-            "Release grip, reset to guard"
+            "Open the triangle to chase heel"
           ]
         }
       },
@@ -357,11 +357,11 @@
         "answer_line": "Pull foot in, tighten triangle",
         "distractors": {
           "plausible": [
-            "Abandon fold, chase heel hook",
-            "Loosen triangle, drive hips"
+            "Chase the heel hook instead",
+            "Hold still and wait them out"
           ],
           "trap": [
-            "Let leg straighten, re-grip"
+            "Open triangle to re-grip"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Arm under ankle, cup the foot",
         "distractors": {
           "plausible": [
-            "Grip heel like a heel hook",
+            "Grip the heel like a heel hook",
             "Cross-grip the far shin only"
           ],
           "trap": [
-            "Finger-grip only, no forearm"
+            "Finger grip — fingers get snapped"
           ]
         }
       },
@@ -387,11 +387,11 @@
         "answer_line": "Bury foot, drive hips not arms",
         "distractors": {
           "plausible": [
-            "Pull harder with grip hand",
-            "Fight for more fold angle"
+            "Pull harder with the grip hand",
+            "Sit up to see their grips"
           ],
           "trap": [
-            "Release far hand to re-grip"
+            "Let go of the foot to re-grip"
           ]
         }
       },
@@ -399,14 +399,14 @@
         "question": "What distinguishes the calf slicer submission timeline from the heel hook in terms of when damage occurs?",
         "answer": "The heel hook causes ligament damage through rotational force, and the damage onset is extremely sudden with minimal warning pain before catastrophic failure. The calf slicer causes progressive tissue compression damage that builds gradually, but the critical distinction is that significant calf muscle tearing can occur before maximum pain is perceived by the defender. The heel hook has a sharper failure point while the calf slicer has a broader damage zone. Both require immediate respect and early tapping, but the calf slicer's deceptive pain curve makes slow application in training absolutely essential.",
         "safety_critical": true,
-        "answer_line": "Calf tears before pain peaks",
+        "answer_line": "Muscle tears before peak pain",
         "distractors": {
           "plausible": [
-            "Heel hook has slower onset",
-            "Both have identical pain curve"
+            "Heel hook pain rises gradually",
+            "Rotation gives clear early warning"
           ],
           "trap": [
-            "Calf slicer warns early, safe"
+            "Ride the pressure until it hurts"
           ]
         }
       }
@@ -530,14 +530,14 @@
         "question": "What is the safest way to tap to the calf slicer from Honey Hole?",
         "answer": "Verbal tap is the safest and fastest signal because the inside leg triangle entanglement often limits hand mobility. Call out a clear verbal tap the moment you feel compression building that you cannot escape through defensive movement. If verbal tap is not possible, tap the mat or your partner's body repeatedly with your free hand. Do not wait for maximum pain to develop, because significant calf tissue damage can occur before peak pain is perceived. Tap early and often when caught in this submission.",
         "safety_critical": true,
-        "answer_line": "Verbal tap, called out early",
+        "answer_line": "Loud verbal tap, called early",
         "distractors": {
           "plausible": [
-            "Tap the mat, not verbally",
-            "Tap only with your free hand"
+            "Wait for a hand to come free",
+            "Shake the leg to signal"
           ],
           "trap": [
-            "Hold out until pain peaks"
+            "Fight to full pain, then tap"
           ]
         }
       },
@@ -545,14 +545,14 @@
         "question": "What defensive options are available against the calf slicer from Honey Hole?",
         "answer": "The primary defense is explosive leg straightening the instant you recognize the grip transition from heel to foot. This prevents the fold that creates the compression. Secondary defense is hip rotation toward the attacker to reduce the compression angle of the shin fulcrum. If these fail, attempt full leg extraction during the grip transition window to recover guard. If the fold progresses past midpoint with hip drive engaged, all mechanical defenses are effectively exhausted and tapping immediately is the appropriate response.",
         "safety_critical": false,
-        "answer_line": "Straighten leg on grip change",
+        "answer_line": "Straighten leg as grip switches",
         "distractors": {
           "plausible": [
-            "Rotate hips away from him",
-            "Push off with both legs"
+            "Turn hips away from attacker",
+            "Sit up and pry the shin off"
           ],
           "trap": [
-            "Wait it out, then power free"
+            "Stay folded and ride it out"
           ]
         }
       },
@@ -578,11 +578,11 @@
         "answer_line": "Stable fulcrum, no space to move",
         "distractors": {
           "plausible": [
-            "Faster fold than other guards",
-            "Deeper attack on the knee joint"
+            "Folds faster than other guards",
+            "Twists the knee joint deeper"
           ],
           "trap": [
-            "Easier to escape than others"
+            "It's mild — ride it out, no tap"
           ]
         }
       }

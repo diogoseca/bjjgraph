@@ -340,11 +340,11 @@
         "answer_line": "Lifting hips off the shoulder",
         "distractors": {
           "plausible": [
-            "Using arm strength not hips",
-            "Elbow lifting off the mat"
+            "Driving the turn with body weight",
+            "Keeping the elbow pinned down"
           ],
           "trap": [
-            "Americana on a straight arm"
+            "Jerking the lock for a fast tap"
           ]
         }
       },
@@ -352,14 +352,14 @@
         "question": "Your opponent grabs their own belt to defend the Americana grip - how do you adjust to break this defense?",
         "answer": "Maintain your figure-four grip and shift your hip pressure forward to increase the pin on their shoulder. Use small pulsing hip drives to fatigue their defensive grip while you work the wrist free. Alternatively, slide your wrist-controlling hand to their fingers and peel the grip one finger at a time starting with the pinky. If the belt grip holds, consider transitioning to the armbar by working to extend their arm, since the defensive grip often straightens the elbow into armbar position.",
         "safety_critical": false,
-        "answer_line": "Peel grip finger by finger",
+        "answer_line": "Pulse hips, peel the grip free",
         "distractors": {
           "plausible": [
-            "Pull straight back on wrist",
-            "Switch hands to break grip"
+            "Yank the wrist straight back",
+            "Switch hands to strip the belt"
           ],
           "trap": [
-            "Abandon grip, reset position"
+            "Lean back to rip the belt away"
           ]
         }
       },
@@ -385,11 +385,11 @@
         "answer_line": "Force reaction, chain to triangle",
         "distractors": {
           "plausible": [
-            "Abandon Americana for choke",
-            "Attack neck immediately instead"
+            "Abandon shoulder lock for choke",
+            "Muscle the keylock through grips"
           ],
           "trap": [
-            "Release pressure to reset attack"
+            "Sit up tall and reach for the neck"
           ]
         }
       }
@@ -517,11 +517,11 @@
         "answer_line": "Far hand threading under elbow",
         "distractors": {
           "plausible": [
-            "Sudden loss of hip pressure",
-            "Opponent gripping your collar"
+            "Sudden drop in hip pressure",
+            "Near hand releasing your wrist"
           ],
           "trap": [
-            "Ignore it, defense already won"
+            "Wait until the wrist rotates"
           ]
         }
       },
@@ -562,11 +562,11 @@
         "answer_line": "Extending trapped arm straight",
         "distractors": {
           "plausible": [
-            "Using both hands on grip",
-            "Bridging without arm protection"
+            "Pinning elbow tight to ribs",
+            "Gripping your own collar"
           ],
           "trap": [
-            "Ignore early grip setup cues"
+            "Tapping early to the keylock"
           ]
         }
       },

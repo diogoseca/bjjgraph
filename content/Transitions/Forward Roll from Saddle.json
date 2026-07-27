@@ -495,14 +495,14 @@
       {
         "question": "When should you follow the roll to back control versus tighten the entanglement to maintain saddle?",
         "answer": "Follow the roll when your grips on the heel are loose or you have lost the figure-four finishing position—maintaining saddle is already compromised, so converting to back control offers the best outcome. Tighten the entanglement when you have secure heel control and can maintain structural integrity through the rotation. Critical safety note: if maintaining the grip generates rotational force on the knee during the roll, release immediately to prevent injuring your training partner.",
-        "answer_line": "Follow if heel grip is lost",
+        "answer_line": "Roll when heel or figure-four slips",
         "distractors": {
           "plausible": [
-            "Always tighten to finish the lock",
-            "Chase the leg no matter what"
+            "Stay in saddle if hips stay square",
+            "Re-pummel your outside leg first"
           ],
           "trap": [
-            "Crank the knee to stop the roll"
+            "Abandon legs and scramble to top"
           ]
         }
       },

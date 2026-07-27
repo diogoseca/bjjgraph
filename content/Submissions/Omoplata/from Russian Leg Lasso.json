@@ -332,14 +332,14 @@
         "question": "At what point during the omoplata sequence is the defender past the point of no escape?",
         "answer": "The defender is past the point of no escape once the attacker has sat up, secured far hip control, and begun walking their hips toward the defender's head with knees pinched tight. At this stage, the arm is fully trapped, forward roll is blocked by hip control, and the shoulder rotation angle makes arm extraction mechanically impossible. The narrow defensive windows exist earlier in the sequence, primarily during the hip pivot phase and the brief moment between sit-up and hip control establishment.",
         "safety_critical": false,
-        "answer_line": "Sat up, hip control, walking in",
+        "answer_line": "Sat up with far-hip control secured",
         "distractors": {
           "plausible": [
-            "Leg fully across their back",
-            "Sleeve grip fully broken"
+            "During the initial hip pivot",
+            "Once knees are pinched tight"
           ],
           "trap": [
-            "As soon as leg swings over"
+            "As soon as the arm is trapped"
           ]
         }
       },
@@ -347,14 +347,14 @@
         "question": "You have sat up and secured hip control but the opponent begins turning into you to relieve pressure - what finishing error likely caused this?",
         "answer": "Your hips are likely too far from the opponent's shoulder, creating insufficient leverage for the rotational finish. When the fulcrum point between your body and their shoulder is too distant, the opponent can turn their torso to face you, which alleviates the internal rotation force on the shoulder. Correct this by walking your hips closer to directly behind their trapped shoulder until your hip bone presses against the back of their shoulder, creating a tight and inescapable fulcrum for the finish.",
         "safety_critical": false,
-        "answer_line": "Hips too far from shoulder",
+        "answer_line": "Hips too far from the shoulder",
         "distractors": {
           "plausible": [
-            "Grip on hip is too loose",
-            "Knees not pinched tight enough"
+            "Grip on belt too loose",
+            "Knees not pinched enough"
           ],
           "trap": [
-            "Opponent is too strong"
+            "Crank harder to force it"
           ]
         }
       },
@@ -380,8 +380,8 @@
         "answer_line": "Slow, progressive 4-6 seconds",
         "distractors": {
           "plausible": [
-            "Fast snap for a quick tap",
-            "Steady 1-2 second pressure"
+            "Steady 1-2 second pressure",
+            "Match the pace they defend at"
           ],
           "trap": [
             "Jerk hard to force the tap"

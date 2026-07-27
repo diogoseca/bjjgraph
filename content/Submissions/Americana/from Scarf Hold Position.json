@@ -292,11 +292,11 @@
         "answer_line": "Shoulder (glenohumeral joint)",
         "distractors": {
           "plausible": [
-            "Elbow joint hyperextension",
-            "AC joint at the shoulder"
+            "Elbow hyperextension",
+            "Wrist and forearm tendons"
           ],
           "trap": [
-            "Neck via cervical crank"
+            "Cervical spine (neck crank)"
           ]
         }
       },
@@ -308,10 +308,10 @@
         "distractors": {
           "plausible": [
             "Force wrist into figure-four",
-            "Switch immediately to armbar"
+            "Squeeze the headlock tighter"
           ],
           "trap": [
-            "Keep chasing arm to lock americana"
+            "Chase the arm, get rolled to guard"
           ]
         }
       },
@@ -326,7 +326,7 @@
             "Opponent's shoulder"
           ],
           "trap": [
-            "Your own hip position"
+            "Post the elbow up and get bridged"
           ]
         }
       },
@@ -337,11 +337,11 @@
         "answer_line": "Peel grip, threaten armbar",
         "distractors": {
           "plausible": [
-            "Yank wrist harder",
-            "Switch immediately to kimura"
+            "Yank the wrist harder",
+            "Wait for the grip to tire"
           ],
           "trap": [
-            "Release figure-four to reset"
+            "Drop hip pressure to rip grip"
           ]
         }
       },
@@ -352,11 +352,11 @@
         "answer_line": "Torso rotation, not arm strength",
         "distractors": {
           "plausible": [
-            "Same as mount, just sideways",
-            "Faster grip due to space"
+            "Extra space lets you grip faster",
+            "Bridge threat is identical"
           ],
           "trap": [
-            "Rely on arm strength like mount"
+            "Square hips like mount, get bridged"
           ]
         }
       },
@@ -367,11 +367,11 @@
         "answer_line": "Widen base, drop hip weight",
         "distractors": {
           "plausible": [
-            "Post hand to stop bridge",
-            "Push through grip regardless"
+            "Post far hand on the mat",
+            "Squeeze headlock tighter"
           ],
           "trap": [
-            "Chase wrist through the bridge"
+            "Chase the wrist through the bridge"
           ]
         }
       },
@@ -382,11 +382,11 @@
         "answer_line": "Apply pressure slow, progressive",
         "distractors": {
           "plausible": [
-            "Full pressure with quick taps ok",
-            "Fast snap then ease off"
+            "Drill at 60% for realism",
+            "Hold until a formal tap comes"
           ],
           "trap": [
-            "Jerk sharply to finish quick"
+            "Snap the rotation to finish fast"
           ]
         }
       },
@@ -397,11 +397,11 @@
         "answer_line": "Release grip, lower arm gently",
         "distractors": {
           "plausible": [
-            "Hold position, ask if ok",
-            "Drop arm immediately, move on"
+            "Drop the arm and reset fast",
+            "Ask if ok before letting go"
           ],
           "trap": [
-            "Keep grip until they nod"
+            "Crank a bit more past the tap"
           ]
         }
       },
@@ -412,11 +412,11 @@
         "answer_line": "Figure-four locked, elbow pinned",
         "distractors": {
           "plausible": [
-            "Wrist grip first secured",
-            "Head control fully released"
+            "When the wrist grip is set",
+            "Once scarf hold is established"
           ],
           "trap": [
-            "Opponent starts turning away"
+            "Only when the shoulder pops"
           ]
         }
       },
@@ -427,11 +427,11 @@
         "answer_line": "Chain to kimura or arm triangle",
         "distractors": {
           "plausible": [
-            "Always finish americana only",
-            "Switch to guillotine choke"
+            "Crank harder until it finishes",
+            "Switch to a near-side wrist lock"
           ],
           "trap": [
-            "Abandon position, reset stand-up"
+            "Posture up, get scooped into guard"
           ]
         }
       }
@@ -559,11 +559,11 @@
         "answer_line": "Far arm slides to your wrist",
         "distractors": {
           "plausible": [
-            "Sudden hip escape attempt",
-            "Cross-face pressure increases"
+            "Cross-face pressure increases",
+            "Their shin slides over your hip"
           ],
           "trap": [
-            "Ignore it, it's just a grip"
+            "Wait for the figure-four to lock"
           ]
         }
       },
@@ -574,11 +574,11 @@
         "answer_line": "Tap early with free hand",
         "distractors": {
           "plausible": [
-            "Wait for sharp pain first",
-            "Try to power out first"
+            "Tap once softly on their arm",
+            "Nod your head to signal"
           ],
           "trap": [
-            "Ride pressure until forced"
+            "Ride out the shoulder pressure"
           ]
         }
       },
@@ -589,11 +589,11 @@
         "answer_line": "Strip grip, pull elbow to ribs",
         "distractors": {
           "plausible": [
-            "Wait and see if it locks",
-            "Push opponent's head away"
+            "Bench press their chest upward",
+            "Kick legs to create momentum"
           ],
           "trap": [
-            "Grab your own collar"
+            "Roll toward them into the lock"
           ]
         }
       },
@@ -604,11 +604,11 @@
         "answer_line": "Anchor wrist to belt or thigh",
         "distractors": {
           "plausible": [
-            "Try to bridge away fast",
-            "Push off their chest"
+            "Bridge away from the attacker",
+            "Kick legs to create momentum"
           ],
           "trap": [
-            "Fight the rotation with arm strength"
+            "Endure the crank hunting escape"
           ]
         }
       },
@@ -619,11 +619,11 @@
         "answer_line": "At sharp pain or full lock",
         "distractors": {
           "plausible": [
-            "Only after multiple warnings",
-            "When coach signals stop"
+            "Only when the escape fails twice",
+            "When your free hand goes numb"
           ],
           "trap": [
-            "Push through to test toughness"
+            "Hold on to prove you can take it"
           ]
         }
       }

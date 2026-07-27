@@ -518,11 +518,11 @@
       {
         "question": "What adjustments do you make when the sweep is already in motion and cannot be prevented?",
         "answer": "If the sweep is past the point of no return, do not fight the roll or you risk knee injury from the lockdown. Flow with the momentum and immediately fight for underhook or head control as you arrive on bottom. Your goal shifts from preventing the sweep to preventing consolidated mount. Frame immediately as you land, work to insert a knee shield before they settle their hips, and look for half guard recovery.",
-        "answer_line": "Flow with roll, fight for frame",
+        "answer_line": "Flow with the roll, fight underhook",
         "distractors": {
           "plausible": [
-            "Brace hard against the roll",
-            "Post arm to stop rotation"
+            "Wait to land before reacting",
+            "Hunt for a submission mid-scramble"
           ],
           "trap": [
             "Fight the lockdown mid-roll"

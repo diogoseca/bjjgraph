@@ -296,11 +296,11 @@
         "answer_line": "Neutralize hook completely first",
         "distractors": {
           "plausible": [
-            "Slow the hook, then start slice",
-            "Control hook with hands only"
+            "Time the slice between hook pumps",
+            "Break their grips before slicing"
           ],
           "trap": [
-            "Slice through active hook"
+            "Slice while hook still elevates"
           ]
         }
       },
@@ -310,11 +310,11 @@
         "answer_line": "Abort slice, sprawl low",
         "distractors": {
           "plausible": [
-            "Power through the slice faster",
-            "Just post hand, skip sprawl"
+            "Switch to a stack pass mid-air",
+            "Pull their head down to stop lift"
           ],
           "trap": [
-            "Continue slicing over hook"
+            "Ride the elevation and finish pass"
           ]
         }
       },
@@ -324,11 +324,11 @@
         "answer_line": "Diagonal knee, shin stays glued",
         "distractors": {
           "plausible": [
-            "Push knee straight across",
-            "Lift knee, drive with arms"
+            "Straight across, square to them",
+            "Angle toward their near hip"
           ],
           "trap": [
-            "Lift shin off for speed"
+            "Post the knee high to hop over"
           ]
         }
       },
@@ -338,25 +338,25 @@
         "answer_line": "Smash, backstep, or strip it",
         "distractors": {
           "plausible": [
-            "Only smash pass works here",
-            "Wait for shield to tire out"
+            "Backstep is the only answer",
+            "Stand up and disengage entirely"
           ],
           "trap": [
-            "Force the slice through shield"
+            "Drive the slice into the shield"
           ]
         }
       },
       {
         "question": "What grip or control must be established on the far side before committing to the slice?",
         "answer": "A crossface driving your shoulder into the bottom player's jaw to turn their head away from the passing direction is the primary control. The crossface prevents them from following your movement, sitting up into sweep posture, or turning to insert defensive frames. Alternatively, an underhook on the butterfly hook side that controls their far shoulder provides similar upper body dominance. Without either of these controls, the bottom player retains enough mobility to counter the slice through head following, underhook establishment, or posture recovery.",
-        "answer_line": "Crossface or underhook control",
+        "answer_line": "Crossface or far-side underhook",
         "distractors": {
           "plausible": [
-            "Underhook the near arm",
-            "Grip the far wrist only"
+            "Two-on grip on their far wrist",
+            "Collar tie behind their neck"
           ],
           "trap": [
-            "Skip grips, slice fast"
+            "Slice with no upper-body control"
           ]
         }
       },
@@ -377,14 +377,14 @@
       {
         "question": "Your opponent secures a deep underhook and begins coming up to a dogfight position during your slice—how do you respond?",
         "answer": "Immediately apply a whizzer by threading your arm over their underhook bicep and clamping your elbow tight to your ribs. Drive your bodyweight down onto their shoulder through the whizzer to flatten them back to the mat. If they achieve full dogfight before you can whizzer, disengage the knee slice entirely and work to re-flatten them using crossface and hip pressure before reattempting. Do not continue the knee slice against a fully established dogfight—the underhook gives them enough mechanical advantage to sweep or take the back.",
-        "answer_line": "Whizzer and flatten shoulder",
+        "answer_line": "Whizzer their arm, flatten them",
         "distractors": {
           "plausible": [
-            "Switch to overhook instead",
-            "Grab underhook wrist only"
+            "Grab their underhook wrist",
+            "Post far hand and stay tall"
           ],
           "trap": [
-            "Keep slicing into dogfight"
+            "Keep slicing as they come up"
           ]
         }
       },
@@ -553,14 +553,14 @@
       {
         "question": "What are the earliest recognition cues that a knee slice is being set up from butterfly half guard top?",
         "answer": "The earliest cues are the passer dropping hip weight specifically onto your butterfly hook side to kill the elevation potential, and the passer fighting to establish a crossface by driving their shoulder into your jaw. These actions precede the actual slicing motion by several seconds and represent the setup phase where you have maximum defensive options. Secondary cues include the passer's slicing knee angling toward your far hip and their free leg posting wide to build the base for forward drive.",
-        "answer_line": "Weight kills hook, crossface fight",
+        "answer_line": "Hook pinned, crossface hunted",
         "distractors": {
           "plausible": [
-            "Knee already crossing thigh",
-            "Opponent posts free leg wide"
+            "Passer squares hips to face you",
+            "They strip your collar grip"
           ],
           "trap": [
-            "Wait until knee fully crosses"
+            "Wait for the knee to cross"
           ]
         }
       },
@@ -598,25 +598,25 @@
         "answer_line": "Frame knee, hip escape away",
         "distractors": {
           "plausible": [
-            "Push their head down hard",
-            "Wait passively for the pass"
+            "Bridge straight into their chest",
+            "Push their head with both hands"
           ],
           "trap": [
-            "Relax and accept side control"
+            "Turn belly-down under the pass"
           ]
         }
       },
       {
         "question": "When is counter-sweeping during the knee slice attempt most effective?",
         "answer": "Counter-sweeping is most effective during the transition between hook neutralization and slice initiation—the moment when the passer shifts their weight from killing your hook to driving the knee forward. At this precise moment, their base is temporarily narrowed as weight transfers from wide base to directional drive. The butterfly hook elevation, if timed to this weight transfer, catches the passer in a structurally compromised position where they cannot simultaneously abort the slice and re-establish wide base. This requires reading the passer's timing and loading the hook in anticipation rather than reacting after the slice begins.",
-        "answer_line": "Mid-transition, base narrows",
+        "answer_line": "Elevate hook as their weight shifts",
         "distractors": {
           "plausible": [
-            "Right as the slice completes",
-            "Before they touch the hook"
+            "Wait until the slicing knee lands",
+            "Strip the crossface grip first"
           ],
           "trap": [
-            "After they secure crossface"
+            "Turn belly-down and turtle to reset"
           ]
         }
       }

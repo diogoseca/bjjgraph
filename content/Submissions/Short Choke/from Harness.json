@@ -288,7 +288,7 @@
             "Wait for hands to drop"
           ],
           "trap": [
-            "Muscle through both hands"
+            "Free a hook to peel their hands"
           ]
         }
       },
@@ -299,11 +299,11 @@
         "answer_line": "Weak grip fight, gasping breath",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "They start posturing up"
+            "They start posturing up",
+            "Opponent bridges and shrimps"
           ],
           "trap": [
-            "Squeeze harder and faster"
+            "Release, assuming they tapped"
           ]
         }
       },
@@ -348,7 +348,7 @@
             "Switch immediately to RNC"
           ],
           "trap": [
-            "Force it through both hands"
+            "Give up a hook to reach further"
           ]
         }
       },

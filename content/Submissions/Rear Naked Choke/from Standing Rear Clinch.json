@@ -348,11 +348,11 @@
         "answer_line": "Bilateral carotid compression",
         "distractors": {
           "plausible": [
-            "Windpipe compression",
-            "Cervical spine pressure"
+            "Spinal cord pressure",
+            "Neck muscle squeeze"
           ],
           "trap": [
-            "Crush the trachea directly"
+            "Crush the windpipe directly"
           ]
         }
       },
@@ -449,11 +449,11 @@
         "answer_line": "Re-establish seatbelt control",
         "distractors": {
           "plausible": [
-            "Keep chasing the choking arm",
-            "Switch straight to a takedown"
+            "Grab their wrist to stop the peel",
+            "Hook a leg to keep them close"
           ],
           "trap": [
-            "Abandon back, chase submission"
+            "Keep squeezing for the finish"
           ]
         }
       },
@@ -467,7 +467,7 @@
             "Forearm alone finishes fastest"
           ],
           "trap": [
-            "Relax chest, squeeze arms harder"
+            "Break the lock to re-squeeze"
           ]
         }
       }
@@ -627,11 +627,11 @@
         "answer_line": "Tap immediately, no hesitation",
         "distractors": {
           "plausible": [
-            "Fight through a few more seconds",
-            "Try one more escape attempt"
+            "Try one more escape attempt",
+            "Slow your breathing to stay calm"
           ],
           "trap": [
-            "Power through to escape first"
+            "Throw yourself down to break free"
           ]
         }
       },

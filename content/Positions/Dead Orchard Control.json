@@ -890,11 +890,11 @@
         "answer_line": "Vision changes, ringing, pressure",
         "distractors": {
           "plausible": [
-            "Tap only near unconsciousness",
-            "Push through mild discomfort"
+            "Muscle burn in your forearms",
+            "Only sharp joint pain counts"
           ],
           "trap": [
-            "Wait until vision goes black"
+            "Hold on until you feel faint"
           ]
         }
       }

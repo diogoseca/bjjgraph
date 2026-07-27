@@ -300,14 +300,14 @@
       {
         "question": "When is the boot scoot escape most likely to succeed, and when should you choose an alternative defense?",
         "answer": "The boot scoot works best when the opponent has established saddle position but has not yet consolidated optimal hip pressure and finishing grips—particularly before they secure the heel. If they are still settling into position or adjusting their angle, the window is open. If they have already achieved tight perpendicular alignment with heavy hip pressure and are gripping your heel, the boot scoot is unlikely to generate enough distance and counter-entangling to 50-50 or tapping may be more appropriate.",
-        "answer_line": "Before they secure heel grip",
+        "answer_line": "Before the heel is trapped",
         "distractors": {
           "plausible": [
-            "After they establish saddle fully",
-            "Once hip pressure is heavy"
+            "After they lock finishing grips",
+            "Once they flatten your hips out"
           ],
           "trap": [
-            "Force scoot despite heel grip"
+            "Spin free from a locked saddle"
           ]
         }
       },

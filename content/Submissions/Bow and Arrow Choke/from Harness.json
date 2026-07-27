@@ -317,14 +317,14 @@
         "question": "What anatomical structures does the Bow and Arrow Choke target and how does the collar create compression?",
         "answer": "The Bow and Arrow Choke targets the carotid arteries on both sides of the neck. The collar material wraps across the front and sides of the neck, and when tension is applied through extension, the gi fabric compresses against both carotid arteries simultaneously, restricting blood flow to the brain. The wrist bone of the gripping hand acts as a fulcrum against one carotid while the collar fabric crosses the opposite side, creating bilateral compression that causes unconsciousness within 5-10 seconds of a properly applied choke.",
         "safety_critical": false,
-        "answer_line": "Bilateral carotid compression",
+        "answer_line": "Both carotids squeezed at once",
         "distractors": {
           "plausible": [
-            "Trachea/windpipe pressure",
-            "Single-side carotid only"
+            "Airway pinched shut",
+            "Only one artery pinched"
           ],
           "trap": [
-            "Crush the windpipe directly"
+            "Crank the neck for the tap"
           ]
         }
       },
@@ -365,11 +365,11 @@
         "answer_line": "Extend legs, choke over chin",
         "distractors": {
           "plausible": [
-            "Muscle collar under the chin",
-            "Wait for opponent to tire"
+            "Pry the jaw open with fingers",
+            "Pull harder with both hands"
           ],
           "trap": [
-            "Release leg hook to reposition"
+            "Abandon the hook to sit up"
           ]
         }
       },
@@ -380,11 +380,11 @@
         "answer_line": "Deep collar, knee hook, falling",
         "distractors": {
           "plausible": [
-            "Deep collar grip alone",
-            "Leg hook without extension"
+            "Grip depth alone seals it",
+            "Chest-to-back pressure is on"
           ],
           "trap": [
-            "Strip collar to reset grip"
+            "Abandon hook to chase armbar"
           ]
         }
       },
@@ -392,11 +392,11 @@
         "question": "What are the key safety considerations when applying the Bow and Arrow Choke, and how quickly can unconsciousness occur?",
         "answer": "The Bow and Arrow is a blood choke that can cause unconsciousness within 5-10 seconds of full application. Apply pressure slowly and progressively over 3-5 seconds minimum to allow the opponent time to recognize the danger and tap. Never jerk or spike the extension. Watch for loss of resistance, which indicates the opponent may be losing consciousness — release immediately even without a tap signal. In training, always apply at controlled speed and release instantly on any tap signal. If a partner goes unconscious, release all pressure, elevate their legs, and monitor breathing until they recover.",
         "safety_critical": true,
-        "answer_line": "Apply slow, watch for tap",
+        "answer_line": "Build pressure over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Apply fast to end quickly",
-            "Only worry if partner limp"
+            "Speed matters more than control",
+            "Stop only if they say stop"
           ],
           "trap": [
             "Jerk into full extension"
@@ -410,11 +410,11 @@
         "answer_line": "Release collar, then legs",
         "distractors": {
           "plausible": [
-            "Release everything at once",
-            "Release legs before collar"
+            "Unhook the leg first",
+            "Sit them up before letting go"
           ],
           "trap": [
-            "Hold position until they nod"
+            "Hold the choke until they nod"
           ]
         }
       },
@@ -437,14 +437,14 @@
         "question": "In competition, how do you set up the Bow and Arrow when opponents are specifically defending collar access?",
         "answer": "Use systematic misdirection: aggressively threaten the rear naked choke by bringing the choking arm across the neck. When the opponent commits both hands to defending the choking arm, their collar is undefended — release the seatbelt and feed the collar immediately. Alternatively, threaten an armbar by extending their defending arm, which forces them to pull the arm back and re-prioritize arm defense over collar defense. The key competition strategy is never attacking the collar as your first option; use it as the second or third layer in a back attack chain where each previous threat creates the opening for the collar grip.",
         "safety_critical": false,
-        "answer_line": "Chain threats, collar last",
+        "answer_line": "Threaten RNC, then feed collar",
         "distractors": {
           "plausible": [
-            "Skip other threats entirely",
-            "Grip-fight for collar only"
+            "Wait for them to tire out",
+            "Swap to body triangle and stall"
           ],
           "trap": [
-            "Lead with the collar attack"
+            "Release both hooks to reach collar"
           ]
         }
       },
@@ -452,14 +452,14 @@
         "question": "What are the most common finishing errors that reduce the effectiveness of the Bow and Arrow from Harness?",
         "answer": "The three most common finishing errors are: First, using arm strength instead of body extension — the finish should come from arching the back and driving opposing forces through skeletal alignment, not from squeezing the forearms. Second, falling straight back instead of to the choking-arm side, which creates a poor extension angle and allows the opponent to roll on top. Third, hooking the ankle instead of the knee crease, which reduces the moment arm of the extension lever and makes it easier for the opponent to pull their leg free. Each of these errors turns a high-percentage finish into a grinding endurance contest.",
         "safety_critical": false,
-        "answer_line": "Extend body, don't arm-strength",
+        "answer_line": "Finish by arching and extending",
         "distractors": {
           "plausible": [
-            "Squeeze forearms together",
-            "Fall straight back, not side"
+            "Squeeze forearms to finish",
+            "Sit up tall while pulling"
           ],
           "trap": [
-            "Hook the ankle, not the knee"
+            "Fall back before hook is set"
           ]
         }
       }
@@ -603,8 +603,8 @@
         "answer_line": "Tap early, verbal + hand taps",
         "distractors": {
           "plausible": [
-            "Wait until lightheaded to tap",
-            "Tap only with free hand"
+            "Slap the mat once quietly",
+            "Squeeze their arm to signal"
           ],
           "trap": [
             "Wait it out, try to escape"
@@ -630,14 +630,14 @@
         "question": "Why is it dangerous to extend your legs when defending the Bow and Arrow from Harness?",
         "answer": "Extended legs create two problems. First, straightened legs make it easier for the attacker to thread their arm under the far knee to secure the leg hook, since there is more space and the joint is accessible. Second, extended legs provide the exact lever the attacker needs — the Bow and Arrow's finishing mechanism relies on pulling the collar one direction while extending the legs the opposite direction. A defender with curled, bent legs denies both the leg hook entry and the extension leverage, making it significantly harder for the attacker to complete the submission.",
         "safety_critical": false,
-        "answer_line": "Extended legs feed hook + lever",
+        "answer_line": "Straight legs give hook and lever",
         "distractors": {
           "plausible": [
-            "Extended legs tire out faster",
-            "Extended legs slow your escape"
+            "Costs you more energy",
+            "Makes hip escape slower"
           ],
           "trap": [
-            "Extend legs to push off mat"
+            "Push off the mat with both feet"
           ]
         }
       }

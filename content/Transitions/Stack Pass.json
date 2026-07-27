@@ -265,11 +265,11 @@
         "answer": "The stack pass folds the opponent's knees into their chest, lifting their hips off the mat and inverting their spine onto their shoulders. With their weight resting on their upper back, they lose the hip mobility needed to shrimp, frame, or generate the leg power required for guard retention. The vertical compression also restricts their breathing and core engagement, making sustained defense progressively more difficult.",
         "distractors": {
           "plausible": [
-            "Compress their chest and lungs",
-            "Flatten them out to control hips"
+            "Flatten their back to control",
+            "Trap both arms to their ribs"
           ],
           "trap": [
-            "Push straight forward into guard"
+            "Push straight into their guard"
           ]
         },
         "answer_line": "Invert spine, kill hip mobility"
@@ -280,11 +280,11 @@
         "answer_line": "Pass opposite their knee turn",
         "distractors": {
           "plausible": [
-            "Pass same way they turn knees",
+            "Always pass to one fixed side",
             "Pass toward their strongest leg"
           ],
           "trap": [
-            "Force through their turning legs"
+            "Bull through their moving legs"
           ]
         }
       },
@@ -294,8 +294,8 @@
         "answer_line": "Strip grip, then resume stack",
         "distractors": {
           "plausible": [
-            "Power through, ignore the grip",
-            "Pull head up and drop level"
+            "Sit back and reset your base",
+            "Wait for them to release it"
           ],
           "trap": [
             "Drive forward despite collar pull"
@@ -531,11 +531,11 @@
         "answer_line": "Hips free early, locked once stacked",
         "distractors": {
           "plausible": [
-            "Shrimp harder once fully stacked",
-            "Wait for stack to peak, then move"
+            "Late shrimping is just as strong",
+            "Spine inversion aids escaping"
           ],
           "trap": [
-            "Save energy, move hips late"
+            "Conserve energy, defend late"
           ]
         }
       },
@@ -545,11 +545,11 @@
         "answer_line": "Granby roll through, don't fight",
         "distractors": {
           "plausible": [
-            "Brace and push straight back",
-            "Wait for pressure to ease off"
+            "Bench press them off your chest",
+            "Stiffen your legs to stall it"
           ],
           "trap": [
-            "Fight pressure statically, hold"
+            "Hold still and resist the stack"
           ]
         }
       },

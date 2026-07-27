@@ -283,11 +283,11 @@
         "answer_line": "Rotator cuff, capsule, labrum",
         "distractors": {
           "plausible": [
-            "Elbow joint hyperextension",
-            "Bicep tendon is main target"
+            "Elbow hyperextension damage",
+            "Bicep tendon is the main target"
           ],
           "trap": [
-            "Wrist joint hyperflexion"
+            "Crank fast, ignore the tap"
           ]
         }
       },
@@ -298,11 +298,11 @@
         "answer_line": "Overhook already isolates the arm",
         "distractors": {
           "plausible": [
-            "Guard break happens faster",
-            "Opponent must use both hands"
+            "Legs generate more power here",
+            "Opponent cannot posture upright"
           ],
           "trap": [
-            "Better because arm is straight"
+            "Release the overhook to regrip"
           ]
         }
       },
@@ -314,10 +314,10 @@
         "distractors": {
           "plausible": [
             "Opponent stops resisting",
-            "You feel their arm shaking"
+            "Arm shaking from fatigue"
           ],
           "trap": [
-            "Applying max force immediately"
+            "Cranking while their grip holds"
           ]
         }
       },
@@ -340,14 +340,14 @@
         "question": "How should you adjust your hip position to maximize finishing torque on the shoulder?",
         "answer": "Hip escape sharply toward the trapped arm side, creating approximately forty-five degrees of lateral displacement relative to the opponent's centerline. This angle allows your entire body to contribute rotational force through the figure-four lever rather than relying on arm strength alone. Your hip escape should place your hips roughly perpendicular to the opponent's arm, with your top leg maintaining pressure across their back to prevent them from following your hip movement and neutralizing the angle.",
         "safety_critical": false,
-        "answer_line": "Hip escape 45° toward trapped arm",
+        "answer_line": "Shift hips 45° toward trapped arm",
         "distractors": {
           "plausible": [
-            "Hip escape away from trapped arm",
-            "Square hips flat to their back"
+            "Angle away from the trapped side",
+            "Keep hips squared under them"
           ],
           "trap": [
-            "Release top leg to escape faster"
+            "Drop the top leg to move faster"
           ]
         }
       },
@@ -358,11 +358,11 @@
         "answer_line": "Apply pressure slowly, 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Quick sharp taps of pressure",
-            "Full pressure once locked in"
+            "Rely on pain to warn them",
+            "Only go slow with white belts"
           ],
           "trap": [
-            "Spike pressure to test resolve"
+            "Trap both arms so they can't tap"
           ]
         }
       },
@@ -370,11 +370,11 @@
         "question": "How should you release the Kimura from New York Control after your partner taps?",
         "answer": "Immediately stop all rotational pressure the instant the tap is felt or heard. Do not continue pressure even slightly after the signal. Return the arm toward neutral position by externally rotating it back to the starting orientation. Then release the figure-four grip completely. Allow your partner to self-assess their shoulder mobility before continuing training. Never release suddenly or allow the arm to spring back, as abrupt position changes can cause injury even after pressure is removed.",
         "safety_critical": true,
-        "answer_line": "Stop immediately, then release grip",
+        "answer_line": "Stop pressure, guide arm to neutral",
         "distractors": {
           "plausible": [
-            "Release grip immediately, no return",
-            "Ease pressure off slowly over time"
+            "Ease the pressure off gradually",
+            "Unlock grip the moment they tap"
           ],
           "trap": [
             "Let the arm spring back freely"
@@ -388,11 +388,11 @@
         "answer_line": "Deepen grip, elbows tight to ribs",
         "distractors": {
           "plausible": [
-            "Squeeze harder with both hands",
-            "Chalk hands before continuing"
+            "Squeeze harder with raw strength",
+            "Switch to a palm-to-palm hold"
           ],
           "trap": [
-            "Grip only wrist, ignore forearm"
+            "Sit up to regrip, losing the angle"
           ]
         }
       },
@@ -400,14 +400,14 @@
         "question": "How do you chain from a defended Kimura to alternative submissions from New York Control?",
         "answer": "When the opponent defends the Kimura by clasping hands and posturing, release the figure-four and re-establish the overhook in New York Control, then immediately threaten the gogoplata by shooting your shin across their throat as their posture creates space. If they tuck their chin against the gogoplata, switch to a triangle setup by repositioning your legs around their neck and arm. Each defensive reaction to one submission opens a specific pathway to the next, creating a systematic chain that maintains constant offensive pressure.",
         "safety_critical": false,
-        "answer_line": "Overhook then gogoplata setup",
+        "answer_line": "Re-overhook, then threaten gogoplata",
         "distractors": {
           "plausible": [
-            "Keep fighting for the kimura grip",
-            "Switch straight to armbar attempt"
+            "Crank the same grip harder",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Abandon position, stand back up"
+            "Open the guard and let them up"
           ]
         }
       },
@@ -415,14 +415,14 @@
         "question": "In competition, what timing considerations affect the Kimura finish from New York Control?",
         "answer": "In competition, initiate the grip conversion when the opponent commits to defending another threat like the gogoplata or triangle, as their defensive reaction creates the arm positioning needed for the Kimura entry. The grip conversion must be fast and decisive since opponents at competition intensity will immediately counter slow transitions. Once the figure-four is established, maintain steady pressure rather than explosive force, as controlled finishing prevents defensive scrambles and ensures the referee can clearly identify the tap signal.",
         "safety_critical": false,
-        "answer_line": "Convert grip during their defense",
+        "answer_line": "Enter as they defend another threat",
         "distractors": {
           "plausible": [
-            "Apply pressure explosively for speed",
-            "Wait for opponent to tire out"
+            "Wait for the opponent to tire",
+            "Attack from the opening grip"
           ],
           "trap": [
-            "Slow grip fighting for control"
+            "Grind slowly through their grips"
           ]
         }
       }
@@ -545,11 +545,11 @@
         "answer_line": "Tap early, before sharp pain hits",
         "distractors": {
           "plausible": [
-            "Wait until pain becomes intense",
-            "Try to fight through the ache"
+            "Tap once quietly and hope they see",
+            "Shake your head to signal stop"
           ],
           "trap": [
-            "Stay silent and push through"
+            "Grip your own belt and hold on"
           ]
         }
       },
@@ -575,11 +575,11 @@
         "answer_line": "Shortens lever arm, kills angle",
         "distractors": {
           "plausible": [
-            "Pulling back uses more strength",
-            "Circling frees the trapped hand"
+            "Creates space to sit up",
+            "Breaks their figure-four grip"
           ],
           "trap": [
-            "Pull straight back with full force"
+            "Rip straight back with full force"
           ]
         }
       },
@@ -590,11 +590,11 @@
         "answer_line": "Push knee off back, then clasp grip",
         "distractors": {
           "plausible": [
-            "Push against attacker's chest",
-            "Grab your own gi collar"
+            "Frame hard against their neck",
+            "Reach back for their far leg"
           ],
           "trap": [
-            "Leave it idle to conserve energy"
+            "Post behind you, giving the back"
           ]
         }
       }

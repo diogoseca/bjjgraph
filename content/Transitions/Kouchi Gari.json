@@ -353,11 +353,11 @@
         "answer_line": "Wide base opens Uchi Mata, knee taps",
         "distractors": {
           "plausible": [
-            "Still vulnerable to Kouchi Gari",
-            "Force the reap through the base"
+            "Nothing works until they stand up",
+            "Switch to pulling guard instead"
           ],
           "trap": [
-            "Double down on Kouchi Gari"
+            "Jump guard against their low base"
           ]
         }
       },
@@ -521,11 +521,11 @@
         "answer_line": "Osoto Gari on their base leg",
         "distractors": {
           "plausible": [
-            "Sprawl and take the back",
-            "Push them away and reset distance"
+            "Reset distance and re-grip",
+            "Pull them into closed guard"
           ],
           "trap": [
-            "Attack their retracted leg"
+            "Turn your back to spin away"
           ]
         }
       },

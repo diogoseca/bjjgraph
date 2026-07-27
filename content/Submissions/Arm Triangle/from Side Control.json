@@ -314,14 +314,14 @@
         "question": "What are the key indicators that the arm triangle is properly locked and the opponent has passed the point of no escape?",
         "answer": "The choke is properly locked when the opponent's trapped shoulder bone is pressing firmly into their own neck with zero space between your chest and their body, your hip is dropped to the mat on the trapped-arm side, and your head is sealed to the mat on the far side. The opponent has passed the point of no escape when they cannot create any frame with their free hand, cannot generate an effective bridge, and their defensive movements become visibly weaker and less coordinated. Facial color changes indicate the blood restriction is taking effect.",
         "safety_critical": false,
-        "answer_line": "No frame, no bridge, fading resist",
+        "answer_line": "No frame, no bridge, fading fight",
         "distractors": {
           "plausible": [
-            "Opponent just goes quiet",
-            "Free hand stops moving"
+            "Loud breathing under pressure",
+            "Legs thrashing and kicking"
           ],
           "trap": [
-            "Opponent's face turns red"
+            "Keep squeezing after they go limp"
           ]
         }
       },
@@ -348,10 +348,10 @@
         "distractors": {
           "plausible": [
             "Rush the angle before they settle",
-            "Drop weight straight down harder"
+            "Squeeze the grip tighter mid-bridge"
           ],
           "trap": [
-            "Lift chest to avoid the bridge"
+            "Lift your chest to avoid the bridge"
           ]
         }
       },
@@ -363,10 +363,10 @@
         "distractors": {
           "plausible": [
             "Parallel, chest on chest",
-            "45 degrees toward the legs"
+            "Square head-to-head on top"
           ],
           "trap": [
-            "Angled toward opponent's hips"
+            "Angle toward the legs, lose the pin"
           ]
         }
       },
@@ -378,10 +378,10 @@
         "distractors": {
           "plausible": [
             "Gable for power, figure-four fast",
-            "Figure-four only, never gable"
+            "Palm-to-palm behind their back"
           ],
           "trap": [
-            "Grab your own collar, both grips"
+            "Lace your fingers and pull"
           ]
         }
       },
@@ -392,11 +392,11 @@
         "answer_line": "Paint the arm across the neck",
         "distractors": {
           "plausible": [
-            "Wait for them to frame naturally",
-            "Force a kimura on the far arm"
+            "Wait for them to frame on their own",
+            "Kimura the far arm to open them"
           ],
           "trap": [
-            "Switch to a north-south choke"
+            "Sit up to dig the arm, lose weight"
           ]
         }
       },
@@ -408,7 +408,7 @@
         "distractors": {
           "plausible": [
             "Squeeze fast to end it quickly",
-            "Check pulse before applying"
+            "Release only on a verbal tap"
           ],
           "trap": [
             "Trap both hands, then squeeze"
@@ -419,14 +419,14 @@
         "question": "How does the arm triangle from side control differ from a neck crank, and how do you ensure you are applying a blood choke?",
         "answer": "A proper arm triangle compresses both carotid arteries bilaterally, restricting blood flow to the brain. A neck crank applies twisting or bending force to the cervical spine without effective arterial compression. The key difference is the finishing angle: when the attacker is perpendicular to the opponent with chest directly over the face and the opponent's shoulder loaded against their own carotid, the choke compresses arteries. When the angle is off or the attacker squeezes from a parallel position, the force goes into the neck structure rather than the arteries. The test is whether the opponent feels lightheaded rather than neck pain.",
         "safety_critical": true,
-        "answer_line": "Perpendicular angle = artery choke",
+        "answer_line": "Perpendicular chest-over-face angle",
         "distractors": {
           "plausible": [
-            "Tighter squeeze equals blood choke",
-            "Faster tap means it's a choke"
+            "Squeeze harder for more effect",
+            "Judge it by how fast they tap"
           ],
           "trap": [
-            "Parallel angle, squeeze harder"
+            "Twist the head to finish"
           ]
         }
       },
@@ -570,10 +570,10 @@
         "distractors": {
           "plausible": [
             "Attacker grabs your far wrist",
-            "Attacker switches to mount"
+            "Their knee slides onto your hip"
           ],
           "trap": [
-            "Attacker loosens crossface pressure"
+            "Wait until the grip locks to react"
           ]
         }
       },
@@ -584,11 +584,11 @@
         "answer_line": "Tap fast, hand, foot, or voice",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only once, then fight on"
+            "Tap once softly and wait",
+            "Verbal taps do not count"
           ],
           "trap": [
-            "Try to power out, tap if failing"
+            "Hold out and try to power free"
           ]
         }
       },
@@ -599,11 +599,11 @@
         "answer_line": "Keep arm pinned or fully extended",
         "distractors": {
           "plausible": [
-            "Frame across your own neck",
-            "Push crossface with your near arm"
+            "Grab their far-side wrist",
+            "Reach over their back for a grip"
           ],
           "trap": [
-            "Post your forearm on their neck"
+            "Frame across your own throat"
           ]
         }
       },
@@ -614,8 +614,8 @@
         "answer_line": "Turn in, frame their near hip",
         "distractors": {
           "plausible": [
-            "Turn away, create space to stand",
-            "Push their face, pop your head out"
+            "Push their face, pop your head out",
+            "Pull their choking arm free"
           ],
           "trap": [
             "Turn away and bridge hard"
@@ -629,11 +629,11 @@
         "answer_line": "Gives them the finishing angle",
         "distractors": {
           "plausible": [
-            "Tires you out faster",
-            "Exposes your back to attacks"
+            "Puts you flat on your stomach",
+            "Lets them switch to a kimura"
           ],
           "trap": [
-            "Loosens their grip on your neck"
+            "Feels looser, so keep rolling away"
           ]
         }
       }

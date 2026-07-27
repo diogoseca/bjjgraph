@@ -364,7 +364,7 @@
           "Joints hyperextend quickly"
         ],
         "trap": [
-          "Pain always signals in time"
+          "Only risky when applied fast"
         ]
       }
     },
@@ -413,14 +413,14 @@
     {
       "question": "How can a choke attempt unintentionally turn into a crank?",
       "answer": "When a guillotine, crossface, or rear naked choke slides off the arteries onto the jaw, the force redirects into the cervical spine. If a partner reports jaw or neck pain rather than a choking sensation, adjust the angle.",
-      "answer_line": "Jaw pain means adjust the angle",
+      "answer_line": "Slides off arteries onto the jaw",
       "distractors": {
         "plausible": [
-          "Push through to finish the choke",
-          "Reposition hands, same angle"
+          "Arms crush the windpipe instead",
+          "Elbows flare during the squeeze"
         ],
         "trap": [
-          "Increase pressure to power through"
+          "Power through the pain to finish"
         ]
       }
     },
@@ -459,10 +459,10 @@
       "distractors": {
         "plausible": [
           "Just start light and see",
-          "Assume it's fine unless told"
+          "Warm up the neck beforehand"
         ],
         "trap": [
-          "Skip talk, ease in slowly"
+          "Crank fast to test reactions"
         ]
       }
     },

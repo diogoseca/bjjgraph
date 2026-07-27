@@ -289,14 +289,14 @@
         "question": "Your opponent begins aggressively posturing up while you have the Hindulotine grip locked - what adjustment prevents escape?",
         "answer": "Follow their rise by maintaining the grip while pulling your elbows tight to your body and curling your torso forward. Simultaneously use your legs to pull their hips toward you, removing the base they need to posture. If they achieve significant posture, snap them back down with a sharp pull combined with a hip sprawl. If posture is fully recovered, abandon the finish and transition to front headlock control to reset rather than chasing a deteriorating position.",
         "safety_critical": false,
-        "answer_line": "Curl in, pull hips, snap back",
+        "answer_line": "Curl chest, drag hips, snap down",
         "distractors": {
           "plausible": [
-            "Chase posture, re-lock grip",
-            "Release grip, re-shoot choke"
+            "Chase the head as they rise",
+            "Let go and re-shoot the choke"
           ],
           "trap": [
-            "Lean back, pull straight"
+            "Unhook legs to muscle the head"
           ]
         }
       },
@@ -307,8 +307,8 @@
         "answer_line": "High blade, broken posture",
         "distractors": {
           "plausible": [
-            "Just grip fatigue setting in",
-            "Opponent taps repeatedly"
+            "Opponent still posts a hand",
+            "Blade seated low on throat"
           ],
           "trap": [
             "Ease pressure once locked"
@@ -326,7 +326,7 @@
             "Leg control, skip hip angle"
           ],
           "trap": [
-            "Rush finish with low grip"
+            "Finish without leg control"
           ]
         }
       },
@@ -349,14 +349,14 @@
         "question": "What are the most dangerous finishing errors that create injury risk when applying the Hindulotine?",
         "answer": "The most dangerous errors are cranking the neck explosively rather than applying steady pressure, which risks cervical spine injury, and applying pressure straight down on the trachea instead of targeting the carotids bilaterally, which can crush the windpipe. Additionally, holding the fully locked choke after an opponent goes limp without recognizing unconsciousness is critically dangerous. Always apply gradually, target lateral carotid compression, and release immediately upon any tap or loss of consciousness.",
         "safety_critical": true,
-        "answer_line": "Explosive crank, trachea crush",
+        "answer_line": "Explosive crank, windpipe crush",
         "distractors": {
           "plausible": [
-            "Holding too long after tap",
-            "Too much hip rotation"
+            "Grip too loose, choke slips",
+            "Head on the wrong shoulder"
           ],
           "trap": [
-            "Snap hips fast for quick tap"
+            "Crank hard until they go limp"
           ]
         }
       },
@@ -367,8 +367,8 @@
         "answer_line": "Release, recovery position",
         "distractors": {
           "plausible": [
-            "Shake them to wake up fast",
-            "Reapply choke to confirm tap"
+            "Sit them straight upright",
+            "Resume rolling once awake"
           ],
           "trap": [
             "Hold grip, check consciousness"
@@ -394,14 +394,14 @@
         "question": "How does grip configuration affect the speed of the Hindulotine finish and what is the safest training approach?",
         "answer": "The figure-four chin strap grip tightens faster than standard gable or S-grip guillotines because the lever arm amplifies small rotational inputs into significant pressure changes. This means the window between partial pressure and full compression is shorter. In training, apply pressure incrementally over 3-5 seconds rather than snapping the rotation, and maintain verbal communication with your partner throughout the finishing sequence to ensure they can tap before reaching unconsciousness.",
         "safety_critical": true,
-        "answer_line": "Figure-four tightens fast",
+        "answer_line": "Figure-four bites fast; go slow",
         "distractors": {
           "plausible": [
-            "Gable grip tightens fastest",
-            "S-grip is safest for training"
+            "Gable grip bites fastest",
+            "All grips tighten at one rate"
           ],
           "trap": [
-            "Snap rotation for full effect"
+            "Snap the rotation to finish"
           ]
         }
       },
@@ -557,14 +557,14 @@
         "question": "When should you tap to the Hindulotine and what are the safest ways to signal?",
         "answer": "Tap immediately when you feel bilateral carotid compression fully established with no viable escape path remaining. Do not attempt to endure a fully locked Hindulotine. Signal by physically tapping your partner's body, arm, or leg. If your arms are trapped, tap the mat repeatedly or say 'tap' verbally. Any sign of lightheadedness, vision narrowing, or tingling means the choke is taking effect and you should tap instantly.",
         "safety_critical": true,
-        "answer_line": "Tap at full carotid lock",
+        "answer_line": "Tap once carotids fully lock",
         "distractors": {
           "plausible": [
-            "Wait for vision to go dark",
-            "Tap only when arm goes numb"
+            "Raise a hand instead of tapping",
+            "Wait for the coach to call it"
           ],
           "trap": [
-            "Try to endure and escape"
+            "Endure the lock and ride it out"
           ]
         }
       },
@@ -576,7 +576,7 @@
         "distractors": {
           "plausible": [
             "Pull head down and turtle",
-            "Grip fight the choking hand"
+            "Bridge into their hips"
           ],
           "trap": [
             "Pull straight back hard"
@@ -591,10 +591,10 @@
         "distractors": {
           "plausible": [
             "Circle away from the choke arm",
-            "Sit up and stack weight"
+            "Explode upward to rip free"
           ],
           "trap": [
-            "Pull straight back hard"
+            "Roll away from the choking arm"
           ]
         }
       },
@@ -602,14 +602,14 @@
         "question": "Your arms are trapped and you cannot reach your opponent to tap physically during a Hindulotine - what should you do?",
         "answer": "Immediately use verbal tapping by clearly saying 'tap' or 'stop.' If you cannot speak due to tracheal pressure, tap the mat repeatedly with your feet or any body part that can reach it. Your training partner and instructor should recognize any repeated tapping motion or verbal distress signal as a legitimate tap. If you feel consciousness fading, go limp deliberately as this should trigger an immediate release from any responsible training partner.",
         "safety_critical": true,
-        "answer_line": "Verbal tap or foot taps",
+        "answer_line": "Say 'tap' or tap mat with feet",
         "distractors": {
           "plausible": [
-            "Bite down and endure it",
-            "Shake head side to side"
+            "Shake your head side to side",
+            "Wait for the ref to notice"
           ],
           "trap": [
-            "Fight to escape, stay tense"
+            "Hold your breath and fight it"
           ]
         }
       }

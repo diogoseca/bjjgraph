@@ -270,14 +270,14 @@
       {
         "question": "What body angle should you achieve during the transition and why?",
         "answer": "You should angle your body approximately 45 degrees relative to your opponent as you achieve full extension. This perpendicular positioning maximizes the mechanical advantage of your lockdown lever and creates the optimal angle for splitting pressure on their trapped leg. Without proper angle, the pressure becomes primarily linear rather than creating the multi-directional force that makes Electric Chair difficult to defend.",
-        "answer_line": "45-degree perpendicular angle",
+        "answer_line": "~45°, splits the trapped leg",
         "distractors": {
           "plausible": [
-            "Stay squared up to opponent",
-            "Angle all the way to 90"
+            "Square up to 90° over them",
+            "Stay inline for a linear pull"
           ],
           "trap": [
-            "Flatten out parallel to legs"
+            "Turn away to crank the knee"
           ]
         }
       },
@@ -543,14 +543,14 @@
       {
         "question": "How does the limp leg concept help defend against the Electric Chair Transition?",
         "answer": "The limp leg concept involves deliberately relaxing your trapped leg rather than tensing against the lockdown. A stiff leg provides the attacker with a rigid lever that amplifies their lockdown extension force, making elevation easier and the submission pressure more effective. A relaxed leg absorbs force, reduces the mechanical advantage of the lockdown lever, and creates more mobility for circular extraction motions when escape opportunities arise.",
-        "answer_line": "Relax leg, reduce leverage",
+        "answer_line": "Relax leg to kill the lever",
         "distractors": {
           "plausible": [
-            "Stiffen leg to resist force",
-            "Kick leg free forcefully"
+            "Kick your leg free forcefully",
+            "Frame on their hip to escape"
           ],
           "trap": [
-            "Tense leg against lockdown"
+            "Stiffen leg, feed the lever"
           ]
         }
       },

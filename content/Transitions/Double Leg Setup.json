@@ -321,28 +321,28 @@
       {
         "question": "How does the double leg setup integrate with other takedown attacks in a strategic approach?",
         "answer": "The double leg setup functions as part of a takedown system where each attempt creates information and opportunities for subsequent attacks. Failed double leg attempts often leave opponent in defensive postures that create single leg opportunities, snap down entries, or bodylock positions. The setup movements themselves (level changes, angle creation, grip fighting) serve as both standalone techniques and as feints that draw reactions for alternative attacks. Effective wrestlers chain multiple setup attempts together, using each defensive reaction to inform the next attack choice, creating a systematic pressure that eventually produces scoring opportunities.",
-        "answer_line": "Chain feints into other attacks",
+        "answer_line": "Chain into single leg or snap down",
         "distractors": {
           "plausible": [
-            "Only use it as a standalone move",
-            "Repeat same setup until it lands"
+            "Drill one entry in isolation",
+            "Shoot the same double repeatedly"
           ],
           "trap": [
-            "Abandon single legs, only double"
+            "Hold failed shot under their sprawl"
           ]
         }
       },
       {
         "question": "Your opponent posts their hand on your shoulder as you begin your level change - how do you adjust?",
         "answer": "When opponent posts their hand on your shoulder during level change, you have several options depending on the strength of their frame. If the post is weak, continue driving through it by lowering your level even more and driving your shoulder into their hip as you penetrate. If the post is strong, use it as a pivot point by swimming your arm inside their post to clear the frame, or circle to the opposite angle where their extended arm cannot track you effectively. You can also snap down on the posting arm to break their posture, then immediately reshoot when their hands drop to the mat.",
-        "answer_line": "Swim inside post or circle away",
+        "answer_line": "Swim arm inside post, change angle",
         "distractors": {
           "plausible": [
-            "Push through weak post always",
-            "Stop and reset to standing"
+            "Back out and reset your stance",
+            "Grip fight the wrist from range"
           ],
           "trap": [
-            "Pull head down against the post"
+            "Post head on chest and drive in"
           ]
         }
       },
@@ -377,14 +377,14 @@
       {
         "question": "If your opponent consistently blocks your entry with a strong guillotine threat, what setup adjustments should you make?",
         "answer": "Against a strong guillotine threat, several adjustments improve your setup success. First, ensure your head stays tight to their near hip rather than in front of their centerline where the guillotine is strongest. Second, use a snap down setup that puts their hands on the mat before you shoot, eliminating the guillotine grip opportunity. Third, shoot at a sharper angle (closer to 90 degrees) so your head ends up on the far side of their body. Fourth, consider using a collar drag or arm drag that turns their body before shooting, changing the angle of their guillotine threat. Finally, chain your double leg with a single leg fake that draws their arms down, then immediately convert when their hands are occupied with the single leg defense.",
-        "answer_line": "Head tight, snap down, sharp angle",
+        "answer_line": "Head tight to hip, snap down first",
         "distractors": {
           "plausible": [
-            "Shoot straight and drive faster",
-            "Keep head centered, drive through"
+            "Shoot faster to beat the grip",
+            "Stay tall and pummel from range"
           ],
           "trap": [
-            "Put head in front, drive center"
+            "Dive head across their centerline"
           ]
         }
       },
@@ -595,28 +595,28 @@
       {
         "question": "Your opponent shoots and you sprawl successfully, stuffing their penetration - what is your immediate next action?",
         "answer": "Immediately transition from defensive sprawl to offensive front headlock control. As their shot dies underneath your sprawl, wrap your arm around their neck while your other hand controls their far shoulder or tricep to prevent them from circling out. Drive your chest weight down onto their upper back to collapse their posture further. Do not simply hold the sprawl position and wait, as this allows them to reshoot, stand back up, or circle to a better position. The sprawl must convert immediately into an attacking position. From front headlock you can threaten guillotine, snap down, or begin working toward back control depending on their defensive response.",
-        "answer_line": "Convert sprawl to front headlock",
+        "answer_line": "Attack front headlock right away",
         "distractors": {
           "plausible": [
-            "Hold sprawl and wait it out",
-            "Stand back up immediately"
+            "Hold the sprawl and catch breath",
+            "Back off and restart on the feet"
           ],
           "trap": [
-            "Release and reset to neutral"
+            "Turn your back to break the grip"
           ]
         }
       },
       {
         "question": "What role does lateral movement play in double leg defense compared to backward movement?",
         "answer": "Lateral movement is fundamentally superior to backward movement for double leg defense because it removes you from the attacker's shooting lane without giving them additional forward space to penetrate. When you move backward, the attacker can continue driving forward on their original angle, and your backward momentum actually makes it harder to sprawl because your hips are already moving in the wrong direction. Lateral movement forces the attacker to redirect mid-shot, which is extremely difficult once committed to forward penetration. Additionally, lateral movement creates angles for counter-attacks: as they shoot past where you were, you gain access to their back or side for snap downs and front headlock entries. The only time backward movement is acceptable is a slight backstep combined with a sprawl, never a full retreat.",
-        "answer_line": "Lateral beats moving straight back",
+        "answer_line": "Circle out sideways off the line",
         "distractors": {
           "plausible": [
-            "Backward retreat is always safest",
-            "Standing still is most stable"
+            "Stand tall and pull hips away",
+            "Hold a collar tie and stall"
           ],
           "trap": [
-            "Retreat straight back fully"
+            "Backpedal straight into the fence"
           ]
         }
       }

@@ -320,11 +320,11 @@
         "answer_line": "Circle hips, keep chest connection",
         "distractors": {
           "plausible": [
-            "Pull hips back to gain space",
-            "Push straight forward only"
+            "Push straight forward only",
+            "Speed up to beat the frame"
           ],
           "trap": [
-            "Retreat to create passing lane"
+            "Back out to reset the pass"
           ]
         }
       },

@@ -315,11 +315,11 @@
         "answer_line": "Shoulder joint (glenohumeral)",
         "distractors": {
           "plausible": [
-            "Elbow joint (like armbar)",
+            "Elbow joint, like an armbar",
             "Wrist joint directly"
           ],
           "trap": [
-            "Neck via collar pressure"
+            "Crank the neck instead of the arm"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Face distress, frantic resistance",
         "distractors": {
           "plausible": [
-            "Verbal tap only",
-            "Arm goes limp and relaxed"
+            "Arm goes limp and relaxed",
+            "Their grip on you feels loose"
           ],
           "trap": [
-            "Wait for audible pop"
+            "Silence means keep rotating"
           ]
         }
       },
@@ -361,10 +361,10 @@
         "distractors": {
           "plausible": [
             "As soon as reverse kesa starts",
-            "Once far arm is grabbed"
+            "Once the far arm is grabbed"
           ],
           "trap": [
-            "After first rotation attempt"
+            "Crank before the grip is set"
           ]
         }
       },
@@ -375,11 +375,11 @@
         "answer_line": "Switch to kimura grip",
         "distractors": {
           "plausible": [
-            "Force the Americana harder",
-            "Abandon attack, reset position"
+            "Bend the arm back by strength",
+            "Give up and reset the pin"
           ],
           "trap": [
-            "Let go and re-grip wrist only"
+            "Crank hard on the straight arm"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Stop, flatten, re-pin wrist",
         "distractors": {
           "plausible": [
-            "Chase grip with arm strength",
-            "Speed up the rotation"
+            "Speed up the rotation",
+            "Switch to attacking the near arm"
           ],
           "trap": [
-            "Muscle the wrist back by force"
+            "Muscle the grip, lose chest pin"
           ]
         }
       },
@@ -402,14 +402,14 @@
         "question": "What is the correct speed of application when finishing the Americana in training?",
         "answer": "Apply rotational pressure slowly over a minimum of three to five seconds from initial engagement to expected tap. In drilling, use no more than ten to twenty percent of your available force. Never jerk, spike, or apply sudden force to the shoulder joint under any circumstances. The slow application gives your training partner adequate time to recognize the submission and tap safely while simultaneously improving your control and feel for the finishing mechanics.",
         "safety_critical": true,
-        "answer_line": "Slow, 3-5 seconds, 10-20% force",
+        "answer_line": "Slow over 3-5 seconds, light force",
         "distractors": {
           "plausible": [
-            "Fast to prevent escape",
-            "Full force once locked"
+            "Speed up if they start escaping",
+            "Hold static and wait them out"
           ],
           "trap": [
-            "Quick jerk to spike pain"
+            "Snap it before they can defend"
           ]
         }
       },
@@ -543,11 +543,11 @@
         "answer_line": "Wrist isolated, figure-4 forming",
         "distractors": {
           "plausible": [
-            "Opponent grips your far leg",
-            "Opponent switches to mount"
+            "They post a hand on your hip",
+            "Their head drops to your chest"
           ],
           "trap": [
-            "Ignore hand near your wrist"
+            "Ignore the hand near your wrist"
           ]
         }
       },
@@ -555,14 +555,14 @@
         "question": "What is the safest approach to tapping when caught in the Americana from Reverse Kesa-Gatame?",
         "answer": "Tap early and clearly using multiple simultaneous signals. Use your free hand to tap firmly on the attacker's body or the mat at least two times while giving a verbal tap by saying 'tap' clearly. If your free hand is trapped, use foot taps on the mat. Never try to tough out a locked Americana in training because the shoulder joint can sustain permanent damage within seconds once the rotational limit is reached, potentially requiring months of recovery.",
         "safety_critical": true,
-        "answer_line": "Tap early, verbal plus physical",
+        "answer_line": "Tap early, loud voice plus hand",
         "distractors": {
           "plausible": [
-            "Tap only once lightly",
-            "Wait to see if it worsens"
+            "Wait until the pain sharpens",
+            "Nod your head so they notice"
           ],
           "trap": [
-            "Try to power out instead"
+            "Fight the grip until it tears"
           ]
         }
       },
@@ -573,11 +573,11 @@
         "answer_line": "Grip fight, bridge, early escape",
         "distractors": {
           "plausible": [
-            "Wait for figure-four to lock",
-            "Pull elbow to your body only"
+            "Bench-press their chest away",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Push into the submission"
+            "Rip the arm out under full load"
           ]
         }
       },
@@ -588,11 +588,11 @@
         "answer_line": "When chest pressure lifts",
         "distractors": {
           "plausible": [
-            "Only after tapping once",
-            "When grip fully locked"
+            "Once the grip is fully locked",
+            "When your wrist hits the mat"
           ],
           "trap": [
-            "Never, always fight the arm"
+            "Stay flat, only fight the arm"
           ]
         }
       }

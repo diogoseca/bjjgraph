@@ -529,11 +529,11 @@
         "answer_line": "Sharp groin or hip flexor pain",
         "distractors": {
           "plausible": [
-            "Only when you can't move at all",
-            "After trying to power out first"
+            "Once your partner asks if you're ok",
+            "After a slow three-count elapses"
           ],
           "trap": [
-            "Wait to see if pressure eases"
+            "Grit it out until pressure fades"
           ]
         }
       }

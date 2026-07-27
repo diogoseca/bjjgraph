@@ -695,7 +695,7 @@
           "Hook only traps the leg"
         ],
         "trap": [
-          "Extend hook to create space"
+          "Post stiff frame and get stacked"
         ]
       },
       "answer_line": "Live hook steers their base"
@@ -706,11 +706,11 @@
       "answer_line": "Hook plus grip breaks posture",
       "distractors": {
         "plausible": [
-          "Hook alone controls the leg",
-          "Grip alone stops the pass"
+          "The leg wrap works by itself",
+          "Ankle control stops the pass"
         ],
         "trap": [
-          "Drop grip to free the hook"
+          "Let go of sleeves, get smashed"
         ]
       }
     },
@@ -719,11 +719,11 @@
       "answer": "De La Riva is a system because every reasonable defensive reaction opens a different pre-loaded attack, so it targets the opponent's decision itself. When the opponent drives forward, inversion and back-take entries open; when they stand tall or lean back, under-transitions to X-Guard and Single Leg X become available; when they strip grips, timing windows for direct sweeps appear. Because no single technique has to succeed, the guard player attacks the opponent's choice rather than any single limb. This reaction matrix is the strategic core shared by all variants, and reading which reaction is coming is what separates competent from dangerous De La Riva players.",
       "distractors": {
         "plausible": [
-          "Chain techniques in sequence",
-          "Force one predetermined sweep"
+          "Chains sweeps in a set order",
+          "Wins by isolating the lead leg"
         ],
         "trap": [
-          "Commit early to single attack"
+          "Commit to one plan, get passed"
         ]
       },
       "answer_line": "Attacks reaction, not the limb"
@@ -733,11 +733,11 @@
       "answer": "An angled, off-line hip position points the hook's force across the opponent's narrow base instead of into their strongest defensive posture. From a square, facing position the opponent can stack weight forward and smash, but from an angle their base becomes a narrow, tippable line. Constantly shifting the angle also keeps the opponent reactive and prevents them from settling into a stable passing platform. This is why every variant emphasizes mobile hips and shoulders slightly off the mat: the angle is the engine of the sweep, and a static angle is a defeated guard.",
       "distractors": {
         "plausible": [
-          "Square up for stronger base",
-          "Pick one angle and hold it"
+          "Pick one angle and hold it",
+          "Stay facing for cleaner grips"
         ],
         "trap": [
-          "Face square to control hips"
+          "Square up and get stacked flat"
         ]
       },
       "answer_line": "Angle attacks their narrow base"
@@ -745,14 +745,14 @@
     {
       "question": "What universal vulnerability does any De La Riva player accept in exchange for the hook's offensive power?",
       "answer": "Threading a leg around the outside of the opponent's leg commits that limb to control rather than to framing, so if the opponent clears or extracts the hook the guard player is momentarily down a defensive structure. Inversions and berimbolo-style entries that make the guard dangerous also expose the back and invite stack and back-step passing if upper-body control is lost mid-rotation. The guard therefore depends on maintaining hook tension and a grip as a safety line at all times; slack in either turns the guard's own committed structure into the passer's opportunity. This risk-reward tradeoff is inherent to the family and is why grip retention is treated as non-negotiable across every variant.",
-      "answer_line": "Committed leg risks the back",
+      "answer_line": "Committed leg can't frame",
       "distractors": {
         "plausible": [
-          "Losing grip only slows sweep",
-          "Inverting is always safe"
+          "Only risk is a stripped grip",
+          "Hook drains your sweep power"
         ],
         "trap": [
-          "Release hook to escape risk"
+          "Invert without upper-body control"
         ]
       }
     },
@@ -776,11 +776,11 @@
       "answer_line": "Hub feeding X-Guard, SLX, leglocks",
       "distractors": {
         "plausible": [
-          "Endpoint sweep, not a system",
-          "Only leads to berimbolo"
+          "Just a setup for berimbolo",
+          "Mainly a stalling open guard"
         ],
         "trap": [
-          "Force finish instead of flowing"
+          "Force the sweep and get passed"
         ]
       }
     }
@@ -791,11 +791,11 @@
       "answer": "De La Riva Guard is defined by the outside leg wrapping the top player's lead leg from the outside, hooking behind the knee or thigh. This DLR hook is paired with a same-side grip on the ankle or pant cuff and an opposite-side grip on the sleeve, collar, or lapel, creating a diagonal two-point connection. The result is an off-angle, hook-based open guard where the bottom player sits outside the top player's near leg rather than square to them. That wrapping hook, rather than any frame or clamp, is what distinguishes DLR from every other open guard.",
       "distractors": {
         "plausible": [
-          "Inside hook around the hip",
-          "Both legs hook same leg"
+          "Inside wrap on the lead leg",
+          "Both legs wrap the same leg"
         ],
         "trap": [
-          "Square guard with double frames"
+          "Wrap deep with no grips, get dragged"
         ]
       },
       "answer_line": "Outside hook behind the knee"
@@ -806,10 +806,10 @@
       "distractors": {
         "plausible": [
           "Grip alone off-balances them",
-          "Push the knee away to control"
+          "Push them away with stiff arms"
         ],
         "trap": [
-          "Straighten hook leg for power"
+          "Sit flat and square your hips"
         ]
       },
       "answer_line": "Hook pulls knee, loads their base"
@@ -833,11 +833,11 @@
       "answer": "The non-hooking leg manages distance and frames on the hip, knee, or bicep, protecting the hook and preserving the perpendicular angle. This second leg prevents the top player from closing space to smash the hook flat. It also serves as the pivot for angle changes, inversions, and transitions to X-Guard or Single Leg X. Control of this free leg is a central contest in the position, because whoever dictates it dictates whether distance and angle can be maintained or destroyed.",
       "distractors": {
         "plausible": [
-          "Free leg pins their far hip",
-          "Free leg is only for balance"
+          "It exists only for balance",
+          "It stays tucked out of play"
         ],
         "trap": [
-          "Wrap free leg for second hook"
+          "Leave it loose on the mat"
         ]
       },
       "answer_line": "Free leg frames and guards angle"
@@ -862,11 +862,11 @@
       "answer_line": "Every reaction opens new attack",
       "distractors": {
         "plausible": [
-          "One correct response each time",
-          "Only pressure matters here"
+          "One right answer each time",
+          "Grips alone decide the exchange"
         ],
         "trap": [
-          "Commit to single planned sweep"
+          "Commit hard to a single sweep"
         ]
       }
     },

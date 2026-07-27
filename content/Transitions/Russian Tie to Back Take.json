@@ -358,11 +358,11 @@
         "answer_line": "Snap down, single leg, re-circle",
         "distractors": {
           "plausible": [
-            "Abandon grip and reset neutral",
-            "Switch to guillotine choke"
+            "Wait for them to disengage first",
+            "Pull closed guard and reset"
           ],
           "trap": [
-            "Release grip and stand back"
+            "Dive in with your head down"
           ]
         }
       },

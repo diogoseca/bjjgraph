@@ -466,8 +466,8 @@
         "answer_line": "Snap chin down, take guillotine",
         "distractors": {
           "plausible": [
-            "Muscle them back down only",
-            "Abandon position, reset"
+            "Arm-squeeze the neck harder",
+            "Wait for their posture to tire"
           ],
           "trap": [
             "Let them stand to reset grips"
@@ -498,7 +498,7 @@
             "Narrow base, knees together"
           ],
           "trap": [
-            "Death-grip the choking arm"
+            "Sit back onto your heels"
           ]
         }
       },
@@ -522,11 +522,11 @@
         "answer_line": "Follow immediately, close space",
         "distractors": {
           "plausible": [
-            "Hold static, wait them out",
-            "Reset to neutral position"
+            "Reset to neutral position",
+            "Sprawl back to reset your base"
           ],
           "trap": [
-            "Grip tighter with arms alone"
+            "Hold static, muscle with arms"
           ]
         }
       },
@@ -860,11 +860,11 @@
         "answer_line": "One hand fights the choke arm",
         "distractors": {
           "plausible": [
-            "Both hands push their body",
-            "Both hands frame on hips"
+            "Frame both palms on their hips",
+            "Post both arms flat on the mat"
           ],
           "trap": [
-            "Both hands grip your own chin"
+            "Shove their torso with both palms"
           ]
         }
       },
@@ -899,14 +899,14 @@
       {
         "question": "Why is remaining static in front headlock bottom one of the worst defensive choices?",
         "answer": "Static defense allows your opponent unlimited time to perfect their position, adjust their grips, and choose their optimal attack. Every second you stay still, they can improve their angle, deepen their choking arm, or set up a transition to back control. The front headlock is designed to be an attacking position, so a static defender will eventually succumb to submission or positional loss. Constant movement and escape attempts, even small ones, force the opponent to react rather than attack, creating windows for escape. Even failed escape attempts are better than no movement because they prevent the opponent from settling.",
-        "answer_line": "Stillness lets them perfect attack",
+        "answer_line": "Gives them time to perfect attacks",
         "distractors": {
           "plausible": [
-            "Static defense saves energy",
-            "Wait for them to tire out"
+            "It instantly drains your energy",
+            "It concedes advantage points"
           ],
           "trap": [
-            "Stay flat and absorb pressure"
+            "It's safe since chokes need motion"
           ]
         }
       },
@@ -930,11 +930,11 @@
         "answer_line": "Escape efficiently, don't rest",
         "distractors": {
           "plausible": [
-            "Go all-out to finish fast",
-            "Rest, conserve your energy"
+            "Explode out with maximum effort",
+            "Stall until you catch breath"
           ],
           "trap": [
-            "Stop moving to save energy"
+            "Go limp so they burn energy"
           ]
         }
       },
@@ -944,8 +944,8 @@
         "answer_line": "Escape away from their attack angle",
         "distractors": {
           "plausible": [
-            "Escape toward the choking side",
-            "Same direction every time"
+            "Always move to your power side",
+            "Back straight out to disengage"
           ],
           "trap": [
             "Drive straight into the choke"
@@ -990,11 +990,11 @@
       "answer_line": "Head pinned to chest, broken posture",
       "distractors": {
         "plausible": [
-          "Chest-to-chest, both upright",
-          "Same as neutral collar tie"
+          "A collar tie with both upright",
+          "Riding the back from behind"
         ],
         "trap": [
-          "Back exposed to the mat below"
+          "Neck stretched long under torso"
         ]
       }
     },
@@ -1008,7 +1008,7 @@
           "Arm strength decides connection"
         ],
         "trap": [
-          "Space between chests is safe"
+          "A little space under you is fine"
         ]
       }
     },
@@ -1032,11 +1032,11 @@
       "answer_line": "Chin tuck denies, extension enables",
       "distractors": {
         "plausible": [
-          "Neck angle doesn't matter much",
-          "Only arm position matters"
+          "Neck strength beats positioning",
+          "Only the arms decide the finish"
         ],
         "trap": [
-          "Extend neck to see the escape"
+          "Lift your head to find the exit"
         ]
       }
     },
@@ -1047,10 +1047,10 @@
       "distractors": {
         "plausible": [
           "A settled pin like side control",
-          "Static holding favors the top"
+          "Only the bottom is on a timer"
         ],
         "trap": [
-          "Best to just hold and wait it out"
+          "Clamp and stall until they tire"
         ]
       }
     },
@@ -1074,11 +1074,11 @@
       "answer_line": "Head to chest, same direction",
       "distractors": {
         "plausible": [
-          "Same as turtle position exactly",
-          "Same as back control exactly"
+          "A waist lock over the turtle",
+          "Hooks in from behind the hips"
         ],
         "trap": [
-          "Position with opponent on their back"
+          "Neck stays free, nothing to fear"
         ]
       }
     },
@@ -1089,10 +1089,10 @@
       "distractors": {
         "plausible": [
           "Grips are identical in both rulesets",
-          "Position only works in the gi"
+          "Cloth friction is the main control"
         ],
         "trap": [
-          "No-gi relies on collar chokes"
+          "Without cloth there is no choke"
         ]
       }
     }

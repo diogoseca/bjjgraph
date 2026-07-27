@@ -295,10 +295,10 @@
         "distractors": {
           "plausible": [
             "As soon as the grip locks",
-            "When you feel fatigued"
+            "Right after you shrimp away"
           ],
           "trap": [
-            "Force it against a settled base"
+            "Force the roll on a heavy base"
           ]
         }
       },
@@ -308,8 +308,8 @@
         "answer_line": "Figure-four deep at the elbow",
         "distractors": {
           "plausible": [
-            "Figure-four at the wrist",
-            "Grip just above the elbow"
+            "Figure-four clamped at the wrist",
+            "Two-on-one on their forearm"
           ],
           "trap": [
             "Loose grip to save energy"
@@ -323,7 +323,7 @@
         "distractors": {
           "plausible": [
             "Straight back, no angle",
-            "Diagonal away from shoulder"
+            "Sideways over your free hip"
           ],
           "trap": [
             "Spin away from their hips"
@@ -340,7 +340,7 @@
             "Rolling too slowly"
           ],
           "trap": [
-            "Committing shoulder too late"
+            "Let go mid-roll to re-grip"
           ]
         }
       },
@@ -350,11 +350,11 @@
         "answer_line": "Hook far ankle, Old School sweep",
         "distractors": {
           "plausible": [
-            "Force the roll harder",
-            "Switch to armbar attack"
+            "Switch to armbar attack",
+            "Bridge and shrimp to half guard"
           ],
           "trap": [
-            "Release grip, reset position"
+            "Give up the grip to sit up"
           ]
         }
       },
@@ -364,8 +364,8 @@
         "answer_line": "Keep the figure-four locked",
         "distractors": {
           "plausible": [
-            "Release grip, reset base",
-            "Fight to stop the counter-roll"
+            "Fight to stop the counter-roll",
+            "Post free hand and sit up"
           ],
           "trap": [
             "Let go and scramble free"
@@ -378,11 +378,11 @@
         "answer_line": "Hips live, off the mat",
         "distractors": {
           "plausible": [
-            "Hips flat but relaxed",
+            "Shoulders squared to the mat",
             "Knees extended for base"
           ],
           "trap": [
-            "Flatten hips to load power"
+            "Let them pancake you flat"
           ]
         }
       },
@@ -406,11 +406,11 @@
         "answer_line": "Tight grip forces them to rotate",
         "distractors": {
           "plausible": [
-            "Tight grip speeds the roll",
-            "Loosen slightly to conserve"
+            "It protects your own wrist",
+            "It saves your shoulder joint"
           ],
           "trap": [
-            "Loosen it mid-roll to reset"
+            "Slacken it as you rotate"
           ]
         }
       },
@@ -420,11 +420,11 @@
         "answer_line": "Collapse frame or trap it",
         "distractors": {
           "plausible": [
-            "Push through the frame harder",
+            "Bridge hard to bump the arm",
             "Switch sides to avoid it"
           ],
           "trap": [
-            "Abandon roll, reset guard"
+            "Release the arm to clear it"
           ]
         }
       }
@@ -564,11 +564,11 @@
         "answer_line": "Widen base, post far limbs",
         "distractors": {
           "plausible": [
-            "Drive forward to flatten them",
-            "Pull the trapped arm free"
+            "Pull the trapped arm free",
+            "Stand up to shake the grip"
           ],
           "trap": [
-            "Load weight onto trapped side"
+            "Drive forward to flatten them"
           ]
         }
       },
@@ -578,8 +578,8 @@
         "answer_line": "It powers their roll",
         "distractors": {
           "plausible": [
-            "It only risks a stack pass",
-            "It just wastes energy"
+            "It tires your shoulders fast",
+            "It lets them recover full guard"
           ],
           "trap": [
             "Drive harder to flatten them"
@@ -589,28 +589,28 @@
       {
         "question": "The roll has already started and you cannot stop it. What do you do?",
         "answer": "Stop fighting to stay put and commit to riding the roll. Post your free hand, follow their rotation, and drive your weight through so you land on top with the attacker dumped onto the bottom in turtle. Counter-rolling at the peak of their momentum weakens the grip's angle and is far better than being slowly dragged over into a surrendered back. Throughout, keep the shoulder safe and tap to real joint pressure.",
-        "answer_line": "Commit and ride it through",
+        "answer_line": "Post free hand, ride the roll on top",
         "distractors": {
           "plausible": [
-            "Brace and resist the rotation",
-            "Try to reverse it immediately"
+            "Pull the trapped elbow to your hip",
+            "Grab your own belt to stall it"
           ],
           "trap": [
-            "Fight to stay flat on back"
+            "Turn belly-down and give the back"
           ]
         }
       },
       {
         "question": "Why should shoulder safety take priority over keeping the position when defending the Rolling Kimura?",
         "answer": "Because the technique loads the shoulder under rotational momentum, riding out heavy kimura pressure to save a position risks a torn labrum or ligaments with a long recovery. A lost position is recoverable in seconds, but a blown-out shoulder costs months. If you feel genuine joint pressure and your counter is not there, tap, because protecting the arm keeps you training, which matters more than any single exchange.",
-        "answer_line": "Injury costs far more than position",
+        "answer_line": "Torn shoulder costs months to heal",
         "distractors": {
           "plausible": [
-            "Position loss ends the match",
-            "Tapping shows weakness"
+            "The grip cannot be broken once set",
+            "A tap only costs you two points"
           ],
           "trap": [
-            "Fight through real joint pain"
+            "Shoulders heal fast, so ride it out"
           ]
         }
       }

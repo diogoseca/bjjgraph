@@ -348,11 +348,11 @@
         "answer_line": "Crossface then far hip control",
         "distractors": {
           "plausible": [
-            "Far hip control before crossface",
-            "Extract leg first, grip after"
+            "Grip far hip before crossface",
+            "Only crossface, skip hip grip"
           ],
           "trap": [
-            "Extract leg with no upper grips"
+            "Rip leg free before gripping"
           ]
         }
       },
@@ -394,7 +394,7 @@
             "Muscle through with grip strength"
           ],
           "trap": [
-            "Attack early and often"
+            "Gas out muscling then get swept"
           ]
         }
       },
@@ -790,8 +790,8 @@
         "answer_line": "Seated, shoulders up 30-45 degrees",
         "distractors": {
           "plausible": [
-            "Flat back for max hook drive",
-            "Fully upright, chest vertical"
+            "Fully upright, chest vertical",
+            "Lean back on straight posted arms"
           ],
           "trap": [
             "Lie flat to load the hook"
@@ -861,10 +861,10 @@
         "distractors": {
           "plausible": [
             "Pull them back down immediately",
-            "Hold hook tight, don't move feet"
+            "Hold hook tight, stay planted"
           ],
           "trap": [
-            "Chase their hips as they stand"
+            "Sit up and hug their waist"
           ]
         }
       },
@@ -888,11 +888,11 @@
         "answer_line": "Hold structure, wait, don't repeat",
         "distractors": {
           "plausible": [
-            "Repeat the sweep with more force",
-            "Add more grips to force it"
+            "Force the same sweep harder",
+            "Add more grips and force it"
           ],
           "trap": [
-            "Rush a new sweep immediately"
+            "Flatten out to catch your breath"
           ]
         }
       }
@@ -933,11 +933,11 @@
       "answer": "One of the top player's legs is trapped in a half guard lock while a butterfly hook is inserted under their free leg. The half guard trap prevents the top player from disengaging or creating passing distance, while the butterfly hook adds an elevation vector absent from ordinary half guard. This produces an asymmetric entanglement where one leg is controlled through the flat squeeze of half guard and the other through the lifting mechanic of a butterfly hook. The combination of a stationary anchor and an active lifting leg is what makes the position a distinct hybrid rather than either parent guard alone.",
       "distractors": {
         "plausible": [
-          "Both legs trapped in half guard",
-          "Both legs as butterfly hooks"
+          "Lock both legs in half guard",
+          "Use two butterfly hooks only"
         ],
         "trap": [
-          "Trap both legs flat, no hook"
+          "Go flat, squeeze with crossed feet"
         ]
       },
       "answer_line": "One leg trapped, one hooked"
@@ -976,11 +976,11 @@
       "answer_line": "Upper body grip decides direction",
       "distractors": {
         "plausible": [
-          "Leg control alone is enough",
-          "Grips matter only for bottom player"
+          "Only the bottom player needs grips",
+          "Hooks alone steer the exchange"
         ],
         "trap": [
-          "Skip upper body, focus on legs"
+          "Concede the crossface, hold legs"
         ]
       }
     },
@@ -990,8 +990,8 @@
       "answer_line": "It flows into adjacent systems",
       "distractors": {
         "plausible": [
-          "It's meant to be held statically",
-          "Only one exit path exists"
+          "The entanglement is easy to pass",
+          "The hook tires within seconds"
         ],
         "trap": [
           "Force a stalemate, don't transition"
@@ -1032,8 +1032,8 @@
       "answer_line": "Losing either control changes it",
       "distractors": {
         "plausible": [
-          "Losing the hook has no effect",
-          "Freeing the leg has no effect"
+          "Only the hook defines the guard",
+          "The trap alone keeps it intact"
         ],
         "trap": [
           "Release the trap to save the hook"

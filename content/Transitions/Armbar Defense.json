@@ -276,11 +276,11 @@
         "answer_line": "Allows full arm extension",
         "distractors": {
           "plausible": [
-            "Weakens your grip strength",
-            "Lets them adjust their angle"
+            "Exposes your neck to a choke",
+            "Tires your shoulders quickly"
           ],
           "trap": [
-            "Separate hands to move faster"
+            "None, you stay fully safe"
           ]
         }
       },
@@ -319,10 +319,10 @@
         "distractors": {
           "plausible": [
             "You have several seconds like chokes",
-            "Injury risk is low early on"
+            "Chokes are easier to escape"
           ],
           "trap": [
-            "Wait to see how they commit"
+            "Late defenses work just as well"
           ]
         }
       },

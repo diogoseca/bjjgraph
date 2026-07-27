@@ -340,11 +340,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Builds max torque slowly",
-            "Conserves your own energy"
+            "Builds maximum torque slowly",
+            "Hides the finish until late"
           ],
           "trap": [
-            "Speed prevents their escape"
+            "Snap it fast to stop escape"
           ]
         },
         "answer_line": "Gives partner time to tap"
@@ -371,11 +371,11 @@
         "answer_line": "Lock heel tight, no rotation",
         "distractors": {
           "plausible": [
-            "Grip the wrist, not heel",
-            "Loose grip allows readjusting"
+            "Loose grip lets you readjust",
+            "Pinch the heel with your knees"
           ],
           "trap": [
-            "Let heel rotate for angle"
+            "Spin the heel for more angle"
           ]
         }
       },
@@ -401,11 +401,11 @@
         "answer_line": "Free leg pins their upper body",
         "distractors": {
           "plausible": [
-            "Free leg hooks their far hip",
-            "Free leg squares your base"
+            "Free leg clamps their far knee",
+            "Free leg posts wide for base"
           ],
           "trap": [
-            "Free leg circles for back take"
+            "Kick free leg away for space"
           ]
         }
       },
@@ -417,10 +417,10 @@
         "distractors": {
           "plausible": [
             "Only a clear verbal tap",
-            "Wait for stillness, release"
+            "Only mat taps count"
           ],
           "trap": [
-            "Increase pressure until still"
+            "Hold pressure until they still"
           ]
         }
       },
@@ -431,11 +431,11 @@
         "answer_line": "Break grips before forcing entry",
         "distractors": {
           "plausible": [
-            "Power straight through grip",
-            "Wait them out passively"
+            "Tighten the leg triangle first",
+            "Scoot your hips further away"
           ],
           "trap": [
-            "Yank the leg free by force"
+            "Muscle through their locked grips"
           ]
         }
       },
@@ -443,14 +443,14 @@
         "question": "Your opponent begins posturing up to escape - what immediate adjustment secures the finish?",
         "answer": "When opponent starts posturing up, immediately increase pressure with your free leg against their chest or shoulder to push them back down while simultaneously tightening your heel grip and scooting your hips further away from their body. If they continue to rise, angle your body more perpendicular and use the leg triangle squeeze to maintain control of their trapped leg. The combination of upper body frame and tightened hip angle creates a structure they cannot posture through. If they successfully achieve upright posture despite these adjustments, transition immediately to a sweep or back take rather than forcing a compromised finish.",
         "safety_critical": false,
-        "answer_line": "Free leg pushes them back down",
+        "answer_line": "Free leg drives their chest down",
         "distractors": {
           "plausible": [
-            "Squeeze the triangle harder",
-            "Pull heel in tighter only"
+            "Post a hand to sit up",
+            "Switch grips to their toes"
           ],
           "trap": [
-            "Release grip, reset the angle"
+            "Let the leg go and re-enter"
           ]
         }
       },
@@ -465,7 +465,7 @@
             "Meniscus via compression"
           ],
           "trap": [
-            "Quad tendon via flexion"
+            "Twist the knee to finish fast"
           ]
         }
       },
@@ -476,11 +476,11 @@
         "answer_line": "Perpendicular, triangle, heel locked",
         "distractors": {
           "plausible": [
-            "Once triangle is locked only",
-            "After first hip extension"
+            "Once the triangle locks alone",
+            "When you fall back to the mat"
           ],
           "trap": [
-            "As soon as leg is grabbed"
+            "Assume it's over once gripped"
           ]
         }
       },
@@ -491,11 +491,11 @@
         "answer_line": "Reinforce prayer grip, elbows in",
         "distractors": {
           "plausible": [
-            "Switch to a gable grip",
-            "Pull heel down to chest level"
+            "Straighten arms, hold heel out",
+            "Slide heel down to your chest"
           ],
           "trap": [
-            "Crank harder to stop rotation"
+            "Crank through the rotation"
           ]
         }
       },
@@ -503,14 +503,14 @@
         "question": "How do you recognize when the kneebar position quality is insufficient for a safe finish in competition?",
         "answer": "Position quality is insufficient when any of these indicators are present: your hips are not fully perpendicular to their leg creating an acute rather than right angle, space exists between their heel and your chest allowing potential extraction, your leg triangle is loose or opponent's thigh is not fully trapped, opponent has defensive grips on their own leg that you cannot break, or opponent has successfully stepped their free leg over your head establishing a defensive hook. When these conditions exist, forcing the finish risks both escape and potential counter-attack. Transition to sweeps or alternative submissions rather than committing to a low-percentage finish.",
         "safety_critical": false,
-        "answer_line": "Hips not perpendicular yet",
+        "answer_line": "Hips not fully perpendicular",
         "distractors": {
           "plausible": [
-            "Opponent hasn't tapped yet",
-            "Grip strength feels weak"
+            "Match clock under one minute",
+            "You are breathing hard"
           ],
           "trap": [
-            "Force finish, fix angle after"
+            "Crank hard and hope for a tap"
           ]
         }
       }
@@ -635,11 +635,11 @@
         "answer_line": "Injury hits in under a second",
         "distractors": {
           "plausible": [
-            "Referees penalize late taps",
-            "Escape attempts tire you out"
+            "The knee warns before tearing",
+            "Ligaments stretch back safely"
           ],
           "trap": [
-            "Explosive escape beats injury"
+            "Rip the leg free at the end"
           ]
         }
       },
@@ -677,14 +677,14 @@
         "question": "Your opponent has established the perpendicular angle but has not locked the leg triangle yet - what specific defensive actions should you take in this window?",
         "answer": "Immediately grab your own knee or shin with BOTH hands, interlocking your fingers or using a gable grip for maximum security. Pull your trapped leg tight to your chest to prevent the attacker from threading their inside leg across your thigh. Simultaneously begin posturing up by driving your hips forward and lifting your chest. Use your free leg to step toward the attacker's head, looking for the opportunity to step over and establish a defensive hook. This combined defense of grip protection and posture recovery attacks two elements the attacker needs: leg isolation and your positional weakness. Time is critical in this window - every second of delay makes the leg triangle lock more likely.",
         "safety_critical": false,
-        "answer_line": "Grab own knee, posture up",
+        "answer_line": "Grab your own knee and posture",
         "distractors": {
           "plausible": [
-            "Wait and conserve energy",
-            "Push their far hip only"
+            "Frame on their top shoulder",
+            "Bridge hard into the mat"
           ],
           "trap": [
-            "Spin out explosively now"
+            "Roll away to escape the leg"
           ]
         }
       },
@@ -695,11 +695,11 @@
         "answer_line": "Adds torque, tears ACL too",
         "distractors": {
           "plausible": [
-            "Uses too much energy",
-            "Signals panic to opponent"
+            "It gives up your hip angle",
+            "It hands them the back take"
           ],
           "trap": [
-            "Fast rotation frees the leg"
+            "Spin out hard before it locks"
           ]
         }
       }

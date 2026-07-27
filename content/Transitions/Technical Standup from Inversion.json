@@ -323,8 +323,8 @@
         "answer_line": "Vertical and slightly backward",
         "distractors": {
           "plausible": [
-            "Straight up, no angle",
-            "Forward into clinch range"
+            "Explode straight up, no angle",
+            "Down through your heels first"
           ],
           "trap": [
             "Drive hard forward at opponent"
@@ -365,8 +365,8 @@
         "answer_line": "Creates vulnerable static seat",
         "distractors": {
           "plausible": [
-            "Only wastes a little time",
-            "Signals a fake to opponent"
+            "Only wastes a fraction of time",
+            "Just loses your forward momentum"
           ],
           "trap": [
             "Gives a safe reset moment"
@@ -541,10 +541,10 @@
         "distractors": {
           "plausible": [
             "Sprawl hard like normal timing",
-            "Wait for full standup, engage"
+            "Wait for full standup, then engage"
           ],
           "trap": [
-            "Try to stack them back down"
+            "Lunge forward to muscle them down"
           ]
         }
       }

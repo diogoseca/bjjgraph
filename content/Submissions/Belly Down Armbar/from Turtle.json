@@ -300,11 +300,11 @@
         "answer_line": "Elbow joint hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder joint rotation",
-            "Wrist hyperextension"
+            "Wrist ligament strain",
+            "Neck and spine compression"
           ],
           "trap": [
-            "Bicep tendon rupture"
+            "Crank the neck if the arm slips"
           ]
         }
       },
@@ -315,11 +315,11 @@
         "answer_line": "Arm hidden, must expose it first",
         "distractors": {
           "plausible": [
-            "Hips already at the shoulder",
-            "Same isolation as armbar control"
+            "Turtle needs no wrist control",
+            "Finish angle changes, not the setup"
           ],
           "trap": [
-            "Assume arm already isolated"
+            "Dive for the arm before exposing"
           ]
         }
       },
@@ -331,7 +331,7 @@
         "distractors": {
           "plausible": [
             "Yank the wrist to free the arm",
-            "Wait for them to post"
+            "Flatten them out, then grip"
           ],
           "trap": [
             "Release chest pressure to peel"
@@ -361,7 +361,7 @@
         "distractors": {
           "plausible": [
             "Always abort and reset to top",
-            "Power through with strength"
+            "Post your hands and ride it out"
           ],
           "trap": [
             "Chase the roll with loose grip"
@@ -375,11 +375,11 @@
         "answer_line": "Apply slowly, 3-5 seconds minimum",
         "distractors": {
           "plausible": [
-            "Apply fast before they defend",
-            "Speed doesn't matter here"
+            "Same tempo as a supine armbar",
+            "Rely on their tap to set timing"
           ],
           "trap": [
-            "Snap it quickly for the tap"
+            "Drop hips hard for an instant break"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Stop, release grip, lift hips off",
         "distractors": {
           "plausible": [
-            "Release grip but keep hips down",
-            "Hold position until they move"
+            "Ask if they are okay, then let go",
+            "Reset to a control position first"
           ],
           "trap": [
-            "Keep weight on for a few seconds"
+            "Hold the arch until they recover"
           ]
         }
       },
@@ -420,8 +420,8 @@
         "answer_line": "Walk hips in, insert foot to pry",
         "distractors": {
           "plausible": [
-            "Rotate wrist first, ignore hips",
-            "Threaten wristlock immediately"
+            "Slide hips away for leverage",
+            "Squeeze knees tighter and stall"
           ],
           "trap": [
             "Overpower grip by pulling arms"
@@ -572,14 +572,14 @@
         "question": "How should you tap to the belly down armbar from turtle, and why is early tapping especially important for this submission?",
         "answer": "Tap verbally by clearly saying 'tap' and simultaneously tap physically with your free hand on the attacker's body or the mat. Tap early — as soon as you feel the arm straightening against your resistance and the pressure is clearly overwhelming your defense. Early tapping is especially critical for the belly-down armbar because the prone position generates force through body weight and gravity simultaneously, meaning the breaking point arrives much faster than with standard armbar positions. The attacker may not fully perceive how much force they are generating, making partner communication essential.",
         "safety_critical": true,
-        "answer_line": "Tap early, arm straightens fast",
+        "answer_line": "Tap early, voice and hand",
         "distractors": {
           "plausible": [
-            "Wait until it fully locks out",
-            "Tap only if it truly hurts"
+            "Tap with the trapped arm's fingers",
+            "Wait for the coach to call stop"
           ],
           "trap": [
-            "Fight through to escape first"
+            "Roll into it to spin free"
           ]
         }
       },
@@ -609,7 +609,7 @@
             "Grip the mat for base"
           ],
           "trap": [
-            "Leave it idle to save energy"
+            "Reach back to fight their grips"
           ]
         }
       },

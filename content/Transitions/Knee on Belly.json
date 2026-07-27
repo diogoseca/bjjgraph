@@ -228,7 +228,7 @@
             "Smother them into stillness"
           ],
           "trap": [
-            "Abandon knee for flat chest pressure"
+            "Chase the collar with no base"
           ]
         }
       },
@@ -242,7 +242,7 @@
             "On the hip bone"
           ],
           "trap": [
-            "Directly on the sternum"
+            "Knee across the throat"
           ]
         }
       },
@@ -252,7 +252,7 @@
         "answer_line": "Armbar or Kimura the near arm",
         "distractors": {
           "plausible": [
-            "Switch to mount immediately",
+            "Grab both wrists and hold",
             "Drop more weight into knee"
           ],
           "trap": [
@@ -295,10 +295,10 @@
         "distractors": {
           "plausible": [
             "Switch grips as you lift",
-            "Transition fast, fix frames after"
+            "Squeeze the head to hold them"
           ],
           "trap": [
-            "Lift chest first, clear frames after"
+            "Lift chest with frames still in"
           ]
         }
       },
@@ -336,7 +336,7 @@
         "answer_line": "Take the back as they turn",
         "distractors": {
           "plausible": [
-            "Switch to armbar immediately",
+            "Pull them flat to the mat",
             "Follow into Kesa Gatame instead"
           ],
           "trap": [
@@ -354,7 +354,7 @@
             "Same as standard, just faster"
           ],
           "trap": [
-            "Drop full weight, commit fully"
+            "Float off, lose all connection"
           ]
         }
       },
@@ -379,10 +379,10 @@
         "distractors": {
           "plausible": [
             "Wait for them to move first",
-            "Hold position, save energy"
+            "Switch back to side control"
           ],
           "trap": [
-            "Relax pressure and reset grips"
+            "Stand tall, no grips, knee off"
           ]
         }
       }
@@ -510,7 +510,7 @@
         "answer_line": "Frame with elbow, turn to side",
         "distractors": {
           "plausible": [
-            "Grab the knee and pull it off",
+            "Flatten out and wait it out",
             "Bridge explosively right away"
           ],
           "trap": [
@@ -524,8 +524,8 @@
         "answer_line": "Exposes arm to armbar or Kimura",
         "distractors": {
           "plausible": [
-            "Wastes energy, no space gained",
-            "Fails to create any angle"
+            "Signals panic to your opponent",
+            "Locks your hips to the mat"
           ],
           "trap": [
             "Best way to create space fast"
@@ -563,28 +563,28 @@
       {
         "question": "Your initial hip escape is blocked and you remain under Knee on Belly - what do you do next?",
         "answer": "Immediately chain into a secondary escape without pausing. If shrimping away was blocked, bridge toward the opponent's posting foot to disrupt their base, then reattempt the hip escape during their rebalancing. If both fail, try the opposite-side shrimp or look for a deep half entry. Each attempt creates incremental space improvement, and pausing allows the opponent to resettle their weight and punish your inactivity.",
-        "answer_line": "Bridge their post, then re-shrimp",
+        "answer_line": "Bridge their base, then re-shrimp",
         "distractors": {
           "plausible": [
-            "Pause and reset your grips",
-            "Repeat the same shrimp harder"
+            "Two-hand push on their knee",
+            "Reset frames and breathe first"
           ],
           "trap": [
-            "Stop moving, wait them out"
+            "Roll belly-down and give the back"
           ]
         }
       },
       {
         "question": "When is turning to turtle position an acceptable escape from Knee on Belly?",
         "answer": "Turtle is a last-resort escape when lateral hip escapes are completely blocked and the opponent is threatening imminent submissions. It provides immediate pressure relief but exposes your back to back takes and collar choke threats. If you turn to turtle, you must immediately work to face the opponent, stand up, or pull guard - never settle in turtle under a skilled top player who will transition to back control.",
-        "answer_line": "Last resort, escape immediately",
+        "answer_line": "Last resort, then escape at once",
         "distractors": {
           "plausible": [
-            "Preferred first response",
-            "Safe position to rest in"
+            "First choice against heavy knee",
+            "Best answer to collar grips"
           ],
           "trap": [
-            "Settle in turtle, catch your breath"
+            "Stay turtled and give up the back"
           ]
         }
       }

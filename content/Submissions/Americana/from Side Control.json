@@ -335,8 +335,8 @@
         "answer_line": "3-5 sec of progressive pressure",
         "distractors": {
           "plausible": [
-            "1-2 sec quick application",
-            "10+ sec very slow build"
+            "Speed matters less than angle",
+            "Any pace, just watch for tap"
           ],
           "trap": [
             "Snap it on fast and hard"
@@ -364,11 +364,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Elbow level with shoulder line",
-            "Elbow slightly behind shoulder"
+            "Aim the twist at the wrist",
+            "Tight grip beats arm angle"
           ],
           "trap": [
-            "Pull elbow behind their back"
+            "Crank the arm behind their back"
           ]
         },
         "answer_line": "Elbow stays in front of shoulder"
@@ -394,14 +394,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "45° elbow bend near ribs",
-            "Wrist pinned near the head"
+            "45° bend with wrist by the ribs",
+            "Wrist pinned up near the head"
           ],
           "trap": [
-            "Straighten arm, pull wrist out"
+            "Float the elbow and crank"
           ]
         },
-        "answer_line": "90° elbow, wrist pinned at hip"
+        "answer_line": "90° elbow, wrist pinned to hip"
       },
       {
         "question": "What are the three most common defenses to the Americana from side control, and how should you adjust your technique to counter each one?",
@@ -409,14 +409,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Release grip and reset position",
-            "Muscle through with more force"
+            "Wait until their arm tires out",
+            "Yank the wrist to the mat"
           ],
           "trap": [
-            "Abandon attack, reset side control"
+            "Drop cross-face to two-hand wrist"
           ]
         },
-        "answer_line": "Counter grip, arm, and roll"
+        "answer_line": "Break grip, bend arm, ride roll"
       },
       {
         "question": "Why is it dangerous to pull the wrist away from the opponent's body during the Americana rotation, and what is the correct mechanical application?",
@@ -425,11 +425,11 @@
         "answer_line": "Keep wrist pinned, elbow down",
         "distractors": {
           "plausible": [
-            "Pull wrist up toward head",
-            "Push wrist out to the side"
+            "Drag their arm past the ear",
+            "Squeeze harder, angle is fine"
           ],
           "trap": [
-            "Yank wrist away from body"
+            "Wrench the arm out sideways"
           ]
         }
       },
@@ -437,14 +437,14 @@
         "question": "Your opponent begins to posture up and push their elbow toward the ceiling during your Americana attempt - what adjustment prevents the escape?",
         "answer": "When the opponent tries to elevate their elbow, immediately drop your body weight lower and drive your chest into their trapped arm to pin it back down. Simultaneously, use your figure-four grip to pull their elbow toward your hip rather than allowing it to lift. If they continue fighting the position, briefly release rotational pressure to re-establish the proper 90-degree configuration before resuming the finish. The key is maintaining the elbow position - if they can lift it above shoulder level, the submission mechanics fail entirely.",
         "safety_critical": false,
-        "answer_line": "Drop weight, pin elbow down",
+        "answer_line": "Drop chest, drive elbow to hip",
         "distractors": {
           "plausible": [
-            "Pull harder on the wrist",
-            "Switch to armbar immediately"
+            "Yank the wrist harder",
+            "Slide straight to mount instead"
           ],
           "trap": [
-            "Let elbow rise, reset grip"
+            "Rise off them to crank harder"
           ]
         }
       },
@@ -455,13 +455,13 @@
         "distractors": {
           "plausible": [
             "Elbow joint, sharp bend pain",
-            "Wrist joint, tendon strain"
+            "Wrist tendons, burning strain"
           ],
           "trap": [
-            "AC joint, ignore mild ache"
+            "Ride out the ache, no tap"
           ]
         },
-        "answer_line": "Shoulder/rotator cuff, deep twist"
+        "answer_line": "Shoulder joint, deep twisting"
       },
       {
         "question": "What is the point of no escape for your opponent in the Americana, and how do you recognize when you've reached it?",
@@ -470,11 +470,11 @@
         "answer_line": "Wrist at hip, elbow locked front",
         "distractors": {
           "plausible": [
-            "Wrist at ribs, elbow floating",
-            "Grip locked, hips still free"
+            "They stop struggling entirely",
+            "Your grip finally feels tight"
           ],
           "trap": [
-            "Add force once they stop moving"
+            "Crank harder when they freeze"
           ]
         }
       },
@@ -485,11 +485,11 @@
         "answer_line": "Weight forward, tight elbows",
         "distractors": {
           "plausible": [
-            "Yank wrist harder for finish",
-            "Switch grips to armbar"
+            "Sit up tall for more leverage",
+            "Hold still and wait them out"
           ],
           "trap": [
-            "Release pressure to reset"
+            "Rise onto your knees to crank"
           ]
         }
       },
@@ -500,11 +500,11 @@
         "answer_line": "Training loose, comp grip tight",
         "distractors": {
           "plausible": [
-            "Both equally tight for control",
-            "Training tighter, comp relaxed"
+            "Only the speed changes",
+            "Gi and no-gi decide it"
           ],
           "trap": [
-            "Death-grip always, no exceptions"
+            "Crush it in drilling too"
           ]
         }
       }
@@ -649,14 +649,14 @@
         "question": "Why is bridging away from the opponent during an Americana defense counterproductive, and what direction should you move instead?",
         "answer": "Bridging away from the opponent is counterproductive because it increases the available angle for external rotation of your shoulder. When you bridge away, you create space between your elbow and your body, which allows the opponent to drive your hand further toward your hip and complete the submission more easily. Instead, you should bridge toward the opponent and turn your body to face them. This closes the rotation angle, reduces the mechanical advantage of the figure-four, and creates opportunities to thread your arm free or recover guard. The direction of your bridge determines whether you help or hinder the submission.",
         "safety_critical": true,
-        "answer_line": "Bridge toward them, turn in",
+        "answer_line": "Bridge toward them and turn in",
         "distractors": {
           "plausible": [
-            "Turn face-down to hide arm",
-            "Push off with free hand"
+            "Push their head with free hand",
+            "Flatten out and wait it out"
           ],
           "trap": [
-            "Bridge away to create space"
+            "Roll away onto your stomach"
           ]
         }
       },
@@ -667,11 +667,11 @@
         "answer_line": "Tap when rotation locks shoulder",
         "distractors": {
           "plausible": [
-            "Tap only if sharp pain hits",
-            "Wait for coach to call it"
+            "When the grip first touches you",
+            "As soon as they mount you"
           ],
           "trap": [
-            "Fight it, tap only if it moves"
+            "Muscle out until it pops"
           ]
         }
       },
@@ -682,11 +682,11 @@
         "answer_line": "Grip bicep, frame, hip escape",
         "distractors": {
           "plausible": [
-            "Pull wrist back immediately",
-            "Turtle up to protect arm"
+            "Rip the wrist straight back",
+            "Push their shoulder away"
           ],
           "trap": [
-            "Wait and see if they lock it"
+            "Turn away and give up the back"
           ]
         }
       },

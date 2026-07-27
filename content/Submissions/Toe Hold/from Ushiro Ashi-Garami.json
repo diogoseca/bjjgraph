@@ -302,10 +302,10 @@
         "distractors": {
           "plausible": [
             "Rotate toward inside hip",
-            "Same angle as standard toe hold"
+            "Match standard toe hold angle"
           ],
           "trap": [
-            "Rotation direction irrelevant"
+            "Crank without securing entanglement"
           ]
         }
       },
@@ -328,14 +328,14 @@
         "question": "What indicators tell you the opponent is approaching their breaking point during the toe hold application?",
         "answer": "Key indicators include the opponent's leg becoming rigid and resisting further rotation, a noticeable change in their breathing pattern such as holding breath or sharp exhales, their free hand abandoning grip fighting to tap, verbal signals of distress, and the ankle reaching the end range of its natural rotation where the ligaments begin to stretch. When you feel the ankle reaching maximum rotation resistance, slow your application further.",
         "safety_critical": true,
-        "answer_line": "Leg stiffens, breath changes",
+        "answer_line": "Leg stiffens, breathing changes",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "Only verbal tap counts"
+            "They speed up trying to escape",
+            "Ankle feels loose and mobile"
           ],
           "trap": [
-            "Loud yelling means keep going"
+            "Loud yelling means push harder"
           ]
         }
       },
@@ -362,10 +362,10 @@
         "distractors": {
           "plausible": [
             "As soon as grip touches foot",
-            "Only when opponent taps"
+            "When your elbows flare out"
           ],
           "trap": [
-            "Never past escape until submission"
+            "Stop rotating to reset grip"
           ]
         }
       },
@@ -511,11 +511,11 @@
         "answer_line": "Hands leave hips, reach toward foot",
         "distractors": {
           "plausible": [
-            "Sudden increase in pressure",
+            "Sudden spike in ankle pressure",
             "Opponent grips your collar"
           ],
           "trap": [
-            "No warning signs exist"
+            "Wait until the grip is locked"
           ]
         }
       },
@@ -556,11 +556,11 @@
         "answer_line": "Can't rotate hips to relieve",
         "distractors": {
           "plausible": [
-            "Ankle is more flexible here",
-            "Grip is weaker in ushiro"
+            "Ankle bends further in ushiro",
+            "Figure-four grip is weaker"
           ],
           "trap": [
-            "Easier because of new angle"
+            "Spin your hips to escape"
           ]
         }
       },
@@ -571,11 +571,11 @@
         "answer_line": "Any popping, or grip locked 2-3s",
         "distractors": {
           "plausible": [
-            "Only after sharp pain hits",
-            "When you can't breathe"
+            "Only after sharp pain arrives",
+            "Wait for swelling to appear"
           ],
           "trap": [
-            "Keep fighting until forced out"
+            "Keep resisting until forced out"
           ]
         }
       }

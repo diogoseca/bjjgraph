@@ -286,14 +286,14 @@
       {
         "question": "Why must setups precede the level change rather than shooting from a static position?",
         "answer": "Shooting without setup gives an alert opponent roughly 300 milliseconds to recognize the shot and react with a sprawl, making defense far easier than the attack. Setups like collar ties, snap downs, and feints create defensive reactions that momentarily occupy the opponent's attention and disrupt their base positioning. This disruption creates a timing window where the shot arrives before the opponent can mount an effective defensive response, dramatically increasing the takedown's success rate.",
-        "answer_line": "Setups create reaction window",
+        "answer_line": "Setup steals opponent's react time",
         "distractors": {
           "plausible": [
-            "Feints alone finish takedown",
-            "Setups just fatigue opponent"
+            "Speed alone outruns the sprawl",
+            "Grips mainly build arm fatigue"
           ],
           "trap": [
-            "Shoot without setup, static"
+            "Dive on static shot, get guillotined"
           ]
         }
       },
@@ -526,14 +526,14 @@
       {
         "question": "After successfully sprawling on your opponent's shot, what offensive option provides the highest positional return?",
         "answer": "The front headlock position offers the highest offensive return after a successful sprawl. As you drive your weight onto their upper back, circle toward their head to establish a front headlock with one arm around their neck and the other controlling their near arm. From this position, you can attack with snap downs to turtle them, set up guillotines or anaconda chokes, or use the head control to spin behind for a back take. The key is transitioning immediately from defense to offense rather than passively returning to neutral.",
-        "answer_line": "Front headlock, attack neck",
+        "answer_line": "Circle to front headlock, snap down",
         "distractors": {
           "plausible": [
-            "Return to neutral stance",
-            "Push away and reset feet"
+            "Stand up, reset in open space",
+            "Pull them into your closed guard"
           ],
           "trap": [
-            "Release and back off entirely"
+            "Dive for guillotine, they pass"
           ]
         }
       }

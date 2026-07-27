@@ -325,14 +325,14 @@
         "question": "What is the minimum application time for this submission in training, and why is this critical?",
         "answer": "The minimum application time is 3-5 seconds of progressive pressure from catch to full extension. This is critical because the elbow joint can be severely damaged or dislocated before an opponent realizes they are in danger if pressure is applied too quickly. The gradual application gives your training partner sufficient time to recognize the submission and tap safely, preventing serious injuries like torn ligaments or elbow dislocation that could require surgery and months of recovery.",
         "safety_critical": true,
-        "answer_line": "3-5 sec, progressive pressure",
+        "answer_line": "3-5 sec of progressive pressure",
         "distractors": {
           "plausible": [
-            "1-2 seconds is enough",
-            "10+ seconds, very slow"
+            "Speed doesn't matter, only angle",
+            "Only needed for beginners"
           ],
           "trap": [
-            "Snap it on fast for tap"
+            "Snap to full extension instantly"
           ]
         }
       },
@@ -340,14 +340,14 @@
         "question": "What anatomical structure does this submission attack and what causes the tap?",
         "answer": "This submission attacks the elbow joint, specifically hyperextending the arm against its natural range of motion. The tap is caused by pressure on the elbow joint's ligaments (medial and lateral collateral ligaments) and the joint capsule itself. The hip bones serve as the fulcrum point, and when hip extension is applied while the wrist is controlled and pulled toward your chest, the elbow is forced into hyperextension. The opponent feels intense pressure on the elbow joint that rapidly escalates toward dislocation if not released.",
         "safety_critical": true,
-        "answer_line": "Elbow hyperextension",
+        "answer_line": "Elbow hyperextension over hips",
         "distractors": {
           "plausible": [
             "Wrist joint pressure",
-            "Shoulder joint pressure"
+            "Shoulder rotation pressure"
           ],
           "trap": [
-            "Bicep muscle tear"
+            "Rip the arm straight at speed"
           ]
         }
       },
@@ -355,14 +355,14 @@
         "question": "Why must you maintain at least one hook during the initial transition phase?",
         "answer": "Maintaining at least one hook during the initial transition prevents opponent from rolling forward over their shoulder or turning into you before your leg configuration is established. If you remove both hooks too early, you lose the back control that provides the necessary control to safely isolate their arm. The hook acts as an anchor point that keeps them in place while you swing your leg over their face. Only once your top leg is secured across their face should you remove the bottom hook to complete the armbar position.",
         "safety_critical": false,
-        "answer_line": "Stops them rolling forward",
+        "answer_line": "Stops them rolling forward out",
         "distractors": {
           "plausible": [
-            "Keeps back points secured",
-            "Controls their far arm"
+            "Sets up the choke grip",
+            "Frees your hips to swing over"
           ],
           "trap": [
-            "Let go both hooks early"
+            "Strip both hooks, chase the arm"
           ]
         }
       },
@@ -370,14 +370,14 @@
         "question": "What is the correct thumb position for maximum submission effectiveness and what happens if the thumb rotates?",
         "answer": "The opponent's thumb should point upward toward their head (supinated position) throughout the submission. This arm position creates maximum vulnerability in the elbow joint and ensures that hip extension creates pressure on the elbow rather than the wrist or shoulder. If the thumb rotates downward, the submission becomes significantly less effective and enables the hitchhiker escape, where opponent can rotate their arm and slip out. Incorrect thumb position may also cause wrist injury instead of proper elbow pressure, making it both less effective and potentially more dangerous.",
         "safety_critical": true,
-        "answer_line": "Thumb points up (supinated)",
+        "answer_line": "Thumb points up, supinated",
         "distractors": {
           "plausible": [
-            "Thumb points sideways",
-            "Thumb tucked into palm"
+            "Pinky up, palm turned outward",
+            "Knuckles turned toward their feet"
           ],
           "trap": [
-            "Let thumb point down"
+            "Turn their palm toward the mat"
           ]
         }
       },
@@ -400,14 +400,14 @@
         "question": "Where exactly should the opponent's elbow be positioned on your body for optimal leverage and why?",
         "answer": "The opponent's elbow joint should be positioned directly over your hip bones, which serve as the fulcrum point for the submission. If the elbow is too high on your torso, you lose leverage and the submission feels weak because the fulcrum is soft tissue rather than bone. If too low (below your hips), you also lose leverage and create space for them to pull their arm back. Your hips should be slightly elevated with your shoulders lower, creating the optimal lever geometry where small hip extension creates maximum pressure on their elbow. The hip bones provide the hardest, most stable surface for the fulcrum effect.",
         "safety_critical": false,
-        "answer_line": "Elbow directly on hip bones",
+        "answer_line": "Elbow right on your hip bones",
         "distractors": {
           "plausible": [
-            "Elbow high on the ribs",
-            "Elbow low past the hips"
+            "Higher, on the soft ribs",
+            "Below the hip, near the thigh"
           ],
           "trap": [
-            "Elbow on your stomach"
+            "Extend hips with the arm off bone"
           ]
         }
       },
@@ -418,8 +418,8 @@
         "answer_line": "Release immediately, it's a tap",
         "distractors": {
           "plausible": [
-            "Ease off and ask if okay",
-            "Pause and wait for tap"
+            "Wait for a verbal tap first",
+            "Loosen slightly and keep going"
           ],
           "trap": [
             "Keep pressure, confirm first"
@@ -430,14 +430,14 @@
         "question": "How do your legs function differently in this submission compared to a standard armbar from guard?",
         "answer": "In the armbar from back with legs, your legs serve a dual purpose of both control and submission. The top leg across their face prevents them from turning into you and controls the direction of their upper body, while the bottom leg hooks under their far shoulder to prevent rolling escapes. Both legs actively squeeze together to pin their shoulder and eliminate space. This is different from the standard armbar from guard where the legs primarily create the fulcrum and control the head, but you have less control over their body rotation since they start facing you. The back control origin provides superior rotational control.",
         "safety_critical": false,
-        "answer_line": "Legs control turn AND pin shoulder",
+        "answer_line": "Legs control turn and pin shoulder",
         "distractors": {
           "plausible": [
-            "Legs only create the fulcrum",
-            "Top leg only, no bottom hook"
+            "Legs only form the fulcrum",
+            "Top leg alone, no bottom hook"
           ],
           "trap": [
-            "Cross ankles, ignore shoulder"
+            "Pull both legs off to finish"
           ]
         }
       },
@@ -448,11 +448,11 @@
         "answer_line": "Elbow on hips, thumb up, knees tight",
         "distractors": {
           "plausible": [
-            "Wrist loose, elbow near torso",
-            "Body angled, legs relaxed"
+            "Their arm is already straight",
+            "You still have both hooks in"
           ],
           "trap": [
-            "Apply pressure before locking in"
+            "Extend hips before it's locked"
           ]
         }
       },
@@ -460,14 +460,14 @@
         "question": "What common grip adjustments might you need to make during the finishing sequence and why?",
         "answer": "During the finish, you may need to adjust grips to maintain control as opponent struggles. If they attempt to rotate their arm, switch to a two-on-one wrist grip that prevents thumb rotation. If their wrist is slipping, grab their hand directly rather than the wrist for more secure control. Some practitioners switch to a figure-four grip on the wrist for maximum control. You may also need to slide your grip higher toward their elbow if they're creating space at the wrist. The key is maintaining constant tension - never fully release one grip before establishing another.",
         "safety_critical": false,
-        "answer_line": "Switch grips, never fully release",
+        "answer_line": "Swap grips without losing contact",
         "distractors": {
           "plausible": [
-            "Grab the wrist, ignore hand",
-            "Release grip, then re-grab"
+            "Keep one grip, never change it",
+            "Palm-to-palm on their shoulder"
           ],
           "trap": [
-            "Let go both hands to reset"
+            "Let go with both hands to reset"
           ]
         }
       },
@@ -475,14 +475,14 @@
         "question": "What is the point of no escape for your opponent in this submission?",
         "answer": "The point of no escape occurs when your legs are fully configured with knees squeezed tight, their elbow is aligned over your hip bones, their thumb is pointing up with wrist secured to your chest, and your top leg is heavy across their face. Once all these elements are in place, even strong opponents cannot power out because their arm is isolated from their body's strength. The critical moment is when you complete the hip pivot and establish the leg across the face - before this, rolling escapes are possible. After this configuration is locked, only the hitchhiker escape or stacking defense remain viable, both of which are easily countered with proper pressure.",
         "safety_critical": false,
-        "answer_line": "Legs locked, elbow over hips",
+        "answer_line": "Knees tight, elbow over hips",
         "distractors": {
           "plausible": [
-            "As soon as you catch the arm",
-            "When wrist grip is secured"
+            "The moment you catch the arm",
+            "When your wrist grip is set"
           ],
           "trap": [
-            "Once you start hip extension"
+            "Extend hips with knees still open"
           ]
         }
       },
@@ -490,14 +490,14 @@
         "question": "In competition, what finishing strategies maximize your success rate with this submission?",
         "answer": "In competition, establish complete positional control before committing to the finish - rushing leads to failed attempts. Use the threat of rear naked choke to bait arm extension, then immediately transition. Apply steady increasing pressure rather than explosive force even in competition to prevent referee stoppage before tap. If opponent is highly defensive, chain the armbar threat with triangle and back choke attempts to force reactions. Be prepared to follow rolling escapes and finish from the top position. Finally, if they establish a strong defensive grip, maintain pressure and wait for their grip to fatigue rather than trying to rip through it.",
         "safety_critical": false,
-        "answer_line": "Control first, steady pressure",
+        "answer_line": "Control first, then steady pressure",
         "distractors": {
           "plausible": [
-            "Rip through their grip fast",
-            "Explosive pressure, no setup"
+            "Grip fight until they tire",
+            "Switch submissions every few secs"
           ],
           "trap": [
-            "Force the finish immediately"
+            "Fall back loose and get stacked"
           ]
         }
       }
@@ -645,14 +645,14 @@
         "question": "Why is turning toward the attacker more effective than turning away during the transition phase?",
         "answer": "Turning toward the attacker compresses the space they need to complete the leg swing over your face and disrupts their hip rotation. It also positions you to stack their hips, which neutralizes the fulcrum they need for the finish. Turning away does the opposite - it opens space for their leg to swing freely, extends your arm further from your body, and gives them a cleaner angle to complete the armbar configuration. Turning toward the attacker converts their momentum against them, while turning away accelerates their success.",
         "safety_critical": false,
-        "answer_line": "Turn toward attacker, stack hips",
+        "answer_line": "Turn toward them, stack the hips",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Pull your arm back sharply"
+            "Bridge straight back into them",
+            "Flatten out and wait it out"
           ],
           "trap": [
-            "Turn away from the attacker"
+            "Roll away and extend the arm"
           ]
         }
       },
@@ -660,14 +660,14 @@
         "question": "At what point should you tap rather than continue defending this submission?",
         "answer": "You should tap immediately when you feel your arm reaching full extension with the attacker's hips beginning to elevate against your elbow joint. If your defensive grip has been broken, your arm is straightened, and you feel increasing pressure on your elbow with no viable escape remaining, tap immediately. Joint locks can cause permanent damage in fractions of a second once the breaking point is reached. There is no benefit to enduring pain hoping for an escape that is mechanically impossible. In training, err on the side of tapping early - you can always reset and work the defense again without risking months of recovery from a hyperextended elbow.",
         "safety_critical": true,
-        "answer_line": "Tap at full extension, hips rise",
+        "answer_line": "Tap as arm straightens, hips rise",
         "distractors": {
           "plausible": [
-            "Wait to see if it slips",
-            "Tap only when it pops"
+            "Wait until it starts to hurt",
+            "Give up as soon as they isolate"
           ],
           "trap": [
-            "Fight through the pain"
+            "Ride it out and hope it slips"
           ]
         }
       },
@@ -690,14 +690,14 @@
         "question": "How does the forward roll escape work mechanically, and what is its primary risk?",
         "answer": "The forward roll works by rotating your body over your trapped shoulder in the direction the arm is extended. This rotation disrupts the attacker's hip alignment because their hips were positioned perpendicular to your original body angle. As you roll, their legs lose the optimal squeezing angle and their hip extension becomes misaligned with your elbow. The primary risk is that a prepared attacker will maintain wrist control throughout the roll and simply finish the armbar from the new top position, potentially with even tighter control since gravity now assists their hip extension. This escape works best against opponents who do not anticipate it and release pressure during the roll.",
         "safety_critical": false,
-        "answer_line": "Roll over trapped shoulder",
+        "answer_line": "Roll over shoulder; risk belly-down",
         "distractors": {
           "plausible": [
-            "Roll away from the arm",
-            "Sit up and pull the arm free"
+            "Bridge straight up into their hips",
+            "Rip the elbow free with strength"
           ],
           "trap": [
-            "Roll without wrist control"
+            "Roll away, extending the elbow"
           ]
         }
       }

@@ -330,11 +330,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Behind knee for more leverage",
-            "Wedge near the achilles tendon"
+            "Behind the knee slips off easily",
+            "Calf spot gives better leverage"
           ],
           "trap": [
-            "Drive shin into knee joint"
+            "Wedge shin behind knee joint"
           ]
         },
         "answer_line": "Compresses muscle, not just joint"
@@ -345,14 +345,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Fast apply forces quicker tap",
-            "Only knee ligaments at risk"
+            "Only knee ligaments at risk",
+            "Just bruising, heals in days"
           ],
           "trap": [
-            "Crank hard, they'll tap from pain"
+            "Crank fast, tap comes sooner"
           ]
         },
-        "answer_line": "Slow apply lets pain signal build"
+        "answer_line": "Tear, PCL, compartment syndrome"
       },
       {
         "question": "How does the truck position's hip twist contribute to the effectiveness of the calf slicer submission?",
@@ -360,14 +360,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Twist tires their upper body",
-            "Traps arms to prevent posting"
+            "Tires their upper body",
+            "Traps arms to stop posting"
           ],
           "trap": [
-            "Frees their legs to move freely"
+            "Untwist hips to grab the heel"
           ]
         },
-        "answer_line": "Blocks hip extension, knee rotation"
+        "answer_line": "Blocks hip extension, knee turn"
       },
       {
         "question": "Why should you transition rather than increase pressure if a properly applied calf slicer doesn't produce a tap within 7-8 seconds?",
@@ -375,27 +375,27 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Crank harder for the tap",
-            "Hold position, wait longer"
+            "Waiting longer wears them down",
+            "They tap once grip tightens"
           ],
           "trap": [
-            "Add sudden explosive force"
+            "Explode in for a fast finish"
           ]
         },
-        "answer_line": "Transition, don't add pressure"
+        "answer_line": "More pressure only adds injury risk"
       },
       {
         "question": "What is the correct grip placement on the opponent's foot and why is gripping the toes dangerous?",
         "answer": "The correct grip is on the heel bone itself or cupping the entire foot from the top with your palm on the dorsal surface and fingers wrapping around the heel. You can also use a boot grip (palm on sole, fingers over top) in no-gi situations. Gripping individual toes is dangerous because: (1) toes have small bones and joints not designed to withstand pulling force, creating risk of metatarsal fractures or toe dislocations, (2) toe grips provide insufficient control and the foot can slip free during compression, causing you to compensate with excessive force elsewhere, and (3) if the opponent flexes their foot defensively, concentrated pressure on toes can cause immediate digit injuries. The heel provides a large, strong bone structure that can safely handle the pulling forces required for effective compression without risk of small bone injuries.",
         "safety_critical": true,
-        "answer_line": "Grip the heel bone, not toes",
+        "answer_line": "Heel bone or full-foot cup grip",
         "distractors": {
           "plausible": [
-            "Cup the arch for control",
-            "Grab ankle bone for leverage"
+            "Grab the shin to steer the leg",
+            "Pinch the ankle bone for leverage"
           ],
           "trap": [
-            "Grip individual toes tightly"
+            "Yank the toes for extra pull"
           ]
         }
       },
@@ -405,14 +405,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Reset to truck and re-attack",
-            "Switch to banana split first"
+            "Crank harder on the same calf",
+            "Swap to a banana split"
           ],
           "trap": [
-            "Chase the straightening leg"
+            "Chase the leg, lose their back"
           ]
         },
-        "answer_line": "Rotate hips up into Twister"
+        "answer_line": "Rotate hips higher into Twister"
       },
       {
         "question": "Your opponent begins straightening their leg during the calf slicer attempt - what specific indicators tell you when to abandon the finish versus when to maintain pressure?",
@@ -420,14 +420,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Any leg movement means abandon",
-            "Slow extension means abandon too"
+            "Bail on any leg movement",
+            "Bail once extension is slow"
           ],
           "trap": [
-            "Add pressure to stop slide"
+            "Muscle it, give up back control"
           ]
         },
-        "answer_line": "Shin sliding off calf = abandon"
+        "answer_line": "Shin slips off calf, bail out"
       },
       {
         "question": "What are the key differences between finishing the calf slicer in training versus competition, and why must training application always remain slower?",
@@ -435,14 +435,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Match competition speed in drills",
-            "Speed up once position is locked"
+            "Partners expect comp-level risk",
+            "Drill pace should mirror matches"
           ],
           "trap": [
-            "Go full speed to test toughness"
+            "Snap it on to test toughness"
           ]
         },
-        "answer_line": "Training always stays slow"
+        "answer_line": "Training keeps the 5-7s ramp"
       },
       {
         "question": "How do you recognize compartment syndrome symptoms during or after applying a calf slicer, and what is the correct response?",
@@ -450,27 +450,27 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Massage the calf to relieve it",
-            "Ice it and keep training"
+            "Massage the calf to loosen it",
+            "Ice it and finish the round"
           ],
           "trap": [
-            "Push through, it's just soreness"
+            "Wrap it tight and keep rolling"
           ]
         },
-        "answer_line": "Stop, elevate, seek ER care"
+        "answer_line": "Stop, leg at heart level, ER"
       },
       {
         "question": "What specific body positioning allows you to maintain truck control while applying the calf slicer without losing upper body pressure?",
         "answer": "The key is keeping your chest connected to their upper back while rotating your hips toward their legs for the submission. Your inside arm (the one closest to their head) maintains the harness grip or posts near their shoulder to prevent them rolling toward you. Your outside arm controls the heel for compression. Your top leg drives over their hip continuously, acting as an anchor that connects upper and lower body control. The common mistake is fully rotating toward their legs, which removes chest pressure and allows escape. Instead, think of your body as a diagonal across theirs - chest on upper back, hips rotated toward legs, with your top leg as the bridge maintaining connection between the two control points.",
         "safety_critical": false,
-        "answer_line": "Chest stays connected to back",
+        "answer_line": "Chest glued to their upper back",
         "distractors": {
           "plausible": [
-            "Rotate fully toward the legs",
-            "Drop crossface, chase the heel"
+            "Rotate fully toward their legs",
+            "Square your hips to finish"
           ],
           "trap": [
-            "Abandon harness to grip heel"
+            "Drop the harness to grab heel"
           ]
         }
       },
@@ -478,14 +478,14 @@
         "question": "When your opponent posts their hand to create space under their hips, what is the immediate priority and why?",
         "answer": "The immediate priority is increasing chest pressure on their upper back to flatten them, not fighting the posted hand directly. When they post, they're creating space to potentially straighten their leg or roll - addressing the cause (space) is more effective than fighting the symptom (the post). Drop your weight lower on their back, potentially switching from harness to crossface control if needed. Once they're flattened again, their post becomes ineffective. Fighting the posted hand directly often leads to a grip battle that takes your attention away from the submission and allows them to continue creating space. By addressing the upper body control problem first, you remove the structural support their post relies on.",
         "safety_critical": false,
-        "answer_line": "Increase chest pressure to flatten",
+        "answer_line": "Flatten them with chest pressure",
         "distractors": {
           "plausible": [
-            "Fight the post hand directly",
-            "Switch immediately to armbar"
+            "Fight the posting hand",
+            "Pull their hips down for space"
           ],
           "trap": [
-            "Release upper body for the heel"
+            "Let go up top to chase heel"
           ]
         }
       },
@@ -495,14 +495,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Only stress the ankle joint",
-            "Pull only on the achilles"
+            "Achilles tendon takes the load",
+            "Knee ligaments alone cause pain"
           ],
           "trap": [
-            "Hyperextend the knee straight"
+            "Wrench the knee straight instead"
           ]
         },
-        "answer_line": "Squeeze calf vs shin and femur"
+        "answer_line": "Calf crushed between shin and femur"
       }
     ],
     "clips": [
@@ -636,14 +636,14 @@
         "question": "Why is straightening your trapped leg both the primary defense and simultaneously dangerous?",
         "answer": "Straightening the leg is the primary defense because it removes the compression angle entirely - without the knee bent, there's no way to fold the calf against the hamstring and the shin wedge loses its mechanical advantage. However, it's simultaneously dangerous because extending the leg removes the physical barrier between the attacker and your head/upper body, which is exactly what the attacker needs to transition to the Twister. The straightened leg essentially clears the path for the attacker to rotate higher on your back and attack your spine. This is the core dilemma of the truck position: defending the lower body attack opens the upper body attack. The solution is to straighten the leg while simultaneously protecting your neck and far arm, treating it as a coordinated two-part defensive action rather than addressing only one threat.",
         "safety_critical": false,
-        "answer_line": "Removes bend but opens Twister",
+        "answer_line": "Kills the bend, invites Twister",
         "distractors": {
           "plausible": [
-            "Only defense, no real risk",
-            "Bend more to ease pressure"
+            "It also strips their boot",
+            "Extension is safe once flat"
           ],
           "trap": [
-            "Extend leg, drop head guard"
+            "Extend and leave your neck open"
           ]
         }
       },
@@ -654,11 +654,11 @@
         "answer_line": "Tap at sharp knee pain, numbness",
         "distractors": {
           "plausible": [
-            "Wait until it's unbearable",
-            "Tap only if muscle tears"
+            "Tap only if the knee pops",
+            "Defend until your grip fails"
           ],
           "trap": [
-            "Tough it out, breathe through it"
+            "Breathe and ride out the squeeze"
           ]
         }
       },
@@ -666,14 +666,14 @@
         "question": "How does clearing the attacker's boot (foot on your hip) affect your ability to escape the calf slicer?",
         "answer": "The boot is the engine of the entire truck position. It creates the lateral torque that twists your hips, breaks your base, and prevents you from generating the hip extension power needed to straighten your leg. When you clear the boot, several things happen simultaneously: the hip twist reduces, allowing you to square your hips; your base improves because you can now post more effectively; and critically, your ability to straighten your trapped leg dramatically increases because the rotational restriction on your hips is removed. Clearing the boot doesn't directly stop the calf compression, but it removes the positional foundation that makes the compression mechanically viable. Without boot pressure, the attacker must choose between maintaining the calf slicer with reduced control or abandoning it to re-establish truck position.",
         "safety_critical": false,
-        "answer_line": "Clears boot, frees hip rotation",
+        "answer_line": "Kills hip twist, restores base",
         "distractors": {
           "plausible": [
-            "Strip heel grip instead",
-            "Post hard to break their base"
+            "Only helps you strip heel grip",
+            "It mainly frees your far arm"
           ],
           "trap": [
-            "Push into the boot pressure"
+            "Press into boot, deepen twist"
           ]
         }
       },
@@ -681,14 +681,14 @@
         "question": "Your opponent has the calf slicer partially set but hasn't achieved full compression yet - what specific sequence of defensive actions gives you the best chance of escape?",
         "answer": "The optimal defensive sequence is: (1) Immediately begin extending your trapped leg with controlled force to prevent full compression from being established, (2) Simultaneously tuck your chin and protect your far arm against your body to prevent the Twister transition that leg extension enables, (3) Use your free hand to fight the attacker's heel grip - if you can strip their grip on your heel, the compression mechanism is broken even if the shin wedge remains, (4) Work to clear the boot pressure on your hip with whatever hand becomes available, (5) Once boot is cleared and leg is extended, use the improved hip mobility to rotate back to neutral alignment, and (6) Extract your leg from the remaining entanglement and recover to half guard or turtle. This sequence addresses threats in order of urgency: immediate submission, secondary submission transition, positional control, and finally position recovery.",
         "safety_critical": false,
-        "answer_line": "Extend leg, guard neck, strip grip",
+        "answer_line": "Extend, guard neck, strip grip",
         "distractors": {
           "plausible": [
-            "Clear boot first, then extend",
-            "Strip grip, ignore neck safety"
+            "Clear the boot before extending",
+            "Strip the heel grip first"
           ],
           "trap": [
-            "Fight compression with strength"
+            "Wait, then muscle the leg free"
           ]
         }
       }

@@ -300,11 +300,11 @@
         "answer_line": "Trapped shoulder wedges far carotid",
         "distractors": {
           "plausible": [
-            "Choking leg targets windpipe",
-            "Trapped arm is only for control"
+            "Choking leg crushes the windpipe",
+            "Free arm supplies all the pressure"
           ],
           "trap": [
-            "Ignore arm, squeeze legs harder"
+            "Crank the neck to finish faster"
           ]
         }
       },
@@ -315,11 +315,11 @@
         "answer_line": "Pull head toward trapped-arm side",
         "distractors": {
           "plausible": [
-            "Push chin down further",
-            "Wait for chin to loosen naturally"
+            "Drive chin down with your palm",
+            "Hold and wait for the chin to tire"
           ],
           "trap": [
-            "Squeeze harder until chin gives"
+            "Sit up off them to muscle it in"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Face reddens, defense weakens",
         "distractors": {
           "plausible": [
-            "Loud verbal complaints of pain",
-            "Increased frantic resistance"
+            "Their grips get stronger on you",
+            "They shout that it is too tight"
           ],
           "trap": [
-            "Sudden stillness means submission"
+            "Keep squeezing after they go limp"
           ]
         }
       },
@@ -360,11 +360,11 @@
         "answer_line": "Angle set, lock closed, posture flat",
         "distractors": {
           "plausible": [
-            "As soon as triangle leg crosses",
-            "When defender begins bridging"
+            "As soon as a leg crosses the neck",
+            "When they start to bridge hard"
           ],
           "trap": [
-            "Once any squeeze is applied"
+            "Relax the lock once they stop moving"
           ]
         }
       },
@@ -402,14 +402,14 @@
         "question": "How do you manage energy expenditure during a prolonged finishing attempt when the defender is surviving but not escaping?",
         "answer": "Use structural pressure rather than muscular effort. Let gravity and your body weight create compression through the triangle rather than relying on sustained adductor squeeze, which fatigues rapidly. Apply pressure in pulses — tighten for three to five seconds, assess, adjust angle or grips if needed, then re-apply. If the defender is surviving after 15-20 seconds of committed finishing, transition to armbar or back take rather than continuing to deplete your legs. A fresh transition attack is higher percentage than grinding through a stalled choke.",
         "safety_critical": false,
-        "answer_line": "Pulse squeeze, transition if stalled",
+        "answer_line": "Pulse the squeeze, then switch",
         "distractors": {
           "plausible": [
-            "Squeeze as hard as possible",
-            "Wait passively for them to tire"
+            "Max muscular effort throughout",
+            "Hold still until they gas out"
           ],
           "trap": [
-            "Squeeze nonstop, never let up"
+            "Sit up to squeeze, losing your base"
           ]
         }
       },
@@ -417,14 +417,14 @@
         "question": "In competition, what strategic adjustments maximize your finishing probability from mounted triangle?",
         "answer": "In competition, establish the mounted triangle early when the defender's energy is lower from fighting through your mount progression. Use the points advantage (4 for mount) to pressure them into risky escape attempts that tighten the triangle. Apply the choke in short bursts with re-adjustments between rather than one long squeeze that drains your legs for subsequent rounds. If the choke is not finishing, transition rapidly to armbar — referees may restart from standing if the position stalls. Keep one hand posted during finishing to prevent any last-resort sweep attempts.",
         "safety_critical": false,
-        "answer_line": "Short bursts, quick armbar switch",
+        "answer_line": "Short bursts, then hit the armbar",
         "distractors": {
           "plausible": [
-            "One long continuous squeeze",
-            "Wait full round to transition"
+            "One long unbroken squeeze",
+            "Stall the whole round in the lock"
           ],
           "trap": [
-            "Long squeeze, no hand posted"
+            "Both hands off the mat to crank"
           ]
         }
       },
@@ -432,14 +432,14 @@
         "question": "What distinguishes a properly angled mounted triangle that will produce a tap from one that is just uncomfortable pressure?",
         "answer": "A finishing-quality mounted triangle has legs crossing perpendicular to the spine with the choking leg's calf pressing directly on the lateral neck, not sliding up onto the jaw or down onto the trapezius. The trapped shoulder must be wedged firmly against the opposite carotid — if the arm is floating or angled away, only one carotid is compressed and consciousness is maintained indefinitely. The head must be broken down so there is zero space between the thigh and the neck. An uncomfortable squeeze without proper angle creates jaw and face pressure that is painful but survivable, while a properly angled triangle restricts blood flow bilaterally and produces a tap within seconds.",
         "safety_critical": false,
-        "answer_line": "Calf on neck, arm wedges far side",
+        "answer_line": "Calf on the neck, shoulder wedged",
         "distractors": {
           "plausible": [
-            "Calf pressure on the jaw",
-            "Legs angled parallel to spine"
+            "Shin high on the jawline",
+            "Legs parallel with the spine"
           ],
           "trap": [
-            "Let trapped arm float free"
+            "Crank the head to force a tap"
           ]
         }
       }
@@ -564,14 +564,14 @@
         "question": "How do you recognize that the mounted triangle choke is being set up before the lock is fully established?",
         "answer": "The earliest cue is the attacker threading one leg over your shoulder from mount position — you will feel their shin sliding across one side of your neck while they maintain top pressure. This is typically preceded by them climbing to high mount and isolating one of your arms. The moment you feel a leg crossing your shoulder line, begin defensive actions immediately. Secondary cues include the attacker angling their hips sideways and reaching for a figure-four lock behind their knee. Defending during setup is far easier than defending a fully locked triangle.",
         "safety_critical": false,
-        "answer_line": "Shin crosses your neck from mount",
+        "answer_line": "Shin crossing your neck from mount",
         "distractors": {
           "plausible": [
-            "Wait until legs are locked",
-            "Opponent grabs your far wrist"
+            "Only when their ankles lock up",
+            "When they flatten out your hips"
           ],
           "trap": [
-            "Ignore early leg movement"
+            "Feed them your arm to make space"
           ]
         }
       },
@@ -582,11 +582,11 @@
         "answer_line": "Tap early with any free limb",
         "distractors": {
           "plausible": [
-            "Tap once softly, then endure",
-            "Verbally ask them to slow down"
+            "Wait until a hand gets loose",
+            "Squeeze their leg as a signal"
           ],
           "trap": [
-            "Wait until lightheaded to tap"
+            "Hold breath and ride it out"
           ]
         }
       },
@@ -609,14 +609,14 @@
         "question": "How do you manage energy and breathing when trapped in a mounted triangle that you cannot immediately escape?",
         "answer": "Breathe deliberately through your nose in controlled rhythm — nasal breathing triggers parasympathetic response and prevents panic. Between escape attempts, maintain your defensive structure (chin tuck, bent trapped arm, frame) using skeletal alignment rather than muscular effort. Do not continuously push or squeeze; hold frames statically and save explosive effort for genuine escape windows. Accept that survival may require enduring discomfort for 15-30 seconds while waiting for the attacker to shift weight or adjust. One well-timed escape attempt is worth more than five desperate ones.",
         "safety_critical": false,
-        "answer_line": "Breathe nasal, hold frames, wait",
+        "answer_line": "Nasal breathing, static frames",
         "distractors": {
           "plausible": [
-            "Breathe fast through mouth",
-            "Attempt escape every few seconds"
+            "Rapid mouth breathing to cope",
+            "Thrash every few seconds"
           ],
           "trap": [
-            "Push and struggle continuously"
+            "Hold out until vision goes dark"
           ]
         }
       },
@@ -627,11 +627,11 @@
         "answer_line": "Tap immediately, no more tries",
         "distractors": {
           "plausible": [
-            "Push through, it will pass",
-            "Wait a few seconds to check"
+            "Turn your head toward their hip",
+            "Slow your breathing to stay calm"
           ],
           "trap": [
-            "Try one final escape attempt"
+            "Bridge hard for one last escape"
           ]
         }
       }

@@ -239,14 +239,14 @@
       {
         "question": "What is the primary mechanical principle that makes the front headlock to back take effective?",
         "answer": "The technique exploits the opponent's defensive turtle position by using their own structural posture against them. As the opponent turtles to defend the front headlock, they create the spatial relationship necessary for hook insertion. The attacker's circular motion around the opponent's head, combined with constant downward pressure, progressively opens access to the back while preventing the opponent from turning to face the attacker or standing up. The transition works because it systematically removes the opponent's defensive options while creating offensive opportunities.",
-        "answer_line": "Circle to remove escape options",
+        "answer_line": "Circular pressure opens their back",
         "distractors": {
           "plausible": [
-            "Overpower with brute strength",
-            "Rush hooks in immediately"
+            "Lift them up to break the turtle",
+            "Wait for them to move first"
           ],
           "trap": [
-            "Release head control to speed up"
+            "Abandon head control to circle"
           ]
         }
       },
@@ -270,39 +270,39 @@
         "answer_line": "Climb their back, keep head control",
         "distractors": {
           "plausible": [
-            "Force them back down immediately",
-            "Release grip and reset guard"
+            "Force them back down to the mat",
+            "Grab a single leg to trip them"
           ],
           "trap": [
-            "Let go of headlock and disengage"
+            "Let go of the head and disengage"
           ]
         }
       },
       {
         "question": "What is the critical timing for releasing the front headlock grip and transitioning to seat belt control?",
         "answer": "The front headlock grip should be released only after both hooks are securely established and your chest is connected to the opponent's back. The transition from headlock to seat belt must be one continuous motion with no pause, as any gap in control creates an opportunity for the opponent to establish defensive hand fighting. The release and establishment of new grips should be simultaneous: as your arms release the headlock, they immediately move into seat belt configuration. Releasing too early allows escape, while delaying the seat belt establishment gives the opponent time to establish defensive frames.",
-        "answer_line": "Release and seatbelt simultaneously",
+        "answer_line": "No gap: new grip as old releases",
         "distractors": {
           "plausible": [
-            "Release headlock once hooks land",
-            "Release only after chest connects"
+            "Let go once the first hook lands",
+            "Pause to reset grips halfway"
           ],
           "trap": [
-            "Release grip early to save energy"
+            "Drop the head to fix a loose hook"
           ]
         }
       },
       {
         "question": "Why is the circling motion toward the choking arm side essential for this transition?",
         "answer": "Circling toward the side of the choking arm creates the geometric angle necessary to access the opponent's back while maintaining control of their head. This lateral movement positions your body perpendicular to the opponent's spine, which is the optimal angle for hook insertion. Circling also uses the opponent's defensive instinct to follow your movement to maintain their base, inadvertently opening their back to your attack. Moving in the opposite direction would bring you in front of the opponent or allow them to face you, eliminating the back attack opportunity. The circular motion must be continuous and progressive, covering at least 90 degrees before hook insertion.",
-        "answer_line": "Circle toward choke arm for angle",
+        "answer_line": "Circle toward the choking arm",
         "distractors": {
           "plausible": [
-            "Circle away for more space",
-            "Circle toward their free arm"
+            "Circle away to open space",
+            "Step backward to drag them"
           ],
           "trap": [
-            "Circle around to their front"
+            "Release the head to circle faster"
           ]
         }
       },
@@ -312,11 +312,11 @@
         "answer_line": "Chain to guillotine or anaconda",
         "distractors": {
           "plausible": [
-            "Force hooks in immediately",
-            "Release and reset the takedown"
+            "Fight to keep them on all fours",
+            "Wait for them to re-turtle"
           ],
           "trap": [
-            "Abandon position, stand back up"
+            "Release the neck, enter their guard"
           ]
         }
       },
@@ -326,8 +326,8 @@
         "answer_line": "Gable grip, then seatbelt at hooks",
         "distractors": {
           "plausible": [
-            "Seatbelt grip from the start",
-            "Keep headlock through both hooks"
+            "Two-on-one wrist grip throughout",
+            "Belt grip only, no head control"
           ],
           "trap": [
             "Release all grips between phases"
@@ -340,25 +340,25 @@
         "answer_line": "Follow the roll, keep head control",
         "distractors": {
           "plausible": [
-            "Stop the roll, reset your base",
-            "Release head, chase their legs"
+            "Post hard and stop the rotation",
+            "Sprawl flat to pin them down"
           ],
           "trap": [
-            "Let go and scramble to top"
+            "Let go mid-roll, they take mount"
           ]
         }
       },
       {
         "question": "What is the optimal direction of force through your chest and hips during the circling phase?",
         "answer": "Your chest pressure should drive diagonally downward and forward into the opponent's upper back and shoulders, collapsing their posture toward the mat. Your hips should be loaded forward, not sitting back, so that your center of gravity is over the opponent's shoulders rather than behind them. As you circle, the force vector rotates with you: your chest maintains constant downward pressure while your lateral movement adds a rotational component that spirals the opponent's defensive structure. Think of it as driving a corkscrew through their turtle base. If your force goes straight down, you pin but cannot access the back. If it goes only sideways, you lose pressure. The diagonal combination of both breaks their base and opens back access.",
-        "answer_line": "Diagonal pressure, corkscrew hips",
+        "answer_line": "Diagonal chest drive, hips loaded",
         "distractors": {
           "plausible": [
-            "Straight down pressure only",
-            "Sideways pressure, hips back"
+            "Straight down, no forward drive",
+            "Pressure only through your arms"
           ],
           "trap": [
-            "Sit your hips back for base"
+            "Sit back on your heels for base"
           ]
         }
       },
@@ -368,11 +368,11 @@
         "answer_line": "Switch to darce or anaconda",
         "distractors": {
           "plausible": [
-            "Chase their hips back to hooks",
-            "Release and re-shoot headlock"
+            "Scoot after their hips to hook",
+            "Flatten them out and re-grip"
           ],
           "trap": [
-            "Let go of neck, chase legs"
+            "Give up the neck to grab a leg"
           ]
         }
       }
@@ -500,11 +500,11 @@
         "answer_line": "Deny the first hook insertion",
         "distractors": {
           "plausible": [
-            "Sit back to guard first",
-            "Stand up immediately"
+            "Break their neck grip first",
+            "Flatten out to kill their weight"
           ],
           "trap": [
-            "Turn and expose your back"
+            "Turn your hips away from them"
           ]
         }
       },
@@ -528,8 +528,8 @@
         "answer_line": "Early sit-back off-balances them",
         "distractors": {
           "plausible": [
-            "Sit back works the same anytime",
-            "Late sit-back is the safer option"
+            "Guard pulls work at any moment",
+            "Late timing matters less than grip"
           ],
           "trap": [
             "Sit back after both hooks land"
@@ -556,8 +556,8 @@
         "answer_line": "Keep elbows tight to your ribs",
         "distractors": {
           "plausible": [
-            "Post hands wide for base",
-            "Flare elbows to build frames"
+            "Post both hands wide for base",
+            "Grab their ankles to block feet"
           ],
           "trap": [
             "Flare elbows to push their hips"

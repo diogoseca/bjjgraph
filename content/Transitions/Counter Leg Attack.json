@@ -244,14 +244,14 @@
       {
         "question": "Your opponent begins reaching for your heel with two hands - should you attempt the counter-attack?",
         "answer": "This is actually the optimal timing window to attempt the counter-attack. When they shift both hands to heel grips, their upper body and leg positioning become static as they focus on the finish. Their free leg becomes most accessible during this moment. However, you must assess whether you can complete the thread before they secure the heel - if they already have firm grip with wrist blade on Achilles, tap instead.",
-        "answer_line": "Thread now, upper body is static",
+        "answer_line": "Yes — attack while they're static",
         "distractors": {
           "plausible": [
-            "Wait for grip to fully set",
-            "Hip escape to create space"
+            "Freeze and wait for their move",
+            "Flatten out and defend the grips"
           ],
           "trap": [
-            "Yank your foot free by force"
+            "Spin away from the rotation"
           ]
         }
       },
@@ -328,14 +328,14 @@
       {
         "question": "How do you distinguish between when to tap versus when counter-attack is still viable?",
         "answer": "Tap immediately if: opponent has two-on-one grip with wrist blade against your Achilles tendon, you feel any rotational pressure on your heel, or you cannot freely move your foot. Counter-attack is viable if: your heel remains hidden against your hip, they are still working to establish grips, or your foot moves freely. The inside heel hook causes injury in milliseconds once locked - there is zero time to decide mid-submission.",
-        "answer_line": "Tap on Achilles wrist-blade grip",
+        "answer_line": "Tap once they blade the Achilles",
         "distractors": {
           "plausible": [
-            "Tap at first heel contact",
-            "Wait for rotation to decide"
+            "Tap only after you feel pain",
+            "Tap the moment legs entangle"
           ],
           "trap": [
-            "Try to power through the lock"
+            "Spin out once the heel is caught"
           ]
         }
       },

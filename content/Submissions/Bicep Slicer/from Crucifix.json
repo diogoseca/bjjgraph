@@ -325,11 +325,11 @@
         "answer_line": "Tears/hyperextension, 5-7s slow",
         "distractors": {
           "plausible": [
-            "Only elbow at risk, apply fast",
-            "Compression only, quick is fine"
+            "Elbow joint only, no muscle risk",
+            "Bicep bruise only, minor risk"
           ],
           "trap": [
-            "Crank fast to end it quickly"
+            "Snap it on before they defend"
           ]
         }
       },
@@ -340,11 +340,11 @@
         "answer_line": "Shin behind elbow, perpendicular",
         "distractors": {
           "plausible": [
-            "Shin across the forearm",
-            "Shin pressed on the bicep"
+            "Blade across their forearm",
+            "Calf pressed on the bicep"
           ],
           "trap": [
-            "Remove shin, control the wrist"
+            "Press it into their throat instead"
           ]
         }
       },
@@ -352,14 +352,14 @@
         "question": "Why is wrist control critical for the bicep slicer, and what happens if you lose this control?",
         "answer": "Wrist control is absolutely critical because it prevents the opponent from straightening their arm, which is the primary escape from the bicep slicer. If the opponent can straighten their arm, the compression on the bicep disappears and the hyperextension angle is lost, allowing them to escape completely. Proper wrist control involves gripping firmly with one or both hands and continuously pulling the wrist toward your chest to maintain the bent arm position. Without this control, the submission is ineffective regardless of shin positioning.",
         "safety_critical": false,
-        "answer_line": "Pull wrist to chest to bend arm",
+        "answer_line": "Pull wrist to chest to keep arm bent",
         "distractors": {
           "plausible": [
-            "Grip the fingers instead",
-            "Control the tricep, not wrist"
+            "Squeeze the bicep with both hands",
+            "Drive the elbow toward the mat"
           ],
           "trap": [
-            "Release wrist to reset grip"
+            "Sit up to re-grip, lose the back"
           ]
         }
       },
@@ -385,11 +385,11 @@
         "answer_line": "Crucifix, truck, technical mount",
         "distractors": {
           "plausible": [
-            "Closed guard and half guard",
-            "Mount and side control only"
+            "Closed guard and butterfly",
+            "From bottom side control"
           ],
           "trap": [
-            "Attempt from neutral standing"
+            "Chase it from bottom half guard"
           ]
         }
       },
@@ -412,14 +412,14 @@
         "question": "What should you do if your opponent begins to straighten their arm to escape the bicep slicer?",
         "answer": "If the opponent successfully begins to straighten their arm despite your wrist control, you should immediately transition to an alternative submission rather than forcing the bicep slicer. The straightening motion opens opportunities for armbars, kimuras, or other attacks. Use their momentum and the fact that their arm is now extended against them. Attempting to force a bicep slicer against a straightening arm is both ineffective and potentially dangerous, as it may cause you to apply excessive force trying to bend an arm that is actively resisting.",
         "safety_critical": true,
-        "answer_line": "Abandon it, attack armbar/kimura",
+        "answer_line": "Abandon it, hit armbar or kimura",
         "distractors": {
           "plausible": [
-            "Force the bend harder",
-            "Switch grips and reset slowly"
+            "Re-grip the wrist and wait",
+            "Squeeze the knees tighter"
           ],
           "trap": [
-            "Crank through the straightening"
+            "Hold the slicer and lose the back"
           ]
         }
       },
@@ -430,11 +430,11 @@
         "answer_line": "Follow roll, hook hip, keep shin",
         "distractors": {
           "plausible": [
-            "Release and reset position",
-            "Switch to armbar mid-roll"
+            "Release and re-enter the crucifix",
+            "Flatten them back with your weight"
           ],
           "trap": [
-            "Let go of shin, chase back"
+            "Post a hand to stop it, get swept"
           ]
         }
       },
@@ -442,14 +442,14 @@
         "question": "What anatomical structures are at risk during a bicep slicer, and what are the warning signs of injury?",
         "answer": "The bicep slicer attacks three anatomical structures: the bicep muscle belly (compression trauma), the elbow joint ligaments (hyperextension stress), and the radial nerve (compression). Warning signs of potential injury include sudden sharp pain in the bicep belly, popping or tearing sensations near the elbow, numbness or tingling in the forearm or hand (nerve involvement), and the opponent going silent or stiff instead of tapping. Any of these signs require immediate release and medical evaluation.",
         "safety_critical": true,
-        "answer_line": "Bicep, elbow, radial nerve",
+        "answer_line": "Bicep, elbow, nerve; numbness warns",
         "distractors": {
           "plausible": [
-            "Only ligament damage possible",
-            "Just muscle soreness, no nerve"
+            "Ligaments only; pain is normal",
+            "Muscle bruise only, heals fast"
           ],
           "trap": [
-            "Silence means submitting well"
+            "Quiet partner means keep cranking"
           ]
         }
       },
@@ -457,14 +457,14 @@
         "question": "What is the point of no escape in the bicep slicer, and how do you recognize when you've reached it?",
         "answer": "The point of no escape occurs when your shin is fully seated behind the elbow joint, wrist control is secured with the arm bent past 90 degrees, and your chest or hip pressure closes the distance. At this point, the opponent cannot straighten their arm due to the fulcrum position, and any resistance only increases compression on the bicep. You recognize this point when you feel their arm locked into position with no remaining slack in the system—the scissoring mechanism is fully engaged and finishing pressure requires only bodyweight commitment.",
         "safety_critical": false,
-        "answer_line": "Shin seated, wrist locked past 90",
+        "answer_line": "Shin seated, wrist bent past 90",
         "distractors": {
           "plausible": [
             "When opponent stops moving",
-            "When you feel any resistance"
+            "When you hear them breathe hard"
           ],
           "trap": [
-            "Release wrist to add pressure"
+            "Crank before the shin is seated"
           ]
         }
       },
@@ -472,14 +472,14 @@
         "question": "How do you adjust your grip when your opponent hand-fights aggressively to prevent wrist control during the bicep slicer setup?",
         "answer": "When facing aggressive hand-fighting, switch from a standard wrist grip to a figure-four or kimura-style grip configuration that captures their wrist using both your arms. This grip is significantly harder to break and allows you to continue pulling the wrist toward your chest despite their resistance. Alternatively, if they're defending with their free hand, consider briefly releasing to attack the defending arm instead, setting up a crucifix or transitioning to control both arms before returning to the bicep slicer.",
         "safety_critical": false,
-        "answer_line": "Switch to figure-four wrist grip",
+        "answer_line": "Switch to a figure-four wrist grip",
         "distractors": {
           "plausible": [
-            "Grip harder with one hand",
-            "Attack the free hand only"
+            "Pull harder with one straight arm",
+            "Wait for their grip to tire"
           ],
           "trap": [
-            "Let go and re-shoot the arm"
+            "Post both hands, lose the back"
           ]
         }
       },
@@ -490,11 +490,11 @@
         "answer_line": "Steady pressure, give tap chance",
         "distractors": {
           "plausible": [
-            "Full speed, refs will stop it",
-            "Match training pace exactly"
+            "Comp means no warning needed",
+            "Refs handle partner safety"
           ],
           "trap": [
-            "Jerk explosively for the win"
+            "Explode through and crank it"
           ]
         }
       }
@@ -679,8 +679,8 @@
         "answer_line": "Only roll if their base is broken",
         "distractors": {
           "plausible": [
-            "Roll anytime to escape",
-            "Roll slowly to test pressure"
+            "Roll whenever the pain spikes",
+            "Roll slowly to test the pressure"
           ],
           "trap": [
             "Roll toward the trapped side"

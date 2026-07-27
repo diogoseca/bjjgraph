@@ -262,7 +262,7 @@
             "Attempt right after gripping lapel"
           ],
           "trap": [
-            "Attempt as they post to pass"
+            "Sweep as they stand and stack you"
           ]
         }
       },
@@ -276,7 +276,7 @@
             "Any collar grip, square hips"
           ],
           "trap": [
-            "Loose lapel, deep collar grip"
+            "Slack lapel, pull them onto you"
           ]
         }
       },
@@ -286,11 +286,11 @@
         "answer_line": "Constant tension through the arc",
         "distractors": {
           "plausible": [
-            "Tension only at initial setup",
-            "Strong initial pull, then ease off"
+            "Explosive leg lift is what matters",
+            "Deep collar grip does the work"
           ],
           "trap": [
-            "Release tension to reset grip"
+            "Let go of lapel to reset grips"
           ]
         }
       },
@@ -304,7 +304,7 @@
             "Sweep straight back, not angled"
           ],
           "trap": [
-            "Commit before checking grip"
+            "Roll under them to force it"
           ]
         }
       },
@@ -318,7 +318,7 @@
             "Sleeve grip plus lapel wrap"
           ],
           "trap": [
-            "Both sleeves, no collar grip"
+            "Drop lapel to grab both sleeves"
           ]
         }
       },
@@ -356,11 +356,11 @@
         "answer_line": "Chain to drag, squid, or X-guard",
         "distractors": {
           "plausible": [
-            "Reset and repeat same sweep",
-            "Switch grip and try again"
+            "Reset and repeat the same sweep",
+            "Pull them into closed guard"
           ],
           "trap": [
-            "Force the elevation harder"
+            "Turn belly-down to escape"
           ]
         }
       }
@@ -493,7 +493,7 @@
             "Gripping deeper on the lapel"
           ],
           "trap": [
-            "Posting hand on the mat"
+            "Wait until you feel elevation"
           ]
         }
       },
@@ -503,11 +503,11 @@
         "answer_line": "Removes the whole control system",
         "distractors": {
           "plausible": [
-            "Widens base for this attempt only",
-            "Blocks the sweep, not the drag"
+            "It ends this sweep faster",
+            "It saves grip-fighting energy"
           ],
           "trap": [
-            "Grip the lapel back yourself"
+            "Stay heavy and ignore the lapel"
           ]
         }
       },
@@ -517,11 +517,11 @@
         "answer_line": "Post hand, extract trapped leg",
         "distractors": {
           "plausible": [
-            "Try to sit up and re-base",
+            "Sit up and try to re-base",
             "Grab their far sleeve to stop it"
           ],
           "trap": [
-            "Fight to full extension standing"
+            "Turn belly-down to avoid landing"
           ]
         }
       },
@@ -542,14 +542,14 @@
       {
         "question": "When should you attempt forward pressure versus disengagement as a defensive strategy against the sweep?",
         "answer": "Use forward pressure when the attacker is beginning to angle their hips but has not yet loaded the sweep, as your weight pins them flat and prevents the hip angle needed for the mechanics. Use disengagement and lapel stripping when you have positional space and time to address the grip without being under immediate sweep threat. Avoid forward pressure if the attacker has already loaded the sweep with legs under your hips, as forward pressure at that point feeds directly into the overhead balloon sweep variation.",
-        "answer_line": "Pressure early, strip once loaded",
+        "answer_line": "Pressure early, strip with space",
         "distractors": {
           "plausible": [
-            "Always pressure forward hard",
-            "Always disengage immediately"
+            "Disengage at every stage",
+            "Strip only after elevation starts"
           ],
           "trap": [
-            "Pressure hard once sweep is loaded"
+            "Drive forward once sweep loads"
           ]
         }
       }

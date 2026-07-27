@@ -312,11 +312,11 @@
         "answer_line": "Lumbar spine hyperextension",
         "distractors": {
           "plausible": [
-            "Hip flexor tearing",
-            "Sacroiliac joint damage"
+            "Knee ligament strain",
+            "Hamstring overstretch"
           ],
           "trap": [
-            "Cervical spine compression"
+            "Minor risk, safe to crank fast"
           ]
         }
       },
@@ -342,11 +342,11 @@
         "answer_line": "Control both ankles simultaneously",
         "distractors": {
           "plausible": [
-            "Control one ankle, then other",
-            "Secure seatbelt grip first"
+            "Pin their hips with your chest",
+            "Secure a seatbelt grip first"
           ],
           "trap": [
-            "Grab a single leg and commit"
+            "Grab one leg and jump to finish"
           ]
         }
       },
@@ -372,7 +372,7 @@
         "answer_line": "Sit forward, lower hips gently",
         "distractors": {
           "plausible": [
-            "Release grips, stand up fast",
+            "Keep legs locked, ease pressure",
             "Roll opponent onto their side"
           ],
           "trap": [
@@ -387,11 +387,11 @@
         "answer_line": "Pull ankles, sit back harder",
         "distractors": {
           "plausible": [
-            "Switch to a single ankle lock",
-            "Release and reset to crab ride"
+            "Drop knees onto their thighs",
+            "Switch to a single ankle lock"
           ],
           "trap": [
-            "Lean forward to regain balance"
+            "Release an ankle to grab their hip"
           ]
         }
       },
@@ -414,14 +414,14 @@
         "question": "How does ankle grip positioning affect the finishing mechanics of the Boston Crab?",
         "answer": "Ankle grip positioning directly determines the vector of spinal stress. Gripping closer to the heel creates a longer lever arm from the hip, generating more rotational force on the lumbar spine with less effort. Gripping higher on the ankle or lower shin provides more control but requires sitting back further to achieve the same extension. The ankles should be held close together and pulled toward your torso rather than spread apart - spreading reduces spinal extension and converts pressure into hip rotation. Optimal grip is just above the heel with both ankles touching, pulled tight against your lower back or hips as you sit.",
         "safety_critical": false,
-        "answer_line": "Grip near heel, ankles together",
+        "answer_line": "Grip at the heels for a long lever",
         "distractors": {
           "plausible": [
-            "Grip mid-shin for more control",
-            "Spread ankles for leverage"
+            "Hook their feet in your armpits",
+            "Palm-up grip under the shins"
           ],
           "trap": [
-            "Grip toes for maximum torque"
+            "Twist their toes for extra torque"
           ]
         }
       },
@@ -432,11 +432,11 @@
         "answer_line": "Base opposite, elevate hips",
         "distractors": {
           "plausible": [
-            "Fight the roll with ankle grip",
-            "Drop weight forward to block"
+            "Squeeze their knees together",
+            "Pause pressure and reset grips"
           ],
           "trap": [
-            "Twist against the roll direction"
+            "Ride the roll and land bottom"
           ]
         }
       },
@@ -447,11 +447,11 @@
         "answer_line": "Full seat, hips below shoulders",
         "distractors": {
           "plausible": [
-            "Deeper ankle grip depth",
-            "Faster step-over speed"
+            "Wider stance over their body",
+            "Grip higher on the shins"
           ],
           "trap": [
-            "Leaning torso forward more"
+            "Crank hard and fast for the tap"
           ]
         }
       },
@@ -477,11 +477,11 @@
         "answer_line": "Secondary threat after back attacks",
         "distractors": {
           "plausible": [
-            "Primary opener from neutral turtle",
-            "Chain directly after failed choke"
+            "Opening move on any turtle",
+            "Only used when behind on points"
           ],
           "trap": [
-            "Grab legs immediately from turtle"
+            "Dive for legs and abandon the back"
           ]
         }
       }
@@ -640,8 +640,8 @@
         "answer_line": "Tap at first real back pressure",
         "distractors": {
           "plausible": [
-            "Tap only at sharp pain onset",
-            "Tap after failed knee retraction"
+            "Tap only if a joint is locked",
+            "Tap after your partner asks"
           ],
           "trap": [
             "Wait for a clear pop sound"
@@ -655,11 +655,11 @@
         "answer_line": "Roll toward the unlanded leg",
         "distractors": {
           "plausible": [
-            "Sit back into their base",
-            "Kick free before they land"
+            "Sit back onto their base leg",
+            "Grab their belt and hold on"
           ],
           "trap": [
-            "Bridge upward to block step"
+            "Bridge upward to block the step"
           ]
         }
       },
@@ -670,11 +670,11 @@
         "answer_line": "Grips shift down to your ankles",
         "distractors": {
           "plausible": [
-            "Attacker inserts hooks quickly",
-            "Attacker seeks collar control"
+            "Their chest drives into your ribs",
+            "They fight for your collar"
           ],
           "trap": [
-            "Attacker's weight shifts forward"
+            "Ignore the legs, defend the neck"
           ]
         }
       }

@@ -292,7 +292,7 @@
             "Circle toward their legs"
           ],
           "trap": [
-            "Circle away from choking side"
+            "Circle away, exposing your back"
           ]
         }
       },
@@ -357,11 +357,11 @@
         "answer": "The three grips are the bicep grip (standard), the wrist grip (deeper and tighter), and the gable grip (fastest, for scrambles). The bicep grip, where your hand grabs your opposite bicep, is the most common and provides a good balance of tightness and security. The wrist grip, grabbing your own wrist, gives a deeper, tighter lock that is useful against larger opponents or when maximum pressure is needed. The gable grip (palm-to-palm) is quickest to apply, useful when speed is critical or in scrambles, though slightly less tight than the other options. Choice depends on situation, opponent size, and personal preference.",
         "distractors": {
           "plausible": [
-            "Bicep, collar, sleeve grips",
-            "Wrist, palm, S-grip options"
+            "Collar, sleeve, lapel grips",
+            "Seatbelt, harness, S-grips"
           ],
           "trap": [
-            "Wrist grip only, ignore scrambles"
+            "Pause to thread tightest grip"
           ]
         },
         "answer_line": "Bicep, wrist, gable grips"

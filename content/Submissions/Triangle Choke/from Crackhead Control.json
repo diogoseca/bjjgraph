@@ -283,7 +283,7 @@
         "distractors": {
           "plausible": [
             "Opponent taps immediately",
-            "Loud verbal complaints"
+            "Explosive bridge to escape"
           ],
           "trap": [
             "Opponent goes limp early"
@@ -538,8 +538,8 @@
         "answer_line": "Tap fast, multiple times",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap once, gently"
+            "Tap once, gently",
+            "Wait for the ref to stop it"
           ],
           "trap": [
             "Try to power out first"
@@ -550,14 +550,14 @@
         "question": "What defensive options are available against the triangle choke from Crackhead Control?",
         "answer": "Three primary defenses in order of effectiveness: first, early posture recovery before the lock closes by framing on the opponent's hips and driving upward while defending arm isolation. Second, stacking defense by driving forward after the lock closes but before the angle is fully cut, walking around to the side to change the choking geometry. Third, arm extraction by rotating the trapped arm toward the lock opening while maintaining base. Prevention through early posture recovery is significantly more effective than any late-stage escape.",
         "safety_critical": false,
-        "answer_line": "Early posture recovery, frame",
+        "answer_line": "Recover posture early, frame on hips",
         "distractors": {
           "plausible": [
-            "Stack forward after lock closes",
-            "Extract arm toward opening"
+            "Push trapped arm deeper across",
+            "Turn face toward the choke"
           ],
           "trap": [
-            "Wait passively, hope they fatigue"
+            "Wait passively for them to tire"
           ]
         }
       },

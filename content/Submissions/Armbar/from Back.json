@@ -308,14 +308,14 @@
         "question": "Why must opponent's thumb point upward during the armbar finish?",
         "answer": "The thumb-up position ensures proper alignment of the elbow joint for the submission. When the thumb points upward, the elbow's natural hinge is positioned perpendicular to your hip extension, allowing the joint to hyperextend as intended. If the thumb points down, the elbow rotates out of alignment, making the submission ineffective and potentially directing pressure to the shoulder instead of the elbow, which can cause unintended injury.",
         "safety_critical": true,
-        "answer_line": "Thumb up, elbow aligns",
+        "answer_line": "Thumb up lines up elbow hinge",
         "distractors": {
           "plausible": [
-            "Thumb down, more leverage",
-            "Doesn't matter, any grip"
+            "Thumb down bites deeper",
+            "Thumb sideways spares the wrist"
           ],
           "trap": [
-            "Twist wrist to add pressure"
+            "Open knees to fix the grip"
           ]
         }
       },
@@ -323,14 +323,14 @@
         "question": "What is the minimum time you should take to apply an armbar from back in training?",
         "answer": "You should take a minimum of 3-5 seconds to apply the armbar progressively in training. This slow, controlled application allows your training partner sufficient time to recognize the submission, feel the pressure building, and tap safely before injury occurs. Explosive or fast armbars should only be used in competition, never in training, as they dramatically increase injury risk and violate training safety protocols.",
         "safety_critical": true,
-        "answer_line": "3-5 seconds, apply slowly",
+        "answer_line": "At least 3-5 seconds, gradual",
         "distractors": {
           "plausible": [
-            "1-2 seconds, quick control",
-            "10 seconds, very gradual"
+            "Slow only with new partners",
+            "Any speed if they can tap"
           ],
           "trap": [
-            "As fast as possible, always"
+            "Explode the hips at full speed"
           ]
         }
       },
@@ -341,8 +341,8 @@
         "answer_line": "RNC defense pulls arms out",
         "distractors": {
           "plausible": [
-            "Wait for opponent to relax",
-            "Attack legs to distract"
+            "Opponent turns to face you",
+            "Opponent flattens to belly"
           ],
           "trap": [
             "Release grips, bait a scramble"
@@ -356,8 +356,8 @@
         "answer_line": "Keep bottom hook, block roll",
         "distractors": {
           "plausible": [
-            "Keep top hook, block roll",
-            "Remove both, move faster"
+            "Cross ankles for tighter lock",
+            "Switch to body triangle first"
           ],
           "trap": [
             "Drop both hooks, dive for arm"
@@ -368,14 +368,14 @@
         "question": "How should your hips move when finishing the armbar from back?",
         "answer": "Your hips should drive upward perpendicular to opponent's arm, not pull the arm toward your head. Think about arching your lower back and pushing your hips toward the ceiling while keeping the arm pinned tightly to your chest. This creates the proper mechanical advantage to hyperextend the elbow. Pulling the arm toward your head creates space for opponent to extract their arm and reduces the effectiveness of the submission significantly.",
         "safety_critical": false,
-        "answer_line": "Hips drive up, not toward head",
+        "answer_line": "Bridge the hips to the ceiling",
         "distractors": {
           "plausible": [
-            "Pull arm toward your head",
-            "Rotate hips side to side"
+            "Pull the arm to your chin",
+            "Rock the hips left and right"
           ],
           "trap": [
-            "Yank the arm hard and fast"
+            "Jerk the arm to snap it fast"
           ]
         }
       },
@@ -401,11 +401,11 @@
         "answer_line": "Pinch knees, trap the shoulder",
         "distractors": {
           "plausible": [
-            "Spread knees for better angle",
-            "Cross ankles for extra lock"
+            "Cross ankles for extra lock",
+            "Sit up tall to add leverage"
           ],
           "trap": [
-            "Loosen knees to adjust grip"
+            "Open the legs, hunt a choke"
           ]
         }
       },
@@ -428,14 +428,14 @@
         "question": "Your opponent starts to posture up and stack you during the armbar finish - what adjustment prevents escape?",
         "answer": "Immediately angle your body perpendicular to opponent by swiveling your hips away from them while maintaining the arm tight to your chest. Push on their face or head with your leg to prevent stacking, and consider hooking their far leg with your free leg to off-balance them. Keep your hips heavy and low rather than elevated. If stacking continues, you may need to release the armbar and transition to triangle or return to back control rather than fighting a losing battle from a compromised position.",
         "safety_critical": false,
-        "answer_line": "Angle hips, block the stack",
+        "answer_line": "Angle hips away, block the stack",
         "distractors": {
           "plausible": [
             "Elevate hips higher for power",
-            "Hold position, wait it out"
+            "Hold still and wait it out"
           ],
           "trap": [
-            "Grip harder, muscle the finish"
+            "Post both hands, sit up tall"
           ]
         }
       },
@@ -458,14 +458,14 @@
         "question": "How do you adjust your grip during the finish if opponent's arm is sweaty or slippery in no-gi?",
         "answer": "In no-gi with slippery conditions, switch from wrist control to controlling above the elbow on the forearm using a figure-four grip (one hand gripping your own wrist). This provides more surface area contact and better leverage than trying to grip a sweaty wrist. Additionally, squeeze your knees even tighter and pull the arm deeper across your chest so your sternum acts as a fulcrum. The finishing mechanics remain the same - hip extension creates the tap - but the control point shifts to accommodate grip challenges.",
         "safety_critical": false,
-        "answer_line": "Figure-four grip above elbow",
+        "answer_line": "Figure-four above the elbow",
         "distractors": {
           "plausible": [
-            "Grip harder on the wrist",
-            "Switch to a gable grip"
+            "Squeeze the wet wrist harder",
+            "Pinch their fingers to hold on"
           ],
           "trap": [
-            "Let go and re-grip mid-finish"
+            "Sit up and unhook your knees"
           ]
         }
       },
@@ -628,14 +628,14 @@
         "question": "Why should you never fully straighten your arm when defending the armbar from back?",
         "answer": "A fully straight arm in the armbar position gives the attacker immediate finishing leverage through hip extension. The elbow joint can only resist hyperextension when bent, because the bicep and brachialis muscles provide resistance in the bent position. Once straight, there is no muscular defense remaining and the joint is fully exposed to the attacker's hip bridge. Even a small degree of bend provides significant resistance, while a straight arm can be finished with minimal additional force. This is a safety-critical concept because a straight arm under hip extension results in immediate injury.",
         "safety_critical": true,
-        "answer_line": "Straight arm loses all defense",
+        "answer_line": "Straight arm has no muscle left",
         "distractors": {
           "plausible": [
-            "Bent arm risks shoulder strain",
-            "Straight arm confuses grip"
+            "A long arm blocks their hips",
+            "Bent arms invite a wristlock"
           ],
           "trap": [
-            "Extend arm to create space"
+            "Reach for their leg to escape"
           ]
         }
       },
@@ -643,14 +643,14 @@
         "question": "Your arm has been isolated and the attacker's leg is already over your head - what is your emergency escape protocol?",
         "answer": "First, maximize your elbow bend by pulling your fist toward your own chest with everything you have. Second, immediately turn your shoulders toward the trapped arm side and drive forward to stack the attacker's hips. Third, if you can create enough angle, thread your elbow toward the attacker's hip to begin extracting the arm between their legs. Fourth, if stacking fails, bridge explosively toward the trapped arm side to attempt an inversion. Throughout all of this, never let the arm straighten. If you feel the arm approaching full extension, tap immediately rather than risk injury.",
         "safety_critical": true,
-        "answer_line": "Bend elbow, turn in, stack",
+        "answer_line": "Bend elbow, turn in, stack them",
         "distractors": {
           "plausible": [
-            "Pull straight back, yank free",
-            "Grab own gi, hold position"
+            "Flatten out and wait for space",
+            "Peel their fingers off first"
           ],
           "trap": [
-            "Force a roll to escape"
+            "Rip the arm straight out"
           ]
         }
       },
@@ -673,14 +673,14 @@
         "question": "When defending the armbar from back, when should you tap rather than continue fighting the submission?",
         "answer": "You should tap immediately when you feel your arm approaching full extension and you cannot maintain the bend despite maximum effort, when the attacker's hips begin to rise and you feel increasing pressure on your elbow joint, or when you are in a compromised position where continued resistance would require your arm to straighten. In training, tap early and tap often. The elbow joint has no gradual failure point - it goes from resistance to catastrophic injury very quickly. There is no shame in tapping to a well-executed armbar, but there is significant consequence in refusing to tap and suffering a preventable injury.",
         "safety_critical": true,
-        "answer_line": "Tap early, before arm straightens",
+        "answer_line": "Tap early, before it straightens",
         "distractors": {
           "plausible": [
-            "Tap only if it truly hurts",
-            "Wait for the ref to call it"
+            "Tap once real pain starts",
+            "Only after both escapes fail"
           ],
           "trap": [
-            "Fight through to escape late"
+            "Hold out until the elbow pops"
           ]
         }
       }

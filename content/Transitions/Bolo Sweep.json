@@ -520,11 +520,11 @@
         "answer_line": "Drive forward, not hips back",
         "distractors": {
           "plausible": [
-            "Sit hips back like vs the Bolo",
-            "Protect the near side, not far"
+            "Protect the near side, not far",
+            "Counter-rotate around the DLR hook"
           ],
           "trap": [
-            "Create space by backing away"
+            "Sit hips back to open space"
           ]
         }
       },
@@ -534,11 +534,11 @@
         "answer_line": "Attack pass in the 2-3s window",
         "distractors": {
           "plausible": [
-            "Wait for them to reset guard",
-            "Reset to neutral, restart"
+            "Reset to neutral and restart",
+            "Secure a grip before moving"
           ],
           "trap": [
-            "Let them recover full guard"
+            "Let them rebuild full guard"
           ]
         }
       }

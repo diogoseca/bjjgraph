@@ -249,28 +249,28 @@
       {
         "question": "Why must the opponent's near arm remain trapped between their head and your body for the anaconda to be effective?",
         "answer": "The trapped arm is essential because the anaconda choke works through bilateral carotid compression. The choking arm compresses one carotid while the opponent's own trapped shoulder and arm compress the opposite carotid as you squeeze. Without the trapped arm, the choke becomes a one-sided neck crank that is far less effective and easier to defend. The trapped arm acts as a fulcrum that amplifies the compression force.",
-        "answer_line": "Creates bilateral carotid squeeze",
+        "answer_line": "Their shoulder squeezes far carotid",
         "distractors": {
           "plausible": [
-            "Stops opponent from sitting out",
-            "Keeps opponent's hips pinned down"
+            "Stops the hip escape to guard",
+            "Frees your other hand to post"
           ],
           "trap": [
-            "Lets you release the collar grip"
+            "Just crank the neck instead"
           ]
         }
       },
       {
         "question": "Your opponent tucks their chin hard and drives forward when you begin redirecting your arm around their neck—how do you adjust?",
         "answer": "Abandon the anaconda switch and return to the original buggy choke collar grip since the opponent has re-created the angle for that attack. Alternatively, use a front headlock snapdown to break their forward drive and re-expose the neck. The chin tuck with forward drive specifically defends the anaconda angle, so forcing the switch against this defense wastes position and energy.",
-        "answer_line": "Return to buggy choke collar grip",
+        "answer_line": "Go back to the buggy collar grip",
         "distractors": {
           "plausible": [
-            "Force the anaconda switch harder",
-            "Switch straight to a darce grip"
+            "Pry the chin loose with your wrist",
+            "Wait it out and keep squeezing"
           ],
           "trap": [
-            "Release all grips and reset"
+            "Let them drive you onto your back"
           ]
         }
       },
@@ -361,14 +361,14 @@
       {
         "question": "During positional sparring, your opponent sits to guard explosively as you release the buggy choke collar to switch to anaconda—what is your best response?",
         "answer": "Follow the sitting motion and use the partial neck grip you already have to establish a front headlock or guillotine from the new angle. The opponent's explosive sit creates momentum you can redirect into a snap-down. If they achieve full closed guard before you can secure the front headlock, consolidate top position inside their guard and prepare to pass rather than forcing a submission from a compromised angle.",
-        "answer_line": "Follow into front headlock/snap",
+        "answer_line": "Follow them up into a front headlock",
         "distractors": {
           "plausible": [
-            "Hold buggy choke grip and stall",
-            "Chase full guard and pull guard"
+            "Stand up and disengage to reset",
+            "Wait for them to close guard"
           ],
           "trap": [
-            "Force the anaconda from bad angle"
+            "Sit back for a leg lock as they rise"
           ]
         }
       }

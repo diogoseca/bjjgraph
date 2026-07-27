@@ -273,14 +273,14 @@
         "question": "What anatomical structures does the omoplata primarily attack and what creates the tapping pressure?",
         "answer": "The omoplata primarily attacks the shoulder joint through forced external rotation. The rotational pressure targets the rotator cuff muscles and tendons, the shoulder capsule, the AC joint, and in extreme cases the labrum. The tapping pressure comes from the combination of the attacker's leg acting as a lever across the upper back while the hips serve as the fulcrum, progressively rotating the shoulder beyond its natural range of motion.",
         "safety_critical": false,
-        "answer_line": "Leg lever, hips fulcrum on shoulder",
+        "answer_line": "Leg levers shoulder, hips fulcrum",
         "distractors": {
           "plausible": [
-            "Elbow joint via arm extension",
-            "Wrist rotation and grip pressure"
+            "Elbow hyperextension like armbar",
+            "Wrist twist under grip pressure"
           ],
           "trap": [
-            "Spine and neck via choke pressure"
+            "Crank the neck for a fast tap"
           ]
         }
       },
@@ -288,14 +288,14 @@
         "question": "Your opponent begins tucking their chin and loading weight forward for a roll escape - what immediate adjustment prevents this?",
         "answer": "Immediately tighten your grip on their belt or far hip to anchor their hips to the mat and block the forward momentum needed for the roll. Simultaneously increase your shin pressure across their upper back to flatten them. If the roll has already initiated, do not fight it but instead follow through and transition to back control by maintaining your leg position and inserting hooks as they complete the rotation. The belt grip controls whether the roll happens at all.",
         "safety_critical": false,
-        "answer_line": "Anchor hips w/ belt grip, add shin",
+        "answer_line": "Anchor hips with belt grip and shin",
         "distractors": {
           "plausible": [
-            "Just increase shin pressure",
+            "Post your free hand on the mat",
             "Grab their trapped wrist instead"
           ],
           "trap": [
-            "Release grip, reshoot omoplata"
+            "Let them roll, release your legs"
           ]
         }
       },
@@ -303,14 +303,14 @@
         "question": "What are the key indicators that the shoulder joint has reached its breaking point and a tap is imminent?",
         "answer": "Indicators include the opponent suddenly tensing their entire body and stopping all escape attempts, audible distress sounds or sharp inhalation, the trapped arm going limp or the hand opening from a fist, the opponent's free hand moving toward you or the mat to tap rather than continuing defensive posting, and visible elevation of the shoulder blade away from the ribcage indicating the joint is at maximum rotation. Any of these signals should prompt you to hold current pressure without increasing it.",
         "safety_critical": true,
-        "answer_line": "Sudden tensing, hand taps out",
+        "answer_line": "Body tenses, arm goes limp",
         "distractors": {
           "plausible": [
-            "Waiting for a verbal tap only",
-            "Continued active resistance"
+            "Steady breathing, calm posture",
+            "Fresh bridging and hip escapes"
           ],
           "trap": [
-            "Increase pressure to force tap"
+            "Crank harder to force the tap"
           ]
         }
       },
@@ -321,11 +321,11 @@
         "answer_line": "Hips perpendicular to their spine",
         "distractors": {
           "plausible": [
-            "Hips angled toward their head",
-            "Hips parallel to their spine"
+            "Hips stacked over their head",
+            "Hips lined up along their back"
           ],
           "trap": [
-            "Drift hips toward their legs"
+            "Lean forward, let them roll out"
           ]
         }
       },
@@ -348,14 +348,14 @@
         "question": "Your opponent partially postures up and you feel your shin sliding off their back - what grip adjustment prevents losing the position?",
         "answer": "Immediately pull with your belt or hip grip to bring them back down while simultaneously driving your knee back toward the mat to reseat the shin across their upper back. If the shin has slipped too far, use your free hand to grab their wrist on the trapped arm side to prevent arm extraction while you reposition. If they achieve significant posture, abandon the finish and transition to the omoplata sweep by driving forward into their elevated center of gravity, which is actually easier to sweep when they are upright.",
         "safety_critical": false,
-        "answer_line": "Pull belt, drive knee back down",
+        "answer_line": "Pull belt down, reseat the knee",
         "distractors": {
           "plausible": [
-            "Grab their same-side ankle",
-            "Push down on their head"
+            "Push down on their head",
+            "Switch grips to their far lapel"
           ],
           "trap": [
-            "Release grip to reshoot"
+            "Open legs to readjust the shin"
           ]
         }
       },
@@ -363,14 +363,14 @@
         "question": "What is the most common finishing error that leads to training partner injuries with the omoplata?",
         "answer": "The most dangerous error is applying finishing pressure too quickly or with a sudden jerking motion. The shoulder joint is highly susceptible to rotational force injuries, and the omoplata generates enormous mechanical advantage through the lever system of the legs. A sudden application of force can tear the rotator cuff or damage the labrum before the opponent has time to recognize the submission and tap. Finishing pressure must always be applied progressively over a minimum of 4-6 seconds, giving the opponent adequate time to tap safely.",
         "safety_critical": true,
-        "answer_line": "Jerking pressure on too fast",
+        "answer_line": "Applying force with a sudden jerk",
         "distractors": {
           "plausible": [
-            "Not securing belt grip first",
-            "Wrong hip angle before finish"
+            "Skipping the belt or pant grip",
+            "Setting hips at the wrong angle"
           ],
           "trap": [
-            "Ignoring early tap signals"
+            "Free their hips to grab the arm"
           ]
         }
       },
@@ -385,7 +385,7 @@
             "Switch to armbar attack"
           ],
           "trap": [
-            "Let go and stand to reset"
+            "Roll belly-down to chase the arm"
           ]
         }
       },
@@ -396,11 +396,11 @@
         "answer_line": "Tighten control fast, not force",
         "distractors": {
           "plausible": [
-            "Skip setup, muscle it through",
+            "Switch to a quicker submission",
             "Wait for a slower safe pace"
           ],
           "trap": [
-            "Yank pressure on quickly"
+            "Rip the shoulder with a hard jerk"
           ]
         }
       },
@@ -408,14 +408,14 @@
         "question": "What distinguishes the omoplata finish from omoplata control versus finishing during the initial entry?",
         "answer": "From established control, the opponent's defensive window has narrowed considerably. The forward roll, posturing, and arm extraction are their only remaining options, whereas during entry they could have defended the leg threading, blocked the hip switch, or maintained posture before control was established. The control position means you already have the belt grip, perpendicular hip angle, and shin across the back established. The finish is purely about progressive pressure application and counter defense rather than simultaneously securing control and attacking. This is why the finish rate from established control is significantly higher than from entry positions.",
         "safety_critical": false,
-        "answer_line": "Control = pure finish, not setup",
+        "answer_line": "Control is finish-only, no setup",
         "distractors": {
           "plausible": [
-            "Entry has narrower escape window",
-            "Both are identical in difficulty"
+            "Entry has fewer escape options",
+            "Control needs a new grip setup"
           ],
           "trap": [
-            "Entry is easier, control harder"
+            "Rush the finish during the entry"
           ]
         }
       }
@@ -534,14 +534,14 @@
         "question": "What are the earliest recognition cues that the omoplata finish is being initiated from control position?",
         "answer": "The earliest cues are the attacker securing a grip on your belt or far hip, and beginning to adjust their hip angle to perpendicular. You will feel increased pressure from their shin across your upper back as they drive their knee down, and their body will begin rising as they sit up tall. Recognizing these setup movements gives you the best chance to initiate escape before the finishing pressure becomes overwhelming.",
         "safety_critical": false,
-        "answer_line": "Belt grip taken, hips squaring up",
+        "answer_line": "Belt grip taken, hips turning in",
         "distractors": {
           "plausible": [
             "Sudden hard yank on the arm",
-            "Opponent leans back relaxed"
+            "Their shin pressure lightens"
           ],
           "trap": [
-            "Wait until pressure is painful"
+            "Wait until the shoulder hurts"
           ]
         }
       },
@@ -552,8 +552,8 @@
         "answer_line": "Sharp pain or end-range rotation",
         "distractors": {
           "plausible": [
-            "Only when you can't breathe",
-            "Tap only if partner insists"
+            "Once you can no longer bridge",
+            "Only after two failed escapes"
           ],
           "trap": [
             "Wait until you hear a pop"
@@ -567,11 +567,11 @@
         "answer_line": "After sit-up, before belt grip lock",
         "distractors": {
           "plausible": [
-            "Right when they first sit up",
-            "After the belt grip is locked"
+            "Before they begin to sit up",
+            "Once the belt grip is locked"
           ],
           "trap": [
-            "Wait until pressure is painful"
+            "Stall flat and hope they slip"
           ]
         }
       },
@@ -582,11 +582,11 @@
         "answer_line": "Rotate elbow, shift hips laterally",
         "distractors": {
           "plausible": [
-            "Push against the mat and freeze",
-            "Post free hand and wait it out"
+            "Bridge hard into their hip",
+            "Grip your own belt and stall"
           ],
           "trap": [
-            "Keep fighting instead of tapping"
+            "Rip the arm out at all costs"
           ]
         }
       }

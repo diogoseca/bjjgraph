@@ -529,14 +529,14 @@
       {
         "question": "The attacker has the high elbow locked and you feel carotid compression beginning - what is your emergency response?",
         "answer": "Tap immediately if you feel blood flow restriction to your brain. If you choose to continue defending, your only viable option is to aggressively circle your body away from the choking arm side to collapse the scissoring angle, accepting the risk of back exposure. Simultaneously strip the choking hand with both hands. This is a last-resort defense with low success probability against a properly locked high elbow finish.",
-        "answer_line": "Tap now if vision fades",
+        "answer_line": "Tap at once, blood flow is cut",
         "distractors": {
           "plausible": [
-            "Power through, keep fighting",
-            "Bridge and roll immediately"
+            "Turn into the choking arm side",
+            "Pry his top wrist with one hand"
           ],
           "trap": [
-            "Hold breath and wait it out"
+            "Ride it out until he tires"
           ]
         }
       },

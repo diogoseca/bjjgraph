@@ -324,11 +324,11 @@
         "answer_line": "Shoulder joint, rotational torque",
         "distractors": {
           "plausible": [
-            "Elbow joint, like an armbar",
+            "Elbow joint, hyperextension",
             "Wrist joint, compression force"
           ],
           "trap": [
-            "Chest compression cuts breathing"
+            "Neck crank, spinal torque"
           ]
         }
       },
@@ -336,14 +336,14 @@
         "question": "What physical indicators tell you the shoulder joint is approaching its breaking point during the Americana application?",
         "answer": "The opponent's body stiffens noticeably as the rotation approaches end range. Their far shoulder lifts off the mat as the body attempts to follow the rotation to reduce stress. You feel increasing resistance in the figure-four as the joint reaches its structural limit. The opponent may vocalize distress, grimace, or their breathing becomes rapid and shallow. Any of these signals indicate you are near the breaking point and must control speed carefully, allowing ample time for the tap before injury occurs.",
         "safety_critical": true,
-        "answer_line": "Stiffening, far shoulder lifts",
+        "answer_line": "Body stiffens, far shoulder lifts",
         "distractors": {
           "plausible": [
-            "Opponent goes limp and relaxed",
-            "Rapid tapping motion begins"
+            "Breathing slows and deepens",
+            "Their grip on your sleeve loosens"
           ],
           "trap": [
-            "No warning signs before tap"
+            "Wait for the pop to confirm"
           ]
         }
       },
@@ -351,14 +351,14 @@
         "question": "What control must be established before attempting the figure-four grip from Technical Mount?",
         "answer": "The wrist must be firmly pinned to the mat with the arm bent at approximately 90 degrees. Chest weight and hip pressure must assist the wrist pin—hand strength alone is insufficient against a resisting opponent. The technical mount base must be stable with the posted leg actively providing balance. The opponent's far arm should be neutralized or unable to interfere. Attempting the figure-four before all these conditions are met results in failed grip attempts and wasted energy that alerts the opponent to the threat.",
         "safety_critical": false,
-        "answer_line": "Wrist pinned, chest weight added",
+        "answer_line": "Wrist pinned flat with body weight",
         "distractors": {
           "plausible": [
-            "Cross-face grip established first",
-            "Far arm fully guillotined"
+            "Cross-face grip set first",
+            "Underhook the far armpit first"
           ],
           "trap": [
-            "Grip hand strength alone suffices"
+            "Post both hands to pry the wrist"
           ]
         }
       },
@@ -366,14 +366,14 @@
         "question": "At what point during the Americana from Technical Mount does the submission become effectively inescapable for the defender?",
         "answer": "Once the figure-four is fully tightened with elbows squeezed to centerline and the paint-brush rotation has moved the elbow past approximately 45 degrees toward the head, the mechanical advantage overwhelms most defensive strength. The combination of pinned wrist, locked figure-four, and hip weight creates a lever system that the defender cannot overcome with muscular effort. Before this point, the defender can potentially break the wrist pin, fight the grip, or bridge to create space. After it, the only option is to tap.",
         "safety_critical": false,
-        "answer_line": "Elbow past 45°, figure-4 locked",
+        "answer_line": "Elbow past 45°, figure-four locked",
         "distractors": {
           "plausible": [
-            "Right when wrist first pinned",
-            "Once technical mount is set"
+            "Right when the wrist is pinned",
+            "As soon as technical mount lands"
           ],
           "trap": [
-            "After hips lift off shoulder"
+            "Not until the shoulder tears"
           ]
         }
       },
@@ -384,11 +384,11 @@
         "answer_line": "Lifting hips off the shoulder",
         "distractors": {
           "plausible": [
-            "Squeezing elbows too tight",
-            "Rotating too slowly to finish"
+            "Squeezing the elbows too tight",
+            "Rotating the arm too slowly"
           ],
           "trap": [
-            "Driving hips heavier into shoulder"
+            "Sitting up to grab the head"
           ]
         }
       },
@@ -411,14 +411,14 @@
         "question": "Your opponent begins straightening their arm to prevent the Americana figure-four from Technical Mount—how do you respond?",
         "answer": "Immediately transition to the armbar. The straightened arm is exactly the configuration needed for the armbar from technical mount. Maintain wrist control as you begin the armbar swing-over, using the posted leg to initiate the transition. This is the core binary dilemma of technical mount offense: bending the arm invites the Americana, extending it invites the armbar. The ability to flow seamlessly between these two submissions based on the opponent's defensive reaction is what makes technical mount a high-percentage finishing position.",
         "safety_critical": false,
-        "answer_line": "Transition straight to armbar",
+        "answer_line": "Switch straight into the armbar",
         "distractors": {
           "plausible": [
-            "Force the arm back to bent",
-            "Abandon position, reset base"
+            "Crank harder on the figure-four",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Release wrist to re-grip"
+            "Unpost the leg to chase the arm"
           ]
         }
       },
@@ -426,14 +426,14 @@
         "question": "How do you modify the Americana finish when the opponent defends by grabbing their own belt, pants, or gi lapel to anchor the wrist?",
         "answer": "Use your knee or shin to wedge between their gripping hand and the anchor point, applying pressure to break the defensive grip. If the grip is too strong to break mechanically, switch to the high-elbow variation by repositioning their elbow higher toward the crown of their head before rotating—this changes the angle of attack and often bypasses the defensive anchor. Alternatively, threaten the armbar by beginning to extend their arm, which forces them to release the anchor grip to defend the new threat.",
         "safety_critical": false,
-        "answer_line": "Wedge knee, break the anchor",
+        "answer_line": "Wedge the knee to break the grip",
         "distractors": {
           "plausible": [
-            "Pull harder against the anchor",
-            "Switch sides to opposite Americana"
+            "Pull harder on the anchored wrist",
+            "Switch to the other side arm"
           ],
           "trap": [
-            "Release the wrist to re-angle"
+            "Sit up tall to pry with both hands"
           ]
         }
       },
@@ -441,14 +441,14 @@
         "question": "What is the correct application speed for the Americana from Technical Mount and why is speed control critical for safety?",
         "answer": "The Americana should be applied over a minimum of 3-5 seconds from figure-four establishment to finish, using slow and steady rotational pressure. Speed control is critical because the shoulder joint has very limited tolerance for sudden rotational force—the rotator cuff tendons and glenohumeral capsule can tear before the opponent has time to recognize the submission and tap. Jerking or spiking the Americana can cause catastrophic shoulder injury requiring surgical repair and months of recovery. Controlled application is both the safest and most technically effective approach.",
         "safety_critical": true,
-        "answer_line": "Slow, steady, 3-5 seconds",
+        "answer_line": "Slow steady turn over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Fast snap for surprise factor",
-            "Hold static until they tap"
+            "Hold still and wait for the tap",
+            "Only ramp up once they defend"
           ],
           "trap": [
-            "Quick spike once locked in"
+            "Snap it fast to beat the defense"
           ]
         }
       },
@@ -471,14 +471,14 @@
         "question": "In competition with limited time remaining and you have established the figure-four from Technical Mount, how do you maximize your finishing probability?",
         "answer": "Commit fully to the finish rather than hedging between the Americana and positional maintenance. Increase hip pressure on the shoulder to eliminate any remaining bridging capacity, ensuring the opponent cannot create space during your finishing attempt. Accelerate the rotational arc slightly while remaining controlled—competition pace is faster than drilling pace but must never become a spike. If the opponent anchors their wrist, immediately switch to the high-elbow variation rather than grinding against the anchor, as time pressure demands you bypass defenses rather than fight through them. Keep the posted leg active to prevent any last-second scramble from disrupting the finish.",
         "safety_critical": false,
-        "answer_line": "Commit fully, raise hip pressure",
+        "answer_line": "Commit fully, add hip pressure",
         "distractors": {
           "plausible": [
-            "Hold position, wait for time",
-            "Grind through wrist anchor"
+            "Stall out the clock on top",
+            "Switch to hunting a choke"
           ],
           "trap": [
-            "Lift hips for faster rotation"
+            "Rip it explosively for the tap"
           ]
         }
       }
@@ -622,11 +622,11 @@
         "answer_line": "Straight arm invites the armbar",
         "distractors": {
           "plausible": [
-            "It weakens your grip strength",
-            "It exposes the neck to choke"
+            "It gives up your underhook",
+            "It loosens your hip escape frame"
           ],
           "trap": [
-            "Straightening fully breaks pin"
+            "It is safe if you rip it fast"
           ]
         }
       },
@@ -634,14 +634,14 @@
         "question": "At what point should you tap to the Americana from Technical Mount to avoid injury?",
         "answer": "Tap the moment you feel progressive rotational pressure on the shoulder that you cannot stop through defensive movement. Do not wait until you feel sharp pain—the shoulder joint transitions from discomfort to structural damage rapidly under rotational load. If the figure-four is locked and the attacker has begun the paint-brush rotation, assess honestly whether you can escape. If the rotation has passed the halfway point toward your ear and your bridge attempts have failed, tap immediately. Shoulder injuries from late taps can require surgical repair and months of rehabilitation.",
         "safety_critical": true,
-        "answer_line": "At first uncontrollable pressure",
+        "answer_line": "As soon as pressure won't stop",
         "distractors": {
           "plausible": [
-            "Only when sharp pain hits",
-            "Wait for figure-four to lock"
+            "After two failed escape attempts",
+            "Only once your grip gives out"
           ],
           "trap": [
-            "Try to escape past halfway point"
+            "Power through and ride it out"
           ]
         }
       },
@@ -652,8 +652,8 @@
         "answer_line": "During attacker's grip transition",
         "distractors": {
           "plausible": [
-            "When they're fully settled, static",
-            "Immediately after mount is taken"
+            "Once their weight is fully settled",
+            "After they finish adjusting grips"
           ],
           "trap": [
             "Wait until figure-four is locked"
@@ -667,11 +667,11 @@
         "answer_line": "Shrimp hips, knee shield in",
         "distractors": {
           "plausible": [
-            "Stand straight up immediately",
-            "Push away and disengage fully"
+            "Bench-press them off your chest",
+            "Hip escape away from the post"
           ],
           "trap": [
-            "Stay flat, wait for their mistake"
+            "Turn belly-down and run"
           ]
         }
       }

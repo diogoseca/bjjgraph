@@ -355,10 +355,10 @@
         "distractors": {
           "plausible": [
             "Choking arm crosses the chin",
-            "Both hooks are in deep"
+            "Both hooks sunk in deep"
           ],
           "trap": [
-            "Once defender stops moving"
+            "The instant you take the back"
           ]
         }
       },
@@ -561,11 +561,11 @@
         "answer_line": "Turn chin into elbow crook",
         "distractors": {
           "plausible": [
-            "Pull forearm away from neck",
-            "Strip both hooks immediately"
+            "Bridge hard onto your shoulders",
+            "Force their wrist across your face"
           ],
           "trap": [
-            "Relax and wait for full lock"
+            "Relax until the choke locks"
           ]
         }
       },
@@ -576,11 +576,11 @@
         "answer_line": "Stay on side, preserve hip mobility",
         "distractors": {
           "plausible": [
-            "Flatten out to bridge harder",
-            "Turn face-down for leverage"
+            "Flatten to bridge them off",
+            "Sit up tall and posture"
           ],
           "trap": [
-            "Go flat and turtle up tighter"
+            "Turn belly-down and turtle"
           ]
         }
       }

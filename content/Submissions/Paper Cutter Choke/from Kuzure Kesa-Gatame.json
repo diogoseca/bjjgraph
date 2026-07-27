@@ -306,14 +306,14 @@
         "question": "What is the breaking point indicator that tells you the choke is fully locked and the opponent must tap or lose consciousness?",
         "answer": "The choke is fully locked when the forearm blade is seated flush against the near-side neck with no gap, and the lapel behind the neck has zero slack. You will feel the opponent's pulse against your forearm weaken or disappear. Their defensive hand fighting becomes weaker and less coordinated. From full lock, unconsciousness can occur within 8-10 seconds of sustained bilateral compression.",
         "safety_critical": true,
-        "answer_line": "Forearm flush, lapel has no slack",
+        "answer_line": "Forearm flush, lapel fully taut",
         "distractors": {
           "plausible": [
-            "Opponent taps out immediately",
-            "Ten seconds since lock started"
+            "Opponent's pulse throbs stronger",
+            "Their defense gets more frantic"
           ],
           "trap": [
-            "Jerk the neck for a quick finish"
+            "Ease grip as their defense fades"
           ]
         }
       },
@@ -370,7 +370,7 @@
         "distractors": {
           "plausible": [
             "Switch to armbar immediately",
-            "Abandon choke, pass guard"
+            "Muscle the choke through the grip"
           ],
           "trap": [
             "Release lapel to grip fight back"
@@ -403,7 +403,7 @@
             "Squeeze harder to force tap"
           ],
           "trap": [
-            "Telegraph grip to bait reaction"
+            "Abandon the pin to crank the neck"
           ]
         }
       }
@@ -548,8 +548,8 @@
         "answer_line": "Tap at bilateral neck pressure",
         "distractors": {
           "plausible": [
-            "Tap only if vision blurs",
-            "Wait to see if you can escape"
+            "Tap only when vision blurs",
+            "Tap only if you can't breathe"
           ],
           "trap": [
             "Try to power out before tapping"

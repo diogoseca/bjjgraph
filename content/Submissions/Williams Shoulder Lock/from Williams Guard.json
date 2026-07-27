@@ -304,14 +304,14 @@
         "question": "What anatomical structure does the Williams Shoulder Lock primarily attack and why is it vulnerable?",
         "answer": "The Williams Shoulder Lock primarily attacks the glenohumeral joint through forced external (posterior) rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the joint capsule. The shoulder's large range of motion makes it vulnerable to rotational locks that exceed its normal external rotation capacity, particularly when the elbow is pinned as a fixed fulcrum point that concentrates all rotational force on the joint.",
         "safety_critical": false,
-        "answer_line": "Shoulder rotation, elbow fulcrum",
+        "answer_line": "Shoulder joint, external rotation",
         "distractors": {
           "plausible": [
-            "Elbow hyperextension",
+            "Elbow hinge overextension",
             "Wrist and forearm bones"
           ],
           "trap": [
-            "Internal rotation like Americana"
+            "Crank first, pin the elbow later"
           ]
         }
       },
@@ -334,14 +334,14 @@
         "question": "What indicators signal the shoulder lock has reached the point of no escape for the defender?",
         "answer": "The point of no escape occurs when the opponent's elbow is firmly pinned against your chest, their shoulder has been rotated beyond approximately 70% of its external rotation range, and your hip angle is fully set with active leg frames preventing any angle changes. At this point the opponent cannot generate enough counter-force to reverse the rotational pressure without risking injury to their shoulder structures. Their only safe option is to tap immediately.",
         "safety_critical": false,
-        "answer_line": "Elbow pinned, hips fully angled",
+        "answer_line": "Elbow pinned to chest, hips set",
         "distractors": {
           "plausible": [
             "Opponent stops moving entirely",
-            "You feel their arm go limp"
+            "Figure-four grip is locked in"
           ],
           "trap": [
-            "Opponent's shoulder touches mat"
+            "Spike rotation to test the lock"
           ]
         }
       },
@@ -349,14 +349,14 @@
         "question": "How should you release the Williams Shoulder Lock after your partner taps?",
         "answer": "Immediately cease all rotational pressure upon any tap signal. Do not simply drop the arm—guide it slowly back to a neutral anatomically safe position by reversing the rotation gradually over 2-3 seconds. Release the figure-four grip completely only after the arm has returned to neutral. Check verbally with your partner to confirm they are uninjured before continuing training. An abrupt release can cause additional injury to an already-stressed shoulder joint.",
         "safety_critical": true,
-        "answer_line": "Stop, guide arm back slowly",
+        "answer_line": "Ease pressure, guide arm to neutral",
         "distractors": {
           "plausible": [
-            "Release grip immediately",
-            "Drop the arm and move away"
+            "Ask if they tapped before letting go",
+            "Release grip first, then arm"
           ],
           "trap": [
-            "Yank arm to neutral quickly"
+            "Drop the arm and roll away"
           ]
         }
       },
@@ -367,8 +367,8 @@
         "answer_line": "Switch to gable grip on tricep",
         "distractors": {
           "plausible": [
-            "Chalk hands, reset wrist grip",
-            "Grab the gi collar instead"
+            "Crush wrist-on-wrist tighter",
+            "Two-on-one on their wrist"
           ],
           "trap": [
             "Release and re-shoot overhook"
@@ -379,10 +379,10 @@
         "question": "Your opponent drives forward aggressively instead of pulling back—how do you convert this into a finish?",
         "answer": "Forward drive is advantageous for your attack chains. Use their momentum to accelerate the omoplata transition—swing your outside leg over their shoulder as they drive forward, converting their force into rotational energy that either finishes the original shoulder lock at a sharper angle or transitions directly to omoplata control. Never fight forward pressure statically; redirect it into your submission and sweep chains where their energy works for you.",
         "safety_critical": false,
-        "answer_line": "Redirect into omoplata sweep",
+        "answer_line": "Redirect into omoplata",
         "distractors": {
           "plausible": [
-            "Increase rotation pressure fast",
+            "Post a hand to stop the drive",
             "Pull them back to reset angle"
           ],
           "trap": [
@@ -394,14 +394,14 @@
         "question": "What is the minimum safe application speed for this submission in training and why?",
         "answer": "The Williams Shoulder Lock should be applied over a minimum of 5-7 seconds of progressive pressure and never spiked or jerked. The shoulder joint has significantly less structural reinforcement than the elbow or knee, making it extremely vulnerable to sudden rotational forces. In training always err on the side of slower application. If your partner does not tap within 7-10 seconds of progressive pressure, reassess your position mechanics rather than rapidly increasing force.",
         "safety_critical": true,
-        "answer_line": "5-7 seconds, never spike it",
+        "answer_line": "Build over 5-7 seconds",
         "distractors": {
           "plausible": [
-            "1-2 seconds, fast is safer",
-            "30+ seconds, as slow as possible"
+            "Match speed to their defense",
+            "Same speed as an armbar"
           ],
           "trap": [
-            "Spike hard for quick tap"
+            "Snap it on before they defend"
           ]
         }
       },
@@ -412,11 +412,11 @@
         "answer_line": "Letting elbow drift off chest",
         "distractors": {
           "plausible": [
-            "Not rotating hips enough",
+            "Hips not angled enough",
             "Grip not tight enough"
           ],
           "trap": [
-            "Cranking harder, not repositioning"
+            "Abandon frames to squeeze harder"
           ]
         }
       },
@@ -428,7 +428,7 @@
         "distractors": {
           "plausible": [
             "Switch to armbar immediately",
-            "Release grip, reset guard"
+            "Sit up and take the back"
           ],
           "trap": [
             "Let go and chase the arm"
@@ -446,7 +446,7 @@
             "Same rotation, different grip"
           ],
           "trap": [
-            "Wrist crank, not shoulder lock"
+            "Crank it inward from the bottom"
           ]
         }
       }
@@ -584,14 +584,14 @@
         "question": "When should you tap to the Williams Shoulder Lock to prevent injury?",
         "answer": "Tap immediately when you feel progressive rotational pressure on your shoulder that you cannot relieve through defensive movement. The shoulder joint has minimal structural reinforcement compared to the elbow, and damage occurs rapidly once the lock reaches its mechanical endpoint. If you feel pressure building and your defensive options are exhausted, tap before pain becomes sharp. Shoulder injuries from delayed tapping can require 6-12 months of recovery and may cause chronic joint instability.",
         "safety_critical": true,
-        "answer_line": "When pressure can't be relieved",
+        "answer_line": "Once you can't relieve pressure",
         "distractors": {
           "plausible": [
-            "Only when sharp pain hits",
-            "When your arm goes numb"
+            "After trying one more escape",
+            "When the grip first locks"
           ],
           "trap": [
-            "Wait it out, power through"
+            "Hold out until it pops"
           ]
         }
       },
@@ -599,14 +599,14 @@
         "question": "What defensive options are available at different stages of the Williams Shoulder Lock?",
         "answer": "Early stage when grip is being established: strip grips immediately before figure-four locks, maintain strong posture to prevent hip angle. Middle stage when lock is applied but hip angle developing: circle toward controlled arm to reduce rotation, use circular arm extraction while maintaining base. Late stage with full lock and hip angle set: if you cannot relieve pressure through movement, tap immediately. Each stage offers fewer options—early recognition and response dramatically increases defensive success rate.",
         "safety_critical": false,
-        "answer_line": "Strip grips early, circle mid",
+        "answer_line": "Strip grips early, circle later",
         "distractors": {
           "plausible": [
-            "Pull arm straight back always",
-            "Posture up and stack hard"
+            "Bridge and roll at any stage",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Yank arm free at full lock"
+            "Rip the arm out at full lock"
           ]
         }
       },
@@ -614,14 +614,14 @@
         "question": "Why is circular arm extraction more effective than pulling your arm straight back?",
         "answer": "Linear pulling works against the figure-four grip's mechanical structure, actually increasing rotational pressure on the shoulder joint. Circular extraction—rotating the elbow while maintaining shoulder alignment—gradually disengages the grip mechanics by changing the angle of force application. This technique addresses the lock's structure rather than fighting its strength, making it more energy-efficient and significantly reducing injury risk during the extraction process.",
         "safety_critical": false,
-        "answer_line": "Rotates elbow, not linear pull",
+        "answer_line": "Changes the angle of force",
         "distractors": {
           "plausible": [
-            "Uses more strength than pulling",
-            "Same mechanism, just slower"
+            "It tires the attacker's grip",
+            "It uses stronger back muscles"
           ],
           "trap": [
-            "Pull straight back hard"
+            "Yank straight back with force"
           ]
         }
       },
@@ -632,7 +632,7 @@
         "answer_line": "Omoplata, triangle, armbar",
         "distractors": {
           "plausible": [
-            "Kimura, guillotine, heel hook",
+            "Kimura, guillotine, wristlock",
             "Only armbar follows extraction"
           ],
           "trap": [

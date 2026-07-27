@@ -349,14 +349,14 @@
       {
         "question": "Why must wrist rotation be applied slowly during Tarikoplata finishing and what injury risks exist from explosive application?",
         "answer": "The Tarikoplata creates compound stress from two simultaneous vectors: omoplata hip extension on the shoulder plus wrist rotation adding internal rotation torque. This compound loading damages tissue faster than single-joint attacks—the rotator cuff, labrum, and glenohumeral ligaments can fail before the opponent perceives sufficient pain to tap. Explosive wrist rotation can cause rotator cuff tears, shoulder dislocation, and labrum damage. Progressive application over 3-5 seconds is mandatory to allow safe tapping.",
-        "answer_line": "Rotate slowly, 3-5 seconds",
+        "answer_line": "Rotate slowly over 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Apply fast for quick tap",
-            "Hold static, no rotation"
+            "Use hip pressure only",
+            "Hold static without turning"
           ],
           "trap": [
-            "Snap wrist for fast finish"
+            "Snap the wrist explosively"
           ]
         }
       }
@@ -536,10 +536,10 @@
         "distractors": {
           "plausible": [
             "Minor wrist sprain only",
-            "Dislocation is the only risk"
+            "Only a dislocation risk"
           ],
           "trap": [
-            "Roll through to escape fast"
+            "None if you stay relaxed"
           ]
         }
       }

@@ -271,14 +271,14 @@
         "answer": "Leading with the head or neck risks cervical spine injury and telegraphs your recovery, letting the opponent time triangles and armbars. The danger is greatest when the opponent is pulling down with collar grips that load the neck under extension. Proper recovery initiates from the hips with progressive spinal straightening from lumbar through thoracic to cervical, ensuring force is distributed across the entire posterior chain rather than concentrated on the neck.",
         "distractors": {
           "plausible": [
-            "Head-first is just slower",
-            "Neck lead breaks posture faster"
+            "It only slows your recovery",
+            "It tires your neck muscles"
           ],
           "trap": [
-            "Jerk head back to break grip"
+            "Snap head back to shed the grip"
           ]
         },
-        "answer_line": "Head-first risks neck injury"
+        "answer_line": "Head lead risks cervical injury"
       },
       {
         "question": "Your opponent pivots their hips for an armbar as you begin recovering posture - how do you adjust?",
@@ -342,11 +342,11 @@
         "answer_line": "Tuck chin, strip the grip",
         "distractors": {
           "plausible": [
-            "Posture through the choke",
-            "Pull head away from grip"
+            "Pull your head straight back",
+            "Grab their wrist one-handed"
           ],
           "trap": [
-            "Force posture, ignore choke"
+            "Posture up through the choke"
           ]
         }
       },

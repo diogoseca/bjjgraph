@@ -284,8 +284,8 @@
         "answer_line": "PCL, MCL, joint capsule",
         "distractors": {
           "plausible": [
-            "ACL and meniscus only",
-            "Ankle mortise and tendons"
+            "Achilles and calf tendon",
+            "Kneecap and quad tendon"
           ],
           "trap": [
             "Hip flexors and IT band"
@@ -299,8 +299,8 @@
         "answer_line": "Leg straightens or knee rotates in",
         "distractors": {
           "plausible": [
-            "Opponent grips your collar",
-            "Opponent taps early"
+            "Opponent points the toes down",
+            "Opponent grabs your near wrist"
           ],
           "trap": [
             "Opponent bends knee tighter"
@@ -345,10 +345,10 @@
         "distractors": {
           "plausible": [
             "Release and reset from scratch",
-            "Switch to heel hook instead"
+            "Wait passively for a tap"
           ],
           "trap": [
-            "Bridge harder to force it"
+            "Let go and stand up"
           ]
         }
       },
@@ -363,7 +363,7 @@
             "Releasing grip too early"
           ],
           "trap": [
-            "Ignoring partner's tap"
+            "Overcommitting and getting swept"
           ]
         }
       },
@@ -389,8 +389,8 @@
         "answer_line": "Tighten pinch, angle body in",
         "distractors": {
           "plausible": [
-            "Let it slip, reset position",
-            "Grip shin harder with hands"
+            "Let the leg slide free",
+            "Push opponent's hip away"
           ],
           "trap": [
             "Force finish through the slip"
@@ -404,11 +404,11 @@
         "answer_line": "Commit fully to toe hold first",
         "distractors": {
           "plausible": [
-            "Fake toe hold as pure setup",
-            "Go straight for kneebar early"
+            "Threaten both subs at once",
+            "Stall and wait for openings"
           ],
           "trap": [
-            "Rush the transition immediately"
+            "Skip the toe hold entirely"
           ]
         }
       },
@@ -419,11 +419,11 @@
         "answer_line": "Forces real defensive reactions",
         "distractors": {
           "plausible": [
-            "Tires opponent's grip strength",
-            "Wastes opponent's stalling time"
+            "Drains their leg cardio",
+            "Scores aggression points"
           ],
           "trap": [
-            "Telegraphs the real attack"
+            "It guarantees a fast tap"
           ]
         }
       }
@@ -554,7 +554,7 @@
         "distractors": {
           "plausible": [
             "Tap only at sharp pain",
-            "Wait for coach to stop it"
+            "Trust your partner to go slow"
           ],
           "trap": [
             "Fight through to escape late"
@@ -568,8 +568,8 @@
         "answer_line": "Curl knee and fight grips",
         "distractors": {
           "plausible": [
-            "Pull leg straight and yank",
-            "Tap immediately, no defense"
+            "Yank the leg out straight",
+            "Reach for their far collar"
           ],
           "trap": [
             "Roll away from trapped leg"

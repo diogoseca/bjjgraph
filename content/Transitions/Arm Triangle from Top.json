@@ -311,14 +311,14 @@
       {
         "question": "What grip should you use behind the opponent's head, and why does it matter?",
         "answer": "Use a gable grip (palm-to-palm with fingers wrapped over the back of the opposite hand) or an S-grip. Interlocked fingers create a structurally weaker connection that can be broken by explosive bridging or head movement, and the finger interlock risks injury when force is applied laterally. The gable grip distributes force across the entire hand surface and allows you to adjust squeeze angle by rotating your wrists without releasing pressure. The grip placement should sit at the base of the opponent's skull, pulling their head slightly forward to tighten the neck-arm seal.",
-        "answer_line": "Gable grip, not finger-lock",
+        "answer_line": "Gable grip, palm to palm",
         "distractors": {
           "plausible": [
-            "Interlocked fingers for strength",
-            "S-grip only, never gable"
+            "Grab your own wrist behind head",
+            "Cup the skull with both palms"
           ],
           "trap": [
-            "Lace fingers and crank hard"
+            "Interlace fingers and crank hard"
           ]
         }
       },

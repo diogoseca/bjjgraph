@@ -359,14 +359,14 @@
       {
         "question": "Your sweep successfully off-balances the opponent but they begin recovering to their knees during the transition - what must you do?",
         "answer": "You must maintain your grip control and drive your chest forward aggressively to beat them to the top position. The window between successful off-balance and opponent recovery is approximately one to two seconds. Release your sweep grips only after you have established chest-to-chest contact in the top position. If they are already recovering to their knees, switch from seeking side control to establishing a front headlock or snap-down position to maintain top pressure. Never allow a pause between the sweep completion and position consolidation, as any hesitation allows them to re-establish base and neutralize the positional gain.",
-        "answer_line": "Drive chest-to-chest, don't pause",
+        "answer_line": "Drive chest-to-chest to top first",
         "distractors": {
           "plausible": [
-            "Release grips to reset posture",
-            "Let them recover then attack"
+            "Release grips to reframe",
+            "Wait for them to settle first"
           ],
           "trap": [
-            "Pause to celebrate the sweep"
+            "Freeze, letting them reverse you"
           ]
         }
       }

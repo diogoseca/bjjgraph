@@ -512,14 +512,14 @@
       {
         "question": "What is the risk of attempting an aggressive heel hook finish as the opponent drives forward with stack pass pressure?",
         "answer": "Attempting aggressive heel hook during dynamic forward stacking pressure significantly increases injury risk for both practitioners. The opponent's forward momentum combined with rotational heel hook force creates sudden, potentially uncontrollable torque on the knee joint. The safer approach is to use the heel hook threat to stall forward pressure and create transition windows for saddle entry or inversion rather than attempting to finish during active forward movement. Reserve aggressive finishing pressure for static control positions.",
-        "answer_line": "Uncontrolled torque risks injury",
+        "answer_line": "Sudden knee torque risks injury",
         "distractors": {
           "plausible": [
-            "Fine if grip is already broken",
-            "Safe since pressure is controlled"
+            "Only risk is getting stacked flat",
+            "Gives up the outside ashi grip"
           ],
           "trap": [
-            "Finish hard to end scramble fast"
+            "Crank through the stack pressure"
           ]
         }
       }

@@ -372,11 +372,11 @@
         "answer_line": "Diagonal drive vs hip shift",
         "distractors": {
           "plausible": [
-            "Both use hip switching",
-            "Both drive straight back"
+            "Both drive straight back",
+            "Two names for one move"
           ],
           "trap": [
-            "Hip switch needs no pressure"
+            "Lateral pop needs no pressure"
           ]
         }
       }

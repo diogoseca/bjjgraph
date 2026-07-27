@@ -506,11 +506,11 @@
         "answer_line": "Snap during their push-off",
         "distractors": {
           "plausible": [
-            "Snap right as clinch begins",
-            "Snap after they've separated"
+            "Snap the instant you clinch",
+            "Snap when they stand neutral"
           ],
           "trap": [
-            "Snap when their weight is centered"
+            "Snap after they clear the clinch"
           ]
         }
       },

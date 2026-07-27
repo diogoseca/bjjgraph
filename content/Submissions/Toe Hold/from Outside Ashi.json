@@ -335,11 +335,11 @@
         "answer_line": "Tension, gasps, frantic escape",
         "distractors": {
           "plausible": [
-            "Wait for them to yell tap",
-            "Loud complaints only real sign"
+            "They stop moving to rest",
+            "Only a verbal tap counts"
           ],
           "trap": [
-            "Push through until you feel a pop"
+            "Wait for the pop as your cue"
           ]
         }
       },
@@ -350,11 +350,11 @@
         "answer_line": "Grip, chest, hooks, and base",
         "distractors": {
           "plausible": [
-            "Just grip and start twisting",
-            "Chest pressure without hooks"
+            "Only need to isolate the foot",
+            "A deep hip pin is enough"
           ],
           "trap": [
-            "Crank immediately after gripping"
+            "Crank the ankle before locked in"
           ]
         }
       },
@@ -377,14 +377,14 @@
         "question": "What is the most common finishing error that reduces toe hold effectiveness and how do you correct it?",
         "answer": "The most common finishing error is gripping too high on the foot or ankle rather than cupping the ball of the foot and toes. Gripping the shin or upper ankle reduces the mechanical lever arm and diminishes rotational force dramatically. The grip must cup the metatarsal heads, creating maximum distance between the fulcrum point (your forearm positioned under the ankle) and the force application point (your hands on the toes and ball). This distance determines the torque generated. Gripping high essentially creates a weak calf slicer rather than an effective toe hold.",
         "safety_critical": false,
-        "answer_line": "Grip too high, not ball of foot",
+        "answer_line": "Grip too high, not the ball of foot",
         "distractors": {
           "plausible": [
-            "Gripping the shin for leverage",
-            "Squeezing harder over regripping"
+            "Not squeezing your knees enough",
+            "Rushing the finish too fast"
           ],
           "trap": [
-            "Cup the heel instead of toes"
+            "Cup the heel, not the toes"
           ]
         }
       },
@@ -410,8 +410,8 @@
         "answer_line": "Pain lags injury, so go slow",
         "distractors": {
           "plausible": [
-            "Speed doesn't affect injury risk",
-            "Fast taps mean fast finishes work"
+            "Ligaments hurt before they tear",
+            "Speed only affects your control"
           ],
           "trap": [
             "Crank explosively to beat the tap"
@@ -594,11 +594,11 @@
         "answer_line": "Sharp pain unrelieved in seconds",
         "distractors": {
           "plausible": [
-            "Only when you hear or feel a pop",
-            "Wait until you can't move at all"
+            "Once you hear a loud pop",
+            "When you feel mild discomfort"
           ],
           "trap": [
-            "Fight through it to avoid tapping"
+            "Grit through it to avoid tapping"
           ]
         }
       },
@@ -639,8 +639,8 @@
         "answer_line": "Ankle and knee both at risk",
         "distractors": {
           "plausible": [
-            "Only the ankle can be injured",
-            "Knee is safe if ankle feels fine"
+            "Foot joints are the only concern",
+            "Nothing above the trapped foot"
           ],
           "trap": [
             "Ignore mild pressure, keep rolling"
@@ -654,11 +654,11 @@
         "answer_line": "Easier early, urgent once rotating",
         "distractors": {
           "plausible": [
-            "Same urgency at every stage",
-            "Wait until rotation to respond"
+            "Same effort at every stage",
+            "Hardest to stop at first grip"
           ],
           "trap": [
-            "Relax once figure-four is locked"
+            "Relax after the figure-four locks"
           ]
         }
       },
@@ -669,11 +669,11 @@
         "answer_line": "Tap now, stop rolling, ice it",
         "distractors": {
           "plausible": [
-            "Shake it off and keep training",
-            "Tap, then finish the round"
+            "Finish the round, then rest",
+            "Walk it off and self-assess"
           ],
           "trap": [
-            "Push through to end the roll"
+            "Keep going to salvage the win"
           ]
         }
       }

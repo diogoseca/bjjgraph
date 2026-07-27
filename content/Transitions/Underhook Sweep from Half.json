@@ -245,7 +245,7 @@
             "Sets up the far hip grip"
           ],
           "trap": [
-            "Lets you lift them straight up"
+            "Lift them vertically, get stuffed"
           ]
         }
       },
@@ -254,11 +254,11 @@
         "answer": "Controlling the far hip stops your opponent from posting their far leg out for base, the most common defense against this sweep. By pulling the far hip toward you, you restrict their ability to extend that leg for support while also helping to load their weight onto the sweeping trajectory. This grip essentially removes one of their primary defensive options before they can employ it.",
         "distractors": {
           "plausible": [
-            "Pulls them onto your hips",
+            "Breaks their crossface pressure",
             "Sets up the 45° angle"
           ],
           "trap": [
-            "Frees your underhook arm"
+            "Skip it, they post and flatten you"
           ]
         },
         "answer_line": "Blocks their far leg post"
@@ -269,11 +269,11 @@
         "answer_line": "Redirect, don't fight the whizzer",
         "distractors": {
           "plausible": [
-            "Rip the whizzer out by force",
-            "Re-underhook and reset angle"
+            "Re-underhook and reset angle",
+            "Hip escape back to closed guard"
           ],
           "trap": [
-            "Fight the whizzer with strength"
+            "Muscle through and get flattened"
           ]
         }
       },
@@ -287,7 +287,7 @@
             "Sweep once hips are flat"
           ],
           "trap": [
-            "Wait for them to sit back"
+            "Wait while they sit back and pass"
           ]
         }
       },
@@ -296,11 +296,11 @@
         "answer": "Keeping the underhook the entire time prevents your opponent from framing, turning away, or escaping during the transition to top. If you release the underhook too early, your opponent can use the scramble to recover guard or escape to neutral position. The underhook that initiates the sweep should be the same connection that controls them as you establish side control, creating a seamless chain of control from bottom to top position.",
         "distractors": {
           "plausible": [
-            "Frees hand for collar grip",
-            "Lets you switch to overhook"
+            "Mainly to keep them flat",
+            "Stops their whizzer grip"
           ],
           "trap": [
-            "Release it to speed up the pass"
+            "Let it go once you're on top"
           ]
         },
         "answer_line": "Keeps them from framing, escaping"
@@ -314,7 +314,7 @@
             "Straightens your base leg"
           ],
           "trap": [
-            "Push straight up with your arms"
+            "Arm strength only, get stacked"
           ]
         },
         "answer_line": "Bridge hips, lever them over"
@@ -328,7 +328,7 @@
             "Forearm wedged in the armpit"
           ],
           "trap": [
-            "Grip their same-side collar"
+            "Flare the elbow out, get whizzered"
           ]
         },
         "answer_line": "Shoulder to ribs, elbow tight"
@@ -343,7 +343,7 @@
             "Straight to the side"
           ],
           "trap": [
-            "Push them flat downward first"
+            "Drive them away, lose the underhook"
           ]
         }
       },
@@ -370,10 +370,10 @@
             "Works only if they sit back"
           ],
           "trap": [
-            "A standalone move, no chain"
+            "Force it alone, get flattened"
           ]
         },
-        "answer_line": "Hub: each defense opens attack"
+        "answer_line": "Hub move: defenses open attacks"
       }
     ],
     "safety_considerations": "The underhook sweep is generally one of the safer techniques in Brazilian Jiu-Jitsu, with minimal injury risk when executed properly. However, practitioners should be aware that explosive bridging can strain the neck if head position is incorrect - always keep your head tight to opponent's body rather than bridging with an extended neck. When coming up on top, control your weight distribution to avoid driving knees into opponent's ribs or face during the scramble. Training partners should tap the mat if they feel themselves being swept too aggressively and are unable to breakfall safely, particularly on hard surfaces. Beginners should practice breakfalls separately before drilling this sweep at full speed. As with all sweeps, be conscious of the training space and ensure sufficient room to complete the technique without rolling into walls, equipment, or other practitioners.",
@@ -500,11 +500,11 @@
         "answer_line": "Deep whizzer, grip your thigh",
         "distractors": {
           "plausible": [
-            "Post your far leg wide first",
+            "Flatten out and wait it out",
             "Crossface before whizzering"
           ],
           "trap": [
-            "Grab a shallow elbow whizzer"
+            "Shallow elbow whizzer, get swept"
           ]
         }
       },
@@ -532,7 +532,7 @@
             "Crossface first, then whizzer"
           ],
           "trap": [
-            "Pull them into closed guard"
+            "Sit back, hand them the sweep"
           ]
         }
       },
@@ -556,11 +556,11 @@
         "answer_line": "Punish it, pass hard right now",
         "distractors": {
           "plausible": [
-            "Reset calmly in half guard top",
-            "Wait for them to reattack"
+            "Settle and rebuild your grips",
+            "Switch to a leg attack instead"
           ],
           "trap": [
-            "Let them recover position first"
+            "Stall until they re-underhook"
           ]
         }
       }

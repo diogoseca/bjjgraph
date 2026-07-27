@@ -301,11 +301,11 @@
         "answer_line": "Shoulder: rotator cuff & capsule",
         "distractors": {
           "plausible": [
-            "Elbow joint hyperextension",
-            "Wrist joint hyperflexion"
+            "Elbow hyperextension only",
+            "Wrist and forearm tendons"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Cervical spine — crank the neck"
           ]
         }
       },
@@ -331,11 +331,11 @@
         "answer_line": "Elbow pinned = fulcrum point",
         "distractors": {
           "plausible": [
-            "Wrist pinned to their chest",
-            "Shoulder pinned to the mat"
+            "It stops them bridging you off",
+            "Blocks their free-hand frame"
           ],
           "trap": [
-            "Let elbow float for range"
+            "Lift elbow, muscle the rotation"
           ]
         }
       },
@@ -350,7 +350,7 @@
             "Re-bend their arm first"
           ],
           "trap": [
-            "Release grip, reset position"
+            "Release all control, stand up"
           ]
         }
       },
@@ -358,14 +358,14 @@
         "question": "How should you generate rotational force for the Kimura finish from S Mount?",
         "answer": "Use your entire body to generate rotational force rather than relying on arm strength alone. Keep your elbows tight to your torso and rotate your hips and trunk as a unit, like turning a steering wheel with your whole body. Your arms maintain the figure-four grip structure while your core and hips provide the primary power. This approach generates far more force with less fatigue than muscling the rotation with your biceps.",
         "safety_critical": false,
-        "answer_line": "Rotate hips and trunk, not arms",
+        "answer_line": "Rotate hips and trunk as a unit",
         "distractors": {
           "plausible": [
-            "Muscle it with bicep curl",
-            "Pull straight back with arms"
+            "Bicep curl the wrist upward",
+            "Flare elbows wide for leverage"
           ],
           "trap": [
-            "Yank wrist explosively"
+            "Explosive yank — snaps shoulder"
           ]
         }
       },
@@ -391,11 +391,11 @@
         "answer_line": "Scoot hips, stay connected",
         "distractors": {
           "plausible": [
-            "Release grip, re-secure S Mount",
-            "Sit back to reset your base"
+            "Squeeze the figure-four harder",
+            "Post free hand on mat to base"
           ],
           "trap": [
-            "Chase with upper body first"
+            "Lunge upper body, lose the pin"
           ]
         }
       },
@@ -410,7 +410,7 @@
             "Opposite thumb directions"
           ],
           "trap": [
-            "One hand grip, other frames"
+            "Interlace fingers — grip snaps"
           ]
         }
       },
@@ -440,7 +440,7 @@
             "Pull straight back on wrist"
           ],
           "trap": [
-            "Grab their collar to break it"
+            "Post both hands, get bridged"
           ]
         }
       }
@@ -559,7 +559,7 @@
             "Grip shifts to your bicep"
           ],
           "trap": [
-            "They push your elbow down"
+            "Extend arm — feeds the armbar"
           ]
         }
       },
@@ -570,11 +570,11 @@
         "answer_line": "Tap at lock, before pain hits",
         "distractors": {
           "plausible": [
-            "Wait until you feel sharp pain",
-            "Fight grip, tap if it fails"
+            "Wait until the shoulder burns",
+            "Turn away from the trapped arm"
           ],
           "trap": [
-            "Try to power out with legs"
+            "Ride it out until it pops"
           ]
         }
       },
@@ -585,11 +585,11 @@
         "answer_line": "Prevent grip, escape, then tap",
         "distractors": {
           "plausible": [
-            "Tap early, skip other defenses",
-            "Hip escape before grip fight"
+            "Strip the wrist, then bridge",
+            "Bridge first, fix hands later"
           ],
           "trap": [
-            "Extend arm to create space"
+            "Straighten the arm for space"
           ]
         }
       },
@@ -600,8 +600,8 @@
         "answer_line": "Yank arm back, re-grip collar",
         "distractors": {
           "plausible": [
-            "Wait for full release first",
-            "Push off their chest hard"
+            "Bridge hard into their hips",
+            "Grab your own belt and hold"
           ],
           "trap": [
             "Extend arm to test their grip"
@@ -612,14 +612,14 @@
         "question": "Why is extending your arm to push the opponent away a critical error when defending the Kimura from S Mount?",
         "answer": "Extending the arm removes the bend that protects against both the Kimura and the armbar. A straight arm from S Mount is the ideal position for an armbar finish, so you would be trading one submission threat for another that may be even more immediately dangerous. The core principle is to keep the arm bent and use hip movement and free-arm frames for escape rather than pushing with the trapped arm.",
         "safety_critical": true,
-        "answer_line": "Never extend, keep arm bent",
+        "answer_line": "Straight arm feeds the armbar",
         "distractors": {
           "plausible": [
-            "Push arm straight to create space",
-            "Extend arm, block with frame"
+            "Bent arm blocks their hip escape",
+            "Extension tires your shoulder"
           ],
           "trap": [
-            "Straight-arm push to stand up"
+            "Push away and sit up to stand"
           ]
         }
       }

@@ -588,14 +588,14 @@
       {
         "question": "When is the optimal timing to attempt your escape from Cross Ashi-Garami Bottom?",
         "answer": "The best escape windows occur when your opponent loosens their leg control to adjust grips, reposition their body, or transition to another position like Saddle. Watch for moments when their inside hook loses depth or their outside cross becomes less tight. These transitional moments create space for leg extraction or counter-entanglement entries. Attempting escape against tight control wastes energy and risks injury.",
-        "answer_line": "Escape when control loosens",
+        "answer_line": "Escape as control loosens",
         "distractors": {
           "plausible": [
-            "Escape right at entry",
-            "Wait until fully locked"
+            "Right as they attack the heel",
+            "After wearing them down first"
           ],
           "trap": [
-            "Force escape against tight grip"
+            "Thrash while heel is exposed"
           ]
         }
       },
@@ -619,11 +619,11 @@
         "answer_line": "Spinning feeds the heel hook",
         "distractors": {
           "plausible": [
-            "Spin fast to break grip",
-            "Roll early to reset"
+            "You just burn extra energy",
+            "They may switch to a toehold"
           ],
           "trap": [
-            "Rotate hard against control"
+            "No danger if you roll quickly"
           ]
         }
       },
@@ -633,11 +633,11 @@
         "answer_line": "Stay calm, move systematically",
         "distractors": {
           "plausible": [
-            "Explode constantly to escape",
-            "Struggle nonstop for space"
+            "Go all-out early to escape fast",
+            "Lie still and wait it out"
           ],
           "trap": [
-            "Panic and yank leg free"
+            "Wrench your leg out in a panic"
           ]
         }
       }
@@ -974,14 +974,14 @@
     {
       "question": "Why is heel exposure the defining risk that both players organize their game around in this position?",
       "answer": "The crossed configuration naturally rotates the trapped foot so the heel becomes accessible, which is the anatomical prerequisite for a heel hook that torques the knee ligaments. Because the knee cannot tap or absorb rotation the way it signals other joints, injury can occur with little warning once the heel is captured and turned. This makes heel exposure the single highest-consequence element of the position, dictating that one player fights to expose and grip the heel while the other fights to conceal it by rotating the foot inward and flexing the knee. The severity of the outcome is why safety awareness and early recognition are shared imperatives regardless of role.",
-      "answer_line": "Rotation exposes the heel",
+      "answer_line": "Caught heel torques knee, no warning",
       "distractors": {
         "plausible": [
-          "Only wrist grips matter here",
-          "Knee always warns before harm"
+          "It mainly threatens the ankle",
+          "It only limits your movement"
         ],
         "trap": [
-          "Ignore heel, focus on hips"
+          "Pain will signal when to tap"
         ]
       }
     },

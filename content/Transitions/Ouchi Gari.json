@@ -321,11 +321,11 @@
         "answer_line": "No-gi: underhook, close pressure",
         "distractors": {
           "plausible": [
-            "No-gi: use collar grip as usual",
-            "Gi: rely on underhook mainly"
+            "No-gi: keep collar and sleeve grips",
+            "Gi: skip grips, use pure momentum"
           ],
           "trap": [
-            "No-gi: stay at long range"
+            "No-gi: turn back to finish reap"
           ]
         }
       },
@@ -374,14 +374,14 @@
       {
         "question": "You attempt Ouchi Gari but your opponent successfully sprawls and your reaping leg is now behind their leg without completing the throw - what are your immediate options?",
         "answer": "With your leg still behind theirs after a failed reap, you have several options depending on their position. If they sprawled but you maintained grips, convert the position into a trip by driving forward and using your leg as a block while pulling them over it. If they have created significant distance, withdraw your reaping leg and secure a front headlock by snapping their head down, which opens paths to guillotine, anaconda, or darce entries. A third option is to immediately re-attack by pulling your leg back and switching to a different throw like Osoto Gari on the opposite leg while they are still recovering from the sprawl. The worst option is staying committed to the original Ouchi Gari—once the sprawl is established, the original attack vector is dead.",
-        "answer_line": "Headlock or switch attack",
+        "answer_line": "Front headlock or convert to trip",
         "distractors": {
           "plausible": [
-            "Force the reap anyway",
-            "Chase a leg lock instead"
+            "Sit to guard and reset",
+            "Pull them into closed guard"
           ],
           "trap": [
-            "Keep attacking dead Ouchi Gari"
+            "Keep forcing the dead reap"
           ]
         }
       },
@@ -572,14 +572,14 @@
       {
         "question": "After successfully defending an Ouchi Gari attempt, what offensive opportunities does the defender gain?",
         "answer": "A failed Ouchi Gari leaves the attacker momentarily vulnerable because their weight is committed forward on a single base leg while their reaping leg is extended behind or between your legs. If you defended by stepping back, you can immediately counter-attack with Kouchi Gari or Osoto Gari while they are recovering their stance. If you sprawled, you can secure a front headlock and attack with snap downs, guillotines, or go-behind sequences. The attacker's forward momentum after a missed throw also makes them vulnerable to sacrifice throws like Sumi Gaeshi or Tomoe Nage. The key principle is that every failed attack creates a window of vulnerability—the defender who capitalizes on this window rather than simply resetting gains a significant competitive advantage.",
-        "answer_line": "Counter-throw or headlock",
+        "answer_line": "Counter-throw or front headlock",
         "distractors": {
           "plausible": [
-            "Reset to neutral stance",
-            "Wait for their next move"
+            "Jump to closed guard",
+            "Pull half guard and hold"
           ],
           "trap": [
-            "Retreat to create distance"
+            "Turn away, expose your back"
           ]
         }
       }

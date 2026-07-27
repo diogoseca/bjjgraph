@@ -327,14 +327,14 @@
       {
         "question": "What direction of force should the hip pop generate, and why is this specific direction important?",
         "answer": "The hip pop drives upward and slightly toward the opponent, creating vertical clearance between the shin and the opponent's back. The upward direction lifts the leg away from the opponent's body to create threading space. The slight forward angle ensures the opponent's weight remains loaded on the trapped shoulder rather than shifting backward. A purely vertical pop without the forward component allows the opponent to sit back during the clearance moment.",
-        "answer_line": "Upward and slightly forward",
+        "answer_line": "Upward and slightly into opponent",
         "distractors": {
           "plausible": [
-            "Straight up, no forward angle",
-            "Forward and down toward mat"
+            "Purely vertical, no angle",
+            "Angled down toward the mat"
           ],
           "trap": [
-            "Backward and away from opponent"
+            "Backward — he postures and passes"
           ]
         }
       },
@@ -369,28 +369,28 @@
       {
         "question": "How does hip elevation during the entry differ from hip elevation during Mission Control maintenance?",
         "answer": "During the entry, hip elevation is explosive and maximal, creating a sharp upward pop that generates clearance space for the arm threading. During maintenance, hip elevation is sustained and moderate, creating constant upward pressure that keeps the opponent's weight loaded on the trapped shoulder. The entry uses a burst of energy to create space, while maintenance uses structural positioning to sustain control with minimal energy expenditure.",
-        "answer_line": "Explosive pop vs sustained pressure",
+        "answer_line": "Burst on entry, steady after",
         "distractors": {
           "plausible": [
-            "Sustained lift vs explosive squeeze",
-            "Both moderate and constant"
+            "Gradual on entry, spike after",
+            "Equal effort in both phases"
           ],
           "trap": [
-            "Full bridge to bump him off"
+            "Let hips settle flat once locked"
           ]
         }
       },
       {
         "question": "Your opponent is significantly larger and their forward pressure makes hip elevation difficult - what adaptation do you use?",
         "answer": "Use the Progressive Walk Entry variant: rather than one explosive hip pop and arm thread, gradually walk the grip up the shin in small increments. Each micro-adjustment tightens the control slightly while maintaining continuous contact. Alternatively, use their forward pressure against them by accepting it to deepen the posture break, then timing the hip pop for the moment they relax their drive. Against larger opponents, timing the opponent's breathing rhythm can create natural windows for the hip elevation.",
-        "answer_line": "Progressive Walk Entry variant",
+        "answer_line": "Walk the grip up in small steps",
         "distractors": {
           "plausible": [
-            "Explosive hip pop, single burst",
-            "Push harder against their weight"
+            "One maximal burst, all at once",
+            "Drive back into their pressure"
           ],
           "trap": [
-            "Release the leg and re-shoot"
+            "Abandon the leg and flatten out"
           ]
         }
       }
@@ -511,10 +511,10 @@
         "distractors": {
           "plausible": [
             "Both hands leave your head",
-            "Sudden decrease in hip pressure"
+            "Sudden drop in hip pressure"
           ],
           "trap": [
-            "No warning before the switch"
+            "Wait for the lock, then react"
           ]
         }
       },

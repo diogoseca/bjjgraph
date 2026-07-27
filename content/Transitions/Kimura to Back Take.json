@@ -263,11 +263,11 @@
         "answer_line": "Roll toward trapped arm",
         "distractors": {
           "plausible": [
-            "Roll away from trapped arm",
-            "Post and stand to escape"
+            "Post and stand to escape",
+            "Bench-press to create space"
           ],
           "trap": [
-            "Tap immediately to reset"
+            "Bridge, sweep, and reverse"
           ]
         }
       },
@@ -291,11 +291,11 @@
         "answer_line": "Overlap grips, release last",
         "distractors": {
           "plausible": [
-            "Release Kimura before seatbelt",
-            "Insert seatbelt before hooks"
+            "Insert seatbelt before hooks",
+            "Grip a wrist instead of seatbelt"
           ],
           "trap": [
-            "Let go of Kimura to hurry"
+            "Drop Kimura to rush the switch"
           ]
         }
       },
@@ -318,11 +318,11 @@
         "answer": "Following their defensive motion works with their momentum, saving energy and giving them nothing to brace against or counter. It conserves your energy, maintains better control throughout the transition, and creates less opportunity for scrambles or reversals. When you force movement, the opponent feels the direction you are pushing and can brace or counter. When you instead apply pressure and follow their chosen defensive path, they move themselves into the position you want while believing they are defending.",
         "distractors": {
           "plausible": [
-            "Force the roll quickly",
-            "Push hard in one direction"
+            "Forcing reaches the back sooner",
+            "Pushing hard pins them better"
           ],
           "trap": [
-            "Yank the arm to speed rotation"
+            "Crank the Kimura to spin them"
           ]
         },
         "answer_line": "Follow momentum, don't force"
@@ -333,11 +333,11 @@
         "answer_line": "Commit at 45-90 degree rotation",
         "distractors": {
           "plausible": [
-            "Wait until roll fully completes",
-            "Take back at first movement"
+            "Wait until the roll completes",
+            "Take the back at first twitch"
           ],
           "trap": [
-            "Rush in before they commit"
+            "Crank the arm to force the spin"
           ]
         }
       },
@@ -375,11 +375,11 @@
         "answer_line": "Kimura finish, mount, or armbar",
         "distractors": {
           "plausible": [
-            "Release grip, reset to guard",
-            "Chase the roll on top only"
+            "Chase the roll on top only",
+            "Wait for them to roll back"
           ],
           "trap": [
-            "Let go and stand to reset"
+            "Release grip and stand to reset"
           ]
         }
       },
@@ -389,7 +389,7 @@
         "distractors": {
           "plausible": [
             "Finger grip near the wrist",
-            "Loose elbows for mobility"
+            "Flare elbows out for mobility"
           ],
           "trap": [
             "Grip loose to save energy"
@@ -551,11 +551,11 @@
         "answer_line": "Turn into the attacker",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Turtle up facing away"
+            "Turning away opens more space",
+            "Facing away frees your arm"
           ],
           "trap": [
-            "Turn away and expose back"
+            "Roll away and give your back"
           ]
         }
       },
@@ -566,10 +566,10 @@
         "distractors": {
           "plausible": [
             "Stay static and absorb pressure",
-            "Turn away to create distance"
+            "Bench-press the arm off you"
           ],
           "trap": [
-            "Turn away and roll out"
+            "Turn away and give up the back"
           ]
         }
       },
@@ -597,7 +597,7 @@
             "Chest driving down means position"
           ],
           "trap": [
-            "Ignore pressure, defend the same"
+            "Stop defending when pulses pause"
           ]
         }
       }

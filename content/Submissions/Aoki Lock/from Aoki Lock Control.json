@@ -294,14 +294,14 @@
         "question": "What anatomical structures does the Aoki Lock finish primarily attack?",
         "answer": "The Aoki Lock finish attacks the shin, calf, ankle, and Achilles through combined compression and extreme plantar flexion, distributing force across the plantar fascia, ankle ligaments (ATFL and deltoid), Achilles tendon, calf muscle, and shin periosteum simultaneously. Because the pressure is spread across multiple structures rather than isolating one joint, the Achilles and ankle ligaments are most vulnerable to injury from excessive or explosive application.",
         "safety_critical": true,
-        "answer_line": "Shin, calf, ankle, Achilles",
+        "answer_line": "Shin, calf, ankle and Achilles",
         "distractors": {
           "plausible": [
-            "Only the knee joint",
-            "Toes and foot arch"
+            "Knee joint and ACL",
+            "Toes and forefoot only"
           ],
           "trap": [
-            "Just the Achilles tendon"
+            "Just discomfort — safe to hold"
           ]
         }
       },
@@ -312,11 +312,11 @@
         "answer_line": "Ride the roll, keep figure-four",
         "distractors": {
           "plausible": [
-            "Crank the finish before they turn",
-            "Plant your base, stop the roll"
+            "Plant your base, stop the roll",
+            "Straighten legs for more leverage"
           ],
           "trap": [
-            "Release and chase the back"
+            "Let go and chase the back"
           ]
         }
       },
@@ -324,14 +324,14 @@
         "question": "What are the key indicators that your compression is reaching the breaking point?",
         "answer": "Indicators include the opponent's free hand reaching toward their leg or your legs, audible groaning or distress vocalizations, visible foot color change as circulation is affected, their body stiffening with involuntary reactions, and any tap signal including hand tapping, verbal submission, or foot stomping. Because the lock attacks multiple structures at once, maintain steady compression without spiking — the tap is imminent and additional force risks injury before they can signal.",
         "safety_critical": true,
-        "answer_line": "Reaching hand, groaning, foot color",
+        "answer_line": "Hand reaching, groans, foot color",
         "distractors": {
           "plausible": [
-            "A sudden burst of strength",
-            "Opponent going quiet and still"
+            "Calm face and even breathing",
+            "Their grip fight gets stronger"
           ],
           "trap": [
-            "No reaction means keep cranking"
+            "No reaction — crank harder fast"
           ]
         }
       },
@@ -339,14 +339,14 @@
         "question": "What control must be established before you can safely initiate the finishing compression?",
         "answer": "Four controls must be confirmed: the figure-four is closed with your top foot hooked behind your bottom knee or shin, the opponent's foot is seated deep in the compression pocket positioned for plantar flexion, your hands are managing distance to block the sit-up and spin, and there is no slack in the loop. Missing any single control element either reduces finishing effectiveness or creates safety risks from uncontrolled pressure angles.",
         "safety_critical": false,
-        "answer_line": "Close the figure-four lock",
+        "answer_line": "All four controls set, zero slack",
         "distractors": {
           "plausible": [
-            "Seat the foot for plantar flexion",
-            "Block the sit-up with your hands"
+            "Only the figure-four is closed",
+            "Only the heel seated deep"
           ],
           "trap": [
-            "Two-hand the crank early"
+            "Crank first, fix controls later"
           ]
         }
       },
@@ -354,14 +354,14 @@
         "question": "At what point during the Aoki Lock finish does the opponent pass the point of no escape?",
         "answer": "The point of no escape occurs when the figure-four is fully locked, the foot is seated deep for plantar flexion, and you have begun hip extension with the knee squeeze engaged. Once the opponent can no longer dorsiflex to relieve pressure or spin to break the loop, their only option is to tap. This threshold varies by individual ankle flexibility and should always be approached progressively.",
         "safety_critical": false,
-        "answer_line": "Hip extension + knee squeeze locked",
+        "answer_line": "Loop locked, foot deep, hips driving",
         "distractors": {
           "plausible": [
-            "The moment the figure-four snaps on",
-            "Once the foot is seated deep"
+            "As soon as you catch the foot",
+            "When you first cross your ankles"
           ],
           "trap": [
-            "When they first grimace in pain"
+            "Rip it fast to beat the escape"
           ]
         }
       },
@@ -372,11 +372,11 @@
         "answer_line": "Shallow foot seat, weak hip drive",
         "distractors": {
           "plausible": [
-            "Squeezing knees too hard",
-            "Setting the figure-four too slow"
+            "Squeezing the knees too hard",
+            "Crossing the wrong ankle on top"
           ],
           "trap": [
-            "Applying compression explosively"
+            "Let go and re-grip mid-finish"
           ]
         }
       },
@@ -387,11 +387,11 @@
         "answer_line": "Re-seat the heel, retighten grip",
         "distractors": {
           "plausible": [
-            "Just squeeze the knees harder",
-            "Reset by uncrossing your legs"
+            "Wait until the foot clears fully",
+            "Slide back to gain more room"
           ],
           "trap": [
-            "Chase the foot, lose position"
+            "Dive after the escaping foot"
           ]
         }
       },
@@ -399,14 +399,14 @@
         "question": "What is the correct protocol for releasing the Aoki Lock after your training partner taps?",
         "answer": "Release all squeezing pressure with your legs immediately upon any tap signal without hesitation or question. Do not maintain the lock to ask if they really tapped. Uncross your legs to open the figure-four, free the trapped foot, and allow their leg to straighten naturally without pulling or twisting. Check on your partner's ankle, Achilles, and calf mobility and pain level before continuing training. If there is any doubt about whether they tapped, always release first and ask second.",
         "safety_critical": true,
-        "answer_line": "Release legs immediately",
+        "answer_line": "Release the squeeze instantly",
         "distractors": {
           "plausible": [
-            "Ask if they really tapped first",
-            "Ease pressure off gradually"
+            "Pull their leg straight for them",
+            "Ease the pressure off gradually"
           ],
           "trap": [
-            "Hold briefly to confirm the tap"
+            "Hold two seconds to confirm"
           ]
         }
       },
@@ -418,10 +418,10 @@
         "distractors": {
           "plausible": [
             "Bail after the first attempt",
-            "Switch the moment they dorsiflex"
+            "Reset control and restart the same"
           ],
           "trap": [
-            "Turn to knees to pull free"
+            "Keep cranking until you gas out"
           ]
         }
       },
@@ -569,7 +569,7 @@
             "Foot forced into dorsiflexion"
           ],
           "trap": [
-            "Hips drop and pressure eases"
+            "Feels mild — ride it out and wait"
           ]
         }
       },
@@ -580,11 +580,11 @@
         "answer_line": "Tap on sharp pain or trapped foot",
         "distractors": {
           "plausible": [
-            "Wait for the pain to peak first",
-            "Tap only once both escapes fail"
+            "Tap the moment they catch the foot",
+            "Tap only after both escapes fail"
           ],
           "trap": [
-            "Torque your foot free fast"
+            "Rip your foot out explosively"
           ]
         }
       },
@@ -595,8 +595,8 @@
         "answer_line": "Extract foot, posture up, roll in",
         "distractors": {
           "plausible": [
-            "Muscle the leg free anytime",
-            "Wait for the opponent to loosen"
+            "Hand-fight their upper-body grips",
+            "Wait for the loop to loosen"
           ],
           "trap": [
             "Pull the trapped leg straight back"
@@ -610,11 +610,11 @@
         "answer_line": "It ratchets your foot in deeper",
         "distractors": {
           "plausible": [
-            "Rotate your hip outward to unwind",
-            "Curl your knee away from your chest"
+            "It just wastes your energy",
+            "It exposes your knee to a kneebar"
           ],
           "trap": [
-            "Sit up to hand-fight their foot"
+            "Nothing — yank harder to rip free"
           ]
         }
       },
@@ -640,11 +640,11 @@
         "answer_line": "Time escapes to their adjustments",
         "distractors": {
           "plausible": [
-            "Max tension the entire time",
-            "Ignore dorsiflexion completely"
+            "Escape only after they tighten",
+            "Hold dorsiflexion and nothing else"
           ],
           "trap": [
-            "Constantly fight the squeeze"
+            "Thrash at full power until you gas"
           ]
         }
       }

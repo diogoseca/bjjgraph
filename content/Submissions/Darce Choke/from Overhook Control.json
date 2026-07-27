@@ -297,14 +297,14 @@
         "question": "What anatomical structures does the Darce Choke from Overhook Control primarily attack?",
         "answer": "The Darce from Overhook Control attacks both carotid arteries simultaneously through bilateral compression. The choking forearm compresses the near-side carotid while the bicep of the supporting arm compresses the far-side carotid. The opponent's own trapped shoulder provides the third point of compression, completing the triangle of pressure that restricts blood flow to the brain. When applied correctly, this produces unconsciousness within 8-12 seconds.",
         "safety_critical": false,
-        "answer_line": "Both carotids simultaneously",
+        "answer_line": "Both carotids at once",
         "distractors": {
           "plausible": [
-            "Only near-side carotid",
-            "Trachea and carotid both"
+            "Windpipe airflow only",
+            "Nerve pressure on the jaw"
           ],
           "trap": [
-            "Crush the windpipe"
+            "Crank neck sideways for pain"
           ]
         }
       },
@@ -312,14 +312,14 @@
         "question": "What indicator tells you the choke is positioned correctly for a blood choke rather than a windpipe crush?",
         "answer": "When positioned correctly as a blood choke, the forearm blade sits against the lateral neck over the sternocleidomastoid muscle rather than centered on the trachea. The opponent will not cough or gasp for air but instead will feel immediate lightheadedness and pressure behind their eyes. If you hear choking or gagging sounds, your forearm is too far forward on the throat and you need to adjust the angle laterally to target the carotid arteries instead.",
         "safety_critical": true,
-        "answer_line": "No gagging, lightheaded fast",
+        "answer_line": "No gagging, quick lightheadedness",
         "distractors": {
           "plausible": [
-            "Coughing means it's working",
-            "Center forearm on trachea"
+            "Loud coughing means it works",
+            "Opponent gasps for air"
           ],
           "trap": [
-            "Push forearm deeper on throat"
+            "Drive blade into the windpipe"
           ]
         }
       },
@@ -327,14 +327,14 @@
         "question": "What control requirements must be established before transitioning from overhook to Darce grip?",
         "answer": "Before transitioning, you must confirm four control elements: tight armpit seal with zero gap over the opponent's shoulder, opponent's arm elevated above their defensive plane, your hips close enough to prevent them from creating escape distance, and the opponent's head below your shoulder level or driving forward. Missing any of these requirements significantly reduces the probability of successfully threading the choking arm and completing the figure-four.",
         "safety_critical": false,
-        "answer_line": "Armpit seal, arm up, hips close",
+        "answer_line": "Armpit seal, arm up, hips tight",
         "distractors": {
           "plausible": [
-            "Just trap the wrist first",
-            "Underhook the far leg first"
+            "Grab the wrist and pull",
+            "Post free hand on the mat"
           ],
           "trap": [
-            "Chase grip with gap in armpit"
+            "Thread choke with armpit gap"
           ]
         }
       },
@@ -345,11 +345,11 @@
         "answer_line": "Switch to Kimura or arm drag",
         "distractors": {
           "plausible": [
-            "Muscle through the thread",
-            "Pull them back down first"
+            "Sit back and reset guard",
+            "Re-grip and thread faster"
           ],
           "trap": [
-            "Chase the neck angle anyway"
+            "Cling to neck as they stand"
           ]
         }
       },
@@ -360,11 +360,11 @@
         "answer_line": "Figure-four grip fully locked",
         "distractors": {
           "plausible": [
-            "Once overhook is secured",
-            "When head is below shoulder"
+            "When the overhook is set",
+            "When head drops below shoulder"
           ],
           "trap": [
-            "Once forearm touches neck"
+            "Release grip to readjust late"
           ]
         }
       },
@@ -372,14 +372,14 @@
         "question": "What grip adjustment do you make if your choking arm cannot reach your opposite bicep during the figure-four?",
         "answer": "If you cannot reach the bicep, the arm has not been threaded deep enough. Do not accept a shallow grip on the forearm as this converts the technique into an ineffective crank. Release partial pressure, drive your shoulder forward to collapse the opponent's posture further, and re-thread your arm deeper. Use your chest weight to compress their head and shoulder closer together, shortening the distance your arm must travel. If anatomy prevents a deep grip, transition to an Anaconda or arm triangle instead.",
         "safety_critical": false,
-        "answer_line": "Thread deeper, don't grip forearm",
+        "answer_line": "Re-thread arm deeper past bicep",
         "distractors": {
           "plausible": [
-            "Grip forearm as shallow fix",
-            "Yank harder to close gap"
+            "Squeeze harder from where you are",
+            "Sit up tall to make space"
           ],
           "trap": [
-            "Grip forearm, crank the neck"
+            "Crank neck with shallow forearm hold"
           ]
         }
       },
@@ -387,14 +387,14 @@
         "question": "What is the primary safety concern when applying the Darce Choke from Overhook Control in training?",
         "answer": "The primary safety concern is the speed of unconsciousness onset. Because the Darce compresses both carotid arteries simultaneously, unconsciousness can occur within 8-12 seconds of full compression, sometimes faster. Training partners may not recognize the severity before losing consciousness. Always apply pressure progressively over 3-5 seconds minimum, maintain constant communication, and release immediately upon any tap signal. Never hold the choke after a tap, as the compression effect continues for seconds after release.",
         "safety_critical": true,
-        "answer_line": "Fast KO, apply pressure slowly",
+        "answer_line": "Blackout in seconds, ramp slowly",
         "distractors": {
           "plausible": [
-            "Risk of shoulder injury",
-            "Choking sound means danger"
+            "Trapped shoulder is the main risk",
+            "Partner taps before any danger"
           ],
           "trap": [
-            "Hold it a beat after tap"
+            "Squeeze full power on first grip"
           ]
         }
       },
@@ -402,14 +402,14 @@
         "question": "How should you release the Darce Choke from Overhook Control after a tap?",
         "answer": "Release by first unclamping your hands from the figure-four grip, then removing your shoulder pressure from their neck and trapped arm. Extract your choking arm slowly and smoothly to avoid jerking their neck. Do not simply drop your arms and roll away, as this can cause a sudden neck movement. Allow your partner to recover in a seated or prone position and monitor them for 30 seconds for signs of dizziness, disorientation, or delayed effects from the arterial compression.",
         "safety_critical": true,
-        "answer_line": "Unclamp, ease arm out slow",
+        "answer_line": "Unclamp grip, then slide arm out",
         "distractors": {
           "plausible": [
-            "Drop arms, roll away fast",
-            "Release shoulder before hands"
+            "Take shoulder weight off first",
+            "Wait for them to push you off"
           ],
           "trap": [
-            "Jerk arm free immediately"
+            "Yank free and roll away fast"
           ]
         }
       },
@@ -559,11 +559,11 @@
         "answer_line": "Armpit tightens, arm snakes to chin",
         "distractors": {
           "plausible": [
-            "Overhook grip tightens harder",
-            "Free hand grabs your collar"
+            "Their overhook grip squeezes",
+            "Their free hand grabs your belt"
           ],
           "trap": [
-            "Feel them backing away"
+            "Duck your head lower to hide"
           ]
         }
       },
@@ -571,14 +571,14 @@
         "question": "What is the safest way to tap to the Darce Choke from Overhook Control?",
         "answer": "Tap early and clearly using multiple signals simultaneously. Verbally say 'tap' while physically tapping the attacker's body with your free hand and tapping the mat with your foot. Because the Darce compresses both carotid arteries, unconsciousness can occur within seconds of full compression. Do not try to endure the choke or wait to see if you can escape once the squeeze begins. Tapping when you feel the first clear compression is always safer than waiting until lightheadedness sets in.",
         "safety_critical": true,
-        "answer_line": "Tap early, multiple signals",
+        "answer_line": "Tap early with voice, hand, foot",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only when very dizzy"
+            "Mat slaps only, unseen by them",
+            "Signal with a nod of the head"
           ],
           "trap": [
-            "Endure it, then verbal tap"
+            "Ride it out until you fade"
           ]
         }
       },
@@ -601,14 +601,14 @@
         "question": "Why is turning into the attacker more effective than pulling away when the Darce is partially locked?",
         "answer": "Pulling away from any arm triangle variant increases the extension and tightening force on the choke because it increases the distance between your head and the attacker's body, which stretches the figure-four tighter. Turning into the attacker reduces the compression angle by bringing your head closer to the small side of the triangle where the gap exists. This counterintuitive movement creates space for head extraction while simultaneously reducing the arterial compression that causes unconsciousness.",
         "safety_critical": false,
-        "answer_line": "Turn in, don't pull away",
+        "answer_line": "Rotate toward the attacker",
         "distractors": {
           "plausible": [
-            "Pull away to create space",
-            "Push off with both hands"
+            "Create space with a hip escape",
+            "Push their head away"
           ],
           "trap": [
-            "Extend arm to gain space"
+            "Straighten your body and pull"
           ]
         }
       },
@@ -619,11 +619,11 @@
         "answer_line": "Chin tucked, posture upright",
         "distractors": {
           "plausible": [
-            "Keep elbows wide for base",
-            "Grip fight the near wrist"
+            "Flare both elbows for base",
+            "Hug their waist tightly"
           ],
           "trap": [
-            "Relax and wait it out"
+            "Drop head and stall in place"
           ]
         }
       }

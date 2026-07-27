@@ -296,14 +296,14 @@
         "question": "What anatomical structures does the Estima Lock primarily attack and through what mechanical action?",
         "answer": "The Estima Lock attacks the talocrural joint (ankle) and surrounding ligament structures including the deltoid ligament complex and talofibular ligaments through forced dorsiflexion—driving the forefoot upward over the forearm fulcrum rather than rotating it like a toe hold. The inverted foot orientation positions these structures under mechanical disadvantage, and the forearm fulcrum across the dorsal surface of the foot creates the lever system that produces submission pressure on the joint capsule and supporting ligaments.",
         "safety_critical": false,
-        "answer_line": "Forced dorsiflexion of ankle",
+        "answer_line": "Ankle bent upward over a lever",
         "distractors": {
           "plausible": [
-            "Rotational torque on ankle",
-            "Hyperextension of the knee"
+            "Twisting the ankle inward",
+            "Bending the knee backward"
           ],
           "trap": [
-            "Compression of the Achilles"
+            "Rip it with a sharp jerk"
           ]
         }
       },
@@ -329,8 +329,8 @@
         "answer_line": "Deepen fulcrum, drive hip harder",
         "distractors": {
           "plausible": [
-            "Yank harder to beat rotation",
-            "Switch grip to figure-four again"
+            "Pull the heel toward your chest",
+            "Re-clamp the grip and restart"
           ],
           "trap": [
             "Release grip and reset angle"
@@ -344,11 +344,11 @@
         "answer_line": "Grip seated, hip pinned, no slack",
         "distractors": {
           "plausible": [
-            "Opponent stops protesting",
-            "Grip merely feels tight"
+            "Lock simply feels very tight",
+            "They quit reaching for your hands"
           ],
           "trap": [
-            "Opponent's leg goes limp"
+            "Ease pressure when they wince"
           ]
         }
       },
@@ -356,14 +356,14 @@
         "question": "Why must finishing pressure be applied progressively over 3-5 seconds rather than with a quick jerk?",
         "answer": "The ankle joint and surrounding ligaments have a very narrow window between the onset of significant discomfort and the point of structural damage. Quick jerking motions bypass the defender's ability to recognize pain and signal a tap, creating serious risk of ligament tears, ankle sprains, or even fracture. Progressive application over 3-5 seconds minimum gives the defender multiple opportunities to tap while the attacker feels the graduated resistance that indicates mechanical completion. In training, controlled application preserves training partners and builds more precise finishing sensitivity.",
         "safety_critical": true,
-        "answer_line": "Gives time to feel and tap",
+        "answer_line": "Gives time to feel pain and tap",
         "distractors": {
           "plausible": [
-            "Builds shoulder strength faster",
-            "Prevents grip slipping only"
+            "Lets you re-adjust the figure-four",
+            "Reduces strain on your own wrist"
           ],
           "trap": [
-            "Quick jerk finishes faster"
+            "Jerk fast before he defends"
           ]
         }
       },
@@ -386,14 +386,14 @@
         "question": "Your forearm fulcrum is positioned near the ankle joint rather than mid-foot and you feel the opponent is tolerating your pressure easily—what mechanical adjustment is needed?",
         "answer": "Slide the forearm blade distally along the foot toward the metatarsal area without releasing the heel control point. The closer your fulcrum is to the toes, the longer the lever arm becomes, which multiplies the upward dorsiflexion force applied to the ankle joint for the same amount of grip effort. A fulcrum positioned near the ankle creates a very short lever arm that requires dramatically more force to produce equivalent dorsiflexion, which is why the opponent tolerates it. This adjustment often transforms a stalled lock into a finishing lock without increasing effort.",
         "safety_critical": false,
-        "answer_line": "Slide fulcrum toward toes",
+        "answer_line": "Lengthen lever toward the toes",
         "distractors": {
           "plausible": [
-            "Slide fulcrum toward heel",
-            "Squeeze grip harder instead"
+            "Shift blade back to the ankle",
+            "Just squeeze the grip harder"
           ],
           "trap": [
-            "Move fulcrum onto the shin"
+            "Straighten their knee with a jerk"
           ]
         }
       },
@@ -404,8 +404,8 @@
         "answer_line": "Consolidate all steps at once",
         "distractors": {
           "plausible": [
-            "Reset grip for cleaner angle",
-            "Wait for referee to call time"
+            "Reset grip for a cleaner angle",
+            "Abandon lock, hunt a sweep"
           ],
           "trap": [
             "Jerk hard to force the tap"
@@ -535,11 +535,11 @@
         "answer_line": "Grip tightens, hip drives in",
         "distractors": {
           "plausible": [
-            "Opponent leans back only",
-            "Attacker switches to toe hold"
+            "Attacker leans away flat",
+            "They reach for your toes"
           ],
           "trap": [
-            "Opponent starts stalling"
+            "Wait until it hurts to react"
           ]
         }
       },
@@ -547,14 +547,14 @@
         "question": "When should you tap to the Estima Lock rather than continuing to defend?",
         "answer": "Tap immediately when you experience sharp pain in the ankle joint or Achilles tendon area, when you can no longer effectively counter-rotate against the lock angle, when your free leg has been controlled and you have no remaining escape tools, or when you feel the distinctive sensation of ligaments being loaded beyond their comfortable range. In training, tap early and tap often—the Estima Lock can transition from uncomfortable to damaging within 2-3 seconds, and no training submission is worth an ankle injury.",
         "safety_critical": true,
-        "answer_line": "Sharp pain or no counter left",
+        "answer_line": "Sharp pain or no counters left",
         "distractors": {
           "plausible": [
-            "Only when it's unbearable",
-            "When ref points it out"
+            "Once your grips are broken",
+            "After your hips get flattened"
           ],
           "trap": [
-            "Wait to see if it releases"
+            "Tough it out and hope it slips"
           ]
         }
       },
@@ -565,11 +565,11 @@
         "answer_line": "Ignores fulcrum, wastes energy",
         "distractors": {
           "plausible": [
-            "Grips weaker than frames",
-            "Hands too strong to move"
+            "Hands are simply too strong",
+            "Their grip is already locked in"
           ],
           "trap": [
-            "Fastest way to break hold"
+            "Frees their hips to finish you"
           ]
         }
       },

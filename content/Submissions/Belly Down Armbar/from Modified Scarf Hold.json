@@ -272,14 +272,14 @@
         "question": "What anatomical structure does the belly down armbar from modified scarf hold primarily attack?",
         "answer": "The primary target is the elbow joint, specifically hyperextending against the natural range of motion to stress the ulnar collateral ligament and the joint capsule. The belly-down position creates a unidirectional force that pushes the elbow beyond its extension limit. Secondary stress is placed on the biceps tendon and surrounding soft tissues that resist forced extension under load.",
         "safety_critical": false,
-        "answer_line": "Elbow hyperextension",
+        "answer_line": "Elbow joint hyperextension",
         "distractors": {
           "plausible": [
-            "Shoulder joint stress",
-            "Wrist flexion pressure"
+            "Shoulder capsule rotation",
+            "Wrist and forearm flexion"
           ],
           "trap": [
-            "Bicep tendon rupture"
+            "Neck — crank the cervical spine"
           ]
         }
       },
@@ -290,11 +290,11 @@
         "answer_line": "Arm straightens, resistance drops",
         "distractors": {
           "plausible": [
-            "Opponent goes completely still",
-            "Tap comes before arm straightens"
+            "Opponent stops moving entirely",
+            "Their grip tightens steadily"
           ],
           "trap": [
-            "Push through any popping felt"
+            "Keep extending through a pop"
           ]
         }
       },
@@ -305,11 +305,11 @@
         "answer_line": "Two-on-one grip, arm pinned tight",
         "distractors": {
           "plausible": [
-            "Chest pressure alone is enough",
-            "One-hand wrist grip secured"
+            "Chest pressure alone suffices",
+            "Head-and-shoulder pin only"
           ],
           "trap": [
-            "Commit once wrist is grabbed"
+            "Step over with slack in the arm"
           ]
         }
       },
@@ -320,11 +320,11 @@
         "answer_line": "Knees clamped, hips down, thumb up",
         "distractors": {
           "plausible": [
-            "Wrist grip secured, still kneeling",
-            "Step-over started, chest heavy"
+            "Wrist secured while still kneeling",
+            "Step-over begun, chest heavy"
           ],
           "trap": [
-            "Release grip to adjust hips"
+            "Loosen knees to settle the hips"
           ]
         }
       },
@@ -332,14 +332,14 @@
         "question": "What is the most common finishing error that allows opponents to escape a nearly locked belly down armbar?",
         "answer": "The most common error is failing to keep the hips close to the opponent's elbow joint during the finish. When the attacker's hips drift toward the opponent's wrist or away from the elbow, the leverage point shifts and the opponent can bend their arm to create a defensive angle. The correction is ensuring your hip crease sits directly against the opponent's elbow joint before extending, maximizing leverage at the fulcrum point.",
         "safety_critical": false,
-        "answer_line": "Hips drift away from elbow",
+        "answer_line": "Hips drift away from the elbow",
         "distractors": {
           "plausible": [
-            "Squeezing the knees too tight",
-            "Extending the hips too slowly"
+            "Knee squeeze too tight",
+            "Head lifted off the mat"
           ],
           "trap": [
-            "Shift hips toward the wrist"
+            "Sit up to re-grip the wrist"
           ]
         }
       },
@@ -347,14 +347,14 @@
         "question": "How should you adjust your grip if the opponent begins pulling their wrist free during the belly-down finish?",
         "answer": "Switch from a standard two-on-one grip to a figure-four configuration where your hands lock together around the wrist with reinforced leverage. If they begin supinating their forearm, rotate your own grip to match and maintain the thumb-up orientation. As a last resort, clamp the wrist into your armpit and use your bicep and forearm as a vise, which is nearly impossible to break from the belly-down position.",
         "safety_critical": false,
-        "answer_line": "Switch to figure-four grip",
+        "answer_line": "Switch to a figure-four grip",
         "distractors": {
           "plausible": [
-            "Release and re-grab the wrist",
-            "Grip harder at the same angle"
+            "Squeeze the same grip harder",
+            "Pause and wait for them to tire"
           ],
           "trap": [
-            "Let go and chase with one hand"
+            "Roll to your back to re-adjust"
           ]
         }
       },
@@ -395,11 +395,11 @@
         "answer_line": "Drive weight down, re-flatten them",
         "distractors": {
           "plausible": [
-            "Rush the step-over faster",
-            "Briefly release the arm"
+            "Sit back and re-grip the wrist",
+            "Wait for them to settle down"
           ],
           "trap": [
-            "Push through and finish anyway"
+            "Force the step-over anyway"
           ]
         }
       },
@@ -407,14 +407,14 @@
         "question": "Why is the belly down armbar from modified scarf hold particularly effective against opponents who defend standard armbars well?",
         "answer": "The standard armbar defense toolkit—hitchhiker escape, stacking, clasping hands together, and rotating toward the attacker—becomes ineffective when the attacker is belly-down. The prone position eliminates the rotational escape path because the attacker's weight pins the defender flat. Stacking requires the attacker to be on their back, which does not apply here. Hand clasping is defeated by the two-on-one wrist control established before the transition began.",
         "safety_critical": false,
-        "answer_line": "Prone pin blocks hitchhiker/stack",
+        "answer_line": "Prone pin blocks hitchhiker escape",
         "distractors": {
           "plausible": [
-            "Grip strength alone beats defense",
-            "Speed alone prevents defense"
+            "It finishes far faster",
+            "Gi grips make it unbreakable"
           ],
           "trap": [
-            "Same defenses still work fully"
+            "Roll to your back to finish"
           ]
         }
       }
@@ -539,11 +539,11 @@
         "answer_line": "Tighter two-on-one, leg repositions",
         "distractors": {
           "plausible": [
-            "Sudden hard chest pressure drop",
-            "Opponent releases near wrist"
+            "They post the far hand out wide",
+            "Their head drops toward your hip"
           ],
           "trap": [
-            "Ignore it, cues are unreliable"
+            "Push their hips away with that arm"
           ]
         }
       },
@@ -554,8 +554,8 @@
         "answer_line": "Tap hand, voice, feet together",
         "distractors": {
           "plausible": [
-            "A single tap is sufficient",
-            "Wait until it hurts more"
+            "One quiet hand tap is enough",
+            "Tap only on the mat, not them"
           ],
           "trap": [
             "Fight through to test the lock"
@@ -584,11 +584,11 @@
         "answer_line": "Attacker's control briefly unstable",
         "distractors": {
           "plausible": [
-            "Danger peaks only after lockdown",
-            "Transition speed doesn't matter"
+            "Their grips are weakest once locked",
+            "Chest pressure peaks mid-shift"
           ],
           "trap": [
-            "Wait until belly-down to defend"
+            "Wait for belly-down, then bridge"
           ]
         }
       },
@@ -599,11 +599,11 @@
         "answer_line": "Tap immediately, stop fighting",
         "distractors": {
           "plausible": [
-            "Try to rotate free quickly",
-            "Push back against the pressure"
+            "Hitchhiker escape to the far side",
+            "Bridge and walk hips toward them"
           ],
           "trap": [
-            "Wait for a clearer signal to tap"
+            "Stack shoulder and muscle it out"
           ]
         }
       }

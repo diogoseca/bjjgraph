@@ -289,11 +289,11 @@
         "answer": "The three main grips are both hands on the pants near the knees, one hand on belt with one on knee, and cross-collar with knee control. Double pants grips at the knees are the most common, providing the best control for standing breaks and direct leg manipulation. The belt-and-knee grip suits the combat base opening, offering superior hip control and wedge pressure. The cross-collar with knee control is gi-specific and works well against grip-dependent opponents, since the collar controls their posture as you stand. Choose based on your preferred opening method and the opponent's guard style.",
         "distractors": {
           "plausible": [
-            "Belt-knee for standing break",
-            "Collar grip for combat base"
+            "Belt-knee grip for standing",
+            "Cross-collar for combat base"
           ],
           "trap": [
-            "Single wrist grip only"
+            "Grip high collar with both hands"
           ]
         },
         "answer_line": "Double pants grip most common"
@@ -332,11 +332,11 @@
         "answer_line": "Drive with hips, not arms",
         "distractors": {
           "plausible": [
-            "Pull harder with your arms",
-            "Use back strength to yank"
+            "Pull harder with both arms",
+            "Yank using back strength"
           ],
           "trap": [
-            "Grip and yank pants upward"
+            "Lean your chest forward to push"
           ]
         }
       },
@@ -346,11 +346,11 @@
         "answer_line": "Standing: strong but risky",
         "distractors": {
           "plausible": [
-            "Combat base has more power",
-            "Standing is always safer"
+            "Combat base opens more forcefully",
+            "Standing removes all sweep risk"
           ],
           "trap": [
-            "Combat base risks more sweeps"
+            "Stand with feet close and upright"
           ]
         }
       },
@@ -359,11 +359,11 @@
         "answer": "Opening and passing must be one continuous motion because any pause after the open lets the opponent re-close guard or build open guard retention. Given time, they establish frames, hooks, and grips. The moment the ankles unlock, you must already be transitioning to knee slice, toreando, or your chosen pass, which requires having your passing strategy planned before you even open the guard. The transition should feel like one flowing movement where the opening mechanics naturally feed into passing mechanics without a reset point.",
         "distractors": {
           "plausible": [
-            "Speed impresses the ref",
-            "Separate steps save energy"
+            "Rest, then start the pass fresh",
+            "Two clean steps beat one rush"
           ],
           "trap": [
-            "Stop to check your grips first"
+            "Stop to reset grips after opening"
           ]
         },
         "answer_line": "Pause lets guard re-close"
@@ -388,11 +388,11 @@
         "answer_line": "Hip extension drives the open",
         "distractors": {
           "plausible": [
-            "Arms pull, legs just stand",
-            "Shoulders provide the force"
+            "Arms do the pulling work",
+            "Shoulders generate the force"
           ],
           "trap": [
-            "Yank pants with arm strength"
+            "Curl forward to muscle it open"
           ]
         }
       }
@@ -577,11 +577,11 @@
         "answer_line": "Collar grip plus sleeve grip",
         "distractors": {
           "plausible": [
-            "Both hands on both sleeves",
-            "Collar grip plus belt grip"
+            "Grab both of their sleeves",
+            "Collar grip plus a belt grip"
           ],
           "trap": [
-            "Grip only their far pant leg"
+            "Release collar to grab a leg"
           ]
         }
       }

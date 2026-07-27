@@ -361,14 +361,14 @@
       {
         "question": "Why is tap recognition especially critical during counter heel hook exchanges?",
         "answer": "Both practitioners are simultaneously attacking knee ligaments in a race situation, creating heightened injury risk. Adrenaline may delay pain recognition, and the racing dynamic can cause delayed tapping. You must immediately release upon any tap signal and be willing to tap yourself early if opponent gains dominant position on your heel. Establish verbal and physical tap protocols before drilling.",
-        "answer_line": "Both knees at risk simultaneously",
+        "answer_line": "Both knees attacked at once",
         "distractors": {
           "plausible": [
-            "Only your knee is at risk",
-            "Pain always shows immediately"
+            "Just one leg is ever in danger",
+            "Pain warns you in time to tap"
           ],
           "trap": [
-            "Wait for verbal tap only"
+            "Speed removes the injury risk"
           ]
         }
       },

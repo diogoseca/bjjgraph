@@ -315,7 +315,7 @@
         "distractors": {
           "plausible": [
             "Meniscus is the primary target",
-            "Pain builds before it tears"
+            "Bones break before ligaments"
           ],
           "trap": [
             "Wait for pain, then tap"
@@ -329,11 +329,11 @@
         "answer_line": "Knee drifts, grip loosens, fatigue",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "Loud verbal frustration cues"
+            "Their breathing gets faster",
+            "Free leg goes completely still"
           ],
           "trap": [
-            "Ease off pressure and wait"
+            "Rip for the heel, lose the leg"
           ]
         }
       },
@@ -344,11 +344,11 @@
         "answer_line": "Hip-to-hip, knee line, entanglement",
         "distractors": {
           "plausible": [
-            "Just grip strength alone",
-            "Speed of the takedown"
+            "Chest pressure and head position",
+            "Wrist blade depth on Achilles"
           ],
           "trap": [
-            "Commit grips before hips connect"
+            "Crank early, get spun and passed"
           ]
         }
       },
@@ -356,14 +356,14 @@
         "question": "At what point during the finishing sequence does the opponent pass the point of no escape where tapping becomes their only option?",
         "answer": "The point of no escape occurs when you have secured the two-on-one grip with your wrist blade against the Achilles tendon, the foot is trapped in your armpit, and you have begun rotational pressure. Once the rotational force is being transmitted through the heel to the knee ligaments, the opponent cannot safely extract their leg without risking ligament damage from the movement itself. Before this point, they can still fight grips, hide the heel, or clear the knee line. After it, their only safe option is to tap immediately.",
         "safety_critical": true,
-        "answer_line": "Blade grip + rotation begins",
+        "answer_line": "Blade on Achilles, rotation on",
         "distractors": {
           "plausible": [
-            "Foot trapped, no rotation yet",
-            "Two-on-one grip alone"
+            "As soon as the leg is isolated",
+            "When the grip is first secured"
           ],
           "trap": [
-            "Wait for hip extension to lock"
+            "Not until the knee gives way"
           ]
         }
       },
@@ -401,14 +401,14 @@
         "question": "How should you release the Inside Sankaku heel hook after your training partner taps and what mistakes must you avoid?",
         "answer": "Release ALL rotational pressure instantly upon any tap signal - verbal, physical hand tap, foot tap, or any distress sound. Do not finish adjusting your grip or squeeze one last time. Maintain your leg position momentarily after releasing rotation so your partner can safely extract their leg without sudden jerking movements. The critical mistake to avoid is continuing any rotational pressure after the tap, even for a fraction of a second. The inside heel hook can cause irreversible damage in the time between a delayed release and ligament failure. Always verify with your partner verbally that they are uninjured before resuming training.",
         "safety_critical": true,
-        "answer_line": "Release rotation instantly on tap",
+        "answer_line": "Kill rotation the instant they tap",
         "distractors": {
           "plausible": [
-            "Finish adjusting grip first",
-            "One last squeeze to confirm"
+            "Ease off slowly over a second",
+            "Hold until they say stop out loud"
           ],
           "trap": [
-            "Keep rotating a beat longer"
+            "Squeeze once more, then let go"
           ]
         }
       },
@@ -419,11 +419,11 @@
         "answer_line": "Toe hold threat forces a choice",
         "distractors": {
           "plausible": [
-            "Just add more hip pressure",
-            "Wait out the clock passively"
+            "Grip fight their hands harder",
+            "Switch legs and re-enter"
           ],
           "trap": [
-            "Abandon position, reset guard"
+            "Let go of the leg to reset guard"
           ]
         }
       },
@@ -582,8 +582,8 @@
         "answer_line": "Legs triangling, hips pressing in",
         "distractors": {
           "plausible": [
-            "Sudden explosive scrambling",
-            "Opponent stands up to pass"
+            "They back their hips away",
+            "Their outside leg stays uncrossed"
           ],
           "trap": [
             "Ignore it, still far from danger"
@@ -594,14 +594,14 @@
         "question": "When should you tap to the Inside Sankaku heel hook and what tap signals should you use?",
         "answer": "Tap immediately when you feel any rotational pressure being transmitted through your heel to your knee - do not wait to assess whether escape is still possible. Use any available tap signal: verbal tap saying 'tap' or 'stop', physical hand tap on your partner or the mat with at least two taps, foot tap with your free leg, or any vocalization indicating distress. The inside heel hook provides zero pain warning before ligament failure, so the moment you feel rotation with a locked grip, your window for safe tapping is already closing rapidly.",
         "safety_critical": true,
-        "answer_line": "Tap the instant you feel rotation",
+        "answer_line": "Tap the moment rotation starts",
         "distractors": {
           "plausible": [
-            "Tap only once real pain hits",
-            "Wait to test if escape works"
+            "Only a spoken tap counts",
+            "Tap once your grip defense fails"
           ],
           "trap": [
-            "Hold out, assess escape first"
+            "Wait for pain before tapping"
           ]
         }
       },
@@ -612,11 +612,11 @@
         "answer_line": "Hide heel against your own hip",
         "distractors": {
           "plausible": [
-            "Attack their far-side grip first",
-            "Turn to face the opponent"
+            "Strip their far-side grip first",
+            "Sit up and fight their hands"
           ],
           "trap": [
-            "Try to muscle the leg free"
+            "Turn in toward them to escape"
           ]
         }
       },
@@ -642,11 +642,11 @@
         "answer_line": "It advances them into Saddle",
         "distractors": {
           "plausible": [
-            "It just wastes some energy",
-            "It only slows your escape"
+            "It only wastes some energy",
+            "It just slows your escape"
           ],
           "trap": [
-            "Turn in to clear the knee line"
+            "It safely clears the knee line"
           ]
         }
       }

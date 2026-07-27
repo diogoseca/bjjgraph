@@ -276,11 +276,11 @@
         "answer_line": "Both carotids, shin plus shoulder",
         "distractors": {
           "plausible": [
-            "Shin crushes the windpipe",
-            "Only near-side carotid squeezed"
+            "Air choke on the windpipe",
+            "Only one side gets pressure"
           ],
           "trap": [
-            "Trachea compression causes it"
+            "Wrench the neck like a crank"
           ]
         }
       },
@@ -288,14 +288,14 @@
         "question": "What are the indicators that the choke has reached the breaking point and the opponent is approaching unconsciousness?",
         "answer": "Key indicators include the opponent's defensive movements becoming slower or less coordinated, grip strength weakening noticeably on your legs, facial color changing to deep red or purple, eyes becoming glassy or unfocused, body stiffening followed by sudden relaxation, unusual vocalizations or gurgling sounds, and cessation of all voluntary movement. Any of these signals requires immediate attention. If the opponent stops moving entirely, release the choke instantly—they may already be unconscious.",
         "safety_critical": true,
-        "answer_line": "Slowed grip, glassy eyes, limp",
+        "answer_line": "Slowed defense, glassy eyes",
         "distractors": {
           "plausible": [
-            "Wait for them to go limp only",
-            "Red face alone confirms fade"
+            "Louder, faster struggling",
+            "Grip suddenly tightens up"
           ],
           "trap": [
-            "Keep squeezing until fully limp"
+            "Keep squeezing after they fade"
           ]
         }
       },
@@ -348,14 +348,14 @@
         "question": "What hip angle optimizes the rear triangle choke finish and why is this angle biomechanically important?",
         "answer": "Angle your hips approximately 45 degrees toward the trapped arm side. This orientation aligns the shin blade to cross the neck where it compresses the carotid artery most effectively against the underlying cervical structures. Without this angle, the shin tends to slide across the back of the neck without creating sufficient lateral compression on the arteries, resulting in general pressure rather than a targeted blood choke. The 45-degree angle also optimizes the trapped shoulder's compression against the opposite carotid.",
         "safety_critical": false,
-        "answer_line": "45 degrees toward trapped arm",
+        "answer_line": "45° toward the trapped arm",
         "distractors": {
           "plausible": [
-            "90 degrees, square to opponent",
-            "Angle away from trapped arm"
+            "Square hips at 90°",
+            "Twist toward the free side"
           ],
           "trap": [
-            "No angle needed, squeeze straight"
+            "Flatten out, let them turn in"
           ]
         }
       },
@@ -381,11 +381,11 @@
         "answer_line": "Break posture, chin to chest",
         "distractors": {
           "plausible": [
-            "Squeeze legs harder and faster",
-            "Switch fully to armbar attack"
+            "Stall to run out the clock",
+            "Stand up and disengage"
           ],
           "trap": [
-            "One explosive squeeze to finish"
+            "Rip an all-out explosive squeeze"
           ]
         }
       },
@@ -396,11 +396,11 @@
         "answer_line": "Knees sealed, 45°, posture broken",
         "distractors": {
           "plausible": [
-            "Once ankle locks behind knee",
-            "As soon as back control taken"
+            "The instant the ankle locks",
+            "As soon as you take the back"
           ],
           "trap": [
-            "Never truly inescapable"
+            "Quit defending once it locks"
           ]
         }
       },
@@ -626,11 +626,11 @@
         "answer_line": "Peel the ankle, wedge, then roll",
         "distractors": {
           "plausible": [
-            "Keep pulling the same arm harder",
-            "Wait passively for a mistake"
+            "Yank the same arm free again",
+            "Bench-press the leg off you"
           ],
           "trap": [
-            "Stop moving, tap only if choked out"
+            "Stop moving, wait to tap out"
           ]
         }
       }

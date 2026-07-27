@@ -550,11 +550,11 @@
       {
         "question": "The escaper stands up while you have the triangle locked—what is your immediate defensive response to prevent being slammed?",
         "answer": "When the escaper stands with the triangle locked, immediately hook the back of one of their legs with your arm to prevent them from walking forward to stack or slam. Pull your own head off the mat by crunching forward and control their posture with your grips. If slamming is a concern, release the triangle voluntarily and transition to an open guard system rather than risking injury. In competition settings where slamming is illegal, maintain the triangle and use the standing position to increase choking pressure through gravity by letting your weight hang from the lock. In MMA or self-defense contexts, unhook and disengage rather than accepting a slam.",
-        "answer_line": "Hook their leg, crunch forward",
+        "answer_line": "Hook their leg and crunch forward",
         "distractors": {
           "plausible": [
-            "Lock your legs tighter to hold",
-            "Grab their belt to stop the lift"
+            "Grab their belt to stop the lift",
+            "Push their knee to sit them down"
           ],
           "trap": [
             "Hold the triangle and relax"

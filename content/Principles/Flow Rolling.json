@@ -382,14 +382,14 @@
     {
       "question": "What intensity range defines effective flow rolling?",
       "answer": "Roughly 30-50% of maximum effort: low enough to sustain continuous movement without fatigue or injury, yet structured enough that partners keep realistic base and posture rather than total compliance.",
-      "answer_line": "Roughly 30-50% max effort",
+      "answer_line": "Roughly 30-50% of max effort",
       "distractors": {
         "plausible": [
-          "As hard as possible, safely",
-          "Totally relaxed, no resistance"
+          "Totally limp, zero pushback",
+          "Any pace, as long as you keep moving"
         ],
         "trap": [
-          "100% resistance, controlled speed"
+          "Full power, just move slower"
         ]
       }
     },
@@ -438,14 +438,14 @@
     {
       "question": "How does flow rolling support training longevity and recovery?",
       "answer": "Used at 30-40% on recovery days between hard sessions, it preserves technical sharpness and movement quality while minimizing accumulated fatigue and injury risk, letting practitioners train more frequently over a longer career.",
-      "answer_line": "30-40% on recovery days",
+      "answer_line": "Keeps skills sharp with low fatigue",
       "distractors": {
         "plausible": [
-          "Skip rolling entirely to rest",
-          "Go hard to build endurance"
+          "Complete rest beats light rolling",
+          "Builds cardio for hard sessions"
         ],
         "trap": [
-          "Full sparring intensity, no rest"
+          "Spar all-out on recovery days"
         ]
       }
     },

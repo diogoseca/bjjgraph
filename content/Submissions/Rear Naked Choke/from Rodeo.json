@@ -316,11 +316,11 @@
         "answer_line": "Compress both carotid arteries",
         "distractors": {
           "plausible": [
-            "Only one carotid needed",
-            "Trachea placement works fine"
+            "Cut off airflow to the lungs",
+            "Squeeze only one side of neck"
           ],
           "trap": [
-            "Crush the windpipe for choke"
+            "Crank the spine to force a tap"
           ]
         }
       },
@@ -374,11 +374,11 @@
         "answer_line": "Expand chest, not just arms",
         "distractors": {
           "plausible": [
-            "Squeeze harder with biceps",
-            "Both methods equally durable"
+            "Grip tighter and hold longer",
+            "Both give equal staying power"
           ],
           "trap": [
-            "Rely on forearm squeeze only"
+            "Gas out squeezing with biceps"
           ]
         }
       },
@@ -404,11 +404,11 @@
         "answer_line": "Release if partner goes limp",
         "distractors": {
           "plausible": [
-            "Wait for verbal tap always",
-            "Hold until they stop moving"
+            "Wait for a verbal tap only",
+            "Pause and call the coach over"
           ],
           "trap": [
-            "Assume they're just tough, hold"
+            "Crank harder to force the tap"
           ]
         }
       },
@@ -418,11 +418,11 @@
         "answer_line": "When they defend back/calf slicer",
         "distractors": {
           "plausible": [
-            "Immediately upon reaching turtle",
-            "Only after full back control"
+            "As soon as they turtle up",
+            "Only once fully behind them"
           ],
           "trap": [
-            "Rush the choke right away"
+            "Attack while their base is set"
           ]
         }
       },
@@ -432,11 +432,11 @@
         "answer_line": "Attack elsewhere, hands are busy",
         "distractors": {
           "plausible": [
-            "Force the choke back under chin",
-            "Release grip and reset fully"
+            "Wait for them to tire out",
+            "Bail and reset to turtle top"
           ],
           "trap": [
-            "Fight strength to relock choke"
+            "Muscle the arm back to the neck"
           ]
         }
       },
@@ -446,11 +446,11 @@
         "answer_line": "Faster finish, less stability",
         "distractors": {
           "plausible": [
-            "Slower but more secure control",
-            "Identical strategy either way"
+            "Surprise beats speed every time",
+            "Grip is the only real change"
           ],
           "trap": [
-            "Take your time, it's stable"
+            "Relax, it won't slip out"
           ]
         }
       }
@@ -565,11 +565,11 @@
         "answer_line": "Tuck chin, grab wrist two-on-one",
         "distractors": {
           "plausible": [
-            "Fight the hooks first",
-            "Turn head away from the arm"
+            "Turn your head away from arm",
+            "Bridge hard to buck him off"
           ],
           "trap": [
-            "Ignore it, defend hooks instead"
+            "Ignore arm, battle the hooks"
           ]
         }
       },
@@ -595,11 +595,11 @@
         "answer_line": "No hooks means more hip mobility",
         "distractors": {
           "plausible": [
-            "Opponent's grip is always weaker",
-            "Rodeo Ride has no real threat"
+            "Their grip is always weaker",
+            "Just stand straight up to leave"
           ],
           "trap": [
-            "Stay still, hooks aren't in yet"
+            "Sit tight, you're not in danger"
           ]
         }
       },

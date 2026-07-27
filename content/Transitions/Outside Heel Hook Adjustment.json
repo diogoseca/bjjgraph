@@ -309,14 +309,14 @@
       {
         "question": "What should you do if the opponent achieves strong boot defense during your adjustment?",
         "answer": "First, try using your forearm pressure behind their calf to pop the heel free. If boot remains strong after 2-3 seconds, transition to ankle lock by sliding your grip to the Achilles, or abandon the direct finish and transition to saddle position for improved control and new attack angles.",
-        "answer_line": "Forearm on calf to pop heel free",
+        "answer_line": "Forearm behind calf to free heel",
         "distractors": {
           "plausible": [
-            "Slide grip to Achilles first",
-            "Bail to saddle immediately"
+            "Crank harder through the boot",
+            "Stall until they tire out"
           ],
           "trap": [
-            "Release and scramble to standing"
+            "Drop the knee line to chase foot"
           ]
         }
       },
@@ -519,11 +519,11 @@
         "answer_line": "Break the grip, tap if it holds",
         "distractors": {
           "plausible": [
-            "Rotate knee out first",
-            "Point toes to hide the heel"
+            "Point toes to hide the heel",
+            "Frame on their hip to slow it"
           ],
           "trap": [
-            "Spin out to escape the hook"
+            "Rip the leg free by force"
           ]
         }
       },

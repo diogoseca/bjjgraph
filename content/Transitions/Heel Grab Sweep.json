@@ -260,11 +260,11 @@
         "answer_line": "Combine leg extension + heel pull",
         "distractors": {
           "plausible": [
-            "Heel pull is the main force",
-            "Do leg extension, then heel pull"
+            "Heel pull supplies nearly all force",
+            "Extend first, then pull the heel"
           ],
           "trap": [
-            "Push off mat, skip the heel grip"
+            "Release heel to push, get passed"
           ]
         }
       },
@@ -274,11 +274,11 @@
         "answer_line": "Angle hips diagonally, not straight",
         "distractors": {
           "plausible": [
-            "Sweep straight back for power",
-            "Angle only after they resist"
+            "Straight-back sweep hits harder",
+            "Add the angle only once they resist"
           ],
           "trap": [
-            "Square hips, drive straight back"
+            "Drop the hook, get knee-sliced"
           ]
         }
       },
@@ -299,28 +299,28 @@
       {
         "question": "What specific grip placement on the heel distinguishes this from an inferior ankle grip?",
         "answer": "Proper heel control targets the actual heel bone (calcaneus) with both hands, the top hand gripping over the top and the bottom hand cupping underneath. This creates a short lever arm on a bony structure that allows maximum rotational control over the entire leg. Ankle grips are inferior because the ankle joint permits too much movement, and gripping soft tissue like the Achilles tendon provides less structural purchase than gripping bone directly.",
-        "answer_line": "Grip the heel bone, not ankle",
+        "answer_line": "Grip the heel bone, not the ankle",
         "distractors": {
           "plausible": [
-            "Grip the Achilles tendon",
-            "Grip ankle joint for control"
+            "Cup the Achilles tendon",
+            "Ankle joint gives best control"
           ],
           "trap": [
-            "Grab the pant leg, not the foot"
+            "Grip the calf, leg slips out, passed"
           ]
         }
       },
       {
         "question": "What is the optimal timing window for executing the Heel Grab Sweep?",
         "answer": "The optimal timing is when the opponent's weight shifts forward onto the trapped leg or when they attempt to pull their leg free from your control. In both scenarios their base is already compromised and they are in motion, making balance recovery much harder when the sweep is executed. Attempting the sweep when their weight is back or when they have established a wide stable base significantly reduces success rates and may give them a counter opportunity.",
-        "answer_line": "Sweep as weight shifts/leg pulls",
+        "answer_line": "Sweep as weight shifts or leg pulls",
         "distractors": {
           "plausible": [
-            "Sweep when base is wide, stable",
-            "Wait for opponent to sit back"
+            "Best when their base is wide",
+            "Wait until they settle back"
           ],
           "trap": [
-            "Sweep only from a dead-still base"
+            "Stall for the perfect moment, passed"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Redirect sweep toward posted hand",
         "distractors": {
           "plausible": [
-            "Sweep away from posted hand",
-            "Attack posted arm with armbar"
+            "Sweep away from the posted arm",
+            "Armbar the posted arm"
           ],
           "trap": [
-            "Ignore post, sweep straight back"
+            "Keep pushing back, they come on top"
           ]
         }
       },
@@ -357,11 +357,11 @@
         "answer": "When the wide base blocks the sweep, chain to a Tripod Sweep, a Sickle Sweep, or an Ashi Garami leg entanglement. For the Tripod Sweep, release the heel and attack their standing leg; for the Sickle Sweep, use your outside leg to cut their standing ankle while maintaining elevation with your X-hook. You can also enter Ashi Garami or Outside Ashi-Garami while their base is committed wide, which limits their ability to retract their leg quickly. The wide base defense against the Heel Grab Sweep inherently creates vulnerability to these alternative attacks.",
         "distractors": {
           "plausible": [
-            "Repeat same heel grab harder",
-            "Abandon position, stand up"
+            "Grip harder and repeat the sweep",
+            "Wait for them to narrow the base"
           ],
           "trap": [
-            "Force straight sweep, ignore base"
+            "Release hook, get knee-sliced"
           ]
         },
         "answer_line": "Chain to Tripod, Sickle, or Ashi"
@@ -371,11 +371,11 @@
         "answer": "Immediate follow-through denies the opponent the chance to recover guard, start a scramble, or turn the falling momentum into their own offense. The sweep creates only a temporary advantage window. Without following through by releasing the heel and tracking the opponent's body as you rotate your hips to come on top, the opponent has sufficient time to post, turn toward you, or reestablish defensive frames. The follow-through must maintain continuous body contact to deny recovery space.",
         "distractors": {
           "plausible": [
-            "Release heel, then reposition slow",
-            "Celebrate before securing top"
+            "Release the heel, then reposition",
+            "Re-grip the heel before rising"
           ],
           "trap": [
-            "Stay back, let them scramble up"
+            "Stay on your back, they take top"
           ]
         },
         "answer_line": "Follow through to top instantly"
@@ -385,11 +385,11 @@
         "answer": "You need a deep X-hook behind their knee, outside-leg shin control, both hands gripping the heel bone, and their weight loaded onto the trapped leg. Specifically, four conditions must be met: the X-hook must be deep behind the opponent's knee with your foot across their hip, your outside leg must be controlling their shin, both hands must be able to secure grips on the heel bone specifically, and the opponent must have weight distributed onto the trapped leg rather than sitting back. Additionally, your hips should be positioned underneath their center of gravity for maximum leverage, and you should have created a slight angle rather than being directly underneath them.",
         "distractors": {
           "plausible": [
-            "Shallow hook is fine to start",
-            "Attempt before weight loads leg"
+            "A shallow hook is enough to start",
+            "Fire before weight loads the leg"
           ],
           "trap": [
-            "Skip shin control, grab heel fast"
+            "Grab heel with no hook, get passed"
           ]
         },
         "answer_line": "Deep hook, shin control, heel grip"
@@ -533,11 +533,11 @@
         "answer_line": "Sit hips down, but risk leg locks",
         "distractors": {
           "plausible": [
-            "Stand up tall to escape",
-            "Sitting down is fully safe"
+            "Stand tall to nullify the sweep",
+            "Sitting risks only a reversal"
           ],
           "trap": [
-            "Sit down and abandon leg defense"
+            "Sit deep and stop defending the leg"
           ]
         }
       },
@@ -575,11 +575,11 @@
         "answer_line": "Anti-sweep defense risks leg locks",
         "distractors": {
           "plausible": [
-            "Defenses eliminate leg lock risk",
-            "Only sweep defense matters here"
+            "Sweep defense also stops heel hooks",
+            "Deeper sitting is always safer"
           ],
           "trap": [
-            "Ignore leg locks, focus on base only"
+            "Sit deep and feed them your heel"
           ]
         }
       }

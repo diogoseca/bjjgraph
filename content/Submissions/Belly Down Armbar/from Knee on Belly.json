@@ -287,7 +287,7 @@
             "Wrist flexor tendons"
           ],
           "trap": [
-            "Bicep tendon primarily"
+            "Rotator cuff — crank to test it"
           ]
         }
       },
@@ -332,7 +332,7 @@
             "When step-over foot lands"
           ],
           "trap": [
-            "After first pressure spike"
+            "Relax once they stop moving"
           ]
         }
       },
@@ -340,14 +340,14 @@
         "question": "Why must the finishing extension be applied slowly when using the belly down armbar?",
         "answer": "The belly-down position creates significantly more mechanical advantage than a standard supine armbar because gravity assists the extension and the attacker's full body weight reinforces the hip pressure. This amplified leverage means the elbow joint reaches its breaking point much faster than most practitioners expect. Applying force quickly can cause ligament damage or fracture before the opponent has time to recognize the threat and tap. Always apply progressive pressure and allow time for the tap signal.",
         "safety_critical": true,
-        "answer_line": "Gravity adds extra leverage",
+        "answer_line": "Gravity and body weight amplify it",
         "distractors": {
           "plausible": [
-            "Slow finish avoids fatigue",
-            "Allows repositioning of hips"
+            "Slow keeps your hips from slipping",
+            "Slow extension builds more torque"
           ],
           "trap": [
-            "Speed prevents their defense"
+            "Snap it fast before they defend"
           ]
         }
       },
@@ -355,14 +355,14 @@
         "question": "How should you adjust your grip if the opponent begins rotating their wrist to escape during the finish?",
         "answer": "Maintain control by cupping the wrist deeply with overlapping grips and squeezing your elbows together to eliminate rotation space. If the opponent rotates their thumb away from your chest, adjust your hip position to maintain the hyperextension angle by shifting slightly toward their shoulder. The key is keeping the wrist trapped between both hands while the elbow remains locked against your hip line. Never chase their grip — reposition your hips to maintain alignment.",
         "safety_critical": false,
-        "answer_line": "Shift hips, don't chase grip",
+        "answer_line": "Cup wrist deep, elbows squeezed",
         "distractors": {
           "plausible": [
-            "Re-grip with fresh two-on-one",
-            "Pull wrist straight back"
+            "Switch to a figure-four grip",
+            "Sit up to change the angle"
           ],
           "trap": [
-            "Chase their rotating grip"
+            "Let go and re-secure the wrist"
           ]
         }
       },
@@ -508,11 +508,11 @@
         "answer_line": "Grips shift to your wrist",
         "distractors": {
           "plausible": [
-            "Knee pressure suddenly increases",
+            "Knee pressure suddenly spikes",
             "They grab your far collar"
           ],
           "trap": [
-            "They release all grips"
+            "Nothing changes — stay flat"
           ]
         }
       },
@@ -520,14 +520,14 @@
         "question": "Why is it critical to tap early when caught in a fully secured belly down armbar?",
         "answer": "The belly-down position creates significantly more mechanical advantage than a standard supine armbar because gravity, hip drive, and bilateral knee compression all work together. The elbow reaches its breaking point much faster than in a standard armbar, and the extreme leverage means that even a brief delay between recognizing the submission and tapping can result in ligament damage or fracture. Tap as soon as you feel full extension beginning and cannot free your arm.",
         "safety_critical": true,
-        "answer_line": "Breaking point comes very fast",
+        "answer_line": "Breaking point arrives much faster",
         "distractors": {
           "plausible": [
-            "Tap only if pain is sharp",
-            "Wait to see if it slips"
+            "Shoulder gives out before elbow",
+            "Same pressure as a normal armbar"
           ],
           "trap": [
-            "Try to power through it"
+            "Stall and grip-fight until it slips"
           ]
         }
       },
@@ -535,14 +535,14 @@
         "question": "What defensive options are available at each phase of the belly down armbar from knee on belly?",
         "answer": "During the arm isolation phase, retract your elbow to your ribcage immediately to prevent two-on-one capture. During the step-over phase, bridge toward the attacker to disrupt their base and prevent clean head clearance. During the rotation phase, turn into the attacker and thread your legs to recover closed guard before the belly-down position locks in. Once the belly-down is fully secured, the only safe option is to tap immediately.",
         "safety_critical": false,
-        "answer_line": "Retract elbow before it's caught",
+        "answer_line": "Elbow to your ribs before capture",
         "distractors": {
           "plausible": [
-            "Bridge during arm isolation phase",
-            "Turn in after belly-down locks"
+            "Bridge only after belly-down locks",
+            "Wait for the rotation to bridge"
           ],
           "trap": [
-            "Try to muscle the arm free"
+            "Roll away from the trapped arm"
           ]
         }
       },

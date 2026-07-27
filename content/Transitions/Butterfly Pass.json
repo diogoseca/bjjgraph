@@ -259,11 +259,11 @@
         "answer_line": "Wide base denies hook leverage",
         "distractors": {
           "plausible": [
-            "Sit up tall for posture",
-            "Keep knees tight, drive forward"
+            "Sit up tall to fight grips",
+            "Square your hips and drive in"
           ],
           "trap": [
-            "Narrow stance for max pressure"
+            "Kneel knees together, lean in"
           ]
         }
       },
@@ -273,11 +273,11 @@
         "answer_line": "Flatten hook, kill lift angle",
         "distractors": {
           "plausible": [
-            "Trap the hook with your shin",
-            "Pull the hook out with your hand"
+            "Yank their ankle free by hand",
+            "Cross your legs to block it"
           ],
           "trap": [
-            "Stand up to escape the hooks"
+            "Raise hips to step over hook"
           ]
         }
       },
@@ -314,11 +314,11 @@
         "answer": "The underhook or crossface pins the opponent's upper body, preventing guard recovery while you transition your hips and legs into side control. Without these controls, even after removing the butterfly hooks, the opponent can easily insert knees for guard retention, create frames to generate space, or shrimp away to recover position. The underhook or crossface serves as an anchor point that pins the opponent's upper body while you transition your hips and legs into final passing position. Attempting to complete the pass without this control leaves you vulnerable during the transition and makes side control establishment tentative rather than dominant. These controls transform a positional advantage into a secured dominant position.",
         "distractors": {
           "plausible": [
-            "Flatten hook, skip upper body",
-            "Control legs before the arms"
+            "Secure both legs first",
+            "Wait for them to flatten out"
           ],
           "trap": [
-            "Rush hips, skip the control"
+            "Turn your back to slide past"
           ]
         },
         "answer_line": "Pin upper body before finishing"
@@ -328,14 +328,14 @@
         "answer": "Immediately increase crossface pressure, keep your near leg heavy, and drive your hip down to prevent them from getting deep under your leg. Your weight should shift toward the side they're trying to attack, making it difficult for them to secure the deep half position. If they manage to get partial deep half positioning, switch your strategy from butterfly passing to deep half passing mechanics — focus on hip isolation, preventing their lockdown, and establishing controls specific to deep half escapes. The key is early recognition: once you see them beginning to scoop your leg or get their head to your far hip, adjust your weight distribution immediately to prevent them from establishing the position fully.",
         "distractors": {
           "plausible": [
-            "Pull leg out, restart pass",
-            "Post base wide, wait it out"
+            "Sprawl both legs back",
+            "Sit back and re-grip lapels"
           ],
           "trap": [
-            "Free leg to swim for underhook"
+            "Let leg go deep, spin free"
           ]
         },
-        "answer_line": "Crossface heavy, block lockdown"
+        "answer_line": "Drive hip down, crossface hard"
       },
       {
         "question": "Your opponent posts their far hand on the mat as you begin clearing the first hook - how do you exploit this?",
@@ -343,11 +343,11 @@
         "answer_line": "Speed pass away from posted arm",
         "distractors": {
           "plausible": [
-            "Attack the posted hand directly",
-            "Wait for them to regrip"
+            "Strip the posted hand first",
+            "Hold still until they regrip"
           ],
           "trap": [
-            "Back off to reset base"
+            "Dive for the far underhook"
           ]
         }
       },
@@ -357,11 +357,11 @@
         "answer_line": "Cross collar plus same-side sleeve",
         "distractors": {
           "plausible": [
-            "Double sleeve control both sides",
-            "Collar tie with underhook only"
+            "Two-on-one on the near sleeve",
+            "Double lapel grip, no sleeve"
           ],
           "trap": [
-            "Grip both pant cuffs"
+            "Grab both pant cuffs, lean in"
           ]
         }
       },
@@ -384,11 +384,11 @@
         "answer": "Chain to a knee slice against a shallow knee shield, or to a body lock, backstep, or over-under pass once the shield is fully established. If the shield is shallow with only the knee across, immediately switch to a knee slice pass by driving your weight into the knee shield side and sliding your knee across their thigh toward the mat. If the opponent establishes a deeper knee shield with their shin fully across your torso, transition to a body lock pass by securing double underhooks around their legs and stacking them to neutralize the shield. You can also backstep to address the position from the other side, or use the over-under pass by threading one arm under their bottom leg while the other goes over the knee shield. The critical principle is recognizing the knee shield insertion early and immediately switching to a complementary passing system rather than continuing to force the butterfly pass mechanics against a fundamentally different guard configuration.",
         "distractors": {
           "plausible": [
-            "Force original butterfly pass",
-            "Backstep before shield is set"
+            "Wait for the shield to open",
+            "Push straight into their shin"
           ],
           "trap": [
-            "Post hand inside the shield"
+            "Reach inside the shield to post"
           ]
         },
         "answer_line": "Knee slice or body lock the shield"
@@ -533,11 +533,11 @@
         "answer_line": "Extra-wide base, hips dropping",
         "distractors": {
           "plausible": [
-            "Passer grabs both collars first",
-            "Passer stands to begin the pass"
+            "Passer stands and steps back",
+            "Passer grips both collars"
           ],
           "trap": [
-            "Passer sits back to guard pull"
+            "Read it as stalling, relax hooks"
           ]
         }
       },
@@ -547,11 +547,11 @@
         "answer_line": "Passer's weight shift opens sweep",
         "distractors": {
           "plausible": [
-            "Wait until both hooks are flat",
-            "Attack right as pressure starts"
+            "After both hooks are flattened",
+            "Before they establish any grips"
           ],
           "trap": [
-            "Push into the flattening pressure"
+            "Brace into the flattening hip"
           ]
         }
       },

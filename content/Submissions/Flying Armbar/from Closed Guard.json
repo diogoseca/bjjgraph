@@ -321,14 +321,14 @@
         "question": "What is the absolute priority when landing a flying armbar in training, even above securing the submission?",
         "answer": "The absolute priority is controlling your landing to avoid injuring your training partner. You must land gently, allow your partner to base with their free hand, and never spike or slam onto their extended arm. Partner safety takes complete precedence over submission success in training. This means consciously controlling your descent and being prepared to release the technique entirely if the landing becomes uncontrolled. A successful tap means nothing if your partner is injured in the process.",
         "safety_critical": true,
-        "answer_line": "Partner safety over the tap",
+        "answer_line": "Control the landing to protect them",
         "distractors": {
           "plausible": [
-            "Lock the arm before landing",
-            "Land as fast as possible"
+            "Lock the arm before you land",
+            "Get the finish before they base"
           ],
           "trap": [
-            "Spike them into the mat"
+            "Spike them onto their head"
           ]
         }
       },
@@ -351,14 +351,14 @@
         "question": "Why is two-on-one grip control essential before initiating the jumping motion, and what can happen if this grip is insufficient?",
         "answer": "Two-on-one grip control (one hand on wrist, one on sleeve) is essential because once you leave the ground, you cannot re-establish control if the arm slips free. Insufficient grip allows the opponent to pull their arm back during your aerial rotation, resulting in a failed technique where you land without control, vulnerable to being passed or mounted. The grip must be tested by pulling before jumping - if the arm moves easily, the grip is inadequate for an aerial attack. Strong grip control is the foundation that makes the entire technique possible.",
         "safety_critical": false,
-        "answer_line": "Test grip before jumping",
+        "answer_line": "No re-grip once you're airborne",
         "distractors": {
           "plausible": [
-            "Grip after you leave ground",
-            "Single wrist grip is enough"
+            "One sleeve grip is enough",
+            "Grip matters only on landing"
           ],
           "trap": [
-            "Jump first, grip in air"
+            "Jump first, hunt the arm in air"
           ]
         }
       },
@@ -369,11 +369,11 @@
         "answer_line": "Leg over face, leg under arm",
         "distractors": {
           "plausible": [
-            "Both legs wrap the waist",
-            "Adjust legs after landing"
+            "Both legs wrap their waist",
+            "Fix leg position after landing"
           ],
           "trap": [
-            "Cross ankles behind back"
+            "Land with legs open, get passed"
           ]
         }
       },
@@ -384,11 +384,11 @@
         "answer_line": "5-7 seconds, slow and steady",
         "distractors": {
           "plausible": [
-            "2-3 seconds is plenty",
-            "Match competition speed"
+            "Only the angle matters, not pace",
+            "Same tempo as a rolling round"
           ],
           "trap": [
-            "Snap it on fast"
+            "Snap it the moment you land"
           ]
         }
       },
@@ -414,11 +414,11 @@
         "answer_line": "Abandon and return to guard",
         "distractors": {
           "plausible": [
-            "Chase the arm harder",
-            "Switch straight to a triangle"
+            "Muscle the arm back straight",
+            "Hang on their neck and stall"
           ],
           "trap": [
-            "Jump anyway and finish"
+            "Jump anyway and crash down"
           ]
         }
       },
@@ -429,11 +429,11 @@
         "answer_line": "Shoulder blades, chin tucked",
         "distractors": {
           "plausible": [
-            "Land flat on your back",
-            "Land on your tailbone"
+            "Land flat with arms spread",
+            "Slap the mat with both hands"
           ],
           "trap": [
-            "Extend neck to see opponent"
+            "Extend your neck to watch them"
           ]
         }
       },
@@ -444,7 +444,7 @@
         "answer_line": "Hips up, pull wrist to chest",
         "distractors": {
           "plausible": [
-            "Pull wrist toward your shoulder",
+            "Squeeze knees, keep hips flat",
             "Push hips down for leverage"
           ],
           "trap": [
@@ -459,11 +459,11 @@
         "answer_line": "Elbow on hips, thumb up, knees shut",
         "distractors": {
           "plausible": [
-            "Elbow centered, thumb sideways",
-            "Legs wrapped, knees loose"
+            "Elbow centered, thumb turned in",
+            "Legs crossed, knees relaxed"
           ],
           "trap": [
-            "Hips high near their shoulder"
+            "Hips high, let them stack and pass"
           ]
         }
       },
@@ -471,14 +471,14 @@
         "question": "What are the most common finishing errors that allow escape from an otherwise secured flying armbar position?",
         "answer": "The most common finishing errors include: allowing their elbow to drift off-center from your hips which reduces breaking leverage, letting their thumb rotate outward which allows them to stack and relieve pressure, relaxing knee squeeze which creates space for arm extraction, positioning hips too high on their arm near the shoulder which reduces mechanical advantage, and rushing the finish before position is fully secured which telegraphs the submission and allows defensive reactions. Additionally, pulling their wrist toward your shoulder instead of your chest changes the breaking angle and makes escape easier through rotation.",
         "safety_critical": false,
-        "answer_line": "Elbow drifts off-center from hips",
+        "answer_line": "Elbow drifts off your hip line",
         "distractors": {
           "plausible": [
-            "Thumb rotates outward, they stack",
-            "Hips positioned too high"
+            "Wrist clamped too tight to chest",
+            "Finishing too slowly"
           ],
           "trap": [
-            "Rush the finish before secured"
+            "Sit up and release the legs"
           ]
         }
       },
@@ -486,11 +486,11 @@
         "question": "In competition, how do you adjust your finishing grip and pressure application compared to training while still prioritizing opponent safety?",
         "answer": "In competition, you apply pressure more quickly once position is secured, but you must still recognize tap signals immediately and release without hesitation. Use a tighter wrist grip with your forearms rather than just hands, and elevate hips more decisively. However, never crank or jerk the submission - even in competition, controlled progressive pressure is both more effective and safer. The key difference is the time between establishing control and applying pressure, not the nature of the pressure itself. A controlled 2-3 second finish in competition is still fundamentally different from the dangerous jerking motion that causes injuries.",
         "safety_critical": true,
-        "answer_line": "Faster pressure, still no cranking",
+        "answer_line": "Faster pressure, no cranking",
         "distractors": {
           "plausible": [
-            "Crank harder for quick tap",
-            "Same pace as training always"
+            "Same tempo as the training room",
+            "Loosen grip to bait a scramble"
           ],
           "trap": [
             "Jerk the arm for a fast tap"
@@ -501,14 +501,14 @@
         "question": "What anatomical structure does the Flying Armbar attack, and in which direction does it fail?",
         "answer": "The Flying Armbar attacks the elbow joint, hyperextending it past its natural range. The joint is loaded in its weakest plane when the defender's thumb points up and pinky toward your chest, so your elevated hips bend the elbow backward against the olecranon until it reaches the breaking point.",
         "safety_critical": false,
-        "answer_line": "Elbow hyperextends, thumb up fails",
+        "answer_line": "Elbow, hyperextended backward",
         "distractors": {
           "plausible": [
-            "Shoulder rotates out of socket",
-            "Wrist bends past its limit"
+            "Shoulder, twisted from socket",
+            "Wrist, bent past its range"
           ],
           "trap": [
-            "Crank until it pops"
+            "Elbow, snapped with a fast jerk"
           ]
         }
       },
@@ -549,11 +549,11 @@
         "answer_line": "Chain to triangle or omoplata",
         "distractors": {
           "plausible": [
-            "Force straight-arm finish anyway",
-            "Bend elbow further to expose it"
+            "Hold and wait for a tap",
+            "Switch to attack the free arm"
           ],
           "trap": [
-            "Yank the bent arm straight"
+            "Release legs and stand back up"
           ]
         }
       },
@@ -564,11 +564,11 @@
         "answer_line": "Land first, then extend slowly",
         "distractors": {
           "plausible": [
-            "Finish explosively in the air",
-            "Extend arm during rotation"
+            "Air finish is fine if grips hold",
+            "Stand back up and re-enter"
           ],
           "trap": [
-            "Wrench it before landing"
+            "Wrench the arm in mid-air"
           ]
         }
       },
@@ -579,11 +579,11 @@
         "answer_line": "Chase the rotation, re-clamp arm",
         "distractors": {
           "plausible": [
-            "Release and re-grip from scratch",
-            "Pull harder against rotation"
+            "Crank the wrist thumb-down",
+            "Hold still and squeeze harder"
           ],
           "trap": [
-            "Let them spin free to reset"
+            "Let them spin free and reset"
           ]
         }
       },
@@ -610,10 +610,10 @@
         "distractors": {
           "plausible": [
             "Widen knees for more torque",
-            "Pull wrist toward your shoulder"
+            "Lift your hips higher"
           ],
           "trap": [
-            "Let go and reset the grip"
+            "Open the legs and re-shoot it"
           ]
         }
       },
@@ -621,14 +621,14 @@
         "question": "In competition, how should you decide whether to commit to a flying armbar, and how do you stay safe if it fails?",
         "answer": "Commit only against a standing or high-posture opponent whose forward momentum you can borrow, ideally with a points lead or in a scramble where the risk is justified. If it fails, prioritize landing in armbar control or recovering guard rather than chasing the finish, accepting a reset over giving up a clean pass to your back.",
         "safety_critical": false,
-        "answer_line": "Commit only vs standing opponent",
+        "answer_line": "Commit only vs a standing base",
         "distractors": {
           "plausible": [
             "Always commit for a fast finish",
-            "Chase the sub if it fails"
+            "Chase the finish after it fails"
           ],
           "trap": [
-            "Force it flat and risk your back"
+            "Jump it on a flat, based player"
           ]
         }
       },
@@ -639,11 +639,11 @@
         "answer_line": "Needs their height and momentum",
         "distractors": {
           "plausible": [
-            "Works better on a flat opponent",
-            "Needs opponent's forward grip"
+            "Flat opponents grip back harder",
+            "Standing makes landing safer"
           ],
           "trap": [
-            "Attack regardless of posture"
+            "Jump it at a based opponent"
           ]
         }
       }
@@ -781,14 +781,14 @@
         "question": "Why is it dangerous to pull your arm straight back when caught in a flying armbar during the aerial phase?",
         "answer": "Pulling straight back is dangerous because it actually assists the attacker's rotation around your arm. Your arm becomes the fixed axis that their body pivots on, and the backward pulling motion helps them achieve the perpendicular angle needed for the armbar finish. Additionally, if they land with your arm fully extended from the pulling motion, the impact of their body weight combined with the extension can cause immediate hyperextension injury. The correct response is to drive forward and stack, not pull backward, because forward pressure collapses their rotation and prevents the flat landing position they need.",
         "safety_critical": true,
-        "answer_line": "It assists their rotation",
+        "answer_line": "It feeds their rotation",
         "distractors": {
           "plausible": [
-            "It has no effect either way",
-            "It only risks your shoulder"
+            "It only strains your shoulder",
+            "It just wastes your energy"
           ],
           "trap": [
-            "Pull straight back hard"
+            "It's safe if you rip it out fast"
           ]
         }
       },
@@ -814,11 +814,11 @@
         "answer_line": "Far faster, react before landing",
         "distractors": {
           "plausible": [
-            "Same speed, more time to escape",
-            "Easier since hips aren't loaded"
+            "Escape window opens on landing",
+            "Grips matter less than in guard"
           ],
           "trap": [
-            "Wait for the ground to escape"
+            "Ride it out and escape on the mat"
           ]
         }
       },
@@ -829,11 +829,11 @@
         "answer_line": "Elbows tight, hips back, no reach",
         "distractors": {
           "plausible": [
-            "Reach deep for collar grips",
-            "Post hands flat on the mat"
+            "Keep your chin tucked down",
+            "Bounce on your toes to stay light"
           ],
           "trap": [
-            "Lean forward with arms extended"
+            "Lean in with both arms extended"
           ]
         }
       },
@@ -844,11 +844,11 @@
         "answer_line": "During the entry, before landing",
         "distractors": {
           "plausible": [
-            "After legs clamp on landing",
-            "Once hips are elevated"
+            "Right after they land",
+            "When the extension starts"
           ],
           "trap": [
-            "Wait until fully mounted"
+            "Wait for the elbow to load up"
           ]
         }
       },
@@ -859,11 +859,11 @@
         "answer_line": "Never feed a straight, isolated arm",
         "distractors": {
           "plausible": [
-            "Keep hands low at all times",
-            "Avoid all guard engagement"
+            "Break grips only after standing",
+            "Keep your hands low always"
           ],
           "trap": [
-            "Extend arms to test their guard"
+            "Extend an arm to test their guard"
           ]
         }
       },
@@ -874,11 +874,11 @@
         "answer_line": "Follow rotation to strong structure",
         "distractors": {
           "plausible": [
-            "Pull straight back to escape",
-            "Push down to flatten them out"
+            "Turn away from the trapped arm",
+            "Wait for their legs to tire"
           ],
           "trap": [
-            "Yank the arm backward hard"
+            "Rip the arm straight back out"
           ]
         }
       },
@@ -893,7 +893,7 @@
             "Sit down and pull guard"
           ],
           "trap": [
-            "Wait to see if they clamp"
+            "Rip your arm out while upright"
           ]
         }
       },
@@ -904,11 +904,11 @@
         "answer_line": "Tuck chin, bend elbow, tap early",
         "distractors": {
           "plausible": [
-            "Straighten arm to slip out",
-            "Push away and stand up fast"
+            "Push away and stand up fast",
+            "Relax so the arm slides free"
           ],
           "trap": [
-            "Fight the extension explosively"
+            "Rip the straight arm out hard"
           ]
         }
       }

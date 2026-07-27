@@ -342,7 +342,7 @@
             "Opponent expects the choke"
           ],
           "trap": [
-            "Choke finishes twice as fast"
+            "Skip the jaw pressure step"
           ]
         }
       },
@@ -384,10 +384,10 @@
         "distractors": {
           "plausible": [
             "Low on the trachea",
-            "High near the chin"
+            "High up by the chin"
           ],
           "trap": [
-            "Across the collarbone"
+            "Slide grip down to the chest"
           ]
         }
       },
@@ -402,7 +402,7 @@
             "Loses grip strength"
           ],
           "trap": [
-            "Speeds up the choke lock"
+            "Faster is always better here"
           ]
         }
       },
@@ -428,8 +428,8 @@
         "answer_line": "Unlock grip, roll off, monitor",
         "distractors": {
           "plausible": [
-            "Release grip, stay mounted",
-            "Ease pressure gradually"
+            "Let go but stay on top",
+            "Ease the pressure slowly"
           ],
           "trap": [
             "Twist their head to release"
@@ -576,11 +576,11 @@
         "answer_line": "Tap rapidly, early and often",
         "distractors": {
           "plausible": [
-            "Wait until grip fully locks",
-            "Single firm tap only"
+            "Wait until the grip is set",
+            "One firm signal is enough"
           ],
           "trap": [
-            "Try to verbally negotiate"
+            "Grit it out and don't submit"
           ]
         }
       },

@@ -306,14 +306,14 @@
       {
         "question": "What grip configuration provides the best integrity during the rolling motion?",
         "answer": "The gable grip (palm-to-palm with fingers pointing in opposite directions) provides the strongest structural integrity during the roll because it distributes rotational force across both hands and wrists equally. The S-grip (fingers interlocked) is an acceptable alternative but provides slightly less resistance to the centrifugal forces of the roll. Avoid the figure-four grip for this specific transition because the rotational forces can cause the grip to pop open at the wrist connection point. Whichever grip you use, keep your forearms pressed together throughout to reinforce the lock.",
-        "answer_line": "Gable grip, forearms pressed",
+        "answer_line": "Gable grip, palms pressed together",
         "distractors": {
           "plausible": [
-            "S-grip, fingers interlocked",
-            "Palm-up grip for extra reach"
+            "Wrist grab with elbows flared",
+            "Cup fingertips, keep hands loose"
           ],
           "trap": [
-            "Figure-four lock grip"
+            "Release a hand to post on the mat"
           ]
         }
       },

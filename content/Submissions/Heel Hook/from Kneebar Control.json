@@ -304,10 +304,10 @@
         "distractors": {
           "plausible": [
             "Ankle ligaments only",
-            "Menisci are primary target"
+            "Menisci are the main target"
           ],
           "trap": [
-            "Only the ACL"
+            "Knee is safe, crank to the tap"
           ]
         }
       },
@@ -318,11 +318,11 @@
         "answer_line": "Knee rotates, resistance fades",
         "distractors": {
           "plausible": [
-            "Wait for opponent to yell",
-            "Push until visible pain appears"
+            "Loud pain response from partner",
+            "Foot goes numb in the grip"
           ],
           "trap": [
-            "Ignore stiffening, finish fast"
+            "Crank harder until it pops"
           ]
         }
       },
@@ -345,14 +345,14 @@
         "question": "At what point during this submission is escape no longer viable for the defender?",
         "answer": "Escape becomes extremely difficult once the attacker has secured a locked figure-four or S-grip on the heel with elbows pinched tight, combined with strong leg entanglement preventing hip rotation. Before the grip locks, the defender can fight hands and straighten their leg. After the grip is secured and rotational pressure begins, the defender's options narrow to tapping immediately. The grip lock combined with hip control represents the true point of no return.",
         "safety_critical": true,
-        "answer_line": "Grip locked + hips controlled",
+        "answer_line": "Heel grip locked, hips pinned",
         "distractors": {
           "plausible": [
-            "Once knee starts rotating",
-            "As soon as kneebar is felt"
+            "Both hands close on the foot",
+            "Once the entanglement is entered"
           ],
           "trap": [
-            "Never, always keep fighting"
+            "Keep fighting until ligaments tear"
           ]
         }
       },
@@ -364,10 +364,10 @@
         "distractors": {
           "plausible": [
             "Switching grip too slowly",
-            "Cupping heel with one hand"
+            "Not enough kneebar pressure"
           ],
           "trap": [
-            "Squeezing before grip locks"
+            "Let hips separate to reach far"
           ]
         }
       },
@@ -390,14 +390,14 @@
         "question": "What makes the heel hook from kneebar control more dangerous than the kneebar itself?",
         "answer": "The kneebar attacks through extension, which provides clear proprioceptive feedback — the defender feels increasing stretch and pressure, allowing time to tap before damage occurs. The heel hook attacks through rotation, which damages the ACL, MCL, and LCL with minimal pain warning. Defenders often do not perceive significant pain until structural damage has already occurred. This reduced feedback window makes the heel hook substantially more dangerous, demanding extremely slow application in training and immediate release on any tap signal.",
         "safety_critical": true,
-        "answer_line": "Rotation gives little pain warning",
+        "answer_line": "Rotation damages before pain hits",
         "distractors": {
           "plausible": [
-            "Heel hooks apply more force",
-            "Kneebar is actually more dangerous"
+            "It applies far greater force",
+            "Extension is harder to defend"
           ],
           "trap": [
-            "Push through resistance to feel it"
+            "Wait for pain before tapping"
           ]
         }
       },
@@ -549,10 +549,10 @@
         "distractors": {
           "plausible": [
             "Tap only when pain begins",
-            "Wait for audible pop first"
+            "Tap when your foot goes numb"
           ],
           "trap": [
-            "Try to power through and stand"
+            "Spin away from the twisting force"
           ]
         }
       },
@@ -563,11 +563,11 @@
         "answer_line": "Straighten, rotate hips, fight grip",
         "distractors": {
           "plausible": [
-            "Pull kneebar arm off first",
-            "Tap early, don't try defending"
+            "Pull their kneebar arm off",
+            "Stay balled up and wait"
           ],
           "trap": [
-            "Push knee further into their grip"
+            "Roll against the heel hook"
           ]
         }
       },
@@ -593,11 +593,11 @@
         "answer_line": "Tuck heel, escape entanglement",
         "distractors": {
           "plausible": [
-            "Point heel outward for leverage",
-            "Grip fight kneebar hands only"
+            "Grip fight their hands only",
+            "Stiff-arm their chest for space"
           ],
           "trap": [
-            "Let heel float, focus on ACL only"
+            "Let your heel float free"
           ]
         }
       }

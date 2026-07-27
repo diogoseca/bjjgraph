@@ -316,7 +316,7 @@
             "Hip flexors and IT band"
           ],
           "trap": [
-            "Spine and lower back"
+            "Muscle strain only, safe to ride"
           ]
         }
       },
@@ -327,11 +327,11 @@
         "answer_line": "Foot rotates freely, no resistance",
         "distractors": {
           "plausible": [
-            "Opponent taps verbally only",
-            "Loud pop or crack sound"
+            "Their breathing speeds up",
+            "Their base collapses to the mat"
           ],
           "trap": [
-            "Keep cranking until they scream"
+            "Crank harder until you hear a pop"
           ]
         }
       },
@@ -354,14 +354,14 @@
         "question": "At what point during the execution sequence does escape become nearly impossible for the defender?",
         "answer": "Escape becomes extremely difficult once the attacker completes the hip switch into ashi garami with the leg triangle locked and heel secured. Before this point, the defender can straighten their leg, step back, or rotate their body to clear the entanglement. After the triangle is locked with proper knee alignment, the defender's options narrow to matching rotation or tapping immediately.",
         "safety_critical": false,
-        "answer_line": "Triangle locked in ashi garami",
+        "answer_line": "Triangle locked with heel secured",
         "distractors": {
           "plausible": [
-            "Heel grip secured alone",
-            "Hip switch begins"
+            "Once the heel alone is gripped",
+            "As the hips begin to switch"
           ],
           "trap": [
-            "After first rotation attempt"
+            "Never tap, twist out at any stage"
           ]
         }
       },
@@ -373,10 +373,10 @@
         "distractors": {
           "plausible": [
             "Grip harder with fingers",
-            "Switch to armbar instead"
+            "Pinch knees and rotate faster"
           ],
           "trap": [
-            "Force the rotation through it"
+            "Force rotation on a slipping grip"
           ]
         }
       },
@@ -388,10 +388,10 @@
         "distractors": {
           "plausible": [
             "Grip is completely different",
-            "No grip needed until locked"
+            "Same side angle as standard ashi"
           ],
           "trap": [
-            "Grab foot after triangle locks"
+            "Let elbows flare during switch"
           ]
         }
       },
@@ -399,14 +399,14 @@
         "question": "Why is it critical to release all rotational pressure before unwrapping the leg entanglement after a tap?",
         "answer": "Residual rotational force stored in the twisted position can cause additional ligament damage if released suddenly when the leg configuration changes. The knee joint may be at its structural limit at the moment of tap, and any abrupt change in entanglement geometry while torque remains loaded can tear ligaments even after the tap signal. Always release heel rotation fully first, then slowly unwrap the legs at the opponent's pace.",
         "safety_critical": true,
-        "answer_line": "Release torque before unwrapping",
+        "answer_line": "Stored torque still tears ligaments",
         "distractors": {
           "plausible": [
-            "Unwrap fast to be safe",
-            "Keep pressure until fully open"
+            "It keeps the calf from cramping",
+            "It preserves your grip for re-entry"
           ],
           "trap": [
-            "Yank leg free immediately"
+            "The tap alone makes it safe to yank"
           ]
         }
       },
@@ -417,11 +417,11 @@
         "answer_line": "Chain off X-guard sweep threat",
         "distractors": {
           "plausible": [
-            "Announce the leg lock early",
-            "Attack heel before any sweep"
+            "Attack heel before any sweep",
+            "Set up slowly from static guard"
           ],
           "trap": [
-            "Telegraph grip before entry"
+            "Dive for the leg with no control"
           ]
         }
       },
@@ -432,11 +432,11 @@
         "answer_line": "Match angle or switch attack",
         "distractors": {
           "plausible": [
-            "Rotate harder against them",
-            "Hold static and wait"
+            "Wait for them to stop rotating",
+            "Grab their belt to stop the spin"
           ],
           "trap": [
-            "Crank through their rotation"
+            "Crank through as they spin free"
           ]
         }
       },
@@ -588,11 +588,11 @@
         "answer_line": "Tap immediately, loud and clear",
         "distractors": {
           "plausible": [
-            "Wait to feel real pain",
-            "Try to power out first"
+            "Kick the free leg to break grips",
+            "Sit up and pry the ankle loose"
           ],
           "trap": [
-            "Grit teeth and ride it out"
+            "Wait until you feel real pain"
           ]
         }
       },
@@ -622,7 +622,7 @@
             "It telegraphs your escape"
           ],
           "trap": [
-            "Explode out before they lock"
+            "Rip free before the pain hits"
           ]
         }
       },
@@ -633,10 +633,10 @@
         "distractors": {
           "plausible": [
             "Push into deeper leg entry",
-            "Pull to open guard"
+            "Invert with them to match angles"
           ],
           "trap": [
-            "Stand and pull leg free fast"
+            "Turn away and roll to escape"
           ]
         }
       }

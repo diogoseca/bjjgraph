@@ -326,14 +326,14 @@
         "question": "Why must opponent's thumb be pointing upward during the armbar finish?",
         "answer": "The thumb-up (supinated) position aligns the elbow joint in the weakest anatomical configuration for resisting hyperextension. When the thumb points up, the forearm bones (radius and ulna) are rotated so the elbow's natural hinge movement is perpendicular to your hip extension force. If the thumb points down (pronated), the forearm bones can rotate partially, distributing force across multiple planes and significantly reducing submission effectiveness. The supinated position also stretches the bicep tendon, adding additional control.",
         "safety_critical": false,
-        "answer_line": "Thumb up weakens the joint",
+        "answer_line": "Thumb up weakens the elbow joint",
         "distractors": {
           "plausible": [
-            "Thumb down for extra torque",
-            "Thumb sideways to grip wrist"
+            "Thumb down adds hip torque",
+            "Thumb up frees your knee squeeze"
           ],
           "trap": [
-            "Any thumb position works fine"
+            "Thumb down and crank harder"
           ]
         }
       },
@@ -356,14 +356,14 @@
         "question": "How should you respond if opponent begins to successfully stack you during the armbar transition?",
         "answer": "If opponent achieves a successful stack during the transition, you should NOT try to force the armbar against their forward pressure. Instead, maintain wrist control and use their momentum to your advantage by pivoting underneath them, often resulting in a sweep to mounted armbar from the bottom. Alternatively, release your bottom leg and use an underhook to transition to back control as they drive forward. Fighting against a successful stack typically results in losing the position and potentially giving up top position.",
         "safety_critical": false,
-        "answer_line": "Ride stack into a sweep",
+        "answer_line": "Ride the stack into a sweep",
         "distractors": {
           "plausible": [
-            "Push away and reset guard",
-            "Switch to an ankle lock"
+            "Push their head away and hold",
+            "Cross ankles and squeeze tighter"
           ],
           "trap": [
-            "Force the arm against stack"
+            "Force the arm against the stack"
           ]
         }
       },
@@ -374,11 +374,11 @@
         "answer_line": "Hips up, only shoulders on mat",
         "distractors": {
           "plausible": [
-            "Hips flat, pull with arms",
-            "Hips up, weight on head"
+            "Hips flat, pull with both arms",
+            "Bridge onto your heels and pull"
           ],
           "trap": [
-            "Sit back and yank the arm"
+            "Sit up to pull; they stack you"
           ]
         }
       },
@@ -408,7 +408,7 @@
             "Compresses the bicep tendon"
           ],
           "trap": [
-            "Twists wrist into shoulder lock"
+            "Safe to crank, muscle only"
           ]
         }
       },
@@ -419,7 +419,7 @@
         "distractors": {
           "plausible": [
             "Opponent stops struggling",
-            "Arm turns slightly red"
+            "Arm bent past ninety degrees"
           ],
           "trap": [
             "Wait for a verbal tap only"
@@ -431,14 +431,14 @@
         "question": "Your opponent starts to posture up and turn toward you during the finish - what grip adjustment maintains control?",
         "answer": "When opponent attempts to posture and turn, immediately squeeze your knees tighter together to control their head and prevent rotation. Simultaneously, pull their wrist tighter to your chest while scooting your hips closer to their shoulder to eliminate space. If they continue turning, switch your grip so your bottom hand controls their wrist while your top hand reaches around to grip their far shoulder or control their turning direction. This grip adjustment maintains the arm angle while preventing the escape. You can also hook their near leg with your bottom foot to prevent them from completing the rotation.",
         "safety_critical": false,
-        "answer_line": "Squeeze knees, pull wrist to chest",
+        "answer_line": "Squeeze knees, wrist to chest",
         "distractors": {
           "plausible": [
-            "Release knees, chase the turn",
-            "Switch to a triangle instead"
+            "Chase the turn with your legs",
+            "Sit up and pull with both arms"
           ],
           "trap": [
-            "Let go and re-secure mount"
+            "Cross your ankles and hang on"
           ]
         }
       },
@@ -452,10 +452,10 @@
             "Only the knee clamp matters"
           ],
           "trap": [
-            "Opponent stops moving entirely"
+            "Escape is open until it hurts"
           ]
         },
-        "answer_line": "All three controls locked together"
+        "answer_line": "Hips, extension, knee clamp all set"
       },
       {
         "question": "What common finishing error results in the hitchhiker escape and how do you prevent it?",
@@ -478,11 +478,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Extend fast for a quick tap",
-            "Rush past control for speed"
+            "Sit up tall for more leverage",
+            "Pull with arms, skip the hips"
           ],
           "trap": [
-            "Jerk hard for a fast finish"
+            "Crank explosively before control"
           ]
         },
         "answer_line": "Secure control before extending"
@@ -631,14 +631,14 @@
         "question": "Why should you turn toward the trapped arm rather than away from it when escaping the armbar?",
         "answer": "Turning toward the trapped arm creates two critical defensive advantages: first, it generates stacking pressure that collapses the attacker's hip extension leverage, reducing the hyperextension force on your elbow; second, it initiates the hitchhiker escape by rotating your elbow across the attacker's centerline, which is the primary extraction path. Turning away from the trapped arm exposes your back to the attacker, who can easily transition to back control with hooks - a position that is arguably worse than defending the armbar. The directional rule is absolute: always escape toward the thumb of the trapped hand.",
         "safety_critical": false,
-        "answer_line": "Turn toward the trapped arm",
+        "answer_line": "Stacks them, frees your elbow",
         "distractors": {
           "plausible": [
-            "Pull the arm straight back",
-            "Stay flat and brace elbow"
+            "Relieves knee pressure on head",
+            "Lets you slip the wrist out"
           ],
           "trap": [
-            "Turn away, exposing the back"
+            "Turn away and feed them your back"
           ]
         }
       },
@@ -649,11 +649,11 @@
         "answer_line": "Full extension, no space left",
         "distractors": {
           "plausible": [
-            "Only after hearing a pop",
-            "Wait until it truly hurts"
+            "As soon as they isolate the arm",
+            "When you can no longer bridge"
           ],
           "trap": [
-            "Try to power through it"
+            "Rip the arm out once locked"
           ]
         }
       },
@@ -664,11 +664,11 @@
         "answer_line": "Lock hands, turn and stack them",
         "distractors": {
           "plausible": [
-            "Unclasp and pull the arm free",
-            "Turn away and bridge hard"
+            "Bridge away and flatten out",
+            "Kick legs to build momentum"
           ],
           "trap": [
-            "Let go of hands to create space"
+            "Unclasp to pull the arm free"
           ]
         }
       },

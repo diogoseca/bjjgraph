@@ -600,8 +600,8 @@
         "answer_line": "Sprawl back, or snap to headlock",
         "distractors": {
           "plausible": [
-            "Pull them forward off balance",
-            "Drop straight to your back"
+            "Backpedal to stay upright",
+            "Hand-fight for wrist control"
           ],
           "trap": [
             "Stand tall and absorb the drive"
@@ -1000,11 +1000,11 @@
       "answer_line": "Bridges takedowns and back attacks",
       "distractors": {
         "plausible": [
-          "Only leads to ground back control",
-          "Comes only from a failed takedown"
+          "Ends only in a mat return",
+          "Purely a guard-passing position"
         ],
         "trap": [
-          "Always ends in a guard pull"
+          "A safe spot to rest and stall"
         ]
       }
     }

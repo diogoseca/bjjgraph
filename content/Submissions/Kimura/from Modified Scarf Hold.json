@@ -305,14 +305,14 @@
         "question": "What anatomical structures does the Kimura from Modified Scarf Hold primarily attack?",
         "answer": "The kimura primarily attacks the shoulder joint through forced internal rotation, targeting the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) and the shoulder capsule. Secondary stress is placed on the elbow joint through the combined rotational and extension forces transmitted through the forearm lever. The glenohumeral ligaments and labrum are at greatest risk of injury when the submission is applied past the shoulder's natural range of internal rotation.",
         "safety_critical": true,
-        "answer_line": "Shoulder joint (rotator cuff)",
+        "answer_line": "Shoulder capsule and rotator cuff",
         "distractors": {
           "plausible": [
-            "Elbow joint only",
-            "Wrist and forearm"
+            "Elbow joint alone",
+            "Wrist and forearm tendons"
           ],
           "trap": [
-            "Neck and spine"
+            "Neck—crank it when arm stalls"
           ]
         }
       },
@@ -323,11 +323,11 @@
         "answer_line": "Knee wedge or switch to americana",
         "distractors": {
           "plausible": [
-            "Pull harder on the wrist",
-            "Wait for them to release"
+            "Pull harder on the trapped wrist",
+            "Squeeze tighter and hold the stall"
           ],
           "trap": [
-            "Let go and reset position"
+            "Release the pin, pry with both hands"
           ]
         }
       },
@@ -338,11 +338,11 @@
         "answer_line": "Closed-chain lever, both arms",
         "distractors": {
           "plausible": [
-            "Single wrist grip is enough",
-            "Grip your own bicep instead"
+            "One hand on wrist is enough",
+            "Clamp your own bicep instead"
           ],
           "trap": [
-            "Grab their far arm too"
+            "Let go of the wrist to re-grip"
           ]
         }
       },
@@ -365,14 +365,14 @@
         "question": "What are the key indicators that the shoulder joint is approaching its breaking point during the kimura finish?",
         "answer": "The primary indicators include: the opponent's shoulder lifting off the mat as the rotation exceeds comfortable range, visible tension in the deltoid and trapezius muscles as they involuntarily resist, the opponent's breathing becoming rapid or distressed, verbal sounds indicating increasing pain, and a sudden increase in resistance followed by a give as the rotator cuff muscles begin to fail. At this stage, you must apply pressure extremely slowly because the margin between discomfort and injury narrows dramatically. Any explosive movement past this point risks immediate structural damage.",
         "safety_critical": true,
-        "answer_line": "Shoulder lifts + verbal distress",
+        "answer_line": "Shoulder lifts, distress sounds",
         "distractors": {
           "plausible": [
-            "Only a verbal tap counts",
-            "Arm going limp means finished"
+            "Their hand slips off your wrist",
+            "Only a loud verbal tap counts"
           ],
           "trap": [
-            "Crank harder once resistance dips"
+            "Crank hard when they give way"
           ]
         }
       },
@@ -384,10 +384,10 @@
         "distractors": {
           "plausible": [
             "Pull straight up with arms only",
-            "Switch sides and restart grip"
+            "Switch sides and restart the grip"
           ],
           "trap": [
-            "Yank wrist explosively"
+            "Sit up off their chest to pull"
           ]
         }
       },
@@ -399,10 +399,10 @@
         "distractors": {
           "plausible": [
             "Only a clear verbal tap",
-            "Once you feel resistance stop"
+            "Only when the ref waves it off"
           ],
           "trap": [
-            "Finish through hesitation"
+            "Hold two seconds past the tap"
           ]
         }
       },
@@ -428,11 +428,11 @@
         "answer_line": "Pin chest, rotate hips as unit",
         "distractors": {
           "plausible": [
-            "Crank hard with arms and wrists",
-            "Lean back and pull with hands"
+            "Crank with arm strength alone",
+            "Widen base and hold still"
           ],
           "trap": [
-            "Let grip drift away from chest"
+            "Sit up off them to torque harder"
           ]
         }
       },
@@ -443,11 +443,11 @@
         "answer_line": "Steady pressure, chain attacks",
         "distractors": {
           "plausible": [
-            "Crank explosively to force tap",
-            "Abandon grip for a new attack"
+            "Stall in the grip and wait",
+            "Drop the grip, hunt a choke"
           ],
           "trap": [
-            "Yank harder for a fast finish"
+            "Rip it explosively for the snap"
           ]
         }
       }
@@ -577,14 +577,14 @@
         "question": "What are the earliest recognition cues that a kimura is being initiated from Modified Scarf Hold?",
         "answer": "The earliest cue is the opponent releasing their head control or arm wrap to free their hands for the figure-four grip. You will feel a brief reduction in head and chest pressure as they reposition. The next cue is their arm sliding between your upper arm and your ribs—this tactile sensation is unmistakable and should trigger immediate defensive action. You may also notice the opponent shifting their weight slightly to free both hands simultaneously.",
         "safety_critical": false,
-        "answer_line": "Reduced pressure, arm sliding in",
+        "answer_line": "Arm slides between your arm and ribs",
         "distractors": {
           "plausible": [
-            "Sudden tight cross-face pressure",
-            "Opponent grabbing your collar"
+            "Chest pressure spikes as they grip",
+            "Wait to feel the figure-four lock"
           ],
           "trap": [
-            "Ignore it, they're just resetting"
+            "Turn away to break the head control"
           ]
         }
       },
@@ -592,14 +592,14 @@
         "question": "At what point should you tap to a kimura rather than continuing to defend?",
         "answer": "You should tap immediately when you feel sharp pain in the shoulder joint, when the rotation has clearly exceeded your comfortable range of motion, or when you can feel your rotator cuff muscles straining under the rotational load. Do not wait for maximum pain—the shoulder joint can suffer catastrophic damage with minimal warning once the structural limits are reached. In training, tap early and often. There is no submission defense worth risking months of shoulder rehabilitation and potential surgery.",
         "safety_critical": true,
-        "answer_line": "Sharp pain or exceeded ROM",
+        "answer_line": "Sharp pain or range limit hit",
         "distractors": {
           "plausible": [
-            "Only when you can't breathe",
-            "Wait for an audible pop"
+            "When the pain peaks at maximum",
+            "When your elbow starts aching"
           ],
           "trap": [
-            "Push through to escape first"
+            "Wait for a pop, then roll out"
           ]
         }
       },
@@ -607,14 +607,14 @@
         "question": "Your opponent has the kimura grip locked and is beginning to walk your wrist behind your back—what escape options remain?",
         "answer": "At this late stage, your best option is to roll your entire body toward the attacker, getting chest-to-chest to neutralize the rotational angle they need. This may allow you to recover guard or at minimum buy time. Alternatively, drive your elbow back toward your ribs with explosive force using your entire body, not just arm strength. If neither option works and you feel significant shoulder pressure building, tap immediately rather than risk injury fighting a deeply established submission.",
         "safety_critical": true,
-        "answer_line": "Roll chest-to-chest toward attacker",
+        "answer_line": "Roll chest-to-chest into them",
         "distractors": {
           "plausible": [
-            "Roll away from the attacker",
-            "Push off with legs and grip"
+            "Roll away to unwind the arm",
+            "Grab your own belt and hold"
           ],
           "trap": [
-            "Resist with straight-arm strength"
+            "Explode with arm strength alone"
           ]
         }
       },
@@ -622,14 +622,14 @@
         "question": "Why is keeping your elbow connected to your ribs the single most important defensive principle against the kimura?",
         "answer": "The elbow-to-rib connection is the primary structural defense because the kimura requires the attacker to rotate your forearm behind your back using the elbow as a lever. When your elbow is pinned to your ribs, your entire torso mass acts as a brake against the rotation—the attacker must move your whole body rather than just your arm. Once the elbow separates from the ribs, the attacker only needs to overcome the resistance of your shoulder muscles, which is dramatically less force. The elbow connection is the difference between structural defense and muscular defense.",
         "safety_critical": false,
-        "answer_line": "Torso becomes the brake vs arm",
+        "answer_line": "Your torso brakes the rotation",
         "distractors": {
           "plausible": [
-            "Grip strength defense",
-            "Shoulder flexibility defense"
+            "It relies on raw grip strength",
+            "It relies on shoulder flexibility"
           ],
           "trap": [
-            "Push elbow out to create space"
+            "Peel the elbow off to bridge out"
           ]
         }
       }

@@ -309,7 +309,7 @@
             "Near-side carotid only"
           ],
           "trap": [
-            "Cervical spine leverage"
+            "Cervical spine crank"
           ]
         }
       },
@@ -332,14 +332,14 @@
         "question": "What physical signs indicate your opponent is close to tapping to the arm-in guillotine?",
         "answer": "Signs include rapid facial color change (reddening then potential purple discoloration), increased desperation in escape attempts, weakening of defensive hand fighting, audible breathing changes or gurgling sounds, and involuntary body tension followed by sudden relaxation. The most critical sign is the opponent going limp, which indicates loss of consciousness rather than a tap. Release immediately if you observe any sudden change in muscle tone or responsiveness.",
         "safety_critical": true,
-        "answer_line": "Going limp means unconscious",
+        "answer_line": "Face reddening, frantic escapes",
         "distractors": {
           "plausible": [
-            "Fast hand tapping only",
-            "Loud verbal tap only"
+            "Defensive grips tighten as they fade",
+            "Rising body tension is the last cue"
           ],
           "trap": [
-            "Keep squeezing till they yell"
+            "Hips walking away means near tap"
           ]
         }
       },
@@ -350,13 +350,13 @@
         "distractors": {
           "plausible": [
             "Broken posture alone is enough",
-            "Deep grip, no hip pressure"
+            "Deep grip without hip pressure"
           ],
           "trap": [
-            "Attempt finish from open guard"
+            "Jump guard while they stand"
           ]
         },
-        "answer_line": "Broken posture + trapped arm + grip"
+        "answer_line": "Broken posture, arm trapped, grip"
       },
       {
         "question": "Your opponent begins to posture up with their free arm during your arm-in guillotine attempt—what adjustment prevents escape?",
@@ -381,10 +381,10 @@
         "distractors": {
           "plausible": [
             "Squeezing too hard too fast",
-            "Wrong hand clasp position"
+            "Finishing too slowly"
           ],
           "trap": [
-            "Force the finish from shallow grip"
+            "Hang on while they pass to mount"
           ]
         }
       },
@@ -395,11 +395,11 @@
         "answer_line": "Gaps closed, angle set, hips in",
         "distractors": {
           "plausible": [
-            "Right after initial grip",
-            "Before the hand clasp locks"
+            "Right after the first grip",
+            "Before the hands clasp"
           ],
           "trap": [
-            "When defender still has both arms"
+            "Wait until fully locked to defend"
           ]
         }
       },
@@ -410,11 +410,11 @@
         "answer_line": "Progressive pressure, watch for taps",
         "distractors": {
           "plausible": [
-            "Apply full power immediately",
-            "Only verbal taps count"
+            "Trust partner to tap in time",
+            "Only stop on a clear hand tap"
           ],
           "trap": [
-            "Hold it after the tap to confirm"
+            "Pin the free arm and squeeze hard"
           ]
         }
       },
@@ -425,11 +425,11 @@
         "answer_line": "Bait the arm in during sprawl",
         "distractors": {
           "plausible": [
-            "Only works off a guard pull",
-            "Force it on every attempt"
+            "Wait for a clean neck-only bite",
+            "Attack only after a guard pull"
           ],
           "trap": [
-            "Abandon setup if arm swims in"
+            "Jump guard to force the finish"
           ]
         }
       },
@@ -440,11 +440,11 @@
         "answer_line": "Squeeze elbow tight, close the gap",
         "distractors": {
           "plausible": [
-            "Let it go, restart from guard",
-            "Chase the arm, ignore the grip"
+            "Push their head away for space",
+            "Switch straight to a d'arce"
           ],
           "trap": [
-            "Release grip to regrab deeper"
+            "Roll to your back to finish it"
           ]
         }
       }
@@ -578,14 +578,14 @@
         "question": "When should you tap to the arm-in guillotine to prevent injury?",
         "answer": "Tap immediately when you feel bilateral compression on both carotid arteries with no viable escape path available. Warning signs requiring immediate tap include darkening vision, ringing ears, a feeling of lightheadedness, or the sensation that the choke is fully locked with no remaining space to relieve pressure. In training, there is no benefit to waiting until the last second—the arm-in guillotine can produce unconsciousness in under 5 seconds. Tap early and learn from the position rather than risking a blackout.",
         "safety_critical": true,
-        "answer_line": "Bilateral pressure, no escape path",
+        "answer_line": "Tap once locked with no escape",
         "distractors": {
           "plausible": [
-            "Wait until vision fully goes",
-            "Only tap if the arm goes numb"
+            "Peel the grip first, then decide",
+            "Wait until the neck actually hurts"
           ],
           "trap": [
-            "Fight through, it will pass"
+            "Jump to guard and ride it out"
           ]
         }
       },
@@ -597,10 +597,10 @@
         "distractors": {
           "plausible": [
             "Posture up first, then defend",
-            "Grab their far leg first"
+            "Reach for their far leg"
           ],
           "trap": [
-            "Push straight back, bare neck"
+            "Pull straight back to rip free"
           ]
         }
       },
@@ -611,11 +611,11 @@
         "answer_line": "Tuck chin, turn and post to escape",
         "distractors": {
           "plausible": [
-            "Pull straight back for space",
-            "Grip fight with the trapped arm"
+            "Grip fight with the trapped arm",
+            "Turn away from the trapped arm"
           ],
           "trap": [
-            "Stay still and wait it out"
+            "Pull straight back and rip free"
           ]
         }
       },

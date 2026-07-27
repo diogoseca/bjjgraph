@@ -379,14 +379,14 @@
       {
         "question": "Your opponent sprawls defensively as you begin your entry rotation. What is the best immediate response?",
         "answer": "If they sprawl early in your entry, you have several options depending on their sprawl depth. A shallow sprawl allows you to continue the rotation with increased downward pulling pressure. A deeper sprawl should trigger an immediate transition to single leg attack on their forward leg, or a snap down to front headlock position using the grip control you already have. The key is recognizing the sprawl early and switching attacks before losing grip position or becoming stuck in a disadvantaged position.",
-        "answer_line": "Deep sprawl: snap to single leg",
+        "answer_line": "Deep sprawl: attack forward leg",
         "distractors": {
           "plausible": [
-            "Always finish through sprawl",
-            "Release grips and reset"
+            "Release grips and back out",
+            "Pull guard to recover"
           ],
           "trap": [
-            "Force the throw through sprawl"
+            "Force the throw anyway"
           ]
         }
       },

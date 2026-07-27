@@ -302,10 +302,10 @@
         "distractors": {
           "plausible": [
             "As soon as grip is secured",
-            "Only at max shoulder pressure"
+            "Once you're fully flattened"
           ],
           "trap": [
-            "Wait until shoulder maxes out"
+            "Wait for the shoulder to give"
           ]
         },
         "answer_line": "After defenses fail, before max"
@@ -372,8 +372,8 @@
         "answer_line": "Try grip fight, hips, frames first",
         "distractors": {
           "plausible": [
-            "Roll first to save time",
-            "Use it as the primary defense"
+            "Muscle the trapped arm straight",
+            "Yank your wrist straight out"
           ],
           "trap": [
             "Skip straight to the roll"
@@ -542,7 +542,7 @@
         "answer_line": "Follow roll, take their back",
         "distractors": {
           "plausible": [
-            "Resist to save the grip fully",
+            "Stall flat and wait it out",
             "Break contact and reset guard"
           ],
           "trap": [

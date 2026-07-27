@@ -275,14 +275,14 @@
       {
         "question": "What conditions must exist before attempting the Trap and Roll from S Mount?",
         "answer": "Your trapped arm must be protected with a bent elbow and collar grip still intact. Your free arm needs enough mobility to reach the opponent's controlling wrist. Your feet must be plantable on the mat with knees bent for bridging power. The opponent's far leg must be accessible for hooking. If your arm is already significantly extended or the opponent has secured full armbar control with hips locked, the escape window has passed and you should tap.",
-        "answer_line": "Elbow bent, collar grip intact",
+        "answer_line": "Trapped arm safe, collar grip held",
         "distractors": {
           "plausible": [
-            "Only feet need to be planted",
-            "Free arm just needs mobility"
+            "Opponent must be posturing up high",
+            "Both your legs must be free"
           ],
           "trap": [
-            "Attempt even with arm extended"
+            "Bridge after the elbow straightens"
           ]
         }
       },

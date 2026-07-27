@@ -543,11 +543,11 @@
         "answer_line": "Tap at tunnel vision or frame loss",
         "distractors": {
           "plausible": [
-            "Push through mild discomfort only",
-            "Wait for verbal warning to tap"
+            "Tap only when a joint hurts",
+            "Wait for coach to stop the roll"
           ],
           "trap": [
-            "Fight past darkening vision"
+            "Ride it out until you go limp"
           ]
         }
       }

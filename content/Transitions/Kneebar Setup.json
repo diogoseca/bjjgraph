@@ -335,11 +335,11 @@
         "answer_line": "Follow the roll, keep control",
         "distractors": {
           "plausible": [
-            "Release grip to avoid injury",
-            "Stay still and reset base"
+            "Fight to stay flat, resist it",
+            "Post a hand and hold your base"
           ],
           "trap": [
-            "Let go immediately every time"
+            "Release the legs and stand up"
           ]
         }
       },
@@ -510,8 +510,8 @@
         "answer_line": "Flexion blocks the hyperextension",
         "distractors": {
           "plausible": [
-            "Straightening the leg helps escape",
-            "Rotating the foot stops pressure"
+            "It keeps your heel hidden away",
+            "It jams their hip into the mat"
           ],
           "trap": [
             "Kick the leg straight to escape"

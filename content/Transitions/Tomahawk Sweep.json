@@ -251,10 +251,10 @@
         "distractors": {
           "plausible": [
             "Bigger elevation, same angle",
-            "Faster hip escape, same hooks"
+            "Same lift with a deeper hook"
           ],
           "trap": [
-            "Pure vertical lift, more power"
+            "Drop hooks and lift with arms"
           ]
         },
         "answer_line": "Diagonal chop, not vertical lift"
@@ -310,7 +310,7 @@
             "Opposite-side sleeve grip"
           ],
           "trap": [
-            "Grip the far pant leg"
+            "Grab the belt, release hooks"
           ]
         },
         "answer_line": "Same-side sleeve grip, top hook"
@@ -320,11 +320,11 @@
         "answer": "Release the hooks only when the opponent's backward fall is irreversible, once their shoulders pass the point where posting could recover their base. Releasing too early allows the opponent to regain stability mid-sweep, while maintaining the hooks too long prevents a smooth transition to top position and may roll you past the optimal consolidation point. The key indicator is the opponent's commitment to the fall as their upper body passes perpendicular to the mat.",
         "distractors": {
           "plausible": [
-            "As soon as opponent tilts",
-            "Right after hip rotation peaks"
+            "As soon as they start to tilt",
+            "Once hip rotation peaks"
           ],
           "trap": [
-            "Release early to chase mount"
+            "Release hooks and turn away"
           ]
         },
         "answer_line": "When the fall is irreversible"
@@ -335,11 +335,11 @@
         "answer_line": "Enter Ashi Garami for leg attack",
         "distractors": {
           "plausible": [
-            "Drive harder into the sprawl",
-            "Reset guard and re-angle hips"
+            "Bump them forward and stand",
+            "Re-grip sleeve and chop again"
           ],
           "trap": [
-            "Force the chop through sprawl"
+            "Sit up under the sprawl pressure"
           ]
         }
       },
@@ -349,10 +349,10 @@
         "distractors": {
           "plausible": [
             "Release both hooks, re-guard",
-            "Switch to top hook Ashi entry"
+            "Switch to a top-hook entry"
           ],
           "trap": [
-            "Abandon hooks, chase the pass"
+            "Drop hooks and turn to knees"
           ]
         },
         "answer_line": "Keep bottom hook, enter Ashi"
@@ -362,11 +362,11 @@
         "answer": "Attempt the Tomahawk only with an upright or forward-leaning opponent, deep hooks with the bottom hook past the knee, a posting-denying grip, and free hips. The opponent must not already be pressuring down, a reliable upper body grip must be secured to prevent posting, and your hips must have enough freedom of movement to create the 30-45 degree angle. If any of these conditions are missing, alternatives like technical standup, elevation sweeps, or direct Ashi Garami entries offer higher-percentage options.",
         "distractors": {
           "plausible": [
-            "Any X-Guard entry works",
-            "Opponent pressuring down is fine"
+            "Any strong grip will do",
+            "Best when they lean back"
           ],
           "trap": [
-            "Attempt with shallow hooks fast"
+            "Force it while being flattened"
           ]
         },
         "answer_line": "Upright opponent, deep hooks, grip"
@@ -500,7 +500,7 @@
             "Grip tightens on the sleeve"
           ],
           "trap": [
-            "Hips stay squared to opponent"
+            "Ignore it, brace for a lift"
           ]
         }
       },
@@ -510,8 +510,8 @@
         "answer_line": "Removes the chopping/rotation",
         "distractors": {
           "plausible": [
-            "Bottom hook is more dangerous",
-            "It frees your posting arm"
+            "Top hook controls your sleeve",
+            "It is the easiest hook to reach"
           ],
           "trap": [
             "Strip the bottom hook first"
@@ -524,11 +524,11 @@
         "answer_line": "Extends legs into Ashi range",
         "distractors": {
           "plausible": [
-            "Loosens grips on your collar",
-            "Slows opponent's hip rotation"
+            "It gives up your sleeve grip",
+            "Your hips drift too far forward"
           ],
           "trap": [
-            "Sprawl hard, then stand up"
+            "Sprawl deeper and sit back down"
           ]
         }
       },
@@ -538,8 +538,8 @@
         "answer_line": "Low stance, forward pressure",
         "distractors": {
           "plausible": [
-            "High base, quick footwork",
-            "Wide stance, loose grips"
+            "High posture, heavy hands",
+            "Narrow stance, fast steps"
           ],
           "trap": [
             "Sit back, let hips rotate free"

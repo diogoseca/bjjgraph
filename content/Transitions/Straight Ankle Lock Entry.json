@@ -247,7 +247,7 @@
             "When their weight is balanced"
           ],
           "trap": [
-            "As they retreat away from you"
+            "Dive at the foot as they retreat"
           ]
         },
         "answer_line": "Weight commits to lead foot"
@@ -257,14 +257,14 @@
         "answer": "You need hips elevated to chest height, at least one leg contacting the opponent's lower body, and clear sight of their weighted foot. Active core engagement keeps the elevated position stable, and the leg contact prevents disengagement. Without hip elevation you lack the lateral reach for leg framing, without leg contact the opponent can simply walk away, and without target identification you risk attacking the wrong foot.",
         "distractors": {
           "plausible": [
-            "Hips elevated, grip established",
-            "Leg contact only, no elevation"
+            "Hips flat, strong sleeve grip",
+            "Leg contact with hips down"
           ],
           "trap": [
-            "Elevate hips, ignore foot target"
+            "Reach for the foot with hips flat"
           ]
         },
-        "answer_line": "Hips high, leg contact, sight"
+        "answer_line": "Hips high, leg contact, target seen"
       },
       {
         "question": "Why must the outside leg cross the opponent's hip line before the inside leg threads behind the knee?",
@@ -286,11 +286,11 @@
         "answer_line": "Switch to kneebar, thread higher",
         "distractors": {
           "plausible": [
-            "Re-grip the ankle immediately",
-            "Abandon entry, reset guard"
+            "Re-grip the same ankle again",
+            "Swim your legs to the far side"
           ],
           "trap": [
-            "Force the ankle lock through"
+            "Crank the ankle through defense"
           ]
         }
       },
@@ -300,10 +300,10 @@
         "distractors": {
           "plausible": [
             "Both hands cup the heel",
-            "Grip forearm across shin"
+            "Forearm blade across the shin"
           ],
           "trap": [
-            "Grip over the toes with both hands"
+            "Open your knees to adjust grip"
           ]
         },
         "answer_line": "Heel cupped, toes wrapped, chest"
@@ -313,14 +313,14 @@
         "answer": "Abort the entry and use their forward pressure to Granby roll back to guard, or redirect their momentum into an X-Guard entry. For the X-Guard option, hook both feet into their hips as they drive. The stack pass negates your inverted base by folding your body, eliminating the hip elevation necessary for the entry, and trying to fight through a committed stack from grasshopper typically results in being flattened and passed.",
         "distractors": {
           "plausible": [
-            "Fight through the stack pressure",
-            "Hold hip elevation, resist stack"
+            "Frame on hips and shrimp out",
+            "Grab a collar and pull down"
           ],
           "trap": [
-            "Force the entry through the stack"
+            "Stay inverted and force the entry"
           ]
         },
-        "answer_line": "Granby roll or redirect to X-Guard"
+        "answer_line": "Granby roll or hit X-Guard"
       },
       {
         "question": "What is the critical hip adjustment after establishing the figure-four and ankle grip?",
@@ -328,25 +328,25 @@
         "answer_line": "Hip escape perpendicular to leg",
         "distractors": {
           "plausible": [
-            "Stay flat, square to opponent",
-            "Pull knee tighter to chest"
+            "Stay flat and square to them",
+            "Bridge straight up into them"
           ],
           "trap": [
-            "Arch back, ignore hip angle"
+            "Roll toward their trapped leg"
           ]
         }
       },
       {
         "question": "The opponent sits down to their knees when they feel your legs beginning to frame - how do you capitalize?",
         "answer": "Their level change directly opens the path to Inside Ashi-Garami. As they kneel, their legs become accessible at a lower height where your inverted legs can thread deeper around their thigh. Abandon the straight ankle lock entry and transition to a standard seated leg entanglement, using the grasshopper hip elevation to shoot your legs into an Inside Ashi-Garami configuration with superior hip control over their trapped leg.",
-        "answer_line": "Shoot legs to Inside Ashi-Garami",
+        "answer_line": "Thread legs to Inside Ashi-Garami",
         "distractors": {
           "plausible": [
-            "Continue original ankle entry",
-            "Chase the foot standing up"
+            "Keep chasing the same ankle",
+            "Stand up and chase the foot"
           ],
           "trap": [
-            "Release legs, stand to pass"
+            "Uncross legs and flatten out"
           ]
         }
       },
@@ -357,10 +357,10 @@
         "distractors": {
           "plausible": [
             "Rear foot is easier to trap",
-            "Both feet equally vulnerable"
+            "Both feet are equally exposed"
           ],
           "trap": [
-            "Target the rear foot instead"
+            "Dive at the rear foot, lose guard"
           ]
         }
       },
@@ -497,11 +497,11 @@
         "answer_line": "Outside leg crosses your hip line",
         "distractors": {
           "plausible": [
-            "When ankle grip is secured",
-            "When figure-four closes"
+            "Once their inside leg threads",
+            "Once the ankle grip is secured"
           ],
           "trap": [
-            "Wait until hips fully elevate"
+            "Wait for the figure-four to lock"
           ]
         }
       },
@@ -511,22 +511,22 @@
         "answer_line": "Kills hip elevation; not if gripped",
         "distractors": {
           "plausible": [
-            "Always safe once ankle threatened",
-            "Works only against high guard"
+            "It breaks their ankle grip first",
+            "Avoid it against taller players"
           ],
           "trap": [
-            "Stack hard even with ankle gripped"
+            "Stack hard while they hold the foot"
           ]
         }
       },
       {
         "question": "Your ankle grip has been captured but the figure-four is not yet closed - what is your defensive priority and why?",
         "answer": "Your priority is simultaneously stripping the ankle grip and preventing the figure-four from closing, using a two-on-one grip break on their near hand while your free leg pushes down on their bottom leg. The grip alone cannot hold you if the figure-four fails to close, and the figure-four alone cannot hold you if the grip is stripped. But both together create complete control. You must address both threats at once because the attacker is working to close the figure-four in the same moment you are stripping the grip.",
-        "answer_line": "Strip grip, block figure-four both",
+        "answer_line": "Break grip and stop the lock closing",
         "distractors": {
           "plausible": [
-            "Focus only on stripping the grip",
-            "Focus only on blocking figure-four"
+            "Handle the closing lock first",
+            "Sit up and grab their collar"
           ],
           "trap": [
             "Pull knee to chest and wait"
@@ -536,14 +536,14 @@
       {
         "question": "How does the kneebar chain attack affect your defensive strategy against the ankle lock entry?",
         "answer": "The kneebar chain means that pulling your knee to your chest to defend the ankle can expose your knee to a kneebar attack if the attacker's legs migrate upward from ankle to knee level. This creates a dilemma where ankle defense opens knee vulnerability. Your best response is to defend early enough that the attacker's legs never establish the initial frame, or to strip the grip and extract entirely before the attacker can redirect to the kneebar. If you are mid-defense and feel their legs climbing higher, prioritize straightening your leg momentarily to deny the kneebar angle, then resume ankle extraction.",
-        "answer_line": "Straighten leg, deny kneebar angle",
+        "answer_line": "Strip the grip and extract early",
         "distractors": {
           "plausible": [
-            "Pull knee to chest to defend ankle",
-            "Ignore knee, focus on ankle only"
+            "Curl toes and ride it out",
+            "Tuck knee tight to your chest"
           ],
           "trap": [
-            "Curl toes and hold position"
+            "Stall in the entanglement and wait"
           ]
         }
       },

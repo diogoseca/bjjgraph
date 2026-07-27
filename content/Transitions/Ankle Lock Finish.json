@@ -216,14 +216,14 @@
       {
         "question": "What is the primary goal of the Ankle Lock Finish from Ushiro Ashi-Garami?",
         "answer": "The primary goal is to capitalize on the opponent's compromised defensive position during their inversion escape attempt by securing an ankle lock submission. The reversed hip orientation creates unique finishing opportunities where the opponent's attention is divided between escaping and defending, making it an optimal moment to apply breaking pressure.",
-        "answer_line": "Finish while they're distracted",
+        "answer_line": "Finish during their inversion escape",
         "distractors": {
           "plausible": [
-            "Pass to side control instead",
-            "Wait for full guard pass"
+            "Stall until they settle down",
+            "Switch to a toe hold instead"
           ],
           "trap": [
-            "Release grips to reset position"
+            "Open the entanglement to adjust"
           ]
         }
       },
@@ -236,7 +236,7 @@
             "Single leg X-guard grip"
           ],
           "trap": [
-            "Cross-face from side control"
+            "Drop the leg wrap to grab heel"
           ]
         },
         "answer_line": "Figure-four with heel exposed"
@@ -251,21 +251,21 @@
             "Forearm on shin, grip ankle bone"
           ],
           "trap": [
-            "Grip the pants, forget forearm"
+            "Release heel to grab their pants"
           ]
         }
       },
       {
         "question": "Your opponent defends by strongly flexing their foot and pointing their toes - how do you adapt?",
         "answer": "When the opponent employs boot defense, switch to an Estima Lock grip where your hands clasp on top of their foot rather than the heel. Alternatively, if rules permit, transition to a heel hook attack since their flexed foot creates heel exposure from a different angle. The key is recognizing that continued pressure on the same configuration will be ineffective.",
-        "answer_line": "Switch to Estima lock grip",
+        "answer_line": "Switch to an Estima lock grip",
         "distractors": {
           "plausible": [
-            "Crank harder on same grip",
-            "Switch grip to kneebar"
+            "Crank harder on the same grip",
+            "Switch to a kneebar attack"
           ],
           "trap": [
-            "Release grip, restart entry"
+            "Release the wrap to fix grip"
           ]
         }
       },
@@ -274,11 +274,11 @@
         "answer": "The break comes from arching your back and extending your hips while pulling the heel tight to your chest — not from arm strength alone. Coordinate the full body: arch strongly as you pull the heel to your chest, extend your hips upward to drive downward pressure into the ankle, and dorsiflex the joint by driving their toes toward their shin. Hip extension and back arch working together produce the finishing force.",
         "distractors": {
           "plausible": [
-            "Pull with arms, ignore hips",
-            "Twist ankle for the finish"
+            "Squeeze knees and hold still",
+            "Twist the foot outward hard"
           ],
           "trap": [
-            "Yank straight up with arms only"
+            "Drop leg control to muscle it"
           ]
         },
         "answer_line": "Arch back, extend hips, pull heel"
@@ -289,11 +289,11 @@
         "answer_line": "Grip while hands are busy escaping",
         "distractors": {
           "plausible": [
-            "Grip once they stop moving",
-            "Grip right at initial contact"
+            "Grip on first contact",
+            "Grip after hand fighting starts"
           ],
           "trap": [
-            "Wait for a clean, static position"
+            "Pause to reset your legs first"
           ]
         }
       },
@@ -303,25 +303,25 @@
         "answer_line": "Follow escape, keep ankle control",
         "distractors": {
           "plausible": [
-            "Release grip and reset entry",
-            "Force the same finish again"
+            "Crank the same finish harder",
+            "Sit up to re-pummel your grips"
           ],
           "trap": [
-            "Let go and chase a new limb"
+            "Let go and scramble to your feet"
           ]
         }
       },
       {
         "question": "How do you prevent the opponent from rotating their hip to relieve pressure?",
         "answer": "Maintain tight leg control with your figure-four configuration around their trapped leg. Your outside leg should press their knee line preventing outward rotation while your inside leg stays underneath maintaining the entanglement. If they begin rotating, follow the movement rather than fighting it, adjusting your angle while keeping leg control intact.",
-        "answer_line": "Figure-four presses knee line",
+        "answer_line": "Figure-four presses the knee line",
         "distractors": {
           "plausible": [
-            "Cross-face to stop rotation",
+            "Pull the heel harder to stop it",
             "Grapevine both legs tightly"
           ],
           "trap": [
-            "Fight rotation head-on, hold static"
+            "Post up and let the wrap open"
           ]
         }
       },
@@ -330,8 +330,8 @@
         "answer": "Transition when your grip is stripped, their hip rotation compromises your leg control, or about five seconds pass without an imminent finish. Specifically: the opponent has stripped your grip and their hands now defend the ankle, their hip rotation has progressed far enough to compromise your leg control, more than 5 seconds have passed without the submission being imminent, or their defensive position exposes a higher-percentage attack like the heel hook.",
         "distractors": {
           "plausible": [
-            "Opponent taps once, then stop",
-            "After first hip wiggle, abandon"
+            "Abandon at first hip wiggle",
+            "Only once they fully extract"
           ],
           "trap": [
             "Keep cranking past resistance"
@@ -342,14 +342,14 @@
       {
         "question": "Why is the Ankle Lock Finish valuable even in rulesets where heel hooks are available?",
         "answer": "The Ankle Lock Finish provides a legal submission option across all rulesets including those restricting heel hooks. It also works when the opponent's hand fighting has successfully prevented heel exposure, or when the reversed configuration makes heel hook mechanics less favorable. Having both options creates offensive diversity that complicates the opponent's defensive priorities.",
-        "answer_line": "Legal option in every ruleset",
+        "answer_line": "Legal in every ruleset",
         "distractors": {
           "plausible": [
-            "Higher finish rate than heel hook",
-            "Only works without gi"
+            "Higher finish rate than heel hooks",
+            "It sets up a guard pass"
           ],
           "trap": [
-            "Skip it, only chase heel hooks"
+            "Force a heel hook in gi anyway"
           ]
         }
       }
@@ -506,11 +506,11 @@
         "answer_line": "Grip too deep, pain starting",
         "distractors": {
           "plausible": [
-            "Immediately at first contact",
-            "Only after tapping once"
+            "Turtle at first contact",
+            "Only once your foot goes numb"
           ],
           "trap": [
-            "Stay flat, refuse to turtle"
+            "Stay flat and refuse to turtle"
           ]
         }
       },
@@ -520,8 +520,8 @@
         "answer_line": "Straight leg kills hip rotation",
         "distractors": {
           "plausible": [
-            "It slows the attacker's grip",
-            "It only weakens the ankle joint"
+            "It tires your leg muscles out",
+            "It blocks your hand fighting"
           ],
           "trap": [
             "Extend leg to create distance"
@@ -531,14 +531,14 @@
       {
         "question": "What foot position must you maintain throughout the entire defensive sequence and why?",
         "answer": "Maintain dorsiflexion - foot flexed toward the shin with toes actively pulled up - throughout the entire defense. This position retracts the heel closer to the lower leg making it harder for the attacker to establish the cupping grip, reduces the available range of motion for the finish, and engages the calf muscles to resist extension pressure. Relaxing into pointed toes even momentarily creates the pocket needed for the finishing grip.",
-        "answer_line": "Dorsiflex foot the whole time",
+        "answer_line": "Dorsiflex the foot throughout",
         "distractors": {
           "plausible": [
             "Point toes to protect Achilles",
-            "Relax foot between exchanges"
+            "Keep the foot loose and mobile"
           ],
           "trap": [
-            "Flex only when grip is secured"
+            "Relax the foot to hide the heel"
           ]
         }
       }

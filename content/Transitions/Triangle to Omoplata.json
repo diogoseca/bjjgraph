@@ -357,14 +357,14 @@
       {
         "question": "When should you NOT transition from triangle to omoplata and instead maintain the triangle?",
         "answer": "Maintain the triangle when the opponent is absorbing pressure without actively defending—they may be close to tapping or going unconscious. Also maintain it when your angle is strong and the choke is deepening, when the opponent is fatiguing and their posture is weakening rather than strengthening, or when you have superior wrist control that is pulling the trapped arm tighter across their neck. The omoplata transition should only occur as a reaction to the opponent's active defense, never as a predetermined sequence when the triangle itself is working effectively.",
-        "answer_line": "When the choke is deepening",
+        "answer_line": "While they absorb without defending",
         "distractors": {
           "plausible": [
-            "Whenever the arm is fully trapped",
-            "Whenever your angle feels tired"
+            "Once the figure-four is locked",
+            "As soon as they grab your ankle"
           ],
           "trap": [
-            "Always transition on posture up"
+            "Keep holding after the arm slips out"
           ]
         }
       },

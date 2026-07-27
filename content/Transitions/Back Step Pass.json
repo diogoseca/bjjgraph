@@ -238,11 +238,11 @@
         "answer": "The primary goal is to extract your leg from a leg entanglement while creating a passing angle that advances you to side control. It works against both impending and established entanglements, and it converts a defensive necessity into an offensive passing opportunity in one motion.",
         "distractors": {
           "plausible": [
-            "Just escape the entanglement",
-            "Drive straight through guard"
+            "Force a scramble to standing",
+            "Set up a leg lock counter"
           ],
           "trap": [
-            "Retreat to reset guard position"
+            "Turn belly-down to yank leg out"
           ]
         },
         "answer_line": "Clear leg, angle into side control"
@@ -252,14 +252,14 @@
         "answer": "The Back Step Pass starts from Grasshopper Guard/Top, when the bottom player's inverted legwork threatens your lower limbs. Specifically, it is triggered when their inverted posture and leg configurations are threatening to establish hooks, threads, or rotational attacks on your legs.",
         "distractors": {
           "plausible": [
-            "Half Guard, Top",
-            "Ashi Garami, Top"
+            "Top of Half Guard",
+            "Top of Ashi Garami"
           ],
           "trap": [
-            "Grasshopper Guard, Bottom"
+            "Bottom, inverting under them"
           ]
         },
-        "answer_line": "Grasshopper Guard, Top"
+        "answer_line": "Top of Grasshopper Guard"
       },
       {
         "question": "Why should you step at a 45-degree angle rather than straight backward?",
@@ -295,11 +295,11 @@
         "answer_line": "Drive crossface, flatten the roll",
         "distractors": {
           "plausible": [
-            "Retreat further to reset",
-            "Wait for them to stop rolling"
+            "Wait for them to stop rolling",
+            "Post hands and stay tall"
           ],
           "trap": [
-            "Release grips and reset"
+            "Turn your back to chase the leg"
           ]
         }
       },
@@ -378,14 +378,14 @@
         "answer": "Chain immediately into a butterfly smash or over-under pass, driving your shoulder into their chest and pinning one butterfly hook flat with hip pressure. Alternatively, if they elevate with the hooks, back step again or switch to a leg drag by controlling the ankle of their near leg and dragging it across your body.",
         "distractors": {
           "plausible": [
-            "Sit back and reset position",
-            "Switch to a toe hold immediately"
+            "Stand tall and break the hooks",
+            "Circle wide around their legs"
           ],
           "trap": [
-            "Stand up and disengage"
+            "Reach for a toe hold from there"
           ]
         },
-        "answer_line": "Smash pass or leg drag ankle"
+        "answer_line": "Smash pass or drag near ankle"
       },
       {
         "question": "What grip on the opponent's legs is most effective during the clearing phase of the back step?",
@@ -558,11 +558,11 @@
         "answer_line": "Exploits reliance on leg contact",
         "distractors": {
           "plausible": [
-            "Overpowers their grip strength",
-            "Uses submissions to force pass"
+            "Removes the need for grips",
+            "Works from any top position"
           ],
           "trap": [
-            "Drives through their guard hard"
+            "Barrel through their hooks head-on"
           ]
         }
       },
@@ -573,10 +573,10 @@
         "distractors": {
           "plausible": [
             "Loosen hooks for mobility",
-            "Wait passively for their step"
+            "Switch to shin-on-shin contact"
           ],
           "trap": [
-            "Only defend, never attack first"
+            "Turn away, conceding your back"
           ]
         }
       },

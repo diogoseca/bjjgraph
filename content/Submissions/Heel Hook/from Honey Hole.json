@@ -297,14 +297,14 @@
         "question": "What anatomical structures does the heel hook from Honey Hole primarily attack?",
         "answer": "The heel hook attacks the knee ligaments through rotational force transmitted from the ankle. The ACL is the primary target, with the MCL and LCL receiving simultaneous lateral stress. The rotational force travels from the heel grip through the ankle joint and tibia, creating torque on the knee that the ligaments are not designed to resist. Secondary stress occurs on the meniscus and ankle joint capsule.",
         "safety_critical": true,
-        "answer_line": "ACL via ankle rotation",
+        "answer_line": "ACL via heel-driven ankle torque",
         "distractors": {
           "plausible": [
-            "Ankle joint is primary target",
-            "Meniscus takes the worst force"
+            "Ankle joint takes the damage",
+            "Meniscus is the main casualty"
           ],
           "trap": [
-            "Achilles tendon ruptures first"
+            "Ride out pain, it's just ankle"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Triangle, hip pin, upper grip",
         "distractors": {
           "plausible": [
-            "Leg triangle alone is enough",
-            "Cup grip first, control after"
+            "Outside leg pin alone is enough",
+            "Upper body grip alone suffices"
           ],
           "trap": [
-            "Grab the heel immediately"
+            "Grab the heel right away"
           ]
         }
       },
@@ -361,10 +361,10 @@
         "distractors": {
           "plausible": [
             "Rotating the heel too fast",
-            "Clamping elbows too early"
+            "Elbows clamped too early"
           ],
           "trap": [
-            "Yanking hard with both hands"
+            "Open the triangle for more torque"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Triangle blocks knee rotation",
         "distractors": {
           "plausible": [
-            "It exposes the heel deeper",
-            "The grip is simply tighter"
+            "Heel sits deeper in the grip",
+            "Attacker has more leverage angle"
           ],
           "trap": [
-            "It finishes faster, not harder"
+            "Safe to ride it out a moment"
           ]
         }
       },
@@ -420,11 +420,11 @@
         "answer_line": "Control first, finish progressively",
         "distractors": {
           "plausible": [
-            "Attack the heel first for points",
-            "Ease off once they stiffen up"
+            "Snatch the heel before control",
+            "Ease off if they stiffen up"
           ],
           "trap": [
-            "Release once you assume they'd tap"
+            "Let go the second they grimace"
           ]
         }
       },
@@ -435,11 +435,11 @@
         "answer_line": "Kneebar, then back to heel hook",
         "distractors": {
           "plausible": [
-            "Switch to a toe hold instead",
-            "Abandon leg, pass to mount"
+            "Wait for the heel to re-emerge",
+            "Squeeze the triangle tighter"
           ],
           "trap": [
-            "Force the heel through anyway"
+            "Open the triangle to chase heel"
           ]
         }
       }
@@ -567,14 +567,14 @@
         "question": "How do you recognize that the heel hook from Honey Hole is being set up?",
         "answer": "The key recognition cues are: feeling the inside leg triangle threading around your thigh with the opponent's ankle hooking behind your leg, their hips driving tight against your trapped leg in perpendicular alignment, and their hands beginning to reach toward your foot or heel. Loss of hip rotation ability is the definitive signal — when you try to rotate your hips and feel mechanical resistance from the triangle, the Honey Hole is fully established.",
         "safety_critical": false,
-        "answer_line": "Can't rotate hips - triangle's set",
+        "answer_line": "Hips stop rotating - triangle set",
         "distractors": {
           "plausible": [
-            "Feel pressure on your knee",
-            "Opponent grips your collar"
+            "Your knee starts to ache",
+            "They post a hand on your chest"
           ],
           "trap": [
-            "Wait until heel pain starts"
+            "Wait until the heel hurts"
           ]
         }
       },
@@ -585,11 +585,11 @@
         "answer_line": "At first rotation on cup grip",
         "distractors": {
           "plausible": [
-            "When pain actually starts",
-            "Once elbows are clamped only"
+            "When sharp pain sets in",
+            "Once your foot is exposed"
           ],
           "trap": [
-            "Try to power out first"
+            "Spin hard to beat the finish"
           ]
         }
       },
@@ -600,11 +600,11 @@
         "answer_line": "Rotate hips into 50-50 fast",
         "distractors": {
           "plausible": [
-            "Pull the knee straight back",
-            "Wait and see their next move"
+            "Pull the trapped knee straight back",
+            "Flatten out and fight the grips"
           ],
           "trap": [
-            "Sit up to grip their sleeve"
+            "Turn away from their legs"
           ]
         }
       },
@@ -615,11 +615,11 @@
         "answer_line": "Keep it active, post or hook",
         "distractors": {
           "plausible": [
-            "Tuck it tight for safety",
-            "Kick out to create distance"
+            "Straighten it flat on the mat",
+            "Cross both ankles together"
           ],
           "trap": [
-            "Let it go still to save energy"
+            "Feed it in to shield the heel"
           ]
         }
       },
@@ -627,14 +627,14 @@
         "question": "Why is attempting to pull your trapped leg straight back against the triangle ineffective?",
         "answer": "The inside leg triangle creates mechanical imprisonment that makes linear extraction physically impossible regardless of strength. The triangle's geometry converts pulling force into tighter entanglement — the harder you pull straight back, the more the triangle cinches around your thigh. Effective escape requires changing the angle through rotational movement (hip rotation into 50-50) or body position changes (inversion), which disrupt the triangle's geometry rather than fighting against it.",
         "safety_critical": false,
-        "answer_line": "Triangle tightens on straight pull",
+        "answer_line": "Triangle cinches on a straight pull",
         "distractors": {
           "plausible": [
-            "Not enough strength applied",
-            "Legs simply aren't flexible enough"
+            "Break their ankle grip first",
+            "Works only if hips stay flat"
           ],
           "trap": [
-            "Pull harder and faster instead"
+            "Rip the leg out explosively"
           ]
         }
       }

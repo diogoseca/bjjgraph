@@ -277,14 +277,14 @@
       {
         "question": "What conditions must exist before you can safely attempt leg pummeling from saddle?",
         "answer": "Four conditions must be present: your heel must still be protected or partially hidden (never attempt with a finishing grip locked in), your free leg must retain enough mobility to reach the opponent's controlling hooks, you need at least one hand available for framing on their legs, and the opponent's figure-four must show some looseness or be in transition. If any condition is absent—particularly heel protection—prioritize tapping or alternative defense over attempting the pummel.",
-        "answer_line": "Heel guarded and grip loose",
+        "answer_line": "Heel hidden, their lock still loose",
         "distractors": {
           "plausible": [
-            "Free leg has full mobility",
-            "One hand free to frame legs"
+            "Opponent flat and hands passive",
+            "Both hands clamped on their ankle"
           ],
           "trap": [
-            "Their finishing grip is locked in"
+            "Start after they lock your heel"
           ]
         }
       },

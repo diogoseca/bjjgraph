@@ -287,11 +287,11 @@
         "answer_line": "Outside the trapped leg",
         "distractors": {
           "plausible": [
-            "Inside, like a double leg",
-            "Buried against their hip"
+            "Down on their hip for pressure",
+            "Square to the mat, neutral"
           ],
           "trap": [
-            "Inside, risks guillotine"
+            "Inside, feeds the guillotine"
           ]
         }
       },
@@ -304,7 +304,7 @@
             "Same entry, opposite finish"
           ],
           "trap": [
-            "Penetrate between their legs"
+            "Split their legs, get triangled"
           ]
         },
         "answer_line": "Rotate outside, not between legs"
@@ -343,11 +343,11 @@
         "answer_line": "Abandon entry, don't force it",
         "distractors": {
           "plausible": [
-            "Switch to inside ashi entry",
-            "Chain into single-leg X-guard"
+            "Pull them into closed guard",
+            "Crank the ankle immediately"
           ],
           "trap": [
-            "Force outside entry anyway"
+            "Force outside entry, give back"
           ]
         }
       },
@@ -371,11 +371,11 @@
         "answer_line": "Low grip: ankle or lower shin",
         "distractors": {
           "plausible": [
-            "Grip high at the knee first",
-            "Grip the thigh for control"
+            "Knee-level pinch grip",
+            "Overhook the whole thigh"
           ],
           "trap": [
-            "Grip high, then slide down"
+            "High grip, they rip the leg out"
           ]
         }
       },
@@ -385,11 +385,11 @@
         "answer_line": "Chase the retraction direction",
         "distractors": {
           "plausible": [
-            "Reset to neutral and re-shoot",
-            "Always single-leg X-guard"
+            "Only single-leg X works here",
+            "Wait for them to re-engage"
           ],
           "trap": [
-            "Release and reset stance"
+            "Lunge forward, get sprawled on"
           ]
         }
       }
@@ -518,7 +518,7 @@
             "Fast linear forward drive"
           ],
           "trap": [
-            "Head inside their near hip"
+            "Misread as double, sprawl late"
           ]
         }
       },

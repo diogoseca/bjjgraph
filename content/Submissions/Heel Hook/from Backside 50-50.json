@@ -336,8 +336,8 @@
         "answer_line": "Frame up, stay on your side",
         "distractors": {
           "plausible": [
-            "Turtle up and turtle stall",
-            "Switch to different attack"
+            "Bridge hard to sweep them",
+            "Attack their far ankle instead"
           ],
           "trap": [
             "Force the heel hook anyway"
@@ -351,11 +351,11 @@
         "answer_line": "Figure-four, heel in elbow crook",
         "distractors": {
           "plausible": [
-            "Lasso grip around the ankle",
+            "Palm-to-palm grip on the shin",
             "Wrist grip, heel at the wrist"
           ],
           "trap": [
-            "Loose grip, squeeze in later"
+            "Post both hands, abandon frames"
           ]
         }
       },
@@ -366,11 +366,11 @@
         "answer_line": "Release heel, defend the back",
         "distractors": {
           "plausible": [
-            "Hold heel, finish quickly",
-            "Switch to toe hold instead"
+            "Bridge into them for a sweep",
+            "Extend legs to break free"
           ],
           "trap": [
-            "Keep pulling for the finish"
+            "Hold the heel, concede the back"
           ]
         }
       },
@@ -378,14 +378,14 @@
         "question": "What is the most critical body mechanic for generating finishing force from the bottom position?",
         "answer": "The full-body arch and rotation is the most critical mechanic. Unlike attacking from a dominant top position where gravity assists, attacking from bottom requires you to generate all rotational force through your posterior chain. Arch your back while simultaneously rotating your torso away from the opponent's knee. Squeeze your knees together to anchor the trapped leg. The force chain runs from your hip rotation through your core, through your locked arms, to the heel. Attempting to finish with arm strength alone is insufficient against a resisting opponent and fatigues you rapidly.",
         "safety_critical": false,
-        "answer_line": "Arch back, rotate hips away",
+        "answer_line": "Arch back, rotate torso away",
         "distractors": {
           "plausible": [
-            "Squeeze knees, ignore hips",
-            "Drop weight straight down"
+            "Pull with arms, torso still",
+            "Sit up toward their hip"
           ],
           "trap": [
-            "Muscle it with arm strength"
+            "Flatten to your back and crank"
           ]
         }
       },
@@ -396,11 +396,11 @@
         "answer_line": "Switch to toe hold on forefoot",
         "distractors": {
           "plausible": [
-            "Chase the heel around",
-            "Switch to kneebar attack"
+            "Attack a kneebar instead",
+            "Wait for the boot to tire"
           ],
           "trap": [
-            "Keep grabbing for the heel"
+            "Keep digging, give up the back"
           ]
         }
       },
@@ -445,7 +445,7 @@
             "Pull straight, skip rotation"
           ],
           "trap": [
-            "Rotate toward lateral structures"
+            "Crank fast, no time to tap"
           ]
         }
       },
@@ -453,14 +453,14 @@
         "question": "What offensive chain options exist if your initial heel hook attempt is defended but you maintain the backside 50-50 entanglement?",
         "answer": "If the opponent boots their heel to defend, immediately threaten a toe hold on the exposed forefoot, creating a submission dilemma where defending one attack opens the other. If they strip your grips but remain in the entanglement, use the positional disruption your attack created to work toward improving your hip angle and potentially transitioning to standard 50-50 where your offensive options improve. If the opponent loosened their chest pressure during their defensive response, capitalize on the reduced pressure to re-establish frames and work escape sequences toward guard recovery. The heel hook attempt creates value even when the finish is not available because it disrupts the top player's offensive rhythm and forces defensive awareness of their own legs.",
         "safety_critical": false,
-        "answer_line": "Chain to toe hold, then escape",
+        "answer_line": "Toe hold, then improve hip angle",
         "distractors": {
           "plausible": [
-            "Reset the same attack again",
-            "Bail out of the entanglement"
+            "Repeat the same heel attempt",
+            "Switch to a kneebar finish"
           ],
           "trap": [
-            "Chase the heel exclusively"
+            "Release legs and let them pass"
           ]
         }
       }
@@ -601,14 +601,14 @@
         "question": "Your opponent has a locked figure-four grip on your heel and is beginning to apply rotational force. What is your immediate response sequence?",
         "answer": "First, counter-rotate your entire body in the direction of the heel hook rotation to relieve pressure on the knee joint immediately. Second, while rotating, use your free hand to attack their grip by peeling at the wrist-to-wrist connection. Third, if grip stripping fails, continue the rotation and work to extract your heel from the elbow crook by pulling your toes toward your shin. Fourth, if extraction fails, tap rather than risk catastrophic knee injury. The tap threshold should be lower in training than in competition. Never try to tough out a locked heel hook with finishing mechanics applied.",
         "safety_critical": true,
-        "answer_line": "Rotate with it, strip grip, tap",
+        "answer_line": "Rotate with the hook, peel grip",
         "distractors": {
           "plausible": [
-            "Rotate against the direction",
-            "Pull knee straight back hard"
+            "Pull the knee straight backward",
+            "Hand-fight their head and collar"
           ],
           "trap": [
-            "Fight it and refuse to tap"
+            "Turn away and refuse to tap"
           ]
         }
       },
@@ -619,11 +619,11 @@
         "answer_line": "Dorsiflex, limit heel exposure",
         "distractors": {
           "plausible": [
-            "Attack the back nonstop",
-            "Keep flat pressure, no attacks"
+            "Point toes to hide the heel",
+            "Stall flat until time runs out"
           ],
           "trap": [
-            "Ignore heel, chase submissions"
+            "Extend the leg, chase the back"
           ]
         }
       },
@@ -631,14 +631,14 @@
         "question": "When is it appropriate to tap to a heel hook from Backside 50-50 rather than continue defending?",
         "answer": "Tap immediately if you feel the rotational mechanism lock in with proper body angle and grip configuration. Heel hooks provide minimal warning pain before causing structural knee damage to the MCL, LCL, and meniscus. In training, tap when the grip is locked and body angle is configured for finishing even before full force is applied. In competition, tap when you feel the breaking pressure engage and your counter-rotation is insufficient to relieve it. There is no benefit to defending a fully locked heel hook past the point where the mechanism has engaged. Protecting your knee for long-term training is more valuable than any single round or match outcome.",
         "safety_critical": true,
-        "answer_line": "Tap as soon as mechanics lock",
+        "answer_line": "Tap once the lock is set",
         "distractors": {
           "plausible": [
-            "Tap only when pain is sharp",
-            "Wait to see if it fully locks"
+            "Wait for sharp pain to build",
+            "Keep defending until grip breaks"
           ],
           "trap": [
-            "Try to power out, then tap"
+            "Explode out and hope it slips"
           ]
         }
       },
@@ -649,11 +649,11 @@
         "answer_line": "Pressure limits their hip angle",
         "distractors": {
           "plausible": [
-            "Pressure alone secures the pin",
-            "Backing off preserves stamina"
+            "It stops all their grip fighting",
+            "It scores control points"
           ],
           "trap": [
-            "Ease pressure to save energy"
+            "Post up, expose your own heel"
           ]
         }
       }

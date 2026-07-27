@@ -318,14 +318,14 @@
         "question": "What anatomical structures does the Crotch Ripper specifically target, and why is this different from joint locks?",
         "answer": "The Crotch Ripper targets the hip flexor muscles (particularly the iliopsoas), the adductor muscle group (adductor longus, brevis, and magnus), and the soft tissue where the inner thigh meets the hip. Unlike joint locks that attack ligaments and joint capsules at specific mechanical limits, the Crotch Ripper creates muscular compression without a clear mechanical endpoint. This means the submission relies on pain compliance from muscle tissue being compressed, which can be damaged without obvious warning signs beyond increasing pain.",
         "safety_critical": true,
-        "answer_line": "Adductors & hip flexors, no stop",
+        "answer_line": "Adductors and hip flexors, no stop",
         "distractors": {
           "plausible": [
-            "Targets hip joint like a lock",
-            "Same as knee bar mechanics"
+            "Attacks hip joint capsule limit",
+            "Same ligament endpoint as kneebar"
           ],
           "trap": [
-            "Aim for the hip bone joint"
+            "Crank hard past the tap, no end"
           ]
         }
       },
@@ -351,11 +351,11 @@
         "answer_line": "Release grip, straighten leg slowly",
         "distractors": {
           "plausible": [
-            "Let go and step back fast",
-            "Hold briefly then release"
+            "Loosen slightly, keep the hold",
+            "Ask if they tapped before moving"
           ],
           "trap": [
-            "Yank the leg free quickly"
+            "Twist free and jump to your feet"
           ]
         }
       },
@@ -378,14 +378,14 @@
         "question": "At what point does the opponent reach 'no escape' in a properly applied Crotch Ripper?",
         "answer": "The point of no escape occurs when three conditions are simultaneously met: your lockdown is fully secured preventing leg extraction, your body angle is established with strong underhook control, and your knee is positioned on the soft muscular tissue of their groin with your hips beginning to extend. Once hip extension begins with all controls in place, the opponent's only realistic option is to tap, as escaping requires defeating the lockdown, the underhook angle, and removing the knee pressure simultaneously - which is mechanically impossible.",
         "safety_critical": false,
-        "answer_line": "Lockdown, angle, knee, hips extend",
+        "answer_line": "Hips extend with all controls set",
         "distractors": {
           "plausible": [
-            "Lockdown secured, knee anywhere",
-            "Underhook deep, still flat"
+            "As soon as you get the underhook",
+            "When they flatten onto their back"
           ],
           "trap": [
-            "Once lockdown alone is locked"
+            "Break the lockdown to re-angle"
           ]
         }
       },
@@ -400,7 +400,7 @@
             "Sprawling escapes both attacks"
           ],
           "trap": [
-            "Ignore Electric Chair entirely"
+            "Abandon lockdown to force finish"
           ]
         }
       },
@@ -423,14 +423,14 @@
         "question": "What are the most common finishing errors that prevent the Crotch Ripper from achieving tap?",
         "answer": "The three most common finishing errors are: positioning the knee on bone (thigh or hip bone) rather than soft muscular tissue where no pain compliance is generated; staying flat on your back without creating the necessary side angle that enables compression mechanics; and extending hips straight backward rather than forward and slightly upward which is required to drive the knee into the groin area. Each error eliminates the submission's effectiveness regardless of how tight the lockdown is.",
         "safety_critical": false,
-        "answer_line": "Knee on bone, staying flat back",
+        "answer_line": "Knee on bone, lying flat",
         "distractors": {
           "plausible": [
-            "Hips extended too far upward",
-            "Lockdown not tight enough"
+            "Not squeezing hard enough",
+            "Gripping the wrong ankle"
           ],
           "trap": [
-            "Crank hips straight backward"
+            "Sit up and abandon the lockdown"
           ]
         }
       },
@@ -438,14 +438,14 @@
         "question": "In competition, what strategies maximize finishing percentage for the Crotch Ripper?",
         "answer": "Competition strategy for Crotch Ripper centers on using it as part of a threat system rather than an isolated attack. Set up the Crotch Ripper by first threatening Electric Chair sweeps, then when opponent defends the sweep by posting or basing, their defensive posture creates the angle needed for Crotch Ripper knee placement. Apply progressive pressure while watching for tap. If opponent defends the Crotch Ripper effectively, immediately transition back to Electric Chair. This cycling between threats forces defensive errors that open either the submission or sweep.",
         "safety_critical": false,
-        "answer_line": "Cycle threats with Electric Chair",
+        "answer_line": "Chain off Electric Chair threats",
         "distractors": {
           "plausible": [
-            "Isolate Crotch Ripper only",
-            "Wait passively for opening"
+            "Save it for the final minute",
+            "Only try it on bigger opponents"
           ],
           "trap": [
-            "Force it without any setup"
+            "Open lockdown to chase the finish"
           ]
         }
       },
@@ -472,10 +472,10 @@
         "distractors": {
           "plausible": [
             "Rip your leg free immediately",
-            "Switch to a different lockdown"
+            "Wait for them to let go"
           ],
           "trap": [
-            "Fight the grip for the knee"
+            "Open lockdown to free the leg"
           ]
         }
       }
@@ -627,7 +627,7 @@
             "Block with your far hand"
           ],
           "trap": [
-            "Grab their far leg instead"
+            "Sprawl hips back for space"
           ]
         }
       },
@@ -642,7 +642,7 @@
             "Sprawl back to kill both"
           ],
           "trap": [
-            "Just fight the knee pressure"
+            "Turn belly down to escape"
           ]
         }
       },

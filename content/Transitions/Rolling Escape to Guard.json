@@ -249,25 +249,25 @@
       {
         "question": "Why must you roll toward your trapped arm rather than away from it?",
         "answer": "Rolling toward your trapped arm follows the direction of shoulder pressure rather than fighting against it, dramatically reducing torque on the shoulder joint. Rolling away increases the rotational stress on your shoulder, potentially causing submission or serious injury. The trapped-arm direction also creates space in the leg entanglement for arm extraction.",
-        "answer_line": "Reduces shoulder torque",
+        "answer_line": "Reduces torque on the shoulder",
         "distractors": {
           "plausible": [
-            "Shorter path to guard",
-            "Confuses opponent's grip"
+            "Shortest path back to guard",
+            "Loads weight on their base leg"
           ],
           "trap": [
-            "Roll away for more space"
+            "Roll away to unwind the lock"
           ]
         }
       },
       {
         "question": "What shoulder position must you maintain throughout the rolling escape?",
         "answer": "You must maintain internal shoulder rotation throughout the entire escape - palm facing toward the floor with elbow pulled toward your hip. This protects your shoulder from the dangerous external rotation that Aoki Lock applies. External rotation during the roll leaves your shoulder vulnerable to submission or injury even while escaping.",
-        "answer_line": "Internal rotation, palm down",
+        "answer_line": "Internal rotation, palm to floor",
         "distractors": {
           "plausible": [
-            "Neutral shoulder, relax arm",
-            "Palm down, elbow flared out"
+            "Shoulder loose, arm relaxed",
+            "Elbow flared wide of the hip"
           ],
           "trap": [
             "External rotation, palm up"
@@ -361,14 +361,14 @@
       {
         "question": "What conditions make the Rolling Escape higher or lower percentage?",
         "answer": "The escape is highest percentage when the opponent commits heavily to forward hip pressure for the finish, when their posted leg base is narrow, and when you initiate before full pressure is applied. It becomes lower percentage when the opponent maintains wide base, controls your hips with their hands, or has already achieved maximum shoulder pressure where rolling risks injury.",
-        "answer_line": "Best vs narrow base, early timing",
+        "answer_line": "Narrow base, roll before pressure",
         "distractors": {
           "plausible": [
-            "Best after full pressure applied",
-            "Best vs wide stable base"
+            "Wide base makes it easier",
+            "Hip control by them helps you"
           ],
           "trap": [
-            "Force it under max pressure"
+            "Roll once shoulder is fully loaded"
           ]
         }
       }
@@ -532,14 +532,14 @@
       {
         "question": "What is the risk of forcing an accelerated finish when you sense the roll beginning?",
         "answer": "Forcing explosive pressure during the opponent's rolling movement creates uncontrolled force vectors on the shoulder joint that can cause serious injury including rotator cuff tears, labrum damage, or dislocation. The dynamic movement makes it difficult to control pressure precisely. In competition this risks disqualification, and in training it risks injuring your partner. Controlled transition to back control is the safer high-percentage response.",
-        "answer_line": "Uncontrolled force injures shoulder",
+        "answer_line": "Uncontrolled force wrecks shoulder",
         "distractors": {
           "plausible": [
-            "Speeds up the tap slightly",
-            "Locks in the finish faster"
+            "You just lose the submission",
+            "Only downside is wasted energy"
           ],
           "trap": [
-            "Crank harder to finish fast"
+            "Explode through as they roll"
           ]
         }
       }

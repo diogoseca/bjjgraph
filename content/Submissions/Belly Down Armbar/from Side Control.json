@@ -303,7 +303,7 @@
             "Wrist joint compression"
           ],
           "trap": [
-            "Bicep muscle tear"
+            "Torque the shoulder to finish"
           ]
         }
       },
@@ -314,11 +314,11 @@
         "answer_line": "No stacking or hitchhiker escape",
         "distractors": {
           "plausible": [
-            "Opponent can't grip fight back",
-            "Removes the bridge and roll"
+            "Opponent cannot grip fight at all",
+            "The legs no longer need to squeeze"
           ],
           "trap": [
-            "Forces a faster tap always"
+            "Release the wrist to arch harder"
           ]
         }
       },
@@ -348,7 +348,7 @@
             "Elbow crease below the hips"
           ],
           "trap": [
-            "Elbow pointed toward ceiling"
+            "Slide elbow past your knees"
           ]
         }
       },
@@ -356,14 +356,14 @@
         "question": "What is the correct application speed for the belly down armbar finish and why?",
         "answer": "Extension must be applied slowly and progressively, never jerked or spiked. The belly down position creates extreme mechanical advantage that amplifies force far beyond what the attacker may realize. Rapid application can cause catastrophic elbow ligament damage before the opponent has time to process the pain and deliver a tap signal. Gradual pressure gives the defender time to tap safely.",
         "safety_critical": true,
-        "answer_line": "Slow and progressive",
+        "answer_line": "Slow, progressive extension",
         "distractors": {
           "plausible": [
-            "Fast to prevent escape",
-            "One quick sharp snap"
+            "Match tempo to their struggle",
+            "Speed is fine if you warn them"
           ],
           "trap": [
-            "Jerk it hard and fast"
+            "Hip-spike it before they tap"
           ]
         }
       },
@@ -371,14 +371,14 @@
         "question": "How should you release the belly down armbar after your training partner taps?",
         "answer": "Release extension pressure first by lowering the wrist toward the mat and relaxing hip pressure. Then release the knee squeeze around the upper arm. Finally, disengage completely and allow your partner to retract their arm. Check their arm mobility and ask about any discomfort before resuming training. Never hold the position for even a fraction of a second after the tap.",
         "safety_critical": true,
-        "answer_line": "Release extension, then knees",
+        "answer_line": "Extension pressure off first",
         "distractors": {
           "plausible": [
-            "Release knees, then the wrist",
-            "Disengage instantly, skip check"
+            "Pop the knee clamp open first",
+            "Pull their arm out for them"
           ],
           "trap": [
-            "Hold a beat after the tap"
+            "Hold a beat to prove control"
           ]
         }
       },
@@ -390,10 +390,10 @@
         "distractors": {
           "plausible": [
             "Pull harder on one wrist",
-            "Switch straight to mount"
+            "Crossface harder and wait"
           ],
           "trap": [
-            "Yank the clasped arms apart"
+            "Sit back for the arm, lose top"
           ]
         }
       },
@@ -408,7 +408,7 @@
             "Wrist reaches your hip bone"
           ],
           "trap": [
-            "Feel the first bit of resistance"
+            "Arch before the arm is locked"
           ]
         }
       },
@@ -419,11 +419,11 @@
         "answer_line": "Elbow slips free, they escape",
         "distractors": {
           "plausible": [
-            "Grip only weakens slowly",
-            "Wrist rotates out on its own"
+            "Only your grip works harder",
+            "Hips lose contact with triceps"
           ],
           "trap": [
-            "Submission finishes faster"
+            "Knees open, they roll you over"
           ]
         }
       },
@@ -449,11 +449,11 @@
         "answer_line": "Opponent straightens arm vs kimura",
         "distractors": {
           "plausible": [
-            "Opponent taps to the kimura",
-            "Opponent rolls out to escape"
+            "Opponent bends the arm in tight",
+            "Opponent bridges into your chest"
           ],
           "trap": [
-            "Release the kimura grip fully"
+            "Let go of the wrist entirely"
           ]
         }
       },
@@ -464,11 +464,11 @@
         "answer_line": "Keeps side control if it fails",
         "distractors": {
           "plausible": [
-            "Always finishes faster",
-            "Only works on beginners"
+            "Scores points for the attempt",
+            "Skips the arm isolation step"
           ],
           "trap": [
-            "Lets you abandon top position"
+            "Roll to your back for the arm"
           ]
         }
       }
@@ -593,7 +593,7 @@
             "Hips shift toward your legs"
           ],
           "trap": [
-            "Opponent grabs your collar"
+            "Straight-arm push to make space"
           ]
         }
       },
@@ -601,14 +601,14 @@
         "question": "When should you tap to a belly down armbar rather than continue attempting to escape?",
         "answer": "You should tap immediately when the attacker has achieved the full belly down position with secure two-on-one wrist control and tight knee squeeze around your upper arm. At this point, the mechanical advantage is overwhelming and attempting to muscle out risks catastrophic elbow hyperextension. The belly down armbar applies force faster than most people realize, so tap early and decisively.",
         "safety_critical": true,
-        "answer_line": "Once belly down is locked in",
+        "answer_line": "Tap when belly-down locks tight",
         "distractors": {
           "plausible": [
-            "Only when the pain is severe",
-            "After the first joint pop"
+            "As soon as they isolate the arm",
+            "Only in live rolls, not drills"
           ],
           "trap": [
-            "Wait to see if it tightens"
+            "Fight it until you feel a pop"
           ]
         }
       },
@@ -634,8 +634,8 @@
         "answer_line": "Elbows pinned, hands clasped",
         "distractors": {
           "plausible": [
-            "One arm extended for a post",
-            "Hands framing on the chest"
+            "Push their crossface arm away",
+            "Grip their belt with far hand"
           ],
           "trap": [
             "Reach across for an underhook"

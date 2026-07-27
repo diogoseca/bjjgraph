@@ -314,24 +314,24 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Grip locked, head controlled only",
-            "Hooks in, no hip arch yet"
+            "Head snapped down, chest tight",
+            "Legs inside but hips still flat"
           ],
           "trap": [
-            "Opponent stops hand fighting"
+            "Ride it out until hands go numb"
           ]
         },
-        "answer_line": "Locked grip, hooks up, hips arch"
+        "answer_line": "Grip locked, hooks up, hips arched"
       },
       {
         "question": "What grip and positional control must be established before committing to the fall-back finish?",
         "answer": "Before falling back, you must have the choking arm fully threaded under the chin with wrist on the carotid, both hands locked together in a secure grip configuration, elbows pinched tight with no slack, the opponent's head pulled against your chest, and far-side control through an overhook or elbow clamp. Falling back without all of these in place risks losing the grip and ending up in a worse position.",
         "safety_critical": false,
-        "answer_line": "Lock grip, secure overhook",
+        "answer_line": "Locked grip with far-side overhook",
         "distractors": {
           "plausible": [
-            "Full grip, skip far-side control",
-            "Pull head in before full grip"
+            "Grip locked, elbows left loose",
+            "Overhook only, hands unclasped"
           ],
           "trap": [
             "Fall back before grip is set"
@@ -348,7 +348,7 @@
             "Switch to opposite-side hook sweep"
           ],
           "trap": [
-            "Release grip and reset guard"
+            "Hold the grip as they stand up"
           ]
         },
         "answer_line": "Sweep with same-side hook"
@@ -364,7 +364,7 @@
             "Choking arm angle too high"
           ],
           "trap": [
-            "Pulling head too far forward"
+            "Drop hooks to two-hand squeeze"
           ]
         }
       },
@@ -376,10 +376,10 @@
         "distractors": {
           "plausible": [
             "Pull harder straight back",
-            "Switch hands on the choke"
+            "Rotate to the opposite side"
           ],
           "trap": [
-            "Drop grip, go for arm triangle"
+            "Fall back with the chin still tucked"
           ]
         }
       },
@@ -387,14 +387,14 @@
         "question": "What are the critical safety considerations when applying the Guillotine Choke from Butterfly Guard in training?",
         "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum, never snapping or jerking the choke. Always ensure your partner has clear access to tap with at least one hand or can give a verbal tap. Release immediately upon any tap signal, vocal sound, or sign of distress. Never use neck cranking as a finishing mechanic. Avoid training this technique on partners with existing neck injuries, and always check on your partner after a deep choke attempt.",
         "safety_critical": true,
-        "answer_line": "Apply slow, release on any tap",
+        "answer_line": "Slow pressure, stop on any tap",
         "distractors": {
           "plausible": [
-            "Fast snap then hold steady",
-            "Only release on verbal tap"
+            "Only stop on a verbal tap",
+            "Check they can breathe first"
           ],
           "trap": [
-            "Add neck crank for finish"
+            "Crank the neck to finish"
           ]
         }
       },
@@ -402,14 +402,14 @@
         "question": "How should you immediately release the Guillotine Choke after your training partner taps?",
         "answer": "Immediately release all choking arm pressure by opening your grip and removing your arm from around the opponent's neck. Lower your hooks so they can move freely. If the partner appears dazed or was close to unconsciousness, help them to a seated position and monitor their breathing and consciousness. Do not celebrate or move away before confirming your partner is fully alert and responsive.",
         "safety_critical": true,
-        "answer_line": "Release grip and arm at once",
+        "answer_line": "Open grip, pull arm out at once",
         "distractors": {
           "plausible": [
-            "Loosen grip, keep hooks in",
-            "Ease off slowly, stay locked"
+            "Loosen slightly, keep hooks in",
+            "Ease off slowly while locked"
           ],
           "trap": [
-            "Hold position and celebrate"
+            "Hold the choke a beat longer"
           ]
         }
       },
@@ -420,8 +420,8 @@
         "answer_line": "Hooks elevate, tighten choke",
         "distractors": {
           "plausible": [
-            "Hooks control hips, not neck",
-            "Hooks pass guard, not finish"
+            "Hooks only stop the pass",
+            "Hooks control hips, not neck"
           ],
           "trap": [
             "Drop hooks, squeeze harder"
@@ -435,10 +435,10 @@
         "distractors": {
           "plausible": [
             "Push away and reset butterfly",
-            "Release grip, fight the stack"
+            "Switch to a triangle attack"
           ],
           "trap": [
-            "Let go and scramble to top"
+            "Turn away from the stack pressure"
           ]
         },
         "answer_line": "Close guard, keep grip, arch"
@@ -558,11 +558,11 @@
         "answer_line": "Collar tie snap, arm under chin",
         "distractors": {
           "plausible": [
-            "Opponent grabs both wrists",
-            "Opponent flattens you out first"
+            "Opponent grips both your wrists",
+            "Opponent flattens and stacks you"
           ],
           "trap": [
-            "Opponent backs away to space"
+            "Duck your head lower to escape"
           ]
         }
       },
@@ -570,14 +570,14 @@
         "question": "What is the safest way to signal a tap when caught in a Guillotine from Butterfly Guard?",
         "answer": "Tap clearly and repeatedly on the opponent's body, your own body, or the mat with your hand. If your hands are trapped, use a verbal tap by saying 'tap' clearly or making any vocal sound. You can also tap with your feet on the mat. Tap early before losing consciousness. There is no advantage to fighting a fully locked guillotine past the point of safety in training.",
         "safety_critical": true,
-        "answer_line": "Tap hand, verbal, or foot",
+        "answer_line": "Tap hand, voice, or foot",
         "distractors": {
           "plausible": [
-            "Wait, tap only when near out",
-            "Shake head to signal distress"
+            "Only taps on their body count",
+            "Tap once, then keep defending"
           ],
           "trap": [
-            "Fight until hands go numb"
+            "Hold out until you black out"
           ]
         }
       },
@@ -603,11 +603,11 @@
         "answer_line": "Extends neck into the choke",
         "distractors": {
           "plausible": [
-            "Wastes energy, not dangerous",
-            "Works but too slow to help"
+            "Loosens the attacker's hooks",
+            "Only tires your neck muscles"
           ],
           "trap": [
-            "Best way to create space"
+            "Correct escape, keep pulling back"
           ]
         }
       },

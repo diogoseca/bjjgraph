@@ -301,11 +301,11 @@
         "answer_line": "3-5 sec, build pressure slowly",
         "distractors": {
           "plausible": [
-            "1-2 seconds is plenty",
-            "Match competition speed"
+            "One second if the grip is deep",
+            "Only ease off for white belts"
           ],
           "trap": [
-            "Snap it on instantly"
+            "Rip it on at full speed"
           ]
         }
       },
@@ -313,14 +313,14 @@
         "question": "What anatomical structures does the Loop Choke from Closed Guard target to produce unconsciousness?",
         "answer": "The loop choke targets the carotid arteries and jugular veins on both sides of the neck. The collar wraps in a loop configuration that compresses these blood vessels bilaterally, restricting blood flow to and from the brain. When applied correctly with a deep grip past the trachea, the collar creates circumferential compression around the neck's vascular structures rather than crushing the airway. This bilateral carotid compression causes unconsciousness within 8-12 seconds of full application.",
         "safety_critical": false,
-        "answer_line": "Both carotid arteries",
+        "answer_line": "Carotids and jugulars, both sides",
         "distractors": {
           "plausible": [
-            "Jugular veins only",
-            "One-sided neck pressure"
+            "Windpipe cartilage rings",
+            "Nerves along the jaw line"
           ],
           "trap": [
-            "Airway/trachea crush"
+            "Crush the windpipe for the tap"
           ]
         }
       },
@@ -328,14 +328,14 @@
         "question": "Your opponent begins posturing up while you have the deep collar grip established but have not yet opened your guard - what adjustment prevents escape?",
         "answer": "Immediately use your legs to pull their hips forward while driving your heels into their lower back, collapsing their posture back down. Simultaneously, use the head control hand to pull their head toward your chest. If they generate significant upward force, use that momentum to initiate the loop choke sequence by opening your guard and turning into the choke as they rise. Their upward posturing can actually help deepen the collar grip as the collar slides further around the neck during the positional change.",
         "safety_critical": false,
-        "answer_line": "Heels to back, collapse posture",
+        "answer_line": "Heels to back, break posture down",
         "distractors": {
           "plausible": [
-            "Release grip and reset guard",
-            "Push hips away for space"
+            "Wait for them to settle down",
+            "Frame on their hips for space"
           ],
           "trap": [
-            "Open guard immediately"
+            "Let them stand up in your guard"
           ]
         }
       },
@@ -343,14 +343,14 @@
         "question": "Why is the turning motion essential to finishing the Loop Choke rather than simply pulling the collar grip?",
         "answer": "The turning motion is what wraps the collar around the opponent's neck in a loop configuration. Without rotation, the collar grip creates linear pressure on only one side of the neck rather than the circumferential bilateral compression needed for an effective blood choke. The turn converts a single-point collar grip into a 270-degree wrap around the neck that compresses both carotid arteries simultaneously. Additionally, the self-tightening nature of the loop means that the opponent's own resistance against the turn increases the choking pressure.",
         "safety_critical": false,
-        "answer_line": "Turn wraps collar around neck",
+        "answer_line": "Turn wraps collar into a loop",
         "distractors": {
           "plausible": [
-            "Pulling harder finishes it",
-            "Turning just speeds things up"
+            "Grip strength alone chokes them",
+            "Rotation only saves time"
           ],
           "trap": [
-            "Skip the turn, yank collar"
+            "Yank collar, get stacked/passed"
           ]
         }
       },
@@ -361,11 +361,11 @@
         "answer_line": "Release and reset the grip",
         "distractors": {
           "plausible": [
-            "Add more twisting force",
-            "Switch to a neck crank"
+            "Wait it out, they'll fade",
+            "Sit up and drive body weight in"
           ],
           "trap": [
-            "Keep cranking until they tap"
+            "Torque the neck to force it"
           ]
         }
       },
@@ -376,11 +376,11 @@
         "answer_line": "Fingers past trachea, C-shape",
         "distractors": {
           "plausible": [
-            "Some slack still in the collar",
-            "Tight straight across throat"
+            "Slack left between hand and neck",
+            "Collar sits flat across the throat"
           ],
           "trap": [
-            "Feel pressure on the windpipe"
+            "Squeeze the windpipe, injure them"
           ]
         }
       },
@@ -391,11 +391,11 @@
         "answer_line": "Ride momentum into sweep or choke",
         "distractors": {
           "plausible": [
-            "Push them back to reset base",
-            "Stall until they stop driving"
+            "Stall until they settle back",
+            "Pull guard tighter and wait"
           ],
           "trap": [
-            "Create space by pushing off"
+            "Give up the grip, get stacked"
           ]
         }
       },
@@ -421,11 +421,11 @@
         "answer_line": "Closes gap, ties up their hands",
         "distractors": {
           "plausible": [
-            "Mainly stops them standing up",
-            "Tires out their arms only"
+            "Saves your own grip strength",
+            "Mostly hides your intentions"
           ],
           "trap": [
-            "Reach for grip while upright"
+            "Extend your arm to a postured foe"
           ]
         }
       },
@@ -436,11 +436,11 @@
         "answer_line": "Chain sweep and choke threats",
         "distractors": {
           "plausible": [
-            "Isolate one attack, repeat it",
-            "Wait for them to reach first"
+            "Repeat one attack until it lands",
+            "Wait for them to grip first"
           ],
           "trap": [
-            "Announce the choke attempt early"
+            "Open guard early to hunt the grip"
           ]
         }
       },
@@ -448,11 +448,11 @@
         "question": "How does maintaining closed guard during setup differ strategically from opening guard early for the turning motion?",
         "answer": "Keeping the guard closed during setup locks the opponent within range and prevents them from creating the distance needed to strip the collar grip or escape entirely. The closed guard forces them to fight the grip while compressed, with their posture broken and mobility restricted by your legs. Opening the guard prematurely surrenders this controlling structure before the attack is ready, giving the opponent space to posture, stand, or begin passing. The correct sequence is to complete all grip work while the guard is closed, then open the guard only at the moment you initiate the turning motion, so the opponent has minimal time to react to the positional change.",
         "safety_critical": false,
-        "answer_line": "Stay closed until you turn",
+        "answer_line": "Keep them locked in until the turn",
         "distractors": {
           "plausible": [
-            "Open guard once grip is set",
-            "Open for a better angle"
+            "Guard position barely matters",
+            "Legs are only for the sweep"
           ],
           "trap": [
             "Open guard before gripping"
@@ -604,11 +604,11 @@
         "answer_line": "Tap when the loop fully locks",
         "distractors": {
           "plausible": [
-            "Try to escape once compressed",
-            "Wait to see if it tightens more"
+            "Escape first, only tap if stuck",
+            "Wait for your coach to call it"
           ],
           "trap": [
-            "Fight through the pressure"
+            "Hold out until your vision goes"
           ]
         }
       },
@@ -616,14 +616,14 @@
         "question": "Why does pulling backward away from the opponent make the loop choke tighter rather than creating escape space?",
         "answer": "The loop choke uses a self-tightening mechanism where the collar wraps around the neck in a loop configuration. Pulling backward increases the distance between your neck and the opponent's grip anchor point, which pulls the collar tighter around your neck like tightening a drawstring. The collar acts as a noose where any increase in distance between the two ends of the loop translates to decreased circumference around the neck. The correct defensive movement is to drive forward toward the opponent to create slack in the loop, which is counterintuitive but mechanically sound.",
         "safety_critical": false,
-        "answer_line": "Noose tightens if you retreat",
+        "answer_line": "Distance tightens the collar loop",
         "distractors": {
           "plausible": [
-            "Backing up creates space",
-            "Pulling away loosens the loop"
+            "Turning your head jams the collar",
+            "Their grip slides to the trachea"
           ],
           "trap": [
-            "Yank backward to slip free"
+            "Rip backward and choke yourself"
           ]
         }
       },
@@ -646,14 +646,14 @@
         "question": "What defensive body movement best prevents the turning motion that creates the choking loop?",
         "answer": "Driving your weight forward and sprawling your hips back to flatten the opponent against the mat is the most effective way to prevent the turn. The turning motion requires the attacker to hip escape to the side and rotate underneath you, which needs space between their hips and the mat. Forward pressure removes this space by pinning their hips and shoulders flat, making the rotational movement mechanically impossible. Simultaneously, walking your knees forward toward their hips increases the stacking pressure and further limits their ability to create the angle needed for the turn. This defensive position also gives you leverage to work on stripping the collar grip.",
         "safety_critical": false,
-        "answer_line": "Sprawl and flatten their hips",
+        "answer_line": "Drive forward and pin them flat",
         "distractors": {
           "plausible": [
-            "Pull guard tighter to control",
-            "Sit back to create distance"
+            "Sit back to build your base",
+            "Square your hips and wait"
           ],
           "trap": [
-            "Base out and give them space"
+            "Rise up tall onto your knees"
           ]
         }
       }

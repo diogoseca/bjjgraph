@@ -339,7 +339,7 @@
         "distractors": {
           "plausible": [
             "Break their collar grip first",
-            "Pull leg straight out"
+            "Strip their knee grip first"
           ],
           "trap": [
             "Yank leg against their grip"
@@ -356,7 +356,7 @@
             "Switch to different ankle"
           ],
           "trap": [
-            "Abandon leg, stand up"
+            "Pull leg free, expose heel"
           ]
         }
       }

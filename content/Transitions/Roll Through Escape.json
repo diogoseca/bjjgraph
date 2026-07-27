@@ -238,14 +238,14 @@
       {
         "question": "Why must you roll with the twist rather than against it?",
         "answer": "Rolling against the twist increases spinal torque and accelerates the submission, potentially causing injury. Rolling with the twist converts opponent's rotational pressure into escape momentum, using their own force to break free from the control position.",
-        "answer_line": "Uses their force, avoids injury",
+        "answer_line": "Converts their torque into escape",
         "distractors": {
           "plausible": [
-            "Against twist escapes faster",
-            "Against twist is more secure"
+            "Bridge straight up to unload it",
+            "Freeze and wait for a mistake"
           ],
           "trap": [
-            "Roll against it to break grips"
+            "Crank back against the rotation"
           ]
         }
       },
@@ -308,14 +308,14 @@
       {
         "question": "What should you do if opponent secures finishing grips on your head before you can initiate the escape?",
         "answer": "Do not attempt the roll if finishing grips are secured as this will tighten the submission and risk serious neck injury. Instead, prioritize hand fighting to break the finishing grips, or tap if the submission is locked in. Safety takes priority over escape attempts.",
-        "answer_line": "Break grips or tap, don't roll",
+        "answer_line": "Hand fight the grips, or tap",
         "distractors": {
           "plausible": [
-            "Roll faster to escape grips",
-            "Push through the roll anyway"
+            "Bridge hard to unload their base",
+            "Grip your own belt and stall"
           ],
           "trap": [
-            "Force the roll through the lock"
+            "Spin through the locked choke"
           ]
         }
       },

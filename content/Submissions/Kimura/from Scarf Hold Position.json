@@ -311,7 +311,7 @@
             "Wrist and forearm bones"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Cervical spine - crank for the tap"
           ]
         }
       },
@@ -323,7 +323,7 @@
         "distractors": {
           "plausible": [
             "Thread arm under before wrist",
-            "Grip wrist before threading arm"
+            "Keep head grip, then grab wrist"
           ],
           "trap": [
             "Release head, drop hip pressure"
@@ -334,14 +334,14 @@
         "question": "What are the key safety considerations when applying the Kimura from Scarf Hold Position in training?",
         "answer": "Apply all rotational pressure slowly and progressively over three to five seconds minimum, never jerking or spiking the submission. The shoulder joint can sustain serious structural damage including rotator cuff tears and dislocation before the opponent feels sufficient pain to tap. Always ensure your partner has at least one hand free to deliver a tap signal and listen for verbal taps or distress sounds. Release immediately upon any tap signal and return the arm to neutral position before releasing the grip entirely.",
         "safety_critical": true,
-        "answer_line": "Apply slowly, watch for tap",
+        "answer_line": "Rotate over 3-5 seconds, watch tap",
         "distractors": {
           "plausible": [
-            "Apply fast before defense sets",
-            "Apply steady moderate speed"
+            "Trust pain to warn before damage",
+            "Ask if it hurts before rotating"
           ],
           "trap": [
-            "Spike quickly for fast tap"
+            "Jerk the arm to force a fast tap"
           ]
         }
       },
@@ -368,10 +368,10 @@
         "distractors": {
           "plausible": [
             "Force kimura rotation harder",
-            "Release grip, re-secure crossface"
+            "Yank the wrist to rebend elbow"
           ],
           "trap": [
-            "Chase straightened arm outward"
+            "Chase the arm as it extends out"
           ]
         }
       },
@@ -386,7 +386,7 @@
             "Push wrist toward mat, not arc"
           ],
           "trap": [
-            "Requires more strength than side"
+            "Sit up tall and muscle the crank"
           ]
         }
       },
@@ -397,11 +397,11 @@
         "answer_line": "Forearm past 45° behind back",
         "distractors": {
           "plausible": [
-            "As soon as figure-four locks",
-            "When elbow rotates 90°"
+            "As soon as the figure-four locks",
+            "When hips first settle heavy"
           ],
           "trap": [
-            "Once head control is broken"
+            "Not until the shoulder pops"
           ]
         }
       },
@@ -412,11 +412,11 @@
         "answer_line": "Follow roll, stay heavy and tight",
         "distractors": {
           "plausible": [
-            "Release grip to reset position",
-            "Post out and stop the roll"
+            "Post free hand to block the roll",
+            "Release grip and reset position"
           ],
           "trap": [
-            "Loosen figure-four to readjust"
+            "Roll with them onto your back"
           ]
         }
       },
@@ -428,10 +428,10 @@
         "distractors": {
           "plausible": [
             "Kimura only, reset if defended",
-            "Go straight to armbar always"
+            "Crank harder until it works"
           ],
           "trap": [
-            "Abandon submission, pass guard"
+            "Release scarf hold to chase arm"
           ]
         }
       }
@@ -554,7 +554,7 @@
             "Chest pressure suddenly increases"
           ],
           "trap": [
-            "Weight shifts onto your hips"
+            "Nothing feels off - wait and see"
           ]
         }
       },
@@ -565,11 +565,11 @@
         "answer_line": "Tap early: hand, voice, or feet",
         "distractors": {
           "plausible": [
-            "Wait for sharp pain, then tap",
-            "Tap only with your free hand"
+            "Tap only with your free hand",
+            "Shake your head as the signal"
           ],
           "trap": [
-            "Power through, then tap late"
+            "Hold out until the pain peaks"
           ]
         }
       },
@@ -581,10 +581,10 @@
         "distractors": {
           "plausible": [
             "Tuck elbow tight to your ribs",
-            "Pull arm back and turn away"
+            "Frame on their hip, free hand"
           ],
           "trap": [
-            "Bridge away from the attacker"
+            "Turn away, exposing your back"
           ]
         }
       },
@@ -592,14 +592,14 @@
         "question": "What is the primary mistake defenders make when the kimura rotation has already begun?",
         "answer": "The most dangerous mistake is attempting to explosively power out of the submission by bridging away from the attacker. This actually accelerates the rotational force on the shoulder because the bridge creates space for the attacker to deepen the rotation angle. The correct response to an in-progress kimura rotation is to immediately roll toward the attacker, following the direction of rotation to relieve pressure while working to flatten your body and deny the finishing angle. If rotation has progressed significantly, the safest option is to tap.",
         "safety_critical": true,
-        "answer_line": "Roll toward attacker, not away",
+        "answer_line": "Bridging away deepens the rotation",
         "distractors": {
           "plausible": [
-            "Flatten out, ignore direction",
-            "Push attacker's chest away"
+            "Freezing flat and waiting it out",
+            "Reaching for the far underhook"
           ],
           "trap": [
-            "Bridge explosively to escape"
+            "Yanking the arm free by force"
           ]
         }
       },
@@ -611,10 +611,10 @@
         "distractors": {
           "plausible": [
             "Wait for full rotation to escape",
-            "Push away with both free hands"
+            "Push their head with free hand"
           ],
           "trap": [
-            "Grip and defend the trapped arm"
+            "Stall until the kimura locks in"
           ]
         }
       }

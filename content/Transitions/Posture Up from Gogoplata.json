@@ -359,14 +359,14 @@
       {
         "question": "In what scenario should you abandon systematic posture recovery and use an emergency escape instead?",
         "answer": "When the gogoplata is fully locked with deep foot position, maximally elevated hips, and perpendicular shin alignment restricting breathing to the point where you cannot maintain clear thinking for technical escape execution. In this situation, execute an emergency tuck-and-roll toward turtle position accepting back exposure risk, or tap depending on severity. Attempting systematic escape without adequate breathing leads to unconsciousness.",
-        "answer_line": "Locked, can't breathe or think",
+        "answer_line": "Breathing cut, thinking going fuzzy",
         "distractors": {
           "plausible": [
-            "Whenever hips are elevated",
-            "As soon as chin makes contact"
+            "The moment his hips elevate",
+            "Once his shin crosses the throat"
           ],
           "trap": [
-            "Only once about to pass out"
+            "Posture up and rip your head free"
           ]
         }
       },

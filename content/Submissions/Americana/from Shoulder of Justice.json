@@ -327,10 +327,10 @@
         "distractors": {
           "plausible": [
             "Elbow joint hyperextension",
-            "Wrist flexion and pronation"
+            "Wrist and forearm tendons"
           ],
           "trap": [
-            "AC joint impingement only"
+            "The neck — crank it for the tap"
           ]
         }
       },
@@ -341,7 +341,7 @@
         "answer_line": "Rising resistance at end range",
         "distractors": {
           "plausible": [
-            "Opponent taps immediately",
+            "Grip suddenly feels looser",
             "Opponent goes limp and quiet"
           ],
           "trap": [
@@ -368,14 +368,14 @@
         "question": "At what point during the Americana execution is the opponent unable to escape?",
         "answer": "The point of no escape occurs when the figure-four grip is locked tight with the elbow firmly pinned to the mat and the hand has been painted below shoulder level. Once the hand passes below the shoulder line, the rotational force on the glenohumeral joint makes it biomechanically impossible for the opponent to straighten their arm or rotate their torso enough to relieve pressure. Before this point, defenders can still grip their belt, straighten the arm, or bridge to create escape opportunities.",
         "safety_critical": false,
-        "answer_line": "Hand painted below shoulder",
+        "answer_line": "Hand painted below shoulder line",
         "distractors": {
           "plausible": [
-            "Figure-four grip first locks",
-            "Elbow lifts off the mat"
+            "When the figure-four first locks",
+            "When jaw pressure first bites"
           ],
           "trap": [
-            "Opponent still gripping belt"
+            "Crank hard before elbow is pinned"
           ]
         }
       },
@@ -386,11 +386,11 @@
         "answer_line": "Post wide, ride the bridge",
         "distractors": {
           "plausible": [
-            "Fight the bridge, hold flat",
-            "Release grip, reset base"
+            "Flatten out and stop the bridge",
+            "Let go and rebuild your base"
           ],
           "trap": [
-            "Chase the roll, lose the pin"
+            "Sit up tall to block their hips"
           ]
         }
       },
@@ -417,10 +417,10 @@
         "distractors": {
           "plausible": [
             "Force the paint motion harder",
-            "Release and reset the grip"
+            "Switch to a collar grip"
           ],
           "trap": [
-            "Fight to re-bend a straight arm"
+            "Release control, chase the arm"
           ]
         }
       },
@@ -431,11 +431,11 @@
         "answer_line": "Slow pressure, 10-20% force",
         "distractors": {
           "plausible": [
-            "Fast tap check after finish",
-            "Full pressure, watch for tap"
+            "Repeat reps on the same arm",
+            "Finish fast before they defend"
           ],
           "trap": [
-            "Spike pressure to test grip"
+            "Spike pressure to test the joint"
           ]
         }
       },
@@ -446,11 +446,11 @@
         "answer_line": "Stop pressure, lower arm slow",
         "distractors": {
           "plausible": [
-            "Release grip, walk away fast",
-            "Hold position, ask if okay"
+            "Release the elbow grip first",
+            "Slide back to side control"
           ],
           "trap": [
-            "Drop the arm and reset quick"
+            "Hold the crank one beat longer"
           ]
         }
       },
@@ -460,8 +460,8 @@
         "answer_line": "Full speed live, slow in drilling",
         "distractors": {
           "plausible": [
-            "Same pressure both contexts",
-            "Jerk force only in competition"
+            "Same pressure in both contexts",
+            "Slow in comp, fast in drilling"
           ],
           "trap": [
             "Spike finish to end match fast"
@@ -586,14 +586,14 @@
         "question": "How do you recognize the Americana setup from Shoulder of Justice before the grip is locked?",
         "answer": "The key recognition cues are: the opponent's top hand begins sliding along your near-side forearm toward your wrist while maintaining jaw pressure, you feel their bottom hand threading under your upper arm, and you notice a slight weight shift toward your legs as they prepare the paint motion. The grip transition is the critical recognition window — once you feel the figure-four lock forming, you must act immediately as defense becomes exponentially harder with each passing second.",
         "safety_critical": false,
-        "answer_line": "Hand slides toward your wrist",
+        "answer_line": "Their hand slides to your wrist",
         "distractors": {
           "plausible": [
-            "Sudden weight shift to head",
-            "Grip on your collar first"
+            "Weight shifts toward your head",
+            "They grab your collar first"
           ],
           "trap": [
-            "Ignore it, defense comes later"
+            "Reach across to strip their grip"
           ]
         }
       },
@@ -604,11 +604,11 @@
         "answer_line": "Tap early, slap twice clearly",
         "distractors": {
           "plausible": [
-            "Wait for a better escape",
-            "Verbal tap only if trapped"
+            "Tap once, softly, on the mat",
+            "Tug their sleeve to signal"
           ],
           "trap": [
-            "Tough it out past end-range"
+            "Hold out past end-range"
           ]
         }
       },
@@ -619,11 +619,11 @@
         "answer_line": "Grip own wrist, bridge trapped side",
         "distractors": {
           "plausible": [
-            "Shrimp immediately, ignore grip",
-            "Push opponent's head away"
+            "Turn away and shrimp your hips",
+            "Frame on their head with far hand"
           ],
           "trap": [
-            "Wait for a bigger opening"
+            "Straighten the arm to push free"
           ]
         }
       },
@@ -634,7 +634,7 @@
         "answer_line": "Exposes you to kimura, armbar",
         "distractors": {
           "plausible": [
-            "Prevents all submissions safely",
+            "Strains your own elbow joint",
             "Only risks the americana lock"
           ],
           "trap": [

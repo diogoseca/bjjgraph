@@ -330,11 +330,11 @@
         "answer_line": "Extend slowly, 3-5 seconds",
         "distractors": {
           "plausible": [
-            "Crank fast so they can't escape",
-            "Hold static, no extension needed"
+            "Rely on the tap alone to stop",
+            "Loosen the leg pinch to stay safe"
           ],
           "trap": [
-            "Spike hard for an instant finish"
+            "Spike the hips at full speed"
           ]
         }
       },
@@ -345,11 +345,11 @@
         "answer_line": "Tuck chin, roll over shoulder",
         "distractors": {
           "plausible": [
-            "Look up and roll straight back",
-            "Roll over the top of your head"
+            "Post the free hand and hop over",
+            "Roll flat across both shoulders"
           ],
           "trap": [
-            "Roll over your neck for speed"
+            "Drive the crown of head into mat"
           ]
         }
       },
@@ -421,10 +421,10 @@
         "distractors": {
           "plausible": [
             "Just for balance during the roll",
-            "Only needed against bigger opponents"
+            "Only needed against bigger foes"
           ],
           "trap": [
-            "Spread knees for more hip power"
+            "Uncross ankles and lift hips high"
           ]
         }
       },
@@ -480,11 +480,11 @@
         "answer_line": "Keep grip, post leg, switch attack",
         "distractors": {
           "plausible": [
-            "Release arm and reset to guard",
-            "Keep spinning until roll completes"
+            "Release the arm and reset guard",
+            "Roll to your knees and stand up"
           ],
           "trap": [
-            "Force the roll, commit fully"
+            "Commit fully and force the spin"
           ]
         }
       },
@@ -492,14 +492,14 @@
         "question": "What finishing error commonly causes training partners to get injured during the rolling armbar, and how do you prevent it?",
         "answer": "The most common finishing error causing injuries is applying the extension too rapidly after completing the roll. The momentum and surprise of the rolling entry often means the opponent hasn't fully realized they're in danger until the submission is locked. If you immediately hyperextend with full force, they have no time to tap. Prevention requires deliberately slowing down the finishing phase regardless of how explosive the rolling entry was. Apply extension progressively over 3-5 seconds, watching for tap signals throughout. The position and leverage create the tap, not speed - a properly locked rolling armbar requires minimal force to finish safely.",
         "safety_critical": true,
-        "answer_line": "Extending too fast after the roll",
+        "answer_line": "Rushing extension; finish slow",
         "distractors": {
           "plausible": [
-            "Not crossing ankles in time",
-            "Gripping the wrist too tightly"
+            "Losing the ankle cross too soon",
+            "Squeezing the knees too hard"
           ],
           "trap": [
-            "Snap the arm as roll completes"
+            "Bounce the hips to pop the elbow"
           ]
         }
       }
@@ -638,14 +638,14 @@
         "question": "Why is it dangerous to attempt a hitchhiker escape when your arm is already near full extension in the rolling armbar finishing position?",
         "answer": "When the arm is near full extension, rotating your thumb away and turning belly-down can cause the elbow joint to hyperextend further during the rotation, potentially tearing the UCL or LCL ligaments or causing dislocation. The hitchhiker escape relies on creating slack in the arm by rotating before significant extension pressure is applied. If pressure is already substantial, the safest option is to tap immediately rather than risk a catastrophic joint injury from a late escape attempt. The ego cost of tapping is always less than the physical cost of a torn ligament.",
         "safety_critical": true,
-        "answer_line": "Tap - rotating can tear the joint",
+        "answer_line": "Tap now - the joint can tear",
         "distractors": {
           "plausible": [
-            "Rotate slowly to test the room",
-            "Push off with your free leg first"
+            "Straighten arm to slide it out",
+            "Wait for their grip to slip"
           ],
           "trap": [
-            "Rotate hard and fast to escape"
+            "Explode into a hard spin out"
           ]
         }
       },
@@ -656,8 +656,8 @@
         "answer_line": "Bend arm, turn in, elbow to mat",
         "distractors": {
           "plausible": [
-            "Straighten arm to slip the grip",
-            "Pull straight back away from them"
+            "Pull straight back away from them",
+            "Grip your own lapel and wait"
           ],
           "trap": [
             "Turn away and extend the arm"
@@ -686,11 +686,11 @@
         "answer_line": "Roll phase: turn with it, arm bent",
         "distractors": {
           "plausible": [
-            "Both phases defend the same way",
-            "After roll: hitchhike is highest %"
+            "Defense is identical in both",
+            "Late phase: sit up and posture"
           ],
           "trap": [
-            "Resist the roll by pulling back"
+            "Yank the elbow free by force"
           ]
         }
       }

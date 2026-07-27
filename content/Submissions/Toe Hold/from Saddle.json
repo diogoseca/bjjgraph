@@ -293,11 +293,11 @@
         "answer_line": "Ankle collateral ligaments",
         "distractors": {
           "plausible": [
-            "Lisfranc midfoot joint",
-            "Achilles tendon"
+            "Achilles tendon insertion",
+            "Knee ACL under rotation"
           ],
           "trap": [
-            "Only toes, ankle is safe"
+            "Toes only - safe to ride it out"
           ]
         }
       },
@@ -323,11 +323,11 @@
         "answer_line": "Foot rotates past normal range",
         "distractors": {
           "plausible": [
-            "Opponent stops moving",
-            "Loud pop sound"
+            "Their breathing speeds up",
+            "Your grip starts slipping"
           ],
           "trap": [
-            "Increase pressure sharply now"
+            "Torque harder to force the tap"
           ]
         }
       },
@@ -338,8 +338,8 @@
         "answer_line": "Deepen grip, tighten figure-four",
         "distractors": {
           "plausible": [
-            "Switch to heel hook grip",
-            "Reset the grip from scratch"
+            "Slide the hand toward the toes",
+            "Pull with arms, let hips float"
           ],
           "trap": [
             "Chase the grip with loose hands"
@@ -350,14 +350,14 @@
         "question": "What is the most common finishing error when applying the toe hold from saddle and how does it create danger?",
         "answer": "The most common finishing error is applying rotational pressure too quickly or explosively. Unlike chokes where the opponent gradually loses consciousness and can tap throughout, the toe hold attacks small ligaments and bones that can fail suddenly without significant warning pain. Explosive application can cause ankle ligament tears, toe fractures, or Lisfranc joint injuries before the opponent registers the danger and taps. All rotational pressure must build gradually over at least 5-7 seconds.",
         "safety_critical": true,
-        "answer_line": "Applying pressure too explosively",
+        "answer_line": "Rotating too fast and explosively",
         "distractors": {
           "plausible": [
             "Not gripping tight enough",
             "Wrong hand position on foot"
           ],
           "trap": [
-            "Crank hard for a fast tap"
+            "Hold the lock after the tap"
           ]
         }
       },
@@ -383,8 +383,8 @@
         "answer_line": "Stop instantly, release gently",
         "distractors": {
           "plausible": [
-            "Check in after a few seconds",
-            "Ease off pressure gradually"
+            "Ease off pressure gradually",
+            "Hold until they say okay"
           ],
           "trap": [
             "Throw the foot away fast"
@@ -398,10 +398,10 @@
         "distractors": {
           "plausible": [
             "Toe hold is the main finish",
-            "Only use after heel hook fails"
+            "Only worth using in gi rules"
           ],
           "trap": [
-            "Abandon heel hook entirely"
+            "Release saddle to chase the foot"
           ]
         }
       }
@@ -518,11 +518,11 @@
         "answer_line": "Grip moves over foot, not heel",
         "distractors": {
           "plausible": [
-            "Opponent switches to side control",
-            "Feel deeper heel cupping"
+            "Deeper cupping under your heel",
+            "Their hips slide toward your head"
           ],
           "trap": [
-            "Ignore grip change, guard heel"
+            "Ignore it and keep hiding heel"
           ]
         }
       },
@@ -534,10 +534,10 @@
         "distractors": {
           "plausible": [
             "Once pain becomes severe",
-            "After trying one escape"
+            "When you can't free the leg"
           ],
           "trap": [
-            "Wait to see if you can escape"
+            "Tap only if you hear a pop"
           ]
         }
       },
@@ -545,14 +545,14 @@
         "question": "What defensive actions are available before the toe hold figure-four grip is fully locked?",
         "answer": "Before the figure-four locks, you can strip the initial hand grip using two-on-one fighting, straighten your leg to remove the rotational angle, frame on the opponent's hips to create extraction space, or rotate your foot to make the grip difficult to establish. The window is small since the opponent only needs a few seconds to lock the figure-four, so early recognition and immediate action are critical for successful defense.",
         "safety_critical": false,
-        "answer_line": "Strip grip, straighten leg",
+        "answer_line": "Strip grip, straighten the leg",
         "distractors": {
           "plausible": [
-            "Wait for rotation to start",
-            "Try to overpower the grip"
+            "Cross ankles and squeeze tight",
+            "Sit up and grab their collar"
           ],
           "trap": [
-            "Pull leg away forcefully"
+            "Rip the leg out explosively"
           ]
         }
       },
@@ -560,14 +560,14 @@
         "question": "Why is it dangerous to pull your leg away when the toe hold rotation has already started?",
         "answer": "Pulling the leg away adds your own muscular force to the rotational stress the opponent is already applying to the ankle joint. This amplifies the torque on the ligaments and can cause the ankle to fail catastrophically before either you or your opponent can react. Instead, move your body toward the opponent to reduce the effective lever arm and decrease the rotational stress on the joint.",
         "safety_critical": true,
-        "answer_line": "Adds torque, can snap ankle",
+        "answer_line": "Adds torque, can snap the ankle",
         "distractors": {
           "plausible": [
-            "Wastes energy, tires you out",
-            "Signals panic to opponent"
+            "Loosens their figure-four grip",
+            "Only tires your hamstring out"
           ],
           "trap": [
-            "Best escape option available"
+            "It is the best escape available"
           ]
         }
       },

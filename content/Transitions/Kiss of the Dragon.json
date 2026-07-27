@@ -294,11 +294,11 @@
         "answer_line": "Abort if early, finish if late",
         "distractors": {
           "plausible": [
-            "Always abort and reset",
-            "Always complete the roll"
+            "Always bail and reset to turtle",
+            "Always push the roll to the end"
           ],
           "trap": [
-            "Force a re-grip mid-roll"
+            "Post on your head and bridge over"
           ]
         }
       },
@@ -364,11 +364,11 @@
         "answer_line": "Tuck chin, round the spine",
         "distractors": {
           "plausible": [
-            "Keep spine straight and stiff",
-            "Lead with the shoulder blade"
+            "Rotate faster to beat the grip",
+            "Pull with the arms to spin"
           ],
           "trap": [
-            "Keep head up, flat back"
+            "Post on top of your head to turn"
           ]
         }
       },

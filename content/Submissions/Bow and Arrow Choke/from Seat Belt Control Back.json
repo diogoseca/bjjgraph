@@ -299,11 +299,11 @@
         "answer_line": "Both carotid arteries",
         "distractors": {
           "plausible": [
-            "Windpipe/trachea only",
-            "Vagus nerve response"
+            "Trachea and airway only",
+            "Vagal reflex from pressure"
           ],
           "trap": [
-            "Crank the jaw and neck"
+            "Jaw and cervical spine"
           ]
         }
       },
@@ -318,7 +318,7 @@
             "Switch hands and retry"
           ],
           "trap": [
-            "Release and reset guard"
+            "Drop hooks and disengage"
           ]
         }
       },
@@ -329,11 +329,11 @@
         "answer_line": "Fingers past tag, no slack",
         "distractors": {
           "plausible": [
-            "Four fingers inserted only",
-            "Feel fabric bunching only"
+            "Thumb hooked inside the collar",
+            "Grip anywhere behind the neck"
           ],
           "trap": [
-            "Pull tight, extend immediately"
+            "Extend hard on a shallow grip"
           ]
         }
       },
@@ -348,7 +348,7 @@
             "Once leg hook is set"
           ],
           "trap": [
-            "As soon as seat belt breaks"
+            "After you let go of both hooks"
           ]
         }
       },
@@ -356,14 +356,14 @@
         "question": "What is the most common finishing error that causes the Bow and Arrow to fail even with good grips?",
         "answer": "The most common finishing error is pulling the collar straight backward rather than diagonally toward your own hip. Straight-back pulling creates a cranking force on the neck and jaw rather than clean carotid compression, which is less effective, gives the opponent more time to defend, and increases injury risk. The correct pulling direction is diagonal, drawing the collar across the opponent's neck toward your hip on the collar-grip side. This diagonal vector ensures the collar travels across both carotids rather than pressing straight into the trachea or jawline.",
         "safety_critical": false,
-        "answer_line": "Pulling collar straight back",
+        "answer_line": "Pulling straight back, not diagonal",
         "distractors": {
           "plausible": [
-            "Not enough leg extension",
-            "Grip too shallow"
+            "Hips too high off the mat",
+            "Squeezing before the hooks set"
           ],
           "trap": [
-            "Yanking collar down hard"
+            "Cranking the jaw with a hard yank"
           ]
         }
       },
@@ -371,14 +371,14 @@
         "question": "How should you adjust your grip if the collar starts riding up over the opponent's chin during extension?",
         "answer": "If the collar rides over the chin, do not jerk it down forcefully as this risks jaw and TMJ injury. Instead, slightly reduce extension pressure, use your collar-grip hand to reposition the lapel lower on the neck by pulling it slightly downward and across before re-extending. You can also increase the downward angle of your pull by dropping your elbow closer to the mat. In training, if the collar is firmly lodged on the chin, release and reset the grip rather than forcing through a jaw crush. In competition, maintaining steady pressure will often cause the chin to slip as the opponent fatigues.",
         "safety_critical": true,
-        "answer_line": "Reposition lapel lower first",
+        "answer_line": "Reposition lapel lower on the neck",
         "distractors": {
           "plausible": [
-            "Increase extension pressure",
-            "Pull harder through chin"
+            "Regrip with the free hand deeper",
+            "Raise the hips to add angle"
           ],
           "trap": [
-            "Jerk collar down forcefully"
+            "Jerk it down through the jaw"
           ]
         }
       },
@@ -404,11 +404,11 @@
         "answer_line": "Exploit their defensive reaction",
         "distractors": {
           "plausible": [
-            "Repeat same collar attempt",
-            "Give up and pass guard"
+            "Repeat the same collar attempt",
+            "Wait for them to tire out"
           ],
           "trap": [
-            "Force the choke through anyway"
+            "Abandon hooks to muscle it"
           ]
         }
       },
@@ -433,11 +433,11 @@
         "answer_line": "Gradual sustained pressure",
         "distractors": {
           "plausible": [
-            "One explosive hard pull",
-            "Switch grips repeatedly"
+            "Strip their frames with both hands",
+            "Bounce the grip in short jerks"
           ],
           "trap": [
-            "Crank harder through frames"
+            "Twist their neck to break frames"
           ]
         }
       }
@@ -560,11 +560,11 @@
         "answer_line": "Seat belt hand moves to collar",
         "distractors": {
           "plausible": [
-            "Chest pressure shifts only",
-            "Under-hook slides to knee"
+            "Attacker's hooks get shallower",
+            "Both their hands grab your hips"
           ],
           "trap": [
-            "Ignore, seat belt still on"
+            "Turn away to ease chest pressure"
           ]
         }
       },
@@ -572,14 +572,14 @@
         "question": "When should you tap to the Bow and Arrow Choke to prevent injury?",
         "answer": "Tap immediately when you feel bilateral pressure on both sides of your neck combined with the attacker's full extension and you cannot address any of the three control points (collar, pants, leg hook). The bow and arrow compresses both carotid arteries simultaneously, and unconsciousness can occur within 5-10 seconds of full application. Do not wait until you feel dizzy or see visual disturbances - these are signs that blood flow is already critically restricted. Tap early and tap clearly using hand tap, verbal tap, or foot tap. There is no shame in tapping to a fully locked bow and arrow.",
         "safety_critical": true,
-        "answer_line": "At bilateral neck pressure",
+        "answer_line": "As soon as both sides compress",
         "distractors": {
           "plausible": [
-            "When vision blurs or dizzy",
-            "Only after losing consciousness"
+            "When you can no longer bridge",
+            "After trying one escape attempt"
           ],
           "trap": [
-            "Wait to see if it releases"
+            "Once you feel dizzy or see spots"
           ]
         }
       },
@@ -605,11 +605,11 @@
         "answer_line": "Strip pants, block leg hook",
         "distractors": {
           "plausible": [
-            "Turn away and hope to escape",
-            "Attack their arms instead"
+            "Grip fight the collar hand alone",
+            "Bridge and flatten your back"
           ],
           "trap": [
-            "Let the leg hook fully set"
+            "Turn your back away from them"
           ]
         }
       },
@@ -620,11 +620,11 @@
         "answer_line": "Reduces the extension distance",
         "distractors": {
           "plausible": [
-            "Extending relieves pressure",
-            "Turning away removes pressure"
+            "Frees your hands to grip fight",
+            "Makes their hooks slip off"
           ],
           "trap": [
-            "Push away to create space"
+            "Straighten your legs and bridge"
           ]
         }
       }

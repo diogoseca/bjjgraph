@@ -285,14 +285,14 @@
         "question": "What anatomical structures does the Kimura from Reverse Kesa-Gatame primarily attack?",
         "answer": "The Kimura targets the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. Internal rotation past the anatomical limit creates shearing force on the rotator cuff tendons and compressive force on the labrum. Secondary stress affects the bicep tendon at the shoulder attachment point.",
         "safety_critical": false,
-        "answer_line": "Shoulder rotator cuff joint",
+        "answer_line": "Shoulder joint and rotator cuff",
         "distractors": {
           "plausible": [
             "Elbow joint hyperextension",
             "Wrist tendons and ligaments"
           ],
           "trap": [
-            "Neck and cervical spine"
+            "Crank the neck when it stalls"
           ]
         }
       },
@@ -303,8 +303,8 @@
         "answer_line": "Hard stop, hold and wait for tap",
         "distractors": {
           "plausible": [
-            "Feel resistance, push through it",
-            "Arm goes limp, finish quickly"
+            "Slight tension, back off early",
+            "Popping sound means it's safe"
           ],
           "trap": [
             "Crank harder to force the tap"
@@ -318,8 +318,8 @@
         "answer_line": "Prevents escape during grip switch",
         "distractors": {
           "plausible": [
-            "Sets up the finishing rotation",
-            "Tires out the opponent fast"
+            "Blocks their near-side collar grip",
+            "Frees your hips to walk around"
           ],
           "trap": [
             "Lighten up to grip faster"
@@ -337,7 +337,7 @@
             "Knee driven into their ribs"
           ],
           "trap": [
-            "Let the elbow float free"
+            "Sit up to crank, losing the pin"
           ]
         }
       },
@@ -349,10 +349,10 @@
         "distractors": {
           "plausible": [
             "Force the figure-four anyway",
-            "Abandon attack, pass guard"
+            "Crank the wrist for pain"
           ],
           "trap": [
-            "Release the arm, reset position"
+            "Chase the arm, lose chest pin"
           ]
         }
       },
@@ -409,10 +409,10 @@
         "distractors": {
           "plausible": [
             "Always force the submission",
-            "Abandon grip if they defend"
+            "Stall on top to run the clock"
           ],
           "trap": [
-            "Release grip, reset to neutral"
+            "Crank blindly and get rolled"
           ]
         }
       },
@@ -584,14 +584,14 @@
         "question": "Why is timing your bridge to the attacker's grip transition the most effective defensive window?",
         "answer": "During the grip transition from armpit clamp to figure-four, the attacker temporarily releases primary arm control and adjusts their upper body positioning. This creates a brief window where chest pressure lightens and their base narrows as they focus on threading the grip. Bridging during this transition exploits both the reduced pressure and compromised stability simultaneously, creating the best opportunity to recover guard or completely disrupt the submission.",
         "safety_critical": false,
-        "answer_line": "Grip switch = lightest pressure",
+        "answer_line": "Grip switch, pressure lightest",
         "distractors": {
           "plausible": [
-            "Bridge only after lock is set",
-            "Wait until rotation begins"
+            "It tires their gripping arm",
+            "They cannot track your hips"
           ],
           "trap": [
-            "Stay still, absorb the pressure"
+            "Wait for the lock, then bridge"
           ]
         }
       },
@@ -602,11 +602,11 @@
         "answer_line": "Escape options collapse fast",
         "distractors": {
           "plausible": [
-            "Opponent tires, you get free",
-            "Position stays the same"
+            "Opponent tires and you slip free",
+            "Position holds, gets no worse"
           ],
           "trap": [
-            "Push harder once it's locked"
+            "Shoulder tears before you tap"
           ]
         }
       }

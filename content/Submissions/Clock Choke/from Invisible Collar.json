@@ -266,11 +266,11 @@
         "answer_line": "Carotid arteries & jugular veins",
         "distractors": {
           "plausible": [
-            "Windpipe/trachea compression",
+            "Windpipe and trachea compression",
             "Only one side of the neck"
           ],
           "trap": [
-            "Grip the trachea directly"
+            "Crank the spine to finish faster"
           ]
         }
       },
@@ -278,14 +278,14 @@
         "question": "How does the invisible collar grip advantage differ from a standard clock choke collar entry?",
         "answer": "The invisible collar provides pre-established grip depth that bypasses the most contested phase of the standard clock choke—the initial collar penetration. In a standard clock choke, the attacker must establish the collar grip while the opponent actively defends their neck. From invisible collar, the grip is already four fingers deep with knuckles against the neck before the opponent recognizes the clock choke threat. This eliminates the grip fighting phase and allows the choke to become dangerous within the first two walking steps rather than requiring a full arc.",
         "safety_critical": false,
-        "answer_line": "Grip's already deep, no fight needed",
+        "answer_line": "Grip is already deep, no fight",
         "distractors": {
           "plausible": [
             "Faster arm-drag into position",
             "Removes need for hooks first"
           ],
           "trap": [
-            "Wait for opponent to react first"
+            "Release collar to re-grip deeper"
           ]
         }
       },
@@ -300,7 +300,7 @@
             "Switch to your other hand"
           ],
           "trap": [
-            "Let go and reset the position"
+            "Lift chest to yank collar harder"
           ]
         }
       },
@@ -323,14 +323,14 @@
         "question": "How should you release the Clock Choke from Invisible Collar after a tap?",
         "answer": "Immediately open your collar grip fingers and release the lapel material upon receiving any tap signal. Remove your body weight from the opponent's back by shifting your hips away and creating space. Do not maintain the walking position or far-side anchor grip. Allow your partner to recover in a neutral position without pressure or rushing. Check on their condition—ask if they are okay—before continuing training, especially if there was any delay between choke onset and the tap.",
         "safety_critical": true,
-        "answer_line": "Open grip, shift weight off hips",
+        "answer_line": "Release lapel, take weight off",
         "distractors": {
           "plausible": [
-            "Keep anchor grip, ease pressure",
-            "Slide straight to side control"
+            "Ease pressure but keep the grip",
+            "Roll them to side control first"
           ],
           "trap": [
-            "Maintain hooks while checking in"
+            "Hold pressure while asking if OK"
           ]
         }
       },
@@ -360,7 +360,7 @@
             "Switch to the opposite-hand grip"
           ],
           "trap": [
-            "Yank the collar hard and fast"
+            "Sit up to re-grip with both hands"
           ]
         }
       },
@@ -386,8 +386,8 @@
         "answer_line": "RNC, bow-arrow, or follow the roll",
         "distractors": {
           "plausible": [
-            "Always finish with an armbar",
-            "Reset to back control each time"
+            "Hold the walk until they tap",
+            "Switch sides and restart the walk"
           ],
           "trap": [
             "Abandon back control if it fails"
@@ -401,11 +401,11 @@
         "answer_line": "Grip strip, roll, or sit-out",
         "distractors": {
           "plausible": [
-            "Only grip stripping is common",
-            "Sit-out is the main defense"
+            "Chin tuck is the only defense",
+            "They always roll to the weak side"
           ],
           "trap": [
-            "Assume defense means give up"
+            "Drop the anchor when they roll"
           ]
         }
       }
@@ -540,14 +540,14 @@
         "question": "What is the safest way to tap to the Clock Choke from Invisible Collar?",
         "answer": "Tap clearly and repeatedly on the attacker's body, arm, or the mat with your hand the moment you feel choking pressure building. If your hands are trapped or fighting the grip, use a verbal tap by saying 'tap' loudly. You can also tap with your feet on the mat. Do not wait until the choke is fully locked—the invisible collar variant can render you unconscious faster than expected because the grip is pre-established. Tap early and tap clearly.",
         "safety_critical": true,
-        "answer_line": "Tap hand, voice, or foot—early",
+        "answer_line": "Tap early—hand, voice, or foot",
         "distractors": {
           "plausible": [
-            "Wait until choke is fully locked",
-            "Tap only with your free hand"
+            "Only a hand tap is a real tap",
+            "Tap the mat only, not the body"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Fight the grip until it loosens"
           ]
         }
       },
@@ -559,10 +559,10 @@
         "distractors": {
           "plausible": [
             "Always roll regardless of stage",
-            "Wait for the walk to finish"
+            "Grip fight the collar at all times"
           ],
           "trap": [
-            "Stay still, focus on breathing"
+            "Stay still and focus on breathing"
           ]
         }
       },
@@ -592,7 +592,7 @@
             "Push away and stand to escape"
           ],
           "trap": [
-            "Stay passive during the switch"
+            "Turn toward their choking arm"
           ]
         }
       }

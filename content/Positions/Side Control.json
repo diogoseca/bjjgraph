@@ -871,11 +871,11 @@
       "answer_line": "Weight low through hips, not arms",
       "distractors": {
         "plausible": [
-          "Heavy weight through the chest",
-          "Press down with the arms"
+          "Squeeze tight around the head",
+          "Stay high on knees for balance"
         ],
         "trap": [
-          "Post on hands, stay mobile"
+          "Post on both hands for mobility"
         ]
       }
     },
@@ -884,14 +884,14 @@
       "answer": "Escaping any side control variant requires combining hip movement that creates space with a frame that stops the top player from following it. Shrimping the hips away without a frame simply lets the opponent re-settle and follow, while framing without hip movement produces no room to recover guard or turn in. The frame typically braces against the opponent's hip and shoulder or neck, buying the moment needed to insert a knee or shrimp underneath. This frame-plus-motion pairing is the shared foundation of every escape, from elbow escapes to bridge-and-roll reversals.",
       "distractors": {
         "plausible": [
-          "Shrimp hips without framing",
-          "Frame first, then hips later"
+          "Shrimp away with no frames",
+          "Bridge hard and roll them over"
         ],
         "trap": [
-          "Push opponent's head away"
+          "Push their face with your palm"
         ]
       },
-      "answer_line": "Frame plus hip movement together"
+      "answer_line": "Frame and move hips together"
     },
     {
       "question": "Why does controlling the opponent's head and far-side arm remain a shared priority across every side control variant?",
@@ -924,14 +924,14 @@
     {
       "question": "What universal danger does the bottom player invite by turning to face the top player during a side control escape?",
       "answer": "Turning in to face the opponent from underneath any side control variant exposes the back and neck, converting a bad position into a worse one. As the bottom player rotates toward the top player, they present their spine and open the neck to chokes and back-take entries. The safe principle is to turn away from the opponent when rotation is necessary, keeping the back protected, or to work the escape without turning at all. This defensive rule is constant whether the pin is a scarf hold, a reverse variant, or standard cross-side, because the top player's advantage always increases the moment the back is offered.",
-      "answer_line": "Turning in exposes the back",
+      "answer_line": "Neck exposed to front chokes",
       "distractors": {
         "plausible": [
-          "Turning in speeds up escape",
-          "Facing opponent regains guard"
+          "Hips get pinned flat to the mat",
+          "Frames collapse and lose space"
         ],
         "trap": [
-          "Turn fully in and grab collar"
+          "Turn away and give up your back"
         ]
       }
     },
@@ -971,11 +971,11 @@
       "answer_line": "Weight spread, low effort to hold",
       "distractors": {
         "plausible": [
-          "High effort to control the hips",
-          "Constant muscling required"
+          "Strong grips do the pinning work",
+          "Speed of transitions pins him"
         ],
         "trap": [
-          "Sit up to add pressure"
+          "Sit up to press down harder"
         ]
       }
     },
@@ -1031,7 +1031,7 @@
           "Distinguished by point value only"
         ],
         "trap": [
-          "Face same direction as opponent"
+          "Float chest-only, hips disconnected"
         ]
       }
     },

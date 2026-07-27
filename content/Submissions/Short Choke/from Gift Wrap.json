@@ -357,11 +357,11 @@
         "answer_line": "Drives head into forearm",
         "distractors": {
           "plausible": [
-            "Adds extra choking arm squeeze",
-            "Pins opponent's hips down"
+            "Arm squeeze alone is enough",
+            "Locks opponent's hips flat"
           ],
           "trap": [
-            "Skip arm squeeze entirely"
+            "Crank neck sideways to finish"
           ]
         }
       },
@@ -414,14 +414,14 @@
         "question": "What common grip error leads to a stalemate where the choke feels tight but does not produce a tap?",
         "answer": "The most common grip error is placing the forearm straight across the throat horizontally rather than at a slight diagonal angle across the carotid line. A horizontal forearm often compresses the trachea centrally without adequately blocking both carotid arteries, producing discomfort and airway restriction without the rapid blood choke effect. The correction is to angle the wrist blade toward one carotid while using shoulder pressure to drive the opposite side of the neck into the bicep area, ensuring bilateral arterial compression.",
         "safety_critical": false,
-        "answer_line": "Horizontal forearm, not angled",
+        "answer_line": "Forearm laid flat across the throat",
         "distractors": {
           "plausible": [
-            "Grip too loose on the wrist",
-            "Wrong arm trapped in gift wrap"
+            "Elbow flared out from your ribs",
+            "Head not pinched to your chest"
           ],
           "trap": [
-            "Squeeze harder without angling"
+            "Let go of the head to re-grip"
           ]
         }
       },
@@ -556,8 +556,8 @@
         "answer_line": "Free arm nears neck, head shifts",
         "distractors": {
           "plausible": [
-            "Increased hook pressure only",
-            "Sudden burst of back pressure"
+            "Only the hooks squeeze tighter",
+            "Their legs clamp your waist"
           ],
           "trap": [
             "Wait until forearm is under chin"
@@ -568,14 +568,14 @@
         "question": "When should you tap to the Short Choke rather than continue defending?",
         "answer": "Tap immediately when the forearm is fully seated beneath your chin with the attacker's shoulder driving into the back of your head. At this stage, the bilateral carotid compression is locked and unconsciousness can occur within eight to twelve seconds. Continued defense after this point risks going unconscious before you can tap. There is no shame in tapping to a properly locked blood choke - the defensive window has passed.",
         "safety_critical": true,
-        "answer_line": "Forearm seated, shoulder driving",
+        "answer_line": "Forearm under chin, shoulder in",
         "distractors": {
           "plausible": [
-            "Once you feel any neck pressure",
-            "After ten seconds of struggle"
+            "As the arm first crosses your face",
+            "Whenever your breathing gets short"
           ],
           "trap": [
-            "Keep defending once it's locked"
+            "Ride it out until the grip slips"
           ]
         }
       },
@@ -586,8 +586,8 @@
         "answer_line": "Grip fight wrist, tuck, shrimp",
         "distractors": {
           "plausible": [
-            "Push opponent's hips away",
-            "Focus only on freeing trapped arm"
+            "Push their hips away with hand",
+            "Cover face with the free hand"
           ],
           "trap": [
             "Free trapped arm, ignore neck"

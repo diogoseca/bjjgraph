@@ -297,14 +297,14 @@
         "question": "What anatomical structures does the outside heel hook from ushiro ashi-garami primarily attack?",
         "answer": "The outside heel hook primarily attacks the knee's lateral ligament complex, including the LCL (lateral collateral ligament), and generates rotational stress on the ACL and MCL through lateral rotation of the heel. Secondary stress passes through the menisci and the ankle ligaments. The combined rotational and extension force can damage multiple structures simultaneously, which is why this submission is classified as extremely dangerous.",
         "safety_critical": true,
-        "answer_line": "LCL and rotational ACL/MCL stress",
+        "answer_line": "LCL with ACL/MCL rotational stress",
         "distractors": {
           "plausible": [
-            "Only the ankle ligaments",
-            "Just meniscus and cartilage"
+            "Ankle ligaments and joint capsule",
+            "Hamstring and calf attachments"
           ],
           "trap": [
-            "Achilles tendon only"
+            "Low injury risk, hold it longer"
           ]
         }
       },
@@ -319,7 +319,7 @@
             "Reach across opponent's body"
           ],
           "trap": [
-            "Grip square to opponent's hips"
+            "Drop leg control to re-grip"
           ]
         }
       },
@@ -330,11 +330,11 @@
         "answer_line": "Pry wedge, then switch submissions",
         "distractors": {
           "plausible": [
-            "Keep cranking the same angle",
-            "Abandon entanglement entirely"
+            "Wait for the boot to tire out",
+            "Abandon the entanglement entirely"
           ],
           "trap": [
-            "Force the heel hook harder"
+            "Free your legs to strip the boot"
           ]
         }
       },
@@ -345,11 +345,11 @@
         "answer_line": "5-7 sec, no sudden rotation",
         "distractors": {
           "plausible": [
-            "Apply as fast as possible",
-            "Wait for verbal tap only"
+            "About one second is plenty",
+            "Go slow only for white belts"
           ],
           "trap": [
-            "Snap it quick before they defend"
+            "Snap it through before they defend"
           ]
         }
       },
@@ -361,10 +361,10 @@
         "distractors": {
           "plausible": [
             "Release grip and reset position",
-            "Force original angle harder"
+            "Flatten out and stall for time"
           ],
           "trap": [
-            "Yank heel against the rotation"
+            "Open your legs to chase the heel"
           ]
         }
       },
@@ -375,11 +375,11 @@
         "answer_line": "Tensing, frantic push, heel gives",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "Loud tapping only counts"
+            "Their grips get stronger",
+            "Breathing slows and steadies"
           ],
           "trap": [
-            "Silence means it's safe to crank"
+            "Crank harder till you hear a pop"
           ]
         }
       },
@@ -390,11 +390,11 @@
         "answer_line": "Opponent turtles or grip stalls",
         "distractors": {
           "plausible": [
-            "Never abandon a started attack",
-            "Switch only after finishing fails"
+            "Switch only after the finish fails",
+            "Wait until they stand fully up"
           ],
           "trap": [
-            "Force rotation through resistance"
+            "Chase the heel, losing the legs"
           ]
         }
       },
@@ -405,11 +405,11 @@
         "answer_line": "Stop rotation, open grip, release",
         "distractors": {
           "plausible": [
-            "Release leg control first",
-            "Reverse the rotation to release"
+            "Unhook the entanglement first",
+            "Let go of everything at once"
           ],
           "trap": [
-            "Yank the leg free quickly"
+            "Yank the foot free fast"
           ]
         }
       },
@@ -436,10 +436,10 @@
         "distractors": {
           "plausible": [
             "Hips square to opponent's body",
-            "Hips perpendicular to the leg"
+            "Sit upright and pull with arms"
           ],
           "trap": [
-            "Twist hips away for more torque"
+            "Extend hips before the heel cup"
           ]
         }
       }
@@ -562,7 +562,7 @@
         "distractors": {
           "plausible": [
             "Sudden speed increase only",
-            "Opponent smiling confidently"
+            "They grab your collar tighter"
           ],
           "trap": [
             "Wait until pressure is already on"
@@ -576,11 +576,11 @@
         "answer_line": "Tap immediately, any signal",
         "distractors": {
           "plausible": [
-            "Try to power out of it",
-            "Wait to see if pain increases"
+            "A verbal call doesn't count",
+            "Freeze and hold still"
           ],
           "trap": [
-            "Rotate opposite to counter it"
+            "Yank the trapped leg out hard"
           ]
         }
       },
@@ -591,7 +591,7 @@
         "answer_line": "Boot defense, rotate, or counter",
         "distractors": {
           "plausible": [
-            "Wait passively for the finish",
+            "Push their head away with hands",
             "Grip fight the far arm only"
           ],
           "trap": [
@@ -621,11 +621,11 @@
         "answer_line": "Extraction stalled or energy low",
         "distractors": {
           "plausible": [
-            "Never accept turtle position",
-            "Only after five failed attempts"
+            "Only after grips are broken",
+            "Wait until they sit back fully"
           ],
           "trap": [
-            "Keep fighting until fully pinned"
+            "Straighten the leg to rip it free"
           ]
         }
       }

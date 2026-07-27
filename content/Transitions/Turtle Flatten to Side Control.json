@@ -242,7 +242,7 @@
             "45° lateral into far hip"
           ],
           "trap": [
-            "Drive weight through far shoulder"
+            "Reach across for their far arm"
           ]
         },
         "answer_line": "45° lateral into near hip"
@@ -250,14 +250,14 @@
       {
         "question": "Your opponent keeps their elbows tight to their knees in a strong defensive turtle — how do you create the opening for the flatten?",
         "answer": "Use upper body pressure to force a reaction. Drive your chest weight onto their shoulders at an angle, forcing them to post a hand or shift weight to one side to maintain balance. The moment they post or shift, they create a structural asymmetry that makes lateral flattening effective. Alternatively, threaten a back take or choke to force them to defend with their arms, which opens the hip line for the flatten grip. The key is making them react rather than trying to force the flatten against a perfectly set defensive structure.",
-        "answer_line": "Pressure to force a reaction",
+        "answer_line": "Chest pressure to force a post",
         "distractors": {
           "plausible": [
-            "Pry their elbows apart by hand",
-            "Wait for them to move first"
+            "Wait for them to tire out",
+            "Pull straight back on the belt"
           ],
           "trap": [
-            "Force the flatten against the base"
+            "Reach under for the far arm"
           ]
         }
       },
@@ -281,25 +281,25 @@
         "answer_line": "Follow the roll, take the back",
         "distractors": {
           "plausible": [
-            "Continue driving the flatten",
-            "Release grips and reset"
+            "Sprawl and wait out the roll",
+            "Reset grips before reacting"
           ],
           "trap": [
-            "Chase the flatten through the roll"
+            "Release the harness mid-roll"
           ]
         }
       },
       {
         "question": "Why is it critical to eliminate the pause between flattening the opponent and sliding to side control?",
         "answer": "Any pause gives the opponent a recovery window. A flattened opponent can immediately re-turtle by posting their elbows and knees, hip escape into half guard, or create frames to push you away. The flat-on-belly position is not inherently controllable — it only becomes dominant when you consolidate side control with crossface and underhook. The transition from flatten to side control must be one continuous motion because the opponent's escape options multiply with every second they have to reorganize their defensive structure.",
-        "answer_line": "Pause lets them re-turtle",
+        "answer_line": "Pausing lets them re-turtle",
         "distractors": {
           "plausible": [
-            "Pause lets them catch their breath",
-            "Pause resets your grip angle"
+            "Pausing tires your shoulders",
+            "Pausing loses your grip angle"
           ],
           "trap": [
-            "Pause to secure a tighter grip"
+            "Settle on top before passing"
           ]
         }
       },
@@ -309,11 +309,11 @@
         "answer_line": "Kimura on the posted arm",
         "distractors": {
           "plausible": [
-            "Switch straight to an armbar",
-            "Trap the arm for back mount"
+            "Peel their grip off the mat",
+            "Switch to a straight armbar"
           ],
           "trap": [
-            "Let go and reset the position"
+            "Release the crossface to grab it"
           ]
         }
       },
@@ -326,24 +326,24 @@
             "Knee wedges, no chest drive"
           ],
           "trap": [
-            "Drive your shoulder into their head"
+            "Hips back, push with both arms"
           ]
         },
-        "answer_line": "Knee wedge plus chest drive together"
+        "answer_line": "Knee wedge plus chest drive"
       },
       {
         "question": "When should you choose the turtle flatten over attempting a back take?",
         "answer": "Choose the flatten when hand fighting, sit-through threats, or a strong turtle base makes seatbelt control and hook insertion unreliable. It is also the right call when the opponent is better at turtle escapes than you are at back takes, and in competition when you need to advance position reliably rather than risk a scramble. If your back take attempt has been defended twice, switching to the flatten is strategically sound because it attacks a different axis of the opponent's defense.",
         "distractors": {
           "plausible": [
-            "When opponent is tired only",
+            "Only when they are tired",
             "Only in gi competition"
           ],
           "trap": [
             "Force the back take regardless"
           ]
         },
-        "answer_line": "Strong base beats a back take"
+        "answer_line": "When seatbelt control keeps failing"
       },
       {
         "question": "How does the direction of force application differ between gi and no-gi turtle flatten?",
@@ -351,10 +351,10 @@
         "distractors": {
           "plausible": [
             "Gi is push, no-gi is pull",
-            "No-gi needs looser contact"
+            "Angle changes to straight down"
           ],
           "trap": [
-            "Ease grip pressure in no-gi"
+            "Break contact to reposition"
           ]
         },
         "answer_line": "No-gi: push via chest, not pull"
@@ -365,11 +365,11 @@
         "answer_line": "Drive down through the shoulders",
         "distractors": {
           "plausible": [
-            "Drive harder at the same angle",
-            "Switch to a double leg takedown"
+            "Push harder on the same hip",
+            "Circle around to the far hip"
           ],
           "trap": [
-            "Pull both of their knees together"
+            "Reach back to pull their knees"
           ]
         }
       }
@@ -539,11 +539,11 @@
         "answer_line": "Strip the hand, kick hooks free",
         "distractors": {
           "plausible": [
-            "Keep rolling to force a scramble",
-            "Turn away from the underhook"
+            "Bridge and wait for the reset",
+            "Peel their bottom-side wrist"
           ],
           "trap": [
-            "Continue rotating to escape"
+            "Turn away from their chest"
           ]
         }
       },
@@ -557,7 +557,7 @@
             "Elbows flared out wide"
           ],
           "trap": [
-            "Hold the wide base permanently"
+            "Post a hand and lift your hips"
           ]
         }
       }

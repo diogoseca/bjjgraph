@@ -271,7 +271,7 @@
             "Wait for them to move first"
           ],
           "trap": [
-            "Grip fight until their arms tire"
+            "Lunge for the arm and get rolled"
           ]
         }
       },
@@ -327,7 +327,7 @@
             "Release the arm to block the turn"
           ],
           "trap": [
-            "Fight the rotation with force"
+            "Back off and let them recover guard"
           ]
         }
       },
@@ -341,7 +341,7 @@
             "Push down on their shoulder blade"
           ],
           "trap": [
-            "Muscle the whole arm across"
+            "Reach hard and get bridged over"
           ]
         }
       },
@@ -351,11 +351,11 @@
         "answer_line": "Convert to an armbar attack",
         "distractors": {
           "plausible": [
-            "Force the wrap through anyway",
-            "Reset grips and retry the wrap"
+            "Reset grips and retry the wrap",
+            "Push their arm back down to bend it"
           ],
           "trap": [
-            "Chase the Gift Wrap regardless"
+            "Force the wrap on a straight arm"
           ]
         }
       },
@@ -540,8 +540,8 @@
         "answer_line": "Shift to positional escape",
         "distractors": {
           "plausible": [
-            "Keep fighting to free the arm",
-            "Try to muscle the arm out"
+            "Keep yanking to free the arm",
+            "Bridge hard to buck them off"
           ],
           "trap": [
             "Turn away to create space"
@@ -554,11 +554,11 @@
         "answer_line": "During the grip transfer",
         "distractors": {
           "plausible": [
-            "Right after the wrap locks",
-            "Before wrist control even starts"
+            "The moment wrist control starts",
+            "Once back control is threatened"
           ],
           "trap": [
-            "Wait for the wrap to fully lock"
+            "Wait passively for a chance"
           ]
         }
       },

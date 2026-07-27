@@ -305,11 +305,11 @@
         "answer_line": "Both carotid arteries",
         "distractors": {
           "plausible": [
-            "Carotid arteries and trachea",
-            "Jugular veins on both sides"
+            "The jugular veins, both sides",
+            "The windpipe (an air choke)"
           ],
           "trap": [
-            "Trachea and windpipe"
+            "The spine — it's a neck crank"
           ]
         }
       },
@@ -324,7 +324,7 @@
             "Abandon back for arm-triangle"
           ],
           "trap": [
-            "Crank head backward hard"
+            "Two-hand chin, drop harness"
           ]
         }
       },
@@ -362,14 +362,14 @@
         "question": "Why must the figure-four lock be positioned behind the head rather than behind the neck?",
         "answer": "The hand behind the head acts as a wedge that pushes the opponent's head forward into the choking forearm, creating a closed structural system. When locked behind the neck instead, the opponent can pull the choking arm downward because there is no counterpressure driving their neck into the forearm. The head-behind position makes the choke self-tightening — any defensive movement pushes the neck deeper into the compression rather than creating escape angles.",
         "safety_critical": false,
-        "answer_line": "Head hand wedges it forward",
+        "answer_line": "Head hand wedges neck forward",
         "distractors": {
           "plausible": [
             "Behind neck locks tighter",
             "Behind neck is more comfortable"
           ],
           "trap": [
-            "Behind neck, easier to grip"
+            "Behind neck, they strip the arm"
           ]
         }
       },
@@ -670,11 +670,11 @@
         "question": "What is the correct direction to strip the choking arm once it has threaded under your chin but the figure-four is not yet locked?",
         "answer": "Strip the choking arm upward toward your chin and over the top of your head, or peel it laterally away from the side of your neck using two-on-one control. Never pull the forearm downward toward your chest, as this motion drags the blade of the forearm across the carotid arteries and can actually deepen the choke. The stripping direction must move the forearm away from the arterial targets, not across them. Think of peeling the arm off like removing a scarf over your head rather than pulling it down around your neck.",
         "safety_critical": false,
-        "answer_line": "Strip upward, over the head",
+        "answer_line": "Strip up and over your head",
         "distractors": {
           "plausible": [
-            "Peel straight out sideways",
-            "Push the elbow forward"
+            "Push the elbow forward",
+            "Pry it with one hand"
           ],
           "trap": [
             "Pull the forearm down hard"

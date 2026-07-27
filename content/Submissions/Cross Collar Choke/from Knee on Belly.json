@@ -289,11 +289,11 @@
         "answer_line": "Both carotid arteries",
         "distractors": {
           "plausible": [
-            "Trachea and windpipe",
-            "Only one carotid artery"
+            "Airway and windpipe",
+            "One side of the neck only"
           ],
           "trap": [
-            "Crushes the trachea"
+            "Crank the throat until they tap"
           ]
         }
       },
@@ -304,8 +304,8 @@
         "answer_line": "Spike pressure, re-insert grip",
         "distractors": {
           "plausible": [
-            "Re-grip same angle immediately",
-            "Switch to armbar right away"
+            "Re-grip the same angle at once",
+            "Sit them up to reset grips"
           ],
           "trap": [
             "Drop KOB pressure to regroup"
@@ -319,11 +319,11 @@
         "answer_line": "Knuckles reach jaw level",
         "distractors": {
           "plausible": [
-            "Knuckles press front throat",
-            "Grip anywhere on the collar"
+            "Grip set at chest level",
+            "Thumb hooked outside the lapel"
           ],
           "trap": [
-            "Fist against the trachea"
+            "Drive your fist into the windpipe"
           ]
         }
       },
@@ -334,11 +334,11 @@
         "answer_line": "Occupies hands, pins them flat",
         "distractors": {
           "plausible": [
-            "Only needed for first grip",
-            "Speeds up the choke itself"
+            "Only matters for the first grip",
+            "Makes the squeeze faster"
           ],
           "trap": [
-            "Drop to finish once grip set"
+            "Drop to finish with one grip"
           ]
         }
       },
@@ -349,11 +349,11 @@
         "answer_line": "Push head back, spike KOB",
         "distractors": {
           "plausible": [
-            "Abandon the choke immediately",
-            "Pull them in with grip"
+            "Abandon the choke and stand up",
+            "Wait for them to settle back"
           ],
           "trap": [
-            "Keep squeezing, ignore the sit-up"
+            "Let them sit up into you"
           ]
         }
       },
@@ -364,11 +364,11 @@
         "answer_line": "Pull elbows to your hips",
         "distractors": {
           "plausible": [
-            "Squeeze hands together hard",
-            "Pull elbows straight up"
+            "Twist both wrists inward",
+            "Pull elbows straight upward"
           ],
           "trap": [
-            "Squeeze toward the centerline"
+            "Crush hands into the windpipe"
           ]
         }
       },
@@ -379,11 +379,11 @@
         "answer_line": "Adds bodyweight, pins flat",
         "distractors": {
           "plausible": [
-            "Frees both hands to grip",
-            "Increases arm choke speed"
+            "Lets you free both hands",
+            "Gives a faster arm squeeze"
           ],
           "trap": [
-            "Stay high, arms alone finish"
+            "Stand tall and pull the collar"
           ]
         }
       },
@@ -394,11 +394,11 @@
         "answer_line": "Release grips, elevate legs",
         "distractors": {
           "plausible": [
-            "Shake them to wake up",
-            "Keep light pressure, check"
+            "Sit them upright right away",
+            "Splash water on their face"
           ],
           "trap": [
-            "Pour water on their face"
+            "Keep the choke on and check"
           ]
         }
       },
@@ -409,11 +409,11 @@
         "answer_line": "Preload grip during transition",
         "distractors": {
           "plausible": [
-            "Wait for KOB to force grip",
-            "Attack same angle repeatedly"
+            "Wait until they tire out",
+            "Attack the same angle again"
           ],
           "trap": [
-            "Abandon choke, pass guard again"
+            "Force the grip with both hands"
           ]
         }
       },
@@ -424,11 +424,11 @@
         "answer_line": "Feed grips deeper, lock wrists",
         "distractors": {
           "plausible": [
-            "Use thumb-over grip instead",
-            "Drop to finish immediately"
+            "Pinch the lapel with thumbs",
+            "Finish before setting grips"
           ],
           "trap": [
-            "Grip lighter to avoid slipping"
+            "Choke on the bare neck skin"
           ]
         }
       }
@@ -572,11 +572,11 @@
         "answer_line": "Tap at first tunnel vision",
         "distractors": {
           "plausible": [
-            "Wait to see if it fully locks",
-            "Try to power through it"
+            "Only once you can't breathe",
+            "After two failed hip escapes"
           ],
           "trap": [
-            "Wait until you go unconscious"
+            "Ride it out and hope they gas"
           ]
         }
       },
@@ -584,14 +584,14 @@
         "question": "Why is defending the first collar grip more important than escaping the knee on belly position?",
         "answer": "Once both collar grips are established deep, the choke becomes extremely difficult to defend regardless of your positional escape attempts. The attacker can drop to a finishing position and complete the choke faster than you can strip two established grips. However, a single collar grip alone cannot finish the choke. Stripping the first grip resets the entire attack and gives you time to work on positional escape from KOB without submission threat. Grip defense is time-critical; positional escape is important but secondary.",
         "safety_critical": false,
-        "answer_line": "Grip defense is time-critical",
+        "answer_line": "One grip alone cannot finish",
         "distractors": {
           "plausible": [
-            "Escaping KOB is more urgent",
-            "Both equally important always"
+            "Knee pressure is the real threat",
+            "Grips strip easily once both set"
           ],
           "trap": [
-            "Ignore grips, focus on escape"
+            "Turn belly-down to escape"
           ]
         }
       },
@@ -602,11 +602,11 @@
         "answer_line": "Two-on-one strip that grip now",
         "distractors": {
           "plausible": [
-            "Address the knee pressure first",
-            "Wait for second grip attempt"
+            "Wait for the second grip",
+            "Bridge hard to unseat the knee"
           ],
           "trap": [
-            "Focus on knee, ignore the grip"
+            "Push the knee off with both hands"
           ]
         }
       },

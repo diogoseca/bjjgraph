@@ -289,14 +289,14 @@
       {
         "question": "Why is this escape contraindicated when the opponent has a body triangle secured?",
         "answer": "The body triangle locks your hips in place and prevents the inversion necessary for the forward roll. Attempting to roll against a body triangle either fails completely or can result in injury to your ribs or spine. The body triangle must be addressed through other escapes before any rolling technique becomes viable.",
-        "answer_line": "Locks hips, risks injury",
+        "answer_line": "Locks hips, risks spine injury",
         "distractors": {
           "plausible": [
-            "Only makes escape slower",
-            "Prevents grip breaks only"
+            "Just slows the escape down",
+            "Only restricts your breathing"
           ],
           "trap": [
-            "Force the roll anyway"
+            "Safe to just power the roll"
           ]
         }
       },

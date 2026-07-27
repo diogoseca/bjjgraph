@@ -331,14 +331,14 @@
         "question": "Why is chest expansion more effective than arm squeezing for finishing the Short Choke?",
         "answer": "Chest expansion uses the large muscles of the back and the structural rigidity of the ribcage to generate sustained inward pressure through the collar grips, producing powerful bilateral compression without forearm fatigue. Arm squeezing relies on smaller forearm and bicep muscles that tire rapidly and generate less total force. The chest expansion mechanic also maintains your structural connection to the opponent's back, preserving positional control throughout the finish.",
         "safety_critical": false,
-        "answer_line": "Chest expansion, not arms",
+        "answer_line": "Expand chest, engage back muscles",
         "distractors": {
           "plausible": [
             "Squeeze harder with biceps",
-            "Pull the two collars apart"
+            "Pull collars apart"
           ],
           "trap": [
-            "Jerk collars with arm strength"
+            "Release hooks to squeeze"
           ]
         }
       },
@@ -365,10 +365,10 @@
         "distractors": {
           "plausible": [
             "Force the grip through the chin",
-            "Abandon collar, switch to RNC"
+            "Wait for the chin to lift"
           ],
           "trap": [
-            "Yank collar with full strength"
+            "Abandon back, spin to mount"
           ]
         }
       },
@@ -376,14 +376,14 @@
         "question": "During the finish, what tells you the Short Choke has passed the point where the opponent can still escape?",
         "answer": "Once both collar grips are past the neck centerline, your elbows are pinned to your ribs, and the opponent's hands have stopped fighting your wrists and gone passive or started slapping, the choke is effectively locked. At that stage the carotids are already occluded and the defender cannot create the space needed to insert fingers or strip a grip. Maintain steady chest expansion rather than re-gripping, and stay alert for the tap, which usually arrives within one to three seconds of full compression.",
         "safety_critical": false,
-        "answer_line": "Hands go passive, stop fighting",
+        "answer_line": "Hands go limp and stop fighting",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "Grip simply feels tight"
+            "Opponent's face flushes red",
+            "The collar simply feels snug"
           ],
           "trap": [
-            "Re-grip for a tighter finish"
+            "Loosen a grip to sink it deeper"
           ]
         }
       },
@@ -581,10 +581,10 @@
         "distractors": {
           "plausible": [
             "Pull the collar off your neck",
-            "Fight the fabric directly"
+            "Tuck your chin down hard"
           ],
           "trap": [
-            "Yank your own neck free"
+            "Turn away to make space"
           ]
         }
       },
@@ -596,10 +596,10 @@
         "distractors": {
           "plausible": [
             "Turn away from the grip",
-            "Turn toward open space"
+            "Escape straight backward"
           ],
           "trap": [
-            "Spin away, arch your back"
+            "Bridge hard to buck them off"
           ]
         }
       }

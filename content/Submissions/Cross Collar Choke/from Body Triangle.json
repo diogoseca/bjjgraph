@@ -295,11 +295,11 @@
         "answer_line": "Compounds pressure, splits attention",
         "distractors": {
           "plausible": [
-            "Only provides positional control",
-            "Release it to focus on the choke"
+            "Just prevents them from bridging",
+            "Mainly a resting hold for the legs"
           ],
           "trap": [
-            "Loosen triangle to sink choke deeper"
+            "Unhook legs to chase a deeper grip"
           ]
         }
       },
@@ -310,11 +310,11 @@
         "answer_line": "Neck-side tightness, no gagging",
         "distractors": {
           "plausible": [
-            "Coughing means it's working",
-            "Pressure builds on front of throat"
+            "Coughing means it is working",
+            "Face color change is unreliable"
           ],
           "trap": [
-            "Wait for opponent to gasp loudly"
+            "Crank across the throat harder"
           ]
         }
       },
@@ -341,10 +341,10 @@
         "distractors": {
           "plausible": [
             "Squeeze the hands together harder",
-            "Pull elbows straight up and back"
+            "Drive elbows straight up and back"
           ],
           "trap": [
-            "Rely on grip and forearm strength"
+            "Sit up to muscle the finish"
           ]
         }
       },
@@ -355,8 +355,8 @@
         "answer_line": "Squeeze triangle, add jaw pressure",
         "distractors": {
           "plausible": [
-            "Pry the chin up with both hands",
-            "Grip collar over the shoulder"
+            "Wait for the chin tuck to tire",
+            "Pry the chin with both hands"
           ],
           "trap": [
             "Release triangle to reposition"
@@ -370,8 +370,8 @@
         "answer_line": "Apply slow, 3-5 seconds minimum",
         "distractors": {
           "plausible": [
-            "Speed doesn't matter much here",
-            "Apply moderate, 1-2 seconds"
+            "Match the pace of live rolling",
+            "One-count squeeze is enough"
           ],
           "trap": [
             "Full speed lets partner react faster"
@@ -518,11 +518,11 @@
         "answer_line": "Tap early - verbal, hand, or foot",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only when vision blurs"
+            "Only a mat tap counts as valid",
+            "Save the verbal tap for last"
           ],
           "trap": [
-            "Try to fight through the pressure"
+            "Ride it out and look for escape"
           ]
         }
       },
@@ -533,11 +533,11 @@
         "answer_line": "Collar choke is the immediate threat",
         "distractors": {
           "plausible": [
-            "Both are equal priority always",
-            "Escape the position, ignore collar"
+            "Both dangers rank equally always",
+            "Body triangle can submit you first"
           ],
           "trap": [
-            "Focus on triangle escape first"
+            "Peel the legs while collar sets"
           ]
         }
       },
@@ -549,10 +549,10 @@
         "distractors": {
           "plausible": [
             "Pull straight back and away",
-            "Push down on opponent's hips"
+            "Bridge and buck to shake them off"
           ],
           "trap": [
-            "Power out using pure strength"
+            "Stall until you feel dizzy"
           ]
         }
       },
@@ -563,11 +563,11 @@
         "answer_line": "One hand always guards the neck",
         "distractors": {
           "plausible": [
-            "Commit both hands to the collar",
-            "Commit both hands to the RNC"
+            "Chase whichever grip moves last",
+            "Turn away to hide the neck"
           ],
           "trap": [
-            "Ignore the RNC, focus collar only"
+            "Bury both hands on the choking arm"
           ]
         }
       },
@@ -593,11 +593,11 @@
         "answer_line": "Turn when both hands grip collar",
         "distractors": {
           "plausible": [
-            "Always turn in immediately",
-            "Turn as soon as one grip is set"
+            "Never rotate, only strip grips",
+            "Rotate the instant one grip lands"
           ],
           "trap": [
-            "Turn against a strong seatbelt hold"
+            "Spin against a strong seatbelt"
           ]
         }
       },

@@ -284,7 +284,7 @@
             "Wrist joint rotation"
           ],
           "trap": [
-            "Biceps tendon primarily"
+            "Twist the wrist to force a tap"
           ]
         }
       },
@@ -299,7 +299,7 @@
             "Attacker's hips block posture"
           ],
           "trap": [
-            "Opponent can't grip sleeves"
+            "Let them stack, then re-rotate"
           ]
         }
       },
@@ -311,10 +311,10 @@
         "distractors": {
           "plausible": [
             "Wrist grip shifts to figure-four",
-            "Release fully, then regrip"
+            "Both hands re-grip the elbow"
           ],
           "trap": [
-            "Switch to a collar grip"
+            "Release the arm to regrip fast"
           ]
         }
       },
@@ -352,14 +352,14 @@
         "question": "Why must hip extension pressure be applied slowly during the belly down finish?",
         "answer": "The belly down position generates significantly more mechanical advantage than a standard supine armbar because the attacker's full body weight reinforces the hip extension. This means the elbow can reach its breaking point much faster than practitioners expect. Applying pressure slowly gives the opponent adequate time to recognize the danger and tap before ligament damage occurs. Jerking or spiking the arm in this position frequently causes serious elbow injuries including ulnar collateral ligament tears.",
         "safety_critical": true,
-        "answer_line": "Prevents injury, allows tap time",
+        "answer_line": "Gives time to tap before damage",
         "distractors": {
           "plausible": [
-            "Conserves attacker's energy",
-            "Stops the opponent's stack"
+            "Stops the opponent from stacking",
+            "Keeps the belly-down base heavy"
           ],
           "trap": [
-            "Speed up before they escape"
+            "Rip it fast before they escape"
           ]
         }
       },
@@ -385,11 +385,11 @@
         "answer_line": "Omoplata, triangle, back take",
         "distractors": {
           "plausible": [
-            "Kimura into straight armbar",
-            "Reset base back to guard"
+            "Wrist lock off the same grip",
+            "Collar drag to a single leg"
           ],
           "trap": [
-            "Abandon guard, stand and pass"
+            "Let go and stand to pass"
           ]
         }
       }
@@ -510,8 +510,8 @@
         "answer_line": "Hip escape is the earliest cue",
         "distractors": {
           "plausible": [
-            "Leg swinging over head first",
-            "Feel wrist grip change first"
+            "They flatten out and posture up",
+            "Their collar grip suddenly tightens"
           ],
           "trap": [
             "Wait for full rotation to react"
@@ -570,8 +570,8 @@
         "answer_line": "Fights the fulcrum; use circles",
         "distractors": {
           "plausible": [
-            "Straight pull is more efficient",
-            "Circular pulls risk the shoulder"
+            "Straight pulls just tire your grip",
+            "Circles are only for wrist locks"
           ],
           "trap": [
             "Yank the arm free with force"

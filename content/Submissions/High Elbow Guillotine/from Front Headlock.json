@@ -307,7 +307,7 @@
             "Relies on trachea pressure instead"
           ],
           "trap": [
-            "Pull their head down to your chest"
+            "Crank the neck to break the tuck"
           ]
         }
       },
@@ -318,11 +318,11 @@
         "answer_line": "Elbow above shoulder, hips locked",
         "distractors": {
           "plausible": [
-            "Opponent's face turns red",
-            "They stop struggling completely"
+            "Opponent's face flushing red",
+            "Both your hands are clasped"
           ],
           "trap": [
-            "Loosen grip to check for a tap"
+            "Waiting until they go limp"
           ]
         }
       },
@@ -333,11 +333,11 @@
         "answer_line": "Apply gradually, release on tap",
         "distractors": {
           "plausible": [
-            "Ask verbally before releasing",
-            "Release only once you see a tap"
+            "Watch only for hand taps",
+            "Talk them through the finish"
           ],
           "trap": [
-            "Spike pressure fast to finish"
+            "Spike the elbow to finish fast"
           ]
         }
       },
@@ -364,10 +364,10 @@
         "distractors": {
           "plausible": [
             "Loosen grip and reset the angle",
-            "Switch to a different choke"
+            "Drop your hips flat to re-anchor"
           ],
           "trap": [
-            "Let them posture, then re-time it"
+            "Open your legs to re-grip higher"
           ]
         }
       },
@@ -390,14 +390,14 @@
         "question": "How do you manage energy conservation during an extended finishing attempt from this position?",
         "answer": "Rely on skeletal structure and body positioning rather than muscular tension for maintaining the position. Your grip maintains the lock while your hips and core generate the finishing force—this is sustainable because large muscle groups fatigue far slower than forearms. Make micro-adjustments rather than large movements. Use your legs for base and control, saving grip strength for maintaining the lock rather than active squeezing. If the finish has not come within 15-20 seconds, transition to an alternative attack rather than depleting your grip.",
         "safety_critical": false,
-        "answer_line": "Use structure and hips, not grip",
+        "answer_line": "Use skeletal structure and hips",
         "distractors": {
           "plausible": [
-            "Squeeze continuously at max power",
-            "Grip harder to speed the finish"
+            "Maintain max forearm tension",
+            "Take short grip breaks to rest"
           ],
           "trap": [
-            "Muscle through with forearm strength"
+            "Sit up and crank with your arms"
           ]
         }
       },
@@ -408,11 +408,11 @@
         "answer_line": "Bait defense, then switch angle",
         "distractors": {
           "plausible": [
-            "Rush the high elbow immediately",
-            "Announce the choke to intimidate"
+            "Attack the high elbow first",
+            "Hold front headlock and stall"
           ],
           "trap": [
-            "Force the finish from the start"
+            "Pull guard with no grip control"
           ]
         }
       },
@@ -424,10 +424,10 @@
         "distractors": {
           "plausible": [
             "Only posture recovery matters",
-            "Tapping is their only real option"
+            "Just a bridge and hip escape"
           ],
           "trap": [
-            "Ignore defenses, just squeeze harder"
+            "Squeeze through shoulder pressure"
           ]
         }
       }
@@ -557,11 +557,11 @@
         "answer_line": "Elbow rises, grip reinforced",
         "distractors": {
           "plausible": [
-            "Sudden increase in overall speed",
-            "Hands move toward your face"
+            "Sudden increase in their speed",
+            "Hands slide toward your face"
           ],
           "trap": [
-            "They relax their grip briefly"
+            "Wait until the grip loosens"
           ]
         }
       },
@@ -572,11 +572,11 @@
         "answer_line": "Tap early with multiple signals",
         "distractors": {
           "plausible": [
-            "Wait to see if you can escape",
-            "Tap only once compression is full"
+            "Tap the mat, not your partner",
+            "Tap softly to avoid overreacting"
           ],
           "trap": [
-            "Try to power out before tapping"
+            "Wait until you cannot breathe"
           ]
         }
       },
@@ -587,8 +587,8 @@
         "answer_line": "Posture early, frame, then tap",
         "distractors": {
           "plausible": [
-            "Wait until fully locked to defend",
-            "Pull your head back at every stage"
+            "Pull your head straight back",
+            "Grip both their wrists and hold"
           ],
           "trap": [
             "Relax and ride out the pressure"
@@ -603,10 +603,10 @@
         "distractors": {
           "plausible": [
             "It exposes you to a guard pass",
-            "It wastes energy without effect"
+            "It tires your neck muscles fast"
           ],
           "trap": [
-            "It signals surrender to opponent"
+            "Nothing—rip backward even harder"
           ]
         }
       }

@@ -320,14 +320,14 @@
         "question": "What is the minimum time you should take to apply finishing pressure on an americana in training, and why?",
         "answer": "You should take a minimum of 3-5 seconds to apply finishing pressure on an americana in training. This slow, controlled application allows your training partner time to recognize the danger, assess whether to defend or tap, and signal submission before injury occurs. The shoulder joint is particularly vulnerable to rotator cuff tears, and sudden or jerking movements can cause serious injuries that require months of recovery or even surgery. Training is about learning and improvement, not injuring partners.",
         "safety_critical": true,
-        "answer_line": "3-5 seconds, lets partner tap",
+        "answer_line": "3-5 seconds so partner can tap",
         "distractors": {
           "plausible": [
-            "1-2 seconds, still safe enough",
-            "As fast as possible to finish"
+            "1-2 seconds, still controlled",
+            "No set time if you feel control"
           ],
           "trap": [
-            "Jerk it quick before they escape"
+            "Snap it on before they defend"
           ]
         }
       },
@@ -341,7 +341,7 @@
             "Bicep tendon, compression"
           ],
           "trap": [
-            "Wrist joint, forced flexion"
+            "Muscle only, safe to crank fast"
           ]
         },
         "answer_line": "Shoulder, forced external rotation"
@@ -427,11 +427,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Switch fully to kimura grip",
-            "Loosen grip to reposition"
+            "Push wrist up toward their head",
+            "Lean back to add body leverage"
           ],
           "trap": [
-            "Release wrist and regrip"
+            "Release wrist and regrip mid-fight"
           ]
         },
         "answer_line": "Tighten clamp, chest on shoulder"
@@ -442,11 +442,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Grunting means push harder now",
-            "Tensing means they're escaping"
+            "Rigid body means escape is coming",
+            "Release everything at first noise"
           ],
           "trap": [
-            "Increase pressure to force the tap"
+            "Crank harder to force a fast tap"
           ]
         },
         "answer_line": "Grunting, tensing - hold, don't add"
@@ -472,14 +472,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Elbow bent past 90 degrees",
-            "Wrist starts to slip loose"
+            "Their arm bent past ninety",
+            "You feel their grip weaken"
           ],
           "trap": [
-            "They stop struggling briefly"
+            "They go still, so ease your weight"
           ]
         },
-        "answer_line": "Shoulder pinned, figure-four locked"
+        "answer_line": "Shoulder pinned, elbow low, lock set"
       },
       {
         "question": "In competition, how do you finish the americana quickly while maintaining safety principles, and what's different from training application?",
@@ -627,11 +627,11 @@
         "answer_line": "Attack grip, pull wrist to chest",
         "distractors": {
           "plausible": [
-            "Push opponent's chest away",
-            "Grab their wrist with both hands"
+            "Bridge hard to shake them off",
+            "Cross your arms over your face"
           ],
           "trap": [
-            "Push them off with both arms"
+            "Extend both arms to push them off"
           ]
         }
       },
@@ -642,11 +642,11 @@
         "answer_line": "Bridge into their narrow, weak base",
         "distractors": {
           "plausible": [
-            "Bridge away to create arm space",
-            "Bridge toward their strong post side"
+            "Buck away to make elbow space",
+            "Shrimp away from the trapped arm"
           ],
           "trap": [
-            "Bridge straight up with both legs"
+            "Turn away to protect the arm"
           ]
         }
       },
@@ -657,11 +657,11 @@
         "answer_line": "Straighten arm, clasp hands, bridge",
         "distractors": {
           "plausible": [
-            "Tap early to avoid any risk",
-            "Push their hips off with free hand"
+            "Push their hips off to make space",
+            "Buck wildly until the lock slips"
           ],
           "trap": [
-            "Yank the trapped arm straight out"
+            "Explode the elbow out with a jerk"
           ]
         }
       },
@@ -688,7 +688,7 @@
         "distractors": {
           "plausible": [
             "Cross both arms over your chest",
-            "Grip your own lapels to defend"
+            "Reach up to grab wrist control"
           ],
           "trap": [
             "Straight-arm push on the chest"

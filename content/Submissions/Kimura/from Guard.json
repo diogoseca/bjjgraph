@@ -324,7 +324,7 @@
         "distractors": {
           "plausible": [
             "1-2 seconds is quick enough",
-            "Slow 10+ second squeeze"
+            "Lock fast, then hold it static"
           ],
           "trap": [
             "Snap it on fast for the tap"
@@ -342,7 +342,7 @@
             "Squares hips for more power"
           ],
           "trap": [
-            "Stay face-to-face, no angle"
+            "Open guard and square up"
           ]
         }
       },
@@ -353,11 +353,11 @@
         "answer_line": "Stop, support, let them recover",
         "distractors": {
           "plausible": [
-            "Release grip instantly",
+            "Let go instantly, arm drops",
             "Ask if they're okay first"
           ],
           "trap": [
-            "Ease off slowly, hold position"
+            "Keep cranking for a second tap"
           ]
         }
       },
@@ -382,11 +382,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Force the figure-four through",
+            "Hold grip and wait it out",
             "Pull straight back for armbar"
           ],
           "trap": [
-            "Yank the arm to strip grip"
+            "Open guard to muscle the grip"
           ]
         },
         "answer_line": "Sweep, switch sub, break grip"
@@ -397,14 +397,14 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Only the rotator cuff at risk",
-            "Recovery under a month"
+            "Just muscle strain, days off",
+            "Elbow ligaments, 2 weeks rest"
           ],
           "trap": [
-            "Minor risk, crank it quickly"
+            "Low risk, crank it fast"
           ]
         },
-        "answer_line": "Rotator cuff, capsule, labrum"
+        "answer_line": "Cuff, capsule, labrum; 3-12 months"
       },
       {
         "question": "Describe the Kimura trap concept and how it transforms a defended submission into offensive opportunities?",
@@ -416,10 +416,10 @@
             "Release grip once defended"
           ],
           "trap": [
-            "Force the submission regardless"
+            "Crank until they roll on top"
           ]
         },
-        "answer_line": "Grip is control, always attack"
+        "answer_line": "Grip is control, keep attacking"
       },
       {
         "question": "Your opponent begins to posture up while you have a partially secured Kimura grip - what adjustment prevents escape and maintains offensive pressure?",
@@ -442,11 +442,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Grip their sleeve instead",
-            "Speed up the rotation now"
+            "Yank harder with the top hand",
+            "Straighten arms for more reach"
           ],
           "trap": [
-            "Force through with loose grip"
+            "Open guard to chase the arm"
           ]
         },
         "answer_line": "Deepen grip, clamp elbows to ribs"
@@ -457,14 +457,14 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Once the figure-four grip forms",
-            "Once opponent stops moving"
+            "Figure-four grip is closed",
+            "Opponent stops struggling"
           ],
           "trap": [
-            "Once their arm fully straightens"
+            "Relax the elbow pin to rotate"
           ]
         },
-        "answer_line": "Elbow pinned, angle set, 45-60°"
+        "answer_line": "Elbow pinned, hips 90°, past 45°"
       },
       {
         "question": "How do you distinguish between productive resistance and dangerous structural failure during Kimura application?",
@@ -472,11 +472,11 @@
         "safety_critical": true,
         "distractors": {
           "plausible": [
-            "Any resistance means keep going",
-            "Screaming is the only stop sign"
+            "Trembling means damage started",
+            "Verbal complaints are the signal"
           ],
           "trap": [
-            "Push through felt grinding"
+            "Crank on through a felt pop"
           ]
         },
         "answer_line": "Steady fade vs pops or sudden give"
@@ -487,11 +487,11 @@
         "safety_critical": false,
         "distractors": {
           "plausible": [
-            "Full speed the whole exchange",
+            "Skip grips, rely on raw power",
             "Same slow pace as drilling"
           ],
           "trap": [
-            "Snap fast to beat the clock"
+            "Snap the rotation to beat time"
           ]
         },
         "answer_line": "Faster grips, controlled finish"
@@ -649,8 +649,8 @@
         "answer_line": "Drive the arm down, not back",
         "distractors": {
           "plausible": [
-            "Pull the arm to your chest",
-            "Curl the arm toward your face"
+            "Point the thumb at the ceiling",
+            "Pull the elbow high and away"
           ],
           "trap": [
             "Yank the arm back to strip it"
@@ -664,11 +664,11 @@
         "answer_line": "Break the grip, not just defend",
         "distractors": {
           "plausible": [
-            "Only defend shoulder rotation",
-            "Survive, then counter-attack"
+            "Strip only the finishing hand",
+            "Keep both arms tight and wait"
           ],
           "trap": [
-            "Wait out the clock passively"
+            "Roll forward away from the grip"
           ]
         }
       },

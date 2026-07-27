@@ -433,11 +433,11 @@
       "answer_line": "Rushing finishes before control",
       "distractors": {
         "plausible": [
-          "Cycling positions too slowly",
-          "Ignoring leg entanglements"
+          "Ignoring leg entanglement entries",
+          "Cycling positions too slowly"
         ],
         "trap": [
-          "Chase every early tap chance"
+          "Trusting the chain too much"
         ]
       }
     },

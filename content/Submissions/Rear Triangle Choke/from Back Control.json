@@ -309,10 +309,10 @@
         "distractors": {
           "plausible": [
             "Throw leg over, then angle hips",
-            "Any angle works, just squeeze"
+            "Square up first, then squeeze"
           ],
           "trap": [
-            "Stay square, force the leg over"
+            "Drop both hooks to swing leg over"
           ]
         }
       },
@@ -323,11 +323,11 @@
         "answer_line": "4-6 seconds for a safety window",
         "distractors": {
           "plausible": [
-            "2-3 seconds is enough",
-            "Match competition speed"
+            "Half that time is plenty",
+            "Speed is fine if they can tap"
           ],
           "trap": [
-            "Snap it on fast like a comp"
+            "Crank it fast, they'll tap"
           ]
         }
       },
@@ -339,10 +339,10 @@
         "distractors": {
           "plausible": [
             "Far-side arm, trap it loosely",
-            "Either arm, doesn't matter which"
+            "Whichever arm is easiest to grab"
           ],
           "trap": [
-            "Let the arm slide free once locked"
+            "Release the arm to re-grip the neck"
           ]
         }
       },
@@ -384,10 +384,10 @@
         "distractors": {
           "plausible": [
             "It's the primary back attack",
-            "Only works if triangle fails first"
+            "Set it up before any RNC threat"
           ],
           "trap": [
-            "Abandon RNC to hunt triangle"
+            "Abandon back control to force it"
           ]
         }
       },
@@ -402,7 +402,7 @@
             "Muscle their head back down"
           ],
           "trap": [
-            "Fight their posture with legs only"
+            "Let them stand up with you attached"
           ]
         }
       },
@@ -428,11 +428,11 @@
         "answer_line": "Ankle locked, arm tight, 90° hips",
         "distractors": {
           "plausible": [
-            "Just knees touching is enough",
-            "Any squeeze reaction confirms it"
+            "Knees pinched hard together",
+            "Opponent has stopped moving"
           ],
           "trap": [
-            "Lock the ankle, skip arm control"
+            "Squeeze before trapping the elbow"
           ]
         }
       },
@@ -443,11 +443,11 @@
         "answer_line": "Hold until ref stops, then release",
         "distractors": {
           "plausible": [
-            "Release early to be safe",
-            "Ask them if they're ok first"
+            "Let go early to be safe",
+            "Ease off and take the points"
           ],
           "trap": [
-            "Keep squeezing past ref's signal"
+            "Squeeze on after the whistle"
           ]
         }
       },
@@ -477,7 +477,7 @@
             "Squeezing knees hard alone"
           ],
           "trap": [
-            "Release the arm once legs lock"
+            "Open your legs to fix the angle"
           ]
         }
       }
@@ -606,11 +606,11 @@
         "answer_line": "Block the leg during transition",
         "distractors": {
           "plausible": [
-            "Wait until triangle fully locks",
-            "Defend after the choke starts"
+            "Wait for the lock, then bridge",
+            "Strip the choking hand first"
           ],
           "trap": [
-            "Turtle up and hide the neck"
+            "Turn away and give up your back"
           ]
         }
       },
@@ -621,11 +621,11 @@
         "answer_line": "Walk arm to hip, elbow bent",
         "distractors": {
           "plausible": [
-            "Yank the arm straight out fast",
-            "Push the elbow straight to escape"
+            "Grip their ankle and pull down",
+            "Wait for them to tire, then work"
           ],
           "trap": [
-            "Extend arm fully, then pull hard"
+            "Straighten the arm and yank it out"
           ]
         }
       },
@@ -636,8 +636,8 @@
         "answer_line": "Tuck chin, peel ankle, stack hips",
         "distractors": {
           "plausible": [
-            "Pull on their leg with both hands",
-            "Wait it out, stay relaxed"
+            "Pull the leg with both hands",
+            "Bridge backward hard"
           ],
           "trap": [
             "Fight to posture up straight"
@@ -666,11 +666,11 @@
         "answer_line": "Arm isolation plus hip shift",
         "distractors": {
           "plausible": [
-            "Only watch for hook release",
-            "Only watch for weight shift"
+            "Choking arm digging in deeper",
+            "Both hooks squeezing tighter"
           ],
           "trap": [
-            "Ignore it, RNC defense is safe"
+            "Reach up to strip the choking arm"
           ]
         }
       }

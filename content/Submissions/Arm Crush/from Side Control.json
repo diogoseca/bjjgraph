@@ -294,7 +294,7 @@
             "Wrist control drives pressure"
           ],
           "trap": [
-            "Lift hips and pull with arms"
+            "Lift onto hands for leverage"
           ]
         }
       },
@@ -302,14 +302,14 @@
         "question": "Why is the Arm Crush particularly dangerous and what makes it high-risk for injury?",
         "answer": "The Arm Crush is high-risk because it combines two injury mechanisms simultaneously: crushing compression of the shoulder joint and rotational torque on the rotator cuff. This dual-force application can cause rotator cuff tears, labrum damage, or shoulder dislocation very quickly. The submission also develops pressure rapidly once properly positioned, giving the opponent little time to tap before injury occurs. Additionally, if the defender's head is controlled with a cross-face, they may be unable to verbally tap.",
         "safety_critical": true,
-        "answer_line": "Crush + torque, injures fast",
+        "answer_line": "Two forces at once, injures fast",
         "distractors": {
           "plausible": [
             "Only rotational torque matters",
             "Slow build gives time to tap"
           ],
           "trap": [
-            "Ignore muffled taps, keep cranking"
+            "Crank harder when they resist"
           ]
         }
       },
@@ -320,11 +320,11 @@
         "answer_line": "Walk hips toward head, 45°",
         "distractors": {
           "plausible": [
-            "Raise hips high for leverage",
-            "Keep hips square, don't move"
+            "Drive hips upward for leverage",
+            "Keep hips square and static"
           ],
           "trap": [
-            "Post hips up and away"
+            "Step over to mount mid-crush"
           ]
         }
       },
@@ -351,10 +351,10 @@
         "distractors": {
           "plausible": [
             "Loose elbows create the setup",
-            "Tight elbows always prevent it"
+            "Only a wrist grip enables it"
           ],
           "trap": [
-            "Elbows tight = fully safe"
+            "Clamp elbow harder, ride it out"
           ]
         }
       },
@@ -369,7 +369,7 @@
             "Biceps tendon, single vector"
           ],
           "trap": [
-            "Elbow joint, like an armbar"
+            "Crank it like an armbar, no tap"
           ]
         }
       },
@@ -380,11 +380,11 @@
         "answer_line": "Figure-four locked, arm immobile",
         "distractors": {
           "plausible": [
-            "Opponent stops moving entirely",
-            "You feel fatigue in your grip"
+            "You hear them exhale hard",
+            "They stop bridging into you"
           ],
           "trap": [
-            "Any grip contact means it's set"
+            "Release chest pressure to re-grip"
           ]
         }
       },
@@ -395,11 +395,11 @@
         "answer_line": "Widen base, ride the bridge",
         "distractors": {
           "plausible": [
-            "Fight the bridge with strength",
-            "Release grip, reset position"
+            "Muscle the bridge back down",
+            "Reset the grip from scratch"
           ],
           "trap": [
-            "Lift chest to avoid the bridge"
+            "Post far hand on the mat"
           ]
         }
       },
@@ -410,11 +410,11 @@
         "answer_line": "Slide grip to wrist, Americana",
         "distractors": {
           "plausible": [
-            "Force elbow back to bent",
-            "Release and restart the setup"
+            "Re-bend the elbow by force",
+            "Abandon and rebuild the setup"
           ],
           "trap": [
-            "Keep pulling on straight elbow"
+            "Chase the arm off your chest"
           ]
         }
       },
@@ -440,11 +440,11 @@
         "answer_line": "Abandon if arm frees, transition",
         "distractors": {
           "plausible": [
-            "Muscle through weak positioning",
-            "Hold position, wait it out"
+            "Re-grip the same wedge again",
+            "Hold on until the buzzer sounds"
           ],
           "trap": [
-            "Force pressure despite bad grip"
+            "Chase the sub as they take your back"
           ]
         }
       },
@@ -452,14 +452,14 @@
         "question": "What breaking point indicators tell you the Arm Crush is about to produce a tap?",
         "answer": "Several indicators signal imminent submission: the opponent's trapped arm goes completely rigid as they involuntarily brace against the pressure, their breathing becomes audible and strained due to chest compression, their free hand begins frantically searching for your grip or their own arm rather than attempting positional escapes, and their body stiffens into a defensive arch. You will also feel the shoulder joint reaching its structural limit through your grip - a subtle grinding sensation transmitted through the figure-four as the rotator cuff tendons approach their maximum tolerance.",
         "safety_critical": false,
-        "answer_line": "Arm rigid, grinding sensation",
+        "answer_line": "Arm rigid, breathing strained",
         "distractors": {
           "plausible": [
-            "Opponent taps the mat loudly",
-            "They try to improve position"
+            "They bridge hard to escape",
+            "Your grip starts to fatigue"
           ],
           "trap": [
-            "They relax, so ease off"
+            "Rip the finish before they tap"
           ]
         }
       }
@@ -610,11 +610,11 @@
         "answer_line": "Turn in, closes crushing angle",
         "distractors": {
           "plausible": [
-            "Turn away to create space",
-            "Stay flat and square to them"
+            "Bridge straight up hard",
+            "Shove their head away"
           ],
           "trap": [
-            "Turn away, arm stretches free"
+            "Roll to your other shoulder"
           ]
         }
       },
@@ -637,14 +637,14 @@
         "question": "Your training partner applies the Arm Crush too quickly and you feel a sharp pain in your shoulder before you can tap - what should happen next?",
         "answer": "Both partners should stop immediately. The injured person should remain still and avoid moving the shoulder through its range of motion until the initial pain subsides. Do not attempt to test the shoulder by rotating it forcefully. Apply ice if available. If pain persists, there is any clicking or grinding sensation, or range of motion is limited, seek medical evaluation before returning to training. The training partner should be reminded that the Arm Crush must always be applied with slow, progressive pressure in training regardless of circumstance. Report the incident to your instructor.",
         "safety_critical": true,
-        "answer_line": "Stop, ice, seek medical eval",
+        "answer_line": "Stop, rest it, ice, get it checked",
         "distractors": {
           "plausible": [
-            "Stretch it out to test range",
-            "Keep training, monitor it"
+            "Finish the round, ice it later",
+            "Just avoid that arm today"
           ],
           "trap": [
-            "Rotate the shoulder to check it"
+            "Rotate the shoulder to test it"
           ]
         }
       }

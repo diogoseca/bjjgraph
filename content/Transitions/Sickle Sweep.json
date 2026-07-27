@@ -507,14 +507,14 @@
       {
         "question": "What is the earliest recognition cue that a Sickle Sweep is being set up from De La Riva Guard?",
         "answer": "The earliest cue is when the guard player begins shifting their hips to create a 45-degree angle from your centerline while establishing a deep collar grip behind your neck. This hip angle shift is the foundation of the entire sweep - without it, the sickle motion lacks the mechanical advantage needed to generate sufficient off-balancing force. Recognizing this angle change before the collar grip is fully established gives you maximum time to respond.",
-        "answer_line": "Hips angle 45° plus collar grip",
+        "answer_line": "Hips shift to a 45° angle",
         "distractors": {
           "plausible": [
-            "Deep collar grip appears first",
-            "Grip on your pants appears first"
+            "Deep collar grip lands first",
+            "A pant grip appears first"
           ],
           "trap": [
-            "Ignore hips, watch the legs"
+            "Watch the legs, ignore the hips"
           ]
         }
       },
@@ -549,14 +549,14 @@
       {
         "question": "How can you use the opponent's Sickle Sweep commitment as a passing opportunity?",
         "answer": "When the guard player commits to the sickle motion, they necessarily extend both legs and shift their weight to one side, creating a momentary opening. If you can maintain your base through the initial off-balance, their extended legs and committed hips create an excellent opportunity for a backstep pass over the extended hook, a leg drag by grabbing their extending leg and driving it across your body, or a pressure pass by dropping your weight into their extended structure. Their commitment means they cannot quickly retract to a defensive guard position.",
-        "answer_line": "Backstep pass or leg drag hook",
+        "answer_line": "Backstep or leg-drag the hook",
         "distractors": {
           "plausible": [
             "Wait for the sweep to finish",
-            "Push straight through the guard"
+            "Stall and hold your base"
           ],
           "trap": [
-            "Retreat to reset your base"
+            "Posture up and stand tall"
           ]
         }
       },

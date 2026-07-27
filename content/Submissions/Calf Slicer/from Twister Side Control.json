@@ -297,14 +297,14 @@
         "question": "What anatomical structures does the calf slicer from twister side control primarily attack?",
         "answer": "The calf slicer primarily attacks the calf muscle belly through direct compression against the shin bone fulcrum, and secondarily stretches the Achilles tendon as the foot is driven toward the buttocks. The compression can also affect the popliteal neurovascular bundle behind the knee, which contains the tibial and peroneal nerves. The combination of muscle compression and tendon stretch creates the tap.",
         "safety_critical": false,
-        "answer_line": "Calf muscle vs shin fulcrum",
+        "answer_line": "Calf belly crushed on shin fulcrum",
         "distractors": {
           "plausible": [
-            "Knee ligaments (ACL/MCL)",
-            "Achilles tendon only"
+            "Knee ligaments — ACL and MCL",
+            "Achilles tendon alone"
           ],
           "trap": [
-            "Hip flexor compression"
+            "Knee joint — twist to finish"
           ]
         }
       },
@@ -319,7 +319,7 @@
             "Opponent's arms are pinned"
           ],
           "trap": [
-            "Removes need for hip drive"
+            "Drop torso control to grab foot"
           ]
         }
       },
@@ -342,14 +342,14 @@
         "question": "What is the correct fulcrum placement for maximum compression with minimal effort?",
         "answer": "The shin bone must sit precisely in the popliteal fossa — the soft tissue crease directly behind the knee joint. Placement too high on the hamstring or too low on the calf muscle reduces mechanical advantage significantly, requiring much more force to generate a tap. The hard bone of the shin against this vulnerable area creates the highest compression-to-effort ratio. Practice finding this landmark by feel during drilling until placement becomes automatic.",
         "safety_critical": false,
-        "answer_line": "Shin behind knee, popliteal fossa",
+        "answer_line": "Shin bone in the popliteal fossa",
         "distractors": {
           "plausible": [
-            "Shin high on hamstring",
-            "Shin low on calf belly"
+            "High on the hamstring belly",
+            "Low on the meaty calf"
           ],
           "trap": [
-            "Shin across the ankle joint"
+            "On the ankle — leg slips free"
           ]
         }
       },
@@ -364,7 +364,7 @@
             "Just two-hand foot grip secured"
           ],
           "trap": [
-            "As soon as leg entanglement starts"
+            "Escape only once pain sets in"
           ]
         }
       },
@@ -391,10 +391,10 @@
         "distractors": {
           "plausible": [
             "Grip harder with same palm grip",
-            "Chase grip with one free hand"
+            "Slide the grip up to the shin"
           ],
           "trap": [
-            "Let go and re-shoot the leg"
+            "Chase the slip with one hand"
           ]
         }
       },
@@ -402,14 +402,14 @@
         "question": "What are the critical safety protocols when applying the calf slicer from twister side control in training?",
         "answer": "Apply compression at a minimum pace of 5-7 seconds from initial fold to full pressure, never spiking or jerking the movement. Monitor continuously for verbal taps, which are preferred due to the leg entanglement potentially limiting hand access for physical taps. Release immediately upon any tap signal by first stopping hip drive, then releasing the foot grip, then slowly extracting the shin. The Achilles tendon is particularly vulnerable in this position and can rupture with sudden force, so controlled application is mandatory.",
         "safety_critical": true,
-        "answer_line": "Slow 5-7s pace, watch for taps",
+        "answer_line": "Fold slowly over 5-7 seconds",
         "distractors": {
           "plausible": [
-            "Fast finish before they escape",
-            "Physical taps only, ignore verbal"
+            "Wait only for a hand tap",
+            "Pull the shin out first"
           ],
           "trap": [
-            "Spike pressure for a quick tap"
+            "Spike pressure to force a tap"
           ]
         }
       },
@@ -547,11 +547,11 @@
         "answer_line": "Weight shift, shin behind knee",
         "distractors": {
           "plausible": [
-            "Feel grip on your collar loosen",
+            "They flatten your shoulders down",
             "Opponent stands up to pass"
           ],
           "trap": [
-            "Wait until foot control is secured"
+            "Wait until foot control is set"
           ]
         }
       },
@@ -559,14 +559,14 @@
         "question": "What is the safest way to tap when caught in the calf slicer from twister side control?",
         "answer": "Verbal tap is strongly recommended because the leg entanglement may limit your hand access for physical tapping. Say 'tap' clearly and loudly. If you can reach the attacker or the mat with a hand, tap multiple times rapidly in addition to the verbal signal. Any vocalization of distress should be treated as a tap. Do not wait to see if you can escape — the Achilles tendon can rupture with very little additional force once the compression is fully established.",
         "safety_critical": true,
-        "answer_line": "Verbal tap, loud and clear",
+        "answer_line": "Verbal tap — say it loud",
         "distractors": {
           "plausible": [
-            "Tap the mat only, stay quiet",
-            "Wait to try one more escape"
+            "One quiet slap on the mat",
+            "Squeeze their leg as a signal"
           ],
           "trap": [
-            "Try to power out instead of tap"
+            "Ride it out, hope it slips"
           ]
         }
       },
@@ -592,11 +592,11 @@
         "answer_line": "Extension kills the fold mechanic",
         "distractors": {
           "plausible": [
-            "It frees your hands to grip fight",
-            "It protects the knee ligaments"
+            "It frees hands for grip fighting",
+            "It tires the attacker's grips"
           ],
           "trap": [
-            "It lets you stand up to escape"
+            "Grip fight instead of extending"
           ]
         }
       },
@@ -604,14 +604,14 @@
         "question": "At what stage should you prioritize tapping over attempting further escape from the calf slicer?",
         "answer": "Tap immediately when three conditions are met simultaneously: the attacker's shin is behind your knee, they have secure two-handed foot control, and hip drive has begun generating compression. At this stage, the mechanical advantage is overwhelmingly in the attacker's favor, and continued resistance risks Achilles tendon damage that could require 6-12 months of recovery or surgery. There is no training scenario where the risk of a ruptured Achilles is worth the benefit of a successful escape.",
         "safety_critical": true,
-        "answer_line": "Shin set + foot control + hip drive",
+        "answer_line": "Shin set, foot locked, drive on",
         "distractors": {
           "plausible": [
-            "Only when pain becomes unbearable",
-            "After first attempt to escape fails"
+            "Once the calf starts burning",
+            "After your hip escape stalls"
           ],
           "trap": [
-            "Keep fighting, taps show weakness"
+            "Fight until the leg gives way"
           ]
         }
       }
