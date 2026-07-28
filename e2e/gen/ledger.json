@@ -1,1502 +1,1844 @@
 {
- "version": 1,
- "target": 100,
- "axes": {
-  "themes": [
-   "onboarding",
-   "unlock-economy",
-   "flashcards-behind-scenes",
-   "lifetime-journeys",
-   "resilience",
-   "competitive-arc",
-   "input-access",
-   "infra"
+  "version": 1,
+  "target": 100,
+  "axes": {
+    "themes": [
+      "onboarding",
+      "unlock-economy",
+      "flashcards-behind-scenes",
+      "lifetime-journeys",
+      "resilience",
+      "competitive-arc",
+      "input-access",
+      "infra"
+    ],
+    "L": [
+      "fresh-visitor",
+      "first-roll-day1",
+      "casual-week1",
+      "curriculum-mid",
+      "belt-ready",
+      "white-belt-holder",
+      "srs-veteran",
+      "lapsed-returner",
+      "multi-belt-endgame",
+      "legacy-corrupt-blob"
+    ],
+    "F": [
+      "boot-landing",
+      "intro-roll-coach",
+      "graph-canvas",
+      "option-tray-sheet",
+      "drill-mc",
+      "recall-gate",
+      "checkpoint-quiz",
+      "belt-path",
+      "belt-test",
+      "ladder",
+      "defense-panic",
+      "film-study",
+      "sound",
+      "victory-defeat",
+      "persistence-reload",
+      "settings",
+      "decision-timer",
+      "opponent-turns",
+      "spa-nav"
+    ],
+    "B": [
+      "happy-path",
+      "interruption-abort",
+      "persistence-reload",
+      "idempotence",
+      "guard-limit",
+      "economy-math",
+      "cross-feature",
+      "error-fallback",
+      "keyboard-timing"
+    ]
+  },
+  "rejections": [
+    {
+      "slug": "veteran-mastery-not-inflatable",
+      "wave": 1,
+      "reasons": [
+        "Paraphrase of core-055 ('mastered is not inflatable: rec counts DISTINCT cards proven by recall — recall-grading the same card five times raises rec by at most 1'): the spec performs the identical 5-repeat-recall-on-one-card action and asserts the same wasProven dedup (rec 3→4 exactly once).",
+        "masteredCount flatness is derivable from core-027's recall gate (masteredCount counts rec>=3 decks; rec 3→4 changes no membership), and the first-read seed assertion re-tests core-046's boot({initialState}) rail — scaling the seed from 1 to 25 decks changes numbers, not the invariant.",
+        "Rejected on novelty only; the spec itself is well-built (classic-mode MC-rig guard, truth-rail grading)."
+      ]
+    },
+    {
+      "slug": "returner-comeback-boot",
+      "wave": 1,
+      "reasons": [
+        "Scaled paraphrase of core-046 ('boot({initialState}) seeds progress before the app reads storage ... visible at first read: prep and masteredCount'): the candidate's headline 'reads their whole career at first read' is the same first-read-seeding law with a bigger blob; belt-record-at-boot surfaces are already pinned by core-011 (completed-belt blob → row state) and core-015/069 (won row after reboot).",
+        "The no-migration-beat assertion is vacuous by the spec's own header ('the fx vocabulary has NO migration beat at all ... trivially green today'), and the live-first-hand tail is core-017's landing.",
+        "Residual novelty (cardsToday 0 with empty days map) is thin and is asserted more meaningfully by the sibling returner-day-counter-clean-restart spec."
+      ]
+    },
+    {
+      "slug": "returner-path-resume-point",
+      "wave": 1,
+      "reasons": [
+        "Duplicates core-069's tail almost clause-for-clause: 'the row reads won, blue is unlocked, and blue's first lesson genuinely opens (deckOpen true, _posKey equal to its deckKey)' — the candidate asserts white test row 'won', blue row not data-locked, and blue lesson click → deckOpen/_posKey===deckKey, reached via a seeded persona instead of the played-through story; core-015 also already covers won-row + blue-unlocked persistence.",
+        "The only additions (all-white-unit-rows data-done census, _session resume-pointer read) do not change the invariant's substance — it remains the resume-point law core-069 already establishes."
+      ]
+    },
+    {
+      "slug": "veteran-decision-timer-refund-cap-independent-of-mastery",
+      "wave": 1,
+      "reasons": [
+        "Paraphrase of core-025 ('drilling refunds decision time, capped at 2 per window'): the spec asserts the IDENTICAL +2.5/+2.5/+0 per-grade deltas and the same three timer_refund beats carrying granted [true,true,false].",
+        "The only change is the persona (a prep=5 veteran vs a fresh visitor). The cap mechanism (`granted = d.refunds < 2`) reads only the current window's refunds counter and never touches mastery, so seeding prep=5 changes numbers-that-do-not-change, not the invariant — the same basis on which veteran-mastery-not-inflatable was rejected.",
+        "Well-built (frozen-clock discipline), but rejected on novelty only."
+      ]
+    },
+    {
+      "slug": "returner-belt-path-resumes-at-blue-not-white",
+      "wave": 1,
+      "reasons": [
+        "Duplicates the already-REJECTED returner-path-resume-point invariant and core-069's tail: white test 'won', white lessons done, blue U1 unlocked, blue lessons not done, blue test 'locked' is the same frontier-resume claim, reached from a seeded persona instead of a played-through story.",
+        "Its two halves are each already pinned: gen-w1-11 (holder-next-test-still-locked) covers white-won/blue-test-locked, and gen-w1-12 (holder-sequential-locks-resume-in-blue) covers the blue unit-ladder lock. Compositing them under a returner persona does not change the invariant's substance.",
+        "The spec's own @hyperspace tuple declares B='cross-belt', which is not a valid B axis (axes.B has no such value) and mismatches the candidate slug's claimed B='guard-limit'."
+      ]
+    },
+    {
+      "slug": "returner-victory-defeat-ladder-swing-symmetric",
+      "wave": 1,
+      "reasons": [
+        "Paraphrase of core-065 ('rigged win -> victory_cascade + ladder_up (+1) ... a defense-expiry loss then emits defeat_drain and ladder_down (-1)'): the spec itself states it 'mirrors the GREEN core spec test 3 (stakes-impact.spec.ts:122-170)'.",
+        "The claimed additions — no reload between phases and the delta-identity (rankAfterWin-rank0 + rankFinal-rankAfterWin === 0, round-trip to rank0) — are arithmetic corollaries of the +1-then-1 that core-065 already fires in one flow; the returner persona does not alter the ladderMove mechanism.",
+        "Rejected on novelty; the spec's assertions are correct and well-built."
+      ]
+    },
+    {
+      "slug": "endgame-drill-mc-still-mints-cards-past-graduation",
+      "wave": 1,
+      "reasons": [
+        "The grading assertions duplicate core-030 (wrong MC -> mc_wrong, no prep/stage credit, correct button revealed) and core-031 (correct MC -> +prep +stage + mc_correct + bonus_pumped), and the cardsToday-exactly-+1 bump duplicates gen-w1-05's mechanism.",
+        "The only differentiator is the multiBeltEndgame persona; belt wins never touch a card's `stage`, so 'graduation does not close the drill' reduces to 'stage is independent of belts.won' — scaling the persona, not a new invariant.",
+        "Well-built (truth-rail, distinct-card plan for the cardDone Set), but rejected on novelty."
+      ]
+    },
+    {
+      "slug": "endgame-film-first-look-still-caps-at-four",
+      "wave": 1,
+      "reasons": [
+        "Re-runs core-066's invariant ('first watchShort raises odds by exactly 4 with one film_first_look beat; a second watch leaves the delta at 4 and the beat count at 1') at a different lifecycle point. The spec re-asserts exactly that: +4 once, second watch no-op, film beat count stays 1.",
+        "The _filmLook[tech] latch is per-technique and untouched by belts.won/prep/rec, so the graduated persona changes numbers-that-do-not-change; the minor per-technique-isolation add-on does not change the invariant's substance. Same basis as the veteran-mastery-not-inflatable rejection.",
+        "Rejected on novelty only; assertions are faithful and structural."
+      ]
+    },
+    {
+      "slug": "holder-ladder-rank-independent-of-belt-record",
+      "wave": 1,
+      "reasons": [
+        "Same invariant as gen-w1-06 (returner-ladder-independent-of-blob): ladder rank lives in bjj-neural-ladder independent of the progress blob, a win climbs to rank 2, and after a preserveStorage reload rank 2 survives in its own key while the belt record rides the blob unchanged.",
+        "The only changes are the whiteBeltHolder persona and strengthening the belt-record check from truthy (gen-w1-06) to value-equal, plus a 'blob has no ladder key' assertion — deepening the same two-records/two-keys/survive-reload invariant, not creating a new one.",
+        "Rejected on novelty; the spec itself is well-built."
+      ]
+    },
+    {
+      "slug": "veteran-recall-gate-mc-corrects-never-mint-rec",
+      "wave": 1,
+      "reasons": [
+        "Paraphrase of core-032 ('mastered only via recall: five consecutive MC corrects pin the card's stage at 2 with rec still 0, while recall-grading three distinct graduated cards raises rec to >=3 and masteredCount by >=1'): the spec performs the identical 5-MC-correct + 3-recall-grade action and asserts the same stage-2/rec-0/mint gate.",
+        "The only change is scaling the base from a casual 0->1 to a veteran 25->26; the spec's own docstring concedes it 'overlaps mc-flashcards.spec.ts:172'. Scaling the seed changes the count, not the invariant — the exact basis for the veteran-mastery-not-inflatable rejection.",
+        "Rejected on novelty; the truth-rail + studyFromSession choke are well-built."
+      ]
+    },
+    {
+      "slug": "onboard-fog-intro-dims-noncurriculum-on-first-path-open",
+      "wave": 3,
+      "reasons": [
+        "Composite of two existing invariants with the SAME tuple as core-009 (L=fresh-visitor, F=graph-canvas, B=cross-feature). Phase 1 (pathDim true, _curriculumIdxSet size>50, at least one node outside) is core-009 verbatim.",
+        "Phase 2/3 (toggle to TREE clears _pathDim, return to PATH re-arms) is gen-w1-28's accepted invariant (fog is a PATH artifact that lifts in tree). Compositing core-009 + gen-w1-28 under the same fresh-visitor point does not create a new invariant.",
+        "Rejected on novelty; the spec assertions are faithful and structural, but the invariant paraphrases core-009 (fresh-visitor fog arm) and gen-w1-28 (tree lift)."
+      ]
+    },
+    {
+      "slug": "onboard-settings-first-touch-persists-clean",
+      "wave": 3,
+      "reasons": [
+        "Scaled paraphrase of gen-w1-25 (corrupt-blob-settings-persist-cleanly-after-heal): the spec's own docstring calls itself 'the clean-profile sibling'. The invariant (set mcMode='classic' -> v2 blob -> survives preserveStorage reload, JSON.parse succeeds, _progressBlob().v===2) is gen-w1-25's exact persistence claim minus the corruption to heal.",
+        "The load-bearing seam (set() stamps _settingsAt.mcMode as a number and _flushSave synchronously persists) is already pinned by core-056; the reload-survives-mcMode by gen-w1-25. Dropping the corrupt precondition changes setup, not substance.",
+        "Also the file @hyperspace declares theme='lifetime-journeys' while the candidate slug is onboard-themed — a tuple mismatch. Rejected on novelty; assertions faithful but duplicate gen-w1-25 + core-056."
+      ]
+    }
   ],
-  "L": [
-   "fresh-visitor",
-   "first-roll-day1",
-   "casual-week1",
-   "curriculum-mid",
-   "belt-ready",
-   "white-belt-holder",
-   "srs-veteran",
-   "lapsed-returner",
-   "multi-belt-endgame",
-   "legacy-corrupt-blob"
-  ],
-  "F": [
-   "boot-landing",
-   "intro-roll-coach",
-   "graph-canvas",
-   "option-tray-sheet",
-   "drill-mc",
-   "recall-gate",
-   "checkpoint-quiz",
-   "belt-path",
-   "belt-test",
-   "ladder",
-   "defense-panic",
-   "film-study",
-   "sound",
-   "victory-defeat",
-   "persistence-reload",
-   "settings",
-   "decision-timer",
-   "opponent-turns",
-   "spa-nav"
-  ],
-  "B": [
-   "happy-path",
-   "interruption-abort",
-   "persistence-reload",
-   "idempotence",
-   "guard-limit",
-   "economy-math",
-   "cross-feature",
-   "error-fallback",
-   "keyboard-timing"
+  "tests": [
+    {
+      "id": "core-001",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "PATH|TREE toggle: exists, defaults to path, persists",
+      "theme": "unlock-economy",
+      "L": "fresh-visitor",
+      "F": "belt-path",
+      "B": "persistence-reload",
+      "invariant": "With curriculum loaded the explorer defaults to _viewMode 'path' (path_opened beat, white belt row rendered), and clicking the tree toggle writes localStorage bjj_view_mode='tree' which still selects tree view after a preserveStorage reboot.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-002",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "locks: white open, blue locked, units sequential",
+      "theme": "unlock-economy",
+      "L": "fresh-visitor",
+      "F": "belt-path",
+      "B": "guard-limit",
+      "invariant": "On a fresh profile the white belt row carries no data-locked attribute while the blue belt row has data-locked='1', and unit rows are sequential (first unlocked, second data-locked='1').",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-003",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "lesson click flies the camera and opens the lesson deck session",
+      "theme": "unlock-economy",
+      "L": "fresh-visitor",
+      "F": "belt-path",
+      "B": "happy-path",
+      "invariant": "Clicking the first lesson row moves camTarget to within 60px of the lesson node's x/y, sets deckOpen true, and the study session's key list contains that lesson's deckKey.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-004",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "drilling a lesson to goal emits lesson_done and marks the row",
+      "theme": "unlock-economy",
+      "L": "casual-week1",
+      "F": "belt-path",
+      "B": "happy-path",
+      "invariant": "Drilling the first lesson's deck 3 times emits a lesson_done beat and the lesson row's data-done attribute reads '1'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-005",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "checkpoint opens the MC quiz once all lessons are done (P2 semantics)",
+      "theme": "unlock-economy",
+      "L": "curriculum-mid",
+      "F": "checkpoint-quiz",
+      "B": "happy-path",
+      "invariant": "With all unit-1 lessons seeded to goal, clicking the checkpoint row emits checkpoint_start, sets _checkpoint truthy, and renders a visible [data-mc-opt] quiz option.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-006",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "gi-only lesson is disabled in nogi and excluded from unit math",
+      "theme": "unlock-economy",
+      "L": "fresh-visitor",
+      "F": "belt-path",
+      "B": "guard-limit",
+      "invariant": "After setGiMode('nogi') a gi-only lesson row renders data-live='0' and aria-disabled='true'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-007",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "TREE view ignores locks entirely",
+      "theme": "unlock-economy",
+      "L": "fresh-visitor",
+      "F": "belt-path",
+      "B": "happy-path",
+      "invariant": "In TREE view the explorer renders zero [data-locked] and zero [data-lesson] elements.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-008",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "v1 progress blob migrates to v2 with rec grandfathered",
+      "theme": "resilience",
+      "L": "legacy-corrupt-blob",
+      "F": "persistence-reload",
+      "B": "persistence-reload",
+      "invariant": "Booting with a v1 blob whose prep['Mount|Top']=3 yields rec['Mount|Top']==3 (grandfathered from prep) and _progressBlob().v==2.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-009",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "fog-of-war rail: non-curriculum nodes dim while path view is open",
+      "theme": "unlock-economy",
+      "L": "fresh-visitor",
+      "F": "graph-canvas",
+      "B": "cross-feature",
+      "invariant": "While path view is open _curriculumIdxSet has more than 50 node indices, at least one node falls outside it, and the _pathDim fog flag is active.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-010",
+      "file": "e2e/journeys/belt-path.spec.ts",
+      "title": "curriculum 404: app falls back to tree view without crashing",
+      "theme": "resilience",
+      "L": "fresh-visitor",
+      "F": "belt-path",
+      "B": "error-fallback",
+      "invariant": "When curriculum.json returns 404 the app boots with curriculum null, _viewMode 'tree', and more than 1000 ingested nodes (no crash).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-011",
+      "file": "e2e/journeys/belt-test.spec.ts",
+      "title": "test row states: locked without progress, READY with a completed belt",
+      "theme": "competitive-arc",
+      "L": "belt-ready",
+      "F": "belt-test",
+      "B": "guard-limit",
+      "invariant": "The white belt-test row's data-test-state reads 'locked' on a fresh profile and 'ready' when booted with a completed-white-belt blob.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-012",
+      "file": "e2e/journeys/belt-test.spec.ts",
+      "title": "starting the test: beat, authored start position, authored move budget",
+      "theme": "competitive-arc",
+      "L": "belt-ready",
+      "F": "belt-test",
+      "B": "happy-path",
+      "invariant": "Starting the belt test emits belt_test_start and sets _beltTest.beltId to white, currentPos to the authored test.startNodeId, maxMoves to the authored test.maxMoves, and a computed pool of at least 5 names.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-013",
+      "file": "e2e/journeys/belt-test.spec.ts",
+      "title": "engagement survival: _beltTest outlives clearEngagement; reset cancels cleanly",
+      "theme": "competitive-arc",
+      "L": "belt-ready",
+      "F": "belt-test",
+      "B": "interruption-abort",
+      "invariant": "resetRoll during a live belt test nulls _beltTest, burns no attempt (attempts==0), emits no belt_test_lost beat, and the path row returns to data-test-state 'ready'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-014",
+      "file": "e2e/journeys/belt-test.spec.ts",
+      "title": "strict submission pool: the opponent only attacks with belt vocabulary",
+      "theme": "competitive-arc",
+      "L": "belt-ready",
+      "F": "belt-test",
+      "B": "guard-limit",
+      "invariant": "With at least one opponent_attack observed during the belt test, every attack's base technique name (lowercased, pre-' from ') is contained in _beltTest.names and the roll stays live (options, an active defense, or the test) afterward.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-015",
+      "file": "e2e/journeys/belt-test.spec.ts",
+      "title": "win by tap: belt recorded, blue unlocks, ladder rides along, all persisted",
+      "theme": "competitive-arc",
+      "L": "belt-ready",
+      "F": "belt-test",
+      "B": "cross-feature",
+      "invariant": "Winning the belt test by tap emits belt_test_won before roll_end plus belt_unlocked, records belts.won.white with moves>=0, advances the ladder rank by exactly 1, and after a preserveStorage reboot the row reads 'won' with the blue belt unlocked.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-016",
+      "file": "e2e/journeys/belt-test.spec.ts",
+      "title": "points and losses: at the move limit the engine matches its own dominance call",
+      "theme": "competitive-arc",
+      "L": "belt-ready",
+      "F": "belt-test",
+      "B": "economy-math",
+      "invariant": "When the move limit expires the outcome matches the engine's own dominance verdict: belt_test_won carries byPoints=true with dominance >= the authored pointsWinDominance, otherwise belt_test_lost carries dominance below it, one attempt is burned, and the row shows 'retry'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-017",
+      "file": "e2e/journeys/golden-path.spec.ts",
+      "title": "golden path: land → read → drill → pick → hit",
+      "theme": "onboarding",
+      "L": "first-roll-day1",
+      "F": "boot-landing",
+      "B": "happy-path",
+      "invariant": "A fresh landing deals >=3 options with land and options_dealt beats, drilling two cards raises a mid-odds option's displayed odds by >=11 points (monotone inside clamp zones) with bonus_pumped, and a rigged pick produces commit then impact_success with a non-empty roll trail.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-018",
+      "file": "e2e/journeys/golden-path.spec.ts",
+      "title": "golden path replays deterministically (frame-exact)",
+      "theme": "infra",
+      "L": "first-roll-day1",
+      "F": "boot-landing",
+      "B": "idempotence",
+      "invariant": "Two fresh boots running the identical rigged golden-path script produce deeply equal option lists, roll trails, and beat sequences.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-019",
+      "file": "e2e/journeys/golden-path.spec.ts",
+      "title": "win path: rigged submission finish ends the roll",
+      "theme": "competitive-arc",
+      "L": "first-roll-day1",
+      "F": "victory-defeat",
+      "B": "happy-path",
+      "invariant": "Rigging a dealt submission to succeed emits the finish beat and the last roll_end beat's outcome is 'win'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-020",
+      "file": "e2e/journeys/guidance-defense.spec.ts",
+      "title": "one-beacon law: exactly one highlighted surface at every beat",
+      "theme": "onboarding",
+      "L": "first-roll-day1",
+      "F": "option-tray-sheet",
+      "B": "guard-limit",
+      "invariant": "At the land, sheet-open, and post-drill sample points exactly one [data-beacon] element exists whose target steps options -> jit/execute -> execute, at most one exists after commit, and at least 3 beacon_moved beats were emitted.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-021",
+      "file": "e2e/journeys/guidance-defense.spec.ts",
+      "title": "defense drama: caught → panic drill → escape odds pump → relief",
+      "theme": "competitive-arc",
+      "L": "first-roll-day1",
+      "F": "defense-panic",
+      "B": "happy-path",
+      "invariant": "A rigged catch fires impact_fail, caught, and panic_drill_opened with a visible [data-panic] card and one .ng-vignette, grading the panic card strictly increases escapeOddsSnapshot() with escape_odds_pumped, and a rigged escape reaches relief with the escape beat and the vignette element cleared.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-022",
+      "file": "e2e/journeys/guidance-defense.spec.ts",
+      "title": "guided first roll: 3 coach beats in order, clock frozen until dismissed",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "intro-roll-coach",
+      "B": "guard-limit",
+      "invariant": "On a fresh boot coach_1 fires and decisionRemaining drifts <0.5s over 3s until dismissal, coach_1/2/3/coach_done appear strictly in order, the clock drains >=1.5s over 2s afterwards, and maybeStartCoach never re-fires (coach_1 count stays 1, localStorage bjj-neural-coached=='1').",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-023",
+      "file": "e2e/journeys/guidance-defense.spec.ts",
+      "title": "film study: watchShort fires the beat; player onError falls back without crashing",
+      "theme": "resilience",
+      "L": "first-roll-day1",
+      "F": "film-study",
+      "B": "error-fallback",
+      "invariant": "watchShort(0) returns ok and emits short_watched under a stubbed YT player, and invoking the player's captured onError closure opens exactly one fallback link and removes all .ngPlayerHost elements without throwing.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-024",
+      "file": "e2e/journeys/jit-loop.spec.ts",
+      "title": "JIT sheet drill pumps the odds odometer and the canvas edge",
+      "theme": "flashcards-behind-scenes",
+      "L": "first-roll-day1",
+      "F": "option-tray-sheet",
+      "B": "economy-math",
+      "invariant": "Three reveal->Got-it grades in the expand sheet raise the target's displayed odds by >=17 points with the [data-odds] odometer within 1 of the live odds, emit jit_opened plus >=3 bonus_pumped beats, and executing from the same sheet reaches impact_success.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-025",
+      "file": "e2e/journeys/jit-loop.spec.ts",
+      "title": "drilling refunds decision time, capped at 2 per window",
+      "theme": "flashcards-behind-scenes",
+      "L": "first-roll-day1",
+      "F": "decision-timer",
+      "B": "guard-limit",
+      "invariant": "The first two JIT grades each refund >=2s of decisionRemaining, the third refunds <1s, and the three timer_refund beats carry granted [true, true, false].",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-026",
+      "file": "e2e/journeys/jit-loop.spec.ts",
+      "title": "expiry narrates 3-2-1 and auto-picks with a pop (no silent teleport)",
+      "theme": "resilience",
+      "L": "first-roll-day1",
+      "F": "decision-timer",
+      "B": "keyboard-timing",
+      "invariant": "Letting the decision window expire emits both expiry_warning and auto_pick beats (the auto-pick is narrated, never a silent teleport).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-027",
+      "file": "e2e/journeys/jit-loop.spec.ts",
+      "title": "honest economy: revealing a card is 'seen', only grading credits mastery",
+      "theme": "flashcards-behind-scenes",
+      "L": "first-roll-day1",
+      "F": "recall-gate",
+      "B": "economy-math",
+      "invariant": "noteCardSeen leaves masteredCount unchanged, three prep-grades raise prep to >=3 while masteredCount stays flat, and only pushing rec to 3 raises masteredCount by >=1 (mastery is recall-gated).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-028",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "fresh card renders 4 MC options, clamped, with the mc_shown beat",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "happy-path",
+      "invariant": "Presenting a fresh MC-able card renders exactly 4 visible [data-mc-opt] options each <=170 chars, emits mc_shown, and _mc.correct is a valid index in [0,4).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-029",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "MC options are deterministic under rig across two boots",
+      "theme": "infra",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "idempotence",
+      "invariant": "Two fresh boots with identical deep mc-pick/mc-shuffle rig queues render identical [data-mc-opt] text lists.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-030",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "wrong answer: no credit, no stage, correct revealed",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "economy-math",
+      "invariant": "Clicking a wrong MC option emits mc_wrong, leaves prep unchanged and the card's stage at 0, and the correct button gains data-mc-result='correct'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-031",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "correct answer: full credit + stage, graduating to recall at stage 2",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "economy-math",
+      "invariant": "The first correct MC click adds prep+1 and stage 1 (mc_correct + bonus_pumped), the second correct reaches stage 2, and re-presenting the card then renders recall with zero [data-mc-opt] elements.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-032",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "mastered only via recall: MC caps at the gate, recall mints rec",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "recall-gate",
+      "B": "guard-limit",
+      "invariant": "Five consecutive MC corrects pin the card's stage at 2 with rec still 0, while recall-grading three distinct graduated cards raises rec to >=3 and masteredCount by >=1.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-033",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "graded tiers: plausible = no credit + close feedback, trap = stage penalty",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "economy-math",
+      "invariant": "Picking the plausible tier emits mc_wrong with tier 'plausible' and no prep credit, and after one correct (stage 1) picking the trap tier emits mc_wrong with tier 'trap' and knocks the stage back to 0.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-034",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "mcMode setting: classic kills MC; mc still caps the stage at 2",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "settings",
+      "B": "guard-limit",
+      "invariant": "With mcMode 'classic' no [data-mc-opt] renders, and with mcMode 'mc' a stage-2 card may present as MC but a correct answer still leaves the stage capped at 2.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-035",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "keyboard digits answer MC and never leak into the roll options",
+      "theme": "input-access",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "keyboard-timing",
+      "invariant": "Pressing the digit key of the correct MC option emits mc_correct without opening a roll-option expand sheet (_detailCtx stays falsy).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-036",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "a11y: radiogroup semantics and a live result region",
+      "theme": "input-access",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "happy-path",
+      "invariant": "The MC block renders a visible role='radiogroup' containing exactly 4 [data-mc-opt][role='radio'] buttons plus at least one aria-live='polite' region.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-037",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "one-beacon law: MC never claims the beacon",
+      "theme": "onboarding",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "cross-feature",
+      "invariant": "Answering an MC card leaves at most one [data-beacon] on the page and the beacon target is never 'mc' or 'mc-opt'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-038",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "recall fallback: a card with <2 viable distractors renders classic recall",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "error-fallback",
+      "invariant": "When the deck is poisoned so pooling cannot find 2 viable distractors, the presented card renders classic recall: zero [data-mc-opt] elements and _mc null.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-039",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "checkpoint is now a real MC quiz: pass marks the unit",
+      "theme": "unlock-economy",
+      "L": "curriculum-mid",
+      "F": "checkpoint-quiz",
+      "B": "happy-path",
+      "invariant": "With unit-1 lessons seeded done, answering every checkpoint card correctly via the truth rail emits checkpoint_passed and unit_done and sets the unit row's data-done to '1'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-040",
+      "file": "e2e/journeys/mc-flashcards.spec.ts",
+      "title": "checkpoint fail links the weakest lesson",
+      "theme": "unlock-economy",
+      "L": "curriculum-mid",
+      "F": "checkpoint-quiz",
+      "B": "cross-feature",
+      "invariant": "Answering every checkpoint card wrong emits checkpoint_failed (and never checkpoint_passed) whose weakest field is a string naming one of the unit's lesson deckKeys.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-041",
+      "file": "e2e/journeys/mc-oneline.spec.ts",
+      "title": "payload wiring: graded traps + tooltip detail actually ship (were 0 before)",
+      "theme": "infra",
+      "L": "fresh-visitor",
+      "F": "drill-mc",
+      "B": "happy-path",
+      "invariant": "The shipped flashcards.json payload carries more than 100 cards with authored mc distractor tiers and more than 1000 cards with the full-detail d field.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-042",
+      "file": "e2e/journeys/mc-oneline.spec.ts",
+      "title": "golden card: one-line options + authored plausible/trap tiers, straight from the payload",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "drill-mc",
+      "B": "happy-path",
+      "invariant": "The golden Upa Escape card ships a <=36-char answer line, >=3 authored distractors, and a longer d field, and presents as 4 rendered options each <=36 chars (after stripping the number badge) whose tier map includes both 'trap' and 'plausible'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-043",
+      "file": "e2e/journeys/mc-oneline.spec.ts",
+      "title": "recall reveal: one-liner answer + a 'More detail' tooltip expanding the full explanation",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "recall-gate",
+      "B": "happy-path",
+      "invariant": "A graduated golden card's recall reveal shows a [data-mc-more] toggle with .mcDetail hidden by default, and clicking it reveals detail text longer than the 36-char one-line budget.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-044",
+      "file": "e2e/journeys/rails-infra.spec.ts",
+      "title": "opponent finish attempt emits opponent_attack with the technique",
+      "theme": "infra",
+      "L": "first-roll-day1",
+      "F": "opponent-turns",
+      "B": "happy-path",
+      "invariant": "A rigged opponent finish emits opponent_attack whose technique is a non-empty string and whose idx resolves to a submissions node carrying exactly that title.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-045",
+      "file": "e2e/journeys/rails-infra.spec.ts",
+      "title": "opponent positional counter emits opponent_move (and no phantom attack)",
+      "theme": "infra",
+      "L": "first-roll-day1",
+      "F": "opponent-turns",
+      "B": "guard-limit",
+      "invariant": "With the finish declined, opponent_move carries a truthful technique/idx resolving to a transitions-or-submissions node, and zero opponent_attack beats are emitted.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-046",
+      "file": "e2e/journeys/rails-infra.spec.ts",
+      "title": "boot({initialState}) seeds progress before the app reads storage",
+      "theme": "infra",
+      "L": "casual-week1",
+      "F": "boot-landing",
+      "B": "happy-path",
+      "invariant": "boot({initialState}) with prep['Mount|Top']=3 is visible to the app at first read: prep equals 3 and masteredCount() equals 1.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-047",
+      "file": "e2e/journeys/rails-infra.spec.ts",
+      "title": "stale-seed hygiene: a later un-seeded boot starts clean",
+      "theme": "infra",
+      "L": "fresh-visitor",
+      "F": "boot-landing",
+      "B": "idempotence",
+      "invariant": "An un-seeded boot following a seeded one starts with zero prep keys — the earlier initialState never leaks forward.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-048",
+      "file": "e2e/journeys/rails-infra.spec.ts",
+      "title": "curriculum.json is hermetic: deterministic response, never off-box",
+      "theme": "infra",
+      "L": "fresh-visitor",
+      "F": "belt-path",
+      "B": "guard-limit",
+      "invariant": "An in-page fetch of /static/neural/curriculum.json resolves on-box with status 200 or a clean 404 (never rejected or aborted off-box).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-049",
+      "file": "e2e/journeys/restart-hygiene.spec.ts",
+      "title": "restart mid-defense: no ghost tap, no ladder drop, defense state fully disarmed",
+      "theme": "resilience",
+      "L": "first-roll-day1",
+      "F": "defense-panic",
+      "B": "interruption-abort",
+      "invariant": "resetRoll while caught clears _defendSub, _panicKey, and the vignette, keeps the ladder rank unchanged with zero defeat_drain/ladder_down beats, and the new roll lands (>=2 land beats) with live options and no [data-panic] card.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-050",
+      "file": "e2e/journeys/restart-hygiene.spec.ts",
+      "title": "restart mid-sweep: the cancelled needle does not haunt the canvas",
+      "theme": "resilience",
+      "L": "first-roll-day1",
+      "F": "graph-canvas",
+      "B": "interruption-abort",
+      "invariant": "resetRoll mid tension-sweep nulls _sweep and no additional sweep_land beat ever fires afterward (the cancelled needle never lands).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-051",
+      "file": "e2e/journeys/restart-hygiene.spec.ts",
+      "title": "odds refresh routes back to normal math after a defense is abandoned",
+      "theme": "resilience",
+      "L": "first-roll-day1",
+      "F": "option-tray-sheet",
+      "B": "economy-math",
+      "invariant": "After a defense is abandoned via resetRoll, refreshOptionOdds leaves every visible option card's displayed % exactly equal to Math.round(moveChance*100) — zero mismatches (no residual escape-math routing).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-052",
+      "file": "e2e/journeys/review-fixes.spec.ts",
+      "title": "abandoned checkpoint does not contaminate the next deck or auto-pass the unit",
+      "theme": "resilience",
+      "L": "curriculum-mid",
+      "F": "checkpoint-quiz",
+      "B": "interruption-abort",
+      "invariant": "Closing the deck mid-checkpoint clears _checkpoint, and MC answers in a subsequently opened lesson deck never emit checkpoint_passed/unit_done nor mark the unit's checkpoint done.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-053",
+      "file": "e2e/journeys/review-fixes.spec.ts",
+      "title": "starting a roll clears an open checkpoint quiz",
+      "theme": "resilience",
+      "L": "curriculum-mid",
+      "F": "checkpoint-quiz",
+      "B": "cross-feature",
+      "invariant": "Calling resetRoll while a checkpoint quiz is open clears _checkpoint to falsy.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-054",
+      "file": "e2e/journeys/review-fixes.spec.ts",
+      "title": "re-clicking Checkpoint mid-quiz does not silently reset progress",
+      "theme": "resilience",
+      "L": "curriculum-mid",
+      "F": "checkpoint-quiz",
+      "B": "idempotence",
+      "invariant": "Re-invoking startCheckpoint mid-quiz leaves _checkpoint.i at its advanced value (>=1) instead of resetting to card 0.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-055",
+      "file": "e2e/journeys/review-fixes.spec.ts",
+      "title": "mastered is not inflatable: rec counts DISTINCT cards proven by recall",
+      "theme": "flashcards-behind-scenes",
+      "L": "casual-week1",
+      "F": "recall-gate",
+      "B": "economy-math",
+      "invariant": "Recall-grading the same card five times raises rec by at most 1, while recalling three distinct graduated cards raises rec to >=3.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-056",
+      "file": "e2e/journeys/review-fixes.spec.ts",
+      "title": "prod-path rails exist: sound.destroy, save flush, tracked MC-advance timer",
+      "theme": "infra",
+      "L": "fresh-visitor",
+      "F": "persistence-reload",
+      "B": "persistence-reload",
+      "invariant": "sound.destroy and _flushSave exist as functions, set() stamps _settingsAt.mcMode with a number, and _flushSave synchronously persists a rec mutation into the bjj-neural-progress localStorage blob.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-057",
+      "file": "e2e/journeys/sound.spec.ts",
+      "title": "the ring buffer logs patches for gameplay beats",
+      "theme": "infra",
+      "L": "first-roll-day1",
+      "F": "sound",
+      "B": "happy-path",
+      "invariant": "Grading a card grows sound.soundLog and the latest bonus_pumped entry carries a non-empty patch string.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-058",
+      "file": "e2e/journeys/sound.spec.ts",
+      "title": "a rigged win plays the victory fanfare",
+      "theme": "competitive-arc",
+      "L": "first-roll-day1",
+      "F": "sound",
+      "B": "cross-feature",
+      "invariant": "A rigged submission win logs a victory_cascade voice whose patch contains 'fanfare'.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-059",
+      "file": "e2e/journeys/sound.spec.ts",
+      "title": "sound off: the log goes silent",
+      "theme": "input-access",
+      "L": "first-roll-day1",
+      "F": "sound",
+      "B": "guard-limit",
+      "invariant": "With the sound setting 'off', drilling two cards adds zero entries to the sound log.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-060",
+      "file": "e2e/journeys/sound.spec.ts",
+      "title": "volume setting rides every logged voice",
+      "theme": "input-access",
+      "L": "first-roll-day1",
+      "F": "sound",
+      "B": "happy-path",
+      "invariant": "After setting soundVolume to 0.8, the next logged voice's volume equals 0.8 to 5 decimal places.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-061",
+      "file": "e2e/journeys/sound.spec.ts",
+      "title": "same-beat dedupe: two identical beats within 100ms log one voice",
+      "theme": "infra",
+      "L": "first-roll-day1",
+      "F": "sound",
+      "B": "idempotence",
+      "invariant": "Two identical fx('bonus_pumped') beats fired back-to-back log exactly one voice (same-beat dedupe).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-062",
+      "file": "e2e/journeys/sound.spec.ts",
+      "title": "no AudioContext is ever created under test",
+      "theme": "infra",
+      "L": "first-roll-day1",
+      "F": "sound",
+      "B": "guard-limit",
+      "invariant": "After gameplay that produced a non-empty soundLog, sound._ctxCreated is false — no AudioContext is constructed under test.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-063",
+      "file": "e2e/journeys/stakes-impact.spec.ts",
+      "title": "sharpness decays per landing, mastery persists",
+      "theme": "flashcards-behind-scenes",
+      "L": "first-roll-day1",
+      "F": "option-tray-sheet",
+      "B": "economy-math",
+      "invariant": "One JIT grade yields bonusSplit mastery 0.03 and sharpness 0.10 (displayed odds +>=12), and after the next successful landing sharpness decays to 0.075 while mastery stays 0.03.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-064",
+      "file": "e2e/journeys/stakes-impact.spec.ts",
+      "title": "impact contrast: tension sweep, detonation on hit, hit-stop on miss",
+      "theme": "competitive-arc",
+      "L": "first-roll-day1",
+      "F": "graph-canvas",
+      "B": "happy-path",
+      "invariant": "A rigged hit orders sweep_start < sweep_land(inBand true) < detonation < impact_success with a 0.9-1.4s envelope and a positive band, and the following rigged miss lands out of band followed by hit_stop with zero detonation beats.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-065",
+      "file": "e2e/journeys/stakes-impact.spec.ts",
+      "title": "victory cascade ≤1.5s on win; defeat drain on loss; ladder survives reload",
+      "theme": "competitive-arc",
+      "L": "first-roll-day1",
+      "F": "ladder",
+      "B": "persistence-reload",
+      "invariant": "A rigged win emits victory_cascade with durMs <=1500 and ladder_up (+1 rank), the rank survives a preserveStorage reload, and a defense-expiry loss then emits defeat_drain and ladder_down (-1 rank).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-066",
+      "file": "e2e/journeys/stakes-impact.spec.ts",
+      "title": "film-study first look: +4% once per technique, never stacking",
+      "theme": "flashcards-behind-scenes",
+      "L": "first-roll-day1",
+      "F": "film-study",
+      "B": "idempotence",
+      "invariant": "The first watchShort on a technique raises its displayed odds by exactly 4 points with a single film_first_look beat, and a second watch leaves the delta at 4 and the beat count at 1.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-067",
+      "file": "e2e/journeys/stakes-impact.spec.ts",
+      "title": "journey recorder: captures actions and rng draws for replay authoring",
+      "theme": "infra",
+      "L": "first-roll-day1",
+      "F": "option-tray-sheet",
+      "B": "happy-path",
+      "invariant": "startRecording then gameplay then stopRecording returns {startedAt: number, beats: array, draws: array} containing the commit beat and a resolve-tagged draw, and a second stopRecording returns null (the window is closed).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-068",
+      "file": "e2e/journeys/study-story.spec.ts",
+      "title": "white belt study story: path → lesson → MC → recall → checkpoint → unit complete → persists",
+      "theme": "lifetime-journeys",
+      "L": "casual-week1",
+      "F": "belt-path",
+      "B": "happy-path",
+      "invariant": "One continuous session drives wrong-then-right MC (mc_wrong then mc_correct + bonus_pumped), lesson_done for every unit-1 lesson, a recall grade minting rec+1, checkpoint_passed and unit_done with unit 2 unlocked, and after a preserveStorage reload the unit row stays data-done='1' with rec>=1 on a v2 blob.",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "core-069",
+      "file": "e2e/journeys/test-story.spec.ts",
+      "title": "belt-test story: READY → boss battle → tap → celebration → graduation persists",
+      "theme": "lifetime-journeys",
+      "L": "white-belt-holder",
+      "F": "belt-test",
+      "B": "happy-path",
+      "invariant": "From a READY row the belt test ends in a tap with belt_test_won ordered before roll_end plus belt_unlocked and victory_cascade, a belt_test_won fanfare voice on the sound bus, and after a preserveStorage reload the row reads 'won', blue is unlocked, and blue's first lesson genuinely opens (deckOpen true, _posKey equal to its deckKey).",
+      "origin": "core",
+      "status": "accepted"
+    },
+    {
+      "id": "gen-w1-01",
+      "file": "e2e/gen/veteran-odds-clamp.spec.ts",
+      "title": "veteran-odds-clamp",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "option-tray-sheet",
+      "B": "economy-math",
+      "invariant": "With 25 decks drilled to prep=5, every visible option card's displayed odds equals Math.round(moveChance*100) and never exceeds the 95% moveChance ceiling nor drops below 5%, even for options whose deck is fully proven.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 60: seed-prep assertion .toBe(5) -> .toBe(4). Run failed as expected at that exact assertion (\"srsVeteran(25) seeded the landing deck to prep=5\", Expected: 4, Received: 5, exit 1, 3.3s). Restored byte-identical via precise Edit revert (file is untracked so git checkout unavailable; md5sum 79a99e0a5fe414ec35e6098661feb086 matches original), then re-ran green (3.68s).",
+        "runtimeS": 3.6
+      }
+    },
+    {
+      "id": "gen-w1-02",
+      "file": "e2e/gen/veteran-lessons-done-units-not.spec.ts",
+      "title": "veteran-lessons-done-units-not",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "belt-path",
+      "B": "guard-limit",
+      "invariant": "A veteran with 25 decks rec-proven but zero checkpoints passed sees those lesson rows marked data-done='1' while every unit row lacks data-done and every checkpoint row remains unpassed — drilled mastery alone never marks a unit complete.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 59 unit-done census assertion toBe(0)→toBe(1); run failed as expected with \"Expected: 1, Received: 0\" at veteran-lessons-done-units-not.spec.ts:59 (app correctly renders zero done unit rows). Restored via exact reverse edit (file untracked, git checkout unavailable), verified toBe(0) back on lines 59/60, re-ran green in 3.47s.",
+        "runtimeS": 6.8
+      }
+    },
+    {
+      "id": "gen-w1-03",
+      "file": "e2e/gen/veteran-mastered-survives-reload.spec.ts",
+      "title": "veteran-mastered-survives-reload",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "persistence-reload",
+      "B": "persistence-reload",
+      "invariant": "A veteran's 25-deck rec map survives a preserveStorage reload byte-for-byte at the count level: after reload masteredCount()===25, _progressBlob().v===2, and every seeded deckKey still reads rec>=3.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 109: post-reload assertion .toBe(25) flipped to .toBe(24). Run failed as expected at that exact assertion — \"Error: after reload masteredCount() === 25 / Expected: 24 / Received: 25\" (1 failed). Restored the original value via exact revert edit (verified 0 occurrences of toBe(24) and line 109 identical to original), then re-ran green (1 passed, 15.1s).",
+        "runtimeS": 44.2
+      }
+    },
+    {
+      "id": "gen-w1-04",
+      "file": "e2e/gen/veteran-film-look-respects-clamp.spec.ts",
+      "title": "veteran-film-look-respects-clamp",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "film-study",
+      "B": "guard-limit",
+      "invariant": "On a veteran profile the film first-look bonus adds at most 4 points to a technique's displayed odds and the post-watch odds still never exceed 95 — cumulative lifetime bonuses (mastery + sharpness + film) compose under the clamp, not past it.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 35 assertFilmDelta bound: toBeLessThanOrEqual(4) -> toBeLessThanOrEqual(3). Run failed as expected (exit 1) at exactly that line in the headroom test: \"Expected: <= 3, Received: 4\" — proves the +4 film-delta assertion bites. Restored via exact inverse Edit (file is git-untracked, so precise revert, not checkout); restored run fully green (2 passed, exit 0). check_gen_specs.sh: only ledger-orphan failures (this file + 18 sibling pre-Gate wave specs; ledger has 0 accepted generated yet); no non-orphan failures — RNG seam intact.",
+        "runtimeS": 31
+      }
+    },
+    {
+      "id": "gen-w1-05",
+      "file": "e2e/gen/returner-day-counter-clean-restart.spec.ts",
+      "title": "returner-day-counter-clean-restart",
+      "theme": "lifetime-journeys",
+      "L": "lapsed-returner",
+      "F": "drill-mc",
+      "B": "economy-math",
+      "invariant": "After a lapse (empty days map) the daily counter restarts from a clean zero: cardsToday is 0 at boot, the first graded card makes it exactly 1, and the _days map contains only today's key — no stale day contaminates the comeback session.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 87: expect(afterFirst.cardsToday).toBe(1) flipped to .toBe(2). Run failed as required: \"Error: first graded card makes the counter EXACTLY 1 — Expected: 2, Received: 1\" at spec:87 (assertion bites; app truly mints exactly 1 on the first graded comeback card). Restored byte-exact from /tmp backup; md5 1f802c06265634e16f8bb5139e0c0d28 matches the pre-mutation original; restored run green (1 passed, 3.0s).",
+        "runtimeS": 47.8
+      }
+    },
+    {
+      "id": "gen-w1-06",
+      "file": "e2e/gen/returner-ladder-independent-of-blob.spec.ts",
+      "title": "returner-ladder-independent-of-blob",
+      "theme": "lifetime-journeys",
+      "L": "lapsed-returner",
+      "F": "ladder",
+      "B": "persistence-reload",
+      "invariant": "Ladder rank lives in bjj-neural-ladder, independent of the progress blob: a returner seeded with full progress starts at rank 1, and after one rigged win the rank-2 state survives a preserveStorage reload while the belt record rides the blob unchanged.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 46: baseline ladder-rank assertion .toBe(1) -> .toBe(2); run failed exactly there (Expected: 2, Received: 1 — app really reports rank 1 for the full-blob returner). Restored via exact revert; md5 282bd28208ed531be549a21a6fc2dfd4 matches original byte-for-byte; restored run green (45.4s).",
+        "runtimeS": 45.4
+      }
+    },
+    {
+      "id": "gen-w1-07",
+      "file": "e2e/gen/endgame-no-locks-anywhere.spec.ts",
+      "title": "endgame-no-locks-anywhere",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "belt-path",
+      "B": "guard-limit",
+      "invariant": "With every belt won the path view has exhausted its lock economy: zero [data-locked] elements render anywhere in path view, every unit row is data-done='1', and every belt's test row reads 'won'.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Corrupted the persona seed in the spec (delete seed.belts.won[BELTS[0].id] before boot) so the first belt reads not-won and downstream belts re-lock. Run failed as expected at the headline assertion: 'zero locked rows remain' Expected 0, Received 7 ([data-locked] rows reappeared). Restored from /tmp backup (file is untracked so git checkout was not usable), md5-verified byte-identical to the original, then re-ran green (1 passed, 2.6s).",
+        "runtimeS": 45.6
+      }
+    },
+    {
+      "id": "gen-w1-08",
+      "file": "e2e/gen/endgame-won-test-is-final.spec.ts",
+      "title": "endgame-won-test-is-final",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "belt-test",
+      "B": "idempotence",
+      "invariant": "Clicking an already-won belt-test row never erases the recorded win: belts.won keeps all 5 entries with their original moves/dominance, no belt_test_start beat fires from the click (or, if a retake opens, aborting it via resetRoll leaves belts.won and every row's 'won' state intact).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 79: the belt_test_start beat-count assertion .toBe(0) flipped to .toBe(1). Run failed as expected at e2e/gen/endgame-won-test-is-final.spec.ts:79 with 'Expected: 1, Received: 0' (zero beats actually fire from clicking the won row — the assertion bites). Restored via exact inverse edit (git checkout impossible: file untracked, ledger entry lands at Gate), then re-ran green (2.1s test).",
+        "runtimeS": 6.8
+      }
+    },
+    {
+      "id": "gen-w1-09",
+      "file": "e2e/gen/endgame-ladder-rank-ceiling.spec.ts",
+      "title": "endgame-ladder-rank-ceiling",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "ladder",
+      "B": "guard-limit",
+      "invariant": "A win at the top ladder rank clamps: with rank pinned to ladderNames().length, a rigged victory leaves rank exactly at the ceiling (no overflow past the roster) and any ladder_up beat reflects the clamped rank.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 80 capped-flag assertion .toBe(true)→.toBe(false); run failed exactly there (\"ladder_up is flagged capped at the ceiling — Expected: false, Received: true\"), proving the assertion bites. Restored by exact revert; md5 f256f6af70047ce574117a8cda730c47 matches the original byte-for-byte; restored run green (4.5s). check_gen_specs.sh: only ledger-orphan failures (this file + 18 pre-Gate siblings, entries land at Gate); no other failure classes; RNG seam check ok.",
+        "runtimeS": 32.9
+      }
+    },
+    {
+      "id": "gen-w1-10",
+      "file": "e2e/gen/endgame-checkpoint-retake-cant-undone.spec.ts",
+      "title": "endgame-checkpoint-retake-cant-undone",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "checkpoint-quiz",
+      "B": "idempotence",
+      "invariant": "Retaking and deliberately failing an already-passed checkpoint never revokes completion: after answering every retake card wrong, units['white/u1'] still records checkpoint:true, the unit row stays data-done='1', and no unit-regression beat fires.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 144 assertion {checkpoint: true, t: 1} -> {checkpoint: false, t: 1} (the core ratchet check on live units state). Run failed exactly at that line: received checkpoint: true vs expected false, confirming the app keeps the pass and the assertion bites. Restored via exact inverse edit (file untracked, git checkout n/a; git diff clean of the mutation) and re-ran green (3.8s).",
+        "runtimeS": 3.8
+      }
+    },
+    {
+      "id": "gen-w1-11",
+      "file": "e2e/gen/holder-next-test-still-locked.spec.ts",
+      "title": "holder-next-test-still-locked",
+      "theme": "lifetime-journeys",
+      "L": "white-belt-holder",
+      "F": "belt-test",
+      "B": "guard-limit",
+      "invariant": "Winning white unlocks blue STUDY but not the blue TEST: a white-belt holder with zero blue progress sees white's test row 'won' and blue's test row 'locked' — belt tests gate on that belt's own units, not on the previous belt's victory.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 64 crux assertion .toBe(\"locked\") → .toBe(\"ready\") for blue's [data-belt-test] data-test-state; run failed exactly at that assertion (Expected: \"ready\", Received: \"locked\"). Restored via exact reverse Edit — md5 930e4458dfc77a3884303f5115d7864b identical to pre-mutation — then re-ran green (2.7s).",
+        "runtimeS": 13.2
+      }
+    },
+    {
+      "id": "gen-w1-12",
+      "file": "e2e/gen/holder-sequential-locks-resume-in-blue.spec.ts",
+      "title": "holder-sequential-locks-resume-in-blue",
+      "theme": "lifetime-journeys",
+      "L": "white-belt-holder",
+      "F": "belt-path",
+      "B": "cross-feature",
+      "invariant": "The sequential-unit lock discipline carries across the belt boundary: for a fresh white-belt holder, blue unit 1 renders unlocked, blue unit 2 renders data-locked='1', and drilling blue unit 1's lessons to goal (lesson_done per lesson) is what releases nothing until its checkpoint passes.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 85 assertion \"unit 2 STILL locked after all U1 lessons\" from .toBe(\"1\") to .toBeNull(); run failed exactly there (expect(received).toBeNull() — Received: \"1\"), proving the sequential-lock assertion bites. Restored the exact original string by precise revert (file untracked, git checkout unavailable); re-run green.",
+        "runtimeS": 49.1
+      }
+    },
+    {
+      "id": "gen-w1-13",
+      "file": "e2e/gen/spa-nav-single-instance-law.spec.ts",
+      "title": "spa-nav-single-instance-law",
+      "theme": "lifetime-journeys",
+      "L": "fresh-visitor",
+      "F": "spa-nav",
+      "B": "idempotence",
+      "invariant": "A Quartz soft navigation destroys and rebuilds exactly one app instance: after two spa navigations there is exactly one #neural-root in the DOM, window.__neural is a fresh instance (empty beats array, new nodes ingest), and a single keydown reaches exactly one handler (no accumulated listeners).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 123: expect(life2.roots).toBe(1) -> toBe(2); run failed exactly on that assert (\"exactly one #neural-root after nav 1\", Expected: 2, Received: 1). Restored via exact inverse edit, byte-identity confirmed by md5 fbee853c3dd0c15f093c458f19b9132c (matches pre-mutation), then re-ran green (4.8s). check_gen_specs.sh: only ledger-orphan failures (this spec + 18 sibling wave specs pre-Gate); RNG seam intact, zero substantive failures.",
+        "runtimeS": 35.2
+      }
+    },
+    {
+      "id": "gen-w1-14",
+      "file": "e2e/gen/spa-nav-midroll-teardown-clean.spec.ts",
+      "title": "spa-nav-midroll-teardown-clean",
+      "theme": "lifetime-journeys",
+      "L": "casual-week1",
+      "F": "spa-nav",
+      "B": "interruption-abort",
+      "invariant": "A soft navigation in the middle of a live roll (options dealt, decision clock running) tears down without ghosts: the remounted app has no residual _defendSub/_sweep/_beltTest/optionIdxs from the old life, no stray timer fires a beat into the new instance, and a fresh land deals a live hand.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped line 126 sameRef assertion .toBe(false) -> .toBe(true); run failed exactly there (\"remount is a NEW instance, not the old ref\": Expected true, Received false). Restored byte-exact from md5-verified backup (e9972a13e15b0afe0bf5a7767e96607e matches original), then re-ran green (4.3s).",
+        "runtimeS": 5.8
+      }
+    },
+    {
+      "id": "gen-w1-15",
+      "file": "e2e/gen/corrupt-blob-fresh-fallback-boot.spec.ts",
+      "title": "corrupt-blob-fresh-fallback-boot",
+      "theme": "lifetime-journeys",
+      "L": "legacy-corrupt-blob",
+      "F": "boot-landing",
+      "B": "error-fallback",
+      "invariant": "Booting with syntactically-broken JSON in bjj-neural-progress falls back to a pristine fresh profile without crashing: the app ingests >1000 nodes, prep/rec are empty, masteredCount()===0, and a first roll lands with a live hand.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 73: expect(boot.mastered, \"masteredCount() === 0 ...\").toBe(0) flipped to .toBe(1). Run failed as expected at exactly that assertion (Expected: 1, Received: 0 — received value proves the fresh-profile fallback is genuinely observed). Restored the exact original line via precise Edit revert; restored run green (10.8s). check_gen_specs.sh: only failures are 19 ledger-orphan lines (this spec + 18 same-wave siblings, ledger entries land at Gate stage); RNG seam ok, no other failures.",
+        "runtimeS": 44.6
+      }
+    },
+    {
+      "id": "gen-w1-16",
+      "file": "e2e/gen/corrupt-blob-heals-on-first-grade.spec.ts",
+      "title": "corrupt-blob-heals-on-first-grade",
+      "theme": "lifetime-journeys",
+      "L": "legacy-corrupt-blob",
+      "F": "drill-mc",
+      "B": "persistence-reload",
+      "invariant": "After falling back from corrupt storage, the first graded card writes a valid v2 blob that replaces the corruption and survives a preserveStorage reload: post-reload JSON.parse succeeds, _progressBlob().v===2, and the graded prep key persists — the poison is quarantined, not resurrected.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated e2e/gen/corrupt-blob-heals-on-first-grade.spec.ts line 148: expect(healed.v, \"stored blob is v2\").toBe(2) -> .toBe(3). Run failed as expected: \"Error: stored blob is v2 — Expected: 3, Received: 2\" at spec line 148 (1 failed), proving the heal assertion observes the real stored blob version. Restored byte-exact via cp from pre-mutation backup; md5 66ff51435224443ea2f281635582b286 matches baseline, and the restored run passed green (27.6s). check_gen_specs: only ledger-orphan FAILs (this file + 18 siblings of the same pre-Gate wave, expected until Gate); RNG seam ok; no other failures.",
+        "runtimeS": 30.1
+      }
+    },
+    {
+      "id": "quar-w1-01",
+      "file": "e2e/gen/spa-nav-inflight-progress-survives.spec.ts",
+      "title": "Q001: SPA soft-nav teardown never flushes the debounced save",
+      "theme": "resilience",
+      "L": "white-belt-holder",
+      "F": "spa-nav",
+      "B": "persistence-reload",
+      "invariant": "A card graded moments before a Quartz soft navigation is not lost to the prod debounced save: teardown flushes the pending write, so the remounted instance's prep map carries the grade and the seeded belt win stays intact.",
+      "origin": "bug",
+      "status": "accepted",
+      "wave": 1,
+      "issue": "Q001 (e2e/quarantine/ISSUES.md)",
+      "evidence": {
+        "promoted": "Q001 fixed in v1.67.4 (unmount _flushSave); spec green post-fix"
+      }
+    },
+    {
+      "id": "gen-w1-17",
+      "file": "e2e/gen/veteran-belt-path-all-study-locks-open-tests-gated.spec.ts",
+      "title": "veteran-belt-path-all-study-locks-open-tests-gated",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "belt-path",
+      "B": "cross-feature",
+      "invariant": "A 25-deck SRS veteran whose proven decks span multiple belts sees every lesson row those decks back marked data-done='1' across belt boundaries, yet because no checkpoint passed and no belt won, every belt-test row still reads data-test-state 'locked' and blue's units remain sequentially locked — drilled recall crosses belts but never unlocks a test.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 101 assertion `.toEqual(Array(TEST_BELTS).fill(\"locked\"))` → `.fill(\"ready\")`. Single run FAILED as expected: Received [\"locked\",\"locked\",\"locked\",\"locked\",\"locked\"] vs Expected 5×\"ready\" (the SRS veteran has zero checkpoints, so unitComplete is false for every belt → belt-test state is \"locked\", never \"ready\"). This proves the belt-test-state census assertion bites on real app DOM output. Restored the exact original via reverse Edit; re-ran green (2.2s).",
+        "runtimeS": 2.2
+      }
+    },
+    {
+      "id": "gen-w1-18",
+      "file": "e2e/gen/veteran-opponent-attacks-pull-from-lifetime-vocab.spec.ts",
+      "title": "veteran-opponent-attacks-pull-from-lifetime-vocab",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "opponent-turns",
+      "B": "guard-limit",
+      "invariant": "During a normal (non-belt-test) roll for a 25-deck veteran, a rigged opponent_attack draws a technique that resolves to a real submissions/transitions node, and mastered lifetime decks never widen the opponent's attack pool — the attack idx resolves to a node whose title matches the beat technique, and zero phantom opponent_attack beats fire beyond the rigged one.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 164 (`.toBe(atk.technique)` → `.not.toBe(atk.technique)`), the core clause-1 assertion that the rigged opponent_attack's idx resolves to a graph node whose title equals the beat technique. Single run FAILED as expected exactly at line 164: `Expected: not \"Americana from High Mount\"` — confirming the resolved submission node's title equals the beat technique by construction. Restored via precise Edit; re-ran green (3.5s).",
+        "runtimeS": 4.2
+      }
+    },
+    {
+      "id": "gen-w1-19",
+      "file": "e2e/gen/veteran-victory-does-not-mutate-recall-map.spec.ts",
+      "title": "veteran-victory-does-not-mutate-recall-map",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "victory-defeat",
+      "B": "cross-feature",
+      "invariant": "Winning a live roll by rigged submission for a veteran fires roll_end outcome 'win' and victory_cascade but leaves the recall/mastery economy untouched: masteredCount() and every seeded rec[deckKey] are byte-identical before and after the finish — gameplay victory credits the ladder, never the SRS rec map.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 126 from `.toBe(base.rank + 1)` to `.toBe(base.rank + 2)`. Single run FAILED as required: \"ladder rank advanced exactly +1 ... Expected: 3, Received: 2\" — proving the win advances ladder rank by exactly +1. Restored via precise Edit back to `.toBe(base.rank + 1)`; re-ran green (3.8s).",
+        "runtimeS": 5.0
+      }
+    },
+    {
+      "id": "gen-w1-20",
+      "file": "e2e/gen/veteran-settings-gimode-flip-hides-gi-lessons-live.spec.ts",
+      "title": "veteran-settings-gimode-flip-hides-gi-lessons-live",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "settings",
+      "B": "cross-feature",
+      "invariant": "Flipping giMode to 'nogi' at runtime for a veteran re-renders the belt path live: any gi-only lesson row switches to data-live='0' aria-disabled='true' and drops out of its unit's done-math, while nogi-viable proven decks keep data-done='1' — a mid-life settings change re-derives lock/live state without a reload.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 109 from `.toBe(\"0\")` to `.toBe(\"1\")` — asserting the gi-only lesson row STAYS alive after the runtime gi→nogi flip. Ran once: FAILED as expected at line 109 with `Expected: \"1\" / Received: \"0\"` (the app correctly re-derived the gi-only row to dead: data-live=0). Restored exactly via precise Edit revert back to `.toBe(\"0\")`; re-ran green.",
+        "runtimeS": 7.3
+      }
+    },
+    {
+      "id": "gen-w1-21",
+      "file": "e2e/gen/returner-decision-timer-expiry-narrated-on-comeback.spec.ts",
+      "title": "returner-decision-timer-expiry-narrated-on-comeback",
+      "theme": "lifetime-journeys",
+      "L": "lapsed-returner",
+      "F": "decision-timer",
+      "B": "keyboard-timing",
+      "invariant": "A returner who freezes on their first comeback hand gets a narrated auto-pick, not a silent teleport: letting the decision window expire emits expiry_warning then auto_pick, and cardsToday stays 0 across the expiry (an auto-picked option is not a graded card).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 4,
+        "redProof": "Mutated line 93 `.toBeLessThan(iAuto)` → `.toBeGreaterThan(iAuto)`. Ran once: FAILED as required with `expiry_warning PRECEDES auto_pick ... Expected: > 9, Received: 6` — real beat order is expiry_warning@idx6 before auto_pick@idx9. Restored by reverse-Edit back to `.toBeLessThan(iAuto)`, verified byte-exact, re-ran green.",
+        "runtimeS": 3.5
+      }
+    },
+    {
+      "id": "gen-w1-22",
+      "file": "e2e/gen/endgame-victory-cannot-double-award-belt.spec.ts",
+      "title": "endgame-victory-cannot-double-award-belt",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "victory-defeat",
+      "B": "idempotence",
+      "invariant": "A rigged gameplay submission win for a fully-graduated player fires roll_end 'win'/victory_cascade but never re-emits belt_test_won or belt_unlocked and leaves belts.won at exactly 5 entries with unchanged moves/dominance — a normal-roll victory is not a belt award and cannot inflate the belt record.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 147 from `.toBe(N_BELTS)` to `.toBe(N_BELTS + 1)`. Ran once: FAILED as expected at line 147 — Expected: 6, Received: 5. The app left belts.won frozen at its 5 seeded entries. Restored the exact original via reverse Edit (`.toBe(N_BELTS)`) and re-ran GREEN (3.3s).",
+        "runtimeS": 10.2
+      }
+    },
+    {
+      "id": "gen-w1-23",
+      "file": "e2e/gen/holder-victory-defeat-blue-progress-untouched-by-loss.spec.ts",
+      "title": "holder-victory-defeat-blue-progress-untouched-by-loss",
+      "theme": "lifetime-journeys",
+      "L": "white-belt-holder",
+      "F": "victory-defeat",
+      "B": "cross-feature",
+      "invariant": "A gameplay loss for a white-belt holder drains the ladder but never revokes the earned white belt or corrupts blue study progress: after a rigged defense-expiry loss, defeat_drain and ladder_down fire, yet belts.won[white] is intact and blue's units/lessons state is unchanged from boot — belt record and study progress are independent of roll outcomes.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 128 from `.toBe(rank0 - 1)` to `.toBe(rank0 + 1)`. Single run FAILED as expected: `Expected: 4 / Received: 2` — the loss dropped the ladder from rank0=3 to 2 (a real -1 debit). Restored via precise Edit back to `.toBe(rank0 - 1)`; follow-up green run passed (3.9s).",
+        "runtimeS": 3.9
+      }
+    },
+    {
+      "id": "gen-w1-24",
+      "file": "e2e/gen/corrupt-blob-belt-path-boots-fresh-white.spec.ts",
+      "title": "corrupt-blob-belt-path-boots-fresh-white",
+      "theme": "lifetime-journeys",
+      "L": "legacy-corrupt-blob",
+      "F": "belt-path",
+      "B": "error-fallback",
+      "invariant": "When bjj-neural-progress is malformed JSON, the belt path renders a pristine fresh profile without crashing: white belt row is unlocked (no data-locked), blue belt row data-locked='1', every unit row lacks data-done, and every [data-belt-test] reads 'locked' — corruption degrades to a clean white-belt start, not a broken explorer.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 124 from `.toBe(\"1\")` to `.toBe(\"0\")`. Single run FAILED as expected: `Expected \"0\", Received \"1\"` (the app renders data-locked=\"1\" on the fresh-fallback profile). Restored the exact pristine bytes via cp from a pre-mutation snapshot (sha256 c1c2a61130ed9acaa956b6bbfa27494affa55fe91464c4441fc844dcae4bd8ef), then re-ran green (10.3s).",
+        "runtimeS": 12.0
+      }
+    },
+    {
+      "id": "gen-w1-25",
+      "file": "e2e/gen/corrupt-blob-settings-persist-cleanly-after-heal.spec.ts",
+      "title": "corrupt-blob-settings-persist-cleanly-after-heal",
+      "theme": "lifetime-journeys",
+      "L": "legacy-corrupt-blob",
+      "F": "settings",
+      "B": "persistence-reload",
+      "invariant": "After falling back from corrupt storage, a settings change (giMode/mcMode) writes into the healed profile and survives a preserveStorage reload: post-reload the setting reads the chosen value, _progressBlob().v===2, and JSON.parse of bjj-neural-progress succeeds — the quarantined poison never resurfaces through the settings write path.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 148 `.toBe(\"classic\")` → `.toBe(\"REDPROOF_WRONG\")`. Single run FAILED as expected: app returned real re-ingested \"classic\" but spec demanded \"REDPROOF_WRONG\" — the corrupt-boot → settings-heal → preserveStorage-reload flow executed and the post-reload re-ingest assertion bites. Restored via precise Edit back to `.toBe(\"classic\")`; re-ran green (19.3s).",
+        "runtimeS": 19.3
+      }
+    },
+    {
+      "id": "gen-w1-26",
+      "file": "e2e/gen/lapsed-returner-spa-nav-preserves-career.spec.ts",
+      "title": "lapsed-returner-spa-nav-preserves-career",
+      "theme": "lifetime-journeys",
+      "L": "lapsed-returner",
+      "F": "spa-nav",
+      "B": "persistence-reload",
+      "invariant": "A Quartz soft navigation for a returner (no in-flight grade) rebuilds the app while their seeded career survives in storage: after the soft nav the remounted instance is a fresh ref with an empty beats array, yet _progressBlob() still carries belts.won[white] and the full prep map — navigation rebuilds the app, never the profile.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 110 `.toBe(false)` → `.toBe(true)` (asserting the post-soft-nav remount is the recycled old ref). Single run FAILED as expected at line 110: Expected: true, Received: false (sameRef is genuinely false; the soft nav rebuilds a distinct __neural instance). Restored the exact original byte-for-byte and re-ran green (2.3s).",
+        "runtimeS": 2.4
+      }
+    },
+    {
+      "id": "gen-w1-27",
+      "file": "e2e/gen/endgame-opponent-turn-vocab-unbounded-not-belt-gated.spec.ts",
+      "title": "endgame-opponent-turn-vocab-unbounded-not-belt-gated",
+      "theme": "lifetime-journeys",
+      "L": "multi-belt-endgame",
+      "F": "opponent-turns",
+      "B": "happy-path",
+      "invariant": "Outside a belt test the opponent's move pool is the full graph, not a belt-restricted set: for a graduated player a rigged opponent_move in a normal roll resolves to a transitions-or-submissions node whose technique need not be in any belt's names list, and no _beltTest is ever set — belt-vocabulary restriction is a belt-test-only rule.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 139: `.toBe(true)` → `.toBe(false)` on the belt-pool short-circuit assertion. Single run FAILED as expected at :139 with `Expected: false, Received: true` — proving _beltPoolAllows(n) returns true when no _beltTest is active. Restored line 139 exactly back to `.toBe(true)`, then re-ran green in 3.6s.",
+        "runtimeS": 3.6
+      }
+    },
+    {
+      "id": "gen-w1-28",
+      "file": "e2e/gen/veteran-graph-canvas-fog-lifts-in-tree-view.spec.ts",
+      "title": "veteran-graph-canvas-fog-lifts-in-tree-view",
+      "theme": "lifetime-journeys",
+      "L": "srs-veteran",
+      "F": "graph-canvas",
+      "B": "cross-feature",
+      "invariant": "For a veteran the path-view fog-of-war is a PATH-view artifact, not a permanent dim: while PATH view is open _pathDim is active and _curriculumIdxSet excludes some nodes, but toggling to TREE view clears _pathDim (fog off) and renders zero [data-locked]/[data-lesson] — switching view mode fully lifts the fog for a mastered profile.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 1,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 81 `.toBe(false)` → `.toBe(true)`. Single run FAILED exactly at line 81: `Expected: true, Received: false` (tree view genuinely sets _pathDim=false). Restored to `.toBe(false)` via Edit; verified byte-exact; post-restore run green in 2.1s.",
+        "runtimeS": 2.1
+      }
+    },
+    {
+      "id": "gen-w3-01",
+      "file": "e2e/gen/onboard-coach-skip-jumps-to-done.spec.ts",
+      "title": "onboard-coach-skip-jumps-to-done",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "intro-roll-coach",
+      "B": "interruption-abort",
+      "invariant": "Skipping the coach at step 1 (dismissCoach) jumps straight to coach_done without ever emitting coach_2 or coach_3, unfreezes the clock, and persists bjj-neural-coached='1' — an early abort still completes the onboarding contract.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 63 assertion `expect(afterSkip.filter(b => b === \"coach_done\").length).toBe(1)` -> `.toBe(2)`. Red run failed with exit=1: coach_done fires once / Expected: 2 / Received: 1 — proving the app emits exactly one coach_done on the step-1 skip branch. Restored via Edit (line 63 back to `.toBe(1)`), re-ran green (exit=0).",
+        "runtimeS": 35
+      }
+    },
+    {
+      "id": "gen-w3-02",
+      "file": "e2e/gen/onboard-coach-skip-from-step2-no-step3.spec.ts",
+      "title": "onboard-coach-skip-from-step2-no-step3",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "intro-roll-coach",
+      "B": "interruption-abort",
+      "invariant": "Advancing the coach to step 2 then skipping emits coach_1,coach_2,coach_done in order with exactly zero coach_3 beats — a mid-walk skip finalizes onboarding from wherever the user stopped, never fabricating the skipped step.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 68 from `.toBe(0)` to `.toBe(1)` on the coach_3 count after a mid-walk skip. FAILED at line 68:95 with Expected: 1, Received: 0 (runtime emits exactly zero coach_3 beats). Restored byte-exact (md5 55e44b78b56ac776fe0ce454ee22b410) and re-ran green (1.9s).",
+        "runtimeS": 4.2
+      }
+    },
+    {
+      "id": "gen-w3-03",
+      "file": "e2e/gen/onboard-coach-freeze-blocks-expiry.spec.ts",
+      "title": "onboard-coach-freeze-blocks-expiry",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "intro-roll-coach",
+      "B": "keyboard-timing",
+      "invariant": "While the coach is up the decision clock is fully frozen so no matter how much sim time is pumped neither expiry_warning nor auto_pick can fire; only after coach_done does pumping to zero produce the narrated expiry pair.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 98 from `.toBe(boot.total)` to `.toBe(boot.total - 1)` — asserting the clock drained 1ms instead of 0 across a 30000ms pump under the coach. FAILED at :98 with Expected: 16199, Received: 16200 (drained exactly 0ms). Restored via Edit back to `.toBe(boot.total)` and re-ran green (3.7s).",
+        "runtimeS": 5
+      }
+    },
+    {
+      "id": "gen-w3-04",
+      "file": "e2e/gen/onboard-coach-dom-lifecycle-single-card.spec.ts",
+      "title": "onboard-coach-dom-lifecycle-single-card",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "intro-roll-coach",
+      "B": "guard-limit",
+      "invariant": "The coach renders exactly one [data-coach] card that survives across advanceCoach steps (still exactly one, never duplicated) and is fully removed on finish (zero [data-coach]) — the onboarding overlay is a singleton with a clean teardown.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Flipped the clean-teardown assertion on line 57 from `.toBe(0)` to `.toBe(1)`. FAILED at line 57 — Expected: 1, Received: 0, because finishCoach() removes the [data-coach] node. Restored line 57 to `.toBe(0)` byte-exact; re-ran green.",
+        "runtimeS": 3.36
+      }
+    },
+    {
+      "id": "gen-w3-05",
+      "file": "e2e/gen/onboard-coach-done-guard-without-storage-read.spec.ts",
+      "title": "onboard-coach-done-guard-without-storage-read",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "intro-roll-coach",
+      "B": "idempotence",
+      "invariant": "Once dismissed in-session the _coachDone flag short-circuits maybeStartCoach even if the persisted flag is wiped: after finishing the coach then deleting bjj-neural-coached from localStorage, a fresh maybeStartCoach() call emits no new coach_1 (the in-memory guard, not the storage read, prevents a re-coach).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 92 from `.toBe(1)` to `.toBe(2)` (post-experiment coach_1 count). FAILED: Expected: 2, Received: 1 — app emits exactly one coach_1 (no re-coach after the storage flag is wiped, in-memory _coachDone guard short-circuits). Restored via Edit back to `.toBe(1)`; green re-run (1.9s).",
+        "runtimeS": 3.5
+      }
+    },
+    {
+      "id": "gen-w3-06",
+      "file": "e2e/gen/onboard-coach-fires-for-seeded-uncoached-user.spec.ts",
+      "title": "onboard-coach-fires-for-seeded-uncoached-user",
+      "theme": "onboarding",
+      "L": "curriculum-mid",
+      "F": "intro-roll-coach",
+      "B": "cross-feature",
+      "invariant": "The coach gates ONLY on the bjj-neural-coached flag, not on progress: a mid-curriculum persona (real prep/units) who has never been coached still gets coach_1 with the frozen clock on their first landing — study progress does not suppress first-roll onboarding.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 120 frozen-clock assertion from `.toBeLessThan(0.5)` to `.toBeGreaterThan(0.5)`. FAILED: under the open coach _tickDecision early-returns so the clock is frozen (Delta=0); Expected: > 0.5, Received: 0. Restored to `.toBeLessThan(0.5)`; green (2.2s).",
+        "runtimeS": 2.2
+      }
+    },
+    {
+      "id": "gen-w3-07",
+      "file": "e2e/gen/onboard-coach-suppressed-when-flag-preset.spec.ts",
+      "title": "onboard-coach-suppressed-when-flag-preset",
+      "theme": "onboarding",
+      "L": "casual-week1",
+      "F": "intro-roll-coach",
+      "B": "guard-limit",
+      "invariant": "A returning user whose bjj-neural-coached flag is already set is never re-coached: with the flag pre-seeded the first landing emits zero coach_1 beats and the decision clock runs immediately (drains under a plain advance).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 102 flipping the suppression assertion `.toBe(0)` -> `.toBe(1)`. FAILED at 102:110 with Expected: 1, Received: 0 (EXIT 1) — preset bjj-neural-coached flag suppresses the coach. Restored byte-exact (md5 27a8d8ffec5cdf1be9f85ef8ab10ed8f, 151 lines); green (2.0s).",
+        "runtimeS": 3.45
+      }
+    },
+    {
+      "id": "gen-w3-08",
+      "file": "e2e/gen/onboard-coach-persists-across-spa-nav.spec.ts",
+      "title": "onboard-coach-persists-across-spa-nav",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "intro-roll-coach",
+      "B": "persistence-reload",
+      "invariant": "Coaching completes once per profile across a Quartz soft navigation: after finishing the coach then soft-navigating to rebuild the app instance, the remounted app's first landing emits no fresh coach_1 (the persisted flag survives the rebuild) even though window.__neural is a new ref.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 160 flipping remounted-life coach_1-count `.toBe(0)` -> `.toBe(1)`. FAILED: Expected: 1, Received: 0 — persisted bjj-neural-coached flag suppresses the coach across the soft-nav rebuild. Restored to `.toBe(0)` (file intact 172 lines); green (3.2s).",
+        "runtimeS": 6
+      }
+    },
+    {
+      "id": "gen-w3-09",
+      "file": "e2e/gen/onboard-first-hand-beacon-is-options.spec.ts",
+      "title": "onboard-first-hand-beacon-is-options",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "option-tray-sheet",
+      "B": "happy-path",
+      "invariant": "The very first thing highlighted for a brand-new player is the option tray: beaconState() is null before any hand is dealt and becomes exactly {target:'options'} with exactly one [data-beacon] the instant the first hand lands — first-contact guidance points at the tray, nothing else.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 73 post-land assertion from `target: \"options\"` to `target: \"coach\"` in the deep-equal check. FAILED at 72:107 — deep-equality mismatch (Expected coach, Received options). Restored to `target: \"options\"`; green (1.9s).",
+        "runtimeS": 7.95
+      }
+    },
+    {
+      "id": "gen-w3-10",
+      "file": "e2e/gen/onboard-fresh-boot-lands-live-hand.spec.ts",
+      "title": "onboard-fresh-boot-lands-live-hand",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "boot-landing",
+      "B": "happy-path",
+      "invariant": "A cold first boot ingests the full graph and deals a live opening hand: >1000 nodes ingested, prep/rec empty, masteredCount()===0, and the first landing emits land + options_dealt with >=3 live option indices — the empty-profile first impression is a playable roll, not a blank canvas.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 2,
+        "redProof": "Mutated line 66 from `.toBe(0)` to `.toBe(1)` on masteredCount for a fresh profile. FAILED: Expected: 1, Received: 0. Restored to `.toBe(0)`; re-ran 1 passed (2.6s).",
+        "runtimeS": 2.2
+      }
+    },
+    {
+      "id": "gen-w3-11",
+      "file": "e2e/gen/onboard-first-freeze-drilling-refunds-then-clock-runs.spec.ts",
+      "title": "onboard-first-freeze-drilling-refunds-then-clock-runs",
+      "theme": "onboarding",
+      "L": "first-roll-day1",
+      "F": "decision-timer",
+      "B": "keyboard-timing",
+      "invariant": "A day-1 player's first decision window behaves as designed once the coach is gone: the clock is live (drains under advance), a single JIT grade refunds >=2s of decisionRemaining with a timer_refund granted:true beat, and letting it run to zero still narrates expiry_warning then auto_pick.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 97 flipping the JIT-refund assertion `.toBeGreaterThanOrEqual(2)` -> `.toBeLessThan(0)`. FAILED: Expected: < 0, Received: 2.4999999999999982 (real +2.5s refund from refundDecision(2500)). Restored byte-identical (sha256 ee450f37c7b521c532a9ba09e5167a1cebbf164afafd12ec20bdfbf734c4aa82); green (4.9s).",
+        "runtimeS": 21
+      }
+    },
+    {
+      "id": "gen-w3-12",
+      "file": "e2e/gen/onboard-first-recall-graduation-mints-first-mastery.spec.ts",
+      "title": "onboard-first-recall-graduation-mints-first-mastery",
+      "theme": "onboarding",
+      "L": "casual-week1",
+      "F": "recall-gate",
+      "B": "economy-math",
+      "invariant": "For a near-fresh player, revealing a card is only 'seen' (masteredCount flat) and only pushing a distinct card's rec to 3 via recall raises masteredCount by exactly 1 — the first mastery a player ever earns is recall-gated, never granted by seeing or by MC.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 155 exact-mint assertion from `.toBe(m0 + 1)` to `.toBe(m0 + 2)`. FAILED: Expected: 2, Received: 1 — app minted exactly one mastery at the recall-gate crossing (bit at the +1 boundary). Restored `m0 + 1` (177 lines); green (2.1s).",
+        "runtimeS": 23.4
+      }
+    },
+    {
+      "id": "gen-w3-13",
+      "file": "e2e/gen/onboard-first-film-look-pumps-once-for-newcomer.spec.ts",
+      "title": "onboard-first-film-look-pumps-once-for-newcomer",
+      "theme": "onboarding",
+      "L": "first-roll-day1",
+      "F": "film-study",
+      "B": "idempotence",
+      "invariant": "A newcomer's first-ever film-study watch on a technique raises its displayed odds by exactly 4 with a single film_first_look beat, and a second watch of the same technique is a no-op (delta stays 4, beat count stays 1) — the intro film bonus is a one-time-per-technique nudge, not a grind.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 106 from `.toBe(4)` to `.toBe(5)`. FAILED: Expected: 5, Received: 4 (exact +4 first-look delta, mid-band no clamp). Restored to `.toBe(4)` (128 lines); green.",
+        "runtimeS": 17
+      }
+    },
+    {
+      "id": "gen-w3-14",
+      "file": "e2e/gen/onboard-first-win-cascade-and-ladder-climb.spec.ts",
+      "title": "onboard-first-win-cascade-and-ladder-climb",
+      "theme": "onboarding",
+      "L": "first-roll-day1",
+      "F": "victory-defeat",
+      "B": "cross-feature",
+      "invariant": "A newcomer's first rigged submission win produces the full celebration and their first ladder rung: finish then roll_end outcome 'win', a victory_cascade with durMs<=1500 and ladder_up (+1 rank) from baseline rank 1, and no belt_test_won beat fires (a normal-roll win is not a belt award).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 138 `.toBe(r0 + 1)` -> `.toBe(r0 + 2)`. FAILED: Expected: 3, Received: 2 — ladderMove(1) climbs exactly one rung (rank 1 -> 2). Restored byte-identical (sha256 bf0f478572e6f88b53a6c91184d7919e767ec894e26fe718cf643957f393077d); green (3.4s).",
+        "runtimeS": 3.4
+      }
+    },
+    {
+      "id": "gen-w3-15",
+      "file": "e2e/gen/onboard-fresh-boot-spa-nav-single-instance.spec.ts",
+      "title": "onboard-fresh-boot-spa-nav-single-instance",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "spa-nav",
+      "B": "idempotence",
+      "invariant": "A brand-new visitor who soft-navigates before any progress gets exactly one rebuilt app instance with an empty career: after a Quartz soft nav there is exactly one #neural-root, window.__neural is a fresh ref with empty beats, and prep/rec are still empty (navigation on an empty profile mints nothing).",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 126 `.toBe(0)` -> `.toBe(1)` on after.prepKeys. FAILED: Expected: 1, Received: 0 — empty profile mints 0 prep entries after the soft nav. Restored to `.toBe(0)`; green (2.2s).",
+        "runtimeS": 2.5
+      }
+    },
+    {
+      "id": "gen-w3-16",
+      "file": "e2e/gen/onboard-corrupt-blob-still-coaches-fresh.spec.ts",
+      "title": "onboard-corrupt-blob-still-coaches-fresh",
+      "theme": "onboarding",
+      "L": "legacy-corrupt-blob",
+      "F": "intro-roll-coach",
+      "B": "error-fallback",
+      "invariant": "When storage is malformed the app falls back to a fresh profile AND treats the user as a first-timer for onboarding: with corrupt bjj-neural-progress the coach flag is absent so the first landing emits coach_1 with a frozen clock — a corrupt blob does not accidentally skip onboarding.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 118 from `.toBeNull()` to `.not.toBeNull()` on flag.atBoot. FAILED: Received: null — corrupt blob leaves bjj-neural-coached ABSENT at boot (onboarding not skipped). Restored to `.toBeNull()` (152 lines); green (11.6s).",
+        "runtimeS": 10.8
+      }
+    },
+    {
+      "id": "gen-w3-17",
+      "file": "e2e/gen/onboard-lapsed-returner-not-recoached.spec.ts",
+      "title": "onboard-lapsed-returner-not-recoached",
+      "theme": "onboarding",
+      "L": "lapsed-returner",
+      "F": "intro-roll-coach",
+      "B": "guard-limit",
+      "invariant": "A lapsed returner who was already coached in a prior life is never coached again: with bjj-neural-coached pre-seeded alongside their career blob, the comeback landing emits zero coach_1 and the clock runs immediately — onboarding is a once-per-profile ritual that a break does not reset.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 130 `.toBe(true)` -> `.toBe(false)` on landed.coachDone (preset flag latches _coachDone=true via maybeStartCoach early return at app.src.jsx:4037). FAILED: Expected: false, Received: true. Restored to `.toBe(true)`; green (1.9s).",
+        "runtimeS": 2
+      }
+    },
+    {
+      "id": "gen-w3-18",
+      "file": "e2e/gen/onboard-coach-frozen-bars-paused-and-resume.spec.ts",
+      "title": "onboard-coach-frozen-bars-paused-and-resume",
+      "theme": "onboarding",
+      "L": "fresh-visitor",
+      "F": "intro-roll-coach",
+      "B": "cross-feature",
+      "invariant": "The coach freeze pauses the visual countdown bars in lockstep with the logical clock: while the coach is up every .ngbar has animationPlayState 'paused', and on coach_done the bars resume to 'running' — the frozen-clock promise is honored on both the model and the rendered UI.",
+      "origin": "auto",
+      "status": "accepted",
+      "wave": 3,
+      "evidence": {
+        "greens": 3,
+        "redProof": "Mutated line 101 from `expectAllBars(frozen, \"paused\")` to `expectAllBars(frozen, \"running\")`. FAILED at line 70 — Expected: running, Received: paused (coach pauses every .ngbar under the freeze). Restored from backup (sha256 92ed63aa3e303edeabb8fc572c4076c574ef4969ed9cee35f0c52821c7a1ff81); both green (26.9s).",
+        "runtimeS": 26.9
+      }
+    }
   ]
- },
- "rejections": [
-  {
-   "slug": "veteran-mastery-not-inflatable",
-   "wave": 1,
-   "reasons": [
-    "Paraphrase of core-055 ('mastered is not inflatable: rec counts DISTINCT cards proven by recall — recall-grading the same card five times raises rec by at most 1'): the spec performs the identical 5-repeat-recall-on-one-card action and asserts the same wasProven dedup (rec 3→4 exactly once).",
-    "masteredCount flatness is derivable from core-027's recall gate (masteredCount counts rec>=3 decks; rec 3→4 changes no membership), and the first-read seed assertion re-tests core-046's boot({initialState}) rail — scaling the seed from 1 to 25 decks changes numbers, not the invariant.",
-    "Rejected on novelty only; the spec itself is well-built (classic-mode MC-rig guard, truth-rail grading)."
-   ]
-  },
-  {
-   "slug": "returner-comeback-boot",
-   "wave": 1,
-   "reasons": [
-    "Scaled paraphrase of core-046 ('boot({initialState}) seeds progress before the app reads storage ... visible at first read: prep and masteredCount'): the candidate's headline 'reads their whole career at first read' is the same first-read-seeding law with a bigger blob; belt-record-at-boot surfaces are already pinned by core-011 (completed-belt blob → row state) and core-015/069 (won row after reboot).",
-    "The no-migration-beat assertion is vacuous by the spec's own header ('the fx vocabulary has NO migration beat at all ... trivially green today'), and the live-first-hand tail is core-017's landing.",
-    "Residual novelty (cardsToday 0 with empty days map) is thin and is asserted more meaningfully by the sibling returner-day-counter-clean-restart spec."
-   ]
-  },
-  {
-   "slug": "returner-path-resume-point",
-   "wave": 1,
-   "reasons": [
-    "Duplicates core-069's tail almost clause-for-clause: 'the row reads won, blue is unlocked, and blue's first lesson genuinely opens (deckOpen true, _posKey equal to its deckKey)' — the candidate asserts white test row 'won', blue row not data-locked, and blue lesson click → deckOpen/_posKey===deckKey, reached via a seeded persona instead of the played-through story; core-015 also already covers won-row + blue-unlocked persistence.",
-    "The only additions (all-white-unit-rows data-done census, _session resume-pointer read) do not change the invariant's substance — it remains the resume-point law core-069 already establishes."
-   ]
-  },
-  {
-   "slug": "veteran-decision-timer-refund-cap-independent-of-mastery",
-   "wave": 1,
-   "reasons": [
-    "Paraphrase of core-025 ('drilling refunds decision time, capped at 2 per window'): the spec asserts the IDENTICAL +2.5/+2.5/+0 per-grade deltas and the same three timer_refund beats carrying granted [true,true,false].",
-    "The only change is the persona (a prep=5 veteran vs a fresh visitor). The cap mechanism (`granted = d.refunds < 2`) reads only the current window's refunds counter and never touches mastery, so seeding prep=5 changes numbers-that-do-not-change, not the invariant — the same basis on which veteran-mastery-not-inflatable was rejected.",
-    "Well-built (frozen-clock discipline), but rejected on novelty only."
-   ]
-  },
-  {
-   "slug": "returner-belt-path-resumes-at-blue-not-white",
-   "wave": 1,
-   "reasons": [
-    "Duplicates the already-REJECTED returner-path-resume-point invariant and core-069's tail: white test 'won', white lessons done, blue U1 unlocked, blue lessons not done, blue test 'locked' is the same frontier-resume claim, reached from a seeded persona instead of a played-through story.",
-    "Its two halves are each already pinned: gen-w1-11 (holder-next-test-still-locked) covers white-won/blue-test-locked, and gen-w1-12 (holder-sequential-locks-resume-in-blue) covers the blue unit-ladder lock. Compositing them under a returner persona does not change the invariant's substance.",
-    "The spec's own @hyperspace tuple declares B='cross-belt', which is not a valid B axis (axes.B has no such value) and mismatches the candidate slug's claimed B='guard-limit'."
-   ]
-  },
-  {
-   "slug": "returner-victory-defeat-ladder-swing-symmetric",
-   "wave": 1,
-   "reasons": [
-    "Paraphrase of core-065 ('rigged win -> victory_cascade + ladder_up (+1) ... a defense-expiry loss then emits defeat_drain and ladder_down (-1)'): the spec itself states it 'mirrors the GREEN core spec test 3 (stakes-impact.spec.ts:122-170)'.",
-    "The claimed additions — no reload between phases and the delta-identity (rankAfterWin-rank0 + rankFinal-rankAfterWin === 0, round-trip to rank0) — are arithmetic corollaries of the +1-then-1 that core-065 already fires in one flow; the returner persona does not alter the ladderMove mechanism.",
-    "Rejected on novelty; the spec's assertions are correct and well-built."
-   ]
-  },
-  {
-   "slug": "endgame-drill-mc-still-mints-cards-past-graduation",
-   "wave": 1,
-   "reasons": [
-    "The grading assertions duplicate core-030 (wrong MC -> mc_wrong, no prep/stage credit, correct button revealed) and core-031 (correct MC -> +prep +stage + mc_correct + bonus_pumped), and the cardsToday-exactly-+1 bump duplicates gen-w1-05's mechanism.",
-    "The only differentiator is the multiBeltEndgame persona; belt wins never touch a card's `stage`, so 'graduation does not close the drill' reduces to 'stage is independent of belts.won' — scaling the persona, not a new invariant.",
-    "Well-built (truth-rail, distinct-card plan for the cardDone Set), but rejected on novelty."
-   ]
-  },
-  {
-   "slug": "endgame-film-first-look-still-caps-at-four",
-   "wave": 1,
-   "reasons": [
-    "Re-runs core-066's invariant ('first watchShort raises odds by exactly 4 with one film_first_look beat; a second watch leaves the delta at 4 and the beat count at 1') at a different lifecycle point. The spec re-asserts exactly that: +4 once, second watch no-op, film beat count stays 1.",
-    "The _filmLook[tech] latch is per-technique and untouched by belts.won/prep/rec, so the graduated persona changes numbers-that-do-not-change; the minor per-technique-isolation add-on does not change the invariant's substance. Same basis as the veteran-mastery-not-inflatable rejection.",
-    "Rejected on novelty only; assertions are faithful and structural."
-   ]
-  },
-  {
-   "slug": "holder-ladder-rank-independent-of-belt-record",
-   "wave": 1,
-   "reasons": [
-    "Same invariant as gen-w1-06 (returner-ladder-independent-of-blob): ladder rank lives in bjj-neural-ladder independent of the progress blob, a win climbs to rank 2, and after a preserveStorage reload rank 2 survives in its own key while the belt record rides the blob unchanged.",
-    "The only changes are the whiteBeltHolder persona and strengthening the belt-record check from truthy (gen-w1-06) to value-equal, plus a 'blob has no ladder key' assertion — deepening the same two-records/two-keys/survive-reload invariant, not creating a new one.",
-    "Rejected on novelty; the spec itself is well-built."
-   ]
-  },
-  {
-   "slug": "veteran-recall-gate-mc-corrects-never-mint-rec",
-   "wave": 1,
-   "reasons": [
-    "Paraphrase of core-032 ('mastered only via recall: five consecutive MC corrects pin the card's stage at 2 with rec still 0, while recall-grading three distinct graduated cards raises rec to >=3 and masteredCount by >=1'): the spec performs the identical 5-MC-correct + 3-recall-grade action and asserts the same stage-2/rec-0/mint gate.",
-    "The only change is scaling the base from a casual 0->1 to a veteran 25->26; the spec's own docstring concedes it 'overlaps mc-flashcards.spec.ts:172'. Scaling the seed changes the count, not the invariant — the exact basis for the veteran-mastery-not-inflatable rejection.",
-    "Rejected on novelty; the truth-rail + studyFromSession choke are well-built."
-   ]
-  }
- ],
- "tests": [
-  {
-   "id": "core-001",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "PATH|TREE toggle: exists, defaults to path, persists",
-   "theme": "unlock-economy",
-   "L": "fresh-visitor",
-   "F": "belt-path",
-   "B": "persistence-reload",
-   "invariant": "With curriculum loaded the explorer defaults to _viewMode 'path' (path_opened beat, white belt row rendered), and clicking the tree toggle writes localStorage bjj_view_mode='tree' which still selects tree view after a preserveStorage reboot.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-002",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "locks: white open, blue locked, units sequential",
-   "theme": "unlock-economy",
-   "L": "fresh-visitor",
-   "F": "belt-path",
-   "B": "guard-limit",
-   "invariant": "On a fresh profile the white belt row carries no data-locked attribute while the blue belt row has data-locked='1', and unit rows are sequential (first unlocked, second data-locked='1').",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-003",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "lesson click flies the camera and opens the lesson deck session",
-   "theme": "unlock-economy",
-   "L": "fresh-visitor",
-   "F": "belt-path",
-   "B": "happy-path",
-   "invariant": "Clicking the first lesson row moves camTarget to within 60px of the lesson node's x/y, sets deckOpen true, and the study session's key list contains that lesson's deckKey.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-004",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "drilling a lesson to goal emits lesson_done and marks the row",
-   "theme": "unlock-economy",
-   "L": "casual-week1",
-   "F": "belt-path",
-   "B": "happy-path",
-   "invariant": "Drilling the first lesson's deck 3 times emits a lesson_done beat and the lesson row's data-done attribute reads '1'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-005",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "checkpoint opens the MC quiz once all lessons are done (P2 semantics)",
-   "theme": "unlock-economy",
-   "L": "curriculum-mid",
-   "F": "checkpoint-quiz",
-   "B": "happy-path",
-   "invariant": "With all unit-1 lessons seeded to goal, clicking the checkpoint row emits checkpoint_start, sets _checkpoint truthy, and renders a visible [data-mc-opt] quiz option.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-006",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "gi-only lesson is disabled in nogi and excluded from unit math",
-   "theme": "unlock-economy",
-   "L": "fresh-visitor",
-   "F": "belt-path",
-   "B": "guard-limit",
-   "invariant": "After setGiMode('nogi') a gi-only lesson row renders data-live='0' and aria-disabled='true'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-007",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "TREE view ignores locks entirely",
-   "theme": "unlock-economy",
-   "L": "fresh-visitor",
-   "F": "belt-path",
-   "B": "happy-path",
-   "invariant": "In TREE view the explorer renders zero [data-locked] and zero [data-lesson] elements.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-008",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "v1 progress blob migrates to v2 with rec grandfathered",
-   "theme": "resilience",
-   "L": "legacy-corrupt-blob",
-   "F": "persistence-reload",
-   "B": "persistence-reload",
-   "invariant": "Booting with a v1 blob whose prep['Mount|Top']=3 yields rec['Mount|Top']==3 (grandfathered from prep) and _progressBlob().v==2.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-009",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "fog-of-war rail: non-curriculum nodes dim while path view is open",
-   "theme": "unlock-economy",
-   "L": "fresh-visitor",
-   "F": "graph-canvas",
-   "B": "cross-feature",
-   "invariant": "While path view is open _curriculumIdxSet has more than 50 node indices, at least one node falls outside it, and the _pathDim fog flag is active.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-010",
-   "file": "e2e/journeys/belt-path.spec.ts",
-   "title": "curriculum 404: app falls back to tree view without crashing",
-   "theme": "resilience",
-   "L": "fresh-visitor",
-   "F": "belt-path",
-   "B": "error-fallback",
-   "invariant": "When curriculum.json returns 404 the app boots with curriculum null, _viewMode 'tree', and more than 1000 ingested nodes (no crash).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-011",
-   "file": "e2e/journeys/belt-test.spec.ts",
-   "title": "test row states: locked without progress, READY with a completed belt",
-   "theme": "competitive-arc",
-   "L": "belt-ready",
-   "F": "belt-test",
-   "B": "guard-limit",
-   "invariant": "The white belt-test row's data-test-state reads 'locked' on a fresh profile and 'ready' when booted with a completed-white-belt blob.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-012",
-   "file": "e2e/journeys/belt-test.spec.ts",
-   "title": "starting the test: beat, authored start position, authored move budget",
-   "theme": "competitive-arc",
-   "L": "belt-ready",
-   "F": "belt-test",
-   "B": "happy-path",
-   "invariant": "Starting the belt test emits belt_test_start and sets _beltTest.beltId to white, currentPos to the authored test.startNodeId, maxMoves to the authored test.maxMoves, and a computed pool of at least 5 names.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-013",
-   "file": "e2e/journeys/belt-test.spec.ts",
-   "title": "engagement survival: _beltTest outlives clearEngagement; reset cancels cleanly",
-   "theme": "competitive-arc",
-   "L": "belt-ready",
-   "F": "belt-test",
-   "B": "interruption-abort",
-   "invariant": "resetRoll during a live belt test nulls _beltTest, burns no attempt (attempts==0), emits no belt_test_lost beat, and the path row returns to data-test-state 'ready'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-014",
-   "file": "e2e/journeys/belt-test.spec.ts",
-   "title": "strict submission pool: the opponent only attacks with belt vocabulary",
-   "theme": "competitive-arc",
-   "L": "belt-ready",
-   "F": "belt-test",
-   "B": "guard-limit",
-   "invariant": "With at least one opponent_attack observed during the belt test, every attack's base technique name (lowercased, pre-' from ') is contained in _beltTest.names and the roll stays live (options, an active defense, or the test) afterward.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-015",
-   "file": "e2e/journeys/belt-test.spec.ts",
-   "title": "win by tap: belt recorded, blue unlocks, ladder rides along, all persisted",
-   "theme": "competitive-arc",
-   "L": "belt-ready",
-   "F": "belt-test",
-   "B": "cross-feature",
-   "invariant": "Winning the belt test by tap emits belt_test_won before roll_end plus belt_unlocked, records belts.won.white with moves>=0, advances the ladder rank by exactly 1, and after a preserveStorage reboot the row reads 'won' with the blue belt unlocked.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-016",
-   "file": "e2e/journeys/belt-test.spec.ts",
-   "title": "points and losses: at the move limit the engine matches its own dominance call",
-   "theme": "competitive-arc",
-   "L": "belt-ready",
-   "F": "belt-test",
-   "B": "economy-math",
-   "invariant": "When the move limit expires the outcome matches the engine's own dominance verdict: belt_test_won carries byPoints=true with dominance >= the authored pointsWinDominance, otherwise belt_test_lost carries dominance below it, one attempt is burned, and the row shows 'retry'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-017",
-   "file": "e2e/journeys/golden-path.spec.ts",
-   "title": "golden path: land → read → drill → pick → hit",
-   "theme": "onboarding",
-   "L": "first-roll-day1",
-   "F": "boot-landing",
-   "B": "happy-path",
-   "invariant": "A fresh landing deals >=3 options with land and options_dealt beats, drilling two cards raises a mid-odds option's displayed odds by >=11 points (monotone inside clamp zones) with bonus_pumped, and a rigged pick produces commit then impact_success with a non-empty roll trail.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-018",
-   "file": "e2e/journeys/golden-path.spec.ts",
-   "title": "golden path replays deterministically (frame-exact)",
-   "theme": "infra",
-   "L": "first-roll-day1",
-   "F": "boot-landing",
-   "B": "idempotence",
-   "invariant": "Two fresh boots running the identical rigged golden-path script produce deeply equal option lists, roll trails, and beat sequences.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-019",
-   "file": "e2e/journeys/golden-path.spec.ts",
-   "title": "win path: rigged submission finish ends the roll",
-   "theme": "competitive-arc",
-   "L": "first-roll-day1",
-   "F": "victory-defeat",
-   "B": "happy-path",
-   "invariant": "Rigging a dealt submission to succeed emits the finish beat and the last roll_end beat's outcome is 'win'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-020",
-   "file": "e2e/journeys/guidance-defense.spec.ts",
-   "title": "one-beacon law: exactly one highlighted surface at every beat",
-   "theme": "onboarding",
-   "L": "first-roll-day1",
-   "F": "option-tray-sheet",
-   "B": "guard-limit",
-   "invariant": "At the land, sheet-open, and post-drill sample points exactly one [data-beacon] element exists whose target steps options -> jit/execute -> execute, at most one exists after commit, and at least 3 beacon_moved beats were emitted.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-021",
-   "file": "e2e/journeys/guidance-defense.spec.ts",
-   "title": "defense drama: caught → panic drill → escape odds pump → relief",
-   "theme": "competitive-arc",
-   "L": "first-roll-day1",
-   "F": "defense-panic",
-   "B": "happy-path",
-   "invariant": "A rigged catch fires impact_fail, caught, and panic_drill_opened with a visible [data-panic] card and one .ng-vignette, grading the panic card strictly increases escapeOddsSnapshot() with escape_odds_pumped, and a rigged escape reaches relief with the escape beat and the vignette element cleared.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-022",
-   "file": "e2e/journeys/guidance-defense.spec.ts",
-   "title": "guided first roll: 3 coach beats in order, clock frozen until dismissed",
-   "theme": "onboarding",
-   "L": "fresh-visitor",
-   "F": "intro-roll-coach",
-   "B": "guard-limit",
-   "invariant": "On a fresh boot coach_1 fires and decisionRemaining drifts <0.5s over 3s until dismissal, coach_1/2/3/coach_done appear strictly in order, the clock drains >=1.5s over 2s afterwards, and maybeStartCoach never re-fires (coach_1 count stays 1, localStorage bjj-neural-coached=='1').",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-023",
-   "file": "e2e/journeys/guidance-defense.spec.ts",
-   "title": "film study: watchShort fires the beat; player onError falls back without crashing",
-   "theme": "resilience",
-   "L": "first-roll-day1",
-   "F": "film-study",
-   "B": "error-fallback",
-   "invariant": "watchShort(0) returns ok and emits short_watched under a stubbed YT player, and invoking the player's captured onError closure opens exactly one fallback link and removes all .ngPlayerHost elements without throwing.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-024",
-   "file": "e2e/journeys/jit-loop.spec.ts",
-   "title": "JIT sheet drill pumps the odds odometer and the canvas edge",
-   "theme": "flashcards-behind-scenes",
-   "L": "first-roll-day1",
-   "F": "option-tray-sheet",
-   "B": "economy-math",
-   "invariant": "Three reveal->Got-it grades in the expand sheet raise the target's displayed odds by >=17 points with the [data-odds] odometer within 1 of the live odds, emit jit_opened plus >=3 bonus_pumped beats, and executing from the same sheet reaches impact_success.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-025",
-   "file": "e2e/journeys/jit-loop.spec.ts",
-   "title": "drilling refunds decision time, capped at 2 per window",
-   "theme": "flashcards-behind-scenes",
-   "L": "first-roll-day1",
-   "F": "decision-timer",
-   "B": "guard-limit",
-   "invariant": "The first two JIT grades each refund >=2s of decisionRemaining, the third refunds <1s, and the three timer_refund beats carry granted [true, true, false].",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-026",
-   "file": "e2e/journeys/jit-loop.spec.ts",
-   "title": "expiry narrates 3-2-1 and auto-picks with a pop (no silent teleport)",
-   "theme": "resilience",
-   "L": "first-roll-day1",
-   "F": "decision-timer",
-   "B": "keyboard-timing",
-   "invariant": "Letting the decision window expire emits both expiry_warning and auto_pick beats (the auto-pick is narrated, never a silent teleport).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-027",
-   "file": "e2e/journeys/jit-loop.spec.ts",
-   "title": "honest economy: revealing a card is 'seen', only grading credits mastery",
-   "theme": "flashcards-behind-scenes",
-   "L": "first-roll-day1",
-   "F": "recall-gate",
-   "B": "economy-math",
-   "invariant": "noteCardSeen leaves masteredCount unchanged, three prep-grades raise prep to >=3 while masteredCount stays flat, and only pushing rec to 3 raises masteredCount by >=1 (mastery is recall-gated).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-028",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "fresh card renders 4 MC options, clamped, with the mc_shown beat",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "happy-path",
-   "invariant": "Presenting a fresh MC-able card renders exactly 4 visible [data-mc-opt] options each <=170 chars, emits mc_shown, and _mc.correct is a valid index in [0,4).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-029",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "MC options are deterministic under rig across two boots",
-   "theme": "infra",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "idempotence",
-   "invariant": "Two fresh boots with identical deep mc-pick/mc-shuffle rig queues render identical [data-mc-opt] text lists.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-030",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "wrong answer: no credit, no stage, correct revealed",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "economy-math",
-   "invariant": "Clicking a wrong MC option emits mc_wrong, leaves prep unchanged and the card's stage at 0, and the correct button gains data-mc-result='correct'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-031",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "correct answer: full credit + stage, graduating to recall at stage 2",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "economy-math",
-   "invariant": "The first correct MC click adds prep+1 and stage 1 (mc_correct + bonus_pumped), the second correct reaches stage 2, and re-presenting the card then renders recall with zero [data-mc-opt] elements.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-032",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "mastered only via recall: MC caps at the gate, recall mints rec",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "recall-gate",
-   "B": "guard-limit",
-   "invariant": "Five consecutive MC corrects pin the card's stage at 2 with rec still 0, while recall-grading three distinct graduated cards raises rec to >=3 and masteredCount by >=1.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-033",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "graded tiers: plausible = no credit + close feedback, trap = stage penalty",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "economy-math",
-   "invariant": "Picking the plausible tier emits mc_wrong with tier 'plausible' and no prep credit, and after one correct (stage 1) picking the trap tier emits mc_wrong with tier 'trap' and knocks the stage back to 0.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-034",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "mcMode setting: classic kills MC; mc still caps the stage at 2",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "settings",
-   "B": "guard-limit",
-   "invariant": "With mcMode 'classic' no [data-mc-opt] renders, and with mcMode 'mc' a stage-2 card may present as MC but a correct answer still leaves the stage capped at 2.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-035",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "keyboard digits answer MC and never leak into the roll options",
-   "theme": "input-access",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "keyboard-timing",
-   "invariant": "Pressing the digit key of the correct MC option emits mc_correct without opening a roll-option expand sheet (_detailCtx stays falsy).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-036",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "a11y: radiogroup semantics and a live result region",
-   "theme": "input-access",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "happy-path",
-   "invariant": "The MC block renders a visible role='radiogroup' containing exactly 4 [data-mc-opt][role='radio'] buttons plus at least one aria-live='polite' region.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-037",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "one-beacon law: MC never claims the beacon",
-   "theme": "onboarding",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "cross-feature",
-   "invariant": "Answering an MC card leaves at most one [data-beacon] on the page and the beacon target is never 'mc' or 'mc-opt'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-038",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "recall fallback: a card with <2 viable distractors renders classic recall",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "error-fallback",
-   "invariant": "When the deck is poisoned so pooling cannot find 2 viable distractors, the presented card renders classic recall: zero [data-mc-opt] elements and _mc null.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-039",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "checkpoint is now a real MC quiz: pass marks the unit",
-   "theme": "unlock-economy",
-   "L": "curriculum-mid",
-   "F": "checkpoint-quiz",
-   "B": "happy-path",
-   "invariant": "With unit-1 lessons seeded done, answering every checkpoint card correctly via the truth rail emits checkpoint_passed and unit_done and sets the unit row's data-done to '1'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-040",
-   "file": "e2e/journeys/mc-flashcards.spec.ts",
-   "title": "checkpoint fail links the weakest lesson",
-   "theme": "unlock-economy",
-   "L": "curriculum-mid",
-   "F": "checkpoint-quiz",
-   "B": "cross-feature",
-   "invariant": "Answering every checkpoint card wrong emits checkpoint_failed (and never checkpoint_passed) whose weakest field is a string naming one of the unit's lesson deckKeys.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-041",
-   "file": "e2e/journeys/mc-oneline.spec.ts",
-   "title": "payload wiring: graded traps + tooltip detail actually ship (were 0 before)",
-   "theme": "infra",
-   "L": "fresh-visitor",
-   "F": "drill-mc",
-   "B": "happy-path",
-   "invariant": "The shipped flashcards.json payload carries more than 100 cards with authored mc distractor tiers and more than 1000 cards with the full-detail d field.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-042",
-   "file": "e2e/journeys/mc-oneline.spec.ts",
-   "title": "golden card: one-line options + authored plausible/trap tiers, straight from the payload",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "drill-mc",
-   "B": "happy-path",
-   "invariant": "The golden Upa Escape card ships a <=36-char answer line, >=3 authored distractors, and a longer d field, and presents as 4 rendered options each <=36 chars (after stripping the number badge) whose tier map includes both 'trap' and 'plausible'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-043",
-   "file": "e2e/journeys/mc-oneline.spec.ts",
-   "title": "recall reveal: one-liner answer + a 'More detail' tooltip expanding the full explanation",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "recall-gate",
-   "B": "happy-path",
-   "invariant": "A graduated golden card's recall reveal shows a [data-mc-more] toggle with .mcDetail hidden by default, and clicking it reveals detail text longer than the 36-char one-line budget.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-044",
-   "file": "e2e/journeys/rails-infra.spec.ts",
-   "title": "opponent finish attempt emits opponent_attack with the technique",
-   "theme": "infra",
-   "L": "first-roll-day1",
-   "F": "opponent-turns",
-   "B": "happy-path",
-   "invariant": "A rigged opponent finish emits opponent_attack whose technique is a non-empty string and whose idx resolves to a submissions node carrying exactly that title.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-045",
-   "file": "e2e/journeys/rails-infra.spec.ts",
-   "title": "opponent positional counter emits opponent_move (and no phantom attack)",
-   "theme": "infra",
-   "L": "first-roll-day1",
-   "F": "opponent-turns",
-   "B": "guard-limit",
-   "invariant": "With the finish declined, opponent_move carries a truthful technique/idx resolving to a transitions-or-submissions node, and zero opponent_attack beats are emitted.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-046",
-   "file": "e2e/journeys/rails-infra.spec.ts",
-   "title": "boot({initialState}) seeds progress before the app reads storage",
-   "theme": "infra",
-   "L": "casual-week1",
-   "F": "boot-landing",
-   "B": "happy-path",
-   "invariant": "boot({initialState}) with prep['Mount|Top']=3 is visible to the app at first read: prep equals 3 and masteredCount() equals 1.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-047",
-   "file": "e2e/journeys/rails-infra.spec.ts",
-   "title": "stale-seed hygiene: a later un-seeded boot starts clean",
-   "theme": "infra",
-   "L": "fresh-visitor",
-   "F": "boot-landing",
-   "B": "idempotence",
-   "invariant": "An un-seeded boot following a seeded one starts with zero prep keys — the earlier initialState never leaks forward.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-048",
-   "file": "e2e/journeys/rails-infra.spec.ts",
-   "title": "curriculum.json is hermetic: deterministic response, never off-box",
-   "theme": "infra",
-   "L": "fresh-visitor",
-   "F": "belt-path",
-   "B": "guard-limit",
-   "invariant": "An in-page fetch of /static/neural/curriculum.json resolves on-box with status 200 or a clean 404 (never rejected or aborted off-box).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-049",
-   "file": "e2e/journeys/restart-hygiene.spec.ts",
-   "title": "restart mid-defense: no ghost tap, no ladder drop, defense state fully disarmed",
-   "theme": "resilience",
-   "L": "first-roll-day1",
-   "F": "defense-panic",
-   "B": "interruption-abort",
-   "invariant": "resetRoll while caught clears _defendSub, _panicKey, and the vignette, keeps the ladder rank unchanged with zero defeat_drain/ladder_down beats, and the new roll lands (>=2 land beats) with live options and no [data-panic] card.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-050",
-   "file": "e2e/journeys/restart-hygiene.spec.ts",
-   "title": "restart mid-sweep: the cancelled needle does not haunt the canvas",
-   "theme": "resilience",
-   "L": "first-roll-day1",
-   "F": "graph-canvas",
-   "B": "interruption-abort",
-   "invariant": "resetRoll mid tension-sweep nulls _sweep and no additional sweep_land beat ever fires afterward (the cancelled needle never lands).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-051",
-   "file": "e2e/journeys/restart-hygiene.spec.ts",
-   "title": "odds refresh routes back to normal math after a defense is abandoned",
-   "theme": "resilience",
-   "L": "first-roll-day1",
-   "F": "option-tray-sheet",
-   "B": "economy-math",
-   "invariant": "After a defense is abandoned via resetRoll, refreshOptionOdds leaves every visible option card's displayed % exactly equal to Math.round(moveChance*100) — zero mismatches (no residual escape-math routing).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-052",
-   "file": "e2e/journeys/review-fixes.spec.ts",
-   "title": "abandoned checkpoint does not contaminate the next deck or auto-pass the unit",
-   "theme": "resilience",
-   "L": "curriculum-mid",
-   "F": "checkpoint-quiz",
-   "B": "interruption-abort",
-   "invariant": "Closing the deck mid-checkpoint clears _checkpoint, and MC answers in a subsequently opened lesson deck never emit checkpoint_passed/unit_done nor mark the unit's checkpoint done.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-053",
-   "file": "e2e/journeys/review-fixes.spec.ts",
-   "title": "starting a roll clears an open checkpoint quiz",
-   "theme": "resilience",
-   "L": "curriculum-mid",
-   "F": "checkpoint-quiz",
-   "B": "cross-feature",
-   "invariant": "Calling resetRoll while a checkpoint quiz is open clears _checkpoint to falsy.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-054",
-   "file": "e2e/journeys/review-fixes.spec.ts",
-   "title": "re-clicking Checkpoint mid-quiz does not silently reset progress",
-   "theme": "resilience",
-   "L": "curriculum-mid",
-   "F": "checkpoint-quiz",
-   "B": "idempotence",
-   "invariant": "Re-invoking startCheckpoint mid-quiz leaves _checkpoint.i at its advanced value (>=1) instead of resetting to card 0.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-055",
-   "file": "e2e/journeys/review-fixes.spec.ts",
-   "title": "mastered is not inflatable: rec counts DISTINCT cards proven by recall",
-   "theme": "flashcards-behind-scenes",
-   "L": "casual-week1",
-   "F": "recall-gate",
-   "B": "economy-math",
-   "invariant": "Recall-grading the same card five times raises rec by at most 1, while recalling three distinct graduated cards raises rec to >=3.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-056",
-   "file": "e2e/journeys/review-fixes.spec.ts",
-   "title": "prod-path rails exist: sound.destroy, save flush, tracked MC-advance timer",
-   "theme": "infra",
-   "L": "fresh-visitor",
-   "F": "persistence-reload",
-   "B": "persistence-reload",
-   "invariant": "sound.destroy and _flushSave exist as functions, set() stamps _settingsAt.mcMode with a number, and _flushSave synchronously persists a rec mutation into the bjj-neural-progress localStorage blob.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-057",
-   "file": "e2e/journeys/sound.spec.ts",
-   "title": "the ring buffer logs patches for gameplay beats",
-   "theme": "infra",
-   "L": "first-roll-day1",
-   "F": "sound",
-   "B": "happy-path",
-   "invariant": "Grading a card grows sound.soundLog and the latest bonus_pumped entry carries a non-empty patch string.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-058",
-   "file": "e2e/journeys/sound.spec.ts",
-   "title": "a rigged win plays the victory fanfare",
-   "theme": "competitive-arc",
-   "L": "first-roll-day1",
-   "F": "sound",
-   "B": "cross-feature",
-   "invariant": "A rigged submission win logs a victory_cascade voice whose patch contains 'fanfare'.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-059",
-   "file": "e2e/journeys/sound.spec.ts",
-   "title": "sound off: the log goes silent",
-   "theme": "input-access",
-   "L": "first-roll-day1",
-   "F": "sound",
-   "B": "guard-limit",
-   "invariant": "With the sound setting 'off', drilling two cards adds zero entries to the sound log.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-060",
-   "file": "e2e/journeys/sound.spec.ts",
-   "title": "volume setting rides every logged voice",
-   "theme": "input-access",
-   "L": "first-roll-day1",
-   "F": "sound",
-   "B": "happy-path",
-   "invariant": "After setting soundVolume to 0.8, the next logged voice's volume equals 0.8 to 5 decimal places.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-061",
-   "file": "e2e/journeys/sound.spec.ts",
-   "title": "same-beat dedupe: two identical beats within 100ms log one voice",
-   "theme": "infra",
-   "L": "first-roll-day1",
-   "F": "sound",
-   "B": "idempotence",
-   "invariant": "Two identical fx('bonus_pumped') beats fired back-to-back log exactly one voice (same-beat dedupe).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-062",
-   "file": "e2e/journeys/sound.spec.ts",
-   "title": "no AudioContext is ever created under test",
-   "theme": "infra",
-   "L": "first-roll-day1",
-   "F": "sound",
-   "B": "guard-limit",
-   "invariant": "After gameplay that produced a non-empty soundLog, sound._ctxCreated is false — no AudioContext is constructed under test.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-063",
-   "file": "e2e/journeys/stakes-impact.spec.ts",
-   "title": "sharpness decays per landing, mastery persists",
-   "theme": "flashcards-behind-scenes",
-   "L": "first-roll-day1",
-   "F": "option-tray-sheet",
-   "B": "economy-math",
-   "invariant": "One JIT grade yields bonusSplit mastery 0.03 and sharpness 0.10 (displayed odds +>=12), and after the next successful landing sharpness decays to 0.075 while mastery stays 0.03.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-064",
-   "file": "e2e/journeys/stakes-impact.spec.ts",
-   "title": "impact contrast: tension sweep, detonation on hit, hit-stop on miss",
-   "theme": "competitive-arc",
-   "L": "first-roll-day1",
-   "F": "graph-canvas",
-   "B": "happy-path",
-   "invariant": "A rigged hit orders sweep_start < sweep_land(inBand true) < detonation < impact_success with a 0.9-1.4s envelope and a positive band, and the following rigged miss lands out of band followed by hit_stop with zero detonation beats.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-065",
-   "file": "e2e/journeys/stakes-impact.spec.ts",
-   "title": "victory cascade ≤1.5s on win; defeat drain on loss; ladder survives reload",
-   "theme": "competitive-arc",
-   "L": "first-roll-day1",
-   "F": "ladder",
-   "B": "persistence-reload",
-   "invariant": "A rigged win emits victory_cascade with durMs <=1500 and ladder_up (+1 rank), the rank survives a preserveStorage reload, and a defense-expiry loss then emits defeat_drain and ladder_down (-1 rank).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-066",
-   "file": "e2e/journeys/stakes-impact.spec.ts",
-   "title": "film-study first look: +4% once per technique, never stacking",
-   "theme": "flashcards-behind-scenes",
-   "L": "first-roll-day1",
-   "F": "film-study",
-   "B": "idempotence",
-   "invariant": "The first watchShort on a technique raises its displayed odds by exactly 4 points with a single film_first_look beat, and a second watch leaves the delta at 4 and the beat count at 1.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-067",
-   "file": "e2e/journeys/stakes-impact.spec.ts",
-   "title": "journey recorder: captures actions and rng draws for replay authoring",
-   "theme": "infra",
-   "L": "first-roll-day1",
-   "F": "option-tray-sheet",
-   "B": "happy-path",
-   "invariant": "startRecording then gameplay then stopRecording returns {startedAt: number, beats: array, draws: array} containing the commit beat and a resolve-tagged draw, and a second stopRecording returns null (the window is closed).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-068",
-   "file": "e2e/journeys/study-story.spec.ts",
-   "title": "white belt study story: path → lesson → MC → recall → checkpoint → unit complete → persists",
-   "theme": "lifetime-journeys",
-   "L": "casual-week1",
-   "F": "belt-path",
-   "B": "happy-path",
-   "invariant": "One continuous session drives wrong-then-right MC (mc_wrong then mc_correct + bonus_pumped), lesson_done for every unit-1 lesson, a recall grade minting rec+1, checkpoint_passed and unit_done with unit 2 unlocked, and after a preserveStorage reload the unit row stays data-done='1' with rec>=1 on a v2 blob.",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "core-069",
-   "file": "e2e/journeys/test-story.spec.ts",
-   "title": "belt-test story: READY → boss battle → tap → celebration → graduation persists",
-   "theme": "lifetime-journeys",
-   "L": "white-belt-holder",
-   "F": "belt-test",
-   "B": "happy-path",
-   "invariant": "From a READY row the belt test ends in a tap with belt_test_won ordered before roll_end plus belt_unlocked and victory_cascade, a belt_test_won fanfare voice on the sound bus, and after a preserveStorage reload the row reads 'won', blue is unlocked, and blue's first lesson genuinely opens (deckOpen true, _posKey equal to its deckKey).",
-   "origin": "core",
-   "status": "accepted"
-  },
-  {
-   "id": "gen-w1-01",
-   "file": "e2e/gen/veteran-odds-clamp.spec.ts",
-   "title": "veteran-odds-clamp",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "option-tray-sheet",
-   "B": "economy-math",
-   "invariant": "With 25 decks drilled to prep=5, every visible option card's displayed odds equals Math.round(moveChance*100) and never exceeds the 95% moveChance ceiling nor drops below 5%, even for options whose deck is fully proven.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 60: seed-prep assertion .toBe(5) -> .toBe(4). Run failed as expected at that exact assertion (\"srsVeteran(25) seeded the landing deck to prep=5\", Expected: 4, Received: 5, exit 1, 3.3s). Restored byte-identical via precise Edit revert (file is untracked so git checkout unavailable; md5sum 79a99e0a5fe414ec35e6098661feb086 matches original), then re-ran green (3.68s).",
-    "runtimeS": 3.6
-   }
-  },
-  {
-   "id": "gen-w1-02",
-   "file": "e2e/gen/veteran-lessons-done-units-not.spec.ts",
-   "title": "veteran-lessons-done-units-not",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "belt-path",
-   "B": "guard-limit",
-   "invariant": "A veteran with 25 decks rec-proven but zero checkpoints passed sees those lesson rows marked data-done='1' while every unit row lacks data-done and every checkpoint row remains unpassed — drilled mastery alone never marks a unit complete.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Flipped line 59 unit-done census assertion toBe(0)→toBe(1); run failed as expected with \"Expected: 1, Received: 0\" at veteran-lessons-done-units-not.spec.ts:59 (app correctly renders zero done unit rows). Restored via exact reverse edit (file untracked, git checkout unavailable), verified toBe(0) back on lines 59/60, re-ran green in 3.47s.",
-    "runtimeS": 6.8
-   }
-  },
-  {
-   "id": "gen-w1-03",
-   "file": "e2e/gen/veteran-mastered-survives-reload.spec.ts",
-   "title": "veteran-mastered-survives-reload",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "persistence-reload",
-   "B": "persistence-reload",
-   "invariant": "A veteran's 25-deck rec map survives a preserveStorage reload byte-for-byte at the count level: after reload masteredCount()===25, _progressBlob().v===2, and every seeded deckKey still reads rec>=3.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 109: post-reload assertion .toBe(25) flipped to .toBe(24). Run failed as expected at that exact assertion — \"Error: after reload masteredCount() === 25 / Expected: 24 / Received: 25\" (1 failed). Restored the original value via exact revert edit (verified 0 occurrences of toBe(24) and line 109 identical to original), then re-ran green (1 passed, 15.1s).",
-    "runtimeS": 44.2
-   }
-  },
-  {
-   "id": "gen-w1-04",
-   "file": "e2e/gen/veteran-film-look-respects-clamp.spec.ts",
-   "title": "veteran-film-look-respects-clamp",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "film-study",
-   "B": "guard-limit",
-   "invariant": "On a veteran profile the film first-look bonus adds at most 4 points to a technique's displayed odds and the post-watch odds still never exceed 95 — cumulative lifetime bonuses (mastery + sharpness + film) compose under the clamp, not past it.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 35 assertFilmDelta bound: toBeLessThanOrEqual(4) -> toBeLessThanOrEqual(3). Run failed as expected (exit 1) at exactly that line in the headroom test: \"Expected: <= 3, Received: 4\" — proves the +4 film-delta assertion bites. Restored via exact inverse Edit (file is git-untracked, so precise revert, not checkout); restored run fully green (2 passed, exit 0). check_gen_specs.sh: only ledger-orphan failures (this file + 18 sibling pre-Gate wave specs; ledger has 0 accepted generated yet); no non-orphan failures — RNG seam intact.",
-    "runtimeS": 31
-   }
-  },
-  {
-   "id": "gen-w1-05",
-   "file": "e2e/gen/returner-day-counter-clean-restart.spec.ts",
-   "title": "returner-day-counter-clean-restart",
-   "theme": "lifetime-journeys",
-   "L": "lapsed-returner",
-   "F": "drill-mc",
-   "B": "economy-math",
-   "invariant": "After a lapse (empty days map) the daily counter restarts from a clean zero: cardsToday is 0 at boot, the first graded card makes it exactly 1, and the _days map contains only today's key — no stale day contaminates the comeback session.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 87: expect(afterFirst.cardsToday).toBe(1) flipped to .toBe(2). Run failed as required: \"Error: first graded card makes the counter EXACTLY 1 — Expected: 2, Received: 1\" at spec:87 (assertion bites; app truly mints exactly 1 on the first graded comeback card). Restored byte-exact from /tmp backup; md5 1f802c06265634e16f8bb5139e0c0d28 matches the pre-mutation original; restored run green (1 passed, 3.0s).",
-    "runtimeS": 47.8
-   }
-  },
-  {
-   "id": "gen-w1-06",
-   "file": "e2e/gen/returner-ladder-independent-of-blob.spec.ts",
-   "title": "returner-ladder-independent-of-blob",
-   "theme": "lifetime-journeys",
-   "L": "lapsed-returner",
-   "F": "ladder",
-   "B": "persistence-reload",
-   "invariant": "Ladder rank lives in bjj-neural-ladder, independent of the progress blob: a returner seeded with full progress starts at rank 1, and after one rigged win the rank-2 state survives a preserveStorage reload while the belt record rides the blob unchanged.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 46: baseline ladder-rank assertion .toBe(1) -> .toBe(2); run failed exactly there (Expected: 2, Received: 1 — app really reports rank 1 for the full-blob returner). Restored via exact revert; md5 282bd28208ed531be549a21a6fc2dfd4 matches original byte-for-byte; restored run green (45.4s).",
-    "runtimeS": 45.4
-   }
-  },
-  {
-   "id": "gen-w1-07",
-   "file": "e2e/gen/endgame-no-locks-anywhere.spec.ts",
-   "title": "endgame-no-locks-anywhere",
-   "theme": "lifetime-journeys",
-   "L": "multi-belt-endgame",
-   "F": "belt-path",
-   "B": "guard-limit",
-   "invariant": "With every belt won the path view has exhausted its lock economy: zero [data-locked] elements render anywhere in path view, every unit row is data-done='1', and every belt's test row reads 'won'.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Corrupted the persona seed in the spec (delete seed.belts.won[BELTS[0].id] before boot) so the first belt reads not-won and downstream belts re-lock. Run failed as expected at the headline assertion: 'zero locked rows remain' Expected 0, Received 7 ([data-locked] rows reappeared). Restored from /tmp backup (file is untracked so git checkout was not usable), md5-verified byte-identical to the original, then re-ran green (1 passed, 2.6s).",
-    "runtimeS": 45.6
-   }
-  },
-  {
-   "id": "gen-w1-08",
-   "file": "e2e/gen/endgame-won-test-is-final.spec.ts",
-   "title": "endgame-won-test-is-final",
-   "theme": "lifetime-journeys",
-   "L": "multi-belt-endgame",
-   "F": "belt-test",
-   "B": "idempotence",
-   "invariant": "Clicking an already-won belt-test row never erases the recorded win: belts.won keeps all 5 entries with their original moves/dominance, no belt_test_start beat fires from the click (or, if a retake opens, aborting it via resetRoll leaves belts.won and every row's 'won' state intact).",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 79: the belt_test_start beat-count assertion .toBe(0) flipped to .toBe(1). Run failed as expected at e2e/gen/endgame-won-test-is-final.spec.ts:79 with 'Expected: 1, Received: 0' (zero beats actually fire from clicking the won row — the assertion bites). Restored via exact inverse edit (git checkout impossible: file untracked, ledger entry lands at Gate), then re-ran green (2.1s test).",
-    "runtimeS": 6.8
-   }
-  },
-  {
-   "id": "gen-w1-09",
-   "file": "e2e/gen/endgame-ladder-rank-ceiling.spec.ts",
-   "title": "endgame-ladder-rank-ceiling",
-   "theme": "lifetime-journeys",
-   "L": "multi-belt-endgame",
-   "F": "ladder",
-   "B": "guard-limit",
-   "invariant": "A win at the top ladder rank clamps: with rank pinned to ladderNames().length, a rigged victory leaves rank exactly at the ceiling (no overflow past the roster) and any ladder_up beat reflects the clamped rank.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Flipped line 80 capped-flag assertion .toBe(true)→.toBe(false); run failed exactly there (\"ladder_up is flagged capped at the ceiling — Expected: false, Received: true\"), proving the assertion bites. Restored by exact revert; md5 f256f6af70047ce574117a8cda730c47 matches the original byte-for-byte; restored run green (4.5s). check_gen_specs.sh: only ledger-orphan failures (this file + 18 pre-Gate siblings, entries land at Gate); no other failure classes; RNG seam check ok.",
-    "runtimeS": 32.9
-   }
-  },
-  {
-   "id": "gen-w1-10",
-   "file": "e2e/gen/endgame-checkpoint-retake-cant-undone.spec.ts",
-   "title": "endgame-checkpoint-retake-cant-undone",
-   "theme": "lifetime-journeys",
-   "L": "multi-belt-endgame",
-   "F": "checkpoint-quiz",
-   "B": "idempotence",
-   "invariant": "Retaking and deliberately failing an already-passed checkpoint never revokes completion: after answering every retake card wrong, units['white/u1'] still records checkpoint:true, the unit row stays data-done='1', and no unit-regression beat fires.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Flipped line 144 assertion {checkpoint: true, t: 1} -> {checkpoint: false, t: 1} (the core ratchet check on live units state). Run failed exactly at that line: received checkpoint: true vs expected false, confirming the app keeps the pass and the assertion bites. Restored via exact inverse edit (file untracked, git checkout n/a; git diff clean of the mutation) and re-ran green (3.8s).",
-    "runtimeS": 3.8
-   }
-  },
-  {
-   "id": "gen-w1-11",
-   "file": "e2e/gen/holder-next-test-still-locked.spec.ts",
-   "title": "holder-next-test-still-locked",
-   "theme": "lifetime-journeys",
-   "L": "white-belt-holder",
-   "F": "belt-test",
-   "B": "guard-limit",
-   "invariant": "Winning white unlocks blue STUDY but not the blue TEST: a white-belt holder with zero blue progress sees white's test row 'won' and blue's test row 'locked' — belt tests gate on that belt's own units, not on the previous belt's victory.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Flipped line 64 crux assertion .toBe(\"locked\") → .toBe(\"ready\") for blue's [data-belt-test] data-test-state; run failed exactly at that assertion (Expected: \"ready\", Received: \"locked\"). Restored via exact reverse Edit — md5 930e4458dfc77a3884303f5115d7864b identical to pre-mutation — then re-ran green (2.7s).",
-    "runtimeS": 13.2
-   }
-  },
-  {
-   "id": "gen-w1-12",
-   "file": "e2e/gen/holder-sequential-locks-resume-in-blue.spec.ts",
-   "title": "holder-sequential-locks-resume-in-blue",
-   "theme": "lifetime-journeys",
-   "L": "white-belt-holder",
-   "F": "belt-path",
-   "B": "cross-feature",
-   "invariant": "The sequential-unit lock discipline carries across the belt boundary: for a fresh white-belt holder, blue unit 1 renders unlocked, blue unit 2 renders data-locked='1', and drilling blue unit 1's lessons to goal (lesson_done per lesson) is what releases nothing until its checkpoint passes.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Flipped line 85 assertion \"unit 2 STILL locked after all U1 lessons\" from .toBe(\"1\") to .toBeNull(); run failed exactly there (expect(received).toBeNull() — Received: \"1\"), proving the sequential-lock assertion bites. Restored the exact original string by precise revert (file untracked, git checkout unavailable); re-run green.",
-    "runtimeS": 49.1
-   }
-  },
-  {
-   "id": "gen-w1-13",
-   "file": "e2e/gen/spa-nav-single-instance-law.spec.ts",
-   "title": "spa-nav-single-instance-law",
-   "theme": "lifetime-journeys",
-   "L": "fresh-visitor",
-   "F": "spa-nav",
-   "B": "idempotence",
-   "invariant": "A Quartz soft navigation destroys and rebuilds exactly one app instance: after two spa navigations there is exactly one #neural-root in the DOM, window.__neural is a fresh instance (empty beats array, new nodes ingest), and a single keydown reaches exactly one handler (no accumulated listeners).",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 123: expect(life2.roots).toBe(1) -> toBe(2); run failed exactly on that assert (\"exactly one #neural-root after nav 1\", Expected: 2, Received: 1). Restored via exact inverse edit, byte-identity confirmed by md5 fbee853c3dd0c15f093c458f19b9132c (matches pre-mutation), then re-ran green (4.8s). check_gen_specs.sh: only ledger-orphan failures (this spec + 18 sibling wave specs pre-Gate); RNG seam intact, zero substantive failures.",
-    "runtimeS": 35.2
-   }
-  },
-  {
-   "id": "gen-w1-14",
-   "file": "e2e/gen/spa-nav-midroll-teardown-clean.spec.ts",
-   "title": "spa-nav-midroll-teardown-clean",
-   "theme": "lifetime-journeys",
-   "L": "casual-week1",
-   "F": "spa-nav",
-   "B": "interruption-abort",
-   "invariant": "A soft navigation in the middle of a live roll (options dealt, decision clock running) tears down without ghosts: the remounted app has no residual _defendSub/_sweep/_beltTest/optionIdxs from the old life, no stray timer fires a beat into the new instance, and a fresh land deals a live hand.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Flipped line 126 sameRef assertion .toBe(false) -> .toBe(true); run failed exactly there (\"remount is a NEW instance, not the old ref\": Expected true, Received false). Restored byte-exact from md5-verified backup (e9972a13e15b0afe0bf5a7767e96607e matches original), then re-ran green (4.3s).",
-    "runtimeS": 5.8
-   }
-  },
-  {
-   "id": "gen-w1-15",
-   "file": "e2e/gen/corrupt-blob-fresh-fallback-boot.spec.ts",
-   "title": "corrupt-blob-fresh-fallback-boot",
-   "theme": "lifetime-journeys",
-   "L": "legacy-corrupt-blob",
-   "F": "boot-landing",
-   "B": "error-fallback",
-   "invariant": "Booting with syntactically-broken JSON in bjj-neural-progress falls back to a pristine fresh profile without crashing: the app ingests >1000 nodes, prep/rec are empty, masteredCount()===0, and a first roll lands with a live hand.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 73: expect(boot.mastered, \"masteredCount() === 0 ...\").toBe(0) flipped to .toBe(1). Run failed as expected at exactly that assertion (Expected: 1, Received: 0 — received value proves the fresh-profile fallback is genuinely observed). Restored the exact original line via precise Edit revert; restored run green (10.8s). check_gen_specs.sh: only failures are 19 ledger-orphan lines (this spec + 18 same-wave siblings, ledger entries land at Gate stage); RNG seam ok, no other failures.",
-    "runtimeS": 44.6
-   }
-  },
-  {
-   "id": "gen-w1-16",
-   "file": "e2e/gen/corrupt-blob-heals-on-first-grade.spec.ts",
-   "title": "corrupt-blob-heals-on-first-grade",
-   "theme": "lifetime-journeys",
-   "L": "legacy-corrupt-blob",
-   "F": "drill-mc",
-   "B": "persistence-reload",
-   "invariant": "After falling back from corrupt storage, the first graded card writes a valid v2 blob that replaces the corruption and survives a preserveStorage reload: post-reload JSON.parse succeeds, _progressBlob().v===2, and the graded prep key persists — the poison is quarantined, not resurrected.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated e2e/gen/corrupt-blob-heals-on-first-grade.spec.ts line 148: expect(healed.v, \"stored blob is v2\").toBe(2) -> .toBe(3). Run failed as expected: \"Error: stored blob is v2 — Expected: 3, Received: 2\" at spec line 148 (1 failed), proving the heal assertion observes the real stored blob version. Restored byte-exact via cp from pre-mutation backup; md5 66ff51435224443ea2f281635582b286 matches baseline, and the restored run passed green (27.6s). check_gen_specs: only ledger-orphan FAILs (this file + 18 siblings of the same pre-Gate wave, expected until Gate); RNG seam ok; no other failures.",
-    "runtimeS": 30.1
-   }
-  },
-  {
-   "id": "quar-w1-01",
-   "file": "e2e/gen/spa-nav-inflight-progress-survives.spec.ts",
-   "title": "Q001: SPA soft-nav teardown never flushes the debounced save",
-   "theme": "resilience",
-   "L": "white-belt-holder",
-   "F": "spa-nav",
-   "B": "persistence-reload",
-   "invariant": "A card graded moments before a Quartz soft navigation is not lost to the prod debounced save: teardown flushes the pending write, so the remounted instance's prep map carries the grade and the seeded belt win stays intact.",
-   "origin": "bug",
-   "status": "accepted",
-   "wave": 1,
-   "issue": "Q001 (e2e/quarantine/ISSUES.md)",
-   "evidence": {
-    "promoted": "Q001 fixed in v1.67.4 (unmount _flushSave); spec green post-fix"
-   }
-  },
-  {
-   "id": "gen-w1-17",
-   "file": "e2e/gen/veteran-belt-path-all-study-locks-open-tests-gated.spec.ts",
-   "title": "veteran-belt-path-all-study-locks-open-tests-gated",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "belt-path",
-   "B": "cross-feature",
-   "invariant": "A 25-deck SRS veteran whose proven decks span multiple belts sees every lesson row those decks back marked data-done='1' across belt boundaries, yet because no checkpoint passed and no belt won, every belt-test row still reads data-test-state 'locked' and blue's units remain sequentially locked — drilled recall crosses belts but never unlocks a test.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 101 assertion `.toEqual(Array(TEST_BELTS).fill(\"locked\"))` → `.fill(\"ready\")`. Single run FAILED as expected: Received [\"locked\",\"locked\",\"locked\",\"locked\",\"locked\"] vs Expected 5×\"ready\" (the SRS veteran has zero checkpoints, so unitComplete is false for every belt → belt-test state is \"locked\", never \"ready\"). This proves the belt-test-state census assertion bites on real app DOM output. Restored the exact original via reverse Edit; re-ran green (2.2s).",
-    "runtimeS": 2.2
-   }
-  },
-  {
-   "id": "gen-w1-18",
-   "file": "e2e/gen/veteran-opponent-attacks-pull-from-lifetime-vocab.spec.ts",
-   "title": "veteran-opponent-attacks-pull-from-lifetime-vocab",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "opponent-turns",
-   "B": "guard-limit",
-   "invariant": "During a normal (non-belt-test) roll for a 25-deck veteran, a rigged opponent_attack draws a technique that resolves to a real submissions/transitions node, and mastered lifetime decks never widen the opponent's attack pool — the attack idx resolves to a node whose title matches the beat technique, and zero phantom opponent_attack beats fire beyond the rigged one.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 164 (`.toBe(atk.technique)` → `.not.toBe(atk.technique)`), the core clause-1 assertion that the rigged opponent_attack's idx resolves to a graph node whose title equals the beat technique. Single run FAILED as expected exactly at line 164: `Expected: not \"Americana from High Mount\"` — confirming the resolved submission node's title equals the beat technique by construction. Restored via precise Edit; re-ran green (3.5s).",
-    "runtimeS": 4.2
-   }
-  },
-  {
-   "id": "gen-w1-19",
-   "file": "e2e/gen/veteran-victory-does-not-mutate-recall-map.spec.ts",
-   "title": "veteran-victory-does-not-mutate-recall-map",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "victory-defeat",
-   "B": "cross-feature",
-   "invariant": "Winning a live roll by rigged submission for a veteran fires roll_end outcome 'win' and victory_cascade but leaves the recall/mastery economy untouched: masteredCount() and every seeded rec[deckKey] are byte-identical before and after the finish — gameplay victory credits the ladder, never the SRS rec map.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 126 from `.toBe(base.rank + 1)` to `.toBe(base.rank + 2)`. Single run FAILED as required: \"ladder rank advanced exactly +1 ... Expected: 3, Received: 2\" — proving the win advances ladder rank by exactly +1. Restored via precise Edit back to `.toBe(base.rank + 1)`; re-ran green (3.8s).",
-    "runtimeS": 5.0
-   }
-  },
-  {
-   "id": "gen-w1-20",
-   "file": "e2e/gen/veteran-settings-gimode-flip-hides-gi-lessons-live.spec.ts",
-   "title": "veteran-settings-gimode-flip-hides-gi-lessons-live",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "settings",
-   "B": "cross-feature",
-   "invariant": "Flipping giMode to 'nogi' at runtime for a veteran re-renders the belt path live: any gi-only lesson row switches to data-live='0' aria-disabled='true' and drops out of its unit's done-math, while nogi-viable proven decks keep data-done='1' — a mid-life settings change re-derives lock/live state without a reload.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 109 from `.toBe(\"0\")` to `.toBe(\"1\")` — asserting the gi-only lesson row STAYS alive after the runtime gi→nogi flip. Ran once: FAILED as expected at line 109 with `Expected: \"1\" / Received: \"0\"` (the app correctly re-derived the gi-only row to dead: data-live=0). Restored exactly via precise Edit revert back to `.toBe(\"0\")`; re-ran green.",
-    "runtimeS": 7.3
-   }
-  },
-  {
-   "id": "gen-w1-21",
-   "file": "e2e/gen/returner-decision-timer-expiry-narrated-on-comeback.spec.ts",
-   "title": "returner-decision-timer-expiry-narrated-on-comeback",
-   "theme": "lifetime-journeys",
-   "L": "lapsed-returner",
-   "F": "decision-timer",
-   "B": "keyboard-timing",
-   "invariant": "A returner who freezes on their first comeback hand gets a narrated auto-pick, not a silent teleport: letting the decision window expire emits expiry_warning then auto_pick, and cardsToday stays 0 across the expiry (an auto-picked option is not a graded card).",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 4,
-    "redProof": "Mutated line 93 `.toBeLessThan(iAuto)` → `.toBeGreaterThan(iAuto)`. Ran once: FAILED as required with `expiry_warning PRECEDES auto_pick ... Expected: > 9, Received: 6` — real beat order is expiry_warning@idx6 before auto_pick@idx9. Restored by reverse-Edit back to `.toBeLessThan(iAuto)`, verified byte-exact, re-ran green.",
-    "runtimeS": 3.5
-   }
-  },
-  {
-   "id": "gen-w1-22",
-   "file": "e2e/gen/endgame-victory-cannot-double-award-belt.spec.ts",
-   "title": "endgame-victory-cannot-double-award-belt",
-   "theme": "lifetime-journeys",
-   "L": "multi-belt-endgame",
-   "F": "victory-defeat",
-   "B": "idempotence",
-   "invariant": "A rigged gameplay submission win for a fully-graduated player fires roll_end 'win'/victory_cascade but never re-emits belt_test_won or belt_unlocked and leaves belts.won at exactly 5 entries with unchanged moves/dominance — a normal-roll victory is not a belt award and cannot inflate the belt record.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 147 from `.toBe(N_BELTS)` to `.toBe(N_BELTS + 1)`. Ran once: FAILED as expected at line 147 — Expected: 6, Received: 5. The app left belts.won frozen at its 5 seeded entries. Restored the exact original via reverse Edit (`.toBe(N_BELTS)`) and re-ran GREEN (3.3s).",
-    "runtimeS": 10.2
-   }
-  },
-  {
-   "id": "gen-w1-23",
-   "file": "e2e/gen/holder-victory-defeat-blue-progress-untouched-by-loss.spec.ts",
-   "title": "holder-victory-defeat-blue-progress-untouched-by-loss",
-   "theme": "lifetime-journeys",
-   "L": "white-belt-holder",
-   "F": "victory-defeat",
-   "B": "cross-feature",
-   "invariant": "A gameplay loss for a white-belt holder drains the ladder but never revokes the earned white belt or corrupts blue study progress: after a rigged defense-expiry loss, defeat_drain and ladder_down fire, yet belts.won[white] is intact and blue's units/lessons state is unchanged from boot — belt record and study progress are independent of roll outcomes.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 128 from `.toBe(rank0 - 1)` to `.toBe(rank0 + 1)`. Single run FAILED as expected: `Expected: 4 / Received: 2` — the loss dropped the ladder from rank0=3 to 2 (a real -1 debit). Restored via precise Edit back to `.toBe(rank0 - 1)`; follow-up green run passed (3.9s).",
-    "runtimeS": 3.9
-   }
-  },
-  {
-   "id": "gen-w1-24",
-   "file": "e2e/gen/corrupt-blob-belt-path-boots-fresh-white.spec.ts",
-   "title": "corrupt-blob-belt-path-boots-fresh-white",
-   "theme": "lifetime-journeys",
-   "L": "legacy-corrupt-blob",
-   "F": "belt-path",
-   "B": "error-fallback",
-   "invariant": "When bjj-neural-progress is malformed JSON, the belt path renders a pristine fresh profile without crashing: white belt row is unlocked (no data-locked), blue belt row data-locked='1', every unit row lacks data-done, and every [data-belt-test] reads 'locked' — corruption degrades to a clean white-belt start, not a broken explorer.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 124 from `.toBe(\"1\")` to `.toBe(\"0\")`. Single run FAILED as expected: `Expected \"0\", Received \"1\"` (the app renders data-locked=\"1\" on the fresh-fallback profile). Restored the exact pristine bytes via cp from a pre-mutation snapshot (sha256 c1c2a61130ed9acaa956b6bbfa27494affa55fe91464c4441fc844dcae4bd8ef), then re-ran green (10.3s).",
-    "runtimeS": 12.0
-   }
-  },
-  {
-   "id": "gen-w1-25",
-   "file": "e2e/gen/corrupt-blob-settings-persist-cleanly-after-heal.spec.ts",
-   "title": "corrupt-blob-settings-persist-cleanly-after-heal",
-   "theme": "lifetime-journeys",
-   "L": "legacy-corrupt-blob",
-   "F": "settings",
-   "B": "persistence-reload",
-   "invariant": "After falling back from corrupt storage, a settings change (giMode/mcMode) writes into the healed profile and survives a preserveStorage reload: post-reload the setting reads the chosen value, _progressBlob().v===2, and JSON.parse of bjj-neural-progress succeeds — the quarantined poison never resurfaces through the settings write path.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 148 `.toBe(\"classic\")` → `.toBe(\"REDPROOF_WRONG\")`. Single run FAILED as expected: app returned real re-ingested \"classic\" but spec demanded \"REDPROOF_WRONG\" — the corrupt-boot → settings-heal → preserveStorage-reload flow executed and the post-reload re-ingest assertion bites. Restored via precise Edit back to `.toBe(\"classic\")`; re-ran green (19.3s).",
-    "runtimeS": 19.3
-   }
-  },
-  {
-   "id": "gen-w1-26",
-   "file": "e2e/gen/lapsed-returner-spa-nav-preserves-career.spec.ts",
-   "title": "lapsed-returner-spa-nav-preserves-career",
-   "theme": "lifetime-journeys",
-   "L": "lapsed-returner",
-   "F": "spa-nav",
-   "B": "persistence-reload",
-   "invariant": "A Quartz soft navigation for a returner (no in-flight grade) rebuilds the app while their seeded career survives in storage: after the soft nav the remounted instance is a fresh ref with an empty beats array, yet _progressBlob() still carries belts.won[white] and the full prep map — navigation rebuilds the app, never the profile.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 110 `.toBe(false)` → `.toBe(true)` (asserting the post-soft-nav remount is the recycled old ref). Single run FAILED as expected at line 110: Expected: true, Received: false (sameRef is genuinely false; the soft nav rebuilds a distinct __neural instance). Restored the exact original byte-for-byte and re-ran green (2.3s).",
-    "runtimeS": 2.4
-   }
-  },
-  {
-   "id": "gen-w1-27",
-   "file": "e2e/gen/endgame-opponent-turn-vocab-unbounded-not-belt-gated.spec.ts",
-   "title": "endgame-opponent-turn-vocab-unbounded-not-belt-gated",
-   "theme": "lifetime-journeys",
-   "L": "multi-belt-endgame",
-   "F": "opponent-turns",
-   "B": "happy-path",
-   "invariant": "Outside a belt test the opponent's move pool is the full graph, not a belt-restricted set: for a graduated player a rigged opponent_move in a normal roll resolves to a transitions-or-submissions node whose technique need not be in any belt's names list, and no _beltTest is ever set — belt-vocabulary restriction is a belt-test-only rule.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 139: `.toBe(true)` → `.toBe(false)` on the belt-pool short-circuit assertion. Single run FAILED as expected at :139 with `Expected: false, Received: true` — proving _beltPoolAllows(n) returns true when no _beltTest is active. Restored line 139 exactly back to `.toBe(true)`, then re-ran green in 3.6s.",
-    "runtimeS": 3.6
-   }
-  },
-  {
-   "id": "gen-w1-28",
-   "file": "e2e/gen/veteran-graph-canvas-fog-lifts-in-tree-view.spec.ts",
-   "title": "veteran-graph-canvas-fog-lifts-in-tree-view",
-   "theme": "lifetime-journeys",
-   "L": "srs-veteran",
-   "F": "graph-canvas",
-   "B": "cross-feature",
-   "invariant": "For a veteran the path-view fog-of-war is a PATH-view artifact, not a permanent dim: while PATH view is open _pathDim is active and _curriculumIdxSet excludes some nodes, but toggling to TREE view clears _pathDim (fog off) and renders zero [data-locked]/[data-lesson] — switching view mode fully lifts the fog for a mastered profile.",
-   "origin": "auto",
-   "status": "accepted",
-   "wave": 1,
-   "evidence": {
-    "greens": 3,
-    "redProof": "Mutated line 81 `.toBe(false)` → `.toBe(true)`. Single run FAILED exactly at line 81: `Expected: true, Received: false` (tree view genuinely sets _pathDim=false). Restored to `.toBe(false)` via Edit; verified byte-exact; post-restore run green in 2.1s.",
-    "runtimeS": 2.1
-   }
-  }
- ]
 }
