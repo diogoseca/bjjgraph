@@ -351,7 +351,7 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - More controlled leg entanglement position with single leg control
 - **[[Positions/Ashi Garami/Saddle]]** - Common transition target when opponent advances from backside 50-50 top
 - **[[Positions/Back Control]]** - Major defensive concern - position opponent may transition to from backside 50-50 top
-- **[[Positions/Leg Entanglement]]** - Fundamental concept governing mechanics of all 50-50 variations
+- **[[Positions/Turtle]]** - Defensive position bottom player may adopt when escaping the leg entanglement to avoid back control
 - **[[Transitions/Heel Hook]]** - Primary submission transition available from this position
 - **[[Positions/X-Guard]]** - Alternative leg entanglement position accessible through proper transitions
 - **[[Positions/Open Guard]]** - Recovery position when successfully escaping leg entanglement
