@@ -94,3 +94,6 @@ e2e/paired/
 # Only this subdir — the rest of tests/artifacts/ is tracked.
 tests/artifacts/snapshots/
 node_modules/
+
+# Transient local-agent coordination notes (this checkout only; repo is public)
+HANDOFF.md

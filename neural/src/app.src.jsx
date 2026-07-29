@@ -4314,7 +4314,7 @@ class Component extends DCLogic {
   }
   _tickDecision(gdt) {
     const d = this._decision;
-    if (!d || !this._optPick || this._coach) return; // the coach freezes the clock — nobody reads UI under a timer they don't understand yet
+    if (!d || !this._optPick || this._coach || this._checkpoint) return; // the coach freezes the clock — nobody reads UI under a timer they don't understand yet. Q002: the checkpoint quiz is untimed for the same reason — without this guard the roll auto-played UNDER the open quiz and clobbered it
     d.remaining -= gdt * 1000;
     if (this._vignetteEl && d.total) { // defense heartbeat: 60 → 100bpm as the window drains
       const f = Math.max(0, Math.min(1, d.remaining / d.total));

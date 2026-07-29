@@ -44,3 +44,34 @@ Format per entry:
   at risk are ALL debounce-only writes: prep bumps, rec (recall/mastery) grades, daily counter,
   settings. Suggested fix: call `this._flushSave()` at the top of `componentWillUnmount()` —
   flush also clears `_saveT`, so the orphaned-timer late write disappears too.
+
+## Q002 — Checkpoint quiz doesn't stop the roll's decision clock: the roll auto-plays underneath and clobbers the live quiz UI   [bug] [status: Fixed v1.67.7]
+- Spec: e2e/gen/mid-checkpoint-quiz-untimed.spec.ts (promoted; green since the fix)
+- Found: wave 4, curriculumMid at decision-timer
+- Expected: the checkpoint quiz is untimed — with a quiz open, pumping sim time far past the
+  decision window fires zero expiry_warning / zero auto_pick, `_checkpoint.i` only moves on
+  answers, and the quiz card stays answerable. Time pressure is a roll-only economy; every
+  other reading surface honors this (expand sheet pauses :1497, explorer auto-pauses :2610,
+  dossier pauses :2807, coach freezes the clock :4317).
+- Actual: `startCheckpoint` closes the explorer to show the quiz (app.src.jsx:3480) →
+  `toggleExplorer` releases the explorer's auto-pause (:2597) → `paused=false` with the
+  pre-quiz hand's decision window still live and `_tickDecision` (:4315) having no
+  `_checkpoint`/`deckShown` guard. Probe (2 runs, identical through baseline): quiz open at
+  `remaining≈15.8s`, and a 45s pump fired expiry_warning ×6-7 + auto_pick ×2 — the roll
+  auto-played moves UNDER the quiz (commit → sweep → impact; run 2 cascaded into
+  opponent_attack → defend_start → caught → panic_drill_opened, i.e. the PANIC DRILL opened
+  over the checkpoint). Each background land calls `buildDrillPanel` (:4281) which, with the
+  deck shown, `renderDrillHome()`s over the live quiz card: `[data-mc-opt]` count drops to 0
+  and `_drillView` flips to "home" while `_checkpoint` stays truthy at i=1 — the quiz becomes
+  an unanswerable zombie. Closing the deck then cancels it as "abandoned" (:942). The narrow
+  half of the law DOES hold: `_checkpoint.i` never moved (auto_pick picks a roll move, never a
+  quiz answer) — the breakage is the clock running at all, plus the UI clobber.
+- Notes: repro = boot curriculumMid → land Mount Top (coach dismissed → clock live ~16.2s) →
+  drill unit-2's remaining lessons → toggleExplorer → click `[data-checkpoint="white/side-control-escapes"]`
+  → answer 1 card correct (i=1) → advance ~12s → first expiry_warning (red assert), ~16s →
+  auto_pick. Zombie risk beyond the clobber: with `_checkpoint` still truthy, ANY MC card
+  rendered later wires `onDone → _checkpointAnswer` (:3632) — cards from an unrelated deck
+  could advance the checkpoint. Suggested fix (any one restores the invariant): have
+  `startCheckpoint` keep the pause (transfer the explorer's auto-pause to the quiz instead of
+  releasing it), or clear/park `_decision` + `_optPick` for the quiz's duration, or guard
+  `_tickDecision` on `this._checkpoint`. The red spec is fix-shape-agnostic.
