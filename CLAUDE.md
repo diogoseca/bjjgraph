@@ -380,6 +380,12 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 - **Effectiveness is already in there** — the chain propagates through `outcome.probability`, so a technique that works routes more traffic to its destination and lifts the weights downstream. An explicit effectiveness multiplier would double-count it.
 - Rendered as a `[data-score-row]` header ("Game knowledge · NN%") plus 4 ticks per belt row (`[data-stripes]`) showing progress through *that belt's* band. **Nothing is gated by the score** and the thresholds are provisional.
 
+**THE BELT BAR + CROWNED LESSONS (v1.69.0).** PATH view is the Duolingo surface; TREE stays the reference browser (categories live there — the curriculum's order *is* the pedagogy, so grouping the path by category would break it).
+- `buildBeltBar()` renders one vertical meter at the head of the path: the fill rises with `gameScore().score` and takes the colour of the highest belt **met**, the track outline flips to white once that belt is black, a marker sits at each threshold (`[data-belt-mark]`, gaining `data-met` when passed), and `[data-you-are-here]` is the bright line at your exact score. Handles: `[data-belt-track]` (`normal`|`black`), `[data-belt-fill]` (belt id or `none`), `[data-belt-label]`.
+- **The line can fall.** Forgetting is *tested, not timed* (owner's call): there is no idle decay, but Review-again and trap answers drop a card's stage, so the score — and the belt — genuinely demote. Do not add time decay.
+- `crownBadge(frac, tint, locked)` gives every lesson a 0–4 crown from `deckMastery(deckKey)` — a conic-gradient ring plus the level (★ at 4). **Same numbers as the belt score**, so grinding a lesson to gold is literally what moves your belt: one system, not two scoreboards.
+- Every pre-existing path handle is preserved (`[data-lesson]`, `[data-unit]`, `[data-checkpoint]`, `[data-belt]`, `data-locked`, `data-done`, `data-live`) — the redesign is styling, not restructuring.
+
 **Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on) and *Tutorial* (progress + Restart); Flashcards tab's *Answer mode* now defaults to Classic recall. Shortcuts tab lists `A B C D`.
 
 ### Graph Component

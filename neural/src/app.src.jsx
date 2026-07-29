@@ -2588,27 +2588,81 @@ class Component extends DCLogic {
     for (let i = 0; i < 4; i++) s += '<span style="width:3px;height:11px;border-radius:1px;background:' + (i < n ? "#eef1f6" : "rgba(150,170,210,.2)") + ';"></span>';
     return s + "</span>";
   }
+  // ── THE BELT BAR ── one vertical meter for the whole game. The fill rises with your score and
+  // takes the colour of the highest belt you have MET; the outline flips to white once it is
+  // black. Belt markers sit at their thresholds, and a bright line marks exactly where you are —
+  // and it can fall back below a marker, because a wrong answer drops a card's stage.
+  buildBeltBar() {
+    const g = this.gameScore();
+    const B = this.BELT_SCORE;
+    const col = {};
+    for (const b of (this.curriculum && this.curriculum.belts) || []) col[b.id] = b.color;
+    const dark = g.belt === "black";
+    const fill = g.belt ? (col[g.belt] || "#c9d3e6") : "rgba(196,206,226,.5)";
+    const at = Math.max(0, Math.min(1, g.score)) * 100;
+    const H = 176;
+
+    const wrap = document.createElement("div");
+    wrap.setAttribute("data-score-row", "1");
+    wrap.setAttribute("data-game-score", g.score.toFixed(4));
+    wrap.setAttribute("data-belt-met", g.belt || "none");
+    wrap.style.cssText = "display:flex;align-items:flex-start;gap:14px;padding:14px 10px 18px 12px;";
+
+    const track = document.createElement("div");
+    track.setAttribute("data-belt-track", dark ? "black" : "normal");
+    track.style.cssText = "position:relative;flex:none;width:12px;height:" + H + "px;border-radius:7px;background:rgba(255,255,255,.04);border:1px solid " + (dark ? "rgba(255,255,255,.6)" : "rgba(118,130,158,.55)") + ";";
+    const lvl = document.createElement("div");
+    lvl.setAttribute("data-belt-fill", g.belt || "none");
+    lvl.style.cssText = "position:absolute;left:0;right:0;bottom:0;height:" + at.toFixed(1) + "%;background:" + fill + ";border-radius:6px;transition:height .55s cubic-bezier(.2,.7,.2,1),background .45s ease;";
+    track.appendChild(lvl);
+    for (const [id, t] of B) {
+      const on = g.score >= t;
+      const dot = document.createElement("span");
+      dot.setAttribute("data-belt-mark", id);
+      if (on) dot.setAttribute("data-met", "1");
+      dot.style.cssText = "position:absolute;left:50%;bottom:" + (t * 100) + "%;transform:translate(-50%,50%);width:14px;height:14px;border-radius:50%;background:" + (col[id] || "#8a94ab") + ";border:2px solid " + (on ? "#eef1f6" : "rgba(16,20,32,.95)") + ";box-shadow:0 0 0 1px rgba(0,0,0,.55)" + (on ? ",0 0 11px " + (col[id] || "#8a94ab") : "") + ";opacity:" + (on ? "1" : ".5") + ";";
+      track.appendChild(dot);
+    }
+    const you = document.createElement("span");
+    you.setAttribute("data-you-are-here", "1");
+    you.style.cssText = "position:absolute;left:-6px;right:-6px;bottom:" + at.toFixed(1) + "%;height:2px;background:#eef1f6;box-shadow:0 0 7px rgba(255,255,255,.8);transition:bottom .55s cubic-bezier(.2,.7,.2,1);";
+    track.appendChild(you);
+    wrap.appendChild(track);
+
+    const side = document.createElement("div");
+    side.style.cssText = "position:relative;flex:1;min-width:0;height:" + H + "px;";
+    side.innerHTML =
+      '<div style="position:absolute;right:2px;top:-2px;text-align:right;">' +
+        '<div style="font-size:17px;font-weight:800;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (g.score * 100).toFixed(1) + '%</div>' +
+        '<div style="font-size:8.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#7e8aa3;margin-top:4px;">Game knowledge</div>' +
+      '</div>';
+    for (const [id, t] of B) {
+      const on = g.score >= t;
+      const lab = document.createElement("div");
+      lab.setAttribute("data-belt-label", id);
+      lab.style.cssText = "position:absolute;left:0;bottom:" + (t * 100) + "%;transform:translateY(50%);font-size:10.5px;font-weight:" + (on ? "800" : "600") + ";color:" + (on ? "#eef1f6" : "#6b7691") + ";white-space:nowrap;";
+      lab.textContent = id.charAt(0).toUpperCase() + id.slice(1) + " · " + Math.round(t * 100) + "%";
+      side.appendChild(lab);
+    }
+    wrap.appendChild(side);
+    return wrap;
+  }
+  // a lesson's crown: the ring fills with deckMastery, and the numeral is the crown level 0-4.
+  // Same numbers that drive the belt score — grinding a bubble to gold IS moving your belt.
+  crownBadge(frac, tint, locked) {
+    const f = Math.max(0, Math.min(1, frac));
+    const lvl = Math.floor(f * 4);
+    const ring = locked ? "rgba(150,170,210,.16)" : (lvl >= 4 ? "#f0c05a" : tint);
+    const ink = locked ? "#5d6a86" : (lvl >= 4 ? "#f0c05a" : lvl ? "#dbe2f0" : "#7e8aa3");
+    return '<span data-crown="' + lvl + '" title="' + Math.round(f * 100) + '% mastered" style="position:relative;flex:none;width:25px;height:25px;border-radius:50%;background:conic-gradient(' + ring + ' ' + (f * 100).toFixed(1) + '%, rgba(150,170,210,.13) 0);display:flex;align-items:center;justify-content:center;">' +
+      '<span style="width:18px;height:18px;border-radius:50%;background:#121623;display:flex;align-items:center;justify-content:center;font-size:9.5px;font-weight:800;color:' + ink + ';font-family:\'Space Grotesk\',sans-serif;">' + (lvl >= 4 ? "★" : lvl) + '</span>' +
+      '</span>';
+  }
   renderBeltPath(list, mk) {
     this._pathDim = true;
     if (!this._pathBeatFired) { this._pathBeatFired = true; this.fx("path_opened", { belts: this.curriculum.belts.length }); }
     const belts = this.curriculum.belts;
-    // one number for the whole game, above everything: Σ(frequency × mastery)
-    {
-      const g = this.gameScore();
-      const pct = (g.score * 100).toFixed(1);
-      const nextAt = g.next ? (this.BELT_SCORE.find((b) => b[0] === g.next) || [null, 1])[1] : 1;
-      const sRow = mk(
-        '<span style="font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#7e8aa3;">Game knowledge</span>' +
-        '<span data-game-score="' + g.score.toFixed(4) + '" style="margin-left:auto;font-size:13.5px;font-weight:800;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">' + pct + '%</span>',
-        12);
-      sRow.setAttribute("data-score-row", "1");
-      list.appendChild(sRow);
-      const sub = mk('<span style="font-size:10.5px;color:#7e8aa3;line-height:1.35;">' +
-        (g.belt ? this.BELT_SCORE.find((b) => b[0] === g.belt)[0].replace(/^./, (c) => c.toUpperCase()) + " standard met" : "Working toward white") +
-        (g.next ? " · " + Math.round(nextAt * 100) + "% for " + g.next : " · the whole game proven") +
-        '</span>', 30);
-      list.appendChild(sub);
-    }
+    list.appendChild(this.buildBeltBar());
     // the tutorial rides at the head of the path: learning the UI is the first thing a white
     // belt does, so it gets a row and a progress count like everything else on the ladder
     {
@@ -2660,9 +2714,10 @@ class Component extends DCLogic {
           const ld = this.lessonDone(l.deckKey);
           const parts = l.deckKey.split("|");
           const row = mk(
-            '<span style="font-size:12px;color:' + (ld ? "#7ee0a8" : live && !uLocked ? "#c3cde0" : "#5d6a86") + ';">' + (ld ? "\u2713 " : "") + parts[0] + ' <span style="color:#6b7691;font-size:10.5px;">' + parts[1] + '</span></span>' +
+            this.crownBadge(this.deckMastery(l.deckKey), b.color, uLocked || !live) +
+            '<span style="font-size:12px;color:' + (ld ? "#7ee0a8" : live && !uLocked ? "#c3cde0" : "#5d6a86") + ';">' + parts[0] + ' <span style="color:#6b7691;font-size:10.5px;">' + parts[1] + '</span></span>' +
             (!live ? '<span style="margin-left:auto;font-size:9px;font-weight:800;color:#9fb0d8;border:1px solid rgba(150,170,210,.3);border-radius:5px;padding:1px 5px;">GI</span>' : ""),
-            34,
+            30,
             !uLocked && live ? () => this.openLessonStudy(l, u, b) : null);
           row.setAttribute("data-lesson", l.deckKey);
           if (ld) row.setAttribute("data-done", "1");
