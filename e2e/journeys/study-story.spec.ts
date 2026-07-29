@@ -24,6 +24,9 @@ test("white belt study story: path → lesson → MC → recall → checkpoint �
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
+  // v1.68.0: MC is the in-roll format; the sidebar reads back as recall by default. This story
+  // is about the MC → recall graduation ladder inside a lesson, so it opts into MC.
+  await page.evaluate(() => (window as any).__neural.set("mcMode", "auto"))
 
   // ── the front door: PATH is the default explorer face ──
   await page.evaluate(() => (window as any).__neural.toggleExplorer())

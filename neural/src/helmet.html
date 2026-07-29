@@ -58,6 +58,8 @@
     .ng-seemore{display:none!important;}
     .ng-winbar{width:104px!important;}
     .ng-legend{left:14px!important;bottom:27px!important;gap:0!important;}
+    .ng-landcard{bottom:206px!important;width:calc(100vw - 20px)!important;max-height:34vh!important;padding:11px 12px 10px!important;}
+    .ng-tut{display:none!important;}
   }
 
   /* \u2500\u2500 P2: beat beacon / defense vignette / coach / film shimmer \u2500\u2500 */
@@ -66,9 +68,17 @@
   .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 52%,rgba(226,58,48,.3) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
   @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
   .ng-coach{position:fixed;left:50%;bottom:218px;transform:translateX(-50%);z-index:70;width:min(340px,calc(100vw - 40px));background:rgba(15,19,30,.97);border:1px solid rgba(126,224,168,.35);border-radius:14px;padding:14px 16px;box-shadow:0 14px 44px rgba(0,0,0,.55);}
+  /* P1b: the question-first landing card — docked directly above the options tray, so the
+     read order is identity -> film -> question -> your hand, top to bottom. */
+  .ng-landcard{position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(320px,40vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardIn .28s cubic-bezier(.2,.7,.2,1);}
+  .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
+  /* P3: the tutorial drip — one step at a time, bottom-left above the legend */
+  /* pointer-events:none — the options tray can scroll under this corner and must stay clickable */
+  .ng-tut{position:fixed;left:16px;bottom:104px;z-index:7;width:238px;pointer-events:none;background:rgba(15,19,30,.96);border:1px solid rgba(126,224,168,.28);border-radius:12px;padding:10px 12px;box-shadow:0 10px 34px rgba(0,0,0,.5);}
+  .ng-tut [data-tut-hide]{pointer-events:auto;}
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after{animation:none}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard{animation:none}}
 </style>
 <script src="technique-content.js"></script>

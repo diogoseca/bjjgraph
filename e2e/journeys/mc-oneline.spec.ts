@@ -22,6 +22,9 @@ const GOLDEN_Q = "Why must you trap the arm and leg on the same side rather than
 const MC_LINE = 36
 
 async function openDeck(j: any, page: any, deckKey: string) {
+  // v1.68.0: the sidebar reads back as classic recall by default — this file inspects the MC
+  // options themselves, so it opts in.
+  await page.evaluate(() => (window as any).__neural.set("mcMode", "auto"))
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await page.locator(`[data-lesson="${deckKey}"]`).first().click()
   await j.advance(800)

@@ -305,7 +305,8 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 2. **DecksModal** — opens when user clicks the strip label. Lean: 5 deck rows (Due / Reviewing / Mastered / Suggested / Recently Explored) + sticky bottom CTA `Train Due (N) ▶` (label adapts) + ⚙ in modal header.
 3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked). Stacks above DecksModal.
 4. **SessionChevrons** — fixed prev/next overlays on left/right viewport edges. Visible only when `body[data-training-active]`. Left hidden at index 0; right shows ✓ at last card (click finishes session). ArrowLeft/ArrowRight global keyboard, gated by `isTypingTarget`.
-5. **FirstLoadHint** — one-time tooltip pointing at ▶ on first visit. Auto-dismisses after 5s / Esc / any click. `localStorage["bjj-onboarded"]=true` after dismiss.
+
+> **NB — legacy variant only.** Everything in this section describes the Quartz page UI served at `?variant=legacy`. The default experience is the **Neural app** (see *Neural: pane law, landing questions, tutorial, degrees* below). `FirstLoadHint` and `bjj-onboarded` were **deleted in v1.26.2** (`0c492f0f6`) and no longer exist anywhere in source.
 
 **Carousel slide:** SPA navigation between cards in a session uses the CSS View Transitions API via `slideNavigate(url, 'forward'|'backward')` in `trainingSession.ts`. CSS keyframes drive a horizontal slide; non-supporting browsers fall back to instant swap. Graph's existing 400ms pan-to-current-node fires in parallel on every nav.
 
@@ -324,7 +325,7 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 **Session sources (`SessionSource` in `trainingSession.ts`):** `mixed` (default — due + suggestions to dailyGoal), `due`, `reviewing`, `mastered`, `suggested`, `explored` (ad-hoc, does NOT auto-add to SRS).
 
 **Storage keys (unchanged across the v1.20 redesign):**
-- localStorage: `bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, `bjj-streak`, `bjj-explored`, `bjj-banned-flashcards`, `bjj-journey`, `bjj-onboarded`
+- localStorage: `bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, `bjj-streak`, `bjj-explored`, `bjj-banned-flashcards`, `bjj-journey`
 - sessionStorage: `training-session` (now with optional `autoExpand` + `source` fields), `training-session-complete`, `snackbar`, `victory-data`
 
 **Keyboard shortcuts (active during session unless typing in an input):**
@@ -341,10 +342,45 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 - `source/quartz/components/DecksModal.tsx` + `scripts/decksModal.inline.ts` — deck overview modal + sticky CTA
 - `source/quartz/components/SettingsModal.tsx` + `scripts/settingsModal.inline.ts` — two-tab settings modal
 - `source/quartz/components/SessionChevrons.tsx` + `scripts/sessionChevrons.inline.ts` — carousel prev/next + keyboard nav
-- `source/quartz/components/FirstLoadHint.tsx` + `scripts/firstLoadHint.inline.ts` — one-time onboarding tooltip
 - `source/quartz/components/Flashcard.tsx` + `scripts/flashcard.inline.ts` — per-page Q&A UI (also drives session advancement on Hard/Easy)
 
 **Cloudflare redirect:** `source/quartz/static/_redirects` has `/Training/* / 301` so old inbound links land on home.
+
+### Neural: pane law, landing questions, tutorial, degrees (v1.68.0+)
+
+All in `neural/src/app.src.jsx` (one class; CSS in `neural/src/helmet.html`). Journeys in `e2e/journeys/`: `pane-law`, `landing-card`, `roam-stage`, `tutorial-drip`, `proof-stripes`.
+
+**PANE LAW (v1.68.0).** The right flashcards pane is **manual-only** — nothing in the roll loop opens or closes it. It no longer opens at roll start, no longer opens as a save nudge, no longer hides at round end, and desktop graph clicks leave it alone (mobile keeps the strip-tap dismiss, since the pane covers the screen there).
+- **Open = the game stops. Close = the game resumes, but only if the pane is what stopped it.** Latched in `applyDeckVisibility()` via `_deckAutoPaused` — the same shape as `_explorerAutoPaused` / `_dossierAutoPaused`. A hand-paused roll stays paused when you close the pane.
+- Latched in `applyDeckVisibility`, not `setDeckOpen`, because several study entry points assign `deckOpen` directly. Beats: `pane_paused` / `pane_resumed`. Esc closes the pane last, once no overlay is up.
+
+**QUESTION-FIRST LANDING (v1.68.0).** The flashcard is no longer a place you go — it is what the game asks on arrival. `renderLandCard(node, mode, hooks)` docks `.ng-landcard` above the options tray in fixed read order: **identity** (`[data-land-id]`: name · where you came from · Top/Bottom or Attacking · ○ new / ◐ met / ● recall-proven) → one-line definition → **film** → **ONE multiple-choice question** (`[data-land-q]`) → your options → **`More ▸`** (`[data-land-more]`, opens the dossier — everything else lives there).
+- There is deliberately **no second question** at the technique node between commit and sweep. It was built and cut: gating the sweep on a 4s window added that delay to every move (and broke `golden-path` / `jit-loop` on tempo). The landing question already moves the odds of the very transition or submission you are about to attempt, and the sheet's JIT drill covers buying odds right before committing.
+- **Economy, one rule on both surfaces:** right → the ordinary credit path (`noteCardDone`: mastery + sharpness already move the odds — no second bonus) plus `refundDecision(2500)`; wrong → `_qMod` −0.04 (plausible) / −0.08 (trap), folded into `moveChance` and **cleared on the next `enterLand`**. Timing out costs nothing.
+- `questionFor(key)` picks the deck's first unproven card (`cardStage < 2`); a proven deck asks nothing.
+- **MC is the in-play format; the sidebar is the study surface.** `mcMode` default flipped `auto` → **`classic`** — nobody meets multiple choice in the sidebar unless they opt in. The checkpoint quiz stays MC always.
+- `_mcBlock(card, key, onDone, surface)` — truth lives in the closure + `this._mc` (never a DOM attribute); `surface` (`land` | `deck`) lets two blocks coexist, and only `deck` auto-advances. **`surface` also scopes the RNG**: the landing card draws on `land-mc-pick` / `land-mc-shuffle` so it can never eat the rigged `mc-*` queues the sidebar journeys depend on (this is what kept `golden-path`'s frame-exact replay honest).
+- **Keys: `A` `B` `C` `D` answer the live MC block; digits `1–9` stay the option-card openers.**
+
+**ROAM & STAGE (v1.68.0).** Clicking any graph node calls `stageRollAt(idx)`: fly there, land, deal the hand — **clock held**. Click elsewhere and you restage the same non-session. `_played` (set in `_tick` on the first unpaused frame with a live hand) is the seam: a roll that never played is never archived into `_pastRolls`. Tapping the node you are already on reads it (dossier) instead. `after(sec, fn, ignorePause)` exists so a staged landing still arrives while paused. Beat: `roll_staged`.
+
+**TUTORIAL DRIP (v1.68.0).** The 3-beat coach is now steps 1–3 of a **20-step checklist** (`get TUTORIAL()`), each completed by *doing* it — `fx()` feeds `noteTutorial(beat, props)`, which matches a step's `m(beat, props)` predicate. Steps may be earned in any order. Surfaces: `.ng-tut` strip (`[data-tut]`, `pointer-events:none` so the options tray stays clickable; hidden while the coach is up and on mobile) and a **Tutorial row at the head of the Belt Path** (`[data-tut-row]`). Persisted as `tut:{done:{}}` inside the **existing v2 blob** (no version bump; users with `bjj-neural-coached` are grandfathered past steps 1–3). Restart lives in Settings → Rolling. Beats: `tut_step`, `tutorial_done`. New supporting beats: `sheet_opened`, `recall_proven`.
+
+**DEGREES = ONE SCORE (v1.68.0), display-only.** A belt is *won* by its test; a degree is *proof*, and proof is a single number:
+
+```
+score = Σ (weight_i × mastery_i),   Σ weight_i = 1
+```
+
+- **`weight_i`** — how often a roll *actually* passes through technique *i*. Computed at build time by `build_technique_weights()` in `scripts/regenerate_neural_data.py`: the state machine is a Markov chain (position-role --`attemptProbability`--> technique --`outcome.probability`--> position-role), power-iterated with PageRank-style damping to a **stationary distribution**; each technique's expected visit rate is its weight. Emitted as `curriculum.weights` (`{"<name>|Attacker": w}`, 1269 entries summing to 1). Sanity check: the heaviest come out as *Side Control to Mount* (2.4%), *Knee Slice Pass*, *Underhook Sweep from Half* — a believable frequency ranking.
+- **`mastery_i`** — `deckMastery(key)` = mean of `min(cardStage,3)/3` over the deck's cards.
+- **Nothing is cut.** A rare technique still counts, proportionally to how rare it is. This replaced an earlier "drop the rare 20% tail" canon, which was arbitrary — `attempt_probability` is normalised *per position* across 10–20 options, so the distribution is flat and any mass cutoff is meaningless (80% of the mass kept 724 of 1270 techniques).
+- **Belts are thresholds on that number** (`BELT_SCORE`): white .20 · blue .40 · purple .60 · brown .70 · black .80. `gameScore()` → `{score, belt, next, stripes}`, memoised against `_stageVer` (bumped in `_bumpStage`) because a full pass is ~21k card reads.
+- **Emergent property worth keeping:** an MC answer caps a card at stage 2 = 2/3 mastery, so pure recognition tops out at **0.667** — enough for purple, never enough for brown or black. Recall is the only route past 0.7 *by construction*, which is exactly the "white belts recognise, black belts recall" rule, with no special-casing.
+- **Effectiveness is already in there** — the chain propagates through `outcome.probability`, so a technique that works routes more traffic to its destination and lifts the weights downstream. An explicit effectiveness multiplier would double-count it.
+- Rendered as a `[data-score-row]` header ("Game knowledge · NN%") plus 4 ticks per belt row (`[data-stripes]`) showing progress through *that belt's* band. **Nothing is gated by the score** and the thresholds are provisional.
+
+**Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on) and *Tutorial* (progress + Restart); Flashcards tab's *Answer mode* now defaults to Classic recall. Shortcuts tab lists `A B C D`.
 
 ### Graph Component
 

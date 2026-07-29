@@ -49,6 +49,8 @@ export class Journey {
       initialState?: Record<string, unknown>
       /** force the curriculum fetch to 404 (fallback-path journeys) */
       noCurriculum?: boolean
+      /** keep the 20-step tutorial drip live (default: pre-completed, like the coach) */
+      keepTutorial?: boolean
     } = {},
   ) {
     if (!(this.page as any).__ngInit) {
@@ -175,6 +177,19 @@ export class Journey {
           `boot readiness timeout (after 1 reload); before=${JSON.stringify(diag1)} after=${JSON.stringify(diag2)}`,
         )
       }
+    }
+    // the 20-step tutorial drip narrates the whole UI for a first-time player; journeys test
+    // post-onboarding play, so it starts pre-completed unless a test opts in (mirrors keepCoach)
+    if (!opts.keepTutorial) {
+      await this.page
+        .evaluate(() => {
+          const a = (window as W).__neural
+          if (!a || !a.TUTORIAL) return
+          a.tut = { done: {} }
+          for (const s of a.TUTORIAL) a.tut.done[s.id] = 1
+          a.renderTutorial()
+        })
+        .catch(() => {})
     }
     if (opts.seedRolls) {
       for (const [tag, values] of Object.entries(opts.seedRolls)) await this.rig(tag, values)

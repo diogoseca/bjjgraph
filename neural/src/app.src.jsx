@@ -119,6 +119,8 @@ class Component extends DCLogic {
     (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
     if (this.sound) this.sound.beat(beat, props || {});
     if (this.beats.length > 4000) this.beats.splice(0, 1000);
+    // the tutorial is completed by DOING, so it listens on the same bus (guarded: it emits too)
+    if (!this._inTut) { this._inTut = true; try { this.noteTutorial(beat, props || {}); } catch (e) {} this._inTut = false; }
   }
   // frame pump: advance simulated time in fixed ticks — timers, travel, camera, draw all step
   // deterministically. Only available in test mode (the rAF loop is not armed there).
@@ -142,16 +144,19 @@ class Component extends DCLogic {
     }
     this._noDraw = false;
   }
-  after(sec, fn) {
-    const item = { fn: fn, remaining: sec * 1000, start: performance.now(), id: null };
+  // ignorePause: the handful of steps that must still run while the clock is stopped — landing a
+  // STAGED roll (roam), where the whole point is to arrive somewhere with time held.
+  after(sec, fn, ignorePause) {
+    const item = { fn: fn, remaining: sec * 1000, start: performance.now(), id: null, ignorePause: !!ignorePause };
     const fire = () => { this._timers = (this._timers || []).filter((x) => x !== item); fn(); };
     item._fire = fire;
-    if (!this.isTest() && !this.paused) item.id = setTimeout(fire, item.remaining); // test mode: advance() drives
+    if (!this.isTest() && (!this.paused || item.ignorePause)) item.id = setTimeout(fire, item.remaining); // test mode: advance() drives
     (this._timers = this._timers || []).push(item);
     return item;
   }
   pauseTimers() {
     for (const it of (this._timers || [])) {
+      if (it.ignorePause) continue;
       if (it.id) { clearTimeout(it.id); it.remaining -= (performance.now() - it.start); it.id = null; }
     }
   }
@@ -261,6 +266,7 @@ class Component extends DCLogic {
         else {
           const el = this.explorerRef.current;
           if (el && el.style.display === "flex") { if (this._dossierIdx != null) this.showExplorerList(); else this.toggleExplorer(); }
+          else if (this.deckShown) { this.setDeckOpen(false); } // PANE LAW: Esc closes the pane last, once no overlay is up
         }
       } else if ((e.key === "Enter" || e.key === "x" || e.key === "X") && this._detailCtx && !typing) {
         e.preventDefault(); const ctx = this._detailCtx; this.closeOptionDetail(); ctx.onPick(ctx.opt);
@@ -281,7 +287,10 @@ class Component extends DCLogic {
         if (e.key === " " && this.isDrillOpen()) { if (!this.revealed) this.drillReveal(); else this.drillGrade(true); }
         else if (e.key === " " && this.deckShown && this._drillView === "home" && this._focusRow && this._miniReg && this._miniReg[this._focusRow]) { this._miniReg[this._focusRow].reveal(); }
         else this.setPaused(!this.paused);
-      } else if (!typing && /^[1-4]$/.test(e.key) && this._mc && this.deckShown) {
+      } else if (!typing && /^[a-dA-D]$/.test(e.key) && this._mc && this._mc.answer && "abcd".indexOf(e.key.toLowerCase()) < (this._mc.n || 0)) {
+        e.preventDefault(); // A/B/C/D answer whichever MC block is live — digits stay the option-card openers
+        this._mc.answer("abcd".indexOf(e.key.toLowerCase()));
+      } else if (!typing && /^[1-4]$/.test(e.key) && this._mc && this._mc.surface === "deck" && this.deckShown) {
         e.preventDefault();
         const mbtns = this.drillListRef.current ? this.drillListRef.current.querySelectorAll("[data-mc-opt]") : [];
         const mb = mbtns[parseInt(e.key) - 1]; if (mb) mb.click();
@@ -936,6 +945,8 @@ class Component extends DCLogic {
     this.applyDeckVisibility(); // hidden by default; tab invites the user to open it
   }
 
+  // The ONLY way the pane opens or closes is a user action routed through here (or through the
+  // direct-assign study entry points). Nothing in the roll loop may call it — see PANE LAW below.
   setDeckOpen(open) {
     if (open && !this.deckOpen) this.track("neural_drill_opened", { deck_key: this._posKey || null });
     if (!open) {
@@ -948,7 +959,17 @@ class Component extends DCLogic {
   }
   applyDeckVisibility() {
     const open = this.deckReady && this.deckOpen;
+    const wasShown = this.deckShown;
     this.deckShown = open;
+    // ── PANE LAW ── the pane showing STOPS the game; hiding it resumes ONLY if the pane is what
+    // stopped it (a hand-paused roll stays paused when you close it). Same latch shape as
+    // _explorerAutoPaused / _dossierAutoPaused. Latched here, not in setDeckOpen, because
+    // several study entry points (openMenu, openHomeToLatest, checkpoint) assign deckOpen directly.
+    if (open && !wasShown) {
+      if (!this.paused) { this.setPaused(true); this._deckAutoPaused = true; this.fx("pane_paused", {}); }
+    } else if (!open && wasShown && this._deckAutoPaused) {
+      this._deckAutoPaused = false; this.setPaused(false); this.fx("pane_resumed", {});
+    }
     const hint = this.optionHintRef.current;
     if (hint && open) { hint.style.opacity = "0"; hint.style.pointerEvents = "none"; }   // hide the scroll hint immediately when the sidebar opens
     const panel = this.drillRef.current;
@@ -1004,10 +1025,18 @@ class Component extends DCLogic {
     this.cardsAnswered = (this.cardsAnswered || 0) + 1;
     if (this.cardsAnswered >= 2) this.maybeShowSaveHint("cards");
   }
+  // PANE LAW: never force the pane open. Nudge the collapsed tab once and toast; the save CTA
+  // still renders inside the pane whenever the user opens it by hand (_menuNudge).
   maybeShowSaveHint(reason) {
     if (this.saveDismissed || this.saveShown) return;
     this.saveShown = true; this._menuNudge = true;
-    this.openMenu();
+    this.fx("save_hint", { reason: reason });
+    const tab = this.drillTabRef.current;
+    if (tab && !this.deckShown) {
+      tab.style.animation = "ngNudge .45s ease-in-out 3";
+      this.after(1.5, () => { if (tab) tab.style.animation = "ngTabPulse 2.4s ease infinite"; });
+    }
+    this.setEvent("Save your progress", "Open flashcards to keep it", "muted");
   }
   toggleMenu() {
     if (this.deckShown) { this.setDeckOpen(false); return; }
@@ -1088,7 +1117,7 @@ class Component extends DCLogic {
   _dayKey(d) { const x = d || new Date(); return x.getFullYear() + "-" + String(x.getMonth() + 1).padStart(2, "0") + "-" + String(x.getDate()).padStart(2, "0"); }
   _loadProgress() {
     this._progressLoaded = true; // ingest ran (any path) — unmount flush is now safe (Q001)
-    this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {};
+    this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {}; this.tut = { done: {} };
     try {
       const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
       const p = JSON.parse(raw); if (!p || (p.v !== 1 && p.v !== 2)) return;
@@ -1103,6 +1132,9 @@ class Component extends DCLogic {
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
+      this.tut = { done: Object.assign({}, (p.tut || {}).done || {}) };
+      // a user who already met the old 3-beat coach starts the drip past those three steps
+      if (!p.tut) { try { if (localStorage.getItem("bjj-neural-coached")) { this.tut.done.coach1 = 1; this.tut.done.coach2 = 1; this.tut.done.coach3 = 1; } } catch (e) {} }
       this.cardsToday = this._days[this._dayKey()] || 0;
     } catch (e) { /* corrupt/absent — start fresh */ }
   }
@@ -1111,7 +1143,7 @@ class Component extends DCLogic {
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -1495,6 +1527,8 @@ class Component extends DCLogic {
     const n = opt.node;
     const panel = this.optDetailRef.current; if (!panel) { onPick(opt); return; }
     this.setPaused(true);           // freeze time while the player reads/confirms
+    this.fx("sheet_opened", { technique: (opt && opt.node && opt.node.t) || null });
+    if (this._landEl) { this._landEl.style.opacity = "0"; this._landEl.style.pointerEvents = "none"; } // the sheet owns the screen while it is up
     const col = this.hex(n.col), cat = this.deckCat(n);
     const pct = Math.round(this.moveChance(n) * 100);
     const oddsCol = pct >= 60 ? "#7ee0a8" : pct >= 38 ? "#cbd24e" : "#e8956b";
@@ -1789,6 +1823,7 @@ class Component extends DCLogic {
     this.lastInteract = this.now;
   }
   hideOptDetail() {
+    if (this._landEl) { this._landEl.style.opacity = ""; this._landEl.style.pointerEvents = ""; } // the landing card comes back when the sheet leaves
     const panel = this.optDetailRef.current;
     if (panel) { panel.style.transition = "opacity .2s ease, transform .26s ease"; panel.style.transform = "translateY(16px)"; panel.style.opacity = "0"; panel.style.pointerEvents = "none"; panel.onwheel = null; setTimeout(() => { if (panel.style.opacity === "0") panel.style.transform = "none"; }, 280); }
     if (this._detailSrc) { this._detailSrc.style.opacity = ""; this._detailSrc = null; }
@@ -2000,8 +2035,8 @@ class Component extends DCLogic {
       inp.addEventListener("change", () => { this.set("dailyGoal", Math.max(5, Math.min(200, parseInt(inp.value) || 30))); inp.value = this.get("dailyGoal", 30); });
       g.appendChild(inp); body.appendChild(g);
       // study order
-      body.appendChild(this.settingRow("Answer mode", "Fresh cards quiz as multiple-choice, then graduate to recall \u2014 mastery always requires recall",
-        [["Auto", "auto"], ["Multiple choice", "mc"], ["Classic recall", "classic"]], "mcMode", "auto"));
+      body.appendChild(this.settingRow("Answer mode", "How cards read back HERE. Questions asked in-roll are always multiple choice \u2014 this sidebar is the study surface, so it reads back as recall unless you say otherwise.",
+        [["Classic recall", "classic"], ["Auto", "auto"], ["Multiple choice", "mc"]], "mcMode", "classic"));
       body.appendChild(this.settingRow("Study order", "Which cards to surface first",
         [["Weakest spots", "weakest"], ["Newest", "new"], ["Due first", "due"]], "studyOrder", "weakest"));
       // focus
@@ -2048,6 +2083,31 @@ class Component extends DCLogic {
       ticks.innerHTML = "<span>Brisk</span><span>Default</span><span>Relaxed</span>";
       dt.appendChild(ticks);
       body.appendChild(dt);
+      // landing questions — the in-roll quiz beat
+      const lq = document.createElement("div");
+      lq.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
+      lq.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Questions while you roll</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Every state you land on asks one multiple-choice question (keys <b style="color:#c3cde0;">A–D</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only.</div></div>';
+      const lqb = document.createElement("button");
+      const lqOn = this.get("landQuestions", true);
+      lqb.innerHTML = lqOn ? "✓" : "";
+      lqb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (lqOn ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (lqOn ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
+      lqb.addEventListener("click", () => { this.set("landQuestions", !this.get("landQuestions", true)); this.renderSettings(); });
+      lq.appendChild(lqb); body.appendChild(lq);
+      // tutorial drip
+      const tu = document.createElement("div");
+      tu.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;";
+      const tn = this.tutDoneCount(), tof = this.TUTORIAL.length;
+      tu.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Tutorial</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">' + tn + ' of ' + tof + ' steps done — each one is completed by doing it, not by reading it.</div></div>';
+      const tb = document.createElement("button");
+      tb.setAttribute("data-tut-restart", "1");
+      tb.textContent = (this.tutHidden && tn < tof) ? "Show it" : (tn >= tof ? "Run it again" : "Restart");
+      tb.style.cssText = "flex:none;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:700;padding:9px 14px;border-radius:9px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#dbe2f0;";
+      tb.addEventListener("click", () => {
+        if (this.tutHidden && tn < tof) { this.tutHidden = false; this.renderTutorial(); }
+        else this.restartTutorial();
+        this.renderSettings();
+      });
+      tu.appendChild(tb); body.appendChild(tu);
       // option ordering
       body.appendChild(this.settingRow("Sound", "Synthesized feedback on every gameplay beat",
         [["On", "on"], ["Off", "off"]], "sound", "on"));
@@ -2062,6 +2122,7 @@ class Component extends DCLogic {
     } else {
       const rows = [
         ["Play / pause roll", ["Space", "P"]],
+        ["Answer a multiple-choice question", ["A", "B", "C", "D"]],
         ["Open card detail", ["1\u20139"]],
         ["Execute technique", ["\u23ce", "X"]],
         ["Flashcards: prev / next card", ["\u2190", "\u2192"]],
@@ -2069,7 +2130,7 @@ class Component extends DCLogic {
         ["Flashcards: flip / got it", ["Space"]],
         ["Flashcards: review again", ["\u2191"]],
         ["Open / search explorer", ["/", "\u2318K"]],
-        ["Close detail / explorer", ["Esc"]],
+        ["Close detail / explorer / flashcards", ["Esc"]],
         ["Pan the graph", ["Drag"]],
         ["Zoom the graph", ["Scroll"]],
       ];
@@ -2463,17 +2524,119 @@ class Component extends DCLogic {
     }
     this.renderExplorer();
   }
+  // ── DEGREES: ONE SCORE FOR THE WHOLE GAME ──
+  // Every technique carries a WEIGHT — how often a roll actually passes through it, read off the
+  // graph's stationary distribution at build time (see build_technique_weights). Your standing is
+  // the frequency-weighted average of how well you know them:
+  //
+  //     score = Σ (weight_i × mastery_i),   Σ weight_i = 1
+  //
+  // Know nothing → 0. Prove the entire game by recall → 1. Belts are thresholds on that one
+  // number. Nothing is cut: a rare technique still counts, just proportionally to how rare it is
+  // (the old "drop the tail 20%" canon was arbitrary — attempt_probability is normalised per
+  // position, so any mass cutoff is meaningless).
+  //
+  // Per-deck mastery is min(stage,3)/3 averaged over its cards, so a multiple-choice answer is
+  // worth 2/3 of a card and recognition alone tops out at 0.67 — enough for purple, never enough
+  // for brown or black. Recall is the only route past 0.7, by construction, which is exactly the
+  // "white belts recognise, black belts recall" rule.
+  get BELT_SCORE() { return [["white", 0.2], ["blue", 0.4], ["purple", 0.6], ["brown", 0.7], ["black", 0.8]]; }
+  deckMastery(key) {
+    const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
+    if (!d || !d.cards || !d.cards.length) return 0;
+    let s = 0;
+    for (const c of d.cards) s += Math.min(3, this.cardStage(key, c.q)) / 3;
+    return s / d.cards.length;
+  }
+  gameScore() {
+    const ver = this._stageVer || 0;
+    if (this._scoreCache && this._scoreCache.v === ver) return this._scoreCache.out; // ~21k card reads — memoised per stage change
+    const w = (this.curriculum && this.curriculum.weights) || null;
+    const B = this.BELT_SCORE;
+    let score = 0;
+    if (w) {
+      let total = 0;
+      for (const k in w) { total += w[k]; score += w[k] * this.deckMastery(k); }
+      score = total ? score / total : 0;
+    }
+    let earned = -1;
+    for (let i = 0; i < B.length; i++) if (score >= B[i][1]) earned = i;
+    const lo = earned < 0 ? 0 : B[earned][1];
+    const hi = earned + 1 < B.length ? B[earned + 1][1] : 1;
+    const out = {
+      score: score,
+      belt: earned < 0 ? null : B[earned][0],
+      next: earned + 1 < B.length ? B[earned + 1][0] : null,
+      stripes: hi > lo ? Math.max(0, Math.min(4, Math.floor(((score - lo) / (hi - lo)) * 4))) : 4,
+    };
+    this._scoreCache = { v: ver, out: out };
+    return out;
+  }
+  // per-row display: how far through THIS belt's band you are. Belts you've passed show four.
+  beltProof(belt) {
+    const g = this.gameScore();
+    const B = this.BELT_SCORE;
+    let i = -1;
+    for (let k = 0; k < B.length; k++) if (B[k][0] === belt.id) i = k;
+    if (i < 0) return { stripes: 0, score: g.score, target: 1 };
+    const lo = i === 0 ? 0 : B[i - 1][1], hi = B[i][1];
+    const stripes = g.score >= hi ? 4 : Math.max(0, Math.min(4, Math.floor(((g.score - lo) / (hi - lo)) * 4)));
+    return { stripes: stripes, score: g.score, target: hi };
+  }
+  stripeHTML(n) {
+    let s = '<span data-stripes="' + n + '" style="display:inline-flex;gap:2px;margin-left:8px;align-items:center;">';
+    for (let i = 0; i < 4; i++) s += '<span style="width:3px;height:11px;border-radius:1px;background:' + (i < n ? "#eef1f6" : "rgba(150,170,210,.2)") + ';"></span>';
+    return s + "</span>";
+  }
   renderBeltPath(list, mk) {
     this._pathDim = true;
     if (!this._pathBeatFired) { this._pathBeatFired = true; this.fx("path_opened", { belts: this.curriculum.belts.length }); }
     const belts = this.curriculum.belts;
+    // one number for the whole game, above everything: Σ(frequency × mastery)
+    {
+      const g = this.gameScore();
+      const pct = (g.score * 100).toFixed(1);
+      const nextAt = g.next ? (this.BELT_SCORE.find((b) => b[0] === g.next) || [null, 1])[1] : 1;
+      const sRow = mk(
+        '<span style="font-size:11px;letter-spacing:.13em;text-transform:uppercase;font-weight:800;color:#7e8aa3;">Game knowledge</span>' +
+        '<span data-game-score="' + g.score.toFixed(4) + '" style="margin-left:auto;font-size:13.5px;font-weight:800;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;">' + pct + '%</span>',
+        12);
+      sRow.setAttribute("data-score-row", "1");
+      list.appendChild(sRow);
+      const sub = mk('<span style="font-size:10.5px;color:#7e8aa3;line-height:1.35;">' +
+        (g.belt ? this.BELT_SCORE.find((b) => b[0] === g.belt)[0].replace(/^./, (c) => c.toUpperCase()) + " standard met" : "Working toward white") +
+        (g.next ? " · " + Math.round(nextAt * 100) + "% for " + g.next : " · the whole game proven") +
+        '</span>', 30);
+      list.appendChild(sub);
+    }
+    // the tutorial rides at the head of the path: learning the UI is the first thing a white
+    // belt does, so it gets a row and a progress count like everything else on the ladder
+    {
+      const tn = this.tutDoneCount(), tof = this.TUTORIAL.length, cur = this.tutCurrent();
+      const tRow = mk(
+        '<span style="width:14px;height:14px;border-radius:4px;background:#7ee0a8;box-shadow:0 0 10px #7ee0a855;flex:none;"></span>' +
+        '<span style="font-size:13.5px;font-weight:800;color:#eef1f6;">Tutorial</span>' +
+        '<span style="margin-left:auto;font-size:10.5px;color:' + (cur ? "#7e8aa3" : "#7ee0a8") + ';">' + (cur ? tn + "/" + tof + " steps" : "complete ★") + '</span>',
+        12);
+      tRow.setAttribute("data-tut-row", "1");
+      list.appendChild(tRow);
+      if (cur) {
+        const next = mk('<span style="font-size:11.5px;color:#9ab0e0;line-height:1.35;">' + cur.copy + '</span>', 30);
+        next.setAttribute("data-tut-next", cur.id);
+        list.appendChild(next);
+      }
+    }
     for (let bi = 0; bi < belts.length; bi++) {
       const b = belts[bi];
       const unlocked = this.beltUnlocked(bi);
       const done = b.units.filter((u) => this.unitComplete(b.id, u)).length;
+      const proof = this.beltProof(b);
+      this._stripeSeen = this._stripeSeen || {};
+      if (proof.stripes > (this._stripeSeen[b.id] || 0)) { this._stripeSeen[b.id] = proof.stripes; this.fx("stripe_earned", { belt: b.id, stripes: proof.stripes, pct: Math.round(proof.pct * 100) }); }
       const bRow = mk(
         '<span style="width:14px;height:14px;border-radius:4px;background:' + b.color + ';box-shadow:0 0 10px ' + b.color + '55;flex:none;"></span>' +
         '<span style="font-size:13.5px;font-weight:800;color:#eef1f6;">' + b.name + '</span>' +
+        this.stripeHTML(proof.stripes) +
         (unlocked
           ? '<span style="margin-left:auto;font-size:10.5px;color:#7e8aa3;">' + done + "/" + b.units.length + ' units</span>'
           : '<span style="margin-left:auto;font-size:9.5px;color:#7e8aa3;">Win the ' + belts[bi - 1].name + ' test to unlock</span>'),
@@ -2673,9 +2836,10 @@ class Component extends DCLogic {
   closeDeckIfStudying() {
     // close the right sidebar when clicking the graph, but only when it's an opened study panel
     // (not the live in-roll drill that should stay docked during a decision)
-    if (this.deckOpen && this.sbOffset() === 0) { this.setDeckOpen(false); this._session = null; this._sessionNodes = null; this._inSession = false; return; }  // mobile: tapping the exposed 20% graph strip always dismisses
-    if (this.deckOpen && (this._inSession || this._session)) { this.setDeckOpen(false); this._session = null; this._sessionNodes = null; this._inSession = false; }
-    else if (this.deckOpen && !this.optionIdxs.length && !this.pulse) { this.setDeckOpen(false); }
+    // PANE LAW: on desktop a graph click NEVER closes the pane — the tab, the ✕ and Esc do.
+    // Mobile keeps exactly one dismissal: the pane covers the screen there, so tapping the
+    // exposed 20% graph strip is the only way back out.
+    if (this.deckOpen && this.sbOffset() === 0) { this.setDeckOpen(false); this._session = null; this._sessionNodes = null; this._inSession = false; }
   }
   renderExplorer() {
     const list = this.explorerListRef.current; if (!list) return;
@@ -3273,6 +3437,7 @@ class Component extends DCLogic {
     const qh = this.qhash(q);
     const s = (this.stage[key] = this.stage[key] || {});
     s[qh] = Math.max(0, Math.min(cap == null ? 4 : cap, (s[qh] || 0) + d));
+    this._stageVer = (this._stageVer || 0) + 1; // invalidates the gameScore memo
     this._saveProgress();
     return s[qh];
   }
@@ -3293,8 +3458,11 @@ class Component extends DCLogic {
   }
   // distractor pooling: authored graded tiers first, then same deck → graph neighbors →
   // same category. Deterministic via rng("mc-pick")/rng("mc-shuffle"). <2 survivors → null.
-  mcDistractors(card, deckKey, n) {
+  // `tag` scopes the RNG so one surface can never eat another's rigged queue: the landing card
+  // draws on "land-mc-*", leaving "mc-*" to the sidebar/checkpoint exactly as journeys rig it.
+  mcDistractors(card, deckKey, n, tag) {
     n = n || 3;
+    const tPick = tag ? tag + "-mc-pick" : "mc-pick", tShuf = tag ? tag + "-mc-shuffle" : "mc-shuffle";
     const correct = card.a;
     if (!correct) return null;
     const picked = [], tiers = [];
@@ -3316,7 +3484,7 @@ class Component extends DCLogic {
     const deck = decks[deckKey];
     if (deck) {
       const order = deck.cards.filter((c) => c.q !== card.q);
-      while (picked.length < n && order.length) tryAdd(order.splice((this.rng("mc-pick") * order.length) | 0, 1)[0].a, "pool", true);
+      while (picked.length < n && order.length) tryAdd(order.splice((this.rng(tPick) * order.length) | 0, 1)[0].a, "pool", true);
     }
     if (picked.length < n) {                                  // graph-neighbor decks
       const idx = this.nodeForKey(deckKey);
@@ -3324,7 +3492,7 @@ class Component extends DCLogic {
         for (const k of this.adj[idx]) {
           if (picked.length >= n) break;
           const nd = decks[this.deckKeyFor(this.nodes[k]).key];
-          if (nd && nd.cards.length) tryAdd(nd.cards[(this.rng("mc-pick") * nd.cards.length) | 0].a, "pool", true);
+          if (nd && nd.cards.length) tryAdd(nd.cards[(this.rng(tPick) * nd.cards.length) | 0].a, "pool", true);
         }
       }
     }
@@ -3332,33 +3500,41 @@ class Component extends DCLogic {
       const keys = Object.keys(decks);
       let guard = 0;
       while (picked.length < n && guard++ < 60) {
-        const k = keys[(this.rng("mc-pick") * keys.length) | 0];
+        const k = keys[(this.rng(tPick) * keys.length) | 0];
         const dd = decks[k];
-        if (dd && dd.cards.length && k !== deckKey) tryAdd(dd.cards[(this.rng("mc-pick") * dd.cards.length) | 0].a, "pool", true);
+        if (dd && dd.cards.length && k !== deckKey) tryAdd(dd.cards[(this.rng(tPick) * dd.cards.length) | 0].a, "pool", true);
       }
     }
     if (picked.length < 2) return null;
     const opts = [{ text: correct, tier: "correct" }].concat(picked.map((t, i) => ({ text: t, tier: tiers[i] })));
     for (let i = opts.length - 1; i > 0; i--) {               // deterministic shuffle
-      const j = (this.rng("mc-shuffle") * (i + 1)) | 0;
+      const j = (this.rng(tShuf) * (i + 1)) | 0;
       const tmp = opts[i]; opts[i] = opts[j]; opts[j] = tmp;
     }
     return { options: opts, correctIdx: opts.findIndex((o) => o.tier === "correct") };
   }
+  // MC is the IN-PLAY format (the landing card asks it under a clock); the right pane is the
+  // study surface and reads back as classic Q&A unless the user opts in. Hence the default flip
+  // auto -> classic: nobody meets multiple choice in the sidebar by accident.
   mcActive(key, card) {
     if (this._checkpoint) return true;                        // the quiz is always MC
-    const mode = this.get("mcMode", "auto");
+    const mode = this.get("mcMode", "classic");
     if (mode === "classic") return false;
     if (mode === "mc") return true;
     return this.cardStage(key, card.q) < 2;                   // auto: MC until graduated
   }
-  // the shared MC renderer. Truth (correct index, tier map) lives ONLY on this._mc — never
-  // in a DOM attribute (cheat vector). Never calls setBeacon (one-beacon law).
-  _mcBlock(card, key, onDone) {
-    const mc = this.mcDistractors(card, key);
-    if (!mc) { this._mc = null; return null; }
+  get MC_KEYS() { return ["A", "B", "C", "D", "E"]; }
+  // the shared MC renderer. Truth (correct index, tier map) lives ONLY in this closure +
+  // this._mc — never in a DOM attribute (cheat vector). Never calls setBeacon (one-beacon law).
+  // `surface` names the block ("land" | "deck" | "checkpoint") so two live blocks can't read
+  // each other's truth: the landing question and an open sidebar card coexist.
+  _mcBlock(card, key, onDone, surface) {
+    const mc = this.mcDistractors(card, key, 3, surface === "land" ? "land" : null);
+    // a surface that cannot build options must not disarm another surface's live block
+    if (!mc) { if (!this._mc || this._mc.surface === (surface || "deck")) this._mc = null; return null; }
     const qh = this.qhash(card.q);
-    this._mc = { key: key, qhash: qh, correct: mc.correctIdx, tiers: mc.options.map((o) => o.tier) };
+    const truth = { key: key, qhash: qh, correct: mc.correctIdx, tiers: mc.options.map((o) => o.tier), n: mc.options.length, surface: surface || "deck" };
+    this._mc = truth;                                         // the keyboard drives the newest block
     const wrap = document.createElement("div");
     wrap.setAttribute("role", "radiogroup");
     wrap.setAttribute("aria-label", "Answer options");
@@ -3368,25 +3544,31 @@ class Component extends DCLogic {
     live.style.cssText = "position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);";
     wrap.appendChild(live);
     const oneLine = (mc.options[mc.correctIdx] && mc.options[mc.correctIdx].text.length <= this.MC_LINE);
+    // Each surface gets its OWN option handle. The landing card and an open sidebar card are on
+    // screen at the same time, so a bare [data-mc-opt] selector would silently match both — the
+    // split keeps every "the sidebar shows N options" assertion meaning what it says.
+    const OPT = truth.surface === "land" ? "data-land-mc-opt" : "data-mc-opt";
     let answered = false;
+    const answer = (i) => { if (answered) return; answered = true; this._mcAnswer(i, card, key, wrap, live, onDone, truth); };
+    truth.answer = answer;                                    // the A/B/C/D keyboard seam
     mc.options.forEach((o, i) => {
       const b = document.createElement("button");
-      b.setAttribute("data-mc-opt", String(i));
+      b.setAttribute(OPT, String(i));
       b.setAttribute("role", "radio");
       b.setAttribute("aria-checked", "false");
       b.style.cssText = "cursor:pointer;font-family:inherit;text-align:left;font-size:12px;line-height:1.45;padding:9px 11px;border-radius:9px;border:1px solid rgba(150,170,210,.22);background:rgba(255,255,255,.03);color:#c8d2e4;transition:border-color .15s,background .15s;" + (oneLine ? "white-space:nowrap;overflow:hidden;text-overflow:ellipsis;" : "");
-      b.innerHTML = '<b style="color:#8094b4;font-weight:800;margin-right:7px;">' + (i + 1) + '</b>' + o.text;
-      b.addEventListener("click", () => { if (!answered) { answered = true; this._mcAnswer(i, card, key, wrap, live, onDone); } });
+      b.innerHTML = '<b style="color:#8094b4;font-weight:800;margin-right:7px;">' + (this.MC_KEYS[i] || i + 1) + '</b>' + o.text;
+      b.addEventListener("click", () => answer(i));
       wrap.appendChild(b);
     });
-    this.fx("mc_shown", { deckKey: key, qhash: qh, opts: mc.options.length });
+    this.fx("mc_shown", { deckKey: key, qhash: qh, opts: mc.options.length, surface: truth.surface });
     return wrap;
   }
-  _mcAnswer(i, card, key, wrap, live, onDone) {
-    const mc = this._mc; if (!mc) return;
+  _mcAnswer(i, card, key, wrap, live, onDone, truth) {
+    const mc = truth || this._mc; if (!mc) return;
     const correct = i === mc.correct;
     const tier = mc.tiers[i];
-    const btns = wrap.querySelectorAll("[data-mc-opt]");
+    const btns = wrap.querySelectorAll("[data-mc-opt],[data-land-mc-opt]");
     btns.forEach((b) => { b.style.cursor = "default"; b.setAttribute("aria-disabled", "true"); });
     const cbtn = btns[mc.correct];
     if (cbtn) {
@@ -3403,12 +3585,14 @@ class Component extends DCLogic {
       this.fx("mc_correct", { deckKey: key, qhash: mc.qhash, stage: stage });
       live.textContent = "Correct.";
       cbtn.style.animation = "ngCardIn .3s ease";
-      if (!this.isTest() && !this._checkpoint) {
+      // only the sidebar deck auto-advances to the next card; the landing question is a
+      // one-shot beat inside the roll and must hand back to its own onDone.
+      if (!this.isTest() && !this._checkpoint && mc.surface === "deck") {
         if (this._mcAdvT) clearTimeout(this._mcAdvT);
         this._mcAdvT = setTimeout(() => { this._mcAdvT = null; if (this.deckShown && this._mc && this._mc.qhash === mc.qhash) { this.deckIdx++; this.revealed = false; this.renderDrill(); } }, 600);
         return;
       }
-      if (onDone) onDone(true);
+      if (onDone) onDone(true, "correct");
     } else {
       const btier = tier === "plausible" || tier === "trap" ? tier : "wrong";
       btns[i].setAttribute("data-mc-result", btier);
@@ -3421,7 +3605,7 @@ class Component extends DCLogic {
         : btier === "trap"
           ? "That one gets you in trouble \u2014 the correct answer is highlighted."
           : "Not this one \u2014 the correct answer is highlighted.";
-      if (onDone) onDone(false);
+      if (onDone) onDone(false, btier);
     }
   }
   // rails: re-present a specific card of the open deck by its qhash (journeys + weakest-link)
@@ -3446,7 +3630,7 @@ class Component extends DCLogic {
         // rec = DISTINCT cards proven by recall (stage>=3): count each card ONCE, the first
         // time it crosses. Re-grading a mastered card no longer inflates the deck's mastered
         // status; MC caps stage at 2, so only recall can mint rec.
-        if (!wasProven && this.cardStage(key, card.q) >= 3) this.rec[key] = (this.rec[key] || 0) + 1;
+        if (!wasProven && this.cardStage(key, card.q) >= 3) { this.rec[key] = (this.rec[key] || 0) + 1; this.fx("recall_proven", { deckKey: key }); }
         this.noteCardDone(card, key);
       }
       this.noteCardAnswered();
@@ -3750,7 +3934,7 @@ class Component extends DCLogic {
     const ac = this.accountRef.current;
     if (ac) { ac.style.opacity = "1"; ac.style.pointerEvents = "auto"; ac.style.transform = "none"; }
   }
-  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); }
+  clearOptions() { const el = this.optionsRef.current; if (el) { el.innerHTML = ""; el.style.pointerEvents = "none"; el.style.opacity = "1"; el.style.transform = "none"; el.style.overflowX = "auto"; el.style.overflowY = "hidden"; el.style.webkitMaskImage = ""; el.style.maskImage = ""; el.style.justifyContent = "safe center"; el.style.paddingLeft = ""; el.style.paddingRight = ""; el.scrollLeft = 0; } this._detailCtx = null; this.hideOptDetail(); this.clearLandCard(); this.optionIdxs = []; this._optionCards = []; this._optHintAt = 0; this.setBeacon(null); }
   tweenScroll(el, delta) {
     if (this._scrollRaf) cancelAnimationFrame(this._scrollRaf);
     const from = el.scrollLeft;
@@ -3818,7 +4002,7 @@ class Component extends DCLogic {
     this.track("neural_roll_ended", { outcome: kind, moves: this.moveCount || 0 });
     if (kind !== "reset" && this.anim("slowMoFinish", true)) this._slowmo = this.now;
     this._lastOutcome = kind;
-    this.deckReady = false;
+    // PANE LAW: a round ending does NOT hide the pane (deckReady stays a data-readiness flag).
     this.applyDeckVisibility();
     if (this.adv) this.adv.shown = false;
     this.pulse = null; this.optionIdxs = [];
@@ -3931,6 +4115,147 @@ class Component extends DCLogic {
     }
   }
 
+  // ═══ P1b: QUESTION-FIRST LANDING ═══
+  // The flashcard stopped being a place you go. It is what the game asks the moment you arrive:
+  // what this state is, where you came from, which side you're playing, one film clip, and ONE
+  // question — then your options. A right answer pays through the ordinary credit path (mastery
+  // + sharpness already move the odds; no second bonus stacked on top) and buys clock. A wrong
+  // answer costs THIS exchange's odds and is forgotten on the next arrival. Everything else the
+  // page knows — decision trees, principles, mistakes — stays behind "More".
+
+  // the one card this state still owes you: its first unproven (stage < 2) card. A proven deck
+  // asks nothing, and the card degrades to identity + film.
+  questionFor(key) {
+    const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
+    if (!d || !d.cards || !d.cards.length) return null;
+    for (const c of d.cards) if (this.cardStage(key, c.q) < 2) return c;
+    return null;
+  }
+  // ○ new to you · ◐ met some · ● recall-proven — the "have you done this" marker
+  seenGlyph(key) {
+    const d = (this.flashcards && this.flashcards.decks) ? this.flashcards.decks[key] : null;
+    const cards = (d && d.cards) || [];
+    if (!cards.length) return ["○", "#7e8aa3", "no cards authored yet"];
+    let proven = 0, met = 0;
+    for (const c of cards) { const s = this.cardStage(key, c.q); if (s >= 3) proven++; if (s >= 1) met++; }
+    if (proven >= cards.length) return ["●", "#7ee0a8", "recall-proven"];
+    if (met) return ["◐", "#cbd24e", met + " of " + cards.length + " met"];
+    return ["○", "#7e8aa3", "new to you"];
+  }
+  ngContentFor(node) {
+    const C = (window.NG_CONTENT && window.NG_CONTENT.decks) || {};
+    return (node.ty === "positions" ? C[this.deckKeyFor(node).key] : C[node.t]) || null;
+  }
+  clearLandCard() {
+    this._landQ = null;
+    if (this._landEl) { try { this._landEl.remove(); } catch (e) {} this._landEl = null; }
+  }
+  // mode: "land" (a position — your options are dealt below) | "attempt" (a technique in flight —
+  // the tension sweep is waiting on this answer). hooks: {onAnswer(correct), onSkip()}.
+  renderLandCard(node, mode, hooks) {
+    this.clearLandCard();
+    if (this._coach) return null;                      // the guided coach owns the first landing
+    if (!this.get("landQuestions", true)) return null;
+    const key = this.deckKeyFor(node).key;
+    const card = this.questionFor(key);
+    const info = this.ngContentFor(node);
+    const sp = this.splitName(node.t);
+    const glyph = this.seenGlyph(key);
+    const log = this.rollLog || [];
+    const prev = log[log.length - 2];
+    const roleTxt = node.ty === "positions" ? this.roleLabel() : "Attacking";
+
+    const el = document.createElement("div");
+    el.className = "ng-landcard";
+    el.setAttribute("data-landcard", mode || "land");
+    (this.__ngRoot || document.body).appendChild(el);
+    this._landEl = el;
+
+    // 1 — identity: what it is · where you came from · which side you're playing · seen-before
+    const head = document.createElement("div");
+    head.setAttribute("data-land-id", "1");
+    head.style.cssText = "display:flex;align-items:flex-start;gap:9px;";
+    head.innerHTML =
+      '<span title="' + glyph[2] + '" style="flex:none;font-size:13px;line-height:1.35;color:' + glyph[1] + ';">' + glyph[0] + '</span>' +
+      '<div style="flex:1;min-width:0;">' +
+        '<div style="font-size:14.5px;font-weight:700;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1.2;">' + sp.main + '</div>' +
+        '<div style="font-size:10.5px;color:#8094b4;margin-top:3px;line-height:1.3;">' +
+          '<b style="color:#9ab0e0;font-weight:700;">' + roleTxt + '</b>' +
+          (prev ? ' &middot; from ' + prev.name : '') +
+          (sp.from ? ' &middot; ' + sp.from : '') +
+        '</div>' +
+      '</div>';
+    el.appendChild(head);
+
+    // 2 — the one-phrase definition, in the page's own words (absent until the dossier payload lands)
+    if (info && info.def) {
+      const d = document.createElement("div");
+      d.setAttribute("data-land-def", "1");
+      d.style.cssText = "font-size:11.5px;line-height:1.45;color:#aeb9d4;margin-top:7px;";
+      d.textContent = this.mcClip(info.def) || String(info.def).slice(0, 160);
+      el.appendChild(d);
+    }
+
+    // 3 — film, before the question
+    if (info && info.clips && info.clips.length) {
+      const film = document.createElement("div");
+      film.setAttribute("data-land-film", "1");
+      film.style.cssText = "margin-top:8px;";
+      film.innerHTML = this.filmStudyHTML(info.clips);
+      el.appendChild(film);
+      this.wireClips(film, info.clips);
+    }
+
+    // 4 — ONE question, always multiple choice: this is the in-play format (the sidebar is
+    // where the same cards read back as classic recall)
+    if (card) {
+      const qw = document.createElement("div");
+      qw.setAttribute("data-land-q", "1");
+      qw.style.cssText = "margin-top:10px;padding-top:10px;border-top:1px solid rgba(150,170,210,.14);";
+      const qt = document.createElement("div");
+      qt.style.cssText = "font-size:12.5px;font-weight:600;color:#dbe2f0;line-height:1.35;margin-bottom:8px;";
+      qt.textContent = card.q;
+      qw.appendChild(qt);
+      const block = this._mcBlock(card, key, (correct, tier) => this._landAnswered(correct, tier, mode, hooks), "land");
+      if (block) {
+        qw.appendChild(block);
+        el.appendChild(qw);
+        this._landQ = { key: key, card: card, mode: mode || "land" };
+        this.fx("land_q_shown", { deckKey: key, mode: mode || "land" });
+      }
+    }
+
+    // 5 — everything else is behind one affordance
+    const foot = document.createElement("div");
+    foot.style.cssText = "display:flex;align-items:center;gap:12px;margin-top:9px;";
+    const more = document.createElement("button");
+    more.setAttribute("data-land-more", "1");
+    more.innerHTML = "More ▸";
+    more.style.cssText = "cursor:pointer;font-family:inherit;font-size:10px;font-weight:700;letter-spacing:.09em;text-transform:uppercase;color:#7e8aa3;background:none;border:none;padding:2px 0;";
+    more.addEventListener("click", () => this.openDossier(node.idx));
+    foot.appendChild(more);
+    el.appendChild(foot);
+    return el;
+  }
+  _landAnswered(correct, tier, mode, hooks) {
+    if (correct) {
+      const granted = this.refundDecision(2500);
+      this.setEvent("Correct", granted ? "Odds up · +2.5s on the clock" : "Odds up on this exchange", "good");
+    } else {
+      const cost = tier === "trap" ? 0.08 : 0.04;
+      this._qMod = (this._qMod || 0) - cost;
+      this.setEvent(tier === "trap" ? "That one gets you hurt" : "Not quite", "−" + Math.round(cost * 100) + "% on this exchange", "bad");
+    }
+    this.refreshOptionOdds();
+    this.fx("land_q_answered", { correct: !!correct, tier: tier || null, mode: mode || "land", qMod: this._qMod || 0 });
+    if (hooks && hooks.onAnswer) hooks.onAnswer(!!correct);
+  }
+  // NB there is deliberately NO second question at the technique node between commit and sweep.
+  // It was built and cut: gating the sweep on a 4s window added that delay to EVERY move, and the
+  // landing question already does the job the owner described — it moves the odds of the very
+  // transition or submission you are about to attempt. Peeking a move's sheet still offers the
+  // JIT micro-drill for anyone who wants to buy odds right before committing.
+
   // ═══ P2: one-beacon guidance + panic-drill defense + guided first roll ═══
 
   // Beat Beacon — the ONE glowing next-thing. Setting a new target strips the old one, so
@@ -4029,6 +4354,85 @@ class Component extends DCLogic {
     this.setBeacon("panic", card);
   }
 
+  // ── TUTORIAL: a 20-step drip, completed by DOING ──
+  // The 3-beat coach is steps 1–3 (its DOM, beats and latch are untouched). The other 17 are
+  // earned by performing them: each step names a beat, and the fx bus ticks it off the moment
+  // the player does the thing. Nothing is gated behind it — it is a map of the game, not a wall,
+  // and it reads as one row on the White Belt path so learning the UI and learning BJJ share
+  // one progress bar.
+  get TUTORIAL() {
+    return [
+      { id: "coach1", copy: "Read your hand — the cards below are every move you have here", m: (b) => b === "coach_1" },
+      { id: "coach2", copy: "Peek a move's sheet before you commit to it", m: (b) => b === "coach_2" },
+      { id: "coach3", copy: "Every state you land on asks you one question", m: (b) => b === "coach_3" },
+      { id: "answer", copy: "Answer a landing question correctly — press A, B, C or D", m: (b, p) => b === "land_q_answered" && !!p.correct },
+      { id: "sheet", copy: "Open a move's sheet to see what it wins you", m: (b) => b === "sheet_opened" },
+      { id: "commit", copy: "Execute a move", m: (b) => b === "commit" },
+      { id: "sweep", copy: "Watch the needle decide it", m: (b) => b === "sweep_land" },
+      { id: "win1", copy: "Win an exchange", m: (b) => b === "impact_success" },
+      { id: "refund", copy: "Buy yourself clock with a right answer", m: (b, p) => b === "timer_refund" && !!p.granted },
+      { id: "defend", copy: "Survive an attack", m: (b) => b === "defend_start" },
+      { id: "escape", copy: "Escape a submission", m: (b) => b === "escape" },
+      { id: "roll", copy: "See a roll through to the end", m: (b) => b === "roll_end" },
+      { id: "pane_open", copy: "Open your flashcards — the game stops while you study", m: (b) => b === "pane_paused" },
+      { id: "pane_close", copy: "Close them — the game picks up exactly where it left off", m: (b) => b === "pane_resumed" },
+      { id: "film", copy: "Watch a film-study Short", m: (b) => b === "short_watched" },
+      { id: "recall", copy: "Prove a card from memory instead of from a list", m: (b) => b === "recall_proven" },
+      { id: "roam", copy: "Click any node on the graph to roam there", m: (b) => b === "roll_staged" },
+      { id: "path", copy: "Open your Belt Path", m: (b) => b === "path_opened" },
+      { id: "lesson", copy: "Finish a lesson", m: (b) => b === "lesson_done" },
+      { id: "belt", copy: "Win your White Belt test", m: (b) => b === "belt_test_won" },
+    ];
+  }
+  tutDoneCount() { const d = (this.tut && this.tut.done) || {}; let n = 0; for (const s of this.TUTORIAL) if (d[s.id]) n++; return n; }
+  tutCurrent() { const d = (this.tut && this.tut.done) || {}; for (const s of this.TUTORIAL) if (!d[s.id]) return s; return null; }
+  noteTutorial(beat, props) {
+    if (!this.tut) this.tut = { done: {} };
+    const steps = this.TUTORIAL;
+    let hit = null;
+    // any step may be ticked in any order — doing something early still counts
+    for (const s of steps) { if (!this.tut.done[s.id] && s.m(beat, props || {})) { hit = s; break; } }
+    if (!hit) return;
+    this.tut.done[hit.id] = 1;
+    if (this._progressLoaded) this._saveProgress(); // never write a blob before ingest ran (Q001 rule)
+    const n = this.tutDoneCount();
+    this.fx("tut_step", { id: hit.id, done: n, of: steps.length });
+    if (n >= steps.length) this.fx("tutorial_done", {});
+    this.renderTutorial();
+  }
+  restartTutorial() {
+    this.tut = { done: {} };
+    this.tutHidden = false;
+    this._coachDone = false;
+    try { localStorage.removeItem("bjj-neural-coached"); } catch (e) {}
+    this._saveProgress();
+    this.renderTutorial();
+  }
+  renderTutorial() {
+    const cur = this.tutCurrent();
+    const drop = () => { if (this._tutEl) { try { this._tutEl.remove(); } catch (e) {} this._tutEl = null; } };
+    if (!cur || this.tutHidden || this._coach) { drop(); return; } // the coach card speaks for steps 1–3
+    let el = this._tutEl;
+    if (!el) {
+      el = document.createElement("div");
+      el.className = "ng-tut";
+      el.setAttribute("data-tut", "1");
+      (this.__ngRoot || document.body).appendChild(el);
+      this._tutEl = el;
+    }
+    const n = this.tutDoneCount(), of = this.TUTORIAL.length;
+    el.setAttribute("data-tut-step", cur.id);
+    el.innerHTML =
+      '<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px;">' +
+        '<span style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">Tutorial</span>' +
+        '<span data-tut-count style="font-size:9.5px;font-weight:800;color:#9ab0e0;font-family:\'Space Grotesk\',sans-serif;">' + n + '/' + of + '</span>' +
+        '<span style="flex:1;height:3px;border-radius:2px;background:rgba(150,170,210,.18);overflow:hidden;"><span style="display:block;height:100%;width:' + Math.round((n / of) * 100) + '%;background:#7ee0a8;"></span></span>' +
+        '<span data-tut-hide title="Hide (Settings can bring it back)" style="cursor:pointer;font-size:14px;line-height:1;color:#7e8aa3;">×</span>' +
+      '</div>' +
+      '<div data-tut-copy style="font-size:11.5px;line-height:1.4;color:#dbe2f0;">' + cur.copy + '</div>';
+    el.querySelector("[data-tut-hide]").addEventListener("click", () => { this.tutHidden = true; this.renderTutorial(); });
+  }
+
   // ── GUIDED FIRST ROLL: a 3-beat coach on the first-ever landing. The decision clock is
   // FROZEN (see _tickDecision) until coach_done — nobody reads new UI under a timer. ──
   maybeStartCoach() {
@@ -4058,6 +4462,9 @@ class Component extends DCLogic {
     try { localStorage.setItem("bjj-neural-coached", "1"); } catch (e) {}
     if (this._coachEl) { try { this._coachEl.remove(); } catch (e) {} this._coachEl = null; }
     this.fx("coach_done", {});
+    // the coach held the landing card back so the two never stack — hand over to it now
+    if (this.nodes && this.nodes[this.currentPos] && this.optionIdxs && this.optionIdxs.length) this.renderLandCard(this.nodes[this.currentPos], "land", null);
+    this.renderTutorial(); // the coach hands the drip its first visible step
   }
   renderCoach() {
     const COPY = [
@@ -4144,7 +4551,7 @@ class Component extends DCLogic {
   }
 
   // ---------- roll state machine ----------
-  rollFromPosition(nodeIdx) {
+  rollFromPosition(nodeIdx, staged) {
     // start a NEW roll seeded at a chosen position; the current roll is archived into Previous rolls
     this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
     let posIdx = nodeIdx;
@@ -4152,7 +4559,8 @@ class Component extends DCLogic {
       let p = -1; for (const k of this.adj[nodeIdx]) { if (this.nodes[k].ty === "positions") { p = k; break; } }
       posIdx = p >= 0 ? p : nodeIdx;
     }
-    if (this.rollLog && this.rollLog.length > 1) {
+    // a roll that never played is not a roll: restaging over it archives nothing (see _played)
+    if (this._played && this.rollLog && this.rollLog.length > 1) {
       this._pastRolls = this._pastRolls || [];
       this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now() });
       if (this._pastRolls.length > 40) this._pastRolls.pop();
@@ -4168,9 +4576,19 @@ class Component extends DCLogic {
     this.camFocus = { x: this.nodes[posIdx].x, y: this.nodes[posIdx].y };
     this.camTarget = { cx: this.nodes[posIdx].x, cy: this.nodes[posIdx].y, vw: this.graphW * 0.42 };
     this.prevPosVal = this.myVal(this.nodes[posIdx]);
-    this.hideCenter(); this.setPaused(false);
+    this._played = false;                        // nothing counts until it runs unpaused
+    this.hideCenter(); this.setPaused(!!staged); // staged: land here, but hold the clock
     this.flare(posIdx);
-    this.after(0.6, () => this.enterLand(true));
+    this.after(0.6, () => this.enterLand(true), true);
+  }
+  // ── ROAM & STAGE ── clicking any node takes you there and STAGES a roll: the camera flies,
+  // the state lands, the options deal — and the clock stays stopped. Click somewhere else and
+  // you restage the same non-session; it never played, so there is nothing to archive, no
+  // stake on the ladder, no counter moved. Press play and only then does the roll begin.
+  stageRollAt(nodeIdx) {
+    this.rollFromPosition(nodeIdx, true);
+    this._staged = this.currentPos;
+    this.fx("roll_staged", { position: this.nodes[this.currentPos] ? this.nodes[this.currentPos].t : null });
   }
   startRoll() {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
@@ -4178,7 +4596,8 @@ class Component extends DCLogic {
     this._cancelCheckpoint(); // and never a stale checkpoint quiz
     this.track("neural_roll_started", {});
     // archive the roll that just ended so the sidebar can show "Previous roll / Today / Yesterday"
-    if (this.rollLog && this.rollLog.length > 1) {
+    // — but only if it ever actually played (a staged roam is not a roll; see _played)
+    if (this._played && this.rollLog && this.rollLog.length > 1) {
       this._pastRolls = this._pastRolls || [];
       this._pastRolls.unshift({ log: this.rollLog.slice(), outcome: this._lastOutcome || "reset", ts: Date.now() });
       if (this._pastRolls.length > 40) this._pastRolls.pop();
@@ -4209,6 +4628,7 @@ class Component extends DCLogic {
     this.focusIdx = this.currentPos; this.pulse = null;
     this.camFocus = { x: this.nodes[this.currentPos].x, y: this.nodes[this.currentPos].y };
     this.prevPosVal = this.myVal(this.nodes[this.currentPos]);
+    this._played = false;
     this.flare(this.currentPos);
     this.after(1.3, () => this.enterLand(true));
   }
@@ -4234,6 +4654,7 @@ class Component extends DCLogic {
   }
   enterLand(first) {
     const pos = this.nodes[this.currentPos];
+    this._qMod = 0; // a new arrival forgives the last exchange's wrong answer
     this.fx("land", { position: pos ? pos.t : null, first: !!first });
     if (!first) this.decaySharp(); // sharpness fades as the roll moves on
     if (this._beltTest) this.setEvent("Belt test", Math.max(0, (this.maxMoves || 0) - (this.moveCount || 0)) + " moves left", "info");
@@ -4269,17 +4690,19 @@ class Component extends DCLogic {
     }
     // carry the open current-state box forward to the new latest row (also opens it after a "roll from here")
     if (wasLatestOpen) { const L = this.rollLog.length - 1; this._openRow = "c" + L; this._focusRow = "c" + L; }
-    // a new roll restarting (manual restart / after an end-game) opens the flashcards for the starting position
+    // PANE LAW: a new roll NEVER opens the pane. If the user already has it open, focus the
+    // seeded state's row so what they are reading follows the roll; otherwise leave it shut.
     if (first && this._openSidebarOnLand) {
-      const L = this.rollLog.length - 1;
-      this._openRow = "c" + L; this._focusRow = "c" + L;
-      this._drillView = "home"; this.deck = null;
-      this.deckReady = true; this.deckOpen = true;
+      this._openSidebarOnLand = false;
+      if (this.deckOpen) {
+        const L = this.rollLog.length - 1;
+        this._openRow = "c" + L; this._focusRow = "c" + L;
+        this._drillView = "home"; this.deck = null;
+      }
     }
     this._openLatestOnLand = false;
     this._lastActor = null;
     this.buildDrillPanel(this.currentPos);
-    if (first && this._openSidebarOnLand) { this._openSidebarOnLand = false; this.applyDeckVisibility(); this.renderDrillHome(); }
     const opts = this.optionsFor(this.currentPos);
     if (!opts.length) { this.after(1.0, () => this.startRoll()); return; }
     this.optionIdxs = opts.map((o) => o.idx);
@@ -4301,6 +4724,8 @@ class Component extends DCLogic {
     this._decision = { remaining: dsec * 1000, total: dsec * 1000, refunds: 0, warned: 0, pick: pick, opts: opts };
     this.setBeacon("options", el); // beat beacon: your move — read the hand
     if (first) this.maybeStartCoach(); // guided first roll (frozen clock) for first-ever visitors
+    this.renderLandCard(pos, "land", null); // identity → film → ONE question, above the hand
+    this.renderTutorial();
   }
 
   decisionRemaining() { return this._decision ? Math.max(0, this._decision.remaining / 1000) : 0; }
@@ -4371,7 +4796,8 @@ class Component extends DCLogic {
     const base = (cal != null) ? cal : ((act.ty === "submissions" ? 0.36 : 0.56) + act.dom * 0.1);
     const playerMod = this.stateBonus(this._posKey) + this.stateBonus(this.deckKeyFor(act).key) + ((this._filmLook && this._filmLook[act.t]) ? 0.04 : 0);
     const aiMod = Math.max(0, this.oppVal(this.nodes[this.currentPos])) * 0.4 + (this.aiSkill || 0);
-    return Math.max(0.05, Math.min(0.95, base + playerMod - aiMod));
+    // _qMod: a WRONG landing/attempt question costs this exchange only — cleared on next arrival
+    return Math.max(0.05, Math.min(0.95, base + playerMod - aiMod + (this._qMod || 0)));
   }
   _hash01(i) { const x = Math.sin((i + 1) * 12.9898) * 43758.5453; return x - Math.floor(x); }
   // a per-technique success override (0..1) set via the card steppers / Your modifiers panel, or null if none active
@@ -4758,6 +5184,9 @@ class Component extends DCLogic {
         if (this.startTime == null) this.startTime = this.now; // start intro clock once sized
         if (this.alpha < 1) this.alpha = Math.min(1, this.alpha + dt / 1.3);
         let gdt = this.paused ? 0 : dt;
+        // a session exists the moment it runs unpaused with a live hand — before that, a staged
+        // roam can be restaged freely and costs nothing
+        if (gdt > 0 && this.optionIdxs && this.optionIdxs.length) this._played = true;
         if (this._hitStop) { if (this.now - this._hitStop < 0.09) gdt = 0; else this._hitStop = null; } // 90ms hit-stop
         this.updateTravel(gdt);
         this._tickDecision(gdt);
@@ -4868,7 +5297,9 @@ class Component extends DCLogic {
       else if (ptrs.size === 0) {
         const card = this.nodeCardRef && this.nodeCardRef.current;
         const inCard = card && card.style.display !== "none" && e && card.contains(e.target);
-        if (dragging && moved < 5 && e && !inCard) { this._updateHover(e); if (this._hover && this._hover.idx >= 0) this.openDossier(this._hover.idx); else { this.closeNodeDossier(); this.closeExplorerIfOpen(); this.closeDossierSheet(); } }
+        // tapping a node ROAMS to it (stages a paused roll there); tapping the one you're already
+        // on reads it instead. Empty space closes whatever is open.
+        if (dragging && moved < 5 && e && !inCard) { this._updateHover(e); if (this._hover && this._hover.idx >= 0) { if (this._hover.idx === this.currentPos) this.openDossier(this._hover.idx); else this.stageRollAt(this._hover.idx); } else { this.closeNodeDossier(); this.closeExplorerIfOpen(); this.closeDossierSheet(); } }
         dragging = false; el.style.cursor = "grab";
       }
       this.lastInteract = this.now;

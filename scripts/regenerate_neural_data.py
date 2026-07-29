@@ -303,7 +303,90 @@ def deck_name(key: str) -> str:
     return key.rsplit("|", 1)[0]
 
 
-def build_curriculum(out_dir: Path) -> int:
+def build_technique_weights(graph: dict, iters: int = 240, damp: float = 0.85) -> dict:
+    """How often a roll ACTUALLY passes through each technique — the graph's stationary
+    distribution, not a cutoff.
+
+    The state machine is a Markov chain: position-role --attempt_probability--> technique
+    --outcome probability--> position-role. Power-iterate the position distribution, then read
+    off each technique's expected visit rate. Damping (PageRank-style teleport to uniform) keeps
+    it ergodic despite absorbing finishes and dead ends.
+
+    Replaces the earlier "drop the rare 20% tail" canon, which was arbitrary: attempt_probability
+    is normalised PER POSITION across ~10-20 options, so the distribution is flat and any mass
+    cutoff is meaningless (80% of the mass kept 724 of 1270 techniques). Weighting keeps every
+    technique and lets its real frequency decide how much it counts.
+
+    Returns {deckKey: weight} normalised to sum 1. Consumed by the app's gameScore():
+    score = SUM(weight_i * mastery_i) — 1.0 means you have proven the whole game."""
+    positions = graph.get("positions") or {}
+    tech_tables: dict[str, list] = {}          # technique id -> [(dest position id, p)]
+    tech_name: dict[str, str] = {}
+    for bucket in ("transitions", "submissions"):
+        for tid, node in (graph.get(bucket) or {}).items():
+            if node.get("role") != "attacker":
+                continue
+            base = tid.rsplit("/", 1)[0]
+            tech_name[base] = node.get("name") or base
+            outs = []
+            for o in node.get("outcomes") or []:
+                to, p = o.get("to"), o.get("probability")
+                if not isinstance(p, (int, float)):
+                    continue
+                outs.append((to, float(p) / 100.0))
+            tech_tables[base] = outs
+
+    live = [pid for pid, p in positions.items() if p.get("role") in ("top", "bottom") and p.get("transitions")]
+    if not live:
+        return {}
+    uni = 1.0 / len(live)
+    pi = {pid: uni for pid in live}
+    visits: dict[str, float] = {}
+
+    for it in range(iters):
+        nxt = {pid: 0.0 for pid in live}
+        visits = {}
+        leaked = 0.0
+        for pid, mass in pi.items():
+            if mass <= 0:
+                continue
+            for edge in positions[pid].get("transitions") or []:
+                ap = edge.get("attemptProbability")
+                tgt = edge.get("target")
+                if not tgt or not isinstance(ap, (int, float)):
+                    continue
+                flow = mass * (float(ap) / 100.0)
+                if flow <= 0:
+                    continue
+                visits[tgt] = visits.get(tgt, 0.0) + flow
+                for dest, p in tech_tables.get(tgt, []):
+                    if dest in nxt:
+                        nxt[dest] += flow * p
+                    else:
+                        leaked += flow * p          # game-over / unresolvable → restart uniformly
+                if tgt not in tech_tables:
+                    leaked += flow
+        total = sum(nxt.values()) + leaked
+        if total <= 0:
+            break
+        for pid in nxt:
+            nxt[pid] = damp * (nxt[pid] + leaked * uni) / total + (1.0 - damp) * uni
+        s = sum(nxt.values()) or 1.0
+        pi = {pid: v / s for pid, v in nxt.items()}
+
+    out: dict[str, float] = {}
+    for tid, v in visits.items():
+        out[f"{tech_name.get(tid, tid)}|Attacker"] = v
+    s = sum(out.values()) or 1.0
+    out = {k: round(v / s, 8) for k, v in sorted(out.items(), key=lambda kv: -kv[1]) if v / s >= 1e-7}
+    s2 = sum(out.values()) or 1.0
+    out = {k: round(v / s2, 8) for k, v in out.items()}
+    top = list(out.items())[:3]
+    print(f"  weights: {len(out)} techniques by stationary frequency; heaviest {[(k.split('|')[0], round(v, 4)) for k, v in top]}")
+    return out
+
+
+def build_curriculum(out_dir: Path, graph: dict) -> int:
     """Validate then emit the Belt Path curriculum. Returns belt count (0 = no curriculum,
     which is legal — the app falls back to tree view)."""
     from _curriculum import CURRICULUM, compute_pools, lesson_frames, load_curriculum, load_graph_index
@@ -322,6 +405,7 @@ def build_curriculum(out_dir: Path) -> int:
                 lf = lesson_frames(lesson, node)
                 lesson["frames"] = [f for f in ("gi", "nogi") if lf[f]]
         belt["pool"] = compute_pools(cur["belts"], bi, nodes)
+    cur["weights"] = build_technique_weights(graph)
     (out_dir / "curriculum.json").write_text(
         json.dumps(cur, ensure_ascii=False, separators=(",", ":")))
     return len(cur["belts"])
@@ -355,7 +439,7 @@ def main() -> None:
     # curriculum.json — the Belt Path (belts -> units -> lessons -> checkpoint -> test).
     # Validated first (a bad curriculum must never be emitted), then enriched with resolved
     # per-lesson live frames + computed per-belt opponent pools (never authored).
-    n_belts = build_curriculum(OUT_DIR)
+    n_belts = build_curriculum(OUT_DIR, graph)
     if n_belts:
         print(f"curriculum.json: {n_belts} belts emitted")
 

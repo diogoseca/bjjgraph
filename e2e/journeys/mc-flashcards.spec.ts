@@ -32,7 +32,11 @@ const UNIT1 = WHITE.units[0]
 const LESSON1 = UNIT1.lessons[0]
 
 /** open the drill on white unit 1 lesson 1 via the path (the user's route to a fresh deck) */
-async function openLessonDrill(j: any, page: any) {
+/** v1.68.0: multiple choice is the IN-ROLL format and the sidebar reads back as classic recall by
+ *  default. This file tests the sidebar's MC surface, so it asks for MC explicitly — pass
+ *  mcMode: null when the test drives the setting itself. */
+async function openLessonDrill(j: any, page: any, mcMode: string | null = "auto") {
+  if (mcMode) await page.evaluate((m) => (window as any).__neural.set("mcMode", m), mcMode)
   await page.evaluate(() => (window as any).__neural.toggleExplorer())
   await page.locator(`[data-lesson="${LESSON1.deckKey}"]`).first().click()
   await j.advance(800)
@@ -292,7 +296,7 @@ test("mcMode setting: classic kills MC; mc still caps the stage at 2", async ({ 
   await j.boot("/")
   await j.land("Mount Top")
   await page.evaluate(() => (window as any).__neural.set("mcMode", "classic"))
-  await openLessonDrill(j, page)
+  await openLessonDrill(j, page, null) // this test owns the setting
   expect(await page.locator("[data-mc-opt]").count()).toBe(0) // classic recall from card one
 
   await page.evaluate(() => (window as any).__neural.set("mcMode", "mc"))
