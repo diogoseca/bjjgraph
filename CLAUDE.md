@@ -386,7 +386,14 @@ score = Σ (weight_i × mastery_i),   Σ weight_i = 1
 - `crownBadge(frac, tint, locked)` gives every lesson a 0–4 crown from `deckMastery(deckKey)` — a conic-gradient ring plus the level (★ at 4). **Same numbers as the belt score**, so grinding a lesson to gold is literally what moves your belt: one system, not two scoreboards.
 - Every pre-existing path handle is preserved (`[data-lesson]`, `[data-unit]`, `[data-checkpoint]`, `[data-belt]`, `data-locked`, `data-done`, `data-live`) — the redesign is styling, not restructuring.
 
-**Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on) and *Tutorial* (progress + Restart); Flashcards tab's *Answer mode* now defaults to Classic recall. Shortcuts tab lists `A B C D`.
+**MOMENTUM — the combo meter (v1.70.0).** Consecutive correct landing answers build an arcade combo: ×2 `DOUBLE COMBO!` · ×3 `TRIPLE` · ×4 `MEGA` · ×5 `ULTRA` · ×6 `RAMPAGE!` · ×7+ `GODLIKE` (re-stamps ×N). Owner's rules: **per roll** (fresh match starts cold — reset in `startRoll`/`rollFromPosition`); **wrong OR ignored breaks it** (`_landPending` is set when a question mounts; `enterAttempt` breaks with `reason:"ignored"` if it's still set — auto-pick counts as ignoring); a landing that asks nothing **carries** it (silence ≠ neglect).
+- **Bonus:** `momentumMod()` = +2.5%/tier, **cap +10%** at ×5 — added in `moveChance` AND `escapeChance` (momentum is morale, it defends too). `momentumSkew()` = 10%/tier, **cap 40%**: in `drawOutcome`, counter-outcome weights shrink by the skew ("too fast to counter") — favorable outcomes gain implicitly via relative weights, authored numbers untouched. Beat `outcome_skewed {skew, result}` when a non-success lands under skew.
+- **Surfaces:** `.ng-combo-pop` (`[data-combo-pop][data-heat 1-5]`, announcer slam, auto-removes) and the `.ng-momentum` heat chip (`[data-momentum]`, top-right, shatter animation on break). Beats: `combo {n, name, mod}`, `combo_big {n≥5}` (louder patch), `combo_break {at, reason}`. Sound patches `combo`/`combo_big`/`combo_break` in `sound.src.js`.
+- The ×2+ announcer replaces the "Correct" toast; a break folds "×N momentum gone" into the wrong-answer toast.
+
+**`pointer-events:auto` is LOAD-BEARING on every fixed overlay** (`.ng-coach`, `.ng-landcard`, …): the property is *inherited*, the overlay root disables it, and the canvas hit-tests above anything that doesn't re-enable it — option cards set it inline for exactly this reason. Missing it = mouse clicks silently fall through to the graph (the coach's Next button and the landing card's MC options were unclickable by mouse until v1.69.1; keyboard paths masked it).
+
+**Settings additions:** Rolling tab gains *Questions while you roll* (`landQuestions`, default on — gates the QUESTION only; identity+film render regardless) and *Tutorial* (progress + Restart); Flashcards tab's *Answer mode* now defaults to Classic recall. Shortcuts tab lists `A B C D`.
 
 ### Graph Component
 

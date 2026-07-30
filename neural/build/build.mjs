@@ -160,13 +160,14 @@ await build({
   logLevel: "info",
 })
 
-// 6) CSS from the helmet <style> + the Google-fonts stylesheet (the css2 link, not preconnect)
+// 6) CSS from the helmet <style> ONLY. The Google-fonts @import is deliberately NOT carried:
+// the Quartz page already loads the same families in its own <head>, and a failed @import
+// fires the <link>'s onerror in Chromium — which variant.inline.ts answers by removing the
+// WHOLE app stylesheet. With the @import in place, any fonts hiccup (ad-blocker, offline,
+// the hermetic e2e route) silently unstyled the entire app. helmet.html keeps the link for
+// the standalone design-tool preview; the shipped bundle must not depend on it.
 const helmet = readFileSync(R("src/helmet.html"), "utf8")
 const styleM = helmet.match(/<style>([\s\S]*?)<\/style>/)
-const fontHref = (helmet.match(/<link[^>]+href="(https:\/\/fonts\.googleapis\.com\/css2[^"]+)"/) || [])[1]
-writeFileSync(
-  R("dist/neural.css"),
-  (fontHref ? `@import url("${fontHref}");\n` : "") + (styleM ? styleM[1] : ""),
-)
+writeFileSync(R("dist/neural.css"), styleM ? styleM[1] : "")
 
 console.log("[build] lean neural/dist/neural.js + neural.css written (no React/eval/support.js)")

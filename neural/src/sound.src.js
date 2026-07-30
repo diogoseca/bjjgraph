@@ -21,6 +21,11 @@ const NG_PATCHES = {
   mc_correct: { id: "ding-up", notes: [[520, 660, 0.14, 0, "sine", 0.3], [660, 880, 0.12, 0.1, "sine", 0.22]] },
   mc_wrong: { id: "buzz-muted", notes: [[130, 110, 0.16, 0, "square", 0.16]] },
   timer_refund: { id: "plus-tick", notes: [[740, 900, 0.07, 0, "sine", 0.18]] },
+  // momentum: a bright two-step for every combo, a fanfare stab for ULTRA and above, and a
+  // string-snap slide when the streak dies
+  combo: { id: "combo-up", notes: [[660, 880, 0.09, 0, "square", 0.2], [880, 1174, 0.13, 0.08, "square", 0.24]] },
+  combo_big: { major: 1, id: "combo-stab", notes: [[784, 784, 0.1, 0, "square", 0.26], [1047, 1047, 0.12, 0.09, "square", 0.28], [1319, 1319, 0.24, 0.18, "square", 0.3], [1568, 1568, 0.34, 0.3, "sine", 0.24]] },
+  combo_break: { id: "combo-snap", notes: [[560, 170, 0.24, 0, "sawtooth", 0.22], [220, 110, 0.18, 0.05, "triangle", 0.18]] },
   expiry_warning: { id: "clock-tick", notes: [[980, 980, 0.045, 0, "square", 0.16]] },
   auto_pick: { id: "pop", notes: [[300, 500, 0.08, 0, "triangle", 0.25]] },
   caught: { major: 1, id: "sting-tense", notes: [[440, 440, 0.4, 0, "sawtooth", 0.14], [466, 466, 0.4, 0, "sawtooth", 0.14]] },

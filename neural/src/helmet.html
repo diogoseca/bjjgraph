@@ -67,11 +67,31 @@
   @keyframes ngBeacon{0%,100%{box-shadow:0 0 0 0 rgba(126,224,168,0),0 0 10px 1px rgba(126,224,168,.28)}50%{box-shadow:0 0 0 3px rgba(126,224,168,.22),0 0 22px 5px rgba(126,224,168,.5)}}
   .ng-vignette{position:fixed;inset:0;pointer-events:none;z-index:44;background:radial-gradient(ellipse at center,transparent 52%,rgba(226,58,48,.3) 100%);animation:ngHeartbeat 1s ease-in-out infinite;}
   @keyframes ngHeartbeat{0%,100%{opacity:.5}12%{opacity:1}24%{opacity:.55}34%{opacity:.9}48%{opacity:.5}}
-  .ng-coach{position:fixed;left:50%;bottom:218px;transform:translateX(-50%);z-index:70;width:min(340px,calc(100vw - 40px));background:rgba(15,19,30,.97);border:1px solid rgba(126,224,168,.35);border-radius:14px;padding:14px 16px;box-shadow:0 14px 44px rgba(0,0,0,.55);}
+  /* pointer-events:auto is LOAD-BEARING on every fixed overlay: the property is inherited and
+     the canvas hit-tests above anything that doesn't re-enable it (the option cards set it
+     inline for the same reason). Without it, mouse clicks fall through to the graph. */
+  .ng-coach{pointer-events:auto;position:fixed;left:50%;bottom:218px;transform:translateX(-50%);z-index:70;width:min(340px,calc(100vw - 40px));background:rgba(15,19,30,.97);border:1px solid rgba(126,224,168,.35);border-radius:14px;padding:14px 16px;box-shadow:0 14px 44px rgba(0,0,0,.55);}
   /* P1b: the question-first landing card — docked directly above the options tray, so the
      read order is identity -> film -> question -> your hand, top to bottom. */
-  .ng-landcard{position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(320px,40vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardIn .28s cubic-bezier(.2,.7,.2,1);}
+  .ng-landcard{pointer-events:auto;position:fixed;left:50%;bottom:236px;transform:translateX(-50%);z-index:5;width:min(520px,calc(100vw - 32px));max-height:min(320px,40vh);overflow-y:auto;background:linear-gradient(180deg,rgba(24,28,46,.97),rgba(17,20,34,.97));border:1px solid rgba(130,150,190,.24);border-radius:15px;padding:13px 15px 12px;box-shadow:0 14px 44px rgba(0,0,0,.5);animation:ngCardIn .28s cubic-bezier(.2,.7,.2,1);}
   .ng-landcard[data-landcard="attempt"]{border-color:rgba(126,160,255,.4);}
+  /* ── MOMENTUM: the arcade announcer + the heat chip. Heat 1→5 = ×2→×6+. ── */
+  .ng-combo-pop{position:fixed;left:50%;top:31%;transform:translate(-50%,-50%);z-index:72;pointer-events:none;text-align:center;font-family:'Space Grotesk',sans-serif;animation:ngComboPop 1.15s cubic-bezier(.2,.7,.2,1) both;}
+  .ng-combo-pop .ng-combo-x{font-size:12px;font-weight:800;letter-spacing:.34em;text-transform:uppercase;color:#9ab0e0;margin-bottom:4px;}
+  .ng-combo-pop .ng-combo-name{font-size:clamp(28px,4.8vw,50px);font-weight:800;font-style:italic;letter-spacing:.03em;color:var(--combo-col,#7ee0a8);text-shadow:0 0 20px var(--combo-glow,rgba(126,224,168,.6)),0 4px 28px rgba(0,0,0,.65);}
+  .ng-combo-pop .ng-combo-sub{margin-top:7px;font-size:10.5px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#c9d3e6;}
+  .ng-combo-pop[data-heat="5"] .ng-combo-name{font-size:clamp(34px,5.6vw,60px);}
+  @keyframes ngComboPop{0%{opacity:0;transform:translate(-50%,-50%) scale(.55);}13%{opacity:1;transform:translate(-50%,-50%) scale(1.14);}24%{transform:translate(-50%,-50%) scale(1);}76%{opacity:1;}100%{opacity:0;transform:translate(-50%,-58%) scale(1);}}
+  .ng-momentum{position:fixed;top:74px;right:18px;z-index:6;pointer-events:none;display:flex;align-items:baseline;gap:7px;padding:7px 12px;border-radius:999px;background:rgba(15,19,30,.93);border:1px solid var(--combo-col,rgba(150,170,210,.3));box-shadow:0 0 14px var(--combo-glow,transparent);font-family:'Space Grotesk',sans-serif;animation:ngCardIn .25s ease both;}
+  .ng-momentum b{font-size:14px;color:var(--combo-col,#eef1f6);}
+  .ng-momentum span{font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#9ab0e0;}
+  .ng-momentum[data-combo-broken]{animation:ngComboBreak .55s ease both;}
+  @keyframes ngComboBreak{0%{transform:translateX(0);}22%{transform:translateX(-6px);border-color:#ff5f6d;}46%{transform:translateX(5px);}70%{transform:translateX(-3px);}100%{opacity:0;transform:translateY(10px);}}
+  .ng-combo-pop[data-heat="1"],.ng-momentum[data-heat="1"]{--combo-col:#9ad0ff;--combo-glow:rgba(120,180,255,.55);}
+  .ng-combo-pop[data-heat="2"],.ng-momentum[data-heat="2"]{--combo-col:#7ee0a8;--combo-glow:rgba(126,224,168,.6);}
+  .ng-combo-pop[data-heat="3"],.ng-momentum[data-heat="3"]{--combo-col:#e9d75a;--combo-glow:rgba(233,215,90,.6);}
+  .ng-combo-pop[data-heat="4"],.ng-momentum[data-heat="4"]{--combo-col:#ffb45a;--combo-glow:rgba(255,180,90,.62);}
+  .ng-combo-pop[data-heat="5"],.ng-momentum[data-heat="5"]{--combo-col:#ff5f6d;--combo-glow:rgba(255,95,109,.68);}
   /* P3: the tutorial drip — one step at a time, bottom-left above the legend */
   /* pointer-events:none — the options tray can scroll under this corner and must stay clickable */
   .ng-tut{position:fixed;left:16px;bottom:104px;z-index:7;width:238px;pointer-events:none;background:rgba(15,19,30,.96);border:1px solid rgba(126,224,168,.28);border-radius:12px;padding:10px 12px;box-shadow:0 10px 34px rgba(0,0,0,.5);}
@@ -79,6 +99,6 @@
   .ng-clip{isolation:isolate;}
   .ng-clip::after{content:"";position:absolute;inset:0;z-index:1;background:linear-gradient(105deg,transparent 42%,rgba(255,255,255,.13) 50%,transparent 58%);background-size:230% 100%;background-position:120% 0;animation:ngShimmer 2.2s ease-out .4s 2;pointer-events:none;}
   @keyframes ngShimmer{to{background-position:-130% 0}}
-  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard{animation:none}}
+  @media (prefers-reduced-motion: reduce){.ng-beacon,.ng-vignette,.ng-clip::after,.ng-landcard,.ng-combo-pop,.ng-momentum{animation:none}}
 </style>
 <script src="technique-content.js"></script>

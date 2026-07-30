@@ -1312,6 +1312,10 @@ class Component extends DCLogic {
     const ncards = deck ? deck.cards.length : 0;
     const prep = Math.min((this.prep && this.prep[h.key]) || 0, ncards);
     const r = document.createElement("div");
+    // journey handles: the pane's roll history is a first-class surface (it is what the pane IS)
+    r.setAttribute("data-hist", h.key);
+    r.setAttribute("data-hist-actor", h.actor || "");
+    if (isCurrent) r.setAttribute("data-hist-current", "1");
     r.style.cssText = "display:flex;align-items:center;gap:10px;padding:7px 8px;margin:0 -8px;border-radius:8px;transition:background .12s;position:relative;";
     const railTop = opts.isFirst ? "50%" : "0"; const railBot = opts.isLast ? "50%" : "0";
     const valColor = h.val != null ? (parseInt(h.val, 10) >= 0 ? "#5b8cff" : "#d8889e") : "#6b7691";
@@ -1383,6 +1387,7 @@ class Component extends DCLogic {
     this.prep = this.prep || {};
     const wrap = document.createElement("div");
     if (isCurrent) wrap.className = "ngCurExpire";
+    wrap.setAttribute("data-mini-deck", key); // the pane's Q&A card: question, reveal, answer — never MC
     wrap.style.cssText = "padding:0 8px 12px 26px;animation:ngCardIn .26s cubic-bezier(.2,.7,.2,1) both;";
     const navBtn = (cls, d) => '<button class="' + cls + '" style="flex:none;width:42px;height:36px;cursor:pointer;border:1px solid rgba(150,170,210,.2);border-radius:9px;background:rgba(255,255,255,.03);color:#aab4c8;display:flex;align-items:center;justify-content:center;transition:background .12s,color .12s;"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="' + d + '"></path></svg></button>';
     const doPrev = () => { st.idx = (st.idx - 1 + total) % total; st.revealed = false; render(); };
@@ -1405,12 +1410,12 @@ class Component extends DCLogic {
           // scope chip: only on higher-tier (general) cards blended in — names the position/family
           // the card is about, so it reads as a concept rather than a state:role-specific detail.
           (card.tag ? '<div style="display:inline-block;font-size:8.5px;letter-spacing:.1em;text-transform:uppercase;font-weight:800;color:#9ab0e0;background:rgba(90,140,255,.13);border:1px solid rgba(120,150,255,.26);border-radius:999px;padding:2px 8px;margin-bottom:9px;">' + card.tag + '</div>' : '') +
-          '<div style="font-size:13px;line-height:1.5;color:#e3e9f4;font-weight:500;">' + (card.q || card.front || "") + '</div>' +
+          '<div data-mini-q="1" style="font-size:13px;line-height:1.5;color:#e3e9f4;font-weight:500;">' + (card.q || card.front || "") + '</div>' +
         '</div>' +
-        (st.revealed ? '<div style="margin-top:8px;border:1px solid rgba(110,214,160,.28);border-radius:11px;background:rgba(20,38,30,.42);padding:13px 15px;font-size:12.5px;line-height:1.6;color:#bfe6cf;animation:ngCardIn .22s ease both;">' + (card.a || card.back || "") + '</div>' : '') +
+        (st.revealed ? '<div data-mini-a="1" style="margin-top:8px;border:1px solid rgba(110,214,160,.28);border-radius:11px;background:rgba(20,38,30,.42);padding:13px 15px;font-size:12.5px;line-height:1.6;color:#bfe6cf;animation:ngCardIn .22s ease both;">' + (card.a || card.back || "") + '</div>' : '') +
         '<div style="display:flex;gap:7px;margin-top:9px;">' +
           navBtn("mp", "M15 18l-6-6 6-6") +
-          '<button class="mr" style="flex:1;cursor:pointer;border:1px solid rgba(120,150,255,.4);border-radius:9px;background:rgba(74,108,255,.16);color:#dbe6ff;font-family:inherit;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:7px;transition:background .12s;">' + (st.revealed ? "Hide answer" : "Reveal") + '<kbd style="font-family:inherit;font-size:9px;font-weight:700;opacity:.55;border:1px solid currentColor;border-radius:4px;padding:1px 6px;letter-spacing:.04em;">space</kbd></button>' +
+          '<button class="mr" data-mini-reveal="1" style="flex:1;cursor:pointer;border:1px solid rgba(120,150,255,.4);border-radius:9px;background:rgba(74,108,255,.16);color:#dbe6ff;font-family:inherit;font-size:12px;font-weight:700;display:flex;align-items:center;justify-content:center;gap:7px;transition:background .12s;">' + (st.revealed ? "Hide answer" : "Reveal") + '<kbd style="font-family:inherit;font-size:9px;font-weight:700;opacity:.55;border:1px solid currentColor;border-radius:4px;padding:1px 6px;letter-spacing:.04em;">space</kbd></button>' +
           navBtn("mn", "M9 18l6-6-6-6") +
         '</div>';
       const mp = wrap.querySelector(".mp"), mn = wrap.querySelector(".mn"), mr = wrap.querySelector(".mr");
@@ -2086,7 +2091,7 @@ class Component extends DCLogic {
       // landing questions — the in-roll quiz beat
       const lq = document.createElement("div");
       lq.style.cssText = "display:flex;align-items:flex-start;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;margin-bottom:18px;";
-      lq.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Questions while you roll</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Every state you land on asks one multiple-choice question (keys <b style="color:#c3cde0;">A–D</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only.</div></div>';
+      lq.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Questions while you roll</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">Every state you land on asks one multiple-choice question (keys <b style="color:#c3cde0;">A–D</b>). Right answers raise that exchange’s odds and refund clock; wrong ones cost odds for that exchange only. String rights together across states to build <b style="color:#c3cde0;">combos</b> — momentum that heats your whole hand and makes counters fade. Wrong or ignored breaks it.</div></div>';
       const lqb = document.createElement("button");
       const lqOn = this.get("landQuestions", true);
       lqb.innerHTML = lqOn ? "✓" : "";
@@ -3322,6 +3327,7 @@ class Component extends DCLogic {
   openSearch() { this._searchQ = ""; this._searchSel = null; this.openModal(); this.renderSearch(); }
   playFrom(idx, role) {
     this.clearTimers(); this.clearOptions(); this.clearEngagement(); this.closeModal(); this.setPaused(false);
+    this._combo = 0; this._landPending = false; this._updateComboChip(); // "play from here" is a new match — cold momentum
     this.playerRole = role;
     this.aiSkill = this.get("difficulty", "normal") === "off" ? 0 : 0.06 + this.rng("ai-skill") * 0.14;
     this.moveCount = 0; this.maxMoves = 9 + ((this.rng("max-moves") * 4) | 0);
@@ -4210,9 +4216,9 @@ class Component extends DCLogic {
   renderLandCard(node, mode, hooks) {
     this.clearLandCard();
     if (this._coach) return null;                      // the guided coach owns the first landing
-    if (!this.get("landQuestions", true)) return null;
     const key = this.deckKeyFor(node).key;
-    const card = this.questionFor(key);
+    // the setting gates the QUESTION, not the card: identity and film are priority either way
+    const card = this.get("landQuestions", true) ? this.questionFor(key) : null;
     const info = this.ngContentFor(node);
     const sp = this.splitName(node.t);
     const glyph = this.seenGlyph(key);
@@ -4276,6 +4282,7 @@ class Component extends DCLogic {
         qw.appendChild(block);
         el.appendChild(qw);
         this._landQ = { key: key, card: card, mode: mode || "land" };
+        this._landPending = true; // a question is on the table — walking past it breaks momentum
         this.fx("land_q_shown", { deckKey: key, mode: mode || "land" });
       }
     }
@@ -4293,18 +4300,95 @@ class Component extends DCLogic {
     return el;
   }
   _landAnswered(correct, tier, mode, hooks) {
+    this._landPending = false;
     if (correct) {
       const granted = this.refundDecision(2500);
-      this.setEvent("Correct", granted ? "Odds up · +2.5s on the clock" : "Odds up on this exchange", "good");
+      this._comboUp();
+      // ×2+ gets the announcer pop — a toast underneath it would just mumble
+      if ((this._combo || 0) < 2) this.setEvent("Correct", granted ? "Odds up · +2.5s on the clock" : "Odds up on this exchange", "good");
     } else {
       const cost = tier === "trap" ? 0.08 : 0.04;
       this._qMod = (this._qMod || 0) - cost;
-      this.setEvent(tier === "trap" ? "That one gets you hurt" : "Not quite", "−" + Math.round(cost * 100) + "% on this exchange", "bad");
+      const broke = this._breakCombo("wrong");
+      this.setEvent(
+        tier === "trap" ? "That one gets you hurt" : "Not quite",
+        "−" + Math.round(cost * 100) + "% on this exchange" + (broke >= 2 ? " · ×" + broke + " momentum gone" : ""),
+        "bad");
     }
     this.refreshOptionOdds();
-    this.fx("land_q_answered", { correct: !!correct, tier: tier || null, mode: mode || "land", qMod: this._qMod || 0 });
+    this.fx("land_q_answered", { correct: !!correct, tier: tier || null, mode: mode || "land", qMod: this._qMod || 0, combo: this._combo || 0 });
     if (hooks && hooks.onAnswer) hooks.onAnswer(!!correct);
   }
+  // ── MOMENTUM: the combo meter ──
+  // Answer landing questions right back-to-back and the whole match tilts your way: every option
+  // and escape gets hotter (+2.5% per tier, cap +10%) and, when a move fails anyway, the opponent
+  // capitalizes less (counter-outcomes shed up to 40% of their weight — you're moving too fast to
+  // counter). Per ROLL: a fresh match starts cold. A WRONG answer breaks it; so does IGNORING a
+  // question that was asked (executing past it, or letting the clock auto-pick). A landing that
+  // asks nothing carries the streak — silence isn't neglect.
+  get COMBO_NAMES() { return { 2: "DOUBLE COMBO!", 3: "TRIPLE COMBO!", 4: "MEGA COMBO!", 5: "ULTRA COMBO!", 6: "RAMPAGE!" }; }
+  comboName(n) { return this.COMBO_NAMES[n] || (n >= 7 ? "GODLIKE" + (n > 7 ? " ×" + n : "") : ""); }
+  momentumMod() { const n = this._combo || 0; return Math.min(0.10, Math.max(0, (Math.min(n, 5) - 1) * 0.025)); }
+  momentumSkew() { const n = this._combo || 0; return Math.min(0.40, Math.max(0, (Math.min(n, 5) - 1) * 0.10)); }
+  _comboUp() {
+    this._combo = (this._combo || 0) + 1;
+    const n = this._combo;
+    if (n >= 2) {
+      const name = this.comboName(n);
+      this.fx("combo", { n: n, name: name, mod: this.momentumMod() });
+      if (n >= 5) this.fx("combo_big", { n: n }); // the top tiers get the louder patch
+      this._comboPop(name, n);
+    }
+    this._updateComboChip();
+    this.refreshOptionOdds(); // the whole hand ticks up — the skew is visible, not hidden math
+  }
+  _breakCombo(reason) {
+    const was = this._combo || 0;
+    this._landPending = false;
+    if (!was) return 0;
+    this._combo = 0;
+    this.fx("combo_break", { at: was, reason: reason });
+    this._updateComboChip(true);
+    this.refreshOptionOdds(); // and cools back down just as visibly
+    return was;
+  }
+  _comboPop(name, n) {
+    if (this._comboPopEl) { try { this._comboPopEl.remove(); } catch (e) {} }
+    const el = document.createElement("div");
+    el.className = "ng-combo-pop";
+    el.setAttribute("data-combo-pop", String(n));
+    el.setAttribute("data-heat", String(Math.min(5, n - 1)));
+    const mod = Math.round(this.momentumMod() * 100);
+    el.innerHTML =
+      '<div class="ng-combo-x">MOMENTUM &times;' + n + '</div>' +
+      '<div class="ng-combo-name">' + name + '</div>' +
+      (mod ? '<div class="ng-combo-sub">+' + mod + '% everything &middot; counters fade</div>' : '');
+    (this.__ngRoot || document.body).appendChild(el);
+    this._comboPopEl = el;
+    this.after(n >= 5 ? 1.7 : 1.2, () => { if (this._comboPopEl === el) this._comboPopEl = null; try { el.remove(); } catch (e) {} });
+  }
+  _updateComboChip(broken) {
+    const n = this._combo || 0;
+    let chip = this._comboChip;
+    if (n < 2) {
+      if (chip) {
+        this._comboChip = null;
+        if (broken) { chip.setAttribute("data-combo-broken", "1"); this.after(0.55, () => { try { chip.remove(); } catch (e) {} }); }
+        else { try { chip.remove(); } catch (e) {} }
+      }
+      return;
+    }
+    if (!chip) {
+      chip = document.createElement("div");
+      chip.className = "ng-momentum";
+      (this.__ngRoot || document.body).appendChild(chip);
+      this._comboChip = chip;
+    }
+    chip.setAttribute("data-momentum", String(n));
+    chip.setAttribute("data-heat", String(Math.min(5, n - 1)));
+    chip.innerHTML = '<b>&times;' + n + '</b><span>momentum &middot; +' + Math.round(this.momentumMod() * 100) + '%</span>';
+  }
+
   // NB there is deliberately NO second question at the technique node between commit and sweep.
   // It was built and cut: gating the sweep on a 4s window added that delay to EVERY move, and the
   // landing question already does the job the owner described — it moves the odds of the very
@@ -4333,7 +4417,8 @@ class Component extends DCLogic {
     const sub = this._defendSub != null ? this.nodes[this._defendSub] : null;
     if (!sub || !opt || !opt.node) return 0;
     const dmod = this.stateBonus(this._panicKey || this.defendKeyFor(sub));
-    return Math.max(0.08, Math.min(0.92, 0.4 + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0)));
+    // momentum is morale — it helps you defend just as it helps you attack
+    return Math.max(0.08, Math.min(0.92, 0.4 + (this.myVal(opt.node) - this.myVal(sub)) * 0.15 + dmod - (this.aiSkill || 0) + this.momentumMod()));
   }
   escapeOddsSnapshot() {
     const list = this._optList;
@@ -4609,6 +4694,7 @@ class Component extends DCLogic {
   rollFromPosition(nodeIdx, staged) {
     // start a NEW roll seeded at a chosen position; the current roll is archived into Previous rolls
     this.clearTimers(); this.clearOptions(); this.clearEngagement(); this._cancelCheckpoint();
+    this._combo = 0; this._landPending = false; this._updateComboChip(); // fresh match, cold momentum
     let posIdx = nodeIdx;
     if (this.nodes[nodeIdx] && this.nodes[nodeIdx].ty !== "positions") {
       let p = -1; for (const k of this.adj[nodeIdx]) { if (this.nodes[k].ty === "positions") { p = k; break; } }
@@ -4649,6 +4735,7 @@ class Component extends DCLogic {
     this.clearTimers(); this.clearOptions(); this.clearEngagement();
     this._beltTest = null; // a fresh normal roll is never a belt test (manual reset = clean cancel, no attempt burned)
     this._cancelCheckpoint(); // and never a stale checkpoint quiz
+    this._combo = 0; this._landPending = false; this._updateComboChip(); // momentum is per-MATCH: a new roll starts cold
     this.track("neural_roll_started", {});
     // archive the roll that just ended so the sidebar can show "Previous roll / Today / Yesterday"
     // — but only if it ever actually played (a staged roam is not a roll; see _played)
@@ -4820,6 +4907,9 @@ class Component extends DCLogic {
   }
 
   enterAttempt(opt) {
+    // committing past an unanswered question is IGNORING it — momentum demands engagement
+    // (owner's rule: wrong or ignored breaks; a landing that asked nothing carries)
+    if (this._landPending) this._breakCombo("ignored");
     const act = this.nodes[opt.idx];
     this.fx("commit", { technique: act.t });
     this.track("neural_move_picked", { technique: act.t, node_type: act.ty });
@@ -4851,8 +4941,9 @@ class Component extends DCLogic {
     const base = (cal != null) ? cal : ((act.ty === "submissions" ? 0.36 : 0.56) + act.dom * 0.1);
     const playerMod = this.stateBonus(this._posKey) + this.stateBonus(this.deckKeyFor(act).key) + ((this._filmLook && this._filmLook[act.t]) ? 0.04 : 0);
     const aiMod = Math.max(0, this.oppVal(this.nodes[this.currentPos])) * 0.4 + (this.aiSkill || 0);
-    // _qMod: a WRONG landing/attempt question costs this exchange only — cleared on next arrival
-    return Math.max(0.05, Math.min(0.95, base + playerMod - aiMod + (this._qMod || 0)));
+    // _qMod: a WRONG landing question costs this exchange only — cleared on next arrival.
+    // momentumMod: the combo meter heats the WHOLE hand (+2.5%/tier, cap +10%).
+    return Math.max(0.05, Math.min(0.95, base + playerMod - aiMod + (this._qMod || 0) + this.momentumMod()));
   }
   _hash01(i) { const x = Math.sin((i + 1) * 12.9898) * 43758.5453; return x - Math.floor(x); }
   // a per-technique success override (0..1) set via the card steppers / Your modifiers panel, or null if none active
@@ -4936,14 +5027,22 @@ class Component extends DCLogic {
     return { idx: i == null ? -1 : i, terminal: false };
   }
   // draw one cal.outcome weighted by probability (they sum ~100); null when the node has no cal.
+  // MOMENTUM skews this table live: counter-outcomes shed up to 40% of their weight while a combo
+  // is hot — you're moving too fast for the opponent to capitalize. Favorable outcomes gain the
+  // difference implicitly (relative weights), which is exactly "the outcomes that favor you get
+  // more probable" without ever touching the authored numbers.
   drawOutcome(act) {
     const outs = act && act.cal && Array.isArray(act.cal.outcomes) ? act.cal.outcomes : null;
     if (!outs || !outs.length) return null;
-    let total = 0; for (const o of outs) total += Math.max(0, +o.probability || 0);
+    const sk = this.momentumSkew();
+    const w = (o) => { let v = Math.max(0, +o.probability || 0); if (sk > 0 && o.result === "counter") v *= (1 - sk); return v; };
+    let total = 0; for (const o of outs) total += w(o);
     if (total <= 0) return outs[0];
     let r = this.rng("outcome") * total;
-    for (const o of outs) { r -= Math.max(0, +o.probability || 0); if (r <= 0) return o; }
-    return outs[outs.length - 1];
+    let chosen = outs[outs.length - 1];
+    for (const o of outs) { r -= w(o); if (r <= 0) { chosen = o; break; } }
+    if (sk > 0 && chosen.result !== "success") this.fx("outcome_skewed", { skew: sk, result: chosen.result });
+    return chosen;
   }
   // ── P3 impact contrast: commit → 0.38s hold → 0.7s needle sweep vs a band sized to
   // moveChance → detonation (in band) or 90ms hit-stop + recoil (out). The resolve draw
