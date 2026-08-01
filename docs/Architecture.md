@@ -186,6 +186,26 @@ export const defaultContentPageLayout: PageLayout = {
 
 ---
 
+## Gameplay Audio & Terminal Effects
+
+Gameplay audio is synthesized at runtime with the Web Audio API; there are no downloaded sound files or audio dependencies.
+
+| Concern | Implementation |
+|---------|----------------|
+| Sound engine | `source/quartz/components/scripts/gameAudio.ts` |
+| User control | `BJJSettings.soundEnabled`, exposed in Settings > Rolling |
+| Persistence | Existing `bjj-settings` localStorage/cloud-sync object |
+| Browser lifecycle | Lazy `AudioContext`, user-activation gate, global SPA singleton |
+| Output safety | Master compressor, per-cue cooldowns, celebration overlap suppression |
+
+The cue language is intentionally sparse: rolls charge like electrical current; correct moves and flashcards connect like synapses; opponent turns use a spatial radar pulse; defense uses a shield shimmer; mastery, session completion, and the daily goal use progressively richer orbital chords. Victory gets a full star-jump crescendo and radial cosmic burst, while defeat uses a low reactor power-down. Navigation, votes, skips, settings changes, and ordinary snackbars remain silent.
+
+The daily-goal cue is claimed once per local day through `DailyProgress.goalCelebrated`. Turning sound effects off closes the active audio context immediately. Browsers without Web Audio, pages without prior user activation, hidden tabs, and `prefers-reduced-motion` users degrade without blocking gameplay; reduced motion removes the animated victory particles independently of the sound preference.
+
+`/dev/sounds` is a noindex developer sound lab emitted directly by Quartz. It reads `GAME_SOUND_CATALOG` from the production engine, documents every cue's trigger and character, and previews cues through the same limiter, browser lifecycle, and persisted sound setting used by gameplay. Because it is emitter-backed, it does not introduce hand-edited Markdown into the generated `content/` tree.
+
+---
+
 ## State Machine Data Model
 
 BJJ Graph content represents a probabilistic state machine with **transitions as first-class nodes**:

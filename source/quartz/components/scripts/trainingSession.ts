@@ -11,6 +11,7 @@ import { loadSRSCards, getDueCards, getUpcomingCards, getMasteredCards } from ".
 import type { SRSCard } from "./srs"
 import { loadSettings, loadDailyProgress } from "./settings"
 import { loadExplored } from "./explored"
+import { playGameSound } from "./gameAudio"
 
 // ── Types ─────────────────────────────────────────────────────────────────
 
@@ -584,6 +585,7 @@ export async function startOrResumeSession(
   const page = session.pages[session.currentIndex]
   if (!page) return
 
+  playGameSound("session-start")
   const url = new URL(page.slug, window.location.toString())
   slideNavigate(url, "forward")
 }
@@ -718,6 +720,7 @@ export function completeSession() {
   clearSession()
   sessionStorage.setItem(SESSION_COMPLETE_KEY, "true")
   document.body.removeAttribute("data-training-active")
+  playGameSound("session-complete")
 
   const showSnackbar = (window as any).showSnackbar as
     | ((opts: { type: string; message: string }) => void)

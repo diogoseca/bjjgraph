@@ -10,6 +10,7 @@ function safeRelPath(p: string): string {
 import { loadSettings, saveSettings } from "./settings"
 import type { GameMode } from "./settings"
 import { findCard, isMastered } from "./srs"
+import { playGameSound } from "./gameAudio"
 import {
   fetchExplorerTree,
   appendToRollHistory,
@@ -447,6 +448,7 @@ let currentModifier = 0
 function triggerOpponentTurn(positionData: PositionPageData, currentPath: string) {
   const oppMoves = positionData.opponentTransitions
   if (!oppMoves || oppMoves.length === 0) {
+    playGameSound("defend")
     const showSnackbar = (window as any).showSnackbar
     if (showSnackbar) {
       showSnackbar({ type: "failure", message: "Move defended! Your turn again." })
@@ -494,6 +496,7 @@ function showOpponentOverlay(
   `
   overlay.appendChild(panel)
   document.body.appendChild(overlay)
+  playGameSound("opponent-alert")
 
   // Show result after 1.5s
   setTimeout(() => {
@@ -506,9 +509,13 @@ function showOpponentOverlay(
           ? `${displayName(move.technique)} locked in!`
           : `${displayName(move.technique)} succeeds!`
       resultEl.classList.add("opponent-success")
+      playGameSound(
+        move.isSubmission || move.successOutcome === "game-over" ? "defeat" : "opponent-hit",
+      )
     } else {
       resultEl.textContent = "You defended!"
       resultEl.classList.add("opponent-defended")
+      playGameSound("defend")
     }
     resultEl.style.display = "block"
 
@@ -596,6 +603,7 @@ async function executeTransition(
   positionData?: PositionPageData,
 ) {
   // Roll the dice (apply mastery modifier from position page)
+  playGameSound("roll")
   const roll = Math.random() * 100
   const effectiveRate = Math.min(successRate + currentModifier, 100)
   const success = roll < effectiveRate
@@ -618,6 +626,7 @@ async function executeTransition(
   }
 
   if (success) {
+    playGameSound("move-success", { delay: 0.16 })
     // Build target URL
     let targetUrl: string
 
@@ -641,6 +650,9 @@ async function executeTransition(
 
     window.spaNavigate(new URL(targetUrl, window.location.toString()), false)
   } else {
+    const opponentWillRespond = !!positionData && loadSettings().gameMode === "normal"
+    if (!opponentWillRespond) playGameSound("move-failure", { delay: 0.12 })
+
     // Stay on page with failure snackbar
     const showSnackbar = (window as any).showSnackbar
     if (showSnackbar) {

@@ -282,7 +282,7 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
    - Idle, 0 due, has SRS: `All caught up · train more`
    - No SRS cards yet: `Start training`
 2. **DecksModal** — opens when user clicks the strip label. Lean: 5 deck rows (Due / Reviewing / Mastered / Suggested / Recently Explored) + sticky bottom CTA `Train Due (N) ▶` (label adapts) + ⚙ in modal header.
-3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked). Stacks above DecksModal.
+3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked, Sound Effects toggle). Stacks above DecksModal.
 4. **SessionChevrons** — fixed prev/next overlays on left/right viewport edges. Visible only when `body[data-training-active]`. Left hidden at index 0; right shows ✓ at last card (click finishes session). ArrowLeft/ArrowRight global keyboard, gated by `isTypingTarget`.
 5. **FirstLoadHint** — one-time tooltip pointing at ▶ on first visit. Auto-dismisses after 5s / Esc / any click. `localStorage["bjj-onboarded"]=true` after dismiss.
 
@@ -316,6 +316,8 @@ Client-side spaced repetition (SM-2) layered onto the always-on background graph
 - `source/quartz/components/scripts/trainingSession.ts` — shared session lifecycle (buildSessionQueue, startOrResumeSession, advanceSession, reverseSession, stopSession, completeSession, slideNavigate)
 - `source/quartz/components/scripts/srs.ts` — SRS card storage, SM-2 algorithm, `bjj-srs-cards`
 - `source/quartz/components/scripts/settings.ts` — `bjj-settings`, `bjj-daily-progress`, `bjj-streak`
+- `source/quartz/components/scripts/gameAudio.ts` — synthesized neural/space gameplay cues, lazy Web Audio singleton, cue cooldowns
+- `source/quartz/components/SoundLab.tsx` + `scripts/soundLab.inline.ts` — `/dev/sounds` contextual cue catalog and production-engine previews
 - `source/quartz/components/FlashcardsHeader.tsx` + `scripts/flashcardsHeader.inline.ts` — strip UI + label state machine
 - `source/quartz/components/DecksModal.tsx` + `scripts/decksModal.inline.ts` — deck overview modal + sticky CTA
 - `source/quartz/components/SettingsModal.tsx` + `scripts/settingsModal.inline.ts` — two-tab settings modal

@@ -39,6 +39,7 @@ import SessionChevrons from "./SessionChevrons"
 import RollSessionButton from "./RollSessionButton"
 import SystemProgress from "./SystemProgress"
 import AffiliateTracking from "./AffiliateTracking"
+import SoundLab from "./SoundLab"
 
 export {
   ArticleTitle,
@@ -82,4 +83,5 @@ export {
   RollSessionButton,
   SystemProgress,
   AffiliateTracking,
+  SoundLab,
 }

@@ -7,12 +7,14 @@ export interface BJJSettings {
   gameMode: GameMode
   dailyGoal: number
   showFlashcards: boolean
+  soundEnabled: boolean
 }
 
 export interface DailyProgress {
   date: string // "YYYY-MM-DD"
   learned: number
   reviewed: number
+  goalCelebrated: boolean
 }
 
 export interface StreakData {
@@ -34,6 +36,7 @@ export const DEFAULT_SETTINGS: BJJSettings = {
   gameMode: "off",
   dailyGoal: 30,
   showFlashcards: true,
+  soundEnabled: true,
 }
 
 const today = localDateKey
@@ -52,13 +55,14 @@ export function loadDailyProgress(): DailyProgress {
           date: today(),
           learned: intGE0(parsed.learned, 0),
           reviewed: intGE0(parsed.reviewed, 0),
+          goalCelebrated: parsed.goalCelebrated === true,
         }
       }
     }
   } catch {
     // corrupt data
   }
-  return { date: today(), learned: 0, reviewed: 0 }
+  return { date: today(), learned: 0, reviewed: 0, goalCelebrated: false }
 }
 
 export function saveDailyProgress(progress: DailyProgress) {
@@ -87,6 +91,17 @@ export function incrementReviewed() {
   saveDailyProgress(p)
 }
 
+export function claimDailyGoalAchievement(): boolean {
+  const progress = loadDailyProgress()
+  if (progress.goalCelebrated || progress.learned + progress.reviewed < loadSettings().dailyGoal) {
+    return false
+  }
+
+  progress.goalCelebrated = true
+  saveDailyProgress(progress)
+  return true
+}
+
 // Clamp/repair a parsed settings object over the defaults so callers always get
 // a usable BJJSettings (sane dailyGoal range, valid gameMode enum).
 function sanitizeSettings(parsed: Partial<BJJSettings>): BJJSettings {
@@ -100,6 +115,7 @@ function sanitizeSettings(parsed: Partial<BJJSettings>): BJJSettings {
     merged.gameMode = DEFAULT_SETTINGS.gameMode
   }
   merged.showFlashcards = !!merged.showFlashcards
+  merged.soundEnabled = merged.soundEnabled !== false
   return merged
 }
 

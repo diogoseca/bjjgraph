@@ -460,6 +460,7 @@ export async function pullFromCloud(): Promise<boolean> {
         date: localProgress.date,
         learned: Math.max(localProgress.learned, cloudProgress.learned || 0),
         reviewed: Math.max(localProgress.reviewed, cloudProgress.reviewed || 0),
+        goalCelebrated: localProgress.goalCelebrated || cloudProgress.goalCelebrated === true,
       })
     }
 

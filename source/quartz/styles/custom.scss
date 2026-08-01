@@ -832,8 +832,24 @@ body[data-slug="index"] #training-summary-home {
     margin-bottom: 1rem;
   }
 
-  &.victory h2 {
-    color: #2e7d32;
+  &.victory {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    border: 1px solid color-mix(in srgb, #8eeeff 24%, var(--lightgray));
+    border-radius: 18px;
+    background: radial-gradient(circle at 50% -10%, rgba(128, 170, 255, 0.13), transparent 42%),
+      var(--light);
+
+    > *:not(#victory-effect) {
+      position: relative;
+      z-index: 1;
+    }
+
+    h2 {
+      color: color-mix(in srgb, var(--secondary) 72%, #8eeeff);
+      text-shadow: 0 0 22px rgba(142, 238, 255, 0.22);
+    }
   }
 
   &.defeat h2 {
@@ -1112,31 +1128,102 @@ body[data-slug="index"] #training-summary-home {
   }
 }
 
-// Confetti container
-#confetti-container {
+// Neural star-jump burst, synchronized with the victory sound.
+#victory-effect {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -2rem;
+  left: 50%;
   width: 100%;
-  height: 200px;
+  height: 270px;
+  transform: translateX(-50%);
   overflow: hidden;
   pointer-events: none;
+  z-index: 0;
+  mask-image: linear-gradient(to bottom, black 0%, black 68%, transparent 100%);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 42%;
+    width: 38px;
+    height: 38px;
+    border: 1px solid rgba(217, 251, 255, 0.8);
+    border-radius: 50%;
+    box-shadow:
+      0 0 22px rgba(142, 238, 255, 0.55),
+      inset 0 0 18px rgba(128, 170, 255, 0.3);
+    transform: translate(-50%, -50%) scale(0.3);
+    animation: victory-core-pulse 1.2s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+  }
 }
 
-// Confetti animation
-@keyframes confetti-fall {
+.victory-star {
+  --star-angle: 0deg;
+  --star-distance: 180px;
+  --star-delay: 0s;
+  --star-duration: 1.1s;
+  --star-color: #d9fbff;
+
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  display: block;
+  opacity: 0;
+  background: linear-gradient(90deg, transparent, var(--star-color));
+  box-shadow: 0 0 9px var(--star-color);
+  transform-origin: left center;
+  animation: victory-star-flight var(--star-duration) cubic-bezier(0.22, 1, 0.36, 1)
+    var(--star-delay) forwards;
+
+  &.victory-star--streak {
+    width: 24px;
+    height: 1px;
+  }
+
+  &.victory-star--spark {
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: var(--star-color);
+  }
+}
+
+@keyframes victory-star-flight {
   0% {
-    transform: translateY(0) rotate(0deg);
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(var(--star-angle)) translateX(0) scaleX(0.15);
+  }
+  18% {
+    opacity: 0.95;
+  }
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -50%) rotate(var(--star-angle)) translateX(var(--star-distance))
+      scaleX(1.35);
+  }
+}
+
+@keyframes victory-core-pulse {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -50%) scale(0.25);
+  }
+  35% {
     opacity: 1;
   }
   100% {
-    transform: translateY(300px) rotate(720deg);
     opacity: 0;
+    transform: translate(-50%, -50%) scale(4.8);
   }
 }
 
-.confetti-piece {
-  position: absolute;
+@media (prefers-reduced-motion: reduce) {
+  #victory-effect::before {
+    opacity: 0.35;
+    transform: translate(-50%, -50%) scale(2.2);
+    animation: none;
+  }
 }
 
 // ============================================================================
