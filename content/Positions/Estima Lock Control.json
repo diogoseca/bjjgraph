@@ -274,7 +274,7 @@
     "transitions": [
       {
         "transition": "Estima Lock from Estima Lock Control",
-        "attempt_probability": 39
+        "attempt_probability": 41
       },
       {
         "transition": "Estima Lock to Saddle",
@@ -291,10 +291,6 @@
       {
         "transition": "Toe Hold from Estima Lock",
         "attempt_probability": 19
-      },
-      {
-        "transition": "Estima Lock",
-        "attempt_probability": 2
       }
     ],
     "flashcards": [
