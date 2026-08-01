@@ -1,4 +1,5 @@
 import { longQuestion } from "./fixtures.js";
+import { productionSource } from "./production-sources.js";
 import { gameScreen } from "./screen-renderers.js";
 
 const make = (
@@ -20,6 +21,7 @@ const make = (
       typeof state === "function" ? state(variant, context) : state,
       context,
     ),
+  production: productionSource("screen", id, group),
   notes: {
     source: notes.source || "Shared Forward Components composition",
     behavior:
@@ -453,12 +455,12 @@ export const screenItems = [
   ),
   make(
     "pane-left-progress",
-    "Pane · left Progress open",
+    "Pane · Belt Path score focus",
     "Pane compositions",
-    "Overall category and belt mastery in a focused left progress rail.",
+    "Game knowledge, belts, stripes, and lesson mastery inside the production PATH rail.",
     {
       ...baseRoll,
-      leftPanel: "progress",
+      leftPanel: "path",
       progressMode: "overview",
       paused: true,
     },
@@ -505,12 +507,12 @@ export const screenItems = [
   ),
   make(
     "panes-both-progress-study",
-    "Panes · Progress + study",
+    "Panes · PATH progress + study",
     "Pane compositions",
-    "Overall mastery and selected-technique recall shown simultaneously.",
+    "Production PATH progress and selected-technique recall shown simultaneously.",
     {
-      leftPanel: "progress",
-      progressMode: "technique",
+      leftPanel: "path",
+      pathState: "progress",
       rightPanel: "drill",
       panelState: "revealed",
       paused: true,
@@ -519,10 +521,10 @@ export const screenItems = [
 
   make(
     "restart-confirm-active",
-    "Restart · active decision",
+    "Restart · triggered during decision",
     "Restart & terminal",
-    "Reset confirmation identifies the current node and preserves training progress.",
-    { ...landing, restartState: "confirm", paused: true },
+    "Restart fires immediately from a live decision; there is no confirmation dialog.",
+    { ...landing, restartState: "triggered", paused: true },
   ),
   make(
     "restart-mid-defense",
@@ -533,26 +535,22 @@ export const screenItems = [
   ),
   make(
     "restart-study-open",
-    "Restart · study pane open",
+    "Restart · study pane remains open",
     "Restart & terminal",
-    "Restart confirmation above a manually opened right pane without resetting mastery.",
+    "Immediate restart feedback above a user-opened study pane without resetting mastery.",
     {
       rightPanel: "drill",
       panelState: "home",
-      restartState: "confirm",
+      restartState: "triggered",
       paused: true,
     },
   ),
   make(
     "restart-complete",
-    "Restart · new roll ready",
+    "Restart · engine reset",
     "Restart & terminal",
     "Fresh-roll boundary after every live exchange has been disarmed.",
-    {
-      result: "reset",
-      resultDetail: "Exchange state cleared · progress preserved",
-      showTransport: false,
-    },
+    { restartState: "restarting", showTransport: false, showWinBar: false },
   ),
   make(
     "game-over-submission",
@@ -619,24 +617,32 @@ export const screenItems = [
   ),
   make(
     "end-stripe",
-    "Roll end · stripe gained",
+    "Path update · stripe gained",
     "Roll end",
-    "Knowledge score and lesson crown update after the verdict.",
-    { ladderState: "stripe", paused: true },
+    "The production PATH reflects a new proof stripe after the roll.",
+    {
+      leftPanel: "path",
+      pathState: "progress",
+      paused: true,
+    },
   ),
   make(
     "end-belt",
-    "Roll end · belt earned",
+    "Path update · belt earned",
     "Roll end",
-    "Belt test completion; degrees remain display-only proof.",
-    { ladderState: "belt", paused: true },
+    "The production PATH reflects the belt test win; degrees remain display-only proof.",
+    {
+      leftPanel: "path",
+      pathState: "mastered",
+      paused: true,
+    },
   ),
   make(
     "progress-saved",
-    "Progress · saved nudge",
+    "Progress · PATH updated",
     "Progress & mastery",
-    "Non-blocking prompt asks for study without opening the right pane automatically.",
-    { ...baseRoll, progressState: "saved" },
+    "Mastery updates the production PATH without opening the right pane or inventing a toast.",
+    { leftPanel: "path", pathState: "progress", paused: true },
   ),
   make(
     "progress-demoted",
@@ -644,18 +650,17 @@ export const screenItems = [
     "Progress & mastery",
     "Wrong recall can lower the score, belt, and proof stripes; time alone never does.",
     {
-      leftPanel: "progress",
-      progressMode: "overview",
-      progressState: "demoted",
+      leftPanel: "path",
+      pathState: "demoted",
       paused: true,
     },
   ),
   make(
     "progress-technique",
-    "Progress · selected technique",
+    "Flashcards · selected technique",
     "Progress & mastery",
-    "Per-technique recognition and recall stages for the selected node and role.",
-    { leftPanel: "progress", progressMode: "technique", paused: true },
+    "Per-technique recognition and recall stages live in the selected Flashcards lesson.",
+    { rightPanel: "drill", panelState: "revealed", paused: true },
   ),
   make(
     "path-new-player",
@@ -849,7 +854,7 @@ export const screenItems = [
   ),
   make(
     "dossier-seo",
-    "Dossier · SEO / AI text",
+    "Dossier · SEO / AI output only",
     "Explorer & path",
     "Answer-first text projection from the canonical content model.",
     { detail: "seo", paused: true },
@@ -892,10 +897,10 @@ export const screenItems = [
   ),
   make(
     "account-menu",
-    "Account · menu",
+    "Account · Flashcards home",
     "Settings & account",
-    "Guest account menu before authentication.",
-    { accountOpen: true, paused: true },
+    "The account chip opens Flashcards home; settings and authentication start there.",
+    { rightPanel: "drill", panelState: "home", paused: true },
   ),
   make(
     "auth-sign-in",

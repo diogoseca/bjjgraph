@@ -1,4 +1,4 @@
-import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
+import { access, cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -7,6 +7,8 @@ import {
   useCases,
   userJourneys,
 } from "../forward/shared/sequence-registry.js";
+import { componentItems } from "../forward/shared/component-registry.js";
+import { screenItems } from "../forward/shared/screen-registry.js";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const source = resolve(root, "forward");
@@ -21,6 +23,7 @@ function validateSequences(items, label) {
         `[forward] ${label} has a missing or duplicate id: ${item.id}`,
       );
     }
+
     ids.add(item.id);
     const frames = framesFor(item);
     if (frames.length < 2) {
@@ -50,8 +53,43 @@ function validateSequences(items, label) {
   }
 }
 
+async function validateRegistry(items, label) {
+  const ids = new Set();
+  for (const item of items) {
+    if (!item.id || ids.has(item.id)) {
+      throw new Error(
+        `[forward] ${label} has a missing or duplicate id: ${item.id}`,
+      );
+    }
+    ids.add(item.id);
+    const production = item.production;
+    if (
+      !production ||
+      !["runtime", "output-only"].includes(production.classification) ||
+      !production.files?.length ||
+      !production.symbols?.length ||
+      !production.handles?.length
+    ) {
+      throw new Error(
+        `[forward] ${label} "${item.id}" is missing production provenance`,
+      );
+    }
+    for (const file of production.files) {
+      try {
+        await access(resolve(root, file));
+      } catch {
+        throw new Error(
+          `[forward] ${label} "${item.id}" references missing production source ${file}`,
+        );
+      }
+    }
+  }
+}
+
 validateSequences(useCases, "use case");
 validateSequences(userJourneys, "user journey");
+await validateRegistry(componentItems, "component");
+await validateRegistry(screenItems, "screen");
 
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
@@ -60,6 +98,16 @@ await cp(source, output, {
   filter: (path) =>
     !path.endsWith(".DS_Store") && path !== resolve(source, "package.json"),
 });
+
+const helmet = await readFile(resolve(root, "neural/src/helmet.html"), "utf8");
+const productionStyles = helmet.match(/<style>([\s\S]*?)<\/style>/)?.[1];
+if (!productionStyles) {
+  throw new Error("[forward] Unable to derive Neural production styles");
+}
+await writeFile(
+  resolve(output, "shared/neural-production.css"),
+  `${productionStyles.trim()}\n`,
+);
 
 const graph = JSON.parse(await readFile(graphPath, "utf8"));
 const roleLabels = {

@@ -688,7 +688,14 @@ export const useCases = [
         160,
         "Edge tab pulses",
         "save_hint",
-        { ...roll, progressState: "saved" },
+        {
+          ...roll,
+          toast: {
+            kicker: "SAVE YOUR PROGRESS",
+            text: "Open flashcards to keep it",
+            tone: "neutral",
+          },
+        },
         "tab-pulse",
         0.2,
       ),
@@ -791,12 +798,11 @@ export const useCases = [
       ),
       frame(
         1740,
-        "Stripe notification",
+        "Proof stripe updates in PATH",
         "stripe_earned",
         {
           leftPanel: "path",
           pathState: "mastered",
-          progressState: "saved",
           paused: true,
         },
         "toast-enter",
@@ -857,8 +863,8 @@ export const useCases = [
         1260,
         "Checkpoint passes",
         "checkpoint_passed",
-        { ladderState: "stripe", paused: true },
-        "victory-flare",
+        { leftPanel: "path", pathState: "progress", paused: true },
+        "beacon",
         0.76,
       ),
       frame(
@@ -873,7 +879,11 @@ export const useCases = [
         1880,
         "Belt test won",
         "belt_test_won",
-        { ladderState: "belt", paused: true },
+        {
+          result: "victory",
+          resultDetail: "White belt test · won on points",
+          paused: true,
+        },
         "victory-flare",
         0.94,
       ),
@@ -1239,9 +1249,16 @@ export const useCases = [
       ),
       frame(
         1920,
-        "Progress saved",
+        "Save prompt",
         "save_hint",
-        { ...roll, progressState: "saved" },
+        {
+          ...roll,
+          toast: {
+            kicker: "SAVE YOUR PROGRESS",
+            text: "Open flashcards to keep it",
+            tone: "neutral",
+          },
+        },
         "toast-enter",
         0.68,
       ),
@@ -1252,7 +1269,6 @@ export const useCases = [
         {
           leftPanel: "path",
           pathState: "progress",
-          ladderState: "stripe",
           paused: true,
         },
         "victory-flare",
@@ -1265,7 +1281,6 @@ export const useCases = [
         {
           leftPanel: "path",
           pathState: "mastered",
-          ladderState: "belt",
           paused: true,
         },
         "victory-flare",

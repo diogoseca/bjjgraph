@@ -5,6 +5,9 @@ const paths = {
   pause: '<path d="M9 7v10M15 7v10"></path>',
   reset:
     '<path d="M3 12a9 9 0 1 0 3-6.7L3 8"></path><path d="M3 3v5h5"></path>',
+  menu: '<path d="M4 7h16M4 12h16M4 17h16"></path>',
+  panel:
+    '<rect x="3" y="5" width="18" height="14" rx="2.5"></rect><path d="M14 5v14M6 12h5M9 9l2 3-2 3"></path>',
   close: '<path d="m7 7 10 10M17 7 7 17"></path>',
   chevron: '<path d="m9 18 6-6-6-6"></path>',
   "chevron-left": '<path d="m15 18-6-6 6-6"></path>',
