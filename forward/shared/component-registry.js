@@ -42,6 +42,7 @@ import {
 } from "./components-panels.js";
 import { longQuestion } from "./fixtures.js";
 import { icon } from "./icons.js";
+import { productionSource } from "./production-sources.js";
 
 const stage = (content, graph = false) =>
   `<div class="component-demo component-demo--screen">${graph ? graphField() : ""}${content}</div>`;
@@ -55,6 +56,7 @@ const item = (id, title, group, description, variants, render, notes = {}) => ({
   description,
   variants,
   render,
+  production: productionSource("component", id, group),
   notes: {
     source: notes.source || "Neural runtime",
     behavior:
@@ -477,10 +479,10 @@ export const componentItems = [
   ),
   item(
     "mastery-overview",
-    "Category / technique mastery",
+    "Path / lesson mastery",
     "Progress",
-    "Progress breakdown without creating a second score system.",
-    ["Categories", "Selected technique"],
+    "Production game score and selected-lesson crown without a second category score.",
+    ["Game score", "Selected technique"],
     (v, context) =>
       stack(
         masteryOverview(
@@ -491,9 +493,9 @@ export const componentItems = [
   ),
   item(
     "progress-pane",
-    "Progress left pane",
+    "Belt Path · progress focus",
     "Progress",
-    "Belt, stripe, category, and selected-technique progress in one left rail.",
+    "Production progress rendered inside Explorer PATH, not as a separate invented pane.",
     ["Overview", "Technique"],
     (v, context) =>
       stage(
@@ -542,7 +544,7 @@ export const componentItems = [
   ),
   item(
     "dossier-seo",
-    "Node dossier · SEO / AI",
+    "Node dossier · SEO / AI output only",
     "Explorer",
     "Answer-first text representation for crawlers, AI, and no-JS readers.",
     ["Definition", "Expanded"],
@@ -599,18 +601,18 @@ export const componentItems = [
   ),
   item(
     "restart-card",
-    "Restart roll state",
+    "Restart center event",
     "Overlays",
-    "Reset confirmation and the hygiene transition that clears live exchange state.",
-    ["Confirm", "Restarting"],
+    "Immediate restart feedback while the engine clears the live exchange and deals a new roll.",
+    ["Triggered", "Restarting"],
     (v, context) =>
       stage(restartCard({ state: v.toLowerCase() }, context), true),
   ),
   item(
     "progress-nudge",
-    "Progress nudge",
+    "Path score update",
     "Feedback",
-    "Non-blocking saved-progress or tested-forgetting feedback.",
+    "Production PATH score after mastery gains or tested forgetting; not a runtime toast.",
     ["Saved", "Demoted"],
     (v) => stage(progressNudge({ type: v.toLowerCase() }), true),
   ),

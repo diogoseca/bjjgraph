@@ -1,4 +1,5 @@
 import { devices, loadEntities } from "./catalog.js";
+import { initCatalogRail } from "./catalog-rail.js";
 import { fallbackEntities, resolveEntityContext } from "./fixtures.js";
 import { icon } from "./icons.js";
 import { framesFor } from "./sequence-registry.js";
@@ -69,9 +70,12 @@ export async function mountSequenceCatalog({ kind, items, version }) {
     <header class="catalog-header">
       <a class="catalog-brand" href="/dev/"><span class="catalog-mark">◈</span><span>Forward Components <small>BJJGraph</small></span></a>
       ${renderRoutes(kind)}
+      <button class="catalog-rail-toggle" type="button" aria-label="Browse ${routeNames[kind]}" aria-controls="catalog-rail" aria-expanded="false">${icon("menu", 17)}<span>Browse ${routeNames[kind]}</span></button>
       <span class="catalog-version">v${version} · dev only</span>
     </header>
-    <aside class="sequence-sidebar" aria-label="${routeNames[kind]} catalog">
+    <button class="catalog-rail-backdrop" type="button" aria-label="Close ${routeNames[kind]} browser" tabindex="-1"></button>
+    <aside class="sequence-sidebar catalog-rail" id="catalog-rail" aria-label="${routeNames[kind]} catalog">
+      <div class="catalog-rail-head"><div><b>${routeNames[kind]}</b><span>${items.length} browsable timelines</span></div><button class="catalog-rail-close" type="button" aria-label="Close ${routeNames[kind]} browser">${icon("close", 16)}</button></div>
       <div class="catalog-search"><label>${icon("search", 14)}<input type="search" placeholder="Filter ${routeNames[kind].toLowerCase()}…" aria-label="Filter ${routeNames[kind].toLowerCase()}" /></label></div>
       <div class="catalog-count"></div>
       <nav class="sequence-nav"></nav>
@@ -80,7 +84,6 @@ export async function mountSequenceCatalog({ kind, items, version }) {
       <section class="sequence-intro">
         <div><div class="catalog-eyebrow"></div><h1 class="catalog-title"></h1><p class="catalog-description"></p><div class="catalog-meta"></div></div>
         <div class="sequence-config">
-          <label class="mobile-sequence-picker"><span>${kind === "use-cases" ? "Use case" : "User journey"}</span><select aria-label="${kind === "use-cases" ? "Preview use case" : "Preview user journey"}" class="variant-select mobile-sequence-select"></select></label>
           <label><span>Node</span><select aria-label="Preview node" class="variant-select entity-select"></select></label>
           <label><span>Role</span><select aria-label="Preview role" class="variant-select role-select"></select></label>
           <label><span>Viewport</span><select aria-label="Preview viewport" class="variant-select viewport-select"></select></label>
@@ -110,7 +113,6 @@ export async function mountSequenceCatalog({ kind, items, version }) {
     title: app.querySelector(".catalog-title"),
     description: app.querySelector(".catalog-description"),
     meta: app.querySelector(".catalog-meta"),
-    mobileItem: app.querySelector(".mobile-sequence-select"),
     entity: app.querySelector(".entity-select"),
     role: app.querySelector(".role-select"),
     viewport: app.querySelector(".viewport-select"),
@@ -124,7 +126,19 @@ export async function mountSequenceCatalog({ kind, items, version }) {
     caption: app.querySelector(".sequence-caption"),
     chapters: app.querySelector(".sequence-chapters"),
     timeline: app.querySelector(".sequence-timeline"),
+    rail: app.querySelector("#catalog-rail"),
+    railToggle: app.querySelector(".catalog-rail-toggle"),
+    railClose: app.querySelector(".catalog-rail-close"),
+    railBackdrop: app.querySelector(".catalog-rail-backdrop"),
   };
+
+  initCatalogRail({
+    rail: refs.rail,
+    toggle: refs.railToggle,
+    close: refs.railClose,
+    backdrop: refs.railBackdrop,
+    nav: refs.nav,
+  });
 
   function item() {
     return items.find((entry) => entry.id === state.itemId) || items[0];
@@ -210,12 +224,6 @@ export async function mountSequenceCatalog({ kind, items, version }) {
     refs.nav
       .querySelector(`[data-id="${state.itemId}"]`)
       ?.scrollIntoView({ block: "nearest" });
-    refs.mobileItem.innerHTML = items
-      .map(
-        (entry) =>
-          `<option value="${entry.id}" ${entry.id === state.itemId ? "selected" : ""}>${entry.title}</option>`,
-      )
-      .join("");
   }
 
   function renderViewport() {
@@ -352,11 +360,6 @@ export async function mountSequenceCatalog({ kind, items, version }) {
     const button = event.target.closest("[data-id]");
     if (!button) return;
     state.itemId = button.dataset.id;
-    state.step = 0;
-    renderSelection();
-  });
-  refs.mobileItem.addEventListener("change", () => {
-    state.itemId = refs.mobileItem.value;
     state.step = 0;
     renderSelection();
   });

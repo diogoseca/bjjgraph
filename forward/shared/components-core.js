@@ -1,242 +1,304 @@
-import {
-  clips,
-  defaultContext,
-  question as defaultQuestion,
-  techniques,
-} from "./fixtures.js";
+import { defaultContext } from "./fixtures.js";
 import { icon } from "./icons.js";
+import { escapeHtml } from "./utils.js";
 
-export function graphField({ active = true, sparse = false } = {}) {
-  const dots = sparse
-    ? [
-        ["position", 34, 38],
-        ["transition", 56, 54],
-        ["submission", 73, 36],
-      ]
-    : [
-        ["position", 15, 58],
-        ["transition", 22, 42],
-        ["position", 31, 65],
-        ["transition", 42, 36],
-        ["position", 50, 55],
-        ["transition", 60, 42],
-        ["submission", 69, 65],
-        ["position", 78, 49],
-        ["transition", 87, 63],
-        ["position", 40, 76],
-        ["transition", 59, 79],
-      ];
-  return `<div class="graph-field" aria-hidden="true">
-    ${dots
-      .map(
-        ([type, x, y]) =>
-          `<i class="graph-node graph-node--${type}" style="left:${x}%;top:${y}%"></i>`,
-      )
-      .join("")}
-    ${
-      active
-        ? '<i class="graph-node graph-node--active" style="left:calc(50% - 22px);top:calc(51% - 22px)">YOU</i>'
-        : ""
-    }
+function copy(context = defaultContext) {
+  return {
+    name: escapeHtml(context.name),
+    role: escapeHtml(context.roleLabel),
+    origin: escapeHtml(context.origin),
+    definition: escapeHtml(context.definition),
+  };
+}
+
+function categoryGlyph(category, number = 1) {
+  const shape =
+    category === "Submission"
+      ? '<path d="M10 2.6 17.6 16.6H2.4Z"></path>'
+      : category === "Position"
+        ? '<circle cx="10" cy="10" r="7.7"></circle>'
+        : '<path d="M10 1.9 18.1 10 10 18.1 1.9 10Z"></path>';
+  return `<span class="ng-category-glyph" aria-hidden="true"><svg viewBox="0 0 20 20">${shape}<text x="10" y="11">${number}</text></svg></span>`;
+}
+
+const GRAPH_NODES = Array.from({ length: 144 }, (_, index) => {
+  const angle = index * 2.399963;
+  const radius = 7 + ((index * 37) % 100) * 0.38;
+  const type =
+    index % 13 === 0
+      ? "submission"
+      : index % 3 === 0
+        ? "position"
+        : "transition";
+  return {
+    type,
+    x: 50 + Math.cos(angle) * radius * 1.15,
+    y: 48 + Math.sin(angle) * radius * 0.75,
+  };
+});
+
+const GRAPH_LINKS = GRAPH_NODES.slice(1)
+  .flatMap((node, index) => {
+    const child = index + 1;
+    const parent = Math.max(0, Math.floor((child - 1) / 2));
+    const links = [[GRAPH_NODES[parent], node]];
+    if (child > 10 && child % 4 === 0)
+      links.push([GRAPH_NODES[(child * 5) % child], node]);
+    return links;
+  })
+  .map(
+    ([from, to]) =>
+      `M${from.x.toFixed(1)} ${from.y.toFixed(1)}L${to.x.toFixed(1)} ${to.y.toFixed(1)}`,
+  )
+  .join("");
+
+export function graphField({ focus = "position", muted = false } = {}) {
+  const focusIndex =
+    GRAPH_NODES.findIndex((node) => node.type === focus) >= 0
+      ? GRAPH_NODES.findIndex((node) => node.type === focus)
+      : 0;
+  return `<div class="graph-field ng-graph ${muted ? "is-muted" : ""}" data-production-selector="canvas" aria-hidden="true">
+    <div class="graph-wash"></div>
+    <svg class="graph-links" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+      <path d="${GRAPH_LINKS}"></path>
+      <path class="graph-link-hot" d="M${GRAPH_NODES[focusIndex].x.toFixed(1)} ${GRAPH_NODES[focusIndex].y.toFixed(1)}L${GRAPH_NODES[(focusIndex + 17) % GRAPH_NODES.length].x.toFixed(1)} ${GRAPH_NODES[(focusIndex + 17) % GRAPH_NODES.length].y.toFixed(1)}"></path>
+    </svg>
+    ${GRAPH_NODES.map(
+      ({ type, x, y }, index) =>
+        `<i class="graph-node graph-node--${type} ${index === focusIndex ? "is-focus" : ""}" style="left:${x.toFixed(2)}%;top:${y.toFixed(2)}%">${index === focusIndex ? "<span>DEEP HALF</span>" : ""}</i>`,
+    ).join("")}
+    <div class="graph-depth"></div>
   </div>`;
 }
 
 export function brand({ compact = false } = {}) {
-  return `<div class="brand-lockup" aria-label="BJJGraph home">
-    <span>${compact ? "bjjgraph" : "bjjgraph.org"}</span>
-    <small>${icon("search", 10)} Explore /</small>
-  </div>`;
+  return `<button class="brand-lockup ng-logo ${compact ? "is-compact" : ""}" type="button" data-production-selector=".ng-logo" title="Open Explorer">
+    <span class="ng-brand-stack"><span class="ng-word">bjjgraph<span>.org</span></span><span class="ng-kbd">${icon("search", 10)} Explore <span>/</span></span></span>
+  </button>`;
 }
 
-export function accountBubble({ signedIn = false, menu = false } = {}) {
-  return `<div class="account-bubble" ${menu ? 'data-menu-open="true"' : ""}>
-    <span>${signedIn ? "Diogo" : "Guest"}</span>
-    <span class="account-avatar">${signedIn ? "D" : "G"}</span>
+export function accountBubble({ signedIn = false, open = false } = {}) {
+  return `<div class="account-bubble ng-acctwrap ${open ? "is-open" : ""}" data-production-selector=".ng-acctwrap">
+    <button class="ng-account-chip ngAcctChip" type="button" aria-expanded="${open}">
+      <span>${signedIn ? "Diogo" : "Guest"}</span>
+      <span class="account-avatar">${signedIn ? "DS" : "G"}</span>
+    </button>
   </div>`;
 }
 
 export function transport({ paused = false } = {}) {
-  return `<div class="transport" aria-label="Roll controls">
-    <button class="round-button" aria-label="${paused ? "Resume roll" : "Pause roll"}">${icon(paused ? "play" : "pause", 14)}</button>
-    <button class="round-button round-button--ghost" aria-label="Restart roll">${icon("reset", 15)}</button>
+  return `<div class="transport ng-transport" data-ng-transport data-production-selector="[data-ng-transport]">
+    <button class="transport-main" type="button" aria-label="${paused ? "Resume roll" : "Pause roll"}">${icon(paused ? "play" : "pause", 17)}</button>
+    <button type="button" aria-label="Restart roll">${icon("reset", 15)}</button>
   </div>`;
 }
 
-export function winLose({ lose = 42 } = {}) {
-  return `<div class="win-lose" style="--lose:${lose}%">
-    <div class="win-lose-track"><span></span><span></span><i class="win-lose-pin"></i></div>
-    <div class="win-lose-labels"><span>Lose</span><span>Win</span></div>
+export function winLose({ value = 58 } = {}) {
+  return `<div class="win-lose ng-winbar" data-production-selector=".ng-winbar">
+    <span>LOSE</span>
+    <div class="win-track"><i style="left:${value}%"></i><b style="width:${value}%"></b></div>
+    <span>WIN</span>
   </div>`;
 }
 
 export function eventToast({
-  kicker = "NOT QUITE",
-  text = "−4% on this exchange",
-  tone = "danger",
+  kicker = "YOUR TURN",
+  text = "Choose a move",
+  tone = "info",
 } = {}) {
-  return `<div class="event-toast" data-tone="${tone}" role="status">
-    <small>${kicker}</small><b>${text}</b>
+  return `<div class="event-toast ng-event ng-evtoast tone-${tone}" data-production-selector=".ng-evtoast" role="status" aria-live="polite">
+    <b>${escapeHtml(kicker)}</b>
+    <span>${escapeHtml(text)}</span>
   </div>`;
 }
 
-export function legend() {
-  return `<div class="legend" aria-label="Graph legend">
-    <span><i></i>Position</span><span><i></i>Transition</span><span><i></i>Submission</span>
+export function legend({ value = 58 } = {}) {
+  return `<div class="graph-legend ng-legend" data-production-selector=".ng-legend">
+    <div class="legend-labels"><span>YOU</span><span>OPPONENT</span></div>
+    <div class="legend-track"><i style="left:${value}%"></i><b style="left:${value}%"></b></div>
+    <div class="legend-key"><span><i class="circle"></i>Position</span><span><i class="diamond"></i>Transition</span><span><i class="triangle"></i>Submission</span></div>
   </div>`;
 }
 
-export function odds(value = 35) {
-  return `<div class="odds" style="--odds:${value}%">
-    <div class="odds-label"><span>Success rate</span><strong>${value}%</strong></div>
-    <div class="odds-track"><span></span></div>
+export function odds({ value = 46, label = "Success rate" } = {}) {
+  const tone = value >= 60 ? "good" : value >= 38 ? "mid" : "bad";
+  return `<div class="odds-block" data-production-selector=".ngodds">
+    <span>${escapeHtml(label)}</span>
+    <b class="ngodds odds-${tone}">${value}%</b>
   </div>`;
 }
 
-export function optionCard(item = techniques[0], state = "default") {
-  return `<article class="option-card" data-state="${state}">
-    <small>${item.eyebrow}</small>
-    <b>${item.name}</b>
-    <p>${item.path}</p>
-    ${odds(item.odds)}
-  </article>`;
-}
-
-export function optionTray(
-  { count = 4, selected = -1, expired = -1, hidden = false } = {},
-  context = defaultContext,
+export function optionCard(
+  technique,
+  { selected = false, expired = false, compact = false, index = 1 } = {},
 ) {
-  if (hidden) return "";
-  return `<div class="option-tray" aria-label="Available techniques">
-    ${(context.techniques || techniques)
-      .slice(0, count)
-      .map((item, index) =>
-        optionCard(
-          item,
-          index === selected
-            ? "selected"
-            : index === expired
-              ? "expired"
-              : "default",
-        ),
-      )
-      .join("")}
-  </div>`;
+  const category =
+    technique.eyebrow === "Submission"
+      ? "Submission"
+      : technique.eyebrow === "Position"
+        ? "Position"
+        : "Transition";
+  const potential = Math.round((technique.odds - 40) / 2);
+  return `<button class="option-card ng-option-card ${selected ? "is-selected" : ""} ${expired ? "is-expired" : ""} ${compact ? "is-compact" : ""}" type="button" data-tech="${escapeHtml(technique.name)}" data-production-selector="[data-tech]">
+    <span class="option-card-head">${categoryGlyph(category, index)}<span>${category}</span><b>${potential >= 0 ? "+" : ""}${potential}</b></span>
+    <strong>${escapeHtml(technique.name)}</strong>
+    <small>${escapeHtml(technique.path.split("→")[0]?.trim() || "")}</small>
+    <span class="option-outcome">&rarr; ${escapeHtml(technique.path.split("→").at(-1)?.trim() || "next state")}</span>
+    ${odds({ value: technique.odds })}
+    <i class="ngbar" style="--decision-progress:${expired ? 0 : selected ? 0.42 : 0.78}"></i>
+  </button>`;
 }
 
-export function filmStrip({ count = 2 } = {}, context = defaultContext) {
-  return `<div class="film-strip" aria-label="Film study clips">
-    ${(context.clips || clips)
-      .slice(0, count)
-      .map(
-        (clip) => `<div class="film-card">${clip.title}<br />${clip.by}</div>`,
+export function optionTray({
+  count = 4,
+  selected = -1,
+  expired = false,
+  mode = "normal",
+  context = defaultContext,
+} = {}) {
+  const source = context.techniques?.length
+    ? context.techniques
+    : defaultContext.techniques;
+  const cards = Array.from(
+    { length: Math.min(count, Math.max(1, source.length)) },
+    (_, index) => source[index % source.length],
+  );
+  return `<div class="option-tray ng-optionrow ${mode === "defense" ? "is-defense" : ""}" data-production-selector=".ng-optionrow">
+    ${cards
+      .map((technique, index) =>
+        optionCard(technique, {
+          selected: selected === index,
+          expired,
+          index: index + 1,
+        }),
       )
       .join("")}
   </div>`;
 }
 
 export function questionBlock({
-  data = defaultQuestion,
-  state = "default",
-  visibleAnswers = 3,
+  state = "unanswered",
+  compact = false,
+  question,
 } = {}) {
-  return `<div class="question-block" data-question-state="${state}">
-    <p class="question-copy">${data.prompt}</p>
-    <div class="answer-list">
-      ${data.answers
-        .slice(0, visibleAnswers)
+  const fixture = question || defaultContext.question;
+  return `<div class="question-block ${compact ? "is-compact" : ""}" data-production-selector="[data-land-q]">
+    <div class="question-kicker">Choose one</div>
+    <p>${escapeHtml(fixture.prompt)}</p>
+    <div class="answer-grid" role="radiogroup" aria-label="Answer options">
+      ${fixture.answers
         .map((answer, index) => {
-          let answerState = "";
-          if (state === "correct" && index === data.correct)
-            answerState = "correct";
-          if (state === "wrong" && index === 1) answerState = "wrong";
-          return `<div class="answer" ${answerState ? `data-state="${answerState}"` : ""}>
-            <span class="answer-key">${String.fromCharCode(65 + index)}</span><span>${answer}</span>
-          </div>`;
+          const result =
+            state === "correct" && index === fixture.correct
+              ? "correct"
+              : state === "wrong" && index === 0
+                ? "trap"
+                : "";
+          return `<button type="button" role="radio" aria-checked="${result === "correct"}" data-land-mc-opt="${index}" ${result ? `data-mc-result="${result}"` : ""}><b>${String.fromCharCode(65 + index)}</b><span>${escapeHtml(answer)}</span></button>`;
         })
         .join("")}
     </div>
   </div>`;
 }
 
-export function landingCard(
-  {
-    question,
-    questionState = "default",
-    showQuestion = true,
-    showFilm = true,
-    density = "default",
-    priority = "default",
-    status = "met",
-  } = {},
-  context = defaultContext,
-) {
-  const mark =
-    status === "proven"
-      ? "● recall-proven"
-      : status === "new"
-        ? "○ new"
-        : "◐ met";
-  const activeQuestion = question || context.question || defaultQuestion;
-  return `<section class="landing-card" data-density="${density}" data-priority="${priority}" aria-label="Current ${context.type.toLowerCase()}">
-    <div class="landing-identity"><b>${context.name}</b><span>· from ${context.origin}</span><span>· ${context.roleLabel}</span><span class="mastery-dot">${mark}</span></div>
-    <p class="landing-definition">${context.definition}</p>
-    ${showFilm ? filmStrip({}, context) : ""}
-    ${showQuestion ? questionBlock({ data: activeQuestion, state: questionState }) : ""}
-    <span class="landing-more">More ▸</span>
+export function filmStrip({
+  compact = false,
+  clips,
+  title = "Film study",
+} = {}) {
+  const source = clips?.length ? clips : defaultContext.clips;
+  return `<section class="film-strip ng-film" data-production-selector=".ng-clip">
+    <div class="film-heading"><span>${escapeHtml(title)}</span><small>${source.length} clips</small></div>
+    <div class="film-row">
+      ${source
+        .slice(0, compact ? 1 : 3)
+        .map(
+          (
+            clip,
+            index,
+          ) => `<button class="film-card ng-clip" type="button" aria-label="Play ${escapeHtml(clip.title)}">
+            <span class="film-thumb film-thumb--${index + 1}">${icon("play", 16)}</span>
+            <span><b>${escapeHtml(clip.title)}</b><small>${escapeHtml(clip.by)}</small></span>
+          </button>`,
+        )
+        .join("")}
+    </div>
   </section>`;
 }
 
-export function drillTab({ count = 5, compact = false } = {}) {
-  return `<div class="drill-tab" aria-label="Open flashcards">
-    <span style="color:#9ab0e0">${icon("bolt", 16)}</span>
-    <div><b>${count} cards to master</b><small>Drill to boost your odds →</small></div>
-    ${compact ? `<b>${count}</b>` : ""}
+export function landingCard(
+  {
+    status = "new",
+    question = defaultContext.question,
+    questionState = "unanswered",
+    showQuestion = true,
+    showFilm = true,
+    compact = false,
+    density = "default",
+    priority = "default",
+    layout = "full",
+    mode = "land",
+  } = {},
+  context = defaultContext,
+) {
+  const isCompact = compact || density === "compact";
+  const text = copy(context);
+  const statusMark =
+    status === "proven"
+      ? ["●", "recall-proven"]
+      : status === "met"
+        ? ["◐", "met"]
+        : ["○", "new"];
+  const identity = `<div class="landing-identity" data-land-id>
+    <span class="status-mark is-${status}">${statusMark[0]}</span>
+    <div><strong>${text.name}</strong><small><b>${text.role}</b> · from ${text.origin} · ${statusMark[1]}</small></div>
   </div>`;
+  if (layout === "identity")
+    return `<div class="landing-identity-demo">${identity}</div>`;
+
+  return `<article class="landing-card ng-landcard ${isCompact ? "is-compact" : ""}" data-landcard="${mode}" data-density="${isCompact ? "compact" : "default"}" data-priority="${priority}" data-production-selector=".ng-landcard">
+    ${identity}
+    ${isCompact ? "" : `<p class="landing-definition" data-land-def>${text.definition}</p>`}
+    ${showFilm ? `<div data-land-film>${filmStrip({ compact: true, clips: context.clips })}</div>` : ""}
+    ${showQuestion ? `<div class="landing-question" data-land-q>${questionBlock({ state: questionState, compact: isCompact, question })}</div>` : ""}
+    <button class="landing-more" type="button" data-land-more>More <span aria-hidden="true">▸</span></button>
+  </article>`;
+}
+
+export function drillTab({ compact = false } = {}) {
+  return `<button class="study-tab ng-drilltab ${compact ? "is-compact" : ""}" type="button" data-production-selector=".ng-drilltab"><span>${icon("book", 15)}</span><span><b>Flashcards</b><small>12 due</small></span></button>`;
 }
 
 export function momentum({ combo = 3, broken = false } = {}) {
-  const colors = ["#9ad0ff", "#7ee0a8", "#e9d75a", "#ffb45a", "#ff5f6d"];
-  return `<div class="momentum" style="--combo:${colors[Math.min(combo - 2, 4)]}" ${broken ? 'data-broken="true"' : ""}>
-    <b>×${combo}</b><span>${broken ? "momentum gone" : "momentum"}</span>
+  return `<div class="momentum-chip ng-momentum ${broken ? "is-broken" : ""}" data-heat="${Math.min(5, combo - 1)}" data-production-selector=".ng-momentum">
+    <b>×${combo}</b><span>${broken ? "Momentum gone" : "Momentum"}</span>
   </div>`;
 }
 
 export function comboPop({ combo = 3 } = {}) {
   const names = {
     2: "DOUBLE COMBO!",
-    3: "TRIPLE COMBO!",
-    4: "MEGA COMBO!",
-    5: "ULTRA COMBO!",
+    3: "TRIPLE",
+    4: "MEGA",
+    5: "ULTRA",
     6: "RAMPAGE!",
-    7: "GODLIKE",
   };
-  return `<div class="combo-pop" style="--combo:${combo >= 5 ? "#ffb45a" : "#7ee0a8"}" role="status">
-    <small>×${combo} momentum</small><b>${names[Math.min(combo, 7)]}</b>
-  </div>`;
+  return `<div class="combo-pop ng-combo-pop" data-combo-pop data-heat="${Math.min(5, combo - 1)}" data-production-selector=".ng-combo-pop"><span>×${combo}</span><b>${names[combo] || "GODLIKE"}</b></div>`;
 }
 
-export function verdict({
-  result = "victory",
-  detail = "Three exchanges won",
-} = {}) {
-  const copy = {
-    victory: ["ROLL COMPLETE", "Victory"],
-    defeat: ["SUBMITTED", "Defeat"],
-    reset: ["ROLL RESET", "New roll"],
-    "game-over": ["GAME OVER", "Match ended"],
-  };
-  const [kicker, title] = copy[result] || copy.victory;
-  return `<div class="verdict" role="status">
-    <small>${kicker}</small>
-    <b>${title}</b>
-    <p>${detail}</p>
+export function verdict({ result = "victory", detail = "" } = {}) {
+  const victory = result === "victory";
+  return `<div class="roll-verdict verdict ng-evcenter is-${result}" data-production-selector=".ng-evcenter" role="status">
+    <span>${victory ? "SUBMISSION" : "TAPPED OUT"}</span>
+    <strong>${victory ? "You finished it" : "You got caught"}</strong>
+    <small>${escapeHtml(detail || (victory ? "Rear Naked Choke" : "Triangle Choke"))}</small>
   </div>`;
-}
-
-export function vignette() {
-  return '<div class="vignette" aria-hidden="true"></div>';
 }
 
 export function loader() {
-  return '<div class="loader"><div class="spinner" role="status"><span class="sr-only">Loading graph</span></div></div>';
+  return `<div class="graph-loader" data-production-selector="canvas"><span></span><b>Building the mat</b><small>Loading the BJJ state graph</small></div>`;
+}
+
+export function vignette() {
+  return '<div class="defense-vignette vignette ng-vignette" data-production-selector=".ng-vignette"></div>';
 }

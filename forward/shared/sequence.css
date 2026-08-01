@@ -25,17 +25,19 @@
 }
 
 .sequence-nav .catalog-item > span:last-child {
+  display: grid;
+  gap: 2px;
   min-width: 0;
 }
 
 .mobile-sequence-picker {
   display: none;
-  display: grid;
   gap: 3px;
 }
 
 .sequence-nav .catalog-item b,
 .sequence-nav .catalog-item small {
+  display: block;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
@@ -636,17 +638,8 @@
       "main" auto / 1fr;
   }
 
-  .sequence-sidebar {
-    display: none;
-  }
-
   .sequence-intro {
     grid-template-columns: 1fr;
-  }
-
-  .mobile-sequence-picker {
-    display: grid;
-    grid-column: 1 / -1;
   }
 }
 
