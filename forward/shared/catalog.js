@@ -5,7 +5,7 @@ import {
 } from "./fixtures.js";
 import { icon } from "./icons.js";
 
-const devices = [
+export const devices = [
   { id: "responsive", label: "Fluid", width: null, height: null },
   { id: "small", label: "320", width: 320, height: 700 },
   { id: "phone", label: "Phone", width: 393, height: 852 },
@@ -35,7 +35,7 @@ function preferredDevice(entry) {
   return null;
 }
 
-async function loadEntities() {
+export async function loadEntities() {
   try {
     const response = await fetch(
       new URL("../shared/entities.json", location.href),
@@ -92,10 +92,12 @@ export async function mountCatalog({ kind, items, version }) {
 
   app.innerHTML = `<div class="catalog">
     <header class="catalog-header">
-      <div class="catalog-brand"><span class="catalog-mark">◈</span><span>Forward Components <small>BJJGraph</small></span></div>
+      <a class="catalog-brand" href="/dev/"><span class="catalog-mark">◈</span><span>Forward Components <small>BJJGraph</small></span></a>
       <nav class="catalog-routes" aria-label="Forward libraries">
         <a href="/dev/components/" ${kind === "components" ? 'aria-current="page"' : ""}>Components</a>
         <a href="/dev/screens/" ${kind === "screens" ? 'aria-current="page"' : ""}>Screens</a>
+        <a href="/dev/use-cases/">Use cases</a>
+        <a href="/dev/user-journeys/">User journeys</a>
       </nav>
       <span class="catalog-version">v${version} · dev only</span>
     </header>

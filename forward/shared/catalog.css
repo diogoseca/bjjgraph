@@ -28,6 +28,7 @@
   font-family: var(--fc-display);
   font-weight: 700;
   letter-spacing: -0.02em;
+  text-decoration: none;
 }
 
 .catalog-mark {
@@ -55,9 +56,12 @@
   border: 1px solid var(--fc-border);
   border-radius: 999px;
   background: rgba(255, 255, 255, 0.03);
+  overflow-x: auto;
+  scrollbar-width: none;
 }
 
 .catalog-routes a {
+  flex: none;
   padding: 7px 12px;
   border-radius: 999px;
   color: var(--fc-muted);
@@ -103,6 +107,11 @@
   background: rgba(255, 255, 255, 0.04);
 }
 
+.catalog-search label:focus-within {
+  border-color: var(--fc-blue);
+  box-shadow: 0 0 0 2px rgba(120, 159, 255, 0.18);
+}
+
 .catalog-search input {
   width: 100%;
   min-width: 0;
@@ -138,7 +147,7 @@
 
 .catalog-group-title {
   padding: 8px 9px 6px;
-  color: #6f7b96;
+  color: var(--fc-faint);
   font-size: 9px;
   font-weight: 800;
   letter-spacing: 0.14em;
@@ -330,11 +339,8 @@
   border: 1px solid var(--fc-border);
   border-radius: 20px;
   overflow: hidden;
-  background: radial-gradient(
-      circle at 50% 0,
-      rgba(89, 106, 171, 0.13),
-      transparent 40%
-    ),
+  background:
+    radial-gradient(circle at 50% 0, rgba(89, 106, 171, 0.13), transparent 40%),
     #090c16;
   box-shadow: var(--fc-shadow);
 }

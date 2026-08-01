@@ -2,16 +2,63 @@ import { cp, mkdir, readFile, rm, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
 
+import {
+  framesFor,
+  useCases,
+  userJourneys,
+} from "../forward/shared/sequence-registry.js";
+
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const source = resolve(root, "forward");
 const output = resolve(root, "source/public/dev");
 const graphPath = resolve(root, "graph.json");
 
+function validateSequences(items, label) {
+  const ids = new Set();
+  for (const item of items) {
+    if (!item.id || ids.has(item.id)) {
+      throw new Error(
+        `[forward] ${label} has a missing or duplicate id: ${item.id}`,
+      );
+    }
+    ids.add(item.id);
+    const frames = framesFor(item);
+    if (frames.length < 2) {
+      throw new Error(
+        `[forward] ${label} "${item.id}" needs at least two timepoints`,
+      );
+    }
+    let previousTime = -1;
+    for (const [index, frame] of frames.entries()) {
+      if (
+        !Number.isFinite(frame.at) ||
+        frame.at < previousTime ||
+        !frame.label ||
+        !frame.beat ||
+        !frame.motion ||
+        !Number.isFinite(frame.motionProgress) ||
+        frame.motionProgress < 0 ||
+        frame.motionProgress > 1 ||
+        (typeof frame.state !== "object" && typeof frame.state !== "function")
+      ) {
+        throw new Error(
+          `[forward] ${label} "${item.id}" has an invalid timepoint at index ${index}`,
+        );
+      }
+      previousTime = frame.at;
+    }
+  }
+}
+
+validateSequences(useCases, "use case");
+validateSequences(userJourneys, "user journey");
+
 await rm(output, { recursive: true, force: true });
 await mkdir(output, { recursive: true });
 await cp(source, output, {
   recursive: true,
-  filter: (path) => !path.endsWith(".DS_Store"),
+  filter: (path) =>
+    !path.endsWith(".DS_Store") && path !== resolve(source, "package.json"),
 });
 
 const graph = JSON.parse(await readFile(graphPath, "utf8"));
@@ -183,11 +230,14 @@ function entityCatalog() {
 }
 
 const entities = entityCatalog();
+const motionCount = new Set(
+  useCases.flatMap((useCase) => useCase.frames.map((frame) => frame.motion)),
+).size;
 await writeFile(
   resolve(output, "shared/entities.json"),
   `${JSON.stringify({ source: "graph.json", entities })}\n`,
 );
 
 console.log(
-  `[forward] /dev/components/ and /dev/screens/ written (${entities.length} selectable nodes)`,
+  `[forward] /dev hub and four libraries written (${entities.length} nodes, ${useCases.length} use cases, ${userJourneys.length} journeys, ${motionCount} motions)`,
 );

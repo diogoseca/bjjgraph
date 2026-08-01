@@ -15,7 +15,8 @@
   display: grid;
   place-items: center;
   padding: clamp(18px, 5cqw, 54px);
-  background: linear-gradient(rgba(132, 150, 190, 0.045) 1px, transparent 1px),
+  background:
+    linear-gradient(rgba(132, 150, 190, 0.045) 1px, transparent 1px),
     linear-gradient(90deg, rgba(132, 150, 190, 0.045) 1px, transparent 1px),
     #15182b;
   background-size: 72px 72px;
@@ -36,11 +37,8 @@
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background: radial-gradient(
-      circle at 50% 51%,
-      rgba(70, 82, 139, 0.3),
-      transparent 24%
-    ),
+  background:
+    radial-gradient(circle at 50% 51%, rgba(70, 82, 139, 0.3), transparent 24%),
     linear-gradient(rgba(132, 150, 190, 0.055) 1px, transparent 1px),
     linear-gradient(90deg, rgba(132, 150, 190, 0.055) 1px, transparent 1px),
     #15182b;
@@ -130,7 +128,7 @@
 }
 
 .brand-lockup small {
-  color: #6b7691;
+  color: #8793ad;
   font: 700 9px/1 var(--fc-font);
   letter-spacing: 0.04em;
 }
@@ -478,7 +476,8 @@
   padding: 7px;
   border-radius: 8px;
   color: white;
-  background: linear-gradient(0deg, rgba(6, 8, 16, 0.88), transparent 90%),
+  background:
+    linear-gradient(0deg, rgba(6, 8, 16, 0.88), transparent 90%),
     linear-gradient(135deg, #39456b, #151a2d);
   font-size: 8px;
   font-weight: 700;

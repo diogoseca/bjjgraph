@@ -50,7 +50,7 @@ const setMastery = (page: any, key: string, stage: number) =>
     [key, stage] as const,
   )
 
-test("the bar fills to your score and marks every belt threshold", async ({ page }) => {
+test("the bar fills to your score and marks every belt threshold @curated", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")

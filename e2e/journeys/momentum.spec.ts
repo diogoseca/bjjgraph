@@ -47,7 +47,7 @@ const advanceState = async (j: any, page: any) => {
   await j.nextHand()
 }
 
-test("back-to-back rights climb the ladder: DOUBLE at ×2, TRIPLE at ×3, heat rising", async ({
+test("back-to-back rights climb the ladder: DOUBLE at ×2, TRIPLE at ×3, heat rising @curated", async ({
   page,
 }) => {
   const j = journey(page)

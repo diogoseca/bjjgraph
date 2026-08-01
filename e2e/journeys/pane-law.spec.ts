@@ -18,7 +18,7 @@ import { journey } from "../dsl"
 const paused = (page: any) => page.evaluate(() => !!(window as any).__neural.paused)
 const shown = (page: any) => page.evaluate(() => !!(window as any).__neural.deckShown)
 
-test("opening the pane stops the game; closing it resumes the game", async ({ page }) => {
+test("opening the pane stops the game; closing it resumes the game @curated", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")

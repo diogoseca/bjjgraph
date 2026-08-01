@@ -1,0 +1,107 @@
+name: Complete Playwright E2E
+
+on:
+  pull_request:
+    branches: ["main"]
+  schedule:
+    - cron: "0 3 * * 6"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: complete-e2e-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    name: Build tested site
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Setup Python
+        uses: actions/setup-python@7f4fc3e22c37d6ff65e88745f38bd3157c663f7c # v4
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Regenerate Neural app and data
+        run: npm run regenerate:neural
+
+      - name: Build production site and Forward libraries
+        run: npm run build
+
+      - name: Package tested site
+        run: |
+          tar -czf complete-e2e-site.tgz -C source \
+            public/index.html \
+            public/index.css \
+            public/prescript.js \
+            public/postscript.js \
+            public/static \
+            public/dev
+
+      - name: Upload tested site
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: complete-e2e-site
+          path: complete-e2e-site.tgz
+          retention-days: 1
+
+  test:
+    name: E2E shard ${{ matrix.shard }}/4
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    strategy:
+      fail-fast: false
+      matrix:
+        shard: [1, 2, 3, 4]
+    steps:
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+
+      - name: Setup Node
+        uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install test dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Download tested site
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4
+        with:
+          name: complete-e2e-site
+
+      - name: Extract tested site
+        run: |
+          mkdir -p source
+          tar -xzf complete-e2e-site.tgz -C source
+
+      - name: Install Chromium
+        run: npx playwright install --with-deps chromium
+
+      - name: Run complete E2E shard
+        run: npm test -- --shard=${{ matrix.shard }}/4
+
+      - name: Upload failure artifacts
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+        with:
+          name: complete-e2e-results-${{ matrix.shard }}
+          path: |
+            e2e/test-results/
+            test-results/
+          if-no-files-found: ignore

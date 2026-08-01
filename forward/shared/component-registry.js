@@ -89,7 +89,7 @@ export const componentItems = [
     ["Primary", "Ghost"],
     (v) =>
       stack(
-        `<button class="round-button ${v === "Ghost" ? "round-button--ghost" : ""}">${icon("play", 15)}</button>`,
+        `<button class="round-button ${v === "Ghost" ? "round-button--ghost" : ""}" aria-label="Play preview">${icon("play", 15)}</button>`,
       ),
   ),
   item(
