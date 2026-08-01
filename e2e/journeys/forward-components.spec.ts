@@ -9,7 +9,7 @@ test.describe("Forward Components development library @curated", () => {
     await expect(
       page.getByRole("heading", { name: "Brand & explorer trigger" }),
     ).toBeVisible();
-    await expect(page.locator(".catalog-item")).toHaveCount(53);
+    await expect(page.locator(".catalog-item")).toHaveCount(60);
 
     await page
       .getByRole("button", { name: "Question-first landing card" })
@@ -45,7 +45,7 @@ test.describe("Forward Components development library @curated", () => {
     page.on("pageerror", (error) => errors.push(error.message));
 
     await page.goto("/dev/screens/");
-    await expect(page.locator(".catalog-item")).toHaveCount(102);
+    await expect(page.locator(".catalog-item")).toHaveCount(113);
 
     await page
       .getByRole("button", { name: "Stress · screenshot recreation" })
@@ -153,7 +153,7 @@ test.describe("Forward Components development library @curated", () => {
     await page.goto("/dev/screens/");
 
     await page
-      .getByRole("button", { name: "Panes · Belt Path + study" })
+      .getByRole("button", { name: "Panes · Challenges + study" })
       .click();
     await expect(page.locator(".side-panel")).toHaveCount(2);
     await expect(page.locator(".side-panel--left")).toBeVisible();
@@ -175,17 +175,103 @@ test.describe("Forward Components development library @curated", () => {
     await expect(page.getByLabel("Flashcards pane")).toBeVisible();
 
     await page
-      .getByRole("button", { name: "Belt Path · recall-proven" })
+      .getByRole("button", { name: "Challenges · track cleared" })
       .click();
-    await expect(page.locator(".belt-meter")).toBeVisible();
+    await expect(page.locator(".knowledge-meter")).toBeVisible();
+    await expect(page.locator(".track-card")).toHaveCount(5);
     await expect(
-      page.locator(".proof-stripes i[data-filled='true']"),
-    ).toHaveCount(4);
-    await expect(page.locator(".crown-badge")).not.toHaveCount(0);
+      page.locator(".track-card[data-complete='true']"),
+    ).toHaveCount(1);
+    await expect(page.locator(".track-card:disabled")).toHaveCount(0);
 
     await page.setViewportSize({ width: 600, height: 900 });
     await expect(page.getByLabel("Preview node")).toBeVisible();
     await expect(page.getByLabel("Preview role")).toBeVisible();
+  });
+
+  test("challenge tracks stay open and rewards remain acknowledgements", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/dev/screens/#item=challenges-above-level&viewport=responsive&variant=Default",
+    );
+
+    await expect(page.locator(".knowledge-header")).toContainText(
+      "YOUR GAME KNOWLEDGE",
+    );
+    await expect(page.locator(".knowledge-header")).toContainText("28%");
+    await expect(page.locator(".track-card")).toHaveCount(5);
+    await expect(page.locator(".track-card:disabled")).toHaveCount(0);
+    await expect(
+      page.getByRole("button", {
+        name: /Black Breadth content track, 0 of 6 complete/,
+      }),
+    ).toHaveAttribute("aria-pressed", "true");
+    await expect(page.locator(".challenge-distinction")).toContainText(
+      "Tracks label the material",
+    );
+    await expect(page.locator(".track-card[data-track='black']")).toContainText(
+      "Advanced material - swing away.",
+    );
+
+    await page.locator(".learning-nav button").first().focus();
+    await page.keyboard.press("Tab");
+    await expect(page.locator(".learning-nav button").nth(1)).toBeFocused();
+
+    await page
+      .getByRole("button", { name: "Collection · earned and available" })
+      .click();
+    await expect(page.getByLabel("Collection")).toContainText(
+      "Mat Coins are just for laughs. They do not buy anything.",
+    );
+    await expect(
+      page.locator(".patch-badge[data-earned='false']").first(),
+    ).toContainText("Available to earn");
+
+    await page
+      .getByRole("button", { name: "Challenge migration · 7 of 20" })
+      .click();
+    await expect(
+      page.getByRole("button", { name: /Open pinned White challenge/ }),
+    ).toContainText("7/20");
+    await expect(page.locator(".event-toast")).toContainText(
+      "Tutorial is now White Challenges",
+    );
+  });
+
+  test("mobile challenge cue clears the option hand and rewards honor reduced motion", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/dev/screens/#item=challenge-mobile-collision&viewport=compact&variant=Default",
+    );
+
+    const cueBottom = await page
+      .locator(".challenge-cue")
+      .evaluate((element) => element.getBoundingClientRect().bottom);
+    const optionTop = await page
+      .locator(".option-card")
+      .first()
+      .evaluate((element) => element.getBoundingClientRect().top);
+    expect(cueBottom).toBeLessThanOrEqual(optionTop);
+
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await page
+      .getByRole("button", { name: "Reward · reduced motion" })
+      .click();
+    const motion = await page.locator(".reward-toast").evaluate((element) => {
+      const style = getComputedStyle(element);
+      return {
+        animation: style.animationName,
+        transition: style.transitionDuration,
+      };
+    });
+    expect(motion.animation).toBe("none");
+    expect(Number.parseFloat(motion.transition)).toBeLessThanOrEqual(0.00001);
+    await expect(page.locator(".reward-toast")).toHaveAttribute(
+      "aria-live",
+      "polite",
+    );
   });
 
   test("the dev hub links all four Forward libraries", async ({ page }) => {
@@ -218,7 +304,7 @@ test.describe("Forward Components development library @curated", () => {
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto("/dev/use-cases/");
 
-    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(18);
+    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(23);
     await page
       .getByRole("button", { name: /Gameplay animation timepoints/ })
       .click();
@@ -299,7 +385,7 @@ test.describe("Forward Components development library @curated", () => {
     page.on("pageerror", (error) => errors.push(error.message));
     await page.goto("/dev/user-journeys/");
 
-    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(4);
+    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(5);
     await expect(page.locator(".sequence-chapters button")).toHaveCount(5);
     expect(await page.locator(".sequence-frame").count()).toBeGreaterThan(25);
 
@@ -324,9 +410,11 @@ test.describe("Forward Components development library @curated", () => {
 
     await page.setViewportSize({ width: 600, height: 900 });
     await expect(page.getByLabel("Preview user journey")).toBeVisible();
-    await page.getByLabel("Preview user journey").selectOption("study-to-belt");
+    await page
+      .getByLabel("Preview user journey")
+      .selectOption("study-to-capstone");
     await expect(
-      page.getByRole("heading", { name: "Study to belt proof" }),
+      page.getByRole("heading", { name: "Study to challenge capstone" }),
     ).toBeVisible();
     expect(errors).toEqual([]);
   });

@@ -36,11 +36,14 @@ class Component extends DCLogic {
   explorerRef = React.createRef();
   explorerListRef = React.createRef();
   explorerSearchRef = React.createRef();
+  explorerSearchWrapRef = React.createRef();
+  explorerToolsRef = React.createRef();
   dossierRef = React.createRef();
   dossierSheetRef = React.createRef();
   giToggleRef = React.createRef();
   viewToggleRef = React.createRef();
-  _viewMode = "tree"; // "path" once a curriculum loads (stored override wins)
+  knowledgeRef = React.createRef();
+  _viewMode = "challenges";
   nodeCardRef = React.createRef();
   transportRef = React.createRef();
   playPauseRef = React.createRef();
@@ -61,7 +64,7 @@ class Component extends DCLogic {
       statusRef: this.statusRef, legendMarkRef: this.legendMarkRef,
       accountRef: this.accountRef, acctChipRef: this.acctChipRef, acctCtaRef: this.acctCtaRef, openSignup: () => this.openAuth("create"), chipMergeClass: this.deckShown ? "ng-chip-merged" : "", transportRef: this.transportRef, playPauseRef: this.playPauseRef,
       modalRef: this.modalRef, modalCardRef: this.modalCardRef,
-      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, giToggleRef: this.giToggleRef, viewToggleRef: this.viewToggleRef,
+      explorerRef: this.explorerRef, explorerListRef: this.explorerListRef, explorerSearchRef: this.explorerSearchRef, explorerSearchWrapRef: this.explorerSearchWrapRef, explorerToolsRef: this.explorerToolsRef, dossierRef: this.dossierRef, dossierSheetRef: this.dossierSheetRef, nodeCardRef: this.nodeCardRef, giToggleRef: this.giToggleRef, viewToggleRef: this.viewToggleRef, knowledgeRef: this.knowledgeRef,
       toggleExplorer: () => this.toggleExplorer(), openSearch: () => this.openSearch(),
       legendPointRef: this.legendPointRef, legendRef: this.legendRef, optionHintRef: this.optionHintRef, optDetailRef: this.optDetailRef, brandFontRef: this.brandFontRef,
       scrollOptions: () => { const op = this.optionsRef.current; if (op) this.tweenScroll(op, Math.round(op.clientWidth * 0.62)); },
@@ -79,9 +82,17 @@ class Component extends DCLogic {
     try { if (this._progressLoaded) this._flushSave(); } catch (e) {}
     try { this.clearClipLoops(); } catch (e) {}
     try { if (this.sound && this.sound.destroy) this.sound.destroy(); } catch (e) {} // close AudioContext, stop voices, drop listeners
+    clearTimeout(this._challengeCueTimer);
+    clearTimeout(this._challengeRewardTimer);
+    try { if (this._challengeRewardEl) this._challengeRewardEl.remove(); } catch (e) {}
+    try { if (this._tutEl) this._tutEl.remove(); } catch (e) {}
     if (this._mcAdvT) { clearTimeout(this._mcAdvT); this._mcAdvT = null; }
     if (this._onPageHide) window.removeEventListener("pagehide", this._onPageHide);
     if (this._onVisHide) document.removeEventListener("visibilitychange", this._onVisHide);
+    if (this._onChallengeConnectivity) {
+      window.removeEventListener("online", this._onChallengeConnectivity);
+      window.removeEventListener("offline", this._onChallengeConnectivity);
+    }
     this._detailCtx = null;
     if (this._raf) cancelAnimationFrame(this._raf);
     if (this._ro) this._ro.disconnect();
@@ -119,8 +130,17 @@ class Component extends DCLogic {
     (this.beats = this.beats || []).push(Object.assign({ t: this.now || 0, beat: beat }, props || {}));
     if (this.sound) this.sound.beat(beat, props || {});
     if (this.beats.length > 4000) this.beats.splice(0, 1000);
-    // the tutorial is completed by DOING, so it listens on the same bus (guarded: it emits too)
-    if (!this._inTut) { this._inTut = true; try { this.noteTutorial(beat, props || {}); } catch (e) {} this._inTut = false; }
+    // Challenges are completed by doing. The guard matters because acknowledgements emit beats.
+    if (!this._inChallenges) {
+      this._inChallenges = true;
+      try {
+        this.noteChallenges(beat, props || {});
+      } catch (e) {
+        console.warn("[neural] challenge event failed:", e);
+      } finally {
+        this._inChallenges = false;
+      }
+    }
   }
   // frame pump: advance simulated time in fixed ticks — timers, travel, camera, draw all step
   // deterministically. Only available in test mode (the rAF loop is not armed there).
@@ -255,6 +275,7 @@ class Component extends DCLogic {
       const t = e.target, typing = t && (t.tagName === "INPUT" || t.tagName === "TEXTAREA");
       if (((e.key === "k" || e.key === "K") && (e.metaKey || e.ctrlKey)) || (e.key === "/" && !typing)) {
         e.preventDefault();
+        this.setViewMode("explore");
         const el = this.explorerRef.current;
         if (el && el.style.display !== "flex") this.toggleExplorer();
         else { const inp = this.explorerSearchRef.current; if (inp) inp.focus(); }
@@ -319,6 +340,18 @@ class Component extends DCLogic {
     this.prep = {};
     this.settings = this.settings || {};
     this._loadProgress(); // restore prep / daily history / settings (guest persistence)
+    this._onChallengeConnectivity = () => {
+      const explorer = this.explorerRef.current;
+      if (
+        this._viewMode === "challenges" &&
+        explorer &&
+        explorer.style.display === "flex"
+      ) {
+        this.renderExplorer();
+      }
+    };
+    window.addEventListener("online", this._onChallengeConnectivity);
+    window.addEventListener("offline", this._onChallengeConnectivity);
     try { if (typeof NGSound !== "undefined") this.sound = new NGSound(this); } catch (e) { /* silent app */ }
     this._initAuth();     // signed-in? real identity + merge-on-pull cloud sync (facade-gated)
     this.paused = false;
@@ -344,7 +377,7 @@ class Component extends DCLogic {
       .then((fr) => (fr.ok ? fr.json() : null))
       .then((j) => { if (j) { this.flashcards = j; this.onFlashcardsReady(); } })
       .catch(() => { /* optional payload */ });
-    // curriculum (Belt Path) — tiny + optional: absence falls back to the tree explorer
+    // Challenge curriculum is tiny and optional; action objectives still work if it is absent.
     fetch("curriculum.json", { cache: "no-cache" })
       .then((cr) => (cr.ok ? cr.json() : null))
       .then((c) => { if (c && c.belts && c.belts.length) { this.curriculum = c; this._onCurriculum(); } })
@@ -1115,9 +1148,16 @@ class Component extends DCLogic {
   // ---------- local persistence (bjj-neural-progress) — drill progress used to reset on every
   // reload; this is the single blob the cloud sync (slice 6) pushes/pulls. ----------
   _dayKey(d) { const x = d || new Date(); return x.getFullYear() + "-" + String(x.getMonth() + 1).padStart(2, "0") + "-" + String(x.getDate()).padStart(2, "0"); }
+  _syncWhiteChallengeCompatibility(timestamp) {
+    const migrated = ngMigrateWhiteChallenges(this.challenges, this.tut, timestamp || 0);
+    this.challenges = migrated.challenges;
+    this.tut = migrated.tut;
+    return migrated.changed;
+  }
   _loadProgress() {
     this._progressLoaded = true; // ingest ran (any path) — unmount flush is now safe (Q001)
     this.rec = {}; this.stage = {}; this.units = {}; this.belts = { won: {} }; this._settingsAt = {}; this.tut = { done: {} };
+    this.challenges = {}; this.badges = {}; this.coins = {}; this._challengeRuntime = {};
     try {
       const raw = localStorage.getItem("bjj-neural-progress"); if (!raw) return;
       const p = JSON.parse(raw); if (!p || (p.v !== 1 && p.v !== 2)) return;
@@ -1132,18 +1172,29 @@ class Component extends DCLogic {
       this.units = Object.assign({}, p.units || {});
       this.belts = Object.assign({ won: {} }, p.belts || {});
       this.belts.won = Object.assign({}, (p.belts || {}).won || {});
+      const hadLegacyTutorial = Object.keys(((p.tut || {}).done) || {}).length > 0;
+      const hadChallenges = Object.keys(p.challenges || {}).length > 0;
       this.tut = { done: Object.assign({}, (p.tut || {}).done || {}) };
+      this.challenges = Object.assign({}, p.challenges || {});
+      this.badges = Object.assign({}, p.badges || {});
+      this.coins = Object.assign({}, p.coins || {});
       // a user who already met the old 3-beat coach starts the drip past those three steps
       if (!p.tut) { try { if (localStorage.getItem("bjj-neural-coached")) { this.tut.done.coach1 = 1; this.tut.done.coach2 = 1; this.tut.done.coach3 = 1; } } catch (e) {} }
+      this._syncWhiteChallengeCompatibility(p.updatedAt || 0);
+      this._challengeMigrationNotice =
+        hadLegacyTutorial &&
+        !hadChallenges &&
+        !this.get("challengeMigrationSeen", false);
       this.cardsToday = this._days[this._dayKey()] || 0;
     } catch (e) { /* corrupt/absent — start fresh */ }
   }
   _progressBlob() {
+    this._syncWhiteChallengeCompatibility(this._progressAt || Date.now());
     const days = this._days || {};
     const trimmed = {};
     for (const k of Object.keys(days).sort().slice(-30)) trimmed[k] = days[k];
     this._progressAt = Date.now();
-    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
+    return { v: 2, prep: this.prep || {}, rec: this.rec || {}, stage: this.stage || {}, units: this.units || {}, belts: this.belts || { won: {} }, tut: this.tut || { done: {} }, challenges: this.challenges || {}, badges: this.badges || {}, coins: this.coins || {}, days: trimmed, settings: this.settings || {}, settingsAt: this._settingsAt || {}, updatedAt: this._progressAt };
   }
   _saveProgress() {
     clearTimeout(this._saveT);
@@ -1169,6 +1220,7 @@ class Component extends DCLogic {
       if (this.currentPos != null && this.currentPos >= 0) this.buildDrillPanel(this.currentPos);
       if (this.deckShown && this._drillView === "home") this.renderDrillHome();
       this.refreshOptionOdds(); this.updateDrillTab();
+      this._refreshChallengeEvidence();
     } catch (e) { /* non-fatal */ }
   }
   onContentReady() {
@@ -1221,7 +1273,7 @@ class Component extends DCLogic {
           '<span style="font-size:10.5px;font-weight:500;color:rgba(255,255,255,.8);">Save your rolls &amp; progress</span>' +
         '</div>') +
       '<div style="display:flex;align-items:baseline;justify-content:space-between;margin-bottom:9px;">' +
-        '<span style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#7b8aa8;white-space:nowrap;">Your game</span>' +
+        '<span style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;color:#7b8aa8;white-space:nowrap;">Daily flashcards</span>' +
         '<span style="font-size:13px;font-weight:700;color:#9ab0e0;font-family:\'Space Grotesk\',sans-serif;">' + pct + '%</span>' +
       '</div>' +
       '<div style="height:7px;border-radius:4px;background:rgba(255,255,255,.06);overflow:hidden;"><div style="height:100%;width:' + pct + '%;background:linear-gradient(90deg,#4a6cff,#7ee0a8);border-radius:4px;"></div></div>' +
@@ -2098,18 +2150,23 @@ class Component extends DCLogic {
       lqb.style.cssText = "flex:none;margin-top:2px;width:24px;height:24px;border-radius:7px;cursor:pointer;border:1px solid " + (lqOn ? "rgba(110,160,255,.6)" : "rgba(150,170,210,.3)") + ";background:" + (lqOn ? "rgba(74,108,255,.4)" : "transparent") + ";color:#fff;font-size:13px;font-weight:700;";
       lqb.addEventListener("click", () => { this.set("landQuestions", !this.get("landQuestions", true)); this.renderSettings(); });
       lq.appendChild(lqb); body.appendChild(lq);
-      // tutorial drip
+      // pinned challenge cue
       const tu = document.createElement("div");
       tu.style.cssText = "display:flex;align-items:center;justify-content:space-between;gap:16px;border-top:1px solid rgba(150,170,210,.12);padding-top:16px;";
-      const tn = this.tutDoneCount(), tof = this.TUTORIAL.length;
-      tu.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Tutorial</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">' + tn + ' of ' + tof + ' steps done — each one is completed by doing it, not by reading it.</div></div>';
+      const pinnedTrack = this.get("challengePinnedTrack", "white");
+      const pinnedSummary = this.challengeTrackProgress(pinnedTrack);
+      const cueVisible = this.get("challengeCueVisible", true) && !this.tutHidden;
+      tu.innerHTML = '<div><div style="font-size:14px;font-weight:600;color:#eef1f6;">Challenge cue</div><div style="font-size:12.5px;color:#93a0bd;margin-top:4px;line-height:1.5;">' + pinnedTrack.charAt(0).toUpperCase() + pinnedTrack.slice(1) + ' content track · ' + pinnedSummary.done + ' of ' + pinnedSummary.total + ' complete</div></div>';
       const tb = document.createElement("button");
-      tb.setAttribute("data-tut-restart", "1");
-      tb.textContent = (this.tutHidden && tn < tof) ? "Show it" : (tn >= tof ? "Run it again" : "Restart");
+      tb.setAttribute("data-challenge-cue-toggle", "1");
+      tb.textContent = cueVisible ? "Hide" : "Show";
       tb.style.cssText = "flex:none;cursor:pointer;font-family:inherit;font-size:12.5px;font-weight:700;padding:9px 14px;border-radius:9px;border:1px solid rgba(150,170,210,.25);background:rgba(255,255,255,.04);color:#dbe2f0;";
       tb.addEventListener("click", () => {
-        if (this.tutHidden && tn < tof) { this.tutHidden = false; this.renderTutorial(); }
-        else this.restartTutorial();
+        const next = !cueVisible;
+        this.tutHidden = !next;
+        this.set("challengeCueVisible", next);
+        this.track(next ? "neural_challenge_cue_restored" : "neural_challenge_cue_hidden", { track_id: pinnedTrack });
+        this.renderChallengeCue();
         this.renderSettings();
       });
       tu.appendChild(tb); body.appendChild(tu);
@@ -2327,7 +2384,7 @@ class Component extends DCLogic {
         for (const k in (cloud.prep || {})) prep[k] = Math.max(prep[k] || 0, cloud.prep[k] || 0);
         for (const d in (cloud.days || {})) days[d] = Math.max(days[d] || 0, cloud.days[d] || 0);
         this.prep = prep; this._days = days;
-        // v2 fields: per-key MAX for rec/stage (monotonic), UNION for units/belts.won
+        // v2 fields: per-key MAX for rec/stage/challenges, UNION for durable proof.
         const rec = this.rec || {}, stage = this.stage || {};
         const cRec = cloud.v === 2 ? (cloud.rec || {}) : (cloud.prep || {}); // v1 cloud grandfathers
         for (const k in cRec) rec[k] = Math.max(rec[k] || 0, cRec[k] || 0);
@@ -2339,6 +2396,25 @@ class Component extends DCLogic {
         const cAtt = (cloud.belts || {}).attempts || {};
         for (const k in cAtt) att[k] = Math.max(att[k] || 0, cAtt[k] || 0);
         this.belts = Object.assign({ won: {} }, this.belts || {}, { won: won, attempts: att });
+        const tutDone = Object.assign(
+          {},
+          ((cloud.tut || {}).done || {}),
+          ((this.tut || {}).done || {}),
+        );
+        this.tut = { done: tutDone };
+        this.challenges = ngMergeChallengeMaps(
+          this.challenges || {},
+          cloud.challenges || {},
+        );
+        this.badges = ngMergeCollectibles(
+          this.badges || {},
+          cloud.badges || {},
+        );
+        this.coins = ngMergeCollectibles(
+          this.coins || {},
+          cloud.coins || {},
+        );
+        this._syncWhiteChallengeCompatibility(cloud.updatedAt || 0);
         const localAt = this._progressAt || 0;
         if (cloud.settings) {
           // per-KEY merge: a whole-blob LWW let one device's stale keys clobber another
@@ -2353,6 +2429,7 @@ class Component extends DCLogic {
           this.settings = merged; this._settingsAt = mAt;
         }
         this.cardsToday = days[this._dayKey()] || 0;
+        this._refreshChallengeEvidence();
       }
       this._pulled = true;          // a fresh device must pull before it may push (no cloud clobber)
       this._saveProgress();         // persist merged state + push it back
@@ -2377,6 +2454,15 @@ class Component extends DCLogic {
       chip.children[0].textContent = "Guest";
       chip.children[1].textContent = "G";
       if (cta) cta.style.display = "";
+    }
+    const explorer = this.explorerRef.current;
+    if (
+      this._viewMode === "challenges" &&
+      explorer &&
+      explorer.style.display === "flex" &&
+      !this._renderingChallengeView
+    ) {
+      this.renderExplorer();
     }
   }
   renderAuth() {
@@ -2450,7 +2536,7 @@ class Component extends DCLogic {
   }
 
   // ---------- explorer + search ----------
-  // ═══ BELT PATH (P1): curated belts→units→lessons route over the graph ═══
+  // Challenge curriculum: curated tracks -> units -> lessons over the graph
   _onCurriculum() {
     const c = this.curriculum;
     this._lessonIndex = {}; this._curriculumIdxSet = new Set();
@@ -2466,15 +2552,31 @@ class Component extends DCLogic {
         }
       }
     }
-    let stored = null; try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
-    this._viewMode = stored === "tree" ? "tree" : "path"; // path is the default face of the explorer
+    const currentView = this.get("challengeView", null);
+    let stored = currentView;
+    if (!stored) {
+      try { stored = localStorage.getItem("bjj_view_mode"); } catch (e) {}
+    }
+    const migrated =
+      stored === "tree" || stored === "explore"
+        ? "explore"
+        : stored === "collection"
+          ? "collection"
+          : "challenges";
+    this._viewMode = migrated;
+    if (stored && currentView !== migrated) {
+      this.set("challengeView", migrated);
+    }
     this.styleViewToggle();
     const list = this.explorerListRef.current;
     if (list && this.explorerRef.current && this.explorerRef.current.style.display === "flex") this.renderExplorer();
+    this._refreshChallengeEvidence();
   }
   setViewMode(m) {
-    if (m !== "path" && m !== "tree") return;
+    if (m !== "explore" && m !== "challenges" && m !== "collection") return;
+    if (this._viewMode === m) return;
     this._viewMode = m;
+    this.set("challengeView", m);
     try { localStorage.setItem("bjj_view_mode", m); } catch (e) {}
     this.styleViewToggle();
     const el = this.explorerRef.current;
@@ -2482,12 +2584,18 @@ class Component extends DCLogic {
   }
   styleViewToggle() {
     const vt = this.viewToggleRef.current; if (!vt) return;
-    vt.style.display = this.curriculum ? "flex" : "none";
+    vt.style.display = "grid";
     vt.querySelectorAll("[data-view]").forEach((s) => {
       const on = s.getAttribute("data-view") === this._viewMode;
-      s.style.background = on ? "#9fb0d8" : "transparent";
-      s.style.color = on ? "#0e1630" : "#8b97b0";
+      s.setAttribute("aria-pressed", on ? "true" : "false");
     });
+    const search = this.explorerSearchWrapRef.current;
+    if (search) search.style.display = this._viewMode === "explore" ? "flex" : "none";
+    const tools = this.explorerToolsRef.current;
+    if (tools) tools.style.display = this._viewMode === "collection" ? "none" : "flex";
+    const gi = this.giToggleRef.current;
+    if (gi) gi.style.display = this._viewMode === "collection" ? "none" : "flex";
+    if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
   }
   _deckGoal(key) { const d = this.flashcards && this.flashcards.decks ? this.flashcards.decks[key] : null; return Math.min(3, (d && d.cards && d.cards.length) || 3); }
   lessonDone(key) { return ((this.prep && this.prep[key]) || 0) >= this._deckGoal(key); }
@@ -2497,7 +2605,6 @@ class Component extends DCLogic {
     const live = unit.lessons.filter((l) => this._lessonLive(l));
     return live.length > 0 && live.every((l) => this.lessonDone(l.deckKey)) && !!(this.units && this.units[uk] && this.units[uk].checkpoint);
   }
-  beltUnlocked(i) { if (i === 0) return true; const prev = this.curriculum.belts[i - 1]; return !!(this.belts && this.belts.won && this.belts.won[prev.id]); }
   _lessonNodeIdx(deckKey) { const e = this._lessonIndex && this._lessonIndex[deckKey]; if (!e || !this._idIndex) return -1; const i = this._idIndex.get(e.nodeId); return i == null ? -1 : i; }
   _maybeLessonDone(key) {
     const e = this._lessonIndex && this._lessonIndex[key];
@@ -2520,7 +2627,7 @@ class Component extends DCLogic {
     // all live lessons done -> the checkpoint completes the unit.
     const uk = beltId + "/" + unit.id;
     const live = unit.lessons.filter((l) => this._lessonLive(l));
-    if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint locked", "Finish the unit's lessons first", "bad"); return; }
+    if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint evidence needed", "Finish this unit's lessons first", "bad"); return; }
     this.units = this.units || {};
     if (!this.units[uk] || !this.units[uk].checkpoint) {
       this.units[uk] = Object.assign({}, this.units[uk] || {}, { checkpoint: true, t: Date.now() });
@@ -2577,81 +2684,6 @@ class Component extends DCLogic {
     this._scoreCache = { v: ver, out: out };
     return out;
   }
-  // per-row display: how far through THIS belt's band you are. Belts you've passed show four.
-  beltProof(belt) {
-    const g = this.gameScore();
-    const B = this.BELT_SCORE;
-    let i = -1;
-    for (let k = 0; k < B.length; k++) if (B[k][0] === belt.id) i = k;
-    if (i < 0) return { stripes: 0, score: g.score, target: 1 };
-    const lo = i === 0 ? 0 : B[i - 1][1], hi = B[i][1];
-    const stripes = g.score >= hi ? 4 : Math.max(0, Math.min(4, Math.floor(((g.score - lo) / (hi - lo)) * 4)));
-    return { stripes: stripes, score: g.score, target: hi };
-  }
-  stripeHTML(n) {
-    let s = '<span data-stripes="' + n + '" style="display:inline-flex;gap:2px;margin-left:8px;align-items:center;">';
-    for (let i = 0; i < 4; i++) s += '<span style="width:3px;height:11px;border-radius:1px;background:' + (i < n ? "#eef1f6" : "rgba(150,170,210,.2)") + ';"></span>';
-    return s + "</span>";
-  }
-  // ── THE BELT BAR ── one vertical meter for the whole game. The fill rises with your score and
-  // takes the colour of the highest belt you have MET; the outline flips to white once it is
-  // black. Belt markers sit at their thresholds, and a bright line marks exactly where you are —
-  // and it can fall back below a marker, because a wrong answer drops a card's stage.
-  buildBeltBar() {
-    const g = this.gameScore();
-    const B = this.BELT_SCORE;
-    const col = {};
-    for (const b of (this.curriculum && this.curriculum.belts) || []) col[b.id] = b.color;
-    const dark = g.belt === "black";
-    const fill = g.belt ? (col[g.belt] || "#c9d3e6") : "rgba(196,206,226,.5)";
-    const at = Math.max(0, Math.min(1, g.score)) * 100;
-    const H = 176;
-
-    const wrap = document.createElement("div");
-    wrap.setAttribute("data-score-row", "1");
-    wrap.setAttribute("data-game-score", g.score.toFixed(4));
-    wrap.setAttribute("data-belt-met", g.belt || "none");
-    wrap.style.cssText = "display:flex;align-items:flex-start;gap:14px;padding:14px 10px 18px 12px;";
-
-    const track = document.createElement("div");
-    track.setAttribute("data-belt-track", dark ? "black" : "normal");
-    track.style.cssText = "position:relative;flex:none;width:12px;height:" + H + "px;border-radius:7px;background:rgba(255,255,255,.04);border:1px solid " + (dark ? "rgba(255,255,255,.6)" : "rgba(118,130,158,.55)") + ";";
-    const lvl = document.createElement("div");
-    lvl.setAttribute("data-belt-fill", g.belt || "none");
-    lvl.style.cssText = "position:absolute;left:0;right:0;bottom:0;height:" + at.toFixed(1) + "%;background:" + fill + ";border-radius:6px;transition:height .55s cubic-bezier(.2,.7,.2,1),background .45s ease;";
-    track.appendChild(lvl);
-    for (const [id, t] of B) {
-      const on = g.score >= t;
-      const dot = document.createElement("span");
-      dot.setAttribute("data-belt-mark", id);
-      if (on) dot.setAttribute("data-met", "1");
-      dot.style.cssText = "position:absolute;left:50%;bottom:" + (t * 100) + "%;transform:translate(-50%,50%);width:14px;height:14px;border-radius:50%;background:" + (col[id] || "#8a94ab") + ";border:2px solid " + (on ? "#eef1f6" : "rgba(16,20,32,.95)") + ";box-shadow:0 0 0 1px rgba(0,0,0,.55)" + (on ? ",0 0 11px " + (col[id] || "#8a94ab") : "") + ";opacity:" + (on ? "1" : ".5") + ";";
-      track.appendChild(dot);
-    }
-    const you = document.createElement("span");
-    you.setAttribute("data-you-are-here", "1");
-    you.style.cssText = "position:absolute;left:-6px;right:-6px;bottom:" + at.toFixed(1) + "%;height:2px;background:#eef1f6;box-shadow:0 0 7px rgba(255,255,255,.8);transition:bottom .55s cubic-bezier(.2,.7,.2,1);";
-    track.appendChild(you);
-    wrap.appendChild(track);
-
-    const side = document.createElement("div");
-    side.style.cssText = "position:relative;flex:1;min-width:0;height:" + H + "px;";
-    side.innerHTML =
-      '<div style="position:absolute;right:2px;top:-2px;text-align:right;">' +
-        '<div style="font-size:17px;font-weight:800;color:#eef1f6;font-family:\'Space Grotesk\',sans-serif;line-height:1;">' + (g.score * 100).toFixed(1) + '%</div>' +
-        '<div style="font-size:8.5px;letter-spacing:.13em;text-transform:uppercase;font-weight:700;color:#7e8aa3;margin-top:4px;">Game knowledge</div>' +
-      '</div>';
-    for (const [id, t] of B) {
-      const on = g.score >= t;
-      const lab = document.createElement("div");
-      lab.setAttribute("data-belt-label", id);
-      lab.style.cssText = "position:absolute;left:0;bottom:" + (t * 100) + "%;transform:translateY(50%);font-size:10.5px;font-weight:" + (on ? "800" : "600") + ";color:" + (on ? "#eef1f6" : "#6b7691") + ";white-space:nowrap;";
-      lab.textContent = id.charAt(0).toUpperCase() + id.slice(1) + " · " + Math.round(t * 100) + "%";
-      side.appendChild(lab);
-    }
-    wrap.appendChild(side);
-    return wrap;
-  }
   // a lesson's crown: the ring fills with deckMastery, and the numeral is the crown level 0-4.
   // Same numbers that drive the belt score — grinding a bubble to gold IS moving your belt.
   crownBadge(frac, tint, locked) {
@@ -2663,108 +2695,7 @@ class Component extends DCLogic {
       '<span style="width:18px;height:18px;border-radius:50%;background:#121623;display:flex;align-items:center;justify-content:center;font-size:9.5px;font-weight:800;color:' + ink + ';font-family:\'Space Grotesk\',sans-serif;">' + (lvl >= 4 ? "★" : lvl) + '</span>' +
       '</span>';
   }
-  renderBeltPath(list, mk) {
-    this._pathDim = true;
-    if (!this._pathBeatFired) { this._pathBeatFired = true; this.fx("path_opened", { belts: this.curriculum.belts.length }); }
-    const belts = this.curriculum.belts;
-    list.appendChild(this.buildBeltBar());
-    // the tutorial rides at the head of the path: learning the UI is the first thing a white
-    // belt does, so it gets a row and a progress count like everything else on the ladder
-    {
-      const tn = this.tutDoneCount(), tof = this.TUTORIAL.length, cur = this.tutCurrent();
-      const tRow = mk(
-        '<span style="width:14px;height:14px;border-radius:4px;background:#7ee0a8;box-shadow:0 0 10px #7ee0a855;flex:none;"></span>' +
-        '<span style="font-size:13.5px;font-weight:800;color:#eef1f6;">Tutorial</span>' +
-        '<span style="margin-left:auto;font-size:10.5px;color:' + (cur ? "#7e8aa3" : "#7ee0a8") + ';">' + (cur ? tn + "/" + tof + " steps" : "complete ★") + '</span>',
-        12);
-      tRow.setAttribute("data-tut-row", "1");
-      list.appendChild(tRow);
-      if (cur) {
-        const next = mk('<span style="font-size:11.5px;color:#9ab0e0;line-height:1.35;">' + cur.copy + '</span>', 30);
-        next.setAttribute("data-tut-next", cur.id);
-        list.appendChild(next);
-      }
-    }
-    for (let bi = 0; bi < belts.length; bi++) {
-      const b = belts[bi];
-      const unlocked = this.beltUnlocked(bi);
-      const done = b.units.filter((u) => this.unitComplete(b.id, u)).length;
-      const proof = this.beltProof(b);
-      this._stripeSeen = this._stripeSeen || {};
-      if (proof.stripes > (this._stripeSeen[b.id] || 0)) { this._stripeSeen[b.id] = proof.stripes; this.fx("stripe_earned", { belt: b.id, stripes: proof.stripes, pct: Math.round(proof.pct * 100) }); }
-      const bRow = mk(
-        '<span style="width:14px;height:14px;border-radius:4px;background:' + b.color + ';box-shadow:0 0 10px ' + b.color + '55;flex:none;"></span>' +
-        '<span style="font-size:13.5px;font-weight:800;color:#eef1f6;">' + b.name + '</span>' +
-        this.stripeHTML(proof.stripes) +
-        (unlocked
-          ? '<span style="margin-left:auto;font-size:10.5px;color:#7e8aa3;">' + done + "/" + b.units.length + ' units</span>'
-          : '<span style="margin-left:auto;font-size:9.5px;color:#7e8aa3;">Win the ' + belts[bi - 1].name + ' test to unlock</span>'),
-        12);
-      bRow.setAttribute("data-belt", b.id);
-      if (!unlocked) { bRow.setAttribute("data-locked", "1"); bRow.style.opacity = "0.45"; bRow.style.cursor = "default"; }
-      if (bi) bRow.style.marginTop = "12px";
-      list.appendChild(bRow);
-      let prevUnitDone = true;
-      for (const u of b.units) {
-        const uk = b.id + "/" + u.id;
-        const uDone = this.unitComplete(b.id, u);
-        const uLocked = !unlocked || !prevUnitDone;
-        const uRow = mk('<span style="font-size:12.5px;font-weight:700;color:' + (uDone ? "#7ee0a8" : uLocked ? "#7e8aa3" : "#dbe2f0") + ';">' + (uDone ? "\u2713 " : "") + u.name + '</span>', 22);
-        uRow.setAttribute("data-unit", uk);
-        if (uDone) uRow.setAttribute("data-done", "1");
-        if (uLocked) { uRow.setAttribute("data-locked", "1"); uRow.style.opacity = "0.5"; }
-        list.appendChild(uRow);
-        for (const l of u.lessons) {
-          const live = this._lessonLive(l);
-          const ld = this.lessonDone(l.deckKey);
-          const parts = l.deckKey.split("|");
-          const row = mk(
-            this.crownBadge(this.deckMastery(l.deckKey), b.color, uLocked || !live) +
-            '<span style="font-size:12px;color:' + (ld ? "#7ee0a8" : live && !uLocked ? "#c3cde0" : "#5d6a86") + ';">' + parts[0] + ' <span style="color:#6b7691;font-size:10.5px;">' + parts[1] + '</span></span>' +
-            (!live ? '<span style="margin-left:auto;font-size:9px;font-weight:800;color:#9fb0d8;border:1px solid rgba(150,170,210,.3);border-radius:5px;padding:1px 5px;">GI</span>' : ""),
-            30,
-            !uLocked && live ? () => this.openLessonStudy(l, u, b) : null);
-          row.setAttribute("data-lesson", l.deckKey);
-          if (ld) row.setAttribute("data-done", "1");
-          row.setAttribute("data-live", live ? "1" : "0");
-          if (!live) { row.setAttribute("aria-disabled", "true"); row.style.opacity = "0.45"; row.style.cursor = "default"; }
-          list.appendChild(row);
-        }
-        const cpDone = !!(this.units && this.units[uk] && this.units[uk].checkpoint);
-        const cpRow = mk('<span style="font-size:11.5px;font-weight:700;color:' + (cpDone ? "#7ee0a8" : uLocked ? "#5d6a86" : "#cbd24e") + ';">' + (cpDone ? "\u2713 Checkpoint" : "\u25c8 Checkpoint") + '</span>', 34, uLocked ? null : () => this.startCheckpoint(b.id, u));
-        cpRow.setAttribute("data-checkpoint", uk);
-        if (cpDone) cpRow.setAttribute("data-done", "1");
-        if (uLocked) cpRow.style.opacity = "0.5";
-        list.appendChild(cpRow);
-        prevUnitDone = uDone;
-      }
-      if (b.test) {
-        const ready = unlocked && b.units.every((u) => this.unitComplete(b.id, u));
-        const won = !!(this.belts && this.belts.won && this.belts.won[b.id]);
-        const attempts = (this.belts && this.belts.attempts && this.belts.attempts[b.id]) || 0;
-        const state = won ? "won" : !ready ? "locked" : attempts ? "retry" : "ready";
-        const tRow = mk(
-          '<span style="font-size:12px;font-weight:800;color:' + (won ? "#e8c15a" : state === "locked" ? "#5d6a86" : "#e8956b") + ';">' +
-            (won ? "\u2605 " : "\u2694 ") + b.test.name +
-            (state === "retry" ? ' <span style="font-size:9.5px;font-weight:600;color:#7e8aa3;">attempt ' + (attempts + 1) + '</span>' : "") +
-          '</span>',
-          22,
-          state === "ready" || state === "retry" ? () => this.startBeltTest(b.id) : null);
-        tRow.setAttribute("data-belt-test", b.id);
-        tRow.setAttribute("data-test-state", state);
-        if (state === "locked") tRow.style.opacity = "0.5";
-        if (state === "ready") { tRow.style.animation = "ngBeacon 1.5s ease-in-out infinite"; tRow.style.borderRadius = "8px"; }
-        list.appendChild(tRow);
-      }
-    }
-  }
-
-  // ═══ BELT PATH (P4): boss-battle belt tests ═══
-  _nextBeltId(beltId) {
-    const bs = (this.curriculum && this.curriculum.belts) || [];
-    const i = bs.findIndex((b) => b.id === beltId);
-    return i >= 0 && bs[i + 1] ? bs[i + 1].id : null;
-  }
+  // Content capstones reuse the existing deterministic roll-test engine without gating tracks.
   _beltPoolAllows(n) {
     const bt = this._beltTest; if (!bt) return true;
     return bt.names.indexOf(this.splitName(n.t).main.toLowerCase()) >= 0;
@@ -2774,8 +2705,8 @@ class Component extends DCLogic {
     const bi = bs.findIndex((b) => b.id === beltId);
     const belt = bs[bi];
     if (!belt || !belt.test) return;
-    if (!this.beltUnlocked(bi) || !belt.units.every((u) => this.unitComplete(belt.id, u))) {
-      this.setEvent("Belt test locked", "Complete every unit first", "bad"); return;
+    if (!belt.units.every((u) => this.unitComplete(belt.id, u))) {
+      this.setEvent("Capstone evidence needed", "Complete every unit first", "bad"); return;
     }
     const frame = this._giMode === "nogi" ? "nogi" : "gi";
     // set BEFORE rollFromPosition: clearEngagement runs inside it and deliberately leaves
@@ -2791,7 +2722,8 @@ class Component extends DCLogic {
     const el = this.explorerRef.current;
     if (el && el.style.display === "flex") this.toggleExplorer();
     const posIdx = this._idIndex ? this._idIndex.get(belt.test.startNodeId) : null;
-    this.showCenter("BELT TEST", belt.test.name, this._beltTest.maxMoves + " moves \u00b7 win by tap or on points", "bad", true);
+    const challengeTrack = NG_CHALLENGE_TRACKS.find((track) => track.id === beltId);
+    this.showCenter("CONTENT CAPSTONE", (challengeTrack ? challengeTrack.name : belt.name) + " capstone", this._beltTest.maxMoves + " moves \u00b7 win by tap or on points", "bad", true);
     this.rollFromPosition(posIdx != null ? posIdx : this.currentPos);
     // the authored budget + start role override the roll seeder's randomized defaults
     this.maxMoves = this._beltTest.maxMoves;
@@ -2816,21 +2748,39 @@ class Component extends DCLogic {
     const el = this.explorerRef.current; if (!el) return;
     if (el.style.display === "flex") {
       el.style.display = "none"; this._dossierIdx = null;
-      this._pathDim = false; this._pathBeatFired = false;
+      this._pathDim = false;
+      this._learningViewsTracked = {};
       if (this._explorerAutoPaused) { this.setPaused(false); this._explorerAutoPaused = false; }
+      if (this.renderChallengeCue) this.renderChallengeCue();
+      const fallback = this._tutEl
+        ? this._tutEl.querySelector("[data-challenge-cue-open]")
+        : this.wrapRef.current && this.wrapRef.current.querySelector(".ng-logo");
+      const restore =
+        this._explorerReturnFocus &&
+        document.documentElement.contains(this._explorerReturnFocus)
+          ? this._explorerReturnFocus
+          : fallback;
+      this._explorerReturnFocus = null;
+      setTimeout(() => { try { if (restore && restore.focus) restore.focus(); } catch (e) {} }, 0);
     }
     else {
       this.openExplorer(); this.showExplorerList();
       const inp = this.explorerSearchRef.current;
-      setTimeout(() => { try { if (inp) inp.focus(); } catch (e) {} }, 80);
+      if (this._viewMode === "explore") {
+        setTimeout(() => { try { if (inp) inp.focus(); } catch (e) {} }, 80);
+      }
     }
     this.lastInteract = this.now;
   }
   openExplorer() {
     const el = this.explorerRef.current; if (!el) return;
     if (el.style.display !== "flex") {
+      const active = document.activeElement;
+      this._explorerReturnFocus =
+        active && active !== document.body ? active : null;
       el.style.display = "flex";
       if (!this.paused) { this.setPaused(true); this._explorerAutoPaused = true; }
+      if (this.renderChallengeCue) this.renderChallengeCue();
     }
     const inp = this.explorerSearchRef.current;
     if (inp && !inp._wired) {
@@ -2903,17 +2853,30 @@ class Component extends DCLogic {
   }
   renderExplorer() {
     const list = this.explorerListRef.current; if (!list) return;
+    list.innerHTML = "";
+    if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
+    if (this._viewMode === "challenges") {
+      this.renderChallenges(list);
+      return;
+    }
+    if (this._viewMode === "collection") {
+      this.renderCollection(list);
+      return;
+    }
     const data = this.buildExplorer();
     this._exp = this._exp || { g: new Set(["Submissions"]), f: new Set() };
     const q = (this._exQ || "").toLowerCase().trim();
-    list.innerHTML = "";
+    this._pathDim = false;
     const mk = (html, pad, onClick) => {
-      const d = document.createElement("div");
-      d.style.cssText = "cursor:pointer;padding:7px " + pad + "px;border-radius:7px;display:flex;align-items:center;gap:8px;";
+      const d = document.createElement(onClick ? "button" : "div");
+      if (onClick) d.type = "button";
+      d.style.cssText = "width:100%;font-family:inherit;text-align:left;color:inherit;border:0;background:transparent;cursor:" + (onClick ? "pointer" : "default") + ";padding:7px " + pad + "px;border-radius:7px;display:flex;align-items:center;gap:8px;";
       d.innerHTML = html;
-      d.addEventListener("mouseenter", () => d.style.background = "rgba(255,255,255,.045)");
-      d.addEventListener("mouseleave", () => d.style.background = "transparent");
-      if (onClick) d.addEventListener("click", onClick);
+      if (onClick) {
+        d.addEventListener("mouseenter", () => d.style.background = "rgba(255,255,255,.045)");
+        d.addEventListener("mouseleave", () => d.style.background = "transparent");
+        d.addEventListener("click", onClick);
+      }
       return d;
     };
     // search mode: flat ranked results across all nodes
@@ -2927,9 +2890,6 @@ class Component extends DCLogic {
       }
       return;
     }
-    // PATH mode: the Belt Path replaces the tree groups (search above stays global)
-    if (this._viewMode === "path" && this.curriculum) { this.renderBeltPath(list, mk); return; }
-    this._pathDim = false;
     // curated concept sections (authored on bjjgraph.org)
     const curatedMap = {
       Systems: ["#a98bff", [["Leg Lock System", "ashi"], ["Back Attack System", "back"], ["Pressure Passing", "pass"], ["Guard Retention", "guard"], ["Half Guard System", "half guard"], ["Mount Attacks", "mount"]]],
@@ -3500,6 +3460,7 @@ class Component extends DCLogic {
     s[qh] = Math.max(0, Math.min(cap == null ? 4 : cap, (s[qh] || 0) + d));
     this._stageVer = (this._stageVer || 0) + 1; // invalidates the gameScore memo
     this._saveProgress();
+    if (this.renderKnowledgeHeader) this.renderKnowledgeHeader();
     return s[qh];
   }
   // first sentence, ≤160 chars — applied to the CORRECT answer too (no length tell).
@@ -3708,7 +3669,7 @@ class Component extends DCLogic {
     if (this._checkpoint) return; // a quiz is already in progress — don't discard it
     const uk = beltId + "/" + unit.id;
     const live = unit.lessons.filter((l) => this._lessonLive(l));
-    if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint locked", "Finish the unit's lessons first", "bad"); return; }
+    if (!live.every((l) => this.lessonDone(l.deckKey))) { this.setEvent("Checkpoint evidence needed", "Finish this unit's lessons first", "bad"); return; }
     const decks = (this.flashcards && this.flashcards.decks) || {};
     const pool = [];
     for (const l of live) {
@@ -4034,8 +3995,6 @@ class Component extends DCLogic {
         this.belts.won = this.belts.won || {};
         this.belts.won[bt.beltId] = { t: Date.now(), moves: this.moveCount || 0, byPoints: wonByPoints };
         this.fx("belt_test_won", { belt: bt.beltId, moves: this.moveCount || 0, byPoints: wonByPoints, dominance: dominance });
-        const nextBelt = this._nextBeltId(bt.beltId);
-        if (nextBelt) this.fx("belt_unlocked", { belt: nextBelt });
         this._flushSave();
         if (kind !== "win") { kind = "win"; name = name || "Won on points"; } // points wins celebrate like wins
       } else {
@@ -4044,7 +4003,7 @@ class Component extends DCLogic {
         this.fx("belt_test_lost", { belt: bt.beltId, moves: this.moveCount || 0, dominance: dominance, attempts: this.belts.attempts[bt.beltId] });
         this._flushSave();
         if (kind === "reset") kind = "lose"; // the test ended in defeat, not a scramble
-        name = name || "Not yet \u2014 retry from the Path";
+        name = name || "Not yet \u2014 retry from Challenges";
       }
     }
     if (kind === "win") {
@@ -4494,54 +4453,188 @@ class Component extends DCLogic {
     this.setBeacon("panic", card);
   }
 
-  // ── TUTORIAL: a 20-step drip, completed by DOING ──
-  // The 3-beat coach is steps 1–3 (its DOM, beats and latch are untouched). The other 17 are
-  // earned by performing them: each step names a beat, and the fx bus ticks it off the moment
-  // the player does the thing. Nothing is gated behind it — it is a map of the game, not a wall,
-  // and it reads as one row on the White Belt path so learning the UI and learning BJJ share
-  // one progress bar.
+  // ── CHALLENGES: permanent evidence tracks, separate from Game Knowledge ──
+  get CHALLENGE_TRACKS() { return NG_CHALLENGE_TRACKS; }
+  get CHALLENGES() { return NG_CHALLENGES; }
+  get PATCHES() { return NG_BADGE_DEFINITIONS; }
+  get MAT_COINS() { return NG_MAT_COINS; }
   get TUTORIAL() {
-    return [
-      { id: "coach1", copy: "Read your hand — the cards below are every move you have here", m: (b) => b === "coach_1" },
-      { id: "coach2", copy: "Peek a move's sheet before you commit to it", m: (b) => b === "coach_2" },
-      { id: "coach3", copy: "Every state you land on asks you one question", m: (b) => b === "coach_3" },
-      { id: "answer", copy: "Answer a landing question correctly — press A, B, C or D", m: (b, p) => b === "land_q_answered" && !!p.correct },
-      { id: "sheet", copy: "Open a move's sheet to see what it wins you", m: (b) => b === "sheet_opened" },
-      { id: "commit", copy: "Execute a move", m: (b) => b === "commit" },
-      { id: "sweep", copy: "Watch the needle decide it", m: (b) => b === "sweep_land" },
-      { id: "win1", copy: "Win an exchange", m: (b) => b === "impact_success" },
-      { id: "refund", copy: "Buy yourself clock with a right answer", m: (b, p) => b === "timer_refund" && !!p.granted },
-      { id: "defend", copy: "Survive an attack", m: (b) => b === "defend_start" },
-      { id: "escape", copy: "Escape a submission", m: (b) => b === "escape" },
-      { id: "roll", copy: "See a roll through to the end", m: (b) => b === "roll_end" },
-      { id: "pane_open", copy: "Open your flashcards — the game stops while you study", m: (b) => b === "pane_paused" },
-      { id: "pane_close", copy: "Close them — the game picks up exactly where it left off", m: (b) => b === "pane_resumed" },
-      { id: "film", copy: "Watch a film-study Short", m: (b) => b === "short_watched" },
-      { id: "recall", copy: "Prove a card from memory instead of from a list", m: (b) => b === "recall_proven" },
-      { id: "roam", copy: "Click any node on the graph to roam there", m: (b) => b === "roll_staged" },
-      { id: "path", copy: "Open your Belt Path", m: (b) => b === "path_opened" },
-      { id: "lesson", copy: "Finish a lesson", m: (b) => b === "lesson_done" },
-      { id: "belt", copy: "Win your White Belt test", m: (b) => b === "belt_test_won" },
-    ];
+    // Transitional test/API rail: older clients and journeys keep the same twenty IDs.
+    return NG_WHITE_CHALLENGES.map((challenge) => ({
+      id: challenge.legacyId,
+      copy: challenge.copy,
+      m: (beat, props) => ngMatches(challenge, beat, props || {}),
+    }));
+  }
+  challengeProgress(id) {
+    const definition = NG_CHALLENGE_BY_ID[id];
+    if (!definition) return null;
+    return ngProgressEntry((this.challenges || {})[id], definition);
+  }
+  challengeTrackProgress(trackId) {
+    return ngTrackSummary(this.challenges || {}, trackId);
+  }
+  challengeDoneCount(trackId) {
+    return this.challengeTrackProgress(trackId || "white").done;
+  }
+  challengeCurrent(trackId) {
+    const track = trackId || "white";
+    for (const definition of NG_CHALLENGES) {
+      if (definition.track === track && !this.challengeProgress(definition.id).done) {
+        return definition;
+      }
+    }
+    return null;
+  }
+  _challengeSnapshot() {
+    let lessonCount = 0;
+    for (const key in (this._lessonIndex || {})) {
+      if (this.lessonDone(key)) lessonCount += 1;
+    }
+    let checkpointCount = 0;
+    for (const key in (this.units || {})) {
+      if (this.units[key] && this.units[key].checkpoint) checkpointCount += 1;
+    }
+    const capstoneCount = Object.keys(((this.belts || {}).won) || {}).length;
+    let recallCount = 0;
+    for (const deckKey in (this.stage || {})) {
+      const deck = this.stage[deckKey] || {};
+      for (const questionHash in deck) {
+        if ((deck[questionHash] || 0) >= 3) recallCount += 1;
+      }
+    }
+    let masteredDeckCount = 0;
+    if (this.flashcards && this.flashcards.decks) {
+      for (const deckKey of Object.keys(this.stage || {})) {
+        if (this.deckMastery(deckKey) >= 1) masteredDeckCount += 1;
+      }
+    }
+    return {
+      lessonCount,
+      checkpointCount,
+      capstoneCount,
+      recallCount,
+      masteredDeckCount,
+    };
+  }
+  _refreshChallengeEvidence() {
+    if (!this._progressLoaded || this._inChallenges) return;
+    this._inChallenges = true;
+    try {
+      this.noteChallenges("challenge_snapshot", {});
+    } finally {
+      this._inChallenges = false;
+    }
+  }
+  noteChallenges(beat, props) {
+    this.challenges = this.challenges || {};
+    this.badges = this.badges || {};
+    this.coins = this.coins || {};
+    const now = Date.now();
+    const compatibilityChanged = this._syncWhiteChallengeCompatibility(now);
+    const snapshot = NG_SNAPSHOT_BEATS.has(beat) ? this._challengeSnapshot() : null;
+    const advanced = ngAdvanceChallenges(
+      this.challenges,
+      beat,
+      props || {},
+      snapshot,
+      now,
+    );
+    this.challenges = advanced.state;
+    const rewards = ngRewardChanges(
+      this.challenges,
+      this.badges,
+      this.coins,
+      this._challengeRuntime,
+      advanced.completed,
+      beat,
+      props || {},
+      now,
+    );
+    this.badges = rewards.badges;
+    this.coins = rewards.coins;
+    this._challengeRuntime = rewards.runtime;
+    const durableChanged =
+      compatibilityChanged ||
+      advanced.changed ||
+      rewards.newBadges.length > 0 ||
+      rewards.newCoins.length > 0;
+    if (!durableChanged) return;
+    this._syncWhiteChallengeCompatibility(now);
+    if (this._progressLoaded) this._saveProgress();
+
+    if (beat !== "challenge_snapshot") {
+      for (const id of advanced.completed) {
+        const definition = NG_CHALLENGE_BY_ID[id];
+        if (!definition || definition.hidden) continue;
+        this.fx("challenge_completed", {
+          id,
+          track: definition.track,
+          progress: definition.target,
+          target: definition.target,
+        });
+        this.track("neural_challenge_completed", {
+          challenge_id: id,
+          track_id: definition.track,
+        });
+        if (this.acknowledgeChallenge) this.acknowledgeChallenge(id);
+        if (definition.track === "white") {
+          this.fx("tut_step", {
+            id: definition.legacyId,
+            done: this.tutDoneCount(),
+            of: NG_WHITE_CHALLENGES.length,
+          });
+        }
+      }
+      for (const trackId of rewards.clearedTracks) {
+        this.fx("challenge_track_cleared", { track: trackId });
+        this.track("neural_challenge_track_cleared", { track_id: trackId });
+        if (trackId === "white") this.fx("tutorial_done", {});
+      }
+      for (const id of rewards.newBadges) {
+        this.fx("patch_earned", { id });
+        this.track("neural_patch_earned", { patch_id: id });
+        if (this.queueChallengeReward) this.queueChallengeReward("patch", id);
+      }
+      for (const id of rewards.newCoins) {
+        this.fx("coin_earned", { id });
+        this.track("neural_coin_earned", { coin_id: id });
+        if (this.queueChallengeReward) this.queueChallengeReward("coin", id);
+      }
+    }
+    if (
+      compatibilityChanged ||
+      advanced.completed.some(
+        (id) => NG_CHALLENGE_BY_ID[id] && NG_CHALLENGE_BY_ID[id].track === "white",
+      )
+    ) {
+      this.renderTutorial();
+    }
+    if (this.renderChallengeCue) this.renderChallengeCue();
+    const explorer = this.explorerRef && this.explorerRef.current;
+    if (
+      explorer &&
+      explorer.style.display === "flex" &&
+      !this._renderingChallengeView &&
+      (this._viewMode === "challenges" || this._viewMode === "collection")
+    ) {
+      this.renderExplorer();
+    }
   }
   tutDoneCount() { const d = (this.tut && this.tut.done) || {}; let n = 0; for (const s of this.TUTORIAL) if (d[s.id]) n++; return n; }
   tutCurrent() { const d = (this.tut && this.tut.done) || {}; for (const s of this.TUTORIAL) if (!d[s.id]) return s; return null; }
   noteTutorial(beat, props) {
-    if (!this.tut) this.tut = { done: {} };
-    const steps = this.TUTORIAL;
-    let hit = null;
-    // any step may be ticked in any order — doing something early still counts
-    for (const s of steps) { if (!this.tut.done[s.id] && s.m(beat, props || {})) { hit = s; break; } }
-    if (!hit) return;
-    this.tut.done[hit.id] = 1;
-    if (this._progressLoaded) this._saveProgress(); // never write a blob before ingest ran (Q001 rule)
-    const n = this.tutDoneCount();
-    this.fx("tut_step", { id: hit.id, done: n, of: steps.length });
-    if (n >= steps.length) this.fx("tutorial_done", {});
-    this.renderTutorial();
+    if (this._inChallenges) return;
+    this._inChallenges = true;
+    try {
+      this.noteChallenges(beat, props || {});
+    } finally {
+      this._inChallenges = false;
+    }
   }
   restartTutorial() {
     this.tut = { done: {} };
+    this.challenges = ngResetWhiteChallenges(this.challenges);
     this.tutHidden = false;
     this._coachDone = false;
     try { localStorage.removeItem("bjj-neural-coached"); } catch (e) {}
@@ -4564,7 +4657,7 @@ class Component extends DCLogic {
     el.setAttribute("data-tut-step", cur.id);
     el.innerHTML =
       '<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px;">' +
-        '<span style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">Tutorial</span>' +
+        '<span style="font-size:9px;letter-spacing:.15em;text-transform:uppercase;font-weight:800;color:#7ee0a8;">White Challenges</span>' +
         '<span data-tut-count style="font-size:9.5px;font-weight:800;color:#9ab0e0;font-family:\'Space Grotesk\',sans-serif;">' + n + '/' + of + '</span>' +
         '<span style="flex:1;height:3px;border-radius:2px;background:rgba(150,170,210,.18);overflow:hidden;"><span style="display:block;height:100%;width:' + Math.round((n / of) * 100) + '%;background:#7ee0a8;"></span></span>' +
         '<span data-tut-hide title="Hide (Settings can bring it back)" style="cursor:pointer;font-size:14px;line-height:1;color:#7e8aa3;">×</span>' +
@@ -4799,7 +4892,7 @@ class Component extends DCLogic {
     this._qMod = 0; // a new arrival forgives the last exchange's wrong answer
     this.fx("land", { position: pos ? pos.t : null, first: !!first });
     if (!first) this.decaySharp(); // sharpness fades as the roll moves on
-    if (this._beltTest) this.setEvent("Belt test", Math.max(0, (this.maxMoves || 0) - (this.moveCount || 0)) + " moves left", "info");
+    if (this._beltTest) this.setEvent("Content capstone", Math.max(0, (this.maxMoves || 0) - (this.moveCount || 0)) + " moves left", "info");
     this.focusIdx = this.currentPos; this.pulse = null;
     this._settleT = this.now;
     this.activeMove = null;

@@ -1,15 +1,18 @@
-import { expect, type Page } from "@playwright/test"
-import { readFileSync } from "node:fs"
-import { resolve } from "node:path"
+import { expect, type Page } from "@playwright/test";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
 
 // Big data payloads served from a per-worker buffer: on a saturated CI box, `npx serve`
 // streaming 13.5MB per fresh browser context can stall a boot past any reasonable budget.
 // Fulfilling from memory makes every boot deterministic (locally it's a no-op speedup).
-const PAYLOADS: Record<string, Buffer> = {}
+const PAYLOADS: Record<string, Buffer> = {};
 const payload = (rel: string) => {
-  if (!PAYLOADS[rel]) PAYLOADS[rel] = readFileSync(resolve(__dirname, "../source/public/static/neural", rel))
-  return PAYLOADS[rel]
-}
+  if (!PAYLOADS[rel])
+    PAYLOADS[rel] = readFileSync(
+      resolve(__dirname, "../source/public/static/neural", rel),
+    );
+  return PAYLOADS[rel];
+};
 
 /**
  * Journey DSL — Playwright plays AS the user through the Neural Graph app.
@@ -30,11 +33,11 @@ const payload = (rel: string) => {
  * only where canvas hit-testing has no DOM (documented per call).
  */
 
-type W = Window & { __neural?: any; NG_CONTENT?: any }
+type W = Window & { __neural?: any; NG_CONTENT?: any };
 
 export class Journey {
   constructor(private page: Page) {}
-  private bootSeq = 0
+  private bootSeq = 0;
 
   /** Boot the app fresh on a route with the deterministic rails engaged.
    *  preserveStorage skips the localStorage wipe for THIS boot — for persistence journeys
@@ -43,52 +46,57 @@ export class Journey {
   async boot(
     path = "/",
     opts: {
-      seedRolls?: Record<string, number[]>
-      preserveStorage?: boolean
+      seedRolls?: Record<string, number[]>;
+      preserveStorage?: boolean;
       /** synthetic bjj-neural-progress blob, applied post-wipe pre-app-read (hash-carried) */
-      initialState?: Record<string, unknown>
+      initialState?: Record<string, unknown>;
       /** force the curriculum fetch to 404 (fallback-path journeys) */
-      noCurriculum?: boolean
-      /** keep the 20-step tutorial drip live (default: pre-completed, like the coach) */
-      keepTutorial?: boolean
+      noCurriculum?: boolean;
+      /** keep the 20 White Challenge compatibility objectives incomplete */
+      keepTutorial?: boolean;
     } = {},
   ) {
     if (!(this.page as any).__ngInit) {
-      ;(this.page as any).__ngInit = true
+      (this.page as any).__ngInit = true;
       await this.page.addInitScript(() => {
         try {
-          const keep = sessionStorage.getItem("__ng_keep")
-          sessionStorage.removeItem("__ng_keep")
+          const keep = sessionStorage.getItem("__ng_keep");
+          sessionStorage.removeItem("__ng_keep");
           if (!keep) {
-            localStorage.clear()
-            sessionStorage.clear()
+            localStorage.clear();
+            sessionStorage.clear();
           }
         } catch {}
         // engage test mode BEFORE the bundle boots: the app checks this flag at construction
-        ;(window as any).__NEURAL_TEST__ = true
-      })
+        (window as any).__NEURAL_TEST__ = true;
+      });
       // initialState seeding: the blob rides the navigation's own hash, so it lands AFTER the
       // wipe above and BEFORE any page script, and a later boot can never replay a stale seed
       // (addInitScript args are frozen at registration — a mutable-holder design would leak).
       await this.page.addInitScript(() => {
         try {
-          const m = location.hash.match(/ngseed=([^&]+)/)
+          const m = location.hash.match(/ngseed=([^&]+)/);
           if (m) {
             // NOTE: the hash is left in place — history.replaceState here can wake the
             // Quartz SPA router mid-boot and remount a fresh (pre-ingest) app instance
-            localStorage.setItem("bjj-neural-progress", decodeURIComponent(m[1]))
+            localStorage.setItem(
+              "bjj-neural-progress",
+              decodeURIComponent(m[1]),
+            );
           }
         } catch {}
-      })
+      });
     }
     if (opts.preserveStorage) {
-      await this.page.evaluate(() => sessionStorage.setItem("__ng_keep", "1")).catch(() => {})
+      await this.page
+        .evaluate(() => sessionStorage.setItem("__ng_keep", "1"))
+        .catch(() => {});
     }
     // unique URL per boot: a hash-only (or identical-URL) goto is a SAME-DOCUMENT navigation —
     // no reload, no init scripts, no wipe/seed. The nonce forces a real navigation every time.
-    path += (path.includes("?") ? "&" : "?") + "ngb=" + ++this.bootSeq
+    path += (path.includes("?") ? "&" : "?") + "ngb=" + ++this.bootSeq;
     if (opts.initialState) {
-      path += `#ngseed=${encodeURIComponent(JSON.stringify(opts.initialState))}`
+      path += `#ngseed=${encodeURIComponent(JSON.stringify(opts.initialState))}`;
     }
     // journeys don't need the 20MB dossier payload — abort it (the app is absence-guarded).
     // Register ONCE per page: duplicate handlers + a prior boot's in-flight aborts can cancel
@@ -99,44 +107,61 @@ export class Journey {
       // hanging external request on a loaded runner stalls boot past any budget. Registered
       // FIRST so the specific handlers below take precedence (Playwright matches last-first).
       await this.page.route("**/*", (r) => {
-        const u = r.request().url()
-        if (/^(http:\/\/localhost|http:\/\/127\.|data:|blob:|about:)/.test(u)) return r.continue()
-        return r.abort()
-      })
-      await this.page.route("**/technique-content.js", (r) => r.abort())
+        const u = r.request().url();
+        if (/^(http:\/\/localhost|http:\/\/127\.|data:|blob:|about:)/.test(u))
+          return r.continue();
+        return r.abort();
+      });
+      await this.page.route("**/technique-content.js", (r) => r.abort());
       await this.page.route("**/flashcards.json", (r) =>
-        r.fulfill({ body: payload("flashcards.json"), contentType: "application/json" }),
-      )
+        r.fulfill({
+          body: payload("flashcards.json"),
+          contentType: "application/json",
+        }),
+      );
       await this.page.route("**/graph-data.json", (r) =>
-        r.fulfill({ body: payload("graph-data.json"), contentType: "application/json" }),
-      )
+        r.fulfill({
+          body: payload("graph-data.json"),
+          contentType: "application/json",
+        }),
+      );
       // hermetic curriculum: the emitted file when present (Phase 1+), a clean 404 before —
       // never aborted by the catch-all, never streamed off-box
       await this.page.route("**/curriculum.json", (r) => {
         try {
-          r.fulfill({ body: payload("curriculum.json"), contentType: "application/json" })
+          r.fulfill({
+            body: payload("curriculum.json"),
+            contentType: "application/json",
+          });
         } catch {
-          r.fulfill({ status: 404, contentType: "application/json", body: "" })
+          r.fulfill({ status: 404, contentType: "application/json", body: "" });
         }
-      })
-      ;(this.page as any).__ngRouted = true
+      });
+      (this.page as any).__ngRouted = true;
     }
     if (opts.noCurriculum && !(this.page as any).__ngNoCurriculum) {
       // registered AFTER the default handler → matches first (Playwright routes are last-first)
-      ;(this.page as any).__ngNoCurriculum = true
+      (this.page as any).__ngNoCurriculum = true;
       await this.page.route("**/curriculum.json", (r) =>
         r.fulfill({ status: 404, contentType: "application/json", body: "" }),
-      )
+      );
     }
     try {
-      await this.page.goto(path, { waitUntil: "commit" })
+      await this.page.goto(path, { waitUntil: "commit" });
     } catch {
-      await this.page.goto(path, { waitUntil: "commit" }) // one retry: teardown races are transient
+      await this.page.goto(path, { waitUntil: "commit" }); // one retry: teardown races are transient
     }
     const ready = () => {
-      const a = (window as W).__neural
-      return !!(a && a.nodes && a.nodes.length && typeof a.advance === "function" && a.flashcards && a.flashcards.decks)
-    }
+      const a = (window as W).__neural;
+      return !!(
+        a &&
+        a.nodes &&
+        a.nodes.length &&
+        typeof a.advance === "function" &&
+        a.flashcards &&
+        a.flashcards.decks
+      );
+    };
     const snapshot = async () =>
       Promise.race([
         this.page.evaluate(() => ({
@@ -153,60 +178,68 @@ export class Journey {
             .slice(0, 10),
         })),
         new Promise((res) => setTimeout(() => res("diag-evaluate-hung"), 5000)),
-      ]).catch((x) => String(x))
+      ]).catch((x) => String(x));
     try {
-      await this.page.waitForFunction(ready, undefined, { timeout: 120_000 })
+      await this.page.waitForFunction(ready, undefined, { timeout: 120_000 });
     } catch {
       // BOOT-SCOPED RETRY: a readiness timeout is INFRA (CPU starvation on a contended 2-core
       // CI runner — the page load itself stalls: readyState "interactive", nothing pending,
       // app never ingests), never a gameplay regression. Reload ONCE and wait again — this
       // retries the BOOT only, so retries=0 still catches real assertion bugs. preserveStorage
       // is honored by re-arming __ng_keep before the reload (the first navigation consumed it).
-      const diag1 = await snapshot()
+      const diag1 = await snapshot();
       try {
         if (opts.preserveStorage) {
-          await this.page.evaluate(() => sessionStorage.setItem("__ng_keep", "1")).catch(() => {})
+          await this.page
+            .evaluate(() => sessionStorage.setItem("__ng_keep", "1"))
+            .catch(() => {});
         }
-        await this.page.reload({ waitUntil: "commit" })
-        await this.page.waitForFunction(ready, undefined, { timeout: 120_000 })
+        await this.page.reload({ waitUntil: "commit" });
+        await this.page.waitForFunction(ready, undefined, { timeout: 120_000 });
       } catch {
         // still stuck after a reload — this is no longer plausibly a transient flake; fail
         // for real, carrying BOTH snapshots so the log shows whether the reload changed anything
-        const diag2 = await snapshot()
+        const diag2 = await snapshot();
         throw new Error(
           `boot readiness timeout (after 1 reload); before=${JSON.stringify(diag1)} after=${JSON.stringify(diag2)}`,
-        )
+        );
       }
     }
-    // the 20-step tutorial drip narrates the whole UI for a first-time player; journeys test
-    // post-onboarding play, so it starts pre-completed unless a test opts in (mirrors keepCoach)
+    // Most gameplay journeys are not about foundational Challenge progression, so they begin
+    // with the 20 White compatibility objectives complete unless a test explicitly opts in.
     if (!opts.keepTutorial) {
       await this.page
         .evaluate(() => {
-          const a = (window as W).__neural
-          if (!a || !a.TUTORIAL) return
-          a.tut = { done: {} }
-          for (const s of a.TUTORIAL) a.tut.done[s.id] = 1
-          a.renderTutorial()
+          const a = (window as W).__neural;
+          if (!a || !a.TUTORIAL) return;
+          a.tut = { done: {} };
+          for (const s of a.TUTORIAL) a.tut.done[s.id] = 1;
+          a._syncWhiteChallengeCompatibility(Date.now());
+          a.tutHidden = true;
+          a.renderTutorial();
         })
-        .catch(() => {})
+        .catch(() => {});
     }
     if (opts.seedRolls) {
-      for (const [tag, values] of Object.entries(opts.seedRolls)) await this.rig(tag, values)
+      for (const [tag, values] of Object.entries(opts.seedRolls))
+        await this.rig(tag, values);
     }
-    return this
+    return this;
   }
 
   /** Queue deterministic values for a tagged RNG site. */
   async rig(tag: string, values: number[]) {
-    await this.page.evaluate(([t, v]) => (window as W).__neural.rig(t as string, v as number[]), [tag, values] as const)
-    return this
+    await this.page.evaluate(
+      ([t, v]) => (window as W).__neural.rig(t as string, v as number[]),
+      [tag, values] as const,
+    );
+    return this;
   }
 
   /** Pump simulated time through the app in fixed ticks. */
   async advance(ms: number) {
-    await this.page.evaluate((m) => (window as W).__neural.advance(m), ms)
-    return this
+    await this.page.evaluate((m) => (window as W).__neural.advance(m), ms);
+    return this;
   }
 
   /** Land the roll at a named position (rigged start), completing the intro.
@@ -215,142 +248,168 @@ export class Journey {
    *  a test opts in with keepCoach. */
   async land(position: string, opts: { keepCoach?: boolean } = {}) {
     // rig the intro roll's ambient draws too — ai-skill/role/max-moves must not flake across runs
-    await this.rig("ai-skill", [0.5])
-    await this.rig("role", [0])
-    await this.rig("max-moves", [0.5])
+    await this.rig("ai-skill", [0.5]);
+    await this.rig("role", [0]);
+    await this.rig("max-moves", [0.5]);
     await this.page.evaluate((pos) => {
-      const a = (window as W).__neural
-      const idx = a.nodes.findIndex((n: any) => n.ty === "positions" && n.t === pos)
-      if (idx < 0) throw new Error(`position not found: ${pos}`)
-      a.rigStart(idx) // test rail: next startRoll begins here (deterministic role=top)
-    }, position)
+      const a = (window as W).__neural;
+      const idx = a.nodes.findIndex(
+        (n: any) => n.ty === "positions" && n.t === pos,
+      );
+      if (idx < 0) throw new Error(`position not found: ${pos}`);
+      a.rigStart(idx); // test rail: next startRoll begins here (deterministic role=top)
+    }, position);
     // intro (3.2s) + roll-start toast + landing + options dealt — pump until the hand exists
     for (let i = 0; i < 12; i++) {
-      await this.advance(1000)
-      const n = await this.page.evaluate(() => ((window as W).__neural.optionIdxs || []).length)
-      if (n > 0) break
+      await this.advance(1000);
+      const n = await this.page.evaluate(
+        () => ((window as W).__neural.optionIdxs || []).length,
+      );
+      if (n > 0) break;
     }
-    if (!opts.keepCoach) await this.page.evaluate(() => (window as W).__neural?.dismissCoach?.())
-    return this
+    if (!opts.keepCoach)
+      await this.page.evaluate(() => (window as W).__neural?.dismissCoach?.());
+    return this;
   }
 
   /** After a resolve, pump until the NEXT hand of options is dealt (a fresh options_dealt
    *  beat + a live tray) — travel legs and opponent turns make fixed advances flaky. */
   async nextHand(capMs = 20000) {
-    const dealt0 = (await this.beats()).filter((b) => b.beat === "options_dealt").length
-    let spent = 0
+    const dealt0 = (await this.beats()).filter(
+      (b) => b.beat === "options_dealt",
+    ).length;
+    let spent = 0;
     while (spent < capMs) {
-      await this.advance(500)
-      spent += 500
-      const dealt = (await this.beats()).filter((b) => b.beat === "options_dealt").length
-      const n = await this.page.evaluate(() => (((window as W).__neural || {}).optionIdxs || []).length)
-      if (dealt > dealt0 && n > 0) return this
+      await this.advance(500);
+      spent += 500;
+      const dealt = (await this.beats()).filter(
+        (b) => b.beat === "options_dealt",
+      ).length;
+      const n = await this.page.evaluate(
+        () => (((window as W).__neural || {}).optionIdxs || []).length,
+      );
+      if (dealt > dealt0 && n > 0) return this;
     }
-    throw new Error(`next hand not dealt within ${capMs}ms of sim time`)
+    throw new Error(`next hand not dealt within ${capMs}ms of sim time`);
   }
 
   /** Pump sim time in small steps until a beat appears — for sequences whose exact duration
    *  varies (travel legs, opponent turns) but whose expiry would fire under one long advance. */
   async advanceUntil(beat: string, capMs = 16000, stepMs = 400) {
-    let spent = 0
+    let spent = 0;
     while (spent < capMs) {
-      await this.advance(stepMs)
-      spent += stepMs
-      const bs = await this.beats()
-      if (bs.some((b) => b.beat === beat)) return this
+      await this.advance(stepMs);
+      spent += stepMs;
+      const bs = await this.beats();
+      if (bs.some((b) => b.beat === beat)) return this;
     }
-    throw new Error(`beat "${beat}" not seen within ${capMs}ms of sim time`)
+    throw new Error(`beat "${beat}" not seen within ${capMs}ms of sim time`);
   }
 
   /** The visible option cards (bottom tray), by title. */
   async optionTitles(): Promise<string[]> {
     return this.page.evaluate(() => {
-      const a = (window as W).__neural
-      return (a.optionIdxs || []).map((o: any) => a.nodes[typeof o === "number" ? o : o.idx]?.t).filter(Boolean)
-    })
+      const a = (window as W).__neural;
+      return (a.optionIdxs || [])
+        .map((o: any) => a.nodes[typeof o === "number" ? o : o.idx]?.t)
+        .filter(Boolean);
+    });
   }
 
   /** Pick an option like a user: click its tray card (expand sheet opens), then confirm Go. */
   async pick(technique: string) {
-    const card = this.page.locator(`[data-tech="${technique}"]`).first()
-    await expect(card, `option card for "${technique}" visible`).toBeVisible()
-    await card.click()
-    const go = this.page.locator("[data-go]").first()
-    await expect(go, "expand-sheet Execute button visible").toBeVisible()
-    await go.click()
-    return this
+    const card = this.page.locator(`[data-tech="${technique}"]`).first();
+    await expect(card, `option card for "${technique}" visible`).toBeVisible();
+    await card.click();
+    const go = this.page.locator("[data-go]").first();
+    await expect(go, "expand-sheet Execute button visible").toBeVisible();
+    await go.click();
+    return this;
   }
 
   /** Read the currently displayed success % for a technique's option card. */
   async displayedOdds(technique: string): Promise<number> {
     return this.page.evaluate((t) => {
-      const a = (window as W).__neural
-      const idx = a.nodes.findIndex((n: any) => n.t === t)
-      return Math.round(a.moveChance(a.nodes[idx]) * 100)
-    }, technique)
+      const a = (window as W).__neural;
+      const idx = a.nodes.findIndex((n: any) => n.t === t);
+      return Math.round(a.moveChance(a.nodes[idx]) * 100);
+    }, technique);
   }
 
   /** Drill n cards via the same choke points the UI uses — the CURRENT position's deck by
-   *  default, or an explicit deckKey (lesson drilling in Belt Path journeys). */
+   *  default, or an explicit deckKey (lesson drilling in Challenge journeys). */
   async drill(n: number, deckKey?: string) {
     for (let i = 0; i < n; i++) {
       await this.page.evaluate(
         ([idx, dk]) => {
-          const a = (window as W).__neural
-          const key = (dk as string) || a.deckKeyFor(a.nodes[a.currentPos]).key
-          const deck = a.flashcards?.decks?.[key]
-          if (!deck || !deck.cards.length) throw new Error(`no deck for ${key}`)
-          const card = deck.cards[Math.min(idx as number, deck.cards.length - 1)]
-          if (!card) throw new Error(`no card ${idx} in ${key}`)
+          const a = (window as W).__neural;
+          const key = (dk as string) || a.deckKeyFor(a.nodes[a.currentPos]).key;
+          const deck = a.flashcards?.decks?.[key];
+          if (!deck || !deck.cards.length)
+            throw new Error(`no deck for ${key}`);
+          const card =
+            deck.cards[Math.min(idx as number, deck.cards.length - 1)];
+          if (!card) throw new Error(`no card ${idx} in ${key}`);
           // drill rail: grade the card correct through the same choke the UI uses
-          a.prep[key] = (a.prep[key] || 0) + 1
-          a.noteCardDone(card, key)
-          a.refreshOptionOdds()
+          a.prep[key] = (a.prep[key] || 0) + 1;
+          a.noteCardDone(card, key);
+          a.refreshOptionOdds();
         },
         [i, deckKey ?? null] as const,
-      )
+      );
     }
-    return this
+    return this;
   }
 
   /** Beat events emitted since boot. */
   async beats(): Promise<Array<{ beat: string }>> {
-    return this.page.evaluate(() => ((window as W).__neural.beats || []).slice())
+    return this.page.evaluate(() =>
+      ((window as W).__neural.beats || []).slice(),
+    );
   }
 
   /** Sound voices logged since boot (test mode: the synth logs instead of playing). */
-  async soundLog(): Promise<Array<{ beat: string; patch: string; volume: number }>> {
-    return this.page.evaluate(() => (((window as W).__neural || {}).sound?.soundLog || []).slice())
+  async soundLog(): Promise<
+    Array<{ beat: string; patch: string; volume: number }>
+  > {
+    return this.page.evaluate(() =>
+      (((window as W).__neural || {}).sound?.soundLog || []).slice(),
+    );
   }
 
   async expectBeat(beat: string) {
-    const bs = await this.beats()
-    expect(bs.map((b) => b.beat), `beat "${beat}" emitted`).toContain(beat)
-    return this
+    const bs = await this.beats();
+    expect(
+      bs.map((b) => b.beat),
+      `beat "${beat}" emitted`,
+    ).toContain(beat);
+    return this;
   }
 
   /** The visited-position trail of the current roll. */
   async rollTrail(): Promise<string[]> {
     return this.page.evaluate(() => {
-      const a = (window as W).__neural
-      return (a.rollLog || []).map((h: any) => h.name + "/" + h.role)
-    })
+      const a = (window as W).__neural;
+      return (a.rollLog || []).map((h: any) => h.name + "/" + h.role);
+    });
   }
 
   async currentPosition(): Promise<string> {
     return this.page.evaluate(() => {
-      const a = (window as W).__neural
-      return a.nodes[a.currentPos]?.t || ""
-    })
+      const a = (window as W).__neural;
+      return a.nodes[a.currentPos]?.t || "";
+    });
   }
 
   /** Outcome of the most recently ENDED roll — read from the durable beat stream (the live
    *  _lastOutcome field is cleared the moment the next roll auto-starts). */
   async lastOutcome(): Promise<string> {
     return this.page.evaluate(() => {
-      const beats = ((window as W).__neural.beats || []).filter((b: any) => b.beat === "roll_end")
-      return beats.length ? beats[beats.length - 1].outcome || "" : ""
-    })
+      const beats = ((window as W).__neural.beats || []).filter(
+        (b: any) => b.beat === "roll_end",
+      );
+      return beats.length ? beats[beats.length - 1].outcome || "" : "";
+    });
   }
 
   async keyframe(name: string) {
@@ -358,10 +417,10 @@ export class Journey {
     // full-page screenshot of the software-WebGL canvas wedges the shared browser's raster
     // pipeline long enough to starve the NEXT test's boot on a 2-core runner (every CI boot
     // timeout across three runs followed a keyframe; screenshot-free tests never stalled).
-    if (process.env.CI) return this
-    await this.page.screenshot({ path: `e2e/gallery/${name}.png` })
-    return this
+    if (process.env.CI) return this;
+    await this.page.screenshot({ path: `e2e/gallery/${name}.png` });
+    return this;
   }
 }
 
-export const journey = (page: Page) => new Journey(page)
+export const journey = (page: Page) => new Journey(page);

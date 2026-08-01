@@ -1,13 +1,13 @@
-import { test, expect } from "@playwright/test"
-import { readFileSync } from "node:fs"
-import { resolve } from "node:path"
-import { journey } from "../dsl"
+import { test, expect } from "@playwright/test";
+import { readFileSync } from "node:fs";
+import { resolve } from "node:path";
+import { journey } from "../dsl";
 
 /**
- * CAPSTONE A — THE WHITE-BELT STUDY STORY (one continuous gameplay journey).
+ * CHALLENGE STUDY STORY (one continuous gameplay journey).
  *
- * A brand-new player walks the Belt Path front door to their first completed unit:
- * PATH view → open unit 1's first lesson → answer a real card WRONG then RIGHT (MC) →
+ * A brand-new player walks through White Challenges to their first completed unit:
+ * Challenges → open unit 1's first lesson → answer a real card WRONG then RIGHT (MC) →
  * finish the lesson (lesson_done) → graduate that card to recall and prove recall credit →
  * complete the remaining lessons → pass the checkpoint quiz → unit_done → reload →
  * everything persisted. One boot + one preserveStorage reload, kept well under the 240s
@@ -15,109 +15,157 @@ import { journey } from "../dsl"
  */
 
 const CURRICULUM = JSON.parse(
-  readFileSync(resolve(__dirname, "../../source/public/static/neural/curriculum.json"), "utf8"),
-)
-const WHITE = CURRICULUM.belts[0]
-const UNIT1 = WHITE.units[0]
+  readFileSync(
+    resolve(__dirname, "../../source/public/static/neural/curriculum.json"),
+    "utf8",
+  ),
+);
+const WHITE = CURRICULUM.belts[0];
+const UNIT1 = WHITE.units[0];
 
-test("white belt study story: path → lesson → MC → recall → checkpoint → unit complete → persists", async ({ page }) => {
-  const j = journey(page)
-  await j.boot("/")
-  await j.land("Mount Top")
+test("White Challenge study story: lesson → MC → recall → checkpoint → evidence persists", async ({
+  page,
+}) => {
+  const j = journey(page);
+  await j.boot("/");
+  await j.land("Mount Top");
   // v1.68.0: MC is the in-roll format; the sidebar reads back as recall by default. This story
   // is about the MC → recall graduation ladder inside a lesson, so it opts into MC.
-  await page.evaluate(() => (window as any).__neural.set("mcMode", "auto"))
+  await page.evaluate(() => (window as any).__neural.set("mcMode", "auto"));
 
-  // ── the front door: PATH is the default explorer face ──
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await j.expectBeat("path_opened")
-  const firstLesson = UNIT1.lessons[0]
+  // ── the front door: Challenges is the default learning view ──
+  await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  await expect(page.locator("[data-view='challenges']")).toHaveAttribute(
+    "aria-pressed",
+    "true",
+  );
+  const firstLesson = UNIT1.lessons[0];
 
   // ── open lesson 1: camera flies, the unit becomes the study session ──
-  await page.locator(`[data-lesson="${firstLesson.deckKey}"]`).first().click()
-  await j.advance(1000)
-  expect(await page.evaluate(() => !!(window as any).__neural.deckOpen)).toBe(true)
+  await page
+    .locator(`.ng-challenge-lesson[data-lesson="${firstLesson.deckKey}"]`)
+    .click();
+  await j.advance(1000);
+  expect(await page.evaluate(() => !!(window as any).__neural.deckOpen)).toBe(
+    true,
+  );
 
   // ── first real card: wrong first (learn), then right (earn) ──
   const qh = await page.evaluate(() => {
-    const a = (window as any).__neural
-    for (const c of a.deck || []) if (a.mcClip(c.a)) { a.presentCard(a.qhash(c.q)); return a.qhash(c.q) }
-    return null
-  })
-  expect(qh).toBeTruthy()
-  let mc = await page.evaluate(() => (window as any).__neural._mc)
-  await page.locator("[data-mc-opt]").nth((mc.correct + 1) % 4).click() // wrong: no credit
-  await j.expectBeat("mc_wrong")
-  await page.evaluate((q) => (window as any).__neural.presentCard(q), qh)
-  mc = await page.evaluate(() => (window as any).__neural._mc)
-  await page.locator("[data-mc-opt]").nth(mc.correct).click() // right: credit + stage
-  await j.expectBeat("mc_correct")
-  await j.expectBeat("bonus_pumped")
+    const a = (window as any).__neural;
+    for (const c of a.deck || [])
+      if (a.mcClip(c.a)) {
+        a.presentCard(a.qhash(c.q));
+        return a.qhash(c.q);
+      }
+    return null;
+  });
+  expect(qh).toBeTruthy();
+  let mc = await page.evaluate(() => (window as any).__neural._mc);
+  await page
+    .locator("[data-mc-opt]")
+    .nth((mc.correct + 1) % 4)
+    .click(); // wrong: no credit
+  await j.expectBeat("mc_wrong");
+  await page.evaluate((q) => (window as any).__neural.presentCard(q), qh);
+  mc = await page.evaluate(() => (window as any).__neural._mc);
+  await page.locator("[data-mc-opt]").nth(mc.correct).click(); // right: credit + stage
+  await j.expectBeat("mc_correct");
+  await j.expectBeat("bonus_pumped");
 
   // ── finish lesson 1 through the drill rail → lesson_done ──
-  await j.drill(3, firstLesson.deckKey)
-  await j.expectBeat("lesson_done")
+  await j.drill(3, firstLesson.deckKey);
+  await j.expectBeat("lesson_done");
 
   // ── graduate that card (stage 2) and prove recall is what mints mastery credit ──
   await page.evaluate((q) => {
-    const a = (window as any).__neural
-    a.presentCard(q)
+    const a = (window as any).__neural;
+    a.presentCard(q);
     if (a._mc) {
       // one more MC correct reaches the recall gate
-      const btns = a.drillListRef.current.querySelectorAll("[data-mc-opt]")
-      btns[a._mc.correct].click()
+      const btns = a.drillListRef.current.querySelectorAll("[data-mc-opt]");
+      btns[a._mc.correct].click();
     }
-  }, qh)
-  await j.advance(800)
-  const rec0 = await page.evaluate((dk) => (window as any).__neural.rec[dk] || 0, firstLesson.deckKey)
+  }, qh);
+  await j.advance(800);
+  const rec0 = await page.evaluate(
+    (dk) => (window as any).__neural.rec[dk] || 0,
+    firstLesson.deckKey,
+  );
   await page.evaluate((q) => {
-    const a = (window as any).__neural
-    a.presentCard(q)
-    a.revealed = true
-    a.recallGrade(true)
-  }, qh)
-  const rec1 = await page.evaluate((dk) => (window as any).__neural.rec[dk] || 0, firstLesson.deckKey)
-  expect(rec1).toBe(rec0 + 1)
+    const a = (window as any).__neural;
+    a.presentCard(q);
+    a.revealed = true;
+    a.recallGrade(true);
+  }, qh);
+  const rec1 = await page.evaluate(
+    (dk) => (window as any).__neural.rec[dk] || 0,
+    firstLesson.deckKey,
+  );
+  expect(rec1).toBe(rec0 + 1);
 
   // ── complete the remaining live lessons via the same drill choke the UI uses ──
-  const liveLessons = UNIT1.lessons // curriculum default frame is live for white belt
-  for (const l of liveLessons.slice(1)) await j.drill(3, l.deckKey)
-  const doneCount = (await j.beats()).filter((b: any) => b.beat === "lesson_done").length
-  expect(doneCount).toBe(liveLessons.length)
+  const liveLessons = UNIT1.lessons; // curriculum default frame is live for white belt
+  for (const l of liveLessons.slice(1)) await j.drill(3, l.deckKey);
+  const doneCount = (await j.beats()).filter(
+    (b: any) => b.beat === "lesson_done",
+  ).length;
+  expect(doneCount).toBe(liveLessons.length);
 
   // ── the checkpoint quiz: first-try everything via the truth rail ──
-  await j.rig("checkpoint-pick", [0.1, 0.3, 0.5, 0.7, 0.9, 0.2])
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  await page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`).first().click()
-  await j.advance(400)
+  await j.rig("checkpoint-pick", [0.1, 0.3, 0.5, 0.7, 0.9, 0.2]);
+  await page.evaluate(() => (window as any).__neural.toggleExplorer());
+  await page
+    .locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`)
+    .first()
+    .click();
+  await j.advance(400);
   for (let i = 0; i < UNIT1.checkpoint.cards; i++) {
-    const t = await page.evaluate(() => (window as any).__neural._mc)
-    if (!t) break
-    await page.locator("[data-mc-opt]").nth(t.correct).click()
-    await j.advance(500)
+    const t = await page.evaluate(() => (window as any).__neural._mc);
+    if (!t) break;
+    await page.locator("[data-mc-opt]").nth(t.correct).click();
+    await j.advance(500);
   }
-  await j.expectBeat("checkpoint_passed")
-  await j.expectBeat("unit_done")
+  await j.expectBeat("checkpoint_passed");
+  await j.expectBeat("unit_done");
 
-  // ── the path shows it; unit 2 unlocks ──
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  expect(
-    await page.locator(`[data-unit="${WHITE.id}/${UNIT1.id}"]`).first().getAttribute("data-done"),
-  ).toBe("1")
-  expect(await page.locator("[data-unit]").nth(1).getAttribute("data-locked")).toBeNull()
-  await j.keyframe("capstone-a-unit-complete")
+  // ── Challenges shows the proof; later units were open throughout ──
+  await page.evaluate(() => {
+    const app = (window as any).__neural;
+    app.setViewMode("challenges");
+    app.openExplorer();
+    app.showExplorerList();
+  });
+  await expect(
+    page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`),
+  ).toHaveText("Checkpoint cleared");
+  await expect(page.locator(".ng-challenge-group").nth(1)).toBeVisible();
+  await page.locator(".ng-challenge-group").nth(1).locator("summary").click();
+  await expect(
+    page
+      .locator(".ng-challenge-group")
+      .nth(1)
+      .locator(".ng-challenge-lesson")
+      .first(),
+  ).toBeEnabled();
+  await j.keyframe("capstone-a-unit-complete");
 
   // ── reload: the story survives ──
-  await j.boot("/", { preserveStorage: true })
-  await j.land("Mount Top")
-  await page.evaluate(() => (window as any).__neural.toggleExplorer())
-  expect(
-    await page.locator(`[data-unit="${WHITE.id}/${UNIT1.id}"]`).first().getAttribute("data-done"),
-  ).toBe("1")
+  await j.boot("/", { preserveStorage: true });
+  await j.land("Mount Top");
+  await page.evaluate(() => {
+    const app = (window as any).__neural;
+    app.setViewMode("challenges");
+    app.openExplorer();
+    app.showExplorerList();
+  });
+  await expect(
+    page.locator(`[data-checkpoint="${WHITE.id}/${UNIT1.id}"]`),
+  ).toHaveText("Checkpoint cleared");
   const persisted = await page.evaluate((dk) => {
-    const a = (window as any).__neural
-    return { rec: a.rec[dk] || 0, blobV: a._progressBlob().v }
-  }, firstLesson.deckKey)
-  expect(persisted.rec).toBeGreaterThanOrEqual(1)
-  expect(persisted.blobV).toBe(2)
-})
+    const a = (window as any).__neural;
+    return { rec: a.rec[dk] || 0, blobV: a._progressBlob().v };
+  }, firstLesson.deckKey);
+  expect(persisted.rec).toBeGreaterThanOrEqual(1);
+  expect(persisted.blobV).toBe(2);
+});

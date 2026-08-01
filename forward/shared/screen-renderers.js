@@ -17,8 +17,10 @@ import {
 } from "./components-core.js";
 import {
   authModal,
-  beltPath,
+  challengeCue,
+  challengesPanel,
   coach,
+  collectionPanel,
   dossier,
   drillPanel,
   explorerPanel,
@@ -27,9 +29,9 @@ import {
   progressNudge,
   progressPanel,
   restartCard,
+  rewardToast,
   settingsModal,
   systemState,
-  tutorial,
 } from "./components-panels.js";
 import { defaultContext } from "./fixtures.js";
 import { icon } from "./icons.js";
@@ -62,16 +64,6 @@ function checkpoint({ result = "question" } = {}, context = defaultContext) {
           }><span class="answer-key">${String.fromCharCode(65 + index)}</span>${answer}</div>`,
       )
       .join("")}</div>
-  </section></div>`;
-}
-
-function ladder({ belt = false } = {}) {
-  return `<div class="modal-layer"><section class="modal-card" style="text-align:center">
-    <span style="color:${belt ? "#78a4ff" : "#e9d75a"}">${icon(belt ? "crown" : "bolt", 34)}</span>
-    <small style="display:block;margin-top:10px;color:#789fff;font-weight:800;letter-spacing:.12em">${belt ? "BELT TEST PASSED" : "GAME KNOWLEDGE"}</small>
-    <h2 style="margin-top:8px">${belt ? "Blue belt earned" : "38% · stripe gained"}</h2>
-    <p style="color:#8b97b0;font-size:11px">${belt ? "The test wins the belt. Continued recall proves the degrees." : "Half Guard Underhooks moved to crown level 3."}</p>
-    <div class="detail-actions" style="justify-content:center"><span class="pill pill--primary">Continue</span></div>
   </section></div>`;
 }
 
@@ -116,7 +108,9 @@ export function gameScreen(options = {}, context = defaultContext) {
     detail = null,
     modal = null,
     coachStep = 0,
-    tutorialDone = null,
+    challengeDone = null,
+    challengeComplete = false,
+    reward = null,
     panic = null,
     combo = 0,
     comboBroken = false,
@@ -124,7 +118,6 @@ export function gameScreen(options = {}, context = defaultContext) {
     result = null,
     accountOpen = false,
     checkpointState = null,
-    ladderState = null,
     flashBrowser = null,
     loading = false,
     system = null,
@@ -136,6 +129,7 @@ export function gameScreen(options = {}, context = defaultContext) {
   const activeLeftPanel =
     leftPanel ||
     (panel === "explorer" || panel === "path" || panel === "progress"
+      || panel === "challenges" || panel === "collection"
       ? panel
       : null);
   const activeRightPanel = rightPanel || (panel === "drill" ? "drill" : null);
@@ -155,23 +149,23 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${showDrillTab ? drillTab() : ""}
     ${combo ? momentum({ combo, broken: comboBroken }) : ""}
     ${options.comboPop ? comboPop({ combo: options.comboPop }) : ""}
-    ${activeLeftPanel === "explorer" ? explorerPanel({ mode: options.explorerMode, query: options.query }) : activeLeftPanel === "path" ? beltPath({ ruleset: options.ruleset, state: options.pathState }) : activeLeftPanel === "progress" ? progressPanel({ mode: options.progressMode, state: progressState }, context) : ""}
+    ${activeLeftPanel === "explorer" ? explorerPanel({ mode: options.explorerMode, query: options.query }) : activeLeftPanel === "challenges" ? challengesPanel({ state: options.challengeState, selected: options.selectedTrack }) : activeLeftPanel === "collection" ? collectionPanel({ state: options.collectionState }) : activeLeftPanel === "progress" ? progressPanel({ mode: options.progressMode, state: progressState }, context) : ""}
     ${activeRightPanel === "drill" ? drillPanel({ state: options.panelState }, context) : ""}
     ${sheet ? optionSheet({ state: sheet }, context) : ""}
     ${detail ? dossier({ variant: detail, mobile: options.mobileDetail }, context) : ""}
     ${modal ? (modal === "auth" ? authModal({ mode: options.authMode }) : settingsModal({ tab: modal })) : ""}
     ${coachStep ? coach({ step: coachStep }) : ""}
-    ${tutorialDone !== null ? tutorial({ done: tutorialDone }) : ""}
+    ${challengeDone !== null ? challengeCue({ track: options.challengeTrack || "White", done: challengeDone, complete: challengeComplete }) : ""}
     ${panic !== null ? panicCard({ revealed: panic === "revealed" }) : ""}
     ${showVignette ? vignette() : ""}
     ${result ? verdict({ result, detail: options.resultDetail }) : ""}
     ${accountOpen ? accountMenu() : ""}
     ${checkpointState ? checkpoint({ result: checkpointState }, context) : ""}
-    ${ladderState ? ladder({ belt: ladderState === "belt" }) : ""}
     ${flashBrowser !== null ? browser({ empty: flashBrowser === "empty" }, context) : ""}
     ${system ? `<div style="position:absolute;inset:0;z-index:18;display:grid;place-items:center">${systemState({ type: system })}</div>` : ""}
     ${restartState ? restartCard({ state: restartState }, context) : ""}
     ${progressState ? progressNudge({ type: progressState }) : ""}
+    ${reward ? rewardToast({ type: reward }) : ""}
     <div class="motion-overlay" aria-hidden="true"></div>
     ${loading ? loader() : ""}
   </div>`;

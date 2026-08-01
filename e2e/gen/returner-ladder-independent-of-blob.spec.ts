@@ -1,4 +1,4 @@
-/* @hyperspace {"theme":"lifetime-journeys","L":"lapsed-returner","F":"ladder","B":"persistence-reload"} @invariant "Ladder rank lives in bjj-neural-ladder, independent of the progress blob: a returner seeded with full progress starts at rank 1, and after one rigged win the rank-2 state survives a preserveStorage reload while the belt record rides the blob unchanged." */
+/* @hyperspace {"theme":"lifetime-journeys","L":"lapsed-returner","F":"ladder","B":"persistence-reload"} @invariant "Ladder rank lives in bjj-neural-ladder, independent of the progress blob: a returner seeded with full progress starts at rank 1, and after one rigged win the rank-2 state survives a preserveStorage reload while the compatibility capstone record rides the blob unchanged." */
 import { test, expect } from "@playwright/test"
 import { journey } from "../dsl"
 import { lapsedReturner, CURRICULUM } from "./personas"
@@ -7,7 +7,7 @@ import { lapsedReturner, CURRICULUM } from "./personas"
  * RETURNER LADDER INDEPENDENT OF BLOB — the opponent ladder is its OWN localStorage store,
  * not a field of the progress blob. A returner seeded with a full career must still start
  * at the bottom of the ladder, and one win must persist through a reload via the ladder
- * store alone while the belt record keeps riding the blob.
+ * store alone while the compatibility capstone record keeps riding the blob.
  *
  * Seams under test (probe-verified twice in the real app, ~36-44s/run, deterministic):
  *   - ladderState()/ladderMove() (neural/src/app.src.jsx ~4115-4130) read/write ONLY
@@ -84,6 +84,6 @@ test("returner ladder: rank 1 despite full blob, win to rank 2, own-store persis
   expect(post.rank, "rank 2 survives the preserveStorage reload").toBe(2)
   expect(post.ladderParsed, "stored bjj-neural-ladder parses to exactly {rank:2}").toEqual({ rank: 2 })
   expect(post.beltWon, `app still reads belts.won.${WHITE_ID} after reload`).toBe(true)
-  expect(post.blobBeltWon, "stored progress blob still carries the belt record").toBe(true)
+  expect(post.blobBeltWon, "stored progress blob still carries the compatibility capstone record").toBe(true)
   expect(post.blobHasLadderKey, "progress blob has NO top-level ladder key — the stores are independent").toBe(false)
 })

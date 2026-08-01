@@ -5,7 +5,7 @@ import { journey } from "../dsl"
  * BELT PATH P0 — RAILS + TEST INFRA (spec first).
  *
  * Everything here is assertable on the EXISTING game — no curriculum required. These rails
- * are what every later Belt Path journey (belt-path, mc-flashcards, belt-test, capstones)
+ * are what every later Challenge journey (curriculum, flashcards, content capstones)
  * depends on:
  *
  *   fx beats: opponent_attack {technique, idx}  — opponent goes for a finish

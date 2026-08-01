@@ -1,4 +1,11 @@
-import { defaultContext, history, lessons, settings } from "./fixtures.js";
+import {
+  challengeTracks,
+  defaultContext,
+  history,
+  matCoins,
+  patches,
+  settings,
+} from "./fixtures.js";
 import { filmStrip, odds, questionBlock } from "./components-core.js";
 import { icon } from "./icons.js";
 
@@ -70,6 +77,140 @@ export function beltMeter({ score = 52, belt = "blue" } = {}) {
   </div>`;
 }
 
+export function gameKnowledgeHeader({ score = 52, belt = "Blue" } = {}) {
+  return `<section class="knowledge-header" aria-label="Your Game Knowledge: ${score}%, ${belt}">
+    <div><small>YOUR GAME KNOWLEDGE</small><b>${score}% <span>${belt}</span></b></div>
+    <div class="knowledge-meter" role="meter" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${score}" aria-label="Game Knowledge ${score}%"><i style="--knowledge:${score}%"></i><em style="--threshold:20%"></em><em style="--threshold:40%"></em><em style="--threshold:60%"></em><em style="--threshold:70%"></em><em style="--threshold:80%"></em></div>
+    <p>Proven recall, not challenge completion.</p>
+  </section>`;
+}
+
+export function learningNav(active = "challenges") {
+  return `<nav class="learning-nav" aria-label="Learning views">
+    ${["explore", "challenges", "collection"].map((view) => `<button type="button" aria-pressed="${view === active}">${view}</button>`).join("")}
+  </nav>`;
+}
+
+export function challengeRow(
+  { title, why, done = 0, target = 1 } = {},
+) {
+  const complete = done >= target;
+  return `<article class="challenge-row" data-complete="${complete}" aria-label="${title}, ${Math.min(done, target)} of ${target}${complete ? ", complete" : ""}">
+    <span class="challenge-check" aria-hidden="true">${complete ? "OK" : ""}</span>
+    <div><b>${title}</b><p>${why}</p><small>${complete ? "Complete" : `${done} of ${target}`}</small><button type="button" class="challenge-action">Start a roll here</button></div>
+  </article>`;
+}
+
+export function trackCard(track, { selected = false, score = 52 } = {}) {
+  const complete = track.done >= track.total;
+  const advanced =
+    ["purple", "brown", "black"].includes(track.id) && score < 60;
+  return `<button type="button" class="track-card" aria-pressed="${selected}" aria-label="${track.name} content track, ${track.done} of ${track.total} complete" data-track="${track.id}" data-selected="${selected}" data-complete="${complete}" style="--track:${track.color}">
+    <span class="track-token" aria-hidden="true"></span>
+    <span><small>${track.id.toUpperCase()} CONTENT TRACK</small><b>${track.name}</b><em>${advanced ? "Advanced material - swing away." : track.suggested ? "Suggested for your Game Knowledge" : "Open from day one"}</em></span>
+    <strong>${track.done} of ${track.total}</strong>
+  </button>`;
+}
+
+export function challengesPanel({
+  state = "partial",
+  selected = "white",
+} = {}) {
+  const score = state === "empty" ? 8 : state === "above-level" ? 28 : 52;
+  const belt = score < 40 ? "White" : "Blue";
+  const tracks = challengeTracks.map((track) => ({
+    ...track,
+    done:
+      state === "empty"
+        ? 0
+        : state === "completed" && track.id === selected
+          ? track.total
+          : track.done,
+    objectives: track.objectives.map((objective) => ({
+      ...objective,
+      done:
+        state === "empty"
+          ? 0
+          : state === "completed" && track.id === selected
+            ? objective.target
+            : objective.done,
+    })),
+  }));
+  const active =
+    tracks.find((track) => track.id === selected) || tracks[0];
+  const notice =
+    state === "empty"
+      ? "Start anywhere. Every content track is open from day one."
+      : state === "offline"
+      ? "Offline - completions stay on this device and sync later."
+      : state === "signed-out"
+        ? "Playing as guest - progress is saved on this device."
+        : "Tracks label the material. Your Game Knowledge shows your proven progress.";
+  return `<aside class="side-panel side-panel--left challenge-panel" aria-label="Challenges">
+    ${gameKnowledgeHeader({ score, belt })}
+    ${learningNav("challenges")}
+    <div class="panel-body">
+      <p class="challenge-distinction">${notice}</p>
+      <section class="track-list" aria-label="Challenge tracks">${tracks.map((track) => trackCard(track, { selected: track.id === active.id, score })).join("")}</section>
+      <section class="challenge-detail" aria-label="${active.name} challenges">
+        <div class="challenge-detail-head"><div><small>${active.id.toUpperCase()} CONTENT TRACK</small><h3>${active.name}</h3></div><span>${active.done} of ${active.total}</span></div>
+        <button type="button" class="pin-track">Pin this track to my roll</button>
+        ${active.objectives.map((objective) => challengeRow(objective)).join("")}
+        <div class="challenge-group"><small>CURRICULUM GROUP</small><b>${active.id === "white" ? "Foundations and complete loops" : "Open study group"}</b><p>Lessons are open. The checkpoint still asks you to prove the material.</p></div>
+        <div class="challenge-capstone"><small>OPTIONAL CAPSTONE</small><b>${active.id === "white" ? "White Foundations roll" : `${active.name} roll`}</b><span>Earns a patch · never unlocks another track</span></div>
+      </section>
+    </div>
+  </aside>`;
+}
+
+export function patchBadge(patch, earned = patch.earned) {
+  return `<article class="patch-badge" data-earned="${earned}" aria-label="${patch.name}: ${earned ? "earned" : "available to earn"}">
+    <span aria-hidden="true">${earned ? "BJJ" : ""}</span><b>${patch.name}</b><small>${earned ? patch.detail : "Available to earn"}</small>
+  </article>`;
+}
+
+export function matCoin(coin, earned = coin.earned) {
+  return `<article class="mat-coin" data-earned="${earned}" aria-label="${coin.name}: ${earned ? "earned" : "available to earn"}">
+    <span aria-hidden="true">${coin.name.slice(0, 2).toUpperCase()}</span><div><b>${coin.name}</b><small>${earned ? coin.detail : "Available to earn"}</small></div>
+  </article>`;
+}
+
+export function collectionPanel({ state = "partial" } = {}) {
+  const earned = (item) =>
+    state === "empty" ? false : state === "complete" ? true : item.earned;
+  return `<aside class="side-panel side-panel--left collection-panel" aria-label="Collection">
+    ${gameKnowledgeHeader()}
+    ${learningNav("collection")}
+    <div class="panel-body">
+      <div class="collection-intro"><small>COLLECTION</small><h3>${state === "empty" ? "Your first patch is ahead" : "Proof from the mat"}</h3><p>Patches mark meaningful milestones. Mat Coins are just for laughs. They do not buy anything.</p></div>
+      <section class="collection-section" aria-labelledby="patches-title"><div><h4 id="patches-title">Patches</h4><span>${patches.filter(earned).length} earned</span></div><div class="patch-grid">${patches.map((patch) => patchBadge(patch, earned(patch))).join("")}</div></section>
+      <section class="collection-section" aria-labelledby="coins-title"><div><h4 id="coins-title">Mat Coins</h4><span>${matCoins.filter(earned).length} minted once</span></div><div class="coin-list">${matCoins.map((coin) => matCoin(coin, earned(coin))).join("")}</div></section>
+    </div>
+  </aside>`;
+}
+
+export function challengeCue({
+  done = 7,
+  total = 20,
+  complete = false,
+  track = "White",
+} = {}) {
+  return `<button type="button" class="challenge-cue" aria-label="Open pinned ${track} challenge" data-complete="${complete}">
+    <span class="sr-only" aria-live="polite">${complete ? `${track} challenge complete. Next: Open a move sheet.` : ""}</span>
+    <div><small>${track.toUpperCase()} CHALLENGES</small><span>${done}/${total}</span></div>
+    <b>${complete ? "Challenge complete - next up" : "Answer a landing question correctly"}</b>
+    <p>${complete ? "Open a move sheet" : "A / B / C / D"} <em>Open Challenges</em></p>
+  </button>`;
+}
+
+export function rewardToast({ type = "patch" } = {}) {
+  const coin = type === "coin";
+  return `<section class="reward-toast" role="status" aria-live="polite" data-reward="${type}">
+    ${coin ? matCoin(matCoins[0], true) : patchBadge(patches[0], true)}
+    <div><small>${coin ? "MAT COIN MINTED" : "PATCH EARNED"}</small><b>${coin ? "Houdini" : "White Foundations"}</b><button type="button" class="reward-link">View Collection</button></div>
+  </section>`;
+}
+
 export function masteryOverview(
   { mode = "category" } = {},
   context = defaultContext,
@@ -135,58 +276,9 @@ export function progressNudge({ type = "saved" } = {}) {
   </section>`;
 }
 
-export function beltPath({
-  mode = "path",
-  ruleset = "gi",
-  state = "progress",
-} = {}) {
-  const profiles = {
-    new: { score: 8, belt: "none", stripes: 0, label: "No belt standard met" },
-    progress: {
-      score: 52,
-      belt: "blue",
-      stripes: 2,
-      label: "Blue belt · Purple in reach",
-    },
-    mastered: {
-      score: 88,
-      belt: "black",
-      stripes: 4,
-      label: "Black belt · recall-proven",
-    },
-  };
-  const profile = profiles[state] || profiles.progress;
-  return `<aside class="side-panel side-panel--left" aria-label="Explorer">
-    <div class="panel-head"><small>${ruleset.toUpperCase()} · ${mode.toUpperCase()}</small><b>Belt Path</b></div>
-    <div class="panel-body">
-      <div class="detail-section"><small>GAME KNOWLEDGE</small><p>${profile.score}% · ${profile.label}</p>${beltMeter({ score: profile.score, belt: profile.belt })}${proofStripes({ filled: profile.stripes, belt: profile.belt })}</div>
-      <div class="lesson-row"><small>WHITE BELT · UNIT 3</small><b>Half Guard Foundations</b><div class="progress" style="margin-top:8px"><span style="--progress:${state === "new" ? 0 : state === "mastered" ? 100 : 72}%"></span></div></div>
-      ${lessons
-        .map((lesson, index) => {
-          const progress =
-            state === "new" ? 0 : state === "mastered" ? 1 : lesson.progress;
-          const locked =
-            state === "new"
-              ? index > 0
-              : state === "mastered"
-                ? false
-                : lesson.locked;
-          const live = state === "new" ? index === 0 : lesson.live;
-          return `<div class="lesson-row" ${locked ? 'data-locked="true"' : ""}>
-            <div style="display:flex;align-items:center;justify-content:space-between;gap:8px">
-              <b>${locked ? icon("lock", 12) : live ? "●" : "○"} ${lesson.title}</b>${crownBadge({ level: Math.round(progress * 4), locked })}
-            </div>
-            <div class="progress" style="margin-top:8px"><span style="--progress:${progress * 100}%"></span></div>
-          </div>`;
-        })
-        .join("")}
-      <div class="lesson-row" ${state === "mastered" ? "" : 'data-locked="true"'}><b>${state === "mastered" ? "✓" : icon("lock", 12)} Unit checkpoint</b><small>${state === "mastered" ? "Passed · belt proof updated" : "Finish 2 lessons to unlock"}</small></div>
-    </div>
-  </aside>`;
-}
-
 export function explorerPanel({ mode = "tree", query = "" } = {}) {
-  if (mode === "path") return beltPath();
+  if (mode === "challenges") return challengesPanel();
+  if (mode === "collection") return collectionPanel();
   const rows = [
     "Positions",
     "Transitions",
@@ -268,7 +360,7 @@ export function authModal({ mode = "sign-in" } = {}) {
   return `<div class="modal-layer"><section class="modal-card" role="dialog" aria-modal="true" aria-label="Account">
     <small style="color:#789fff;font-weight:800">BJJGRAPH ACCOUNT</small>
     <h2 style="margin-top:8px">${mode === "sign-up" ? "Save your game" : "Welcome back"}</h2>
-    <p style="color:#8b97b0;font-size:11px;line-height:1.5">Sync belts, crowns, flashcards, and roll history across devices.</p>
+    <p style="color:#8b97b0;font-size:11px;line-height:1.5">Sync Game Knowledge, challenges, your Collection, flashcards, and roll history across devices.</p>
     <div class="detail-section"><small>EMAIL</small><p>you@example.com</p></div>
     <div class="detail-section"><small>PASSWORD</small><p>••••••••••••</p></div>
     <div class="detail-actions"><span class="pill pill--primary">${mode === "sign-up" ? "Create account" : "Sign in"}</span><span class="pill">Continue as guest</span></div>
@@ -282,10 +374,6 @@ export function coach({ step = 1 } = {}) {
     "Open the sheet when you need film, mechanics, or a quick drill.",
   ];
   return `<section class="coach" aria-label="Coach step ${step}"><small>COACH · ${step}/3</small><p>${copy[step - 1]}</p><div class="detail-actions"><span class="pill pill--primary">Next</span><span class="pill">Skip</span></div></section>`;
-}
-
-export function tutorial({ done = 4, total = 20 } = {}) {
-  return `<section class="tutorial-strip"><small>TUTORIAL · ${done}/${total}</small><p>Answer the question at your next landing.</p></section>`;
 }
 
 export function panicCard({ revealed = false } = {}) {

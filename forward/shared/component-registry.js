@@ -21,26 +21,39 @@ import {
 } from "./components-core.js";
 import {
   authModal,
-  beltPath,
+  challengeCue,
+  challengeRow,
+  challengesPanel,
   coach,
+  collectionPanel,
   crownBadge,
   dossier,
   drillPanel,
   explorerPanel,
   flashcard,
+  gameKnowledgeHeader,
+  learningNav,
+  matCoin,
   optionSheet,
   panicCard,
+  patchBadge,
   beltMeter,
   masteryOverview,
   progressNudge,
   progressPanel,
   proofStripes,
   restartCard,
+  rewardToast,
   settingsModal,
   systemState,
-  tutorial,
+  trackCard,
 } from "./components-panels.js";
-import { longQuestion } from "./fixtures.js";
+import {
+  challengeTracks,
+  longQuestion,
+  matCoins,
+  patches,
+} from "./fixtures.js";
 import { icon } from "./icons.js";
 
 const stage = (content, graph = false) =>
@@ -104,15 +117,12 @@ export const componentItems = [
       ),
   ),
   item(
-    "toggle-group",
-    "Path / tree toggle",
+    "learning-view-toggle",
+    "Explore / Challenges / Collection",
     "Primitives",
-    "Segmented mode selector used in the explorer.",
-    ["Path", "Tree"],
-    (v) =>
-      stack(
-        `<div class="detail-actions"><span class="pill ${v === "Path" ? "pill--primary" : ""}">PATH</span><span class="pill ${v === "Tree" ? "pill--primary" : ""}">TREE</span></div>`,
-      ),
+    "Peer view selector used in the persistent left learning rail.",
+    ["Explore", "Challenges", "Collection"],
+    (v) => stack(learningNav(v.toLowerCase())),
   ),
   item(
     "ruleset-toggle",
@@ -413,30 +423,113 @@ export const componentItems = [
   ),
   item(
     "lesson-row",
-    "Belt lesson row",
+    "Challenge lesson row",
     "Learning",
-    "Crowned lesson state with lock, live, and completion signals.",
-    ["Live", "Progress", "Locked"],
+    "Crowned lesson state with live, progress, and completion signals.",
+    ["Live", "Progress", "Complete"],
     (v) =>
       stack(
-        `<div class="lesson-row"><b>${v === "Locked" ? icon("lock", 12) : v === "Live" ? "●" : "○"} Half Guard Underhooks</b><div class="progress" style="margin-top:9px"><span style="--progress:${v === "Locked" ? 0 : v === "Live" ? 20 : 65}%"></span></div></div>`,
+        `<div class="lesson-row"><b>${v === "Complete" ? "OK" : v === "Live" ? "LIVE" : "NEXT"} Half Guard Underhooks</b><div class="progress" style="margin-top:9px"><span style="--progress:${v === "Complete" ? 100 : v === "Live" ? 20 : 65}%"></span></div></div>`,
       ),
   ),
   item(
-    "belt-path",
-    "Belt path panel",
+    "challenge-panel",
+    "Challenges panel",
     "Learning",
-    "Curriculum sequence, game knowledge score, lessons, and crowns.",
-    ["New", "In progress", "Mastered", "NO-GI"],
+    "Open content tracks, pinned action evidence, curriculum groups, and optional capstones.",
+    ["Partial", "Completed", "Above-level", "Offline", "Signed out"],
     (v) =>
       stage(
-        beltPath({
-          ruleset: v === "NO-GI" ? "nogi" : "gi",
+        challengesPanel({
           state:
-            v === "New" ? "new" : v === "Mastered" ? "mastered" : "progress",
+            v === "Above-level"
+              ? "above-level"
+              : v === "Signed out"
+                ? "signed-out"
+                : v.toLowerCase(),
+          selected: v === "Above-level" ? "black" : "white",
         }),
         true,
       ),
+  ),
+  item(
+    "game-knowledge-header",
+    "Your Game Knowledge header",
+    "Progress",
+    "The only skill score, persistent above Explore, Challenges, and Collection.",
+    ["White", "Blue", "Purple", "Black"],
+    (v) =>
+      stack(
+        gameKnowledgeHeader({
+          score:
+            v === "White" ? 28 : v === "Blue" ? 52 : v === "Purple" ? 66 : 88,
+          belt: v,
+        }),
+      ),
+  ),
+  item(
+    "challenge-track-card",
+    "Open challenge track",
+    "Challenges & collection",
+    "A content-difficulty track that stays actionable regardless of Game Knowledge.",
+    ["Suggested", "Above-level", "Complete"],
+    (v) =>
+      stack(
+        trackCard(
+          {
+            ...challengeTracks[v === "Above-level" ? 4 : v === "Suggested" ? 1 : 0],
+            ...(v === "Complete"
+              ? {
+                  done: challengeTracks[0].total,
+                }
+              : {}),
+          },
+          {
+            selected: true,
+            score: v === "Above-level" ? 28 : 52,
+          },
+        ),
+      ),
+  ),
+  item(
+    "challenge-row",
+    "Challenge objective",
+    "Challenges & collection",
+    "Action, evidence count, rationale, and next-place affordance in one row.",
+    ["Not started", "In progress", "Complete"],
+    (v) =>
+      stack(
+        challengeRow({
+          title: "Escape a submission",
+          why: "Composure creates the next attacking chance.",
+          done: v === "Complete" ? 3 : v === "In progress" ? 2 : 0,
+          target: 3,
+        }),
+      ),
+  ),
+  item(
+    "collection-panel",
+    "Collection panel",
+    "Challenges & collection",
+    "Permanent home for scarce patches and mint-once, non-spendable Mat Coins.",
+    ["Empty", "Partial", "Complete"],
+    (v) => stage(collectionPanel({ state: v.toLowerCase() }), true),
+  ),
+  item(
+    "milestone-patch",
+    "Milestone patch",
+    "Challenges & collection",
+    "Woven acknowledgement for meaningful evidence, never a second score.",
+    ["Earned", "Available"],
+    (v) => stack(patchBadge(patches[1], v === "Earned")),
+  ),
+  item(
+    "mat-coin",
+    "Mat Coin",
+    "Challenges & collection",
+    "Dry mat-culture acknowledgement minted once and never spendable.",
+    ["Earned", "Available"],
+    (v) => stack(matCoin(matCoins[0], v === "Earned")),
   ),
   item(
     "belt-meter",
@@ -578,14 +671,17 @@ export const componentItems = [
     (v) => stage(coach({ step: Number(v.slice(-1)) }), true),
   ),
   item(
-    "tutorial-strip",
-    "Tutorial drip",
+    "challenge-cue",
+    "In-roll challenge cue",
     "Overlays",
-    "One next action from the 20-step learning checklist.",
-    ["4 / 20", "19 / 20", "Complete"],
+    "One pinned objective that acknowledges completion without interrupting the roll.",
+    ["7 / 20", "19 / 20", "Complete"],
     (v) =>
       stage(
-        tutorial({ done: v === "Complete" ? 20 : Number(v.split(" ")[0]) }),
+        challengeCue({
+          done: v === "Complete" ? 20 : Number(v.split(" ")[0]),
+          complete: v === "Complete",
+        }),
         true,
       ),
   ),
@@ -613,6 +709,14 @@ export const componentItems = [
     "Non-blocking saved-progress or tested-forgetting feedback.",
     ["Saved", "Demoted"],
     (v) => stage(progressNudge({ type: v.toLowerCase() }), true),
+  ),
+  item(
+    "reward-toast",
+    "Reward acknowledgement",
+    "Feedback",
+    "Polite, focus-safe feedback with a direct Collection affordance.",
+    ["Patch", "Mat Coin"],
+    (v) => stage(rewardToast({ type: v === "Mat Coin" ? "coin" : "patch" }), true),
   ),
   item(
     "defense-vignette",

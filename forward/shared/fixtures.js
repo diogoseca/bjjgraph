@@ -238,6 +238,155 @@ export const lessons = [
   { title: "Back Escapes", progress: 0.25, locked: true },
 ];
 
+export const challengeTracks = [
+  {
+    id: "white",
+    name: "White Foundations",
+    color: "#d7dce7",
+    done: 7,
+    total: 20,
+    suggested: false,
+    objectives: [
+      {
+        title: "Answer a landing question correctly",
+        why: "Reading the state before moving builds better decisions.",
+        done: 1,
+        target: 1,
+      },
+      {
+        title: "Open a move sheet",
+        why: "Know what a technique wins before you commit.",
+        done: 0,
+        target: 1,
+      },
+      {
+        title: "Finish your first roll",
+        why: "Complete loops reveal how positions connect.",
+        done: 0,
+        target: 1,
+      },
+    ],
+  },
+  {
+    id: "blue",
+    name: "Blue Connections",
+    color: "#7398df",
+    done: 3,
+    total: 8,
+    suggested: true,
+    objectives: [
+      {
+        title: "Win two connected exchanges",
+        why: "Reliable sequences beat isolated techniques.",
+        done: 1,
+        target: 2,
+      },
+      {
+        title: "Escape a submission",
+        why: "Composure creates the next attacking chance.",
+        done: 0,
+        target: 1,
+      },
+    ],
+  },
+  {
+    id: "purple",
+    name: "Purple Patterns",
+    color: "#9274bd",
+    done: 1,
+    total: 6,
+    suggested: false,
+    objectives: [
+      {
+        title: "Recall-prove five cards",
+        why: "Pattern recognition starts with durable recall.",
+        done: 2,
+        target: 5,
+      },
+    ],
+  },
+  {
+    id: "brown",
+    name: "Brown Pressure",
+    color: "#9c745b",
+    done: 0,
+    total: 6,
+    suggested: false,
+    objectives: [
+      {
+        title: "Reach x5 momentum",
+        why: "Keep making sound decisions as the pace rises.",
+        done: 0,
+        target: 1,
+      },
+    ],
+  },
+  {
+    id: "black",
+    name: "Black Breadth",
+    color: "#6d7380",
+    done: 0,
+    total: 6,
+    suggested: false,
+    objectives: [
+      {
+        title: "Recall-prove twenty-five cards",
+        why: "Broad recall supports a game that travels.",
+        done: 4,
+        target: 25,
+      },
+    ],
+  },
+];
+
+export const patches = [
+  {
+    id: "white-foundations",
+    name: "White Foundations",
+    detail: "Clear the White content track",
+    earned: true,
+  },
+  {
+    id: "recall-pressure",
+    name: "Recall Under Pressure",
+    detail: "Prove ten cards from memory",
+    earned: false,
+  },
+  {
+    id: "clean-checkpoint",
+    name: "Clean Checkpoint",
+    detail: "Pass a checkpoint first try",
+    earned: false,
+  },
+];
+
+export const matCoins = [
+  {
+    id: "houdini",
+    name: "Houdini",
+    detail: "Escape when the finish looked inevitable",
+    earned: true,
+  },
+  {
+    id: "guard-again",
+    name: "Pulled Guard Again",
+    detail: "Choose the guard-pull route three times",
+    earned: false,
+  },
+  {
+    id: "godlike",
+    name: "GODLIKE",
+    detail: "Reach x7 momentum",
+    earned: false,
+  },
+  {
+    id: "berimbolo",
+    name: "Berimbolo, Briefly",
+    detail: "Attempt the advanced route",
+    earned: false,
+  },
+];
+
 export const history = [
   { title: "Deep Half Guard", result: "Won", delta: "+6%", time: "2m ago" },
   { title: "Mount Escape", result: "Lost", delta: "-3%", time: "Yesterday" },
@@ -268,26 +417,17 @@ export const settings = {
   ],
 };
 
-export const tutorialSteps = [
-  "Choose a technique from your hand",
-  "Answer the landing question",
-  "Open a technique sheet",
-  "Commit to the sweep",
-  "Survive a defense turn",
-  "Finish your first roll",
-];
-
 export const categoryNotes = {
   Primitives: "Atomic controls and identity surfaces shared across all states.",
   HUD: "Persistent game information that should never compete with the active decision.",
   Graph: "The spatial state-machine canvas and its node language.",
   Decisions:
     "Choice, question, odds, timing, and detail surfaces used during a roll.",
-  Learning: "Flashcard, lesson, history, and progress components.",
+  Learning: "Flashcard, lesson, history, challenge, and progress components.",
   Progress:
     "One-score belt, proof stripe, crown, category, and technique mastery projections.",
-  Explorer: "Search, path, tree, and rich node dossier surfaces.",
-  Overlays: "Modal, coach, tutorial, and defensive interruption layers.",
+  Explorer: "Search, challenges, collection, and rich node dossier surfaces.",
+  Overlays: "Modal, coach, challenge cue, and defensive interruption layers.",
   Feedback: "Outcome, combo, verdict, and system communication.",
   "Pane compositions":
     "Independent left and right rails, including simultaneous pressure states.",
@@ -295,4 +435,6 @@ export const categoryNotes = {
     "Reset hygiene, game-over boundaries, pane persistence, and rematch readiness.",
   "Progress & mastery":
     "Belt, stripe, crown, unit, checkpoint, category, and technique progress states.",
+  "Challenges & collection":
+    "Open content tracks, action evidence, scarce patches, and non-spendable Mat Coins.",
 };

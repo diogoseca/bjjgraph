@@ -633,8 +633,7 @@
 }
 
 .coach,
-.panic-card,
-.tutorial-strip {
+.panic-card {
   position: absolute;
   z-index: 16;
   padding: 14px 16px;
@@ -659,16 +658,8 @@
   transform: translate(-50%, -50%);
 }
 
-.tutorial-strip {
-  bottom: 94px;
-  left: 14px;
-  width: 235px;
-  padding: 10px 12px;
-}
-
 .coach small,
-.panic-card small,
-.tutorial-strip small {
+.panic-card small {
   color: var(--fc-green);
   font-size: 8px;
   font-weight: 800;
@@ -681,8 +672,7 @@
 }
 
 .coach p,
-.panic-card p,
-.tutorial-strip p {
+.panic-card p {
   margin: 7px 0 0;
   color: var(--fc-text-soft);
   font-size: 10px;
@@ -905,10 +895,6 @@
   }
 
   .drill-tab > div {
-    display: none;
-  }
-
-  .tutorial-strip {
     display: none;
   }
 

@@ -163,14 +163,14 @@ production game runtime:
   dossier, overlay, feedback, and progression components with state variants.
 - `/dev/screens/` composes those building blocks into deterministic gameplay states from boot
   through roll end, plus independent left/right/both-pane layouts, restart hygiene, terminal
-  states, belt/mastery progress, study, explorer, settings, onboarding, and responsive stress
-  cases.
+  states, Game Knowledge, Challenges, Collection, study, explorer, settings, onboarding, and
+  responsive stress cases.
 - `/dev/use-cases/` composes screens into timestamped animation, notification, and interaction
   timelines. Each important gameplay motion family and notification has an inspectable static
   timepoint, while focused playback advances through the same frames at 0.5x, 1x, or 2x.
 - `/dev/user-journeys/` composes use cases into configurable end-to-end chapters. The shipped
-  journeys cover a first roll, study-to-belt proof, defeat-and-recovery, and an advanced momentum
-  run.
+  journeys cover a first roll, Challenge progression, defeat-and-recovery, an advanced momentum
+  run, and Collection acknowledgements.
 - `/dev/` is the hierarchy hub: Components -> Screens -> Use Cases -> User Journeys. The dashed
   use-case and user-journey routes are canonical; undashed spellings redirect for compatibility.
 - All four libraries share source-controlled fixtures, renderers, and design tokens in `forward/`.
@@ -200,6 +200,52 @@ The dev and production deployment workflows also invoke `build:forward` explicit
 call Quartz directly. Deployments run the `@curated` Playwright gate; the complete core suite is
 built once and sharded across four runners for pull requests targeting `main`, weekly confidence
 runs, and manual dispatches.
+
+### Neural Challenges and Rewards
+
+Neural has two independent progression axes:
+
+| Axis | Meaning | Can gate gameplay? |
+| --- | --- | --- |
+| **Game Knowledge** | Frequency-weighted recall mastery across the graph | No |
+| **Challenges** | Evidence that a player performed useful actions or completed study goals | No |
+
+Explore, Challenges, and Collection are peer left-pane views. Game Knowledge remains visible above
+all three. The five Challenge tracks label content difficulty (White through Black) and are all
+selectable from a fresh profile. Track names do not claim or award real-world rank.
+
+Challenge definitions are declarative in `neural/src/challenge-definitions.src.js`; pure matching,
+progress, reward, migration, reset, and merge helpers live in `challenge-engine.src.js`. The
+imperative pane composition is in `challenge-ui.src.js`, and pinned-cue/reward feedback is in
+`challenge-feedback.src.js`. `neural/build/build.mjs` composes these modules after the main class.
+
+#### Evidence and access rules
+
+- `fx()` sends existing gameplay beats through Challenge matching.
+- Snapshot reconciliation covers historical lesson, checkpoint, recall, mastery, and capstone
+  evidence without replaying historical feedback.
+- Lessons are open across all tracks. A checkpoint requires the selected unit's lesson evidence.
+- Optional content capstones require the selected track's checkpoints. They record proof and never
+  open or close other tracks.
+- Patches acknowledge meaningful milestones. Mat Coins are mint-once jokes with no balance,
+  spending, exchange, or gameplay effect.
+- Guest progress is local; offline completions remain local and sync when connectivity returns.
+
+#### v2 persistence and cloud reconciliation
+
+The existing Neural v2 blob adds:
+
+```text
+challenges: { [id]: { progress, done, t } }
+badges:     { [id]: { t } }
+coins:      { [id]: { t, context? } }
+```
+
+Challenge progress merges by **MAX**, completion by **OR**, and badges/coins by **UNION**. Settings
+continue to use per-key timestamp last-write-wins. A fresh device pulls before its first push.
+Legacy `tut.done` migrates into the 20 White objectives, while `path`/`tree` view preferences map to
+`challenges`/`explore`. Compatibility identifiers remain internal and must not reintroduce the
+retired Tutorial or content-lock UI.
 
 ### Key Configuration
 
