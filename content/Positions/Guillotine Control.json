@@ -654,11 +654,7 @@
     "transitions": [
       {
         "transition": "Guillotine Choke from Guillotine Control",
-        "attempt_probability": 49
-      },
-      {
-        "transition": "Guillotine Choke",
-        "attempt_probability": 1
+        "attempt_probability": 50
       },
       {
         "transition": "High Elbow Guillotine Variation",

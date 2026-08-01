@@ -357,7 +357,7 @@
       },
       {
         "transition": "Arm Triangle from High Mount",
-        "attempt_probability": 6
+        "attempt_probability": 8
       },
       {
         "transition": "Gift Wrap Transition",
@@ -377,10 +377,6 @@
       },
       {
         "transition": "High Mount to S Mount",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Arm Triangle",
         "attempt_probability": 2
       },
       {

@@ -221,20 +221,12 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Flying Kneebar",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Reverse Kimura",
-        "attempt_probability": 1
-      },
-      {
         "transition": "Single Leg to Back Take",
         "attempt_probability": 1
       },
       {
         "transition": "Flying Kneebar from Standing Position",
-        "attempt_probability": 1
+        "attempt_probability": 2
       },
       {
         "transition": "Kimura from Standing",
@@ -242,7 +234,7 @@
       },
       {
         "transition": "Reverse Kimura from Standing Position",
-        "attempt_probability": 1
+        "attempt_probability": 2
       }
     ],
     "decision_tree": [

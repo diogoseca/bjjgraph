@@ -224,7 +224,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (10% of attempts)
 
-- **[[Kneebar from Backside 50-50/Attacker|Kneebar from Backside 50-50]]** (5% of attempts)
+- **[[Kneebar from Backside 50-50/Attacker|Kneebar from Backside 50-50]]** (6% of attempts)
 
 - **[[Transitions/50-50 Pass/Attacker|50-50 Pass]]** (4% of attempts)
 
@@ -236,11 +236,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 - **[[Transitions/Counter heel hook/Attacker|Counter heel hook]]** (2% of attempts)
 
-- **[[Outside Heel Hook from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (10% of attempts)
-
-- **[[Transitions/Kneebar/Attacker|Kneebar]]** (1% of attempts)
-
-- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (1% of attempts)
+- **[[Outside Heel Hook from Backside 50-50/Attacker|Outside Heel Hook from Backside 50-50]]** (11% of attempts)
 
 
 ### Common Mistakes

@@ -295,7 +295,7 @@
     "transitions": [
       {
         "transition": "Aoki Lock from Aoki Lock Control",
-        "attempt_probability": 38
+        "attempt_probability": 43
       },
       {
         "transition": "Aoki Lock to Back Control",
@@ -312,10 +312,6 @@
       {
         "transition": "Truck Entry",
         "attempt_probability": 14
-      },
-      {
-        "transition": "Aoki Lock",
-        "attempt_probability": 5
       }
     ]
   },

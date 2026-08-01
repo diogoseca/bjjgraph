@@ -238,15 +238,11 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Transitions/Truck to Twister Side Control/Attacker|Truck to Twister Side Control]]** (3% of attempts)
 
-- **[[Submissions/Banana Split/Attacker|Banana Split]]** (2% of attempts)
-
 - **[[Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (13% of attempts)
 
-- **[[Submissions/Spine Lock/Attacker|Spine Lock]]** (2% of attempts)
+- **[[Banana Split from Truck/Attacker|Banana Split from Truck]]** (5% of attempts)
 
-- **[[Banana Split from Truck/Attacker|Banana Split from Truck]]** (3% of attempts)
-
-- **[[Spine Lock from Truck/Attacker|Spine Lock from Truck]]** (2% of attempts)
+- **[[Spine Lock from Truck/Attacker|Spine Lock from Truck]]** (4% of attempts)
 
 
 ### Common Mistakes
