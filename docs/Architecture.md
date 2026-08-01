@@ -147,6 +147,24 @@ Submissions use the same attacker/defender pattern with additions:
 | `source/quartz/components/` | Preact UI components |
 | `source/quartz/plugins/` | Content transformers and emitters |
 
+### Forward Components development library
+
+The Neural interface has a standalone, no-auth development catalog that does not boot the
+production game runtime:
+
+- `/dev/components/` inventories reusable primitives, HUD, graph, decision, study, explorer,
+  dossier, overlay, and feedback components with state variants.
+- `/dev/screens/` composes those building blocks into deterministic gameplay states from boot
+  through roll end, plus study, explorer, settings, onboarding, and responsive stress cases.
+- Both routes share source-controlled fixtures, renderers, and design tokens in `forward/`.
+- Viewport controls cover fluid, 320px, phone, 400x875, tablet, desktop, and short-landscape
+  containers. Selection, viewport, and variant are permalinked in the URL hash.
+- The detail model is represented explicitly as collapsed landing detail, expanded dossier
+  detail, and SEO/AI text projections rather than separate competing content sources.
+
+`npm run build:forward` copies the artifact into `source/public/dev/`. The normal
+`npm run build` command runs this after Quartz so the routes survive the output-directory reset.
+
 ### Key Configuration
 
 ```typescript
