@@ -16,7 +16,8 @@
   place-items: center;
   padding: clamp(18px, 5cqw, 54px);
   background: linear-gradient(rgba(132, 150, 190, 0.045) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(132, 150, 190, 0.045) 1px, transparent 1px), #15182b;
+    linear-gradient(90deg, rgba(132, 150, 190, 0.045) 1px, transparent 1px),
+    #15182b;
   background-size: 72px 72px;
 }
 
@@ -35,9 +36,14 @@
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background: radial-gradient(circle at 50% 51%, rgba(70, 82, 139, 0.3), transparent 24%),
+  background: radial-gradient(
+      circle at 50% 51%,
+      rgba(70, 82, 139, 0.3),
+      transparent 24%
+    ),
     linear-gradient(rgba(132, 150, 190, 0.055) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(132, 150, 190, 0.055) 1px, transparent 1px), #15182b;
+    linear-gradient(90deg, rgba(132, 150, 190, 0.055) 1px, transparent 1px),
+    #15182b;
   background-size:
     auto,
     94px 94px,
@@ -53,7 +59,12 @@
   top: 50%;
   width: 52%;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(128, 151, 217, 0.28), transparent);
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(128, 151, 217, 0.28),
+    transparent
+  );
   transform: translate(-50%, -50%) rotate(23deg);
 }
 
@@ -301,21 +312,32 @@
   padding: 12px 18px 7px;
   overflow-x: auto;
   scrollbar-width: none;
-  mask-image: linear-gradient(90deg, transparent, #000 32px, #000 calc(100% - 32px), transparent);
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 32px,
+    #000 calc(100% - 32px),
+    transparent
+  );
 }
 
 .option-card {
   width: 150px;
   min-width: 150px;
-  min-height: 114px;
+  height: 128px;
   display: flex;
   flex-direction: column;
   padding: 13px 13px 10px;
   border: 1px solid rgba(135, 155, 210, 0.2);
   border-radius: 13px;
   color: var(--fc-text);
-  background: linear-gradient(180deg, rgba(30, 35, 59, 0.97), rgba(18, 22, 39, 0.97));
+  background: linear-gradient(
+    180deg,
+    rgba(30, 35, 59, 0.97),
+    rgba(18, 22, 39, 0.97)
+  );
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
 }
 
 .option-card[data-state="selected"] {
@@ -342,6 +364,10 @@
   margin-top: 7px;
   font-size: 12px;
   line-height: 1.2;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .option-card p {
@@ -349,6 +375,10 @@
   color: var(--fc-muted);
   font-size: 9px;
   line-height: 1.35;
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
 }
 
 .odds {
@@ -395,7 +425,11 @@
   overflow: auto;
   border: 1px solid rgba(130, 150, 190, 0.25);
   border-radius: 15px;
-  background: linear-gradient(180deg, rgba(24, 28, 46, 0.98), rgba(17, 20, 34, 0.98));
+  background: linear-gradient(
+    180deg,
+    rgba(24, 28, 46, 0.98),
+    rgba(17, 20, 34, 0.98)
+  );
   box-shadow: 0 14px 44px rgba(0, 0, 0, 0.5);
   transform: translateX(-50%);
 }
@@ -519,7 +553,11 @@
   border: 1px solid rgba(130, 160, 255, 0.32);
   border-right: 0;
   border-radius: 13px 0 0 13px;
-  background: linear-gradient(90deg, rgba(36, 42, 70, 0.94), rgba(26, 30, 52, 0.98));
+  background: linear-gradient(
+    90deg,
+    rgba(36, 42, 70, 0.94),
+    rgba(26, 30, 52, 0.98)
+  );
   box-shadow: 0 6px 26px rgba(0, 0, 0, 0.4);
   transform: translateY(-50%);
 }
@@ -661,7 +699,8 @@
   border: 1px solid var(--combo, var(--fc-green));
   border-radius: 999px;
   background: rgba(15, 19, 30, 0.94);
-  box-shadow: 0 0 14px color-mix(in srgb, var(--combo, var(--fc-green)) 45%, transparent);
+  box-shadow: 0 0 14px
+    color-mix(in srgb, var(--combo, var(--fc-green)) 45%, transparent);
   font: 700 10px/1 var(--fc-display);
 }
 
@@ -696,7 +735,8 @@
   margin-top: 5px;
   color: var(--combo, var(--fc-green));
   font: italic 800 clamp(27px, 5cqw, 50px) / 1 var(--fc-display);
-  text-shadow: 0 0 20px color-mix(in srgb, var(--combo, var(--fc-green)) 55%, transparent);
+  text-shadow: 0 0 20px
+    color-mix(in srgb, var(--combo, var(--fc-green)) 55%, transparent);
 }
 
 .verdict {
@@ -719,7 +759,11 @@
   inset: 0;
   z-index: 13;
   pointer-events: none;
-  background: radial-gradient(ellipse at center, transparent 52%, rgba(226, 58, 48, 0.34) 100%);
+  background: radial-gradient(
+    ellipse at center,
+    transparent 52%,
+    rgba(226, 58, 48, 0.34) 100%
+  );
 }
 
 .loader {
@@ -799,7 +843,7 @@
   }
 
   .landing-card {
-    bottom: 206px;
+    bottom: 266px;
     width: calc(100% - 18px);
     max-height: 35%;
     padding: 10px 11px;

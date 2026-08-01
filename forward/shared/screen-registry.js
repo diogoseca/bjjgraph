@@ -1,22 +1,35 @@
-import { longQuestion } from "./fixtures.js"
-import { gameScreen } from "./screen-renderers.js"
+import { longQuestion } from "./fixtures.js";
+import { gameScreen } from "./screen-renderers.js";
 
-const make = (id, title, group, description, state, variants = ["Default"], notes = {}) => ({
+const make = (
+  id,
+  title,
+  group,
+  description,
+  state,
+  variants = ["Default"],
+  notes = {},
+) => ({
   id,
   title,
   group,
   description,
   variants,
-  render: (variant) => gameScreen(typeof state === "function" ? state(variant) : state),
+  render: (variant, context) =>
+    gameScreen(
+      typeof state === "function" ? state(variant, context) : state,
+      context,
+    ),
   notes: {
     source: notes.source || "Shared Forward Components composition",
-    behavior: notes.behavior || "Represents one deterministic Neural gameplay state.",
+    behavior:
+      notes.behavior || "Represents one deterministic Neural gameplay state.",
     usage: notes.usage || `${group} lifecycle`,
   },
-})
+});
 
-const baseRoll = { tray: { count: 4 }, showDrillTab: true }
-const landing = { ...baseRoll, landing: {} }
+const baseRoll = { tray: { count: 4 }, showDrillTab: true };
+const landing = { ...baseRoll, landing: {} };
 
 export const screenItems = [
   make(
@@ -45,11 +58,17 @@ export const screenItems = [
     "Offline state that preserves local study and roll history.",
     { system: "offline", showTransport: false },
   ),
-  make("idle-guest", "Idle graph · guest", "Boot & idle", "Default graph before the roll begins.", {
-    showIntro: true,
-    active: false,
-    showDrillTab: true,
-  }),
+  make(
+    "idle-guest",
+    "Idle graph · guest",
+    "Boot & idle",
+    "Default graph before the roll begins.",
+    {
+      showIntro: true,
+      active: false,
+      showDrillTab: true,
+    },
+  ),
   make(
     "idle-signed-in",
     "Idle graph · signed in",
@@ -70,22 +89,27 @@ export const screenItems = [
     "Roam · staged landing",
     "Staged",
     "Graph-click landing with the clock deliberately held.",
-    {
+    (_variant, context) => ({
       ...landing,
       staged: true,
       toast: {
         kicker: "STAGED",
-        text: "Deep Half Guard · clock held",
+        text: `${context.name} · clock held`,
         tone: "neutral",
       },
-    },
+    }),
   ),
   make(
     "staged-explorer",
     "Explorer · staged from search",
     "Staged",
     "Search-selected node staged with explorer still open.",
-    { ...landing, staged: true, panel: "explorer", query: "deep half" },
+    (_variant, context) => ({
+      ...landing,
+      staged: true,
+      panel: "explorer",
+      query: context.name.toLowerCase(),
+    }),
   ),
   make(
     "staged-mobile",
@@ -103,7 +127,8 @@ export const screenItems = [
     }),
     ["Priority fit", "Minimal"],
     {
-      behavior: "Clock remains held until Play; low-priority landing content yields to the hand.",
+      behavior:
+        "Clock remains held until Play; low-priority landing content yields to the hand.",
     },
   ),
 
@@ -406,6 +431,171 @@ export const screenItems = [
   ),
 
   make(
+    "panes-closed",
+    "Panes · both closed",
+    "Pane compositions",
+    "Unobstructed live roll with both independent side rails closed.",
+    { ...landing },
+  ),
+  make(
+    "pane-left-tree",
+    "Pane · left Explorer open",
+    "Pane compositions",
+    "Reference tree occupies the left rail while the right study pane stays closed.",
+    { ...baseRoll, leftPanel: "explorer", explorerMode: "tree", paused: true },
+  ),
+  make(
+    "pane-left-path",
+    "Pane · left Belt Path open",
+    "Pane compositions",
+    "Curriculum, belt, stripe, unit, lesson, checkpoint, and crown progress in the left rail.",
+    { ...baseRoll, leftPanel: "path", pathState: "progress", paused: true },
+  ),
+  make(
+    "pane-left-progress",
+    "Pane · left Progress open",
+    "Pane compositions",
+    "Overall category and belt mastery in a focused left progress rail.",
+    {
+      ...baseRoll,
+      leftPanel: "progress",
+      progressMode: "overview",
+      paused: true,
+    },
+  ),
+  make(
+    "pane-right-home",
+    "Pane · right Flashcards open",
+    "Pane compositions",
+    "Manual study home stops the roll and leaves the left rail closed.",
+    { ...baseRoll, rightPanel: "drill", panelState: "home", paused: true },
+  ),
+  make(
+    "pane-right-study",
+    "Pane · right active study",
+    "Pane compositions",
+    "Selected-node recall card inside the manual right pane.",
+    { ...baseRoll, rightPanel: "drill", panelState: "study", paused: true },
+  ),
+  make(
+    "panes-both-tree-study",
+    "Panes · Explorer + study",
+    "Pane compositions",
+    "Both side rails open around the same selected graph node.",
+    {
+      leftPanel: "explorer",
+      explorerMode: "tree",
+      rightPanel: "drill",
+      panelState: "study",
+      paused: true,
+    },
+  ),
+  make(
+    "panes-both-path-study",
+    "Panes · Belt Path + study",
+    "Pane compositions",
+    "Curriculum progress and its active lesson deck shown together.",
+    {
+      leftPanel: "path",
+      pathState: "progress",
+      rightPanel: "drill",
+      panelState: "study",
+      paused: true,
+    },
+  ),
+  make(
+    "panes-both-progress-study",
+    "Panes · Progress + study",
+    "Pane compositions",
+    "Overall mastery and selected-technique recall shown simultaneously.",
+    {
+      leftPanel: "progress",
+      progressMode: "technique",
+      rightPanel: "drill",
+      panelState: "revealed",
+      paused: true,
+    },
+  ),
+
+  make(
+    "restart-confirm-active",
+    "Restart · active decision",
+    "Restart & terminal",
+    "Reset confirmation identifies the current node and preserves training progress.",
+    { ...landing, restartState: "confirm", paused: true },
+  ),
+  make(
+    "restart-mid-defense",
+    "Restart · defense disarmed",
+    "Restart & terminal",
+    "Restart hygiene clears panic, vignette, stale clocks, and momentum before the new roll.",
+    { restartState: "restarting", paused: true, showWinBar: false },
+  ),
+  make(
+    "restart-study-open",
+    "Restart · study pane open",
+    "Restart & terminal",
+    "Restart confirmation above a manually opened right pane without resetting mastery.",
+    {
+      rightPanel: "drill",
+      panelState: "home",
+      restartState: "confirm",
+      paused: true,
+    },
+  ),
+  make(
+    "restart-complete",
+    "Restart · new roll ready",
+    "Restart & terminal",
+    "Fresh-roll boundary after every live exchange has been disarmed.",
+    {
+      result: "reset",
+      resultDetail: "Exchange state cleared · progress preserved",
+      showTransport: false,
+    },
+  ),
+  make(
+    "game-over-submission",
+    "Game over · submission",
+    "Restart & terminal",
+    "Terminal game-over state reached through a submission finish.",
+    {
+      result: "game-over",
+      resultDetail: "Rear naked choke ended the match",
+      showTransport: false,
+    },
+  ),
+  make(
+    "game-over-study-preserved",
+    "Game over · study pane preserved",
+    "Restart & terminal",
+    "Round end leaves a user-opened Flashcards pane visible under the pane law.",
+    {
+      result: "game-over",
+      resultDetail: "Match ended · study remains open",
+      rightPanel: "drill",
+      panelState: "history",
+      showTransport: false,
+      paused: true,
+    },
+  ),
+  make(
+    "rematch-ready",
+    "Game over · roll again",
+    "Restart & terminal",
+    "Terminal feedback cleared and a fresh roll can start without altering progress.",
+    {
+      showIntro: true,
+      active: false,
+      toast: {
+        kicker: "READY",
+        text: "Roll again from any graph node",
+        tone: "neutral",
+      },
+    },
+  ),
+
+  make(
     "end-victory",
     "Roll end · victory",
     "Roll end",
@@ -416,11 +606,17 @@ export const screenItems = [
       showTransport: false,
     },
   ),
-  make("end-defeat", "Roll end · defeat", "Roll end", "Round verdict after submission.", {
-    result: "defeat",
-    resultDetail: "Caught by rear naked choke",
-    showTransport: false,
-  }),
+  make(
+    "end-defeat",
+    "Roll end · defeat",
+    "Roll end",
+    "Round verdict after submission.",
+    (_variant, context) => ({
+      result: "defeat",
+      resultDetail: `Terminal exchange from ${context.name}`,
+      showTransport: false,
+    }),
+  ),
   make(
     "end-stripe",
     "Roll end · stripe gained",
@@ -434,6 +630,85 @@ export const screenItems = [
     "Roll end",
     "Belt test completion; degrees remain display-only proof.",
     { ladderState: "belt", paused: true },
+  ),
+  make(
+    "progress-saved",
+    "Progress · saved nudge",
+    "Progress & mastery",
+    "Non-blocking prompt asks for study without opening the right pane automatically.",
+    { ...baseRoll, progressState: "saved" },
+  ),
+  make(
+    "progress-demoted",
+    "Progress · tested demotion",
+    "Progress & mastery",
+    "Wrong recall can lower the score, belt, and proof stripes; time alone never does.",
+    {
+      leftPanel: "progress",
+      progressMode: "overview",
+      progressState: "demoted",
+      paused: true,
+    },
+  ),
+  make(
+    "progress-technique",
+    "Progress · selected technique",
+    "Progress & mastery",
+    "Per-technique recognition and recall stages for the selected node and role.",
+    { leftPanel: "progress", progressMode: "technique", paused: true },
+  ),
+  make(
+    "path-new-player",
+    "Belt Path · new player",
+    "Progress & mastery",
+    "White curriculum is available before any belt threshold has been met.",
+    { leftPanel: "path", pathState: "new", paused: true },
+  ),
+  make(
+    "path-recall-proven",
+    "Belt Path · recall-proven",
+    "Progress & mastery",
+    "Black-belt score, four proof stripes, and mastered lesson crowns.",
+    { leftPanel: "path", pathState: "mastered", paused: true },
+  ),
+  make(
+    "checkpoint-locked",
+    "Checkpoint · locked",
+    "Progress & mastery",
+    "Sequential unit gate explains what must be completed without hiding the path.",
+    {
+      leftPanel: "path",
+      pathState: "new",
+      toast: {
+        kicker: "CHECKPOINT LOCKED",
+        text: "Finish this unit's lessons first",
+        tone: "neutral",
+      },
+      paused: true,
+    },
+  ),
+  make(
+    "checkpoint-failed",
+    "Checkpoint · wrong answer",
+    "Progress & mastery",
+    "Checkpoint failure remains part of the learning loop rather than erasing progress.",
+    { checkpointState: "wrong", paused: true },
+  ),
+  make(
+    "belt-test-ready",
+    "Belt test · ready",
+    "Progress & mastery",
+    "All required unit checkpoints are complete and the belt test can begin.",
+    {
+      leftPanel: "path",
+      pathState: "progress",
+      toast: {
+        kicker: "BELT TEST READY",
+        text: "Blue belt checkpoint unlocked",
+        tone: "success",
+      },
+      paused: true,
+    },
   ),
 
   make(
@@ -464,11 +739,17 @@ export const screenItems = [
     "Recall answer with Again, Hard, and Easy grading.",
     { panel: "drill", panelState: "revealed", paused: true },
   ),
-  make("study-mc", "Study · multiple choice", "Study", "Opt-in sidebar recognition mode.", {
-    panel: "drill",
-    panelState: "multiple-choice",
-    paused: true,
-  }),
+  make(
+    "study-mc",
+    "Study · multiple choice",
+    "Study",
+    "Opt-in sidebar recognition mode.",
+    {
+      panel: "drill",
+      panelState: "multiple-choice",
+      paused: true,
+    },
+  ),
   make(
     "study-history",
     "Study · roll history",
@@ -476,15 +757,27 @@ export const screenItems = [
     "Recent roll results and knowledge deltas.",
     { panel: "drill", panelState: "history", paused: true },
   ),
-  make("study-complete", "Study · session complete", "Study", "End of a focused card queue.", {
-    panel: "drill",
-    panelState: "complete",
-    paused: true,
-  }),
-  make("study-browser", "Study · flashcard browser", "Study", "Search across all authored cards.", {
-    flashBrowser: "results",
-    paused: true,
-  }),
+  make(
+    "study-complete",
+    "Study · session complete",
+    "Study",
+    "End of a focused card queue.",
+    {
+      panel: "drill",
+      panelState: "complete",
+      paused: true,
+    },
+  ),
+  make(
+    "study-browser",
+    "Study · flashcard browser",
+    "Study",
+    "Search across all authored cards.",
+    {
+      flashBrowser: "results",
+      paused: true,
+    },
+  ),
   make(
     "study-browser-empty",
     "Study · no search results",
@@ -716,4 +1009,4 @@ export const screenItems = [
     "Coach, question, hand, HUD, and tutorial collision audit.",
     { ...landing, coachStep: 2, tutorialDone: 3, combo: 3, paused: true },
   ),
-]
+];

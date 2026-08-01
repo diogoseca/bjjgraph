@@ -12,11 +12,13 @@ content/*.json  →  templates/*.md.jinja2  →  content/*.md  →  Quartz Build
 ### Pipeline Components
 
 1. **JSON Source Files** (`content/`)
+
    - `content/Positions/*.json` - Individual position state data (85+ files)
    - `content/Transitions/*.json` - Individual transition technique data (1000+ files)
    - `content/Submissions/*.json` - Individual submission data (150+ files)
 
 2. **JSON Schemas + Jinja2 Templates** (`templates/`)
+
    - `templates/Positions/TEMPLATE-*.json` - Position schema definitions
    - `templates/Transitions/TEMPLATE-DUAL.json` - Transition schema
    - `templates/Submissions/TEMPLATE-DUAL.json` - Submission variant schema
@@ -25,11 +27,13 @@ content/*.json  →  templates/*.md.jinja2  →  content/*.md  →  Quartz Build
    - `templates/Principles.json`, `Systems.json` - Aggregate data files
 
 3. **Generated Markdown** (`content/*.md`)
+
    - Content pages with YAML frontmatter
    - Path-prefixed wikilinks for internal navigation (e.g., `[[Positions/Mount]]`)
    - Schema.org JSON-LD for SEO
 
 4. **Quartz Build** (`npx quartz build`)
+
    - Static HTML generation
    - Graph visualization (D3.js)
    - Full-text search (Flexsearch)
@@ -64,10 +68,12 @@ Positions/
 ### Graph Rules (two representations — don't conflate)
 
 **Data model — `graph.json` (role-based state machine):**
-- Each position emits **role-nodes** `Mount/Top` and `Mount/Bottom` that **carry the edges** — distinct states (you are in one *or* the other).
+
+- Each position emits **role-nodes** `Mount/Top` and `Mount/Bottom` that **carry the edges** — distinct states (you are in one _or_ the other).
 - The bare **hub** entry (`Mount`) only aggregates flashcards and has **no edges**. Neutral positions (Standing/Clinch) are a single node; `game-over` is the terminal sink.
 
 **Rendered graph — `globalGraphLayout.json` (visual projection):**
+
 - **Collapses positions to hub nodes** (Top/Bottom merged) to prevent on-screen redundancy — this is the only sense in which "hub pages are the graph nodes." The state machine itself runs on role-nodes.
 
 See CLAUDE.md → "Graph Topology — canonical model & invariants" for the full edge/direction/sink contract.
@@ -118,9 +124,9 @@ Source JSON in `content/Transitions/*.json`:
   "name": "Armbar from Mount",
   "from_position": "Mount/Top",
   "outcomes": [
-    {"to": "Armbar Control/Top", "probability": 55, "result": "success"},
-    {"to": "Mount/Top", "probability": 30, "result": "failure"},
-    {"to": "Closed Guard/Bottom", "probability": 15, "result": "counter"}
+    { "to": "Armbar Control/Top", "probability": 55, "result": "success" },
+    { "to": "Mount/Top", "probability": 30, "result": "failure" },
+    { "to": "Closed Guard/Bottom", "probability": 15, "result": "counter" }
   ]
 }
 ```
@@ -130,6 +136,7 @@ Attacker/Defender content (execution steps, counters, defensive options) is **ge
 ### Submission Differences
 
 Submissions use the same attacker/defender pattern with additions:
+
 - `outcomes[]` is **required on executable submission variants** (the graph nodes — e.g. `Armbar from Mount`), which must have probabilistic outcomes. **Family hubs** (`is_family: true`, e.g. `Armbar`) are aggregator pages, **not** graph nodes, and have **no** `outcomes` — their variants carry them. `validate_graph_integrity.py` therefore exempts `is_family` files from the outcomes check.
 - `safety_considerations` stays at **hub level** (shared between roles)
 - Defender has `escape_paths[]` (submission-specific escape routes)
@@ -140,12 +147,12 @@ Submissions use the same attacker/defender pattern with additions:
 
 ### Core Files
 
-| File | Purpose |
-|------|---------|
-| `source/quartz.config.ts` | Site configuration, theme, analytics |
-| `source/quartz.layout.ts` | Component placement |
-| `source/quartz/components/` | Preact UI components |
-| `source/quartz/plugins/` | Content transformers and emitters |
+| File                        | Purpose                              |
+| --------------------------- | ------------------------------------ |
+| `source/quartz.config.ts`   | Site configuration, theme, analytics |
+| `source/quartz.layout.ts`   | Component placement                  |
+| `source/quartz/components/` | Preact UI components                 |
+| `source/quartz/plugins/`    | Content transformers and emitters    |
 
 ### Forward Components development library
 
@@ -153,12 +160,22 @@ The Neural interface has a standalone, no-auth development catalog that does not
 production game runtime:
 
 - `/dev/components/` inventories reusable primitives, HUD, graph, decision, study, explorer,
-  dossier, overlay, and feedback components with state variants.
+  dossier, overlay, feedback, and progression components with state variants.
 - `/dev/screens/` composes those building blocks into deterministic gameplay states from boot
-  through roll end, plus study, explorer, settings, onboarding, and responsive stress cases.
+  through roll end, plus independent left/right/both-pane layouts, restart hygiene, terminal
+  states, belt/mastery progress, study, explorer, settings, onboarding, and responsive stress
+  cases.
 - Both routes share source-controlled fixtures, renderers, and design tokens in `forward/`.
 - Viewport controls cover fluid, 320px, phone, 400x875, tablet, desktop, and short-landscape
-  containers. Selection, viewport, and variant are permalinked in the URL hash.
+  containers. Catalog item, viewport, variant, graph node, and player role are permalinked in
+  the URL hash.
+- Node controls are generated from the canonical role nodes in `graph.json`: positions expose
+  Top/Bottom, while transitions and executable submissions expose Attacker/Defender. The build
+  groups role nodes by hub and writes the compact preview inventory to
+  `source/public/dev/shared/entities.json`; curated fixtures are an explicit offline fallback.
+- Context-bearing landing cards, questions, option hands, film strips, study cards, technique
+  sheets, dossiers, checkpoints, and complete screens all consume the same selected entity and
+  role context.
 - The detail model is represented explicitly as collapsed landing detail, expanded dossier
   detail, and SEO/AI text projections rather than separate competing content sources.
 
@@ -172,13 +189,13 @@ production game runtime:
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "BJJ Graph",
-    enableSPA: true,              // Single-page app navigation
-    enablePopovers: true,         // Hover previews for links
+    enableSPA: true, // Single-page app navigation
+    enablePopovers: true, // Hover previews for links
     analytics: {
-      provider: "posthog",        // PostHog analytics
+      provider: "posthog", // PostHog analytics
     },
   },
-}
+};
 ```
 
 ### Layout Zones
@@ -203,7 +220,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TableOfContents(),
     Component.Backlinks(),
   ],
-}
+};
 ```
 
 ---
@@ -269,6 +286,7 @@ Positions define available transitions per role with attempt probabilities:
 ```
 
 **Validation rules:**
+
 - `attempt_probability` values MUST sum to 100% per role
 - Each `name` must reference an existing Transition by name
 
@@ -297,6 +315,7 @@ Transitions are technique nodes with probabilistic outcomes:
 ```
 
 **Validation rules:**
+
 - `from_position` format: `"Position/Role"` (e.g., `"Mount/Top"`, `"Closed Guard/Bottom"`)
 - `outcomes` probability values MUST sum to 100%
 - `result` must be one of: `success`, `failure`, `counter`
@@ -304,11 +323,11 @@ Transitions are technique nodes with probabilistic outcomes:
 
 ### Outcome Result Types
 
-| Result | Description | Example |
-|--------|-------------|---------|
-| `success` | Technique achieves intended goal | Armbar from Mount -> Armbar Control |
-| `failure` | Technique fails, position maintained or regressed | Armbar from Mount -> Mount (stay) |
-| `counter` | Opponent successfully counters | Armbar from Mount -> Closed Guard (escaped) |
+| Result    | Description                                       | Example                                     |
+| --------- | ------------------------------------------------- | ------------------------------------------- |
+| `success` | Technique achieves intended goal                  | Armbar from Mount -> Armbar Control         |
+| `failure` | Technique fails, position maintained or regressed | Armbar from Mount -> Mount (stay)           |
+| `counter` | Opponent successfully counters                    | Armbar from Mount -> Closed Guard (escaped) |
 
 ### Terminal State
 
@@ -413,11 +432,13 @@ Inferior Position → [Control Tool] → Better Position (success) / Same Positi
 ### Submissions vs Transitions
 
 **Submissions** (in `content/Submissions/`) are state machine nodes with educational content. They contain:
+
 - Safety protocols (injury risks, tap signals, release protocol)
 - Execution steps and training progressions
 - Position-specific variations
 
 **Transitions** (in `content/Transitions/`) are state machine edges. They carry:
+
 - `from_position` (where the technique starts)
 - `outcomes[]` (probabilistic results)
 - `success_rates` (beginner/intermediate/advanced)
@@ -435,12 +456,12 @@ The same technique can exist as both a Transition and a Submission. The Transiti
 
 ## Build Performance
 
-| Metric | Value |
-|--------|-------|
-| Cold build | ~15 seconds |
-| Incremental rebuild | ~500ms |
-| Total pages | 267+ |
-| SPA navigation | Instant |
+| Metric              | Value       |
+| ------------------- | ----------- |
+| Cold build          | ~15 seconds |
+| Incremental rebuild | ~500ms      |
+| Total pages         | 267+        |
+| SPA navigation      | Instant     |
 
 ---
 

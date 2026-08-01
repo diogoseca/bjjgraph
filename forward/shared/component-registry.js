@@ -18,28 +18,35 @@ import {
   verdict,
   vignette,
   winLose,
-} from "./components-core.js"
+} from "./components-core.js";
 import {
   authModal,
   beltPath,
   coach,
+  crownBadge,
   dossier,
   drillPanel,
   explorerPanel,
   flashcard,
   optionSheet,
   panicCard,
+  beltMeter,
+  masteryOverview,
+  progressNudge,
+  progressPanel,
+  proofStripes,
+  restartCard,
   settingsModal,
   systemState,
   tutorial,
-} from "./components-panels.js"
-import { longQuestion, techniques } from "./fixtures.js"
-import { icon } from "./icons.js"
+} from "./components-panels.js";
+import { longQuestion } from "./fixtures.js";
+import { icon } from "./icons.js";
 
 const stage = (content, graph = false) =>
-  `<div class="component-demo component-demo--screen">${graph ? graphField() : ""}${content}</div>`
+  `<div class="component-demo component-demo--screen">${graph ? graphField() : ""}${content}</div>`;
 const stack = (content) =>
-  `<div class="component-demo"><div class="component-stack">${content}</div></div>`
+  `<div class="component-demo"><div class="component-stack">${content}</div></div>`;
 
 const item = (id, title, group, description, variants, render, notes = {}) => ({
   id,
@@ -50,10 +57,12 @@ const item = (id, title, group, description, variants, render, notes = {}) => ({
   render,
   notes: {
     source: notes.source || "Neural runtime",
-    behavior: notes.behavior || "Static catalog representation of the current production surface.",
+    behavior:
+      notes.behavior ||
+      "Static catalog representation of the current production surface.",
     usage: notes.usage || "Composed into gameplay and learning screens.",
   },
-})
+});
 
 export const componentItems = [
   item(
@@ -122,7 +131,10 @@ export const componentItems = [
     "Primitives",
     "Shared linear progress for cards, lessons, and sessions.",
     ["25%", "50%", "100%"],
-    (v) => stack(`<div class="progress"><span style="--progress:${v}"></span></div>`),
+    (v) =>
+      stack(
+        `<div class="progress"><span style="--progress:${v}"></span></div>`,
+      ),
   ),
   item(
     "odds-meter",
@@ -138,7 +150,11 @@ export const componentItems = [
     "HUD",
     "Persistent round balance with a high-contrast center marker.",
     ["Losing", "Even", "Winning"],
-    (v) => stage(winLose({ lose: v === "Losing" ? 72 : v === "Winning" ? 28 : 50 }), true),
+    (v) =>
+      stage(
+        winLose({ lose: v === "Losing" ? 72 : v === "Winning" ? 28 : 50 }),
+        true,
+      ),
   ),
   item(
     "transport",
@@ -191,7 +207,10 @@ export const componentItems = [
     "Graph",
     "Spatial stage for the role-typed state machine.",
     ["Dense", "Sparse", "No active node"],
-    (v) => stage(graphField({ active: v !== "No active node", sparse: v === "Sparse" })),
+    (v) =>
+      stage(
+        graphField({ active: v !== "No active node", sparse: v === "Sparse" }),
+      ),
   ),
   item(
     "position-node",
@@ -240,7 +259,7 @@ export const componentItems = [
     "Decisions",
     "One technique in the player's live hand.",
     ["Default", "Selected", "Expired"],
-    (v) => stack(optionCard(techniques[0], v.toLowerCase())),
+    (v, context) => stack(optionCard(context.techniques[0], v.toLowerCase())),
   ),
   item(
     "option-row",
@@ -248,12 +267,15 @@ export const componentItems = [
     "Decisions",
     "Responsive horizontal hand of available techniques.",
     ["Three cards", "Five cards", "Selected"],
-    (v) =>
+    (v, context) =>
       stage(
-        optionTray({
-          count: v === "Five cards" ? 5 : 3,
-          selected: v === "Selected" ? 1 : -1,
-        }),
+        optionTray(
+          {
+            count: v === "Five cards" ? 5 : 3,
+            selected: v === "Selected" ? 1 : -1,
+          },
+          context,
+        ),
         true,
       ),
   ),
@@ -263,9 +285,9 @@ export const componentItems = [
     "Decisions",
     "Position name, origin, role, and mastery status in reading order.",
     ["New", "Met", "Recall-proven"],
-    (v) =>
+    (v, context) =>
       stack(
-        `<div class="landing-identity"><b>Deep Half Guard</b><span>· from Half Guard</span><span>· Bottom</span><span class="mastery-dot">${v === "New" ? "○ new" : v === "Recall-proven" ? "● recall-proven" : "◐ met"}</span></div>`,
+        `<div class="landing-identity"><b>${context.name}</b><span>· from ${context.origin}</span><span>· ${context.roleLabel}</span><span class="mastery-dot">${v === "New" ? "○ new" : v === "Recall-proven" ? "● recall-proven" : "◐ met"}</span></div>`,
       ),
   ),
   item(
@@ -274,7 +296,8 @@ export const componentItems = [
     "Decisions",
     "Short, horizontally clipped technique film references.",
     ["One clip", "Two clips"],
-    (v) => stack(filmStrip({ count: v === "One clip" ? 1 : 2 })),
+    (v, context) =>
+      stack(filmStrip({ count: v === "One clip" ? 1 : 2 }, context)),
   ),
   item(
     "multiple-choice",
@@ -282,11 +305,12 @@ export const componentItems = [
     "Decisions",
     "In-play A–D recognition question with explicit outcome states.",
     ["Unanswered", "Correct", "Wrong", "Long copy"],
-    (v) =>
+    (v, context) =>
       stack(
         questionBlock({
-          data: v === "Long copy" ? longQuestion : undefined,
-          state: v === "Correct" ? "correct" : v === "Wrong" ? "wrong" : "default",
+          data: v === "Long copy" ? longQuestion : context.question,
+          state:
+            v === "Correct" ? "correct" : v === "Wrong" ? "wrong" : "default",
         }),
       ),
   ),
@@ -296,13 +320,16 @@ export const componentItems = [
     "Decisions",
     "Identity, definition, film, one question, and More in a fixed priority stack.",
     ["Default", "Compact", "No question", "Proven"],
-    (v) =>
+    (v, context) =>
       stage(
-        landingCard({
-          density: v === "Compact" ? "compact" : "default",
-          showQuestion: v !== "No question" && v !== "Proven",
-          status: v === "Proven" ? "proven" : "met",
-        }),
+        landingCard(
+          {
+            density: v === "Compact" ? "compact" : "default",
+            showQuestion: v !== "No question" && v !== "Proven",
+            status: v === "Proven" ? "proven" : "met",
+          },
+          context,
+        ),
         true,
       ),
     {
@@ -318,12 +345,15 @@ export const componentItems = [
     "Decisions",
     "Priority-aware 400×875 variant for the reported crowded mobile state.",
     ["Fit", "Long copy"],
-    (v) =>
+    (v, context) =>
       stage(
-        landingCard({
-          question: v === "Long copy" ? longQuestion : undefined,
-          priority: "fit",
-        }),
+        landingCard(
+          {
+            question: v === "Long copy" ? longQuestion : undefined,
+            priority: "fit",
+          },
+          context,
+        ),
         true,
       ),
     {
@@ -337,7 +367,8 @@ export const componentItems = [
     "Decisions",
     "Bottom sheet for film, mechanics, chains, and commit.",
     ["Collapsed", "Expanded", "Confirm"],
-    (v) => stage(optionSheet({ state: v.toLowerCase() }), true),
+    (v, context) =>
+      stage(optionSheet({ state: v.toLowerCase() }, context), true),
   ),
   item(
     "drill-tab",
@@ -353,7 +384,7 @@ export const componentItems = [
     "Learning",
     "Question-first card that reveals an authored answer.",
     ["Question", "Revealed"],
-    (v) => stack(flashcard({ state: v.toLowerCase() })),
+    (v, context) => stack(flashcard({ state: v.toLowerCase() }, context)),
   ),
   item(
     "flashcard-mc",
@@ -361,7 +392,10 @@ export const componentItems = [
     "Learning",
     "Opt-in recognition mode for the study pane.",
     ["Unanswered", "Correct"],
-    (v) => stack(flashcard({ mode: "multiple-choice", state: v.toLowerCase() })),
+    (v, context) =>
+      stack(
+        flashcard({ mode: "multiple-choice", state: v.toLowerCase() }, context),
+      ),
   ),
   item(
     "drill-pane",
@@ -369,10 +403,12 @@ export const componentItems = [
     "Learning",
     "Manual study home, active card, history, and completion states.",
     ["Home", "Study", "Revealed", "Multiple-choice", "History", "Complete"],
-    (v) => stage(drillPanel({ state: v.toLowerCase() }), true),
+    (v, context) =>
+      stage(drillPanel({ state: v.toLowerCase() }, context), true),
     {
       source: "renderDrillHome / renderRollHistory",
-      behavior: "Opening pauses a live roll; closing resumes only if this pane paused it.",
+      behavior:
+        "Opening pauses a live roll; closing resumes only if this pane paused it.",
     },
   ),
   item(
@@ -391,8 +427,82 @@ export const componentItems = [
     "Belt path panel",
     "Learning",
     "Curriculum sequence, game knowledge score, lessons, and crowns.",
-    ["Path", "NO-GI"],
-    (v) => stage(beltPath({ ruleset: v === "NO-GI" ? "nogi" : "gi" }), true),
+    ["New", "In progress", "Mastered", "NO-GI"],
+    (v) =>
+      stage(
+        beltPath({
+          ruleset: v === "NO-GI" ? "nogi" : "gi",
+          state:
+            v === "New" ? "new" : v === "Mastered" ? "mastered" : "progress",
+        }),
+        true,
+      ),
+  ),
+  item(
+    "belt-meter",
+    "Game knowledge belt meter",
+    "Progress",
+    "One weighted score with belt thresholds and an exact you-are-here marker.",
+    ["White", "Blue", "Purple", "Black"],
+    (v) =>
+      stack(
+        beltMeter({
+          score:
+            v === "White" ? 28 : v === "Blue" ? 52 : v === "Purple" ? 66 : 88,
+          belt: v.toLowerCase(),
+        }),
+      ),
+  ),
+  item(
+    "proof-stripes",
+    "Belt proof stripes",
+    "Progress",
+    "Four display-only proof marks within the current belt band.",
+    ["0", "1", "2", "4"],
+    (v) => stack(proofStripes({ filled: Number(v) })),
+  ),
+  item(
+    "lesson-crown",
+    "Lesson mastery crown",
+    "Progress",
+    "Zero-to-four crown driven by the same deck mastery used by the belt score.",
+    ["0", "1", "2", "3", "4", "Locked"],
+    (v) =>
+      stack(
+        crownBadge({
+          level: v === "Locked" ? 0 : Number(v),
+          locked: v === "Locked",
+        }),
+      ),
+  ),
+  item(
+    "mastery-overview",
+    "Category / technique mastery",
+    "Progress",
+    "Progress breakdown without creating a second score system.",
+    ["Categories", "Selected technique"],
+    (v, context) =>
+      stack(
+        masteryOverview(
+          { mode: v === "Selected technique" ? "technique" : "category" },
+          context,
+        ),
+      ),
+  ),
+  item(
+    "progress-pane",
+    "Progress left pane",
+    "Progress",
+    "Belt, stripe, category, and selected-technique progress in one left rail.",
+    ["Overview", "Technique"],
+    (v, context) =>
+      stage(
+        progressPanel(
+          { mode: v === "Technique" ? "technique" : "overview" },
+          context,
+        ),
+        true,
+      ),
   ),
   item(
     "explorer-tree",
@@ -400,7 +510,11 @@ export const componentItems = [
     "Explorer",
     "Reference browser for graph categories.",
     ["Tree", "Search results"],
-    (v) => stage(explorerPanel({ query: v === "Search results" ? "half guard" : "" }), true),
+    (v) =>
+      stage(
+        explorerPanel({ query: v === "Search results" ? "half guard" : "" }),
+        true,
+      ),
   ),
   item(
     "dossier-collapsed",
@@ -408,7 +522,7 @@ export const componentItems = [
     "Explorer",
     "Compact node truth with summary, film, perspective, and roll action.",
     ["Desktop", "Mobile"],
-    (v) => stage(dossier({ mobile: v === "Mobile" }), true),
+    (v, context) => stage(dossier({ mobile: v === "Mobile" }, context), true),
     {
       source: "NG_CONTENT + graph node data",
       usage: "Desktop semantic zoom and mobile dossier sheet.",
@@ -420,7 +534,11 @@ export const componentItems = [
     "Explorer",
     "Full authored context, principles, defense, and outcomes.",
     ["Desktop", "Mobile"],
-    (v) => stage(dossier({ variant: "expanded", mobile: v === "Mobile" }), true),
+    (v, context) =>
+      stage(
+        dossier({ variant: "expanded", mobile: v === "Mobile" }, context),
+        true,
+      ),
   ),
   item(
     "dossier-seo",
@@ -428,7 +546,7 @@ export const componentItems = [
     "Explorer",
     "Answer-first text representation for crawlers, AI, and no-JS readers.",
     ["Definition", "Expanded"],
-    (v) => stage(dossier({ variant: "seo" }), true),
+    (v, context) => stage(dossier({ variant: "seo" }, context), true),
     {
       source: "JSON summary/context → generated markdown and JSON-LD",
       behavior:
@@ -465,7 +583,11 @@ export const componentItems = [
     "Overlays",
     "One next action from the 20-step learning checklist.",
     ["4 / 20", "19 / 20", "Complete"],
-    (v) => stage(tutorial({ done: v === "Complete" ? 20 : Number(v.split(" ")[0]) }), true),
+    (v) =>
+      stage(
+        tutorial({ done: v === "Complete" ? 20 : Number(v.split(" ")[0]) }),
+        true,
+      ),
   ),
   item(
     "defense-panic",
@@ -474,6 +596,23 @@ export const componentItems = [
     "Urgent recall interruption during opponent control.",
     ["Prompt", "Revealed"],
     (v) => stage(panicCard({ revealed: v === "Revealed" }), true),
+  ),
+  item(
+    "restart-card",
+    "Restart roll state",
+    "Overlays",
+    "Reset confirmation and the hygiene transition that clears live exchange state.",
+    ["Confirm", "Restarting"],
+    (v, context) =>
+      stage(restartCard({ state: v.toLowerCase() }, context), true),
+  ),
+  item(
+    "progress-nudge",
+    "Progress nudge",
+    "Feedback",
+    "Non-blocking saved-progress or tested-forgetting feedback.",
+    ["Saved", "Demoted"],
+    (v) => stage(progressNudge({ type: v.toLowerCase() }), true),
   ),
   item(
     "defense-vignette",
@@ -507,7 +646,8 @@ export const componentItems = [
     (v) =>
       stage(
         comboPop({
-          combo: v === "Double" ? 2 : v === "Triple" ? 3 : v === "Ultra" ? 5 : 7,
+          combo:
+            v === "Double" ? 2 : v === "Triple" ? 3 : v === "Ultra" ? 5 : 7,
         }),
         true,
       ),
@@ -536,4 +676,4 @@ export const componentItems = [
     ["Empty", "Offline", "Error"],
     (v) => stack(systemState({ type: v.toLowerCase() })),
   ),
-]
+];
