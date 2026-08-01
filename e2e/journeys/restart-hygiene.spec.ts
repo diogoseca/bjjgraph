@@ -11,7 +11,7 @@ import { journey } from "../dsl"
  * and a cancelled tension sweep left its needle painted forever.
  */
 
-test("restart mid-defense: no ghost tap, no ladder drop, defense state fully disarmed", async ({ page }) => {
+test("restart mid-defense: no ghost tap, no ladder drop, defense state fully disarmed @curated", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")

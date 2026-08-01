@@ -165,7 +165,15 @@ production game runtime:
   through roll end, plus independent left/right/both-pane layouts, restart hygiene, terminal
   states, belt/mastery progress, study, explorer, settings, onboarding, and responsive stress
   cases.
-- Both routes share source-controlled fixtures, renderers, and design tokens in `forward/`.
+- `/dev/use-cases/` composes screens into timestamped animation, notification, and interaction
+  timelines. Each important gameplay motion family and notification has an inspectable static
+  timepoint, while focused playback advances through the same frames at 0.5x, 1x, or 2x.
+- `/dev/user-journeys/` composes use cases into configurable end-to-end chapters. The shipped
+  journeys cover a first roll, study-to-belt proof, defeat-and-recovery, and an advanced momentum
+  run.
+- `/dev/` is the hierarchy hub: Components -> Screens -> Use Cases -> User Journeys. The dashed
+  use-case and user-journey routes are canonical; undashed spellings redirect for compatibility.
+- All four libraries share source-controlled fixtures, renderers, and design tokens in `forward/`.
 - Viewport controls cover fluid, 320px, phone, 400x875, tablet, desktop, and short-landscape
   containers. Catalog item, viewport, variant, graph node, and player role are permalinked in
   the URL hash.
@@ -176,11 +184,22 @@ production game runtime:
 - Context-bearing landing cards, questions, option hands, film strips, study cards, technique
   sheets, dossiers, checkpoints, and complete screens all consume the same selected entity and
   role context.
+- Use-case and user-journey timelines preserve that entity and role context, add device and
+  playback controls, permalink the selected timepoint, and show every timeline screen together
+  below the focused preview.
+- `forward/shared/sequence-registry.js` is the declarative timeline source. Use cases define
+  millisecond timepoints with a screen state, motion name, and motion progress; journeys reference
+  those use cases as named chapters. `sequence-catalog.js` owns filtering, keyboard and playback
+  controls, mobile selection, hash restoration, and rendering.
 - The detail model is represented explicitly as collapsed landing detail, expanded dossier
   detail, and SEO/AI text projections rather than separate competing content sources.
 
 `npm run build:forward` copies the artifact into `source/public/dev/`. The normal
 `npm run build` command runs this after Quartz so the routes survive the output-directory reset.
+The dev and production deployment workflows also invoke `build:forward` explicitly because they
+call Quartz directly. Deployments run the `@curated` Playwright gate; the complete core suite is
+built once and sharded across four runners for pull requests targeting `main`, weekly confidence
+runs, and manual dispatches.
 
 ### Key Configuration
 

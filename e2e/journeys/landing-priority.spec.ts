@@ -18,7 +18,7 @@ import { journey } from "../dsl"
  *           [data-land-more] · setting: landQuestions
  */
 
-test("the landing card shows identity, then film, then the question — in that order", async ({
+test("the landing card shows identity, then film, then the question — in that order @curated", async ({
   page,
 }) => {
   const j = journey(page)

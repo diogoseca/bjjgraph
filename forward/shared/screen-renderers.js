@@ -130,6 +130,8 @@ export function gameScreen(options = {}, context = defaultContext) {
     system = null,
     restartState = null,
     progressState = null,
+    motion = "still",
+    motionProgress = 1,
   } = options;
   const activeLeftPanel =
     leftPanel ||
@@ -138,7 +140,7 @@ export function gameScreen(options = {}, context = defaultContext) {
       : null);
   const activeRightPanel = rightPanel || (panel === "drill" ? "drill" : null);
 
-  return `<div class="game-stage" data-screen-state="${result || (staged ? "staged" : "rolling")}">
+  return `<div class="game-stage" data-screen-state="${result || (staged ? "staged" : "rolling")}" data-motion="${motion}" style="--motion-progress:${Math.max(0, Math.min(1, motionProgress))}">
     ${graphField({ active, sparse })}
     ${brand()}
     ${accountBubble({ signedIn, menu: accountOpen })}
@@ -170,6 +172,7 @@ export function gameScreen(options = {}, context = defaultContext) {
     ${system ? `<div style="position:absolute;inset:0;z-index:18;display:grid;place-items:center">${systemState({ type: system })}</div>` : ""}
     ${restartState ? restartCard({ state: restartState }, context) : ""}
     ${progressState ? progressNudge({ type: progressState }) : ""}
+    <div class="motion-overlay" aria-hidden="true"></div>
     ${loading ? loader() : ""}
   </div>`;
 }

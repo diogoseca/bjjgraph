@@ -1,6 +1,6 @@
 import { expect, test } from "@playwright/test";
 
-test.describe("Forward Components development library", () => {
+test.describe("Forward Components development library @curated", () => {
   test("components expose reusable variants and device frames", async ({
     page,
   }) => {
@@ -186,6 +186,238 @@ test.describe("Forward Components development library", () => {
     await page.setViewportSize({ width: 600, height: 900 });
     await expect(page.getByLabel("Preview node")).toBeVisible();
     await expect(page.getByLabel("Preview role")).toBeVisible();
+  });
+
+  test("the dev hub links all four Forward libraries", async ({ page }) => {
+    await page.goto("/dev/");
+
+    await expect(
+      page.getByRole("heading", { name: /From one control/ }),
+    ).toBeVisible();
+    await expect(page.locator(".hub-card")).toHaveCount(4);
+    await expect(
+      page.getByRole("link", { name: /Components/ }),
+    ).toHaveAttribute("href", "/dev/components/");
+    await expect(page.getByRole("link", { name: /Screens/ })).toHaveAttribute(
+      "href",
+      "/dev/screens/",
+    );
+    await expect(page.getByRole("link", { name: /Use Cases/ })).toHaveAttribute(
+      "href",
+      "/dev/use-cases/",
+    );
+    await expect(
+      page.getByRole("link", { name: /User Journeys/ }),
+    ).toHaveAttribute("href", "/dev/user-journeys/");
+  });
+
+  test("use cases expose important motion as a playable screen timeline", async ({
+    page,
+  }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (error) => errors.push(error.message));
+    await page.goto("/dev/use-cases/");
+
+    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(18);
+    await page
+      .getByRole("button", { name: /Gameplay animation timepoints/ })
+      .click();
+    await expect(page.locator(".sequence-frame")).toHaveCount(15);
+    expect(
+      await page
+        .locator(".sequence-frame .game-stage")
+        .evaluateAll(
+          (stages) =>
+            new Set(stages.map((stage) => stage.getAttribute("data-motion")))
+              .size,
+        ),
+    ).toBeGreaterThan(10);
+
+    await page
+      .getByLabel("Preview node")
+      .selectOption("transition:waiter-sweep");
+    await page.getByLabel("Preview role").selectOption("defender");
+    await page.getByLabel("Preview viewport").selectOption("compact");
+    await page.getByLabel("Playback speed").selectOption("2");
+    await expect(page.locator(".sequence-device")).toHaveAttribute(
+      "data-device",
+      "compact",
+    );
+    await expect(page).toHaveURL(/speed=2/);
+
+    await page
+      .getByRole("button", { name: /Question-first landing reveal/ })
+      .click();
+    await page.getByRole("button", { name: "Show Question appears" }).click();
+    await expect(
+      page.locator(".sequence-focus .landing-identity"),
+    ).toContainText("Waiter Sweep");
+    await expect(
+      page.locator(".sequence-focus .landing-identity"),
+    ).toContainText("Defender");
+    await expect(page.locator("button button")).toHaveCount(0);
+    await expect(page.locator(".sequence-frame > .detail-sheet")).toHaveCount(
+      0,
+    );
+    await expect(
+      page.locator(".sequence-frame-visual:not([inert])"),
+    ).toHaveCount(0);
+    expect(
+      await page.evaluate(
+        () => document.documentElement.scrollWidth <= window.innerWidth,
+      ),
+    ).toBe(true);
+
+    const before = await page.locator(".sequence-position").textContent();
+    await page.getByRole("button", { name: /Play timeline/ }).click();
+    await page.waitForTimeout(450);
+    const after = await page.locator(".sequence-position").textContent();
+    expect(after).not.toBe(before);
+
+    await page.evaluate(() => {
+      if (document.activeElement instanceof HTMLElement) {
+        document.activeElement.blur();
+      }
+    });
+    await page.keyboard.press("ArrowLeft");
+    await expect(page.locator(".sequence-position")).toContainText("5 / 6");
+    await page.reload();
+    await expect(page.getByLabel("Preview node")).toHaveValue(
+      "transition:waiter-sweep",
+    );
+    await expect(page.getByLabel("Preview role")).toHaveValue("defender");
+    await expect(page.getByLabel("Preview viewport")).toHaveValue("compact");
+    await expect(page.getByLabel("Playback speed")).toHaveValue("2");
+    await expect(page.locator(".sequence-position")).toContainText("5 / 6");
+    expect(errors).toEqual([]);
+  });
+
+  test("user journeys compose chapters and preserve configuration", async ({
+    page,
+  }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (error) => errors.push(error.message));
+    await page.goto("/dev/user-journeys/");
+
+    await expect(page.locator(".sequence-nav .catalog-item")).toHaveCount(4);
+    await expect(page.locator(".sequence-chapters button")).toHaveCount(5);
+    expect(await page.locator(".sequence-frame").count()).toBeGreaterThan(25);
+
+    await page
+      .getByRole("button", { name: /Bad roll, defeat, and recovery/ })
+      .click();
+    await expect(page.locator(".sequence-chapters button")).toHaveCount(4);
+    await page.locator(".sequence-chapters button").nth(2).click();
+    await expect(page.locator(".sequence-caption")).toContainText(
+      "Reach game over",
+    );
+
+    await page
+      .getByLabel("Preview node")
+      .selectOption("submission:rear-naked-choke-from-back-control");
+    await page.getByLabel("Preview role").selectOption("attacker");
+    await page.getByLabel("Preview viewport").selectOption("phone");
+    await expect(page).toHaveURL(
+      /entity=submission%3Arear-naked-choke-from-back-control/,
+    );
+    await expect(page).toHaveURL(/role=attacker/);
+
+    await page.setViewportSize({ width: 600, height: 900 });
+    await expect(page.getByLabel("Preview user journey")).toBeVisible();
+    await page.getByLabel("Preview user journey").selectOption("study-to-belt");
+    await expect(
+      page.getByRole("heading", { name: "Study to belt proof" }),
+    ).toBeVisible();
+    expect(errors).toEqual([]);
+  });
+
+  test("every use case and user journey renders all timeline frames", async ({
+    page,
+  }) => {
+    const errors: string[] = [];
+    page.on("pageerror", (error) => errors.push(error.message));
+
+    for (const route of ["use-cases", "user-journeys"]) {
+      await page.goto(`/dev/${route}/`);
+      const ids = await page
+        .locator(".sequence-nav .catalog-item")
+        .evaluateAll((buttons) =>
+          buttons
+            .map((button) => button.getAttribute("data-id"))
+            .filter(Boolean),
+        );
+      for (const id of ids) {
+        await page
+          .locator(`.sequence-nav .catalog-item[data-id="${id}"]`)
+          .click();
+        expect(
+          await page.locator(".sequence-frame .game-stage").count(),
+          `${route}/${id} rendered no timeline screens`,
+        ).toBeGreaterThan(0);
+        await expect(page.locator(".sequence-focus .game-stage")).toBeVisible();
+      }
+    }
+
+    expect(errors).toEqual([]);
+  });
+
+  test("undashed timeline aliases redirect to canonical routes", async ({
+    page,
+  }) => {
+    await page.goto(
+      "/dev/usecases/#item=animation-reel&viewport=compact&step=3&speed=0.5",
+    );
+    await expect(page).toHaveURL(/\/dev\/use-cases\//);
+    await expect(page).toHaveURL(/item=animation-reel/);
+    await expect(page).toHaveURL(/step=3/);
+    await expect(page).toHaveURL(/speed=0.5/);
+    await page.goto(
+      "/dev/userjourneys/#item=expert-momentum&viewport=phone&step=2",
+    );
+    await expect(page).toHaveURL(/\/dev\/user-journeys\//);
+    await expect(page).toHaveURL(/item=expert-momentum/);
+    await expect(page).toHaveURL(/step=2/);
+  });
+
+  test("timeline shortcuts respect forms, reduced motion, and Escape", async ({
+    page,
+  }) => {
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await page.goto(
+      "/dev/use-cases/#item=defense-panic&viewport=desktop&entity=position%3Adeep-half-guard&role=top&step=3&speed=0.5",
+    );
+    await expect(page.getByLabel("Playback speed")).toHaveValue("0.5");
+
+    const search = page.getByLabel("Filter use cases");
+    await search.fill("panic");
+    await search.press("Space");
+    await expect(search).toHaveValue("panic ");
+    await expect(
+      page.getByRole("button", { name: /Play timeline/ }),
+    ).toBeVisible();
+
+    await search.blur();
+    await page.getByRole("button", { name: /Play timeline/ }).click();
+    await expect(
+      page.getByRole("button", { name: /Pause timeline/ }),
+    ).toBeVisible();
+
+    const motion = await page
+      .locator(".sequence-focus .vignette")
+      .evaluate((element) => ({
+        duration: getComputedStyle(element).animationDuration,
+        name: getComputedStyle(element).animationName,
+        reduced: matchMedia("(prefers-reduced-motion: reduce)").matches,
+      }));
+    expect(motion.reduced).toBe(true);
+    expect(motion.name).toBe("sequence-heartbeat");
+    expect(parseFloat(motion.duration)).toBeLessThanOrEqual(0.001);
+
+    await page.keyboard.press("Escape");
+    await expect(
+      page.getByRole("button", { name: /Play timeline/ }),
+    ).toBeVisible();
+    await expect(page.locator(".sequence-position")).toContainText("4 / 7");
   });
 
   test("every registered preview renders without a runtime error", async ({

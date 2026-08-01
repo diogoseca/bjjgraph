@@ -4,5 +4,5 @@ import { componentItems } from "../shared/component-registry.js";
 mountCatalog({
   kind: "components",
   items: componentItems,
-  version: "1.72.0",
+  version: "1.73.0",
 });

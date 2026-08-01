@@ -170,7 +170,7 @@ test("v1 progress blob migrates to v2 with rec grandfathered", async ({ page }) 
   expect(state.blobV).toBe(2)
 })
 
-test("fog-of-war rail: non-curriculum nodes dim while path view is open", async ({ page }) => {
+test("fog-of-war rail: non-curriculum nodes dim while path view is open @curated", async ({ page }) => {
   const j = journey(page)
   await j.boot("/")
   await j.land("Mount Top")
